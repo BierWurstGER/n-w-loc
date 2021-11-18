@@ -156,6 +156,7 @@
 	<string key="ui_housingDecResult_TimeOut">Cannot place, time out</string>
 	<string key="ui_housingDecResult_ItemLimit">Cannot place, too many items</string>
 	<string key="ui_housingDecResult_TagLimit">Cannot place, too many items of this type</string>
+	<string key="ui_buildmode_disabled">Decoration mode is under maintenance and is currently disabled</string>
 	<string key="ui_housingDecResult_entitlementLimit">Cannot place, too many items of this type</string>
 	<string key="ui_inn_checked_in">{territoryName} is now your new recall point.</string>
 	<string key="ui_active_home_point_fail">Failed to check in</string>
@@ -218,5 +219,9 @@
 	<string key="ui_house_type_storage_chest_plural">storage chests</string>
 	<string key="ui_house_type_cooldown">Cooldown</string>
 	<string key="ui_house_type_trophies">Trophy Slots</string>
+	<string key="ui_house_lost_restored_message">We identified your house was lost due to an issue with the game. Your house in {settlement} has been restored.</string>
+	<string key="ui_house_lost_restored_title">House restored</string>
+	<string key="ui_house_lost_refunded_message">We identified your house was lost due to an issue with the game. Your house in {settlement} has been refunded and the furnishings returned to your storage.</string>
+	<string key="ui_house_lost_refunded_title">House refunded</string>
 </resources>
 

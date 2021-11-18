@@ -47,7 +47,7 @@
 	<string key="ui_house_hint_tips">Consejos</string>
 	<string key="ui_house_hud_hint">Eres invisible para los otros jugadores</string>
 	<string key="ui_house_max_home_owned_on_territory">Cantidad máxima de casas en propiedad en el territorio</string>
-	<string key="ui_house_menu">Gestiona tu casa.</string>
+	<string key="ui_house_menu">Gestiona tu casa</string>
 	<string key="ui_house_preview">Previsualizar esta casa</string>
 	<string key="ui_house_price">Precio de la casa</string>
 	<string key="ui_house_property_tax_desc">Necesitas {coin} &lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt;</string>
@@ -99,7 +99,7 @@
 	<string key="ui_housing_no_items_found">Ninguno</string>
 	<string key="ui_housing_object">Objeto para casas</string>
 	<string key="ui_housing_point_tooltip">Las 20 casas con mayor puntuación se actualizan en esta lista cada 2 días.\n\nLa puntuación de las casas se calcula según el estatus que tenga el jugador en el territorio y los muebles colocados en la propiedad.</string>
-	<string key="ui_housing_purchase_house">Comprar esta casa.</string>
+	<string key="ui_housing_purchase_house">Comprar esta casa</string>
 	<string key="ui_housing_rotate_camera_hint">&lt;img src="lyshineui/images/icons/misc/Icon_RightMouseButton" xPadding="0" scale="2.2" yOffset="8"&gt;&lt;/img&gt; Rotar cámara</string>
 	<string key="ui_housing_rotate_object_hint">Rotar objeto</string>
 	<string key="ui_housing_select_house">Selecciona una casa para verla</string>
@@ -227,5 +227,9 @@
 	<string key="ui_housing_no_placed_items_found">No se han colocado objetos</string>
 	<string key="ui_locate_item">Localizar objeto</string>
 	<string key="ui_return_to_storage">Devolver al almacenamiento</string>
+	<string key="ui_house_lost_restored_message">Hemos descubierto que tu casa se perdió debido a un problema con el juego. Se ha restaurado tu casa en {settlement}.</string>
+	<string key="ui_house_lost_restored_title">Casa restaurada</string>
+	<string key="ui_house_lost_refunded_message">Hemos descubierto que tu casa se perdió debido a un problema con el juego. Se ha restaurado tu casa en {settlement} y se ha vuelto a poner el mobiliario en tu espacio de almacenamiento.</string>
+	<string key="ui_house_lost_refunded_title">Casa reembolsada</string>
 </resources>
 

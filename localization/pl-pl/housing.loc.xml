@@ -99,7 +99,7 @@
 	<string key="ui_housing_no_items_found">Brak przedmiotów</string>
 	<string key="ui_housing_object">Obiekt domowy</string>
 	<string key="ui_housing_point_tooltip">Na tej liście aktualizowanej co dwa dni figuruje 20 domów o najwyższej punktacji.\n\nPunkty mieszkaniowe oblicza się na podstawie zdobytej przez gracza rangi terytorium oraz mebli na terenie nieruchomości.</string>
-	<string key="ui_housing_purchase_house">Kup ten dom.</string>
+	<string key="ui_housing_purchase_house">Kup ten dom</string>
 	<string key="ui_housing_rotate_camera_hint">&lt;img src="lyshineui/images/icons/misc/Icon_RightMouseButton" xPadding="0" scale="2.2" yOffset="8"&gt;&lt;/img&gt; Obróć kamerę</string>
 	<string key="ui_housing_rotate_object_hint">Obróć obiekt</string>
 	<string key="ui_housing_select_house">Wybierz dom, który chcesz zobaczyć.</string>
@@ -108,7 +108,7 @@
 	<string key="ui_housing_trophy_buff">Trophy Buff</string>
 	<string key="ui_housing_trophy_buffs">Premie trofeów</string>
 	<string key="ui_housing_trophy_buffs_disabled">Premie trofeów (wyłączone)</string>
-	<string key="ui_housing_trophy_buff_desc">Place trophies that give you buffs</string>
+	<string key="ui_housing_trophy_buff_desc">Umieść trofea zapewniające ci premie</string>
 	<string key="ui_housing_trophy_buff_desc_tooltip">Gdy umieścisz to trofeum w swoim domu, będzie źródłem inspiracji.</string>
 	<string key="ui_housing_trophy_empty_slot">Puste miejsce na trofeum</string>
 	<string key="ui_housing_update_time">Ta lista zostanie zaktualizowana za: {time}.</string>
@@ -227,5 +227,9 @@
 	<string key="ui_housing_no_placed_items_found">Brak umieszczonych przedmiotów</string>
 	<string key="ui_locate_item">Zlokalizuj przedmiot</string>
 	<string key="ui_return_to_storage">Przenieś do składziku</string>
+	<string key="ui_house_lost_restored_message">Zauważyliśmy, że twój dom został utracony z powodu problemu z grą. Twój dom w {settlement} został przywrócony.</string>
+	<string key="ui_house_lost_restored_title">Dom przywrócony</string>
+	<string key="ui_house_lost_refunded_message">Zauważyliśmy, że twój dom został utracony z powodu problemu z grą. Dokonaliśmy refundacji Twojego domu w {settlement} i przywróciliśmy wyposażenie przestrzeni magazynowej.</string>
+	<string key="ui_house_lost_refunded_title">Zwrot pieniędzy za dom</string>
 </resources>
 

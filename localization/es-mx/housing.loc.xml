@@ -99,7 +99,7 @@
 	<string key="ui_housing_no_items_found">Sin objetos</string>
 	<string key="ui_housing_object">Objeto residencial</string>
 	<string key="ui_housing_point_tooltip">Cada 2 días, se actualiza esta lista para mostrar las 20 casas con la puntuación residencial más alta.\n\nLa puntuación residencial se calcula según la posición del territorio que haya ganado el jugador y los muebles que haya colocado en la propiedad.</string>
-	<string key="ui_housing_purchase_house">Comprar esta casa.</string>
+	<string key="ui_housing_purchase_house">Comprar esta casa </string>
 	<string key="ui_housing_rotate_camera_hint">&lt;img src="lyshineui/images/icons/misc/Icon_RightMouseButton" xPadding="0" scale="2.2" yOffset="8"&gt;&lt;/img&gt; Girar cámara</string>
 	<string key="ui_housing_rotate_object_hint">Girar objeto</string>
 	<string key="ui_housing_select_house">Seleccionar una casa para ver</string>
@@ -227,5 +227,9 @@
 	<string key="ui_housing_no_placed_items_found">Sin objetos colocados</string>
 	<string key="ui_locate_item">Encontrar objeto</string>
 	<string key="ui_return_to_storage">Regresar al almacenamiento</string>
+	<string key="ui_house_lost_restored_message">Identificamos que su casa se perdió debido a un problema con el juego. Tu casa en {settlement} fue restaurada.</string>
+	<string key="ui_house_lost_restored_title">Casa restaurada</string>
+	<string key="ui_house_lost_refunded_message">Identificamos que su casa se perdió debido a un problema con el juego. Tu casa en {settlement} fue reembolsada y el mobiliario se devolvió a tu almacén.</string>
+	<string key="ui_house_lost_refunded_title">Casa reembolsada</string>
 </resources>
 
