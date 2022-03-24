@@ -78,7 +78,7 @@
 	<string key="owg_factionwarinfo_title_2_desc_2_bullet_3">Le fazioni opposte &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;indeboliscono&lt;/font&gt; il controllo della fazione nemica completando le missioni della fazione PvP</string>
 	<string key="owg_factionwarinfo_title_2_desc_2_bullet_4">Guadagna abbastanza influenza per sfidare il controllo del territorio con una Dichiarazione di guerra</string>
 	<string key="owg_factionwarinfo_title_2_desc_3">Guerra tra fazioni</string>
-	<string key="owg_factionwarinfo_title_2_desc_3_bullet_1">&lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;50 giocatori contro 50&lt;/font&gt; in una guerra d'assedio presso una fortezza del territorio</string>
+	<string key="owg_factionwarinfo_title_2_desc_3_bullet_1">&lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;{maxRosterMembers} giocatori contro {maxRosterMembers}&lt;/font&gt; in una guerra d'assedio presso una fortezza del territorio</string>
 	<string key="owg_factionwarinfo_title_2_desc_3_bullet_2">Utilizza diverse &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;armi da assedio&lt;/font&gt; per avere la meglio sui tuoi avversari.</string>
 	<string key="owg_factionwarinfo_title_2_desc_3_bullet_3">L'obiettivo degli attaccanti è rivendicare il punto di conquista nel &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;cuore della fortezza&lt;/font&gt;.</string>
 	<string key="owg_factionwarinfo_title_2_desc_3_bullet_4">L'obiettivo dei difensori è &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;respingere gli attaccanti per 30 minuti&lt;/font&gt;.</string>
@@ -156,7 +156,6 @@
 	<string key="owg_rewardtype_experience">&lt;img src="lyshineui/images/icons/misc/icon_xp" xPadding="0" scale="1.9" yOffset="5"&gt;&lt;/img&gt; &lt;font color="#ffffff" &gt; {amount} &lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_Medium.font"&gt;PE&lt;/font&gt;</string>
 	<string key="owg_rewardtype_azoth">&lt;img src="lyshineui/images/icon_azoth" xPadding="0" scale="1.8" yOffset="5"&gt;&lt;/img&gt; &lt;font color="#ffffff" &gt; {amount} &lt;/font&gt; Azoth</string>
 	<string key="owg_rewardtype_guildreputation">&lt;img src="{icon}" xPadding="0" scale="1.8" yOffset="5"&gt;&lt;/img&gt; &lt;font color="#ffffff" &gt; {amount} &lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_Medium.font"&gt;Reputazione&lt;/font&gt;</string>
-	<string key="owg_rewardtype_guildcurrency">&lt;img src="{icon}" xPadding="0" scale="1.8" yOffset="5"&gt;&lt;/img&gt; &lt;font color="#ffffff" &gt; {amount} &lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_Medium.font"&gt;gettoni&lt;/font&gt;</string>
 	<string key="owg_rewardtype_item">Oggetto</string>
 	<string key="owg_rewardtype_standing">&lt;img src="lyshineui/images/icons/objectives/reward_territorystanding" xPadding="0" scale="2" yOffset="5"&gt;&lt;/img&gt; {amount}</string>
 	<string key="owg_rewardtype_warinfluence_low">+</string>
@@ -487,5 +486,9 @@
 	<string key="FactionMission_ASSASSINATE_ELITE_NIGHT_desc">I Predoni vogliono che tu tolga di mezzo: &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;.\n\nDimostra il tuo valore rintracciando il bersaglio presso {POITags} e distruggendolo.\n&lt;font color="#eaeaea"&gt;(Élite - Il nemico è notturno)&lt;/font&gt;</string>
 	<string key="FactionMission_S_ASSASSINATE_ELITE_NIGHT_desc">L'Unione ha individuato un bersaglio da eliminare: &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;.\n\nRintraccialo presso {POITags} e distruggilo.\n&lt;font color="#eaeaea"&gt;(Élite - Il nemico è notturno)&lt;/font&gt;</string>
 	<string key="FactionMission_C_ASSASSINATE_ELITE_NIGHT_desc">Il Patto ha individuato una minaccia da eliminare: &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;.\n\nDimostra la tua devozione rintracciandola presso {POITags} e distruggendola.\n &lt;font color="#eaeaea"&gt;(Élite - Il nemico è notturno)&lt;/font&gt;</string>
+	<string key="FactionMission_BREACH_title" rel_version="Quest_FM_BreachMissions">Breccia della corruzione</string>
+	<string key="FactionMission_BREACH_desc" rel_version="Quest_FM_BreachMissions">I Predoni non tollerano che la &lt;font color="#eaeaea"&gt;corruzione&lt;/font&gt; si faccia strada nel nostro territorio.\n\nSe vedi una breccia, chiudila.</string>
+	<string key="FactionMission_S_BREACH_desc" rel_version="Quest_FM_BreachMissions">Ora abbiamo il potere di ostacolare l'avanzata della &lt;font color="#eaeaea"&gt;corruzione&lt;/font&gt;.\n\nChiudi tutte le &lt;font color="#eaeaea"&gt;brecce della corruzione&lt;/font&gt; che vedi.</string>
+	<string key="CMissionAcquireLeather_Name_WC" rel_version="Event_WinterConvergence_Temp">Necessari conciatori festivi</string>
 </resources>
 
