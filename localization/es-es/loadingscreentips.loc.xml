@@ -34,13 +34,13 @@
 	<string key="tip_overworld_camping_respawn01-title">Campamento</string>
 	<string key="tip_overworld_camping_respawn01-content">Coloca un campamento cerca de lugares importantes. Puedes reaparecer allí en caso de muerte.</string>
 	<string key="tip_overworld_camping_respawn02-title">Campamento</string>
-	<string key="tip_overworld_camping_respawn02-content">Los campamentos tienen un alcance limitado en el que puedes reaparecer. Si el icono del campamento se vuelve rojo, significa que te has alejado demasiado y no podrás reaparecer en él.</string>
+	<string key="tip_overworld_camping_respawn02-content">Los campamentos tienen un alcance limitado en el que puedes reaparecer. Si el icono del campamento se vuelve rojo &lt;img src="lyshineui/images/loadingscreen/icons/campoutofrange" xPadding="0" scale="2.2" yOffset="6.0"&gt;&lt;/img&gt;, significa que te has alejado demasiado y no podrás reaparecer en él.</string>
 	<string key="tip_overworld_combat_weaponMastery01-title">Maestría con armas</string>
 	<string key="tip_overworld_combat_weaponMastery01-content">Derrotar a un enemigo con 2 armas diferentes te concederá la mitad de puntos de maestría en ambas armas.</string>
 	<string key="tip_overworld_combat_weaponMastery02-title">Maestría con armas</string>
 	<string key="tip_overworld_combat_weaponMastery02-content">Las reasignaciones de maestría de armas son gratuitas hasta el nivel 10. Descubre lo que te funciona mejor.</string>
 	<string key="tip_overworld_combat_damageNumbers01-title">Cantidad de daño</string>
-	<string key="tip_overworld_combat_damageNumbers01-content">Si tus números de daño son azules, significa que el enemigo es resistente a tu tipo de daño. ¡Prueba con otra arma para infligir más daño!</string>
+	<string key="tip_overworld_combat_damageNumbers01-content">Si tus números de daño son azules &lt;img src="lyshineui/images/loadingscreen/icons/weakattack" xPadding="0" scale="1.5" yOffset="5.0"&gt;&lt;/img&gt;, significa que el enemigo es resistente a tu tipo de daño. ¡Prueba con otra arma para infligir más daño!</string>
 	<string key="tip_overworld_combat_damageNumbers02-title">Números de daño débiles y fuertes</string>
 	<string key="tip_overworld_combat_damageNumbers02-content">Los ataques fuertes son amarillos &lt;img src="lyshineui/images/loadingscreen/icons/strongattack" xPadding="0" scale="1.5" yOffset="5.0"&gt;&lt;/img&gt; e infligen más daño. Los ataques débiles son azules &lt;img src="lyshineui/images/loadingscreen/icons/weakattack" xPadding="0" scale="1.5" yOffset="5.0"&gt;&lt;/img&gt; y hacen menos daño. Tu tipo de daño físico o elemental determina ambos ataques.</string>
 	<string key="tip_overworld_combat_damageNumbers03-title">Cantidad de daño</string>
@@ -58,11 +58,11 @@
 	<string key="tip_overworld_combat_duels02-title">Duelos</string>
 	<string key="tip_overworld_combat_duels02-content">La munición no se consume durante los duelos.</string>
 	<string key="tip_overworld_combat_pvpFlagging01-title">Activar JcJ</string>
-	<string key="tip_overworld_combat_pvpFlagging01-content">Puedes activar y desactivar tu bandera JcJ dentro de los pueblos.</string>
+	<string key="tip_overworld_combat_pvpFlagging01-content">Puedes activar y desactivar tu bandera JcJ dentro de los asentamientos, los puestos remotos, las atalayas y los santuarios espirituales.</string>
 	<string key="tip_overworld_combat_pvpFlagging02-title">Activar JcJ</string>
 	<string key="tip_overworld_combat_pvpFlagging02-content">Antes de abandonar un territorio, ¡revisa si tienes activado el JcJ!</string>
 	<string key="tip_overworld_combat_npcNameplates01-title">Placas de identificación de los enemigos</string>
-	<string key="tip_overworld_combat_npcNameplates01-content">Si el enemigo tiene una calavera sobre su barra de salud, ¡no ataques! Esto indica un nivel y una dificultad mucho mayores que la tuya. Aetérnum no tiene piedad.</string>
+	<string key="tip_overworld_combat_npcNameplates01-content">Si el enemigo tiene una calavera &lt;img src="lyshineui/images/loadingscreen/icons/nameplateskull" xPadding="0" scale="2.0" yOffset="6.0"&gt;&lt;/img&gt; sobre su barra de salud, ¡no ataques! Esto indica un nivel y una dificultad mucho mayores que la tuya. Aetérnum no tiene piedad.</string>
 	<string key="tip_overworld_combat_weaponCoatings01-title">Revestimientos de arma</string>
 	<string key="tip_overworld_combat_weaponCoatings01-content">Los revestimientos de arma son potenciadores poderosos a corto plazo que aplicas a tu arma para darte una ventaja contra ciertas familias de enemigos, como los corruptos o los antiguos. ¡Los revestimientos funcionan también en armas de alcance y mágicas!</string>
 	<string key="tip_overworld_combat_grit01-title">Coraje</string>
@@ -88,7 +88,7 @@
 	<string key="tip_overworld_combat_lifeStaff01-title">El báculo de vida</string>
 	<string key="tip_overworld_combat_lifeStaff01-content">Si no hay aliados a tu alrededor, siempre puedes usar Orbe de protección para potenciarte.</string>
 	<string key="tip_overworld_combat_lifeStaff02-title">El báculo de vida</string>
-	<string key="tip_overworld_combat_lifeStaff02-content">Si quieres usar una habilidad del báculo de vida en ti, pulsa [{hint1}] + la tecla de la habilidad. </string>
+	<string key="tip_overworld_combat_lifeStaff02-content">Si quieres usar una habilidad del báculo de vida en ti, pulsa [{hint1}] + la tecla de la habilidad.</string>
 	<string key="tip_overworld_combat_iceGaunlet01-title">La manopla de hielo</string>
 	<string key="tip_overworld_combat_iceGaunlet01-content">La manopla de hielo es excelente para detener el avance del enemigo. Utiliza los efectos de ralentización para posicionarte mejor o darle a tus compañeros la opción de hacer más daño.</string>
 	<string key="tip_overworld_combat_voidGaunlet01-title">La manopla de vacío</string>
@@ -100,7 +100,7 @@
 	<string key="tip_overworld_company_benefits02-title">Compañías</string>
 	<string key="tip_overworld_company_benefits02-content">Solo las compañías pueden declarar la guerra y asediar territorios para conquistarlos. Cuando gobiernas un territorio, tu compañía gana dinero mediante los impuestos y el viaje rápido resulta mucho más barato, lo que contribuye al éxito de toda tu facción.</string>
 	<string key="tip_overworld_company_benefits03-title">Compañías</string>
-	<string key="tip_overworld_company_benefits03-content">Te puedes comunicar y reunir rápidamente con otros miembros de la compañía, ver cuándo estuvieron conectados por última vez y acceder a cierta cantidad de dinero compartida en la tesorería de la compañía.</string>
+	<string key="tip_overworld_company_benefits03-content">Te puedes comunicar y reunir rápidamente con otros miembros de la compañía. Ve cuándo estuvieron conectados por última vez y accede a cierta cantidad de dinero compartida en la tesorería de la compañía.</string>
 	<string key="tip_overworld_crafting_resources01-title">Ubicaciones de recursos</string>
 	<string key="tip_overworld_crafting_resources01-content">Revisa la sección de ubicaciones de recursos en el mapa para descubrir en qué bioma se suelen encontrar los recursos que necesitas.</string>
 	<string key="tip_overworld_crafting_consumables01-title">Artesanía</string>
@@ -120,7 +120,7 @@
 	<string key="tip_overworld_crafting_perks01-title">Ventajas de la artesanía</string>
 	<string key="tip_overworld_crafting_perks01-content">Si quieres ver todas tus ventajas en el juego, ve a un puesto comercial y selecciona «Seleccionar ventajas» en la pestaña Explorar.</string>
 	<string key="tip_overworld_crafting_azoth01-title">Artesanía</string>
-	<string key="tip_overworld_crafting_azoth01-content">La parte superior del rango de puntuación potencial del equipo de un objeto fabricado se incrementa cuando aumenta tu habilidad de oficio, lo que te permite añadir más Azoth para mejorar tu fabricación.</string>
+	<string key="tip_overworld_crafting_azoth01-content">La parte superior del rango de puntuación potencial del equipo de un objeto fabricado se incrementa cuando aumenta tu habilidad de oficio. Esto te permite añadir más Azoth para mejorar tu fabricación.</string>
 	<string key="tip_overworld_darkness_events01-title">Oscuridad</string>
 	<string key="tip_overworld_darkness_events01-content">[Placeholder]</string>
 	<string key="tip_overworld_death_respawning01-title">Colaborar es la clave para ganar</string>
@@ -154,7 +154,7 @@
 	<string key="tip_overworld_equipment_damage01-title">Daño del equipo</string>
 	<string key="tip_overworld_equipment_damage01-content">Los objetos equipados reciben daño cuando se usan, pero todo el equipo en tu inventario se daña cuando mueres.</string>
 	<string key="tip_overworld_equipment_repairing01-title">Reparar rápidamente y aprovechar</string>
-	<string key="tip_overworld_equipment_repairing01-content">Pulsa el atajo de teclas para reparar o aprovechar un objeto con un solo clic. [{hint1}] + clic para reparar rápidamente o [{hint2}] + clic para aprovechar rápidamente.</string>
+	<string key="tip_overworld_equipment_repairing01-content">Pulsa el atajo de teclas para reparar o aprovechar un objeto con un solo clic. [{hint1}] + clic izquierdo para reparar rápidamente o [{hint2}] + clic izquierdo para aprovechar rápidamente.</string>
 	<string key="tip_overworld_equipment_lockingItems01-title">Bloquear objetos</string>
 	<string key="tip_overworld_equipment_lockingItems01-content">Evita aprovechar objetos en tu inventario haciendo clic en ellos y seleccionando «Bloquear» [{hint1}]. Aparecerá un icono de bloqueo en el objeto cuando esté bloqueado.</string>
 	<string key="tip_overworld_factions_types01-title">Sindicato</string>
@@ -171,8 +171,6 @@
 	<string key="tip_overworld_factions_pvpMissions01-content">Algunas misiones contra otros jugadores se reiniciarán si mueres con ellas en progreso. ¡Entrega las misiones JcJ terminadas lo antes posible para garantizar las recompensas, tanto para ti como para tu facción!</string>
 	<string key="tip_overworld_factions_pveMissions01-title">Reputación de facción</string>
 	<string key="tip_overworld_factions_pveMissions01-content">Completa misiones JcE para aumentar tu reputación de facción, aumentar tu EXP y conseguir acceso a mejor equipo de facción.</string>
-	<string key="tip_overworld_factions_storage01-title">Beneficio de facción</string>
-	<string key="tip_overworld_factions_storage01-content">Si tu facción controla dos territorios, puedes transferir objetos del almacenamiento de un territorio a otro pagando una pequeña tasa.</string>
 	<string key="tip_overworld_factions_currency01-title">Equipo de facción</string>
 	<string key="tip_overworld_factions_currency01-content">Los representantes de la facción venden armaduras y armas de confianza. Piensa en comprar si estás buscando algo específico.</string>
 	<string key="tip_overworld_factions_huntMissions01-title">Los cazadores cazan</string>
@@ -194,7 +192,7 @@
 	<string key="tip_overworld_fishing_hotspots03-title">Pesca</string>
 	<string key="tip_overworld_fishing_hotspots03-content">¿No pica nada? Si tienes problemas para pescar, busca una zona con agua. Los peces no viven en la tierra.</string>
 	<string key="tip_overworld_fishing_hotspots04-title">Pesca</string>
-	<string key="tip_overworld_fishing_hotspots04-content">Hay tres categorías de zonas de pesca: conocida, rara y secreta. Las zonas de pesca secretas te dan la posibilidad de pescar los peces más raros, pero se vacían más rápidamente. </string>
+	<string key="tip_overworld_fishing_hotspots04-content">Hay tres categorías de zonas de pesca: conocida, rara y secreta. Las zonas de pesca secretas te dan la posibilidad de pescar los peces más raros, pero se vacían más rápidamente.</string>
 	<string key="tip_overworld_fishing_hotspots05-title">Pesca</string>
 	<string key="tip_overworld_fishing_hotspots05-content">Podrás descubrir más zonas de pesca al subir tu nivel de pesca.</string>
 	<string key="tip_overworld_fishing_hotspots06-title">Pesca</string>
@@ -226,7 +224,7 @@
 	<string key="tip_overworld_fishing_poles02-title">Pesca</string>
 	<string key="tip_overworld_fishing_poles02-content">Equipa una caña de pescar en la ranura de herramientas del inventario para usarla.</string>
 	<string key="tip_overworld_fishing_fishItems01-title">Pesca</string>
-	<string key="tip_overworld_fishing_fishItems01-content">Consigue filetes de pescado y otros botines aprovechando tus peces.</string>
+	<string key="tip_overworld_fishing_fishItems01-content">Consigue filetes de pescado y otros botines al aprovechar tus peces.</string>
 	<string key="tip_overworld_fishing_fishItems02-title">Pesca</string>
 	<string key="tip_overworld_fishing_fishItems02-content">Algunos peces legendarios se pueden usar para decorar tu casa.</string>
 	<string key="tip_overworld_fishing_fishItems03-title">Pesca</string>
@@ -310,15 +308,23 @@
 	<string key="tip_overworld_movement_lore01-title">Páginas de leyendas</string>
 	<string key="tip_overworld_movement_lore01-content">¡Engorda tu mente! ¡Leer historia de Aetérnum te da EXP!</string>
 	<string key="tip_overworld_pings_contextualPings01-title">Avisos contextuales</string>
-	<string key="tip_overworld_pings_contextualPings01-content">Los avisos rápidos [{hint1}] son contextuales. Al colocar uno en el entorno, los enemigos JcJ o el botín darán un aviso: «Movimiento aquí», «Peligro aquí» y «Botín aquí». </string>
+	<string key="tip_overworld_pings_contextualPings01-content">Los avisos rápidos [{hint1}] son contextuales. Al colocar uno en el entorno, los enemigos JcJ o el botín darán un aviso: «Movimiento aquí», «Peligro aquí» y «Botín aquí».</string>
 	<string key="tip_overworld_pings_pingWheel01-title">Rueda de avisos</string>
 	<string key="tip_overworld_pings_pingWheel01-content">Mantén [{hint1}] pulsado para abrir la rueda de avisos y ver más tipos de avisos.</string>
 	<string key="tip_overworld_pings_targetMarking01-title">Marcar un objetivo</string>
 	<string key="tip_overworld_pings_targetMarking01-content">Puedes marcar objetivos PNJ pulsando [{hint1}] mientras estén en tu retícula.</string>
 	<string key="tip_overworld_pings_pingOnMapPings01-title">Marcas</string>
 	<string key="tip_overworld_pings_pingOnMapPings01-content">¿Sabías que puedes crear un aviso directamente en tu mapa? Prueba a configurar un aviso [{hint1}] en el mapa. Incluso puedes usar la rueda de avisos manteniendo pulsado [{hint2}].</string>
+	<string key="tip_overworld_pvpRewardsTrack_general01-title" rel_version="PvP_Rewards_Track">Seguimiento de recompensas JcJ</string>
+	<string key="tip_overworld_pvpRewardsTrack_general01-content" rel_version="PvP_Rewards_Track">El jugador que dé el golpe de gracia recibirá EXP JcJ y sal de Azoth.</string>
+	<string key="tip_overworld_pvpRewardsTrack_general02-title" rel_version="PvP_Rewards_Track">Seguimiento de recompensas JcJ</string>
+	<string key="tip_overworld_pvpRewardsTrack_general02-content" rel_version="PvP_Rewards_Track">Una víctima de JcJ debe de llevar activada por lo menos 10 minutos para que valga algo. Su valor aumenta cuanto más tiempo lleva activada.</string>
+	<string key="tip_overworld_pvpRewardsTrack_general03-title" rel_version="PvP_Rewards_Track">Seguimiento de recompensas JcJ</string>
+	<string key="tip_overworld_pvpRewardsTrack_general03-content" rel_version="PvP_Rewards_Track">La EXP JcJ y la sal de Azoth se conceden por el rendimiento general en una guerra o asalto a puesto remoto, no por cantidad de muertes.</string>
+	<string key="tip_overworld_pvpRewardsTrack_general04-title" rel_version="PvP_Rewards_Track">Seguimiento de recompensas JcJ</string>
+	<string key="tip_overworld_pvpRewardsTrack_general04-content" rel_version="PvP_Rewards_Track">Ganar EXP mientras se tiene el JcJ activo también concederá sal de Azoth a intervalos regulares.</string>
 	<string key="tip_overworld_quests_quests01-title">Misiones nuevas</string>
-	<string key="tip_overworld_quests_quests01-content">Vuelve a menudo al mapa para descubrir si hay nuevas misiones disponibles. </string>
+	<string key="tip_overworld_quests_quests01-content">Vuelve a menudo al mapa para descubrir si hay nuevas misiones disponibles.</string>
 	<string key="tip_overworld_quests_quests02-title">Misiones y viaje</string>
 	<string key="tip_overworld_quests_quests02-content">Revisa siempre las localizaciones lejanas antes de partir para ver si hay algún santuario espiritual que pueda acelerar tu viaje.</string>
 	<string key="tip_overworld_quests_quests03-title">Misiones principales</string>
@@ -443,6 +449,18 @@
 	<string key="tip_outpostRush_general03-content">Usa piedras de invocación para invocar aliados poderosos en círculos de invocación. Invoca un oso comprando una piedra en la armería o consigue un aliado cafre superpoderoso donando azoth en el portal corrupto.</string>
 	<string key="tip_outpostRush_general04-title">Asalto a puesto remoto</string>
 	<string key="tip_outpostRush_general04-content">La baronesa Hain es el fantasma de una noble que murió antaño que deambula por la isla. ¡Acaba con ella para conseguir un potenciador que incrementa la defensa de tu equipo y evita que la puntuación del enemigo aumente!</string>
+	<string key="tip_pvpArena_general01-title" rel_version="Feature_PVP_Arenas">A través del fuego y las llamas</string>
+	<string key="tip_pvpArena_general01-content" rel_version="Feature_PVP_Arenas">Cada ronda dura 2 minutos. Cuando la cuenta atrás se agote, un anillo de fuego letal rodeará la arena y se irá estrechando cada vez más.</string>
+	<string key="tip_pvpArena_general02-title" rel_version="Feature_PVP_Arenas">Si no eres el primero, eres el último</string>
+	<string key="tip_pvpArena_general02-content" rel_version="Feature_PVP_Arenas">¡El primer equipo en ganar 3 rondas ganará el combate y se hará con la victoria!</string>
+	<string key="tip_pvpArena_general03-title" rel_version="Feature_PVP_Arenas">Animando por la victoria</string>
+	<string key="tip_pvpArena_general03-content" rel_version="Feature_PVP_Arenas">Si te matan, puedes seguir animando a tu equipo desde la zona de espectador.</string>
+	<string key="tip_pvpArena_general04-title" rel_version="Feature_PVP_Arenas">Sanadores, tened cuidado</string>
+	<string key="tip_pvpArena_general04-content" rel_version="Feature_PVP_Arenas">Cuanto más duren las rondas, más se reduce la efectividad de las curaciones.</string>
+	<string key="tip_pvpArena_general05-title" rel_version="Feature_PVP_Arenas">El juego más letal</string>
+	<string key="tip_pvpArena_general05-content" rel_version="Feature_PVP_Arenas">¡Sal ahí y monta un espectáculo para el público! El comentarista se asegurará de que todos los ojos estén listos para ver un buen combate.</string>
+	<string key="tip_pvpArena_general06-title" rel_version="Feature_PVP_Arenas">Riquezas y gloria</string>
+	<string key="tip_pvpArena_general06-content" rel_version="Feature_PVP_Arenas">Ganar combates en la arena es una forma fantástica de ganar experiencia para el seguimiento de recompensas JcJ.</string>
 	<string key="tip_warInvasionGeneral_general01-title">Avisos a voces</string>
 	<string key="tip_warInvasionGeneral_general01-content">Los líderes de guerra pueden mantener pulsado [{hint1}] mientras colocan un aviso para que todo el ejército lo vea.</string>
 	<string key="tip_war_specific01-title">Guerra</string>
@@ -467,6 +485,8 @@
 	<string key="tip_invasion_specific04-content">Los jugadores obtienen blasones de batalla al dañar a los enemigos. Los blasones de batalla sirven para comprar distintos objetos en la armería.</string>
 	<string key="tip_dungeon_general_respawn01-title">¿Necesitas un poco de energía?</string>
 	<string key="tip_dungeon_general_respawn01-content">Solo puedes revivir un número limitado de veces en las expediciones antes de reaparecer. ¡Ten cuidado!</string>
+	<string key="tip_dungeon_general_repair01-title">Kits de reparación</string>
+	<string key="tip_dungeon_general_repair01-content">Los kits de reparación son una forma eficaz de reparar por completo un objeto sin importar lo estropeado que esté. Los kits de reparación se consumen con el uso, así que asegúrate de esperar hasta que la durabilidad del artículo sea baja o esté completamente roto antes de utilizarlo para maximizar la eficacia del kit de reparación.</string>
 	<string key="tip_dungeon_amrineExcavation_mechanics01-title">Excavación de Amrine</string>
 	<string key="tip_dungeon_amrineExcavation_mechanics01-content">[Placeholder]</string>
 	<string key="tip_dungeon_amrineExcavation_bossTip01-title">¡Te quedas aquí conmigo!</string>
@@ -487,7 +507,7 @@
 	<string key="tip_dungeon_gardenOfGenesis_lore01-content">[Placeholder]</string>
 	<string key="tip_dungeon_lazarusInstrumentality_mechanics01-title">Instrumentalidad de Lazarus</string>
 	<string key="tip_dungeon_lazarusInstrumentality_mechanics01-content">[Placeholder]</string>
-	<string key="tip_dungeon_lazarusInstrumentality_bossTip01-title">Solid Snake</string>
+	<string key="tip_dungeon_lazarusInstrumentality_bossTip01-title">Serpiente sólida</string>
 	<string key="tip_dungeon_lazarusInstrumentality_bossTip01-content">El potenciador Poder antiguo de Cilla aumenta mucho su daño físico y puede ser purgado tentándola con estanques arcanos.</string>
 	<string key="tip_dungeon_lazarusInstrumentality_lore01-title">Chardis</string>
 	<string key="tip_dungeon_lazarusInstrumentality_lore01-content">Los antiguos crearon más que guardianes esqueletos, como los constructos: autómatas vivos hechos de roca y piedra, de los cuales Chardis es el mejor ejemplo.</string>

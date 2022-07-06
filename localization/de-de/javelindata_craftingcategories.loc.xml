@@ -854,7 +854,7 @@
 	<string key="DungeonReps6_GroupName">Nachbildungen vom Lazarus-Instrumentarium</string>
 	<string key="DungeonReps7_GroupName">Nachbildungen vom Garten des Ursprungs</string>
 	<string key="DungeonReps8_GroupName">NAME AUSSTEHEND</string>
-	<string key="DungeonReps9_GroupName">NAME AUSSTEHEND</string>
+	<string key="DungeonReps9_GroupName">Nachbildungen des Herzens des Sturmwinds</string>
 	<string key="DungeonShields_GroupName">Expeditions-Schilde</string>
 	<string key="Dye1_GroupDesc">Stelle einen roten Farbton her.</string>
 	<string key="Dye1_GroupName">Farbe: Rot</string>
@@ -969,6 +969,32 @@
 	<string key="FishLarge_GroupName">Großer Fisch</string>
 	<string key="FishMedium_GroupName">Mittelgroßer Fisch</string>
 	<string key="FishSmall_GroupName">Kleiner Fisch</string>
+	<string key="Bass_GroupName">Barsch</string>
+	<string key="Bluefish_GroupName">Blaubarsch</string>
+	<string key="Catfish_GroupName">Wels</string>
+	<string key="Cod_GroupName">Kabeljau</string>
+	<string key="Dragonfish_GroupName">Drachenfisch</string>
+	<string key="ElectricEel_GroupName">Zitteraal</string>
+	<string key="Flounder_GroupName">Flunder</string>
+	<string key="Frogfish_GroupName">Fühlerfisch</string>
+	<string key="Hake_GroupName">Seehecht</string>
+	<string key="Halibut_GroupName">Heilbutt</string>
+	<string key="Mackerel_GroupName">Makrele</string>
+	<string key="Madtom_GroupName">Steinwels</string>
+	<string key="Paddlefish_GroupName">Schwertstör</string>
+	<string key="Pike_GroupName">Hecht</string>
+	<string key="Piranha_GroupName">Piranha</string>
+	<string key="Salmon_GroupName">Lachs</string>
+	<string key="Sculpin_GroupName">Seeskorpion</string>
+	<string key="Snapper_GroupName">Schnapper</string>
+	<string key="SpeartoothShark_GroupName">Speerzahnhai</string>
+	<string key="Squid_GroupName">Tintenfisch</string>
+	<string key="Stingray_GroupName">Stachelrochen</string>
+	<string key="Sturgeon_GroupName">Stör</string>
+	<string key="Sunfish_GroupName">Sonnenbarsch</string>
+	<string key="Swordfish_GroupName">Schwertfisch</string>
+	<string key="Trout_GroupName">Forelle</string>
+	<string key="Perch_GroupName">Barsch</string>
 	<string key="flint_GroupName">Feuersteine</string>
 	<string key="Flowers_GroupName">Blumen</string>
 	<string key="Flux_GroupName">Schmelzsalz</string>
@@ -1376,6 +1402,10 @@
 	<string key="nut_GroupName">Nuss</string>
 	<string key="Offensive_GroupName">Offensive Modifikatoren</string>
 	<string key="oil_GroupName">Öl</string>
+	<string key="beeswax_GroupName">Bienenwachs</string>
+	<string key="DroppedAmulet_GroupName">Weggeworfene Amulette</string>
+	<string key="DroppedRing_GroupName">Weggeworfene Ringe</string>
+	<string key="DroppedEarring_GroupName">Weggeworfene Ohrringe</string>
 	<string key="OnyxCut_GroupDesc">Geschliffene und polierte Onyxe. Kann zu Schmuck verarbeitet werden, der Konstitution steigert, oder in Ausrüstung gesockelt werden, um die Effekte "Dreistheit" und "Körperschutz" zu gewähren.</string>
 	<string key="OnyxCut_GroupName">Geschliffener Onyx</string>
 	<string key="OpalCut_GroupDesc">Geschliffene und polierte Opale. Kann zu Schmuck verarbeitet werden, der Konzentration steigert, oder in Ausrüstung gesockelt werden, um die Effekte "Eröffnung" und "Elementarschutz" zu gewähren.</string>
@@ -1695,7 +1725,7 @@
 	<string key="STRTrinkets_GroupDesc">Die Schmuckstücke erhöhen das Stärkeattribut.</string>
 	<string key="STRTrinkets_GroupName">Stärkeschmuckstücke</string>
 	<string key="SurvivalTools_GroupName">Überlebenswerkzeuge</string>
-	<string key="SwordA_GroupDesc">Ein Paar Nahkampfwaffen, die zusammen sowohl exzellente Angriffs- wie auch Verteidigungsmöglichkeiten bieten. Nutzt eine Kombination von ausholenden Schwüngen und Ausfallschritten für aggressive Nahkampfangriffe und einen Schild zur besseren Verteidigung.\n\n• Leichter Angriff: Verursacht {[DamageTable.1H_Sword_Attack1.DmgCoef * 100]} % Schnittschaden.\n• Leichtes Ende: Verursacht {[DamageTable.1H_Sword_Attack1_Ender.DmgCoef * 100]} % Schnittschaden.\n• Schwerer Angriff: Verursacht {[DamageTable.1H_Sword_Attack2.DmgCoef * 100]} % Stichschaden.\n• Aufgeladener schwerer Angriff: Verursacht {[DamageTable.1H_Sword_Attack2_Charged.DmgCoef * 100]} % Stichschaden.</string>
+	<string key="SwordA_GroupDesc">Ein Paar Nahkampfwaffen, die zusammen sowohl exzellente Angriffs- wie auch Verteidigungsmöglichkeiten bieten. Nutzt eine Kombination von ausholenden Schwüngen und Ausfallschritten für aggressive Offensivangriffe und einen Schild zur besseren Verteidigung.\n\n• Leichter Angriff: Verursacht {[DamageTable.1H_Sword_Attack1.DmgCoef * 100]} % Schnittschaden.\n• Leichtes Ende: Verursacht {[DamageTable.1H_Sword_Attack1_Ender.DmgCoef * 100]} % Schnittschaden.\n• Schwerer Angriff: Verursacht {[DamageTable.1H_Sword_Attack2.DmgCoef * 100]} % Stichschaden.\n• Aufgeladener schwerer Angriff: Verursacht {[DamageTable.1H_Sword_Attack2_Charged.DmgCoef * 100]} % Stichschaden.</string>
 	<string key="SwordA_GroupName">Gerades Schwert</string>
 	<string key="SwordB_GroupDesc">Eine auf Geschwindigkeit ausgelegte Nahkampfwaffe für eine Vielzahl schneller Ausfallschrittangriffe. Überragend für präzise abgestimmte Angriffe und zum Ausbooten von Gegnern geeignet, während Blutung ihnen beständig das Leben entzieht.\n\n• Leichter Angriff: Verursacht {[DamageTable.1H_Rapier_PrimaryAttack.DmgCoef * 100]} % Stichschaden.\n• Leichte mittlere Schwünge: Verursacht {[DamageTable.1H_Rapier_PrimaryTwoThirdsAttack.DmgCoef * 100]} % Stichschaden.\n• Schwerer Angriff: Verursacht {[DamageTable.1H_Rapier_HeavyAttack.DmgCoef * 100]} % Stichschaden.</string>
 	<string key="SwordB_GroupName">Rapier</string>
@@ -1785,7 +1815,6 @@
 	<string key="wood_GroupName">Hölzer</string>
 	<string key="WoodAny_CategoryName">Beliebiges Holz</string>
 	<string key="WorkOrder_GroupName">Arbeitsbefehl</string>
-	<string key="CategoryData_CookingRecipes">Kochrezepte</string>
 	<string key="Pattern">Schemata</string>
 	<string key="PatternRecipes">Schemarezepturen</string>
 	<string key="Lodestone">Magnetit</string>
@@ -1801,6 +1830,24 @@
 	<string key="TimelessShardsCon">Zeitlose Splitter - Konstitution</string>
 	<string key="ArmorShadow_GroupName">Schattengänger</string>
 	<string key="ArmorBeast_GroupName">Bestienjäger</string>
+	<string key="CategoryData_EventConsumables">Ereignis-Verbrauchsgegenstände</string>
+	<string key="ConsumableLuck_GroupName" rel_version="Feature_RabbitSeasonPerm">Glücks-Verbrauchsgegenstände</string>
+	<string key="CategoryData_DyeIngredients" rel_version="Feature_RabbitSeasonPerm">Farbstoffzutaten</string>
 	<string key="Blunderbuss_GroupName">Donnerbüchsen</string>
+	<string key="PerfectSalvageArmor_Name">Rüstungsfetzen</string>
+	<string key="PerfectSalvageWeapons_Name">Waffenstücke</string>
+	<string key="PerfectSalvageJewelry_Name">Schmuckfetzen</string>
+	<string key="PerfectSalvageEngineer_Name">Ingenieurskunstfetzen</string>
+	<string key="PerfectSalvageArcane_Name">Arkanfetzen</string>
+	<string key="SalvageTier2_Name">Rang-II-Fetzen</string>
+	<string key="SalvageTier3_Name">Rang-III-Fetzen</string>
+	<string key="SalvageTier4_Name">Rang-IV-Fetzen</string>
+	<string key="SalvageTier5_Name">Rang-V-Fetzen</string>
+	<string key="Salvage">Fetzen zerlegen</string>
+	<string key="SalvageExtract">Extrahieren</string>
+	<string key="SalvageCreate">Erstellen</string>
+	<string key="SalvageResearch">Forschung</string>
+	<string key="SalvageCondense">Kondensieren</string>
+	<string key="AlchemyCritters_GroupName">Alchemiekreaturen</string>
 </resources>
 

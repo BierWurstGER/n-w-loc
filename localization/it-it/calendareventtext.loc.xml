@@ -3,21 +3,27 @@
 	<string key="ui_calendar_event_button_next">Avanti</string>
 	<string key="ui_calendar_event_button_back">Indietro</string>
 	<string key="ui_calendar_event_button_go">Andiamo!</string>
-	<string key="ui_calendar_event_button_about_shatterMtn" rel_version="Expedition_ShatterMtn_00_Temp">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="1"&gt;&lt;/img&gt; Il Cuore della Tempesta</string>
 	<string key="ui_calendar_event_button_view_details">Dettagli</string>
-	<string key="ui_calendar_event_panel1_title" rel_version="Expedition_ShatterMtn_00_Temp">CUORE DELLA TEMPESTA</string>
-	<string key="ui_calendar_event_panel1_subtitle" rel_version="Expedition_ShatterMtn_00_Temp">&lt;font color="#ffffff" &gt;Nuove missioni, nuova spedizione, nuova arma e altro ancora!&lt;/font&gt;</string>
-	<string key="ui_calendar_event_panel1_bullet1_title" rel_version="Expedition_ShatterMtn_00_Temp">Nuove missioni</string>
-	<string key="ui_calendar_event_panel1_bullet1_text" rel_version="Expedition_ShatterMtn_00_Temp">Le vicende della storia principale continuano mentre insegui Isabella verso Monte infranto. Per ulteriori missioni, trova Mara Rosa nella cattedrale a sud dell'entrata della nuova spedizione.</string>
-	<string key="ui_calendar_event_panel1_bullet2_title" rel_version="Expedition_ShatterMtn_00_Temp">Nuova spedizione</string>
-	<string key="ui_calendar_event_panel1_bullet2_text" rel_version="Expedition_ShatterMtn_00_Temp">Lo scontro finale con Isabella è alle porte... Entra nel Cuore della Tempesta! Scopri i segreti del suo passato mentre scavi più in profondità nella sua mente corrotta.</string>
-	<string key="ui_calendar_event_panel1_bullet3_title" rel_version="Expedition_ShatterMtn_00_Temp">Nuova arma</string>
-	<string key="ui_calendar_event_panel1_bullet3_text" rel_version="Expedition_ShatterMtn_00_Temp">Lo schioppo offre un'elevata mobilità e infligge notevoli danni al secondo in combattimenti in mischia e a media distanza. Fa parte di una nuova serie di missioni armi leggendarie.</string>
-	<string key="ui_calendar_event_panel2_title" rel_version="Expedition_ShatterMtn_00_Temp">SPEDIZIONE NEL CUORE DELLA TEMPESTA</string>
-	<string key="ui_calendar_event_panel2_subtile" rel_version="Expedition_ShatterMtn_00_Temp">Insegui la Tempesta in una dimensione corrotta della realtà a Myrkgard, la capitale perversa. Il Cuore della Tempesta è una spedizione avanzata per 5 giocatori. Consigliata per giocatori di livello 60 o superiore con punteggio attrezzatura compreso tra 550 e 570.</string>
-	<string key="ui_calendar_event_panel3_title" rel_version="Expedition_ShatterMtn_00_Temp">SCHIOPPO</string>
-	<string key="ui_calendar_event_panel3_subtile" rel_version="Expedition_ShatterMtn_00_Temp">Le competenze di contenimento ti consentono di avvicinarti ai nemici per colpirli in volto con una scarica di piombo rovente. Invece l'albero del Caos ti permette di bombardare infliggendo danni esplosivi ad area di effetto. Cerca Wang Tangzhi nell'insediamento di Scaglia d'ebano per iniziare la missione armi leggendarie una volta raggiunto il livello 60 e la massima maestria con le armi.</string>
 	<string key="ui_rewardtype_event_progress">&lt;img src="{icon}" xPadding="0" scale="1.8" yOffset="5"&gt;&lt;/img&gt; &lt;font color="#ffffff" &gt; {amount} &lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_Medium.font"&gt;{displayName}&lt;/font&gt;</string>
-	<string key="url_calendar_event_details" rel_version="Expedition_ShatterMtn_00_Temp">https://www.newworld.com/it-it/news/articles/heartofmadness-ptr</string>
+	<string key="ui_event_progress_name">Reputazione evento</string>
+	<string key="ui_calendar_event_button_about" rel_version="PvP_Rewards_Track">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="1"&gt;&lt;/img&gt; Informazioni sul percorso di ricompense PvP</string>
+	<string key="ui_pvp_rewards_panel1_title" rel_version="PvP_Rewards_Track">AGGIUNTO IL NUOVO PERCORSO DI RICOMPENSE PVP</string>
+	<string key="ui_pvp_rewards_panel1_subtitle" rel_version="PvP_Rewards_Track">Il percorso di ricompense PvP contiene ricompense specifiche che si conseguono svolgendo attività PvP nel gioco. Il percorso può essere completato e ripetuto per ottenere una diversa selezione di ricompense, con ricompense più prestigiose che diventano disponibili man mano che vengono completati più percorsi.</string>
+	<string key="ui_pvp_rewards_panel1_bullet1_title" rel_version="PvP_Rewards_Track">PE PVP</string>
+	<string key="ui_pvp_rewards_panel1_bullet1_text" rel_version="PvP_Rewards_Track">Progredisci nel tuo percorso impegnandoti in missioni PvP, Guerra, Carica all'avamposto, conquista di forti, sconfitta di altri giocatori, arene 3 vs 3 e ottenendo PE con PvP attivo.</string>
+	<string key="ui_pvp_rewards_panel1_bullet2_title" rel_version="PvP_Rewards_Track">SALE DI AZOTH</string>
+	<string key="ui_pvp_rewards_panel1_bullet2_text" rel_version="PvP_Rewards_Track">Il sale di Azoth è una valuta che ti consente di ottenere ricompense nei percorsi PvP. Puoi ottenere sale di Azoth impegnandoti in Guerra, Carica all'avamposto, arene 3 vs 3, missioni PvP, uccidendo personaggi in mondo aperto e ottenendo PE con PvP attivo.</string>
+	<string key="ui_pvp_rewards_panel1_bullet3_title" rel_version="PvP_Rewards_Track">RICOMPENSE</string>
+	<string key="ui_pvp_rewards_panel1_bullet3_text" rel_version="PvP_Rewards_Track">Scegli tra ricompense uniche come armature e armi prestigiose, emote, valute e consumabili.</string>
+	<string key="ui_event_weapon_xp_title">BONUS PE ARMI QUESTA SETTIMANA</string>
+	<string key="ui_event_weapon_xp_desc">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Regular.font"&gt;Il bonus viene attivato:&lt;/font&gt;</string>
+	<string key="ui_event_gathering_xp_title">BONUS PE RACCOLTA QUESTA SETTIMANA</string>
+	<string key="ui_event_gathering_xp_desc">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Regular.font"&gt;Il bonus viene attivato:&lt;/font&gt;</string>
+	<string key="ui_event_character_xp_title">BONUS PE LIVELLO PERSONAGGIO QUESTA SETTIMANA</string>
+	<string key="ui_event_character_xp_desc">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Regular.font"&gt;Il bonus viene attivato:&lt;/font&gt;</string>
+	<string key="ui_event_refining_xp_title">BONUS PE LAVORAZIONE QUESTA SETTIMANA</string>
+	<string key="ui_event_refining_xp_desc">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Regular.font"&gt;Il bonus viene attivato:&lt;/font&gt;</string>
+	<string key="ui_event_extravaganza_title">INSOLITO BONUS PE</string>
+	<string key="ui_event_extravaganza_desc">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Regular.font"&gt;Il bonus viene attivato:&lt;/font&gt;</string>
 </resources>
 

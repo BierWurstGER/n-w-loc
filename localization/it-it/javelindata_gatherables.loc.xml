@@ -360,6 +360,8 @@
 	<string key="LootContainer_Settlement_Tannin_DisplayName">Prendi il tannino</string>
 	<string key="LootContainer_Settlement_Sandpaper_DisplayName">Prendi la carta vetrata</string>
 	<string key="LootContainer_Settlement_Water_DisplayName">Tira l'acqua</string>
+	<string key="LootContainer_OpenStoneTomb_DisplayName">Apri il sarcofago</string>
+	<string key="LootContainer_StoneTomb_DisplayName">Ruba le offerte sepolcrali</string>
 	<string key="Item_PotionHealT1_DisplayName">Tintura curativa distillata</string>
 	<string key="Item_ClothT2_DisplayName">Stracci</string>
 	<string key="Darkness_Monolith_DisplayName">Monolite corrotto</string>
@@ -528,13 +530,19 @@
 	<string key="1526_1521_LynxEvidence3_DisplayName">Ceppi per lince</string>
 	<string key="1524_GoldenStash_interact">La scorta d'oro</string>
 	<string key="1524_Doubloon_DisplayName">Una scia di dobloni</string>
+	<string key="9926_0103_VKCannonA_DisplayName" rel_version="AI_Evil_Knights_P2">Ruota il cannone</string>
+	<string key="9926_0103_VKCannonB_DisplayName" rel_version="AI_Evil_Knights_P2">Fai fuoco col cannone</string>
+	<string key="9926_0103_RomacPack_DisplayName" rel_version="AI_Evil_Knights_P2">Raccogli la borsa di Romac</string>
+	<string key="9926_0103_ActivityReport_DisplayName" rel_version="AI_Evil_Knights_P2">Recupera il rapporto sull'attività</string>
+	<string key="9932_0104_RomacNotebook_DisplayName" rel_version="AI_Evil_Knights_P2">Recupera il diario di Romac</string>
 	<string key="MSQ_ShipsLocker_DisplayName">Forziere della nave</string>
-	<string key="MSQ_Flag_DisplayName">Bandiera della nave</string>
+	<string key="MSQ_Flag_DisplayName">Raccogli la bandiera della nave</string>
 	<string key="MSQ_SalvagePile_A_DisplayName">Cumulo di oggetti di recupero</string>
 	<string key="MSQ_SalvagePile_B_DisplayName">Cumulo di oggetti di recupero</string>
 	<string key="MSQ_SalvagePile_C_DisplayName">Cumulo di oggetti di recupero</string>
 	<string key="AzothWater_Displayname">Sorgente di Azoth</string>
 	<string key="AzothSeal_DisplayName">Sigillo antico di Azoth</string>
+	<string key="HeartforgeEncounterBattery_DisplayName">Smorzatore di potenza della Fucina dei cuori</string>
 	<string key="PressurePlate_Ancient_DisplayName">Glifo antico di Azoth</string>
 	<string key="AncientArtifactLocked">Manufatto antico</string>
 	<string key="MSQ_OldStoneRemembers_Interact">Iscrizioni in lingua antica</string>
@@ -587,6 +595,7 @@
 	<string key="PVP_0001_DeadDropGiveItem_DisplayName">Accedi ai contenuti</string>
 	<string key="PVP_0002_DeadDropTakeItem_DisplayName">Accedi ai contenuti</string>
 	<string key="SliceSwap_EmptyString" xsi:nil="true"/>
+	<string key="RescueHostage_DisplayName">Salva l'ostaggio</string>
 	<string key="dungeon_reekwater_interact_azoth_pool">Laghetto di Azoth purificato</string>
 	<string key="dungeon_reekwater_interact_teleporter">Teletrasporta</string>
 	<string key="dungeon_reekwater_interact_gate">Entra</string>
@@ -686,6 +695,7 @@
 	<string key="0726_BookOfIsabella_DisplayName">Libro di Isabella</string>
 	<string key="1130_CursedAxe_DisplayName">Inizia il rituale</string>
 	<string key="0726_Gravestone_interact" rel_version="DEPRECATED_January_2022">Esamina la tomba del membro dell'equipaggio</string>
+	<string key="EvilKnights_Camp_StoneDoor" rel_version="AI_Evil_Knights_P2">Attiva la porta</string>
 	<string key="Dynasty_Gong_DisplayName">Gong della dinastia</string>
 	<string key="ExploreVista_EastCleave01" rel_version="Feature_RewardingExploration">Cavalletto dimenticato da tempo</string>
 	<string key="ExploreVista_EastCutlass01" rel_version="Feature_RewardingExploration">Cavalletto dimenticato da tempo</string>
@@ -715,7 +725,12 @@
 	<string key="ExploreVista_WestEverfall01" rel_version="Feature_RewardingExploration">Cavalletto dimenticato da tempo</string>
 	<string key="ExploreVista_WestMourningdale01" rel_version="Feature_RewardingExploration">Cavalletto dimenticato da tempo</string>
 	<string key="ExploreVista_WestCutlass01" rel_version="Feature_RewardingExploration">Cavalletto dimenticato da tempo</string>
-	<string key="LuckShrine_MothersLove">Amore materno</string>
 	<string key="GoldPile00_DisplayName" rel_version="Feature_Unbound_Island">Nascondiglio di provviste</string>
+	<string key="0601_0101_weapon_01_hatchet_DisplayName">Scegli l'accetta segnata dalle battaglie</string>
+	<string key="0601_0101_weapon_02_warhammer_DisplayName">Scegli il martello da guerra segnato dalle battaglie</string>
+	<string key="0601_0101_weapon_03_bow_DisplayName">Scegli l'arco segnato dalle battaglie</string>
+	<string key="0601_0101_weapon_04_firestaff_DisplayName">Scegli il bastone infuocato segnato dalle battaglie</string>
+	<string key="Gimmick_FallingRubble_DisplayName">Trappola di pietre</string>
+	<string key="Holdout_Interact_DisplayName">Inizia la resistenza</string>
 </resources>
 
