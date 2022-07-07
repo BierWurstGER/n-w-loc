@@ -21,6 +21,8 @@
 	<string key="ui_notoolmining">Nessun piccone equipaggiato</string>
 	<string key="ui_lowskillmining" comment="the required skill level will be shown in a circle immediately to the right of this string">Ti serve la competenza Attività estrattiva</string>
 	<string key="ui_notoolazothstaff">Nessun bastone di Azoth "{itemName}" livello {tier} equipaggiato</string>
+	<string key="ui_notoolitem_multiple">Richiede {count}x {itemName}</string>
+	<string key="ui_notoolitem">Richiede: {itemName}</string>
 	<string key="ui_nopermission">Nessun accesso pubblico.</string>
 	<string key="ui_nopermissionrank">Il grado "{rank}" non ha il permesso di "{action}".</string>
 	<string key="ui_nopermissionpublic">{action}: non consentito per le strutture pubbliche.</string>
@@ -63,6 +65,7 @@
 	<string key="ui_interact_territory_functionality_down">ERRORE DEL SERVER: riprova tra qualche minuto.</string>
 	<string key="ui_interact_with_item_cost">{interactionName} ({amount} {itemName})</string>
 	<string key="ui_interact_with_item_cost_sufficient">{interactionName} ({have}/{need} &lt;img src="{itemName}" xPadding="2" scale="1.25" yOffset="0.5"&gt;&lt;/img&gt;)</string>
+	<string key="ui_interact_with_item_cost_sufficient_no_qty">{interactionName} (&lt;img src="{itemName}" xPadding="2" scale="1.25" yOffset="0.5"&gt;&lt;/img&gt;)</string>
 	<string key="ui_interact_with_item_cost_insufficient">{interactionName} (&lt;font color="#f14b4b"&gt;{have}&lt;/font&gt;/{need} &lt;img src="{itemName}" xPadding="2" scale="1.25" yOffset="0.5"&gt;&lt;/img&gt;)</string>
 	<string key="ui_interact_with_item_cost_not_needed">{interactionName} - Non necessario</string>
 	<string key="ui_interactable_only_in_conquest_phase">{interactionName} - Utilizzabile durante la guerra attiva</string>
@@ -74,10 +77,14 @@
 	<string key="ui_not_available">Non disponibile</string>
 	<string key="ui_blowhorn">Usa il corno</string>
 	<string key="ui_useturret">Usa la torretta</string>
+	<string key="ui_useturret_12MB04_inactivity">Sei stato rimosso per inattività.</string>
+	<string key="ui_useturret_12MB04_timeout">Stai usando questo elemento da troppo tempo!</string>
 	<string key="ui_usefiredropper">Usa il tino di olio bollente</string>
 	<string key="ui_notification_turret_repair">TORRETTA RIPARATA</string>
 	<string key="ui_notification_turret_reload">TORRETTA RICARICATA</string>
 	<string key="ui_notification_turret_not_ready">TORRETTA NON PRONTA</string>
+	<string key="ui_notification_turret_timeout">Sei stato rimosso per aver superato il tempo massimo di utilizzo</string>
+	<string key="ui_notification_turret_inactive_timeout">Sei stato rimosso per inattività</string>
 	<string key="ui_build_structure_menu">Costruisci struttura</string>
 	<string key="ui_replace_structure_menu">Sostituisci struttura</string>
 	<string key="ui_place_structure">Posiziona struttura</string>
@@ -85,5 +92,14 @@
 	<string key="ui_notification_summoning_stone_placed">PIETRA DI EVOCAZIONE POSIZIONATA</string>
 	<string key="ui_watcherscampfire">Falò del Sorvegliante</string>
 	<string key="ui_hunterscampfire">Falò del Cacciatore</string>
+	<string key="ui_interact_tip_coin" rel_version="Feature_MusicalPerformances">{interactionName} {coin} &lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt;</string>
+	<string key="ui_notification_tip_donated" rel_version="Feature_MusicalPerformances">Monete donate</string>
+	<string key="ui_any_song_gather">[{keybind}] Esegui un brano qualsiasi per raccogliere</string>
+	<string key="ui_song_gather">[{keybind}] Esegui per raccogliere</string>
+	<string key="ui_restriction_learn_song"/>
+	<string key="ui_restriction_equip_instrument"/>
+	<string key="ui_reset_available_in">Disponibile tra {time}</string>
+	<string key="ui_emote_gather">[{keybind}] Esegui l'emote {tagName} per raccogliere</string>
+	<string key="ui_emotetag_dance">Ballare</string>
 </resources>
 

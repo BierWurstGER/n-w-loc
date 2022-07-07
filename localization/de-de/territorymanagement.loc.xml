@@ -35,8 +35,8 @@
 	<string key="ui_claimmarker_not_enough_resources">Nicht genug Rohstoffe</string>
 	<string key="ui_claimmarker_startclaiminstructions">Errichte einen Schutzbezirk, um Anspruch auf dieses Gebiet zu erheben.</string>
 	<string key="ui_claimmarker_companycollect">Wenn ihr dieses Gebiet einnehmt, könnt ihr als herrschende Kompanie großartige Funktionen freischalten.</string>
-	<string key="ui_claimmarker_propertytax">Grundsteuer</string>
-	<string key="ui_claimmarker_propertytaxdesc">Die herrschende Kompanie kann Grundsteuer für Häuser in der Siedlung erheben.</string>
+	<string key="ui_claimmarker_propertytax">Grundstückssteuer</string>
+	<string key="ui_claimmarker_propertytaxdesc">Die herrschende Kompanie kann die Grundstückssteuer für die Häuser in der Siedlung einziehen.</string>
 	<string key="ui_claimmarker_tradingfee">Handelssteuer</string>
 	<string key="ui_claimmarker_tradingfeedesc">Die herrschende Kompanie kann Gebühren auf Transaktionen im Handelsposten dieses Gebietes erheben.</string>
 	<string key="ui_claimmarker_craftingfee">Herstellungs- und Veredelungsgebühr</string>
@@ -96,7 +96,7 @@
 	<string key="ui_leaving_settlement">Siedlung verlassen</string>
 	<string key="ui_leaving_settlement_recall_no_cd">Über die Karte kannst du jederzeit einen Rückruf durchführen.</string>
 	<string key="ui_leaving_settlement_recall_time">Gasthof verfügbar in &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{time}&lt;/font&gt;</string>
-	<string key="ui_leaving_settlement_recall_time_desc">Gasthof-Rückruf ist nur einmal alle 30 Minuten verfügbar.</string>
+	<string key="ui_leaving_settlement_recall_time_desc">Gasthof-Rückruf ist nur einmal alle {numMinutes} Minuten verfügbar.</string>
 	<string key="ui_leaving_settlement_no_inn_desc">Du gehst, ohne dich im Gasthof angemeldet zu haben.</string>
 	<string key="ui_leaving_settlement_no_inn">Nicht angemeldet</string>
 	<string key="ui_leaving_settlement_inn_elsewhere">Du gehst, ohne dich im Gasthof angemeldet zu haben. Derzeitiger Gasthof befindet sich in {territoryName} {distance}.</string>
@@ -148,7 +148,7 @@
 	<string key="ui_global_average_fee">Globaler Durchschnitt: &lt;font color='#FFFFFF'&gt;{tax}&lt;/font&gt;</string>
 	<string key="ui_confirm_set_tax_title">Möchtest du fortfahren?</string>
 	<string key="ui_confirm_set_tax_desc">Dadurch wird ein neuer Steuer- oder Gebührenwert festgelegt, der erst bei der nächsten Aktualisierungsperiode wieder geändert werden kann.</string>
-	<string key="ui_property_tax_description">Bewohner dieses Gebiets sollten die Grundsteuern alle 7 Tage entrichten.</string>
+	<string key="ui_property_tax_description">Bewohner dieses Gebiets sollten die Grundstückssteuer alle 7 Tage entrichten.</string>
 	<string key="ui_trading_tax_description">Handelsaktivitäten in dem Gebiet unterliegen der Umsatzsteuer.</string>
 	<string key="ui_crafting_fee_description">Die Herstellung von Gegenständen in dem Gebiet kostet pro Gegenstand eine Gebühr.</string>
 	<string key="ui_refining_fee_description">Das Veredeln von Rohstoffen in dem Gebiet kostet pro Rohstoff eine Gebühr.</string>
@@ -179,11 +179,13 @@
 	<string key="ui_encounter_statusstandby">Dein Status: &lt;font color='#fab445'&gt;Auf Abruf&lt;/font&gt;</string>
 	<string key="ui_encounter_statusselected">Dein Status: &lt;font color='#30e5ab'&gt;Ausgewählt&lt;/font&gt;</string>
 	<string key="ui_encounter_managebutton">Armee verwalten</string>
-	<string key="ui_encounter_signupbutton_war">An Kriegsübersicht eintragen</string>
+	<string key="ui_encounter_signupbutton_war">Für Krieg eintragen</string>
 	<string key="ui_encounter_signupDesc_war">Trage dich für diesen Krieg an einer\n&lt;font color='#f1ede2'&gt;Kriegsübersicht&lt;/font&gt; in dieser Stadt ein.</string>
 	<string key="ui_encounter_signupDesc_invasion">Trage dich für diese Invasion an einer\n&lt;font color='#f1ede2'&gt;Kriegsübersicht&lt;/font&gt; in dieser Stadt ein.</string>
 	<string key="ui_encounter_signupDesc_invasion_minlevel">&lt;font color="#ff6363"&gt;Mindeststufe: {level}&lt;/font&gt;</string>
-	<string key="ui_encounter_signupbutton_invasion">An Kriegsübersicht eintragen</string>
+	<string key="ui_encounter_signup_invasion_minlevel_tooltip">Du musst mindestens Stufe {level} erreicht haben, um dich für eine Invasion einzutragen.</string>
+	<string key="ui_encounter_signup_invasion_too_early_tooltip">Das Eintragen für diese Invasion ist noch nicht verfügbar.</string>
+	<string key="ui_encounter_signupbutton_invasion">Für Invasion eintragen</string>
 	<string key="ui_encounter_viewstatusbutton_war">Armee ansehen</string>
 	<string key="ui_encounter_viewstatusbutton_invasion">Armee ansehen</string>
 	<string key="ui_warselected_title">Für Krieg ausgewählt</string>
@@ -226,9 +228,11 @@
 	<string key="ui_fortressinfo_resolvinginvasion">Invasion wird beendet</string>
 	<string key="ui_fortressinfo_invasiondescription">Dieses Gebiet wird von den Verderbten angegriffen. Der Krieg kann nicht erklärt werden, bevor die Invasion beendet ist.</string>
 	<string key="ui_fortressinfo_button_declarewar">Krieg erklären!</string>
-	<string key="ui_fortressinfo_button_warsignup">An Übersicht eintragen</string>
+	<string key="ui_fortressinfo_button_manage">Armee verwalten</string>
+	<string key="ui_fortressinfo_button_signup_at_board">An Kriegsübersicht eintragen</string>
+	<string key="ui_fortressinfo_button_warsignup">Für Krieg eintragen</string>
 	<string key="ui_fortressinfo_button_warstatus">Eintragungsstatus</string>
-	<string key="ui_fortressinfo_button_invasionsignup">An Übersicht eintragen</string>
+	<string key="ui_fortressinfo_button_invasionsignup">Für Invasion eintragen</string>
 	<string key="ui_fortressinfo_attackerlabel">(greift an)</string>
 	<string key="ui_fortressinfo_defenderlabel">(verteidigt)</string>
 	<string key="ui_fortressinfo_invasionattackername">Verderbte</string>
@@ -276,7 +280,7 @@
 	<string key="ui_upgradebutton_upgradescomplete">Aufrüstung abgeschlossen</string>
 	<string key="ui_active_project_completed">Ein aktives Projekt wurde fertiggestellt.</string>
 	<string key="ui_wait_for_cooldown">Die Abklingzeit für das Hinzufügen neuer Projekte ist noch aktiv.</string>
-	<string key="ui_you_have_n_completed_missions">Du hast {count} abgeschlossene Missionen.</string>
+	<string key="ui_you_have_n_completed_missions">Du hast {count} abgeschlossene Mission(en).</string>
 	<string key="ui_project_completeallmissions">Alle Missionen abschließen</string>
 	<string key="ui_project_turningin">Du reichst ein:</string>
 	<string key="ui_project_totalreward">Gesamtbelohnung</string>
@@ -448,20 +452,37 @@
 	<string key="ui_upgrade_desc_CookingProjectId">Rüste die Küche auf Rang 3 auf, ab dem sie &lt;font color="#ffd058"&gt;Speisen mit Rang 3&lt;/font&gt; herstellen kann.</string>
 	<string key="ui_upgrade_desc_CookingProjectId2">Rüste die Küche auf Rang 4 auf, ab dem sie &lt;font color="#ffd058"&gt;Speisen mit Rang 4&lt;/font&gt; herstellen kann.</string>
 	<string key="ui_upgrade_desc_CookingProjectId3">Rüste die Küche auf Rang 5 auf, ab dem sie &lt;font color="#ffd058"&gt;Speisen mit Rang 5&lt;/font&gt; herstellen kann.</string>
-	<string key="ui_upgrade_desc_FortGatesProjectId">Rüste Tore auf Rang 2 auf. So erhalten sie mehr Trefferpunkte.</string>
-	<string key="ui_upgrade_desc_FortGatesProjectId2">Rüste Tore auf Rang 3 auf. So erhalten sie mehr Trefferpunkte.</string>
+	<string key="ui_upgrade_desc_FortGatesProjectId">Tore auf Rang 2 aufrüsten. Die Tore erhalten mehr Trefferpunkte.</string>
+	<string key="ui_upgrade_desc_FortGatesProjectId2">Tore auf Rang 3 aufrüsten. Die Tore erhalten mehr Trefferpunkte.</string>
 	<string key="ui_upgrade_desc_FortHardPointsProjectId">Schaltet einen zusätzlichen Montagepunkt frei, an dem Geschütze (zum Beispiel Kanonen) Balliste, Brennendes Ölfass usw.) aufgestellt werden können.</string>
 	<string key="ui_upgrade_desc_FortHardPointsProjectId2">Schaltet einen zusätzlichen Montagepunkt frei, an dem Geschütze (zum Beispiel Kanonen) Balliste, Brennendes Ölfass usw.) aufgestellt werden können.</string>
 	<string key="ui_upgrade_desc_BallistaProjectId">Rüste die Balliste auf Rang 2 auf. Nach der Aufrüstung werden alle existierenden Ballisten (aufgestellt oder nicht) ebenfalls aufgerüstet.</string>
 	<string key="ui_upgrade_desc_BallistaProjectId2">Rüste die Balliste auf Rang 3 auf. Nach der Aufrüstung werden alle existierenden Ballisten (aufgestellt oder nicht) ebenfalls aufgerüstet.</string>
-	<string key="ui_upgrade_desc_FireBarrelProjectId">Rüste das Brennende Ölfass auf Rang 2 auf. Nach der Aufrüstung werden alle existierenden Brennenden Ölfassr (aufgestellt oder nicht) ebenfalls aufgerüstet.</string>
-	<string key="ui_upgrade_desc_FireBarrelProjectId2">Rüste das Brennende Ölfass auf Rang 3 auf. Nach der Aufrüstung werden alle existierenden Brennenden Ölfassr (aufgestellt oder nicht) ebenfalls aufgerüstet.</string>
-	<string key="ui_upgrade_desc_RepeaterProjectId">Rüste die Repetierer auf Rang 2 auf. Nach der Aufrüstung werden alle existierenden Repetierer (aufgestellt oder nicht) ebenfalls aufgerüstet.</string>
-	<string key="ui_upgrade_desc_RepeaterProjectId2">Rüste die Repetierer auf Rang 3 auf. Nach der Aufrüstung werden alle existierenden Repetierer (aufgestellt oder nicht) ebenfalls aufgerüstet.</string>
-	<string key="ui_upgrade_desc_HornProjectId">Rüste die Kriegshörner auf Rang 2 auf. Nach der Aufrüstung werden alle existierenden Kriegshörner (aufgestellt oder nicht) ebenfalls aufgerüstet.</string>
-	<string key="ui_upgrade_desc_HornProjectId2">Rüste die Kriegshörner auf Rang 3 auf. Nach der Aufrüstung werden alle existierenden Kriegshörner (aufgestellt oder nicht) ebenfalls aufgerüstet.</string>
-	<string key="ui_upgrade_desc_ExplosiveProjectId">Rüste die Kanonen auf Rang 2 auf. Nach der Aufrüstung werden alle existierenden Kanonen (aufgestellt oder nicht) ebenfalls aufgerüstet.</string>
+	<string key="ui_upgrade_desc_FireBarrelProjectId">Brennendes Ölfass auf Rang 2 aufrüsten. Nach der Aufrüstung werden alle existierenden brennenden Ölfässer (aufgestellt oder nicht) ebenfalls aufgerüstet.</string>
+	<string key="ui_upgrade_desc_FireBarrelProjectId2">Brennendes Ölfass auf Rang 3 aufrüsten. Nach der Aufrüstung werden alle existierenden brennenden Ölfässer (aufgestellt oder nicht) ebenfalls aufgerüstet.</string>
+	<string key="ui_upgrade_desc_RepeaterProjectId">Repetierer auf Rang 2 aufrüsten. Nach der Aufrüstung werden alle existierenden Repetierer (aufgestellt oder nicht) ebenfalls aufgerüstet.</string>
+	<string key="ui_upgrade_desc_RepeaterProjectId2">Repetierer auf Rang 3 aufrüsten. Nach der Aufrüstung werden alle existierenden Repetierer (aufgestellt oder nicht) ebenfalls aufgerüstet.</string>
+	<string key="ui_upgrade_desc_HornProjectId">Kriegshörner auf Rang 2 aufrüsten. Nach der Aufrüstung werden alle existierenden Kriegshörner (aufgestellt oder nicht) ebenfalls aufgerüstet.</string>
+	<string key="ui_upgrade_desc_HornProjectId2">Kriegshörner auf Rang 3 aufrüsten. Nach der Aufrüstung werden alle existierenden Kriegshörner (aufgestellt oder nicht) ebenfalls aufgerüstet.</string>
+	<string key="ui_upgrade_desc_ExplosiveProjectId">Kanonen auf Rang 2 aufrüsten. Nach der Aufrüstung werden alle existierenden Kanonen (aufgestellt oder nicht) ebenfalls aufgerüstet.</string>
 	<string key="ui_upgrade_desc_ExplosiveProjectId2">Rüste die Kanonen auf Rang 3 auf. Nach der Aufrüstung werden alle existierenden Kanonen (aufgestellt oder nicht) ebenfalls aufgerüstet.</string>
+	<string key="event_summer_station" rel_version="Event_Summer_Temp">Medleyfaire-Bühne</string>
+	<string key="ui_upgrade_title_EventSummerProjectId" rel_version="Event_Summer_Temp">Medleyfaire-Bühne auf Rang &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt; aufrüsten</string>
+	<string key="ui_upgrade_title_EventSummerProjectId2" rel_version="Event_Summer_Temp">Medleyfaire-Bühne auf Rang &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt; aufrüsten</string>
+	<string key="ui_upgrade_title_EventSummerProjectId3" rel_version="Event_Summer_Temp">Aufrüsten der Medleyfaire-Bühne abgeschlossen!</string>
+	<string key="ui_upgrade_titleNoMarkup_EventSummerProjectId" rel_version="Event_Summer_Temp">Medleyfaire-Bühne auf Rang 2 aufrüsten</string>
+	<string key="ui_upgrade_titleNoMarkup_EventSummerProjectId2" rel_version="Event_Summer_Temp">Medleyfaire-Bühne auf Rang 3 aufrüsten</string>
+	<string key="ui_upgrade_titleNoMarkup_EventSummerProjectId3" rel_version="Event_Summer_Temp">Medleyfaire-Bühne maximal aufgerüstet!</string>
+	<string key="ui_upgrade_button_EventSummerProjectId" rel_version="Event_Summer_Temp">Medleyfaire-Bühne, Rang &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;1&lt;/font&gt;</string>
+	<string key="ui_upgrade_button_EventSummerProjectId2" rel_version="Event_Summer_Temp">Medleyfaire-Bühne, Rang &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt;</string>
+	<string key="ui_upgrade_button_EventSummerProjectId3" rel_version="Event_Summer_Temp">Aufrüsten der Medleyfaire-Bühne abgeschlossen!</string>
+	<string key="ui_upgrade_desc_EventSummerProjectId" rel_version="Event_Summer_Temp">Rüste die Medleyfaire-Bühne auf Rang 2 auf, um sie mit &lt;font color="#ffd058"&gt;herrlich gepackten Körben&lt;/font&gt; zu füllen!</string>
+	<string key="ui_upgrade_desc_EventSummerProjectId2" rel_version="Event_Summer_Temp">Rüste die Medleyfaire-Bühne auf Rang 3 auf, um sie mit &lt;font color="#ffd058"&gt;exquisit gepackten Körben&lt;/font&gt; zu füllen!</string>
+	<string key="ui_upgrade_desc_EventSummerProjectId3" rel_version="Event_Summer_Temp">Schließe Medleyfaire-Stadtprojekte ab, um Ereignis-Ansehen zu verdienen!</string>
+	<string key="ui_upgradebutton_label_event_summer" rel_version="Event_Summer_Temp">Medleyfaire-Bühne aufrüsten</string>
+	<string key="ui_event_details_SummerMedley" rel_version="Event_Summer_Temp">&lt;font color="#ffd058"&gt;Schließe Medleyfaire-Aufgaben und -Aktivitäten ab&lt;/font&gt;, um Ereignis-Ansehen und Medleyfaire-Marken zu verdienen und Zugang zu einer Fülle von Ereignis-Belohnungen zu erhalten! \n\n&lt;font color="#ffd058"&gt;Fange köstliche, aber auch flinke Aeternum-Störe und versorge das Medleyfaire,&lt;/font&gt; indem du Schafgarbenkäfer-Schwärme aufspürst und die Schafgarbenkäfer-Serenade aufführst, um Schafgarbenkäfer-Köder zu fangen! Halte Ausschau nach glitzernden Stellen!\n\n&lt;font color="#ffd058"&gt;Sammle tägliche Belohnungen von jeder Medleyfaire-Tanzfläche und der Hauptattraktion der Medleyfaire-Bühne der Siedlung! &lt;/font&gt; Das Abschließen einer endlosen Anzahl von Medleyfaire-Stadtprojekten verbessert die Pracht und Belohnungen der Hauptattraktion!</string>
+	<string key="ui_event_summer_project_complete" rel_version="Event_Summer_Temp">Medleyfaire-Bühnen-Aufrüstungsprojekt abgeschlossen</string>
+	<string key="ui_event_project_endless" rel_version="Event_Summer_Temp">Endlos</string>
 	<string key="ui_territory_level">Gebietsstufe: {level}</string>
 	<string key="ui_enter_house">Hausmenü öffnen</string>
 	<string key="ui_purchase_house">Haus kaufen</string>
@@ -588,7 +609,7 @@
 	<string key="ui_territory_standing_upgrade_category_housepoint">Hausgegenstände</string>
 	<string key="ui_territory_standing_upgrade_category_trading_tax">Handelssteuer</string>
 	<string key="ui_territory_standing_upgrade_category_crafting_fee">Stationsgebühr</string>
-	<string key="ui_territory_standing_upgrade_category_property_tax">Grundsteuer</string>
+	<string key="ui_territory_standing_upgrade_category_property_tax">Grundstückssteuer</string>
 	<string key="ui_territory_standing_upgrade_category_xp_gain">EP-Zugewinn</string>
 	<string key="ui_territory_standing_upgrade_category_standing_gain">Rufzugewinn</string>
 	<string key="ui_territory_standing_upgrade_category_gather">Sammeln</string>
@@ -605,7 +626,7 @@
 	<string key="ui_territory_standing_upgrade_stat_detection_distance">Aufspürentfernung</string>
 	<string key="ui_territory_standing_upgrade_stat_trading_tax">Handelssteuerhöhe</string>
 	<string key="ui_territory_standing_upgrade_stat_crafting_fee">Herstellungsgebühr</string>
-	<string key="ui_territory_standing_upgrade_stat_property_tax">Grundsteuer</string>
+	<string key="ui_territory_standing_upgrade_stat_property_tax">Grundstückssteuer</string>
 	<string key="ui_darkness_threshold_0">Nichts</string>
 	<string key="ui_darkness_threshold_1">Niedrig</string>
 	<string key="ui_darkness_threshold_2">Mittel</string>

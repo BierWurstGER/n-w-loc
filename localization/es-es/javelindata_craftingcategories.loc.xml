@@ -543,7 +543,7 @@
 	<string key="BoostVoidAbs_GroupName">Pociones de defensa de vacío</string>
 	<string key="bounty_GroupName">Talismanes</string>
 	<string key="bountymagic_GroupName">Ánimas vacías</string>
-	<string key="BowA_GroupDesc">Armas a distancia versátiles que pueden disparar ráfagas de flechas rápidamente o lograr el máximo daño tensándolas completamente. Son ideales para mantener al enemigo a raya aprovechando una variedad de ataques con los que entorpecerlo y dañarlo.\n\n•Poca tensión: Inflige {[DamageTable.BowAttack1.DmgCoef * 100]} % de daño de estocada.\n•Mucha tensión: Inflige {[DamageTable.BowAttack2.DmgCoef * 100]} % de daño de estocada.</string>
+	<string key="BowA_GroupDesc">Armas a distancia versátiles que pueden disparar ráfagas de flechas rápidamente o lograr el máximo daño tensándolas completamente. Son ideales para mantener al enemigo a raya aprovechando una variedad de ataques con los que entorpecerlo y dañarlo.\n\n•Disparo de cadera: Inflige un {[DamageTable.BowAttack_Hipshot.DmgCoef * 100]} % de daño de estocada.\n•Poca tensión: Inflige {[DamageTable.BowAttack1.DmgCoef * 100]} % de daño de estocada.\n•Mucha tensión: Inflige {[DamageTable.BowAttack2.DmgCoef * 100]} % de daño de estocada.</string>
 	<string key="BowA_GroupName">Arcos</string>
 	<string key="BowA2_GroupName">Arcos</string>
 	<string key="BowB_GroupDesc">A dos manos. Armas a distancia que utilizan flechas. Las flechas tienen que estar completamente tensadas antes de disparar para lograr el daño máximo.</string>
@@ -594,7 +594,7 @@
 	<string key="CategoryData_coating">Revestimientos</string>
 	<string key="CategoryData_components">Componentes</string>
 	<string key="CategoryData_CookedFood">Comida cocinada</string>
-	<string key="CategoryData_CookingRecipes">Recetasdecocina</string>
+	<string key="CategoryData_CookingRecipes">Recetas de cocina</string>
 	<string key="CategoryData_cookingingredients">Ingredientes de cocina</string>
 	<string key="CategoryData_CoreTrinkets">Bolsas</string>
 	<string key="CategoryData_CraftingConsumables">Kits</string>
@@ -728,6 +728,7 @@
 	<string key="ClothT3_GroupName">Telas de clase 3</string>
 	<string key="ClothT4_GroupName">Telas de clase 4</string>
 	<string key="ClothT5_GroupName">Telas de clase 5</string>
+	<string key="ClothT51_GroupName">Tela legendaria</string>
 	<string key="CoatingAncient_GroupDesc">Revestimientos que aumentan el daño infligido a los antiguos.</string>
 	<string key="CoatingAncient_GroupName">Revestimientos contra antiguos</string>
 	<string key="CoatingAngryEarth_GroupDesc">Revestimientos que aumentan el daño infligido a los tierramarga.</string>
@@ -854,8 +855,9 @@
 	<string key="DungeonReps6_GroupName">Réplicas de la Instrumentalidad de Lazarus</string>
 	<string key="DungeonReps7_GroupName">Réplicas del Jardín del Génesis</string>
 	<string key="DungeonReps8_GroupName">NOMBRE PENDIENTE</string>
-	<string key="DungeonReps9_GroupName">NOMBRE PENDIENTE</string>
+	<string key="DungeonReps9_GroupName">Réplicas del Corazón de la Tempestad</string>
 	<string key="DungeonShields_GroupName">Escudos de expediciones</string>
+	<string key="DungeonReps12_GroupName">Recompensas de expedición únicas</string>
 	<string key="Dye1_GroupDesc">Fabrica un tinte de color rojo.</string>
 	<string key="Dye1_GroupName">Tinte rojo</string>
 	<string key="Dye10_GroupDesc">Tinte ocre oscuro para tu armadura.</string>
@@ -969,6 +971,32 @@
 	<string key="FishLarge_GroupName">Peces grandes</string>
 	<string key="FishMedium_GroupName">Peces medianos</string>
 	<string key="FishSmall_GroupName">Peces pequeños</string>
+	<string key="Bass_GroupName">Lubina</string>
+	<string key="Bluefish_GroupName">Anjova</string>
+	<string key="Catfish_GroupName">Siluro</string>
+	<string key="Cod_GroupName">Bacalao</string>
+	<string key="Dragonfish_GroupName">Estómido</string>
+	<string key="ElectricEel_GroupName">Anguila eléctrica</string>
+	<string key="Flounder_GroupName">Platija</string>
+	<string key="Frogfish_GroupName">Ranisapo</string>
+	<string key="Hake_GroupName">Merluza</string>
+	<string key="Halibut_GroupName">Fletán</string>
+	<string key="Mackerel_GroupName">Caballa</string>
+	<string key="Madtom_GroupName">Noturus</string>
+	<string key="Paddlefish_GroupName">Pez espátula</string>
+	<string key="Pike_GroupName">Lucio</string>
+	<string key="Piranha_GroupName">Piraña</string>
+	<string key="Salmon_GroupName">Salmón</string>
+	<string key="Sculpin_GroupName">Cótido</string>
+	<string key="Snapper_GroupName">Pargo</string>
+	<string key="SpeartoothShark_GroupName">Tiburón lanza</string>
+	<string key="Squid_GroupName">Calamar</string>
+	<string key="Stingray_GroupName">Raya</string>
+	<string key="Sturgeon_GroupName">Esturión</string>
+	<string key="Sunfish_GroupName">Pez luna</string>
+	<string key="Swordfish_GroupName">Pez espada</string>
+	<string key="Trout_GroupName">Trucha</string>
+	<string key="Perch_GroupName">Perca</string>
 	<string key="flint_GroupName">Sílex</string>
 	<string key="Flowers_GroupName">Flores</string>
 	<string key="Flux_GroupName">Fundentes</string>
@@ -1230,6 +1258,7 @@
 	<string key="LeatherT3_GroupName">Cueros de clase 3</string>
 	<string key="LeatherT4_GroupName">Cueros de clase 4</string>
 	<string key="LeatherT5_GroupName">Cueros de clase 5</string>
+	<string key="LeatherT51_GroupName">Cuero legendario</string>
 	<string key="lightChestA_GroupName">Camisas de duelista fabricadas</string>
 	<string key="lightChestAFound_GroupName">Camisas de duelista recuperadas</string>
 	<string key="lightChestB_GroupName">Togas de sabio fabricadas</string>
@@ -1358,6 +1387,7 @@
 	<string key="MetalT3_GroupName">Metales de clase 3</string>
 	<string key="MetalT4_GroupName">Metales de clase 4</string>
 	<string key="MetalT5_GroupName">Metales de clase 5</string>
+	<string key="MetalT51_GroupName">Metales legendarios</string>
 	<string key="MinerChest_GroupName">Camisas de minero</string>
 	<string key="MinerFeet_GroupName">Botas de minero</string>
 	<string key="MinerHands_GroupName">Guantes de minero</string>
@@ -1376,6 +1406,10 @@
 	<string key="nut_GroupName">Frutos secos</string>
 	<string key="Offensive_GroupName">Modificadores ofensivos</string>
 	<string key="oil_GroupName">Petróleo</string>
+	<string key="beeswax_GroupName">Cera de abeja</string>
+	<string key="DroppedAmulet_GroupName">Amuletos soltados</string>
+	<string key="DroppedRing_GroupName">Anillos soltados</string>
+	<string key="DroppedEarring_GroupName">Pendientes soltados</string>
 	<string key="OnyxCut_GroupDesc">Gemas de ónice talladas y pulidas. Sirven para fabricar joyas que aumentan la constitución. También se pueden engarzar en el equipo para obtener las ventajas Iniciativa y Protección física.</string>
 	<string key="OnyxCut_GroupName">Ónice tallado</string>
 	<string key="OpalCut_GroupDesc">Gemas de ópalo talladas y pulidas. Sirven para fabricar joyas que aumentan la concentración. También se pueden engarzar en el equipo para obtener las ventajas Compensación y Protección elemental.</string>
@@ -1712,9 +1746,10 @@
 	<string key="TimberT3_GroupName">Maderos de clase 3</string>
 	<string key="TimberT4_GroupName">Maderos de clase 4</string>
 	<string key="TimberT5_GroupName">Maderos de clase 5</string>
+	<string key="TimberT51_GroupName">Madero legendario</string>
 	<string key="TinctureBlight_GroupName">Pócimas contra la infección</string>
 	<string key="TinctureCorruption_GroupName">Pócimas contra la corrupción</string>
-	<string key="Tokens_GroupName">Blasones de Convergencia Invernal</string>
+	<string key="Tokens_GroupName">Blasones de evento</string>
 	<string key="TokenCreation_GroupName">Creación de blasones</string>
 	<string key="TokenConversion_GroupName">Conversión de blasones</string>
 	<string key="ToolHatchet_GroupDesc">A una mano. Para recolectar madera.</string>
@@ -1785,7 +1820,6 @@
 	<string key="wood_GroupName">Madera</string>
 	<string key="WoodAny_CategoryName">Cualquier madera</string>
 	<string key="WorkOrder_GroupName">Pedidos de trabajo</string>
-	<string key="CategoryData_CookingRecipes">Recetas de cocina</string>
 	<string key="Pattern">Patrones</string>
 	<string key="PatternRecipes">Recetas de patrones</string>
 	<string key="Lodestone">Calamita</string>
@@ -1801,8 +1835,42 @@
 	<string key="TimelessShardsCon">Fragmentos intemporales: constitución</string>
 	<string key="ArmorShadow_GroupName">Caminasombras</string>
 	<string key="ArmorBeast_GroupName">Cazabestias</string>
-	<string key="CategoryData_EventConsumables" rel_version="Feature_RabbitSeason">Consumibles de evento</string>
-	<string key="ConsumableLuck_GroupName" rel_version="Feature_RabbitSeason">Consumibles de suerte</string>
+	<string key="CategoryData_EventConsumables">Consumibles de evento</string>
+	<string key="ConsumableLuck_GroupName" rel_version="Feature_RabbitSeasonPerm">Consumibles de suerte</string>
+	<string key="CategoryData_DyeIngredients" rel_version="Feature_RabbitSeasonPerm">Ingredientes para tintes</string>
 	<string key="Blunderbuss_GroupName">Trabucos</string>
+	<string key="PerfectSalvageArmor_Name">Restos de armadura</string>
+	<string key="PerfectSalvageWeapons_Name">Restos de arma</string>
+	<string key="PerfectSalvageJewelry_Name">Restos de joyería</string>
+	<string key="PerfectSalvageEngineer_Name">Restos de ingeniería</string>
+	<string key="PerfectSalvageArcane_Name">Restos arcanos</string>
+	<string key="SalvageTier2_Name">Restos de clase II</string>
+	<string key="SalvageTier3_Name">Restos de clase III</string>
+	<string key="SalvageTier4_Name">Restos de clase IV</string>
+	<string key="SalvageTier5_Name">Restos de clase V</string>
+	<string key="Salvage">Restos de objetos aprovechados</string>
+	<string key="SalvageExtract">Extraer</string>
+	<string key="SalvageCreate">Fabricar</string>
+	<string key="SalvageResearch">Investigar</string>
+	<string key="SalvageCondense">Condensar</string>
+	<string key="AlchemyCritters_GroupName">Criaturas de la alquimia</string>
+	<string key="SummerMemento" rel_version="Event_Summer_Temp">Recuerdos de verano</string>
+	<string key="MementoStand" rel_version="Event_Summer_Temp">Bases para recuerdos</string>
+	<string key="SmallMemento" rel_version="Event_Summer_Temp">Recuerdos pequeños de peces</string>
+	<string key="MediumMemento" rel_version="Event_Summer_Temp">Recuerdos medianos de peces</string>
+	<string key="LargeMemento" rel_version="Event_Summer_Temp">Recuerdos grandes de peces</string>
+	<string key="Instruments_GroupName" rel_version="Feature_MusicalPerformances">Instrumentos</string>
+	<string key="CategoryData_Instruments" rel_version="Feature_MusicalPerformances">Instrumentos</string>
+	<string key="InstrumentParts_GroupName" rel_version="Feature_MusicalPerformances">Partes de instrumento</string>
+	<string key="CategoryData_MusicSheets" rel_version="Feature_MusicalPerformances">Partituras</string>
+	<string key="Flutes_GroupName" rel_version="Feature_MusicalPerformances">Música de flauta de Azoth</string>
+	<string key="Drums_GroupName" rel_version="Feature_MusicalPerformances">Música de batería</string>
+	<string key="Guitars_GroupName" rel_version="Feature_MusicalPerformances">Música de guitarra</string>
+	<string key="UprightBasss_GroupName" rel_version="Feature_MusicalPerformances">Música de contrabajo</string>
+	<string key="Mandolins_GroupName" rel_version="Feature_MusicalPerformances">Música de mandolina</string>
+	<string key="DungeonReps11_GroupName" rel_version="Expedition_CutlassKeys_00">Réplicas de Percebes y pólvora negra</string>
+	<string key="TerritorySupplies_GroupName">Suministros del territorio</string>
+	<string key="TerritoryContribution_GroupName">Contribuciones del territorio</string>
+	<string key="InstrumentComponents_GroupName" rel_version="Feature_MusicalPerformances">Componentes de instrumentos</string>
 </resources>
 

@@ -157,6 +157,7 @@
 	<string key="ui_p2ptrading_failmessage_additem_restricted">No se puede comerciar con este objeto.</string>
 	<string key="ui_p2ptrading_failmessage_additem_bound">No se puede comerciar con este objeto porque está vinculado a ti.</string>
 	<string key="ui_p2ptrading_failmessage_additem_inventory_only">Solo se puede comerciar con objetos del inventario.</string>
+	<string key="ui_p2ptrading_failmessage_exceed_coincap">Con este intercambio excederás el límite de monedas de {maxAmount}.</string>
 	<string key="ui_p2ptrading_failmessage_offerupdate_invalidlocation">Localización de intercambio no válida. Intenta moverte a otro lado.</string>
 	<string key="ui_p2ptrading_failmessage_offerupdate_invaliditems">Objetos no válidos.</string>
 	<string key="ui_p2ptrading_failmessage_offerupdate_maxitemsexceeded">Se ha superado el número máximo de objetos.</string>
@@ -173,10 +174,10 @@
 	<string key="ui_p2ptrading_failmessage_playersoutofrange">El jugador ya no está al alcance.</string>
 	<string key="ui_p2ptrading_failmessage_somethingwentwrong">Se ha producido un error.</string>
 	<string key="ui_p2ptrading_failmessage_atmaxcurrency">Uno o más jugadores excederán el límite de monedas.</string>
-	<string key="ui_p2ptrading_failmessage_dont_meet_requirements_level">Debes ser nivel {level} para poder realizar intercambios.</string>
-	<string key="ui_p2ptrading_failmessage_dont_meet_requirements_probation">Debes tener una cuenta con más de {time} de antigüedad para poder realizar intercambios.</string>
-	<string key="ui_p2ptrading_failmessage_dont_meet_requirements_free">Compra New World para poder realizar intercambios.</string>
-	<string key="ui_p2ptrading_failmessage_dont_meet_requirements_generic">No puedes realizar intercambios.</string>
+	<string key="ui_p2ptrading_failmessage_dont_meet_requirements_level">Tienes que llegar al nivel {level} para intercambiar tus bienes.</string>
+	<string key="ui_p2ptrading_failmessage_dont_meet_requirements_probation">Tienes que tener una cuenta con una antigüedad de más de {time} para intercambiar tus bienes.</string>
+	<string key="ui_p2ptrading_failmessage_dont_meet_requirements_free">Compra New World para intercambiar tus bienes.</string>
+	<string key="ui_p2ptrading_failmessage_dont_meet_requirements_generic">No puedes intercambiar tus bienes.</string>
 	<string key="ui_p2ptrading_trade_completed">Intercambio completado.</string>
 	<string key="ui_p2ptrading_overflow_title">Inventario lleno</string>
 	<string key="ui_p2ptrading_overflow_message">Algunos de los objetos que has recibido no cabían en tu inventario y se han dejado en el suelo.</string>
@@ -227,6 +228,7 @@
 	<string key="ui_reportreason_spam">Spam</string>
 	<string key="ui_reportreason_coinselling">Vender monedas</string>
 	<string key="ui_reportreason_botbehavior">Comportamiento de bots</string>
+	<string rel_version="Feature_Group_Finder" key="ui_reportreason_abusive_group_finder_listing">Descripción de vestíbulo abusiva</string>
 	<string key="ui_reportreason_abusive_chat_description">Se ha utilizado discurso de odio o se han dirigido insultos o comentarios crueles a uno o más jugadores.</string>
 	<string key="ui_reportreason_abusive_voice_chat_description">Se ha utilizado discurso de odio o se han dirigido insultos o comentarios crueles a uno o más jugadores.</string>
 	<string key="ui_reportreason_cheating_description">Se han aprovechado los errores del juego o cometido abusos para obtener una ventaja.</string>
@@ -235,6 +237,7 @@
 	<string key="ui_reportreason_spam_description">Se han repetido cosas de forma excesiva, dicho cosas sin sentido o se ha utilizado el juego con fines publicitarios.</string>
 	<string key="ui_reportreason_coinselling_description">Adquirir objetos del juego y venderlos por dinero real.</string>
 	<string key="ui_reportreason_botbehavior_description">Juego desatendido: uso de bots, scripts, macros u otras herramientas automatizadas.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_reportreason_abusive_group_finder_listing_description">Discurso de odio, insultos o comentarios crueles en la descripción de vestíbulo.</string>
 	<string key="ui_reportreason_select">Escoge un motivo...</string>
 	<string key="ui_reportreason_offensive_guild_name">Nombre de la compañía</string>
 	<string key="ui_reportreason_offensive_guild_description">El nombre de la compañía es ofensivo o inapropiado.</string>
@@ -379,6 +382,8 @@
 	<string key="ui_trade_cancel">Cancelar</string>
 	<string key="ui_trade_cancel_popup_title">Cancelar intercambio</string>
 	<string key="ui_trade_cancel_popup_text">¿Seguro que quieres cancelar el intercambio con {playerName}?</string>
+	<string key="ui_trade_coincap_warning_popup_title">Exceso de límite de monedas</string>
+	<string key="ui_trade_coincap_warning_popup_text">{playerName} recibirá el reembolso de {refund} monedas. ¿Seguro que quieres hacerlo?</string>
 	<string key="ui_trade_confirm_currency">Confirmar</string>
 	<string key="ui_trade_item_count">&lt;font color={color}&gt;{count}&lt;/font&gt;/{total} objetos</string>
 	<string key="ui_trade_send_title">Enviar</string>
@@ -409,9 +414,10 @@
 	<string key="ui_subarmy_decline_tooltip">Han rechazado tu solicitud para unirte al ejército de suscriptores del retransmisor.</string>
 	<string key="ui_subarmy_waiting">Esperando a la aprobación del retransmisor...</string>
 	<string key="ui_subarmy_pending">Pendiente...</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_findtabtitle">Buscar</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_managetabtitle">Vestíbulo</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_creategroup">Crea un reclutamiento nuevo</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_findtabtitle">Encontrar un grupo</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_managetabtitle">Mi vestíbulo</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_creategroup">Crear vestíbulo</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pvp_lobby">Vestíbulo JcJ</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_refresh">Actualizar</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_screen_header">Buscador de grupo de expedición</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_expeditionname">Nombre de la expedición</string>
@@ -424,117 +430,196 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_voippreference_tooltip">Chat de voz: &lt;font color={color} face="lyshineui/fonts/Nimbus_Semibold.font"&gt;{preference}&lt;/font&gt;</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_min_size">Número mínimo de jugadores: &lt;font face="lyshineui/fonts/Nimbus_Semibold.font"&gt;{amount}&lt;/font&gt;</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_recommendedgearscore">Puntuación de equipo recomendada: &lt;font face="lyshineui/fonts/Nimbus_bold.font"&gt;600 - {score}&lt;/font&gt;</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_minimum_gear_score">Puntuación de equipo mínima: &lt;font face="lyshineui/fonts/Nimbus_bold.font"&gt;{score}&lt;/font&gt;</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_minimum_level">Nivel mínimo: &lt;font face="lyshineui/fonts/Nimbus_bold.font"&gt;{level}&lt;/font&gt;</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_recommendedlevel">Nivel recomendado: &lt;font face="lyshineui/fonts/Nimbus_bold.font"&gt;{level}&lt;/font&gt;</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_no_group">Actualmente no hay ningún reclutamiento para esta expedición.</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_no_group_at_level">Actualmente no hay ningún reclutamiento para el nivel de dificultad {level} de esta expedición.</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_no_group_manage">Actualmente no estás en un reclutamiento de expedición.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_no_group">Actualmente no hay ningún vestíbulo para esta expedición.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_no_group_at_level">Actualmente no hay ningún vestíbulo para el nivel de dificultad {level} de esta expedición.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_no_group_manage">Actualmente no estás en un vestíbulo.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_your_group">Expedición</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_difficulty">Dificultad {level}</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_members">Miembros</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_apply">Aplicar</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_only_accept">Solo aceptar</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_looking_for">Buscando</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_in_lobby">En el vestíbulo</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_members_in_lobby">Miembros en el vestíbulo</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_applicationrejected">Aplicación rechazada</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_groupmembers">Miembros</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_currentmembers">Jugadores en el vestíbulo</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_currentmembers">En el vestíbulo</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_requests">Solicitudes</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_requeststojoin">Solicitudes para unirse</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_requeststojoin">Solicitudes</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_role">Rol</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_preferredrole">Rol preferido</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_level">Nivel</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_gearscore">Punt. equipo</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_gearscore_short">P. E.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_stats">Estadísticas</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_gearscore_average">Puntuación de equipo media</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_viewstats">Ver estadísticas</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_leavegroup">Abandonar vestíbulo</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_removefromgroup">Eliminar del vestíbulo</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_leavegroup">Salir</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_removefromgroup">Expulsar</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invite">Invitar</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invited">Invitado</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_reject">Rechazar</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_rejected">Rechazado</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_servererror">Error del servidor</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_notfound">Grupo no encontrado</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_notfound">Vestíbulo no encontrado</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_timeout">Tiempo agotado</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_requestfailed">La solicitud ha fallado</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_invalidrequest">Solicitud no válida</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_create_group_title">Crea un reclutamiento nuevo</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_pvp_flag_mismatch">Tu estado de JcJ no coincide con el vestíbulo.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_pvp_faction_mismatch">En un vestíbulo JcJ solo puede haber jugadores de la misma facción.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_atmaxapplications">No puedes enviar más peticiones.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_groupfull">Vestíbulo lleno</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_convert_to_group_declined">{playerName} ha rechazado la comprobación.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_convert_to_group_timeout">Se ha agotado el tiempo de comprobación</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_playeroffline">No puedes invitar a {playerName}, se ha desconectado</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_expedition_lobby">Vestíbulo de expedición</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_create_group_title">Crear nuevo vestíbulo</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_voip_preferred">Preferido</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_voice_chat_preferred">Chat de voz preferido</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_voip_preferred_with_icon">&lt;img src="lyshineui/images/icons/misc/icon_microphone" scale="1.8" xPadding="-2" yOffset="5.0"&gt;&lt;/img&gt; Preferido</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_voip_not_required">No necesario</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_min_level">Nivel mínimo</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_min_gear_score">Puntuación de equipo mínima</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_gear_score_requirement_not_met">No cumples el requisito de nivel o puntuación de equipo para unirte a este reclutamiento.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_gear_score_requirement_not_met">No cumples el requisito de nivel o puntuación de equipo para unirte a este vestíbulo.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pvp_mismatch_tooltip">El estado de JcJ debe ser el mismo que el del vestíbulo.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pvp_faction_mismatch_tooltip">En un vestíbulo JcJ solo puede haber jugadores de la misma facción.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_level_unlist_pending_group">Eliminar vestíbulo</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pending">Pendiente...</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pending">Pendiente</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_accepted">Aceptada</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_accepted_roles_label">Solo aceptar</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_apply_disabled_your_lobby">Ya estás en este vestíbulo.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_accepted_roles_label">Roles aceptados</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_select_role_label">Selecciona tu rol</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_your_role_label">Tu rol</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_choose_role_title">Elige tu rol</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_comment_label">Descripción</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_group_list_requirement">{requirement} &lt;font face="lyshineui/fonts/Nimbus_bold.font"&gt;{number}&lt;/font&gt;</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invite_current_group_label">Invitar a los miembros actuales del grupo</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_comment_default">Vestíbulo de {playerName}</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_button_confirm">Solicitud para unirse</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_button_cancel_pending">Cancelar solicitud pendiente</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_button_confirm_directinvitation">Unirse</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_button_confirm_disabled_tooltip">Debes seleccionar un rol.</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_required_item_tooltip">Necesitas {quantity} {item} para crear un nuevo reclutamiento para esta expedición.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_button_confirm_disabled_none_accepted_tooltip">Debes aceptar al menos 1 rol.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_button_confirm_disabled_tooltip_queue">No puedes enviar una solicitud para unirte a un vestíbulo mientras estés en la cola de un modo de juego.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_required_item_tooltip">Necesitas {quantity} {item} para crear un nuevo vestíbulo para esta expedición.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_current_roles_label">Roles actuales en este grupo</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_current_role_text">&lt;img src="{icon}" scale="2.5" yOffset="8.0"&gt;&lt;/img&gt; {count} {role}</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_disabled">No se necesita este rol en el reclutamiento.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_disabled">No se necesita este rol en el vestíbulo.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_recommended_label">SE RECOMIENDA TENER:</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_tank_name">Tanque</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_tank_description">El rol del tanque en un grupo es absorber el daño y atraer la atención de sus enemigos lejos de sus aliados. Los tanques deberían llevar armadura pesada y equiparse con cornalinas que les permitan provocar a los enemigos. Normalmente, un tanque tiene alguna forma de control de multitudes (aturdimiento, inmovilidad, aplastar) para impedir que los enemigos lleguen a sus aliados.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_tank_recommended">Espada y escudo, gran hacha, martillo de guerra</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_dps_name">Daño</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_dps_description">El rol de daño consiste en infligir el mayor daño posible al mayor número de enemigos posibles. Son los responsables de matar enemigos antes de que superen al grupo. Quienes infligen daño deberían invertir en habilidades y atributos concentrados en causar un daño elevado y en los ataques con área de efecto (AOE).</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_dps_recommended">Báculo ígneo, manopla de hielo, destral</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_dps_recommended">Trabuco, arco, báculo ígneo, gran hacha, destral, manoplas de hielo, mosquete, estoque, lanza, manoplas de vacío</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_healer_name">Sanador</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_healer_description">Los sanadores se encargan de mantener al grupo con vida utilizando potenciadores de sanación y mitigación como Fortificación. Los sanadores también son responsables de eliminar cualquier estado negativo dañino de sus aliados, como el sangrado o el veneno. Los sanadores deberían invertir en la concentración para maximizar la efectividad de su sanación.</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_healer_recommended">Báculo de vida</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_groupcreated">Lista creada</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_groupupdated">Lista actualizada</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_groupremoved">Lista eliminada</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_healer_recommended">Báculo de vida, manoplas de vacío</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_groupcreated">Vestíbulo creado</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_groupupdated">Vestíbulo actualizado</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_groupremoved">Vestíbulo eliminado</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_applicationsubmitted">Solicitud enviada</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_applicationremoved">Solicitud eliminada</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_allapplicationsremoved">Todas las solicitudes eliminadas</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_applicationaccepted">Invitación enviada</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_applicationrejected">Solicitud rechazada</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_applicationaccepted">Invitación al vestíbulo enviada</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_application_requested">&lt;font color={color}&gt;{playername}&lt;/font&gt; ha solicitado unirse a tu vestíbulo.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_request_throttled">Demasiadas peticiones, espera un poco e inténtalo de nuevo.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_application_accepted_title">Solicitud aceptada</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_application_accepted">{creator} te ha invitado a unirte a:\n&lt;font color="#85e74c" &gt;[{expedition}]&lt;/font&gt; como &lt;font color={roleColor}&gt;[{role}]&lt;/font&gt;</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_application_accepted">&lt;font color={creatorColor}&gt;{creator}&lt;/font&gt; te ha invitado como &lt;img src="{icon}" scale="2.2" yOffset="7"&gt;&lt;/img&gt;</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_application_accepted_directinvitation">{creator} te ha invitado a unirte a:\n&lt;font color="#85e74c" &gt;[{expedition}]&lt;/font&gt;</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_group_ready_check_title">Formar grupo de expedición</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_group_ready_check">¿Todo listo para formar tu grupo y entrar en la expedición?</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_group_ready_check">¿Todo listo para iniciar la expedición?</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_accept">Aceptar</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_decline">Rechazar</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_requirements">Requisitos</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_sorted_by">Ordenar por</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_time_posted">Tiempo publicado</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_join_with_group">Abrir la expedición con tu grupo</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_difficulty_locked">Debes desbloquear este nivel de dificultad para crear un grupo.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_difficulty_locked">Debes desbloquear este nivel de dificultad para crear un nuevo vestíbulo.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_decline">Rechazar</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationaccepted">Invitación aceptada</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationdeclined">Invitación rechazada</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_memberadded">Miembro añadido a la lista de grupo</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_memberupdated">Miembros de la lista de grupo actualizados</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_memberremoved">Miembro eliminado de la lista de grupo</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_directinvite">Invitar al vestíbulo</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_directinvite_tooltip_not_creator">Solo el creador del vestíbulo puede invitar.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_directinvite_tooltip_already_in_group">{player} ya está en tu vestíbulo.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_directinvite_tooltip_group_full">Tu vestíbulo está lleno.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_directinvite_tooltip_pvp_wrong_faction">En un vestíbulo JcJ solo puede haber jugadores de la misma facción.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_memberadded">Invitación al vestíbulo enviada</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_memberupdated">Miembros del vestíbulo actualizados</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_memberremoved_result">Miembro eliminado del vestíbulo</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_memberremoved">&lt;font color={color}&gt;{playername}&lt;/font&gt; ha sido eliminado del grupo</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_queue_hud_looking_for_more">Buscando más miembros...</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_outpost_rush_signup_fail">No puedes inscribirte porque estás en un vestíbulo de reclutamiento.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_outpost_rush_signup_fail">No puedes inscribirte mientras estás en un vestíbulo.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_dungeon_queue_signup_fail">No puedes entrar en la cola de expedición mientras estás en un vestíbulo.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_queue_hud_group_full">Grupo completo</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_queue_hud_open_expedition">Abrir expedición</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_queue_hud_min_players">Se necesita un mínimo de {amount} miembros para abrir esta expedición.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_queue_hud_min_players">Se necesita un mínimo de {amount} miembros para iniciar esta expedición.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_creator">Creador: &lt;font face="lyshineui/fonts/Nimbus_Semibold.font" color="#ffffff"&gt;{name}&lt;/font&gt;</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_gear_score_requirement">Requisito de puntuación de equipo: &lt;font face="lyshineui/fonts/Nimbus_Semibold.font" color={scoreColor}&gt;{score}&lt;/font&gt;</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_level_requirement">Nivel requerido: &lt;font face="lyshineui/fonts/Nimbus_Semibold.font" color={scoreColor}&gt;{score}&lt;/font&gt;</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_num_members">Jugadores: &lt;font face="lyshineui/fonts/Nimbus_Semibold.font" color="#ffffff"&gt;{numMembers}&lt;/font&gt;/5</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_member_stat">{name} &lt;font face="lyshineui/fonts/Nimbus_Semibold.font" color="#ffffff"&gt;{value}&lt;/font&gt;</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_member_stat_attribute">{name} &lt;font face="lyshineui/fonts/Nimbus_Semibold.font" color="#ffffff"&gt;{value}&lt;/font&gt;</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_member_stat_mastery">&lt;font face="lyshineui/fonts/Nimbus_Semibold.font" color="#ffffff"&gt;{value}&lt;/font&gt; {name}</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_none_equipped">Sin armas equipadas</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_member_list_creator">Creador</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_voice">Voz</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pending_group">Vestíbulo</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_manage_group">Administrar</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_ready_title">¡Listo!</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_ready_waiting">Esperando a otros jugadores...</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_view_group">Ver</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_popup_conflict_leave_lobby_title">Abandonar vestíbulo</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_popup_conflict_leave_lobby_desc">¿Seguro? Si aceptas, saldrás de tu vestíbulo actual.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_popup_conflict_leave_queue_title">Dejar cola</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_popup_conflict_leave_queue_desc">¿Seguro? Si aceptas, saldrás de tu cola actual.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_popup_conflict_rescind_applications_title">Cancelar solicitudes</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_popup_conflict_rescind_applications_desc">¿Seguro? Si aceptas, todas las solicitudes de vestíbulo pendientes serán canceladas.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_tooltip_leave_group_title">Abandonar vestíbulo</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_tooltip_leave_group_desc">¿Seguro que quieres salir del vestíbulo?</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_tooltip_leave_group_desc">¿Seguro que quieres salir de este vestíbulo?</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_tooltip_remove_from_group_title">Eliminar miembro</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_tooltip_remove_from_group_desc">¿Seguro que quieres eliminar a {playerName} del vestíbulo?</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_tooltip_remove_from_group_desc">¿Seguro que quieres echar a {playerName} del vestíbulo?</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_kicked_from_group">Se te ha expulsado del vestíbulo.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_tooltip_unlist_group_title">Eliminar vestíbulo</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_tooltip_unlist_group_desc">¿Seguro que quieres eliminar tu reclutamiento?\nTodos los miembros serán expulsados del vestíbulo.</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_tooltip_leave_and_unlist_group_desc">¿Seguro que quieres salir del vestíbulo?\nEsta acción expulsará a todos los miembros y eliminará tu reclutamiento.</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invite_reject">Solo el creador del reclutamiento puede invitar o rechazar solicitudes de miembros.</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pending_group_invites_header">Reclutamientos de expedición</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_tooltip_unlist_group_desc">¿Seguro que quieres eliminar tu vestíbulo?\n\nTodos los miembros serán expulsados.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_create_lobby_leave_lobby">Debes salir del vestíbulo actual para crear uno nuevo.\n\n¿Seguro que quieres salir del vestíbulo actual?</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_create_lobby_delete_lobby">Debes borrar el vestíbulo actual para crear uno nuevo. ¿Seguro que quieres borrar el vestíbulo actual?\n\nTodos los miembros serán expulsados.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_create_lobby_leave_queue">Debes salir de la cola del modo de juego actual para crear un vestíbulo nuevo.\n\n¿Seguro que quieres salir?</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_join_lobby_leave_lobby">Debes salir del vestíbulo actual para solicitar unirte a este.\n\n¿Seguro que quieres salir del vestíbulo actual?</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_join_lobby_delete_lobby">Debes borrar el vestíbulo actual para solicitar unirte a este. ¿Seguro que quieres borrar el vestíbulo actual?\n\nTodos los miembros serán expulsados.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_tooltip_leave_and_unlist_group_desc">¿Seguro que quieres eliminar el vestíbulo?\n\nTodos los miembros serán expulsados.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invite_reject">Solo el creador del vestíbulo puede invitar o rechazar solicitudes de miembros.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pending_group_invites_header">Invitaciones de vestíbulo</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pending_group_description">&lt;font color="#ffea00" &gt;{creator}&lt;/font&gt; te ha invitado como &lt;font color={roleColor} &gt;{role}&lt;/font&gt;</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pending_group_description_directinvitation">&lt;font color="#ffea00" &gt;{creator}&lt;/font&gt; te ha invitado</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_convert_to_group">Listo para la expedición</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_start_expedition">Inicio</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_tooltip_not_enough_members">No hay miembros suficientes en el vestíbulo</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_difficulty_label">Dificultad</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_appended_difficulty">Dificultad {difficulty}</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_appended_difficulty_queue_hud">Dificultad &lt;font face="lyshineui/fonts/Nimbus_Semibold.font"&gt;{difficulty}&lt;/font&gt;</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_min_level_desc">Tu nivel: {level}\nEl nivel mínimo no puede superar tu nivel.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_min_gear_score_desc">Tu puntuación de equipo: {gearscore}\nLa puntuación mínima de equipo no puede superar tu puntuación de equipo.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_comment_format">«{text}»</string>
+	<string rel_version="Feature_Group_Finder" key="ui_chat_name_group_finder_group">Vestíbulo</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_lobbies_header">Vestíbulos</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_time_ago">Hace {time}</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_posted_time_ago">Se ha publicado hace {time}</string>
+	<string rel_version="Feature_Group_Finder" key="ui_chat_name_group_finder_group_upper">VESTÍBULO</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_chat_button">Abrir chat del vestíbulo</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_your_lobby">Tu vestíbulo</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_created_by">por {creator}</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_chat_lobby_created">{playerName} ha creado un vestíbulo.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_chat_lobby_joined">{playerName} se ha unido al vestíbulo.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_chat_lobby_left">{playerName} ha abandonado el vestíbulo.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_error_group_finder_group_chat" comment="An error when you try to talk in group finder group chat">No estás en ningún vestíbulo</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_create_limit_title">No se puede crear vestíbulo</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_create_limit_desc_regular">Los siguientes miembros del grupo han alcanzado su límite diario de Expedición regular y no pueden unirse a este vestíbulo.\n\n&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{characters}&lt;/font&gt;\n&lt;font color={dateColor}&gt;(Se puede unir el {date})&lt;/font&gt;</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_create_limit_desc_mutated">Los siguientes miembros del grupo han alcanzado su límite semanal de Expedición mutada y no pueden unirse a este vestíbulo.\n\n&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{characters}&lt;/font&gt;\n&lt;font color={dateColor}&gt;(Se puede unir el {date})&lt;/font&gt;</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_limit_refresh">(Se restablece el {date})</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pending_invites_single">&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;1&lt;/font&gt; invitación pendiente</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pending_invites">&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{amount}&lt;/font&gt; invitaciones pendientes</string>
 </resources>
 

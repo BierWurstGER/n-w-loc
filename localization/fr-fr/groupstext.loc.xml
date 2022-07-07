@@ -11,7 +11,9 @@
 	<string key="ui_receivedgroupinvite_hide" comment="">Masquer</string>
 	<string key="ui_togglepvpblocked_title" comment="">Avertissement de mode JcJ</string>
 	<string key="ui_togglepvpblocked_ingroup" comment="">Les joueurs JcJ et JcE ne peuvent pas se regrouper. Activer le mode JcJ vous expulsera de ce groupe.\n\nVoulez-vous vraiment activer le mode JcJ ?</string>
-	<string key="ui_togglepvpblocked_pendinginvites" comment="">Activer le mode JcJ va annuler toutes vos invitations dans le salon de l'expédition.\n\nVoulez-vous vraiment activer le mode JcJ ?</string>
+	<string key="ui_togglepvpblocked_pendinginvites" comment="">Changer votre mode JcJ va supprimer toutes vos invitations de groupe en attente.\n\nVoulez-vous vraiment changer votre mode JcJ ?</string>
+	<string rel_version="Feature_Group_Finder" key="ui_togglepvpblocked_ingroupfindergroup" comment="">Des joueurs JcJ et JcE ne peuvent pas être dans le même salon. Activer le mode JcJ vous expulsera de ce salon.\n\nVoulez-vous vraiment activer le mode JcJ ?</string>
+	<string rel_version="Feature_Group_Finder" key="ui_togglepvpblocked_pendinggroupfinderapplications" comment="">Activer le mode JcJ annulera toutes vos candidatures pour rejoindre un salon.\n\nVoulez-vous vraiment activer le mode JcJ ?</string>
 	<string key="ui_receivedwargroupinvitetitle" comment="">Faites la guerre !</string>
 	<string key="ui_receivedwargroupinvitemessage" comment="">Vous avez été sélectionné(e) pour participer à la guerre en {territoryName}, de {startTime} à {endTime}. Acceptez la téléportation vers le champ de bataille.</string>
 	<string key="ui_receivedinvasiongroupinvitetitle" comment="">Défendez-vous contre l'envahisseur !</string>
@@ -22,6 +24,7 @@
 	<string key="ui_groupinviteacceptraid" comment="">Invitation de groupe acceptée</string>
 	<string key="ui_groupinvitedeclinesentmessage" comment="">Invitation de groupe de &lt;font color="#ffffff"&gt;{playerName}&lt;/font&gt; refusée</string>
 	<string key="ui_groupinvitedeclineraid" comment="">Invitation de groupe refusée</string>
+	<string key="ui_groupinvitedeclinerequeue" comment="">File d'attente réintégrée car un joueur a décliné</string>
 	<string key="ui_groupinvitewithdrawnreceivermessage" comment="">&lt;font color="#ffffff"&gt;{playerName}&lt;/font&gt; a retiré son invitation de groupe.</string>
 	<string key="ui_groupinvitewithdrawnreceivermessage_SHE" comment="">&lt;font color="#ffffff"&gt;{playerName}&lt;/font&gt; a retiré son invitation de groupe.</string>
 	<string key="ui_groupinvitewithdrawnreceivermessage_THEY" comment="">&lt;font color="#ffffff"&gt;{playerName}&lt;/font&gt; a retiré son invitation de groupe.</string>
@@ -52,9 +55,11 @@
 	<string key="ui_cannotinviteingroup" comment="">Impossible d'inviter un membre de votre groupe.</string>
 	<string key="ui_cannotinvitegroupfull" comment="">Votre groupe est déjà au complet.</string>
 	<string key="ui_cannotinviteinraid" comment="">Vous ne pouvez inviter personne pendant une guerre.</string>
+	<string key="ui_cannotinviteinInvasion" comment="">Vous ne pouvez inviter personne pendant une invasion.</string>
 	<string key="ui_cannotinvitein_pvp_wrong_faction" comment="">Doit être dans la même faction pour un groupe JcJ.</string>
 	<string key="ui_cannotleavegroup_in_arena" comment="">Impossible de quitter votre groupe pendant un combat d'arène.</string>
 	<string key="ui_cannotleavegroup_in_war" comment="">Impossible de quitter votre groupe lorsque vous participez à une guerre.</string>
+	<string key="ui_cannotleavegroup_in_invasion" comment="">Impossible de quitter votre groupe pendant une invasion.</string>
 	<string key="ui_cannotleavegroup_in_dungeon" comment="">Impossible de quitter votre groupe pendant une expédition.</string>
 	<string key="ui_cannotjoingroup_in_arena" comment="">Impossible de rejoindre un autre groupe pendant un combat d'arène.</string>
 	<string key="ui_cannotjoingroup_in_dungeon" comment="">Impossible de rejoindre un autre groupe pendant une expédition.</string>

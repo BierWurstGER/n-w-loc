@@ -28,6 +28,10 @@
 	<string key="ui_featured">Featured Deals</string>
 	<string key="ui_show_purchased">Show Unlocked</string>
 	<string key="ui_sort_by">Sort by :</string>
+	<string key="ui_item_claim">Item Claim</string>
+	<string key="ui_claim_button">Claim</string>
+	<string key="ui_preview">Preview</string>
+	<string key="ui_item_already_claimed">Item has already been claimed.</string>
 	<string key="ui_add_more_fictional_currency" rel_version="Feature_MTX">Add More &lt;img src="lyshineui/images/mtx/icon_mtx_currency" scale="2.8" yOffset="10"&gt;&lt;/img&gt;</string>
 	<string key="ui_discount_off">{number} &lt;font face="lyshineui/fonts/Nimbus_Regular.font"&gt;off&lt;/font&gt;</string>
 	<string key="ui_discount_off_bold">{number} &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;off&lt;/font&gt;</string>
@@ -86,7 +90,8 @@
 	<string key="ui_transfer_requirement_not_have_active_orders" rel_version="Feature_MTX">You cannot have active trading post buy/sell orders before transferring</string>
 	<string key="ui_transfer_requirement_minimum_level" rel_version="Feature_MTX">You must be at least level {level} before transferring</string>
 	<string key="ui_transfer_requirement_no_houses" rel_version="Feature_MTX">You must not own any houses before transferring</string>
-	<string key="ui_transfer_requirement_cooldown" rel_version="Feature_MTX">You must wait till the end of the cooldown before you may transfer regions again.</string>
+	<string key="ui_transfer_requirement_cooldown" rel_version="Feature_MTX">You must wait till the end of the cooldown before you may transfer worlds or regions again.</string>
+	<string key="ui_transfer_requirement_cooldown_prefix" rel_version="Feature_MTX">&lt;img src="LyShineUI/Images/Icons/Misc/icon_hourglass_yellow.png" xPadding="0" scale="1.1" yOffset="1"&gt;&lt;/img&gt;</string>
 	<string key="ui_item_restrictions" rel_version="Feature_MTX">Item Restrictions</string>
 	<string key="ui_item_restrictions_item_skins" rel_version="Feature_MTX">&lt;font face="lyshineui/fonts/nimbus_bold_italic.font" &gt;Skins&lt;/font&gt; require the base item to be equipped in order to be visible. &lt;font face="lyshineui/fonts/nimbus_bold_italic.font" &gt;Skins&lt;/font&gt; cannot be dyed.</string>
 	<string key="ui_item_restrictions_crests" rel_version="Feature_MTX">&lt;font face="lyshineui/fonts/nimbus_bold_italic.font" &gt;Company Crests&lt;/font&gt; can only be used if you are the governor (creator) of a company.</string>
@@ -118,7 +123,9 @@
 	<string key="ui_disabled_default_description" rel_version="Feature_MTX">This content is currently unavailable.</string>
 	<string key="ui_disabled_freeplayer_description" rel_version="Feature_MTX">Purchase New World to access the store.</string>
 	<string key="ui_preview_emote">Preview Emote</string>
+	<string key="ui_preview_skin">Preview Skin</string>
 	<string key="ui_end_preview">End Preview</string>
+	<string key="ui_preview_item_withname">{itemName} Preview</string>
 	<string key="ui_limited_time">&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;Limited Time&lt;/font&gt;</string>
 	<string key="ui_release_date">Release Date</string>
 	<string key="ui_price">Price</string>
@@ -132,6 +139,7 @@
 	<string key="ui_skin_applied">Skin applied to item</string>
 	<string key="ui_skins_applied">Skins applied to items</string>
 	<string key="ui_purchase_skin">Browse Skins</string>
+	<string key="ui_shop_tier">TIER &lt;font face="lyshineui/fonts/Pica_Italic.font"&gt;&lt;font color="#ffffff"&gt;{number}&lt;/font&gt;&lt;/font&gt;</string>
 	<string key="ui_mtx_coming_soon">Coming Soon!</string>
 	<string key="ui_button_disabled_dead">You cannot perform this action when you are dead.</string>
 	<string key="url_refundpolicy_US" comment="This does not need to be translated. It will be the same in all languages so that we can use the right region regardless of language set.">https://www.amazongames.com/en-us/support/new-world/articles/amazon-games-refund-policy</string>
@@ -155,6 +163,10 @@
 	<string key="ui_notification_unlock_desc">Items have been added to your account.</string>
 	<string key="ui_notification_unlock_title">Unlocked!</string>
 	<string key="ui_view_item">View Items</string>
+	<string key="ui_claim_fail_achievementmissing" comment="DO NOT TRANSLATE">Entitlement isn't tied to an Achievement! Failed to claim item.</string>
+	<string key="ui_claim_fail_alreadyunlocked">You have already claimed this entitlement.</string>
+	<string key="ui_claim_fail_inventoryfull">Cannot claim entitlement while your inventory is full. Please free up some space and try again.</string>
+	<string key="ui_claim_fail_transactionerror">Transaction error. Please try again.</string>
 	<string key="smolderingscarlet_dye_name" rel_version="Dye_SmolderingScarlet">Smoldering Scarlet</string>
 	<string key="runic_jackal_name" rel_version="Apparel_RunicJackal">Runic Jackal</string>
 	<string key="crescent_fang_name" rel_version="Weapon_CrescentFang">Crescent Fang</string>
@@ -429,7 +441,8 @@
 	<string key="character_rename_description" rel_version="MTX_October_Skins">Allows you to change the character's name.\nSingle use only.</string>
 	<string key="ui_character_world_transfer" rel_version="Feature_Server_Transfer">Character World Transfer</string>
 	<string key="ui_character_region_transfer" rel_version="Feature_Server_Transfer">Character Region Transfer</string>
-	<string key="server_transfer_description" rel_version="Feature_Server_Transfer">Allows you to transfer this character to another world in another region of your choice.</string>
+	<string key="server_transfer_description" rel_version="Feature_Server_Transfer">Allows you to transfer this character to another world or region of your choice.</string>
+	<string key="server_transfer_description_region_disabled" rel_version="Feature_Server_Transfer">Allows you to transfer this character to another world that is within the current region.</string>
 	<string key="server_transfer_extra_detail" rel_version="Feature_Server_Transfer">You are allowed 1 free world transfer on your account. Once claimed, it will no longer be available on other characters.</string>
 	<string key="server_transfer_names" rel_version="Feature_Server_Transfer">Transferring &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{playerName}&lt;/font&gt; to: &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{ServerName}&lt;/font&gt; {WorldSetName}</string>
 	<string key="server_transfer_requirements" rel_version="Feature_Server_Transfer">REQUIREMENTS</string>
@@ -457,8 +470,8 @@
 	<string key="server_transfer_unavailable_target_region_characters_slots_full" rel_version="Feature_Server_Transfer">Character slots in this region are full. You will need to delete or transfer an existing character in this region before you can transfer in another one.</string>
 	<string key="server_transfer_more_details" rel_version="Feature_Server_Transfer">For more details see</string>
 	<string key="server_transfer_transfer_faq" rel_version="Feature_Server_Transfer">Region Transfer FAQ</string>
-	<string key="server_transfer_final_details" rel_version="Feature_Server_Transfer">Confirming Transfer will log you out to the character select main menu.</string>
-	<string key="server_transfer_final_details_purchase" rel_version="Feature_Server_Transfer">After purchasing, you will be logged out to the character select main menu.</string>
+	<string key="server_transfer_final_details" rel_version="Feature_Server_Transfer">Confirming Transfer will log you out to the Character Select Main Menu.</string>
+	<string key="server_transfer_final_details_purchase" rel_version="Feature_Server_Transfer">After purchasing, you will be logged out to the Character Select Main Menu.</string>
 	<string key="server_transfer_change_world" rel_version="Feature_Server_Transfer">Change World</string>
 	<string key="server_transfer_select_world" rel_version="Feature_Server_Transfer">Select World</string>
 	<string key="server_transfer_select_region" rel_version="Feature_Server_Transfer">Select Region</string>
@@ -484,6 +497,7 @@
 	<string key="server_transfer_step_2" rel_version="Feature_Server_Transfer">Step 2 of 2</string>
 	<string key="server_transfer_failed" rel_version="Feature_Server_Transfer">World Transfer Request Failed</string>
 	<string key="server_transfer_disabled" rel_version="Feature_Server_Transfer">World transfers are currently disabled</string>
+	<string key="server_transfer_region_disabled" rel_version="Feature_Server_Transfer">Region transfers are currently disabled</string>
 	<string key="rename_extra_detail" rel_version="MTX_October_Skins">You are allowed 1 free name change on your account. Once claimed, it will no longer be available on other characters.</string>
 	<string key="Housing_Happy_Pumpkin_description" rel_version="MTX_October_Skins">"The miscreant ne’er-do-well was happily damned and damnably happy. You’d smile too if you fooled the Devil himself!"</string>
 	<string key="Housing_Happy_Pumpkin_name" rel_version="MTX_October_Skins">Scapegrace Jack’s Happy Lantern</string>
@@ -750,5 +764,69 @@
 	<string key="Bundle_Decor_FateFortune_description" rel_version="Housing_FateFortune_MTX_Pack_2022">"A thoughtful arrangement of your furnishings can help you form a deeper communion with the spirits roaming Aeternum."</string>
 	<string key="Apparel_FateFortune_SteampunkH_name" rel_version="Apparel_Fortune_2">Starbound</string>
 	<string key="Apparel_FateFortune_SteampunkH_description" rel_version="Apparel_Fortune_2">"The star shines on, bathing Aeternum in the golden light of redemption."</string>
+	<string key="Apparel_ClassicRPG_1_name" rel_version="Apparel_ClassicRPG_1">Barbarian Bruiser</string>
+	<string key="Apparel_ClassicRPG_2_name" rel_version="Apparel_ClassicRPG_2">Raiment of the Ranger</string>
+	<string key="Apparel_ClassicRPG_3_name" rel_version="Apparel_ClassicRPG_3">The Winged Knight</string>
+	<string key="Apparel_ClassicRPG_1_description" rel_version="Apparel_ClassicRPG_1">"Let out the rage that burns deep within your heart."</string>
+	<string key="Apparel_ClassicRPG_2_description" rel_version="Apparel_ClassicRPG_2">"Made of the finest Mourningdale wool, this tunic and cape shift silently as the ranger prowls the wilds."</string>
+	<string key="Apparel_ClassicRPG_3_description" rel_version="Apparel_ClassicRPG_3">"Soar into battle to protect what is rightfully yours."</string>
+	<string key="Weapon_ClassicRPG_Sword_name" rel_version="Weapon_Sword_ClassicRPG_MTX">Dragon's Blade</string>
+	<string key="Weapon_ClassicRPG_ShieldK_name" rel_version="Weapon_KShield_ClassicRPG_MTX">Leviathan's Guard</string>
+	<string key="Weapon_ClassicRPG_Greataxe_name" rel_version="Weapon_GreatAxe_ClassicRPG_MTX">Draconian Edge</string>
+	<string key="Weapon_ClassicRPG_Warhammer_name" rel_version="Weapon_Warhammer_ClassicRPG_MTX">Twin Beasts</string>
+	<string key="Weapon_ClassicRPG_FireStaff_name" rel_version="Weapon_FireStaff_ClassicRPG_MTX">Fire's Breath</string>
+	<string key="Weapon_ClassicRPG_Bow_name" rel_version="Weapon_Bow_ClassicRPG_MTX">Tarragon's Recurve</string>
+	<string key="Weapon_ClassicRPG_Sword_description" rel_version="Weapon_Sword_ClassicRPG_MTX">"Dragons are fine friends to have, and dangerous foes to face."</string>
+	<string key="Weapon_ClassicRPG_ShieldK_description" rel_version="Weapon_KShield_ClassicRPG_MTX">"The might of a dragon is never to be underestimated."</string>
+	<string key="Weapon_ClassicRPG_Greataxe_description" rel_version="Weapon_GreatAxe_ClassicRPG_MTX">"Swing with the ferocity of a mythical beast at your back."</string>
+	<string key="Weapon_ClassicRPG_Warhammer_description" rel_version="Weapon_Warhammer_ClassicRPG_MTX">"Forever intertwined, these two serpents bare their teeth for their next meal."</string>
+	<string key="Weapon_ClassicRPG_FireStaff_description" rel_version="Weapon_FireStaff_ClassicRPG_MTX">"Spitting flames and burning enemies comes as second nature when holding this staff."</string>
+	<string key="Weapon_ClassicRPG_Bow_description" rel_version="Weapon_Bow_ClassicRPG_MTX">"Aim straight and true, for the power of the dragon is with you."</string>
+	<string key="Bundle_PR_RPG_Apparel_name" rel_version="MTX_ClassicRPG_Weapon_Skins">The Dragon's Trove Apparel Bundle</string>
+	<string key="Bundle_PR_RPG_Weapons_name" rel_version="MTX_ClassicRPG_Weapon_Skins">The Dragon's Trove Weapon Bundle</string>
+	<string key="Bundle_PR_RPG_Apparel_description" rel_version="MTX_ClassicRPG_Weapon_Skins">"The perfect attire for exploring primeval forests or abyssal dungeons."</string>
+	<string key="Bundle_PR_RPG_Weapons_description" rel_version="MTX_ClassicRPG_Weapon_Skins">"Weapons that have long slumbered in the lair of a wicked worm, still sharp and ready for battle."</string>
+	<string key="Bundle_Crest_Plants_name" rel_version="Crest_Pack_Plants">Plant Crest Pack</string>
+	<string key="Bundle_Crest_Plants_description" rel_version="Crest_Pack_Plants">"A harvester's dream come true."</string>
+	<string key="ui_crestforeground_213" rel_version="Crest_Pack_Plants">Sheaf of Plants</string>
+	<string key="ui_crestforeground_214" rel_version="Crest_Pack_Plants">Hemp Leaf</string>
+	<string key="ui_crestforeground_215" rel_version="Crest_Pack_Plants">Hemp Plant</string>
+	<string key="Bundle_PR_SilentDeath_Apparel_name" rel_version="Bundle_Apparel_SilentDeath">Assassin's Whisper Apparel Bundle</string>
+	<string key="Bundle_PR_SilentDeath_Weapons_name" rel_version="Bundle_Weapons_SilentDeath">Assassin's Whisper Weapon Bundle</string>
+	<string key="Bundle_PR_LaunchPets_name" rel_version="Bundle_Pets_LaunchPets">Furry Friends</string>
+	<string key="Bundle_PR_LegendaryToolsets_name" rel_version="Bundle_Toolsets_Legendary">Tools of Legend</string>
+	<string key="Bundle_PR_SilentDeath_Apparel_description" rel_version="Bundle_Apparel_SilentDeath">"Stalk your enemies with confidence, knowing that when they realize you're there… it's already too late."</string>
+	<string key="Bundle_PR_SilentDeath_Weapons_description" rel_version="Bundle_Weapons_SilentDeath">"The tools of someone fanatically dedicated to the taking of life."</string>
+	<string key="Bundle_PR_LaunchPets_description" rel_version="Bundle_Pets_LaunchPets">"Everyone needs companionship on this twisted, cruel island. Invite these four-legged friends into your home."</string>
+	<string key="Bundle_PR_LegendaryToolsets_description" rel_version="Bundle_Toolsets_Legendary">"Masterly crafted toolsets demonstrate your flair while you do the hard work required to build a fortune."</string>
+	<string key="Apparel_SilentDeath_L_name" rel_version="Apparel_SilentDeath_L">Studded Stalker</string>
+	<string key="Apparel_SilentDeath_L_description" rel_version="Apparel_SilentDeath_L">"Made of the finest studded leather in Aeternum it is equally protective as it is silent in movement."</string>
+	<string key="Apparel_SilentDeath_M_name" rel_version="Apparel_SilentDeath_M">Metal Raven</string>
+	<string key="Apparel_SilentDeath_M_description" rel_version="Apparel_SilentDeath_M">"What looks at first to be a large bird running at you will be your untimely demise."</string>
+	<string key="Apparel_SilentDeath_H_name" rel_version="Apparel_SilentDeath_H">Pauldroned Fears</string>
+	<string key="Apparel_SilentDeath_H_description" rel_version="Apparel_SilentDeath_H">"Your worst nightmare come alive to haunt the battlefields of Aeternum."</string>
+	<string key="Bundle_Tool_SilentDeath_name" rel_version="ToolSkins_SilentDeath_MTX">Assassin's Tools</string>
+	<string key="Bundle_Tool_SilentDeath_description" rel_version="ToolSkins_SilentDeath_MTX">"For those in the dark trades, even resource gathering is done in the black of night."</string>
+	<string key="Bundle_Decor_ClassicRPG_name" rel_version="Housing_RPG_MTX_Pack_2022">The Dragon's Trove Décor Bundle</string>
+	<string key="Bundle_Decor_ClassicRPG_description" rel_version="Housing_RPG_MTX_Pack_2022">"A hoard within the home, reminders of a glorious life of adventuring."</string>
+	<string key="Apparel_Metal_L_name" rel_version="Apparel_Metal_L">Spiked Shredder</string>
+	<string key="Apparel_Metal_L_description" rel_version="Apparel_Metal_L">"Because you're not hardcore unless you live hardcore."</string>
+	<string key="Apparel_Metal_M_name" rel_version="Apparel_Metal_M">Horned Hero</string>
+	<string key="Apparel_Metal_M_description" rel_version="Apparel_Metal_M">"Be the diehard hero of the Medleyfaire with this intimidating style."</string>
+	<string key="Apparel_Metal_H_name" rel_version="Apparel_Metal_H">Devil Went Down To Aeternum</string>
+	<string key="Apparel_Metal_H_description" rel_version="Apparel_Metal_H">"Proof you've outsmarted the devil himself in a fiddle play-off."</string>
+	<string key="Bundle_Tool_Metal_name" rel_version="ToolSkins_Metal_MTX">Heavy Metal Toolset</string>
+	<string key="Bundle_Tool_Metal_description" rel_version="ToolSkins_Metal_MTX">"For those who find the harshest melodies in the simplest of tasks."</string>
+	<string key="Bundle_Decor_Metal_name" rel_version="Housing_Metal_MTX_Pack_2022">Heavy Metal Décor Bundle</string>
+	<string key="Bundle_Decor_Metal_description" rel_version="Housing_Metal_MTX_Pack_2022">"Know that if you come knocking, this house will be rocking."</string>
+	<string key="reward_type_Instrumentskin_Flute" rel_version="Instrument_Flute_Metal_MTX">Azoth Flute Skin</string>
+	<string key="reward_type_Instrumentskin_Drum" rel_version="Instrument_Drums_Metal_MTX">Drum Skin</string>
+	<string key="reward_type_Instrumentskin_Guitar" rel_version="Instrument_Guitar_Metal_MTX">Guitar Skin</string>
+	<string key="reward_type_Instrumentskin_UprightBass" rel_version="Instrument_Bass_Metal_MTX">Upright Bass Skin</string>
+	<string key="reward_type_Instrumentskin_Mandolin" rel_version="Instrument_Mandolin_Metal_MTX">Mandolin Skin</string>
+	<string key="Bundle_PR_Metal_Instruments_name" rel_version="Entitlements_July_2022">Heavy Metal Instrument Bundle</string>
+	<string key="Bundle_PR_Metal_Instruments_description" rel_version="Entitlements_July_2022">"Test your metal."</string>
+	<string key="Bundle_PR_Metal_Megapack_name" rel_version="Entitlements_July_2022">Heavy Metal Mega-pack</string>
+	<string key="Bundle_PR_Metal_Megapack_description" rel_version="Entitlements_July_2022">"Heavy lies the head that tunes down."</string>
 </resources>
 

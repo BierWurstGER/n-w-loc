@@ -21,6 +21,8 @@
 	<string key="ui_notoolmining">Nie wyposażono się w oskard</string>
 	<string key="ui_lowskillmining" comment="the required skill level will be shown in a circle immediately to the right of this string">Wymagana umiejętność górnictwa</string>
 	<string key="ui_notoolazothstaff">Nie wyposażono się w: {itemName} klasy {tier}</string>
+	<string key="ui_notoolitem_multiple">Wymaga: {itemName} x{count}</string>
+	<string key="ui_notoolitem">Wymaga: {itemName}</string>
 	<string key="ui_nopermission">Brak dostępu publicznego.</string>
 	<string key="ui_nopermissionrank">Stopień "{rank}" nie ma pozwolenia na to działanie ({action}).</string>
 	<string key="ui_nopermissionpublic">To działanie ({action}) nie jest dozwolone w przypadku konstrukcji publicznych.</string>
@@ -63,6 +65,7 @@
 	<string key="ui_interact_territory_functionality_down">BŁĄD SERWERA: Spróbuj ponownie za kilka minut.</string>
 	<string key="ui_interact_with_item_cost">{interactionName} ({amount} {itemName})</string>
 	<string key="ui_interact_with_item_cost_sufficient">{interactionName} ({have}/{need} &lt;img src="{itemName}" xPadding="2" scale="1.25" yOffset="0.5"&gt;&lt;/img&gt;)</string>
+	<string key="ui_interact_with_item_cost_sufficient_no_qty">{interactionName} (&lt;img src="{itemName}" xPadding="2" scale="1.25" yOffset="0.5"&gt;&lt;/img&gt;)</string>
 	<string key="ui_interact_with_item_cost_insufficient">{interactionName} (&lt;font color="#f14b4b"&gt;{have}&lt;/font&gt;/{need} &lt;img src="{itemName}" xPadding="2" scale="1.25" yOffset="0.5"&gt;&lt;/img&gt;)</string>
 	<string key="ui_interact_with_item_cost_not_needed">{interactionName} – Niepotrzebne</string>
 	<string key="ui_interactable_only_in_conquest_phase">{interactionName} – Można użyć tylko podczas aktywnej wojny</string>
@@ -74,10 +77,14 @@
 	<string key="ui_not_available">Niedostępne</string>
 	<string key="ui_blowhorn">Użyj rogu</string>
 	<string key="ui_useturret">Użyj wieżyczki</string>
+	<string key="ui_useturret_12MB04_inactivity">Usunięto cię z powodu braku aktywności.</string>
+	<string key="ui_useturret_12MB04_timeout">Używasz tego zbyt długo!</string>
 	<string key="ui_usefiredropper">Użyj beczki z płonącym olejem</string>
 	<string key="ui_notification_turret_repair">WIEŻYCZKA NAPRAWIONA</string>
 	<string key="ui_notification_turret_reload">WIEŻYCZKA PRZEŁADOWANA</string>
 	<string key="ui_notification_turret_not_ready">WIEŻYCZKA NIEGOTOWA</string>
+	<string key="ui_notification_turret_timeout">Usunięto cię z powodu przekroczenia dopuszczalnego czasu użytkowania</string>
+	<string key="ui_notification_turret_inactive_timeout">Usunięto cię z powodu braku aktywności.</string>
 	<string key="ui_build_structure_menu">Zbuduj obiekt</string>
 	<string key="ui_replace_structure_menu">Zamień obiekt</string>
 	<string key="ui_place_structure">Umieść konstrukcję</string>
@@ -85,5 +92,14 @@
 	<string key="ui_notification_summoning_stone_placed">KAMIEŃ PRZYWOŁANIA UMIESZCZONY</string>
 	<string key="ui_watcherscampfire">Ognisko strażnika</string>
 	<string key="ui_hunterscampfire">Ognisko łowcy</string>
+	<string key="ui_interact_tip_coin" rel_version="Feature_MusicalPerformances">{interactionName} {coin} &lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt;</string>
+	<string key="ui_notification_tip_donated" rel_version="Feature_MusicalPerformances">Napiwek przekazany</string>
+	<string key="ui_any_song_gather">[{keybind}] Wykonaj dowolny utwór, by zebrać</string>
+	<string key="ui_song_gather">[{keybind}] Wykonaj, by zebrać</string>
+	<string key="ui_restriction_learn_song"/>
+	<string key="ui_restriction_equip_instrument"/>
+	<string key="ui_reset_available_in">Dostępne za {time}</string>
+	<string key="ui_emote_gather">[{keybind}] Użyj gestu {tagName}, by zebrać</string>
+	<string key="ui_emotetag_dance">Tańcz</string>
 </resources>
 

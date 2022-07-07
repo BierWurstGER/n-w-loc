@@ -543,7 +543,7 @@
 	<string key="BoostVoidAbs_GroupName">Poções de Defesa Imaterial</string>
 	<string key="bounty_GroupName">Talismã</string>
 	<string key="bountymagic_GroupName">Animosidade Vacante</string>
-	<string key="BowA_GroupDesc">Uma arma a distância versátil que pode disparar flechas rapidamente ou ser puxada totalmente para causar dano máximo. É ótima para manter a distância enquanto utiliza uma variedade de ataques para atrasar e causar dano aos inimigos.\n\n•Puxada Curta: Causa {[DamageTable.BowAttack1.DmgCoef * 100]}% de Dano Perfurante.\n•Puxada Longa: Causa {[DamageTable.BowAttack2.DmgCoef * 100]}% de Dano Perfurante.</string>
+	<string key="BowA_GroupDesc">Uma arma a distância versátil que pode disparar flechas rapidamente ou ser puxada totalmente para causar dano máximo. Ótimo para manter a distância enquanto utiliza uma variedade de ataques para atrasar e causar dano aos inimigos.\n\n•Disparo Sem Mira: Causa {[DamageTable.BowAttack_Hipshot.DmgCoef * 100]}% de Dano Perfurante.\n•Puxada Curta: Causa {[DamageTable.BowAttack1.DmgCoef * 100]}% de Dano Perfurante.\n•Puxada Longa: Causa {[DamageTable.BowAttack2.DmgCoef * 100]}% de Dano Perfurante.</string>
 	<string key="BowA_GroupName">Arcos</string>
 	<string key="BowA2_GroupName">Arcos</string>
 	<string key="BowB_GroupDesc">2 Mãos. Uma arma a distância que utiliza flechas. Para que o dano máximo seja alcançado, as flechas devem ser puxadas completamente antes do disparo.</string>
@@ -728,6 +728,7 @@
 	<string key="ClothT3_GroupName">Tecidos de Escala 3</string>
 	<string key="ClothT4_GroupName">Tecidos de Escala 4</string>
 	<string key="ClothT5_GroupName">Tecidos de Escala 5</string>
+	<string key="ClothT51_GroupName">Tecido Lendário</string>
 	<string key="CoatingAncient_GroupDesc">Revestimentos que aumentam o dano contra os Anciãos.</string>
 	<string key="CoatingAncient_GroupName">Revestimento Ancião</string>
 	<string key="CoatingAngryEarth_GroupDesc">Revestimentos que aumentam o dano contra as Criaturas da Terra Indócil.</string>
@@ -854,8 +855,9 @@
 	<string key="DungeonReps6_GroupName">Réplicas da Importância de Lázaro</string>
 	<string key="DungeonReps7_GroupName">Réplicas do Jardim da Criação</string>
 	<string key="DungeonReps8_GroupName">NOME PENDENTE</string>
-	<string key="DungeonReps9_GroupName">NOME PENDENTE</string>
+	<string key="DungeonReps9_GroupName">Réplicas do Coração da Tempestade</string>
 	<string key="DungeonShields_GroupName">Escudos de Expedição</string>
+	<string key="DungeonReps12_GroupName">Recompensas Únicas de Expedição</string>
 	<string key="Dye1_GroupDesc">Confeccione um dos diversos tons da Tintura Vermelha.</string>
 	<string key="Dye1_GroupName">Tintura Vermelha</string>
 	<string key="Dye10_GroupDesc">Tintura Úmbria para sua armadura.</string>
@@ -969,6 +971,32 @@
 	<string key="FishLarge_GroupName">Peixes Grandes</string>
 	<string key="FishMedium_GroupName">Peixes Médios</string>
 	<string key="FishSmall_GroupName">Peixes Pequenos</string>
+	<string key="Bass_GroupName">Robalo</string>
+	<string key="Bluefish_GroupName">Anchova</string>
+	<string key="Catfish_GroupName">Bagre</string>
+	<string key="Cod_GroupName">Bacalhau</string>
+	<string key="Dragonfish_GroupName">Peixe-víbora</string>
+	<string key="ElectricEel_GroupName">Peixe-elétrico</string>
+	<string key="Flounder_GroupName">Linguado</string>
+	<string key="Frogfish_GroupName">Peixe-sapo</string>
+	<string key="Hake_GroupName">Pescada</string>
+	<string key="Halibut_GroupName">Halibute</string>
+	<string key="Mackerel_GroupName">Cavala</string>
+	<string key="Madtom_GroupName">Bagre-madtom</string>
+	<string key="Paddlefish_GroupName">Peixe-espátula</string>
+	<string key="Pike_GroupName">Lúcio</string>
+	<string key="Piranha_GroupName">Piranha</string>
+	<string key="Salmon_GroupName">Salmão</string>
+	<string key="Sculpin_GroupName">Mangangá</string>
+	<string key="Snapper_GroupName">Pargo</string>
+	<string key="SpeartoothShark_GroupName">Tubarão Dente-de-lança</string>
+	<string key="Squid_GroupName">Lula</string>
+	<string key="Stingray_GroupName">Arraia</string>
+	<string key="Sturgeon_GroupName">Esturjão</string>
+	<string key="Sunfish_GroupName">Peixe-lua</string>
+	<string key="Swordfish_GroupName">Espadarte</string>
+	<string key="Trout_GroupName">Truta</string>
+	<string key="Perch_GroupName">Perca</string>
 	<string key="flint_GroupName">Cascalhos</string>
 	<string key="Flowers_GroupName">Flores</string>
 	<string key="Flux_GroupName">Fundentes</string>
@@ -1230,6 +1258,7 @@
 	<string key="LeatherT3_GroupName">Couro de Escala 3</string>
 	<string key="LeatherT4_GroupName">Couro de Escala 4</string>
 	<string key="LeatherT5_GroupName">Couro de Escala 5</string>
+	<string key="LeatherT51_GroupName">Couro Lendário</string>
 	<string key="lightChestA_GroupName">Camisa do Duelista Confeccionada</string>
 	<string key="lightChestAFound_GroupName">Camisa do Duelista Recuperada</string>
 	<string key="lightChestB_GroupName">Robe do Sábio Confeccionado</string>
@@ -1358,6 +1387,7 @@
 	<string key="MetalT3_GroupName">Metais de Escala 3</string>
 	<string key="MetalT4_GroupName">Metais de Escala 4</string>
 	<string key="MetalT5_GroupName">Metais de Escala 5</string>
+	<string key="MetalT51_GroupName">Metais Lendários</string>
 	<string key="MinerChest_GroupName">Camisa do Minerador</string>
 	<string key="MinerFeet_GroupName">Botas do Minerador</string>
 	<string key="MinerHands_GroupName">Luvas do Minerador</string>
@@ -1376,6 +1406,10 @@
 	<string key="nut_GroupName">Castanhas</string>
 	<string key="Offensive_GroupName">Modificadores Ofensivos</string>
 	<string key="oil_GroupName">Óleo</string>
+	<string key="beeswax_GroupName">Cera de Abelha</string>
+	<string key="DroppedAmulet_GroupName">Amuletos Derrubados</string>
+	<string key="DroppedRing_GroupName">Anéis Derrubados</string>
+	<string key="DroppedEarring_GroupName">Brincos Derrubados</string>
 	<string key="OnyxCut_GroupDesc">Gemas de Ônix Lapidadas e Polidas. Podem ser transformadas em joias para aumentar Constituição ou fixadas em equipamentos para fornecer as vantagens Ímpeto e Proteção Física.</string>
 	<string key="OnyxCut_GroupName">Ônix Lapidado</string>
 	<string key="OpalCut_GroupDesc">Gemas de Opala Lapidadas e Polidas. Podem ser transformadas em joias para aumentar Foco ou fixadas em equipamentos para fornecer as vantagens Subterfúgio e Proteção Elemental.</string>
@@ -1695,7 +1729,7 @@
 	<string key="STRTrinkets_GroupDesc">Acessórios que aumentam o Atributo de Força.</string>
 	<string key="STRTrinkets_GroupName">Acessórios de Força</string>
 	<string key="SurvivalTools_GroupName">Ferramentas de Sobrevivência</string>
-	<string key="SwordA_GroupDesc">Um par de armas voltadas para combate corpo a corpo que, quando combinadas, oferecem capacidades ofensivas e defensivas sólidas. Utiliza uma combinação de golpes em arcos e estocadas para os ataques corpo a corpo e um Escudo para maximizar as defesas.\n\n•Ataque Leve: Causa {[DamageTable.1H_Sword_Attack1.DmgCoef * 100]}% de Dano Cortante.\n•Finalizador Leve: Causa {[DamageTable.1H_Sword_Attack1_Ender.DmgCoef * 100]}% de Dano Cortante.\n•Ataque Pesado: Causa {[DamageTable.1H_Sword_Attack2.DmgCoef * 100]}% de Dano Perfurante.\n•Ataque Pesado Carregado: Causa {[DamageTable.1H_Sword_Attack2_Charged.DmgCoef * 100]}% de Dano Perfurante.</string>
+	<string key="SwordA_GroupDesc">Um par de armas voltadas para combate corpo a corpo que, quando combinadas, oferecem sólidos recursos ofensivos e defensivos. Utiliza uma combinação de golpes em arcos e estocadas para os ataques e um escudo para maximizar as defesas.\n\n•Ataque Leve: Causa {[DamageTable.1H_Sword_Attack1.DmgCoef * 100]}% de Dano Cortante.\n•Finalizador Leve: Causa {[DamageTable.1H_Sword_Attack1_Ender.DmgCoef * 100]}% de Dano Cortante.\n•Ataque Pesado: Causa {[DamageTable.1H_Sword_Attack2.DmgCoef * 100]}% de Dano Perfurante.\n•Ataque Pesado Carregado: Causa {[DamageTable.1H_Sword_Attack2_Charged.DmgCoef * 100]}% de Dano Perfurante.</string>
 	<string key="SwordA_GroupName">Espada Reta</string>
 	<string key="SwordB_GroupDesc">Uma arma corpo a corpo voltada para a velocidade, com uma variedade de ataques de estocadas rápidas. Destaca-se nos movimentos na hora certa e em manobras evasivas contra os adversários, enquanto aplica sangramentos que drenam gradativamente a saúde do alvo.\n\n•Ataque Leve: Causa {[DamageTable.1H_Rapier_PrimaryAttack.DmgCoef * 100]}% de Dano Perfurante.\n•Cortes Médios Leves: Causa {[DamageTable.1H_Rapier_PrimaryTwoThirdsAttack.DmgCoef * 100]}% de Dano Perfurante.\n•Ataque Pesado: Causa {[DamageTable.1H_Rapier_HeavyAttack.DmgCoef * 100]}% de Dano Perfurante.</string>
 	<string key="SwordB_GroupName">Rapieira</string>
@@ -1712,9 +1746,10 @@
 	<string key="TimberT3_GroupName">Tábua de Escala 3</string>
 	<string key="TimberT4_GroupName">Tábua de Escala 4</string>
 	<string key="TimberT5_GroupName">Tábua de Escala 5</string>
+	<string key="TimberT51_GroupName">Tábua Lendária</string>
 	<string key="TinctureBlight_GroupName">Extratos Maculados</string>
 	<string key="TinctureCorruption_GroupName">Extratos de Corrupção</string>
-	<string key="Tokens_GroupName">Tokens da Convergência de Inverno</string>
+	<string key="Tokens_GroupName">Tokens de Evento</string>
 	<string key="TokenCreation_GroupName">Criação de Token</string>
 	<string key="TokenConversion_GroupName">Conversão de Token</string>
 	<string key="ToolHatchet_GroupDesc">1 Mão. Coleta madeira.</string>
@@ -1785,7 +1820,6 @@
 	<string key="wood_GroupName">Madeiras</string>
 	<string key="WoodAny_CategoryName">Qualquer Madeira</string>
 	<string key="WorkOrder_GroupName">Ordens de Trabalho</string>
-	<string key="CategoryData_CookingRecipes">Receitas Culinárias</string>
 	<string key="Pattern">Padrões</string>
 	<string key="PatternRecipes">Receitas de padrão</string>
 	<string key="Lodestone">Magnetita</string>
@@ -1801,8 +1835,42 @@
 	<string key="TimelessShardsCon">Fragmentos Atemporais — Constituição</string>
 	<string key="ArmorShadow_GroupName">Andarilho das Sombras</string>
 	<string key="ArmorBeast_GroupName">Caçador de Feras</string>
-	<string key="CategoryData_EventConsumables" rel_version="Feature_RabbitSeason">Consumíveis de Evento</string>
-	<string key="ConsumableLuck_GroupName" rel_version="Feature_RabbitSeason">Consumíveis da Sorte</string>
+	<string key="CategoryData_EventConsumables">Consumíveis de Evento</string>
+	<string key="ConsumableLuck_GroupName" rel_version="Feature_RabbitSeasonPerm">Consumíveis da Sorte</string>
+	<string key="CategoryData_DyeIngredients" rel_version="Feature_RabbitSeasonPerm">Ingredientes de Tintura</string>
 	<string key="Blunderbuss_GroupName">Bacamartes</string>
+	<string key="PerfectSalvageArmor_Name">Restos de Armadura</string>
+	<string key="PerfectSalvageWeapons_Name">Restos de Arma</string>
+	<string key="PerfectSalvageJewelry_Name">Restos de Joia</string>
+	<string key="PerfectSalvageEngineer_Name">Restos de Engenharia</string>
+	<string key="PerfectSalvageArcane_Name">Restos de Arcano</string>
+	<string key="SalvageTier2_Name">Restos de Escala II</string>
+	<string key="SalvageTier3_Name">Restos de Escala III</string>
+	<string key="SalvageTier4_Name">Restos de Escala IV</string>
+	<string key="SalvageTier5_Name">Restos de Escala V</string>
+	<string key="Salvage">Sucatear Restos</string>
+	<string key="SalvageExtract">Extrair</string>
+	<string key="SalvageCreate">Fabricar</string>
+	<string key="SalvageResearch">Pesquisar</string>
+	<string key="SalvageCondense">Condensar</string>
+	<string key="AlchemyCritters_GroupName">Criaturas de Alquimia</string>
+	<string key="SummerMemento" rel_version="Event_Summer_Temp">Lembranças de Verão</string>
+	<string key="MementoStand" rel_version="Event_Summer_Temp">Estandes de Lembranças</string>
+	<string key="SmallMemento" rel_version="Event_Summer_Temp">Lembranças de Peixes Pequenos</string>
+	<string key="MediumMemento" rel_version="Event_Summer_Temp">Lembranças de Peixes Médios</string>
+	<string key="LargeMemento" rel_version="Event_Summer_Temp">Lembranças de Peixes Grandes</string>
+	<string key="Instruments_GroupName" rel_version="Feature_MusicalPerformances">Instrumentos</string>
+	<string key="CategoryData_Instruments" rel_version="Feature_MusicalPerformances">Instrumentos</string>
+	<string key="InstrumentParts_GroupName" rel_version="Feature_MusicalPerformances">Partes de Instrumento</string>
+	<string key="CategoryData_MusicSheets" rel_version="Feature_MusicalPerformances">Partituras</string>
+	<string key="Flutes_GroupName" rel_version="Feature_MusicalPerformances">Música de Flauta de Azoth</string>
+	<string key="Drums_GroupName" rel_version="Feature_MusicalPerformances">Música de Tambor</string>
+	<string key="Guitars_GroupName" rel_version="Feature_MusicalPerformances">Música de Violão</string>
+	<string key="UprightBasss_GroupName" rel_version="Feature_MusicalPerformances">Música de Contrabaixo</string>
+	<string key="Mandolins_GroupName" rel_version="Feature_MusicalPerformances">Música de Bandolim</string>
+	<string key="DungeonReps11_GroupName" rel_version="Expedition_CutlassKeys_00">Réplicas de Cracas e Pólvora Preta</string>
+	<string key="TerritorySupplies_GroupName">Suprimentos de Território</string>
+	<string key="TerritoryContribution_GroupName">Contribuições de Território</string>
+	<string key="InstrumentComponents_GroupName" rel_version="Feature_MusicalPerformances">Componentes de Instrumentos</string>
 </resources>
 

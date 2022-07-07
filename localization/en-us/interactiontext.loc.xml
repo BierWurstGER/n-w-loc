@@ -21,6 +21,8 @@
 	<string key="ui_notoolmining">No equipped Pick</string>
 	<string key="ui_lowskillmining" comment="the required skill level will be shown in a circle immediately to the right of this string">Requires Mining skill</string>
 	<string key="ui_notoolazothstaff">No equipped {itemName} Tier {tier}</string>
+	<string key="ui_notoolitem_multiple">Requires {count}x {itemName}</string>
+	<string key="ui_notoolitem">Requires {itemName}</string>
 	<string key="ui_nopermission">No public access.</string>
 	<string key="ui_nopermissionrank">Rank '{rank}' doesn't have permission to '{action}'.</string>
 	<string key="ui_nopermissionpublic">'{action}' not allowed on public structures.</string>
@@ -63,6 +65,7 @@
 	<string key="ui_interact_territory_functionality_down">SERVER ERROR: Try again in a few minutes.</string>
 	<string key="ui_interact_with_item_cost">{interactionName} ({amount} {itemName})</string>
 	<string key="ui_interact_with_item_cost_sufficient">{interactionName} ({have}/{need} &lt;img src="{itemName}" xPadding="2" scale="1.25" yOffset="0.5"&gt;&lt;/img&gt;)</string>
+	<string key="ui_interact_with_item_cost_sufficient_no_qty">{interactionName} (&lt;img src="{itemName}" xPadding="2" scale="1.25" yOffset="0.5"&gt;&lt;/img&gt;)</string>
 	<string key="ui_interact_with_item_cost_insufficient">{interactionName} (&lt;font color="#f14b4b"&gt;{have}&lt;/font&gt;/{need} &lt;img src="{itemName}" xPadding="2" scale="1.25" yOffset="0.5"&gt;&lt;/img&gt;)</string>
 	<string key="ui_interact_with_item_cost_not_needed">{interactionName} - Not Needed</string>
 	<string key="ui_interactable_only_in_conquest_phase">{interactionName} - Only usable during active war</string>
@@ -74,10 +77,14 @@
 	<string key="ui_not_available">Not available</string>
 	<string key="ui_blowhorn">Use Horn</string>
 	<string key="ui_useturret">Use Turret</string>
+	<string key="ui_useturret_12MB04_inactivity">You have been removed for inactivity.</string>
+	<string key="ui_useturret_12MB04_timeout">You have been using this for too long!</string>
 	<string key="ui_usefiredropper">Use Burning Oil Vat</string>
 	<string key="ui_notification_turret_repair">TURRET REPAIRED</string>
 	<string key="ui_notification_turret_reload">TURRET RELOADED</string>
 	<string key="ui_notification_turret_not_ready">TURRET NOT READY</string>
+	<string key="ui_notification_turret_timeout">You have been removed for exceeding the max usage time</string>
+	<string key="ui_notification_turret_inactive_timeout">You have been removed due to inactivity</string>
 	<string key="ui_build_structure_menu">Build Structure</string>
 	<string key="ui_replace_structure_menu">Replace Structure</string>
 	<string key="ui_place_structure">Place Structure</string>
@@ -85,5 +92,14 @@
 	<string key="ui_notification_summoning_stone_placed">SUMMONING STONE PLACED</string>
 	<string key="ui_watcherscampfire">Watcher's Campfire</string>
 	<string key="ui_hunterscampfire">Hunter's Campfire</string>
+	<string key="ui_interact_tip_coin" rel_version="Feature_MusicalPerformances">{interactionName} {coin} &lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt;</string>
+	<string key="ui_notification_tip_donated" rel_version="Feature_MusicalPerformances">Tip Donated</string>
+	<string key="ui_any_song_gather">[{keybind}] Perform any song to Gather</string>
+	<string key="ui_song_gather">[{keybind}] Perform {songName} to Gather</string>
+	<string key="ui_restriction_learn_song">Learn {songName} to Gather</string>
+	<string key="ui_restriction_equip_instrument">Equip instrument to Gather</string>
+	<string key="ui_reset_available_in">Available in {time}</string>
+	<string key="ui_emote_gather">[{keybind}] Perform {tagName} Emote to Gather</string>
+	<string key="ui_emotetag_dance">Dance</string>
 </resources>
 

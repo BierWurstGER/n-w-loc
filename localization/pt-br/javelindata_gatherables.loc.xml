@@ -360,6 +360,8 @@
 	<string key="LootContainer_Settlement_Tannin_DisplayName">Pegar Tanino</string>
 	<string key="LootContainer_Settlement_Sandpaper_DisplayName">Pegar Lixas</string>
 	<string key="LootContainer_Settlement_Water_DisplayName">Puxar o Poço</string>
+	<string key="LootContainer_OpenStoneTomb_DisplayName">Abrir Sarcófago</string>
+	<string key="LootContainer_StoneTomb_DisplayName">Roubar Oferendas do Túmulo</string>
 	<string key="Item_PotionHealT1_DisplayName">Extrato Curativo Destilado</string>
 	<string key="Item_ClothT2_DisplayName">Retalhos de Tecido</string>
 	<string key="Darkness_Monolith_DisplayName">Monólito Corrompido</string>
@@ -522,20 +524,25 @@
 	<string key="1401_BlightTinctureBomb_DisplayName">Colocar Bomba</string>
 	<string key="1402_CorruptedOre_DisplayName">Destruir Minério Corrompido</string>
 	<string key="1403_WyrdwoodGrowth_DisplayName">Coletar Crescimentos de Urdeira</string>
-	<string key="1426_0102_WeakenWall_DisplayName" rel_version="Quest_Supplement_Edengrove">Andaime</string>
 	<string key="1525_1519_Quiver_DisplayName">Aljava de Myrtilus</string>
 	<string key="1526_1521_LynxEvidence1_DisplayName">Gaiola do Lince-pardo</string>
 	<string key="1526_1521_LynxEvidence2_DisplayName">Isca de Lince-pardo</string>
 	<string key="1526_1521_LynxEvidence3_DisplayName">Contenções de Lince-pardo</string>
 	<string key="1524_GoldenStash_interact">O Esconderijo Dourado</string>
 	<string key="1524_Doubloon_DisplayName">Uma Trilha de Dobrões</string>
+	<string key="9926_0103_VKCannonA_DisplayName" rel_version="AI_Evil_Knights_P2">Girar Canhão</string>
+	<string key="9926_0103_VKCannonB_DisplayName" rel_version="AI_Evil_Knights_P2">Disparar Canhão</string>
+	<string key="9926_0103_RomacPack_DisplayName" rel_version="AI_Evil_Knights_P2">Coletar a Algibeira de Romac</string>
+	<string key="9926_0103_ActivityReport_DisplayName" rel_version="AI_Evil_Knights_P2">Coletar Relatório de Atividade</string>
+	<string key="9932_0104_RomacNotebook_DisplayName" rel_version="AI_Evil_Knights_P2">Recuperar Caderno de Romac</string>
 	<string key="MSQ_ShipsLocker_DisplayName">Compartimento da Embarcação</string>
-	<string key="MSQ_Flag_DisplayName">Bandeira do Navio</string>
+	<string key="MSQ_Flag_DisplayName">Colete a Bandeira do Navio</string>
 	<string key="MSQ_SalvagePile_A_DisplayName">Pilha de Sucata</string>
 	<string key="MSQ_SalvagePile_B_DisplayName">Pilha de Sucata</string>
 	<string key="MSQ_SalvagePile_C_DisplayName">Pilha de Sucata</string>
 	<string key="AzothWater_Displayname">Fonte de Azoth</string>
 	<string key="AzothSeal_DisplayName">Selo Ancião de Azoth</string>
+	<string key="HeartforgeEncounterBattery_DisplayName">Acender Fogo da Forja-Coração</string>
 	<string key="PressurePlate_Ancient_DisplayName">Glifo Ancião de Azoth</string>
 	<string key="AncientArtifactLocked">Artefato Ancião</string>
 	<string key="MSQ_OldStoneRemembers_Interact">Epígrafes do Idioma Ancião</string>
@@ -671,6 +678,8 @@
 	<string key="FM_1624_Supplies_DisplayName">Destruir Suprimentos</string>
 	<string key="FM_1624_Banners_DisplayName">Incendiar Bandeira</string>
 	<string key="FM_1624_Weapons_DisplayName">Destruir Estante de Armas</string>
+	<string key="dungeon_cutlasskeys00_gunpowdercask" rel_version="Expedition_CutlassKeys_00">Pegar Explosivos</string>
+	<string key="Dungeon_CutlassKeys00_CannonBall" rel_version="Expedition_CutlassKeys_00">Pegar Bola de Canhão</string>
 	<string key="0411_Armillary_interact">Esfera Armilar</string>
 	<string key="0202_0101_Inquisitor_DisplayName">Baú de Ferramenta do Inquisidor</string>
 	<string key="DungeonShatterMtn00_RelicBox_DisplayName" rel_version="Expedition_ShatterMtn_00">Relicário</string>
@@ -680,11 +689,21 @@
 	<string key="DungeonShatterMtn_RelicStatue_DisplayName" rel_version="Expedition_ShatterMtn_00">Relicário de Lembranças\n(Requer 2 Bastões de Azoth)</string>
 	<string key="DungeonShatterMtn00_ChestStatue_DisplayName" rel_version="Expedition_ShatterMtn_00">Cofre Antiquado</string>
 	<string key="DungeonShatterMtn00_Statue_DisplayName" rel_version="Expedition_ShatterMtn_00">Estátua Antiquada</string>
+	<string key="DungeonCutlassKeys00_Explosives_DisplayName" rel_version="Expedition_CutlassKeys_00">Configurar o Fusível</string>
+	<string key="DungeonCutlassKeys00_ChestFuse_DisplayName" rel_version="Expedition_CutlassKeys_00">Caixa de Ferramentas</string>
+	<string key="DungeonCutlassKeys00_WaterStatue_DisplayName" rel_version="Expedition_CutlassKeys_00">Oferenda da Nereida</string>
+	<string key="DungeonCutlassKeys00_Spring_DisplayName" rel_version="Expedition_CutlassKeys_00">Oferenda</string>
+	<string key="SummerMedley_Settlement_Stage_Master_DisplayName" rel_version="Event_Summer_Temp">Peça Central do Palco da Feira de Variedades</string>
 	<string key="SummerMedley_Settlement_Stage_T1_DisplayName" rel_version="Event_Summer_Temp">Dotação Sombria</string>
 	<string key="SummerMedley_Settlement_Stage_T2_DisplayName" rel_version="Event_Summer_Temp">Dotação Grande</string>
 	<string key="SummerMedley_Settlement_Stage_T3_DisplayName" rel_version="Event_Summer_Temp">Dotação Opulenta</string>
+	<string key="SummerMedley_Settlement_Stage_Description" rel_version="Event_Summer_Temp">Complete Projetos da Vila da Feira de Variedades para aprimorar a glória e recompensas concedidas pelo palco!</string>
 	<string key="SummerMedley_Village_BonfireBlast_DisplayName" rel_version="Event_Summer_Temp">Fogueira da Feira de Variedades</string>
+	<string key="SummerMedley_Village_BonfireBlast_Description" rel_version="Event_Summer_Temp">Jogue uma Espinha Mágica de Esturjão de Aeternum no fogo para receber uma grande recompensa!</string>
 	<string key="SummerMedley_Maudlindust_DisplayName" rel_version="Event_Summer_Temp">Partículas Sentimentais</string>
+	<string key="SummerMedley_Maudlindust_Particle_DisplayName" rel_version="Event_Summer_Temp">Partícula Sentimental</string>
+	<string key="SummerMedley_Village_Dancefloor_DisplayName" rel_version="Event_Summer_Temp">Pista de Dança da Feira de Variedades</string>
+	<string key="SummerMedley_Village_Dancefloor_Description" rel_version="Event_Summer_Temp">Sacuda a poeira e mostre seus melhores passos na Pista de Dança da Feira de Variedades para ganhar Reputação no Evento!</string>
 	<string key="FM_PVP_War_Camp_Loot_Box_DisplayName">Baú do Acampamento de Guerra</string>
 	<string key="1130_ArcaneFocus1_DisplayName">Foco Arcano</string>
 	<string key="1130_ArcaneFocus2_DisplayName">Foco Arcano</string>
@@ -693,6 +712,7 @@
 	<string key="0726_BookOfIsabella_DisplayName">Livro de Isabella</string>
 	<string key="1130_CursedAxe_DisplayName">Iniciar o Ritual</string>
 	<string key="0726_Gravestone_interact" rel_version="DEPRECATED_January_2022">Inspecionar o Túmulo do Tripulante</string>
+	<string key="EvilKnights_Camp_StoneDoor" rel_version="AI_Evil_Knights_P2">Ativar Portão</string>
 	<string key="Dynasty_Gong_DisplayName">Dinastia Gong</string>
 	<string key="ExploreVista_EastCleave01" rel_version="Feature_RewardingExploration">Cavalete Esquecido no Tempo</string>
 	<string key="ExploreVista_EastCutlass01" rel_version="Feature_RewardingExploration">Cavalete Esquecido no Tempo</string>
@@ -728,7 +748,26 @@
 	<string key="0601_0101_weapon_02_warhammer_DisplayName">Escolher o Martelo de Guerra Veterano de Batalha</string>
 	<string key="0601_0101_weapon_03_bow_DisplayName">Escolher o Arco Veterano de Batalha</string>
 	<string key="0601_0101_weapon_04_firestaff_DisplayName">Escolher o Bastão Flamejante Veterano de Batalha</string>
-	<string key="Lore_AncientGlyphWall_DisplayName" rel_version="Territory_Brimstone_Sands">Traduzir Glifo</string>
-	<string key="NPCRescue_Generic_NPC_DisplayName" rel_version="Quest_MSQ2_Revamp">Desatar Correntes</string>
+	<string key="98_Covenant_02_Captive_DisplayName">Soltar Prisioneiro</string>
+	<string key="98_Covenant_03_Pyre_DisplayName">Queimar o Artefato</string>
+	<string key="13_Summer_AzFluteT1_DisplayName" rel_version="Quest_Event_Summer">Coletar Flauta</string>
+	<string key="13_Summer_DrumT1_DisplayName" rel_version="Quest_Event_Summer">Coletar Tambor</string>
+	<string key="13_Summer_GuitarT1_DisplayName" rel_version="Quest_Event_Summer">Coletar Violão</string>
+	<string key="13_Summer_MandolinT1_DisplayName" rel_version="Quest_Event_Summer">Coletar Bandolim</string>
+	<string key="13_Summer_URBassT1_DisplayName" rel_version="Quest_Event_Summer">Coletar Contrabaixo</string>
+	<string key="13_Summer_Carpenter1_DisplayName" rel_version="Quest_Event_Summer">Reparar Mesa</string>
+	<string key="13_Summer_Carpenter2_DisplayName" rel_version="Quest_Event_Summer">Acoplar Morsas</string>
+	<string key="13_Summer_Apiary_DisplayName" rel_version="Quest_Event_Summer">Acender Jarro Defumador</string>
+	<string key="13_Summer_Oven_DisplayName" rel_version="Quest_Event_Summer">Esfregar Forno</string>
+	<string key="13_Summer_FlowerBoxA_DisplayName" rel_version="Quest_Event_Summer">Regar Girassóis</string>
+	<string key="13_Summer_FlowerBoxB_DisplayName" rel_version="Quest_Event_Summer">Regar Hibisco</string>
+	<string key="13_Summer_FlowerBoxC_DisplayName" rel_version="Quest_Event_Summer">Regar Margaridas</string>
+	<string key="06A_MSQ_Lijsbet_Trapped_DisplayName">Resgatar Lijsbet</string>
+	<string key="06A_MSQ_Michael_Trapped_DisplayName">Resgatar Michael</string>
+	<string key="06A_MSQ_Nessa_Trapped_DisplayName">Resgatar Nessa</string>
+	<string key="06A_MSQ_Gideon_Trapped_DisplayName">Resgatar Gideon</string>
+	<string key="06A_MSQ_11_pirateCrates_DisplayName">Destruir Caixote</string>
+	<string key="06A_MSQ_14_map_DisplayName">Copiar Mapa</string>
+	<string key="Cyclic_06A_MSQ_puzzlestone_DisplayName">Girar Pedra</string>
 </resources>
 

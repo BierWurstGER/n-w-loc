@@ -31,8 +31,40 @@
 	<string key="ui_gem_selection_button_specific">Gema: {name}</string>
 	<string key="ui_perk_selection_button_none">Ventajas: no se ha seleccionado ninguna</string>
 	<string key="ui_perk_selection_button_some">Ventaja(s): {number} seleccionada(s)</string>
+	<string key="ui_perk_selection_apply_filters">Aplicar filtros</string>
+	<string key="ui_perk_selection_clear_filters">Quitar todo</string>
+	<string key="ui_perk_selection_reset">Restablecer</string>
 	<string key="ui_perk_selection_selected">Seleccionadas:</string>
 	<string key="ui_perk_selection_none">(No se ha seleccionado ninguna)</string>
+	<string key="ui_perk_selection_count">Seleccionado ({quantity}/{maxCount}):</string>
+	<string key="ui_perk_selection_show_items_with">Mostrar objetos con:</string>
+	<string key="ui_perk_selection_dropdown_any_selected_perks">Cualquier ventaja seleccionada</string>
+	<string key="ui_perk_selection_dropdown_only_selected_perks">Solo ventajas seleccionadas</string>
+	<string key="ui_perk_selection_search_perks">Buscar ventajas</string>
+	<string key="ui_perk_filter_popup_title">Filtros</string>
+	<string key="ui_perk_filter_popup_price">Precio</string>
+	<string key="ui_perk_filter_popup_price_min">Precio mín.</string>
+	<string key="ui_perk_filter_popup_price_max">Precio máx.</string>
+	<string key="ui_perk_filter_popup_price_range">Precio: {minValue} - {maxValue}</string>
+	<string key="ui_perk_filter_popup_gearscore">Punt. equipo</string>
+	<string key="ui_perk_filter_popup_gearscore_min">Puntuación de equipo mín.</string>
+	<string key="ui_perk_filter_popup_gearscore_max">Puntuación de equipo máx.</string>
+	<string key="ui_perk_filter_popup_gearscore_range">Punt. equipo: {minValue} - {maxValue}</string>
+	<string key="ui_perk_filter_popup_range_max">Máx.</string>
+	<string key="ui_perk_filter_popup_attributes">Atributos</string>
+	<string key="ui_perk_filter_popup_attributes_single_only">Solo atributo individual</string>
+	<string key="ui_perk_filter_popup_attributes_disabled">No puedes seleccionar más de {maxValue} atributos. Anula la selección de un atributo para elegir otro.</string>
+	<string key="ui_perk_filter_popup_perk">Ventaja</string>
+	<string key="ui_perk_filter_popup_perk_none_selected">No se ha seleccionado ninguna ventaja</string>
+	<string key="ui_perk_filter_popup_perk_count">Ventajas seleccionadas: {quantity}/{maxCount}</string>
+	<string key="ui_perk_filter_popup_add_perks">Añadir ventajas</string>
+	<string key="ui_perk_filter_popup_gem">Gema</string>
+	<string key="ui_perk_filter_popup_gem_none_selected">No se ha seleccionado ninguna gema</string>
+	<string key="ui_perk_filter_popup_gem_count">Gemas seleccionadas: {quantity}/{maxCount}</string>
+	<string key="ui_perk_filter_popup_add_gem">Añadir gema</string>
+	<string key="ui_perk_filter_popup_single_attribute_only">Solo atributo individual</string>
+	<string key="ui_perk_filter_popup_single_attribute_only_tooltip">Si seleccionas esta opción, solo se mostrarán los objetos con 1 atributo.</string>
+	<string key="ui_perk_filter_popup_single_attribute_only_selector">Solo se mostrarán los objetos con 1 atributo</string>
 	<string key="ui_sellers">COMPRAR &lt;font color="#b5b094"&gt;&lt;font face="lyshineui/fonts/Nimbus_medium.font"&gt;a ofertas de venta&lt;/font&gt;&lt;/font&gt;</string>
 	<string key="ui_buyers">VENDER &lt;font color="#b5b094"&gt;&lt;font face="lyshineui/fonts/Nimbus_medium.font"&gt;a ofertas de compra&lt;/font&gt;&lt;/font&gt;</string>
 	<string key="ui_buyOrders">&lt;img src="lyshineui/images/icons/contracts/contracts_iconBuy" xPadding="0" scale="1.5" yOffset="5.2"&gt;&lt;/img&gt; Ofertas de compra</string>
@@ -110,10 +142,10 @@
 	<string key="ui_contract_failure_already_has_item">No puedes comprar más unidades de este objeto.</string>
 	<string key="ui_contract_failure_insufficient_items">Objetos insuficientes.</string>
 	<string key="ui_contract_failure_outpost_storage_full">Almacenamiento del asentamiento lleno.</string>
-	<string key="ui_contract_failure_freeweekend">Los jugadores gratis no pueden comprar o vender en puestos comerciales.</string>
-	<string key="ui_contract_failure_previously_freeweekend">Debes tener 3 horas de juego para comprar o vender en el puesto comercial.</string>
-	<string key="ui_contract_freeweekend_encourage">¡Compra New World para poder adquirir y vender artículos en el puesto comercial!</string>
-	<string key="ui_contract_previous_freeweekend_encourage">Debes tener 3 horas de juego para comprar o vender en el puesto comercial.</string>
+	<string key="ui_contract_failure_freeweekend">Los jugadores gratis no pueden comprar o vender en el puesto comercial.</string>
+	<string key="ui_contract_failure_previously_freeweekend">Necesitas jugar más de 3 horas para comprar o vender en el puesto comercial.</string>
+	<string key="ui_contract_freeweekend_encourage">¡Compra New World para comprar y vender objetos en el puesto comercial!</string>
+	<string key="ui_contract_previous_freeweekend_encourage">Necesitas jugar más de 3 horas para comprar o vender en el puesto comercial.</string>
 	<string key="ui_contract_failure_server_error">Error del servidor.</string>
 	<string key="ui_contract_failure_creator_cannot_complete">No puedes completar una oferta creada por ti.</string>
 	<string key="ui_contract_failure_invalid_request">No se ha admitido la solicitud de la oferta.</string>
@@ -212,6 +244,10 @@
 	<string key="ui_perk_selector_any_perk_description">Cualquier ventaja que pueda usar este objeto</string>
 	<string key="ui_perk_selector_any_gem">Cualquier gema</string>
 	<string key="ui_perk_selector_any_gem_description">Una ranura de gema vacía</string>
+	<string key="ui_perk_selector_logic_modifier_any_perks">Cualquier ventaja seleccionada</string>
+	<string key="ui_perk_selector_logic_modifier_any_perks_description">Cualquier objeto con una o más ventajas seleccionadas.</string>
+	<string key="ui_perk_selector_logic_modifier_all_perks">Solo ventajas seleccionadas</string>
+	<string key="ui_perk_selector_logic_modifier_all_perks_description">Cualquier objeto con todas las ventajas seleccionadas.</string>
 	<string key="ui_select_gem">Seleccionar gema</string>
 	<string key="ui_select_perk">Seleccionar ventajas</string>
 	<string key="ui_buyorder_has_these_properties">TIENE ESTAS PROPIEDADES</string>
@@ -223,8 +259,13 @@
 	<string key="ui_exclusive_perk_popup_title">Ventaja exclusiva selec.</string>
 	<string key="ui_exclusive_perk_popup_message">No puedes tener más de una ventaja de este tipo. ¿Quieres reemplazar la ventaja seleccionada actualmente de este tipo por la nueva ventaja seleccionada?</string>
 	<string key="ui_exclusive_perk_popup_message_no_replace">{newPerkName} y {selectedPerkName} se excluyen mutuamente, por lo que no puedes seleccionar las dos a la vez.</string>
+	<string key="ui_cannot_change_perk_logic_popup_title">No se puede aplicar</string>
+	<string key="ui_cannot_change_perk_logic_message">No puedes cambiar el filtro a «Todas las ventajas seleccionadas» porque no se pueden elegir las siguientes ventajas a la vez.\n</string>
+	<string key="ui_cannot_change_perk_logic_incompatible_perks">\n&lt;font color="#b45353"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{perkNameA}&lt;/font&gt;&lt;/font&gt; - &lt;font color="#b45353"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{perkNameB}&lt;/font&gt;&lt;/font&gt;</string>
 	<string key="ui_max_perk_popup_title">Máximo de ventajas selec.</string>
 	<string key="ui_max_perk_popup_message">Has alcanzado el máximo de ventajas que admite este objeto. Quita una para poner otra.</string>
+	<string key="ui_max_gem_popup_title">Máximo de gemas selec.</string>
+	<string key="ui_max_gem_popup_message">Has alcanzado el máximo de gemas que admite este objeto. Quita una gema para añadir otra.</string>
 	<string key="ui_remove">eliminar</string>
 	<string key="ui_showonly">Mostrar solo:</string>
 	<string key="ui_playerMarketplace">Mercado del jugador</string>
@@ -233,5 +274,7 @@
 	<string key="ui_contract_time">Tiempo</string>
 	<string key="ui_order_tooltip">Ofertas disponibles en esta categoría:\n&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{number}&lt;/font&gt;</string>
 	<string key="ui_available_buy_orders">Ofertas que están comprando este objeto</string>
+	<string key="ui_item_attribute">{attributeName} &lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{statValue}&lt;/font&gt;</string>
+	<string key="ui_item_attributes_separator">, </string>
 </resources>
 

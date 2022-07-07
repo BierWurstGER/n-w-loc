@@ -157,6 +157,7 @@
 	<string key="ui_p2ptrading_failmessage_additem_restricted">Este item não é negociável.</string>
 	<string key="ui_p2ptrading_failmessage_additem_bound">Este item está vinculado a você e não pode ser negociado.</string>
 	<string key="ui_p2ptrading_failmessage_additem_inventory_only">Somente itens do inventário podem ser negociados.</string>
+	<string key="ui_p2ptrading_failmessage_exceed_coincap">Esta transação vai exceder o limite de moedas de {maxAmount}.</string>
 	<string key="ui_p2ptrading_failmessage_offerupdate_invalidlocation">Local de negociação inválido. Tente ir para outro local.</string>
 	<string key="ui_p2ptrading_failmessage_offerupdate_invaliditems">Itens inválidos.</string>
 	<string key="ui_p2ptrading_failmessage_offerupdate_maxitemsexceeded">O número máximo de itens foi excedido.</string>
@@ -175,8 +176,8 @@
 	<string key="ui_p2ptrading_failmessage_atmaxcurrency">Um ou mais jogadores excederão o máximo de moedas.</string>
 	<string key="ui_p2ptrading_failmessage_dont_meet_requirements_level">Você deve estar no nível {level} para negociar.</string>
 	<string key="ui_p2ptrading_failmessage_dont_meet_requirements_probation">Você deve ter uma conta com mais de {time} para negociar.</string>
-	<string key="ui_p2ptrading_failmessage_dont_meet_requirements_free">Realize compras no New World para negociar.</string>
-	<string key="ui_p2ptrading_failmessage_dont_meet_requirements_generic">Você não tem permissão para negociar.</string>
+	<string key="ui_p2ptrading_failmessage_dont_meet_requirements_free">Adquira New World para negociar.</string>
+	<string key="ui_p2ptrading_failmessage_dont_meet_requirements_generic">Você não pode negociar.</string>
 	<string key="ui_p2ptrading_trade_completed">Negociação concluída.</string>
 	<string key="ui_p2ptrading_overflow_title">Inventário Cheio</string>
 	<string key="ui_p2ptrading_overflow_message">Alguns dos itens que você recebeu não couberam em seu inventário e foram largados no chão.</string>
@@ -227,6 +228,7 @@
 	<string key="ui_reportreason_spam">Spam</string>
 	<string key="ui_reportreason_coinselling">Vender moedas</string>
 	<string key="ui_reportreason_botbehavior">Comportamento de bot</string>
+	<string rel_version="Feature_Group_Finder" key="ui_reportreason_abusive_group_finder_listing">Descrição Abusiva de Saguão</string>
 	<string key="ui_reportreason_abusive_chat_description">Discurso de ódio, crueldade ou insultos direcionados a um ou mais jogadores.</string>
 	<string key="ui_reportreason_abusive_voice_chat_description">Discurso de ódio, crueldade ou insultos direcionados a um ou mais jogadores.</string>
 	<string key="ui_reportreason_cheating_description">Bugs ou falhas utilizados para obter vantagem.</string>
@@ -235,6 +237,7 @@
 	<string key="ui_reportreason_spam_description">Comunicando uma frase excessivamente, sem sentido ou fazendo propaganda.</string>
 	<string key="ui_reportreason_coinselling_description">Adquirir bens do jogo e vendê-los por dinheiro do mundo real.</string>
 	<string key="ui_reportreason_botbehavior_description">Jogabilidade desacompanhada: uso de bots, scripts, macros ou outras ferramentas de automação.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_reportreason_abusive_group_finder_listing_description">Discurso de ódio, insultos ou crueldade em uma Descrição de Saguão.</string>
 	<string key="ui_reportreason_select">Selecione uma razão...</string>
 	<string key="ui_reportreason_offensive_guild_name">Nome da Companhia</string>
 	<string key="ui_reportreason_offensive_guild_description">Nome da companhia ofensivo ou impróprio.</string>
@@ -379,6 +382,8 @@
 	<string key="ui_trade_cancel">Cancelar</string>
 	<string key="ui_trade_cancel_popup_title">Cancelar Negociação</string>
 	<string key="ui_trade_cancel_popup_text">Tem certeza de que deseja cancelar sua negociação com {playerName}?</string>
+	<string key="ui_trade_coincap_warning_popup_title">Excedendo o Limite de Moedas</string>
+	<string key="ui_trade_coincap_warning_popup_text">{refund} moedas serão estornadas a {playerName}. Deseja mesmo fazer a transação?</string>
 	<string key="ui_trade_confirm_currency">Confirmar</string>
 	<string key="ui_trade_item_count">&lt;font color={color}&gt;{count}&lt;/font&gt;/{total} Itens</string>
 	<string key="ui_trade_send_title">Enviar</string>
@@ -409,9 +414,10 @@
 	<string key="ui_subarmy_decline_tooltip">Sua solicitação para entrar na Tropa de Inscritos do streamer foi recusada.</string>
 	<string key="ui_subarmy_waiting">Aguardando a aprovação do streamer...</string>
 	<string key="ui_subarmy_pending">Pendente...</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_findtabtitle">Procurar</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_managetabtitle">Saguão</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_creategroup">Criar um Novo Recrutamento</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_findtabtitle">Encontrar Grupo</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_managetabtitle">Meu Saguão</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_creategroup">Criar Saguão</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pvp_lobby">Saguão de PvP</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_refresh">Atualizar</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_screen_header">Buscador de Grupo de Expedição</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_expeditionname">Nome da Expedição</string>
@@ -424,117 +430,196 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_voippreference_tooltip">Chat de Voz: &lt;font color={color} face="lyshineui/fonts/Nimbus_Semibold.font"&gt;{preference}&lt;/font&gt;</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_min_size">Mínimo de Jogadores: &lt;font face="lyshineui/fonts/Nimbus_Semibold.font"&gt;{amount}&lt;/font&gt;</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_recommendedgearscore">Pontuação do Equipamento Recomendada: &lt;font face="lyshineui/fonts/Nimbus_bold.font"&gt;600 - {score}&lt;/font&gt;</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_minimum_gear_score">Pontuação Mínima de Equipamento: &lt;font face="lyshineui/fonts/Nimbus_bold.font"&gt;{score}&lt;/font&gt;</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_minimum_level">Nível Mínimo: &lt;font face="lyshineui/fonts/Nimbus_bold.font"&gt;{level}&lt;/font&gt;</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_recommendedlevel">Nível Recomendado: &lt;font face="lyshineui/fonts/Nimbus_bold.font"&gt;{level}&lt;/font&gt;</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_no_group">Não há nenhum recrutamento para esta Expedição no momento.</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_no_group_at_level">Não há nenhum recrutamento para o nível de dificuldade {level} desta Expedição no momento.</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_no_group_manage">Você não está em um recrutamento de Expedição no momento.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_no_group">Não há nenhum Saguão para esta Expedição no momento.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_no_group_at_level">Não há nenhum Saguão para o nível de dificuldade {level} desta Expedição no momento.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_no_group_manage">Você não está em um Saguão no momento.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_your_group">Expedição</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_difficulty">Dificuldade {level}</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_members">Membros</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_apply">Aplicar</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_only_accept">Aceitar Apenas</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_looking_for">Procurando</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_in_lobby">No Saguão</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_members_in_lobby">Membros no Saguão</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_applicationrejected">Aplicação Recusada</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_groupmembers">Membros</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_currentmembers">Jogadores no Saguão</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_currentmembers">No Saguão</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_requests">Pedidos</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_requeststojoin">Pedidos para Entrar</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_requeststojoin">Pedidos</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_role">Função</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_preferredrole">Função Preferida</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_level">Nível</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_gearscore">Pontuação do Equipamento</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_gearscore_short">P.E.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_stats">Estatísticas</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_gearscore_average">Pontuação Média do Equipamento</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_viewstats">Exibir Estatísticas</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_leavegroup">Deixar Saguão</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_removefromgroup">Remover do Saguão</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_leavegroup">Sair</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_removefromgroup">Expulsar</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invite">Convidar</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invited">Convidado(a)</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_reject">Rejeitar</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_rejected">Rejeitado(a)</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_servererror">Erro no Servidor</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_notfound">Grupo não encontrado</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_notfound">Saguão Não Encontrado</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_timeout">O pedido expirou</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_requestfailed">Falha no pedido</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_invalidrequest">Pedido inválido</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_create_group_title">Criar um novo recrutamento</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_pvp_flag_mismatch">Sua sinalização de PvP não corresponde ao saguão.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_pvp_faction_mismatch">É preciso estar na mesma facção para entrar no saguão de PvP.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_atmaxapplications">Você não pode enviar mais solicitações.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_groupfull">Saguão Lotado</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_convert_to_group_declined">{playerName} recusou a verificação de preparo.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_convert_to_group_timeout">Verificação de Preparo Expirou</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_playeroffline">Não foi possível convidar {playerName}, pois está offline.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_expedition_lobby">Saguão de Expedição</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_create_group_title">Criar Novo Saguão</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_voip_preferred">Preferível</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_voice_chat_preferred">Chat de Voz Preferível</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_voip_preferred_with_icon">&lt;img src="lyshineui/images/icons/misc/icon_microphone" scale="1.8" xPadding="-2" yOffset="5.0"&gt;&lt;/img&gt; Preferível</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_voip_not_required">Não é Necessário</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_min_level">Nível Mínimo</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_min_gear_score">Pontuação Mínima de Equipamento</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_gear_score_requirement_not_met">Você não atende ao requisito de nível e/ou pontuação do equipamento para participar deste recrutamento.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_gear_score_requirement_not_met">Você não atende ao requisito de nível e/ou pontuação do equipamento para participar deste Saguão.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pvp_mismatch_tooltip">É preciso ter a mesma sinalização de PvP que o saguão.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pvp_faction_mismatch_tooltip">É preciso estar na mesma facção para o saguão de PvP.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_level_unlist_pending_group">Excluir Saguão</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pending">Pendente...</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pending">Pendente</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_accepted">Aceito</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_accepted_roles_label">Aceitar Apenas</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_apply_disabled_your_lobby">Você já está neste Saguão.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_accepted_roles_label">Funções Aceitas</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_select_role_label">Selecione sua Função</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_your_role_label">Sua Função</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_choose_role_title">Escolha sua função</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_button_confirm">Pedir para entrar</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_comment_label">Descrição</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_group_list_requirement">{requirement} &lt;font face="lyshineui/fonts/Nimbus_bold.font"&gt;{number}&lt;/font&gt;</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invite_current_group_label">Convidar Membros do Grupo Atual</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_comment_default">Saguão de {playerName}</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_button_confirm">Pedir para Entrar</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_button_cancel_pending">Cancelar Solicitação Pendente</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_button_confirm_directinvitation">Entrar</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_button_confirm_disabled_tooltip">Você deve selecionar uma função.</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_required_item_tooltip">Você precisa ter {quantity} {item}(s) para criar um novo recrutamento para esta expedição.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_button_confirm_disabled_none_accepted_tooltip">É preciso aceitar pelo menos uma função.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_button_confirm_disabled_tooltip_queue">Não é permitido solicitar a entrada em um saguão quando se está em uma fila de modo de jogo.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_required_item_tooltip">Você precisa ter {quantity} {item}(s) para criar um novo Saguão para esta expedição.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_current_roles_label">Funções atuais neste grupo</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_current_role_text">&lt;img src="{icon}" scale="2.5" yOffset="8.0"&gt;&lt;/img&gt; {count} {role}</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_disabled">Esta função não é necessária para este recrutamento.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_disabled">Esta função não é necessária para este Saguão.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_recommended_label">RECOMENDA-SE TER:</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_tank_name">Tanque</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_tank_description">A função de um tanque no grupo é absorver o dano e atrair a atenção dos inimigos para longe de seus aliados. Os tanques devem usar armadura pesada e equipar gemas de Cornalina para que possam provocar os inimigos. Um tanque geralmente tem alguma forma de controle (atordoar, enraizar, achatar) para impedir que os inimigos alcancem seus aliados.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_tank_recommended">Espada e Escudo, Machadão, Martelo de Guerra</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_dps_name">Dano</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_dps_description">A função do dano é causar o máximo de dano possível ao maior número de inimigos possível. Eles são responsáveis por abater os inimigos antes que eles possam dominar o grupo. Os danos devem investir em habilidades e atributos que se concentram em ataques de alto dano e área de efeito.</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_dps_recommended">Bastão Flamejante, Manopla de Gelo, Machadinha</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_dps_recommended">Bacamarte, Arco, Bastão Flamejante, Machadão, Machadinha, Manopla de Gelo, Mosquete, Rapieira, Lança, Manopla Imaterial</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_healer_name">Suporte</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_healer_description">Os suportes são responsáveis por manter o grupo vivo, utilizando buffs de cura e mitigação, como o Reforçado. Eles também podem ser responsáveis por remover debuffs prejudiciais de seus aliados, como Sangramento ou Envenenado. Os suportes devem investir no atributo de Foco para maximizar a eficácia de cura.</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_healer_recommended">Bastão Vital</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_groupcreated">Lista Criada</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_groupupdated">Lista Atualizada</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_groupremoved">Lista Removida</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_healer_recommended">Bastão Vital, Manopla Imaterial</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_groupcreated">Saguão Criado</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_groupupdated">Saguão Atualizado</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_groupremoved">Saguão Removido</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_applicationsubmitted">Solicitação Enviada</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_applicationremoved">Solicitação Removida</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_allapplicationsremoved">Todas as Solicitações Removidas</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_applicationaccepted">Convite Enviado</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_applicationrejected">Pedido Rejeitado</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_applicationaccepted">Convite de Saguão Enviado</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_application_requested">&lt;font color={color}&gt;{playername}&lt;/font&gt; pediu para entrar em seu saguão.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_request_throttled">Pedidos em excesso, aguarde e tente novamente.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_application_accepted_title">Solicitação Aceita</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_application_accepted">{creator} convidou você para entrar em:\n&lt;font color="#85e74c" &gt;[{expedition}]&lt;/font&gt; como &lt;font color={roleColor}&gt;[{role}]&lt;/font&gt;</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_application_accepted">&lt;font color={creatorColor}&gt;{creator}&lt;/font&gt; convidou você como &lt;img src="{icon}" scale="2.2" yOffset="7"&gt;&lt;/img&gt;</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_application_accepted_directinvitation">{creator} convidou você para entrar em:\n&lt;font color="#85e74c" &gt;[{expedition}]&lt;/font&gt;</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_group_ready_check_title">Formar Grupo de Expedição</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_group_ready_check">Está pronto(a) para formar seu grupo e entrar na Expedição?</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_group_ready_check">Tudo pronto para iniciar a Expedição?</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_accept">Aceitar</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_decline">Recusar</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_requirements">Requisitos</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_sorted_by">Ordenado por</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_time_posted">Hora da Postagem</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_join_with_group">Abrir Expedição com Seu Grupo</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_difficulty_locked">Você deve desbloquear este nível de dificuldade para criar um grupo.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_difficulty_locked">Você deve desbloquear este nível de dificuldade para criar um novo Saguão.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_decline">Recusar</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationaccepted">Convite Aceito</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationdeclined">Convite Recusado</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_memberadded">Membro adicionado à Lista de Grupo</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_memberupdated">Membros da Lista de Grupo atualizados</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_memberremoved">Membro removido da Lista de Grupo</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_directinvite">Convidar ao Saguão</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_directinvite_tooltip_not_creator">Somente o criador do Saguão pode convidar.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_directinvite_tooltip_already_in_group">{player} já está no seu Saguão.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_directinvite_tooltip_group_full">Seu Saguão está cheio.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_directinvite_tooltip_pvp_wrong_faction">É preciso estar na mesma facção para o saguão de PvP.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_memberadded">Convite de Saguão Enviado</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_memberupdated">Membro de Saguão Atualizado</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_memberremoved_result">Membro removido do Saguão</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_memberremoved">&lt;font color={color}&gt;{playername}&lt;/font&gt; foi removido do Grupo.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_queue_hud_looking_for_more">Procurando mais membros...</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_outpost_rush_signup_fail">Você não pode se registrar porque está em um saguão de recrutamento no momento.</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_dungeon_queue_signup_fail">Você não pode entrar na Fila de Expedição enquanto está em um saguão.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_outpost_rush_signup_fail">Você não pode se registrar enquanto está em um Saguão.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_dungeon_queue_signup_fail">Você não pode entrar na Fila de Expedição enquanto está em um Saguão.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_queue_hud_group_full">Grupo lotado</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_queue_hud_open_expedition">Abrir Expedição</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_queue_hud_min_players">É necessário um mínimo de {amount} membros para abrir esta expedição.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_queue_hud_min_players">É necessário um mínimo de {amount} membros para iniciar esta expedição.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_creator">Criador(a): &lt;font face="lyshineui/fonts/Nimbus_Semibold.font" color="#ffffff"&gt;{name}&lt;/font&gt;</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_gear_score_requirement">Pontuação do Equipamento Necessária: &lt;font face="lyshineui/fonts/Nimbus_Semibold.font" color={scoreColor}&gt;{score}&lt;/font&gt;</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_level_requirement">Nível Necessário: &lt;font face="lyshineui/fonts/Nimbus_Semibold.font" color={scoreColor}&gt;{score}&lt;/font&gt;</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_num_members">Jogadores: &lt;font face="lyshineui/fonts/Nimbus_Semibold.font" color="#ffffff"&gt;{numMembers}&lt;/font&gt; / 5</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_member_stat">{name} &lt;font face="lyshineui/fonts/Nimbus_Semibold.font" color="#ffffff"&gt;{value}&lt;/font&gt;</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_member_stat_attribute">{name} &lt;font face="lyshineui/fonts/Nimbus_Semibold.font" color="#ffffff"&gt;{value}&lt;/font&gt;</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_member_stat_mastery">&lt;font face="lyshineui/fonts/Nimbus_Semibold.font" color="#ffffff"&gt;{value}&lt;/font&gt; {name}</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_none_equipped">Nenhuma arma equipada</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_member_list_creator">Criador(a)</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_voice">Voz</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pending_group">Saguão</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_manage_group">Gerenciar</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_ready_title">Pronto!</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_ready_waiting">Aguardando outros jogadores...</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_view_group">Visualizar</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_popup_conflict_leave_lobby_title">Deixar Saguão</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_popup_conflict_leave_lobby_desc">Tem certeza? Se aceitar, você sairá do seu saguão atual.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_popup_conflict_leave_queue_title">Sair da Fila</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_popup_conflict_leave_queue_desc">Tem certeza? Se aceitar, você sairá da fila atual.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_popup_conflict_rescind_applications_title">Rescindir Solicitações</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_popup_conflict_rescind_applications_desc">Tem certeza? Se aceitar, todas as suas solicitações de saguão pendentes serão rescindidas.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_tooltip_leave_group_title">Deixar Saguão</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_tooltip_leave_group_desc">Tem certeza de que deseja sair do saguão?</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_tooltip_leave_group_desc">Tem certeza de que deseja sair deste Saguão?</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_tooltip_remove_from_group_title">Remover Membro</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_tooltip_remove_from_group_desc">Tem certeza de que deseja remover {playerName} do seu saguão?</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_tooltip_remove_from_group_desc">Tem certeza de que deseja expulsar {playerName} do seu Saguão?</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_kicked_from_group">Você foi expulso do Saguão.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_tooltip_unlist_group_title">Excluir Saguão</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_tooltip_unlist_group_desc">Tem certeza de que deseja excluir seu recrutamento?\nTodos os membros serão expulsos do saguão.</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_tooltip_leave_and_unlist_group_desc">Tem certeza de que deseja sair do saguão?\nIsto expulsará todos os membros e excluirá o recrutamento.</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invite_reject">Somente o criador do recrutamento pode convidar ou rejeitar solicitações de membros.</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pending_group_invites_header">Recrutamentos de expedição</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_tooltip_unlist_group_desc">Tem certeza de que deseja excluir seu Saguão?\n\nTodos os membros serão expulsos.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_create_lobby_leave_lobby">Você deve sair do seu Saguão atual para criar um novo Saguão.\n\nTem certeza de que deseja sair do seu Saguão atual?</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_create_lobby_delete_lobby">Você deve excluir seu Saguão atual para criar um novo Saguão. Tem certeza de que deseja excluir seu Saguão atual?\n\nTodos os membros serão expulsos.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_create_lobby_leave_queue">Você deve sair da sua fila de modo de jogo para criar um novo Saguão.\n\nTem certeza de que deseja sair da sua fila atual?</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_join_lobby_leave_lobby">Você deve sair do seu Saguão atual para pedir para entrar neste Saguão.\n\nTem certeza de que deseja sair do seu Saguão atual?</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_join_lobby_delete_lobby">Você deve excluir seu Saguão atual para pedir para entrar neste Saguão. Tem certeza de que deseja excluir seu Saguão atual?\n\nTodos os membros serão expulsos.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_tooltip_leave_and_unlist_group_desc">Tem certeza de que deseja excluir o Saguão?\n\nTodos os membros serão expulsos.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invite_reject">Somente o criador do Saguão pode convidar ou rejeitar solicitações de membros.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pending_group_invites_header">Convites do Saguão</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pending_group_description">&lt;font color="#ffea00" &gt;{creator}&lt;/font&gt; convidou você como &lt;font color={roleColor} &gt;{role}&lt;/font&gt;</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pending_group_description_directinvitation">&lt;font color="#ffea00" &gt;{creator}&lt;/font&gt; convidou você</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_convert_to_group">Pronto para Expedição</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_tooltip_not_enough_members">Não há membros suficientes no saguão</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_start_expedition">Iniciar</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_tooltip_not_enough_members">Não há membros suficientes no Saguão</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_difficulty_label">Dificuldade</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_appended_difficulty">Dificuldade {difficulty}</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_appended_difficulty_queue_hud">Dificuldade &lt;font face="lyshineui/fonts/Nimbus_Semibold.font"&gt;{difficulty}&lt;/font&gt;</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_min_level_desc">Seu nível: {level}\nO nível mínimo não pode exceder o seu nível.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_min_gear_score_desc">Sua Pontuação do Equipamento: {gearscore}\nA pontuação mínima de equipamento não pode exceder sua pontuação do equipamento.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_comment_format">“{text}”</string>
+	<string rel_version="Feature_Group_Finder" key="ui_chat_name_group_finder_group">Saguão</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_lobbies_header">Saguões</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_time_ago">Há {time}</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_posted_time_ago">Publicado há {time}</string>
+	<string rel_version="Feature_Group_Finder" key="ui_chat_name_group_finder_group_upper">SAGUÃO</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_chat_button">Abrir Chat do Saguão</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_your_lobby">Seu Saguão</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_created_by">por {creator}</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_chat_lobby_created">{playerName} criou o Saguão.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_chat_lobby_joined">{playerName} entrou no Saguão.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_chat_lobby_left">{playerName} saiu do Saguão.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_error_group_finder_group_chat" comment="An error when you try to talk in group finder group chat">Você não está em um Saguão</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_create_limit_title">Não foi Possível Criar o Saguão</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_create_limit_desc_regular">O(s) seguinte(s) membro(s) do grupo atingiu(ram) o limite diário de Expedições Regulares, logo, não pode(m) entrar neste saguão.\n\n&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{characters}&lt;/font&gt;\n&lt;font color={dateColor}&gt;(Pode[m] entrar em {date})&lt;/font&gt;</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_create_limit_desc_mutated">O(s) seguinte(s) membro(s) do grupo atingiu(ram) o limite semanal de Expedições Transmutadas, logo, não pode(m) entrar neste saguão.\n\n&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{characters}&lt;/font&gt;\n&lt;font color={dateColor}&gt;(Pode[m] entrar em {date})&lt;/font&gt;</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_limit_refresh">(Reinicia em {date})</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pending_invites_single">&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;1&lt;/font&gt; Convite Pendente</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pending_invites">&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{amount}&lt;/font&gt; Convites Pendentes</string>
 </resources>
 

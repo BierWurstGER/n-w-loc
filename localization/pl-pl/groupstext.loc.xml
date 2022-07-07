@@ -11,7 +11,9 @@
 	<string key="ui_receivedgroupinvite_hide" comment="">Ukryj</string>
 	<string key="ui_togglepvpblocked_title" comment="">Oznaczyć do PvP?</string>
 	<string key="ui_togglepvpblocked_ingroup" comment="">Gracze PvP i PvE nie mogą się grupować. Jeśli zmienisz oznaczenie do PvP, opuścisz tę grupę.\n\nCzy na pewno chcesz zmienić oznaczenie do PvP?</string>
-	<string key="ui_togglepvpblocked_pendinginvites" comment="">Jeśli zmienisz oznaczenie do PvP, wszystkie oczekujące zaproszenia do lobby ekspedycji zostaną odrzucone.\n\nCzy na pewno chcesz zmienić oznaczenie do PvP?</string>
+	<string key="ui_togglepvpblocked_pendinginvites" comment="">Jeśli zmienisz oznaczenie do PvP, wszystkie oczekujące zaproszenia do grupy zostaną odrzucone.\n\nCzy na pewno chcesz zmienić oznaczenie do PvP?</string>
+	<string rel_version="Feature_Group_Finder" key="ui_togglepvpblocked_ingroupfindergroup" comment="">Gracze PvP i PvE nie mogą należeć do tego samego lobby. Jeśli zmienisz oznaczenie do PvP, opuścisz to lobby.\n\nCzy na pewno chcesz zmienić oznaczenie do PvP?</string>
+	<string rel_version="Feature_Group_Finder" key="ui_togglepvpblocked_pendinggroupfinderapplications" comment="">Jeśli zmienisz oznaczenie do PvP, wszystkie twoje zgłoszenia do lobby zostaną anulowane.\n\nCzy na pewno chcesz zmienić oznaczenie do PvP?</string>
 	<string key="ui_receivedwargroupinvitetitle" comment="">Dołącz do wojny!</string>
 	<string key="ui_receivedwargroupinvitemessage" comment="">Wybrano cię do dołączenia do wojny w: {territoryName}. Wojna rozpoczyna się o: {startTime} i potrwa do: {endTime}. Zaakceptuj, by teleportować się na pole bitwy.</string>
 	<string key="ui_receivedinvasiongroupinvitetitle" comment="">Broń się przed najeźdźcami!</string>
@@ -22,6 +24,7 @@
 	<string key="ui_groupinviteacceptraid" comment="">Przyjęto zaproszenie do grupy</string>
 	<string key="ui_groupinvitedeclinesentmessage" comment="">Odrzucono zaproszenie do grupy od gracza &lt;font color="#ffffff"&gt;{playerName}&lt;/font&gt;.</string>
 	<string key="ui_groupinvitedeclineraid" comment="">Odrzucono zaproszenie do grupy</string>
+	<string key="ui_groupinvitedeclinerequeue" comment="">Ponownie dołączono do kolejki, ponieważ gracz odrzucił zaproszenie</string>
 	<string key="ui_groupinvitewithdrawnreceivermessage" comment="">&lt;font color="#ffffff"&gt;{playerName}&lt;/font&gt; wycofał zaproszenie do grupy.</string>
 	<string key="ui_groupinvitewithdrawnreceivermessage_SHE" comment="">&lt;font color="#ffffff"&gt;{playerName}&lt;/font&gt; wycofała zaproszenie do grupy.</string>
 	<string key="ui_groupinvitewithdrawnreceivermessage_THEY" comment="">&lt;font color="#ffffff"&gt;{playerName}&lt;/font&gt; wycofuje zaproszenie do grupy.</string>
@@ -52,9 +55,11 @@
 	<string key="ui_cannotinviteingroup" comment="">Nie możesz wysłać zaproszenia do członka swojej grupy.</string>
 	<string key="ui_cannotinvitegroupfull" comment="">Twoja grupa jest już pełna.</string>
 	<string key="ui_cannotinviteinraid" comment="">Nie możesz wysłać zaproszenia podczas wojny.</string>
+	<string key="ui_cannotinviteinInvasion" comment="">Nie możesz wysłać zaproszenia podczas inwazji.</string>
 	<string key="ui_cannotinvitein_pvp_wrong_faction" comment="">Gracze muszą należeć do tej samej frakcji, by mogli utworzyć grupę PvP.</string>
 	<string key="ui_cannotleavegroup_in_arena" comment="">Nie możesz opuścić swojej grupy, gdy przebywasz na arenie.</string>
 	<string key="ui_cannotleavegroup_in_war" comment="">Nie możesz opuścić swojej grupy, gdy bierzesz udział w wojnie.</string>
+	<string key="ui_cannotleavegroup_in_invasion" comment="">Nie możesz opuścić swojej grupy, gdy bierzesz udział w inwazji.</string>
 	<string key="ui_cannotleavegroup_in_dungeon" comment="">Nie możesz opuścić swojej grupy, gdy przebywasz na ekspedycji.</string>
 	<string key="ui_cannotjoingroup_in_arena" comment="">Nie możesz dołączyć do innej grupy, gdy przebywasz na arenie.</string>
 	<string key="ui_cannotjoingroup_in_dungeon" comment="">Nie możesz dołączyć do innej grupy, gdy przebywasz na ekspedycji.</string>

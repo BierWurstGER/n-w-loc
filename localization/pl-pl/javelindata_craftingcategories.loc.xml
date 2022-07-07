@@ -543,7 +543,7 @@
 	<string key="BoostVoidAbs_GroupName">Eliksiry obrony przed próżnią</string>
 	<string key="bounty_GroupName">Talizman</string>
 	<string key="bountymagic_GroupName">Pusty animus</string>
-	<string key="BowA_GroupDesc">Znakomita broń dystansowa, z której można szybko strzelać lub mocniej naciągnąć cięciwę, by zadać większe obrażenia. Idealnie nadaje się do przeszkadzania wrogom i zadawania im obrażeń za pomocą różnorodnych ataków z dystansu.\n\n•Krótki naciąg: Zadaje {[DamageTable.BowAttack1.DmgCoef * 100]}% obrażeń od pchnięć.\n•Długi naciąg: Zadaje {[DamageTable.BowAttack2.DmgCoef * 100]}% obrażeń od pchnięć.</string>
+	<string key="BowA_GroupDesc">Znakomita broń dystansowa, z której można szybko strzelać lub mocniej naciągnąć cięciwę, by zadać większe obrażenia. Idealnie nadaje się do powstrzymywania wrogów i zadawania im obrażeń za pomocą różnorodnych ataków z dystansu.\n\n•Strzał z biodra: Zadaje {[DamageTable.BowAttack_Hipshot.DmgCoef * 100]}% obrażeń od pchnięć.\n•Krótki naciąg: Zadaje {[DamageTable.BowAttack1.DmgCoef * 100]}% obrażeń od pchnięć.\n•Długi naciąg: Zadaje {[DamageTable.BowAttack2.DmgCoef * 100]}% obrażeń od pchnięć.</string>
 	<string key="BowA_GroupName">Łuki</string>
 	<string key="BowA2_GroupName">Łuki</string>
 	<string key="BowB_GroupDesc">2-ręczny. Broń dystansowa wykorzystująca strzały. Aby strzała zadała największe obrażenia, należy maksymalnie naciągnąć cięciwę przed oddaniem strzału.</string>
@@ -728,6 +728,7 @@
 	<string key="ClothT3_GroupName">Tkanina klasy 3</string>
 	<string key="ClothT4_GroupName">Tkanina klasy 4</string>
 	<string key="ClothT5_GroupName">Tkanina klasy 5</string>
+	<string key="ClothT51_GroupName">Legendarna tkanina</string>
 	<string key="CoatingAncient_GroupDesc">Powłoki zwiększające obrażenia zadawane pradawnym.</string>
 	<string key="CoatingAncient_GroupName">Pradawne powłoki</string>
 	<string key="CoatingAngryEarth_GroupDesc">Powłoki zwiększające obrażenia zadawane istotom wściekłej ziemi.</string>
@@ -854,8 +855,9 @@
 	<string key="DungeonReps6_GroupName">Repliki z Użyteczności Łazarza</string>
 	<string key="DungeonReps7_GroupName">Repliki z Ogrodu Genezy</string>
 	<string key="DungeonReps8_GroupName">CHWILOWO BRAK NAZWY</string>
-	<string key="DungeonReps9_GroupName">CHWILOWO BRAK NAZWY</string>
+	<string key="DungeonReps9_GroupName">Repliki z Serca Burzy</string>
 	<string key="DungeonShields_GroupName">Tarcze z ekspedycji</string>
+	<string key="DungeonReps12_GroupName">Unikalne nagrody za ekspedycje</string>
 	<string key="Dye1_GroupDesc">Wytwórz jeden z wielu odcieni czerwonego barwnika.</string>
 	<string key="Dye1_GroupName">Czerwony barwnik</string>
 	<string key="Dye10_GroupDesc">Umbra – barwnik do farbowania pancerza.</string>
@@ -969,6 +971,32 @@
 	<string key="FishLarge_GroupName">Duże ryby</string>
 	<string key="FishMedium_GroupName">Średnie ryby</string>
 	<string key="FishSmall_GroupName">Małe ryby</string>
+	<string key="Bass_GroupName">Strzępiel</string>
+	<string key="Bluefish_GroupName">Lufar</string>
+	<string key="Catfish_GroupName">Sum</string>
+	<string key="Cod_GroupName">Dorsz</string>
+	<string key="Dragonfish_GroupName">Arowana azjatycka</string>
+	<string key="ElectricEel_GroupName">Węgorz elektryczny</string>
+	<string key="Flounder_GroupName">Flądra</string>
+	<string key="Frogfish_GroupName">Żabnica</string>
+	<string key="Hake_GroupName">Morszczuk</string>
+	<string key="Halibut_GroupName">Halibut</string>
+	<string key="Mackerel_GroupName">Makrela</string>
+	<string key="Madtom_GroupName">Noturus</string>
+	<string key="Paddlefish_GroupName">Wiosłonos</string>
+	<string key="Pike_GroupName">Szczupak</string>
+	<string key="Piranha_GroupName">Pirania</string>
+	<string key="Salmon_GroupName">Łosoś</string>
+	<string key="Sculpin_GroupName">Cottoidea</string>
+	<string key="Snapper_GroupName">Lucjan</string>
+	<string key="SpeartoothShark_GroupName">Rekin żarłaczowaty</string>
+	<string key="Squid_GroupName">Kałamarnica</string>
+	<string key="Stingray_GroupName">Płaszczka</string>
+	<string key="Sturgeon_GroupName">Jesiotr</string>
+	<string key="Sunfish_GroupName">Samogłów</string>
+	<string key="Swordfish_GroupName">Miecznik</string>
+	<string key="Trout_GroupName">Pstrąg</string>
+	<string key="Perch_GroupName">Okoń</string>
 	<string key="flint_GroupName">Krzemienie</string>
 	<string key="Flowers_GroupName">Kwiaty</string>
 	<string key="Flux_GroupName">Topniki</string>
@@ -1230,6 +1258,7 @@
 	<string key="LeatherT3_GroupName">Skóra klasy 3</string>
 	<string key="LeatherT4_GroupName">Skóra klasy 4</string>
 	<string key="LeatherT5_GroupName">Skóra klasy 5</string>
+	<string key="LeatherT51_GroupName">Legendarna skóra</string>
 	<string key="lightChestA_GroupName">Wytworzona koszula pojedynkowicza</string>
 	<string key="lightChestAFound_GroupName">Odzyskana koszula pojedynkowicza</string>
 	<string key="lightChestB_GroupName">Wytworzona szata mędrca</string>
@@ -1358,6 +1387,7 @@
 	<string key="MetalT3_GroupName">Metale klasy 3</string>
 	<string key="MetalT4_GroupName">Metale klasy 4</string>
 	<string key="MetalT5_GroupName">Metale klasy 5</string>
+	<string key="MetalT51_GroupName">Legendarne metale</string>
 	<string key="MinerChest_GroupName">Koszula górnika</string>
 	<string key="MinerFeet_GroupName">Buty górnika</string>
 	<string key="MinerHands_GroupName">Rękawice górnika</string>
@@ -1376,6 +1406,10 @@
 	<string key="nut_GroupName">Orzechy</string>
 	<string key="Offensive_GroupName">Modyfikatory ataku</string>
 	<string key="oil_GroupName">Ropa naftowa</string>
+	<string key="beeswax_GroupName">Wosk pszczeli</string>
+	<string key="DroppedAmulet_GroupName">Upuszczone amulety</string>
+	<string key="DroppedRing_GroupName">Upuszczone pierścienie</string>
+	<string key="DroppedEarring_GroupName">Upuszczone kolczyki</string>
 	<string key="OnyxCut_GroupDesc">Szlifowane i polerowane onyksy. Można z nich wytworzyć biżuterię, która zwiększa kondycję, albo umieścić w gnieździe przedmiotu, by zyskać profity "Zuchwałość" i "Ochrona fizyczna".</string>
 	<string key="OnyxCut_GroupName">Szlifowany onyks</string>
 	<string key="OpalCut_GroupDesc">Szlifowane i polerowane opale. Można z nich wytworzyć biżuterię, która zwiększa skupienie, albo umieścić w gnieździe przedmiotu, by zyskać profity "Gambit" i "Ochrona przed żywiołami".</string>
@@ -1712,9 +1746,10 @@
 	<string key="TimberT3_GroupName">Surowiec drzewny klasy 3</string>
 	<string key="TimberT4_GroupName">Surowiec drzewny klasy 4</string>
 	<string key="TimberT5_GroupName">Surowiec drzewny klasy 5</string>
+	<string key="TimberT51_GroupName">Legendarny surowiec drzewny</string>
 	<string key="TinctureBlight_GroupName">Nalewki zarazy</string>
 	<string key="TinctureCorruption_GroupName">Nalewki skażenia</string>
-	<string key="Tokens_GroupName">Żetony Zimowej Konwergencji</string>
+	<string key="Tokens_GroupName">Żetony wydarzenia</string>
 	<string key="TokenCreation_GroupName">Tworzenie żetonów</string>
 	<string key="TokenConversion_GroupName">Konwersja żetonów</string>
 	<string key="ToolHatchet_GroupDesc">1-ręczna. Do ścinania drzew.</string>
@@ -1785,7 +1820,6 @@
 	<string key="wood_GroupName">Drewno</string>
 	<string key="WoodAny_CategoryName">Dowolne drewno</string>
 	<string key="WorkOrder_GroupName">Oferty pracy</string>
-	<string key="CategoryData_CookingRecipes">Przepisy kucharskie</string>
 	<string key="Pattern">Wzory</string>
 	<string key="PatternRecipes">Schematy wzorów</string>
 	<string key="Lodestone">Magnetyt</string>
@@ -1801,8 +1835,42 @@
 	<string key="TimelessShardsCon">Wieczne odłamki – kondycja</string>
 	<string key="ArmorShadow_GroupName">Cienisty</string>
 	<string key="ArmorBeast_GroupName">Łowczy</string>
-	<string key="CategoryData_EventConsumables" rel_version="Feature_RabbitSeason">Przedmioty użytkowe – wydarzenia</string>
-	<string key="ConsumableLuck_GroupName" rel_version="Feature_RabbitSeason">Przedmioty użytkowe – szczęście</string>
+	<string key="CategoryData_EventConsumables">Przedmioty użytkowe – wydarzenia</string>
+	<string key="ConsumableLuck_GroupName" rel_version="Feature_RabbitSeasonPerm">Przedmioty użytkowe – szczęście</string>
+	<string key="CategoryData_DyeIngredients" rel_version="Feature_RabbitSeasonPerm">Składniki barwników</string>
 	<string key="Blunderbuss_GroupName">Garłacze</string>
+	<string key="PerfectSalvageArmor_Name">Fragmenty pancerza</string>
+	<string key="PerfectSalvageWeapons_Name">Fragmenty broni</string>
+	<string key="PerfectSalvageJewelry_Name">Fragmenty biżuterii</string>
+	<string key="PerfectSalvageEngineer_Name">Fragmenty inżynierskie</string>
+	<string key="PerfectSalvageArcane_Name">Fragmenty arkanistyczne</string>
+	<string key="SalvageTier2_Name">Fragmenty klasy II</string>
+	<string key="SalvageTier3_Name">Fragmenty klasy III</string>
+	<string key="SalvageTier4_Name">Fragmenty klasy IV</string>
+	<string key="SalvageTier5_Name">Fragmenty klasy V</string>
+	<string key="Salvage">Odzyskaj fragmenty</string>
+	<string key="SalvageExtract">Wydobądź</string>
+	<string key="SalvageCreate">Wytwórz</string>
+	<string key="SalvageResearch">Zbadaj</string>
+	<string key="SalvageCondense">Skondensuj</string>
+	<string key="AlchemyCritters_GroupName">Stworzenia alchemiczne</string>
+	<string key="SummerMemento" rel_version="Event_Summer_Temp">Letnie pamiątki</string>
+	<string key="MementoStand" rel_version="Event_Summer_Temp">Stojaki na pamiątki</string>
+	<string key="SmallMemento" rel_version="Event_Summer_Temp">Małe rybie pamiątki</string>
+	<string key="MediumMemento" rel_version="Event_Summer_Temp">Średnie rybie pamiątki</string>
+	<string key="LargeMemento" rel_version="Event_Summer_Temp">Duże rybie pamiątki</string>
+	<string key="Instruments_GroupName" rel_version="Feature_MusicalPerformances">Instrumenty</string>
+	<string key="CategoryData_Instruments" rel_version="Feature_MusicalPerformances">Instrumenty</string>
+	<string key="InstrumentParts_GroupName" rel_version="Feature_MusicalPerformances">Części instrumentów</string>
+	<string key="CategoryData_MusicSheets" rel_version="Feature_MusicalPerformances">Nuty</string>
+	<string key="Flutes_GroupName" rel_version="Feature_MusicalPerformances">Azothowy flet – muzyka</string>
+	<string key="Drums_GroupName" rel_version="Feature_MusicalPerformances">Bęben – muzyka</string>
+	<string key="Guitars_GroupName" rel_version="Feature_MusicalPerformances">Gitara – muzyka</string>
+	<string key="UprightBasss_GroupName" rel_version="Feature_MusicalPerformances">Kontrabas – muzyka</string>
+	<string key="Mandolins_GroupName" rel_version="Feature_MusicalPerformances">Mandolina – muzyka</string>
+	<string key="DungeonReps11_GroupName" rel_version="Expedition_CutlassKeys_00">Repliki z Pąkli i czarnego prochu</string>
+	<string key="TerritorySupplies_GroupName">Zapasy terytorialne</string>
+	<string key="TerritoryContribution_GroupName">Przekazywanie zapasów</string>
+	<string key="InstrumentComponents_GroupName" rel_version="Feature_MusicalPerformances">Komponenty instrumentów</string>
 </resources>
 

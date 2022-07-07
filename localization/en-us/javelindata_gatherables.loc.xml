@@ -360,6 +360,8 @@
 	<string key="LootContainer_Settlement_Tannin_DisplayName">Take Tannin</string>
 	<string key="LootContainer_Settlement_Sandpaper_DisplayName">Take Sandpaper</string>
 	<string key="LootContainer_Settlement_Water_DisplayName">Pull Well</string>
+	<string key="LootContainer_OpenStoneTomb_DisplayName">Open Sarcophagus</string>
+	<string key="LootContainer_StoneTomb_DisplayName">Steal Grave Offerings</string>
 	<string key="Item_PotionHealT1_DisplayName">Distilled Healing Tincture</string>
 	<string key="Item_ClothT2_DisplayName">Cloth Scraps</string>
 	<string key="Darkness_Monolith_DisplayName">Corrupted Monolith</string>
@@ -528,13 +530,19 @@
 	<string key="1526_1521_LynxEvidence3_DisplayName">Lynx Restraints</string>
 	<string key="1524_GoldenStash_interact">The Golden Stash</string>
 	<string key="1524_Doubloon_DisplayName">A Trail of Doubloons</string>
+	<string key="9926_0103_VKCannonA_DisplayName" rel_version="AI_Evil_Knights_P2">Rotate Cannon</string>
+	<string key="9926_0103_VKCannonB_DisplayName" rel_version="AI_Evil_Knights_P2">Fire Cannon</string>
+	<string key="9926_0103_RomacPack_DisplayName" rel_version="AI_Evil_Knights_P2">Collect Romac's Satchel</string>
+	<string key="9926_0103_ActivityReport_DisplayName" rel_version="AI_Evil_Knights_P2">Gather Activity Report</string>
+	<string key="9932_0104_RomacNotebook_DisplayName" rel_version="AI_Evil_Knights_P2">Retrieve Romac's Notebook</string>
 	<string key="MSQ_ShipsLocker_DisplayName">Ship's Locker</string>
-	<string key="MSQ_Flag_DisplayName">Ship's Flag</string>
+	<string key="MSQ_Flag_DisplayName">Collect the Ship's Flag</string>
 	<string key="MSQ_SalvagePile_A_DisplayName">Salvage Pile</string>
 	<string key="MSQ_SalvagePile_B_DisplayName">Salvage Pile</string>
 	<string key="MSQ_SalvagePile_C_DisplayName">Salvage Pile</string>
 	<string key="AzothWater_Displayname">Azoth Spring</string>
 	<string key="AzothSeal_DisplayName">Ancient Azoth Seal</string>
+	<string key="HeartforgeEncounterBattery_DisplayName">Ignite Heartforge Flame</string>
 	<string key="PressurePlate_Ancient_DisplayName">Ancient Azoth Glyph</string>
 	<string key="AncientArtifactLocked">Ancient Artifact</string>
 	<string key="MSQ_OldStoneRemembers_Interact">Ancient Language Inscriptions</string>
@@ -587,6 +595,7 @@
 	<string key="PVP_0001_DeadDropGiveItem_DisplayName">Access Contents</string>
 	<string key="PVP_0002_DeadDropTakeItem_DisplayName">Access Contents</string>
 	<string key="SliceSwap_EmptyString" xsi:nil="true"/>
+	<string key="RescueHostage_DisplayName">Rescue Hostage</string>
 	<string key="dungeon_reekwater_interact_azoth_pool">Purified Azoth Pool</string>
 	<string key="dungeon_reekwater_interact_teleporter">Teleport</string>
 	<string key="dungeon_reekwater_interact_gate">Enter</string>
@@ -669,6 +678,8 @@
 	<string key="FM_1624_Supplies_DisplayName">Destroy Supplies</string>
 	<string key="FM_1624_Banners_DisplayName">Ignite Banner</string>
 	<string key="FM_1624_Weapons_DisplayName">Destroy Weapons Rack</string>
+	<string key="dungeon_cutlasskeys00_gunpowdercask" rel_version="Expedition_CutlassKeys_00">Take Explosives</string>
+	<string key="Dungeon_CutlassKeys00_CannonBall" rel_version="Expedition_CutlassKeys_00">Grab Cannon Ball</string>
 	<string key="0411_Armillary_interact">Armillary Sphere</string>
 	<string key="0202_0101_Inquisitor_DisplayName">Inquisitor's Toolchest</string>
 	<string key="DungeonShatterMtn00_RelicBox_DisplayName" rel_version="Expedition_ShatterMtn_00">Reliquary</string>
@@ -678,6 +689,21 @@
 	<string key="DungeonShatterMtn_RelicStatue_DisplayName" rel_version="Expedition_ShatterMtn_00">Recall Reliquary\n(Requires 2 Azoth Staves)</string>
 	<string key="DungeonShatterMtn00_ChestStatue_DisplayName" rel_version="Expedition_ShatterMtn_00">Antiquated Coffer</string>
 	<string key="DungeonShatterMtn00_Statue_DisplayName" rel_version="Expedition_ShatterMtn_00">Antiquated Statue</string>
+	<string key="DungeonCutlassKeys00_Explosives_DisplayName" rel_version="Expedition_CutlassKeys_00">Set Fuse</string>
+	<string key="DungeonCutlassKeys00_ChestFuse_DisplayName" rel_version="Expedition_CutlassKeys_00">Toolbox</string>
+	<string key="DungeonCutlassKeys00_WaterStatue_DisplayName" rel_version="Expedition_CutlassKeys_00">Nereid's Offering</string>
+	<string key="DungeonCutlassKeys00_Spring_DisplayName" rel_version="Expedition_CutlassKeys_00">Offer</string>
+	<string key="SummerMedley_Settlement_Stage_Master_DisplayName" rel_version="Event_Summer_Temp">Medleyfaire Stage Centerpiece</string>
+	<string key="SummerMedley_Settlement_Stage_T1_DisplayName" rel_version="Event_Summer_Temp">Dismal Bestowment</string>
+	<string key="SummerMedley_Settlement_Stage_T2_DisplayName" rel_version="Event_Summer_Temp">Grand Bestowment</string>
+	<string key="SummerMedley_Settlement_Stage_T3_DisplayName" rel_version="Event_Summer_Temp">Opulent Bestowment</string>
+	<string key="SummerMedley_Settlement_Stage_Description" rel_version="Event_Summer_Temp">Compete Medleyfaire Town Projects to upgrade the glory and rewards bestowed by the stage!</string>
+	<string key="SummerMedley_Village_BonfireBlast_DisplayName" rel_version="Event_Summer_Temp">Medleyfaire Pyre</string>
+	<string key="SummerMedley_Village_BonfireBlast_Description" rel_version="Event_Summer_Temp">Toss an Aeternum Sturgeon Magic Fishbone into the fires to receive a tremendous reward!</string>
+	<string key="SummerMedley_Maudlindust_DisplayName" rel_version="Event_Summer_Temp">Maudlindust</string>
+	<string key="SummerMedley_Maudlindust_Particle_DisplayName" rel_version="Event_Summer_Temp">Maudlindust Particle</string>
+	<string key="SummerMedley_Village_Dancefloor_DisplayName" rel_version="Event_Summer_Temp">Medleyfaire Dance Floor</string>
+	<string key="SummerMedley_Village_Dancefloor_Description" rel_version="Event_Summer_Temp">Polish up and show off your best moves on the Medleyfaire Dance Floor to earn Event Reputation!</string>
 	<string key="FM_PVP_War_Camp_Loot_Box_DisplayName">War Camp Chest</string>
 	<string key="1130_ArcaneFocus1_DisplayName">Arcane Focus</string>
 	<string key="1130_ArcaneFocus2_DisplayName">Arcane Focus</string>
@@ -686,6 +712,7 @@
 	<string key="0726_BookOfIsabella_DisplayName">Book of Isabella</string>
 	<string key="1130_CursedAxe_DisplayName">Begin the Ritual</string>
 	<string key="0726_Gravestone_interact" rel_version="DEPRECATED_January_2022">Inspect Crewman's Grave</string>
+	<string key="EvilKnights_Camp_StoneDoor" rel_version="AI_Evil_Knights_P2">Activate Gate</string>
 	<string key="Dynasty_Gong_DisplayName">Dynasty Gong</string>
 	<string key="ExploreVista_EastCleave01" rel_version="Feature_RewardingExploration">Long Forgotten Easel</string>
 	<string key="ExploreVista_EastCutlass01" rel_version="Feature_RewardingExploration">Long Forgotten Easel</string>
@@ -721,5 +748,26 @@
 	<string key="0601_0101_weapon_02_warhammer_DisplayName">Choose the Battleworn Warhammer</string>
 	<string key="0601_0101_weapon_03_bow_DisplayName">Choose the Battleworn Bow</string>
 	<string key="0601_0101_weapon_04_firestaff_DisplayName">Choose the Battleworn Firestaff</string>
+	<string key="98_Covenant_02_Captive_DisplayName">Release prisoner</string>
+	<string key="98_Covenant_03_Pyre_DisplayName">Burn the artifact</string>
+	<string key="13_Summer_AzFluteT1_DisplayName" rel_version="Quest_Event_Summer">Collect Flute</string>
+	<string key="13_Summer_DrumT1_DisplayName" rel_version="Quest_Event_Summer">Collect Drum</string>
+	<string key="13_Summer_GuitarT1_DisplayName" rel_version="Quest_Event_Summer">Collect Guitar</string>
+	<string key="13_Summer_MandolinT1_DisplayName" rel_version="Quest_Event_Summer">Collect Mandolin</string>
+	<string key="13_Summer_URBassT1_DisplayName" rel_version="Quest_Event_Summer">Collect Upright Bass</string>
+	<string key="13_Summer_Carpenter1_DisplayName" rel_version="Quest_Event_Summer">Repair Table</string>
+	<string key="13_Summer_Carpenter2_DisplayName" rel_version="Quest_Event_Summer">Attach Vices</string>
+	<string key="13_Summer_Apiary_DisplayName" rel_version="Quest_Event_Summer">Ignite Smoker Jug</string>
+	<string key="13_Summer_Oven_DisplayName" rel_version="Quest_Event_Summer">Scrub Oven</string>
+	<string key="13_Summer_FlowerBoxA_DisplayName" rel_version="Quest_Event_Summer">Water Sunflowers</string>
+	<string key="13_Summer_FlowerBoxB_DisplayName" rel_version="Quest_Event_Summer">Water Hibiscus</string>
+	<string key="13_Summer_FlowerBoxC_DisplayName" rel_version="Quest_Event_Summer">Water Daisies</string>
+	<string key="06A_MSQ_Lijsbet_Trapped_DisplayName">Rescue Lijsbet</string>
+	<string key="06A_MSQ_Michael_Trapped_DisplayName">Rescue Michael</string>
+	<string key="06A_MSQ_Nessa_Trapped_DisplayName">Rescue Nessa</string>
+	<string key="06A_MSQ_Gideon_Trapped_DisplayName">Rescue Gideon</string>
+	<string key="06A_MSQ_11_pirateCrates_DisplayName">Smash Crate</string>
+	<string key="06A_MSQ_14_map_DisplayName">Copy Map</string>
+	<string key="Cyclic_06A_MSQ_puzzlestone_DisplayName">Rotate Stone</string>
 </resources>
 

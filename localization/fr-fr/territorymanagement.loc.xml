@@ -35,8 +35,8 @@
 	<string key="ui_claimmarker_not_enough_resources">Ressources insuffisantes</string>
 	<string key="ui_claimmarker_startclaiminstructions">Placez un sortilège de protection pour revendiquer ce territoire.</string>
 	<string key="ui_claimmarker_companycollect">En revendiquant ce territoire, votre compagnie peut déverrouiller de grandes fonctionnalités en tant que compagnie dirigeante.</string>
-	<string key="ui_claimmarker_propertytax">Impôts fonciers</string>
-	<string key="ui_claimmarker_propertytaxdesc">La compagnie dirigeante peut collecter les impôts fonciers des maisons dans la colonie.</string>
+	<string key="ui_claimmarker_propertytax">Frais d'entretien de propriété</string>
+	<string key="ui_claimmarker_propertytaxdesc">La compagnie dirigeante peut collecter les frais d'entretien de propriété des maisons de la colonie.</string>
 	<string key="ui_claimmarker_tradingfee">Taxe commerciale</string>
 	<string key="ui_claimmarker_tradingfeedesc">La compagnie dirigeante peut facturer des frais pour les transactions de comptoir effectuées sur son territoire.</string>
 	<string key="ui_claimmarker_craftingfee">Taxe de fabrication et transformation</string>
@@ -96,7 +96,7 @@
 	<string key="ui_leaving_settlement">Départ de la colonie</string>
 	<string key="ui_leaving_settlement_recall_no_cd">Vous pouvez revenir n'importe quand à l'aide de la carte.</string>
 	<string key="ui_leaving_settlement_recall_time">Auberge disponible dans &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{time}&lt;/font&gt;</string>
-	<string key="ui_leaving_settlement_recall_time_desc">Le retour à l'auberge n'est disponible que toutes les 30 minutes.</string>
+	<string key="ui_leaving_settlement_recall_time_desc">Le retour à l'auberge n'est disponible que toutes les {numMinutes} minutes.</string>
 	<string key="ui_leaving_settlement_no_inn_desc">Vous partez sans vous être enregistré(e) à l'auberge.</string>
 	<string key="ui_leaving_settlement_no_inn">Non enregistré(e)</string>
 	<string key="ui_leaving_settlement_inn_elsewhere">Vous partez sans vous être enregistré(e) à l'auberge. L'auberge active se trouve à : {territoryName} {distance}.</string>
@@ -148,7 +148,7 @@
 	<string key="ui_global_average_fee">Moyenne globale : &lt;font color='#FFFFFF'&gt;{tax}&lt;/font&gt;</string>
 	<string key="ui_confirm_set_tax_title">Voulez-vous continuer ?</string>
 	<string key="ui_confirm_set_tax_desc">Un nouveau montant de taxe sera défini, qui ne pourra pas être modifié avant la prochaine mise à jour.</string>
-	<string key="ui_property_tax_description">Les habitants de ce territoire doivent payer des impôts fonciers tous les 7 jours.</string>
+	<string key="ui_property_tax_description">Les habitants de ce territoire doivent payer les frais d'entretien de propriété tous les 7 jours.</string>
 	<string key="ui_trading_tax_description">Les transactions effectuées à l'intérieur de ce territoire sont soumises à une taxe commerciale.</string>
 	<string key="ui_crafting_fee_description">Chaque objet fabriqué à l'intérieur de ce territoire est soumis à une taxe de fabrication.</string>
 	<string key="ui_refining_fee_description">Chaque ressource transformée à l'intérieur de ce territoire est soumise à une taxe de transformation.</string>
@@ -179,11 +179,13 @@
 	<string key="ui_encounter_statusstandby">Votre statut : &lt;font color='#fab445'&gt;En attente&lt;/font&gt;</string>
 	<string key="ui_encounter_statusselected">Votre statut : &lt;font color='#30e5ab'&gt;Sélectionné(e)&lt;/font&gt;</string>
 	<string key="ui_encounter_managebutton">Gestion de l'armée</string>
-	<string key="ui_encounter_signupbutton_war">S'enregistrer</string>
+	<string key="ui_encounter_signupbutton_war">S'inscrire pour la guerre</string>
 	<string key="ui_encounter_signupDesc_war">Inscrivez-vous pour cette guerre à un\n&lt;font color='#f1ede2'&gt;tableau de guerre&lt;/font&gt; dans cette ville.</string>
 	<string key="ui_encounter_signupDesc_invasion">Inscrivez-vous pour cette invasion à un\n&lt;font color='#f1ede2'&gt;tableau de guerre&lt;/font&gt; dans cette ville.</string>
 	<string key="ui_encounter_signupDesc_invasion_minlevel">&lt;font color="#ff6363"&gt;Niveau minimum : {level}&lt;/font&gt;</string>
-	<string key="ui_encounter_signupbutton_invasion">S'enregistrer</string>
+	<string key="ui_encounter_signup_invasion_minlevel_tooltip">Vous devez être au moins de niveau {level} pour vous inscrire pour l'invasion.</string>
+	<string key="ui_encounter_signup_invasion_too_early_tooltip">Les inscriptions ne sont pas encore ouvertes pour cette invasion.</string>
+	<string key="ui_encounter_signupbutton_invasion">S'inscrire pour l'invasion</string>
 	<string key="ui_encounter_viewstatusbutton_war">Voir armée</string>
 	<string key="ui_encounter_viewstatusbutton_invasion">Voir armée</string>
 	<string key="ui_warselected_title">Sélectionné(e) pour partir en guerre</string>
@@ -226,9 +228,11 @@
 	<string key="ui_fortressinfo_resolvinginvasion">Résolution de l'invasion</string>
 	<string key="ui_fortressinfo_invasiondescription">Ce territoire est attaqué par les altérés. La guerre ne peut pas être déclarée avant la fin de l'invasion.</string>
 	<string key="ui_fortressinfo_button_declarewar">Déclarer la guerre !</string>
-	<string key="ui_fortressinfo_button_warsignup">S'enregistrer</string>
+	<string key="ui_fortressinfo_button_manage">Gestion de l'armée</string>
+	<string key="ui_fortressinfo_button_signup_at_board">S'enregistrer au tableau de guerre</string>
+	<string key="ui_fortressinfo_button_warsignup">S'inscrire pour la guerre</string>
 	<string key="ui_fortressinfo_button_warstatus">Statut d'inscription</string>
-	<string key="ui_fortressinfo_button_invasionsignup">S'enregistrer</string>
+	<string key="ui_fortressinfo_button_invasionsignup">S'inscrire pour l'invasion</string>
 	<string key="ui_fortressinfo_attackerlabel">(en attaque)</string>
 	<string key="ui_fortressinfo_defenderlabel">(en défense)</string>
 	<string key="ui_fortressinfo_invasionattackername">Les altérés</string>
@@ -276,7 +280,7 @@
 	<string key="ui_upgradebutton_upgradescomplete">Améliorations terminées</string>
 	<string key="ui_active_project_completed">Un projet actif a été terminé.</string>
 	<string key="ui_wait_for_cooldown">L'ajout de nouveaux projets est cours de recharge.</string>
-	<string key="ui_you_have_n_completed_missions">Vous avez terminé {count} missions.</string>
+	<string key="ui_you_have_n_completed_missions">Vous avez accompli {count} mission(s).</string>
 	<string key="ui_project_completeallmissions">Terminer toutes les missions</string>
 	<string key="ui_project_turningin">Vous vous rendez</string>
 	<string key="ui_project_totalreward">Récompenses totales</string>
@@ -448,20 +452,37 @@
 	<string key="ui_upgrade_desc_CookingProjectId">Améliorez la cuisine au palier 3 pour pouvoir fabriquer &lt;font color="#ffd058"&gt;des repas de palier 3&lt;/font&gt;.</string>
 	<string key="ui_upgrade_desc_CookingProjectId2">Améliorez la cuisine au palier 4 pour pouvoir fabriquer &lt;font color="#ffd058"&gt;des repas de palier 4&lt;/font&gt;.</string>
 	<string key="ui_upgrade_desc_CookingProjectId3">Améliorez la cuisine au palier 5 pour pouvoir fabriquer &lt;font color="#ffd058"&gt;des repas de palier 5&lt;/font&gt;.</string>
-	<string key="ui_upgrade_desc_FortGatesProjectId">Améliorez les portes au palier 2 pour en augmenter les PV.</string>
-	<string key="ui_upgrade_desc_FortGatesProjectId2">Améliorez les portes au palier 3 pour en augmenter les PV.</string>
+	<string key="ui_upgrade_desc_FortGatesProjectId">Améliore les portes au palier 2. Les PV des portes augmentent.</string>
+	<string key="ui_upgrade_desc_FortGatesProjectId2">Améliore les portes au palier 3. Les PV des portes augmentent.</string>
 	<string key="ui_upgrade_desc_FortHardPointsProjectId">Déverrouillez un point de mise en place supplémentaire (ex. : baliste, cuve d'huile brûlante, etc.)</string>
 	<string key="ui_upgrade_desc_FortHardPointsProjectId2">Déverrouillez un point de mise en place supplémentaire (ex. : baliste, cuve d'huile brûlante, etc.)</string>
 	<string key="ui_upgrade_desc_BallistaProjectId">Améliorez la baliste au palier 2. L'amélioration effectuée, toutes les balistes (déployées ou non) sont également améliorées.</string>
 	<string key="ui_upgrade_desc_BallistaProjectId2">Améliorez la baliste au palier 3. L'amélioration effectuée, toutes les balistes (déployées ou non) sont également améliorées.</string>
-	<string key="ui_upgrade_desc_FireBarrelProjectId">Améliorez la cuve d'huile brûlante au palier 2. L'amélioration effectuée, toutes les cuves d'huile brûlante (déployées ou non) sont également améliorées.</string>
-	<string key="ui_upgrade_desc_FireBarrelProjectId2">Améliorez la cuve d'huile brûlante au palier 3. L'amélioration effectuée, toutes les cuves d'huile brûlante (déployées ou non) sont également améliorées.</string>
-	<string key="ui_upgrade_desc_RepeaterProjectId">Améliorez les armes à répétition au palier 2. L'amélioration effectuée, toutes les armes à répétition (déployées ou non) sont également améliorées.</string>
-	<string key="ui_upgrade_desc_RepeaterProjectId2">Améliorez les armes à répétition au palier 3. L'amélioration effectuée, toutes les armes à répétition (déployées ou non) sont également améliorées.</string>
-	<string key="ui_upgrade_desc_HornProjectId">Améliorez les cornes de guerre au palier 2. L'amélioration effectuée, toutes les cornes de guerre (déployées ou non) sont également améliorées.</string>
-	<string key="ui_upgrade_desc_HornProjectId2">Améliorez les cornes de guerre au palier 3. L'amélioration effectuée, toutes les cornes de guerre (déployées ou non) sont également améliorées.</string>
-	<string key="ui_upgrade_desc_ExplosiveProjectId">Améliorez les explosifs au palier 2. L'amélioration effectuée, tous les explosifs (déployés ou non) sont également améliorés.</string>
+	<string key="ui_upgrade_desc_FireBarrelProjectId">Améliorer la cuve d'huile brûlante au palier 2. Lorsqu'elles sont améliorées, toutes les cuves d'huile brûlante existantes (déployées ou non) sont également améliorées.</string>
+	<string key="ui_upgrade_desc_FireBarrelProjectId2">Améliorer la cuve d'huile brûlante au palier 3. Lorsqu'elles sont améliorées, toutes les cuves d'huile brûlante existantes (déployées ou non) sont également améliorées.</string>
+	<string key="ui_upgrade_desc_RepeaterProjectId">Améliorer les armes à répétition au palier 2. Lorsqu'elles sont améliorées, toutes les armes à répétition existantes (déployées ou non) sont également améliorées.</string>
+	<string key="ui_upgrade_desc_RepeaterProjectId2">Améliorer les armes à répétition au palier 3. Lorsqu'elles sont améliorées, toutes les armes à répétition existantes (déployées ou non) sont également améliorées.</string>
+	<string key="ui_upgrade_desc_HornProjectId">Améliorer les cornes de guerre au palier 2. Lorsqu'elles sont améliorées, toutes les cornes de guerre existantes (déployées ou non) sont également améliorées.</string>
+	<string key="ui_upgrade_desc_HornProjectId2">Améliorer les cornes de guerre au palier 3. Lorsqu'elles sont améliorées, toutes les cornes de guerre existantes (déployées ou non) sont également améliorées.</string>
+	<string key="ui_upgrade_desc_ExplosiveProjectId">Améliorer les explosifs au palier 2. Lorsqu'ils sont améliorés, tous les explosifs existants (déployés ou non) sont également améliorés.</string>
 	<string key="ui_upgrade_desc_ExplosiveProjectId2">Améliorez les explosifs au palier 3. L'amélioration effectuée, tous les explosifs (déployés ou non) sont également améliorés.</string>
+	<string key="event_summer_station" rel_version="Event_Summer_Temp">Scène des Mélégies</string>
+	<string key="ui_upgrade_title_EventSummerProjectId" rel_version="Event_Summer_Temp">Améliorer la scène des Mélégies au palier &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_EventSummerProjectId2" rel_version="Event_Summer_Temp">Améliorer la scène des Mélégies au palier &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_EventSummerProjectId3" rel_version="Event_Summer_Temp">Améliorations de la scène des Mélégies terminées !</string>
+	<string key="ui_upgrade_titleNoMarkup_EventSummerProjectId" rel_version="Event_Summer_Temp">Améliorer la scène des Mélégies au palier 2</string>
+	<string key="ui_upgrade_titleNoMarkup_EventSummerProjectId2" rel_version="Event_Summer_Temp">Améliorer la scène des Mélégies au palier 3</string>
+	<string key="ui_upgrade_titleNoMarkup_EventSummerProjectId3" rel_version="Event_Summer_Temp">Scène des Mélégies améliorée au maximum !</string>
+	<string key="ui_upgrade_button_EventSummerProjectId" rel_version="Event_Summer_Temp">Scène des Mélégies palier &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;1&lt;/font&gt;</string>
+	<string key="ui_upgrade_button_EventSummerProjectId2" rel_version="Event_Summer_Temp">Scène des Mélégies palier &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt;</string>
+	<string key="ui_upgrade_button_EventSummerProjectId3" rel_version="Event_Summer_Temp">Améliorations de la scène des Mélégies terminées !</string>
+	<string key="ui_upgrade_desc_EventSummerProjectId" rel_version="Event_Summer_Temp">Améliorez la scène des Mélégies au palier 2 pour l'entourer de &lt;font color="#ffd058"&gt;paniers joliment garnis !&lt;/font&gt;</string>
+	<string key="ui_upgrade_desc_EventSummerProjectId2" rel_version="Event_Summer_Temp">Améliorez la scène des Mélégies au palier 3 pour l'entourer de &lt;font color="#ffd058"&gt;paniers magnifiquement garnis !&lt;/font&gt;</string>
+	<string key="ui_upgrade_desc_EventSummerProjectId3" rel_version="Event_Summer_Temp">Accomplissez des projets urbains des Mélégies pour gagner de la réputation de l'événement !</string>
+	<string key="ui_upgradebutton_label_event_summer" rel_version="Event_Summer_Temp">Améliorer la scène des Mélégies</string>
+	<string key="ui_event_details_SummerMedley" rel_version="Event_Summer_Temp">&lt;font color="#ffd058"&gt;Accomplissez les quêtes et activités des Mélégies&lt;/font&gt; pour gagner de la réputation de l'événement et des jetons des Mélégies pour obtenir l'accès à une multitude de récompenses d'événement ! \n\n&lt;font color="#ffd058"&gt;Pêchez de délicieux mais insaisissables esturgeons d'Aeternum et approvisionnez les Mélégies&lt;/font&gt; en localisant des essaims de larminsectes et en jouant Brume de larminsectes pour capturer des appâts de larminsectes ! Gardez un œil sur les zones de pêche étincelantes !\n\n&lt;font color="#ffd058"&gt;Récupérez des récompenses quotidiennes de chaque piste de danse des Mélégies et de la scène centrale des Mélégies de la colonie ! &lt;/font&gt; Terminer un des projets urbains infinis des Mélégies améliore la splendeur et les récompenses obtenues de la scène centrale !</string>
+	<string key="ui_event_summer_project_complete" rel_version="Event_Summer_Temp">Projet d'amélioration de la scène des Mélégies terminé</string>
+	<string key="ui_event_project_endless" rel_version="Event_Summer_Temp">Infini</string>
 	<string key="ui_territory_level">Niveau de territoire : {level}</string>
 	<string key="ui_enter_house">Ouvrir le menu Maison</string>
 	<string key="ui_purchase_house">Acheter la maison</string>
@@ -588,7 +609,7 @@
 	<string key="ui_territory_standing_upgrade_category_housepoint">Objets de logement</string>
 	<string key="ui_territory_standing_upgrade_category_trading_tax">Taxe commerciale</string>
 	<string key="ui_territory_standing_upgrade_category_crafting_fee">Taxe de poste</string>
-	<string key="ui_territory_standing_upgrade_category_property_tax">Impôts fonciers</string>
+	<string key="ui_territory_standing_upgrade_category_property_tax">Frais d'entretien de propriété</string>
 	<string key="ui_territory_standing_upgrade_category_xp_gain">Gain d'EXP</string>
 	<string key="ui_territory_standing_upgrade_category_standing_gain">Gain de réputation</string>
 	<string key="ui_territory_standing_upgrade_category_gather">Cueillir</string>
@@ -605,7 +626,7 @@
 	<string key="ui_territory_standing_upgrade_stat_detection_distance">Distance de détection</string>
 	<string key="ui_territory_standing_upgrade_stat_trading_tax">Taux de taxe commerciale</string>
 	<string key="ui_territory_standing_upgrade_stat_crafting_fee">Taxe de fabrication</string>
-	<string key="ui_territory_standing_upgrade_stat_property_tax">Impôts fonciers</string>
+	<string key="ui_territory_standing_upgrade_stat_property_tax">Frais d'entretien de propriété</string>
 	<string key="ui_darkness_threshold_0">Aucun</string>
 	<string key="ui_darkness_threshold_1">Faible</string>
 	<string key="ui_darkness_threshold_2">Moyen</string>

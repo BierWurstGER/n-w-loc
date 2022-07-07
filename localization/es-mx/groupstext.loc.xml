@@ -11,7 +11,9 @@
 	<string key="ui_receivedgroupinvite_hide" comment="">Ocultar</string>
 	<string key="ui_togglepvpblocked_title" comment="">Advertencia de marca de PvP</string>
 	<string key="ui_togglepvpblocked_ingroup" comment="">Los jugadores con las marcas de PvP y PvE no pueden estar en un mismo grupo. Al cambiar tu marca de PvP, se te expulsará de este grupo.\n\n¿Confirmas que quieres cambiar tu marca de PvP?</string>
-	<string key="ui_togglepvpblocked_pendinginvites" comment="">Al cambiar la activación de la marca de PvP, se anularán todas tus invitaciones a la sala de espera de la expedición.\n\n¿Confirmas que quieres cambiar tu marca de PvP?</string>
+	<string key="ui_togglepvpblocked_pendinginvites" comment="">Al cambiar tu marca de PvP, se anularán todas tus invitaciones pendientes para unirte a grupos.\n\n¿Confirmas que quieres cambiar tu marca de PvP?</string>
+	<string rel_version="Feature_Group_Finder" key="ui_togglepvpblocked_ingroupfindergroup" comment="">Los jugadores con las marcas de PvP y PvE no pueden estar en una misma sala de espera. Al cambiar tu marca de PvP, se te expulsará de esta sala de espera.\n\n¿Confirmas que quieres cambiar tu marca de PvP?</string>
+	<string rel_version="Feature_Group_Finder" key="ui_togglepvpblocked_pendinggroupfinderapplications" comment="">Al cambiar tu marca de PvP, se anularán todas tus solicitudes de sala de espera.\n\n¿Confirmas que quieres cambiar tu marca de PvP?</string>
 	<string key="ui_receivedwargroupinvitetitle" comment="">¡Únete a la guerra!</string>
 	<string key="ui_receivedwargroupinvitemessage" comment="">Fuiste invitado para unirte a la guerra en {territoryName} desde las {startTime} hasta las {endTime}. Acepta para teletransportarte al campo de batalla.</string>
 	<string key="ui_receivedinvasiongroupinvitetitle" comment="">¡Defiéndete contra la invasión!</string>
@@ -22,6 +24,7 @@
 	<string key="ui_groupinviteacceptraid" comment="">Invitación de grupo aceptada</string>
 	<string key="ui_groupinvitedeclinesentmessage" comment="">Se rechazó la invitación de grupo de &lt;font color="#ffffff"&gt;{playerName}&lt;/font&gt;.</string>
 	<string key="ui_groupinvitedeclineraid" comment="">Invitación de grupo declinada</string>
+	<string key="ui_groupinvitedeclinerequeue" comment="">Se volvió a entrar a la cola porque un jugador rechazó la invitación</string>
 	<string key="ui_groupinvitewithdrawnreceivermessage" comment="">&lt;font color="#ffffff"&gt;{playerName}&lt;/font&gt; canceló su invitación de grupo.</string>
 	<string key="ui_groupinvitewithdrawnreceivermessage_SHE" comment="">&lt;font color="#ffffff"&gt;{playerName}&lt;/font&gt; canceló su invitación de grupo.</string>
 	<string key="ui_groupinvitewithdrawnreceivermessage_THEY" comment="">&lt;font color="#ffffff"&gt;{playerName}&lt;/font&gt; canceló su invitación de grupo.</string>
@@ -52,9 +55,11 @@
 	<string key="ui_cannotinviteingroup" comment="">No puedes invitar a alguien de tu grupo.</string>
 	<string key="ui_cannotinvitegroupfull" comment="">Tu grupo ya está lleno.</string>
 	<string key="ui_cannotinviteinraid" comment="">No puedes invitar a un usuario durante una guerra.</string>
+	<string key="ui_cannotinviteinInvasion" comment="">No puedes invitar a un usuario durante una invasión.</string>
 	<string key="ui_cannotinvitein_pvp_wrong_faction" comment="">La facción debe ser la misma para el grupo de PvP.</string>
 	<string key="ui_cannotleavegroup_in_arena" comment="">No puedes abandonar el grupo mientras estás en una arena.</string>
 	<string key="ui_cannotleavegroup_in_war" comment="">No puedes dejar el grupo mientras estás en una guerra.</string>
+	<string key="ui_cannotleavegroup_in_invasion" comment="">No puedes abandonar el grupo mientras estás en una invasión.</string>
 	<string key="ui_cannotleavegroup_in_dungeon" comment="">No puedes dejar el grupo mientras estás en una expedición.</string>
 	<string key="ui_cannotjoingroup_in_arena" comment="">No puedes unirte a otro grupo mientras estás en una arena.</string>
 	<string key="ui_cannotjoingroup_in_dungeon" comment="">No puedes unirte a un grupo distinto mientras estás en una expedición.</string>

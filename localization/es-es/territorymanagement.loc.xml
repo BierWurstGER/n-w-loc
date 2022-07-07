@@ -35,8 +35,8 @@
 	<string key="ui_claimmarker_not_enough_resources">Recursos insuficientes</string>
 	<string key="ui_claimmarker_startclaiminstructions">Construye un baluarte para conquistar este territorio.</string>
 	<string key="ui_claimmarker_companycollect">Si conquistas este territorio, tu compañía podrá desbloquear útiles funciones como compañía gobernante.</string>
-	<string key="ui_claimmarker_propertytax">Imp. de propiedad</string>
-	<string key="ui_claimmarker_propertytaxdesc">La compañía gobernante puede recaudar impuestos sobre la propiedad por las viviendas del asentamiento.</string>
+	<string key="ui_claimmarker_propertytax">Mantenimiento de la propiedad</string>
+	<string key="ui_claimmarker_propertytaxdesc">La compañía gobernante puede recaudar el mantenimiento por las viviendas del asentamiento.</string>
 	<string key="ui_claimmarker_tradingfee">Impuesto de comercialización</string>
 	<string key="ui_claimmarker_tradingfeedesc">La compañía gobernante puede recaudar impuestos por las transacciones de los puestos comerciales realizadas en el territorio.</string>
 	<string key="ui_claimmarker_craftingfee">Coste de artesanía y refinado</string>
@@ -96,7 +96,7 @@
 	<string key="ui_leaving_settlement">Saliendo del asentamiento</string>
 	<string key="ui_leaving_settlement_recall_no_cd">Usa el mapa para regresar en cualquier momento.</string>
 	<string key="ui_leaving_settlement_recall_time">Posada disponible en &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{time}&lt;/font&gt;</string>
-	<string key="ui_leaving_settlement_recall_time_desc">Solo puedes regresar a la posada una vez cada 30 minutos.</string>
+	<string key="ui_leaving_settlement_recall_time_desc">Solo puedes regresar a la posada una vez cada {numMinutes} minutos.</string>
 	<string key="ui_leaving_settlement_no_inn_desc">Vas a salir sin haberte registrado en la posada.</string>
 	<string key="ui_leaving_settlement_no_inn">No te has registrado</string>
 	<string key="ui_leaving_settlement_inn_elsewhere">Vas a salir sin haberte registrado. La posada actual está en {territoryName}, a una distancia de {distance}.</string>
@@ -148,7 +148,7 @@
 	<string key="ui_global_average_fee">Media global: &lt;font color='#FFFFFF'&gt;{tax}&lt;/font&gt;</string>
 	<string key="ui_confirm_set_tax_title">¿Seguro?</string>
 	<string key="ui_confirm_set_tax_desc">Esto establecerá un valor nuevo para el impuesto o coste. No se podrá cambiar otra vez hasta el próximo periodo de actualización.</string>
-	<string key="ui_property_tax_description">Los residentes de este territorio deben pagar el impuesto de propiedad cada 7 días.</string>
+	<string key="ui_property_tax_description">Los residentes de este territorio deben pagar el mantenimiento de la propiedad cada 7 días.</string>
 	<string key="ui_trading_tax_description">Las transacciones comerciales que se realizan en este territorio están sujetas a un impuesto al valor</string>
 	<string key="ui_crafting_fee_description">Hay que pagar un coste por cada objeto que se fabrique en este territorio</string>
 	<string key="ui_refining_fee_description">Hay que pagar un coste por cada recurso que se refine en este territorio</string>
@@ -179,11 +179,13 @@
 	<string key="ui_encounter_statusstandby">Tu estado: &lt;font color='#fab445'&gt;En espera&lt;/font&gt;</string>
 	<string key="ui_encounter_statusselected">Tu estado: &lt;font color='#30e5ab'&gt;Seleccionado&lt;/font&gt;</string>
 	<string key="ui_encounter_managebutton">Administrar ejército</string>
-	<string key="ui_encounter_signupbutton_war">Inscribirse en un tablero</string>
+	<string key="ui_encounter_signupbutton_war">Únete a la guerra</string>
 	<string key="ui_encounter_signupDesc_war">Inscríbete en un\n&lt;font color='#f1ede2'&gt;tablero de guerra&lt;/font&gt; de este pueblo para participar en esta guerra.</string>
 	<string key="ui_encounter_signupDesc_invasion">Inscríbete en un\n&lt;font color='#f1ede2'&gt;tablero de guerra&lt;/font&gt; de este pueblo para participar en esta invasión.</string>
 	<string key="ui_encounter_signupDesc_invasion_minlevel">&lt;font color="#ff6363"&gt;Nivel mínimo: {level}&lt;/font&gt;</string>
-	<string key="ui_encounter_signupbutton_invasion">Inscribirse en un tablero</string>
+	<string key="ui_encounter_signup_invasion_minlevel_tooltip">Tienes que haber alcanzado el nivel {level} como mínimo para unirte a la invasión.</string>
+	<string key="ui_encounter_signup_invasion_too_early_tooltip">Aún no puedes unirte a esta invasión.</string>
+	<string key="ui_encounter_signupbutton_invasion">Únete a la invasión</string>
 	<string key="ui_encounter_viewstatusbutton_war">Ver ejército</string>
 	<string key="ui_encounter_viewstatusbutton_invasion">Ver ejército</string>
 	<string key="ui_warselected_title">Te han seleccionado para la guerra</string>
@@ -226,9 +228,11 @@
 	<string key="ui_fortressinfo_resolvinginvasion">Invasión en fase de resolución</string>
 	<string key="ui_fortressinfo_invasiondescription">Este territorio está sufriendo un ataque de los corruptos. No se puede declarar la guerra hasta que la invasión haya terminado.</string>
 	<string key="ui_fortressinfo_button_declarewar">¡Declarar guerra!</string>
-	<string key="ui_fortressinfo_button_warsignup">Únete en el tablero</string>
+	<string key="ui_fortressinfo_button_manage">Administrar ejército</string>
+	<string key="ui_fortressinfo_button_signup_at_board">Inscribirse en un tablero</string>
+	<string key="ui_fortressinfo_button_warsignup">Únete a la guerra</string>
 	<string key="ui_fortressinfo_button_warstatus">Estado de la inscripción</string>
-	<string key="ui_fortressinfo_button_invasionsignup">Únete en el tablero</string>
+	<string key="ui_fortressinfo_button_invasionsignup">Únete a la invasión</string>
 	<string key="ui_fortressinfo_attackerlabel">(atacando)</string>
 	<string key="ui_fortressinfo_defenderlabel">(defendiendo)</string>
 	<string key="ui_fortressinfo_invasionattackername">Los corruptos</string>
@@ -276,7 +280,7 @@
 	<string key="ui_upgradebutton_upgradescomplete">Mejoras completadas</string>
 	<string key="ui_active_project_completed">Se ha completado un proyecto activo.</string>
 	<string key="ui_wait_for_cooldown">El tiempo de recarga para añadir nuevos proyectos sigue activo.</string>
-	<string key="ui_you_have_n_completed_missions">Has completado {count} misiones.</string>
+	<string key="ui_you_have_n_completed_missions">Misiones completadas: {count}.</string>
 	<string key="ui_project_completeallmissions">Completar todas las misiones</string>
 	<string key="ui_project_turningin">Estás entregando</string>
 	<string key="ui_project_totalreward">Recompensa total</string>
@@ -448,20 +452,37 @@
 	<string key="ui_upgrade_desc_CookingProjectId">Mejora la cocina a clase 3 para poder preparar &lt;font color="#ffd058"&gt;comidas de clase 3&lt;/font&gt;.</string>
 	<string key="ui_upgrade_desc_CookingProjectId2">Mejora la cocina a clase 4 para poder preparar &lt;font color="#ffd058"&gt;comidas de clase 4&lt;/font&gt;.</string>
 	<string key="ui_upgrade_desc_CookingProjectId3">Mejora la cocina a clase 5 para poder preparar &lt;font color="#ffd058"&gt;comidas de clase 5&lt;/font&gt;.</string>
-	<string key="ui_upgrade_desc_FortGatesProjectId">Mejora las puertas a clase 2 para que duren más.</string>
-	<string key="ui_upgrade_desc_FortGatesProjectId2">Mejora las puertas a clase 3 para que duren más.</string>
+	<string key="ui_upgrade_desc_FortGatesProjectId">Mejora las puertas a clase 2. Las puertas duran más.</string>
+	<string key="ui_upgrade_desc_FortGatesProjectId2">Mejora las puertas a clase 3. Las puertas duran más.</string>
 	<string key="ui_upgrade_desc_FortHardPointsProjectId">Desbloquea un lugar adicional para un emplazamiento (por ejemplo, para una balista, una cuba de aceite hirviendo, etc.)</string>
 	<string key="ui_upgrade_desc_FortHardPointsProjectId2">Desbloquea un lugar adicional para un emplazamiento (por ejemplo, para una balista, una cuba de aceite hirviendo, etc.)</string>
 	<string key="ui_upgrade_desc_BallistaProjectId">Mejora la balista a clase 2. También se mejoran las balistas existentes (estén desplegadas o no).</string>
 	<string key="ui_upgrade_desc_BallistaProjectId2">Mejora la balista a clase 3. También se mejoran las balistas existentes (estén desplegadas o no).</string>
-	<string key="ui_upgrade_desc_FireBarrelProjectId">Mejora la cuba de aceite hirviendo a clase 2. También se mejoran las cubas de aceite hirviendo existentes (estén desplegadas o no).</string>
-	<string key="ui_upgrade_desc_FireBarrelProjectId2">Mejora la cuba de aceite hirviendo a clase 3. También se mejoran las cubas de aceite hirviendo existentes (estén desplegadas o no).</string>
+	<string key="ui_upgrade_desc_FireBarrelProjectId">Mejora la cuba de aceite hirviendo a clase 2. También se mejoran las cubas de aceite hirviendo existentes (estén desplegadas o no).</string>
+	<string key="ui_upgrade_desc_FireBarrelProjectId2">Mejora la cuba de aceite hirviendo a clase 3. También se mejoran las cubas de aceite hirviendo existentes (estén desplegadas o no).</string>
 	<string key="ui_upgrade_desc_RepeaterProjectId">Mejora las armas de repetición a clase 2. También se mejoran las armas de repetición existentes (estén desplegadas o no).</string>
 	<string key="ui_upgrade_desc_RepeaterProjectId2">Mejora las armas de repetición a clase 3. También se mejoran las armas de repetición existentes (estén desplegadas o no).</string>
-	<string key="ui_upgrade_desc_HornProjectId">Mejora los cuernos de guerra a clase 2. También se mejoran los cuernos de guerra existentes (estén desplegados o no).</string>
-	<string key="ui_upgrade_desc_HornProjectId2">Mejora los cuernos de guerra a clase 3. También se mejoran los cuernos de guerra existentes (estén desplegados o no).</string>
+	<string key="ui_upgrade_desc_HornProjectId">Mejora los cuernos de guerra a clase 2. También se mejoran los cuernos de guerra (estén desplegados o no).</string>
+	<string key="ui_upgrade_desc_HornProjectId2">Mejora los cuernos de guerra a clase 3. También se mejoran los cuernos de guerra (estén desplegados o no).</string>
 	<string key="ui_upgrade_desc_ExplosiveProjectId">Mejora los explosivos a clase 2. También se mejoran los explosivos existentes (estén desplegados o no).</string>
 	<string key="ui_upgrade_desc_ExplosiveProjectId2">Mejora los explosivos a clase 3. También se mejoran los explosivos existentes (estén desplegados o no).</string>
+	<string key="event_summer_station" rel_version="Event_Summer_Temp">Escenario de la Feria Musical</string>
+	<string key="ui_upgrade_title_EventSummerProjectId" rel_version="Event_Summer_Temp">Mejora el escenario de la Feria Musical a clase &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_EventSummerProjectId2" rel_version="Event_Summer_Temp">Mejora el escenario de la Feria Musical a clase &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_EventSummerProjectId3" rel_version="Event_Summer_Temp">¡Mejoras del escenario de la Feria Musical completadas!</string>
+	<string key="ui_upgrade_titleNoMarkup_EventSummerProjectId" rel_version="Event_Summer_Temp">Mejora el escenario de la Feria Musical a clase 2</string>
+	<string key="ui_upgrade_titleNoMarkup_EventSummerProjectId2" rel_version="Event_Summer_Temp">Mejora el escenario de la Feria Musical a clase 3</string>
+	<string key="ui_upgrade_titleNoMarkup_EventSummerProjectId3" rel_version="Event_Summer_Temp">¡Escenario de la Feria Musical mejorado al máximo!</string>
+	<string key="ui_upgrade_button_EventSummerProjectId" rel_version="Event_Summer_Temp">Escenario de la Feria Musical clase &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;1&lt;/font&gt;</string>
+	<string key="ui_upgrade_button_EventSummerProjectId2" rel_version="Event_Summer_Temp">Escenario de la Feria Musical clase &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt;</string>
+	<string key="ui_upgrade_button_EventSummerProjectId3" rel_version="Event_Summer_Temp">¡Mejoras del escenario de la Feria Musical completadas!</string>
+	<string key="ui_upgrade_desc_EventSummerProjectId" rel_version="Event_Summer_Temp">¡Mejora el escenario de la Feria Musical a clase 2 para rodearlo con &lt;font color="#ffd058"&gt;cestas bien decoradas&lt;/font&gt;!</string>
+	<string key="ui_upgrade_desc_EventSummerProjectId2" rel_version="Event_Summer_Temp">¡Mejora el escenario de la Feria Musical a clase 3 para rodearlo con &lt;font color="#ffd058"&gt;cestas exquisitamente decoradas&lt;/font&gt;!</string>
+	<string key="ui_upgrade_desc_EventSummerProjectId3" rel_version="Event_Summer_Temp">¡Completa proyectos de pueblo de la Feria Musical para conseguir reputación de evento!</string>
+	<string key="ui_upgradebutton_label_event_summer" rel_version="Event_Summer_Temp">Mejora el escenario de la Feria Musical</string>
+	<string key="ui_event_details_SummerMedley" rel_version="Event_Summer_Temp">¡&lt;font color="#ffd058"&gt;Completa misiones y actividades de la Feria Musical&lt;/font&gt; para conseguir reputación de evento y fichas de la Feria Musical y ganar acceso a un botín de recompensas! ¡\n\n&lt;font color="#ffd058"&gt;Pesca deliciosos y escurridizos esturiones de Aetérnum y abastece la Feria Musical&lt;/font&gt; localizando enjambres de bichos sensibleros y tocando Neblina de bicho sensiblero para conseguir cebo de bicho sensiblero! ¡Vigila los puntos de encuentro brillantes!\n\n&lt;font color="#ffd058"&gt;¡Consigue recompensas diarias de cada pista de baile y del escenario central de la Feria Musical en los asentamientos! &lt;/font&gt; ¡Completar los numerosos proyectos de pueblo de la Feria Musical mejora el esplendor y las recompensas que puedes conseguir!</string>
+	<string key="ui_event_summer_project_complete" rel_version="Event_Summer_Temp">Proyecto de mejora del escenario de la Feria Musical completado</string>
+	<string key="ui_event_project_endless" rel_version="Event_Summer_Temp">Sin fin</string>
 	<string key="ui_territory_level">Nivel de territorio: {level}</string>
 	<string key="ui_enter_house">Ir al menú de casa</string>
 	<string key="ui_purchase_house">Comprar casa</string>
@@ -588,7 +609,7 @@
 	<string key="ui_territory_standing_upgrade_category_housepoint">Objetos domésticos</string>
 	<string key="ui_territory_standing_upgrade_category_trading_tax">Impuesto de comercialización</string>
 	<string key="ui_territory_standing_upgrade_category_crafting_fee">Coste de estación</string>
-	<string key="ui_territory_standing_upgrade_category_property_tax">Imp. de propiedad</string>
+	<string key="ui_territory_standing_upgrade_category_property_tax">Mantenimiento de la propiedad</string>
 	<string key="ui_territory_standing_upgrade_category_xp_gain">Ganancia de EXP</string>
 	<string key="ui_territory_standing_upgrade_category_standing_gain">Ganancia de estatus</string>
 	<string key="ui_territory_standing_upgrade_category_gather">Recolectar</string>
@@ -605,7 +626,7 @@
 	<string key="ui_territory_standing_upgrade_stat_detection_distance">Distancia de detección</string>
 	<string key="ui_territory_standing_upgrade_stat_trading_tax">Impuesto de comercialización</string>
 	<string key="ui_territory_standing_upgrade_stat_crafting_fee">Coste de\nartesanía</string>
-	<string key="ui_territory_standing_upgrade_stat_property_tax">Imp. de propiedad</string>
+	<string key="ui_territory_standing_upgrade_stat_property_tax">Mantenimiento de la propiedad</string>
 	<string key="ui_darkness_threshold_0">Nada</string>
 	<string key="ui_darkness_threshold_1">Baja</string>
 	<string key="ui_darkness_threshold_2">Media</string>

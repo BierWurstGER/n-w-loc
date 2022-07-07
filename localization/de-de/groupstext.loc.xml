@@ -11,7 +11,9 @@
 	<string key="ui_receivedgroupinvite_hide" comment="">Ausblenden</string>
 	<string key="ui_togglepvpblocked_title" comment="">PvP-Markierungswarnung</string>
 	<string key="ui_togglepvpblocked_ingroup" comment="">PvP- und PvE-Spieler können nicht in einer Gruppe platziert werden. Wenn du deine PvP-Markierung änderst, wirst du aus der Gruppe rausgeworfen.\n\nWillst du deine PvP-Markierung wirklich ändern?</string>
-	<string key="ui_togglepvpblocked_pendinginvites" comment="">Wenn du deine PvP-Markierung änderst, werden deine sämtlichen ausstehenden Expeditions-Lobby-Einladungen abgelehnt.\n\nWillst du deine PvP-Markierung wirklich ändern?</string>
+	<string key="ui_togglepvpblocked_pendinginvites" comment="">Wenn du deine PvP-Markierung änderst, werden deine sämtlichen ausstehenden Gruppeneinladungen abgelehnt.\n\nWillst du deine PvP-Markierung wirklich ändern?</string>
+	<string rel_version="Feature_Group_Finder" key="ui_togglepvpblocked_ingroupfindergroup" comment="">PvP- und PvE-Spieler können nicht in der gleichen Lobby sein. Wenn du deine PvP-Markierung änderst, wirst du aus der Lobby rausgeworfen.\n\nWillst du deine PvP-Markierung wirklich ändern?</string>
+	<string rel_version="Feature_Group_Finder" key="ui_togglepvpblocked_pendinggroupfinderapplications" comment="">Wenn du deine PvP-Markierung änderst, werden deine sämtlichen ausstehenden Lobbybewerbungen abgelehnt.\n\nWillst du deine PvP-Markierung wirklich ändern?</string>
 	<string key="ui_receivedwargroupinvitetitle" comment="">Schließe dich dem Krieg an!</string>
 	<string key="ui_receivedwargroupinvitemessage" comment="">Du wurdest eingeladen, dich von {startTime} bis {endTime} dem Krieg beim Gebiet {territoryName} anzuschließen. Nimm an, um zum Schlachtfeld teleportiert zu werden.</string>
 	<string key="ui_receivedinvasiongroupinvitetitle" comment="">Wehre die Invasion ab!</string>
@@ -22,6 +24,7 @@
 	<string key="ui_groupinviteacceptraid" comment="">Gruppeneinladung angenommen</string>
 	<string key="ui_groupinvitedeclinesentmessage" comment="">Gruppeneinladung von &lt;font color="#ffffff"&gt;{playerName}&lt;/font&gt; abgelehnt.</string>
 	<string key="ui_groupinvitedeclineraid" comment="">Gruppeneinladung abgelehnt</string>
+	<string key="ui_groupinvitedeclinerequeue" comment="">Warteschlange erneut beigetreten, weil ein Spieler abgelehnt hat.</string>
 	<string key="ui_groupinvitewithdrawnreceivermessage" comment="">&lt;font color="#ffffff"&gt;{playerName}&lt;/font&gt; hat seine Gruppeneinladung zurückgenommen.</string>
 	<string key="ui_groupinvitewithdrawnreceivermessage_SHE" comment="">&lt;font color="#ffffff"&gt;{playerName}&lt;/font&gt; hat ihre Gruppeneinladung zurückgenommen.</string>
 	<string key="ui_groupinvitewithdrawnreceivermessage_THEY" comment="">&lt;font color="#ffffff"&gt;{playerName}&lt;/font&gt; hat deine Gruppeneinladung zurückgenommen.</string>
@@ -52,9 +55,11 @@
 	<string key="ui_cannotinviteingroup" comment="">Du kannst niemanden einladen, der bereits deiner Gruppe angehört.</string>
 	<string key="ui_cannotinvitegroupfull" comment="">Deine Gruppe ist bereits voll.</string>
 	<string key="ui_cannotinviteinraid" comment="">Während eines Krieges kannst du niemanden einladen.</string>
+	<string key="ui_cannotinviteinInvasion" comment="">Während einer Invasion kannst du niemanden einladen.</string>
 	<string key="ui_cannotinvitein_pvp_wrong_faction" comment="">Muss für eine PvP-Gruppe der gleichen Fraktion angehören.</string>
 	<string key="ui_cannotleavegroup_in_arena" comment="">Du kannst deine Gruppe nicht verlassen, während du in einer Arena bist.</string>
 	<string key="ui_cannotleavegroup_in_war" comment="">Du kannst deine Gruppe nicht verlassen, während du dich im Krieg befindest.</string>
+	<string key="ui_cannotleavegroup_in_invasion" comment="">Du kannst deine Gruppe nicht verlassen, während du an einer Invasion teilnimmst.</string>
 	<string key="ui_cannotleavegroup_in_dungeon" comment="">Du kannst deine Gruppe nicht verlassen, während du auf einer Expedition bist.</string>
 	<string key="ui_cannotjoingroup_in_arena" comment="">Du kannst keiner anderen Gruppe beitreten, während du in einer Arena bist.</string>
 	<string key="ui_cannotjoingroup_in_dungeon" comment="">Du kannst keiner anderen Gruppe beitreten, während du auf einer Expedition bist.</string>

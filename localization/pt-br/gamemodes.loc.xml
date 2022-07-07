@@ -5,11 +5,12 @@
 	<string key="ui_queue_leave_group">Sair do Grupo</string>
 	<string key="ui_queue_leave_group_confirm_title">Sair do Grupo</string>
 	<string key="ui_queue_leave_group_confirm_message">Se o grupo restante ficar com menos de {minGroupSize} membros, o grupo será removido da fila.\n\nTem certeza?</string>
+	<string key="ui_queue_leave_notification_generic">Você foi removido da fila de modo de jogo</string>
 	<string key="ui_queue_ready">F2 para Entrar na Expedição</string>
 	<string key="ui_game_mode_matchmaking_failed">Ocorreu uma falha inesperada no pareamento.</string>
 	<string key="ui_game_mode_disabled">Este modo de jogo está desativado no momento</string>
-	<string key="ui_dungeon_enter_info">Pelo menos uma pessoa precisa entrar para manter a Expedição aberta. Teletransportar-se para entrar agora?</string>
-	<string key="ui_dungeon_enter_info_entered">A Expedição está aberta!\nTeletransportar-se para entrar agora?</string>
+	<string key="ui_dungeon_enter_info">&lt;font color={color}&gt;Pelo menos uma pessoa&lt;/font&gt; precisa entrar para manter a Expedição aberta. Teletransportar-se para entrar agora?</string>
+	<string key="ui_dungeon_enter_info_entered">A Expedição está aberta!\n&lt;font color={color}&gt;Teletransportar-se para entrar agora?&lt;/font&gt;</string>
 	<string key="ui_duel_player">Desafiar Jogador</string>
 	<string key="ui_duel_failmessage_invalidname">{playerName} não é um nome de jogador válido.</string>
 	<string key="ui_duel_failmessage_outofrange">Você não pode Desafiar um jogador a mais de {distance} metros.</string>
@@ -95,14 +96,14 @@
 	<string key="ui_outpost_rush_signup_playercount">{playerCount} Jogadores</string>
 	<string key="ui_outpost_rush_signup_failsolo">Você está em um grupo no momento e não pode entrar como jogador solo</string>
 	<string key="ui_outpost_rush_signup_failgroup">Você não está em um grupo no momento</string>
-	<string key="ui_outpost_rush_signup_failgroupinvite">Você tem um convite de grupo pendente no momento</string>
+	<string key="ui_outpost_rush_signup_failgroupinvite">Você tem um convite para o Saguão de Expedição</string>
 	<string key="ui_outpost_rush_signup_faillevel">É &lt;font color="#f10000"&gt;necessário&lt;/font&gt; estar no nível {levelRequirement}</string>
 	<string key="ui_outpost_rush_signup_failwar">Você não pode se registrar porque já está registrado em uma guerra que começa dentro de uma hora.</string>
 	<string key="ui_outpost_rush_signup_failqueue">Você não pode se registrar porque já está registrado para {matchname} no momento.</string>
 	<string key="ui_outpost_rush_signup_faildungeon">Você não pode se registrar porque está na fila de uma expedição.</string>
 	<string key="ui_outpost_rush_signup_failevent">Você não pode se registrar porque está em um evento no momento.</string>
 	<string key="ui_outpost_rush_signup_failgeneric">Você não pode se registrar neste momento.</string>
-	<string key="ui_outpost_rush_signup_failgrouptitle">Não é possível entrar na Investida do Posto Avançado</string>
+	<string key="ui_outpost_rush_signup_failgrouptitle">Não É Possível Entrar</string>
 	<string key="ui_outpost_rush_signup_failgrouplevel">Todos os membros do grupo devem estar pelo menos no nível {levelRequirement}.</string>
 	<string key="ui_outpost_rush_signup_failgroupwar">Um ou mais membros do seu grupo estão registrados em uma guerra que começa dentro de uma hora.</string>
 	<string key="ui_outpost_rush_signup_failgroupqueue">Um ou mais membros do seu grupo estão registrados em outro evento.</string>
@@ -110,6 +111,7 @@
 	<string key="ui_outpost_rush_signup_failgroupoffline">Um ou mais membros do seu grupo estão offline.</string>
 	<string key="ui_outpost_rush_signup_failgrouppenalty">Um ou mais membros do seu grupo têm um cronômetro de penalidade por sair de uma partida anterior da Investida do Posto Avançado.</string>
 	<string key="ui_outpost_rush_signup_failgrouptimeout">Um ou mais membros do seu grupo não responderam ao convite.</string>
+	<string key="ui_outpost_rush_signup_failgroupfinder">Um ou mais membros do seu grupo estão em um Saguão.</string>
 	<string key="ui_outpost_rush_signup_failpenalty">Você saiu no meio da partida, portanto uma penalidade será aplicada</string>
 	<string key="ui_outpost_rush_signup_penaltytimer">Você está bloqueado por: {time}</string>
 	<string key="ui_outpost_rush_signup_joingroup_desc">Você não poderá adicionar mais nenhum membro depois que seu grupo estiver na fila.</string>
@@ -162,7 +164,7 @@
 	<string key="ui_outpost_rush_tutorial_desc4">A Baronesa Hain é o fantasma de uma nobre morta há muito tempo que assombra a ilha. Elimine-a para ganhar um buff poderoso que aumenta a defesa da sua equipe e congela a pontuação do inimigo!</string>
 	<string key="ui_outpost_rush_tutorial_level_requirement">O jogador precisa estar no &lt;font color="#ffe294"&gt;nível {level}&lt;/font&gt; para participar da Investida do Posto Avançado.</string>
 	<string key="ui_outpost_rush_locked">Bloqueado</string>
-	<string key="ui_outpost_rush_select_summoning_stone">Selecione a Pedra de Invocação</string>
+	<string key="ui_outpost_rush_select_summoning_stone">Selecione Pedra de Invocação</string>
 	<string key="ui_outpost_rush_barrier">Barreira do Forte</string>
 	<string key="ui_or_total_score">PONTUAÇÃO TOTAL</string>
 	<string key="ui_or_points_from">PONTOS DE</string>
@@ -223,19 +225,17 @@
 	<string key="ui_durability_loss_war">Você está em uma guerra (ou invasão), seu equipamento não foi danificado após sua morte.</string>
 	<string key="ui_item_durability_loss">Todo o equipamento em seu inventário foi danificado após sua morte.</string>
 	<string key="ui_item_durability_loss_pvp">Você foi morto por outro jogador, seu equipamento sofreu dano reduzido.</string>
-	<string key="ui_pvp_arena_leave">Sair da Arena PvP</string>
-	<string key="ui_cannot_travel_pvp_arena">Você não pode fazer uma viagem rápida durante a Arena PvP</string>
-	<string key="ui_pvp_arena_leave_desc">Tem certeza de que deseja sair da Arena PvP?</string>
-	<string key="ui_pvp_arena_leave_desc_time">Tem certeza de que deseja sair da Arena PvP?\nVocê não poderá entrar de novo na fila da Arena PvP por &lt;font color="#ff2e2e"&gt;[{time}]&lt;/font&gt;.</string>
-	<string key="ui_pvp_arena_leave_title">Sair da Arena PvP?</string>
 	<string key="ui_in_spectators_box">Na Caixa de Espectador</string>
-	<string key="ui_in_spectators_box_description">Armas e Habilidades Desativadas</string>
+	<string key="ui_in_spectators_box_description">Habilidades Desativadas</string>
+	<string key="ui_in_spectators_moving_to">Movendo-se para a Caixa de Espectador em {seconds} s</string>
 	<string key="ui_round_number">Rodada {number}</string>
 	<string key="ui_match_point">Ponto Decisivo</string>
 	<string key="ui_final_round">Rodada Final</string>
 	<string key="ui_begins_in">Começa em:</string>
 	<string key="ui_arena_gas_releases_in" comment="gas was replaced with ring of fire in implementation">O Anel de Fogo fecha em:</string>
 	<string key="ui_arena_gas_released">O Anel de Fogo está fechando</string>
+	<string key="ui_pvp_arena_invite_status">Aceite para se juntar à batalha!</string>
+	<string key="ui_pvp_arena_title">Arena 3v3</string>
 	<string key="ui_fight">Lutem!</string>
 	<string key="ui_round_won">Venceu a Rodada</string>
 	<string key="ui_round_lost">Perdeu a Rodada</string>

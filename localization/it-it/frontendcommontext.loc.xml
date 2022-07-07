@@ -299,25 +299,46 @@
 	<string key="ui_trade_skills">Competenze</string>
 	<string key="ui_how_it_works">Come funziona</string>
 	<string key="ui_pvp_track_skills_tab" rel_version="PvP_Rewards_Track">PvP</string>
-	<string key="ui_pvp_track_progress_bar_tooltip" rel_version="PvP_Rewards_Track">&lt;font face="lyshineui/fonts/Nimbus_Bold_Italic.font"&gt;Checkpoint {checkpoint}:&lt;/font&gt; {currentProgression}/{maxProgression}\n\nProgredisci nel tuo percorso impegnandoti in missioni PvP, Guerra, Carica all'avamposto, conquista di forti, sconfitta di altri giocatori, arene PvP e ottenendo PE con PvP attivo.</string>
+	<string key="ui_pvp_track" rel_version="PvP_Rewards_Track">Percorso PvP</string>
+	<string key="ui_pvp_track_progress_bar_tooltip" rel_version="PvP_Rewards_Track">&lt;font face="lyshineui/fonts/Nimbus_Bold_Italic.font"&gt;Checkpoint {checkpoint}:&lt;/font&gt; {currentProgression}/{maxProgression}\n\nProgredisci nel tuo percorso impegnandoti in missioni PvP, Guerra, Carica all'avamposto, conquista di forti, sconfitta di altri giocatori, arene 3 vs 3 e ottenendo PE con PvP attivo.</string>
 	<string key="ui_pvp_track_next_track_tooltip" rel_version="PvP_Rewards_Track">Per poter iniziare il percorso successivo devi prima completare tutti i checkpoint. Se scegli una ricompensa a ogni checkpoint, inizierai automaticamente il percorso successivo.\n\nPer ogni checkpoint in cui rinunci a scegliere una ricompensa riceverai 300 unità di sale di Azoth all'inizio del percorso successivo.</string>
 	<string key="ui_pvp_track_unknown_item_tooltip" rel_version="PvP_Rewards_Track">Le possibili ricompense verranno rivelate dopo aver completato il checkpoint.</string>
+	<string key="ui_pvp_track_completions" comment="The number of times they have completed the track. Like a level" rel_version="PvP_Rewards_Track">Percorsi completati</string>
+	<string key="ui_pvp_track_purchasehint" rel_version="PvP_Rewards_Track">Scegli fino a &lt;font face="lyshineui/fonts/Nimbus_Bold.font" color={itemColor}&gt;1 oggetto per checkpoint&lt;/font&gt; da acquistare con &lt;font color={azothColor}&gt;sale di Azoth&lt;/font&gt;&lt;img src="lyshineui/images/icons/misc/icon_azoth_salt" scale="1.5" yOffset="3"&gt;&lt;/img&gt;</string>
+	<string key="ui_pvp_track_openemblems" rel_version="PvP_Rewards_Track">Emblemi e ricompense</string>
+	<string key="ui_pvp_track_checkpoint" rel_version="PvP_Rewards_Track">Checkpoint &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{index}&lt;/font&gt;</string>
+	<string key="ui_pvp_track_pvpprogress" rel_version="PvP_Rewards_Track">&lt;font face="lyshineui/fonts/Nimbus_Bold.font" color={colorProgress}&gt;{amount}&lt;/font&gt;&lt;img src="lyshineui/images/icons/misc/icon_warsmall_white" scale="1.5" yOffset="4"&gt;&lt;/img&gt;&lt;font color={colorCheckpoint} face="lyshineui/fonts/Nimbus_regular.font"&gt; al checkpoint {index}&lt;/font&gt;</string>
+	<string key="ui_pvp_currency_amount" rel_version="PvP_Rewards_Track">{amount}&lt;img src="lyshineui/images/icons/misc/icon_azoth_salt" scale="1.5" yOffset="3"&gt;&lt;/img&gt;</string>
 	<string key="ui_pvp_insufficient_azoth_salt" rel_version="PvP_Rewards_Track">Sale di Azoth insufficiente</string>
 	<string key="ui_pvp_cant_unlock" rel_version="PvP_Rewards_Track">Impossibile sbloccare altri oggetti come questo</string>
+	<string key="ui_pvp_track_nexttrack" rel_version="PvP_Rewards_Track">Completa il percorso</string>
 	<string key="ui_pvp_track_nexttrack_popup_title" rel_version="PvP_Rewards_Track">Inizia il percorso successivo</string>
-	<string key="azoth_salt_currency_desc" rel_version="PvP_Rewards_Track">Il sale di Azoth è la valuta che ti consente di ottenere ricompense nei percorsi PvP. Puoi ottenere sale di Azoth impegnandoti in Guerra, Carica all'avamposto, arene PvP, missioni PvP, uccisioni di personaggi PvP in mondo aperto e ottenendo PE con PvP attivo.\n\nLa quantità massima di sale di Azoth è 100.000.</string>
+	<string key="azoth_salt_currency_name" rel_version="PvP_Rewards_Track">Sale di Azoth</string>
+	<string key="azoth_salt_currency_desc" rel_version="PvP_Rewards_Track">Il sale di Azoth è la valuta che ti consente di ottenere ricompense nei percorsi PvP. Puoi ottenere sale di Azoth impegnandoti in Guerra, Carica all'avamposto, arene 3 vs 3, missioni PvP, uccisioni di personaggi PvP in mondo aperto e ottenendo PE con PvP attivo.\n\nLa quantità massima di sale di Azoth è 100.000.</string>
 	<string key="azoth_salt_currency_lost" rel_version="PvP_Rewards_Track">Perdita di sale di Azoth</string>
-	<string key="azoth_salt_lost_tooltip" rel_version="PvP_Rewards_Track">Il sale di Azoth è la valuta che ti consente di ottenere ricompense nei percorsi PvP. Puoi ottenere sale di Azoth impegnandoti in Guerra, Carica all'avamposto, arene PvP, missioni PvP, uccisioni di personaggi PvP in mondo aperto e ottenendo PE con PvP attivo.\n\nNon ricevi sale di Azoth quando uccidi giocatori che hanno 10 o più livelli in meno rispetto al tuo livello attuale. Inoltre, il PvP della vittima deve essere attivo da più di 10 minuti.</string>
+	<string key="azoth_salt_lost_tooltip" rel_version="PvP_Rewards_Track">Il sale di Azoth è la valuta che ti consente di ottenere ricompense nei percorsi PvP. Puoi ottenere sale di Azoth impegnandoti in Guerra, Carica all'avamposto, arene 3 vs 3, missioni PvP, uccisioni di personaggi PvP in mondo aperto e ottenendo PE con PvP attivo.\n\nNon ricevi sale di Azoth quando uccidi giocatori che hanno 10 o più livelli in meno rispetto al tuo livello attuale. Inoltre, il PvP della vittima deve essere attivo da più di 10 minuti.</string>
+	<string key="ui_pvp_track_tut_title1" rel_version="PvP_Rewards_Track">Percorso di ricompense PvP</string>
+	<string key="ui_pvp_track_tut_title2" rel_version="PvP_Rewards_Track">PE PvP</string>
+	<string key="ui_pvp_track_tut_title3" rel_version="PvP_Rewards_Track">Sale di Azoth</string>
+	<string key="ui_pvp_track_tut_title4" rel_version="PvP_Rewards_Track">Ricompense</string>
+	<string key="ui_pvp_track_tut_desc1" rel_version="PvP_Rewards_Track">Il percorso di ricompense PvP contiene ricompense specifiche che si conseguono svolgendo attività PvP nel gioco. Il percorso può essere completato e ripetuto per ottenere una diversa selezione di ricompense, con ricompense più prestigiose che diventano disponibili man mano che vengono completati più percorsi.</string>
+	<string key="ui_pvp_track_tut_desc2" rel_version="PvP_Rewards_Track">Progredisci nel tuo percorso impegnandoti in missioni PvP, Guerra, Carica all'avamposto, conquista di forti, sconfitta di altri giocatori, arene 3 vs 3 e ottenendo PE con PvP attivo.</string>
+	<string key="ui_pvp_track_tut_desc3" rel_version="PvP_Rewards_Track">Il sale di Azoth è la valuta che ti consente di ottenere ricompense nei percorsi PvP. Puoi ottenere sale di Azoth impegnandoti in Guerra, Carica all'avamposto e arene 3 vs 3, missioni PvP, uccisioni di personaggi PvP in mondo aperto e ottenendo PE con PvP attivo.</string>
+	<string key="ui_pvp_track_tut_desc4" rel_version="PvP_Rewards_Track">Scegli tra ricompense uniche come armature e armi prestigiose, emote, valute e consumabili.</string>
+	<string key="ui_pvp_track_leveltext" rel_version="PvP_Rewards_Track">&lt;font color="#FFFFFF" &gt;{level}&lt;/font&gt; Percorsi completati</string>
 	<string key="ui_pvp_track_leveltext_header" rel_version="PvP_Rewards_Track">Percorsi completati: &lt;font face="lyshineui/fonts/CaslonAnt.font" color="#FFFFFF"&gt;{level}&lt;/font&gt;</string>
 	<string key="ui_pvp_track_current_balance" rel_version="PvP_Rewards_Track">Saldo attuale: &lt;font color={colorBalance} face="lyshineui/fonts/CaslonAnt.font"&gt;{balance}&lt;/font&gt;</string>
+	<string key="ui_pvp_track_addtopool" rel_version="PvP_Rewards_Track">+ ricompense in palio</string>
+	<string key="ui_pvp_track_rankup_confirmation" rel_version="PvP_Rewards_Track">Ricevi un bonus per ogni checkpoint che ha una ricompensa non reclamata. Il tuo sale di Azoth viene mantenuto su un nuovo percorso con nuove ricompense.</string>
 	<string key="ui_pvp_track_rankup_stagesummary" rel_version="PvP_Rewards_Track">\n&lt;font color={colorBonus}&gt;Bonus checkpoint: &lt;/font&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#ffffff"&gt;{amount}&lt;/font&gt;&lt;img src="lyshineui/images/icons/misc/icon_azoth_salt" scale="1.5" yOffset="3"&gt;&lt;/img&gt;</string>
 	<string key="ui_pvp_track_rankup_bonussalt" rel_version="PvP_Rewards_Track">&lt;font color={colorBonus}&gt;Bonus completamento percorso: &lt;/font&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font" color="#ffffff"&gt;{amount}&lt;/font&gt;&lt;img src="lyshineui/images/icons/misc/icon_azoth_salt" scale="1.5" yOffset="3"&gt;&lt;/img&gt;</string>
+	<string key="ui_pvp_track_bannertext" rel_version="PvP_Rewards_Track">Percorso PvP completato</string>
 	<string key="ui_pvp_track_bannerrewards_1" rel_version="PvP_Rewards_Track">Ricompense in palio: \n+Emote</string>
 	<string key="ui_pvp_track_bannerrewards_2" rel_version="PvP_Rewards_Track">Ricompense in palio: \n+Equipaggiamento speciale \n+Più valuta</string>
 	<string key="ui_pvp_track_bannerrewards_3" rel_version="PvP_Rewards_Track">Ricompense in palio: \n+Equipaggiamento prestigioso \n+Emote \n+Pacchetti di fiale di sale</string>
 	<string key="ui_pvp_track_bannerrewards_4" rel_version="PvP_Rewards_Track">Ricompense in palio: \n+Gesso \n+Più valuta \n+Più schegge dell'ombra</string>
 	<string key="ui_pvp_track_bannerrewards_5" rel_version="PvP_Rewards_Track">Ricompense in palio: \n+Emote \n+Più schegge dell'ombra </string>
-	<string key="ui_pvp_track_bannerrewards_6" rel_version="PvP_Rewards_Track">Ricompense in palio: \n+Emote \n+Più valuta</string>
+	<string key="ui_pvp_track_bannerrewards_6" rel_version="PvP_Rewards_Track">Ricompense in palio: \n+Emote \nPiù valuta \n+Più oggetti lasciati</string>
 	<string key="ui_pvp_track_next_milestone" rel_version="PvP_Rewards_Track">Traguardo percorso {milestone} presso:</string>
 	<string key="ui_pvp_track_milestone" rel_version="PvP_Rewards_Track">Traguardo percorso {milestone}</string>
 	<string key="ui_pvp_track_reward" rel_version="PvP_Rewards_Track">Ricompensa</string>
@@ -359,6 +380,11 @@
 	<string key="ui_fishing_equip_action">Attiva la modalità di pesca</string>
 	<string key="ui_fishing_action">Lancia / Cattura / Avvolgi</string>
 	<string key="ui_fishing_reset_action">Lancia di nuovo / Termina pesca</string>
+	<string key="ui_performances" rel_version="Feature_MusicalPerformances">Esibizioni</string>
+	<string key="ui_performances_toggle" rel_version="Feature_MusicalPerformances">Attiva/Disattiva modalità esibizione</string>
+	<string key="ui_performances_start" rel_version="Feature_MusicalPerformances">Inizia esibizione</string>
+	<string key="ui_performances_equip" rel_version="Feature_MusicalPerformances">Equipaggia spartito musicale</string>
+	<string key="ui_performances_invite" rel_version="Feature_MusicalPerformances">Invita all'esibizione</string>
 	<string key="ui_camping">Accampamento</string>
 	<string key="ui_tracking">Prossimamente</string>
 	<string key="ui_exploring">Prossimamente</string>
@@ -396,6 +422,7 @@
 	<string key="ui_mining_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Mining Post Cap</string>
 	<string key="ui_logging_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Logging Post Cap</string>
 	<string key="ui_harvesting_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Harvesting Post Cap</string>
+	<string key="ui_musician_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Musician Post Cap</string>
 	<string key="ui_decline">Rifiuta</string>
 	<string key="ui_name_your_avatar">Dai un nome al tuo personaggio</string>
 	<string key="ui_portrait_title">Il mio ritratto</string>
@@ -408,18 +435,25 @@
 	<string key="crafting_cannot_repair">Impossibile riparare</string>
 	<string key="crafting_requires_station">Devi essere presso la postazione giusta.</string>
 	<string key="crafting_repair_no_requirements">Nessun requisito necessario per riparare questo oggetto.</string>
-	<string key="inv_salvage_tooltip" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Recuperando questo oggetto otterrai: {numItems} {itemName}. {gemMessage}</string>
-	<string key="inv_salvage_tooltip_withrepairparts" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Recuperando questo oggetto otterrai: {numItems} {itemName} e {numRepairParts} pezzi di ricambio. {gemMessage}</string>
-	<string key="inv_salvage_tooltip_onlyrepairparts" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Recuperando questo oggetto otterrai {numRepairParts} pezzi di ricambio. {gemMessage}</string>
-	<string key="inv_salvage_tooltip_withcoin" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Recuperando questo oggetto otterrai {coinAmount}. {gemMessage}</string>
-	<string key="inv_salvage_tooltip_repairparts_and_coin" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Recuperando questo oggetto otterrai {numRepairParts} pezzi di ricambio e {coinAmount}. {gemMessage}</string>
+	<string key="inv_salvage_tooltip_fixed" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Recuperando questo oggetto otterrai: {numItems} {itemName}. {gemMessage}</string>
+	<string key="inv_salvage_tooltip_fixed_repairparts" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Recuperando questo oggetto otterrai: {numItems} {itemName} e {numRepairParts} pezzi di ricambio. {gemMessage}</string>
+	<string key="inv_salvage_tooltip_fixed_coin" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Recuperando questo oggetto otterrai {numItems} {itemName} e {coinAmount}. {gemMessage}</string>
+	<string key="inv_salvage_tooltip_fixed_repairparts_coin" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Recuperando questo oggetto otterrai {numItems} {itemName}, {numRepairParts} pezzi di ricambio e {coinAmount}. {gemMessage}</string>
+	<string key="inv_salvage_tooltip_repairparts" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Recuperando questo oggetto otterrai {numRepairParts} pezzi di ricambio. {gemMessage}</string>
+	<string key="inv_salvage_tooltip_coin" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Recuperando questo oggetto otterrai {coinAmount}. {gemMessage}</string>
+	<string key="inv_salvage_tooltip_repairparts_coin" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Recuperando questo oggetto otterrai {numRepairParts} pezzi di ricambio e {coinAmount}. {gemMessage}</string>
 	<string key="inv_salvage_tooltip_range" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Recuperando questo oggetto otterrai: {min}-{max} {itemName}. {gemMessage}</string>
-	<string key="inv_salvage_tooltip_range_withrepairparts" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Recuperando questo oggetto otterrai: {min}-{max} {itemName} e {numRepairParts} pezzi di ricambio. {gemMessage}</string>
+	<string key="inv_salvage_tooltip_range_repairparts" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Recuperando questo oggetto otterrai: {min}-{max} {itemName} e {numRepairParts} pezzi di ricambio. {gemMessage}</string>
+	<string key="inv_salvage_tooltip_range_coin" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Recuperando questo oggetto otterrai {min}-{max} {itemName} e {coinAmount}. {gemMessage}</string>
+	<string key="inv_salvage_tooltip_range_repairparts_coin" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Recuperando questo oggetto otterrai {min}-{max} {itemName}, {numRepairParts} pezzi di ricambio e {coinAmount}. {gemMessage}</string>
 	<string key="inv_salvage_tooltip_gemmessage" comment="this will come after a previous sentence and should have a space in front">C'è una piccola possibilità di recuperare la gemma incastonata.</string>
 	<string key="inv_salvage_tooltip_additional_item" comment="This only applies to fishing when there is a chance to receive additional items.">Puoi acquisire anche oggetti aggiuntivi, come {itemName}.</string>
 	<string key="inv_salvage_tooltip_recipe">Recuperando questo oggetto apprenderai la ricetta: {recipeName}.</string>
 	<string key="inv_salvage_tooltip_recipe_known">Conosci già la ricetta per {recipeName}.</string>
 	<string key="inv_salvage_tertiary_recipe">Ricetta: {recipeName}</string>
+	<string key="inv_salvage_tooltip_songpage" rel_version="Feature_MusicalPerformances">Recuperando questo oggetto apprenderai una pagina del brano {songName} per {instrumentName}.</string>
+	<string key="inv_salvage_tooltip_songpage_known" rel_version="Feature_MusicalPerformances">Conosci già questa pagina del brano {songName} per {instrumentName}.</string>
+	<string key="inv_salvage_tertiary_songpage" rel_version="Feature_MusicalPerformances">Pagina del brano {songName}</string>
 	<string key="minspec_warning_requirements_title">Avviso requisiti minimi</string>
 	<string key="minspec_failed_requirements_title">Errore di specifiche</string>
 	<string key="minspec_failed_requirements">Questo computer non soddisfa uno o più dei requisiti minimi specificati per eseguire correttamente New World.</string>
@@ -485,5 +519,6 @@
 	<string key="error_world_select_server_down">Non puoi selezionare un mondo mentre è in corso la manutenzione.</string>
 	<string key="error_loading_assets_title">Errore caricamento risorse di gioco</string>
 	<string key="error_loading_assets_message">Errore durante il caricamento delle risorse di gioco! Verifica l'installazione.</string>
+	<string key="ui_musician" rel_version="Feature_MusicalPerformances">Musicista</string>
 </resources>
 

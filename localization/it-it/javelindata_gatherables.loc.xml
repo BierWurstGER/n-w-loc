@@ -360,6 +360,8 @@
 	<string key="LootContainer_Settlement_Tannin_DisplayName">Prendi il tannino</string>
 	<string key="LootContainer_Settlement_Sandpaper_DisplayName">Prendi la carta vetrata</string>
 	<string key="LootContainer_Settlement_Water_DisplayName">Tira l'acqua</string>
+	<string key="LootContainer_OpenStoneTomb_DisplayName">Apri il sarcofago</string>
+	<string key="LootContainer_StoneTomb_DisplayName">Ruba le offerte sepolcrali</string>
 	<string key="Item_PotionHealT1_DisplayName">Tintura curativa distillata</string>
 	<string key="Item_ClothT2_DisplayName">Stracci</string>
 	<string key="Darkness_Monolith_DisplayName">Monolite corrotto</string>
@@ -522,20 +524,25 @@
 	<string key="1401_BlightTinctureBomb_DisplayName">Posiziona bomba</string>
 	<string key="1402_CorruptedOre_DisplayName">Distruggi il minerale corrotto</string>
 	<string key="1403_WyrdwoodGrowth_DisplayName">Raccogli l'escrescenza di legno di Wyrd</string>
-	<string key="1426_0102_WeakenWall_DisplayName" rel_version="Quest_Supplement_Edengrove">Ponteggi</string>
 	<string key="1525_1519_Quiver_DisplayName">Faretra di Myrtilus</string>
 	<string key="1526_1521_LynxEvidence1_DisplayName">Gabbia per lince</string>
 	<string key="1526_1521_LynxEvidence2_DisplayName">Esca per lince</string>
 	<string key="1526_1521_LynxEvidence3_DisplayName">Ceppi per lince</string>
 	<string key="1524_GoldenStash_interact">La scorta d'oro</string>
 	<string key="1524_Doubloon_DisplayName">Una scia di dobloni</string>
+	<string key="9926_0103_VKCannonA_DisplayName" rel_version="AI_Evil_Knights_P2">Ruota il cannone</string>
+	<string key="9926_0103_VKCannonB_DisplayName" rel_version="AI_Evil_Knights_P2">Fai fuoco col cannone</string>
+	<string key="9926_0103_RomacPack_DisplayName" rel_version="AI_Evil_Knights_P2">Raccogli la borsa di Romac</string>
+	<string key="9926_0103_ActivityReport_DisplayName" rel_version="AI_Evil_Knights_P2">Recupera il rapporto sull'attività</string>
+	<string key="9932_0104_RomacNotebook_DisplayName" rel_version="AI_Evil_Knights_P2">Recupera il diario di Romac</string>
 	<string key="MSQ_ShipsLocker_DisplayName">Forziere della nave</string>
-	<string key="MSQ_Flag_DisplayName">Bandiera della nave</string>
+	<string key="MSQ_Flag_DisplayName">Raccogli la bandiera della nave</string>
 	<string key="MSQ_SalvagePile_A_DisplayName">Cumulo di oggetti di recupero</string>
 	<string key="MSQ_SalvagePile_B_DisplayName">Cumulo di oggetti di recupero</string>
 	<string key="MSQ_SalvagePile_C_DisplayName">Cumulo di oggetti di recupero</string>
 	<string key="AzothWater_Displayname">Sorgente di Azoth</string>
 	<string key="AzothSeal_DisplayName">Sigillo antico di Azoth</string>
+	<string key="HeartforgeEncounterBattery_DisplayName">Accendi il fuoco della Fucina dei cuori</string>
 	<string key="PressurePlate_Ancient_DisplayName">Glifo antico di Azoth</string>
 	<string key="AncientArtifactLocked">Manufatto antico</string>
 	<string key="MSQ_OldStoneRemembers_Interact">Iscrizioni in lingua antica</string>
@@ -671,6 +678,8 @@
 	<string key="FM_1624_Supplies_DisplayName">Distruggi le provviste</string>
 	<string key="FM_1624_Banners_DisplayName">Incendia lo stendardo</string>
 	<string key="FM_1624_Weapons_DisplayName">Distruggi la rastrelliera delle armi</string>
+	<string key="dungeon_cutlasskeys00_gunpowdercask" rel_version="Expedition_CutlassKeys_00">Prendi gli esplosivi</string>
+	<string key="Dungeon_CutlassKeys00_CannonBall" rel_version="Expedition_CutlassKeys_00">Prendi la palla da cannone</string>
 	<string key="0411_Armillary_interact">Sfera armillare</string>
 	<string key="0202_0101_Inquisitor_DisplayName">Cassa degli attrezzi da inquisitore</string>
 	<string key="DungeonShatterMtn00_RelicBox_DisplayName" rel_version="Expedition_ShatterMtn_00">Reliquiario</string>
@@ -680,11 +689,21 @@
 	<string key="DungeonShatterMtn_RelicStatue_DisplayName" rel_version="Expedition_ShatterMtn_00">Richiama reliquiario\n(Richiede 2 bastoni di Azoth)</string>
 	<string key="DungeonShatterMtn00_ChestStatue_DisplayName" rel_version="Expedition_ShatterMtn_00">Forziere antiquato</string>
 	<string key="DungeonShatterMtn00_Statue_DisplayName" rel_version="Expedition_ShatterMtn_00">Statua antiquata</string>
+	<string key="DungeonCutlassKeys00_Explosives_DisplayName" rel_version="Expedition_CutlassKeys_00">Accendi miccia</string>
+	<string key="DungeonCutlassKeys00_ChestFuse_DisplayName" rel_version="Expedition_CutlassKeys_00">Cassetta degli attrezzi</string>
+	<string key="DungeonCutlassKeys00_WaterStatue_DisplayName" rel_version="Expedition_CutlassKeys_00">Offerta della Nereide</string>
+	<string key="DungeonCutlassKeys00_Spring_DisplayName" rel_version="Expedition_CutlassKeys_00">Offri</string>
+	<string key="SummerMedley_Settlement_Stage_Master_DisplayName" rel_version="Event_Summer_Temp">Palco principale della fiera</string>
 	<string key="SummerMedley_Settlement_Stage_T1_DisplayName" rel_version="Event_Summer_Temp">Conferimento deludente</string>
 	<string key="SummerMedley_Settlement_Stage_T2_DisplayName" rel_version="Event_Summer_Temp">Conferimento notevole</string>
 	<string key="SummerMedley_Settlement_Stage_T3_DisplayName" rel_version="Event_Summer_Temp">Conferimento opulento</string>
+	<string key="SummerMedley_Settlement_Stage_Description" rel_version="Event_Summer_Temp">Completa i progetti cittadini della fiera per aumentare la gloria e le ricompense ottenibili grazie al palco.</string>
 	<string key="SummerMedley_Village_BonfireBlast_DisplayName" rel_version="Event_Summer_Temp">Pira della fiera</string>
+	<string key="SummerMedley_Village_BonfireBlast_Description" rel_version="Event_Summer_Temp">Lancia nelle fiamme una lisca magica di storione di Aeternum per ricevere una favolosa ricompensa!</string>
 	<string key="SummerMedley_Maudlindust_DisplayName" rel_version="Event_Summer_Temp">Polvere sdolcinata</string>
+	<string key="SummerMedley_Maudlindust_Particle_DisplayName" rel_version="Event_Summer_Temp">Particella di polvere sdolcinata</string>
+	<string key="SummerMedley_Village_Dancefloor_DisplayName" rel_version="Event_Summer_Temp">Pista da ballo della fiera</string>
+	<string key="SummerMedley_Village_Dancefloor_Description" rel_version="Event_Summer_Temp">Affina e sfodera i tuoi passi migliori sulla pista da ballo della fiera per aumentare la reputazione dell'evento!</string>
 	<string key="FM_PVP_War_Camp_Loot_Box_DisplayName">Forziere dell'accampamento di guerra</string>
 	<string key="1130_ArcaneFocus1_DisplayName">Concentrazione arcana</string>
 	<string key="1130_ArcaneFocus2_DisplayName">Concentrazione arcana</string>
@@ -693,6 +712,7 @@
 	<string key="0726_BookOfIsabella_DisplayName">Libro di Isabella</string>
 	<string key="1130_CursedAxe_DisplayName">Inizia il rituale</string>
 	<string key="0726_Gravestone_interact" rel_version="DEPRECATED_January_2022">Esamina la tomba del membro dell'equipaggio</string>
+	<string key="EvilKnights_Camp_StoneDoor" rel_version="AI_Evil_Knights_P2">Attiva la porta</string>
 	<string key="Dynasty_Gong_DisplayName">Gong della dinastia</string>
 	<string key="ExploreVista_EastCleave01" rel_version="Feature_RewardingExploration">Cavalletto dimenticato da tempo</string>
 	<string key="ExploreVista_EastCutlass01" rel_version="Feature_RewardingExploration">Cavalletto dimenticato da tempo</string>
@@ -728,7 +748,26 @@
 	<string key="0601_0101_weapon_02_warhammer_DisplayName">Scegli il martello da guerra segnato dalle battaglie</string>
 	<string key="0601_0101_weapon_03_bow_DisplayName">Scegli l'arco segnato dalle battaglie</string>
 	<string key="0601_0101_weapon_04_firestaff_DisplayName">Scegli il bastone infuocato segnato dalle battaglie</string>
-	<string key="Lore_AncientGlyphWall_DisplayName" rel_version="Territory_Brimstone_Sands">Traduci glifo</string>
-	<string key="NPCRescue_Generic_NPC_DisplayName" rel_version="Quest_MSQ2_Revamp">Apri le catene</string>
+	<string key="98_Covenant_02_Captive_DisplayName">Libera il prigioniero</string>
+	<string key="98_Covenant_03_Pyre_DisplayName">Brucia il manufatto</string>
+	<string key="13_Summer_AzFluteT1_DisplayName" rel_version="Quest_Event_Summer">Raccogli il flauto</string>
+	<string key="13_Summer_DrumT1_DisplayName" rel_version="Quest_Event_Summer">Raccogli il tamburo</string>
+	<string key="13_Summer_GuitarT1_DisplayName" rel_version="Quest_Event_Summer">Raccogli la chitarra</string>
+	<string key="13_Summer_MandolinT1_DisplayName" rel_version="Quest_Event_Summer">Raccogli il mandolino</string>
+	<string key="13_Summer_URBassT1_DisplayName" rel_version="Quest_Event_Summer">Raccogli il contrabbasso</string>
+	<string key="13_Summer_Carpenter1_DisplayName" rel_version="Quest_Event_Summer">Ripara il tavolo</string>
+	<string key="13_Summer_Carpenter2_DisplayName" rel_version="Quest_Event_Summer">Stringi morsa</string>
+	<string key="13_Summer_Apiary_DisplayName" rel_version="Quest_Event_Summer">Accendi l'affumicatore</string>
+	<string key="13_Summer_Oven_DisplayName" rel_version="Quest_Event_Summer">Disincrosta il forno</string>
+	<string key="13_Summer_FlowerBoxA_DisplayName" rel_version="Quest_Event_Summer">Annaffia i girasoli</string>
+	<string key="13_Summer_FlowerBoxB_DisplayName" rel_version="Quest_Event_Summer">Annaffia l'ibisco</string>
+	<string key="13_Summer_FlowerBoxC_DisplayName" rel_version="Quest_Event_Summer">Annaffia le margherite</string>
+	<string key="06A_MSQ_Lijsbet_Trapped_DisplayName">Salva Lijsbet</string>
+	<string key="06A_MSQ_Michael_Trapped_DisplayName">Salva Michael</string>
+	<string key="06A_MSQ_Nessa_Trapped_DisplayName">Salva Nessa</string>
+	<string key="06A_MSQ_Gideon_Trapped_DisplayName">Salva Gideon</string>
+	<string key="06A_MSQ_11_pirateCrates_DisplayName">Spacca la cassa</string>
+	<string key="06A_MSQ_14_map_DisplayName">Copia la mappa</string>
+	<string key="Cyclic_06A_MSQ_puzzlestone_DisplayName">Ruota la pietra</string>
 </resources>
 

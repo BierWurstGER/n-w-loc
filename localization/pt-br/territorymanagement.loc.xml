@@ -35,8 +35,8 @@
 	<string key="ui_claimmarker_not_enough_resources">Recursos Insuficientes</string>
 	<string key="ui_claimmarker_startclaiminstructions">Construa uma barreira de proteção para conquistar este território.</string>
 	<string key="ui_claimmarker_companycollect">Ao reivindicar este território, sua companhia pode desbloquear ótimos recursos como uma companhia governante.</string>
-	<string key="ui_claimmarker_propertytax">Imposto imobiliário</string>
-	<string key="ui_claimmarker_propertytaxdesc">A companhia governante pode coletar impostos sobre propriedade das casas do assentamento.</string>
+	<string key="ui_claimmarker_propertytax">Taxa de manutenção do imóvel</string>
+	<string key="ui_claimmarker_propertytaxdesc">A companhia governante pode coletar a taxa de manutenção do imóvel das casas do assentamento.</string>
 	<string key="ui_claimmarker_tradingfee">Taxa de Neg.</string>
 	<string key="ui_claimmarker_tradingfeedesc">A companhia governante pode coletar taxas por transações de entrepostos comerciais feitas no seu território.</string>
 	<string key="ui_claimmarker_craftingfee">Taxa de confecção e aperfeiçoamento</string>
@@ -96,7 +96,7 @@
 	<string key="ui_leaving_settlement">Sair do Assentamento</string>
 	<string key="ui_leaving_settlement_recall_no_cd">Volte a qualquer momento usando o mapa.</string>
 	<string key="ui_leaving_settlement_recall_time">Estalagem disponível em &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{time}&lt;/font&gt;</string>
-	<string key="ui_leaving_settlement_recall_time_desc">O retorno para a estalagem só está disponível uma vez a cada 30 minutos.</string>
+	<string key="ui_leaving_settlement_recall_time_desc">O retorno para a estalagem só está disponível uma vez a cada {numMinutes} minutos.</string>
 	<string key="ui_leaving_settlement_no_inn_desc">Você está saindo sem dar entrada na estalagem.</string>
 	<string key="ui_leaving_settlement_no_inn">Não Deu Entrada</string>
 	<string key="ui_leaving_settlement_inn_elsewhere">Você está saindo sem dar entrada na estalagem, a estalagem atual está em {territoryName} {distance}</string>
@@ -148,7 +148,7 @@
 	<string key="ui_global_average_fee">Média Global: &lt;font color='#FFFFFF'&gt;{tax}&lt;/font&gt;</string>
 	<string key="ui_confirm_set_tax_title">Tem certeza?</string>
 	<string key="ui_confirm_set_tax_desc">Isso definirá um novo valor de imposto ou taxa, que não poderá ser alterado novamente até o próximo período de atualização.</string>
-	<string key="ui_property_tax_description">Os residentes deste território devem pagar impostos sobre a propriedade a cada 7 dias</string>
+	<string key="ui_property_tax_description">Os residentes deste território devem pagar a taxa de manutenção do imóvel a cada 7 dias</string>
 	<string key="ui_trading_tax_description">As negociações feitas neste território estão sujeitas a um imposto sobre valor</string>
 	<string key="ui_crafting_fee_description">Confeccionar itens neste território custará uma taxa por item</string>
 	<string key="ui_refining_fee_description">Aperfeiçoar recursos neste território custará uma taxa por recurso</string>
@@ -179,11 +179,13 @@
 	<string key="ui_encounter_statusstandby">Seu status: &lt;font color='#fab445'&gt;em espera&lt;/font&gt;</string>
 	<string key="ui_encounter_statusselected">Seu status: &lt;font color='#30e5ab'&gt;selecionado&lt;/font&gt;</string>
 	<string key="ui_encounter_managebutton">Gerenciar Exército</string>
-	<string key="ui_encounter_signupbutton_war">Registre-se para a Guerra</string>
+	<string key="ui_encounter_signupbutton_war">Inscrever-se para a Guerra</string>
 	<string key="ui_encounter_signupDesc_war">Inscreva-se nesta Guerra em um\n&lt;font color='#f1ede2'&gt;Quadro de Guerra&lt;/font&gt; nesta vila.</string>
 	<string key="ui_encounter_signupDesc_invasion">Inscreva-se nesta Invasão em um\n&lt;font color='#f1ede2'&gt;Quadro de Guerra&lt;/font&gt; nesta vila.</string>
 	<string key="ui_encounter_signupDesc_invasion_minlevel">&lt;font color="#ff6363"&gt;Nível mínimo: {level}&lt;/font&gt;</string>
-	<string key="ui_encounter_signupbutton_invasion">Registre-se para a Guerra</string>
+	<string key="ui_encounter_signup_invasion_minlevel_tooltip">Você deve estar pelo menos no nível {level} para se inscrever na invasão.</string>
+	<string key="ui_encounter_signup_invasion_too_early_tooltip">As inscrições ainda não estão abertas para esta invasão.</string>
+	<string key="ui_encounter_signupbutton_invasion">Inscrever-se para a Invasão</string>
 	<string key="ui_encounter_viewstatusbutton_war">Exibir Exército</string>
 	<string key="ui_encounter_viewstatusbutton_invasion">Exibir Exército</string>
 	<string key="ui_warselected_title">Alistado para Guerra</string>
@@ -226,9 +228,11 @@
 	<string key="ui_fortressinfo_resolvinginvasion">Invasão Finalizando</string>
 	<string key="ui_fortressinfo_invasiondescription">Este território está sob ataque de Corrompidos. Não é possível declarar Guerra até a Invasão terminar.</string>
 	<string key="ui_fortressinfo_button_declarewar">Declarar Guerra!</string>
-	<string key="ui_fortressinfo_button_warsignup">Registre-se para a guerra</string>
+	<string key="ui_fortressinfo_button_manage">Gerenciar Exército</string>
+	<string key="ui_fortressinfo_button_signup_at_board">Registrar-se para a Guerra</string>
+	<string key="ui_fortressinfo_button_warsignup">Inscrever-se para a Guerra</string>
 	<string key="ui_fortressinfo_button_warstatus">Status da Inscrição</string>
-	<string key="ui_fortressinfo_button_invasionsignup">Registre-se para a guerra</string>
+	<string key="ui_fortressinfo_button_invasionsignup">Inscrever-se para a Invasão</string>
 	<string key="ui_fortressinfo_attackerlabel">(atacante)</string>
 	<string key="ui_fortressinfo_defenderlabel">(defensor)</string>
 	<string key="ui_fortressinfo_invasionattackername">Os Corrompidos</string>
@@ -276,7 +280,7 @@
 	<string key="ui_upgradebutton_upgradescomplete">Aprimoramentos Concluídos</string>
 	<string key="ui_active_project_completed">Um projeto ativo foi concluído.</string>
 	<string key="ui_wait_for_cooldown">O período de espera para adicionar novos projetos ainda está ativo.</string>
-	<string key="ui_you_have_n_completed_missions">Você tem {count} missões concluídas.</string>
+	<string key="ui_you_have_n_completed_missions">Você tem {count} missão(ões) concluída(s).</string>
 	<string key="ui_project_completeallmissions">Completar Todas as Missões</string>
 	<string key="ui_project_turningin">Você está entregando</string>
 	<string key="ui_project_totalreward">Recompensa total</string>
@@ -448,20 +452,37 @@
 	<string key="ui_upgrade_desc_CookingProjectId">Aprimora a Cozinha para Escala 3, que pode criar &lt;font color="#ffd058"&gt;refeições de Escala 3.&lt;/font&gt;</string>
 	<string key="ui_upgrade_desc_CookingProjectId2">Aprimora a Cozinha para Escala 4, que pode criar &lt;font color="#ffd058"&gt;refeições de Escala 4.&lt;/font&gt;</string>
 	<string key="ui_upgrade_desc_CookingProjectId3">Aprimora a Cozinha para Escala 5, que pode criar &lt;font color="#ffd058"&gt;refeições de Escala 5.&lt;/font&gt;</string>
-	<string key="ui_upgrade_desc_FortGatesProjectId">Aprimora os Portões para Escala 2. Os portões aumentam em PV.</string>
-	<string key="ui_upgrade_desc_FortGatesProjectId2">Aprimora os Portões para Escala 3. Os portões aumentam em PV.</string>
+	<string key="ui_upgrade_desc_FortGatesProjectId">Aprimora Portões para Escala 2. Os portões aumentam em PV.</string>
+	<string key="ui_upgrade_desc_FortGatesProjectId2">Aprimora Portões para Escala 3. Os portões aumentam em PV.</string>
 	<string key="ui_upgrade_desc_FortHardPointsProjectId">Desbloqueia um ponto adicional para implantar uma instalação (por exemplo: Balista, Tonel de Óleo Quente, etc.)</string>
 	<string key="ui_upgrade_desc_FortHardPointsProjectId2">Desbloqueia um ponto adicional para implantar uma instalação (por exemplo: Balista, Tonel de Óleo Quente, etc.)</string>
 	<string key="ui_upgrade_desc_BallistaProjectId">Aprimora a Balista para Escala 2. Quando aprimorada, qualquer Balista existente (implantada ou não) também é aprimorada.</string>
 	<string key="ui_upgrade_desc_BallistaProjectId2">Aprimora a Balista para Escala 3. Quando aprimorada, qualquer Balista existente (implantada ou não) também é aprimorada.</string>
 	<string key="ui_upgrade_desc_FireBarrelProjectId">Aprimora o Tonel de Óleo Quente para Escala 2. Quando aprimorado, todo Tonel de Óleo Quente existente (usado ou não) também é aprimorado.</string>
 	<string key="ui_upgrade_desc_FireBarrelProjectId2">Aprimora o Tonel de Óleo Quente para Escala 3. Quando aprimorado, todo Tonel de Óleo Quente existente (usado ou não) também é aprimorado.</string>
-	<string key="ui_upgrade_desc_RepeaterProjectId">Aprimora o Repetidor para Escala 2. Quando aprimorado, qualquer Repetidor existente (implantado ou não) também é aprimorado.</string>
-	<string key="ui_upgrade_desc_RepeaterProjectId2">Aprimora o Repetidor para Escala 3. Quando aprimorado, qualquer Repetidor existente (implantado ou não) também é aprimorado.</string>
-	<string key="ui_upgrade_desc_HornProjectId">Aprimora as Trombetas de Guerra para Escala 2. Quando aprimorada, qualquer Trombeta de Guerra existente (implantada ou não) também é aprimorada.</string>
-	<string key="ui_upgrade_desc_HornProjectId2">Aprimora as Trombetas de Guerra para Escala 3. Quando aprimorada, qualquer Trombeta de Guerra existente (implantada ou não) também é aprimorada.</string>
-	<string key="ui_upgrade_desc_ExplosiveProjectId">Aprimora os Explosivos para Escala 2. Quando aprimorado, qualquer Explosivo existente (implantado ou não) também é aprimorado.</string>
+	<string key="ui_upgrade_desc_RepeaterProjectId">Aprimora Repetidores para Escala 2. Quando aprimorados, todo Repetidor existente (implantado ou não) também é aprimorado.</string>
+	<string key="ui_upgrade_desc_RepeaterProjectId2">Aprimora Repetidores para Escala 3. Quando aprimorados, todo Repetidor existente (implantado ou não) também é aprimorado.</string>
+	<string key="ui_upgrade_desc_HornProjectId">Aprimora Trombeta de Guerra para Escala 2. Quando aprimorada, toda Trombeta de Guerra existente (implantada ou não) também é aprimorada.</string>
+	<string key="ui_upgrade_desc_HornProjectId2">Aprimora Trombeta de Guerra para Escala 3. Quando aprimorada, toda Trombeta de Guerra existente (implantada ou não) também é aprimorada.</string>
+	<string key="ui_upgrade_desc_ExplosiveProjectId">Aprimora Explosivos para Escala 2. Quando aprimorados, todo Explosivo existente (implantado ou não) também é aprimorado.</string>
 	<string key="ui_upgrade_desc_ExplosiveProjectId2">Aprimora os Explosivos para Escala 3. Quando aprimorado, qualquer Explosivo existente (implantado ou não) também é aprimorado.</string>
+	<string key="event_summer_station" rel_version="Event_Summer_Temp">Palco da Feira de Variedades</string>
+	<string key="ui_upgrade_title_EventSummerProjectId" rel_version="Event_Summer_Temp">Aprimorar Palco da Feira de Variedades para Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_EventSummerProjectId2" rel_version="Event_Summer_Temp">Aprimorar Palco da Feira de Variedades para Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_EventSummerProjectId3" rel_version="Event_Summer_Temp">Aprimoramentos do Palco da Feira de Variedades Concluídos!</string>
+	<string key="ui_upgrade_titleNoMarkup_EventSummerProjectId" rel_version="Event_Summer_Temp">Aprimorar Palco da Feira de Variedades para Escala 2</string>
+	<string key="ui_upgrade_titleNoMarkup_EventSummerProjectId2" rel_version="Event_Summer_Temp">Aprimorar Palco da Feira de Variedades para Escala 3</string>
+	<string key="ui_upgrade_titleNoMarkup_EventSummerProjectId3" rel_version="Event_Summer_Temp">Palco da Feira de Variedades está no nível máximo de aprimoramento!</string>
+	<string key="ui_upgrade_button_EventSummerProjectId" rel_version="Event_Summer_Temp">Palco da Feira de Variedades Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;1&lt;/font&gt;</string>
+	<string key="ui_upgrade_button_EventSummerProjectId2" rel_version="Event_Summer_Temp">Palco da Feira de Variedades Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt;</string>
+	<string key="ui_upgrade_button_EventSummerProjectId3" rel_version="Event_Summer_Temp">Aprimoramentos do Palco da Feira de Variedades Concluídos!</string>
+	<string key="ui_upgrade_desc_EventSummerProjectId" rel_version="Event_Summer_Temp">Aprimore o Palco da Feira de Variedades para a Escala 2 a fim de cercá-lo com &lt;font color="#ffd058"&gt;Cestas Lindamente Cheias!&lt;/font&gt;</string>
+	<string key="ui_upgrade_desc_EventSummerProjectId2" rel_version="Event_Summer_Temp">Aprimore o Palco da Feira de Variedades para a Escala 3 a fim de cercá-lo com &lt;font color="#ffd058"&gt;Cestas Perfeitamente Cheias!&lt;/font&gt;</string>
+	<string key="ui_upgrade_desc_EventSummerProjectId3" rel_version="Event_Summer_Temp">Conclua os Projetos da Vila da Feira de Variedades para receber Reputação no Evento!</string>
+	<string key="ui_upgradebutton_label_event_summer" rel_version="Event_Summer_Temp">Aprimorar Palco da Feira de Variedades</string>
+	<string key="ui_event_details_SummerMedley" rel_version="Event_Summer_Temp">&lt;font color="#ffd058"&gt;Conclua as missões e atividades da Feira de Variedades&lt;/font&gt; para ganhar Reputação no Evento e Tokens da Feira de Variedades, permitindo que você desfrute de grandes recompensas de evento! \n\n&lt;font color="#ffd058"&gt;Abasteça a Feira de Variedades pescando deliciosos, mas meticulosos Esturjões de Aeternum!&lt;/font&gt; Para isso, toque a Trova do Inseto Sentimental perto de um enxame para capturar Iscas de Inseto Sentimental! Fique de olho nos locais de pesca brilhantes!\n\n&lt;font color="#ffd058"&gt;Colete prêmios diários de cada Pista de Dança da Feira de Variedades e Peça Central do Palco da Feira de Variedades do assentamento! &lt;/font&gt; Aprimore o esplendor e recompensas adquiridos da peça central com um suprimento infinito de Projetos da Vila da Feira de Variedades!</string>
+	<string key="ui_event_summer_project_complete" rel_version="Event_Summer_Temp">Projeto de Aprimoramento do Palco da Feira de Variedades Concluído</string>
+	<string key="ui_event_project_endless" rel_version="Event_Summer_Temp">Infinito</string>
 	<string key="ui_territory_level">Nível do Território: {level}</string>
 	<string key="ui_enter_house">Acessar Menu de Casa</string>
 	<string key="ui_purchase_house">Comprar Casa</string>
@@ -588,7 +609,7 @@
 	<string key="ui_territory_standing_upgrade_category_housepoint">Itens de Casa</string>
 	<string key="ui_territory_standing_upgrade_category_trading_tax">Taxa de Neg.</string>
 	<string key="ui_territory_standing_upgrade_category_crafting_fee">Imposto da Estação</string>
-	<string key="ui_territory_standing_upgrade_category_property_tax">Imposto Imobiliário</string>
+	<string key="ui_territory_standing_upgrade_category_property_tax">Taxa de Manutenção do Imóvel</string>
 	<string key="ui_territory_standing_upgrade_category_xp_gain">Ganho de EXP</string>
 	<string key="ui_territory_standing_upgrade_category_standing_gain">Ganho de Posição</string>
 	<string key="ui_territory_standing_upgrade_category_gather">Coletar</string>
@@ -605,7 +626,7 @@
 	<string key="ui_territory_standing_upgrade_stat_detection_distance">Distância de detecção</string>
 	<string key="ui_territory_standing_upgrade_stat_trading_tax">Taxa de negociação</string>
 	<string key="ui_territory_standing_upgrade_stat_crafting_fee">Taxa de Conf.</string>
-	<string key="ui_territory_standing_upgrade_stat_property_tax">Impostos Imob.</string>
+	<string key="ui_territory_standing_upgrade_stat_property_tax">Taxa de Manutenção do Imóvel</string>
 	<string key="ui_darkness_threshold_0">Nenhum</string>
 	<string key="ui_darkness_threshold_1">Baixa</string>
 	<string key="ui_darkness_threshold_2">Média</string>
