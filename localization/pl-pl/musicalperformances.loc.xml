@@ -14,10 +14,11 @@
 	<string key="ui_musical_performances_selected_reward" rel_version="Feature_MusicalPerformances">Wybrana nagroda</string>
 	<string key="ui_musical_performances_group_instructions" rel_version="Feature_MusicalPerformances">Wybierz nuty dla instrumentu, by dołączyć i zaczekaj, aż lider rozpocznie występ.</string>
 	<string key="ui_musical_performances_incooldown" rel_version="Feature_MusicalPerformances">Nie możesz umieścić kolejnej strefy występów przez {time}.</string>
-	<string key="ui_musical_performances_recently_selected_sheet" rel_version="Feature_MusicalPerformances">Musisz odczekać 2 sekundy przed wybraniem nowego instrumentu</string>
+	<string key="ui_musical_performances_recently_selected_sheet" rel_version="Feature_MusicalPerformances">Musisz odczekać 2 sekundy przed wybraniem nowego instrumentu.</string>
 	<string key="ui_musical_performances_restrictedarea" rel_version="Feature_MusicalPerformances">Jesteś zbyt blisko innej strefy występów.</string>
 	<string key="ui_musical_performances_instrument_required_to_create" rel_version="Feature_MusicalPerformances">Aby stworzyć występ, musisz mieć założony instrument.</string>
 	<string key="ui_musical_performances_instrument_broken" rel_version="Feature_MusicalPerformances">Wyposażony instrument jest zepsuty.</string>
+	<string key="ui_musical_performances_instrument_not_equipped" rel_version="Feature_MusicalPerformances">Nie wyposażono się w instrument.</string>
 	<string key="ui_musical_performances_instrument_required_to_start" rel_version="Feature_MusicalPerformances">Musisz mieć zaznaczone co najmniej 2 części, aby rozpocząć występ.</string>
 	<string key="ui_musical_performances_timeout_inactivity" rel_version="Feature_MusicalPerformances">Przekroczono limit czas występu z powodu braku aktywności.</string>
 	<string key="ui_musical_performances_cannot_place_too_close_to_restricted" rel_version="Feature_MusicalPerformances">Nie możesz tutaj umieścić występu – zbyt blisko terenu zastrzeżonego.</string>
@@ -26,6 +27,7 @@
 	<string key="ui_musical_performances_tooltip_tip" rel_version="Feature_MusicalPerformances">Zbieraj strony, by skompletować nuty dla każdego instrumentu.</string>
 	<string key="ui_musical_performances_tooltip_pages_found" rel_version="Feature_MusicalPerformances">Moje odnalezione strony:</string>
 	<string key="ui_musical_performances_tooltip_owned" rel_version="Feature_MusicalPerformances">Posiadane</string>
+	<string key="ui_musical_performances_perk_applied" rel_version="Feature_MusicalPerformances">Profit – {perkName} {count}</string>
 	<string key="ui_musical_performances_timeout_title" rel_version="Feature_MusicalPerformances">Przekroczono limit czasu występu</string>
 	<string key="ui_musical_performances_message_performer_selected_sheet" rel_version="Feature_MusicalPerformances">{performer} wybiera: {sheet}</string>
 	<string key="ui_musical_performances_message_performer_added" rel_version="Feature_MusicalPerformances">{performer} – dodano do występu</string>
@@ -54,10 +56,14 @@
 	<string key="ui_musical_performances_reward_select_error_message" rel_version="Feature_MusicalPerformances">Nie można wybrać nagrody</string>
 	<string key="ui_musical_performances_difficulty" rel_version="Feature_MusicalPerformances">poz. trudności: {difficulty}</string>
 	<string key="ui_musical_performances_reward" rel_version="Feature_MusicalPerformances">nagroda: {reward}</string>
+	<string key="ui_musical_performances_score" rel_version="Feature_MusicalPerformances">wynik:</string>
+	<string key="ui_musical_performances_max" rel_version="Feature_MusicalPerformances">Maksimum!</string>
 	<string key="ui_musical_performances_music_rank_label" rel_version="Feature_MusicalPerformances">Ranga muzyki: {rank}</string>
 	<string key="ui_musical_performances_buff_dropdown" rel_version="Feature_MusicalPerformances">Wybierz premię</string>
 	<string key="ui_musical_performances_reward_dropdown" rel_version="Feature_MusicalPerformances">Wybierz nagrodę</string>
 	<string key="ui_musical_performances_difficulty_dropdown" rel_version="Feature_MusicalPerformances">Wybierz poziom trudności</string>
+	<string key="ui_musical_performances_filter_checkbox" rel_version="Feature_MusicalPerformances">Filtr pieśni</string>
+	<string key="ui_musical_performances_filter_checkbox_label" rel_version="Feature_MusicalPerformances">Grywalne</string>
 	<string key="ui_musical_performances_select_song_message" rel_version="Feature_MusicalPerformances">Wybierz utwór</string>
 	<string key="ui_musical_performances_input_result_perfect" rel_version="Feature_MusicalPerformances">DOSKONALE</string>
 	<string key="ui_musical_performances_input_result_great" rel_version="Feature_MusicalPerformances">ŚWIETNIE</string>
@@ -177,7 +183,7 @@
 	<string key="songtitle_Moonlit_Shadows" rel_version="Feature_MusicalPerformances">Cienie w świetle księżyca</string>
 	<string key="songtitle_Aeternum_Arrival" rel_version="Feature_MusicalPerformances">Przeszłość burzy</string>
 	<string key="songtitle_Pyre" rel_version="Feature_MusicalPerformances">Sny zagubionych</string>
-	<string key="songtitle_Rise" rel_version="Feature_MusicalPerformances">Wschód księżyca</string>
+	<string key="songtitle_Rise" rel_version="Feature_MusicalPerformances">Zmierzch i świt</string>
 	<string key="songtitle_Seed" rel_version="Feature_MusicalPerformances">Dzikie łąkonasienie</string>
 	<string key="songtitle_Set" rel_version="Feature_MusicalPerformances">Przed burzą</string>
 	<string key="songtitle_Trust" rel_version="Feature_MusicalPerformances">Słabnące światło</string>

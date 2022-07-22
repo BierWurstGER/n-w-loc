@@ -18,6 +18,7 @@
 	<string key="ui_musical_performances_restrictedarea" rel_version="Feature_MusicalPerformances">Você está muito perto de outra Zona de Apresentação.</string>
 	<string key="ui_musical_performances_instrument_required_to_create" rel_version="Feature_MusicalPerformances">Você precisa ter um instrumento equipado para criar uma apresentação.</string>
 	<string key="ui_musical_performances_instrument_broken" rel_version="Feature_MusicalPerformances">O instrumento equipado está quebrado.</string>
+	<string key="ui_musical_performances_instrument_not_equipped" rel_version="Feature_MusicalPerformances">Não há nenhum instrumento equipado.</string>
 	<string key="ui_musical_performances_instrument_required_to_start" rel_version="Feature_MusicalPerformances">Você precisa de pelo menos 2 partes selecionadas para iniciar uma apresentação.</string>
 	<string key="ui_musical_performances_timeout_inactivity" rel_version="Feature_MusicalPerformances">Sua apresentação expirou devido à inatividade.</string>
 	<string key="ui_musical_performances_cannot_place_too_close_to_restricted" rel_version="Feature_MusicalPerformances">Você não pode colocar uma apresentação aqui pois está muito perto de uma área restrita.</string>
@@ -26,6 +27,7 @@
 	<string key="ui_musical_performances_tooltip_tip" rel_version="Feature_MusicalPerformances">Colete páginas para completar a partitura de cada instrumento.</string>
 	<string key="ui_musical_performances_tooltip_pages_found" rel_version="Feature_MusicalPerformances">Minhas Páginas Encontradas:</string>
 	<string key="ui_musical_performances_tooltip_owned" rel_version="Feature_MusicalPerformances">Possuído</string>
+	<string key="ui_musical_performances_perk_applied" rel_version="Feature_MusicalPerformances">Vantagem: {perkName} {count}</string>
 	<string key="ui_musical_performances_timeout_title" rel_version="Feature_MusicalPerformances">Tempo Limite da Apresentação Musical</string>
 	<string key="ui_musical_performances_message_performer_selected_sheet" rel_version="Feature_MusicalPerformances">{performer} selecionou {sheet}</string>
 	<string key="ui_musical_performances_message_performer_added" rel_version="Feature_MusicalPerformances">{performer} foi adicionado(a) à apresentação</string>
@@ -54,10 +56,14 @@
 	<string key="ui_musical_performances_reward_select_error_message" rel_version="Feature_MusicalPerformances">Não é possível selecionar a recompensa</string>
 	<string key="ui_musical_performances_difficulty" rel_version="Feature_MusicalPerformances">dificuldade: {difficulty}</string>
 	<string key="ui_musical_performances_reward" rel_version="Feature_MusicalPerformances">recompensa: {reward}</string>
+	<string key="ui_musical_performances_score" rel_version="Feature_MusicalPerformances">pontuação:</string>
+	<string key="ui_musical_performances_max" rel_version="Feature_MusicalPerformances">Máx.!</string>
 	<string key="ui_musical_performances_music_rank_label" rel_version="Feature_MusicalPerformances">Classificação da Música: {rank}</string>
 	<string key="ui_musical_performances_buff_dropdown" rel_version="Feature_MusicalPerformances">Selecionar Buff</string>
 	<string key="ui_musical_performances_reward_dropdown" rel_version="Feature_MusicalPerformances">Escolha sua Recompensa</string>
 	<string key="ui_musical_performances_difficulty_dropdown" rel_version="Feature_MusicalPerformances">Selecionar Dificuldade</string>
+	<string key="ui_musical_performances_filter_checkbox" rel_version="Feature_MusicalPerformances">Filtro de Música</string>
+	<string key="ui_musical_performances_filter_checkbox_label" rel_version="Feature_MusicalPerformances">Possível tocar</string>
 	<string key="ui_musical_performances_select_song_message" rel_version="Feature_MusicalPerformances">Selecionar uma Música</string>
 	<string key="ui_musical_performances_input_result_perfect" rel_version="Feature_MusicalPerformances">PERFEITO</string>
 	<string key="ui_musical_performances_input_result_great" rel_version="Feature_MusicalPerformances">ÓTIMO</string>
@@ -177,7 +183,7 @@
 	<string key="songtitle_Moonlit_Shadows" rel_version="Feature_MusicalPerformances">Sombras de Luar</string>
 	<string key="songtitle_Aeternum_Arrival" rel_version="Feature_MusicalPerformances">Passado da Tempestade</string>
 	<string key="songtitle_Pyre" rel_version="Feature_MusicalPerformances">Sonhos dos Perdidos</string>
-	<string key="songtitle_Rise" rel_version="Feature_MusicalPerformances">Nascer da Lua</string>
+	<string key="songtitle_Rise" rel_version="Feature_MusicalPerformances">Anoitecer e Alvorada</string>
 	<string key="songtitle_Seed" rel_version="Feature_MusicalPerformances">Prado Selvagem Doce</string>
 	<string key="songtitle_Set" rel_version="Feature_MusicalPerformances">Antes da Tempestade</string>
 	<string key="songtitle_Trust" rel_version="Feature_MusicalPerformances">Luz Minguante</string>

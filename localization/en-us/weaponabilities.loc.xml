@@ -545,7 +545,7 @@
 	<string key="BerserkTree0Passive1" comment="HATCHET  +  PASSIVE">Enraged Strikes</string>
 	<string key="BerserkTree0Passive1_description" comment="HATCHET  +  PASSIVE">Light and heavy attacks deal {[HatchetAbilityTable.Passive_Hatchet_Berserk_LightHeavyVsLowHP.BaseDamage * 100]}% more damage to targets below {[HatchetAbilityTable.Passive_Hatchet_Berserk_LightHeavyVsLowHP.TargetHealthPercent]}% health.</string>
 	<string key="BerserkTree0Passive2" comment="HATCHET  +  PASSIVE">Accumulated Power</string>
-	<string key="BerserkTree0Passive2_description" comment="HATCHET  +  PASSIVE">After 3 successful light attacks against the same target, gain empower, granting a {[Type_StatusEffectData.Hatchet_Pass_3AtkEmpower.DMGSlash * 100]}% damage increase for {[Type_StatusEffectData.Hatchet_Pass_3AtkEmpower.DurationMax]}s or until the next attack.</string>
+	<string key="BerserkTree0Passive2_description" comment="HATCHET  +  PASSIVE">After 3 successful light attacks or aimed throws against the same target, gain empower, granting a {[Type_StatusEffectData.Hatchet_Pass_3AtkEmpower.DMGSlash * 100]}% damage increase for {[Type_StatusEffectData.Hatchet_Pass_3AtkEmpower.DurationMax]}s or until the next attack.</string>
 	<string key="BerserkTree0Passive3" comment="HATCHET  +  PASSIVE">Relentless Fury</string>
 	<string key="BerserkTree0Passive3_description" comment="HATCHET  +  PASSIVE">After a successful heavy attack, gain empower, granting a {[Type_StatusEffectData.Hatchet_Pass_HeavyEmpower.DMGSlash * 100]}% damage increase for the next 4 attacks within {[Type_StatusEffectData.Hatchet_Pass_HeavyEmpower.DurationMax]}s.</string>
 	<string key="BerserkTree0Passive4" comment="HATCHET  +  PASSIVE">Desperate Refresh</string>

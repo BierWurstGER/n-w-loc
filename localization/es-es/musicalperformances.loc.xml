@@ -18,6 +18,7 @@
 	<string key="ui_musical_performances_restrictedarea" rel_version="Feature_MusicalPerformances">Estás demasiado cerca de otra zona de actuación.</string>
 	<string key="ui_musical_performances_instrument_required_to_create" rel_version="Feature_MusicalPerformances">Debes llevar equipado un instrumento para actuar.</string>
 	<string key="ui_musical_performances_instrument_broken" rel_version="Feature_MusicalPerformances">El instrumento equipado está roto.</string>
+	<string key="ui_musical_performances_instrument_not_equipped" rel_version="Feature_MusicalPerformances">No hay ningún instrumento equipado.</string>
 	<string key="ui_musical_performances_instrument_required_to_start" rel_version="Feature_MusicalPerformances">Debes seleccionar al menos 2 partes para actuar.</string>
 	<string key="ui_musical_performances_timeout_inactivity" rel_version="Feature_MusicalPerformances">Tu actuación ha caducado debido a la inactividad.</string>
 	<string key="ui_musical_performances_cannot_place_too_close_to_restricted" rel_version="Feature_MusicalPerformances">No puedes colocar una actuación aquí: demasiado cerca de una zona restringida.</string>
@@ -26,6 +27,7 @@
 	<string key="ui_musical_performances_tooltip_tip" rel_version="Feature_MusicalPerformances">Recoge las páginas para completar la partitura de cada instrumento.</string>
 	<string key="ui_musical_performances_tooltip_pages_found" rel_version="Feature_MusicalPerformances">Mis páginas encontradas:</string>
 	<string key="ui_musical_performances_tooltip_owned" rel_version="Feature_MusicalPerformances">En propiedad</string>
+	<string key="ui_musical_performances_perk_applied" rel_version="Feature_MusicalPerformances">Ventaja: {perkName} {count}</string>
 	<string key="ui_musical_performances_timeout_title" rel_version="Feature_MusicalPerformances">Tiempo de espera de la actuación musical</string>
 	<string key="ui_musical_performances_message_performer_selected_sheet" rel_version="Feature_MusicalPerformances">{performer} ha elegido {sheet}</string>
 	<string key="ui_musical_performances_message_performer_added" rel_version="Feature_MusicalPerformances">{performer} se ha añadido a la actuación</string>
@@ -54,18 +56,22 @@
 	<string key="ui_musical_performances_reward_select_error_message" rel_version="Feature_MusicalPerformances">No se puede seleccionar la recompensa</string>
 	<string key="ui_musical_performances_difficulty" rel_version="Feature_MusicalPerformances">dificultad: {difficulty}</string>
 	<string key="ui_musical_performances_reward" rel_version="Feature_MusicalPerformances">recompensa: {reward}</string>
+	<string key="ui_musical_performances_score" rel_version="Feature_MusicalPerformances">puntuación:</string>
+	<string key="ui_musical_performances_max" rel_version="Feature_MusicalPerformances">¡Máxima!</string>
 	<string key="ui_musical_performances_music_rank_label" rel_version="Feature_MusicalPerformances">Rango musical: {rank}</string>
 	<string key="ui_musical_performances_buff_dropdown" rel_version="Feature_MusicalPerformances">Seleccionar potenciador</string>
 	<string key="ui_musical_performances_reward_dropdown" rel_version="Feature_MusicalPerformances">Seleccionar recompensa</string>
 	<string key="ui_musical_performances_difficulty_dropdown" rel_version="Feature_MusicalPerformances">Elige la dificultad</string>
+	<string key="ui_musical_performances_filter_checkbox" rel_version="Feature_MusicalPerformances">Filtro de canciones</string>
+	<string key="ui_musical_performances_filter_checkbox_label" rel_version="Feature_MusicalPerformances">Reproducible</string>
 	<string key="ui_musical_performances_select_song_message" rel_version="Feature_MusicalPerformances">Elige una canción</string>
 	<string key="ui_musical_performances_input_result_perfect" rel_version="Feature_MusicalPerformances">PERFECTO</string>
 	<string key="ui_musical_performances_input_result_great" rel_version="Feature_MusicalPerformances">GENIAL</string>
 	<string key="ui_musical_performances_input_result_missed" rel_version="Feature_MusicalPerformances">FALLO</string>
 	<string key="ui_musical_performances_pending" rel_version="Feature_MusicalPerformances">A LA ESPERA DE LA ACTUACIÓN</string>
-	<string key="ui_musical_performances_watching_tips_timer" rel_version="Feature_MusicalPerformances">TEMPORIZADOR DE CONSEJOS</string>
-	<string key="ui_musical_performances_waiting_for_tips" rel_version="Feature_MusicalPerformances">ESPERANDO CONSEJOS...</string>
-	<string key="ui_musical_performances_end_tipping" rel_version="Feature_MusicalPerformances">Finalizar ahora y recibir consejos</string>
+	<string key="ui_musical_performances_watching_tips_timer" rel_version="Feature_MusicalPerformances">TEMPORIZADOR DE PROPINAS</string>
+	<string key="ui_musical_performances_waiting_for_tips" rel_version="Feature_MusicalPerformances">ESPERANDO PROPINAS...</string>
+	<string key="ui_musical_performances_end_tipping" rel_version="Feature_MusicalPerformances">Finalizar ahora y recibir propinas</string>
 	<string key="ui_musical_performances_complete" rel_version="Feature_MusicalPerformances">¡ACTUACIÓN\nCOMPLETADA!</string>
 	<string key="ui_musical_performances_score_00" rel_version="Feature_MusicalPerformances">¡Increíble!</string>
 	<string key="ui_musical_performances_score_01" rel_version="Feature_MusicalPerformances">¡Genial!</string>
@@ -177,7 +183,7 @@
 	<string key="songtitle_Moonlit_Shadows" rel_version="Feature_MusicalPerformances">Sombras lunares</string>
 	<string key="songtitle_Aeternum_Arrival" rel_version="Feature_MusicalPerformances">El pasado de la tormenta</string>
 	<string key="songtitle_Pyre" rel_version="Feature_MusicalPerformances">Los sueños de los perdidos</string>
-	<string key="songtitle_Rise" rel_version="Feature_MusicalPerformances">Luna nueva</string>
+	<string key="songtitle_Rise" rel_version="Feature_MusicalPerformances">Ocaso y alba</string>
 	<string key="songtitle_Seed" rel_version="Feature_MusicalPerformances">Prado salvaje</string>
 	<string key="songtitle_Set" rel_version="Feature_MusicalPerformances">Antes de la tormenta</string>
 	<string key="songtitle_Trust" rel_version="Feature_MusicalPerformances">Luz menguante</string>

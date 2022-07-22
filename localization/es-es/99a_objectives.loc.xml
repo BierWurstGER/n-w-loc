@@ -1,5 +1,10 @@
 <resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<string key="99A_MSQ_02_02a_TownGuard_Prompt" speaker="Player/UI">«En realidad, estoy buscando a alguien».</string>
-	<string key="99A_MSQ_02_02a_TownGuard_Response" speaker="Hannos Lembe" gender="Male" VO_Status="Needs Recording">¿Acaso no lo estamos todos? Pero aquí la información es poder. Lo que conoces, a quién conoces... Podrías acabar en cualquier agujero. \n\nSi es lo que quieres, busca a Saira. Tiene información..., aunque lo niegue.</string>
+	<string key="99A_MSQ_01B_04_TaskTrigger_MeetGrace" speaker="UI" rel_version="Quest_MSQ2_Revamp">Busca a Yonas en el camino</string>
+	<string key="99A_MSQ_02_02a_TownGuard_Prompt" speaker="UI - Player Prompt" rel_version="Quest_MSQ2_Revamp">«En realidad, estoy buscando a alguien».</string>
+	<string key="99A_MSQ_02_02a_TownGuard_Response" speaker="Hannos Lembe" name="HannosLembe" gender="Male" VO="99A_MSQ_02_02a_TownGuard_Response" VO_Status="Script Generated" rel_version="Quest_MSQ2_Revamp">¿Acaso no lo estamos todos? Pero aquí la información es poder. Lo que conoces, a quién conoces... Podrías acabar en cualquier agujero. \n\nSi es lo que quieres, busca a Saira. Tiene información, aunque lo niegue.</string>
+	<string key="99A_MSQ_10_02A_GetSilver" speaker="UI" rel_version="Quest_MSQ2_Revamp">Desentierra piezas de plata de entre los escombros</string>
+	<string key="99A_MSQ_10_02B_02_SuccessEvent" speaker="UI" rel_version="Quest_MSQ2_Revamp">Accede al sanctasanctórum</string>
+	<string key="99A_MSQ_10_03_DefeatEzraGetHammer" speaker="UI" rel_version="Quest_MSQ2_Revamp">Derrota al maestro forjador Ezra y hazte con su martillo</string>
+	<string key="99A_MSQ_10_04A_CraftCrosspiece" speaker="UI" rel_version="Quest_MSQ2_Revamp">Usa la fragua antigua para fabricar tu travesaño</string>
 </resources>
 
