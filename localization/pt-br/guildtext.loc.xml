@@ -129,12 +129,12 @@
 	<string key="ui_treasury_tooltip_withdrawal_nopermissons">Você não tem permissões para sacar.</string>
 	<string key="ui_treasury_tooltip_withdrawal_overlimit">Você atingiu seu limite diário.</string>
 	<string key="ui_treasury_tooltip_changedailywithdrawallimit_nopermissons">Você não tem permissões para alterar o limite de saque diário.</string>
-	<string key="ui_treasury_notification_depositsuccess">Um depósito de &lt;font color={colorHex}&gt;{amount}&lt;/font&gt; {coinImage} foi feito na tesouraria da companhia.</string>
-	<string key="ui_treasury_notification_depositcappedtreasurymax">Um depósito de &lt;font color={colorHex}&gt;{amount}&lt;/font&gt; {coinImage} foi feito na tesouraria da companhia (limitado pelo Tesouro máximo).</string>
-	<string key="ui_treasury_notification_depositcappedplayerfunds">Um depósito de &lt;font color={colorHex}&gt;{amount}&lt;/font&gt; {coinImage} foi feito na tesouraria da companhia (limitado por fundos pessoais).</string>
-	<string key="ui_treasury_notification_withdrawalsuccess">Um saque de &lt;font color={colorHex}&gt;{amount}&lt;/font&gt; {coinImage} foi feito na tesouraria da companhia.</string>
-	<string key="ui_treasury_notification_withdrawalcappedfunds">Um saque de &lt;font color={colorHex}&gt;{amount}&lt;/font&gt; {coinImage} foi feito na tesouraria da companhia (limitado pela falta de fundos).</string>
-	<string key="ui_treasury_notification_withdrawalcappeddailylimit">Um saque de &lt;font color={colorHex}&gt;{amount}&lt;/font&gt; {coinImage} foi feito na tesouraria da companhia (limitado pelo limite diário).</string>
+	<string key="ui_treasury_notification_depositsuccess">Um depósito de &lt;font color={colorHex} face="lyshineui/fonts/CaslonAnt.font"&gt;{amount}&lt;/font&gt; {coinImage} foi feito na tesouraria da companhia.</string>
+	<string key="ui_treasury_notification_depositcappedtreasurymax">Falha no depósito da Tesouraria (acima do máximo da Tesouraria).</string>
+	<string key="ui_treasury_notification_depositcappedplayerfunds">Falha no depósito da Tesouraria (fundos pessoais insuficientes).</string>
+	<string key="ui_treasury_notification_withdrawalsuccess">Um saque de &lt;font color={colorHex} face="lyshineui/fonts/CaslonAnt.font"&gt;{amount}&lt;/font&gt; {coinImage} foi feito na tesouraria da companhia.</string>
+	<string key="ui_treasury_notification_withdrawalcappedfunds"> Falha no saque da Tesouraria (fundos da Tesouraria insuficientes).</string>
+	<string key="ui_treasury_notification_withdrawalcappeddailylimit">Falha no saque da Tesouraria (ultrapassou o limite diário).</string>
 	<string key="ui_treasury_notification_setdailylimitsuccess">O limite de saque diário foi definido para &lt;font color={colorHex}&gt;{amount}&lt;/font&gt; {coinImage}.</string>
 	<string key="ui_treasury_notification_setdailylimitsuccessinfinite">O limite de saque diário foi definido para {infinityImage}.</string>
 	<string key="ui_treasury_notification_cointransferaldisabled">Você precisa estar no nível {minLevel} para usar o tesouro da guilda.</string>
@@ -185,10 +185,10 @@
 	<string key="ui_guildranksettler_SHE">Colona</string>
 	<string key="ui_guildranksettler_THEY">Habitante</string>
 	<string key="ui_guildrankpublic">Público</string>
-	<string key="ui_guildrankgovernor_and_above">1. Governador</string>
-	<string key="ui_guildrankconsul_and_above">2. Cônsul e acima</string>
-	<string key="ui_guildrankofficer_and_above">3. Oficial e acima</string>
-	<string key="ui_guildranksettler_and_above">4. Colono e acima</string>
+	<string key="ui_guildrankgovernor_and_above">Apenas Governantes</string>
+	<string key="ui_guildrankconsul_and_above">Cônsul e acima</string>
+	<string key="ui_guildrankofficer_and_above">Oficial e acima</string>
+	<string key="ui_guildranksettler_and_above">Colono e acima</string>
 	<string key="ui_guildrankpublic_and_above">Público, acesso total</string>
 	<string key="ui_guildrank_no_permissions">O ranque de sua Companhia ({rank}) não é alto o suficiente.</string>
 	<string key="ui_guildsystemerror">Ocorreu um erro no sistema.</string>
@@ -636,5 +636,10 @@
 	<string key="ui_high">Alto</string>
 	<string key="ui_highest">Máximo</string>
 	<string key="ui_kick_disabled_invasion">Não é possível expulsar jogadores da invasão</string>
+	<string key="ui_war_schedule_adjustment_title">{warType} {scheduleAdjustmentType}</string>
+	<string key="ui_war_schedule_adjustment_message">{warType} em {territoryName} foi {scheduleAdjustmentType}.</string>
+	<string key="ui_war_schedule_adjustment_cancelled">cancelado(a)</string>
+	<string key="ui_war_schedule_adjustment_rescheduled">remarcado(a)</string>
+	<string key="ui_war_camp_tier">Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{value}&lt;/font&gt;</string>
 </resources>
 

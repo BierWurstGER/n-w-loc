@@ -15,7 +15,7 @@
 	<string key="ui_pvparenas_roundswon" rel_version="Feature_PVP_Arenas">Wygrane rundy</string>
 	<string key="ui_pvparenas_title_join" rel_version="Feature_PVP_Arenas">Dołącz do aren 3 na 3</string>
 	<string key="ui_pvparenas_title" rel_version="Feature_PVP_Arenas">Areny &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3 na 3&lt;/font&gt;</string>
-	<string key="ui_pvparenas_description" rel_version="Feature_PVP_Arenas">Dwie drużyny walczą na &lt;font color="#ffe940"&gt;arenach 3 na 3&lt;/font&gt; na śmierć i życie. Drużyna, która przetrwa, ma szansę na zdobycie wyjątkowych nagród.\n\W tym trybie, gracze mogą używać jedynie przedmiotów użytkowych przyznanych im na początku każdego meczu.</string>
+	<string key="ui_pvparenas_description" rel_version="Feature_PVP_Arenas">Dwie drużyny walczą na &lt;font color="#ffe940"&gt;arenach 3 na 3&lt;/font&gt; na śmierć i życie. Drużyna, która przetrwa, ma szansę na zdobycie wyjątkowych nagród.</string>
 	<string key="ui_pvparenas_signup_goal1" rel_version="Feature_PVP_Arenas">Wygraj 3 rundy, by wygrać mecz</string>
 	<string key="ui_pvparenas_signup_goal2" rel_version="Feature_PVP_Arenas">Gdy czas upłynie, arenę spowije ogień</string>
 	<string key="ui_pvparenas_signup_goal3" rel_version="Feature_PVP_Arenas">W trakcie rundy przywracane zdrowie będzie coraz mniejsze</string>
@@ -34,6 +34,8 @@
 	<string key="ui_pvparenas_failgrouppenalty" rel_version="Feature_PVP_Arenas">Na co najmniej jednego z członków twojej grupy nałożono karę czasową za opuszczenie wcześniejszej potyczki na arenie 3 na 3.</string>
 	<string key="ui_pvparenas_group_too_large" rel_version="Feature_PVP_Arenas">Grupa jest zbyt duża, by móc dołączyć.</string>
 	<string key="ui_pvparenas_group_too_large_tooltip" rel_version="Feature_PVP_Arenas">Maksymalna liczebność grupy: {groupSizeRequirement}.</string>
+	<string key="ui_pvparenas_too_many_items" rel_version="Feature_PVP_Arenas">Masz za dużo unikalnych przedmiotów w ekwipunku, by móc wziąć udział w tym trybie gry.</string>
+	<string key="ui_pvparenas_too_many_items_tooltip" rel_version="Feature_PVP_Arenas">Zmniejsz liczbę przedmiotów w ekwipunku o {numItemsToRemove}</string>
 	<string key="ui_pvparenas_cannotleavegroup_in_arena" rel_version="Feature_PVP_Arenas">Nie możesz opuścić swojej grupy, gdy bierzesz udział w potyczce na arenie 3 na 3.</string>
 	<string key="ui_pvp_arena_leave" rel_version="Feature_PVP_Arenas">Opuść arenę 3 na 3</string>
 	<string key="ui_pvp_arena_leave_desc" rel_version="Feature_PVP_Arenas">Czy na pewno chcesz opuścić arenę 3 na 3?</string>
@@ -41,5 +43,10 @@
 	<string key="ui_pvp_arena_leave_title" rel_version="Feature_PVP_Arenas">Opuścić arenę 3 na 3?</string>
 	<string key="ui_cannot_travel_pvp_arena" rel_version="Feature_PVP_Arenas">Nie możesz korzystać z szybkiej podróży, przebywając na arenie 3 na 3</string>
 	<string key="ui_pvparenas_cannot_use_item" rel_version="Feature_PVP_Arenas">Nie można użyć tego przedmiotu na arenie 3 na 3</string>
+	<string key="ui_pvparenas_equip_items_title" rel_version="Feature_PVP_Arenas">Przygotuj się</string>
+	<string key="ui_pvparenas_equip_items_desc" rel_version="Feature_PVP_Arenas">Sprawdź wyposażenie i przedmioty użytkowe</string>
+	<string key="ui_pvparenas_waiting_for_players" rel_version="Feature_PVP_Arenas">Oczekiwanie na graczy</string>
+	<string key="ui_pvparenas_waiting_for_players_queue_hud" rel_version="Feature_PVP_Arenas">Oczekiwanie na graczy ({numAccepted}/{numTotal})</string>
+	<string key="ui_pvparenas_time_remaining" rel_version="Feature_PVP_Arenas">Pozostało {seconds}</string>
 </resources>
 

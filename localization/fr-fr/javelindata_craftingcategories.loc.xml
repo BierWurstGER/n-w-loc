@@ -543,7 +543,7 @@
 	<string key="BoostVoidAbs_GroupName">Potions de défense anti-néant</string>
 	<string key="bounty_GroupName">Talisman</string>
 	<string key="bountymagic_GroupName">Animus libre</string>
-	<string key="BowA_GroupDesc">Une arme à distance polyvalente qui permet de tirer rapidement plusieurs flèches de feu ou que l'on peut bander au maximum pour infliger des dégâts dévastateurs. Idéale pour rester à distance tout en employant diverses attaques pour entraver les ennemis et leur infliger des dégâts.\n\n•Bandage court : Inflige {[DamageTable.BowAttack1.DmgCoef * 100]} % de dégâts d'estoc.\n•Bandage long : Inflige {[DamageTable.BowAttack2.DmgCoef * 100]} % de dégâts d'estoc.</string>
+	<string key="BowA_GroupDesc">Une arme à distance polyvalente qui permet de tirer rapidement plusieurs flèches de feu ou que l'on peut bander au maximum pour infliger des dégâts dévastateurs. Idéale pour rester à distance tout en employant diverses attaques pour entraver les ennemis et leur infliger des dégâts.\n\n•Tir au jugé : Inflige {[DamageTable.BowAttack_Hipshot.DmgCoef * 100]} % de dégâts d'estoc.\n•Courte allonge : Inflige {[DamageTable.BowAttack1.DmgCoef * 100]} % de dégâts d'estoc.\n•Bandage long : Inflige {[DamageTable.BowAttack2.DmgCoef * 100]} % de dégâts d'estoc.</string>
 	<string key="BowA_GroupName">Arcs</string>
 	<string key="BowA2_GroupName">Arcs</string>
 	<string key="BowB_GroupDesc">À deux mains. Une arme à distance qui tire des flèches. Pour faire le maximum de dégâts, vous devez bander votre arc le plus possible.</string>
@@ -728,6 +728,7 @@
 	<string key="ClothT3_GroupName">Tissu – palier 3</string>
 	<string key="ClothT4_GroupName">Tissu – palier 4</string>
 	<string key="ClothT5_GroupName">Tissu – palier 5</string>
+	<string key="ClothT51_GroupName">Tissu légendaire</string>
 	<string key="CoatingAncient_GroupDesc">Enduits augmentant les dégâts infligés aux Anciens.</string>
 	<string key="CoatingAncient_GroupName">Enduit anti-Anciens</string>
 	<string key="CoatingAngryEarth_GroupDesc">Enduits augmentant les dégâts infligés aux créatures de la terre enragée.</string>
@@ -856,6 +857,7 @@
 	<string key="DungeonReps8_GroupName">NOM EN ATTENTE</string>
 	<string key="DungeonReps9_GroupName">Répliques du Cœur de la Tempête</string>
 	<string key="DungeonShields_GroupName">Boucliers d'expédition</string>
+	<string key="DungeonReps12_GroupName">Récompenses d'expédition unique</string>
 	<string key="Dye1_GroupDesc">Fabriquez l'un des tons de teinture rouge.</string>
 	<string key="Dye1_GroupName">Teinture rouge</string>
 	<string key="Dye10_GroupDesc">Teinture terre d'ombre pour votre armure</string>
@@ -1256,6 +1258,7 @@
 	<string key="LeatherT3_GroupName">Cuir – palier 3</string>
 	<string key="LeatherT4_GroupName">Cuir – palier 4</string>
 	<string key="LeatherT5_GroupName">Cuir – palier 5</string>
+	<string key="LeatherT51_GroupName">Cuir légendaire</string>
 	<string key="lightChestA_GroupName">Chemise de duelliste fabriquée</string>
 	<string key="lightChestAFound_GroupName">Chemise de duelliste récupérée</string>
 	<string key="lightChestB_GroupName">Robe de sage fabriquée</string>
@@ -1384,6 +1387,7 @@
 	<string key="MetalT3_GroupName">Métaux – palier 3</string>
 	<string key="MetalT4_GroupName">Métaux – palier 4</string>
 	<string key="MetalT5_GroupName">Métaux – palier 5</string>
+	<string key="MetalT51_GroupName">Métaux légendaires</string>
 	<string key="MinerChest_GroupName">Chemise de mineur</string>
 	<string key="MinerFeet_GroupName">Bottes de mineur</string>
 	<string key="MinerHands_GroupName">Gants de mineur</string>
@@ -1742,9 +1746,10 @@
 	<string key="TimberT3_GroupName">Bois d'œuvre – palier 3</string>
 	<string key="TimberT4_GroupName">Bois d'œuvre – palier 4</string>
 	<string key="TimberT5_GroupName">Bois d'œuvre – palier 5</string>
+	<string key="TimberT51_GroupName">Bois d'œuvre légendaire</string>
 	<string key="TinctureBlight_GroupName">Teintures mères de dépérissement</string>
 	<string key="TinctureCorruption_GroupName">Teintures mères d'altération</string>
-	<string key="Tokens_GroupName">Marques de la Convergence hivernale</string>
+	<string key="Tokens_GroupName">Jetons d'événement</string>
 	<string key="TokenCreation_GroupName">Création de marques</string>
 	<string key="TokenConversion_GroupName">Conversion de jetons</string>
 	<string key="ToolHatchet_GroupDesc">À une main. Pour obtenir du bois.</string>
@@ -1836,7 +1841,7 @@
 	<string key="Blunderbuss_GroupName">Tromblons</string>
 	<string key="PerfectSalvageArmor_Name">Restes d'armure</string>
 	<string key="PerfectSalvageWeapons_Name">Restes d'arme</string>
-	<string key="PerfectSalvageJewelry_Name">Restes de joaillerie</string>
+	<string key="PerfectSalvageJewelry_Name">Restes de bijou</string>
 	<string key="PerfectSalvageEngineer_Name">Restes d'ingénierie</string>
 	<string key="PerfectSalvageArcane_Name">Restes occultes</string>
 	<string key="SalvageTier2_Name">Restes de palier II</string>
@@ -1845,9 +1850,27 @@
 	<string key="SalvageTier5_Name">Restes de palier V</string>
 	<string key="Salvage">Recycler restes</string>
 	<string key="SalvageExtract">Extraire</string>
-	<string key="SalvageCreate">Créer</string>
+	<string key="SalvageCreate">Fabriquer</string>
 	<string key="SalvageResearch">Rechercher</string>
 	<string key="SalvageCondense">Condenser</string>
 	<string key="AlchemyCritters_GroupName">Créatures d'alchimie</string>
+	<string key="SummerMemento" rel_version="Event_Summer_Temp">Souvenirs estivaux</string>
+	<string key="MementoStand" rel_version="Event_Summer_Temp">Supports de souvenir</string>
+	<string key="SmallMemento" rel_version="Event_Summer_Temp">Souvenirs de petits poissons</string>
+	<string key="MediumMemento" rel_version="Event_Summer_Temp">Souvenirs de poissons moyens</string>
+	<string key="LargeMemento" rel_version="Event_Summer_Temp">Souvenirs de grands poissons</string>
+	<string key="Instruments_GroupName" rel_version="Feature_MusicalPerformances">Instruments</string>
+	<string key="CategoryData_Instruments" rel_version="Feature_MusicalPerformances">Instruments</string>
+	<string key="InstrumentParts_GroupName" rel_version="Feature_MusicalPerformances">Parties d'instrument</string>
+	<string key="CategoryData_MusicSheets" rel_version="Feature_MusicalPerformances">Partitions</string>
+	<string key="Flutes_GroupName" rel_version="Feature_MusicalPerformances">Flûte d'Azoth</string>
+	<string key="Drums_GroupName" rel_version="Feature_MusicalPerformances">Tambours</string>
+	<string key="Guitars_GroupName" rel_version="Feature_MusicalPerformances">Guitare</string>
+	<string key="UprightBass_GroupName" rel_version="Feature_MusicalPerformances">Contrebasse</string>
+	<string key="Mandolins_GroupName" rel_version="Feature_MusicalPerformances">Mandoline</string>
+	<string key="DungeonReps11_GroupName" rel_version="Expedition_CutlassKeys_00">Répliques de Bernacles et Poudre noire</string>
+	<string key="TerritorySupplies_GroupName">Réserves de territoire</string>
+	<string key="TerritoryContribution_GroupName">Contributions de territoire</string>
+	<string key="InstrumentComponents_GroupName" rel_version="Feature_MusicalPerformances">Composants d'instrument</string>
 </resources>
 

@@ -157,6 +157,7 @@
 	<string key="ui_p2ptrading_failmessage_additem_restricted">Dieser Gegenstand kann nicht gehandelt werden.</string>
 	<string key="ui_p2ptrading_failmessage_additem_bound">Dieser Gegenstand ist an dich gebunden und kann nicht gehandelt werden.</string>
 	<string key="ui_p2ptrading_failmessage_additem_inventory_only">Es können nur Gegenstände aus dem Inventar gehandelt werden.</string>
+	<string key="ui_p2ptrading_failmessage_exceed_coincap">Dieser Handel wird das Talerlimit um {maxAmount} überschreiten.</string>
 	<string key="ui_p2ptrading_failmessage_offerupdate_invalidlocation">Ungültiger Handelsort Versuche es von einem anderen Ort aus.</string>
 	<string key="ui_p2ptrading_failmessage_offerupdate_invaliditems">Ungültige Gegenstände.</string>
 	<string key="ui_p2ptrading_failmessage_offerupdate_maxitemsexceeded">Höchstmenge an Gegenständen überschritten.</string>
@@ -227,6 +228,7 @@
 	<string key="ui_reportreason_spam">Spam</string>
 	<string key="ui_reportreason_coinselling">Talerverkauf</string>
 	<string key="ui_reportreason_botbehavior">Bot-Verhalten</string>
+	<string rel_version="Feature_Group_Finder" key="ui_reportreason_abusive_group_finder_listing">Beschreibung für Lobby mit missbräuchlichem Verhalten</string>
 	<string key="ui_reportreason_abusive_chat_description">An einen oder mehrere andere Spieler gerichtete Hassreden, Beleidigungen oder Boshaftigkeiten.</string>
 	<string key="ui_reportreason_abusive_voice_chat_description">An einen oder mehrere andere Spieler gerichtete Hassreden, Beleidigungen oder Boshaftigkeiten.</string>
 	<string key="ui_reportreason_cheating_description">Das Ausnutzen von Bugs oder Regellücken, um sich einen Vorteil zu verschaffen.</string>
@@ -235,6 +237,7 @@
 	<string key="ui_reportreason_spam_description">Exzessives Wiederholen desselben Satzes, schierer Nonsens oder Werbung.</string>
 	<string key="ui_reportreason_coinselling_description">Spielobjekte erwerben und für Echtgeld verkaufen.</string>
 	<string key="ui_reportreason_botbehavior_description">Unbeaufsichtigtes Gameplay: Verwendung von Bots, Skripts, Makros oder anderen automatisierten Tools.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_reportreason_abusive_group_finder_listing_description">Hassreden, Beleidigungen oder Boshaftigkeiten in einer Lobby-Beschreibung.</string>
 	<string key="ui_reportreason_select">Wähle eine Begründung aus …</string>
 	<string key="ui_reportreason_offensive_guild_name">Kompaniename</string>
 	<string key="ui_reportreason_offensive_guild_description">Unangemessener oder beleidigender Kompaniename.</string>
@@ -379,6 +382,8 @@
 	<string key="ui_trade_cancel">Abbrechen</string>
 	<string key="ui_trade_cancel_popup_title">Handel abbrechen</string>
 	<string key="ui_trade_cancel_popup_text">Möchtest du deinen Handel mit {playerName} wirklich abbrechen?</string>
+	<string key="ui_trade_coincap_warning_popup_title">Talerlimit überschritten</string>
+	<string key="ui_trade_coincap_warning_popup_text">{refund} Taler werden zurückerstattet an {playerName}. Möchtest du wirklich handeln?</string>
 	<string key="ui_trade_confirm_currency">Bestätigen</string>
 	<string key="ui_trade_item_count">&lt;font color={color}&gt;{count}&lt;/font&gt;/{total} Gegenständen</string>
 	<string key="ui_trade_send_title">Senden</string>
@@ -409,9 +414,10 @@
 	<string key="ui_subarmy_decline_tooltip">Deine Beitrittsanfrage für die Abonnentenarmee des Streamers wurde abgelehnt.</string>
 	<string key="ui_subarmy_waiting">Warten auf die Genehmigung des Streamers ...</string>
 	<string key="ui_subarmy_pending">Ausstehend ...</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_findtabtitle">Lobby finden</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_managetabtitle">Lobby</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_findtabtitle">Gruppensuche</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_managetabtitle">Meine Lobby</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_creategroup">Lobby erstellen</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pvp_lobby">PvP-Lobby</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_refresh">Aktualisieren</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_screen_header">Expeditionsgruppensuche</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_expeditionname">Expeditionsname</string>
@@ -436,6 +442,8 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_apply">Anwenden</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_only_accept">Nur akzeptieren</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_looking_for">Suchen nach</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_in_lobby">In Lobby</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_members_in_lobby">Mitglieder in Lobby</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_applicationrejected">Bewerbung abgelehnt</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_groupmembers">Mitglieder</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_currentmembers">In Lobby</string>
@@ -456,28 +464,46 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_reject">Ablehnen</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_rejected">Abgelehnt</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_servererror">Serverfehler</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_notfound">Gruppe nicht gefunden</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_notfound">Lobby nicht gefunden</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_timeout">Zeitüberschreitung bei der Anfrage</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_requestfailed">Anfrage fehlgeschlagen</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_invalidrequest">Ungültige Anfrage</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_pvp_flag_mismatch">Deine PvP-Markierung passt nicht zur Lobby.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_pvp_faction_mismatch">Du musst für eine PvP-Lobby der gleichen Fraktion angehören.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_atmaxapplications">Du kannst keine weiteren Anfragen mehr senden.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_groupfull">Lobby ist voll</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_convert_to_group_declined">{playerName} hat den Bereitschaftscheck abgelehnt.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_convert_to_group_timeout">Zeitüberschreitung beim Bereitschaftscheck</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_playeroffline">Du kannst {playerName} nicht einladen, da er oder sie offline ist</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_expedition_lobby">Expeditions-Lobby</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_create_group_title">Neue Lobby erstellen</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_voip_preferred">Bevorzugt</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_voice_chat_preferred">Sprachchat bevorzugt</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_voip_preferred_with_icon">&lt;img src="lyshineui/images/icons/misc/icon_microphone" scale="1.8" xPadding="-2" yOffset="5.0"&gt;&lt;/img&gt; Bevorzugt</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_voip_not_required">Nicht erforderlich</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_min_level">Mindeststufe</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_min_gear_score">Mindestrüstwert</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_gear_score_requirement_not_met">Du erfüllst die Mindeststufen- und/oder Rüstwert-Voraussetzungen zum Beitritt zu dieser Lobby nicht.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pvp_mismatch_tooltip">Du musst die gleiche PvP-Markierung haben wie die Lobby.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pvp_faction_mismatch_tooltip">Du musst für eine PvP-Lobby der gleichen Fraktion angehören.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_level_unlist_pending_group">Lobby löschen</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pending">Ausstehend ...</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pending">Ausstehend</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_accepted">Akzeptiert</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_apply_disabled_your_lobby">Du befindest dich bereits in der Lobby.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_accepted_roles_label">Akzeptierte Rollen</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_select_role_label">Rollenwahl</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_your_role_label">Deine Rolle</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_choose_role_title">Rollenwahl</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_comment_label">Kommentar</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_comment_label">Beschreibung</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_group_list_requirement">{requirement} &lt;font face="lyshineui/fonts/Nimbus_bold.font"&gt;{number}&lt;/font&gt;</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invite_current_group_label">Aktuelle Gruppenmitglieder einladen</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_comment_default">Lobby von {playerName}</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_button_confirm">Beitrittsanfrage</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_button_cancel_pending">Ausstehende Bewerbung abbrechen</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_button_confirm_directinvitation">Beitreten</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_button_confirm_disabled_tooltip">Du musst eine Rolle auswählen.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_button_confirm_disabled_none_accepted_tooltip">Du musst mindestens 1 Rolle akzeptieren.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_button_confirm_disabled_tooltip_queue">Du kannst einer Lobby nicht beitreten, während du dich in einer Warteschlange im Spielmodus befindest.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_required_item_tooltip">Um eine neue Lobby für diese Expedition zu erstellen, benötigst du {quantity}x {item}.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_current_roles_label">Aktuelle Rollen in dieser Gruppe</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_current_role_text">&lt;img src="{icon}" scale="2.5" yOffset="8.0"&gt;&lt;/img&gt; {count} {role}</string>
@@ -488,32 +514,43 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_tank_recommended">Schwert und Schild, Streitaxt, Kriegshammer</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_dps_name">Schaden</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_dps_description">Schadensverursachers haben die Aufgabe, so vielen Gegnern wie möglich möglichst viel Schaden zuzufügen. Sie müssen Gegner töten, bevor diese die Gruppe überwältigen. Schadensverursacher sollten in Fähigkeiten und Attribute investieren, die auf hohen Schaden und Flächenangriffe spezialisiert sind.</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_dps_recommended">Feuerstab, Eisstulpen, Beil</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_dps_recommended">Donnerbüchse, Bogen, Feuerstab, Streitaxt, Beil, Eisstulpen, Muskete, Rapier, Speer, Unheilsstulpen</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_healer_name">Heiler</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_healer_description">Heiler halten eine Gruppe mit Heilzaubern und "Schutz vor Schaden"-Boni, wie Verstärkung, am Leben. Heiler können außerdem Schwächungen, wie Blutung oder Gift, von ihren Verbündeten entfernen. Heiler sollten den Wert Konzentration steigern, um ihre Heilungseffizienz zu maximieren.</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_healer_recommended">Lebensstab</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_healer_recommended">Lebensstab, Unheilsstulpen</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_groupcreated">Lobby erstellt</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_groupupdated">Lobby aktualisiert</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_groupremoved">Lobby entfernt</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_applicationsubmitted">Bewerbung eingereicht</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_applicationremoved">Bewerbung entfernt</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_allapplicationsremoved">Alle Bewerbungen entfernt</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_applicationaccepted">Einladung verschickt</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_applicationrejected">Anfrage abgelehnt</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_applicationaccepted">Lobby-Einladung verschickt</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_application_requested">&lt;font color={color}&gt;{playername}&lt;/font&gt; hat darum gebeten, deiner Lobby beitreten zu dürfen.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_request_throttled">Zu viele Anfragen. Bitte warte einen Moment und versuche es später erneut.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_application_accepted_title">Bewerbung akzeptiert</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_application_accepted">&lt;font color={creatorColor}&gt;{creator}&lt;/font&gt; hat dich als &lt;img src="{icon}" scale="2.2" yOffset="7"&gt;&lt;/img&gt; eingeladen.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_application_accepted_directinvitation">{creator} hat dich eingeladen,\n&lt;font color="#85e74c" &gt;[{expedition}]&lt;/font&gt; beizutreten.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_group_ready_check_title">Expeditionsgruppe bilden</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_group_ready_check">Bist du bereit, die Expedition zu starten?</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_accept">Akzeptieren</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_decline">Ablehnen</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_requirements">Voraussetzungen</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_sorted_by">Sortiert nach</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_time_posted">Gepostete Zeit</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_join_with_group">Expedition mit deiner Gruppe aktivieren</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_difficulty_locked">Du musst diesen Schwierigkeitsgrad freischalten, um eine neue Lobby zu erstellen.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_decline">Ablehnen</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationaccepted">Einladung akzeptiert</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationdeclined">Einladung abgelehnt</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_memberadded">Mitglied zu Gruppenliste hinzugefügt</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_memberupdated">Gruppenlistenmitglied aktualisiert</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_memberremoved">Mitglied aus Gruppenliste entfernt</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_directinvite">Einladung in Lobby</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_directinvite_tooltip_not_creator">Nur der Lobby-Ersteller kann Mitglieder einladen.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_directinvite_tooltip_already_in_group">{player} ist bereits in deiner Lobby.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_directinvite_tooltip_group_full">Deine Lobby ist voll.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_directinvite_tooltip_pvp_wrong_faction">Du musst für eine PvP-Lobby der gleichen Fraktion angehören.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_memberadded">Lobby-Einladung verschickt</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_memberupdated">Mitglieder der Lobby aktualisiert</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_memberremoved_result">Mitglied aus Lobby entfernt</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_memberremoved">&lt;font color={color}&gt;{playername}&lt;/font&gt; wurde aus der Gruppe entfernt.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_queue_hud_looking_for_more">Suche nach mehr Mitgliedern ...</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_outpost_rush_signup_fail">Solange du in einer Lobby bist, kannst du dich nicht eintragen.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_dungeon_queue_signup_fail">Solange du in einer Lobby bist, kannst du dich keiner Expeditions-Warteschlange anschließen.</string>
@@ -528,25 +565,61 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_member_stat_mastery">&lt;font face="lyshineui/fonts/Nimbus_Semibold.font" color="#ffffff"&gt;{value}&lt;/font&gt; {name}</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_none_equipped">Keine Waffen ausgerüstet</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_member_list_creator">Ersteller</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_voice">Stimme</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pending_group">Lobby</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_manage_group">Verwalten</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_ready_title">Bereit!</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_ready_waiting">Warten auf andere Spieler …</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_view_group">Betrachten</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_popup_conflict_leave_lobby_title">Lobby verlassen</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_popup_conflict_leave_lobby_desc">Bist du sicher? Durch Bestätigen verlässt du deine aktuelle Lobby.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_popup_conflict_leave_queue_title">Warteschlange verlassen</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_popup_conflict_leave_queue_desc">Bist du sicher? Durch Bestätigen verlässt du deine aktuelle Warteschlange.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_popup_conflict_rescind_applications_title">Bewerbungen zurückziehen</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_popup_conflict_rescind_applications_desc">Bist du sicher? Durch Bestätigen werden alle deine ausstehenden Lobbybewerbungen zurückgezogen.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_tooltip_leave_group_title">Lobby verlassen</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_tooltip_leave_group_desc">Möchtest du diese Lobby wirklich verlassen?</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_tooltip_remove_from_group_title">Mitglied entfernen</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_tooltip_remove_from_group_desc">Möchtest du {playerName} wirklich aus deiner Lobby rausschmeißen?</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_kicked_from_group">Du wurdest aus der Lobby geworfen.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_tooltip_unlist_group_title">Lobby löschen</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_tooltip_unlist_group_desc">Möchtest du deine Lobby wirklich löschen?\n\nAlle Mitglieder werden aus der Lobby entfernt.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_create_lobby_leave_lobby">Du musst deine derzeitige Lobby verlassen, um eine neue Lobby erstellen zu können.\n\nMöchtest du diese Lobby wirklich verlassen?</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_create_lobby_delete_lobby">Du musst deine derzeitige Lobby löschen, um eine neue Lobby erstellen zu können. Möchtest du deine Lobby wirklich löschen?\n\nAlle Mitglieder werden aus der Lobby entfernt.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_create_lobby_leave_queue">Du musst deine derzeitige Warteschlange für einen Spielmodus verlassen, um eine neue Lobby erstellen zu können.\n\nMöchtest du diese Warteschlange wirklich verlassen?</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_join_lobby_leave_lobby">Du musst deine derzeitige Lobby verlassen, um eine Beitrittsanfrage für diese Lobby stellen zu können.\n\nMöchtest du diese Lobby wirklich verlassen?</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_join_lobby_delete_lobby">Du musst deine derzeitige Lobby löschen, um eine Beitrittsanfrage für diese Lobby stellen zu können. Möchtest du deine Lobby wirklich löschen?\n\nAlle Mitglieder werden aus der Lobby entfernt.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_tooltip_leave_and_unlist_group_desc">Möchtest du die Lobby wirklich löschen?\n\nAlle Mitglieder werden aus der Lobby entfernt.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invite_reject">Nur der Lobby-Ersteller kann Mitglieder einladen oder abweisen.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pending_group_invites_header">Lobby-Einladungen</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pending_group_description">&lt;font color="#ffea00" &gt;{creator}&lt;/font&gt; hat dich als &lt;font color={roleColor} &gt;{role}&lt;/font&gt; eingeladen.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pending_group_description_directinvitation">&lt;font color="#ffea00" &gt;{creator}&lt;/font&gt; hat dich eingeladen.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_convert_to_group">Bereit zur Expedition</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_start_expedition">Start</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_tooltip_not_enough_members">Nicht genug Mitglieder in der Lobby.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_difficulty_label">Schwierigkeit</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_appended_difficulty">Schwierigkeit: {difficulty}</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_appended_difficulty_queue_hud">Schwierigkeit: &lt;font face="lyshineui/fonts/Nimbus_Semibold.font"&gt;{difficulty}&lt;/font&gt;</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_min_level_desc">Deine Stufe: {level}\nMindeststufe darf nicht über deiner Stufe liegen.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_min_gear_score_desc">Dein Rüstwert: {gearscore}\nMindestrüstwert darf nicht über deinem Rüstwert liegen.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_comment_format">"{text}"</string>
+	<string rel_version="Feature_Group_Finder" key="ui_chat_name_group_finder_group">Lobby</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_lobbies_header">Lobbys</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_time_ago">Vor {time}</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_posted_time_ago">Vor {time} gepostet</string>
+	<string rel_version="Feature_Group_Finder" key="ui_chat_name_group_finder_group_upper">LOBBY</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_chat_button">Lobby-Chat öffnen</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_your_lobby">Deine Lobby</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_created_by">von {creator}</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_chat_lobby_created">{playerName} hat die Lobby erstellt.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_chat_lobby_joined">{playerName} ist der Lobby beigetreten.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_chat_lobby_left">{playerName} hat die Lobby verlassen.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_error_group_finder_group_chat" comment="An error when you try to talk in group finder group chat">Du befindest dich in keiner Lobby.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_create_limit_title">Lobby kann nicht erstellt werden</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_create_limit_desc_regular">Folgende(s) Gruppenmitglied(er) haben ihr tägliches Limit für normale Expeditionen erreicht und können dieser Lobby nicht beitreten.\n\n&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{characters}&lt;/font&gt;\n&lt;font color={dateColor}&gt;(Beitritt möglich am {date})&lt;/font&gt;</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_create_limit_desc_mutated">Folgende(s) Gruppenmitglied(er) haben ihr wöchentliches Limit für mutierte Expeditionen erreicht und können dieser Lobby nicht beitreten.\n\n&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{characters}&lt;/font&gt;\n&lt;font color={dateColor}&gt;(Beitritt möglich am {date})&lt;/font&gt;</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_limit_refresh">(Wird zurückgesetzt am {date})</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pending_invites_single">&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;1&lt;/font&gt; ausstehende Einladung</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pending_invites">&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{amount}&lt;/font&gt; ausstehende Einladungen</string>
 </resources>
 

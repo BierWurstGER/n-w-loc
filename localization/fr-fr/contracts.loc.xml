@@ -31,8 +31,40 @@
 	<string key="ui_gem_selection_button_specific">Gemme : {name}</string>
 	<string key="ui_perk_selection_button_none">Atouts : Aucun sélectionné</string>
 	<string key="ui_perk_selection_button_some">Atouts : {number} sélectionné(s)</string>
+	<string key="ui_perk_selection_apply_filters">Appliquer filtres</string>
+	<string key="ui_perk_selection_clear_filters">Tout supprimer</string>
+	<string key="ui_perk_selection_reset">Réinitialiser</string>
 	<string key="ui_perk_selection_selected">Sélectionné :</string>
 	<string key="ui_perk_selection_none">(Aucun sélectionné)</string>
+	<string key="ui_perk_selection_count">Sélectionné(s) ({quantity}/{maxCount}) :</string>
+	<string key="ui_perk_selection_show_items_with">Afficher les objets avec :</string>
+	<string key="ui_perk_selection_dropdown_any_selected_perks">Un atout sélectionné</string>
+	<string key="ui_perk_selection_dropdown_only_selected_perks">Que les atouts sélectionnés</string>
+	<string key="ui_perk_selection_search_perks">Chercher des atouts</string>
+	<string key="ui_perk_filter_popup_title">Filtres</string>
+	<string key="ui_perk_filter_popup_price">Prix</string>
+	<string key="ui_perk_filter_popup_price_min">Prix min.</string>
+	<string key="ui_perk_filter_popup_price_max">Prix max.</string>
+	<string key="ui_perk_filter_popup_price_range">Prix : {minValue} à {maxValue}</string>
+	<string key="ui_perk_filter_popup_gearscore">Score d'équipement</string>
+	<string key="ui_perk_filter_popup_gearscore_min">Score d'équipement min.</string>
+	<string key="ui_perk_filter_popup_gearscore_max">Score d'équipement max.</string>
+	<string key="ui_perk_filter_popup_gearscore_range">Score d'équipement : {minValue} à {maxValue}</string>
+	<string key="ui_perk_filter_popup_range_max">Max.</string>
+	<string key="ui_perk_filter_popup_attributes">Caractéristiques</string>
+	<string key="ui_perk_filter_popup_attributes_single_only">Une seule caractéristique</string>
+	<string key="ui_perk_filter_popup_attributes_disabled">Vous ne pouvez pas sélectionner plus de {maxValue} caractéristiques. Désélectionnez une caractéristique pour en sélectionner une autre.</string>
+	<string key="ui_perk_filter_popup_perk">Atout</string>
+	<string key="ui_perk_filter_popup_perk_none_selected">Aucun atout sélectionné</string>
+	<string key="ui_perk_filter_popup_perk_count">({quantity}/{maxCount}) atouts sélectionnés</string>
+	<string key="ui_perk_filter_popup_add_perks">Ajouter atouts</string>
+	<string key="ui_perk_filter_popup_gem">Gemme</string>
+	<string key="ui_perk_filter_popup_gem_none_selected">Aucune gemme sélectionnée</string>
+	<string key="ui_perk_filter_popup_gem_count">({quantity}/{maxCount}) gemmes sélectionnées</string>
+	<string key="ui_perk_filter_popup_add_gem">Ajouter gemme</string>
+	<string key="ui_perk_filter_popup_single_attribute_only">Une seule caractéristique</string>
+	<string key="ui_perk_filter_popup_single_attribute_only_tooltip">En cochant cette option, vous ne verrez que les objets avec 1 caractéristique.</string>
+	<string key="ui_perk_filter_popup_single_attribute_only_selector">N'afficher que les objets avec 1 caractéristique</string>
 	<string key="ui_sellers">ACHETER &lt;font color="#b5b094"&gt;&lt;font face="lyshineui/fonts/Nimbus_medium.font"&gt;à partir d'ordres de vente&lt;/font&gt;&lt;/font&gt;</string>
 	<string key="ui_buyers">VENDRE &lt;font color="#b5b094"&gt;&lt;font face="lyshineui/fonts/Nimbus_medium.font"&gt;aux ordres d'achat&lt;/font&gt;&lt;/font&gt;</string>
 	<string key="ui_buyOrders">&lt;img src="lyshineui/images/icons/contracts/contracts_iconBuy" xPadding="0" scale="1.5" yOffset="5.2"&gt;&lt;/img&gt; Ordres d'achat</string>
@@ -212,6 +244,10 @@
 	<string key="ui_perk_selector_any_perk_description">Atout aléatoire compatible avec cet objet</string>
 	<string key="ui_perk_selector_any_gem">Gemme aléatoire</string>
 	<string key="ui_perk_selector_any_gem_description">Une niche à gemme vide</string>
+	<string key="ui_perk_selector_logic_modifier_any_perks">Un atout sélectionné</string>
+	<string key="ui_perk_selector_logic_modifier_any_perks_description">Tout objet ayant un des atouts sélectionnés ou plus.</string>
+	<string key="ui_perk_selector_logic_modifier_all_perks">Seuls les atouts sélectionnés</string>
+	<string key="ui_perk_selector_logic_modifier_all_perks_description">Seuls les objets ayant tous les atouts sélectionnés.</string>
 	<string key="ui_select_gem">Sélectionner gemme</string>
 	<string key="ui_select_perk">Sélectionner atouts</string>
 	<string key="ui_buyorder_has_these_properties">AVEC CES PROPRIÉTÉS</string>
@@ -223,8 +259,13 @@
 	<string key="ui_exclusive_perk_popup_title">Atout « exclusif » sélectionné</string>
 	<string key="ui_exclusive_perk_popup_message">Vous ne pouvez disposer que d'un seul atout de ce type. Souhaitez-vous remplacer l'atout de ce type actuellement sélectionné par celui-ci ?</string>
 	<string key="ui_exclusive_perk_popup_message_no_replace">{newPerkName} et {selectedPerkName} sont exclusifs et ne peuvent pas être sélectionnés ensemble.</string>
+	<string key="ui_cannot_change_perk_logic_popup_title">Requête impossible</string>
+	<string key="ui_cannot_change_perk_logic_message">Vous ne pouvez pas changer le filtre en « Tous les atouts sélectionnés » car les atouts suivants ne peuvent pas être sélectionnés en même temps.\n</string>
+	<string key="ui_cannot_change_perk_logic_incompatible_perks">\n&lt;font color="#b45353"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{perkNameA}&lt;/font&gt;&lt;/font&gt; - &lt;font color="#b45353"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{perkNameB}&lt;/font&gt;&lt;/font&gt;</string>
 	<string key="ui_max_perk_popup_title">Maximum atteint</string>
 	<string key="ui_max_perk_popup_message">Vous avez atteint le nombre maximum d'atouts permis sur cet objet. Retirez un atout pour en ajouter un nouveau.</string>
+	<string key="ui_max_gem_popup_title">Maximum atteint</string>
+	<string key="ui_max_gem_popup_message">Vous avez atteint le nombre maximum de gemmes permises sur cet objet. Retirez une gemme pour en ajouter une nouvelle.</string>
 	<string key="ui_remove">retirer</string>
 	<string key="ui_showonly">Afficher uniquement :</string>
 	<string key="ui_playerMarketplace">Marché des joueurs</string>
@@ -233,5 +274,7 @@
 	<string key="ui_contract_time">Heure</string>
 	<string key="ui_order_tooltip">Ordres disponibles dans cette catégorie :\n&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{number}&lt;/font&gt;</string>
 	<string key="ui_available_buy_orders">Ordres d'achat pour cet objet</string>
+	<string key="ui_item_attribute">{attributeName} &lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{statValue}&lt;/font&gt;</string>
+	<string key="ui_item_attributes_separator">, </string>
 </resources>
 

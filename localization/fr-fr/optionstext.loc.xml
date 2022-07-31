@@ -107,6 +107,8 @@
 	<string key="ui_streamermode_server_chat_desc">Bloque les messages directs et les notifications.</string>
 	<string key="ui_streamermode_server_currency">Bloquer les transactions de pièces</string>
 	<string key="ui_streamermode_server_currency_desc">Bloque les transactions de pièces et les notifications.</string>
+	<string key="ui_streamermode_server_music_invite" rel_version="Feature_MusicalPerformances">Bloquer les invitations relatives à la musique</string>
+	<string key="ui_streamermode_server_music_invite_desc" rel_version="Feature_MusicalPerformances">Bloque les invitations et les notifications relatives aux spectacles musicaux.</string>
 	<string key="ui_voicechatmode">Mode de discussion vocale</string>
 	<string key="ui_voicechatmode_desc">Mode de discussion vocale sélectionné.</string>
 	<string key="ui_voicechatmode_enabled">Activé</string>
@@ -215,6 +217,14 @@
 	<string key="ui_restore_defaults_prompt">Voulez-vous vraiment rétablir les paramètres par défaut ?</string>
 	<string key="ui_audiooutput_headphones">Casque audio</string>
 	<string key="ui_audiooutput_speakers">Home cinéma</string>
+	<string key="ui_mute_performance" rel_version="Feature_MusicalPerformances">Désactiver les instruments de musique des autres joueurs</string>
+	<string key="ui_mute_performance_desc" rel_version="Feature_MusicalPerformances">Met en sourdine la musique jouée par les autres joueurs.</string>
+	<string key="ui_mute_combat_music" rel_version="Feature_MusicalPerformances">Désactiver la musique de combat</string>
+	<string key="ui_mute_combat_music_desc" rel_version="Feature_MusicalPerformances">Met en sourdine la musique de combat.</string>
+	<string key="ui_mute_secondary_music" rel_version="Feature_MusicalPerformances">Désactiver l'audio d'arrière-plan du spectacle</string>
+	<string key="ui_mute_secondary_music_desc" rel_version="Feature_MusicalPerformances">Met en sourdine les applaudissements et les effets d'arrière-plan du spectacle musical.</string>
+	<string key="ui_musicInstrument_volume" rel_version="Feature_MusicalPerformances">Volume des instruments de musique</string>
+	<string key="ui_musicInstrument_volume_desc" rel_version="Feature_MusicalPerformances">Ajuste la musique jouée par les joueurs du groupe et à distance avec leurs instruments de musique.</string>
 	<string key="ui_outputconfiguration">Paramètres de sortie</string>
 	<string key="ui_outputconfiguration_desc">Permuter entre le rendu audio 360 degrés pour home cinéma et le rendu audio 180 degrés pour casque.</string>
 	<string key="ui_texttospeech">Synthèse vocale</string>

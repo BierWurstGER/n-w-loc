@@ -129,12 +129,12 @@
 	<string key="ui_treasury_tooltip_withdrawal_nopermissons">Non hai il permesso di effettuare prelievi.</string>
 	<string key="ui_treasury_tooltip_withdrawal_overlimit">Hai raggiunto il tuo limite giornaliero.</string>
 	<string key="ui_treasury_tooltip_changedailywithdrawallimit_nopermissons">Non hai il permesso di cambiare il limite di prelievo giornaliero.</string>
-	<string key="ui_treasury_notification_depositsuccess">Effettuato deposito di &lt;font color={colorHex}&gt;{amount}&lt;/font&gt; {coinImage} presso la cassa comune della compagnia.</string>
-	<string key="ui_treasury_notification_depositcappedtreasurymax">Effettuato deposito di &lt;font color={colorHex}&gt;{amount}&lt;/font&gt; {coinImage} presso la cassa comune della compagnia (limitato dal massimale della cassa comune).</string>
-	<string key="ui_treasury_notification_depositcappedplayerfunds">Effettuato deposito di &lt;font color={colorHex}&gt;{amount}&lt;/font&gt; {coinImage} presso la cassa comune della compagnia (limitato dai fondi personali).</string>
-	<string key="ui_treasury_notification_withdrawalsuccess">Effettuato prelievo di &lt;font color={colorHex}&gt;{amount}&lt;/font&gt; {coinImage} dalla cassa comune della compagnia.</string>
-	<string key="ui_treasury_notification_withdrawalcappedfunds">Effettuato prelievo di &lt;font color={colorHex}&gt;{amount}&lt;/font&gt; {coinImage} dalla cassa comune della compagnia (limitato dalla mancanza di fondi).</string>
-	<string key="ui_treasury_notification_withdrawalcappeddailylimit">Effettuato prelievo di &lt;font color={colorHex}&gt;{amount}&lt;/font&gt; {coinImage} dalla cassa comune della compagnia (limitato dal limite giornaliero).</string>
+	<string key="ui_treasury_notification_depositsuccess">Effettuato deposito di &lt;font color={colorHex} face="lyshineui/fonts/CaslonAnt.font"&gt;{amount}&lt;/font&gt; {coinImage} presso la cassa comune della compagnia.</string>
+	<string key="ui_treasury_notification_depositcappedtreasurymax">Deposito nella cassa comune non riuscito (limite massimo superato).</string>
+	<string key="ui_treasury_notification_depositcappedplayerfunds">Deposito nella cassa comune non riuscito (fondi personali insufficienti).</string>
+	<string key="ui_treasury_notification_withdrawalsuccess">Effettuato prelievo di &lt;font color={colorHex} face="lyshineui/fonts/CaslonAnt.font"&gt;{amount}&lt;/font&gt; {coinImage} dalla cassa comune della compagnia.</string>
+	<string key="ui_treasury_notification_withdrawalcappedfunds"> Prelievo dalla cassa comune non riuscito (fondi insufficienti).</string>
+	<string key="ui_treasury_notification_withdrawalcappeddailylimit">Prelievo dalla cassa comune non riuscito (limite giornaliero superato).</string>
 	<string key="ui_treasury_notification_setdailylimitsuccess">Il limite di prelievo giornaliero è impostato a &lt;font color={colorHex}&gt;{amount}&lt;/font&gt; {coinImage}.</string>
 	<string key="ui_treasury_notification_setdailylimitsuccessinfinite">Il limite di prelievo giornaliero è impostato a {infinityImage}.</string>
 	<string key="ui_treasury_notification_cointransferaldisabled">Per usare la cassa comune della gilda devi raggiungere almeno il livello {minLevel}.</string>
@@ -185,10 +185,10 @@
 	<string key="ui_guildranksettler_SHE">Colona</string>
 	<string key="ui_guildranksettler_THEY">Colono</string>
 	<string key="ui_guildrankpublic">Pubblico</string>
-	<string key="ui_guildrankgovernor_and_above">1. Governatore</string>
-	<string key="ui_guildrankconsul_and_above">2. Console e superiore</string>
-	<string key="ui_guildrankofficer_and_above">3. Ufficiale e superiore</string>
-	<string key="ui_guildranksettler_and_above">4. Colono e superiore</string>
+	<string key="ui_guildrankgovernor_and_above">Solo Governatore</string>
+	<string key="ui_guildrankconsul_and_above">Console e superiore</string>
+	<string key="ui_guildrankofficer_and_above">Ufficiale e superiore</string>
+	<string key="ui_guildranksettler_and_above">Colono e superiore</string>
 	<string key="ui_guildrankpublic_and_above">Pubblico, accesso completo</string>
 	<string key="ui_guildrank_no_permissions">Il tuo grado nella compagnia ({rank}) non è abbastanza alto.</string>
 	<string key="ui_guildsystemerror">Si è verificato un errore di sistema.</string>
@@ -636,5 +636,10 @@
 	<string key="ui_high">Alta</string>
 	<string key="ui_highest">Più alta</string>
 	<string key="ui_kick_disabled_invasion">Impossibile espellere i giocatori dall'invasione</string>
+	<string key="ui_war_schedule_adjustment_title">{warType} {scheduleAdjustmentType}</string>
+	<string key="ui_war_schedule_adjustment_message">{warType} in {territoryName} è stato {scheduleAdjustmentType}.</string>
+	<string key="ui_war_schedule_adjustment_cancelled">annullato</string>
+	<string key="ui_war_schedule_adjustment_rescheduled">rinviato</string>
+	<string key="ui_war_camp_tier">Livello &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{value}&lt;/font&gt;</string>
 </resources>
 

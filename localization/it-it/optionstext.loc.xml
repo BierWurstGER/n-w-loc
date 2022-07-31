@@ -107,6 +107,8 @@
 	<string key="ui_streamermode_server_chat_desc">Blocca i messaggi privati e le notifiche</string>
 	<string key="ui_streamermode_server_currency">Blocca trasferimenti monete</string>
 	<string key="ui_streamermode_server_currency_desc">Blocca i trasferimenti e le notifiche relativi alle monete</string>
+	<string key="ui_streamermode_server_music_invite" rel_version="Feature_MusicalPerformances">Blocca inviti musicali</string>
+	<string key="ui_streamermode_server_music_invite_desc" rel_version="Feature_MusicalPerformances">Blocca gli inviti e le notifiche per le esibizioni musicali</string>
 	<string key="ui_voicechatmode">Modalità chat vocale</string>
 	<string key="ui_voicechatmode_desc">Modalità chat vocale in uso</string>
 	<string key="ui_voicechatmode_enabled">Abilitata</string>
@@ -215,6 +217,14 @@
 	<string key="ui_restore_defaults_prompt">Vuoi davvero riportare queste opzioni alle impostazioni predefinite?</string>
 	<string key="ui_audiooutput_headphones">Cuffie</string>
 	<string key="ui_audiooutput_speakers">Home theater</string>
+	<string key="ui_mute_performance" rel_version="Feature_MusicalPerformances">Disattiva audio strumento altro giocatore</string>
+	<string key="ui_mute_performance_desc" rel_version="Feature_MusicalPerformances">Disattiva la musica suonata dagli altri giocatori</string>
+	<string key="ui_mute_combat_music" rel_version="Feature_MusicalPerformances">Disattiva musica combattimenti</string>
+	<string key="ui_mute_combat_music_desc" rel_version="Feature_MusicalPerformances">Disattiva la musica durante i combattimenti</string>
+	<string key="ui_mute_secondary_music" rel_version="Feature_MusicalPerformances">Disattiva audio secondario esibizioni</string>
+	<string key="ui_mute_secondary_music_desc" rel_version="Feature_MusicalPerformances">Disattiva il suono degli applausi e degli effetti secondari durante le esibizioni musicali</string>
+	<string key="ui_musicInstrument_volume" rel_version="Feature_MusicalPerformances">Volume strumenti musicali</string>
+	<string key="ui_musicInstrument_volume_desc" rel_version="Feature_MusicalPerformances">Regola il volume della musica suonata con gli strumenti musicali dai giocatori locali e in remoto</string>
 	<string key="ui_outputconfiguration">Configurazione dell'output</string>
 	<string key="ui_outputconfiguration_desc">Passa dal formato audio a 360 gradi per home theater al formato audio a 180 gradi per cuffie</string>
 	<string key="ui_texttospeech">Sintesi vocale</string>

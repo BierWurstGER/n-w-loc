@@ -380,6 +380,11 @@
 	<string key="ui_fishing_equip_action">Attiva la modalità di pesca</string>
 	<string key="ui_fishing_action">Lancia / Cattura / Avvolgi</string>
 	<string key="ui_fishing_reset_action">Lancia di nuovo / Termina pesca</string>
+	<string key="ui_performances" rel_version="Feature_MusicalPerformances">Esibizioni</string>
+	<string key="ui_performances_toggle" rel_version="Feature_MusicalPerformances">Attiva/Disattiva modalità esibizione</string>
+	<string key="ui_performances_start" rel_version="Feature_MusicalPerformances">Inizia esibizione</string>
+	<string key="ui_performances_equip" rel_version="Feature_MusicalPerformances">Equipaggia spartito musicale</string>
+	<string key="ui_performances_invite" rel_version="Feature_MusicalPerformances">Invita all'esibizione</string>
 	<string key="ui_camping">Accampamento</string>
 	<string key="ui_tracking">Prossimamente</string>
 	<string key="ui_exploring">Prossimamente</string>
@@ -417,6 +422,7 @@
 	<string key="ui_mining_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Mining Post Cap</string>
 	<string key="ui_logging_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Logging Post Cap</string>
 	<string key="ui_harvesting_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Harvesting Post Cap</string>
+	<string key="ui_musician_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Musician Post Cap</string>
 	<string key="ui_decline">Rifiuta</string>
 	<string key="ui_name_your_avatar">Dai un nome al tuo personaggio</string>
 	<string key="ui_portrait_title">Il mio ritratto</string>
@@ -429,18 +435,25 @@
 	<string key="crafting_cannot_repair">Impossibile riparare</string>
 	<string key="crafting_requires_station">Devi essere presso la postazione giusta.</string>
 	<string key="crafting_repair_no_requirements">Nessun requisito necessario per riparare questo oggetto.</string>
-	<string key="inv_salvage_tooltip" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Recuperando questo oggetto otterrai: {numItems} {itemName}. {gemMessage}</string>
-	<string key="inv_salvage_tooltip_withrepairparts" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Recuperando questo oggetto otterrai: {numItems} {itemName} e {numRepairParts} pezzi di ricambio. {gemMessage}</string>
-	<string key="inv_salvage_tooltip_onlyrepairparts" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Recuperando questo oggetto otterrai {numRepairParts} pezzi di ricambio. {gemMessage}</string>
-	<string key="inv_salvage_tooltip_withcoin" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Recuperando questo oggetto otterrai {coinAmount}. {gemMessage}</string>
-	<string key="inv_salvage_tooltip_repairparts_and_coin" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Recuperando questo oggetto otterrai {numRepairParts} pezzi di ricambio e {coinAmount}. {gemMessage}</string>
+	<string key="inv_salvage_tooltip_fixed" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Recuperando questo oggetto otterrai: {numItems} {itemName}. {gemMessage}</string>
+	<string key="inv_salvage_tooltip_fixed_repairparts" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Recuperando questo oggetto otterrai: {numItems} {itemName} e {numRepairParts} pezzi di ricambio. {gemMessage}</string>
+	<string key="inv_salvage_tooltip_fixed_coin" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Recuperando questo oggetto otterrai {numItems} {itemName} e {coinAmount}. {gemMessage}</string>
+	<string key="inv_salvage_tooltip_fixed_repairparts_coin" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Recuperando questo oggetto otterrai {numItems} {itemName}, {numRepairParts} pezzi di ricambio e {coinAmount}. {gemMessage}</string>
+	<string key="inv_salvage_tooltip_repairparts" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Recuperando questo oggetto otterrai {numRepairParts} pezzi di ricambio. {gemMessage}</string>
+	<string key="inv_salvage_tooltip_coin" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Recuperando questo oggetto otterrai {coinAmount}. {gemMessage}</string>
+	<string key="inv_salvage_tooltip_repairparts_coin" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Recuperando questo oggetto otterrai {numRepairParts} pezzi di ricambio e {coinAmount}. {gemMessage}</string>
 	<string key="inv_salvage_tooltip_range" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Recuperando questo oggetto otterrai: {min}-{max} {itemName}. {gemMessage}</string>
-	<string key="inv_salvage_tooltip_range_withrepairparts" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Recuperando questo oggetto otterrai: {min}-{max} {itemName} e {numRepairParts} pezzi di ricambio. {gemMessage}</string>
+	<string key="inv_salvage_tooltip_range_repairparts" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Recuperando questo oggetto otterrai: {min}-{max} {itemName} e {numRepairParts} pezzi di ricambio. {gemMessage}</string>
+	<string key="inv_salvage_tooltip_range_coin" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Recuperando questo oggetto otterrai {min}-{max} {itemName} e {coinAmount}. {gemMessage}</string>
+	<string key="inv_salvage_tooltip_range_repairparts_coin" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Recuperando questo oggetto otterrai {min}-{max} {itemName}, {numRepairParts} pezzi di ricambio e {coinAmount}. {gemMessage}</string>
 	<string key="inv_salvage_tooltip_gemmessage" comment="this will come after a previous sentence and should have a space in front">C'è una piccola possibilità di recuperare la gemma incastonata.</string>
 	<string key="inv_salvage_tooltip_additional_item" comment="This only applies to fishing when there is a chance to receive additional items.">Puoi acquisire anche oggetti aggiuntivi, come {itemName}.</string>
 	<string key="inv_salvage_tooltip_recipe">Recuperando questo oggetto apprenderai la ricetta: {recipeName}.</string>
 	<string key="inv_salvage_tooltip_recipe_known">Conosci già la ricetta per {recipeName}.</string>
 	<string key="inv_salvage_tertiary_recipe">Ricetta: {recipeName}</string>
+	<string key="inv_salvage_tooltip_songpage" rel_version="Feature_MusicalPerformances">Recuperando questo oggetto apprenderai una pagina del brano {songName} per {instrumentName}.</string>
+	<string key="inv_salvage_tooltip_songpage_known" rel_version="Feature_MusicalPerformances">Conosci già questa pagina del brano {songName} per {instrumentName}.</string>
+	<string key="inv_salvage_tertiary_songpage" rel_version="Feature_MusicalPerformances">Pagina del brano {songName}</string>
 	<string key="minspec_warning_requirements_title">Avviso requisiti minimi</string>
 	<string key="minspec_failed_requirements_title">Errore di specifiche</string>
 	<string key="minspec_failed_requirements">Questo computer non soddisfa uno o più dei requisiti minimi specificati per eseguire correttamente New World.</string>
@@ -506,5 +519,6 @@
 	<string key="error_world_select_server_down">Non puoi selezionare un mondo mentre è in corso la manutenzione.</string>
 	<string key="error_loading_assets_title">Errore caricamento risorse di gioco</string>
 	<string key="error_loading_assets_message">Errore durante il caricamento delle risorse di gioco! Verifica l'installazione.</string>
+	<string key="ui_musician" rel_version="Feature_MusicalPerformances">Musicista</string>
 </resources>
 

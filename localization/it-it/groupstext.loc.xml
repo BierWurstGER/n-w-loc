@@ -11,7 +11,9 @@
 	<string key="ui_receivedgroupinvite_hide" comment="">Nascondi</string>
 	<string key="ui_togglepvpblocked_title" comment="">Avviso attivazione PvP</string>
 	<string key="ui_togglepvpblocked_ingroup" comment="">I giocatori PvP e PvE non possono trovarsi nello stesso gruppo. Modificando l'attivazione del PvP verrai espulso da questo gruppo.\n\nVuoi davvero modificare l'attivazione del PvP?</string>
-	<string key="ui_togglepvpblocked_pendinginvites" comment="">Modificando l'attivazione del PvP tutti gli inviti alla lobby della spedizione verranno annullati.\n\nVuoi davvero modificare l'attivazione del PvP?</string>
+	<string key="ui_togglepvpblocked_pendinginvites" comment="">Modificando l'attivazione del PvP tutti gli inviti a gruppi in sospeso verranno annullati.\n\nVuoi davvero modificare l'attivazione del PvP?</string>
+	<string rel_version="Feature_Group_Finder" key="ui_togglepvpblocked_ingroupfindergroup" comment="">I giocatori PvP e PvE non possono essere nella stessa lobby. Modificando l'attivazione del PvP verrai espulso da questa lobby.\n\nVuoi davvero modificare l'attivazione del PvP?</string>
+	<string rel_version="Feature_Group_Finder" key="ui_togglepvpblocked_pendinggroupfinderapplications" comment="">Modificando l'attivazione del PvP tutte le tue richieste per le lobby verranno annullate.\n\nVuoi davvero modificare l'attivazione del PvP?</string>
 	<string key="ui_receivedwargroupinvitetitle" comment="">Unisciti alla guerra!</string>
 	<string key="ui_receivedwargroupinvitemessage" comment="">Sei stato invitato a partecipare alla guerra presso {territoryName} dalle {startTime} alle {endTime}. Accetta di essere teletrasportato al campo di battaglia.</string>
 	<string key="ui_receivedinvasiongroupinvitetitle" comment="">Difenditi dall'invasione!</string>
@@ -22,6 +24,7 @@
 	<string key="ui_groupinviteacceptraid" comment="">Hai accettato l'invito al gruppo</string>
 	<string key="ui_groupinvitedeclinesentmessage" comment="">Hai rifiutato l'invito al gruppo da parte di &lt;font color="#ffffff"&gt;{playerName}&lt;/font&gt;.</string>
 	<string key="ui_groupinvitedeclineraid" comment="">Hai rifiutato l'invito al gruppo</string>
+	<string key="ui_groupinvitedeclinerequeue" comment="">Sei rientrato nella coda perché un giocatore ha rinunciato</string>
 	<string key="ui_groupinvitewithdrawnreceivermessage" comment="">&lt;font color="#ffffff"&gt;{playerName}&lt;/font&gt; ha ritirato il suo invito al gruppo.</string>
 	<string key="ui_groupinvitewithdrawnreceivermessage_SHE" comment="">&lt;font color="#ffffff"&gt;{playerName}&lt;/font&gt; ha ritirato il suo invito al gruppo.</string>
 	<string key="ui_groupinvitewithdrawnreceivermessage_THEY" comment="">&lt;font color="#ffffff"&gt;{playerName}&lt;/font&gt; ha ritirato il suo invito al gruppo.</string>

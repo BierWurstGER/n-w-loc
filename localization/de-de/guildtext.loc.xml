@@ -129,12 +129,12 @@
 	<string key="ui_treasury_tooltip_withdrawal_nopermissons">Du hast nicht die Berechtigung dazu, etwas abzuheben.</string>
 	<string key="ui_treasury_tooltip_withdrawal_overlimit">Du hast dein tägliches Abhebungslimit erreicht.</string>
 	<string key="ui_treasury_tooltip_changedailywithdrawallimit_nopermissons">Du hast nicht die Berechtigung dazu, das tägliche Abhebungslimit zu ändern.</string>
-	<string key="ui_treasury_notification_depositsuccess">&lt;font color={colorHex}&gt;{amount}&lt;/font&gt; {coinImage} wurden in die Kompanie-Schatzkammer eingezahlt.</string>
-	<string key="ui_treasury_notification_depositcappedtreasurymax">&lt;font color={colorHex}&gt;{amount}&lt;/font&gt; {coinImage} wurden in die Kompanie-Schatzkammer eingezahlt (angepasst an Fassungsvermögen der Schatzkammer).</string>
-	<string key="ui_treasury_notification_depositcappedplayerfunds">&lt;font color={colorHex}&gt;{amount}&lt;/font&gt; {coinImage} wurden in die Kompanie-Schatzkammer eingezahlt (angepasst an verfügbares Guthaben).</string>
-	<string key="ui_treasury_notification_withdrawalsuccess">&lt;font color={colorHex}&gt;{amount}&lt;/font&gt; {coinImage} wurden von der Kompanie-Schatzkammer abgehoben.</string>
-	<string key="ui_treasury_notification_withdrawalcappedfunds">&lt;font color={colorHex}&gt;{amount}&lt;/font&gt; {coinImage} wurden von der Kompanie-Schatzkammer abgehoben (angepasst an unzureichendes Guthaben).</string>
-	<string key="ui_treasury_notification_withdrawalcappeddailylimit">&lt;font color={colorHex}&gt;{amount}&lt;/font&gt; {coinImage} wurden von der Kompanie-Schatzkammer abgehoben (angepasst an tägliches Abhebungslimit).</string>
+	<string key="ui_treasury_notification_depositsuccess">&lt;font color={colorHex} face="lyshineui/fonts/CaslonAnt.font"&gt;{amount}&lt;/font&gt; {coinImage} wurden in die Kompanie-Schatzkammer eingezahlt.</string>
+	<string key="ui_treasury_notification_depositcappedtreasurymax">Einzahlung in Schatzkammer fehlgeschlagen (max. Kapazität der Schatzkammer erreicht).</string>
+	<string key="ui_treasury_notification_depositcappedplayerfunds">Einzahlung in Schatzkammer fehlgeschlagen (unzureichendes verfügbares Guthaben).</string>
+	<string key="ui_treasury_notification_withdrawalsuccess">&lt;font color={colorHex} face="lyshineui/fonts/CaslonAnt.font"&gt;{amount}&lt;/font&gt; {coinImage} wurden von der Kompanie-Schatzkammer abgehoben.</string>
+	<string key="ui_treasury_notification_withdrawalcappedfunds"> Abheben aus der Schatzkammer fehlgeschlagen (unzureichendes Guthaben in der Schatzkammer).</string>
+	<string key="ui_treasury_notification_withdrawalcappeddailylimit">Abheben aus der Schatzkammer fehlgeschlagen (über dem täglichen Limit).</string>
 	<string key="ui_treasury_notification_setdailylimitsuccess">Das tägliche Abhebungslimit wurde festgelegt auf &lt;font color={colorHex}&gt;{amount}&lt;/font&gt; {coinImage}.</string>
 	<string key="ui_treasury_notification_setdailylimitsuccessinfinite">Das tägliche Abhebungslimit wurde festgelegt auf {infinityImage}.</string>
 	<string key="ui_treasury_notification_cointransferaldisabled">Du musst mindestens Stufe {minLevel} erreicht haben, um die Gildenschatzkammer nutzen zu dürfen.</string>
@@ -185,10 +185,10 @@
 	<string key="ui_guildranksettler_SHE">Siedlerin</string>
 	<string key="ui_guildranksettler_THEY">Siedler*in</string>
 	<string key="ui_guildrankpublic">Öffentlich</string>
-	<string key="ui_guildrankgovernor_and_above">1. Gouverneur</string>
-	<string key="ui_guildrankconsul_and_above">2. Konsul und höher</string>
-	<string key="ui_guildrankofficer_and_above">3. Offizier und höher</string>
-	<string key="ui_guildranksettler_and_above">4. Siedler und höher</string>
+	<string key="ui_guildrankgovernor_and_above">Nur Gouverneure</string>
+	<string key="ui_guildrankconsul_and_above">Konsul und höher</string>
+	<string key="ui_guildrankofficer_and_above">Offizier und höher</string>
+	<string key="ui_guildranksettler_and_above">Siedler und höher</string>
 	<string key="ui_guildrankpublic_and_above">Öffentlich, voller Zugang</string>
 	<string key="ui_guildrank_no_permissions">Dein Kompanierang ({rank}) ist zu niedrig.</string>
 	<string key="ui_guildsystemerror">Ein Systemfehler ist aufgetreten.</string>
@@ -636,5 +636,10 @@
 	<string key="ui_high">Hoch</string>
 	<string key="ui_highest">Am höchsten</string>
 	<string key="ui_kick_disabled_invasion">Spieler können nicht von der Invasion ausgeschlossen werden.</string>
+	<string key="ui_war_schedule_adjustment_title">{warType} {scheduleAdjustmentType}</string>
+	<string key="ui_war_schedule_adjustment_message">{warType} in {territoryName} wurde {scheduleAdjustmentType}.</string>
+	<string key="ui_war_schedule_adjustment_cancelled">abgesagt</string>
+	<string key="ui_war_schedule_adjustment_rescheduled">verschoben</string>
+	<string key="ui_war_camp_tier">Rang &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{value}&lt;/font&gt;</string>
 </resources>
 

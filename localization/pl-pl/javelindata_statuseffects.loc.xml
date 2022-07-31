@@ -479,6 +479,29 @@
 	<string key="Mut_Nat_Thorns_2_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Ciernie II</string>
 	<string key="Mut_Nat_Death_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Nawóz</string>
 	<string key="Mut_Nat_Death_Effect_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Regeneracja</string>
+	<string key="Mut_Ice_Damage_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators_pt3">Zamrożenie</string>
+	<string key="Mut_Ice_Resist_1_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators_pt3">Odporność na lód I</string>
+	<string key="Mut_Ice_Resist_2_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators_pt3">Odporność na lód II</string>
+	<string key="Mut_Ice_Slow_1_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators_pt3">Szron I</string>
+	<string key="Mut_Ice_Slow_2_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators_pt3">Szron II</string>
+	<string key="Mut_Ice_Slow_1_Effect_DisplayName" rel_version="Feature_Dungeon_Mutators_pt3">Spowolnienie I</string>
+	<string key="Mut_Ice_Slow_1_Effect_Tooltip" rel_version="Feature_Dungeon_Mutators_pt3">Szybkość ruchu ulega zmniejszeniu o {[Type_StatusEffectData.Mut_Ice_Slow_1_Effect.MoveSpeedMod * -100]}% na {[Type_StatusEffectData.Mut_Ice_Slow_1_Effect.BaseDuration]} s.</string>
+	<string key="Mut_Ice_Slow_2_Effect_DisplayName" rel_version="Feature_Dungeon_Mutators_pt3">Spowolnienie II</string>
+	<string key="Mut_Ice_Slow_2_Effect_Tooltip" rel_version="Feature_Dungeon_Mutators_pt3">Szybkość ruchu ulega zmniejszeniu o {[Type_StatusEffectData.Mut_Ice_Slow_2_Effect.MoveSpeedMod * -100]}% na {[Type_StatusEffectData.Mut_Ice_Slow_2_Effect.BaseDuration]} s.</string>
+	<string key="Mut_Ice_SlowDamage_1_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators_pt3">Dygot I</string>
+	<string key="Mut_Ice_SlowDamage_2_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators_pt3">Dygot II</string>
+	<string key="Mut_Ice_CloseZone_1_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators_pt3">Dygot I</string>
+	<string key="Mut_Ice_CloseZone_2_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators_pt3">Dygot II</string>
+	<string key="Mut_Ice_CloseZone_1_Damage_DisplayName" rel_version="Feature_Dungeon_Mutators_pt3">Szczypiący mróz I</string>
+	<string key="Mut_Ice_CloseZone_2_Damage_DisplayName" rel_version="Feature_Dungeon_Mutators_pt3">Szczypiący mróz II</string>
+	<string key="Mut_Ice_CloseZone_1_Damage_ToolTip" rel_version="Feature_Dungeon_Mutators_pt3">Otrzymujesz obrażenia od lodu w wysokości {[Type_StatusEffectData.Mut_Ice_CloseZone_1_Damage.HealthModifierDamageBased * -100]}% podstawowych obrażeń + {[Type_StatusEffectData.Mut_Ice_CloseZone_1_Damage.HealthModifierPercent * -100]}% podstawowego zdrowia co {[Type_StatusEffectData.Mut_Ice_CloseZone_1_Damage.TickRate]} s.</string>
+	<string key="Mut_Ice_CloseZone_2_Damage_ToolTip" rel_version="Feature_Dungeon_Mutators_pt3">Otrzymujesz obrażenia od lodu w wysokości {[Type_StatusEffectData.Mut_Ice_CloseZone_2_Damage.HealthModifierDamageBased * -100]}% podstawowych obrażeń + {[Type_StatusEffectData.Mut_Ice_CloseZone_2_Damage.HealthModifierPercent * -100]}% podstawowego zdrowia co {[Type_StatusEffectData.Mut_Ice_CloseZone_2_Damage.TickRate]} s.</string>
+	<string key="Mut_Ice_Death_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators_pt3">Lodowiec</string>
+	<string key="Mut_Ice_DeathFreeze_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators_pt3">Lodowiec</string>
+	<string key="Mut_Ice_DeathFreeze_Slow_DisplayName" rel_version="Feature_Dungeon_Mutators_pt3">Mrożące spowolnienie</string>
+	<string key="Mut_Ice_DeathFreeze_Slow_Tooltip" rel_version="Feature_Dungeon_Mutators_pt3">Zmniejsza szybkość ruchu o {[Type_StatusEffectData.Mut_Ice_DeathFreeze_Slow.MoveSpeedMod * -100]}%. Gdy efekt skumuluje się {[Type_StatusEffectData.Mut_Ice_DeathFreeze_Slow.AddOnStackSize]} razy, nastąpi zamrożenie.</string>
+	<string key="Mut_Ice_DeathFreeze_Root_DisplayName" rel_version="Feature_Dungeon_Mutators_pt3">Mrożące uziemienie</string>
+	<string key="Mut_Ice_DeathFreeze_Root_Tooltip" rel_version="Feature_Dungeon_Mutators_pt3">Zamrożenie i brak możliwości ruchu.</string>
 	<string key="Mut_Fir_Curse1_Minor_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Niestabilny ogień</string>
 	<string key="Mut_Fir_Curse1_Minor_Damage_DisplayName" rel_version="Feature_Dungeon_Mutators">Niestabilne przypalenie</string>
 	<string key="Mut_Fir_Curse1_Minor_Damage_ToolTip" rel_version="Feature_Dungeon_Mutators">Otrzymujesz {[Type_StatusEffectData.Mut_Fir_Curse1_Minor_Damage.HealthModifierPercent * -100]}% obrażeń od ognia co {[Type_StatusEffectData.Mut_Fir_Curse1_Minore_Damage.TickRate]} s.</string>
@@ -488,6 +511,9 @@
 	<string key="Mut_Nat_Curse1_Minor_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Niestabilna natura</string>
 	<string key="Mut_Nat_Curse1_Minor_Damage_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Niestabilne soki</string>
 	<string key="Mut_Nat_Curse1_Minor_Damage_ToolTip" rel_version="Feature_Dungeon_Mutators_pt2">Otrzymujesz {[Type_StatusEffectData.Mut_Nat_Curse1_Minor_Damage.HealthModifierPercent * -100]}% obrażeń od natury co {[Type_StatusEffectData.Mut_Nat_Curse1_Minor_Damage.TickRate]} s.</string>
+	<string key="Mut_Ice_Curse1_Minor_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators_pt3">Niestabilny lód</string>
+	<string key="Mut_Ice_Curse1_Minor_Damage_DisplayName" rel_version="Feature_Dungeon_Mutators_pt3">Niestabilny chłód</string>
+	<string key="Mut_Ice_Curse1_Minor_Damage_ToolTip" rel_version="Feature_Dungeon_Mutators_pt3">Otrzymujesz {[Type_StatusEffectData.Mut_Ice_Curse1_Minor_Damage.HealthModifierPercent * -100]}% obrażeń od lodu co {[Type_StatusEffectData.Mut_Ice_Curse1_Minor_Damage.TickRate]} s.</string>
 	<string key="Mut_Fir_Curse1_Major_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Przeciążony ogień</string>
 	<string key="Mut_Fir_Curse1_Major_Buff_ToolTip" rel_version="Feature_Dungeon_Mutators_pt2">Co {[Type_StatusEffectData.Mut_Fir_Curse1_Major_Damage.TickRate]} s zadaje sojusznikom w pobliżu {[Type_StatusEffectData.Mut_Fir_Curse1_Major_Damage.HealthModifierDamageBased * -100]}% obrażeń od ognia. Daje {[Type_StatusEffectData.Mut_Fir_Curse1_Major_Buff.ABSFire * 100]}% pochłaniania obrażeń od ognia.</string>
 	<string key="Mut_Fir_Curse1_Major_Damage_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Przeciążone przypalenie</string>
@@ -516,16 +542,22 @@
 	<string key="Mut_Curse2_Nat_Major_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Ofiara krwi</string>
 	<string key="Mut_Curse2_Nat_Major_Damage_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Krwawe soki</string>
 	<string key="Mut_Curse2_Nat_Major_Damage_ToolTip" rel_version="Feature_Dungeon_Mutators_pt2">Co {[Type_StatusEffectData.Mut_Curse2_Nat_Major_Damage.TickRate]} s otrzymujesz obrażenia od natury w wysokości {[Type_StatusEffectData.Mut_Curse2_Nat_Major_Damage.HealthModifierPercent * -100]}% maksymalnego zdrowia.</string>
+	<string key="Mut_Curse2_Ice_Major_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators_pt3">Ofiara krwi</string>
+	<string key="Mut_Curse2_Ice_Major_Damage_DisplayName" rel_version="Feature_Dungeon_Mutators_pt3">Krwawy chłód</string>
+	<string key="Mut_Curse2_Ice_Major_Damage_ToolTip" rel_version="Feature_Dungeon_Mutators_pt3">Co {[Type_StatusEffectData.Mut_Curse2_Ice_Major_Damage.TickRate]} s otrzymujesz obrażenia od lodu w wysokości {[Type_StatusEffectData.Mut_Curse2_Ice_Major_Damage.HealthModifierPercent * -100]}% maksymalnego zdrowia.</string>
 	<string key="Mut_Fir_Curse3_Minor_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Wybuchowy ogień</string>
+	<string key="Mut_Ice_Curse3_Minor_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators_pt3">Wybuchowy lód</string>
 	<string key="Mut_Nat_Curse3_Minor_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Wybuchowa natura</string>
 	<string key="Mut_Voi_Curse3_Minor_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Wybuchowa próżnia</string>
 	<string key="Mut_Fir_Curse3_Major_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Zeschnięty ogień</string>
+	<string key="Mut_Ice_Curse3_Major_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators_pt3">Zeschnięty lód</string>
 	<string key="Mut_Nat_Curse3_Major_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Zeschnięta natura</string>
 	<string key="Mut_Voi_Curse3_Major_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Zeschnięta próżnia</string>
 	<string key="Mut_Curse3_Weaken_DisplayName" rel_version="Feature_Dungeon_Mutators">Zeschnięcie</string>
 	<string key="Mut_Curse3_Weaken_Tooltip" rel_version="Feature_Dungeon_Mutators">Zmniejsza wszystkie zadawane obrażenia o {[Type_StatusEffectData.Mut_Curse3_Weaken.DMGStandard * -100]}%, a przywracane zdrowie o {[Type_StatusEffectData.Mut_Curse3_Weaken.HealScalingValueMultiplier * -100]}%.</string>
 	<string key="Mut_Curse4_Major_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Okrojenie</string>
 	<string key="Mut_Fir_Curse4_Minor_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Rykoszet ognia</string>
+	<string key="Mut_Ice_Curse4_Minor_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators_pt3">Rykoszet lodu</string>
 	<string key="Mut_Nat_Curse4_Minor_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Rykoszet natury</string>
 	<string key="Mut_Voi_Curse4_Minor_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Rykoszet próżni</string>
 	<string key="Mut_Curse4_Major_Exhaust_DisplayName" rel_version="Feature_Dungeon_Mutators">Wyczerpanie</string>
@@ -534,12 +566,42 @@
 	<string key="Mut_Curse4_Major_ManaStop_ToolTip" rel_version="Feature_Dungeon_Mutators">Niemożność naturalnej regeneracji many.</string>
 	<string key="Mut_Curse4_Major_ManaRegen_DisplayName" rel_version="Feature_Dungeon_Mutators">Przepływ many</string>
 	<string key="Mut_Curse4_Major_ManaRegen_ToolTip" rel_version="Feature_Dungeon_Mutators">Przywraca {[Type_StatusEffectData.Mut_Curse4_Major_ManaRegen.Mana]} many co {[Type_StatusEffectData.Mut_Curse4_Major_ManaRegen.TickRate]} s.</string>
+	<string key="Mut_Curse1_Fir_Minor_Damage_DisplayName" rel_version="Feature_Dungeon_Mutators_pt3">Niestabilność</string>
+	<string key="Mut_Curse1_Fir_Minor_Damage_Tooltip" rel_version="Feature_Dungeon_Mutators_pt3">Otrzymujesz obrażenia w wysokości {[Type_StatusEffectData.Mut_Curse1_Fir_Minor_Damage.HealthModifierPercent * -100]}% maksymalnych PZ co sekundę przez {[Type_StatusEffectData.Mut_Curse1_Fir_Minor_Damage.BaseDuration]} s.</string>
+	<string key="Mut_Curse1_Fir_Major_Cast_DisplayName" rel_version="Feature_Dungeon_Mutators_pt3">Czas do przeciążenia</string>
+	<string key="Mut_Curse1_Fir_Major_Cast_Tooltip" rel_version="Feature_Dungeon_Mutators_pt3">Po upływie czasu niestabilności wokół gracza zostanie uruchomione przeciążenie.</string>
+	<string key="Mut_Curse1_Fir_Major_Damage_DoT_DisplayName" rel_version="Feature_Dungeon_Mutators_pt3">Przeciążenie</string>
+	<string key="Mut_Curse1_Fir_Major_Damage_DoT_Tooltip" rel_version="Feature_Dungeon_Mutators_pt3">Otrzymujesz obrażenia w wysokości {[Type_StatusEffectData.Mut_Curse1_Fir_Major_Damage_DoT.HealthModifierPercent * -100]}% maksymalnych PZ co sekundę, gdy przebywasz na obszarze zadającym obrażenia.</string>
+	<string key="Mut_Curse1_Lig_Minor_Damage_DisplayName" rel_version="Feature_Dungeon_Mutators_pt3">Niestabilność</string>
+	<string key="Mut_Curse1_Lig_Minor_Damage_Tooltip" rel_version="Feature_Dungeon_Mutators_pt3">Otrzymujesz obrażenia w wysokości {[Type_StatusEffectData.Mut_Curse1_Lig_Minor_Damage.HealthModifierPercent * -100]}% maksymalnych PZ co sekundę przez {[Type_StatusEffectData.Mut_Curse1_Lig_Minor_Damage.BaseDuration]} s.</string>
+	<string key="Mut_Curse1_Lig_Major_Cast_DisplayName" rel_version="Feature_Dungeon_Mutators_pt3">Czas do przeciążenia</string>
+	<string key="Mut_Curse1_Lig_Major_Cast_Tooltip" rel_version="Feature_Dungeon_Mutators_pt3">Po upływie czasu niestabilności wokół gracza zostanie uruchomione przeciążenie.</string>
+	<string key="Mut_Curse1_Lig_Major_Damage_DoT_DisplayName" rel_version="Feature_Dungeon_Mutators_pt3">Przeciążenie</string>
+	<string key="Mut_Curse1_Lig_Major_Damage_DoT_Tooltip" rel_version="Feature_Dungeon_Mutators_pt3">Otrzymujesz obrażenia w wysokości {[Type_StatusEffectData.Mut_Curse1_Lig_Major_Damage_DoT.HealthModifierPercent * -100]}% maksymalnych PZ co sekundę, gdy przebywasz na obszarze zadającym obrażenia.</string>
+	<string key="Mut_Curse1_Voi_Minor_Damage_DisplayName" rel_version="Feature_Dungeon_Mutators_pt3">Niestabilność</string>
+	<string key="Mut_Curse1_Voi_Minor_Damage_Tooltip" rel_version="Feature_Dungeon_Mutators_pt3">Otrzymujesz obrażenia w wysokości {[Type_StatusEffectData.Mut_Curse1_Voi_Minor_Damage.HealthModifierPercent * -100]}% maksymalnych PZ co sekundę przez {[Type_StatusEffectData.Mut_Curse1_Voi_Minor_Damage.BaseDuration]} s.</string>
+	<string key="Mut_Curse1_Voi_Major_Cast_DisplayName" rel_version="Feature_Dungeon_Mutators_pt3">Czas do przeciążenia</string>
+	<string key="Mut_Curse1_Voi_Major_Cast_Tooltip" rel_version="Feature_Dungeon_Mutators_pt3">Po upływie czasu niestabilności wokół gracza zostanie uruchomione przeciążenie.</string>
+	<string key="Mut_Curse1_Voi_Major_Damage_DoT_DisplayName" rel_version="Feature_Dungeon_Mutators_pt3">Przeciążenie</string>
+	<string key="Mut_Curse1_Voi_Major_Damage_DoT_Tooltip" rel_version="Feature_Dungeon_Mutators_pt3">Otrzymujesz obrażenia w wysokości {[Type_StatusEffectData.Mut_Curse1_Voi_Major_Damage_DoT.HealthModifierPercent * -100]}% maksymalnych PZ co sekundę, gdy przebywasz na obszarze zadającym obrażenia.</string>
+	<string key="Mut_Curse1_Nat_Minor_Damage_DisplayName" rel_version="Feature_Dungeon_Mutators_pt3">Niestabilność</string>
+	<string key="Mut_Curse1_Nat_Minor_Damage_Tooltip" rel_version="Feature_Dungeon_Mutators_pt3">Otrzymujesz obrażenia w wysokości {[Type_StatusEffectData.Mut_Curse1_Nat_Minor_Damage.HealthModifierPercent * -100]}% maksymalnych PZ co sekundę przez {[Type_StatusEffectData.Mut_Curse1_Nat_Minor_Damage.BaseDuration]} s.</string>
+	<string key="Mut_Curse1_Nat_Major_Cast_DisplayName" rel_version="Feature_Dungeon_Mutators_pt3">Czas do przeciążenia</string>
+	<string key="Mut_Curse1_Nat_Major_Cast_Tooltip" rel_version="Feature_Dungeon_Mutators_pt3">Po upływie czasu niestabilności wokół gracza zostanie uruchomione przeciążenie.</string>
+	<string key="Mut_Curse1_Nat_Major_Damage_DoT_DisplayName" rel_version="Feature_Dungeon_Mutators_pt3">Przeciążenie</string>
+	<string key="Mut_Curse1_Nat_Major_Damage_DoT_Tooltip" rel_version="Feature_Dungeon_Mutators_pt3">Otrzymujesz obrażenia w wysokości {[Type_StatusEffectData.Mut_Curse1_Nat_Major_Damage_DoT.HealthModifierPercent * -100]}% maksymalnych PZ co sekundę, gdy przebywasz na obszarze zadającym obrażenia.</string>
+	<string key="Mut_Curse1_Ice_Minor_Damage_DisplayName" rel_version="Feature_Dungeon_Mutators_pt3">Niestabilność</string>
+	<string key="Mut_Curse1_Ice_Minor_Damage_Tooltip" rel_version="Feature_Dungeon_Mutators_pt3">Otrzymujesz obrażenia w wysokości {[Type_StatusEffectData.Mut_Curse1_Ice_Minor_Damage.HealthModifierPercent * -100]}% maksymalnych PZ co sekundę przez {[Type_StatusEffectData.Mut_Curse1_Ice_Minor_Damage.BaseDuration]} s.</string>
+	<string key="Mut_Curse1_Ice_Major_Cast_DisplayName" rel_version="Feature_Dungeon_Mutators_pt3">Czas do przeciążenia</string>
+	<string key="Mut_Curse1_Ice_Major_Cast_Tooltip" rel_version="Feature_Dungeon_Mutators_pt3">Po upływie czasu niestabilności wokół gracza zostanie uruchomione przeciążenie.</string>
+	<string key="Mut_Curse1_Ice_Major_Damage_DoT_DisplayName" rel_version="Feature_Dungeon_Mutators_pt3">Przeciążenie</string>
+	<string key="Mut_Curse1_Ice_Major_Damage_DoT_Tooltip" rel_version="Feature_Dungeon_Mutators_pt3">Otrzymujesz obrażenia w wysokości {[Type_StatusEffectData.Mut_Curse1_Ice_Major_Damage_DoT.HealthModifierPercent * -100]}% maksymalnych PZ co sekundę, gdy przebywasz na obszarze zadającym obrażenia.</string>
 	<string key="Mut_Base_Curse4_Minor_Silence_DisplayName" rel_version="Feature_Dungeon_Mutators">Uciszenie</string>
 	<string key="Mut_Base_Curse4_Minor_Silence_ToolTip" rel_version="Feature_Dungeon_Mutators">Nie można korzystać ze zdolności w zasięgu działania efektu.</string>
 	<string key="GhostDisease_DisplayName">Choroba</string>
 	<string key="GhostDisease_Description">Zmniejsza leczenie o {[Type_StatusEffectData.PlaguedGhost_Disease.HealMod * -100]}% na {[Type_StatusEffectData.PlaguedGhost_Disease.BaseDuration]} s. Kumuluje się {[Type_StatusEffectData.PlaguedGhost_Disease.StackMax]} razy.</string>
-	<string key="GhostFrostAura_DisplayName">Zimowa aura</string>
-	<string key="GhostFrostAura_Description">Zmniejsza szybkość ruchu o {[Type_StatusEffectData.FrozenGhost_FrostAura.MoveSpeedMod * -100]}% na {[Type_StatusEffectData.FrozenGhost_FrostAura.BaseDuration]} s.</string>
+	<string key="GhostFrostAura_DisplayName">Mrożące spowolnienie</string>
+	<string key="GhostFrostAura_Description">Zmniejsza szybkość ruchu o {[Type_StatusEffectData.FrozenGhost_FrostAura.MoveSpeedMod * -100]}% na {[Type_StatusEffectData.FrozenGhost_FrostAura.BaseDuration]} s. Zostaje ponownie nałożone, gdy przebywasz w aurze ducha mrozu.</string>
 	<string key="GhostDoom_DisplayName">Opóźnione ogłuszenie</string>
 	<string key="GhostDoom_Description">Ogłuszenie na {[Type_StatusEffectData.ShackledGhost_Doom.BaseDuration]} s.</string>
 	<string key="GhostBurn_DisplayName">Oparzenie</string>
@@ -636,7 +698,11 @@
 	<string key="AI_Stun_4sec_DisplayName">Ogłuszenie</string>
 	<string key="AI_Stun_4sec_Tooltip">Ogłuszenie na {[Type_StatusEffectData.AI_Stun_4sec.BaseDuration]} s.</string>
 	<string key="AI_Stun_6sec_DisplayName">Ogłuszenie</string>
-	<string key="AI_Stun_6sec_Tooltip">Ogłuszenie na {[Type_StatusEffectData.AI_Stun_6sec.BaseDuration]} s.</string>
+	<string key="AI_Stun_10sec_Tooltip">Ogłuszenie na {[Type_StatusEffectData.AI_Stun_10sec.BaseDuration]} s.</string>
+	<string key="AI_Stun_10sec_DisplayName">Ogłuszenie</string>
+	<string key="AI_SulfurBurn_Tooltip">Otrzymujesz {[Type_StatusEffectData.AI_SulfurBurn.HealthModifierPercent * -100]}% periodycznych obrażeń od ognia i {[Type_StatusEffectData.AI_SulfurBurn.ABSStandard * -100]}% więcej obrażeń za każdy skumulowany efekt dowolnego rodzaju przez {[Type_StatusEffectData.AI_SulfurBurn.BaseDuration]} s.</string>
+	<string key="AI_SulfurBurn_DisplayName">Siarkowe oparzenie</string>
+	<string key="AI_Stun_6sec_Tooltip">Otrzymujesz o {[Type_StatusEffectData.AI_Rend.ABSStandard * -100]}% więcej obrażeń każdego rodzaju przez {[Type_StatusEffectData.AI_Rend.BaseDuration]} s.</string>
 	<string key="AI_Rend_DisplayName">Rozdarcie</string>
 	<string key="AI_Rend_Tooltip">Otrzymujesz {[Type_StatusEffectData.AI_Rend.ABSStandard * -100]}% więcej obrażeń każdego rodzaju przez {[Type_StatusEffectData.AI_Rend.BaseDuration]} s.</string>
 	<string key="AI_Weaken_DisplayName">Osłabienie</string>
@@ -649,6 +715,9 @@
 	<string key="TotemDisease_DisplayName">Aura choroby</string>
 	<string key="TotemDisease_Tooltip">Zmniejsza przywracane zdrowie o {[Type_StatusEffectData.TotemDisease.HealMod * -100]}%. Kumuluje się z innymi efektami choroby.</string>
 	<string key="AI_ChainLightning_DisplayName">Łańcuch błyskawic</string>
+	<string key="AI_DryadSiren_Electrified_DisplayName" rel_version="Expedition_CutlassKeys_00">Napięcie</string>
+	<string key="AI_DryadSiren_Erosion_Debuff_DisplayName" rel_version="Expedition_CutlassKeys_00">Erozja</string>
+	<string key="AI_DryadSiren_Erosion_Debuff_Tooltip" rel_version="Expedition_CutlassKeys_00">Otrzymujesz o {[Type_StatusEffectData.AI_DryadSiren_Erosion_Debuff.ABSStandard * -100]}% więcej obrażeń każdego rodzaju przez {[Type_StatusEffectData.AI_DryadSiren_Erosion_Debuff.BaseDuration]} s.</string>
 	<string key="AI_Disease_GraveDigger_DisplayName">Syfon dusz</string>
 	<string key="AI_Disease_GraveDigger_Tooltip">Zadaje obrażenia za {[StatusEffect.AI_Disease_GraveDigger.HealthModifierPercent * -100]}% podstawowego zdrowia i przywraca {[Type_StatusEffectData.Undead_GraveDigger_Siphon.HealthModifierPercent * 100]}% podstawowego zdrowia grabarzowi co {[Type_StatusEffectData.AI_Disease_GraveDigger.TickRate]} s.</string>
 	<string key="AI_Naga_AncientGuardian_Vuln_DisplayName">Arkanistyczne rozdarcie</string>
@@ -678,6 +747,12 @@
 	<string key="AI_IceDryad_Frostfang_Buff_Empower_Tooltip" rel_version="Event_WinterConvergence_Perm">Zwiększa zadawane obrażenia określonego rodzaju przez {[Type_StatusEffectData.Type_StatusEffectData.AI_IceDryad_Frostfang_Buff_Empower.BaseDuration * 100]} s.</string>
 	<string key="AI_IceDryad_Frostfang_Debuff_Weaken_DisplayName" rel_version="Event_WinterConvergence_Perm">Osłabienie</string>
 	<string key="AI_IceDryad_Frostfang_Debuff_Weaken_Tooltip" rel_version="Event_WinterConvergence_Perm">Zmniejsza zadawane obrażenia większości rodzajów przez {[Type_StatusEffectData.AI_IceDryad_Frostfang_Debuff_Weaken.BaseDuration]} s.</string>
+	<string key="AI_AdmiralBrute_Blackpowder_DisplayName" rel_version="Expedition_CutlassKeys_00">Czarny proch</string>
+	<string key="AI_AdmiralBrute_Blackpowder_Tooltip" rel_version="Expedition_CutlassKeys_00">Twoje ciało pokryte jest czarnym prochem. Gdy wróg zada ci obrażenia od ognia, proch się zapali i zostanie na ciebie nałożone podpalenie!</string>
+	<string key="AI_AdmiralBrute_Blackpowder_Burn_DisplayName" rel_version="Expedition_CutlassKeys_00">Podpalenie czarnym prochem</string>
+	<string key="AI_AdmiralBrute_Blackpowder_Burn_Tooltip" rel_version="Expedition_CutlassKeys_00">Podpalenie zadające obrażenia od ognia w wysokości {[Type_StatusEffectData.AI_AdmiralBrute_Blackpowder_Burn.HealthModifierPercent * -100]}% podstawowych obrażeń co {[Type_StatusEffectData.AI_AdmiralBrute_Blackpowder_Burn.TickRate]} s przez {[Type_StatusEffectData.AI_AdmiralBrute_Blackpowder_Burn.BaseDuration]} s.</string>
+	<string key="AI_AdmiralBrute_CannonRain_Targeted_DOT_DisplayName" rel_version="Expedition_CutlassKeys_00">Armatnie podpalenie</string>
+	<string key="AI_AdmiralBrute_CannonRain_Targeted_DOT_Tooltip" rel_version="Expedition_CutlassKeys_00">Nakłada podpalenie zadające {[Type_StatusEffectData.AI_AdmiralBrute_CannonRain_Targeted_DOT.HealthModifierDamageBased * -100]}% podstawowych obrażeń od ognia co {[Type_StatusEffectData.AI_AdmiralBrute_CannonRain_Targeted_DOT.TickRate]} s.</string>
 	<string key="godModeThirst_DisplayName">Tryb boga</string>
 	<string key="godModeHealth_DisplayName">Tryb boga</string>
 	<string key="godModeAll_DisplayName">Tryb boga</string>
@@ -1158,37 +1233,10 @@
 	<string key="Rapier_Evasion_Effect_Mod3_DisplayName">Wybieg3</string>
 	<string key="Rapier_Evasion_Effect_Mod3_Description">Wybieg3</string>
 	<string key="BlockBreakerDebuffPerk_DisplayName">Wyczerpanie</string>
-	<string key="BlockBreakerDebuffPerk1_Description">Zmniejsza szybkość regeneracji wytrzymałości o {[Type_StatusEffectData.BlockBreakerDebuffPerk1.StaminaRate * -100]}% na {[Type_StatusEffectData.BlockBreakerDebuffPerk1.BaseDuration]} s.</string>
-	<string key="BlockBreakerDebuffPerk2_Description">Zmniejsza szybkość regeneracji wytrzymałości o {[Type_StatusEffectData.BlockBreakerDebuffPerk2.StaminaRate * -100]}% na {[Type_StatusEffectData.BlockBreakerDebuffPerk2.BaseDuration]} s.</string>
-	<string key="BlockBreakerDebuffPerk3_Description">Zmniejsza szybkość regeneracji wytrzymałości o {[Type_StatusEffectData.BlockBreakerDebuffPerk3.StaminaRate * -100]}% na {[Type_StatusEffectData.BlockBreakerDebuffPerk3.BaseDuration]} s.</string>
-	<string key="PowerShotRendPerk_DisplayName">Rozdarcie</string>
-	<string key="PowerShotRendPerk1_Description">Otrzymujesz {[Type_StatusEffectData.PowerShotRendPerk1.ABSStrike * 100]}% więcej obrażeń każdego rodzaju przez {[Type_StatusEffectData.PowerShotRendPerk1.BaseDuration]} s.</string>
-	<string key="PowerShotRendPerk2_Description">Otrzymujesz {[Type_StatusEffectData.PowerShotRendPerk2.ABSStrike * 100]}% więcej obrażeń każdego rodzaju przez {[Type_StatusEffectData.PowerShotRendPerk2.BaseDuration]} s.</string>
-	<string key="PowerShotRendPerk3_Description">Otrzymujesz {[Type_StatusEffectData.PowerShotRendPerk3.ABSStrike * 100]}% więcej obrażeń każdego rodzaju przez {[Type_StatusEffectData.PowerShotRendPerk3.BaseDuration]} s.</string>
-	<string key="JumpBackShotSpeedPerk_DisplayName">Zwinne kroki</string>
-	<string key="JumpBackShotSpeedPerk1_Description">Zwiększa szybkość ruchu o {[Type_StatusEffectData.JumpBackShotSpeedPerk1.SprintSpeedMod * 100]}% na {[Type_StatusEffectData.JumpBackShotSpeedPerk1.BaseDuration]} s.</string>
-	<string key="JumpBackShotSpeedPerk2_Description">Zwiększa szybkość ruchu o {[Type_StatusEffectData.JumpBackShotSpeedPerk2.SprintSpeedMod * 100]}% na {[Type_StatusEffectData.JumpBackShotSpeedPerk2.BaseDuration]} s.</string>
-	<string key="JumpBackShotSpeedPerk3_Description">Zwiększa szybkość ruchu o {[Type_StatusEffectData.JumpBackShotSpeedPerk3.SprintSpeedMod * 100]}% na {[Type_StatusEffectData.JumpBackShotSpeedPerk3.BaseDuration]} s.</string>
-	<string key="TrapSpeedPerk_DisplayName">Pobudzenie</string>
-	<string key="TrapSpeedPerk1_Description">Zwiększa szybkość ruchu o {[Type_StatusEffectData.TrapSpeedPerk1.SprintSpeedMod * 100]}% na {[Type_StatusEffectData.TrapSpeedPerk1.BaseDuration]} s.</string>
-	<string key="TrapSpeedPerk2_Description">Zwiększa szybkość ruchu o {[Type_StatusEffectData.TrapSpeedPerk2.SprintSpeedMod * 100]}% na {[Type_StatusEffectData.TrapSpeedPerk2.BaseDuration]} s.</string>
-	<string key="TrapSpeedPerk3_Description">Zwiększa szybkość ruchu o {[Type_StatusEffectData.TrapSpeedPerk3.SprintSpeedMod * 100]}% na {[Type_StatusEffectData.TrapSpeedPerk3.BaseDuration]} s.</string>
-	<string key="SpreadShotRootPerk_DisplayName">Uziemienie</string>
-	<string key="SpreadShotRootPerk1_Description">Uziemienie i brak możliwości ruchu przez {[Type_StatusEffectData.SpreadShotRootPerk1.BaseDuration]} s.</string>
-	<string key="SpreadShotRootPerk2_Description">Uziemienie i brak możliwości ruchu przez {[Type_StatusEffectData.SpreadShotRootPerk2.BaseDuration]} s.</string>
-	<string key="SpreadShotRootPerk3_Description">Uziemienie i brak możliwości ruchu przez {[Type_StatusEffectData.SpreadShotRootPerk3.BaseDuration]} s.</string>
 	<string key="BlockSpeedPerk1_Description">Zwiększa szybkość ruchu o {[Type_StatusEffectData.BlockSpeedPerk1.MoveSpeedMod * 100]}%.</string>
 	<string key="BlockSpeedPerk2_Description">Zwiększa szybkość ruchu o {[Type_StatusEffectData.BlockSpeedPerk2.MoveSpeedMod * 100]}%.</string>
 	<string key="BlockSpeedPerk3_Description">Zwiększa szybkość ruchu o {[Type_StatusEffectData.BlockSpeedPerk3.MoveSpeedMod * 100]}%.</string>
-	<string key="DodgeLowerThreatPerk_DisplayName">Unikanie</string>
-	<string key="DodgeLowerThreatPerk_Description">Tymczasowo zmniejsza zadawane przez ciebie obrażenia generujące zagrożenie.</string>
-	<string key="DodgeIncreaseThreatPerk_DisplayName">Śmiałość</string>
-	<string key="DodgeIncreaseThreatPerk_Description">Tymczasowo zwiększa zadawane przez ciebie obrażenia generujące zagrożenie.</string>
 	<string key="Status_Ability_Riposte">Riposta</string>
-	<string key="RiposteRendPerk_DisplayName">Rozdarcie</string>
-	<string key="RiposteRendPerk1_Description">Otrzymujesz {[Type_StatusEffectData.RiposteRendPerk1.ABSStrike * 100]}% więcej obrażeń każdego rodzaju przez {[Type_StatusEffectData.RiposteRendPerk1.BaseDuration]} s.</string>
-	<string key="RiposteRendPerk2_Description">Otrzymujesz {[Type_StatusEffectData.RiposteRendPerk2.ABSStrike * 100]}% więcej obrażeń każdego rodzaju przez {[Type_StatusEffectData.RiposteRendPerk2.BaseDuration]} s.</string>
-	<string key="RiposteRendPerk3_Description">Otrzymujesz {[Type_StatusEffectData.RiposteRendPerk3.ABSStrike * 100]}% więcej obrażeń każdego rodzaju przez {[Type_StatusEffectData.RiposteRendPerk3.BaseDuration]} s.</string>
 	<string key="OR_Boss_Buff">Upiorna potęga</string>
 	<string key="OR_Boss_Buff_Description">+{[Type_StatusEffectData.OutpostRush_Boss_Buff.ABSStandard * 100]}% do pochłaniania obrażeń i +{[Type_StatusEffectData.OutpostRush_Boss_Buff.Health * 4]} do regeneracji zdrowia na sekundę.</string>
 	<string key="Status_Empower">Nasączenie mocą</string>
@@ -1391,6 +1439,8 @@
 	<string key="Status_Perk_Weapon_OnKillFortify_Timer_description">Gdy czas upłynie, będzie można ponownie skorzystać z profitu zapewniającego umocnienie po zabójstwie.</string>
 	<string key="Status_Perk_Weapon_OnKillEmpower_Timer_Description">Gdy czas upłynie, będzie można ponownie skorzystać z profitu zapewniającego nasączenie mocą po zabójstwie.</string>
 	<string key="Status_Perk_Weapon_OnKillCDR_Timer_Description">Gdy czas upłynie, będzie można ponownie skorzystać z profitu skracającego czas odnowienia po zabójstwie.</string>
+	<string key="DodgeLowerThreatPerk_DisplayName">Unikanie</string>
+	<string key="DodgeLowerThreatPerk_Description">Generowanie zagrożenia jest obecnie zmniejszone o {[GlobalAbilityTable.Global_Earring_ThreatSubOnDodge.ThreatDamage * -100 * {perkMultiplier}]}%.</string>
 	<string key="Dungeon_ArcaneBarrierProtection">Osłona przed arkanami</string>
 	<string key="Dungeon_ArcaneBarrierProtection_Description">Osłona chroniąca cię przed obrażeniami arkanistycznymi.</string>
 	<string key="Dungeon_AzothWaterCleanse">Oczyszczenie</string>
@@ -1399,6 +1449,10 @@
 	<string key="Status_Passive_Foc_300_Bonus_Timer">Licznik czasu odnowienia premii do regeneracji many za 300 skupienia.</string>
 	<string key="Dungeon_PurifyingFlame">Oczyszczający płomień</string>
 	<string key="Dungeon_PurifyingFlame_Description">Usuwa stężoną zarazę</string>
+	<string key="Dungeon_CursedTreasure_DisplayName" rel_version="Expedition_CutlassKeys_00">Przeklęty skarb</string>
+	<string key="Dungeon_CursedTreasure_Description" rel_version="Expedition_CutlassKeys_00">Przeklęty skarb zmniejsza twoją szybkość ruchu i okresowo zadaje ci obrażenia.</string>
+	<string key="Dungeon_SirenOffering_DisplayName" rel_version="Expedition_CutlassKeys_00">Ofiara dla nereidy</string>
+	<string key="Dungeon_SirenOffering_Description" rel_version="Expedition_CutlassKeys_00">Złóż tę ofiarę w jednym z pobliskich pustych źródeł.</string>
 	<string key="Immune_To_Damage">Niewrażliwość</string>
 	<string key="TauntAI_DisplayName">Prowokacja</string>
 	<string key="Block_Broken_DisplayName">Blok przełamany</string>
@@ -1439,7 +1493,7 @@
 	<string key="Blunderbuss_AbilityRamp_Name" rel_version="Weapon_Blunderbuss">Na fali</string>
 	<string key="Blunderbuss_AbilityRamp_Desc" rel_version="Weapon_Blunderbuss">Zmniejsza wszystkie otrzymywane obrażenia o {[Type_StatusEffectData.Blunderbuss_AbilityRamp.ABSStandard * 100]}%. Efekt kumuluje się do {[Type_StatusEffectData.Blunderbuss_AbilityRamp.StackMax]} razy.</string>
 	<string key="Blunderbuss_Nine_Name" rel_version="Weapon_Blunderbuss">Rozładowanie</string>
-	<string key="Blunderbuss_Nine_Desc" rel_version="Weapon_Blunderbuss">Następny atak podstawowy wystrzeliwuje 9 pocisków.</string>
+	<string key="Blunderbuss_Nine_Desc" rel_version="Weapon_Blunderbuss">Następny atak podstawowy wystrzeliwuje dodatkowe śruciny.</string>
 	<string key="Blunderbuss_Ramp_Name" rel_version="Weapon_Blunderbuss">Podbicie</string>
 	<string key="Blunderbuss_Ramp_Desc" rel_version="Weapon_Blunderbuss">Zwiększa obrażenia o 4%.</string>
 	<string key="Blunderbuss_LastChance_Name" rel_version="Weapon_Blunderbuss">Ostatnia szansa</string>
@@ -1474,11 +1528,61 @@
 	<string key="Status_DodgeStamina_Timer_Description" rel_version="MorePerksV2">Gdy czas upłynie, będzie można znów użyć wykrętnej energii.</string>
 	<string key="Status_GatherProc_Heal" rel_version="MorePerksV2">Zbierackie leczenie</string>
 	<string key="Status_GatherProc_Heal_Description" rel_version="MorePerksV2">Profit "Zbieracka odnowa" przywraca ci zdrowie.</string>
+	<string key="Status_MothersLove" rel_version="Housing_MothersLove_Memorial">Matczyna miłość</string>
+	<string key="Status_MothersLove_Description" rel_version="Housing_MothersLove_Memorial">Czujesz obecność matki, która otacza cię opieką, zwiększając twoje szczęście o {[Type_StatusEffectData.Shrine_MothersLove.GlobalRollMod * 0.01]}% na {[Type_StatusEffectData.Shrine_MothersLove.BaseDuration / 60]} min.</string>
 	<string key="Dungeon_RelicBubble" rel_version="Expedition_ShatterMtn_00">Relikwiarz</string>
 	<string key="Dungeon_RelicBubble_Description" rel_version="Expedition_ShatterMtn_00">Tworzy wokół ciebie ochronną bańkę, która leczy sojuszników i zadaje obrażenia wrogom.</string>
 	<string key="Status_CleanseBuffs_Crits_Timer_Description" rel_version="PvP_Rewards_Track">Gdy czas upłynie, będzie można znów użyć oczyszczających krytyków.</string>
 	<string key="Status_EmpowerTilDeath" rel_version="PvP_Rewards_Track">Śmiertelne nasączenie mocą</string>
 	<string key="Status_EmpowerTilDeath_Description" rel_version="PvP_Rewards_Track">Zwiększa obrażenia o {[Type_StatusEffectData.Status_PvP_Perk_OnKill_EmpowerTilDeath.DMGStandard * 100]}% za każdy efekt śmiertelnego nasączenia mocą, który na ciebie działa.</string>
+	<string key="MusicBuff_PlayerEncumbrance_Amazing_DisplayName" rel_version="Feature_MusicalPerformances">Śpiewny krok IV</string>
+	<string key="MusicBuff_PlayerEncumbrance_Amazing_Description" rel_version="Feature_MusicalPerformances">Zwiększa maksymalne obciążenie o {[Type_StatusEffectData.MusicBuff_PlayerEncumbrance_T4_Amazing.Encumbrance / 10]} na {[Type_StatusEffectData.MusicBuff_PlayerEncumbrance_T4_Amazing.BaseDuration / 60]} min od występu muzycznego.</string>
+	<string key="MusicBuff_PlayerEncumbrance_Great_DisplayName" rel_version="Feature_MusicalPerformances">Śpiewny krok III</string>
+	<string key="MusicBuff_PlayerEncumbrance_Great_Description" rel_version="Feature_MusicalPerformances">Zwiększa maksymalne obciążenie o {[Type_StatusEffectData.MusicBuff_PlayerEncumbrance_T3_Great.Encumbrance / 10]} na {[Type_StatusEffectData.MusicBuff_PlayerEncumbrance_T3_Great.BaseDuration / 60]} min od występu muzycznego.</string>
+	<string key="MusicBuff_PlayerEncumbrance_Okay_DisplayName" rel_version="Feature_MusicalPerformances">Śpiewny krok II</string>
+	<string key="MusicBuff_PlayerEncumbrance_Okay_Description" rel_version="Feature_MusicalPerformances">Zwiększa maksymalne obciążenie o {[Type_StatusEffectData.MusicBuff_PlayerEncumbrance_T2_Okay.Encumbrance / 10]} na {[Type_StatusEffectData.MusicBuff_PlayerEncumbrance_T2_Okay.BaseDuration / 60]} min od występu muzycznego.</string>
+	<string key="MusicBuff_PlayerEncumbrance_Bad_DisplayName" rel_version="Feature_MusicalPerformances">Śpiewny krok I</string>
+	<string key="MusicBuff_PlayerEncumbrance_Bad_Description" rel_version="Feature_MusicalPerformances">Zwiększa maksymalne obciążenie o {[Type_StatusEffectData.MusicBuff_PlayerEncumbrance_T1_Bad.Encumbrance / 10]} na {[Type_StatusEffectData.MusicBuff_PlayerEncumbrance_T1_Bad.BaseDuration]} s od występu muzycznego.</string>
+	<string key="MusicBuff_GatheringYield_Amazing_DisplayName" rel_version="Feature_MusicalPerformances">Motywacja do pracy IV</string>
+	<string key="MusicBuff_GatheringYield_Amazing_Description" rel_version="Feature_MusicalPerformances">Zwiększa uzysk podczas zbierania o {[Type_StatusEffectData.MusicBuff_GatheringYield_T4_Amazing.MULTLogging * 100]}% na {[Type_StatusEffectData.MusicBuff_GatheringYield_T4_Amazing.BaseDuration / 60]} min od występu muzycznego</string>
+	<string key="MusicBuff_GatheringYield_Great_DisplayName" rel_version="Feature_MusicalPerformances">Motywacja do pracy III</string>
+	<string key="MusicBuff_GatheringYield_Great_Description" rel_version="Feature_MusicalPerformances">Zwiększa uzysk podczas zbierania o {[Type_StatusEffectData.MusicBuff_GatheringYield_T3_Great.MULTLogging * 100]}% na {[Type_StatusEffectData.MusicBuff_GatheringYield_T3_Great.BaseDuration / 60]} min od występu muzycznego</string>
+	<string key="MusicBuff_GatheringYield_Okay_DisplayName" rel_version="Feature_MusicalPerformances">Motywacja do pracy II</string>
+	<string key="MusicBuff_GatheringYield_Okay_Description" rel_version="Feature_MusicalPerformances">Zwiększa uzysk podczas zbierania o {[Type_StatusEffectData.MusicBuff_GatheringYield_T2_Okay.MULTLogging * 100]}% na {[Type_StatusEffectData.MusicBuff_GatheringYield_T2_Okay.BaseDuration / 60]} min od występu muzycznego</string>
+	<string key="MusicBuff_GatheringYield_Bad_DisplayName" rel_version="Feature_MusicalPerformances">Motywacja do pracy I</string>
+	<string key="MusicBuff_GatheringYield_Bad_Description" rel_version="Feature_MusicalPerformances">Zwiększa uzysk podczas zbierania o {[Type_StatusEffectData.MusicBuff_GatheringYield_T1 _Bad.MULTLogging * 100]}% na {[Type_StatusEffectData.MusicBuff_GatheringYield_T1_Bad.BaseDuration / 60]} min od występu muzycznego</string>
+	<string key="MusicBuff_GatheringSpeed_Amazing_DisplayName" rel_version="Feature_MusicalPerformances">Melodyjna zręczność IV</string>
+	<string key="MusicBuff_GatheringSpeed_Amazing_Description" rel_version="Feature_MusicalPerformances">Zwiększa bazową szybkość zbierania o {[Type_StatusEffectData.MusicBuff_GatheringSpeed_T4_Amazing.EFFLogging * 100]}% na {[Type_StatusEffectData.MusicBuff_GatheringSpeed_T4_Amazing.BaseDuration / 60]} min od występu muzycznego</string>
+	<string key="MusicBuff_GatheringSpeed_Great_DisplayName" rel_version="Feature_MusicalPerformances">Melodyjna zręczność III</string>
+	<string key="MusicBuff_GatheringSpeed_Great_Description" rel_version="Feature_MusicalPerformances">Zwiększa bazową szybkość zbierania o {[Type_StatusEffectData.MusicBuff_GatheringSpeed_T3_Great.EFFLogging * 100]}% na {[Type_StatusEffectData.MusicBuff_GatheringSpeed_T3_Great.BaseDuration / 60]} min od występu muzycznego</string>
+	<string key="MusicBuff_GatheringSpeed_Okay_DisplayName" rel_version="Feature_MusicalPerformances">Melodyjna zręczność II</string>
+	<string key="MusicBuff_GatheringSpeed_Okay_Description" rel_version="Feature_MusicalPerformances">Zwiększa bazową szybkość zbierania o {[Type_StatusEffectData.MusicBuff_GatheringSpeed_T2_Okay.EFFLogging * 100]}% na {[Type_StatusEffectData.MusicBuff_GatheringSpeed_T2_Okay.BaseDuration / 60]} min od występu muzycznego</string>
+	<string key="MusicBuff_GatheringSpeed_Bad_DisplayName" rel_version="Feature_MusicalPerformances">Melodyjna zręczność I</string>
+	<string key="MusicBuff_GatheringSpeed_Bad_Description" rel_version="Feature_MusicalPerformances">Zwiększa bazową szybkość zbierania o {[Type_StatusEffectData.MusicBuff_GatheringSpeed_T1_Bad.EFFLogging * 100]}% na {[Type_StatusEffectData.MusicBuff_GatheringSpeed_T1_Bad.BaseDuration / 60]} min od występu muzycznego</string>
+	<string key="MusicBuff_GatheringLuck_Amazing_DisplayName" rel_version="Feature_MusicalPerformances">Motywacja do pracy IV</string>
+	<string key="MusicBuff_GatheringLuck_Amazing_Description" rel_version="Feature_MusicalPerformances">Zwiększa szczęście podczas zbierania o {[Type_StatusEffectData.MusicBuff_GatheringLuck_T4_Amazing.ROLLogging / 100]}% na {[Type_StatusEffectData.MusicBuff_GatheringLuck_T4_Amazing.BaseDuration / 60]} min od występu muzycznego.</string>
+	<string key="MusicBuff_GatheringLuck_Great_DisplayName" rel_version="Feature_MusicalPerformances">Motywacja do pracy III</string>
+	<string key="MusicBuff_GatheringLuck_Great_Description" rel_version="Feature_MusicalPerformances">Zwiększa szczęście podczas zbierania o {[Type_StatusEffectData.MusicBuff_GatheringLuck_T3_Great.ROLLogging / 100]}% na {[Type_StatusEffectData.MusicBuff_GatheringLuck_T3_Great.BaseDuration / 60]} min od występu muzycznego.</string>
+	<string key="MusicBuff_GatheringLuck_Okay_DisplayName" rel_version="Feature_MusicalPerformances">Motywacja do pracy II</string>
+	<string key="MusicBuff_GatheringLuck_Okay_Description" rel_version="Feature_MusicalPerformances">Zwiększa szczęście podczas zbierania o {[Type_StatusEffectData.MusicBuff_GatheringLuck_T2_Okay.ROLLogging / 100]}% na {[Type_StatusEffectData.MusicBuff_GatheringLuck_T2_Okay.BaseDuration / 60]} min od występu muzycznego.</string>
+	<string key="MusicBuff_GatheringLuck_Bad_DisplayName" rel_version="Feature_MusicalPerformances">Motywacja do pracy I</string>
+	<string key="MusicBuff_GatheringLuck_Bad_Description" rel_version="Feature_MusicalPerformances">Zwiększa szczęście podczas zbierania o {[Type_StatusEffectData.MusicBuff_GatheringLuck_T1_Bad.ROLLogging / 100]}% na {[Type_StatusEffectData.MusicBuff_GatheringLuck_T1_Bad.BaseDuration / 60]} min od występu muzycznego.</string>
+	<string key="MusicBuff_GroupXPSharing_Amazing_DisplayName" rel_version="Feature_MusicalPerformances">Wszyscy razem IV</string>
+	<string key="MusicBuff_GroupXPSharing_Amazing_Description" rel_version="Feature_MusicalPerformances">Zwiększa liczbę PD zdobywanych za działania na rzecz grupy o {[Type_StatusEffectData.MusicBuff_GroupXPSharing_T4_Amazing.XPIncreasesTooltip * 100]}% na {[Type_StatusEffectData.MusicBuff_GroupXPSharing_T4_Amazing.BaseDuration / 60]} min od występu muzycznego.</string>
+	<string key="MusicBuff_GroupXPSharing_Great_DisplayName" rel_version="Feature_MusicalPerformances">Wszyscy razem III</string>
+	<string key="MusicBuff_GroupXPSharing_Great_Description" rel_version="Feature_MusicalPerformances">Zwiększa liczbę PD zdobywanych za działania na rzecz grupy o {[Type_StatusEffectData.MusicBuff_GroupXPSharing_T3_Great.XPIncreasesTooltip * 100]}% na {[Type_StatusEffectData.MusicBuff_GroupXPSharing_T3_Great.BaseDuration / 60]} min od występu muzycznego.</string>
+	<string key="MusicBuff_GroupXPSharing_Okay_DisplayName" rel_version="Feature_MusicalPerformances">Wszyscy razem II</string>
+	<string key="MusicBuff_GroupXPSharing_Okay_Description" rel_version="Feature_MusicalPerformances">Zwiększa liczbę PD zdobywanych za działania na rzecz grupy o {[Type_StatusEffectData.MusicBuff_GroupXPSharing_T2_Okay.XPIncreasesTooltip * 100]}% na {[Type_StatusEffectData.MusicBuff_GroupXPSharing_T2_Okay.BaseDuration / 60]} min od występu muzycznego.</string>
+	<string key="MusicBuff_GroupXPSharing_Bad_DisplayName" rel_version="Feature_MusicalPerformances">Wszyscy razem I</string>
+	<string key="MusicBuff_GroupXPSharing_Bad_Description" rel_version="Feature_MusicalPerformances">Zwiększa liczbę PD zdobywanych za działania na rzecz grupy o {[Type_StatusEffectData.MusicBuff_GroupXPSharing_T1_Bad.XPIncreasesTooltip * 100]}% na {[Type_StatusEffectData.MusicBuff_GroupXPSharing_T1_Bad.BaseDuration / 60]} min od występu muzycznego.</string>
+	<string key="MusicBuff_TerritoryStanding_Amazing_DisplayName" rel_version="Feature_MusicalPerformances">Triumf terytorialny IV</string>
+	<string key="MusicBuff_TerritoryStanding_Amazing_Description" rel_version="Feature_MusicalPerformances">Zwiększa przyrost rangi terytorium o {[Type_StatusEffectData.MusicBuff_TerritoryStanding_T4_Amazing.TerritoryStandingMod * 100]}% na {[Type_StatusEffectData.MusicBuff_TerritoryStanding_T4_Amazing.BaseDuration / 60]} min od występu muzycznego.</string>
+	<string key="MusicBuff_TerritoryStanding_Great_DisplayName" rel_version="Feature_MusicalPerformances">Triumf terytorialny III</string>
+	<string key="MusicBuff_TerritoryStanding_Great_Description" rel_version="Feature_MusicalPerformances">Zwiększa przyrost rangi terytorium o {[Type_StatusEffectData.MusicBuff_TerritoryStanding_T3_Great.TerritoryStandingMod * 100]}% na {[Type_StatusEffectData.MusicBuff_TerritoryStanding_T3_Great.BaseDuration / 60]} min od występu muzycznego.</string>
+	<string key="MusicBuff_TerritoryStanding_Okay_DisplayName" rel_version="Feature_MusicalPerformances">Triumf terytorialny II</string>
+	<string key="MusicBuff_TerritoryStanding_Okay_Description" rel_version="Feature_MusicalPerformances">Zwiększa przyrost rangi terytorium o {[Type_StatusEffectData.MusicBuff_TerritoryStanding_T2_Okay.TerritoryStandingMod * 100]}% na {[Type_StatusEffectData.MusicBuff_TerritoryStanding_T2_Okay.BaseDuration / 60]} min od występu muzycznego.</string>
+	<string key="MusicBuff_TerritoryStanding_Bad_DisplayName" rel_version="Feature_MusicalPerformances">Triumf terytorialny I</string>
+	<string key="MusicBuff_TerritoryStanding_Bad_Description" rel_version="Feature_MusicalPerformances">Zwiększa przyrost rangi terytorium o {[Type_StatusEffectData.MusicBuff_TerritoryStanding_T1_Bad.TerritoryStandingMod * 100]}% na {[Type_StatusEffectData.MusicBuff_TerritoryStanding_T1_Bad.BaseDuration / 60]} min od występu muzycznego.</string>
 	<string key="PvPArena_GrandPotionRegen_DisplayName">Pierwszorzędna regeneracja zdrowia</string>
 	<string key="PvPArena_GrandPotionRegen_Tooltip">Przez pewien czas regeneruje znaczną ilość zdrowia i many.</string>
 	<string key="PvPArena_GrandPotionFocus_DisplayName">Pierwszorzędna regeneracja many</string>
@@ -1502,5 +1606,9 @@
 	<string key="PvPArena_FoodFOCT3_Tooltip">Zwiększa skupienie o 20 punktów cech. Ten efekt przestanie działać, gdy opuścisz arenę.</string>
 	<string key="PvPArena_FoodFOCT4_Tooltip">Zwiększa skupienie o 30 punktów cech. Ten efekt przestanie działać, gdy opuścisz arenę.</string>
 	<string key="PvPArena_FoodFOCT5_Tooltip">Zwiększa skupienie o 40 punktów cech. Ten efekt przestanie działać, gdy opuścisz arenę.</string>
+	<string key="Status_Beacon_Description">Zwiększa szansę na trafienie krytyczne o {[Type_StatusEffectData.Status_Perk_LifeStaff_Beacon_HealMod.CritChanceModifier * 100 * {perkMultiplier}]}%.</string>
+	<string key="Status_Beacon_Name">Okrucieństwo</string>
+	<string key="StatusTestCrafting_DisplayName">TestCrafting</string>
+	<string key="StatusTestCrafting_Description">Testowa premia symulująca wytwarzanie ubrań, kolczyków, premii stylu życia, trofeów i żywności</string>
 </resources>
 

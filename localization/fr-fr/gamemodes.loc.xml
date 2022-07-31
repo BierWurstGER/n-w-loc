@@ -5,11 +5,12 @@
 	<string key="ui_queue_leave_group">Quitter le groupe</string>
 	<string key="ui_queue_leave_group_confirm_title">Quitter le groupe</string>
 	<string key="ui_queue_leave_group_confirm_message">Si la taille du groupe est inférieure à {minGroupSize} membres, le groupe sera retiré de la file d'attente.\n\nConfirmer ?</string>
+	<string key="ui_queue_leave_notification_generic">Vous avez été retiré(e) de la file d'attente de votre mode de jeu.</string>
 	<string key="ui_queue_ready">F2 pour entrer dans l'expédition</string>
 	<string key="ui_game_mode_matchmaking_failed">Une erreur de matchmaking inattendue s'est produite.</string>
 	<string key="ui_game_mode_disabled">Ce mode de jeu est actuellement désactivé.</string>
-	<string key="ui_dungeon_enter_info">Au moins une personne doit entrer dans l'expédition pour la maintenir ouverte. Voulez-vous vous téléporter à l'intérieur ?</string>
-	<string key="ui_dungeon_enter_info_entered">L'expédition est ouverte !\nVoulez-vous vous y téléporter ?</string>
+	<string key="ui_dungeon_enter_info">&lt;font color={color}&gt;Une personne au moins&lt;/font&gt; doit entrer pour que l'expédition reste ouverte. Voulez-vous vous téléporter à l'intérieur ?</string>
+	<string key="ui_dungeon_enter_info_entered">L'expédition est ouverte !\n&lt;font color={color}&gt;Voulez-vous vous y téléporter ?&lt;/font&gt;</string>
 	<string key="ui_duel_player">Défier le joueur</string>
 	<string key="ui_duel_failmessage_invalidname">{playerName} n'est pas un nom de joueur valide.</string>
 	<string key="ui_duel_failmessage_outofrange">Impossible de défier à une escarmouche un joueur qui se trouve à plus de {distance} mètres.</string>
@@ -102,7 +103,7 @@
 	<string key="ui_outpost_rush_signup_faildungeon">Vous ne pouvez pas vous inscrire car vous êtes déjà dans la file d'attente d'une expédition.</string>
 	<string key="ui_outpost_rush_signup_failevent">Vous ne pouvez pas vous inscrire car vous êtes actuellement dans un événement.</string>
 	<string key="ui_outpost_rush_signup_failgeneric">Vous ne pouvez pas vous inscrire maintenant.</string>
-	<string key="ui_outpost_rush_signup_failgrouptitle">Impossible de rejoindre la Déferlante</string>
+	<string key="ui_outpost_rush_signup_failgrouptitle">Impossible de rejoindre</string>
 	<string key="ui_outpost_rush_signup_failgrouplevel">Tous les membres du groupe doivent avoir atteint le niveau {levelRequirement}.</string>
 	<string key="ui_outpost_rush_signup_failgroupwar">Un ou plusieurs membres de votre groupe participent déjà à une guerre à venir dans l'heure.</string>
 	<string key="ui_outpost_rush_signup_failgroupqueue">Un ou plusieurs membres de votre groupe participent déjà à un autre évènement.</string>
@@ -110,6 +111,7 @@
 	<string key="ui_outpost_rush_signup_failgroupoffline">Un ou plusieurs membres de votre groupe sont hors ligne.</string>
 	<string key="ui_outpost_rush_signup_failgrouppenalty">Un ou plusieurs membres de votre groupe sont sous le coup d'une pénalité de temps après avoir quitté une autre Déferlante.</string>
 	<string key="ui_outpost_rush_signup_failgrouptimeout">Un ou plusieurs membres de votre groupe n'ont pas répondu à l'invitation.</string>
+	<string key="ui_outpost_rush_signup_failgroupfinder">Un ou plusieurs membres de votre groupe sont dans un salon.</string>
 	<string key="ui_outpost_rush_signup_failpenalty">Une pénalité s'applique car vous avez quitté un match en cours.</string>
 	<string key="ui_outpost_rush_signup_penaltytimer">Durée de la pénalité : {time}</string>
 	<string key="ui_outpost_rush_signup_joingroup_desc">Vous ne pourrez plus ajouter de membres à votre groupe une fois celui-ci dans la file d'attente.</string>
@@ -232,6 +234,8 @@
 	<string key="ui_begins_in">Commence dans :</string>
 	<string key="ui_arena_gas_releases_in" comment="gas was replaced with ring of fire in implementation">L'anneau de feu se ferme dans :</string>
 	<string key="ui_arena_gas_released">Fermeture de l'anneau de feu</string>
+	<string key="ui_pvp_arena_invite_status">Acceptez de rejoindre le combat !</string>
+	<string key="ui_pvp_arena_title">Arène 3 contre 3</string>
 	<string key="ui_fight">Aux armes !</string>
 	<string key="ui_round_won">Manche gagnée</string>
 	<string key="ui_round_lost">Manche perdue</string>

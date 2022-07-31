@@ -90,7 +90,8 @@
 	<string key="ui_transfer_requirement_not_have_active_orders" rel_version="Feature_MTX">Vous ne pouvez pas avoir d'ordres d'achat ou de vente actifs au comptoir avant de procéder au transfert.</string>
 	<string key="ui_transfer_requirement_minimum_level" rel_version="Feature_MTX">Vous devez au moins avoir atteint le niveau {level} pour effectuer un transfert.</string>
 	<string key="ui_transfer_requirement_no_houses" rel_version="Feature_MTX">Vous ne devez pas posséder de maison pour pouvoir effectuer un transfert.</string>
-	<string key="ui_transfer_requirement_cooldown" rel_version="Feature_MTX">Vous devez attendre la fin du temps de recharge avant de pouvoir de nouveau effectuer un transfert vers une nouvelle région.</string>
+	<string key="ui_transfer_requirement_cooldown" rel_version="Feature_MTX">Vous devez attendre la fin du temps de recharge avant de pouvoir effectuer un nouveau transfert vers un autre monde ou une autre région.</string>
+	<string key="ui_transfer_requirement_cooldown_prefix" rel_version="Feature_MTX">&lt;img src="LyShineUI/Images/Icons/Misc/icon_hourglass_yellow.png" xPadding="0" scale="1.1" yOffset="1"&gt;&lt;/img&gt;</string>
 	<string key="ui_item_restrictions" rel_version="Feature_MTX">Restrictions d'objets</string>
 	<string key="ui_item_restrictions_item_skins" rel_version="Feature_MTX">Les &lt;font face="lyshineui/fonts/nimbus_bold_italic.font" &gt;apparences&lt;/font&gt; doivent être équipées sur un objet de base pour être visibles. Les &lt;font face="lyshineui/fonts/nimbus_bold_italic.font" &gt;apparences&lt;/font&gt; ne peuvent pas être teintes.</string>
 	<string key="ui_item_restrictions_crests" rel_version="Feature_MTX">Seul le gouverneur (créateur) de la compagnie peut utiliser les &lt;font face="lyshineui/fonts/nimbus_bold_italic.font" &gt;armoiries de compagnie&lt;/font&gt;.</string>
@@ -122,7 +123,9 @@
 	<string key="ui_disabled_default_description" rel_version="Feature_MTX">Ce contenu est actuellement indisponible.</string>
 	<string key="ui_disabled_freeplayer_description" rel_version="Feature_MTX">Achetez New World pour pouvoir accéder à la boutique.</string>
 	<string key="ui_preview_emote">Prévisualiser l'émote</string>
+	<string key="ui_preview_skin">Prévisualiser l'apparence</string>
 	<string key="ui_end_preview">Terminer la prévisualisation</string>
+	<string key="ui_preview_item_withname">Aperçu : {itemName}</string>
 	<string key="ui_limited_time">&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;Durée limitée&lt;/font&gt;</string>
 	<string key="ui_release_date">Date de sortie</string>
 	<string key="ui_price">Prix</string>
@@ -136,6 +139,7 @@
 	<string key="ui_skin_applied">Apparence appliquée à l'objet</string>
 	<string key="ui_skins_applied">Apparence appliquée aux objets</string>
 	<string key="ui_purchase_skin">Parcourir les apparences</string>
+	<string key="ui_shop_tier">PALIER &lt;font face="lyshineui/fonts/Pica_Italic.font"&gt;&lt;font color="#ffffff"&gt;{number}&lt;/font&gt;&lt;/font&gt;</string>
 	<string key="ui_mtx_coming_soon">Bientôt disponible !</string>
 	<string key="ui_button_disabled_dead">Impossible d'effectuer cette action pendant votre mort.</string>
 	<string key="url_refundpolicy_US" comment="This does not need to be translated. It will be the same in all languages so that we can use the right region regardless of language set.">https://www.amazongames.com/en-us/support/new-world/articles/amazon-games-refund-policy</string>
@@ -159,6 +163,7 @@
 	<string key="ui_notification_unlock_desc">Les objets ont été ajoutés à votre compte.</string>
 	<string key="ui_notification_unlock_title">Déverrouillé !</string>
 	<string key="ui_view_item">Voir les objets</string>
+	<string key="ui_claim_fail_achievementmissing" comment="DO NOT TRANSLATE"/>
 	<string key="ui_claim_fail_alreadyunlocked">Vous avez déjà obtenu ce droit.</string>
 	<string key="ui_claim_fail_inventoryfull">Vous ne pouvez pas récupérer ce droit lorsque votre inventaire est plein. Veuillez libérer de l'espace avant de réessayer.</string>
 	<string key="ui_claim_fail_transactionerror">Erreur de transaction. Veuillez réessayer.</string>
@@ -803,6 +808,25 @@
 	<string key="Bundle_Tool_SilentDeath_name" rel_version="ToolSkins_SilentDeath_MTX">Outils d'assassin</string>
 	<string key="Bundle_Tool_SilentDeath_description" rel_version="ToolSkins_SilentDeath_MTX">« Pour ceux qui pratiquent le commerce de l'ombre, même la collecte de ressources se fait à la faveur de la nuit. »</string>
 	<string key="Bundle_Decor_ClassicRPG_name" rel_version="Housing_RPG_MTX_Pack_2022">Pack de décors du trésor draconique</string>
-	<string key="Bundle_Decor_ClassicRPG_description" rel_version="Housing_RPG_MTX_Pack_2022">« Une horde à domicile, souvenir d'une glorieuse vie d'aventures. »</string>
+	<string key="Bundle_Decor_ClassicRPG_description" rel_version="Housing_RPG_MTX_Pack_2022">« Un trésor à domicile, souvenir d'une glorieuse vie d'aventures. »</string>
+	<string key="Apparel_Metal_L_name" rel_version="Apparel_Metal_L">Lambeaux à clous</string>
+	<string key="Apparel_Metal_L_description" rel_version="Apparel_Metal_L">« Pour être une vraie âme endurcie, il faut y aller à fond. »</string>
+	<string key="Apparel_Metal_M_name" rel_version="Apparel_Metal_M">Héros cornu</string>
+	<string key="Apparel_Metal_M_description" rel_version="Apparel_Metal_M">« Adoptez ce style intimidant et devenez l'ultime protagoniste des Mélégies. »</string>
+	<string key="Apparel_Metal_H_name" rel_version="Apparel_Metal_H">Élimination du diable en Aeternum</string>
+	<string key="Apparel_Metal_H_description" rel_version="Apparel_Metal_H">« Preuve que vous avez triomphé du diable en personne lors d'un affrontement truqué. »</string>
+	<string key="Bundle_Tool_Metal_name" rel_version="ToolSkins_Metal_MTX">Ensemble d'outils en métal lourd</string>
+	<string key="Bundle_Tool_Metal_description" rel_version="ToolSkins_Metal_MTX">« Pour celles et ceux qui trouvent les mélodies les plus dures dans les tâches les plus simples. »</string>
+	<string key="Bundle_Decor_Metal_name" rel_version="Housing_Metal_MTX_Pack_2022">Pack de décors en métal lourd</string>
+	<string key="Bundle_Decor_Metal_description" rel_version="Housing_Metal_MTX_Pack_2022">« Quiconque toque trouvera le rock. »</string>
+	<string key="reward_type_Instrumentskin_Flute" rel_version="Instrument_Flute_Metal_MTX">Apparence de flûte d'Azoth</string>
+	<string key="reward_type_Instrumentskin_Drum" rel_version="Instrument_Drums_Metal_MTX">Apparence de tambour</string>
+	<string key="reward_type_Instrumentskin_Guitar" rel_version="Instrument_Guitar_Metal_MTX">Apparence de guitare</string>
+	<string key="reward_type_Instrumentskin_UprightBass" rel_version="Instrument_Bass_Metal_MTX">Apparence de contrebasse</string>
+	<string key="reward_type_Instrumentskin_Mandolin" rel_version="Instrument_Mandolin_Metal_MTX">Apparence de mandoline</string>
+	<string key="Bundle_PR_Metal_Instruments_name" rel_version="Entitlements_July_2022">Pack d'instruments en métal lourd</string>
+	<string key="Bundle_PR_Metal_Instruments_description" rel_version="Entitlements_July_2022">« Testez votre métal. »</string>
+	<string key="Bundle_PR_Metal_Megapack_name" rel_version="Entitlements_July_2022">Méga pack en métal lourd</string>
+	<string key="Bundle_PR_Metal_Megapack_description" rel_version="Entitlements_July_2022">« Lourde est la tête qui reste muette. »</string>
 </resources>
 

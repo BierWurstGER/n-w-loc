@@ -107,6 +107,8 @@
 	<string key="ui_streamermode_server_chat_desc">Direktnachrichten und -benachrichtigungen blockieren.</string>
 	<string key="ui_streamermode_server_currency">Talerübertragungen blockieren</string>
 	<string key="ui_streamermode_server_currency_desc">Talerübertragungen und -benachrichtigungen blockieren.</string>
+	<string key="ui_streamermode_server_music_invite" rel_version="Feature_MusicalPerformances">Musikeinladungen blockieren</string>
+	<string key="ui_streamermode_server_music_invite_desc" rel_version="Feature_MusicalPerformances">Einladungen und Benachrichtigungen zu Musikvorführungen blockieren</string>
 	<string key="ui_voicechatmode">Sprachchatmodus</string>
 	<string key="ui_voicechatmode_desc">Der aktuelle Sprachchatmodus.</string>
 	<string key="ui_voicechatmode_enabled">Aktiv</string>
@@ -215,6 +217,14 @@
 	<string key="ui_restore_defaults_prompt">Möchtest du diese Optionen wirklich auf die\nStandardeinstellungen zurücksetzen?</string>
 	<string key="ui_audiooutput_headphones">Kopfhörer</string>
 	<string key="ui_audiooutput_speakers">Heimkino</string>
+	<string key="ui_mute_performance" rel_version="Feature_MusicalPerformances">Musikinstrumente anderer Spieler stummschalten</string>
+	<string key="ui_mute_performance_desc" rel_version="Feature_MusicalPerformances">Schalte die von anderen Spielern vorgeführte Musik stumm.</string>
+	<string key="ui_mute_combat_music" rel_version="Feature_MusicalPerformances">Kampfmusik stummschalten</string>
+	<string key="ui_mute_combat_music_desc" rel_version="Feature_MusicalPerformances">Schalte die Kampfmusik stumm.</string>
+	<string key="ui_mute_secondary_music" rel_version="Feature_MusicalPerformances">Sekundäres Vorführungsaudio stummschalten</string>
+	<string key="ui_mute_secondary_music_desc" rel_version="Feature_MusicalPerformances">Schalte Klatschen und sekundäre musikalische Vorführungseffekte stumm.</string>
+	<string key="ui_musicInstrument_volume" rel_version="Feature_MusicalPerformances">Lautstärke der Musikinstrumente</string>
+	<string key="ui_musicInstrument_volume_desc" rel_version="Feature_MusicalPerformances">Regle die Musik, die von lokalen und externen Spielern mit Musikinstrumenten gespielt wird.</string>
 	<string key="ui_outputconfiguration">Ausgabekonfiguration</string>
 	<string key="ui_outputconfiguration_desc">Wechsele zwischen 360-Grad-Surround-Sound fürs Heimkino und 180-Grad-Sound für Kopfhörer.</string>
 	<string key="ui_texttospeech">Text-to-Speech</string>

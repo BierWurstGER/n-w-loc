@@ -77,10 +77,14 @@
 	<string key="ui_not_available">Niedostępne</string>
 	<string key="ui_blowhorn">Użyj rogu</string>
 	<string key="ui_useturret">Użyj wieżyczki</string>
+	<string key="ui_useturret_12MB04_inactivity">Usunięto cię z powodu braku aktywności.</string>
+	<string key="ui_useturret_12MB04_timeout">Używasz tego zbyt długo!</string>
 	<string key="ui_usefiredropper">Użyj beczki z płonącym olejem</string>
 	<string key="ui_notification_turret_repair">WIEŻYCZKA NAPRAWIONA</string>
 	<string key="ui_notification_turret_reload">WIEŻYCZKA PRZEŁADOWANA</string>
 	<string key="ui_notification_turret_not_ready">WIEŻYCZKA NIEGOTOWA</string>
+	<string key="ui_notification_turret_timeout">Usunięto cię z powodu przekroczenia dopuszczalnego czasu użytkowania</string>
+	<string key="ui_notification_turret_inactive_timeout">Usunięto cię z powodu braku aktywności.</string>
 	<string key="ui_build_structure_menu">Zbuduj obiekt</string>
 	<string key="ui_replace_structure_menu">Zamień obiekt</string>
 	<string key="ui_place_structure">Umieść konstrukcję</string>
@@ -88,5 +92,14 @@
 	<string key="ui_notification_summoning_stone_placed">KAMIEŃ PRZYWOŁANIA UMIESZCZONY</string>
 	<string key="ui_watcherscampfire">Ognisko strażnika</string>
 	<string key="ui_hunterscampfire">Ognisko łowcy</string>
+	<string key="ui_interact_tip_coin" rel_version="Feature_MusicalPerformances">{interactionName} {coin} &lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt;</string>
+	<string key="ui_notification_tip_donated" rel_version="Feature_MusicalPerformances">Napiwek przekazany</string>
+	<string key="ui_any_song_gather">[{keybind}] Wykonaj dowolny utwór, by zebrać</string>
+	<string key="ui_song_gather">[{keybind}] Wykonaj, by zebrać</string>
+	<string key="ui_restriction_learn_song"/>
+	<string key="ui_restriction_equip_instrument"/>
+	<string key="ui_reset_available_in">Dostępne za {time}</string>
+	<string key="ui_emote_gather">[{keybind}] Użyj gestu {tagName}, by zebrać</string>
+	<string key="ui_emotetag_dance">Tańcz</string>
 </resources>
 

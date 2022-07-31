@@ -22,6 +22,7 @@
 	<string key="inv_cooking">Cocina</string>
 	<string key="inv_furniture">Muebles</string>
 	<string key="inv_outpostrush">Asalto a puesto remoto</string>
+	<string key="inv_pvparenas">Arenas JcJ</string>
 	<string key="inv_crafting_modifiers">Fabricación</string>
 	<string key="inv_repair_kit_count">Kit de reparación: {count}</string>
 	<string key="inv_repair_kits">Kits de reparación</string>
@@ -90,11 +91,12 @@
 	<string key="inv_repairparts_tooltip_description">Las piezas de reparación son un recurso que te permite arreglar objetos.\n\nNo se pueden comprar, vender ni intercambiar. Para obtener más, aprovecha las armas y armaduras que ya no necesites.\n\n&lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#aaaaaa"&gt;Se consiguen a partir de:&lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#ffffff"&gt; Armas y armaduras&lt;/font&gt;</string>
 	<string key="inv_repairparts_tooltip_drivedfrom">Armas y armaduras</string>
 	<string key="inv_azoth_tooltip_drivedfrom">Grietas de corrupción y misiones</string>
-	<string key="inv_repairparts_nearlimit">&lt;font color="#ff2e2e"&gt;Estás cerca del límite de piezas de reparación.&lt;/font&gt;</string>
-	<string key="inv_repairparts_atlimit">&lt;font color="#ff2e2e"&gt;Has alcanzado el límite de piezas de reparación.&lt;/font&gt;</string>
+	<string key="inv_repairparts_nearlimit">&lt;font color="#f25d5d"&gt;Estás cerca del límite de piezas de reparación.&lt;/font&gt;</string>
+	<string key="inv_repairparts_atlimit">&lt;font color="#f25d5d"&gt;Has alcanzado el límite de piezas de reparación.&lt;/font&gt;</string>
 	<string key="inv_repairparts_resources_nearlimit">Aprovechar este artículo te devolverá {min}-{max} {itemName} y {numRepairParts} piezas de reparación.</string>
-	<string key="inv_repairparts_resources_atlimit">Aprovechar este artículo te devolverá {min}-{max} {itemName} y &lt;font color="#ff2e2e"&gt;{numRepairParts} piezas de reparación.&lt;/font&gt;</string>
+	<string key="inv_repairparts_resources_atlimit">Aprovechar este artículo te devolverá {min}-{max} {itemName} y &lt;font color="#f25d5d"&gt;{numRepairParts} piezas de reparación.&lt;/font&gt;</string>
 	<string key="inv_repairparts_onlyrepairparts">Aprovechar este artículo te devolverá {numRepairParts} piezas de reparación.</string>
+	<string key="inv_repairparts_onlyrepairparts_withcoin">Aprovechar este artículo te devolverá: {numRepairParts} piezas de reparación y {coinAmount}.</string>
 	<string key="salvage_notification_obtained_1">Has obtenido {entry1}.</string>
 	<string key="salvage_notification_obtained_2">Has obtenido {entry1} y {entry2}.</string>
 	<string key="salvage_notification_obtained_3">Has obtenido {entry1}, {entry2} y {entry3}.</string>

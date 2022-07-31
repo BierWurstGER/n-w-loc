@@ -15,7 +15,7 @@
 	<string key="ui_pvparenas_roundswon" rel_version="Feature_PVP_Arenas">Gewonnene Runden</string>
 	<string key="ui_pvparenas_title_join" rel_version="Feature_PVP_Arenas">In 3-gegen-3-Arenen kämpfen</string>
 	<string key="ui_pvparenas_title" rel_version="Feature_PVP_Arenas">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3-gegen-3&lt;/font&gt;-Arenen</string>
-	<string key="ui_pvparenas_description" rel_version="Feature_PVP_Arenas">In &lt;font color="#ffe940"&gt;3-gegen-3-Arenen&lt;/font&gt; kämpfen zwei Teams bis zum Tod gegeneinander. Das letzte noch stehende Team hat eine Chance auf einzigartige Belohnungen.\nSpieler können in diesem Spielmodus ausschließlich die Verbrauchsgegenstände nutzen, die ihnen am Beginn des Matches jeweils bereitgestellt werden.</string>
+	<string key="ui_pvparenas_description" rel_version="Feature_PVP_Arenas">In &lt;font color="#ffe940"&gt;3-gegen-3-Arenen&lt;/font&gt; kämpfen zwei Teams bis zum Tod gegeneinander. Das letzte noch stehende Team hat eine Chance auf einzigartige Belohnungen.</string>
 	<string key="ui_pvparenas_signup_goal1" rel_version="Feature_PVP_Arenas">Gewinne drei Runden, um den Kampf zu gewinnen.</string>
 	<string key="ui_pvparenas_signup_goal2" rel_version="Feature_PVP_Arenas">Nach Ablauf der Zeit wird die Arena in Feuer gehüllt.</string>
 	<string key="ui_pvparenas_signup_goal3" rel_version="Feature_PVP_Arenas">Je länger die Runde dauert, desto weniger Heilung erhaltet ihr.</string>
@@ -34,6 +34,8 @@
 	<string key="ui_pvparenas_failgrouppenalty" rel_version="Feature_PVP_Arenas">Ein oder mehrere Gruppenmitglieder unterliegen einer Strafzeit, weil sie den vorherigen 3-gegen-3-Arenakampf verlassen haben.</string>
 	<string key="ui_pvparenas_group_too_large" rel_version="Feature_PVP_Arenas">Gruppe zu groß für Beitritt.</string>
 	<string key="ui_pvparenas_group_too_large_tooltip" rel_version="Feature_PVP_Arenas">Die Gruppengröße darf {groupSizeRequirement} nicht überschreiten</string>
+	<string key="ui_pvparenas_too_many_items" rel_version="Feature_PVP_Arenas">Du hast zu viele einzigartige Gegenstände in deinem Inventar, um diesen Spielmodus zu nutzen.</string>
+	<string key="ui_pvparenas_too_many_items_tooltip" rel_version="Feature_PVP_Arenas">Verringere dein Inventar um {numItemsToRemove} Gegenstände</string>
 	<string key="ui_pvparenas_cannotleavegroup_in_arena" rel_version="Feature_PVP_Arenas">Du kannst deine Gruppe nicht verlassen, während du dich in einer 3-gegen-3-Arena befindest.</string>
 	<string key="ui_pvp_arena_leave" rel_version="Feature_PVP_Arenas">3-gg-3-Arena verlassen</string>
 	<string key="ui_pvp_arena_leave_desc" rel_version="Feature_PVP_Arenas">Willst du die 3-gg-3-Arena wirklich verlassen?</string>
@@ -41,5 +43,10 @@
 	<string key="ui_pvp_arena_leave_title" rel_version="Feature_PVP_Arenas">3-gg-3-Arena verlassen?</string>
 	<string key="ui_cannot_travel_pvp_arena" rel_version="Feature_PVP_Arenas">In der 3-gg-3-Arena sind Schnellreisen nicht möglich.</string>
 	<string key="ui_pvparenas_cannot_use_item" rel_version="Feature_PVP_Arenas">Dieser Gegenstand kann nicht in 3-gegen-3-Arenen verwendet werden.</string>
+	<string key="ui_pvparenas_equip_items_title" rel_version="Feature_PVP_Arenas">Vorbereitungen treffen</string>
+	<string key="ui_pvparenas_equip_items_desc" rel_version="Feature_PVP_Arenas">Ausrüstung und Verbrauchsgegenstände überprüfen</string>
+	<string key="ui_pvparenas_waiting_for_players" rel_version="Feature_PVP_Arenas">Warte auf Spieler</string>
+	<string key="ui_pvparenas_waiting_for_players_queue_hud" rel_version="Feature_PVP_Arenas">Warte auf Spieler ({numAccepted}/{numTotal})</string>
+	<string key="ui_pvparenas_time_remaining" rel_version="Feature_PVP_Arenas">Noch {seconds}</string>
 </resources>
 

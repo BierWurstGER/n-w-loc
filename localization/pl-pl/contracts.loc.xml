@@ -31,8 +31,40 @@
 	<string key="ui_gem_selection_button_specific">Klejnot: {name}</string>
 	<string key="ui_perk_selection_button_none">Profity: nie wybrano</string>
 	<string key="ui_perk_selection_button_some">Profity: wybrano {number}</string>
+	<string key="ui_perk_selection_apply_filters">Zastosuj filtry</string>
+	<string key="ui_perk_selection_clear_filters">Usuń wszystkie</string>
+	<string key="ui_perk_selection_reset">Zresetuj</string>
 	<string key="ui_perk_selection_selected">Wybrano:</string>
 	<string key="ui_perk_selection_none">(nie wybrano)</string>
+	<string key="ui_perk_selection_count">Wybrane ({quantity}/{maxCount}):</string>
+	<string key="ui_perk_selection_show_items_with">Pokaż przedmioty z:</string>
+	<string key="ui_perk_selection_dropdown_any_selected_perks">Dowolne wybrane profity</string>
+	<string key="ui_perk_selection_dropdown_only_selected_perks">Tylko wybrane profity</string>
+	<string key="ui_perk_selection_search_perks">Szukaj profitów</string>
+	<string key="ui_perk_filter_popup_title">Filtry</string>
+	<string key="ui_perk_filter_popup_price">Cena</string>
+	<string key="ui_perk_filter_popup_price_min">Min. cena</string>
+	<string key="ui_perk_filter_popup_price_max">Maks. cena</string>
+	<string key="ui_perk_filter_popup_price_range">Cena: {minValue} – {maxValue}</string>
+	<string key="ui_perk_filter_popup_gearscore">Pkt wyposażenia</string>
+	<string key="ui_perk_filter_popup_gearscore_min">Min. pkt wyposażenia</string>
+	<string key="ui_perk_filter_popup_gearscore_max">Maks. pkt wyposażenia</string>
+	<string key="ui_perk_filter_popup_gearscore_range">Pkt wyposażenia: {minValue} – {maxValue}</string>
+	<string key="ui_perk_filter_popup_range_max">Maks.</string>
+	<string key="ui_perk_filter_popup_attributes">Cechy</string>
+	<string key="ui_perk_filter_popup_attributes_single_only">Tylko jedna cecha</string>
+	<string key="ui_perk_filter_popup_attributes_disabled">Nie możesz wybrać więcej cech niż {maxValue}. Odznacz cechę, by móc wybrać kolejną.</string>
+	<string key="ui_perk_filter_popup_perk">Profit</string>
+	<string key="ui_perk_filter_popup_perk_none_selected">Nie wybrano profitu</string>
+	<string key="ui_perk_filter_popup_perk_count">Wybrane profity: ({quantity}/{maxCount})</string>
+	<string key="ui_perk_filter_popup_add_perks">Dodaj profity</string>
+	<string key="ui_perk_filter_popup_gem">Klejnot</string>
+	<string key="ui_perk_filter_popup_gem_none_selected">Nie wybrano klejnotu</string>
+	<string key="ui_perk_filter_popup_gem_count">Wybrane klejnoty: ({quantity}/{maxCount})</string>
+	<string key="ui_perk_filter_popup_add_gem">Dodaj klejnot</string>
+	<string key="ui_perk_filter_popup_single_attribute_only">Tylko jedna cecha</string>
+	<string key="ui_perk_filter_popup_single_attribute_only_tooltip">Jeśli wybierzesz tę opcję, zostaną wyświetlone przedmioty z tylko 1 cechą.</string>
+	<string key="ui_perk_filter_popup_single_attribute_only_selector">Pokaż tylko przedmioty z 1 cechą</string>
 	<string key="ui_sellers">KUP &lt;font color="#b5b094"&gt;&lt;font face="lyshineui/fonts/Nimbus_medium.font"&gt;z ofert sprzedaży&lt;/font&gt;&lt;/font&gt;</string>
 	<string key="ui_buyers">SPRZEDAJ &lt;font color="#b5b094"&gt;&lt;font face="lyshineui/fonts/Nimbus_medium.font"&gt;do ofert kupna&lt;/font&gt;&lt;/font&gt;</string>
 	<string key="ui_buyOrders">&lt;img src="lyshineui/images/icons/contracts/contracts_iconBuy" xPadding="0" scale="1.5" yOffset="5.2"&gt;&lt;/img&gt; Oferty kupna</string>
@@ -212,6 +244,10 @@
 	<string key="ui_perk_selector_any_perk_description">Dowolny profit używany przez ten przedmiot</string>
 	<string key="ui_perk_selector_any_gem">Dowolny klejnot</string>
 	<string key="ui_perk_selector_any_gem_description">Puste gniazdo na klejnot</string>
+	<string key="ui_perk_selector_logic_modifier_any_perks">Dowolne wybrane profity</string>
+	<string key="ui_perk_selector_logic_modifier_any_perks_description">Dowolny przedmiot mający jeden lub więcej spośród wybranych profitów.</string>
+	<string key="ui_perk_selector_logic_modifier_all_perks">Tylko wybrane profity</string>
+	<string key="ui_perk_selector_logic_modifier_all_perks_description">Tylko przedmioty mające wszystkie wybrane profity.</string>
 	<string key="ui_select_gem">Wybierz klejnot</string>
 	<string key="ui_select_perk">Wybierz profity</string>
 	<string key="ui_buyorder_has_these_properties">POSIADA TE WŁAŚCIWOŚCI</string>
@@ -223,8 +259,13 @@
 	<string key="ui_exclusive_perk_popup_title">Wybrano ekskluzywny profit</string>
 	<string key="ui_exclusive_perk_popup_message">Możesz wybrać tylko jeden profit tego rodzaju. Czy na pewno chcesz zamienić obecnie używany profit tego rodzaju na wybrany profit?</string>
 	<string key="ui_exclusive_perk_popup_message_no_replace">Profity: {newPerkName} oraz {selectedPerkName} wzajemnie się wykluczają i nie można wybrać ich jednocześnie.</string>
+	<string key="ui_cannot_change_perk_logic_popup_title">Nie można zastosować</string>
+	<string key="ui_cannot_change_perk_logic_message">Nie możesz zmienić filtru na "Wszystkie wybrane profity”, ponieważ poniższe profity nie mogą być wybrane w tym samym czasie.\n</string>
+	<string key="ui_cannot_change_perk_logic_incompatible_perks">\n&lt;font color="#b45353"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{perkNameA}&lt;/font&gt;&lt;/font&gt; - &lt;font color="#b45353"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{perkNameB}&lt;/font&gt;&lt;/font&gt;</string>
 	<string key="ui_max_perk_popup_title">Wybrano maks. profitów</string>
 	<string key="ui_max_perk_popup_message">Osiągnięto maksymalną liczbę profitów dla tego przedmiotu. Usuń profit, aby dodać nowy.</string>
+	<string key="ui_max_gem_popup_title">Wybrano maks. liczbę klejnotów</string>
+	<string key="ui_max_gem_popup_message">Osiągnięto maksymalną liczbę klejnotów dla tego przedmiotu. Usuń klejnot, aby dodać nowy.</string>
 	<string key="ui_remove">usuń</string>
 	<string key="ui_showonly">Pokaż tylko:</string>
 	<string key="ui_playerMarketplace">Rynek gracza</string>
@@ -233,5 +274,7 @@
 	<string key="ui_contract_time">Czas</string>
 	<string key="ui_order_tooltip">Dostępne oferty z tej kategorii:\n&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{number}&lt;/font&gt;</string>
 	<string key="ui_available_buy_orders">Oferty kupna tego przedmiotu</string>
+	<string key="ui_item_attribute">{attributeName} &lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{statValue}&lt;/font&gt;</string>
+	<string key="ui_item_attributes_separator">, </string>
 </resources>
 

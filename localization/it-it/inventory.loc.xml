@@ -22,6 +22,7 @@
 	<string key="inv_cooking">Cucina</string>
 	<string key="inv_furniture">Arredamento</string>
 	<string key="inv_outpostrush">Carica all'avamposto</string>
+	<string key="inv_pvparenas">Arene PvP</string>
 	<string key="inv_crafting_modifiers">Modificatori</string>
 	<string key="inv_repair_kit_count">Kit di riparazione: {count}</string>
 	<string key="inv_repair_kits">Kit di riparazione</string>
@@ -90,11 +91,12 @@
 	<string key="inv_repairparts_tooltip_description">I pezzi di ricambio sono una risorsa speciale per riparare oggetti.\n\nNon possono essere scambiati, venduti o acquistati. Per ottenerne ancora, recupera armi e pezzi di armatura che non ti servono più.\n\n&lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#aaaaaa"&gt;Derivato da:&lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#ffffff"&gt; armi, armatura&lt;/font&gt;</string>
 	<string key="inv_repairparts_tooltip_drivedfrom">Armi e armatura</string>
 	<string key="inv_azoth_tooltip_drivedfrom">Brecce della corruzione, missioni</string>
-	<string key="inv_repairparts_nearlimit">&lt;font color="#ff2e2e"&gt;Hai quasi raggiunto il limite di pezzi di ricambio consentiti.&lt;/font&gt;</string>
-	<string key="inv_repairparts_atlimit">&lt;font color="#ff2e2e"&gt;Hai raggiunto il limite di pezzi di ricambio consentiti.&lt;/font&gt;</string>
+	<string key="inv_repairparts_nearlimit">&lt;font color="#f25d5d"&gt;Hai quasi raggiunto il limite di pezzi di ricambio consentiti.&lt;/font&gt;</string>
+	<string key="inv_repairparts_atlimit">&lt;font color="#f25d5d"&gt;Hai raggiunto il limite di pezzi di ricambio consentiti.&lt;/font&gt;</string>
 	<string key="inv_repairparts_resources_nearlimit">Recuperando questo oggetto otterrai: {min}-{max} {itemName} e {numRepairParts} ricambi.</string>
-	<string key="inv_repairparts_resources_atlimit">Recuperando questo oggetto otterrai: {min}-{max} {itemName} e &lt;font color="#ff2e2e"&gt;{numRepairParts} ricambi.&lt;/font&gt;</string>
+	<string key="inv_repairparts_resources_atlimit">Recuperando questo oggetto otterrai: {min}-{max} {itemName} e &lt;font color="#f25d5d"&gt;{numRepairParts} ricambi.&lt;/font&gt;</string>
 	<string key="inv_repairparts_onlyrepairparts">Recuperando questo oggetto otterrai {numRepairParts} pezzi di ricambio.</string>
+	<string key="inv_repairparts_onlyrepairparts_withcoin">Recuperando questo oggetto otterrai {numRepairParts} pezzi di ricambio e {coinAmount}.</string>
 	<string key="salvage_notification_obtained_1">Hai ottenuto: {entry1}</string>
 	<string key="salvage_notification_obtained_2">Hai ottenuto: {entry1} e {entry2}</string>
 	<string key="salvage_notification_obtained_3">Hai ottenuto: {entry1}, {entry2} e {entry3}</string>

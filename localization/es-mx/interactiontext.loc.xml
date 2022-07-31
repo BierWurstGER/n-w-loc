@@ -77,10 +77,14 @@
 	<string key="ui_not_available">No disponible</string>
 	<string key="ui_blowhorn">Usar cuerno</string>
 	<string key="ui_useturret">Usar torreta</string>
+	<string key="ui_useturret_12MB04_inactivity">Fuiste eliminado por inactividad.</string>
+	<string key="ui_useturret_12MB04_timeout">¡Has usado esto durante demasiado tiempo!</string>
 	<string key="ui_usefiredropper">Usar cubo de aceite ardiente</string>
 	<string key="ui_notification_turret_repair">TORRETA REPARADA</string>
 	<string key="ui_notification_turret_reload">TORRETA RECARGADA</string>
 	<string key="ui_notification_turret_not_ready">LA TORRETA NO ESTÁ LISTA</string>
+	<string key="ui_notification_turret_timeout">Fuiste eliminado por superar el tiempo de uso máximo</string>
+	<string key="ui_notification_turret_inactive_timeout">Fuiste eliminado por inactividad</string>
 	<string key="ui_build_structure_menu">Construir estructura</string>
 	<string key="ui_replace_structure_menu">Reemplazar estructura</string>
 	<string key="ui_place_structure">Colocar estructura</string>
@@ -88,5 +92,14 @@
 	<string key="ui_notification_summoning_stone_placed">SE COLOCÓ LA PIEDRA DE INVOCACIÓN</string>
 	<string key="ui_watcherscampfire">Fogata del observador</string>
 	<string key="ui_hunterscampfire">Fogata de cazador</string>
+	<string key="ui_interact_tip_coin" rel_version="Feature_MusicalPerformances">{interactionName} {coin} &lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt;</string>
+	<string key="ui_notification_tip_donated" rel_version="Feature_MusicalPerformances">Propina otorgada</string>
+	<string key="ui_any_song_gather">[{keybind}] Toca cualquier canción para recolectar</string>
+	<string key="ui_song_gather">[{keybind}] Toda para recolectar</string>
+	<string key="ui_restriction_learn_song"/>
+	<string key="ui_restriction_equip_instrument"/>
+	<string key="ui_reset_available_in">Disponible en {time}</string>
+	<string key="ui_emote_gather">[{keybind}] Toca el emoticono {tagName} para recolectar</string>
+	<string key="ui_emotetag_dance">Bailar</string>
 </resources>
 

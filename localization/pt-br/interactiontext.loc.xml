@@ -77,10 +77,14 @@
 	<string key="ui_not_available">Não disponível</string>
 	<string key="ui_blowhorn">Usar Trombeta</string>
 	<string key="ui_useturret">Usar Torreta</string>
+	<string key="ui_useturret_12MB04_inactivity">Você foi removido por inatividade.</string>
+	<string key="ui_useturret_12MB04_timeout">Você usou isto por muito tempo!</string>
 	<string key="ui_usefiredropper">Usar Tonel de Óleo Quente</string>
 	<string key="ui_notification_turret_repair">TORRETA RESTAURADA</string>
 	<string key="ui_notification_turret_reload">TORRETA RECARREGADA</string>
 	<string key="ui_notification_turret_not_ready">TORRETA NÃO ESTÁ PRONTA</string>
+	<string key="ui_notification_turret_timeout">Você foi removido por exceder o tempo de utilização.</string>
+	<string key="ui_notification_turret_inactive_timeout">Você foi removido devido à inatividade.</string>
 	<string key="ui_build_structure_menu">Construir Estrutura</string>
 	<string key="ui_replace_structure_menu">Substituir Estrutura</string>
 	<string key="ui_place_structure">Colocar Estrutura</string>
@@ -88,5 +92,14 @@
 	<string key="ui_notification_summoning_stone_placed">PEDRA DE INVOCAÇÃO COLOCADA</string>
 	<string key="ui_watcherscampfire">Fogueira de Vigia</string>
 	<string key="ui_hunterscampfire">Fogueira do Caçador</string>
+	<string key="ui_interact_tip_coin" rel_version="Feature_MusicalPerformances">{interactionName} {coin} &lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt;</string>
+	<string key="ui_notification_tip_donated" rel_version="Feature_MusicalPerformances">Gorjeta Dada</string>
+	<string key="ui_any_song_gather">[{keybind}] Interprete qualquer música para Coletar</string>
+	<string key="ui_song_gather">[{keybind}] Interprete para Coletar</string>
+	<string key="ui_restriction_learn_song"/>
+	<string key="ui_restriction_equip_instrument"/>
+	<string key="ui_reset_available_in">Disponível em {time}</string>
+	<string key="ui_emote_gather">[{keybind}] Use o Gesto de {tagName} para Coletar</string>
+	<string key="ui_emotetag_dance">Dançar</string>
 </resources>
 

@@ -22,6 +22,7 @@
 	<string key="inv_cooking">Cuisine</string>
 	<string key="inv_furniture">Meubles</string>
 	<string key="inv_outpostrush">Déferlante</string>
+	<string key="inv_pvparenas">Arènes JcJ</string>
 	<string key="inv_crafting_modifiers">Mods</string>
 	<string key="inv_repair_kit_count">{count} nécessaire(s) de réparation</string>
 	<string key="inv_repair_kits">Nécessaires de réparation</string>
@@ -90,11 +91,12 @@
 	<string key="inv_repairparts_tooltip_description">Les pièces de réparation servent à réparer les objets.\n\nElles ne peuvent être échangées, vendues ou achetées. Pour en obtenir davantage, recyclez les armes et armures superflues.\n\n&lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#aaaaaa"&gt;Obtenues via :&lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#ffffff"&gt; armes, armures&lt;/font&gt;</string>
 	<string key="inv_repairparts_tooltip_drivedfrom">Armes et armures</string>
 	<string key="inv_azoth_tooltip_drivedfrom">Foyers d'altération, Quêtes</string>
-	<string key="inv_repairparts_nearlimit">&lt;font color="#ff2e2e"&gt;Vous êtes sur le point d'atteindre la limite de pièces de réparation.&lt;/font&gt;</string>
-	<string key="inv_repairparts_atlimit">&lt;font color="#ff2e2e"&gt;Limite de pièces de réparation atteinte.&lt;/font&gt;</string>
+	<string key="inv_repairparts_nearlimit">&lt;font color="#f25d5d"&gt;Vous êtes sur le point d'atteindre la limite de pièces de réparation.&lt;/font&gt;</string>
+	<string key="inv_repairparts_atlimit">&lt;font color="#f25d5d"&gt;Limite de pièces de réparation atteinte.&lt;/font&gt;</string>
 	<string key="inv_repairparts_resources_nearlimit">Recycler cet objet vous permettra de récupérer {min}-{max} {itemName}et {numRepairParts} pièce(s) de réparation.</string>
-	<string key="inv_repairparts_resources_atlimit">Recycler cet objet vous permettra de récupérer {min}-{max} {itemName}et &lt;font color="#ff2e2e"&gt;{numRepairParts} pièce(s) de réparation.&lt;/font&gt;</string>
+	<string key="inv_repairparts_resources_atlimit">Recycler cet objet vous permettra de récupérer {min}-{max} {itemName}et &lt;font color="#f25d5d"&gt;{numRepairParts} pièce(s) de réparation.&lt;/font&gt;</string>
 	<string key="inv_repairparts_onlyrepairparts">Recycler cet objet vous permettra de récupérer {numRepairParts} pièce(s) de réparation.</string>
+	<string key="inv_repairparts_onlyrepairparts_withcoin">Recycler cet objet vous permettra de récupérer {numRepairParts} pièces de réparation et {coinAmount}.</string>
 	<string key="salvage_notification_obtained_1">Obtenu : {entry1}</string>
 	<string key="salvage_notification_obtained_2">Obtenu : {entry1} et {entry2}</string>
 	<string key="salvage_notification_obtained_3">Obtenu : {entry1}, {entry2} et {entry3}</string>

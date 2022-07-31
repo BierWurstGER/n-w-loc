@@ -380,6 +380,11 @@
 	<string key="ui_fishing_equip_action">Activer le mode de pêche</string>
 	<string key="ui_fishing_action">Lancer / Hameçonner / Mouliner</string>
 	<string key="ui_fishing_reset_action">Lancer à nouveau / Arrêter de pêcher</string>
+	<string key="ui_performances" rel_version="Feature_MusicalPerformances">Spectacles</string>
+	<string key="ui_performances_toggle" rel_version="Feature_MusicalPerformances">Activer le mode de spectacle</string>
+	<string key="ui_performances_start" rel_version="Feature_MusicalPerformances">Commencer le spectacle</string>
+	<string key="ui_performances_equip" rel_version="Feature_MusicalPerformances">Équiper partition de musique</string>
+	<string key="ui_performances_invite" rel_version="Feature_MusicalPerformances">Invitation à un spectacle</string>
 	<string key="ui_camping">Bivouac</string>
 	<string key="ui_tracking">Bientôt</string>
 	<string key="ui_exploring">Bientôt</string>
@@ -417,6 +422,7 @@
 	<string key="ui_mining_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Mining Post Cap</string>
 	<string key="ui_logging_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Logging Post Cap</string>
 	<string key="ui_harvesting_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Harvesting Post Cap</string>
+	<string key="ui_musician_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Musician Post Cap</string>
 	<string key="ui_decline">Refuser</string>
 	<string key="ui_name_your_avatar">Nommez votre personnage</string>
 	<string key="ui_portrait_title">Mon portrait</string>
@@ -429,18 +435,25 @@
 	<string key="crafting_cannot_repair">Réparations impossibles</string>
 	<string key="crafting_requires_station">Poste adéquat requis.</string>
 	<string key="crafting_repair_no_requirements">Aucune condition nécessaire pour réparer cet objet.</string>
-	<string key="inv_salvage_tooltip" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Recycler cet objet vous permettra de récupérer {numItems} x {itemName}. {gemMessage}</string>
-	<string key="inv_salvage_tooltip_withrepairparts" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Recycler cet objet vous permettra de récupérer {numItems} x {itemName} et {numRepairParts} pièces de réparation. {gemMessage}</string>
-	<string key="inv_salvage_tooltip_onlyrepairparts" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Recycler cet objet vous permettra de récupérer {numRepairParts} x pièces de réparation. {gemMessage}</string>
-	<string key="inv_salvage_tooltip_withcoin" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Recycler cet objet vous permettra de récupérer {coinAmount}. {gemMessage}</string>
-	<string key="inv_salvage_tooltip_repairparts_and_coin" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Recycler cet objet vous permettra de récupérer {numRepairParts} x pièces de réparation et {coinAmount}. {gemMessage}</string>
+	<string key="inv_salvage_tooltip_fixed" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Recycler cet objet vous permettra de récupérer {numItems} x {itemName}. {gemMessage}</string>
+	<string key="inv_salvage_tooltip_fixed_repairparts" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Recycler cet objet vous permettra de récupérer {numItems} x {itemName} et {numRepairParts} pièces de réparation. {gemMessage}</string>
+	<string key="inv_salvage_tooltip_fixed_coin" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Recycler cet objet vous permettra de récupérer {numItems} x {itemName} et {coinAmount}. {gemMessage}</string>
+	<string key="inv_salvage_tooltip_fixed_repairparts_coin" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Recycler cet objet vous permettra de récupérer {numItems} x {itemName}, {numRepairParts} pièces de réparation et {coinAmount}. {gemMessage}</string>
+	<string key="inv_salvage_tooltip_repairparts" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Recycler cet objet vous permettra de récupérer {numRepairParts} x pièces de réparation. {gemMessage}</string>
+	<string key="inv_salvage_tooltip_coin" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Recycler cet objet vous permettra de récupérer {coinAmount}. {gemMessage}</string>
+	<string key="inv_salvage_tooltip_repairparts_coin" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Recycler cet objet vous permettra de récupérer {numRepairParts} x pièces de réparation et {coinAmount}. {gemMessage}</string>
 	<string key="inv_salvage_tooltip_range" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Recycler cet objet vous permettra de récupérer {min}-{max} x {itemName}. {gemMessage}</string>
-	<string key="inv_salvage_tooltip_range_withrepairparts" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Recycler cet objet vous permettra de récupérer {min}-{max} x {itemName} et {numRepairParts} pièces de réparation. {gemMessage}</string>
+	<string key="inv_salvage_tooltip_range_repairparts" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Recycler cet objet vous permettra de récupérer {min}-{max} x {itemName} et {numRepairParts} pièces de réparation. {gemMessage}</string>
+	<string key="inv_salvage_tooltip_range_coin" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Recycler cet objet vous permettra de récupérer {min}-{max} x {itemName} et {coinAmount}. {gemMessage}</string>
+	<string key="inv_salvage_tooltip_range_repairparts_coin" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Recycler cet objet vous permettra de récupérer {min}-{max} x {itemName}, {numRepairParts} pièces de réparation et {coinAmount}. {gemMessage}</string>
 	<string key="inv_salvage_tooltip_gemmessage" comment="this will come after a previous sentence and should have a space in front">Vous aurez une petite chance de récupérer la gemme sertie sur cet objet.</string>
 	<string key="inv_salvage_tooltip_additional_item" comment="This only applies to fishing when there is a chance to receive additional items.">Il est possible d'acquérir des objets supplémentaires tels que : {itemName}.</string>
 	<string key="inv_salvage_tooltip_recipe">Recycler cet objet vous permettra d'apprendre la recette : {recipeName}.</string>
 	<string key="inv_salvage_tooltip_recipe_known">Vous connaissez déjà la recette : {recipeName}.</string>
 	<string key="inv_salvage_tertiary_recipe">Recette : {recipeName}</string>
+	<string key="inv_salvage_tooltip_songpage" rel_version="Feature_MusicalPerformances">Recycler cet objet vous permettra d'apprendre la partition : {songName} pour {instrumentName}.</string>
+	<string key="inv_salvage_tooltip_songpage_known" rel_version="Feature_MusicalPerformances">Vous connaissez déjà la partition : {songName} pour {instrumentName}.</string>
+	<string key="inv_salvage_tertiary_songpage" rel_version="Feature_MusicalPerformances">Partition : {songName}</string>
 	<string key="minspec_warning_requirements_title">Avertissement ConfigMin</string>
 	<string key="minspec_failed_requirements_title">Échec ConfigMin</string>
 	<string key="minspec_failed_requirements">Cet ordinateur ne satisfait pas à un ou plusieurs éléments de la configuration minimale requise pour New World.</string>
@@ -489,13 +502,13 @@
 	<string key="ui_region_character_count">&lt;font color="#ffffff"&gt;{numCharacter}&lt;/font&gt; / {maxCharacter}</string>
 	<string key="ui_milliseconds_markup">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{time}&lt;/font&gt; ms</string>
 	<string key="ui_region_character_tooltip">&lt;font color="#aeab9d"&gt;&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;Nombre maximum de personnages par région&lt;/font&gt;&lt;/font&gt;\n\nVous avez &lt;font color="#ffffff"&gt;{numCharacter}&lt;/font&gt; personnage(s) dans cette région. La limite est de {maxCharacter}.</string>
-	<string key="mm_us_west" comment="US means United States">États-Unis (Ouest)</string>
-	<string key="mm_us_east" comment="US means United States">États-Unis (Est)</string>
+	<string key="mm_us_west" comment="US means United States">É.-U. (Ouest)</string>
+	<string key="mm_us_east" comment="US means United States">É.-U. (Est)</string>
 	<string key="mm_eu_central" comment="EU means European Union">Europe (Centre)</string>
 	<string key="mm_ap_southeast" comment="AP means Asian Pacific">Asie-Pacifique (Sud-Est)</string>
 	<string key="mm_sa_east" comment="SA means South America">Amérique du Sud (Est)</string>
 	<string key="world_set_region_transfer">Transfert de région</string>
-	<string key="mm_stage_devo">Développement</string>
+	<string key="mm_stage_devo">Dév.</string>
 	<string key="mm_stage_qa">QA</string>
 	<string key="mm_stage_alpha">Alpha</string>
 	<string key="mm_localhost">Hôte local</string>
@@ -506,5 +519,6 @@
 	<string key="error_world_select_server_down">Vous ne pouvez pas sélectionner un monde en cours de maintenance.</string>
 	<string key="error_loading_assets_title">Erreur de chargement des ressources du jeu</string>
 	<string key="error_loading_assets_message">Une erreur s'est produite lors du chargement des ressources du jeu ! Veuillez vérifier que l'installation s'est effectuée correctement.</string>
+	<string key="ui_musician" rel_version="Feature_MusicalPerformances">Musicien</string>
 </resources>
 

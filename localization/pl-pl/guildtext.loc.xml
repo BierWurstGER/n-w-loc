@@ -129,12 +129,12 @@
 	<string key="ui_treasury_tooltip_withdrawal_nopermissons">Nie masz pozwolenia na dokonywanie wypłat.</string>
 	<string key="ui_treasury_tooltip_withdrawal_overlimit">Osiągnięto dzienny limit.</string>
 	<string key="ui_treasury_tooltip_changedailywithdrawallimit_nopermissons">Nie masz pozwolenia na zmianę dziennego limitu wypłat.</string>
-	<string key="ui_treasury_notification_depositsuccess">Do skarbca kompanii wpłacono &lt;font color={colorHex}&gt;{amount}&lt;/font&gt; {coinImage}.</string>
-	<string key="ui_treasury_notification_depositcappedtreasurymax">Do skarbca kompanii wpłacono &lt;font color={colorHex}&gt;{amount}&lt;/font&gt; {coinImage} (wpłata zmniejszona, ponieważ osiągnięto maks. kwotę w skarbcu).</string>
-	<string key="ui_treasury_notification_depositcappedplayerfunds">Do skarbca kompanii wpłacono &lt;font color={colorHex}&gt;{amount}&lt;/font&gt; {coinImage} (wpłata zmniejszona ze względu na osobiste środki).</string>
-	<string key="ui_treasury_notification_withdrawalsuccess">Ze skarbca kompanii wypłacono &lt;font color={colorHex}&gt;{amount}&lt;/font&gt; {coinImage}.</string>
-	<string key="ui_treasury_notification_withdrawalcappedfunds">Ze skarbca kompanii wypłacono &lt;font color={colorHex}&gt;{amount}&lt;/font&gt; {coinImage} (wypłata zmniejszona z powodu braku środków).</string>
-	<string key="ui_treasury_notification_withdrawalcappeddailylimit">Ze skarbca kompanii wypłacono &lt;font color={colorHex}&gt;{amount}&lt;/font&gt; {coinImage} (wypłata zmniejszona z powodu dziennego limitu).</string>
+	<string key="ui_treasury_notification_depositsuccess">Do skarbca kompanii wpłacono &lt;font color={colorHex} face="lyshineui/fonts/CaslonAnt.font"&gt;{amount}&lt;/font&gt; {coinImage}.</string>
+	<string key="ui_treasury_notification_depositcappedtreasurymax">Wpłata do skarbca nie powiodła się (przekroczono maks. kwotę w skarbcu).</string>
+	<string key="ui_treasury_notification_depositcappedplayerfunds">Wpłata do skarbca nie powiodła się (za mało osobistych środków).</string>
+	<string key="ui_treasury_notification_withdrawalsuccess">Ze skarbca kompanii wypłacono &lt;font color={colorHex} face="lyshineui/fonts/CaslonAnt.font"&gt;{amount}&lt;/font&gt; {coinImage}.</string>
+	<string key="ui_treasury_notification_withdrawalcappedfunds"> Wypłata ze skarbca nie powiodła się (za mało środków w skarbcu).</string>
+	<string key="ui_treasury_notification_withdrawalcappeddailylimit">Wypłata ze skarbca nie powiodła się (przekroczono dzienny limit).</string>
 	<string key="ui_treasury_notification_setdailylimitsuccess">Dzienny limit wypłat wynosi &lt;font color={colorHex}&gt;{amount}&lt;/font&gt; {coinImage}.</string>
 	<string key="ui_treasury_notification_setdailylimitsuccessinfinite">Dzienny limit wypłat wynosi {infinityImage}.</string>
 	<string key="ui_treasury_notification_cointransferaldisabled">Musisz być przynajmniej na poziomie {minLevel}, by móc skorzystać ze skarbca gildii.</string>
@@ -185,10 +185,10 @@
 	<string key="ui_guildranksettler_SHE">Osadniczka</string>
 	<string key="ui_guildranksettler_THEY">Osoba osadnicza</string>
 	<string key="ui_guildrankpublic">Publiczny</string>
-	<string key="ui_guildrankgovernor_and_above">1. Zarządca</string>
-	<string key="ui_guildrankconsul_and_above">2. Konsul i wyżej</string>
-	<string key="ui_guildrankofficer_and_above">3. Oficer i wyżej</string>
-	<string key="ui_guildranksettler_and_above">4. Osadnik i wyżej</string>
+	<string key="ui_guildrankgovernor_and_above">Tylko zarządca</string>
+	<string key="ui_guildrankconsul_and_above">Konsul i wyżej</string>
+	<string key="ui_guildrankofficer_and_above">Oficer i wyżej</string>
+	<string key="ui_guildranksettler_and_above">Osadnik i wyżej</string>
 	<string key="ui_guildrankpublic_and_above">Publiczne, pełny dostęp</string>
 	<string key="ui_guildrank_no_permissions">Twój stopień w kompanii ({rank}) jest za niski.</string>
 	<string key="ui_guildsystemerror">Wystąpił błąd systemu.</string>
@@ -636,5 +636,10 @@
 	<string key="ui_high">Wysoki</string>
 	<string key="ui_highest">Najwyższy</string>
 	<string key="ui_kick_disabled_invasion">Nie można wyrzucać graczy z inwazji</string>
+	<string key="ui_war_schedule_adjustment_title">{warType} {scheduleAdjustmentType}</string>
+	<string key="ui_war_schedule_adjustment_message">{warType} na terytorium: {territoryName} – {scheduleAdjustmentType}.</string>
+	<string key="ui_war_schedule_adjustment_cancelled">odwołano</string>
+	<string key="ui_war_schedule_adjustment_rescheduled">przełożono</string>
+	<string key="ui_war_camp_tier">Klasa &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{value}&lt;/font&gt;</string>
 </resources>
 

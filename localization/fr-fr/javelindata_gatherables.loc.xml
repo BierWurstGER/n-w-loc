@@ -542,7 +542,7 @@
 	<string key="MSQ_SalvagePile_C_DisplayName">Tas de récupération</string>
 	<string key="AzothWater_Displayname">Source d'Azoth</string>
 	<string key="AzothSeal_DisplayName">Sceau d'Azoth ancien</string>
-	<string key="HeartforgeEncounterBattery_DisplayName">Amortisseur de puissance de Forgecœur</string>
+	<string key="HeartforgeEncounterBattery_DisplayName">Allumer la flamme de Forgecœur</string>
 	<string key="PressurePlate_Ancient_DisplayName">Glyphe d'Azoth ancien</string>
 	<string key="AncientArtifactLocked">Artéfact des Anciens</string>
 	<string key="MSQ_OldStoneRemembers_Interact">Inscriptions en langue ancienne</string>
@@ -678,6 +678,8 @@
 	<string key="FM_1624_Supplies_DisplayName">Détruire les réserves</string>
 	<string key="FM_1624_Banners_DisplayName">Enflammer la bannière</string>
 	<string key="FM_1624_Weapons_DisplayName">Détruire le râtelier d'armes</string>
+	<string key="dungeon_cutlasskeys00_gunpowdercask" rel_version="Expedition_CutlassKeys_00">Prendre les explosifs</string>
+	<string key="Dungeon_CutlassKeys00_CannonBall" rel_version="Expedition_CutlassKeys_00">Saisir le boulet de canon</string>
 	<string key="0411_Armillary_interact">Sphère armillaire</string>
 	<string key="0202_0101_Inquisitor_DisplayName">Caisse à outils de l'inquisiteur</string>
 	<string key="DungeonShatterMtn00_RelicBox_DisplayName" rel_version="Expedition_ShatterMtn_00">Reliquaire</string>
@@ -687,6 +689,21 @@
 	<string key="DungeonShatterMtn_RelicStatue_DisplayName" rel_version="Expedition_ShatterMtn_00">Prendre le reliquaire\n(nécessite 2 bâtons d'Azoth)</string>
 	<string key="DungeonShatterMtn00_ChestStatue_DisplayName" rel_version="Expedition_ShatterMtn_00">Coffret archaïque</string>
 	<string key="DungeonShatterMtn00_Statue_DisplayName" rel_version="Expedition_ShatterMtn_00">Statue archaïque</string>
+	<string key="DungeonCutlassKeys00_Explosives_DisplayName" rel_version="Expedition_CutlassKeys_00">Placer la mèche</string>
+	<string key="DungeonCutlassKeys00_ChestFuse_DisplayName" rel_version="Expedition_CutlassKeys_00">Boîte à outils</string>
+	<string key="DungeonCutlassKeys00_WaterStatue_DisplayName" rel_version="Expedition_CutlassKeys_00">Offrande de Néréide</string>
+	<string key="DungeonCutlassKeys00_Spring_DisplayName" rel_version="Expedition_CutlassKeys_00">Offrir</string>
+	<string key="SummerMedley_Settlement_Stage_Master_DisplayName" rel_version="Event_Summer_Temp">Centre de la scène des Mélégies</string>
+	<string key="SummerMedley_Settlement_Stage_T1_DisplayName" rel_version="Event_Summer_Temp">Dotation dérisoire</string>
+	<string key="SummerMedley_Settlement_Stage_T2_DisplayName" rel_version="Event_Summer_Temp">Grande dotation</string>
+	<string key="SummerMedley_Settlement_Stage_T3_DisplayName" rel_version="Event_Summer_Temp">Dotation généreuse</string>
+	<string key="SummerMedley_Settlement_Stage_Description" rel_version="Event_Summer_Temp">Terminez des projets urbains des Mélégies pour améliorer la gloire et les récompenses qu'offre la scène !</string>
+	<string key="SummerMedley_Village_BonfireBlast_DisplayName" rel_version="Event_Summer_Temp">Feu des Mélégies</string>
+	<string key="SummerMedley_Village_BonfireBlast_Description" rel_version="Event_Summer_Temp">Jetez une arête magique d'esturgeon d'Aeternum au feu pour recevoir une superbe récompense !</string>
+	<string key="SummerMedley_Maudlindust_DisplayName" rel_version="Event_Summer_Temp">Poussière larmoyante</string>
+	<string key="SummerMedley_Maudlindust_Particle_DisplayName" rel_version="Event_Summer_Temp">Particule de larminsecte</string>
+	<string key="SummerMedley_Village_Dancefloor_DisplayName" rel_version="Event_Summer_Temp">Piste de danse des Mélégies</string>
+	<string key="SummerMedley_Village_Dancefloor_Description" rel_version="Event_Summer_Temp">Dépoussiérez vos meilleurs pas de danse et trémoussez-vous sur la piste des Mélégies pour gagner de la réputation d'événement !</string>
 	<string key="FM_PVP_War_Camp_Loot_Box_DisplayName">Coffre du camp de guerre</string>
 	<string key="1130_ArcaneFocus1_DisplayName">Concentration arcanique</string>
 	<string key="1130_ArcaneFocus2_DisplayName">Concentration arcanique</string>
@@ -725,12 +742,32 @@
 	<string key="ExploreVista_WestEverfall01" rel_version="Feature_RewardingExploration">Chevalet oublié</string>
 	<string key="ExploreVista_WestMourningdale01" rel_version="Feature_RewardingExploration">Chevalet oublié</string>
 	<string key="ExploreVista_WestCutlass01" rel_version="Feature_RewardingExploration">Chevalet oublié</string>
+	<string key="LuckShrine_MothersLove">Amour maternel</string>
 	<string key="GoldPile00_DisplayName" rel_version="Feature_Unbound_Island">Cache de ravitaillement</string>
 	<string key="0601_0101_weapon_01_hatchet_DisplayName">Choisir la hachette éprouvée</string>
 	<string key="0601_0101_weapon_02_warhammer_DisplayName">Choisir le marteau d'armes éprouvé</string>
 	<string key="0601_0101_weapon_03_bow_DisplayName">Choisir l'arc éprouvé</string>
 	<string key="0601_0101_weapon_04_firestaff_DisplayName">Choisir le bâton de feu éprouvé</string>
-	<string key="Gimmick_FallingRubble_DisplayName">Rocher piégé</string>
-	<string key="Holdout_Interact_DisplayName">Commencer le Rempart</string>
+	<string key="98_Covenant_02_Captive_DisplayName">Relâcher le prisonnier</string>
+	<string key="98_Covenant_03_Pyre_DisplayName">Brûler l'artéfact</string>
+	<string key="13_Summer_AzFluteT1_DisplayName" rel_version="Quest_Event_Summer">Récupérer la flûte</string>
+	<string key="13_Summer_DrumT1_DisplayName" rel_version="Quest_Event_Summer">Récupérer le tambour</string>
+	<string key="13_Summer_GuitarT1_DisplayName" rel_version="Quest_Event_Summer">Récupérer la guitare</string>
+	<string key="13_Summer_MandolinT1_DisplayName" rel_version="Quest_Event_Summer">Récupérer la mandoline</string>
+	<string key="13_Summer_URBassT1_DisplayName" rel_version="Quest_Event_Summer">Récupérer la contrebasse</string>
+	<string key="13_Summer_Carpenter1_DisplayName" rel_version="Quest_Event_Summer">Réparer la table</string>
+	<string key="13_Summer_Carpenter2_DisplayName" rel_version="Quest_Event_Summer">Fixer les étaux</string>
+	<string key="13_Summer_Apiary_DisplayName" rel_version="Quest_Event_Summer">Allumer l'enfumoir</string>
+	<string key="13_Summer_Oven_DisplayName" rel_version="Quest_Event_Summer">Récurer le four</string>
+	<string key="13_Summer_FlowerBoxA_DisplayName" rel_version="Quest_Event_Summer">Arroser les tournesols</string>
+	<string key="13_Summer_FlowerBoxB_DisplayName" rel_version="Quest_Event_Summer">Arroser les hibiscus</string>
+	<string key="13_Summer_FlowerBoxC_DisplayName" rel_version="Quest_Event_Summer">Arroser les pâquerettes</string>
+	<string key="06A_MSQ_Lijsbet_Trapped_DisplayName">Sauver Lijsbet</string>
+	<string key="06A_MSQ_Michael_Trapped_DisplayName">Sauver Michael</string>
+	<string key="06A_MSQ_Nessa_Trapped_DisplayName">Sauver Nessa</string>
+	<string key="06A_MSQ_Gideon_Trapped_DisplayName">Sauver Gédéon</string>
+	<string key="06A_MSQ_11_pirateCrates_DisplayName">Fracasser la caisse</string>
+	<string key="06A_MSQ_14_map_DisplayName">Recopier la carte</string>
+	<string key="Cyclic_06A_MSQ_puzzlestone_DisplayName">Tourner la pierre</string>
 </resources>
 

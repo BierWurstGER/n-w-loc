@@ -380,6 +380,11 @@
 	<string key="ui_fishing_equip_action">Włącz wędkowanie</string>
 	<string key="ui_fishing_action">Zarzuć / Złap / Zwiń</string>
 	<string key="ui_fishing_reset_action">Resetuj rzucanie / Przerwij wędkowanie</string>
+	<string key="ui_performances" rel_version="Feature_MusicalPerformances">Występy</string>
+	<string key="ui_performances_toggle" rel_version="Feature_MusicalPerformances">Włącz tryb występu</string>
+	<string key="ui_performances_start" rel_version="Feature_MusicalPerformances">Rozpocznij występ</string>
+	<string key="ui_performances_equip" rel_version="Feature_MusicalPerformances">Wyposaż nuty</string>
+	<string key="ui_performances_invite" rel_version="Feature_MusicalPerformances">Zaproś do występu</string>
 	<string key="ui_camping">Biwakowanie</string>
 	<string key="ui_tracking">Już wkrótce</string>
 	<string key="ui_exploring">Już wkrótce</string>
@@ -417,6 +422,7 @@
 	<string key="ui_mining_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Limit faktorii górniczej</string>
 	<string key="ui_logging_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Limit faktorii drwalskiej</string>
 	<string key="ui_harvesting_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Limit faktorii żniwiarskiej</string>
+	<string key="ui_musician_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Limit muzyków</string>
 	<string key="ui_decline">Odrzuć</string>
 	<string key="ui_name_your_avatar">Nazwij swoją postać</string>
 	<string key="ui_portrait_title">Mój portret</string>
@@ -429,18 +435,25 @@
 	<string key="crafting_cannot_repair">Nie można naprawić</string>
 	<string key="crafting_requires_station">Musisz znajdować się przy odpowiednim stanowisku.</string>
 	<string key="crafting_repair_no_requirements">Naprawa tego przedmiotu nie ma wymagań.</string>
-	<string key="inv_salvage_tooltip" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Po odzyskaniu tego przedmiotu otrzymasz: {itemName} w liczbie {numItems}. {gemMessage}</string>
-	<string key="inv_salvage_tooltip_withrepairparts" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Po odzyskaniu tego przedmiotu otrzymasz: {itemName} w liczbie {numItems} oraz części zamienne w liczbie {numRepairParts}. {gemMessage}</string>
-	<string key="inv_salvage_tooltip_onlyrepairparts" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Po odzyskaniu tego przedmiotu otrzymasz części zamienne w liczbie {numRepairParts}. {gemMessage}</string>
-	<string key="inv_salvage_tooltip_withcoin" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Po odzyskaniu tego przedmiotu otrzymasz {coinAmount}. {gemMessage}</string>
-	<string key="inv_salvage_tooltip_repairparts_and_coin" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Po odzyskaniu tego przedmiotu otrzymasz części zamienne w liczbie {numRepairParts} oraz monety: {coinAmount}. {gemMessage}</string>
+	<string key="inv_salvage_tooltip_fixed" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Po odzyskaniu tego przedmiotu otrzymasz: {itemName} w liczbie {numItems}. {gemMessage}</string>
+	<string key="inv_salvage_tooltip_fixed_repairparts" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Po odzyskaniu tego przedmiotu otrzymasz: {itemName} w liczbie {numItems} oraz części zamienne w liczbie {numRepairParts}. {gemMessage}</string>
+	<string key="inv_salvage_tooltip_fixed_coin" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Po odzyskaniu tego przedmiotu otrzymasz: {itemName} w liczbie {numItems} oraz monety ({coinAmount}). {gemMessage}</string>
+	<string key="inv_salvage_tooltip_fixed_repairparts_coin" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Po odzyskaniu tego przedmiotu otrzymasz: {itemName} w liczbie {numItems}, części zamienne w liczbie {numRepairParts} oraz monety ({coinAmount}). {gemMessage}</string>
+	<string key="inv_salvage_tooltip_repairparts" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Po odzyskaniu tego przedmiotu otrzymasz części zamienne w liczbie {numRepairParts}. {gemMessage}</string>
+	<string key="inv_salvage_tooltip_coin" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Po odzyskaniu tego przedmiotu otrzymasz {coinAmount}. {gemMessage}</string>
+	<string key="inv_salvage_tooltip_repairparts_coin" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Po odzyskaniu tego przedmiotu otrzymasz części zamienne w liczbie {numRepairParts} oraz monety: {coinAmount}. {gemMessage}</string>
 	<string key="inv_salvage_tooltip_range" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Po odzyskaniu tego przedmiotu otrzymasz: {itemName} w liczbie {min}-{max}. {gemMessage}</string>
-	<string key="inv_salvage_tooltip_range_withrepairparts" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Po odzyskaniu tego przedmiotu otrzymasz: {itemName} w liczbie {min}-{max} oraz części zamienne: {numRepairParts}. {gemMessage}</string>
+	<string key="inv_salvage_tooltip_range_repairparts" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Po odzyskaniu tego przedmiotu otrzymasz: {itemName} w liczbie {min}-{max} oraz części zamienne: {numRepairParts}. {gemMessage}</string>
+	<string key="inv_salvage_tooltip_range_coin" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Po odzyskaniu tego przedmiotu otrzymasz: {itemName} ({min}–{max}) oraz {coinAmount}. {gemMessage}</string>
+	<string key="inv_salvage_tooltip_range_repairparts_coin" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Po odzyskaniu tego przedmiotu otrzymasz: {itemName} ({min}–{max}), części zamienne w liczbie {numRepairParts} oraz monety ({coinAmount}). {gemMessage}</string>
 	<string key="inv_salvage_tooltip_gemmessage" comment="this will come after a previous sentence and should have a space in front"> Istnieje mała szansa na odzyskanie osadzonego klejnotu.</string>
 	<string key="inv_salvage_tooltip_additional_item" comment="This only applies to fishing when there is a chance to receive additional items.">Można uzyskać też dodatkowe przedmioty, takie jak: {itemName}.</string>
 	<string key="inv_salvage_tooltip_recipe">Po użyciu tego przedmiotu poznasz schemat: {recipeName}.</string>
 	<string key="inv_salvage_tooltip_recipe_known">Znasz już schemat: {recipeName}.</string>
 	<string key="inv_salvage_tertiary_recipe">Schemat: {recipeName}</string>
+	<string key="inv_salvage_tooltip_songpage" rel_version="Feature_MusicalPerformances">Po użyciu tego przedmiotu nauczysz się strony piosenki o tytule: {songName} przeznaczonej dla instrumentu: {instrumentName}.</string>
+	<string key="inv_salvage_tooltip_songpage_known" rel_version="Feature_MusicalPerformances">Już znasz tę stronę piosenki o tytule: {songName} przeznaczonej dla instrumentu: {instrumentName}</string>
+	<string key="inv_salvage_tertiary_songpage" rel_version="Feature_MusicalPerformances">Strona piosenki: {songName}</string>
 	<string key="minspec_warning_requirements_title">Ostrzeżenie o konf. min.</string>
 	<string key="minspec_failed_requirements_title">Błąd konf. min.</string>
 	<string key="minspec_failed_requirements">Ten komputer nie spełnia co najmniej jednego z wymagań minimalnych niezbędnych do uruchomienia gry New World.</string>
@@ -493,7 +506,7 @@
 	<string key="mm_us_east" comment="US means United States">US, Wschód</string>
 	<string key="mm_eu_central" comment="EU means European Union">EU, Centrum</string>
 	<string key="mm_ap_southeast" comment="AP means Asian Pacific">Azja, Płd.-wsch.</string>
-	<string key="mm_sa_east" comment="SA means South America">Płn. Australia, Wsch.</string>
+	<string key="mm_sa_east" comment="SA means South America">Ameryka Płd., Wsch.</string>
 	<string key="world_set_region_transfer">Przenoszenie między regionami</string>
 	<string key="mm_stage_devo">Devo</string>
 	<string key="mm_stage_qa">QA</string>
@@ -506,5 +519,6 @@
 	<string key="error_world_select_server_down">Nie można wybrać świata, który podlega pracom konserwacyjnym.</string>
 	<string key="error_loading_assets_title">Błąd wczytywania obiektu gry</string>
 	<string key="error_loading_assets_message">Błąd podczas wczytywania obiektów gry! Sprawdź poprawność instalacji.</string>
+	<string key="ui_musician" rel_version="Feature_MusicalPerformances">Muzyk</string>
 </resources>
 

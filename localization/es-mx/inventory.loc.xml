@@ -22,6 +22,7 @@
 	<string key="inv_cooking">Cocina</string>
 	<string key="inv_furniture">Muebles</string>
 	<string key="inv_outpostrush">Puesto de avanzada</string>
+	<string key="inv_pvparenas">Arenas PvP</string>
 	<string key="inv_crafting_modifiers">Mods creación</string>
 	<string key="inv_repair_kit_count">{count} kit de reparación</string>
 	<string key="inv_repair_kits">Kits de reparación</string>
@@ -90,11 +91,12 @@
 	<string key="inv_repairparts_tooltip_description">Las piezas de repuesto son recursos exclusivos que se usan para reparar objetos.\n\nLas piezas de repuesto no se pueden intercambiar, vender ni comprar. Para recibir más, desarma armas y armaduras que ya no necesites.\n\n&lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#aaaaaa"&gt;Derivado de:&lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#ffffff"&gt; Armas, armadura&lt;/font&gt;</string>
 	<string key="inv_repairparts_tooltip_drivedfrom">Armas y armaduras</string>
 	<string key="inv_azoth_tooltip_drivedfrom">Invasiones de corrupción, misiones</string>
-	<string key="inv_repairparts_nearlimit">&lt;font color="#ff2e2e"&gt;Estás por llegar al límite de piezas de repuesto.&lt;/font&gt;</string>
-	<string key="inv_repairparts_atlimit">&lt;font color="#ff2e2e"&gt;Llegaste al límite de piezas de repuesto.&lt;/font&gt;</string>
+	<string key="inv_repairparts_nearlimit">&lt;font color="#f25d5d"&gt;Estás por llegar al límite de piezas de repuesto.&lt;/font&gt;</string>
+	<string key="inv_repairparts_atlimit">&lt;font color="#f25d5d"&gt;Llegaste al límite de piezas de repuesto.&lt;/font&gt;</string>
 	<string key="inv_repairparts_resources_nearlimit">Si desarmas este objeto, obtendrás {min}-{max} {itemName} y {numRepairParts} piezas de repuesto.</string>
-	<string key="inv_repairparts_resources_atlimit">Si desarmas este objeto, obtendrás {min}-{max} {itemName} y &lt;font color="#ff2e2e"&gt;{numRepairParts} piezas de repuesto.&lt;/font&gt;</string>
+	<string key="inv_repairparts_resources_atlimit">Si desarmas este objeto, obtendrás {min}-{max} {itemName} y &lt;font color="#f25d5d"&gt;{numRepairParts} piezas de repuesto.&lt;/font&gt;</string>
 	<string key="inv_repairparts_onlyrepairparts">Si desarmas este objeto, obtendrás {numRepairParts} piezas de repuesto.</string>
+	<string key="inv_repairparts_onlyrepairparts_withcoin">Si desarmas este objeto obtendrás {numRepairParts} piezas de reparación y {coinAmount}.</string>
 	<string key="salvage_notification_obtained_1">Se obtuvo {entry1}</string>
 	<string key="salvage_notification_obtained_2">Se obtuvo {entry1} y {entry2}</string>
 	<string key="salvage_notification_obtained_3">Se obtuvo {entry1}, {entry2} y {entry3}</string>

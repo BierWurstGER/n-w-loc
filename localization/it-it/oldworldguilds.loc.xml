@@ -236,10 +236,12 @@
 	<string key="owg_pvp_acceptmission_prompt">Accettando una &lt;font color="#eaeaea"&gt;missione PvP&lt;/font&gt; &lt;font color="#eaeaea"&gt;attiverai il PvP&lt;/font&gt;.\nNon puoi disattivare il PvP durante la missione. Per disattivarlo, devi prima abbandonare la missione.\n\nVuoi davvero accettare questa missione?</string>
 	<string key="owg_pvp_cannotacceptmission_title">IMPOSSIBILE ACCETTARE LA MISSIONE</string>
 	<string key="owg_pvp_cannotacceptmission_ingroup">Non puoi accettare una &lt;font color="#eaeaea"&gt;missione PvP&lt;/font&gt; mentre sei in un gruppo PvE che non ti permetterà di attivare il PvP.</string>
-	<string key="owg_pvp_cannotacceptmission_pendinggroupinvite">Non puoi accettare una &lt;font color="#eaeaea"&gt;missione PvP&lt;/font&gt; mentre hai inviti a una lobby che non ti permettono di attivare il PvP.</string>
+	<string key="owg_pvp_cannotacceptmission_pendinggroupinvite">Non puoi accettare una &lt;font color="#eaeaea"&gt;missione PvP&lt;/font&gt; mentre hai inviti al gruppo che non ti permetteranno di attivare il PvP.</string>
 	<string key="owg_pvp_cannotacceptmission_nofaction">Non puoi accettare una &lt;font color="#eaeaea"&gt;missione PvP&lt;/font&gt; finché non ti unisci a una fazione.</string>
 	<string key="owg_pvp_cannotacceptmission_nosanctuary">Non puoi accettare una &lt;font color="#eaeaea"&gt;missione PvP&lt;/font&gt; finché sei in un santuario.</string>
 	<string key="owg_pvp_cannotacceptmission_typeblocked">Non puoi accettare una &lt;font color="#eaeaea"&gt;missione PvP&lt;/font&gt; di questo tipo in questo momento.</string>
+	<string rel_version="Feature_Group_Finder" key="owg_pvp_cannotacceptmission_ingroupfindergroup">Non puoi accettare una &lt;font color="#eaeaea"&gt;missione PvP&lt;/font&gt; mentre sei in una lobby PvE che non ti permetterà di attivare il PvP.</string>
+	<string rel_version="Feature_Group_Finder" key="owg_pvp_cannotacceptmission_pendinggroupfinderapplications">Non puoi accettare una &lt;font color="#eaeaea"&gt;missione PvP&lt;/font&gt; mentre hai inviti a una lobby che non ti permettono di attivare il PvP.</string>
 	<string key="owg_pvp_cannotacceptmission_unknown">Non puoi accettare una &lt;font color="#eaeaea"&gt;missione PvP&lt;/font&gt; in questo momento.</string>
 	<string key="owg_tooltip_warning">Può essere attiva solo 1 missione per volta.</string>
 	<string key="owg_unlock_previous_rank">Grado {rankName} sbloccato</string>
@@ -377,6 +379,7 @@
 	<string key="FactionMission_PRESERVE_desc">Aiuta a portare la buona novella della Scintilla.</string>
 	<string key="FactionMission_EXPEDITIONRAID_title">Fai un'incursione presso: {POITags}</string>
 	<string key="FactionMission_EXPEDITIONRAID_desc">Addentrati nel territorio di {POITags} per conto dei Predoni e sconfiggi ogni &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; che sia necessario. \n\n &lt;font color="#eaeaea"&gt;(Spedizione)&lt;/font&gt;</string>
+	<string key="FactionMission_EXPEDITIONRAID_desc_singular">Addentrati nel territorio di {POITags} per conto dei Predoni e sconfiggi &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;. \n\n &lt;font color="#eaeaea"&gt;(Spedizione)&lt;/font&gt;</string>
 	<string key="FactionMission_EXPEDITIONLOOT_title">Saccheggia presso: {POITags}</string>
 	<string key="FactionMission_EXPEDITIONLOOT_desc">Addentrati nel territorio di {POITags} per conto dei Predoni e raccogli ogni &lt;font color="#eaeaea"&gt;{itemName}&lt;/font&gt; che trovi. \n\n&lt;font color="#eaeaea"&gt;(Spedizione)&lt;/font&gt;</string>
 	<string key="FactionMission_INTERCEPT_title">Domina (PvP)</string>
@@ -387,10 +390,12 @@
 	<string key="FactionMission_C_INTERCEPT_desc">Sconfiggi i membri dell'&lt;font color="#eaeaea"&gt;Unione&lt;/font&gt; o dei &lt;font color="#eaeaea"&gt;Predoni&lt;/font&gt; per purificare le loro anime.\n\n (In questa missione, i progressi vengono mantenuti anche in caso di morte)</string>
 	<string key="FactionMission_S_EXPEDITIONRAID_title">Purifica: {POITags}</string>
 	<string key="FactionMission_S_EXPEDITIONRAID_desc">Addentrati nel territorio di {POITags} per conto dell'Unione e sconfiggi ogni &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; che sia necessario. \n\n &lt;font color="#eaeaea"&gt;(Spedizione)&lt;/font&gt;</string>
+	<string key="FactionMission_S_EXPEDITIONRAID_desc_singular">Addentrati nel territorio di {POITags} per conto dell'Unione e sconfiggi &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;. \n\n &lt;font color="#eaeaea"&gt;(Spedizione)&lt;/font&gt;</string>
 	<string key="FactionMission_S_EXPEDITIONLOOT_title">Fai incetta presso: {POITags}</string>
 	<string key="FactionMission_S_EXPEDITIONLOOT_desc">Addentrati nel territorio di {POITags} per conto dell'Unione e raccogli ogni &lt;font color="#eaeaea"&gt;{itemName}&lt;/font&gt; che trovi.\n\n &lt;font color="#eaeaea"&gt;(Spedizione)&lt;/font&gt;</string>
 	<string key="FactionMission_C_EXPEDITIONRAID_title">Fai una crociata presso: {POITags}</string>
 	<string key="FactionMission_C_EXPEDITIONRAID_desc">Addentrati nel territorio di {POITags} per conto del Patto e sconfiggi ogni &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; che sia necessario.\n\n &lt;font color="#eaeaea"&gt;(Spedizione)&lt;/font&gt;</string>
+	<string key="FactionMission_C_EXPEDITIONRAID_desc_singular">Addentrati nel territorio di {POITags} per conto del Patto e sconfiggi &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;.\n\n &lt;font color="#eaeaea"&gt;(Spedizione)&lt;/font&gt;</string>
 	<string key="FactionMission_C_EXPEDITIONLOOT_title">Rivendica presso: {POITags}</string>
 	<string key="FactionMission_C_EXPEDITIONLOOT_desc">Addentrati nel territorio di {POITags} per conto del Patto e raccogli ogni &lt;font color="#eaeaea"&gt;{itemName}&lt;/font&gt; che trovi.\n\n &lt;font color="#eaeaea"&gt;(Spedizione)&lt;/font&gt;</string>
 	<string key="FactionMission_ASSASSINATE_title">Ottieni una taglia presso: {POITags}</string>
@@ -507,6 +512,25 @@
 	<string key="FactionMission_BREACH_desc" rel_version="Quest_FM_BreachMissions">I Predoni non tollerano che la &lt;font color="#eaeaea"&gt;corruzione&lt;/font&gt; si faccia strada nel nostro territorio.\n\nSe vedi una breccia, chiudila.</string>
 	<string key="FactionMission_S_BREACH_desc" rel_version="Quest_FM_BreachMissions">Ora abbiamo il potere di ostacolare l'avanzata della &lt;font color="#eaeaea"&gt;corruzione&lt;/font&gt;.\n\nChiudi tutte le &lt;font color="#eaeaea"&gt;brecce della corruzione&lt;/font&gt; che vedi.</string>
 	<string key="FactionMission_C_BREACH_desc" rel_version="Quest_FM_BreachMissions">Le &lt;font color="#eaeaea"&gt;brecce della corruzione&lt;/font&gt; minacciano di spegnere la Scintilla\n\nFai di tutto per sgominare ogni breccia che incontri.</string>
-	<string key="CMissionAcquireLeather_Name_WC">Necessari conciatori festivi</string>
+	<string key="CMissionAcquireStoneworker" rel_version="Event_WinterConvergence_Temp">Procurati e consegna: &lt;font color="#eaeaea"&gt;{itemName} (x{itemAmount})&lt;/font&gt; presso un tavolo da tagliapietre.</string>
+	<string key="CMissionAcquireWoodWorker" rel_version="Event_WinterConvergence_Temp">Procurati e consegna: &lt;font color="#eaeaea"&gt;{itemName} (x{itemAmount})&lt;/font&gt; presso una falegnameria.</string>
+	<string key="CMissionAcquireOutfitter" rel_version="Event_WinterConvergence_Temp">Procurati e consegna: &lt;font color="#eaeaea"&gt;{itemName} (x{itemAmount})&lt;/font&gt; presso una postazione di accessoristica.</string>
+	<string key="CMissionAcquireEngineer" rel_version="Event_WinterConvergence_Temp">Procurati e consegna: &lt;font color="#eaeaea"&gt;{itemName} (x{itemAmount})&lt;/font&gt; presso un laboratorio.</string>
+	<string key="CMissionAcquireBlock_Name_SE" rel_version="Event_Summer_Temp">Necessari muratori festivi</string>
+	<string key="CMissionAcquireTimber_Name_SE" rel_version="Event_Summer_Temp">Necessari carpentieri festivi</string>
+	<string key="CMissionAcquireCloth_Name_SE" rel_version="Event_Summer_Temp">Necessari tessitori festivi</string>
+	<string key="CMissionAcquireMetal_Name_SE" rel_version="Event_Summer_Temp">Necessari fabbri festivi</string>
+	<string key="CMissionAcquireFibers_Name_SE" rel_version="Event_Summer_Temp">Necessari mietitori festivi</string>
+	<string key="CMissionAcquireFood_Name_SE" rel_version="Event_Summer_Temp">Necessari cuochi festivi</string>
+	<string key="CMissionAcquirePotions_Name_SE" rel_version="Event_Summer_Temp">Necessari alchimisti festivi</string>
+	<string key="CMissionAcquireGeneric_Name_SE" rel_version="Event_Summer_Temp">Necessarie provviste festive</string>
+	<string key="CMissionAcquireWood_Name_SE" rel_version="Event_Summer_Temp">Necessari taglialegna festivi</string>
+	<string key="CMissionAcquireRawhide_Name_SE" rel_version="Event_Summer_Temp">Necessari cacciatori festivi</string>
+	<string key="CMissionAcquireLeather_Name_SE" rel_version="Event_Summer_Temp">Necessari conciatori festivi</string>
+	<string key="CMissionAcquireStoneworker" rel_version="Event_Summer_Temp">Procurati e consegna: &lt;font color="#eaeaea"&gt;{itemName} (x{itemAmount})&lt;/font&gt; presso un tavolo da tagliapietre.</string>
+	<string key="CMissionAcquireWoodWorker" rel_version="Event_Summer_Temp">Procurati e consegna: &lt;font color="#eaeaea"&gt;{itemName} (x{itemAmount})&lt;/font&gt; presso una falegnameria.</string>
+	<string key="CMissionAcquireOutfitter" rel_version="Event_Summer_Temp">Procurati e consegna: &lt;font color="#eaeaea"&gt;{itemName} (x{itemAmount})&lt;/font&gt; presso una postazione di accessoristica.</string>
+	<string key="CMissionAcquireEngineer" rel_version="Event_Summer_Temp">Procurati e consegna: &lt;font color="#eaeaea"&gt;{itemName} (x{itemAmount})&lt;/font&gt; presso un laboratorio.</string>
+	<string key="CMissionAcquirePaint_Name_SE" rel_version="Event_Summer_Temp">Necessari pittori festivi</string>
 </resources>
 

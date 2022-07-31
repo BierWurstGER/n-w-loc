@@ -22,6 +22,7 @@
 	<string key="inv_cooking">Gotowanie</string>
 	<string key="inv_furniture">Meble</string>
 	<string key="inv_outpostrush">Napad na posterunek</string>
+	<string key="inv_pvparenas">Areny PvP</string>
 	<string key="inv_crafting_modifiers">Modyfikatory wytwarzania</string>
 	<string key="inv_repair_kit_count">Zestaw naprawczy: {count}</string>
 	<string key="inv_repair_kits">Zestawy naprawcze</string>
@@ -90,11 +91,12 @@
 	<string key="inv_repairparts_tooltip_description">Części zamienne to zasoby używane do naprawy przedmiotów.\n\nCzęści zamiennych nie można kupić, sprzedać ani nimi handlować. By zdobyć ich więcej, rozbieraj niepotrzebne elementy pancerza i broń.\n\n&lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#aaaaaa"&gt;Można otrzymać z:&lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#ffffff"&gt;Broń, pancerz&lt;/font&gt;</string>
 	<string key="inv_repairparts_tooltip_drivedfrom">Broń i pancerz</string>
 	<string key="inv_azoth_tooltip_drivedfrom">Wyłomy skażenia, zadania</string>
-	<string key="inv_repairparts_nearlimit">&lt;font color="#ff2e2e"&gt;Prawie osiągnięto limit części zamiennych.&lt;/font&gt;</string>
-	<string key="inv_repairparts_atlimit">&lt;font color="#ff2e2e"&gt;Osiągnięto limit części zamiennych.&lt;/font&gt;</string>
+	<string key="inv_repairparts_nearlimit">&lt;font color="#f25d5d"&gt;Prawie osiągnięto limit części zamiennych.&lt;/font&gt;</string>
+	<string key="inv_repairparts_atlimit">&lt;font color="#f25d5d"&gt;Osiągnięto limit części zamiennych.&lt;/font&gt;</string>
 	<string key="inv_repairparts_resources_nearlimit">Po odzyskaniu tego przedmiotu otrzymasz: {itemName} ({min}–{max}) oraz części zamienne: {numRepairParts}.</string>
-	<string key="inv_repairparts_resources_atlimit">Po odzyskaniu tego przedmiotu otrzymasz: {itemName} ({min}–{max}) oraz &lt;font color="#ff2e2e"&gt;części zamienne: {numRepairParts}.&lt;/font&gt;</string>
+	<string key="inv_repairparts_resources_atlimit">Po odzyskaniu tego przedmiotu otrzymasz: {itemName} ({min}–{max}) oraz &lt;font color="#f25d5d"&gt;części zamienne: {numRepairParts}.&lt;/font&gt;</string>
 	<string key="inv_repairparts_onlyrepairparts">Po odzyskaniu tego przedmiotu otrzymasz części zamienne w liczbie {numRepairParts}.</string>
+	<string key="inv_repairparts_onlyrepairparts_withcoin">Po odzyskaniu tego przedmiotu otrzymasz części zamienne ({numRepairParts}) oraz monety ({coinAmount}).</string>
 	<string key="salvage_notification_obtained_1">Pozyskano: {entry1}</string>
 	<string key="salvage_notification_obtained_2">Pozyskano: {entry1} oraz {entry2}</string>
 	<string key="salvage_notification_obtained_3">Pozyskano: {entry1}, {entry2} oraz {entry3}</string>

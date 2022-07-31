@@ -212,6 +212,9 @@
 	<string key="ui_reserved_binding_openStyleGuide">Abrir Guia de Estilo</string>
 	<string key="ui_reserved_binding_toggleFishingBaitWindow">Alternar Janela de Isca de Pesca</string>
 	<string key="ui_reserved_binding_ui_repairKitItemModifier">Usar Kit de Reparo</string>
+	<string key="ui_reserved_binding_ui_nav_home">Início</string>
+	<string key="ui_reserved_binding_ui_nav_select">Selecionar</string>
+	<string key="ui_reserved_binding_musicalactions_invite_performer">Convite de Artista</string>
 	<string key="ui_chat">Chat</string>
 	<string key="ui_chat_command">Comando do Chat</string>
 	<string key="ui_chat_display_settings">CONFIGURAÇÕES DE EXIBIÇÃO</string>
@@ -289,8 +292,8 @@
 	<string key="ui_hour_with_time_short">1 h</string>
 	<string key="ui_minute_with_time">1 minuto</string>
 	<string key="ui_minute_with_time_short">1 min</string>
-	<string key="ui_lessthan_minute_with_time">&lt; 1 minuto</string>
-	<string key="ui_lessthan_minute_with_time_short">&lt; 1 min</string>
+	<string key="ui_lessthan_minute_with_time">menos de 1 minuto</string>
+	<string key="ui_lessthan_minute_with_time_short">menos de 1min</string>
 	<string key="ui_hours_with_time">{time} horas</string>
 	<string key="ui_hours_with_time_short">{time} h</string>
 	<string key="ui_minutes_with_time">{time} minutos</string>
@@ -299,7 +302,7 @@
 	<string key="ui_seconds_with_time_short">{time} s</string>
 	<string key="ui_lastplayed">Último Acesso</string>
 	<string key="ui_minuteago">há 1 minuto</string>
-	<string key="ui_lessthan_minuteago">&lt;1 minuto atrás</string>
+	<string key="ui_lessthan_minuteago">menos de 1 minuto atrás</string>
 	<string key="ui_minutesago">há {time} minutos</string>
 	<string key="ui_hourago">há 1 hora</string>
 	<string key="ui_hoursago">há {time} horas</string>
@@ -426,6 +429,7 @@
 	<string key="ui_gettingstarted">Começando</string>
 	<string key="ui_global">Global</string>
 	<string key="ui_group">Grupo</string>
+	<string key="ui_groupmode">Modo de Grupo</string>
 	<string key="ui_hairstyle">PENTEADO</string>
 	<string key="ui_eyecolor">COR DOS OLHOS</string>
 	<string key="ui_facemarks">CARACTERÍSTICAS</string>
@@ -451,6 +455,7 @@
 	<string key="ui_interactdetailed">Interagir nº 2</string>
 	<string key="ui_inventory">Inventário</string>
 	<string key="ui_inventoryfull">Inventário Cheio</string>
+	<string key="ui_craftingnearitemlimit">Próximo ao limite de itens do inventário. Itens confeccionados podem ser largados.</string>
 	<string key="ui_inventory_warning_toofullforrewards">Há muitos itens no inventário para receber recompensas.</string>
 	<string key="ui_inventoryslotsremaining">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{count}&lt;/font&gt; espaços de inventário restantes</string>
 	<string key="ui_inventoryweightremaining">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{Weight}&lt;/font&gt; libras restantes</string>
@@ -542,6 +547,13 @@
 	<string key="ui_openmap">Abrir Mapa</string>
 	<string key="ui_openui">Abrir IU</string>
 	<string key="ui_open">Abrir</string>
+	<string key="ui_learn">Aprender</string>
+	<string key="ui_alreadylearned">Já Aprendeu</string>
+	<string key="ui_schematicpopuptitle">Aprendeu Novo Diagrama</string>
+	<string key="ui_recipepopuptitle">Aprendeu Nova Receita</string>
+	<string key="ui_musicpopuptitle">Aprendeu Nova Partitura</string>
+	<string key="ui_craftable">&lt;img src="lyshineui/images/icons/misc/icon_exclamation_white_small" xPadding="0" scale="2.0" yOffset="4"&gt;&lt;/img&gt; Confeccionar item em</string>
+	<string key="ui_craftlocation">{craftable} {craftingStationIcon} {craftingStation}</string>
 	<string key="ui_options">Opções</string>
 	<string key="ui_otherplayername">Nome de outro jogador</string>
 	<string key="ui_output">Resultado</string>
@@ -643,6 +655,16 @@
 	<string key="ui_quickslot_skinning_tooltip">Espaço de Faca de Esfolar</string>
 	<string key="ui_quickslot_pickaxe_tooltip">Espaço de Picareta de Mineração</string>
 	<string key="ui_quickslot_azoth_tooltip">Espaço de Bastão de Azoth</string>
+	<string key="ui_quickslot_flute_tooltip" rel_version="Feature_MusicalPerformances">Espaço de Flauta</string>
+	<string key="ui_quickslot_guitar_tooltip" rel_version="Feature_MusicalPerformances">Espaço de Violão</string>
+	<string key="ui_quickslot_mandolin_tooltip" rel_version="Feature_MusicalPerformances">Espaço de Bandolim</string>
+	<string key="ui_quickslot_bass_tooltip" rel_version="Feature_MusicalPerformances">Espaço de Contrabaixo</string>
+	<string key="ui_quickslot_drums_tooltip" rel_version="Feature_MusicalPerformances">Espaço de Tambor</string>
+	<string key="ui_instrument-flute-slot_name" rel_version="Feature_MusicalPerformances">Flauta</string>
+	<string key="ui_instrument-guitar-slot_name" rel_version="Feature_MusicalPerformances">Violão</string>
+	<string key="ui_instrument-mandolin-slot_name" rel_version="Feature_MusicalPerformances">Bandolim</string>
+	<string key="ui_instrument-uprightbass-slot_name" rel_version="Feature_MusicalPerformances">Contrabaixo</string>
+	<string key="ui_instrument-drums-slot_name" rel_version="Feature_MusicalPerformances">Tambores</string>
 	<string key="ui_buildmode_grid">Grade do Modo Construção</string>
 	<string key="ui_wave">Acenar</string>
 	<string key="ui_inspect_player">Ações Sociais</string>
@@ -678,7 +700,7 @@
 	<string key="ui_confirm_respawn_cooldown">Confirmar renascimento?</string>
 	<string key="ui_confirm_respawn_cooldown_desc">O ponto de renascimento entrará em recarga. Continuar?</string>
 	<string key="ui_respawn_home_location">Casa de {territoryName}</string>
-	<string key="ui_respawn_home_location_unpaid">{territoryName}: Pague o imposto imobiliário para renascer na sua casa.</string>
+	<string key="ui_respawn_home_location_unpaid">{territoryName}: Pague a taxa de manutenção do imóvel para renascer na sua casa.</string>
 	<string key="ui_respawn">Renascer</string>
 	<string key="ui_return_to_aeternum">Voltar para Aeternum</string>
 	<string key="ui_respawnpoints">Pontos de renascimento</string>
@@ -909,14 +931,23 @@
 	<string key="ui_xp_event_title">EVENTO DE IMPULSO DE EXP!</string>
 	<string key="ui_xp_event_desc">O Impulso de EXP Especial está ativo neste mundo!</string>
 	<string key="ui_xp_event_modal_title">IMPULSO DE EXP ATIVADO!</string>
-	<string key="ui_xp_event_modal_desc">Venha aproveitar o glorioso evento de Impulso de EXP! Esta é a chance de aumentar o nível de seus personagens!\nO impulso é ativado em:</string>
-	<string key="ui_xp_event_xp">&lt;font color="#ffcc00" face="lyshineui/fonts/Nimbus_regular.font"&gt;EXP (x {amount})&lt;/font&gt;</string>
-	<string key="ui_xp_event_tradeskill_xp">&lt;font color="#ffcc00" face="lyshineui/fonts/Nimbus_regular.font"&gt;Habilidade Mercante (x {amount})&lt;/font&gt;</string>
-	<string key="ui_xp_event_weaponmastery_xp">&lt;font color="#ffcc00" face="lyshineui/fonts/Nimbus_regular.font"&gt;Maestria em Armas (x {amount})&lt;/font&gt;</string>
-	<string key="ui_xp_event_progression_xp">{progressionName} (x {amount})</string>
+	<string key="ui_xp_event_modal_desc">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Regular.font"&gt;Venha aproveitar o glorioso evento de Impulso de EXP! Esta é a chance de aumentar o nível de seus personagens!\nO impulso é ativado em:&lt;/font&gt;</string>
+	<string key="ui_xp_event_xp">EXP &lt;font color="#ffcc00" face="lyshineui/fonts/Nimbus_Bold.font"&gt;x {amount}&lt;/font&gt;</string>
+	<string key="ui_xp_event_some_tradeskill_xp">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{count}&lt;/font&gt; Habilidades Mercantes</string>
+	<string key="ui_xp_event_some_weaponmastery_xp">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{count}&lt;/font&gt; Maestrias em Armas</string>
+	<string key="ui_xp_event_some_territory_xp">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{count}&lt;/font&gt; Posições de Territórios</string>
+	<string key="ui_xp_event_some_faction_xp">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{count}&lt;/font&gt; Reputação de Facção</string>
+	<string key="ui_xp_event_some_factiontoken_xp">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{count}&lt;/font&gt; Tokens de Facção</string>
+	<string key="ui_xp_event_all_tradeskill_xp">Todas as Habilidades Mercantes</string>
+	<string key="ui_xp_event_all_weaponmastery_xp">Todas as Maestrias em Armas</string>
+	<string key="ui_xp_event_all_territory_xp">Todas as Posições de Territórios</string>
+	<string key="ui_xp_event_all_faction_xp">Toda Reputação de Facção</string>
+	<string key="ui_xp_event_all_factiontoken_xp">Todos os Tokens de Facção</string>
+	<string key="ui_xp_event_progression_xp">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Regular.font"&gt;{progressionName}&lt;/font&gt; &lt;font color="#ffcc00" face="lyshineui/fonts/Nimbus_Bold.font"&gt;x {amount}&lt;/font&gt;</string>
 	<string key="ui_xp_boost_reminder" comment="The leading space is intentional"> ( x {bonus} &lt;img src="lyshineui/images/icons/misc/icon_xp_boost" xPadding="0" scale="1.1" yOffset="0.5"&gt;&lt;/img&gt;)</string>
 	<string key="ui_xp_multiplier_arrow" comment="The leading space is intentional"> x {bonus} &lt;img src="lyshineui/images/icons/misc/icon_xp_boost" xPadding="0" scale="1.1" yOffset="0.5"&gt;&lt;/img&gt;</string>
 	<string key="ui_reached_max_daily_pvp_arena_rewards">Limite de Sal diário atingido na Arena PvP!</string>
+	<string key="ui_reached_max_fort_takeover_rewards">Limite Diário de Recompensas por Tomada do Forte Alcançado!</string>
 	<string key="world_landing_title">O MUNDO ideal foi selecionado para você.</string>
 	<string key="world_set">Conjunto de Mundos?</string>
 	<string key="world_set_title">*O que é um Conjunto de Mundos?</string>
@@ -1263,6 +1294,7 @@
 	<string key="ui_camping_error_not_unlocked">Acampamento bloqueado no momento</string>
 	<string key="ui_bind_to_camp_disabled">Vinculação ao Acampamento desativada</string>
 	<string key="ui_bind_to_camp">Definir Ponto de Retorno de Acampamento</string>
+	<string key="ui_camping_error_poi_restricted_outpost_rush">A montagem de acampamentos é restrita na Investida do Posto Avançado</string>
 	<string key="ui_camping_error_poi_restricted">&lt;img src="lyshineui/images/campingrestrictions/campingRestricted" xPadding="0" scale="2.5" yOffset="15" &gt;&lt;/img&gt; A montagem de acampamentos é restrita em marcos</string>
 	<string key="ui_camp_obstructed">Volte para Concluir</string>
 	<string key="ui_camping_restricted">Acampamento Restrito</string>
@@ -1599,8 +1631,8 @@
 	<string key="ui_loading">Carregando</string>
 	<string key="ui_digital_deluxe">Digital Deluxe</string>
 	<string key="ui_twitch_prime_members">Twitch Prime</string>
-	<string key="ui_remote_house_payment_need_coin">Não é possível pagar os impostos. Moedas insuficientes.</string>
-	<string key="ui_remote_house_payment_unavailable">Não é possível pagar impostos agora. Tente novamente.</string>
+	<string key="ui_remote_house_payment_need_coin">Não é possível pagar a taxa de manutenção. Moedas insuficientes.</string>
+	<string key="ui_remote_house_payment_unavailable">Não é possível pagar a taxa de manutenção agora. Tente novamente.</string>
 	<string key="ui_available_entitlements">&lt;font color="#979081"&gt;{num} Aparências Disponíveis&lt;/font&gt;</string>
 	<string key="ui_entitlements_new_items">Novos Itens.</string>
 	<string key="ui_entitlements">Direitos</string>
@@ -1833,7 +1865,7 @@
 	<string key="ui_vitals_health_tooltip" comment="Use {currentValue} and {maxValue} for the vital's numbers">Saúde\n{currentValue} / {maxValue}\n\nPara &lt;font color="#ffe940"&gt;recuperar&lt;/font&gt; saúde\n- Consuma extratos para recuperá-la rapidamente\n- Consuma alimentos para recuperá-la lentamente ao longo do tempo após um rápido aumento\n\nAprimore a &lt;font color="#ffe940"&gt;Constituição&lt;/font&gt; para aumentar sua saúde máxima.</string>
 	<string key="ui_vitals_stamina_tooltip" comment="Use {currentValue} and {maxValue} for the vital's numbers">Vigor\n{currentValue}/{maxValue}\n\nAções defensivas, como bloquear ou esquivar, consomem vigor e, caso o recurso acabe, você não poderá executar essas ações até recuperá-lo.\n\nO vigor regenera por conta própria ao longo do tempo, a menos que você esteja correndo ou atacando.</string>
 	<string key="ui_vitals_mana_tooltip" comment="Use {currentValue} and {maxValue} for the vital's numbers">Mana\n{currentValue}/{maxValue}\n\nUm recurso misterioso necessário para usar magias. Se ela estiver baixa, você pode não conseguir usar certas habilidades sobrenaturais.\n\nA Mana regenera ao longo do tempo.</string>
-	<string key="ui_vitals_mana_rate_tooltip">A Mana se regenera ao longo do tempo.\n\nAumente a Regeneração de Mana aprimorando o Foco para &lt;font color="#ffe940"&gt;50&lt;/font&gt;</string>
+	<string key="ui_vitals_mana_rate_tooltip">A Mana regenera ao longo do tempo.\n\n 1,5 de Mana por segundo.</string>
 	<string key="ui_vitals_cooldown_tooltip">Reduz o período que você precisa aguardar para usar uma habilidade novamente.</string>
 	<string key="ui_vitals_food_tooltip" comment="Use {currentValue} and {maxValue} for the vital's numbers">Comida\n{currentValue}/{maxValue}\n\nComer aumenta a frequência com que sua saúde se regenera. Se sua comida estiver baixa, a regeneração pode até parar completamente!\n\nVocê não perderá saúde devido à fome. Ela apenas afeta a taxa de regeneração.</string>
 	<string key="ui_vitals_drink_tooltip" comment="Use {currentValue} and {maxValue} for the vital's numbers">Bebida\n{currentValue}/{maxValue}\n\nManter-se hidratado aumenta a frequência com que seu vigor se regenera. Manter isso alto maximiza o seu desempenho.\n\nVocê não perderá vigor devido à sede. Ela apenas afeta a taxa de regeneração.</string>
@@ -1958,6 +1990,7 @@
 	<string key="ui_unlock_third_bag_slot">Espaço da Terceira Bolsa</string>
 	<string key="ui_unlock_pvp_flagging">Sinalização PvP</string>
 	<string key="ui_current_level">Nível Atual</string>
+	<string key="ui_current_gear_score">Pontuação do Equipamento Atual</string>
 	<string key="ui_next_milestone">Próximo Desbloqueio</string>
 	<string key="ui_unlocked">DESBLOQUEADO</string>
 	<string key="ui_attribute_scale">{name}\n\nAumenta com {attribute}</string>
@@ -2168,7 +2201,7 @@
 	<string key="ui_framepersec">FPS:</string>
 	<string key="ui_category">Categoria</string>
 	<string key="ui_common_uses">Usos Comuns:</string>
-	<string key="ui_governing_propertytax">A companhia governante pode coletar imposto imobiliário das casas do assentamento.</string>
+	<string key="ui_governing_propertytax">A companhia governante pode coletar a taxa de manutenção das casas do assentamento.</string>
 	<string key="ui_nameplate_slider">Quantidade de Nomes de Jogadores exibida</string>
 	<string key="ui_nameplate_slider_desc">Aumente ou diminua a quantidade de nomes exibida na tela. AVISO: Quantidades elevadas de nomes em exibição podem afetar severamente a taxa de quadros.</string>
 	<string key="ui_stat_bonus_tooltip">&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;+{amount}&lt;/font&gt; de {attribute}</string>
@@ -2185,9 +2218,9 @@
 	<string key="ui_fishing_very_shallow">Muito raso</string>
 	<string key="ui_fishing_shallow">Raso</string>
 	<string key="ui_fishing_deep">Profundo</string>
-	<string key="ui_fishing_fresh_water_bait">Isca de Água Doce</string>
-	<string key="ui_fishing_salt_water_bait">Isca de Mar</string>
-	<string key="ui_fishing_selected_bait">Isca Selecionada</string>
+	<string key="ui_fishing_fresh_water_bait">Água Fresca</string>
+	<string key="ui_fishing_salt_water_bait">Água Salgada</string>
+	<string key="ui_fishing_selected_bait">Selecionada</string>
 	<string key="ui_fishing_attach_bait">Equipar Isca</string>
 	<string key="ui_fishing_no_bait">Sem Isca</string>
 	<string key="ui_fishing_change_bait">Trocar Isca</string>
@@ -2203,6 +2236,7 @@
 	<string key="ui_fishing_ready">Prepare-se!</string>
 	<string key="ui_start_fishing_instruction">Pescar</string>
 	<string key="ui_no_pole_instruction">Você precisa se equipar com uma vara de pescar para pescar.</string>
+	<string key="ui_no_pole_short">Requer uma Vara de Pescar</string>
 	<string key="ui_pole_broken">A vara de pescar equipada está quebrada.</string>
 	<string key="ui_num_of_hotspots">{num} Locais de Pesca</string>
 	<string key="ui_landed_hotspot">Encontrou um Local de Pesca!</string>
@@ -2241,6 +2275,9 @@
 	<string key="reward_new_recipe">Receita Nova: {name}</string>
 	<string key="tradeskill_required_level">Nv. {skillLevel}</string>
 	<string key="ui_add_summoning_stone">Adicionar Pedra de Invocação</string>
+	<string key="ui_tip_performers" rel_version="Feature_MusicalPerformances">Dar Gorjeta aos Artistas</string>
+	<string key="ui_performance_area" rel_version="Feature_MusicalPerformances">Dar Gorjeta para Receber Buff</string>
+	<string key="ui_performance_area_desc" rel_version="Feature_MusicalPerformances">Dê uma gorjeta em moedas para os artistas no final de sua apresentação para receber um buff.</string>
 	<string key="Siren_Name">a Rainha Sereia</string>
 	<string key="Protector_Name">Avareza</string>
 	<string key="ui_gather_faction_mismatch">Você não pode coletar isso porque não faz parte de {factionName}.</string>
@@ -2291,6 +2328,9 @@
 	<string key="ui_notificationdecline">Recusar Notificação</string>
 	<string key="ui_banneraccept">Aceitar Bandeira</string>
 	<string key="ui_togglepopupoption">Ativar opção de pop-up</string>
+	<string key="ui_quick_salvage_modifier">Sucatear Item Rápido</string>
+	<string key="ui_quick_salvagelock_modifier">Bloquear Sucateio do Item Rápido</string>
+	<string key="ui_quick_repair_modifier">Reparar Item Rápido</string>
 	<string key="ui_dialogue">Diálogo</string>
 	<string key="ui_dialogueoption1">Opção 1</string>
 	<string key="ui_dialogueoption2">Opção 2</string>
@@ -2397,13 +2437,14 @@
 	<string key="ui_treasury_purchase_nw">Adquira o New World para usar a tesouraria da companhia</string>
 	<string key="ui_cannot_chat_global_blocked">Não é possível conversar neste canal até sua conta ter mais de {hoursNeeded} horas e seu tempo de jogo ser maior que {playtimeNeeded}</string>
 	<string key="ui_complete_quests_to_unlock">Conclua jornadas no assentamento para desbloquear</string>
+	<string key="ui_interact_required_level">Você deve estar no nível {level} para usar</string>
 	<string key="ui_cannot_chat_trading_blocked">Para acessar este canal, sua conta deve ter mais do que {hoursNeeded} horas, seu tempo de jogo deve ser maior que {playtimeNeeded} e o Entreposto Comercial deve estar desbloqueado.</string>
 	<string key="ui_averageexpertise">Proficiência\nMédia</string>
 	<string key="ui_averageexpertisetooltip">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Proficiência&lt;/font&gt;\nA Proficiência é usada para medir a potência máxima de um item quando você o tem equipado.\n\n&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Proficiência máxima que você pode alcançar&lt;/font&gt;\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{maximum}&lt;/font&gt;\n\n&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Como aumentar a Proficiência&lt;/font&gt;\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;PDI de Elite e Expedições&lt;/font&gt;\nItens obtidos de criaturas ou baús em áreas de nível acima de 60 têm uma chance de aumentar esse valor.\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_semibold.font"&gt;Confecção&lt;/font&gt;\nConfeccionar um item com uma Pontuação do Equipamento de 600 aumentará a Proficiência desse tipo de item.\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_semibold.font"&gt;Molde de Gipsita&lt;/font&gt;\nAbrir um Molde de Gipsita aumentará a Proficiência.\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_semibold.font"&gt;Aprimorar Item (com Lascas de Umbral)&lt;/font&gt;\nApós atingir 600 de Proficiência, a única maneira de aumentá-la é aprimorando itens com Lascas de Umbral.</string>
 	<string key="ui_itemtypedescription_shield_only">Escudo</string>
 	<string key="ui_expertise_value_with_icon">&lt;img src="lyshineui/images/icons/misc/icon_hwm_small_color" scale="1.5" yOffset="2"&gt;&lt;/img&gt;{value}</string>
 	<string key="ui_expertise_warning_with_icon">&lt;font color="#ff9393"&gt;&lt;img src="lyshineui/images/icons/misc/icon_hwm_small_red" scale="1.5" yOffset="2"&gt;&lt;/img&gt;{value}&lt;/font&gt;</string>
-	<string key="ui_expertise_increased">A Proficiência aumentou!</string>
+	<string key="ui_expertise_increased">+{amount} de Proficiência</string>
 	<string key="ui_expertise_tooltip_header">Proficiência de {category} total</string>
 	<string key="ui_expertise_tooltip_breakdown">(&lt;img src="lyshineui/images/icons/misc/icon_hwm_small_color" scale="1.5" yOffset="2"&gt;&lt;/img&gt;&lt;font color="#c59dff"&gt;{value} &lt;/font&gt; &lt;font color="#ffffff"&gt;+ {additional}&lt;/font&gt; de Aprimoramento de Umbral)</string>
 	<string key="ui_expertise_tooltip_breakdown_multiple">(&lt;img src="lyshineui/images/icons/misc/icon_hwm_small_color" scale="1.5" yOffset="2"&gt;&lt;/img&gt;&lt;font color="#c59dff"&gt;{value} &lt;/font&gt; &lt;font color="#ffffff"&gt;+ {additional}&lt;/font&gt; de Aprimoramentos de Umbral)</string>
@@ -2421,6 +2462,12 @@
 	<string key="ui_fishing_hotspot_depleted_body">Após capturar peixes suficientes em um Local de Pesca, ele se esgotará. Você saberá que um Local de Pesca está esgotado quando não houver mais peixes pulando. Um Local de Pesca esgotado ficará ativo novamente após algum tempo.</string>
 	<string key="ui_fishing_hotspot_active_body">Você saberá que um Local de Pesca está ativo quando vir peixes pulando nele. Enquanto estiver ativo, lançar sua isca no Local de Pesca resultará em fisgadas mais rápidas e peixes mais raros. Ao colocar sua linha corretamente, você verá um pequeno alerta informando que atingiu o Local de Pesca.</string>
 	<string key="ui_event_token_disappears">&lt;font face="lyshineui/fonts/Nimbus_Medium.font" color="#cca000"&gt;Os tokens desaparecerão no final do evento.&lt;/font&gt;</string>
-	<string key="ui_event_time_left">&lt;font face="lyshineui/fonts/Nimbus_Medium.font"&gt;O evento termina em: &lt;font color="#cca000"&gt;{timeLeft}&lt;img src="LyShineUI/Images/Icons/Misc/icon_hourglass.png" xPadding="0" scale="1.1" yOffset="2"&gt;&lt;/img&gt;&lt;/font&gt;&lt;/font&gt;</string>
+	<string key="ui_event_item_disappears">&lt;font face="lyshineui/fonts/Nimbus_Medium.font" color="#cca000"&gt;Este item desaparecerá no final do evento.&lt;/font&gt;</string>
+	<string key="ui_event_time_left">&lt;font face="lyshineui/fonts/Nimbus_Medium.font"&gt;O evento termina em: &lt;font color="#cca000"&gt;{timeLeft}&lt;img src="LyShineUI/Images/Icons/Misc/icon_hourglass_yellow.png" xPadding="0" scale="1.1" yOffset="1"&gt;&lt;/img&gt;&lt;/font&gt;&lt;/font&gt;</string>
+	<string key="ui_event_time_left_compass">O evento termina em &lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{timeLeft}&lt;/font&gt;</string>
+	<string key="attribution_WinterConvergence_2021" rel_version="Event_WinterConvergence_Perm">Convergência de Inverno 2021</string>
+	<string key="attribution_SummerMedleyfaire_2022" rel_version="Event_Summer_Perm">Feira de Variedades do Verão 2022</string>
+	<string key="ui_reset_daily_time">Reinicia diariamente às {time}</string>
+	<string key="ui_reset_weekly_time">Reinicia semanalmente a cada {time}</string>
 </resources>
 

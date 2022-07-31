@@ -543,7 +543,7 @@
 	<string key="BoostVoidAbs_GroupName">Pociones de defensa de vacío</string>
 	<string key="bounty_GroupName">Talismanes</string>
 	<string key="bountymagic_GroupName">Animus vacante</string>
-	<string key="BowA_GroupDesc">Un arma de ataque a distancia versátil que puede disparar flechas rápidamente o extenderse al máximo para causar mucho daño. Es ideal para mantener la distancia mientras utilizas diferentes ataques para estorbar y dañar a los enemigos.\n\n•Extensión corta: Causa un {[DamageTable.BowAttack1.DmgCoef * 100]} % de daño de empuje.\n•Extensión larga: Causa un {[DamageTable.BowAttack2.DmgCoef * 100]} % de daño de empuje.</string>
+	<string key="BowA_GroupDesc">Un arma de ataque a distancia versátil que puede disparar flechas rápidamente o extenderse al máximo para causar mucho daño. Es ideal para mantener la distancia mientras utilizas diferentes ataques para estorbar y dañar a los enemigos.\n\n•Disparo de cadera: Causa un {[DamageTable.BowAttack_Hipshot.DmgCoef * 100]} % de daño de empuje.\n•Extensión corta: Causa un {[DamageTable.BowAttack1.DmgCoef * 100]} % de daño de empuje.\n•Extensión larga: Causa un {[DamageTable.BowAttack2.DmgCoef * 100]} % de daño de empuje.</string>
 	<string key="BowA_GroupName">Arcos</string>
 	<string key="BowA2_GroupName">Arcos</string>
 	<string key="BowB_GroupDesc">A dos manos. Un arma de ataque a distancia que usa flechas. Las flechas deben estar complemente tensas antes de soltarlas para lograr el máximo daño posible.</string>
@@ -728,6 +728,7 @@
 	<string key="ClothT3_GroupName">Tela de nivel 3</string>
 	<string key="ClothT4_GroupName">Tela de nivel 4</string>
 	<string key="ClothT5_GroupName">Tela de nivel 5</string>
+	<string key="ClothT51_GroupName">Tela legendaria</string>
 	<string key="CoatingAncient_GroupDesc">Revestimientos que aumentan el daño contra los antiguos.</string>
 	<string key="CoatingAncient_GroupName">Revestimiento contra los antiguos</string>
 	<string key="CoatingAngryEarth_GroupDesc">Revestimientos que aumentan el daño contra las criaturas terrestres enojadas.</string>
@@ -856,6 +857,7 @@
 	<string key="DungeonReps8_GroupName">NOMBRE PENDIENTE</string>
 	<string key="DungeonReps9_GroupName">Réplicas del corazón de la tempestad</string>
 	<string key="DungeonShields_GroupName">Escudos de expediciones</string>
+	<string key="DungeonReps12_GroupName">Recompensas de expediciones únicas</string>
 	<string key="Dye1_GroupDesc">Elabora un pigmento a partir de varios tonos de color rojo.</string>
 	<string key="Dye1_GroupName">Pigmento rojo</string>
 	<string key="Dye10_GroupDesc">Pigmento ocre oscuro para tu armadura.</string>
@@ -1256,6 +1258,7 @@
 	<string key="LeatherT3_GroupName">Cuero de nivel 3</string>
 	<string key="LeatherT4_GroupName">Cuero de nivel 4</string>
 	<string key="LeatherT5_GroupName">Cuero de nivel 5</string>
+	<string key="LeatherT51_GroupName">Cuero legendario</string>
 	<string key="lightChestA_GroupName">Camisa de duelista fabricada</string>
 	<string key="lightChestAFound_GroupName">Camisa de duelista recuperada</string>
 	<string key="lightChestB_GroupName">Bata de sabio fabricada</string>
@@ -1384,6 +1387,7 @@
 	<string key="MetalT3_GroupName">Metales de nivel 3</string>
 	<string key="MetalT4_GroupName">Metales de nivel 4</string>
 	<string key="MetalT5_GroupName">Metales de nivel 5</string>
+	<string key="MetalT51_GroupName">Metales legendarios</string>
 	<string key="MinerChest_GroupName">Camisa del minero</string>
 	<string key="MinerFeet_GroupName">Botas del minero</string>
 	<string key="MinerHands_GroupName">Guantes del minero</string>
@@ -1742,9 +1746,10 @@
 	<string key="TimberT3_GroupName">Madera de construcción de nivel 3</string>
 	<string key="TimberT4_GroupName">Madera de construcción de nivel 4</string>
 	<string key="TimberT5_GroupName">Madera de construcción de nivel 5</string>
+	<string key="TimberT51_GroupName">Madera de construcción legendaria</string>
 	<string key="TinctureBlight_GroupName">Tinturas de plaga</string>
 	<string key="TinctureCorruption_GroupName">Tinturas de corrupción</string>
-	<string key="Tokens_GroupName">Tokens de Convergencia invernal</string>
+	<string key="Tokens_GroupName">Tokens de evento</string>
 	<string key="TokenCreation_GroupName">Creación de tokens</string>
 	<string key="TokenConversion_GroupName">Conversión</string>
 	<string key="ToolHatchet_GroupDesc">A una mano. Recolecta madera.</string>
@@ -1845,9 +1850,27 @@
 	<string key="SalvageTier5_Name">Trozos de clase V</string>
 	<string key="Salvage">Desarmar trozos</string>
 	<string key="SalvageExtract">Extraer</string>
-	<string key="SalvageCreate">Crear</string>
+	<string key="SalvageCreate">Fabricar</string>
 	<string key="SalvageResearch">Investigar</string>
 	<string key="SalvageCondense">Condensar</string>
 	<string key="AlchemyCritters_GroupName">Bichos de alquimia</string>
+	<string key="SummerMemento" rel_version="Event_Summer_Temp">Recuerdos estivales</string>
+	<string key="MementoStand" rel_version="Event_Summer_Temp">Estantes para recuerdos</string>
+	<string key="SmallMemento" rel_version="Event_Summer_Temp">Pez pequeño de recuerdo</string>
+	<string key="MediumMemento" rel_version="Event_Summer_Temp">Pez mediano de recuerdo</string>
+	<string key="LargeMemento" rel_version="Event_Summer_Temp">Pez grande de recuerdo</string>
+	<string key="Instruments_GroupName" rel_version="Feature_MusicalPerformances">Instrumentos</string>
+	<string key="CategoryData_Instruments" rel_version="Feature_MusicalPerformances">Instrumentos</string>
+	<string key="InstrumentParts_GroupName" rel_version="Feature_MusicalPerformances">Piezas de instrumentos</string>
+	<string key="CategoryData_MusicSheets" rel_version="Feature_MusicalPerformances">Partituras</string>
+	<string key="Flutes_GroupName" rel_version="Feature_MusicalPerformances">Flauta de Azoth</string>
+	<string key="Drums_GroupName" rel_version="Feature_MusicalPerformances">Tambores</string>
+	<string key="Guitars_GroupName" rel_version="Feature_MusicalPerformances">Guitarra</string>
+	<string key="UprightBass_GroupName" rel_version="Feature_MusicalPerformances">Contrabajo</string>
+	<string key="Mandolins_GroupName" rel_version="Feature_MusicalPerformances">Mandolina</string>
+	<string key="DungeonReps11_GroupName" rel_version="Expedition_CutlassKeys_00">Réplicas de percebes y pólvora negra</string>
+	<string key="TerritorySupplies_GroupName">Suministros del territorio</string>
+	<string key="TerritoryContribution_GroupName">Contribuciones del territorio</string>
+	<string key="InstrumentComponents_GroupName" rel_version="Feature_MusicalPerformances">Componentes de instrumentos</string>
 </resources>
 

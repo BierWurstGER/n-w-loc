@@ -236,10 +236,12 @@
 	<string key="owg_pvp_acceptmission_prompt">Accepter une &lt;font color="#eaeaea"&gt;mission JcJ&lt;/font&gt; &lt;font color="#eaeaea"&gt;activera le mode JcJ&lt;/font&gt;.\nVous ne pourrez pas désactiver le mode JcJ pendant cette mission. Pour le désactiver, vous devez d'abord abandonner la mission.\n\nVoulez-vous vraiment accepter cette mission ?</string>
 	<string key="owg_pvp_cannotacceptmission_title">IMPOSSIBLE D'ACCEPTER LA MISSION</string>
 	<string key="owg_pvp_cannotacceptmission_ingroup">Vous ne pouvez pas accepter une &lt;font color="#eaeaea"&gt;mission JcJ&lt;/font&gt; quand vous faites partie d'un groupe JcE qui empêche l'activation du mode JcJ.</string>
-	<string key="owg_pvp_cannotacceptmission_pendinggroupinvite">Vous ne pouvez pas accepter aucune &lt;font color="#eaeaea"&gt;mission JcJ&lt;/font&gt; tant que vous avez des invitations dans le salon qui empêchent l'activation du mode JcJ.</string>
+	<string key="owg_pvp_cannotacceptmission_pendinggroupinvite">Vous ne pouvez pas accepter de &lt;font color="#eaeaea"&gt;mission JcJ&lt;/font&gt; tant que vous avez des invitations de groupe qui empêchent l'activation du mode JcJ.</string>
 	<string key="owg_pvp_cannotacceptmission_nofaction">Vous ne pouvez pas accepter une &lt;font color="#eaeaea"&gt;mission JcJ&lt;/font&gt; sans faire partie d'une faction.</string>
 	<string key="owg_pvp_cannotacceptmission_nosanctuary">Vous ne pouvez pas accepter une &lt;font color="#eaeaea"&gt;mission JcJ&lt;/font&gt; si vous n'êtes pas dans un sanctuaire.</string>
 	<string key="owg_pvp_cannotacceptmission_typeblocked">Vous ne pouvez pas accepter une &lt;font color="#eaeaea"&gt;mission JcJ&lt;/font&gt; de ce type pour le moment.</string>
+	<string rel_version="Feature_Group_Finder" key="owg_pvp_cannotacceptmission_ingroupfindergroup">Vous ne pouvez pas accepter de &lt;font color="#eaeaea"&gt;mission JcJ&lt;/font&gt; lorsque vous êtes dans un salon JcE qui empêche l'activation du mode JcJ.</string>
+	<string rel_version="Feature_Group_Finder" key="owg_pvp_cannotacceptmission_pendinggroupfinderapplications">Vous ne pouvez pas accepter de &lt;font color="#eaeaea"&gt;mission JcJ&lt;/font&gt; tant que vous avez des invitations dans un salon qui empêchent l'activation du mode JcJ.</string>
 	<string key="owg_pvp_cannotacceptmission_unknown">Vous ne pouvez pas accepter une &lt;font color="#eaeaea"&gt;mission JcJ&lt;/font&gt; pour le moment.</string>
 	<string key="owg_tooltip_warning">Une seule mission peut être active à la fois.</string>
 	<string key="owg_unlock_previous_rank">Rang déverrouillé : {rankName}</string>
@@ -377,6 +379,7 @@
 	<string key="FactionMission_PRESERVE_desc">Aidez à transmettre la bonne nouvelle de l'Étincelle.</string>
 	<string key="FactionMission_EXPEDITIONRAID_title">Assaut : {POITags}</string>
 	<string key="FactionMission_EXPEDITIONRAID_desc">Allez à : {POITags} pour le compte des Maraudeurs et venez à bout du moindre &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; qui y rôde. \n\n &lt;font color="#eaeaea"&gt;(Expédition)&lt;/font&gt;</string>
+	<string key="FactionMission_EXPEDITIONRAID_desc_singular">Allez à : {POITags} pour le compte des Maraudeurs et terrassez : &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;. \n\n &lt;font color="#eaeaea"&gt;(Expédition)&lt;/font&gt;</string>
 	<string key="FactionMission_EXPEDITIONLOOT_title">Rapine : {POITags}</string>
 	<string key="FactionMission_EXPEDITIONLOOT_desc">Allez à : {POITags} pour le compte des Maraudeurs et récupérez : &lt;font color="#eaeaea"&gt;{itemName}&lt;/font&gt;. \n\n&lt;font color="#eaeaea"&gt;(Expédition)&lt;/font&gt;</string>
 	<string key="FactionMission_INTERCEPT_title">Domination (JcJ)</string>
@@ -387,10 +390,12 @@
 	<string key="FactionMission_C_INTERCEPT_desc">Éliminez des membres de l'&lt;font color="#eaeaea"&gt;Ombre&lt;/font&gt; ou des &lt;font color="#eaeaea"&gt;Maraudeurs&lt;/font&gt; pour purifier leurs âmes.\n\n(Votre progression est conservée dans cette mission, même si vous mourez.)</string>
 	<string key="FactionMission_S_EXPEDITIONRAID_title">Purger : {POITags}</string>
 	<string key="FactionMission_S_EXPEDITIONRAID_desc">Allez à : {POITags} pour le compte de l'Ombre et venez à bout du moindre &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; qui y rôde. \n\n &lt;font color="#eaeaea"&gt;(Expédition)&lt;/font&gt;</string>
+	<string key="FactionMission_S_EXPEDITIONRAID_desc_singular">Allez à : {POITags} pour le compte de l'Ombre et terrassez : &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;. \n\n &lt;font color="#eaeaea"&gt;(Expédition)&lt;/font&gt;</string>
 	<string key="FactionMission_S_EXPEDITIONLOOT_title">Approvisionnement : {POITags}</string>
 	<string key="FactionMission_S_EXPEDITIONLOOT_desc">Allez à : {POITags} pour le compte de l'Ombre et récupérez : &lt;font color="#eaeaea"&gt;{itemName}&lt;/font&gt;.\n\n &lt;font color="#eaeaea"&gt;(Expédition)&lt;/font&gt;</string>
 	<string key="FactionMission_C_EXPEDITIONRAID_title">Croisade : {POITags}</string>
 	<string key="FactionMission_C_EXPEDITIONRAID_desc">Allez à : {POITags} pour le compte des Engagés et venez à bout du moindre &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; qui y rôde.\n\n &lt;font color="#eaeaea"&gt;(Expédition)&lt;/font&gt;</string>
+	<string key="FactionMission_C_EXPEDITIONRAID_desc_singular">Allez à : {POITags} pour le compte des Engagés et terrassez &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;.\n\n &lt;font color="#eaeaea"&gt;(Expédition)&lt;/font&gt;</string>
 	<string key="FactionMission_C_EXPEDITIONLOOT_title">Récupération : {POITags}</string>
 	<string key="FactionMission_C_EXPEDITIONLOOT_desc">Allez à : {POITags} pour le compte des Engagés et récupérez : &lt;font color="#eaeaea"&gt;{itemName}&lt;/font&gt;.\n\n &lt;font color="#eaeaea"&gt;(Expédition)&lt;/font&gt;</string>
 	<string key="FactionMission_ASSASSINATE_title">Prime : {POITags}</string>
@@ -507,6 +512,25 @@
 	<string key="FactionMission_BREACH_desc" rel_version="Quest_FM_BreachMissions">Les Maraudeurs ne tolèrent pas que l'&lt;font color="#eaeaea"&gt;altération&lt;/font&gt; empiète sur leur territoire.\n\nSi vous voyez un de leurs foyers, scellez-le.</string>
 	<string key="FactionMission_S_BREACH_desc" rel_version="Quest_FM_BreachMissions">Nous avons désormais le pouvoir de neutraliser la progression de l'&lt;font color="#eaeaea"&gt;altération&lt;/font&gt;.\n\nScellez tous les &lt;font color="#eaeaea"&gt;foyers d'altération&lt;/font&gt; que vous voyez.</string>
 	<string key="FactionMission_C_BREACH_desc" rel_version="Quest_FM_BreachMissions">Les &lt;font color="#eaeaea"&gt;foyers d'altération&lt;/font&gt; menacent d'éteindre l'Étincelle.\n\nTâchez de sceller tout foyer que vous trouvez.</string>
-	<string key="CMissionAcquireLeather_Name_WC">Tanneurs festifs requis</string>
+	<string key="CMissionAcquireStoneworker" rel_version="Event_WinterConvergence_Temp">Depuis une table de tailleur de pierre, obtenir et apporter : &lt;font color="#eaeaea"&gt;{itemAmount} x {itemName}&lt;/font&gt;</string>
+	<string key="CMissionAcquireWoodWorker" rel_version="Event_WinterConvergence_Temp">Depuis un atelier de menuiserie, obtenir et apporter &lt;font color="#eaeaea"&gt;{itemAmount} x {itemName}&lt;/font&gt;</string>
+	<string key="CMissionAcquireOutfitter" rel_version="Event_WinterConvergence_Temp">Depuis un poste d'équipement, obtenir et apporter : &lt;font color="#eaeaea"&gt;{itemName} x {itemAmount}&lt;/font&gt;.</string>
+	<string key="CMissionAcquireEngineer" rel_version="Event_WinterConvergence_Temp">Depuis un atelier, obtenir et apporter &lt;font color="#eaeaea"&gt;{itemAmount} {itemName}&lt;/font&gt;</string>
+	<string key="CMissionAcquireBlock_Name_SE" rel_version="Event_Summer_Temp">Tailleurs de pierre festifs requis</string>
+	<string key="CMissionAcquireTimber_Name_SE" rel_version="Event_Summer_Temp">Charpentiers festifs requis</string>
+	<string key="CMissionAcquireCloth_Name_SE" rel_version="Event_Summer_Temp">Tisseurs festifs requis</string>
+	<string key="CMissionAcquireMetal_Name_SE" rel_version="Event_Summer_Temp">Forgerons festifs requis</string>
+	<string key="CMissionAcquireFibers_Name_SE" rel_version="Event_Summer_Temp">Cueilleurs festifs requis</string>
+	<string key="CMissionAcquireFood_Name_SE" rel_version="Event_Summer_Temp">Cuisiniers festifs requis</string>
+	<string key="CMissionAcquirePotions_Name_SE" rel_version="Event_Summer_Temp">Alchimistes festifs requis</string>
+	<string key="CMissionAcquireGeneric_Name_SE" rel_version="Event_Summer_Temp">Matériel festif requis</string>
+	<string key="CMissionAcquireWood_Name_SE" rel_version="Event_Summer_Temp">Bûcherons festifs requis</string>
+	<string key="CMissionAcquireRawhide_Name_SE" rel_version="Event_Summer_Temp">Chasseurs festifs requis</string>
+	<string key="CMissionAcquireLeather_Name_SE" rel_version="Event_Summer_Temp">Tanneurs festifs requis</string>
+	<string key="CMissionAcquireStoneworker" rel_version="Event_Summer_Temp">Depuis une table de tailleur de pierre, obtenir et apporter : &lt;font color="#eaeaea"&gt;{itemAmount} x {itemName}&lt;/font&gt;</string>
+	<string key="CMissionAcquireWoodWorker" rel_version="Event_Summer_Temp">Depuis un atelier de menuiserie, obtenir et apporter &lt;font color="#eaeaea"&gt;{itemAmount} x {itemName}&lt;/font&gt;</string>
+	<string key="CMissionAcquireOutfitter" rel_version="Event_Summer_Temp">Depuis un poste d'équipement, obtenir et apporter : &lt;font color="#eaeaea"&gt;{itemName} x {itemAmount}&lt;/font&gt;.</string>
+	<string key="CMissionAcquireEngineer" rel_version="Event_Summer_Temp">Depuis un atelier, obtenir et apporter &lt;font color="#eaeaea"&gt;{itemAmount} {itemName}&lt;/font&gt;</string>
+	<string key="CMissionAcquirePaint_Name_SE" rel_version="Event_Summer_Temp">Recherche : peintres du festival</string>
 </resources>
 

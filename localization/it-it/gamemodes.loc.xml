@@ -5,11 +5,12 @@
 	<string key="ui_queue_leave_group">Abbandona gruppo</string>
 	<string key="ui_queue_leave_group_confirm_title">Abbandona gruppo</string>
 	<string key="ui_queue_leave_group_confirm_message">Se il numero di membri rimasti è inferiore a {minGroupSize}, il gruppo verrà rimosso dalla coda di accesso.\n\nVuoi procedere?</string>
+	<string key="ui_queue_leave_notification_generic">Non sei più nella coda di accesso della modalità di gioco</string>
 	<string key="ui_queue_ready">F2 per partecipare alla spedizione</string>
 	<string key="ui_game_mode_matchmaking_failed">Si è verificato un errore durante il matchmaking.</string>
 	<string key="ui_game_mode_disabled">Al momento, questa modalità di gioco è disattivata</string>
-	<string key="ui_dungeon_enter_info">Perché la spedizione resti aperta, deve esserci almeno una persona. Vuoi teletrasportartici ora?</string>
-	<string key="ui_dungeon_enter_info_entered">La spedizione è aperta!\nVuoi teletrasportartici ora?</string>
+	<string key="ui_dungeon_enter_info">Perché la spedizione resti aperta deve esserci &lt;font color={color}&gt;almeno 1 persona&lt;/font&gt;. Vuoi teletrasportartici ora?</string>
+	<string key="ui_dungeon_enter_info_entered">La spedizione è aperta!\n&lt;font color={color}&gt;Vuoi teletrasportartici ora?&lt;/font&gt;</string>
 	<string key="ui_duel_player">Sfida a duello</string>
 	<string key="ui_duel_failmessage_invalidname">{playerName} non è un nome giocatore valido.</string>
 	<string key="ui_duel_failmessage_outofrange">Non puoi sfidare a Duello un giocatore a più di {distance} metri di distanza.</string>
@@ -102,7 +103,7 @@
 	<string key="ui_outpost_rush_signup_faildungeon">Non puoi iscriverti perché sei nella coda di una spedizione.</string>
 	<string key="ui_outpost_rush_signup_failevent">Non puoi iscriverti perché stai partecipando a un evento.</string>
 	<string key="ui_outpost_rush_signup_failgeneric">In questo momento non puoi iscriverti.</string>
-	<string key="ui_outpost_rush_signup_failgrouptitle">Impossibile partecipare a Carica all'avamposto</string>
+	<string key="ui_outpost_rush_signup_failgrouptitle">Impossibile partecipare</string>
 	<string key="ui_outpost_rush_signup_failgrouplevel">Tutti i membri del gruppo devono essere almeno di livello {levelRequirement}.</string>
 	<string key="ui_outpost_rush_signup_failgroupwar">Uno o più membri del tuo gruppo hanno effettuato l'iscrizione a una prossima guerra che inizierà entro un'ora.</string>
 	<string key="ui_outpost_rush_signup_failgroupqueue">Uno o più membri del tuo gruppo hanno effettuato l'iscrizione a un altro evento.</string>
@@ -110,6 +111,7 @@
 	<string key="ui_outpost_rush_signup_failgroupoffline">Uno o più membri del tuo gruppo sono offline.</string>
 	<string key="ui_outpost_rush_signup_failgrouppenalty">Uno o più membri del tuo gruppo devono scontare una penalità di tempo per aver abbandonato una precedente partita Carica all'avamposto.</string>
 	<string key="ui_outpost_rush_signup_failgrouptimeout">Uno o più membri del tuo gruppo non hanno risposto all'invito.</string>
+	<string key="ui_outpost_rush_signup_failgroupfinder">Uno o più membri del tuo gruppo sono in una lobby.</string>
 	<string key="ui_outpost_rush_signup_failpenalty">Poiché hai abbandonato una partita in corso, riceverai una penalità</string>
 	<string key="ui_outpost_rush_signup_penaltytimer">Sei stato bloccato per: {time}</string>
 	<string key="ui_outpost_rush_signup_joingroup_desc">Quando il tuo gruppo sarà entrato in coda, non potrai aggiungere altri membri.</string>
@@ -162,7 +164,7 @@
 	<string key="ui_outpost_rush_tutorial_desc4">La Baronessa Hain è il fantasma di una nobile morta da tempo che infesta l'isola. Uccidila per ottenere un prezioso potenziamento che aumenterà la difesa della tua squadra e bloccherà il punteggio del nemico!</string>
 	<string key="ui_outpost_rush_tutorial_level_requirement">È necessario il &lt;font color="#ffe294"&gt;livello giocatore {level}&lt;/font&gt; per partecipare a Carica all'avamposto.</string>
 	<string key="ui_outpost_rush_locked">Bloccato</string>
-	<string key="ui_outpost_rush_select_summoning_stone">Seleziona pietra di evocazione</string>
+	<string key="ui_outpost_rush_select_summoning_stone">Scegli pietra di evocazione</string>
 	<string key="ui_outpost_rush_barrier">Barriera del forte</string>
 	<string key="ui_or_total_score">PUNTEGGIO TOTALE</string>
 	<string key="ui_or_points_from">PUNTI DA</string>
@@ -223,7 +225,7 @@
 	<string key="ui_durability_loss_war">Stai partecipando a un guerra (o a un'invasione), perciò il tuo equipaggiamento non ha subito danni alla morte.</string>
 	<string key="ui_item_durability_loss">Tutto l'equipaggiamento nel tuo inventario ha subito danni alla morte.</string>
 	<string key="ui_item_durability_loss_pvp">Sei stato ucciso da un altro giocatore: il tuo equipaggiamento ha subito danni ridotti.</string>
-	<string key="ui_in_spectators_box">Nella postazione dello spettatore</string>
+	<string key="ui_in_spectators_box">Nella postazione spettatore</string>
 	<string key="ui_in_spectators_box_description">Abilità disattivate</string>
 	<string key="ui_in_spectators_moving_to">Passaggio alla postazione dello spettatore tra {seconds} s</string>
 	<string key="ui_round_number">Round {number}</string>
@@ -232,6 +234,8 @@
 	<string key="ui_begins_in">Inizia tra:</string>
 	<string key="ui_arena_gas_releases_in" comment="gas was replaced with ring of fire in implementation">L'anello di fuoco chiude tra:</string>
 	<string key="ui_arena_gas_released">Anello di fuoco in chiusura</string>
+	<string key="ui_pvp_arena_invite_status">Accetta per partecipare alla battaglia!</string>
+	<string key="ui_pvp_arena_title">Arena 3 vs 3</string>
 	<string key="ui_fight">Combattete!</string>
 	<string key="ui_round_won">Round vinto</string>
 	<string key="ui_round_lost">Round perso</string>

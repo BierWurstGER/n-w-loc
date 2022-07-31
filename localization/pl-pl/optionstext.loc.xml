@@ -107,6 +107,8 @@
 	<string key="ui_streamermode_server_chat_desc">Blokuje wiadomości i powiadomienia</string>
 	<string key="ui_streamermode_server_currency">Blokowanie przekazów monet</string>
 	<string key="ui_streamermode_server_currency_desc">Blokuje przekazy monet i powiadomienia</string>
+	<string key="ui_streamermode_server_music_invite" rel_version="Feature_MusicalPerformances">Zablokuj zaproszenia muzyczne</string>
+	<string key="ui_streamermode_server_music_invite_desc" rel_version="Feature_MusicalPerformances">Zablokuj zaproszenia do występów muzycznych i powiadomienia</string>
 	<string key="ui_voicechatmode">Tryb czatu głosowego</string>
 	<string key="ui_voicechatmode_desc">Aktualny tryb czatu głosowego.</string>
 	<string key="ui_voicechatmode_enabled">Włączony</string>
@@ -215,6 +217,14 @@
 	<string key="ui_restore_defaults_prompt">Czy na pewno chcesz przywrócić ustawienia domyślne tych opcji?</string>
 	<string key="ui_audiooutput_headphones">Słuchawki</string>
 	<string key="ui_audiooutput_speakers">Kino domowe</string>
+	<string key="ui_mute_performance" rel_version="Feature_MusicalPerformances">Wycisz instrumenty muzyczne innych graczy</string>
+	<string key="ui_mute_performance_desc" rel_version="Feature_MusicalPerformances">Wycisz muzykę graną przez innych graczy</string>
+	<string key="ui_mute_combat_music" rel_version="Feature_MusicalPerformances">Wycisz muzykę bojową</string>
+	<string key="ui_mute_combat_music_desc" rel_version="Feature_MusicalPerformances">Wycisz muzykę bojową</string>
+	<string key="ui_mute_secondary_music" rel_version="Feature_MusicalPerformances">Wycisz dodatkowe dźwięki występu</string>
+	<string key="ui_mute_secondary_music_desc" rel_version="Feature_MusicalPerformances">Wycisz klaskanie i dodatkowe efekty występów muzycznych</string>
+	<string key="ui_musicInstrument_volume" rel_version="Feature_MusicalPerformances">Głośność instrumentów muzycznych</string>
+	<string key="ui_musicInstrument_volume_desc" rel_version="Feature_MusicalPerformances">Dostosuj głośność muzyki granej na instrumentach przez pobliskich oraz odległych graczy</string>
 	<string key="ui_outputconfiguration">Konfiguracja wyjścia</string>
 	<string key="ui_outputconfiguration_desc">Wybierz panoramowanie dźwięku w polu o zakresie 360 stopni dla kin domowych lub 180 stopni dla słuchawek.</string>
 	<string key="ui_texttospeech">Synteza mowy</string>

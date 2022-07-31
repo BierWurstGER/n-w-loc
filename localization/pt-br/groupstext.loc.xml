@@ -11,7 +11,9 @@
 	<string key="ui_receivedgroupinvite_hide" comment="">Ocultar</string>
 	<string key="ui_togglepvpblocked_title" comment="">Sinalização de PvP</string>
 	<string key="ui_togglepvpblocked_ingroup" comment="">Jogadores de PvP e PvE não podem ser agrupados. Se alterar sua Sinalização PvP, você será expulso do grupo.\n\nTem certeza de que quer alterar a sinalização PvP?</string>
-	<string key="ui_togglepvpblocked_pendinginvites" comment="">Ao alterar a Sinalização PvP, você rescindirá todos os convites para o saguão de Expedição.\n\nTem certeza de que quer alterar sua Sinalização PvP?</string>
+	<string key="ui_togglepvpblocked_pendinginvites" comment="">Ao alterar a Sinalização PvP, você rescindirá todos os convites de grupo pendentes.\n\nTem certeza de que quer alterar sua Sinalização PvP?</string>
+	<string rel_version="Feature_Group_Finder" key="ui_togglepvpblocked_ingroupfindergroup" comment="">Jogadores de PvP e PvE não podem estar no mesmo saguão. Se alterar sua Sinalização PvP, você será expulso do saguão.\n\nTem certeza de que quer alterar a sinalização PvP?</string>
+	<string rel_version="Feature_Group_Finder" key="ui_togglepvpblocked_pendinggroupfinderapplications" comment="">Ao alterar a Sinalização PvP, você rescindirá todos os convites de saguão pendentes.\n\nTem certeza de que quer alterar sua Sinalização PvP?</string>
 	<string key="ui_receivedwargroupinvitetitle" comment="">Junte-se à guerra!</string>
 	<string key="ui_receivedwargroupinvitemessage" comment="">Você foi convidado para participar da guerra em {territoryName} das {startTime} às {endTime}. Aceite o convite para ser teletransportado para o campo de batalha.</string>
 	<string key="ui_receivedinvasiongroupinvitetitle" comment="">Defenda contra a invasão!</string>
@@ -22,6 +24,7 @@
 	<string key="ui_groupinviteacceptraid" comment="">Aceitou o convite de grupo</string>
 	<string key="ui_groupinvitedeclinesentmessage" comment="">Recusou o convite de grupo de &lt;font color="#ffffff"&gt;{playerName}&lt;/font&gt;.</string>
 	<string key="ui_groupinvitedeclineraid" comment="">Recusou o convite de grupo</string>
+	<string key="ui_groupinvitedeclinerequeue" comment="">Voltou para a fila pois um jogador recusou</string>
 	<string key="ui_groupinvitewithdrawnreceivermessage" comment="">&lt;font color="#ffffff"&gt;{playerName}&lt;/font&gt; cancelou o convite de grupo.</string>
 	<string key="ui_groupinvitewithdrawnreceivermessage_SHE" comment="">&lt;font color="#ffffff"&gt;{playerName}&lt;/font&gt; cancelou o convite de grupo.</string>
 	<string key="ui_groupinvitewithdrawnreceivermessage_THEY" comment="">&lt;font color="#ffffff"&gt;{playerName}&lt;/font&gt; cancelou o convite de grupo.</string>

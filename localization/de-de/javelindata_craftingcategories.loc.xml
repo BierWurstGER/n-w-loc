@@ -543,7 +543,7 @@
 	<string key="BoostVoidAbs_GroupName">Tränke für Unheilverteidigung</string>
 	<string key="bounty_GroupName">Talisman</string>
 	<string key="bountymagic_GroupName">Leerer Lebensgeist</string>
-	<string key="BowA_GroupDesc">Eine vielseitige Fernkampfwaffe, die Feuerpfeile schnell hintereinander abschießen kann oder sich aufladen lässt, um gewaltigen Schaden zu verursachen. Damit kann man großartig auf Distanz bleiben, während man Gegner mit verschiedenen Angriffen behindern und ihnen Schaden zufügen kann.\n\n• Schnellschuss: Verursacht {[DamageTable.BowAttack1.DmgCoef * 100]} % Stichschaden.\n• Voll angespannt: Verursacht {[DamageTable.BowAttack2.DmgCoef * 100]} % Stichschaden.</string>
+	<string key="BowA_GroupDesc">Eine vielseitige Fernkampfwaffe, die Feuerpfeile schnell hintereinander abschießen kann oder sich aufladen lässt, um gewaltigen Schaden zu verursachen. Damit kann man großartig auf Distanz bleiben, während man Gegner mit verschiedenen Angriffen behindern und ihnen Schaden zufügen kann.\n\n• Hüftschuss: Verursacht {[DamageTable.BowAttack_Hipshot.DmgCoef * 100]} % Stichschaden.\n• Schnellschuss: Verursacht {[DamageTable.BowAttack1.DmgCoef * 100]} % Stichschaden.\n• Voll angespannt: Verursacht {[DamageTable.BowAttack2.DmgCoef * 100]} % Stichschaden.</string>
 	<string key="BowA_GroupName">Bögen</string>
 	<string key="BowA2_GroupName">Bögen</string>
 	<string key="BowB_GroupDesc">Zweihändig zu führen. Eine Fernkampfwaffe für den Einsatz mit Pfeilen. Pfeile müssen vollständig eingespannt sein, bevor sie abgeschossen werden können, um maximalen Schaden zu verursachen.</string>
@@ -728,6 +728,7 @@
 	<string key="ClothT3_GroupName">Tuch Rang 3</string>
 	<string key="ClothT4_GroupName">Tuch Rang 4</string>
 	<string key="ClothT5_GroupName">Tuch Rang 5</string>
+	<string key="ClothT51_GroupName">Legendäres Tuch</string>
 	<string key="CoatingAncient_GroupDesc">Die Beschichtungen schützen gegen Schaden der Ahnen.</string>
 	<string key="CoatingAncient_GroupName">Ahnenbeschichtung</string>
 	<string key="CoatingAngryEarth_GroupDesc">Die Beschichtungen schützen gegen Schaden der Zornigen Erdkreaturen.</string>
@@ -856,6 +857,7 @@
 	<string key="DungeonReps8_GroupName">NAME AUSSTEHEND</string>
 	<string key="DungeonReps9_GroupName">Nachbildungen des Herzens des Sturmwinds</string>
 	<string key="DungeonShields_GroupName">Expeditions-Schilde</string>
+	<string key="DungeonReps12_GroupName">Einzigartige Expeditionsbelohnungen</string>
 	<string key="Dye1_GroupDesc">Stelle einen roten Farbton her.</string>
 	<string key="Dye1_GroupName">Farbe: Rot</string>
 	<string key="Dye10_GroupDesc">Farbstoff in Umbrabraun für deine Rüstung.</string>
@@ -1256,6 +1258,7 @@
 	<string key="LeatherT3_GroupName">Leder Rang 3</string>
 	<string key="LeatherT4_GroupName">Leder Rang 4</string>
 	<string key="LeatherT5_GroupName">Leder Rang 5</string>
+	<string key="LeatherT51_GroupName">Legendäres Leder</string>
 	<string key="lightChestA_GroupName">Hergestelltes Duellantenhemd</string>
 	<string key="lightChestAFound_GroupName">Geborgenes Duellantenhemd</string>
 	<string key="lightChestB_GroupName">Hergestellte Weisenrobe</string>
@@ -1384,6 +1387,7 @@
 	<string key="MetalT3_GroupName">Metalle Rang 3</string>
 	<string key="MetalT4_GroupName">Metalle Rang 4</string>
 	<string key="MetalT5_GroupName">Metalle Rang 5</string>
+	<string key="MetalT51_GroupName">Legendäre Metalle</string>
 	<string key="MinerChest_GroupName">Bergarbeiterhemd</string>
 	<string key="MinerFeet_GroupName">Bergarbeiterstiefel</string>
 	<string key="MinerHands_GroupName">Bergarbeiterhandschuhe</string>
@@ -1742,9 +1746,10 @@
 	<string key="TimberT3_GroupName">Bauholz Rang 3</string>
 	<string key="TimberT4_GroupName">Bauholz Rang 4</string>
 	<string key="TimberT5_GroupName">Bauholz Rang 5</string>
+	<string key="TimberT51_GroupName">Legendäres Bauholz</string>
 	<string key="TinctureBlight_GroupName">Fäulnistinkturen</string>
 	<string key="TinctureCorruption_GroupName">Verderbnistinkturen</string>
-	<string key="Tokens_GroupName">Winterkonvergenz-Marken</string>
+	<string key="Tokens_GroupName">Event-Marken</string>
 	<string key="TokenCreation_GroupName">Markenerstellung</string>
 	<string key="TokenConversion_GroupName">Markenumtausch</string>
 	<string key="ToolHatchet_GroupDesc">Einhändig zu führen. Zum Sammeln von Holz.</string>
@@ -1845,9 +1850,27 @@
 	<string key="SalvageTier5_Name">Rang-V-Fetzen</string>
 	<string key="Salvage">Fetzen zerlegen</string>
 	<string key="SalvageExtract">Extrahieren</string>
-	<string key="SalvageCreate">Erstellen</string>
+	<string key="SalvageCreate">Fabrizieren</string>
 	<string key="SalvageResearch">Forschung</string>
 	<string key="SalvageCondense">Kondensieren</string>
 	<string key="AlchemyCritters_GroupName">Alchemiekreaturen</string>
+	<string key="SummerMemento" rel_version="Event_Summer_Temp">Sommer-Andenken</string>
+	<string key="MementoStand" rel_version="Event_Summer_Temp">Andenkenstände</string>
+	<string key="SmallMemento" rel_version="Event_Summer_Temp">Kleine Fischandenken</string>
+	<string key="MediumMemento" rel_version="Event_Summer_Temp">Mittelgroße Fischandenken</string>
+	<string key="LargeMemento" rel_version="Event_Summer_Temp">Große Fischandenken</string>
+	<string key="Instruments_GroupName" rel_version="Feature_MusicalPerformances">Musikinstrumente</string>
+	<string key="CategoryData_Instruments" rel_version="Feature_MusicalPerformances">Musikinstrumente</string>
+	<string key="InstrumentParts_GroupName" rel_version="Feature_MusicalPerformances">Instrumententeile</string>
+	<string key="CategoryData_MusicSheets" rel_version="Feature_MusicalPerformances">Notenblätter</string>
+	<string key="Flutes_GroupName" rel_version="Feature_MusicalPerformances">Azoth-Flöte</string>
+	<string key="Drums_GroupName" rel_version="Feature_MusicalPerformances">Trommeln</string>
+	<string key="Guitars_GroupName" rel_version="Feature_MusicalPerformances">Gitarre</string>
+	<string key="UprightBass_GroupName" rel_version="Feature_MusicalPerformances">Kontrabass</string>
+	<string key="Mandolins_GroupName" rel_version="Feature_MusicalPerformances">Mandoline</string>
+	<string key="DungeonReps11_GroupName" rel_version="Expedition_CutlassKeys_00">Nachbildungen von Seepocken und Schwarzpulver</string>
+	<string key="TerritorySupplies_GroupName">Gebietsvorräte</string>
+	<string key="TerritoryContribution_GroupName">Gebietsbeteiligungen</string>
+	<string key="InstrumentComponents_GroupName" rel_version="Feature_MusicalPerformances">Musikinstrument-Komponenten</string>
 </resources>
 

@@ -77,10 +77,14 @@
 	<string key="ui_not_available">Indisponible</string>
 	<string key="ui_blowhorn">Utiliser la corne</string>
 	<string key="ui_useturret">Utiliser la tourelle</string>
+	<string key="ui_useturret_12MB04_inactivity">Vous avez été retiré(e) pour inactivité.</string>
+	<string key="ui_useturret_12MB04_timeout">Vous utilisez cet objet depuis trop longtemps !</string>
 	<string key="ui_usefiredropper">Utiliser la cuve d'huile brûlante</string>
 	<string key="ui_notification_turret_repair">TOURELLE RÉPARÉE</string>
 	<string key="ui_notification_turret_reload">TOURELLE RECHARGÉE</string>
 	<string key="ui_notification_turret_not_ready">TOURELLE PAS ENCORE PRÊTE</string>
+	<string key="ui_notification_turret_timeout">Vous avez été retiré(e) pour avoir dépassé le nombre d'utilisations maximum.</string>
+	<string key="ui_notification_turret_inactive_timeout">Vous avez été retiré(e) en raison de votre inactivité.</string>
 	<string key="ui_build_structure_menu">Construire la structure</string>
 	<string key="ui_replace_structure_menu">Remplacer la structure</string>
 	<string key="ui_place_structure">Placer la structure</string>
@@ -88,5 +92,14 @@
 	<string key="ui_notification_summoning_stone_placed">PIERRE D'INVOCATION PLACÉE</string>
 	<string key="ui_watcherscampfire">Feu de camp de guetteur</string>
 	<string key="ui_hunterscampfire">Feu de camp de chasseur</string>
+	<string key="ui_interact_tip_coin" rel_version="Feature_MusicalPerformances">{interactionName} {coin} &lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt;</string>
+	<string key="ui_notification_tip_donated" rel_version="Feature_MusicalPerformances">Pourboire donné</string>
+	<string key="ui_any_song_gather">[{keybind}] Interpréter une chanson pour obtenir</string>
+	<string key="ui_song_gather">[{keybind}] Interpréter pour obtenir</string>
+	<string key="ui_restriction_learn_song"/>
+	<string key="ui_restriction_equip_instrument"/>
+	<string key="ui_reset_available_in">Disponible dans {time}</string>
+	<string key="ui_emote_gather">[{keybind}] Utiliser l'émote {tagName} pour obtenir</string>
+	<string key="ui_emotetag_dance">Danse</string>
 </resources>
 

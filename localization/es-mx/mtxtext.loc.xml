@@ -90,7 +90,8 @@
 	<string key="ui_transfer_requirement_not_have_active_orders" rel_version="Feature_MTX">No puedes tener pedidos de compra o venta activos de la tienda de intercambio antes de transferirte</string>
 	<string key="ui_transfer_requirement_minimum_level" rel_version="Feature_MTX">Debes ser de nivel {level} como mínimo antes de transferirte</string>
 	<string key="ui_transfer_requirement_no_houses" rel_version="Feature_MTX">No debes poseer ninguna casa antes de transferirte</string>
-	<string key="ui_transfer_requirement_cooldown" rel_version="Feature_MTX">Debes esperar a que termine el tiempo de recarga para transferirte de nuevo entre regiones.</string>
+	<string key="ui_transfer_requirement_cooldown" rel_version="Feature_MTX">Debes esperar a que termine el tiempo de reutilización para transferirte de nuevo entre mundos o regiones.</string>
+	<string key="ui_transfer_requirement_cooldown_prefix" rel_version="Feature_MTX">&lt;img src="LyShineUI/Images/Icons/Misc/icon_hourglass_yellow.png" xPadding="0" scale="1.1" yOffset="1"&gt;&lt;/img&gt;</string>
 	<string key="ui_item_restrictions" rel_version="Feature_MTX">Restricciones de objetos</string>
 	<string key="ui_item_restrictions_item_skins" rel_version="Feature_MTX">&lt;font face="lyshineui/fonts/nimbus_bold_italic.font" &gt;Los diseños&lt;/font&gt; solo son visibles si se equipa el objeto base. &lt;font face="lyshineui/fonts/nimbus_bold_italic.font" &gt;Los diseños&lt;/font&gt; no se pueden teñir.</string>
 	<string key="ui_item_restrictions_crests" rel_version="Feature_MTX">&lt;font face="lyshineui/fonts/nimbus_bold_italic.font" &gt;Las crestas de las compañías&lt;/font&gt; solo se pueden usar si eres el gobernador (creador) de una compañía.</string>
@@ -122,7 +123,9 @@
 	<string key="ui_disabled_default_description" rel_version="Feature_MTX">Este contenido no está disponible actualmente.</string>
 	<string key="ui_disabled_freeplayer_description" rel_version="Feature_MTX">Compra New World para acceder a la tienda.</string>
 	<string key="ui_preview_emote">Vista previa de emoticono</string>
+	<string key="ui_preview_skin">Previsualizar diseño</string>
 	<string key="ui_end_preview">Finalizar vista previa</string>
+	<string key="ui_preview_item_withname">Vista previa de {itemName}</string>
 	<string key="ui_limited_time">&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;Tiempo limitado&lt;/font&gt;</string>
 	<string key="ui_release_date">Fecha de lanzamiento</string>
 	<string key="ui_price">Precio</string>
@@ -136,6 +139,7 @@
 	<string key="ui_skin_applied">Diseño aplicado a objeto</string>
 	<string key="ui_skins_applied">Diseños aplicados a objetos</string>
 	<string key="ui_purchase_skin">Explorar diseños</string>
+	<string key="ui_shop_tier">NIVEL &lt;font face="lyshineui/fonts/Pica_Italic.font"&gt;&lt;font color="#ffffff"&gt;{number}&lt;/font&gt;&lt;/font&gt;</string>
 	<string key="ui_mtx_coming_soon">¡Próximamente!</string>
 	<string key="ui_button_disabled_dead">No puedes realizar esta acción si estás muerto.</string>
 	<string key="url_refundpolicy_US" comment="This does not need to be translated. It will be the same in all languages so that we can use the right region regardless of language set.">https://www.amazongames.com/en-us/support/new-world/articles/amazon-games-refund-policy</string>
@@ -159,6 +163,7 @@
 	<string key="ui_notification_unlock_desc">Se han añadido objetos a tu cuenta.</string>
 	<string key="ui_notification_unlock_title">Desbloqueado</string>
 	<string key="ui_view_item">Ver objetos</string>
+	<string key="ui_claim_fail_achievementmissing" comment="DO NOT TRANSLATE"/>
 	<string key="ui_claim_fail_alreadyunlocked">Ya obtuviste este derecho.</string>
 	<string key="ui_claim_fail_inventoryfull">No puedes obtener el derecho si tu inventario está lleno. Libera un poco de espacio e inténtalo de nuevo.</string>
 	<string key="ui_claim_fail_transactionerror">Error de transacción. Inténtalo de nuevo.</string>
@@ -804,5 +809,24 @@
 	<string key="Bundle_Tool_SilentDeath_description" rel_version="ToolSkins_SilentDeath_MTX">"Quienes viven de los comercios oscuros también recolectan recursos en la negrura de la noche".</string>
 	<string key="Bundle_Decor_ClassicRPG_name" rel_version="Housing_RPG_MTX_Pack_2022">Conjunto de decoración del tesoro del dragón</string>
 	<string key="Bundle_Decor_ClassicRPG_description" rel_version="Housing_RPG_MTX_Pack_2022">"Un tesoro en el hogar, recuerdo de una gloriosa vida de aventuras".</string>
+	<string key="Apparel_Metal_L_name" rel_version="Apparel_Metal_L">Triturador con púas</string>
+	<string key="Apparel_Metal_L_description" rel_version="Apparel_Metal_L">"Porque no se es duro hasta que se vive duro".</string>
+	<string key="Apparel_Metal_M_name" rel_version="Apparel_Metal_M">Héroe encornado</string>
+	<string key="Apparel_Metal_M_description" rel_version="Apparel_Metal_M">"Conviértete en el héroe acérrimo de la feria de variedades con este estilo intimidante".</string>
+	<string key="Apparel_Metal_H_name" rel_version="Apparel_Metal_H">El diablo que fue a parar a Aeternum</string>
+	<string key="Apparel_Metal_H_description" rel_version="Apparel_Metal_H">"Demuestra que has burlado al mismísimo diablo en un enfrentamiento con violines".</string>
+	<string key="Bundle_Tool_Metal_name" rel_version="ToolSkins_Metal_MTX">Juego de herramientas de metal duro</string>
+	<string key="Bundle_Tool_Metal_description" rel_version="ToolSkins_Metal_MTX">"Para quienes hallan las melodías más crudas en las tareas más simples".</string>
+	<string key="Bundle_Decor_Metal_name" rel_version="Housing_Metal_MTX_Pack_2022">Lote de decoración de metal duro</string>
+	<string key="Bundle_Decor_Metal_description" rel_version="Housing_Metal_MTX_Pack_2022">"Si golpeas la puerta, te golpeará la música que sale de esta casa".</string>
+	<string key="reward_type_Instrumentskin_Flute" rel_version="Instrument_Flute_Metal_MTX">Diseño de flauta de azoth</string>
+	<string key="reward_type_Instrumentskin_Drum" rel_version="Instrument_Drums_Metal_MTX">Diseño de tambores</string>
+	<string key="reward_type_Instrumentskin_Guitar" rel_version="Instrument_Guitar_Metal_MTX">Diseño de guitarra</string>
+	<string key="reward_type_Instrumentskin_UprightBass" rel_version="Instrument_Bass_Metal_MTX">Diseño de contrabajo</string>
+	<string key="reward_type_Instrumentskin_Mandolin" rel_version="Instrument_Mandolin_Metal_MTX">Diseño de mandolina</string>
+	<string key="Bundle_PR_Metal_Instruments_name" rel_version="Entitlements_July_2022">Lote de instrumentos de metal duro</string>
+	<string key="Bundle_PR_Metal_Instruments_description" rel_version="Entitlements_July_2022">"Pon a prueba tus metales".</string>
+	<string key="Bundle_PR_Metal_Megapack_name" rel_version="Entitlements_July_2022">Megapaquete de metal duro</string>
+	<string key="Bundle_PR_Metal_Megapack_description" rel_version="Entitlements_July_2022">"Es difícil soportar el peso de esta música".</string>
 </resources>
 

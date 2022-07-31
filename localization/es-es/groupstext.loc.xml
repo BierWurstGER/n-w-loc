@@ -11,7 +11,9 @@
 	<string key="ui_receivedgroupinvite_hide" comment="">Ocultar</string>
 	<string key="ui_togglepvpblocked_title" comment="">Aviso de activación para JcJ</string>
 	<string key="ui_togglepvpblocked_ingroup" comment="">No puede haber jugadores de JcJ y JcE en un mismo grupo. Cambiar tu activación para JcJ supondrá la expulsión de este grupo.\n\n¿Seguro que quieres continuar?</string>
-	<string key="ui_togglepvpblocked_pendinginvites" comment="">Cambiar tu activación para JcJ supondrá la cancelación de todas tus invitaciones al vestíbulo de la expedición.\n\n¿Seguro que quieres continuar?</string>
+	<string key="ui_togglepvpblocked_pendinginvites" comment="">Cambiar tu activación para JcJ supondrá la cancelación de todas tus invitaciones de grupo pendientes.\n\n¿Seguro que quieres continuar?</string>
+	<string rel_version="Feature_Group_Finder" key="ui_togglepvpblocked_ingroupfindergroup" comment="">No puede haber jugadores de JcJ y JcE en el mismo vestíbulo. Cambiar tu activación para JcJ supondrá la expulsión de este vestíbulo.\n\n¿Seguro que quieres continuar?</string>
+	<string rel_version="Feature_Group_Finder" key="ui_togglepvpblocked_pendinggroupfinderapplications" comment="">Cambiar tu activación para JcJ supondrá la cancelación de todas tus solicitudes al vestíbulo.\n\n¿Seguro que quieres continuar?</string>
 	<string key="ui_receivedwargroupinvitetitle" comment="">¡Únete a la guerra!</string>
 	<string key="ui_receivedwargroupinvitemessage" comment="">Te han invitado a que te unas a la guerra en {territoryName}, que tendrá lugar de {startTime} a {endTime}. Acepta para teletransportarte al campo de batalla.</string>
 	<string key="ui_receivedinvasiongroupinvitetitle" comment="">¡Participa en la defensa contra la invasión!</string>
@@ -22,6 +24,7 @@
 	<string key="ui_groupinviteacceptraid" comment="">Invitación de grupo aceptada</string>
 	<string key="ui_groupinvitedeclinesentmessage" comment="">Has rechazado la invitación de grupo de &lt;font color="#ffffff"&gt;{playerName}&lt;/font&gt;.</string>
 	<string key="ui_groupinvitedeclineraid" comment="">Invitación de grupo declinada</string>
+	<string key="ui_groupinvitedeclinerequeue" comment="">Has vuelto a entrar a la cola porque un jugador ha rechazado la invitación</string>
 	<string key="ui_groupinvitewithdrawnreceivermessage" comment="">&lt;font color="#ffffff"&gt;{playerName}&lt;/font&gt; ha retirado su invitación de grupo.</string>
 	<string key="ui_groupinvitewithdrawnreceivermessage_SHE" comment="">&lt;font color="#ffffff"&gt;{playerName}&lt;/font&gt; ha retirado su invitación de grupo.</string>
 	<string key="ui_groupinvitewithdrawnreceivermessage_THEY" comment="">&lt;font color="#ffffff"&gt;{playerName}&lt;/font&gt; ha retirado su invitación de grupo.</string>

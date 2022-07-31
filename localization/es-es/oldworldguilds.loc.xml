@@ -236,10 +236,12 @@
 	<string key="owg_pvp_acceptmission_prompt">Aceptar una &lt;font color="#eaeaea"&gt;misión JcJ&lt;/font&gt; &lt;font color="#eaeaea"&gt;te activará para JcJ&lt;/font&gt;.\nNo puedes desactivarte de JcJ durante esa misión. Si quieres desactivar JcJ, primero tendrás que abandonar la misión.\n\n¿Seguro que quieres aceptar la misión?</string>
 	<string key="owg_pvp_cannotacceptmission_title">NO PUEDES ACEPTAR LA MISIÓN</string>
 	<string key="owg_pvp_cannotacceptmission_ingroup">No puedes aceptar una &lt;font color="#eaeaea"&gt;misión JcJ&lt;/font&gt; mientras estás en un grupo JcE que no te permite activarte para JcJ.</string>
-	<string key="owg_pvp_cannotacceptmission_pendinggroupinvite">No puedes aceptar una &lt;font color="#eaeaea"&gt;misión JcJ&lt;/font&gt; mientras tienes invitaciones al vestíbulo que no te permiten activarte para JcJ.</string>
+	<string key="owg_pvp_cannotacceptmission_pendinggroupinvite">No puedes aceptar una &lt;font color="#eaeaea"&gt;misión JcJ&lt;/font&gt; mientras tengas invitaciones de grupo que no te permitan activarte para JcJ.</string>
 	<string key="owg_pvp_cannotacceptmission_nofaction">No puedes aceptar una &lt;font color="#eaeaea"&gt;misión JcJ&lt;/font&gt; hasta que te unas a una facción.</string>
 	<string key="owg_pvp_cannotacceptmission_nosanctuary">No puedes aceptar una &lt;font color="#eaeaea"&gt;misión JcJ&lt;/font&gt; hasta que estés en un santuario.</string>
 	<string key="owg_pvp_cannotacceptmission_typeblocked">En este momento no puedes aceptar una &lt;font color="#eaeaea"&gt;misión JcJ&lt;/font&gt; de este tipo.</string>
+	<string rel_version="Feature_Group_Finder" key="owg_pvp_cannotacceptmission_ingroupfindergroup">No puedes aceptar una &lt;font color="#eaeaea"&gt;misión JcJ&lt;/font&gt; mientras estés en un vestíbulo JcE que no te permita activarte para JcJ.</string>
+	<string rel_version="Feature_Group_Finder" key="owg_pvp_cannotacceptmission_pendinggroupfinderapplications">No puedes aceptar una &lt;font color="#eaeaea"&gt;misión JcJ&lt;/font&gt; mientras tengas invitaciones a un vestíbulo que no te permitan activarte para JcJ.</string>
 	<string key="owg_pvp_cannotacceptmission_unknown">En este momento no puedes aceptar una &lt;font color="#eaeaea"&gt;misión JcJ&lt;/font&gt;.</string>
 	<string key="owg_tooltip_warning">Solo puede haber 1 misión activa cada vez.</string>
 	<string key="owg_unlock_previous_rank">Has desbloqueado el rango {rankName}</string>
@@ -377,6 +379,7 @@
 	<string key="FactionMission_PRESERVE_desc">Difunde la buena nueva de la Chispa.</string>
 	<string key="FactionMission_EXPEDITIONRAID_title">Asalta: {POITags}</string>
 	<string key="FactionMission_EXPEDITIONRAID_desc">Adéntrate en {POITags} en nombre de los Saqueadores y derrota a todos los ejemplares de &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; necesarios. \n\n &lt;font color="#eaeaea"&gt;(Expedición)&lt;/font&gt;</string>
+	<string key="FactionMission_EXPEDITIONRAID_desc_singular">Adéntrate en {POITags} en nombre de los Saqueadores y derrota a &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;. \n\n &lt;font color="#eaeaea"&gt;(Expedición)&lt;/font&gt;</string>
 	<string key="FactionMission_EXPEDITIONLOOT_title">Saquea: {POITags}</string>
 	<string key="FactionMission_EXPEDITIONLOOT_desc">Adéntrate en {POITags} en nombre de los Saqueadores y recoge todas las unidades de &lt;font color="#eaeaea"&gt;{itemName}&lt;/font&gt; que haya allí. \n\n&lt;font color="#eaeaea"&gt;(Expedición)&lt;/font&gt;</string>
 	<string key="FactionMission_INTERCEPT_title">Dominar (JcJ)</string>
@@ -387,10 +390,12 @@
 	<string key="FactionMission_C_INTERCEPT_desc">Derrota a miembros del &lt;font color="#eaeaea"&gt;Sindicato&lt;/font&gt; o de los &lt;font color="#eaeaea"&gt;Saqueadores&lt;/font&gt; para purificar sus almas.\n\n (Esta misión mantiene tu progreso incluso tras la muerte).</string>
 	<string key="FactionMission_S_EXPEDITIONRAID_title">Purga: {POITags}</string>
 	<string key="FactionMission_S_EXPEDITIONRAID_desc">Adéntrate en {POITags} en nombre del Sindicato y derrota a todos los ejemplares de &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; necesarios. \n\n &lt;font color="#eaeaea"&gt;(Expedición)&lt;/font&gt;</string>
+	<string key="FactionMission_S_EXPEDITIONRAID_desc_singular">Adéntrate en {POITags} en nombre del Sindicato y derrota a &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;. \n\n &lt;font color="#eaeaea"&gt;(Expedición)&lt;/font&gt;</string>
 	<string key="FactionMission_S_EXPEDITIONLOOT_title">Apodérate de: {POITags}</string>
 	<string key="FactionMission_S_EXPEDITIONLOOT_desc">Adéntrate en {POITags} en nombre del Sindicato y recoge todas las unidades de &lt;font color="#eaeaea"&gt;{itemName}&lt;/font&gt; que haya allí.\n\n &lt;font color="#eaeaea"&gt;(Expedición)&lt;/font&gt;</string>
 	<string key="FactionMission_C_EXPEDITIONRAID_title">Haz una cruzada en: {POITags}</string>
 	<string key="FactionMission_C_EXPEDITIONRAID_desc">Adéntrate en {POITags} en nombre de la Alianza y derrota a todos los ejemplares de &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; necesarios.\n\n &lt;font color="#eaeaea"&gt;(Expedición)&lt;/font&gt;</string>
+	<string key="FactionMission_C_EXPEDITIONRAID_desc_singular">Adéntrate en {POITags} en nombre de la Alianza y derrota a &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;.\n\n &lt;font color="#eaeaea"&gt;(Expedición)&lt;/font&gt;</string>
 	<string key="FactionMission_C_EXPEDITIONLOOT_title">Recupera: {POITags}</string>
 	<string key="FactionMission_C_EXPEDITIONLOOT_desc">Adéntrate en {POITags} en nombre de la Alianza y recoge todas las unidades de &lt;font color="#eaeaea"&gt;{itemName}&lt;/font&gt; que haya allí.\n\n &lt;font color="#eaeaea"&gt;(Expedición)&lt;/font&gt;</string>
 	<string key="FactionMission_ASSASSINATE_title">Botín: {POITags}</string>
@@ -507,6 +512,25 @@
 	<string key="FactionMission_BREACH_desc" rel_version="Quest_FM_BreachMissions">Los Saqueadores no toleramos que la &lt;font color="#eaeaea"&gt;corrupción&lt;/font&gt; se abra camino en nuestro territorio.\n\nSi ves una de sus grietas, ciérrala.</string>
 	<string key="FactionMission_S_BREACH_desc" rel_version="Quest_FM_BreachMissions">Ahora tenemos el poder para impedir el avance de la &lt;font color="#eaeaea"&gt;corrupción&lt;/font&gt;.\n\nCierra todas las &lt;font color="#eaeaea"&gt;grietas de corrupción&lt;/font&gt; que encuentres.</string>
 	<string key="FactionMission_C_BREACH_desc" rel_version="Quest_FM_BreachMissions">Las &lt;font color="#eaeaea"&gt;grietas de corrupción&lt;/font&gt; amenazan con extinguir la Chispa.\n\nIntenta acabar con todas las brechas que encuentres.</string>
-	<string key="CMissionAcquireLeather_Name_WC">Se necesitan curtidores festivos</string>
+	<string key="CMissionAcquireStoneworker" rel_version="Event_WinterConvergence_Temp">Adquiere y entrega &lt;font color="#eaeaea"&gt;{itemAmount} {itemName}&lt;/font&gt; en una mesa de cantería.</string>
+	<string key="CMissionAcquireWoodWorker" rel_version="Event_WinterConvergence_Temp">Adquiere y entrega &lt;font color="#eaeaea"&gt;{itemAmount} {itemName}&lt;/font&gt; en una carpintería.</string>
+	<string key="CMissionAcquireOutfitter" rel_version="Event_WinterConvergence_Temp">Adquiere y entrega &lt;font color="#eaeaea"&gt;{itemAmount} {itemName}&lt;/font&gt; en una estación de equipamiento.</string>
+	<string key="CMissionAcquireEngineer" rel_version="Event_WinterConvergence_Temp">Adquiere y entrega &lt;font color="#eaeaea"&gt;{itemAmount} {itemName}&lt;/font&gt; en un taller de ingeniería.</string>
+	<string key="CMissionAcquireBlock_Name_SE" rel_version="Event_Summer_Temp">Se necesitan canteros festivos</string>
+	<string key="CMissionAcquireTimber_Name_SE" rel_version="Event_Summer_Temp">Se necesitan carpinteros festivos</string>
+	<string key="CMissionAcquireCloth_Name_SE" rel_version="Event_Summer_Temp">Se necesitan tejedores festivos</string>
+	<string key="CMissionAcquireMetal_Name_SE" rel_version="Event_Summer_Temp">Se necesitan herreros festivos</string>
+	<string key="CMissionAcquireFibers_Name_SE" rel_version="Event_Summer_Temp">Se necesitan cosechadores festivos</string>
+	<string key="CMissionAcquireFood_Name_SE" rel_version="Event_Summer_Temp">Se necesitan cocineros festivos</string>
+	<string key="CMissionAcquirePotions_Name_SE" rel_version="Event_Summer_Temp">Se necesitan alquimistas festivos</string>
+	<string key="CMissionAcquireGeneric_Name_SE" rel_version="Event_Summer_Temp">Se necesitan suministros festivos</string>
+	<string key="CMissionAcquireWood_Name_SE" rel_version="Event_Summer_Temp">Se necesitan leñadores festivos</string>
+	<string key="CMissionAcquireRawhide_Name_SE" rel_version="Event_Summer_Temp">Se necesitan cazadores festivos</string>
+	<string key="CMissionAcquireLeather_Name_SE" rel_version="Event_Summer_Temp">Se necesitan curtidores festivos</string>
+	<string key="CMissionAcquireStoneworker" rel_version="Event_Summer_Temp">Adquiere y entrega &lt;font color="#eaeaea"&gt;{itemAmount} {itemName}&lt;/font&gt; en una mesa de cantería.</string>
+	<string key="CMissionAcquireWoodWorker" rel_version="Event_Summer_Temp">Adquiere y entrega &lt;font color="#eaeaea"&gt;{itemAmount} {itemName}&lt;/font&gt; en una carpintería.</string>
+	<string key="CMissionAcquireOutfitter" rel_version="Event_Summer_Temp">Adquiere y entrega &lt;font color="#eaeaea"&gt;{itemAmount} {itemName}&lt;/font&gt; en una estación de equipamiento.</string>
+	<string key="CMissionAcquireEngineer" rel_version="Event_Summer_Temp">Adquiere y entrega &lt;font color="#eaeaea"&gt;{itemAmount} {itemName}&lt;/font&gt; en un taller de ingeniería.</string>
+	<string key="CMissionAcquirePaint_Name_SE" rel_version="Event_Summer_Temp">Se necesitan pintores festivos</string>
 </resources>
 

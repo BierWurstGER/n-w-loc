@@ -107,6 +107,8 @@
 	<string key="ui_streamermode_server_chat_desc">Bloquea los mensajes directos y sus notificaciones</string>
 	<string key="ui_streamermode_server_currency">Bloquear las invitaciones para intercambiar dinero</string>
 	<string key="ui_streamermode_server_currency_desc">Bloquea las invitaciones para intercambiar dinero y sus notificaciones</string>
+	<string key="ui_streamermode_server_music_invite" rel_version="Feature_MusicalPerformances">Bloquear las invitaciones para tocar</string>
+	<string key="ui_streamermode_server_music_invite_desc" rel_version="Feature_MusicalPerformances">Bloquea las invitaciones para tocar en una actuación musical y las notificaciones</string>
 	<string key="ui_voicechatmode">Modo de chat de voz</string>
 	<string key="ui_voicechatmode_desc">Tu modo de chat de voz actual.</string>
 	<string key="ui_voicechatmode_enabled">Activado</string>
@@ -215,6 +217,14 @@
 	<string key="ui_restore_defaults_prompt">¿Seguro que quieres cambiar estas opciones a sus valores por defecto?</string>
 	<string key="ui_audiooutput_headphones">Auriculares</string>
 	<string key="ui_audiooutput_speakers">Cine en casa</string>
+	<string key="ui_mute_performance" rel_version="Feature_MusicalPerformances">Silenciar el instrumento musical de otro jugador</string>
+	<string key="ui_mute_performance_desc" rel_version="Feature_MusicalPerformances">Silencia la música interpretada por otros jugadores</string>
+	<string key="ui_mute_combat_music" rel_version="Feature_MusicalPerformances">Silenciar la música de combate</string>
+	<string key="ui_mute_combat_music_desc" rel_version="Feature_MusicalPerformances">Silencia la música de combate</string>
+	<string key="ui_mute_secondary_music" rel_version="Feature_MusicalPerformances">Silenciar los sonidos secundarios</string>
+	<string key="ui_mute_secondary_music_desc" rel_version="Feature_MusicalPerformances">Silencia los aplausos y los efectos de actuación musical secundarios</string>
+	<string key="ui_musicInstrument_volume" rel_version="Feature_MusicalPerformances">Volumen de instrumentos musicales</string>
+	<string key="ui_musicInstrument_volume_desc" rel_version="Feature_MusicalPerformances">Ajusta el volumen de la música interpretada por jugadores locales y remotos</string>
 	<string key="ui_outputconfiguration">Configuración de salida</string>
 	<string key="ui_outputconfiguration_desc">Alterna entre sonido de 360 grados para el cine en casa o 180 grados para auriculares.</string>
 	<string key="ui_texttospeech">Texto a voz</string>

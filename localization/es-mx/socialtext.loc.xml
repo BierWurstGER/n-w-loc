@@ -157,6 +157,7 @@
 	<string key="ui_p2ptrading_failmessage_additem_restricted">No se puede comerciar con este objeto.</string>
 	<string key="ui_p2ptrading_failmessage_additem_bound">No se puede comerciar con este objeto porque está vinculado a ti.</string>
 	<string key="ui_p2ptrading_failmessage_additem_inventory_only">Solo pueden intercambiarse los objetos del inventario.</string>
+	<string key="ui_p2ptrading_failmessage_exceed_coincap">Con este intercambio, se excederá el límite de {maxAmount} monedas.</string>
 	<string key="ui_p2ptrading_failmessage_offerupdate_invalidlocation">Ubicación de intercambio no válida. Busca otro sitio.</string>
 	<string key="ui_p2ptrading_failmessage_offerupdate_invaliditems">Objetos no válidos.</string>
 	<string key="ui_p2ptrading_failmessage_offerupdate_maxitemsexceeded">Se excedió la cantidad máxima de objetos.</string>
@@ -227,6 +228,7 @@
 	<string key="ui_reportreason_spam">Notificaciones masivas</string>
 	<string key="ui_reportreason_coinselling">Vender monedas</string>
 	<string key="ui_reportreason_botbehavior">Comportamiento de bots</string>
+	<string rel_version="Feature_Group_Finder" key="ui_reportreason_abusive_group_finder_listing">Descripción de sala de espera abusiva</string>
 	<string key="ui_reportreason_abusive_chat_description">Discurso de odio, insultos o crueldad dirigida a uno o más jugadores.</string>
 	<string key="ui_reportreason_abusive_voice_chat_description">Discurso de odio, insultos o crueldad dirigida a uno o más jugadores.</string>
 	<string key="ui_reportreason_cheating_description">Virus o vulnerabilidades usadas para obtener ventaja.</string>
@@ -235,6 +237,7 @@
 	<string key="ui_reportreason_spam_description">Comunicación excesiva de una frase, sin sentido o publicidad.</string>
 	<string key="ui_reportreason_coinselling_description">Adquirir objetos del juego y venderlos por dinero real.</string>
 	<string key="ui_reportreason_botbehavior_description">Juego desatendido: uso de bots, scripts, macros u otras herramientas automatizadas.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_reportreason_abusive_group_finder_listing_description">Discurso de odio, insultos o crueldad en la descripción de una sala de espera.</string>
 	<string key="ui_reportreason_select">Seleccionar un motivo…</string>
 	<string key="ui_reportreason_offensive_guild_name">Nombre de la compañía</string>
 	<string key="ui_reportreason_offensive_guild_description">El nombre de la compañía es ofensivo o poco apropiado.</string>
@@ -379,6 +382,8 @@
 	<string key="ui_trade_cancel">Cancelar</string>
 	<string key="ui_trade_cancel_popup_title">Cancelar intercambio</string>
 	<string key="ui_trade_cancel_popup_text">¿Confirmas que quieres cancelar tu intercambio con {playerName}?</string>
+	<string key="ui_trade_coincap_warning_popup_title">Límite de monedas excedido</string>
+	<string key="ui_trade_coincap_warning_popup_text">Se reembolsarán {refund} monedas a {playerName}. ¿Confirmas que quieres hacer el intercambio?</string>
 	<string key="ui_trade_confirm_currency">Confirmar</string>
 	<string key="ui_trade_item_count">&lt;font color={color}&gt;{count}&lt;/font&gt;/{total} objetos</string>
 	<string key="ui_trade_send_title">Enviar</string>
@@ -409,9 +414,10 @@
 	<string key="ui_subarmy_decline_tooltip">Te han rechazado para unirte al ejército de suscriptores del streamer.</string>
 	<string key="ui_subarmy_waiting">Esperando a la aprobación del streamer...</string>
 	<string key="ui_subarmy_pending">Pendiente...</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_findtabtitle">Encontrar sala de espera</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_managetabtitle">Sala de espera</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_findtabtitle">Buscar grupo</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_managetabtitle">Mi sala de espera</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_creategroup">Crear sala de espera</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pvp_lobby">Sala de espera de PvP</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_refresh">Actualizar</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_screen_header">Buscador de grupo de expedición</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_expeditionname">Nombre de la expedición</string>
@@ -436,6 +442,8 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_apply">Aplicar</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_only_accept">Solo aceptar</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_looking_for">Buscando</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_in_lobby">En sala de espera</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_members_in_lobby">Miembros en sala de espera</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_applicationrejected">Solicitud rechazada</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_groupmembers">Miembros</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_currentmembers">En sala de espera</string>
@@ -456,28 +464,46 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_reject">Rechazar</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_rejected">Rechazado</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_servererror">Error de servidor</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_notfound">No se encontró el grupo</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_notfound">No se pudo encontrar la sala de espera</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_timeout">Expiró la solicitud</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_requestfailed">No se pudo realizar la solicitud</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_invalidrequest">Solicitud no válida</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_pvp_flag_mismatch">Tu marca de PvP no coincide con la de la sala de espera.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_pvp_faction_mismatch">La facción debe ser la misma para una sala de PvP.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_atmaxapplications">No puedes enviar más solicitudes.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_groupfull">La sala de espera está llena</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_convert_to_group_declined">{playerName} rechazó la comprobación de preparación.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_convert_to_group_timeout">Expiró la comprobación de preparación</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_playeroffline">No se puede invitar a {playerName} porque está sin conexión.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_expedition_lobby">Sala de espera de la expedición</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_create_group_title">Crear nueva sala de espera</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_voip_preferred">Preferido</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_voice_chat_preferred">Chat de voz preferido</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_voip_preferred_with_icon">&lt;img src="lyshineui/images/icons/misc/icon_microphone" scale="1.8" xPadding="-2" yOffset="5.0"&gt;&lt;/img&gt; Preferido</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_voip_not_required">No requerido</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_min_level">Nivel mínimo</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_min_gear_score">Puntuación del equipo mínima</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_gear_score_requirement_not_met">No cumples con el requisito de nivel o de puntuación del equipo para unirte a esta sala de espera.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pvp_mismatch_tooltip">Debes tener la misma marca de PvP que la sala de espera.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pvp_faction_mismatch_tooltip">La facción debe ser la misma para la sala de espera de PvP.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_level_unlist_pending_group">Eliminar la sala de espera</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pending">Pendiente...</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pending">Pendiente</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_accepted">Aceptado</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_apply_disabled_your_lobby">Ya estás en esta sala de espera.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_accepted_roles_label">Roles aceptados</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_select_role_label">Seleccionar tu rol</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_your_role_label">Tu rol</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_choose_role_title">Elige tu rol</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_comment_label">Comentar</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_comment_label">Descripción</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_group_list_requirement">{requirement} &lt;font face="lyshineui/fonts/Nimbus_bold.font"&gt;{number}&lt;/font&gt;</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invite_current_group_label">Invitar miembros del grupo actual</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_comment_default">Sala de espera de {playerName}</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_button_confirm">Solicitud para unirse</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_button_cancel_pending">Cancelar solicitud pendiente</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_button_confirm_directinvitation">Unirse</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_button_confirm_disabled_tooltip">Debes seleccionar un rol.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_button_confirm_disabled_none_accepted_tooltip">Debes aceptar al menos 1 rol.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_button_confirm_disabled_tooltip_queue">No puedes solicitar unirte a una sala de espera mientras estás en la cola de un modo de juego.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_required_item_tooltip">Necesitas tener {quantity} {item} para crear una nueva sala de espera para esta expedición.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_current_roles_label">Roles actuales en este grupo</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_current_role_text">&lt;img src="{icon}" scale="2.5" yOffset="8.0"&gt;&lt;/img&gt; {count} {role}</string>
@@ -488,32 +514,43 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_tank_recommended">Espada y escudo, gran hacha, martillo de guerra</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_dps_name">Daño</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_dps_description">La función de este rol es infligir la mayor cantidad de daño posible a la mayor cantidad de enemigos posible. Se encarga de matar a los enemigos antes de que puedan avasallar al grupo. Los encargados de infligir daño deben invertir en habilidades y atributos que se centren en ataques que causen mucho daño y en ataques con área de efecto.</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_dps_recommended">Bastón ígneo, manopla de hielo, hachuela</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_dps_recommended">Trabuco, Arco, Bastón ígneo, Gran hacha, Hachuela, Manopla de hielo, Mosquete, Espada ropera, Lanza, Manopla de vacío</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_healer_name">Sanador</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_healer_description">Los sanadores se encargan de mantener al grupo con vida utilizando potenciaciones de salud y mitigación, como el fortalecimiento. También pueden encargarse de eliminar las despotenciaciones dañinas de los aliados, como el sangrado o el veneno. Los sanadores deben invertir en la estadística de concentración para maximizar la efectividad de su sanación.</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_healer_recommended">Bastón vital</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_healer_recommended">Bastón vital, Manopla de vacío</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_groupcreated">Sala de espera creada</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_groupupdated">Sala de espera actualizada</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_groupremoved">Sala de espera eliminada</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_applicationsubmitted">Solicitud enviada</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_applicationremoved">Solicitud eliminada</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_allapplicationsremoved">Todas las solicitudes eliminadas</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_applicationaccepted">Invitación enviada</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_applicationrejected">Solicitud rechazada</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_applicationaccepted">Invitación para unirse a la sala de espera enviada</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_application_requested">&lt;font color={color}&gt;{playername}&lt;/font&gt; ha solicitado unirse a tu sala de espera.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_request_throttled">Hay demasiadas solicitudes, espera un momento y vuelve a intentarlo.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_application_accepted_title">Solicitud aceptada</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_application_accepted">&lt;font color={creatorColor}&gt;{creator}&lt;/font&gt; te ha invitado para que seas &lt;img src="{icon}" scale="2.2" yOffset="7"&gt;&lt;/img&gt;</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_application_accepted_directinvitation">{creator} te invitó a unirte a:\n&lt;font color="#85e74c" &gt;[{expedition}]&lt;/font&gt;</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_group_ready_check_title">Formar grupo de expedición</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_group_ready_check">¿Tienes todo listo para iniciar la expedición?</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_accept">Aceptar</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_decline">Rechazar</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_requirements">Requisitos</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_sorted_by">Ordenados por</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_time_posted">Hora de publicación</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_join_with_group">Abrir la expedición con tu grupo</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_difficulty_locked">Tienes que desbloquear este nivel de dificultad para crear una nueva sala de espera.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_decline">Rechazar</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationaccepted">Invitación aceptada</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationdeclined">Invitación rechazada</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_memberadded">Miembro añadido al listado de grupo</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_memberupdated">Miembro del listado de grupo actualizado</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_memberremoved">Miembro eliminado del listado de grupo</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_directinvite">Invitar a sala de espera</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_directinvite_tooltip_not_creator">Solo el creador de la sala de espera puede invitar.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_directinvite_tooltip_already_in_group">{player} ya está en tu sala de espera.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_directinvite_tooltip_group_full">Tu sala de espera está llena.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_directinvite_tooltip_pvp_wrong_faction">La facción debe ser la misma para la sala de espera de PvP.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_memberadded">Invitación para unirse a la sala de espera enviada</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_memberupdated">Miembro en la sala de espera actualizado</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_memberremoved_result">Miembro eliminado de la sala de espera</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_memberremoved">Se eliminó a &lt;font color={color}&gt;{playername}&lt;/font&gt; del grupo</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_queue_hud_looking_for_more">Buscando más miembros...</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_outpost_rush_signup_fail">No puedes registrarte mientras estás en una sala de espera.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_dungeon_queue_signup_fail">No puedes entrar a la cola de la expedición mientras estás en una sala de espera.</string>
@@ -528,25 +565,61 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_member_stat_mastery">&lt;font face="lyshineui/fonts/Nimbus_Semibold.font" color="#ffffff"&gt;{value}&lt;/font&gt; {name}</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_none_equipped">No hay armas equipadas</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_member_list_creator">Creador</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_voice">Voz</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pending_group">Sala de espera</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_manage_group">Administrar</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_ready_title">¡Listo!</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_ready_waiting">Esperando a otros jugadores…</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_view_group">Ver</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_popup_conflict_leave_lobby_title">Salir de la sala de espera</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_popup_conflict_leave_lobby_desc">¿Confirmas la acción? Si aceptas, saldrás de tu sala de espera actual.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_popup_conflict_leave_queue_title">Abandonar la cola</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_popup_conflict_leave_queue_desc">¿Confirmas la acción? Si aceptas, saldrás de tu cola actual.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_popup_conflict_rescind_applications_title">Anular solicitudes</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_popup_conflict_rescind_applications_desc">¿Confirmas la acción? Si aceptas, se anularán todas tus solicitudes de sala de espera pendientes.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_tooltip_leave_group_title">Salir de la sala de espera</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_tooltip_leave_group_desc">¿Confirmas que quieres salir de esta sala de espera?</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_tooltip_remove_from_group_title">Eliminar miembro</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_tooltip_remove_from_group_desc">¿Confirmas que quieres expulsar a {playerName} de tu sala de espera?</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_kicked_from_group">Fuiste expulsado de la sala de espera.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_tooltip_unlist_group_title">Eliminar la sala de espera</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_tooltip_unlist_group_desc">¿Confirmas que quieres eliminar tu sala de espera?\n\nTodos los miembros serán expulsados.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_create_lobby_leave_lobby">Debes salir de tu sala de espera actual para poder crear una nueva.\n\n¿Confirmas que quieres salir de tu sala de espera actual?</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_create_lobby_delete_lobby">Debes eliminar tu sala de espera actual para poder crear una nueva. ¿Confirmas que quieres eliminar tu sala de espera actual?\n\nTodos los miembros serán expulsados.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_create_lobby_leave_queue">Debes salir de la cola del modo de juego en la que te encuentras actualmente para poder crear una nueva sala de espera.\n\n¿Confirmas que quieres salir de la cola en la que te encuentras actualmente?</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_join_lobby_leave_lobby">Debes salir de tu sala de espera actual para poder solicitar unirte a esta.\n\n¿Confirmas que quieres salir de tu sala de espera actual?</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_join_lobby_delete_lobby">Debes salir de tu sala de espera actual para poder solicitar unirte a esta. ¿Confirmas que quieres eliminar tu sala de espera actual?\n\nTodos los miembros serán expulsados.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_tooltip_leave_and_unlist_group_desc">¿Confirmas que quieres eliminar la sala de espera?\n\nTodos los miembros serán expulsados.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invite_reject">Solo el creador de la sala de espera puede invitar miembros o rechazar solicitudes de miembro.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pending_group_invites_header">Invitaciones a salas de espera</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pending_group_description">&lt;font color="#ffea00" &gt;{creator}&lt;/font&gt; te ha invitado para que seas &lt;font color={roleColor} &gt;{role}&lt;/font&gt;</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pending_group_description_directinvitation">&lt;font color="#ffea00" &gt;{creator}&lt;/font&gt; te ha invitado</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_convert_to_group">Listo para la expedición</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_start_expedition">Inicio</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_tooltip_not_enough_members">No hay miembros suficientes en la sala de espera</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_difficulty_label">Dificultad</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_appended_difficulty">Dificultad {difficulty}</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_appended_difficulty_queue_hud">Dificultad &lt;font face="lyshineui/fonts/Nimbus_Semibold.font"&gt;{difficulty}&lt;/font&gt;</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_min_level_desc">Tu nivel: {level}\nEl nivel mínimo no puede superar tu nivel.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_min_gear_score_desc">Puntuación de tu equipo: {gearscore}\nLa puntuación del equipo mínima no puede superar la puntuación de tu equipo.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_comment_format">"{text}"</string>
+	<string rel_version="Feature_Group_Finder" key="ui_chat_name_group_finder_group">Sala de espera</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_lobbies_header">Salas de espera</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_time_ago">Hace {time}</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_posted_time_ago">Publicado hace {time}</string>
+	<string rel_version="Feature_Group_Finder" key="ui_chat_name_group_finder_group_upper">SALA DE ESPERA</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_chat_button">Abrir chat de la sala de espera</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_your_lobby">Tu sala de espera</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_created_by">de {creator}</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_chat_lobby_created">{playerName} creó la sala de espera.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_chat_lobby_joined">{playerName} se unió a la sala de espera.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_chat_lobby_left">{playerName} abandonó la sala de espera.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_error_group_finder_group_chat" comment="An error when you try to talk in group finder group chat">No estás en ninguna sala de espera</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_create_limit_title">No se puede crear sala de espera</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_create_limit_desc_regular">Los siguientes miembros del grupo alcanzaron su límite diario de expediciones regulares y no pueden unirse a esta sala de espera.\n\n&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{characters}&lt;/font&gt;\n&lt;font color={dateColor}&gt;(Se pueden unir el {date})&lt;/font&gt;</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_create_limit_desc_mutated">Los siguientes miembros del grupo alcanzaron su límite semanal de expediciones mutadas y no pueden unirse a esta sala de espera.\n\n&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{characters}&lt;/font&gt;\n&lt;font color={dateColor}&gt;(Se pueden unir el {date})&lt;/font&gt;</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_limit_refresh">(Se restablece el {date})</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pending_invites_single">&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;1&lt;/font&gt; invitación pendiente</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pending_invites">&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{amount}&lt;/font&gt; invitaciones pendientes</string>
 </resources>
 

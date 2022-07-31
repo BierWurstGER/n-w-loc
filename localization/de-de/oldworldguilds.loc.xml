@@ -236,10 +236,12 @@
 	<string key="owg_pvp_acceptmission_prompt">Wenn du eine &lt;font color="#eaeaea"&gt;PvP-Mission&lt;/font&gt; annimmst, wirst du automatisch für &lt;font color="#eaeaea"&gt;den PvP-Modus markiert&lt;/font&gt;.\nWährend dieser Mission kann die Markierung nicht aufgehoben werden. Um die Markierung aufzuheben, muss zuerst die Mission abgebrochen werden.\n\nBist du sicher, dass du diese Mission annehmen möchtest?</string>
 	<string key="owg_pvp_cannotacceptmission_title">MISSION AKZEPTIEREN NICHT MÖGLICH</string>
 	<string key="owg_pvp_cannotacceptmission_ingroup">Du kannst keine &lt;font color="#eaeaea"&gt;PvP-Missionen&lt;/font&gt; annehmen, solange du dich in einer PvE-Gruppe befindest, in der die Aktivierung der PvP-Markierung nicht gestattet ist.</string>
-	<string key="owg_pvp_cannotacceptmission_pendinggroupinvite">Du kannst keine &lt;font color="#eaeaea"&gt;PvP-Missionen&lt;/font&gt; annehmen, solange du ausstehende Lobby-Einladungen hast, die die Aktivierung der PvP-Markierung verhindern.</string>
+	<string key="owg_pvp_cannotacceptmission_pendinggroupinvite">Du kannst keine &lt;font color="#eaeaea"&gt;PvP-Missionen&lt;/font&gt; annehmen, solange du Gruppeneinladungen hast, die die Aktivierung der PvP-Markierung verhindern.</string>
 	<string key="owg_pvp_cannotacceptmission_nofaction">Du kannst erst eine &lt;font color="#eaeaea"&gt;PvP-Mission&lt;/font&gt; annehmen, wenn du einer Fraktion beigetreten bist.</string>
 	<string key="owg_pvp_cannotacceptmission_nosanctuary">Du kannst erst eine &lt;font color="#eaeaea"&gt;PvP-Mission&lt;/font&gt; annehmen, wenn du dich in einer Zufluchtsstätte befindest.</string>
 	<string key="owg_pvp_cannotacceptmission_typeblocked">Du kannst derzeit keine &lt;font color="#eaeaea"&gt;PvP-Missionen&lt;/font&gt; dieses Typs annehmen.</string>
+	<string rel_version="Feature_Group_Finder" key="owg_pvp_cannotacceptmission_ingroupfindergroup">Du kannst keine &lt;font color="#eaeaea"&gt;PvP-Missionen&lt;/font&gt; annehmen, solange du dich in einer Lobby befindest, in der die Aktivierung der PvP-Markierung nicht gestattet ist.</string>
+	<string rel_version="Feature_Group_Finder" key="owg_pvp_cannotacceptmission_pendinggroupfinderapplications">Du kannst keine &lt;font color="#eaeaea"&gt;PvP-Missionen&lt;/font&gt; annehmen, solange du ausstehende Lobby-Einladungen hast, die die Aktivierung der PvP-Markierung verhindern.</string>
 	<string key="owg_pvp_cannotacceptmission_unknown">Du kannst derzeit keine &lt;font color="#eaeaea"&gt;PvP-Missionen&lt;/font&gt; annehmen.</string>
 	<string key="owg_tooltip_warning">Du kannst nur eine Mission gleichzeitig bearbeiten.</string>
 	<string key="owg_unlock_previous_rank">Rang {rankName} freigeschaltet</string>
@@ -377,6 +379,7 @@
 	<string key="FactionMission_PRESERVE_desc">Überbringe die frohe Botschaft des Funkens.</string>
 	<string key="FactionMission_EXPEDITIONRAID_title">Raubzug: {POITags}</string>
 	<string key="FactionMission_EXPEDITIONRAID_desc">Begib dich für die Marodeure nach {POITags} und bezwinge alle &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; dort. \n\n &lt;font color="#eaeaea"&gt;(Expedition)&lt;/font&gt;</string>
+	<string key="FactionMission_EXPEDITIONRAID_desc_singular">Begib dich für die Marodeure nach {POITags} und bezwinge &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;. \n\n &lt;font color="#eaeaea"&gt;(Expedition)&lt;/font&gt;</string>
 	<string key="FactionMission_EXPEDITIONLOOT_title">Plündere: {POITags}</string>
 	<string key="FactionMission_EXPEDITIONLOOT_desc">Begib dich für die Marodeure nach {POITags} und sammle dort alle &lt;font color="#eaeaea"&gt;{itemName}&lt;/font&gt;. \n\n&lt;font color="#eaeaea"&gt;(Expedition)&lt;/font&gt;</string>
 	<string key="FactionMission_INTERCEPT_title">Dominieren (PvP)</string>
@@ -387,10 +390,12 @@
 	<string key="FactionMission_C_INTERCEPT_desc">Bezwinge Mitglieder des &lt;font color="#eaeaea"&gt;Syndikats&lt;/font&gt; oder der &lt;font color="#eaeaea"&gt;Marodeure&lt;/font&gt;, um ihre Seelen zu reinigen.\n\n (Diese Mission zählt zum Fortschritt, auch wenn du stirbst)</string>
 	<string key="FactionMission_S_EXPEDITIONRAID_title">Läutere: {POITags}</string>
 	<string key="FactionMission_S_EXPEDITIONRAID_desc">Begib dich für das Syndikat nach {POITags} und bezwinge alle &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;. \n\n &lt;font color="#eaeaea"&gt;(Expedition)&lt;/font&gt;</string>
+	<string key="FactionMission_S_EXPEDITIONRAID_desc_singular">Begib dich für das Syndikat nach {POITags} und bezwinge &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;. \n\n &lt;font color="#eaeaea"&gt;(Expedition)&lt;/font&gt;</string>
 	<string key="FactionMission_S_EXPEDITIONLOOT_title">Beschaffe: {POITags}</string>
 	<string key="FactionMission_S_EXPEDITIONLOOT_desc">Begib dich für das Syndikat nach {POITags} und sammle dort alle &lt;font color="#eaeaea"&gt;{itemName}&lt;/font&gt;.\n\n &lt;font color="#eaeaea"&gt;(Expedition)&lt;/font&gt;</string>
 	<string key="FactionMission_C_EXPEDITIONRAID_title">Kreuzzug: {POITags}</string>
 	<string key="FactionMission_C_EXPEDITIONRAID_desc">Begib dich für das Bündnis nach {POITags} und bezwinge alle &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;.\n\n &lt;font color="#eaeaea"&gt;(Expedition)&lt;/font&gt;</string>
+	<string key="FactionMission_C_EXPEDITIONRAID_desc_singular">Begib dich für das Bündnis nach {POITags} und bezwinge &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;.\n\n &lt;font color="#eaeaea"&gt;(Expedition)&lt;/font&gt;</string>
 	<string key="FactionMission_C_EXPEDITIONLOOT_title">Birg: {POITags}</string>
 	<string key="FactionMission_C_EXPEDITIONLOOT_desc">Begib dich für das Bündnis nach {POITags} und sammle dort alle &lt;font color="#eaeaea"&gt;{itemName}&lt;/font&gt;.\n\n &lt;font color="#eaeaea"&gt;(Expedition)&lt;/font&gt;</string>
 	<string key="FactionMission_ASSASSINATE_title">Kopfgeld: {POITags}</string>
@@ -507,6 +512,25 @@
 	<string key="FactionMission_BREACH_desc" rel_version="Quest_FM_BreachMissions">Marodeure erdulden es nicht, dass die &lt;font color="#eaeaea"&gt;Verderbnis&lt;/font&gt; in unsere Gebiete eindringt.\n\nWenn du einen Ausbruch siehst, verschließe ihn wieder.</string>
 	<string key="FactionMission_S_BREACH_desc" rel_version="Quest_FM_BreachMissions">Wir haben nun die Macht, das Vordringen der &lt;font color="#eaeaea"&gt;Verderbnis&lt;/font&gt; zu verhindern.\n\nVersiegle alle &lt;font color="#eaeaea"&gt;Verderbnisausbrüche&lt;/font&gt;, die du siehst.</string>
 	<string key="FactionMission_C_BREACH_desc" rel_version="Quest_FM_BreachMissions">Die &lt;font color="#eaeaea"&gt;Verderbnisausbrüche&lt;/font&gt; drohen den Funken auszulöschen\n\nDu musst jeden Ausbruch, den du findest, vernichten.</string>
-	<string key="CMissionAcquireLeather_Name_WC">Festliche Gerber gesucht</string>
+	<string key="CMissionAcquireStoneworker" rel_version="Event_WinterConvergence_Temp">Erhalte und liefere &lt;font color="#eaeaea"&gt;{itemAmount} {itemName}&lt;/font&gt; von einem Steinmetztisch.</string>
+	<string key="CMissionAcquireWoodWorker" rel_version="Event_WinterConvergence_Temp">Erhalte und liefere &lt;font color="#eaeaea"&gt;{itemAmount} {itemName}&lt;/font&gt; von einer Holzwerkstatt.</string>
+	<string key="CMissionAcquireOutfitter" rel_version="Event_WinterConvergence_Temp">Erhalte und liefere &lt;font color="#eaeaea"&gt;{itemAmount} {itemName}&lt;/font&gt; von der Kleidermacherei.</string>
+	<string key="CMissionAcquireEngineer" rel_version="Event_WinterConvergence_Temp">Erhalte und liefere &lt;font color="#eaeaea"&gt;{itemAmount} {itemName}&lt;/font&gt; von der Werkstatt.</string>
+	<string key="CMissionAcquireBlock_Name_SE" rel_version="Event_Summer_Temp">Festliche Steinmetze gesucht</string>
+	<string key="CMissionAcquireTimber_Name_SE" rel_version="Event_Summer_Temp">Festliche Zimmermänner gesucht</string>
+	<string key="CMissionAcquireCloth_Name_SE" rel_version="Event_Summer_Temp">Festliche Weber gesucht</string>
+	<string key="CMissionAcquireMetal_Name_SE" rel_version="Event_Summer_Temp">Festliche Metallbauer gesucht</string>
+	<string key="CMissionAcquireFibers_Name_SE" rel_version="Event_Summer_Temp">Festliche Erntearbeiter gesucht</string>
+	<string key="CMissionAcquireFood_Name_SE" rel_version="Event_Summer_Temp">Festliche Köche gesucht</string>
+	<string key="CMissionAcquirePotions_Name_SE" rel_version="Event_Summer_Temp">Festliche Alchemisten gesucht</string>
+	<string key="CMissionAcquireGeneric_Name_SE" rel_version="Event_Summer_Temp">Festliche Vorräte gesucht</string>
+	<string key="CMissionAcquireWood_Name_SE" rel_version="Event_Summer_Temp">Festliche Holzfäller gesucht</string>
+	<string key="CMissionAcquireRawhide_Name_SE" rel_version="Event_Summer_Temp">Festliche Jäger gesucht</string>
+	<string key="CMissionAcquireLeather_Name_SE" rel_version="Event_Summer_Temp">Festliche Gerber gesucht</string>
+	<string key="CMissionAcquireStoneworker" rel_version="Event_Summer_Temp">Erhalte und liefere &lt;font color="#eaeaea"&gt;{itemAmount} {itemName}&lt;/font&gt; von einem Steinmetztisch.</string>
+	<string key="CMissionAcquireWoodWorker" rel_version="Event_Summer_Temp">Erhalte und liefere &lt;font color="#eaeaea"&gt;{itemAmount} {itemName}&lt;/font&gt; von einer Holzwerkstatt.</string>
+	<string key="CMissionAcquireOutfitter" rel_version="Event_Summer_Temp">Erhalte und liefere &lt;font color="#eaeaea"&gt;{itemAmount} {itemName}&lt;/font&gt; von der Kleidermacherei.</string>
+	<string key="CMissionAcquireEngineer" rel_version="Event_Summer_Temp">Erhalte und liefere &lt;font color="#eaeaea"&gt;{itemAmount} {itemName}&lt;/font&gt; von der Werkstatt.</string>
+	<string key="CMissionAcquirePaint_Name_SE" rel_version="Event_Summer_Temp">Festliche Maler gesucht</string>
 </resources>
 

@@ -129,12 +129,12 @@
 	<string key="ui_treasury_tooltip_withdrawal_nopermissons">Vous n'avez pas l'autorisation d'effectuer un retrait.</string>
 	<string key="ui_treasury_tooltip_withdrawal_overlimit">Vous avez atteint votre limite quotidienne.</string>
 	<string key="ui_treasury_tooltip_changedailywithdrawallimit_nopermissons">Vous n'avez pas l'autorisation de modifier la limite de retrait quotidienne.</string>
-	<string key="ui_treasury_notification_depositsuccess">&lt;font color={colorHex}&gt;{amount}&lt;/font&gt; {coinImage} déposés dans la trésorerie de la compagnie.</string>
-	<string key="ui_treasury_notification_depositcappedtreasurymax">&lt;font color={colorHex}&gt;{amount}&lt;/font&gt; {coinImage} déposés dans la trésorerie de la compagnie (limités par le plafond de la trésorerie).</string>
-	<string key="ui_treasury_notification_depositcappedplayerfunds">&lt;font color={colorHex}&gt;{amount}&lt;/font&gt; {coinImage} déposés dans la trésorerie de la compagnie (limités par les fonds personnels).</string>
-	<string key="ui_treasury_notification_withdrawalsuccess">&lt;font color={colorHex}&gt;{amount}&lt;/font&gt; {coinImage} retirés de la trésorerie de la compagnie.</string>
-	<string key="ui_treasury_notification_withdrawalcappedfunds">&lt;font color={colorHex}&gt;{amount}&lt;/font&gt; {coinImage} retirés de la trésorerie de la compagnie (limités par l'insuffisance de fonds).</string>
-	<string key="ui_treasury_notification_withdrawalcappeddailylimit">&lt;font color={colorHex}&gt;{amount}&lt;/font&gt; {coinImage} retirés de la trésorerie de la compagnie (limités par la limite quotidienne).</string>
+	<string key="ui_treasury_notification_depositsuccess">&lt;font color={colorHex} face="lyshineui/fonts/CaslonAnt.font"&gt;{amount}&lt;/font&gt; {coinImage} ont été déposées dans la trésorerie de la compagnie.</string>
+	<string key="ui_treasury_notification_depositcappedtreasurymax">Échec de dépôt dans la trésorerie (supérieur au maximum de trésorerie).</string>
+	<string key="ui_treasury_notification_depositcappedplayerfunds">Échec de dépôt dans la trésorerie (pas assez de fonds personnels).</string>
+	<string key="ui_treasury_notification_withdrawalsuccess">&lt;font color={colorHex} face="lyshineui/fonts/CaslonAnt.font"&gt;{amount}&lt;/font&gt; {coinImage} ont été retirées de la trésorerie de la compagnie.</string>
+	<string key="ui_treasury_notification_withdrawalcappedfunds"> Échec de retrait dans la trésorerie (pas assez de fonds de trésorerie).</string>
+	<string key="ui_treasury_notification_withdrawalcappeddailylimit">Échec de retrait dans la trésorerie (supérieur à la limite quotidienne).</string>
 	<string key="ui_treasury_notification_setdailylimitsuccess">La limite de retrait quotidienne est fixée à &lt;font color={colorHex}&gt;{amount}&lt;/font&gt; {coinImage}.</string>
 	<string key="ui_treasury_notification_setdailylimitsuccessinfinite">La limite de retrait quotidienne est fixée à {infinityImage}.</string>
 	<string key="ui_treasury_notification_cointransferaldisabled">Vous devez être au moins de niveau {minLevel} pour pouvoir utiliser la trésorerie de la guilde.</string>
@@ -185,10 +185,10 @@
 	<string key="ui_guildranksettler_SHE">Colon</string>
 	<string key="ui_guildranksettler_THEY">Colon</string>
 	<string key="ui_guildrankpublic">Citoyen</string>
-	<string key="ui_guildrankgovernor_and_above">1. Gouverneur</string>
-	<string key="ui_guildrankconsul_and_above">2. Consul et au-dessus</string>
-	<string key="ui_guildrankofficer_and_above">3. Officier et au-dessus</string>
-	<string key="ui_guildranksettler_and_above">4. Colon et au-dessus</string>
+	<string key="ui_guildrankgovernor_and_above">Gouverneur seulement</string>
+	<string key="ui_guildrankconsul_and_above">Consul et au-dessus</string>
+	<string key="ui_guildrankofficer_and_above">Officier et au-dessus</string>
+	<string key="ui_guildranksettler_and_above">Colon et au-dessus</string>
 	<string key="ui_guildrankpublic_and_above">Citoyen, accès total</string>
 	<string key="ui_guildrank_no_permissions">Rang de compagnie ({rank}) insuffisant.</string>
 	<string key="ui_guildsystemerror">Une erreur système s'est produite.</string>
@@ -636,5 +636,10 @@
 	<string key="ui_high">Élevé</string>
 	<string key="ui_highest">Optimal</string>
 	<string key="ui_kick_disabled_invasion">Impossible d'exclure des joueurs d'une invasion</string>
+	<string key="ui_war_schedule_adjustment_title">{warType} {scheduleAdjustmentType}</string>
+	<string key="ui_war_schedule_adjustment_message">{warType} à {territoryName} a été {scheduleAdjustmentType}.</string>
+	<string key="ui_war_schedule_adjustment_cancelled">annulé(e)</string>
+	<string key="ui_war_schedule_adjustment_rescheduled">reporté(e)</string>
+	<string key="ui_war_camp_tier">Palier &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{value}&lt;/font&gt;</string>
 </resources>
 

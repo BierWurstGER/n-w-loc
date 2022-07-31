@@ -5,11 +5,12 @@
 	<string key="ui_queue_leave_group">Opuść grupę</string>
 	<string key="ui_queue_leave_group_confirm_title">Opuść grupę</string>
 	<string key="ui_queue_leave_group_confirm_message">Jeśli w grupie zostanie mniej niż {minGroupSize} członków, zostanie ona usunięta z kolejki.\n\nCzy na pewno chcesz to zrobić?</string>
+	<string key="ui_queue_leave_notification_generic">Usunięto cię z kolejki do trybu gry</string>
 	<string key="ui_queue_ready">Naciśnij F2, by wejść na teren ekspedycji</string>
 	<string key="ui_game_mode_matchmaking_failed">Wystąpił nieoczekiwany błąd dobierania graczy.</string>
 	<string key="ui_game_mode_disabled">Ten tryb gry jest obecnie niedostępny</string>
-	<string key="ui_dungeon_enter_info">W ekspedycji musi pozostać co najmniej jedna osoba, by nadal była otwarta. Teleportować się teraz?</string>
-	<string key="ui_dungeon_enter_info_entered">Ekspedycja jest otwarta!\nTeleportować się teraz?</string>
+	<string key="ui_dungeon_enter_info">W ekspedycji musi pozostać co najmniej &lt;font color={color}&gt;1 osoba&lt;/font&gt;, by nadal była otwarta. Teleportować się teraz?</string>
+	<string key="ui_dungeon_enter_info_entered">Ekspedycja jest otwarta!\n&lt;font color={color}&gt;Teleportować się teraz?&lt;/font&gt;</string>
 	<string key="ui_duel_player">Pojedynek</string>
 	<string key="ui_duel_failmessage_invalidname">{playerName} jest niewłaściwym imieniem gracza.</string>
 	<string key="ui_duel_failmessage_outofrange">Nie możesz pojedynkować się z graczem znajdującym się więcej niż {distance} metrów od ciebie.</string>
@@ -102,7 +103,7 @@
 	<string key="ui_outpost_rush_signup_faildungeon">Nie możesz się zapisać, ponieważ oczekujesz w kolejce na ekspedycję.</string>
 	<string key="ui_outpost_rush_signup_failevent">Nie możesz się zapisać, ponieważ obecnie bierzesz udział w wydarzeniu.</string>
 	<string key="ui_outpost_rush_signup_failgeneric">Obecnie nie możesz się zapisać.</string>
-	<string key="ui_outpost_rush_signup_failgrouptitle">Nie można dołączyć do napadu na posterunek</string>
+	<string key="ui_outpost_rush_signup_failgrouptitle">Nie można dołączyć</string>
 	<string key="ui_outpost_rush_signup_failgrouplevel">Wszyscy członkowie grupy muszą być przynajmniej na {levelRequirement}. poziomie.</string>
 	<string key="ui_outpost_rush_signup_failgroupwar">Co najmniej jeden z członków twojej grupy jest zapisany na nadchodzącą wojnę, która rozpocznie się w ciągu godziny.</string>
 	<string key="ui_outpost_rush_signup_failgroupqueue">Co najmniej jeden z członków twojej grupy jest zapisany na inne wydarzenie.</string>
@@ -110,6 +111,7 @@
 	<string key="ui_outpost_rush_signup_failgroupoffline">Co najmniej jeden z członków twojej grupy jest offline.</string>
 	<string key="ui_outpost_rush_signup_failgrouppenalty">Na co najmniej jednego z członków twojej grupy nałożono karę czasową za opuszczenie wcześniejszego napadu na posterunek.</string>
 	<string key="ui_outpost_rush_signup_failgrouptimeout">Co najmniej jeden z członków twojej grupy nie odpowiedział na zaproszenie.</string>
+	<string key="ui_outpost_rush_signup_failgroupfinder">Co najmniej jeden z członków twojej grupy należy do lobby.</string>
 	<string key="ui_outpost_rush_signup_failpenalty">Nałożono na ciebie karę za opuszczenie trwającej rozgrywki</string>
 	<string key="ui_outpost_rush_signup_penaltytimer">Czas blokady: {time}</string>
 	<string key="ui_outpost_rush_signup_joingroup_desc">Gdy twoja grupa oczekuje w kolejce, nie można do niej dodać nowych członków.</string>
@@ -232,6 +234,8 @@
 	<string key="ui_begins_in">Zaczyna się za:</string>
 	<string key="ui_arena_gas_releases_in" comment="gas was replaced with ring of fire in implementation">Pierścień ognia zamknie się za:</string>
 	<string key="ui_arena_gas_released">Pierścień ognia się zamyka</string>
+	<string key="ui_pvp_arena_invite_status">Zaakceptuj, by dołączyć do bitwy!</string>
+	<string key="ui_pvp_arena_title">Arena 3 na 3</string>
 	<string key="ui_fight">Walcz!</string>
 	<string key="ui_round_won">Runda wygrana</string>
 	<string key="ui_round_lost">Runda przegrana</string>

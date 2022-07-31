@@ -31,8 +31,40 @@
 	<string key="ui_gem_selection_button_specific">Edelstein: {name}</string>
 	<string key="ui_perk_selection_button_none">Effekte: Keine ausgewählt</string>
 	<string key="ui_perk_selection_button_some">Effekte: {number} ausgewählt</string>
+	<string key="ui_perk_selection_apply_filters">Filter anwenden</string>
+	<string key="ui_perk_selection_clear_filters">Alles löschen</string>
+	<string key="ui_perk_selection_reset">Zurücksetzen</string>
 	<string key="ui_perk_selection_selected">Ausgewählt:</string>
 	<string key="ui_perk_selection_none">(Keine ausgewählt)</string>
+	<string key="ui_perk_selection_count">Ausgewählt ({quantity}/{maxCount}):</string>
+	<string key="ui_perk_selection_show_items_with">Gegenstände mit Folgendem anzeigen:</string>
+	<string key="ui_perk_selection_dropdown_any_selected_perks">Alle ausgewählten Effekte</string>
+	<string key="ui_perk_selection_dropdown_only_selected_perks">Nur ausgewählte Effekte</string>
+	<string key="ui_perk_selection_search_perks">Effekte durchsuchen</string>
+	<string key="ui_perk_filter_popup_title">Filter</string>
+	<string key="ui_perk_filter_popup_price">Preis</string>
+	<string key="ui_perk_filter_popup_price_min">Min. Preis</string>
+	<string key="ui_perk_filter_popup_price_max">Max. Preis</string>
+	<string key="ui_perk_filter_popup_price_range">Preis: {minValue}-{maxValue}</string>
+	<string key="ui_perk_filter_popup_gearscore">Rüstwert</string>
+	<string key="ui_perk_filter_popup_gearscore_min">Min. Rüstwert</string>
+	<string key="ui_perk_filter_popup_gearscore_max">Max. Rüstwert</string>
+	<string key="ui_perk_filter_popup_gearscore_range">Rüstwert: {minValue}-{maxValue}</string>
+	<string key="ui_perk_filter_popup_range_max">Max.</string>
+	<string key="ui_perk_filter_popup_attributes">Attribute</string>
+	<string key="ui_perk_filter_popup_attributes_single_only">Nur ein Attribut</string>
+	<string key="ui_perk_filter_popup_attributes_disabled">Du kannst nicht mehr als {maxValue} Attribute auswählen. Entferne ein Attribut, um ein anderes auszuwählen.</string>
+	<string key="ui_perk_filter_popup_perk">Effekt</string>
+	<string key="ui_perk_filter_popup_perk_none_selected">Kein Effekt ausgewählt</string>
+	<string key="ui_perk_filter_popup_perk_count">({quantity}/{maxCount}) Effekte ausgewählt</string>
+	<string key="ui_perk_filter_popup_add_perks">Effekte hinzufügen</string>
+	<string key="ui_perk_filter_popup_gem">Edelstein</string>
+	<string key="ui_perk_filter_popup_gem_none_selected">Kein Edelstein ausgewählt</string>
+	<string key="ui_perk_filter_popup_gem_count">({quantity}/{maxCount}) Edelsteine ausgewählt</string>
+	<string key="ui_perk_filter_popup_add_gem">Edelstein hinzufügen</string>
+	<string key="ui_perk_filter_popup_single_attribute_only">Nur ein Attribut</string>
+	<string key="ui_perk_filter_popup_single_attribute_only_tooltip">Wenn du diese Option auswählst, werden nur Gegenstände mit 1 Attribut angezeigt.</string>
+	<string key="ui_perk_filter_popup_single_attribute_only_selector">Nur Gegenstände mit 1 Attribut anzeigen</string>
 	<string key="ui_sellers">KAUFEN &lt;font color="#b5b094"&gt;&lt;font face="lyshineui/fonts/Nimbus_medium.font"&gt;über Verkaufsaufträge&lt;/font&gt;&lt;/font&gt;</string>
 	<string key="ui_buyers">VERKAUFEN &lt;font color="#b5b094"&gt;&lt;font face="lyshineui/fonts/Nimbus_medium.font"&gt;an Kaufaufträge&lt;/font&gt;&lt;/font&gt;</string>
 	<string key="ui_buyOrders">&lt;img src="lyshineui/images/icons/contracts/contracts_iconBuy" xPadding="0" scale="1.5" yOffset="5.2"&gt;&lt;/img&gt; Kaufaufträge</string>
@@ -212,6 +244,10 @@
 	<string key="ui_perk_selector_any_perk_description">Dieser Gegenstand kann jeden Effekt nutzen</string>
 	<string key="ui_perk_selector_any_gem">Beliebiger Edelstein</string>
 	<string key="ui_perk_selector_any_gem_description">Ein leerer Edelsteinsockel</string>
+	<string key="ui_perk_selector_logic_modifier_any_perks">Alles mit ausgewählten Effekten</string>
+	<string key="ui_perk_selector_logic_modifier_any_perks_description">Alle Gegenstände, die mindestens einen der ausgewählten Effekte haben.</string>
+	<string key="ui_perk_selector_logic_modifier_all_perks">Nur ausgewählte Effekte</string>
+	<string key="ui_perk_selector_logic_modifier_all_perks_description">Nur Gegenstände, die alle ausgewählten Effekte haben.</string>
 	<string key="ui_select_gem">Edelstein auswählen</string>
 	<string key="ui_select_perk">Effekte auswählen</string>
 	<string key="ui_buyorder_has_these_properties">BESITZT DIESE EIGENSCHAFTEN</string>
@@ -223,8 +259,13 @@
 	<string key="ui_exclusive_perk_popup_title">Exkl. Effekt ausgewählt</string>
 	<string key="ui_exclusive_perk_popup_message">Du kannst nur einen Effekt dieses Typs haben. Möchtest du deinen aktuell ausgewählten Effekt dieses Typs durch den neu ausgewählten ersetzen?</string>
 	<string key="ui_exclusive_perk_popup_message_no_replace">{newPerkName} und {selectedPerkName} sind exklusiv und können nicht gleichzeitig ausgewählt werden.</string>
+	<string key="ui_cannot_change_perk_logic_popup_title">Übernehmen nicht möglich</string>
+	<string key="ui_cannot_change_perk_logic_message">Du kannst den Filter nicht auf 'Nur ausgewählte Effekte' ändern, weil folgende Effekte nicht gleichzeitig ausgewählt werden können.\n</string>
+	<string key="ui_cannot_change_perk_logic_incompatible_perks">\n&lt;font color="#b45353"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{perkNameA}&lt;/font&gt;&lt;/font&gt; – &lt;font color="#b45353"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{perkNameB}&lt;/font&gt;&lt;/font&gt;</string>
 	<string key="ui_max_perk_popup_title">Effektmaximum erreicht</string>
 	<string key="ui_max_perk_popup_message">Du hast das Maximum an Effekten für diesen Gegenstand ausgewählt. Entferne einen Effekt, um einen neuen hinzuzufügen.</string>
+	<string key="ui_max_gem_popup_title">Max. Edelsteine ausgewählt</string>
+	<string key="ui_max_gem_popup_message">Du hast das Maximum an Edelsteinen für diesen Gegenstand ausgewählt. Entferne einen Edelstein, um einen neuen hinzuzufügen.</string>
 	<string key="ui_remove">entfernen</string>
 	<string key="ui_showonly">Anzeigen:</string>
 	<string key="ui_playerMarketplace">Spielermarkt</string>
@@ -233,5 +274,7 @@
 	<string key="ui_contract_time">Zeit</string>
 	<string key="ui_order_tooltip">Verfügbare Aufträge in dieser Kategorie: \n&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{number}&lt;/font&gt;</string>
 	<string key="ui_available_buy_orders">Kaufaufträge für diesen Gegenstand</string>
+	<string key="ui_item_attribute">{attributeName} &lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{statValue}&lt;/font&gt;</string>
+	<string key="ui_item_attributes_separator">, </string>
 </resources>
 

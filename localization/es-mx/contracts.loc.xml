@@ -31,8 +31,40 @@
 	<string key="ui_gem_selection_button_specific">Gema: {name}</string>
 	<string key="ui_perk_selection_button_none">Beneficios: Ninguno seleccionado</string>
 	<string key="ui_perk_selection_button_some">Beneficios: {number} seleccionados</string>
+	<string key="ui_perk_selection_apply_filters">Aplicar filtros</string>
+	<string key="ui_perk_selection_clear_filters">Quitar todo</string>
+	<string key="ui_perk_selection_reset">Restablecer</string>
 	<string key="ui_perk_selection_selected">Seleccionado:</string>
 	<string key="ui_perk_selection_none">(Ninguno seleccionado)</string>
+	<string key="ui_perk_selection_count">Seleccionado ({quantity}/{maxCount})</string>
+	<string key="ui_perk_selection_show_items_with">Mostrar objetos con:</string>
+	<string key="ui_perk_selection_dropdown_any_selected_perks">Cualquier beneficio seleccionado</string>
+	<string key="ui_perk_selection_dropdown_only_selected_perks">Solo beneficios seleccionados</string>
+	<string key="ui_perk_selection_search_perks">Buscar beneficios</string>
+	<string key="ui_perk_filter_popup_title">Filtros</string>
+	<string key="ui_perk_filter_popup_price">Precio</string>
+	<string key="ui_perk_filter_popup_price_min">Precio mín.</string>
+	<string key="ui_perk_filter_popup_price_max">Precio máx.</string>
+	<string key="ui_perk_filter_popup_price_range">Precio: {minValue}–{maxValue}</string>
+	<string key="ui_perk_filter_popup_gearscore">Puntuación del equipo</string>
+	<string key="ui_perk_filter_popup_gearscore_min">Puntuación mínima del equipo</string>
+	<string key="ui_perk_filter_popup_gearscore_max">Puntuación máxima del equipo</string>
+	<string key="ui_perk_filter_popup_gearscore_range">Puntuación del equipo: {minValue}–{maxValue}</string>
+	<string key="ui_perk_filter_popup_range_max">Máx.</string>
+	<string key="ui_perk_filter_popup_attributes">Atributos</string>
+	<string key="ui_perk_filter_popup_attributes_single_only">Solo un atributo</string>
+	<string key="ui_perk_filter_popup_attributes_disabled">No puedes seleccionar más de {maxValue} atributos. Anula la selección de un atributo para poder seleccionar otro.</string>
+	<string key="ui_perk_filter_popup_perk">Beneficio</string>
+	<string key="ui_perk_filter_popup_perk_none_selected">No se seleccionaron beneficios</string>
+	<string key="ui_perk_filter_popup_perk_count">({quantity}/{maxCount}) beneficios seleccionados</string>
+	<string key="ui_perk_filter_popup_add_perks">Agregar beneficios</string>
+	<string key="ui_perk_filter_popup_gem">Gema</string>
+	<string key="ui_perk_filter_popup_gem_none_selected">No se seleccionaron gemas</string>
+	<string key="ui_perk_filter_popup_gem_count">({quantity}/{maxCount}) gemas seleccionadas</string>
+	<string key="ui_perk_filter_popup_add_gem">Agregar gema</string>
+	<string key="ui_perk_filter_popup_single_attribute_only">Solo un atributo</string>
+	<string key="ui_perk_filter_popup_single_attribute_only_tooltip">Si marcas esta opción, se mostrarán objetos con un solo atributo.</string>
+	<string key="ui_perk_filter_popup_single_attribute_only_selector">Mostrar solo objetos con un atributo</string>
 	<string key="ui_sellers">COMPRAR &lt;font color="#b5b094"&gt;&lt;font face="lyshineui/fonts/Nimbus_medium.font"&gt;de pedidos de venta&lt;/font&gt;&lt;/font&gt;</string>
 	<string key="ui_buyers">VENDER &lt;font color="#b5b094"&gt;&lt;font face="lyshineui/fonts/Nimbus_medium.font"&gt;a pedidos de compra&lt;/font&gt;&lt;/font&gt;</string>
 	<string key="ui_buyOrders">&lt;img src="lyshineui/images/icons/contracts/contracts_iconBuy" xPadding="0" scale="1.5" yOffset="5.2"&gt;&lt;/img&gt; pedidos de compra</string>
@@ -212,6 +244,10 @@
 	<string key="ui_perk_selector_any_perk_description">Cualquier beneficio que puede usar este objeto</string>
 	<string key="ui_perk_selector_any_gem">Cualquier gema</string>
 	<string key="ui_perk_selector_any_gem_description">Una ranura para gemas vacía</string>
+	<string key="ui_perk_selector_logic_modifier_any_perks">Cualquier beneficio seleccionado</string>
+	<string key="ui_perk_selector_logic_modifier_any_perks_description">Cualquier objeto con uno o más de los beneficios seleccionados.</string>
+	<string key="ui_perk_selector_logic_modifier_all_perks">Solo beneficios seleccionados</string>
+	<string key="ui_perk_selector_logic_modifier_all_perks_description">Solo los objetos con todos los beneficios seleccionados.</string>
 	<string key="ui_select_gem">Seleccionar gema</string>
 	<string key="ui_select_perk">Seleccionar beneficios</string>
 	<string key="ui_buyorder_has_these_properties">TIENE ESTAS PROPIEDADES</string>
@@ -223,8 +259,13 @@
 	<string key="ui_exclusive_perk_popup_title">Beneficio exclusivo</string>
 	<string key="ui_exclusive_perk_popup_message">Solo puedes tener un beneficio de este tipo. ¿Quieres remplazar el beneficio seleccionado actualmente de este tipo con este otro beneficio seleccionado?</string>
 	<string key="ui_exclusive_perk_popup_message_no_replace">{newPerkName} y {selectedPerkName} son exclusivos y no se pueden seleccionar al mismo tiempo.</string>
+	<string key="ui_cannot_change_perk_logic_popup_title">No se puede aplicar</string>
+	<string key="ui_cannot_change_perk_logic_message">No se puede cambiar la lógica de filtro a “Todos los beneficios seleccionados” porque los siguientes beneficios no se pueden seleccionar al mismo tiempo.\n</string>
+	<string key="ui_cannot_change_perk_logic_incompatible_perks">\n&lt;font color="#b45353"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{perkNameA}&lt;/font&gt;&lt;/font&gt; - &lt;font color="#b45353"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{perkNameB}&lt;/font&gt;&lt;/font&gt;</string>
 	<string key="ui_max_perk_popup_title">Demasiados beneficios</string>
 	<string key="ui_max_perk_popup_message">Alcanzaste la cantidad máxima de beneficios que se permiten para este objeto. Quita un beneficio para agregar otro.</string>
+	<string key="ui_max_gem_popup_title">Máx. de gemas seleccionadas</string>
+	<string key="ui_max_gem_popup_message">Alcanzaste la cantidad máxima de gemas que se permiten para este objeto. Quita una gema para agregar otra.</string>
 	<string key="ui_remove">quitar</string>
 	<string key="ui_showonly">Mostrar solo:</string>
 	<string key="ui_playerMarketplace">Mercado del jugador</string>
@@ -233,5 +274,7 @@
 	<string key="ui_contract_time">Tiempo</string>
 	<string key="ui_order_tooltip">Pedidos disponibles en esta categoría:\n&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{number}&lt;/font&gt;</string>
 	<string key="ui_available_buy_orders">Pedidos de compra de este objeto</string>
+	<string key="ui_item_attribute">{attributeName} &lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{statValue}&lt;/font&gt;</string>
+	<string key="ui_item_attributes_separator">, </string>
 </resources>
 

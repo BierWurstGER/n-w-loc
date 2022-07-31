@@ -5,11 +5,12 @@
 	<string key="ui_queue_leave_group">Gruppe verlassen</string>
 	<string key="ui_queue_leave_group_confirm_title">Gruppe verlassen</string>
 	<string key="ui_queue_leave_group_confirm_message">Sinkt die Gruppengröße unter {minGroupSize} Mitglieder, wird die Gruppe aus der Warteschlange entfernt.\n\nBist du dir sicher?</string>
+	<string key="ui_queue_leave_notification_generic">Du wurdest aus der Warteschlange im Spielmodus entfernt.</string>
 	<string key="ui_queue_ready">F2 zum Betreten der Expedition</string>
 	<string key="ui_game_mode_matchmaking_failed">Bei der Spielsuche trat ein unbekannter Fehler auf.</string>
 	<string key="ui_game_mode_disabled">Der Spielmodus ist derzeit deaktiviert.</string>
-	<string key="ui_dungeon_enter_info">Mindestens eine Person muss die Expedition betreten, damit sie offen bleibt. Jetzt hineinteleportieren?</string>
-	<string key="ui_dungeon_enter_info_entered">Die Expedition ist jetzt geöffnet!\nJetzt hineinteleportieren?</string>
+	<string key="ui_dungeon_enter_info">&lt;font color={color}&gt;Mindestens eine Person&lt;/font&gt; muss die Expedition betreten, damit sie offen bleibt. Jetzt hineinteleportieren?</string>
+	<string key="ui_dungeon_enter_info_entered">Die Expedition ist jetzt geöffnet!\n&lt;font color={color}&gt;Jetzt hineinteleportieren?&lt;/font&gt;</string>
 	<string key="ui_duel_player">Zum Duell herausfordern</string>
 	<string key="ui_duel_failmessage_invalidname">{playerName} ist kein gültiger Spielername.</string>
 	<string key="ui_duel_failmessage_outofrange">Du kannst dich nicht mit einem Spieler duellieren, der weiter als {distance} Meter entfernt ist.</string>
@@ -102,7 +103,7 @@
 	<string key="ui_outpost_rush_signup_faildungeon">Du kannst dich nicht anmelden, weil du in einer Warteschlange für eine Expedition bist.</string>
 	<string key="ui_outpost_rush_signup_failevent">Du kannst dich nicht anmelden, weil du an einem Ereignis teilnimmst.</string>
 	<string key="ui_outpost_rush_signup_failgeneric">Du kannst dich momentan nicht anmelden.</string>
-	<string key="ui_outpost_rush_signup_failgrouptitle">Beitritt zum Außenpostensturm nicht möglich</string>
+	<string key="ui_outpost_rush_signup_failgrouptitle">Beitritt nicht möglich</string>
 	<string key="ui_outpost_rush_signup_failgrouplevel">Alle Gruppenmitglieder müssen mindestens die Stufe {levelRequirement} erreicht haben.</string>
 	<string key="ui_outpost_rush_signup_failgroupwar">Ein oder mehrere Gruppenmitglieder sind für den bevorstehenden Krieg angemeldet, der in der nächsten Stunde beginnt.</string>
 	<string key="ui_outpost_rush_signup_failgroupqueue">Ein oder mehrere Gruppenmitglieder sind für ein anderes Event angemeldet.</string>
@@ -110,6 +111,7 @@
 	<string key="ui_outpost_rush_signup_failgroupoffline">Ein oder mehrere Gruppenmitglieder sind offline.</string>
 	<string key="ui_outpost_rush_signup_failgrouppenalty">Ein oder mehrere Gruppenmitglieder unterliegen einer Strafzeit, weil sie den vorherigen Außenpostensturm verlassen haben.</string>
 	<string key="ui_outpost_rush_signup_failgrouptimeout">Ein oder mehrere Gruppenmitglieder haben nicht auf die Einladung reagiert.</string>
+	<string key="ui_outpost_rush_signup_failgroupfinder">Mindestens ein Gruppenmitglied befindet sich in einer Lobby.</string>
 	<string key="ui_outpost_rush_signup_failpenalty">Da du ein laufendes Spiel verlassen hast, erhältst du nun eine Strafe.</string>
 	<string key="ui_outpost_rush_signup_penaltytimer">Du bist blockiert für: {time}</string>
 	<string key="ui_outpost_rush_signup_joingroup_desc">Du kannst keine weiteren Gruppenmitglieder hinzufügen, sobald deine Gruppe in der Warteschlange ist.</string>
@@ -232,6 +234,8 @@
 	<string key="ui_begins_in">Beginnt in:</string>
 	<string key="ui_arena_gas_releases_in" comment="gas was replaced with ring of fire in implementation">Ring des Feuers kommt näher:</string>
 	<string key="ui_arena_gas_released">Ring des Feuers kommt näher</string>
+	<string key="ui_pvp_arena_invite_status">Akzeptiere, um dem Kampf beizutreten!</string>
+	<string key="ui_pvp_arena_title">3-gg-3-Arena</string>
 	<string key="ui_fight">Kämpft!</string>
 	<string key="ui_round_won">Runde gewonnen</string>
 	<string key="ui_round_lost">Runde verloren</string>

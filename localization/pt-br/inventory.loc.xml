@@ -22,6 +22,7 @@
 	<string key="inv_cooking">Culinária</string>
 	<string key="inv_furniture">Mobília</string>
 	<string key="inv_outpostrush">Investida do Posto Avançado</string>
+	<string key="inv_pvparenas">Arenas PvP</string>
 	<string key="inv_crafting_modifiers">Confecção</string>
 	<string key="inv_repair_kit_count">{count} Kit de Reparo</string>
 	<string key="inv_repair_kits">Kits de Reparo</string>
@@ -90,11 +91,12 @@
 	<string key="inv_repairparts_tooltip_description">Peças de Reparos são um recurso exclusivo usado para reparar itens.\n\nPeças de Reparos não podem ser comercializadas, vendidas ou compradas. Para receber mais, desmonte itens de armas e armaduras que você não precisa mais.\n\n&lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#aaaaaa"&gt;Derivado de:&lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#ffffff"&gt; Armas, Armadura&lt;/font&gt;</string>
 	<string key="inv_repairparts_tooltip_drivedfrom">Armas e Armadura</string>
 	<string key="inv_azoth_tooltip_drivedfrom">Incursões de Corrupção, Jornadas</string>
-	<string key="inv_repairparts_nearlimit">&lt;font color="#ff2e2e"&gt;Você está quase no limite de suas Peças de Reparos.&lt;/font&gt;</string>
-	<string key="inv_repairparts_atlimit">&lt;font color="#ff2e2e"&gt;Você está no limite de suas Peças de Reparos.&lt;/font&gt;</string>
+	<string key="inv_repairparts_nearlimit">&lt;font color="#f25d5d"&gt;Você está quase no limite de suas Peças de Reparos.&lt;/font&gt;</string>
+	<string key="inv_repairparts_atlimit">&lt;font color="#f25d5d"&gt;Você está no limite de suas Peças de Reparos.&lt;/font&gt;</string>
 	<string key="inv_repairparts_resources_nearlimit">Sucatear este item fornecerá entre {min} e {max} {itemName} e {numRepairParts} Peças de Reparos.</string>
-	<string key="inv_repairparts_resources_atlimit">Sucatear este item fornecerá entre {min} e {max} {itemName} e &lt;font color="#ff2e2e"&gt;{numRepairParts} Peças de Reparos.&lt;/font&gt;</string>
+	<string key="inv_repairparts_resources_atlimit">Sucatear este item fornecerá entre {min} e {max} {itemName} e &lt;font color="#f25d5d"&gt;{numRepairParts} Peças de Reparos.&lt;/font&gt;</string>
 	<string key="inv_repairparts_onlyrepairparts">Sucatear este item fornecerá {numRepairParts} Peças de Reparos.</string>
+	<string key="inv_repairparts_onlyrepairparts_withcoin">Sucatear este item fornecerá {numRepairParts} Peças de Reparos e {coinAmount}.</string>
 	<string key="salvage_notification_obtained_1">Obteve {entry1}</string>
 	<string key="salvage_notification_obtained_2">Obteve {entry1} e {entry2}</string>
 	<string key="salvage_notification_obtained_3">Obteve {entry1}, {entry2} e {entry3}</string>
