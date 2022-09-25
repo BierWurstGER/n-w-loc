@@ -28,7 +28,7 @@
 	<string key="tip_overworld_camping_resting01-title">Bivouac</string>
 	<string key="tip_overworld_camping_resting01-content">Reposez-vous à votre bivouac pour recouvrer la santé avant de vous rendre dans des zones inexplorées.</string>
 	<string key="tip_overworld_camping_crafting01-title">Bivouac</string>
-	<string key="tip_overworld_camping_crafting01-content">Fabriquez des articles de base, de la nourriture et des potions dans votre bivouac pour échapper aux taxes.</string>
+	<string key="tip_overworld_camping_crafting01-content">Fabriquez des articles de base, de la nourriture et des potions dans votre bivouac pour échapper aux frais d'entretien du territoire.</string>
 	<string key="tip_overworld_camping_upgrades01-title">Améliorations de bivouac</string>
 	<string key="tip_overworld_camping_upgrades01-content">Vous pouvez déverrouiller des améliorations pour votre bivouac en accomplissant des quêtes spéciales aux niveaux 15, 25, 40 et 55. Ces quêtes se situent aux Falaises du Roy, aux Îles des Lames, à la Rive tourmentée et à Bois-Éden.</string>
 	<string key="tip_overworld_camping_respawn01-title">Bivouac</string>
@@ -98,7 +98,7 @@
 	<string key="tip_overworld_company_benefits01-title">Compagnies</string>
 	<string key="tip_overworld_company_benefits01-content">Rejoignez une compagnie pour combattre les altérés aux côtés de vos alliés et assiéger les territoires des factions adverses.</string>
 	<string key="tip_overworld_company_benefits02-title">Compagnies</string>
-	<string key="tip_overworld_company_benefits02-content">Seules les compagnies peuvent déclarer la guerre et assiéger des territoires pour les conquérir. Lorsqu'elle gouverne un territoire, votre compagnie peut prélever des impôts, obtenir des réductions conséquentes sur le transfert rapide et contribuer au succès de toute la faction.</string>
+	<string key="tip_overworld_company_benefits02-content">Seules les compagnies peuvent déclarer la guerre et assiéger des territoires pour les conquérir. Lorsqu'elle gouverne un territoire, votre compagnie peut prélever les frais d'entretien du territoire, obtenir des réductions conséquentes sur le transfert rapide et contribuer au succès de toute la faction.</string>
 	<string key="tip_overworld_company_benefits03-title">Compagnies</string>
 	<string key="tip_overworld_company_benefits03-content">Communiquez et regroupez-vous facilement avec les membres de la compagnie. Voyez quand ils étaient en ligne pour la dernière fois et accédez à un montant partagé de pièces dans la trésorerie de la compagnie commune.</string>
 	<string key="tip_overworld_crafting_resources01-title">Emplacement des ressources</string>
@@ -154,7 +154,7 @@
 	<string key="tip_overworld_equipment_storage01-title">Complètement approvisionné</string>
 	<string key="tip_overworld_equipment_storage01-content">Lorsque vous fabriquez un objet au sein d'une colonie, les ressources proviennent de l'inventaire ou du rangement. Il est donc inutile de transporter tous ces ingrédients.</string>
 	<string key="tip_overworld_equipment_damage01-title">Dégâts de l'équipement</string>
-	<string key="tip_overworld_equipment_damage01-content">Les objets équipés se détériorent lorsque vous les utilisez, mais la TOTALITÉ de l'équipement de votre inventaire est endommagée si vous mourez.</string>
+	<string key="tip_overworld_equipment_damage01-content">Les objets équipés s'usent quand vous les utilisez ou lorsque vous mourez.</string>
 	<string key="tip_overworld_equipment_repairing01-title">Réparation et recyclage instantanés</string>
 	<string key="tip_overworld_equipment_repairing01-content">Utilisez les raccourcis suivants pour réparer ou recycler un objet en un seul clic : [{hint1}] + clic gauche pour la réparation instantanée et [{hint2}] + clic gauche pour le recyclage instantané.</string>
 	<string key="tip_overworld_equipment_lockingItems01-title">Verrouillage des objets</string>
@@ -247,8 +247,6 @@
 	<string key="tip_ftue_keybindings-content">[Placeholder]</string>
 	<string key="tip_overworld_gameModes_arenaKeys01-title">Arènes</string>
 	<string key="tip_overworld_gameModes_arenaKeys01-content">En avez-vous trouvé ? Les arènes représentent de rares occasions d'affronter des créatures mortelles et légendaires aux côtés de vos amis.</string>
-	<string key="tip_overworld_gameModes_dungeonKeys01-title">Fabrication d'orbe</string>
-	<string key="tip_overworld_gameModes_dungeonKeys01-content">Utilisez des tables de tailleur de pierre pour fabriquer des orbes d'expédition.</string>
 	<string key="tip_overworld_gameModes_outpostRush01-title">Déferlante</string>
 	<string key="tip_overworld_gameModes_outpostRush01-content">Adressez-vous à Scott Newman à l'avant-poste de Piton-de-Faille ou à votre représentant de faction pour participer à ce match à 20 contre 20.</string>
 	<string key="tip_overworld_gameModes_war01-title">Guerre</string>
@@ -276,9 +274,9 @@
 	<string key="tip_overworld_housing_ownership04-title">Logement</string>
 	<string key="tip_overworld_housing_ownership04-content">Toutes les maisons ne se valent pas. Certaines sont plus spacieuses que d'autres et leur palier est ainsi plus élevé. Pour les acquérir, il vous faudra plus d'or et une réputation solide au sein du territoire.</string>
 	<string key="tip_overworld_housing_ownership05-title">Logement</string>
-	<string key="tip_overworld_housing_ownership05-content">Posséder une maison présente des avantages, mais seulement si vous payez vos impôts. Si vous oubliez de le faire, le transfert rapide et les améliorations de trophée seront désactivés jusqu'à ce que vous ayez réglé votre dû.</string>
+	<string key="tip_overworld_housing_ownership05-content">Posséder une maison présente des avantages, mais seulement si vous payez les frais d'entretien du territoire. Si vous oubliez de le faire, le transfert rapide et les améliorations de trophée seront désactivés jusqu'à ce que vous ayez réglé votre dû.</string>
 	<string key="tip_overworld_housing_ownership06-title">Logement</string>
-	<string key="tip_overworld_housing_ownership06-content">Vous souhaitez effectuer un transfert rapide vers votre maison, mais vous n'avez pas payé vos impôts ? Payez-les depuis la carte [{hint1}] pour réactiver instantanément tous les atouts de votre propriété.</string>
+	<string key="tip_overworld_housing_ownership06-content">Vous souhaitez effectuer un transfert rapide vers votre maison, mais vous n'avez pas payé les frais d'entretien du territoire ? Payez-les depuis la carte [{hint1}] pour réactiver instantanément tous les atouts de votre propriété.</string>
 	<string key="tip_overworld_housing_buffs01-title">Logement</string>
 	<string key="tip_overworld_housing_buffs01-content">Vous ne pouvez placer que 5 types de trophées différents par maison possédée. Si vous en possédez 3, vous pourrez donc en avoir 15 au total.</string>
 	<string key="tip_overworld_housing_buffs02-title">Logement</string>

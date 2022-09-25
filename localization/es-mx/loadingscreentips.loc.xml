@@ -28,7 +28,7 @@
 	<string key="tip_overworld_camping_resting01-title">Campamento</string>
 	<string key="tip_overworld_camping_resting01-content">Descansa en tu campamento para recuperar salud antes de aventurarte en zonas desconocidas.</string>
 	<string key="tip_overworld_camping_crafting01-title">Campamento</string>
-	<string key="tip_overworld_camping_crafting01-content">Fabrica objetos básicos, cocina y prepara pociones en tu campamento para evitar pagar impuestos.</string>
+	<string key="tip_overworld_camping_crafting01-content">Fabrica objetos básicos, cocina y prepara pociones en tu campamento para evitar pagar mantenimientos.</string>
 	<string key="tip_overworld_camping_upgrades01-title">Mejoras de campamento</string>
 	<string key="tip_overworld_camping_upgrades01-content">Puedes desbloquear mejoras para tu campamento al completar misiones especiales en los niveles 15, 25, 40 y 55. Estas misiones se encuentran en Monarch's Bluffs, Llaves de alfanje, Costa agitada y Edengrove.</string>
 	<string key="tip_overworld_camping_respawn01-title">Campamento</string>
@@ -98,7 +98,7 @@
 	<string key="tip_overworld_company_benefits01-title">Compañías</string>
 	<string key="tip_overworld_company_benefits01-content">Únete a una compañía y lucha junto a tus camaradas contra los seres corrompidos. Además, asedia los territorios de las facciones enemigas.</string>
 	<string key="tip_overworld_company_benefits02-title">Compañías</string>
-	<string key="tip_overworld_company_benefits02-content">Solo las compañías pueden declarar la guerra y asediar territorios para conquistarlos. Cuando gobiernas un territorio, tu compañía gana dinero a través de los impuestos, obtiene descuentos enormes en viajes rápidos y contribuye al éxito de toda tu facción.</string>
+	<string key="tip_overworld_company_benefits02-content">Solo las compañías pueden declarar la guerra y asediar territorios para conquistarlos. Cuando gobiernas un territorio, tu compañía gana dinero a través del mantenimiento, obtiene descuentos enormes en viajes rápidos y contribuye al éxito de toda tu facción.</string>
 	<string key="tip_overworld_company_benefits03-title">Compañías</string>
 	<string key="tip_overworld_company_benefits03-content">Comunícate y agrúpate fácilmente con miembros de la compañía. Ve cuando los miembros están en línea y obtienes acceso a una cantidad compartida de monedas en la Tesorería de la compañía.</string>
 	<string key="tip_overworld_crafting_resources01-title">Ubicaciones de recursos</string>
@@ -154,7 +154,7 @@
 	<string key="tip_overworld_equipment_storage01-title">Abastecimiento completo</string>
 	<string key="tip_overworld_equipment_storage01-content">Fabricar objetos en un asentamiento puede usar recursos del inventario o del almacenamiento. No necesitas cargar con todos esos ingredientes a todos lados.</string>
 	<string key="tip_overworld_equipment_damage01-title">Daño del equipo</string>
-	<string key="tip_overworld_equipment_damage01-content">Los objetos equipados reciben daño por el uso, pero todo el equipo en el inventario recibe daño cuando mueres.</string>
+	<string key="tip_overworld_equipment_damage01-content">Los objetos equipados reciben daño por el uso y al ser eliminado.</string>
 	<string key="tip_overworld_equipment_repairing01-title">Reparación y desarme rápidos</string>
 	<string key="tip_overworld_equipment_repairing01-content">Presiona el atajo del teclado para reparar o desarmar un objeto con un clic. [{hint1}] + clic (para una reparación rápida) y [{hint2}] + clic (para un desarmado rápido).</string>
 	<string key="tip_overworld_equipment_lockingItems01-title">Bloquear objetos</string>
@@ -247,8 +247,6 @@
 	<string key="tip_ftue_keybindings-content">[Marcador de posición]</string>
 	<string key="tip_overworld_gameModes_arenaKeys01-title">Arenas</string>
 	<string key="tip_overworld_gameModes_arenaKeys01-content">¿Encontraste alguna? Una arena es un evento raro en el que tú y tus amigos se enfrentan a una mortal criatura legendaria.</string>
-	<string key="tip_overworld_gameModes_dungeonKeys01-title">Fabricación de orbes</string>
-	<string key="tip_overworld_gameModes_dungeonKeys01-content">Los orbes de expedición pueden fabricarse en las mesas de cantería.</string>
 	<string key="tip_overworld_gameModes_outpostRush01-title">Avance a un puesto de avanzada</string>
 	<string key="tip_overworld_gameModes_outpostRush01-content">Busca a Scott Newman en el puesto de avanzada del punto de adhesión o habla con el representante de tu facción para competir en esta partida 20 vs. 20.</string>
 	<string key="tip_overworld_gameModes_war01-title">Guerra</string>
@@ -276,9 +274,9 @@
 	<string key="tip_overworld_housing_ownership04-title">Vivienda</string>
 	<string key="tip_overworld_housing_ownership04-content">No todas las casas son iguales. Algunas son más espaciosas que otras, lo que aumenta su nivel. Estas casas requieren una mejor posición en ese territorio y cuestan más oro.</string>
 	<string key="tip_overworld_housing_ownership05-title">Vivienda</string>
-	<string key="tip_overworld_housing_ownership05-content">Tener una casa tiene sus beneficios, pero solo si pagas tus impuestos. Si debes impuestos, no podrás disfrutar de los viajes rápidos ni de las potenciaciones de trofeos hasta que saldes tus deudas.</string>
+	<string key="tip_overworld_housing_ownership05-content">Tener una casa tiene sus beneficios, pero solo si pagas el mantenimiento. Si debes el mantenimiento, no podrás disfrutar de los viajes rápidos ni de las potenciaciones de trofeos hasta que saldes tus deudas.</string>
 	<string key="tip_overworld_housing_ownership06-title">Vivienda</string>
-	<string key="tip_overworld_housing_ownership06-content">¿Quieres hacer un viaje rápido a tu casa pero no pagaste tus impuestos? Págalos desde el mapa [{hint1}] para rehabilitar tus beneficios de vivienda al instante.</string>
+	<string key="tip_overworld_housing_ownership06-content">¿Quieres hacer un viaje rápido a tu casa pero no pagaste tu mantenimiento? Págalos desde el mapa [{hint1}] para rehabilitar tus beneficios de vivienda al instante.</string>
 	<string key="tip_overworld_housing_buffs01-title">Vivienda</string>
 	<string key="tip_overworld_housing_buffs01-content">Solo puedes colocar 5 tipos diferentes de trofeos en cada casa que posees. En total, 15 trofeos si tienes 3 casas.</string>
 	<string key="tip_overworld_housing_buffs02-title">Vivienda</string>

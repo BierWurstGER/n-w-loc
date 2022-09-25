@@ -468,8 +468,9 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_timeout">O pedido expirou</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_requestfailed">Falha no pedido</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_invalidrequest">Pedido inválido</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_pvp_flag_mismatch">Sua sinalização de PvP não corresponde ao saguão.</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_pvp_faction_mismatch">É preciso estar na mesma facção para entrar no saguão de PvP.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_pvp_flag_mismatch">Sua sinalização de PvP não corresponde ao Saguão.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_pvp_faction_mismatch">É preciso estar na mesma facção para entrar no Saguão de PvP.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_requirements_not_met">Os requisitos do Saguão mudaram e você não os atende.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_atmaxapplications">Você não pode enviar mais solicitações.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_groupfull">Saguão Lotado</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_convert_to_group_declined">{playerName} recusou a verificação de preparo.</string>
@@ -477,6 +478,7 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_playeroffline">Não foi possível convidar {playerName}, pois está offline.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_expedition_lobby">Saguão de Expedição</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_create_group_title">Criar Novo Saguão</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_edit_group_title">Editar Saguão</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_voip_preferred">Preferível</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_voice_chat_preferred">Chat de Voz Preferível</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_voip_preferred_with_icon">&lt;img src="lyshineui/images/icons/misc/icon_microphone" scale="1.8" xPadding="-2" yOffset="5.0"&gt;&lt;/img&gt; Preferível</string>
@@ -484,9 +486,10 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_min_level">Nível Mínimo</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_min_gear_score">Pontuação Mínima de Equipamento</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_gear_score_requirement_not_met">Você não atende ao requisito de nível e/ou pontuação do equipamento para participar deste Saguão.</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pvp_mismatch_tooltip">É preciso ter a mesma sinalização de PvP que o saguão.</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pvp_faction_mismatch_tooltip">É preciso estar na mesma facção para o saguão de PvP.</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_level_unlist_pending_group">Excluir Saguão</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pvp_mismatch_tooltip">É preciso ter a mesma sinalização de PvP que o Saguão.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pvp_faction_mismatch_tooltip">É preciso estar na mesma facção para o Saguão de PvP.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_level_edit_pending_group">Editar</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_level_unlist_pending_group">Excluir</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pending">Pendente</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_accepted">Aceito</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_apply_disabled_your_lobby">Você já está neste Saguão.</string>
@@ -503,7 +506,7 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_button_confirm_directinvitation">Entrar</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_button_confirm_disabled_tooltip">Você deve selecionar uma função.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_button_confirm_disabled_none_accepted_tooltip">É preciso aceitar pelo menos uma função.</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_button_confirm_disabled_tooltip_queue">Não é permitido solicitar a entrada em um saguão quando se está em uma fila de modo de jogo.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_button_confirm_disabled_tooltip_queue">Não é permitido solicitar a entrada em um saguão enquanto está em uma fila de modo de jogo.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_required_item_tooltip">Você precisa ter {quantity} {item}(s) para criar um novo Saguão para esta expedição.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_current_roles_label">Funções atuais neste grupo</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_current_role_text">&lt;img src="{icon}" scale="2.5" yOffset="8.0"&gt;&lt;/img&gt; {count} {role}</string>
@@ -521,11 +524,12 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_groupcreated">Saguão Criado</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_groupupdated">Saguão Atualizado</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_groupremoved">Saguão Removido</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_groupunlisted">Seu Saguão foi excluído. Você foi removido do Saguão.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_applicationsubmitted">Solicitação Enviada</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_applicationremoved">Solicitação Removida</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_allapplicationsremoved">Todas as Solicitações Removidas</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_applicationaccepted">Convite de Saguão Enviado</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_application_requested">&lt;font color={color}&gt;{playername}&lt;/font&gt; pediu para entrar em seu saguão.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_application_requested">&lt;font color={color}&gt;{playername}&lt;/font&gt; pediu para entrar em seu Saguão.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_request_throttled">Pedidos em excesso, aguarde e tente novamente.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_application_accepted_title">Solicitação Aceita</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_application_accepted">&lt;font color={creatorColor}&gt;{creator}&lt;/font&gt; convidou você como &lt;img src="{icon}" scale="2.2" yOffset="7"&gt;&lt;/img&gt;</string>
@@ -542,11 +546,15 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_decline">Recusar</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationaccepted">Convite Aceito</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationdeclined">Convite Recusado</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationautodeclined_ingroup">Convite recusado. O jogador já está no Saguão.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationautodeclined_pvpflagmismatched">Convite recusado. O jogador não correspondeu à sinalização PvP.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationautodeclined_atdungeonlimit">Convite recusado. O jogador atingiu o limite de Masmorras.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationautodeclined_mismatchedfaction">Convite recusado. O jogador está em uma Facção diferente.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_directinvite">Convidar ao Saguão</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_directinvite_tooltip_not_creator">Somente o criador do Saguão pode convidar.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_directinvite_tooltip_already_in_group">{player} já está no seu Saguão.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_directinvite_tooltip_group_full">Seu Saguão está cheio.</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_directinvite_tooltip_pvp_wrong_faction">É preciso estar na mesma facção para o saguão de PvP.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_directinvite_tooltip_pvp_wrong_faction">É preciso estar na mesma facção para o Saguão de PvP.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_memberadded">Convite de Saguão Enviado</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_memberupdated">Membro de Saguão Atualizado</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_memberremoved_result">Membro removido do Saguão</string>
@@ -572,7 +580,7 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_ready_waiting">Aguardando outros jogadores...</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_view_group">Visualizar</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_popup_conflict_leave_lobby_title">Deixar Saguão</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_popup_conflict_leave_lobby_desc">Tem certeza? Se aceitar, você sairá do seu saguão atual.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_popup_conflict_leave_lobby_desc">Tem certeza? Se aceitar, você sairá do seu Saguão atual.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_popup_conflict_leave_queue_title">Sair da Fila</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_popup_conflict_leave_queue_desc">Tem certeza? Se aceitar, você sairá da fila atual.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_popup_conflict_rescind_applications_title">Rescindir Solicitações</string>
@@ -586,7 +594,7 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_tooltip_unlist_group_desc">Tem certeza de que deseja excluir seu Saguão?\n\nTodos os membros serão expulsos.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_create_lobby_leave_lobby">Você deve sair do seu Saguão atual para criar um novo Saguão.\n\nTem certeza de que deseja sair do seu Saguão atual?</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_create_lobby_delete_lobby">Você deve excluir seu Saguão atual para criar um novo Saguão. Tem certeza de que deseja excluir seu Saguão atual?\n\nTodos os membros serão expulsos.</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_create_lobby_leave_queue">Você deve sair da sua fila de modo de jogo para criar um novo Saguão.\n\nTem certeza de que deseja sair da sua fila atual?</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_create_lobby_leave_queue">Você deve sair da sua fila de modo de jogo para criar um Saguão.\n\nTem certeza de que deseja sair da sua fila atual?</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_join_lobby_leave_lobby">Você deve sair do seu Saguão atual para pedir para entrar neste Saguão.\n\nTem certeza de que deseja sair do seu Saguão atual?</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_join_lobby_delete_lobby">Você deve excluir seu Saguão atual para pedir para entrar neste Saguão. Tem certeza de que deseja excluir seu Saguão atual?\n\nTodos os membros serão expulsos.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_tooltip_leave_and_unlist_group_desc">Tem certeza de que deseja excluir o Saguão?\n\nTodos os membros serão expulsos.</string>
@@ -616,8 +624,8 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_chat_lobby_left">{playerName} saiu do Saguão.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_error_group_finder_group_chat" comment="An error when you try to talk in group finder group chat">Você não está em um Saguão</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_create_limit_title">Não foi Possível Criar o Saguão</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_create_limit_desc_regular">O(s) seguinte(s) membro(s) do grupo atingiu(ram) o limite diário de Expedições Regulares, logo, não pode(m) entrar neste saguão.\n\n&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{characters}&lt;/font&gt;\n&lt;font color={dateColor}&gt;(Pode[m] entrar em {date})&lt;/font&gt;</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_create_limit_desc_mutated">O(s) seguinte(s) membro(s) do grupo atingiu(ram) o limite semanal de Expedições Transmutadas, logo, não pode(m) entrar neste saguão.\n\n&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{characters}&lt;/font&gt;\n&lt;font color={dateColor}&gt;(Pode[m] entrar em {date})&lt;/font&gt;</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_create_limit_desc_regular">O limite diário de Expedições Regulares foi alcançado pelos membros a seguir, por isso eles não poderão entrar neste saguão.\n\n&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{characters}&lt;/font&gt;\n&lt;font color={dateColor}&gt;(A restrição acaba em {date})&lt;/font&gt;</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_create_limit_desc_mutated">O limite semanal de Expedições Transmutadas foi alcançado pelos membros a seguir, por isso eles não poderão entrar neste saguão.\n\n&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{characters}&lt;/font&gt;\n&lt;font color={dateColor}&gt;(A restrição acaba em {date})&lt;/font&gt;</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_limit_refresh">(Reinicia em {date})</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pending_invites_single">&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;1&lt;/font&gt; Convite Pendente</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pending_invites">&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{amount}&lt;/font&gt; Convites Pendentes</string>

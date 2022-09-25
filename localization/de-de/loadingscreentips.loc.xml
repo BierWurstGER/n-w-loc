@@ -28,7 +28,7 @@
 	<string key="tip_overworld_camping_resting01-title">Zeltlager</string>
 	<string key="tip_overworld_camping_resting01-content">Ruhe dich in deinem Zeltlager aus, um deine Gesundheit wiederherzustellen, bevor du unbekannte Gebiete betrittst.</string>
 	<string key="tip_overworld_camping_crafting01-title">Zeltlager</string>
-	<string key="tip_overworld_camping_crafting01-content">Stelle in deinem Zeltlager grundlegende Gegenstände, Essen und Tränke her, um Steuern zu vermeiden.</string>
+	<string key="tip_overworld_camping_crafting01-content">Stelle in deinem Zeltlager grundlegende Gegenstände, Essen und Tränke her, um Gebietsunterhaltungskosten zu vermeiden.</string>
 	<string key="tip_overworld_camping_upgrades01-title">Zeltlager-Aufrüstungen</string>
 	<string key="tip_overworld_camping_upgrades01-content">Du kannst Aufrüstungen für dein Zeltlager freischalten, indem du Spezialaufgaben auf Stufe 15, 25, 40 und 55 erfüllst. Diese Aufgaben sind in Königsfels, Entermesserriff, Unstete Küste und Edenhain angesiedelt.</string>
 	<string key="tip_overworld_camping_respawn01-title">Zeltlager</string>
@@ -98,7 +98,7 @@
 	<string key="tip_overworld_company_benefits01-title">Kompanien</string>
 	<string key="tip_overworld_company_benefits01-content">Schließe dich einer Kompanie an, kämpfe an der Seite deiner Freunde gegen die Verderbten Oder belagert gemeinsam die Gebiete gegnerischer Fraktionen.</string>
 	<string key="tip_overworld_company_benefits02-title">Kompanien</string>
-	<string key="tip_overworld_company_benefits02-content">Nur Kompanien können Krieg erklären und Gebiete belagern. Als Gouverneur eines Gebiets erhält deine Kompanie Taler durch Steuern, bekommt einen hohen Rabatt auf Schnellreisen und steuert ihren Teil zum Erfolg deiner gesamten Fraktion bei.</string>
+	<string key="tip_overworld_company_benefits02-content">Nur Kompanien können Krieg erklären und Gebiete belagern. Als Gouverneur eines Gebiets erhält deine Kompanie Taler durch Gebietsunterhaltungskosten, bekommt einen hohen Rabatt auf Schnellreisen und steuert ihren Teil zum Erfolg deiner gesamten Fraktion bei.</string>
 	<string key="tip_overworld_company_benefits03-title">Kompanien</string>
 	<string key="tip_overworld_company_benefits03-content">Tausche dich ganz einfach mit Kompaniemitgliedern aus und finde schneller eine Gruppe. Dir wird außerdem angezeigt, wann ein Mitglied zuletzt online war, und du erhältst Zugriff auf Taler aus der gemeinsamen Kompanie-Schatzkammer.</string>
 	<string key="tip_overworld_crafting_resources01-title">Orte mit Rohstoffen</string>
@@ -154,7 +154,7 @@
 	<string key="tip_overworld_equipment_storage01-title">Komplett ausgestattet</string>
 	<string key="tip_overworld_equipment_storage01-content">Wenn du in einer Siedlung etwas herstellst, werden Rohstoffe aus deinem Inventar oder dem Lager verwendet, du brauchst also nicht alle Komponenten mit dir herumschleppen.</string>
 	<string key="tip_overworld_equipment_damage01-title">Ausrüstungsschaden</string>
-	<string key="tip_overworld_equipment_damage01-content">Ausgerüstete Gegenstände erleiden bei Verwendung Schaden und sämtliche Gegenstände in deinem Inventar werden beschädigt, wenn du stirbst.</string>
+	<string key="tip_overworld_equipment_damage01-content">Ausgerüstete Gegenstände erleiden beim Gebrauch und im Todesfall Schaden.</string>
 	<string key="tip_overworld_equipment_repairing01-title">Schnellreparatur und Zerlegen</string>
 	<string key="tip_overworld_equipment_repairing01-content">Drücke das Tastenkürzel, um einen Gegenstand mit einem Klick zu reparieren oder zu zerlegen. [{hint1}] + Linksklick für Schnellreparatur und [{hint2}] + Linksklick für schnelles Zerlegen.</string>
 	<string key="tip_overworld_equipment_lockingItems01-title">Gegenstände sperren</string>
@@ -247,8 +247,6 @@
 	<string key="tip_ftue_keybindings-content">[Platzhalter]</string>
 	<string key="tip_overworld_gameModes_arenaKeys01-title">Arenen</string>
 	<string key="tip_overworld_gameModes_arenaKeys01-content">Hast du schon eine gefunden? Eine Arena ist ein seltenes Ereignis, bei dem du und deine Freunde sich im Kampf einer brandgefährlichen, legendären Kreatur stellen müssen.</string>
-	<string key="tip_overworld_gameModes_dungeonKeys01-title">Herstellung von Kugeln</string>
-	<string key="tip_overworld_gameModes_dungeonKeys01-content">An Steinmetztischen lassen sich Expeditionssphären herstellen.</string>
 	<string key="tip_overworld_gameModes_outpostRush01-title">Außenpostensturm</string>
 	<string key="tip_overworld_gameModes_outpostRush01-content">Suche Scott Newman im Schluchtpunkt-Außenposten auf oder sprich mit deinem Fraktionsvertreter, um in seinem "20 vs. 20"-Match anzutreten.</string>
 	<string key="tip_overworld_gameModes_war01-title">Krieg</string>
@@ -276,9 +274,9 @@
 	<string key="tip_overworld_housing_ownership04-title">Behausung</string>
 	<string key="tip_overworld_housing_ownership04-content">Nicht alle Häuser sind gleich. Manche sind geräumiger als andere, was ihren Rang erhöht. Diese Häuser erfordern einen höheren Ruf in diesem Gebiet und kosten mehr Gold.</string>
 	<string key="tip_overworld_housing_ownership05-title">Behausung</string>
-	<string key="tip_overworld_housing_ownership05-content">Als Hausbesitzer genießt man Vorteile, aber nur wenn man seine Steuern bezahlt. Wenn Steuern fällig werden, kannst du die Schnellreise oder Trophäenboni nicht mehr nutzen, bis sie bezahlt wurden.</string>
+	<string key="tip_overworld_housing_ownership05-content">Als Hausbesitzer genießt man Vorteile, aber nur wenn man seine Gebietsunterhaltungskosten bezahlt. Wenn Gebietsunterhaltungskosten fällig werden, kannst du die Schnellreise oder Trophäenboni nicht mehr nutzen, bis sie bezahlt wurden.</string>
 	<string key="tip_overworld_housing_ownership06-title">Behausung</string>
-	<string key="tip_overworld_housing_ownership06-content">Du willst eine Schnellreise zu deinem Haus unternehmen, hast aber deine Steuern nicht bezahlt? Bezahle sie über die Karte [{hint1}], damit deine Hauseffekte sofort wieder wirksam werden.</string>
+	<string key="tip_overworld_housing_ownership06-content">Du willst eine Schnellreise zu deinem Haus unternehmen, hast aber deine Gebietsunterhaltungskosten nicht bezahlt? Bezahle sie über die Karte [{hint1}], damit deine Hauseffekte sofort wieder wirksam werden.</string>
 	<string key="tip_overworld_housing_buffs01-title">Behausung</string>
 	<string key="tip_overworld_housing_buffs01-content">Du kannst in jedem deiner Häuser nur jeweils 5 verschiedene Trophäenarten platzieren. Insgesamt 15, wenn du 3 Häuser besitzt.</string>
 	<string key="tip_overworld_housing_buffs02-title">Behausung</string>

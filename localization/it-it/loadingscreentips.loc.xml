@@ -28,7 +28,7 @@
 	<string key="tip_overworld_camping_resting01-title">Accampamento</string>
 	<string key="tip_overworld_camping_resting01-content">Riposa all'accampamento per recuperare salute prima di avventurarti in aree ignote.</string>
 	<string key="tip_overworld_camping_crafting01-title">Accampamento</string>
-	<string key="tip_overworld_camping_crafting01-content">Produci oggetti di base, cibo e pozioni all'accampamento per evitare le tasse.</string>
+	<string key="tip_overworld_camping_crafting01-content">Produci oggetti di base, cibo e pozioni all'accampamento per evitare la manutenzione del territorio.</string>
 	<string key="tip_overworld_camping_upgrades01-title">Miglioramenti dell'accampamento</string>
 	<string key="tip_overworld_camping_upgrades01-content">Puoi sbloccare miglioramenti per il tuo accampamento completando missioni speciali ai livelli 15, 25, 40 e 55. Queste missioni sono disponibili a Promontorio del Monarca, Scogliere della sciabola, Sponda inquieta e Frutteto dell'Eden.</string>
 	<string key="tip_overworld_camping_respawn01-title">Accampamento</string>
@@ -98,7 +98,7 @@
 	<string key="tip_overworld_company_benefits01-title">Compagnie</string>
 	<string key="tip_overworld_company_benefits01-content">Entra a far parte di una compagnia e combatti insieme ai tuoi amici contro i Corrotti. In più, assedia i territori delle fazioni opposte.</string>
 	<string key="tip_overworld_company_benefits02-title">Compagnie</string>
-	<string key="tip_overworld_company_benefits02-content">Solo le compagnie possono dichiarare guerra e assediare territori per conquistarli. Quando governa un territorio, la tua compagnia guadagna monete tramite le tasse, riceve sconti sostanziosi sul viaggio veloce e contribuisce al successo di tutta la fazione.</string>
+	<string key="tip_overworld_company_benefits02-content">Solo le compagnie possono dichiarare guerra e assediare territori per conquistarli. Quando governa un territorio, la tua compagnia guadagna monete tramite la manutenzione del territorio, riceve sconti sostanziosi sul viaggio veloce e contribuisce al successo di tutta la fazione.</string>
 	<string key="tip_overworld_company_benefits03-title">Compagnie</string>
 	<string key="tip_overworld_company_benefits03-content">Comunica e unisciti facilmente agli altri membri della compagnia. Controlla quando gli altri membri si sono connessi l'ultima volta e ottieni accesso a una quantità di monete condivise nella cassa comune della Compagnia.</string>
 	<string key="tip_overworld_crafting_resources01-title">Luoghi delle risorse</string>
@@ -154,7 +154,7 @@
 	<string key="tip_overworld_equipment_storage01-title">Scorte al massimo</string>
 	<string key="tip_overworld_equipment_storage01-content">Quando produci in un insediamento, puoi utilizzare direttamente le risorse presenti nell'inventario o nel deposito senza doverti trascinare dietro gli ingredienti.</string>
 	<string key="tip_overworld_equipment_damage01-title">Danni all'equipaggiamento</string>
-	<string key="tip_overworld_equipment_damage01-content">Gli oggetti equipaggiati si danneggiano con l'uso, ma quando muori è tutto l'equipaggiamento nel tuo inventario a subire danni.</string>
+	<string key="tip_overworld_equipment_damage01-content">Gli oggetti equipaggiati subiscono danni con l'uso e con la morte.</string>
 	<string key="tip_overworld_equipment_repairing01-title">Riparazione e recupero rapidi</string>
 	<string key="tip_overworld_equipment_repairing01-content">Premi il tasto di scelta rapida per riparare o recuperare un oggetto con un solo clic. [{hint1}] + clic con il pulsante sinistro per la riparazione rapida e [{hint2}] + clic con il pulsante sinistro per il recupero rapido.</string>
 	<string key="tip_overworld_equipment_lockingItems01-title">Blocco degli oggetti</string>
@@ -247,8 +247,6 @@
 	<string key="tip_ftue_keybindings-content">[Placeholder]</string>
 	<string key="tip_overworld_gameModes_arenaKeys01-title">Arene</string>
 	<string key="tip_overworld_gameModes_arenaKeys01-content">Ne hai già trovata una? Un'arena è un evento raro in cui tu e i tuoi amici combattete contro una letale creatura leggendaria.</string>
-	<string key="tip_overworld_gameModes_dungeonKeys01-title">Sfere di produzione</string>
-	<string key="tip_overworld_gameModes_dungeonKeys01-content">Le sfere delle Spedizioni possono essere prodotte ai tavoli da tagliapietre.</string>
 	<string key="tip_overworld_gameModes_outpostRush01-title">Carica all'avamposto</string>
 	<string key="tip_overworld_gameModes_outpostRush01-content">Cerca Scott Newman all'avamposto di Puntabreccia o parla con il rappresentante della tua fazione per competere in questo incontro 20 vs 20.</string>
 	<string key="tip_overworld_gameModes_war01-title">Guerra</string>
@@ -276,9 +274,9 @@
 	<string key="tip_overworld_housing_ownership04-title">Casa</string>
 	<string key="tip_overworld_housing_ownership04-content">Le case non sono tutte uguali. Alcune sono più spaziose di altre e questo ne aumenta il livello. Queste case richiedono una reputazione maggiore in quel territorio e costeranno più oro.</string>
 	<string key="tip_overworld_housing_ownership05-title">Casa</string>
-	<string key="tip_overworld_housing_ownership05-content">Possedere una casa ti dà vantaggi, ma solo se paghi le tasse. Se hai tasse in sospeso non potrai usufruire del viaggio veloce gratuito né sfruttare i potenziamenti dei trofei finché non le avrai pagate.</string>
+	<string key="tip_overworld_housing_ownership05-content">Possedere una casa ti dà vantaggi, ma solo se paghi la manutenzione del territorio. Se non sei in regola con la manutenzione del territorio non potrai usufruire del viaggio veloce gratuito né sfruttare i potenziamenti dei trofei finché non l'avrai pagata.</string>
 	<string key="tip_overworld_housing_ownership06-title">Casa</string>
-	<string key="tip_overworld_housing_ownership06-content">Vuoi usare il viaggio veloce per raggiungere la tua casa ma non hai pagato le tasse? Pagale dalla mappa [{hint1}] per riattivare subito i vantaggi derivanti dal possesso di una casa.</string>
+	<string key="tip_overworld_housing_ownership06-content">Vuoi usare il viaggio veloce per raggiungere la tua casa ma non hai pagato la manutenzione del territorio? Pagale dalla mappa [{hint1}] per riattivare subito i vantaggi derivanti dal possesso di una casa.</string>
 	<string key="tip_overworld_housing_buffs01-title">Casa</string>
 	<string key="tip_overworld_housing_buffs01-content">Puoi collocare solo 5 tipi di trofei diversi in ogni casa che possiedi. Se hai 3 case, puoi collocare 15 trofei in totale.</string>
 	<string key="tip_overworld_housing_buffs02-title">Casa</string>

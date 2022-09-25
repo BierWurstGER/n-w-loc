@@ -470,6 +470,7 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_invalidrequest">Solicitud no válida</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_pvp_flag_mismatch">Tu marca de PvP no coincide con la de la sala de espera.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_pvp_faction_mismatch">La facción debe ser la misma para una sala de PvP.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_requirements_not_met">Cambiaron los requisitos de la sala de espera y no los cumples.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_atmaxapplications">No puedes enviar más solicitudes.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_groupfull">La sala de espera está llena</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_convert_to_group_declined">{playerName} rechazó la comprobación de preparación.</string>
@@ -477,6 +478,7 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_playeroffline">No se puede invitar a {playerName} porque está sin conexión.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_expedition_lobby">Sala de espera de la expedición</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_create_group_title">Crear nueva sala de espera</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_edit_group_title">Editar sala</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_voip_preferred">Preferido</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_voice_chat_preferred">Chat de voz preferido</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_voip_preferred_with_icon">&lt;img src="lyshineui/images/icons/misc/icon_microphone" scale="1.8" xPadding="-2" yOffset="5.0"&gt;&lt;/img&gt; Preferido</string>
@@ -485,8 +487,9 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_min_gear_score">Puntuación del equipo mínima</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_gear_score_requirement_not_met">No cumples con el requisito de nivel o de puntuación del equipo para unirte a esta sala de espera.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pvp_mismatch_tooltip">Debes tener la misma marca de PvP que la sala de espera.</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pvp_faction_mismatch_tooltip">La facción debe ser la misma para la sala de espera de PvP.</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_level_unlist_pending_group">Eliminar la sala de espera</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pvp_faction_mismatch_tooltip">La facción debe ser la misma para una sala de espera de PvP.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_level_edit_pending_group">Editar</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_level_unlist_pending_group">Suprimir</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pending">Pendiente</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_accepted">Aceptado</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_apply_disabled_your_lobby">Ya estás en esta sala de espera.</string>
@@ -521,6 +524,7 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_groupcreated">Sala de espera creada</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_groupupdated">Sala de espera actualizada</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_groupremoved">Sala de espera eliminada</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_groupunlisted">Se eliminó tu sala de espera. Se te ha expulsado de la sala de espera.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_applicationsubmitted">Solicitud enviada</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_applicationremoved">Solicitud eliminada</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_allapplicationsremoved">Todas las solicitudes eliminadas</string>
@@ -542,11 +546,15 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_decline">Rechazar</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationaccepted">Invitación aceptada</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationdeclined">Invitación rechazada</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationautodeclined_ingroup">Invitación rechazada. El jugador ya está en la sala de espera.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationautodeclined_pvpflagmismatched">Invitación rechazada. El jugador tiene una activación de la marca de PvP incompatible.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationautodeclined_atdungeonlimit">Invitación rechazada. El jugador está en el límite de la mazmorra.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationautodeclined_mismatchedfaction">Invitación rechazada. El jugador está en una facción diferente.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_directinvite">Invitar a sala de espera</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_directinvite_tooltip_not_creator">Solo el creador de la sala de espera puede invitar.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_directinvite_tooltip_already_in_group">{player} ya está en tu sala de espera.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_directinvite_tooltip_group_full">Tu sala de espera está llena.</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_directinvite_tooltip_pvp_wrong_faction">La facción debe ser la misma para la sala de espera de PvP.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_directinvite_tooltip_pvp_wrong_faction">La facción debe ser la misma para una sala de espera de PvP.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_memberadded">Invitación para unirse a la sala de espera enviada</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_memberupdated">Miembro en la sala de espera actualizado</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_memberremoved_result">Miembro eliminado de la sala de espera</string>

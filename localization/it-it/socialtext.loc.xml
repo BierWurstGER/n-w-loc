@@ -470,6 +470,7 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_invalidrequest">Richiesta non valida</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_pvp_flag_mismatch">Il tuo PvP non corrisponde alla lobby.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_pvp_faction_mismatch">Dovete essere nella stessa fazione per una lobby PvP.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_requirements_not_met">I requisiti della lobby sono cambiati e tu non li soddisfi.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_atmaxapplications">Non puoi inviare altre richieste.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_groupfull">Lobby al completo</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_convert_to_group_declined">{playerName} ha rifiutato di eseguire i controlli preliminari</string>
@@ -477,6 +478,7 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_playeroffline">Non puoi invitare {playerName}, è offline</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_expedition_lobby">Lobby spedizione</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_create_group_title">Crea nuova lobby</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_edit_group_title">Modifica lobby</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_voip_preferred">Preferito</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_voice_chat_preferred">Chat vocale preferita</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_voip_preferred_with_icon">Preferito: &lt;img src="lyshineui/images/icons/misc/icon_microphone" scale="1.8" xPadding="-2" yOffset="5.0"&gt;&lt;/img&gt;</string>
@@ -485,8 +487,9 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_min_gear_score">Punteggio attrezzatura minimo</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_gear_score_requirement_not_met">Non soddisfi il requisito di livello e/o punteggio attrezzatura per unirti a questa lobby.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pvp_mismatch_tooltip">Devi avere lo stesso PvP della lobby.</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pvp_faction_mismatch_tooltip">Dovete essere nella stessa fazione per la lobby PvP.</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_level_unlist_pending_group">Elimina lobby</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pvp_faction_mismatch_tooltip">Dovete essere nella stessa fazione per una lobby PvP.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_level_edit_pending_group">Modifica</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_level_unlist_pending_group">Elimina</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pending">In attesa</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_accepted">Accettato</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_apply_disabled_your_lobby">Sei già in questa lobby.</string>
@@ -521,6 +524,7 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_groupcreated">Lobby creata</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_groupupdated">Lobby aggiornata</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_groupremoved">Lobby rimossa</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_groupunlisted">La tua lobby è stata eliminata. Non sei più nella lobby.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_applicationsubmitted">Richiesta iscrizione inviata</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_applicationremoved">Richiesta iscrizione rimossa</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_allapplicationsremoved">Tutte le richieste di iscrizione rimosse</string>
@@ -542,11 +546,15 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_decline">Rifiuta</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationaccepted">Invito accettato</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationdeclined">Invito rifiutato</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationautodeclined_ingroup">Invito rifiutato. Giocatore già nella lobby.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationautodeclined_pvpflagmismatched">Invito rifiutato. Attivazione PvP del giocatore non corrispondente.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationautodeclined_atdungeonlimit">Invito rifiutato. Giocatore al limite dei sotterranei.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationautodeclined_mismatchedfaction">Invito rifiutato. Giocatore in una fazione diversa.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_directinvite">Invita nella lobby</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_directinvite_tooltip_not_creator">Solo il creatore della lobby può invitare.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_directinvite_tooltip_already_in_group">{player} è già nella tua lobby.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_directinvite_tooltip_group_full">La tua lobby è al completo.</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_directinvite_tooltip_pvp_wrong_faction">Dovete essere nella stessa fazione per la lobby PvP.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_directinvite_tooltip_pvp_wrong_faction">Dovete essere nella stessa fazione per una lobby PvP.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_memberadded">Invito alla lobby inviato</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_memberupdated">Membro della lobby aggiornato</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_memberremoved_result">Membro rimosso dalla lobby</string>
@@ -576,7 +584,7 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_popup_conflict_leave_queue_title">Abbandona coda</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_popup_conflict_leave_queue_desc">Confermi? Se accetti, uscirai dalla tua coda attuale.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_popup_conflict_rescind_applications_title">Annulla richieste di iscrizione</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_popup_conflict_rescind_applications_desc">Confermi? Se accetti, tutte le tue richieste di iscrizione alle lobby in sospeso saranno annullate.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_popup_conflict_rescind_applications_desc">Confermi? Se accetti, tutte le tue richieste in sospeso di iscrizione alle lobby saranno annullate.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_tooltip_leave_group_title">Esci dalla lobby</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_tooltip_leave_group_desc">Vuoi davvero uscire da questa lobby?</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_tooltip_remove_from_group_title">Rimuovi membro</string>
