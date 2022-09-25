@@ -470,6 +470,7 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_invalidrequest">Requête invalide</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_pvp_flag_mismatch">Votre mode JcJ ne correspond pas au salon.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_pvp_faction_mismatch">Vous devez être dans la même faction pour un salon JcJ.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_requirements_not_met">Les conditions d'entrée dans le salon ont changé et vous n'y répondez pas.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_atmaxapplications">Vous ne pouvez pas envoyer plus de requêtes.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_groupfull">Salon plein</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_convert_to_group_declined">{playerName} a décliné la vérification.</string>
@@ -477,6 +478,7 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_playeroffline">{playerName} est hors-ligne, impossible de l'inviter.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_expedition_lobby">Salon de l'expédition</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_create_group_title">Créer un nouveau salon</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_edit_group_title">Modifier salon</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_voip_preferred">Préconisée</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_voice_chat_preferred">Discussion vocale préférée</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_voip_preferred_with_icon">Préférence : &lt;img src="lyshineui/images/icons/misc/icon_microphone" scale="1.8" xPadding="-2" yOffset="5.0"&gt;&lt;/img&gt;</string>
@@ -486,7 +488,8 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_gear_score_requirement_not_met">Vous ne remplissez pas les conditions de niveau et/ou de score d'équipement pour rejoindre ce salon.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pvp_mismatch_tooltip">Doit avoir le même mode JcJ que le salon.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pvp_faction_mismatch_tooltip">Doit être dans la même faction pour un salon JcJ.</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_level_unlist_pending_group">Supprimer le salon</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_level_edit_pending_group">Modifier</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_level_unlist_pending_group">Supprimer</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pending">En attente</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_accepted">Accepté</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_apply_disabled_your_lobby">Vous êtes déjà dans ce salon.</string>
@@ -521,6 +524,7 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_groupcreated">Salon créé</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_groupupdated">Salon modifié</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_groupremoved">Salon supprimé</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_groupunlisted">Votre salon a été supprimé. Vous avez été retiré(e) du salon.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_applicationsubmitted">Demande transmise</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_applicationremoved">Demande supprimée</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_allapplicationsremoved">Toutes les demandes ont été supprimées</string>
@@ -542,6 +546,10 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_decline">Refuser</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationaccepted">Invitation acceptée</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationdeclined">Invitation refusée</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationautodeclined_ingroup">Invitation refusée. Joueur déjà dans le salon.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationautodeclined_pvpflagmismatched">Invitation refusée. Le joueur a un mode JcJ incompatible.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationautodeclined_atdungeonlimit">Invitation refusée. Le joueur a atteint la limite de donjons.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationautodeclined_mismatchedfaction">Invitation refusée. Joueur dans une faction différente.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_directinvite">Inviter dans le salon</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_directinvite_tooltip_not_creator">Seul le créateur du salon peut envoyer des invitations.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_directinvite_tooltip_already_in_group">{player} est déjà dans votre salon.</string>

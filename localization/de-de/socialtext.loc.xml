@@ -470,6 +470,7 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_invalidrequest">Ungültige Anfrage</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_pvp_flag_mismatch">Deine PvP-Markierung passt nicht zur Lobby.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_pvp_faction_mismatch">Du musst für eine PvP-Lobby der gleichen Fraktion angehören.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_requirements_not_met">Die Anforderungen der Lobby haben sich geändert und du erfüllst sie nicht.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_atmaxapplications">Du kannst keine weiteren Anfragen mehr senden.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_groupfull">Lobby ist voll</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_convert_to_group_declined">{playerName} hat den Bereitschaftscheck abgelehnt.</string>
@@ -477,6 +478,7 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_playeroffline">Du kannst {playerName} nicht einladen, da er oder sie offline ist</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_expedition_lobby">Expeditions-Lobby</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_create_group_title">Neue Lobby erstellen</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_edit_group_title">Lobby bearbeiten</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_voip_preferred">Bevorzugt</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_voice_chat_preferred">Sprachchat bevorzugt</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_voip_preferred_with_icon">&lt;img src="lyshineui/images/icons/misc/icon_microphone" scale="1.8" xPadding="-2" yOffset="5.0"&gt;&lt;/img&gt; Bevorzugt</string>
@@ -484,9 +486,10 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_min_level">Mindeststufe</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_min_gear_score">Mindestrüstwert</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_gear_score_requirement_not_met">Du erfüllst die Mindeststufen- und/oder Rüstwert-Voraussetzungen zum Beitritt zu dieser Lobby nicht.</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pvp_mismatch_tooltip">Du musst die gleiche PvP-Markierung haben wie die Lobby.</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pvp_faction_mismatch_tooltip">Du musst für eine PvP-Lobby der gleichen Fraktion angehören.</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_level_unlist_pending_group">Lobby löschen</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pvp_mismatch_tooltip">Muss die gleiche PvP-Markierung haben wie die Lobby.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pvp_faction_mismatch_tooltip">Muss für eine PvP-Lobby der gleichen Fraktion angehören.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_level_edit_pending_group">Bearb.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_level_unlist_pending_group">Entf</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pending">Ausstehend</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_accepted">Akzeptiert</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_apply_disabled_your_lobby">Du befindest dich bereits in der Lobby.</string>
@@ -521,6 +524,7 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_groupcreated">Lobby erstellt</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_groupupdated">Lobby aktualisiert</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_groupremoved">Lobby entfernt</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_groupunlisted">Deine Lobby wurde gelöscht. Du wurdest aus der Lobby entfernt.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_applicationsubmitted">Bewerbung eingereicht</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_applicationremoved">Bewerbung entfernt</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_allapplicationsremoved">Alle Bewerbungen entfernt</string>
@@ -542,11 +546,15 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_decline">Ablehnen</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationaccepted">Einladung akzeptiert</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationdeclined">Einladung abgelehnt</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationautodeclined_ingroup">Einladung abgelehnt. Spieler bereits in der Lobby.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationautodeclined_pvpflagmismatched">Einladung abgelehnt. Spieler hat falsche PvP-Markierung.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationautodeclined_atdungeonlimit">Einladung abgelehnt. Spieler am Verlieslimit.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationautodeclined_mismatchedfaction">Einladung abgelehnt. Spieler in anderer Fraktion.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_directinvite">Einladung in Lobby</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_directinvite_tooltip_not_creator">Nur der Lobby-Ersteller kann Mitglieder einladen.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_directinvite_tooltip_already_in_group">{player} ist bereits in deiner Lobby.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_directinvite_tooltip_group_full">Deine Lobby ist voll.</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_directinvite_tooltip_pvp_wrong_faction">Du musst für eine PvP-Lobby der gleichen Fraktion angehören.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_directinvite_tooltip_pvp_wrong_faction">Muss für eine PvP-Lobby der gleichen Fraktion angehören.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_memberadded">Lobby-Einladung verschickt</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_memberupdated">Mitglieder der Lobby aktualisiert</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_memberremoved_result">Mitglied aus Lobby entfernt</string>
@@ -616,8 +624,8 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_chat_lobby_left">{playerName} hat die Lobby verlassen.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_error_group_finder_group_chat" comment="An error when you try to talk in group finder group chat">Du befindest dich in keiner Lobby.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_create_limit_title">Lobby kann nicht erstellt werden</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_create_limit_desc_regular">Folgende(s) Gruppenmitglied(er) haben ihr tägliches Limit für normale Expeditionen erreicht und können dieser Lobby nicht beitreten.\n\n&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{characters}&lt;/font&gt;\n&lt;font color={dateColor}&gt;(Beitritt möglich am {date})&lt;/font&gt;</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_create_limit_desc_mutated">Folgende(s) Gruppenmitglied(er) haben ihr wöchentliches Limit für mutierte Expeditionen erreicht und können dieser Lobby nicht beitreten.\n\n&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{characters}&lt;/font&gt;\n&lt;font color={dateColor}&gt;(Beitritt möglich am {date})&lt;/font&gt;</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_create_limit_desc_regular">Folgendes Gruppenmitglieder haben ihr tägliches Limit für normale Expeditionen erreicht und können dieser Lobby nicht beitreten.\n\n&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{characters}&lt;/font&gt;\n&lt;font color={dateColor}&gt;(Beitritt möglich am {date})&lt;/font&gt;</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_create_limit_desc_mutated">Folgendes Gruppenmitglieder haben ihr wöchentliches Limit für mutierte Expeditionen erreicht und können dieser Lobby nicht beitreten.\n\n&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{characters}&lt;/font&gt;\n&lt;font color={dateColor}&gt;(Beitritt möglich am {date})&lt;/font&gt;</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_limit_refresh">(Wird zurückgesetzt am {date})</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pending_invites_single">&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;1&lt;/font&gt; ausstehende Einladung</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pending_invites">&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{amount}&lt;/font&gt; ausstehende Einladungen</string>

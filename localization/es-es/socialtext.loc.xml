@@ -470,6 +470,7 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_invalidrequest">Solicitud no válida</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_pvp_flag_mismatch">Tu estado de JcJ no coincide con el vestíbulo.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_pvp_faction_mismatch">En un vestíbulo JcJ solo puede haber jugadores de la misma facción.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_requirements_not_met">Los requisitos del vestíbulo han cambiado y ya no cumples con ellos.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_atmaxapplications">No puedes enviar más peticiones.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_groupfull">Vestíbulo lleno</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_convert_to_group_declined">{playerName} ha rechazado la comprobación.</string>
@@ -477,6 +478,7 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_playeroffline">No puedes invitar a {playerName}, se ha desconectado</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_expedition_lobby">Vestíbulo de expedición</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_create_group_title">Crear nuevo vestíbulo</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_edit_group_title">Editar vestíbulo</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_voip_preferred">Preferido</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_voice_chat_preferred">Chat de voz preferido</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_voip_preferred_with_icon">&lt;img src="lyshineui/images/icons/misc/icon_microphone" scale="1.8" xPadding="-2" yOffset="5.0"&gt;&lt;/img&gt; Preferido</string>
@@ -486,7 +488,8 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_gear_score_requirement_not_met">No cumples el requisito de nivel o puntuación de equipo para unirte a este vestíbulo.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pvp_mismatch_tooltip">El estado de JcJ debe ser el mismo que el del vestíbulo.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pvp_faction_mismatch_tooltip">En un vestíbulo JcJ solo puede haber jugadores de la misma facción.</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_level_unlist_pending_group">Eliminar vestíbulo</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_level_edit_pending_group">Editar</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_level_unlist_pending_group">Suprimir</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pending">Pendiente</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_accepted">Aceptada</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_apply_disabled_your_lobby">Ya estás en este vestíbulo.</string>
@@ -521,6 +524,7 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_groupcreated">Vestíbulo creado</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_groupupdated">Vestíbulo actualizado</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_groupremoved">Vestíbulo eliminado</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_groupunlisted">Tu vestíbulo se ha eliminado. Se te ha eliminado del vestíbulo.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_applicationsubmitted">Solicitud enviada</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_applicationremoved">Solicitud eliminada</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_allapplicationsremoved">Todas las solicitudes eliminadas</string>
@@ -542,6 +546,10 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_decline">Rechazar</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationaccepted">Invitación aceptada</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationdeclined">Invitación rechazada</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationautodeclined_ingroup">Invitación rechazada. El jugador ya está en el vestíbulo.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationautodeclined_pvpflagmismatched">Invitación rechazada. El jugador no se ha activado para JcJ correctamente.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationautodeclined_atdungeonlimit">Invitación rechazada. El jugador ha alcanzado el límite de mazmorras.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationautodeclined_mismatchedfaction">Invitación rechazada. El jugador se encuentra en una facción diferente.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_directinvite">Invitar al vestíbulo</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_directinvite_tooltip_not_creator">Solo el creador del vestíbulo puede invitar.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_directinvite_tooltip_already_in_group">{player} ya está en tu vestíbulo.</string>
