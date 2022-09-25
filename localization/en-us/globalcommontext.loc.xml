@@ -109,7 +109,7 @@
 	<string key="ui_affliction_insane">insanity resistance</string>
 	<string key="ui_affliction_inspired">inspire</string>
 	<string key="ui_affliction_poison">Acid resistance</string>
-	<string key="ui_affliction_poison_tooltip">If you run out of acid resistance, you will suffur Acid burn.</string>
+	<string key="ui_affliction_poison_tooltip">If you run out of acid resistance, you will suffer Acid burn and take 500% more damage from acid. You can remove Acid Burn with Acid Tinctures which can be crafted at an arcane station.</string>
 	<string key="ui_affliction_weakness">weakness resistance</string>
 	<string key="ui_affliction_drowning">breath</string>
 	<string key="ui_affliction_drowning_tooltip">If you run out of breath, you suffocate and die</string>
@@ -339,6 +339,7 @@
 	<string key="ui_abbrev_month_11">Nov</string>
 	<string key="ui_abbrev_month_12">Dec</string>
 	<string key="ui_apply">Apply</string>
+	<string key="ui_default">Default</string>
 	<string key="ui_long_dayofweek_1">Sunday</string>
 	<string key="ui_long_dayofweek_2">Monday</string>
 	<string key="ui_long_dayofweek_3">Tuesday</string>
@@ -1006,6 +1007,7 @@
 	<string key="ui_escapemenu_help">New World Help Page</string>
 	<string key="ui_escapemenu_support">Support</string>
 	<string key="ui_escapemenu_leave_game">Leave Game</string>
+	<string key="ui_escapemenu_newsletter">Newsletter</string>
 	<string key="ui_navmenu_support">Support</string>
 	<string key="ui_navmenu_submit_feedback_desc">Please submit feedback regularly to help us make the most of your testing contribution.</string>
 	<string key="ui_navmenu_visit_forums">Visit Forums</string>
@@ -1439,6 +1441,7 @@
 	<string key="ui_named">Named</string>
 	<string key="url_twitchchannel">https://www.twitch.tv/{channel}</string>
 	<string key="url_forums">https://forums.newworld.com/</string>
+	<string key="url_newsletter_signup">https://www.newworld.com/en-us/forward-link?id=newsletter-sign-up</string>
 	<string key="ui_seizure_title">Photosensitive Seizure Warning</string>
 	<string key="ui_seizure_warning">If you, or anyone in your family, have an epileptic condition, consult your physician prior to playing New World.</string>
 	<string key="ui_seizure_description1">A very small percentage of individuals may experience epileptic seizures when exposed to certain visual images, including light patterns or flashing lights that may appear in video game or other video content. Exposure to certain patterns or backgrounds on a computer screen, or while playing video games, may induce an epileptic seizure in these individuals. Certain conditions may induce previously undetected epileptic symptoms even in persons who have no history of prior seizures or epilepsy.</string>
@@ -1447,6 +1450,7 @@
 	<string key="ui_landingscreen_dei2">The New World team consulted with experts and our diverse workforce on the depictions of the cultures we've drawn from, and will continue to do so as we add more in the future.</string>
 	<string key="ui_landingscreen_photosensitive_title">Photosensitive Seizure Warning</string>
 	<string key="ui_landingscreen_photosensitive_message">If you, or anyone in your family, have a history of seizures or epilepsy, consult your doctor prior to playing.</string>
+	<string key="ui_newsletter_signup">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Get the Latest News &amp; Offers from Aeternum!</string>
 	<string key="ui_viewtwitchstream">View Twitch Stream</string>
 	<string key="ui_deathrecap_timealive">Alive For</string>
 	<string key="ui_deathrecap_bestsurvivaltime">Best Survival Time</string>
@@ -1593,6 +1597,8 @@
 	<string key="ui_or">Or</string>
 	<string key="ui_tooltip_ingredient_type">Ingredient type:</string>
 	<string key="ui_tooltip_ingredient_types">Ingredient types:</string>
+	<string key="ui_tooltip_perks_info_text_socketable_singular">Apply this to any item with a gem socket to get the following effect:</string>
+	<string key="ui_tooltip_perks_info_text_socketable_plural">Apply this to any item with a gem socket to get one of the following effects:</string>
 	<string key="ui_tooltip_perks_info_text_gem_singular">Apply this gem to any item with a gem socket to get the following effect:</string>
 	<string key="ui_tooltip_perks_info_text_gem_plural">Apply this gem to any item with a gem socket to get one of the following effects:</string>
 	<string key="ui_tooltip_perks_info_text_craft_singular">Use this resource when crafting to get the following effect:</string>
@@ -1685,19 +1691,6 @@
 	<string key="ui_characters_count">Characters:</string>
 	<string key="ui_characters">Characters</string>
 	<string key="ui_map_legend">Legend.</string>
-	<string key="ui_leaderboard_title">COMPANY LEADERBOARD</string>
-	<string key="ui_leaderboard_timeremaining">TIME REMAINING</string>
-	<string key="ui_leaderboard_rank_header">RANK</string>
-	<string key="ui_leaderboard_rank_number">{number}.</string>
-	<string key="ui_leaderboard_company_header">COMPANY</string>
-	<string key="ui_leaderboard_area_score">({number})</string>
-	<string key="ui_leaderboard_day_title">DAY</string>
-	<string key="ui_leaderboard_day_claims_header">CLAIMS</string>
-	<string key="ui_leaderboard_day_score_header">ACREAGE</string>
-	<string key="ui_leaderboard_season_title">SEASON</string>
-	<string key="ui_leaderboard_season_claims_header">TOTAL CLAIM SCORE</string>
-	<string key="ui_leaderboard_season_score_header">TOTAL ACREAGE</string>
-	<string key="ui_leaderboard_time_left">{time} left</string>
 	<string key="ui_autocompletetimedout">Auto complete timed out.</string>
 	<string key="ui_autocompletethrottled">Auto complete throttled.</string>
 	<string key="ui_searchitem">Search Items</string>
@@ -1743,6 +1736,8 @@
 	<string key="ui_escapemenu_proceed_to_new_world">Skip Tutorial</string>
 	<string key="ui_proceed_to_new_world_popup_title">Skip Tutorial</string>
 	<string key="ui_proceed_to_new_world_popup_message">Are you sure you want to skip the tutorial?\nYou will leave any coin, items, or experience behind.</string>
+	<string key="ui_milestone_correction_popup_title">Milestone Updated</string>
+	<string key="ui_milestone_correction_popup_message">Main Story Milestones have changed!\n\nAeternum is ever-evolving and you've been relocated to better experience the brand new stories and quests.</string>
 	<string key="ui_additional_items">+{count} more items</string>
 	<string key="ui_retest">Re-Test</string>
 	<string key="ui_details">Details</string>
@@ -1762,9 +1757,6 @@
 	<string key="ui_notification_teleport_text">A war is about to begin in this location.\nYou will be teleported out if you do not leave the area.</string>
 	<string key="ui_notification_left_teleport_area">You have left the restricted area and will not be teleported.</string>
 	<string key="ui_item_link_tooltip_command">Link to Chat</string>
-	<string key="ui_leaderboard">LEADERBOARD</string>
-	<string key="ui_mapmenu_dayleaderboard">DAY</string>
-	<string key="ui_mapmenu_seasonleaderboard">SEASON</string>
 	<string key="ui_mapmenu_companiesatwar">UPCOMING WARS</string>
 	<string key="ui_mapmenu_resourcelocations">RESOURCE LOCATIONS</string>
 	<string key="ui_mapmenu_activewars">UPCOMING WARS</string>
@@ -1889,7 +1881,7 @@
 	<string key="ui_ability1">Weapon Ability 1</string>
 	<string key="ui_ability2">Weapon Ability 2</string>
 	<string key="ui_ability3">Weapon Ability 3</string>
-	<string key="ui_ability_heartgem">Heartgem Ability</string>
+	<string key="ui_ability_heartgem">Heartrune Ability</string>
 	<string key="ui_pending_afk_disconnect">Are you still playing?</string>
 	<string key="ui_pending_afk_disconnect_description">You have been detected as idle and will be automatically kicked from the game. If you're still playing, move your character.</string>
 	<string key="ui_pending_freeweekend_session_ending_title">Free Session Ending Soon</string>
@@ -2158,7 +2150,7 @@
 	<string key="ui_clusterwarning_warning">&lt;font color={colorHex1}&gt;You can only have 1 character in the &lt;/font&gt; &lt;font face="lyshineui/fonts/nimbus_bold.font"&gt;&lt;font color={colorHex2}&gt;{worldSetName} World Set&lt;/font&gt;&lt;/font&gt;&lt;font color={colorHex1}&gt;.&lt;/font&gt;</string>
 	<string key="ui_clusterwarning_description1">If you want to play in another {worldSetName} World, you will need to delete this character in {worldName}</string>
 	<string key="ui_clusterwarning_description2">If you have friends playing in other {worldSetName} Worlds, you will not be able to play with them.</string>
-	<string key="ui_clusterwarning_freshstart">Only new characters can be created in {worldName}. Characters cannot transfer to this world.</string>
+	<string key="ui_clusterwarning_freshstart">Only new characters can be created in {worldName}. Characters cannot transfer to and from this Fresh Start World.</string>
 	<string key="ui_clusterwarning_non_freshstart">Characters may transfer to and from this world.</string>
 	<string key="ui_character_world_info">{worldName}</string>
 	<string key="ui_cannotPin_atMax">Cannot pin any more objectives.</string>
@@ -2382,6 +2374,7 @@
 	<string key="ui_locked_account_title">ACCOUNT LOCKED</string>
 	<string key="ui_locked_account_description">Your account is currently locked.\n\nSeveral in-game functions such as Store purchasing, and consuming Store items will be disabled while you are in this state.</string>
 	<string key="ui_gearscore_modified">Gear Score adjusted to the average of {slot} Expertise and the item's Gear Score</string>
+	<string key="ui_gearscore_leveled_by_gamemode">Gear Score adjusted by rules of {mode}.</string>
 	<string key="ui_itemtypedescription_recipe">Recipe</string>
 	<string key="ui_itemtypedescription_sword">Sword</string>
 	<string key="ui_itemtypedescription_hatchet">Hatchet</string>
@@ -2481,7 +2474,7 @@
 	<string key="ui_complete_quests_to_unlock">Complete quests in settlement to unlock</string>
 	<string key="ui_interact_required_level">You must be level {level} to use</string>
 	<string key="ui_cannot_chat_trading_blocked">Your account must be older than {hoursNeeded}, your playtime greater than {playtimeNeeded}, and the trading post unlocked to access this channel.</string>
-	<string key="ui_averageexpertise">Average\nExpertise</string>
+	<string key="ui_averageexpertise">Average Expertise</string>
 	<string key="ui_averageexpertisetooltip">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Expertise&lt;/font&gt;\nExpertise is used to measure the maximum power of an item when you have it equipped.\n\n&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Max Expertise that you can reach&lt;/font&gt;\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{maximum}&lt;/font&gt;\n\n&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;How to increase Expertise&lt;/font&gt;\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Elite POIs and Expeditions&lt;/font&gt;\nDrops from creatures or chests in level 60+ areas have a chance to increase this value.\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_semibold.font"&gt;Crafting&lt;/font&gt;\nCrafting a 600 GS item will increase Expertise of this item type.\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_semibold.font"&gt;Gypsum Cast&lt;/font&gt;\nOpening a Gypsum Cast will increase Expertise.\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_semibold.font"&gt;Item Upgrade (with Umbral Shards)&lt;/font&gt;\nAfter you reach 600 Expertise, the only way to increase Expertise is via upgrading items with Umbral Shards.</string>
 	<string key="ui_itemtypedescription_shield_only">Shield</string>
 	<string key="ui_expertise_value_with_icon">&lt;img src="lyshineui/images/icons/misc/icon_hwm_small_color" scale="1.5" yOffset="2"&gt;&lt;/img&gt;{value}</string>
@@ -2561,6 +2554,7 @@
 	<string key="ui_event_time_left_compass">Event ends in &lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{timeLeft}&lt;/font&gt;</string>
 	<string key="attribution_WinterConvergence_2021" rel_version="Event_WinterConvergence_Perm">Winter Convergence 2021</string>
 	<string key="attribution_SummerMedleyfaire_2022" rel_version="Event_Summer_Perm">Summer Medleyfaire 2022</string>
+	<string key="attribution_NightveilHallow_2022" rel_version="Event_Halloween_Perm">Nightveil Hallow 2022</string>
 	<string key="ui_reset_daily_time">Resets daily at {time}</string>
 	<string key="ui_reset_weekly_time">Resets weekly each {time}</string>
 	<string key="ui_buy_new_world">Buy New World</string>

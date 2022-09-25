@@ -224,7 +224,9 @@
 	<string key="emote_unable_to_use_emote">No se pueden usar gestos en este modo de juego</string>
 	<string key="ui_durability_loss_outpost_rush">Estás en Asalto a puesto remoto. Aunque hayas muerto, tu equipo no ha sufrido daños.</string>
 	<string key="ui_durability_loss_war">Estás en una guerra (o invasión). Aunque hayas muerto, tu equipo no ha sufrido daños.</string>
-	<string key="ui_item_durability_loss">Todo el equipo de tu inventario ha sufrido daños debido a tu muerte.</string>
+	<string key="ui_item_durability_loss">Tu equipo ha sufrido daños tras tu muerte.</string>
+	<string key="ui_item_durability_dungeon">Estás en una expedición. Aunque hayas muerto, tu equipo no ha sufrido daños.</string>
+	<string key="ui_item_durability_arena" rel_version="Feature_PVP_Arenas">Estás en una arena. Aunque hayas muerto, tu equipo no ha sufrido daños.</string>
 	<string key="ui_item_durability_loss_pvp">Te ha matado otro jugador. Tu equipo ha sufrido un daño reducido.</string>
 	<string key="ui_in_spectators_box">En el palco de espectadores</string>
 	<string key="ui_in_spectators_box_description">Habilidades desactivadas</string>
@@ -243,5 +245,6 @@
 	<string key="ui_switching_sides">Cambiando de bando</string>
 	<string key="ui_rounds_won">Rondas ganadas</string>
 	<string key="ui_see_through_label">Modo transparente</string>
+	<string key="ui_invasion_leave">Abandonar invasión</string>
 </resources>
 

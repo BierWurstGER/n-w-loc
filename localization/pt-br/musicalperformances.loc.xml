@@ -22,6 +22,7 @@
 	<string key="ui_musical_performances_instrument_required_to_start" rel_version="Feature_MusicalPerformances">Você precisa de pelo menos 2 partes selecionadas para iniciar uma apresentação.</string>
 	<string key="ui_musical_performances_timeout_inactivity" rel_version="Feature_MusicalPerformances">Sua apresentação expirou devido à inatividade.</string>
 	<string key="ui_musical_performances_cannot_place_too_close_to_restricted" rel_version="Feature_MusicalPerformances">Você não pode colocar uma apresentação aqui pois está muito perto de uma área restrita.</string>
+	<string key="ui_musical_performances_createfailed_inhouse" rel_version="Feature_MusicalPerformances">Você não pode iniciar uma apresentação enquanto está dentro de uma casa.</string>
 	<string key="ui_musical_performances_no_part_selected" rel_version="Feature_MusicalPerformances">Não há nenhuma parte selecionada.</string>
 	<string key="ui_musical_performances_tooltip_description" rel_version="Feature_MusicalPerformances">Partitura de {instrument}</string>
 	<string key="ui_musical_performances_tooltip_tip" rel_version="Feature_MusicalPerformances">Colete páginas para completar a partitura de cada instrumento.</string>
@@ -72,6 +73,7 @@
 	<string key="ui_musical_performances_watching_tips_timer" rel_version="Feature_MusicalPerformances">TEMPORIZADOR DE GORJETA</string>
 	<string key="ui_musical_performances_waiting_for_tips" rel_version="Feature_MusicalPerformances">AGUARDANDO GORJETAS...</string>
 	<string key="ui_musical_performances_end_tipping" rel_version="Feature_MusicalPerformances">Acabar agora e coletar gorjetas</string>
+	<string key="ui_musical_performances_tip_timer_duration" rel_version="Feature_MusicalPerformances">{seconds} s</string>
 	<string key="ui_musical_performances_complete" rel_version="Feature_MusicalPerformances">APRESENTAÇÃO\nCONCLUÍDA</string>
 	<string key="ui_musical_performances_score_00" rel_version="Feature_MusicalPerformances">Incrível!</string>
 	<string key="ui_musical_performances_score_01" rel_version="Feature_MusicalPerformances">Ótimo!</string>
@@ -139,7 +141,7 @@
 	<string key="PerkID_MusicalInstrument_SoloXPBonus_Name" rel_version="Feature_MusicalPerformances">Holofote</string>
 	<string key="PerkID_MusicalInstrument_OpeningNotesPerfect_Description" rel_version="Feature_MusicalPerformances">As três primeiras notas tocadas são sempre perfeitas.</string>
 	<string key="PerkID_MusicalInstrument_IgnoreMissedNotes_Description" rel_version="Feature_MusicalPerformances">A primeira nota errada é ignorada.</string>
-	<string key="PerkID_MusicalInstrument_RakeReduction_Description" rel_version="Feature_MusicalPerformances">O grupo da apresentação agora recebe o valor total da gorjeta.</string>
+	<string key="PerkID_MusicalInstrument_RakeReduction_Description" rel_version="Feature_MusicalPerformances">O performista agora recebe o valor total da gorjeta.</string>
 	<string key="PerkID_MusicalInstrument_FinalNotePerfectXPBonus_Description" rel_version="Feature_MusicalPerformances">Acertar perfeitamente a nota final concede ao jogador um aumento de 10% na EXP de Música.</string>
 	<string key="PerkID_MusicalInstrument_GroupXPBonus_Description" rel_version="Feature_MusicalPerformances">Tocar em grupo concede ao jogador um aumento de 10% na EXP de Música.</string>
 	<string key="PerkID_MusicalInstrument_SoloXPBonus_Description" rel_version="Feature_MusicalPerformances">Tocar sozinho concede ao jogador um aumento de 10% na EXP de Música.</string>
@@ -187,14 +189,17 @@
 	<string key="songtitle_Seed" rel_version="Feature_MusicalPerformances">Prado Selvagem Doce</string>
 	<string key="songtitle_Set" rel_version="Feature_MusicalPerformances">Antes da Tempestade</string>
 	<string key="songtitle_Trust" rel_version="Feature_MusicalPerformances">Luz Minguante</string>
-	<string key="songtitle_Brown_Leaves" rel_version="Feature_MusicalPerformances">Folhas de Jucá</string>
-	<string key="songtitle_Down_The_Lane" rel_version="Feature_MusicalPerformances">Companheiros de Guardaventos</string>
-	<string key="songtitle_How_Ore_You_Today" rel_version="Feature_MusicalPerformances">Como Você Está Hoje</string>
-	<string key="songtitle_The_Camp" rel_version="Feature_MusicalPerformances">Meu Acampamento</string>
-	<string key="songtitle_The_Camp_Grows" rel_version="Feature_MusicalPerformances">Meu Lar</string>
-	<string key="songtitle_Blue_Leaves" rel_version="Feature_MusicalPerformances">Folhas de Urdeira</string>
-	<string key="songtitle_Sounds_Of_Bells" rel_version="Feature_MusicalPerformances">Sons de Sinos</string>
-	<string key="songtitle_Weavers_Webb" rel_version="Feature_MusicalPerformances">Teia de Tecelão</string>
-	<string key="songtitle_The_Kid_On_The_Mountain" rel_version="Feature_MusicalPerformances">A Criança na Montanha</string>
+	<string key="songtitle_Brown_Leaves" rel_version="Feature_MusicalPerformancesV2">Folhas de Jucá</string>
+	<string key="songtitle_Down_The_Lane" rel_version="Feature_MusicalPerformancesV2">Companheiros de Guardaventos</string>
+	<string key="songtitle_How_Ore_You_Today" rel_version="Feature_MusicalPerformancesV2">Como Você Está Hoje</string>
+	<string key="songtitle_The_Camp" rel_version="Feature_MusicalPerformancesV2">Meu Acampamento</string>
+	<string key="songtitle_The_Camp_Grows" rel_version="Feature_MusicalPerformancesV2">Meu Lar</string>
+	<string key="songtitle_Blue_Leaves" rel_version="Feature_MusicalPerformancesV2">Folhas de Urdeira</string>
+	<string key="songtitle_Sounds_Of_Bells" rel_version="Feature_MusicalPerformancesV2">Sons de Sinos</string>
+	<string key="songtitle_Weavers_Webb" rel_version="Feature_MusicalPerformancesV2">Teia de Tecelão</string>
+	<string key="songtitle_The_Kid_On_The_Mountain" rel_version="Feature_MusicalPerformancesV2">A Criança na Montanha</string>
+	<string key="songtitle_That_Damn_Fish" rel_version="Feature_MusicalPerformancesV2">Maldito Peixe</string>
+	<string key="songtitle_Soup_Of_The_Day" rel_version="Feature_MusicalPerformancesV2">Sopa do Dia</string>
+	<string key="songtitle_Canarios" rel_version="Feature_MusicalPerformancesV2">Canários</string>
 </resources>
 

@@ -94,6 +94,7 @@
 	<string key="trade_column_status">Status</string>
 	<string key="trade_column_rarity">Seltenh.</string>
 	<string key="trade_column_craftsmanship">Handwerks-\nkunst</string>
+	<string key="trade_column_completion_time">Abschlusszeit</string>
 	<string key="trade_noitemmessage">Wähle einen Gegenstand zum Ansehen aus.</string>
 	<string key="trade_not_enough_money">Nicht genug Geld</string>
 	<string key="trade_none_available">Ausverkauft</string>
@@ -463,6 +464,7 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invited">Eingeladen</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_reject">Ablehnen</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_rejected">Abgelehnt</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_unknownerror">Unbekannter Fehler</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_servererror">Serverfehler</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_notfound">Lobby nicht gefunden</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_timeout">Zeitüberschreitung bei der Anfrage</string>
@@ -471,6 +473,7 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_pvp_flag_mismatch">Deine PvP-Markierung passt nicht zur Lobby.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_pvp_faction_mismatch">Du musst für eine PvP-Lobby der gleichen Fraktion angehören.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_requirements_not_met">Die Anforderungen der Lobby haben sich geändert und du erfüllst sie nicht.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_cleanspeakerror">Chatfilter-Fehler. Bitte aktualisiere deinen Text und versuche es dann erneut.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_atmaxapplications">Du kannst keine weiteren Anfragen mehr senden.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_groupfull">Lobby ist voll</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_convert_to_group_declined">{playerName} hat den Bereitschaftscheck abgelehnt.</string>
@@ -542,13 +545,14 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_sorted_by">Sortiert nach</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_time_posted">Gepostete Zeit</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_join_with_group">Expedition mit deiner Gruppe aktivieren</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_in_probation">Um eine Lobby zu erstellen, muss dein Konto älter als {accountProbationTimeRequired} sein und eine Mindestspielzeit von {characterProbationTimeRequired} vorweisen.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_difficulty_locked">Du musst diesen Schwierigkeitsgrad freischalten, um eine neue Lobby zu erstellen.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_decline">Ablehnen</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationaccepted">Einladung akzeptiert</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationdeclined">Einladung abgelehnt</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationautodeclined_ingroup">Einladung abgelehnt. Spieler bereits in der Lobby.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationautodeclined_pvpflagmismatched">Einladung abgelehnt. Spieler hat falsche PvP-Markierung.</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationautodeclined_atdungeonlimit">Einladung abgelehnt. Spieler am Verlieslimit.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationautodeclined_atdungeonlimit">Einladung abgelehnt. Spieler am Expeditionslimit.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationautodeclined_mismatchedfaction">Einladung abgelehnt. Spieler in anderer Fraktion.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_directinvite">Einladung in Lobby</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_directinvite_tooltip_not_creator">Nur der Lobby-Ersteller kann Mitglieder einladen.</string>
@@ -562,6 +566,7 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_queue_hud_looking_for_more">Suche nach mehr Mitgliedern ...</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_outpost_rush_signup_fail">Solange du in einer Lobby bist, kannst du dich nicht eintragen.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_dungeon_queue_signup_fail">Solange du in einer Lobby bist, kannst du dich keiner Expeditions-Warteschlange anschließen.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_dungeon_queue_signup_fail_solo">Solange du in einer Lobby bist, kannst du dich keiner Seelenprüfungs-Warteschlange anschließen.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_queue_hud_group_full">Gruppe voll</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_queue_hud_open_expedition">Expedition öffnen</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_queue_hud_min_players">Um diese Expedition zu starten, sind mindestens {amount} Mitglieder erforderlich.</string>

@@ -74,6 +74,7 @@
 	<string key="inv_rarity_salvage_confirm">Estás por desarmar un objeto poderoso. ¿Confirmas la acción?</string>
 	<string key="inv_cannotsalvage_equipped">No puedes desarmar objetos equipados.</string>
 	<string key="inv_cannotsalvage_full">No puedes desarmar. Tu inventario está lleno.</string>
+	<string key="inv_cannotsalvage_currencyfull">No puedes desarmar porque {currency} está a su máxima capacidad.</string>
 	<string key="ui_move_hint">Mover</string>
 	<string key="ui_link_to_chat_hint">Enlace al chat</string>
 	<string key="ui_split_stack_hint">Dividir pila</string>
@@ -959,6 +960,7 @@
 	<string key="world_set_characters_title">¿Cuántos personajes puedo tener en cada conjunto de mundos?</string>
 	<string key="world_set_characters_desc">Puedes tener 1 personaje por conjunto de mundos. Tendrás que borrar tu personaje si quieres jugar en otro mundo de un conjunto de mundos, ya que los personajes no se pueden transferir ni mover a otros mundos.</string>
 	<string key="world_set_recommended_world">Mundo recomendado</string>
+	<string key="world_no_recommended_worlds_available">No hay mundos recomendados disponibles.</string>
 	<string key="world_set_region">Región:</string>
 	<string key="world_set_current_region">Región actual:</string>
 	<string key="ui_mastery">Dominio</string>
@@ -971,7 +973,6 @@
 	<string key="ui_glory_update_floating_standing">+{amount} de posición</string>
 	<string key="ui_glory_to_level">&lt;font color="#ffffff"&gt;{xp} de EXP&lt;/font&gt; para llegar al nivel {level}</string>
 	<string key="ui_glory_tooltip">Tienes atributos o puntos de habilidad sin gastar. Usa [{keyName}] para abrir la pantalla de progreso y mejorar tus habilidades.</string>
-	<string key="ui_coin">Dinero</string>
 	<string key="ui_coin">Dinero</string>
 	<string key="ui_coin_desc">La moneda principal para comprar objetos en la tienda de intercambio y en la tienda de la facción.\nEl límite de monedas es de &lt;font color="#ffffff"&gt;{amount}&lt;/font&gt;.\n\n&lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#aaaaaa"&gt;Derivado de:&lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#ffffff"&gt; Completar misiones, matar enemigos, participar en eventos&lt;/font&gt;</string>
 	<string key="ui_coin_max">Máximo de monedas</string>
@@ -1681,19 +1682,6 @@
 	<string key="ui_characters_count">Personajes:</string>
 	<string key="ui_characters">Personajes</string>
 	<string key="ui_map_legend">Leyenda.</string>
-	<string key="ui_leaderboard_title">LISTA DE GANADORES DE LA COMPAÑÍA</string>
-	<string key="ui_leaderboard_timeremaining">TIEMPO RESTANTE</string>
-	<string key="ui_leaderboard_rank_header">RANGO</string>
-	<string key="ui_leaderboard_rank_number">{number}</string>
-	<string key="ui_leaderboard_company_header">COMPAÑÍA</string>
-	<string key="ui_leaderboard_area_score">({number})</string>
-	<string key="ui_leaderboard_day_title">DÍA</string>
-	<string key="ui_leaderboard_day_claims_header">CONQUISTAS</string>
-	<string key="ui_leaderboard_day_score_header">SUPERFICIE</string>
-	<string key="ui_leaderboard_season_title">TEMPORADA</string>
-	<string key="ui_leaderboard_season_claims_header">PUNTUACIÓN TOTAL DE CONQUISTAS</string>
-	<string key="ui_leaderboard_season_score_header">SUPERFICIE TOTAL</string>
-	<string key="ui_leaderboard_time_left">{time} restante</string>
 	<string key="ui_autocompletetimedout">Se agotó el tiempo de autocompletado.</string>
 	<string key="ui_autocompletethrottled">Autocompletado desacelerado.</string>
 	<string key="ui_searchitem">Buscar objetos</string>
@@ -1707,6 +1695,7 @@
 	<string key="ui_unstuck_request_denied_no_breadcrumbs">No te puedes desatascar sin moverte</string>
 	<string key="ui_unstuck_request_denied_too_frequent">No te puedes desatascar con tanta frecuencia</string>
 	<string key="ui_unstuck_request_denied_teleport_failed">No te puedes teletransportar debido a que la ubicación está desatascada</string>
+	<string key="ui_unstuck_request_denied_in_musical_performance">No te puedes desatascar mientras estás en una función musical.</string>
 	<string key="ui_unstuck_request_accepted">Teletransportando en %d segundos</string>
 	<string key="ui_generator_time_to_generate_item">Tiempo para generar {quantity} {item}.</string>
 	<string key="ui_quantitywithx">x{quantity}</string>
@@ -1757,9 +1746,6 @@
 	<string key="ui_notification_teleport_text">Está a punto de desatarse una guerra en esta ubicación.\nTe teletransportarás si no abandonas el área.</string>
 	<string key="ui_notification_left_teleport_area">Abandonaste el área restringida y no te teletransportarás.</string>
 	<string key="ui_item_link_tooltip_command">Enlace al chat</string>
-	<string key="ui_leaderboard">CLASIFICACIÓN</string>
-	<string key="ui_mapmenu_dayleaderboard">DÍA</string>
-	<string key="ui_mapmenu_seasonleaderboard">TEMPORADA</string>
 	<string key="ui_mapmenu_companiesatwar">GUERRAS INMINENTES</string>
 	<string key="ui_mapmenu_resourcelocations">UBICACIONES DE RECURSOS</string>
 	<string key="ui_mapmenu_activewars">GUERRAS INMINENTES</string>
@@ -2220,6 +2206,8 @@
 	<string key="ui_nameplate_slider_desc">Aumenta o reduce la cantidad de placas de identificación que se muestran en pantalla. ADVERTENCIA: Una gran cantidad de placas de identificación puede afectar gravemente la velocidad de fotogramas.</string>
 	<string key="ui_stat_bonus_tooltip">&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt; + {amount}&lt;/font&gt; {attribute}</string>
 	<string key="ui_stat_bonus">+ {amount} {attribute}</string>
+	<string key="ui_craft_bonus">+{amount} {bonus} {bonus2}</string>
+	<string key="ui_first_craft_bonus">(&lt;img src="lyshineui/images/icons/misc/icon_upgrade" xPadding="0" scale="1.8" yOffset="5"&gt;&lt;/img&gt; Primera bonificación de fabricación)</string>
 	<string key="ui_maker_status_effects_single">{effect1}</string>
 	<string key="ui_maker_status_effects_double">{effect1} · {effect2}</string>
 	<string key="ui_maker_status_effects_triple">{effect1} · {effect2} · {effect3}</string>
@@ -2271,7 +2259,7 @@
 	<string key="ui_fishing_divert_level_yellow">¡Población de peces menguante!</string>
 	<string key="ui_fishing_divert_level_red">¡Población de peces crítica!</string>
 	<string key="fishing_hotspot_name">{displayName}\n({territory})</string>
-	<string key="ui_change_faction_azoth">&lt;img src="lyshineui/images/icon_azoth" xPadding="0" scale="1.8" yOffset="5"&gt;&lt;/img&gt; {amount}</string>
+	<string key="ui_change_faction_azoth">&lt;img src="lyshineui/images/icon_azoth" xPadding="5" yOffset="3"&gt;&lt;/img&gt;{amount}</string>
 	<string key="ui_change_faction_azoth_required">Requiere &lt;img src="lyshineui/images/icon_azoth" xPadding="0" scale="1.8" yOffset="5"&gt;&lt;/img&gt; {amount}</string>
 	<string key="ui_faction_cant_pvp">No puedes cambiar de facción si tienes el modo JcJ activado</string>
 	<string key="ui_faction_cant_sanctuary">Solo puedes cambiar de facción en un santuario</string>
@@ -2289,6 +2277,7 @@
 	<string key="ui_change_faction_quest_warning" rel_version="Feature_Faction_Selection">Misiones introductorias no completadas</string>
 	<string key="ui_change_faction_visit_rep" rel_version="Feature_Faction_Selection">Visita al representante de la facción para cambiar.</string>
 	<string key="ui_current_faction">Tu facción actual: {factionname}</string>
+	<string key="ui_current_faction_label">Facción actual</string>
 	<string key="ui_dropconfirm_title">Confirmación para soltar</string>
 	<string key="ui_dropconfirm_msg">¿Quieres soltar estos objetos y dejarlos en el suelo?</string>
 	<string key="reward_new_recipe">Receta nueva: {name}</string>
@@ -2480,7 +2469,7 @@
 	<string key="ui_expertise_tooltip_breakdown">(&lt;img src="lyshineui/images/icons/misc/icon_hwm_small_color" scale="1.5" yOffset="2"&gt;&lt;/img&gt;&lt;font color="#c59dff"&gt;{value} &lt;/font&gt; &lt;font color="#ffffff"&gt;+ {additional}&lt;/font&gt; por mejora con fragmentos umbríos)</string>
 	<string key="ui_expertise_tooltip_breakdown_multiple">(&lt;img src="lyshineui/images/icons/misc/icon_hwm_small_color" scale="1.5" yOffset="2"&gt;&lt;/img&gt;&lt;font color="#c59dff"&gt;{value} &lt;/font&gt; &lt;font color="#ffffff"&gt;+ {additional}&lt;/font&gt; por mejoras con fragmentos umbríos)</string>
 	<string key="ui_expertise_tooltip_increase">El nivel &lt;font color="#ffffff"&gt;máximo&lt;/font&gt; de pericia que puedes obtener a partir de enemigos, cofres, moldes de aljez y fabricación es de &lt;img src="lyshineui/images/icons/misc/icon_hwm_small_color" scale="1.5" yOffset="2"&gt;&lt;/img&gt;&lt;font color="#c59dff"&gt;600&lt;/font&gt;.</string>
-	<string key="ui_expertise_tooltip_maximum">Para aumentar el nivel de pericia por encima de &lt;img src="lyshineui/images/icons/misc/icon_hwm_small_color" scale="1.5" yOffset="2"&gt;&lt;/img&gt;&lt;font color="#c59dff"&gt;600&lt;/font&gt;, mejora un objeto en esta ranura con &lt;font color="#ffffff"&gt;fragmentos umbríos&lt;/font&gt;.</string>
+	<string key="ui_expertise_tooltip_maximum">Para aumentar el nivel de pericia por encima de &lt;img src="lyshineui/images/icons/misc/icon_hwm_small_color" scale="1.5" yOffset="2"&gt;&lt;/img&gt;&lt;font color="#c59dff"&gt;600&lt;/font&gt;, mejora un objeto de este tipo con &lt;font color="#ffffff"&gt;fragmentos umbríos&lt;/font&gt;.</string>
 	<string key="ui_expertise_crafting_gain">Pericia {category}</string>
 	<string key="ui_guides">Guías</string>
 	<string key="ui_fast_travel_guide_1_header">Cómo funciona</string>
@@ -2511,12 +2500,46 @@
 	<string key="ui_endgame_guide_body8">Los fragmentos umbríos se pueden usar para mejorar cualquier pieza de equipo con una puntuación del equipo mínima de 590 y hasta una máxima de 625. Si te lo equipas luego de mejorarlo, el equipo también aumentará tu puntuación de pericia.\n\nLos fragmentos umbríos se pueden obtener de OPR, abriendo cofres élite de nivel alto, en expediciones mutadas, fabricando equipo de nivel alto y abriendo moldes de aljez para ranuras de equipo que tengan un nivel de pericia de 600 o superior.</string>
 	<string key="ui_endgame_guide_button_view_guide">Ver guía</string>
 	<string key="ui_endgame_guide_button_dismiss">Ignorar</string>
+	<string key="ui_endgame_banner_title">¡Alcanzaste el nivel máximo!</string>
+	<string key="ui_endgame_banner_text1">&lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#ffdb7a"&gt;Expediciones de fin de juego&lt;/font&gt;, incluidas mutaciones mensuales rotativas para obtener las mejores recompensas.</string>
+	<string key="ui_endgame_banner_text2">&lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#ffdb7a"&gt;Avance a un puesto de avanzada&lt;/font&gt;, un campo de batalla de 20 vs. 20.</string>
+	<string key="ui_endgame_banner_text3">Puntos de referencia &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#ffdb7a"&gt;élite&lt;/font&gt;, arenas de prueba y desafíos de mundo abierto para grupos.</string>
+	<string key="ui_endgame_banner_text4">Ve a un &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#ffdb7a"&gt;horno de aljez&lt;/font&gt; para mejorar tu equipo.</string>
+	<string key="ui_endgame_banner_subtitle">Bienvenido al fin de juego</string>
+	<string key="ui_factions">Facciones</string>
+	<string key="ui_factions_guide_1_header">Unirse a una facción</string>
+	<string key="ui_factions_guide_1_body">Antes de unirte a una facción, debes demostrarles tu valía a través de una serie de objetivos. Para comenzar, visita al representante de la facción en cualquier asentamiento.</string>
+	<string key="ui_factions_guide_2_header">Beneficios de una facción</string>
+	<string key="ui_factions_guide_2_body">Cuando te unes a una facción, consigues acceso a las misiones de la facción, al PvP de mundo abierto y a las guerras. Podrás participar en el control cambiante de territorios para tu facción.\n\nSi te aventuras en un territorio controlado por tu facción, recibirás varios bonificadores diferentes, como un aumento de la ganancia de EXP.</string>
+	<string key="ui_factions_guide_3_header">Compañías</string>
+	<string key="ui_factions_guide_3_body">Los jugadores en una facción pueden formar compañías e invitar a otros jugadores que estén en la misma facción o que no estén en ninguna. Aun así, los jugadores que no estén en una facción no pueden participar en el PvP o en las guerras.</string>
+	<string key="ui_factions_guide_4_header">Gobernanza de la compañía</string>
+	<string key="ui_factions_guide_4_body">Las compañías tienen el potencial de hacer que su líder se convierta en el gobernador de un territorio al ganar una guerra contra su dueño actual. Consulta Declarar la guerra en la guía de Jugador contra jugador (PvP) y guerras para obtener más información sobre cómo empezar y luchar en las guerras.</string>
+	<string key="ui_pvp_guide">Jugador contra jugador (PvP) y guerras</string>
+	<string key="ui_pvp_guide_1_header">PvP de mundo abierto</string>
+	<string key="ui_pvp_guide_1_body">Una vez dentro de una facción, tienes la opción de habilitar la marca de PvP. Habilitarla te permitirá participar en el combate de jugador contra jugador de mundo abierto. Mientras la marca esté habilitada, podrás atacar y ser atacado por otros jugadores de otras facciones que tengan la marca activada.\n\nPara habilitar o deshabilitar la marca de PvP, pulsa el botón Alternar PvP (predefinido: U) en un asentamiento o en cualquier santuario.</string>
+	<string key="ui_pvp_guide_2_header">Control del fuerte</string>
+	<string key="ui_pvp_guide_2_body">Los jugadores con la marca de PvP habilitada pueden luchar en cada fuerte para hacerse con el control.\n\nPara participar, activa la marca para PvP, ve al fuerte por el que desees competir y luego entra por cualquier entrada. Una vez dentro, conquista y mantén tu posición contra los jugadores de otras facciones.\n\nLa facción que conquiste el fuerte obtendrá bonificaciones en el territorio, como un aumento de influencia y ganancia de EXP para los miembros de la facción. Poseer un fuerte no afecta el control general del territorio, pero puede ser una pieza clave para declarar la guerra por la propiedad.</string>
+	<string key="ui_pvp_guide_3_header">Declarar la guerra</string>
+	<string key="ui_pvp_guide_3_body">Participar en el PvP de mundo abierto y hacer misiones de PvP para tu facción en un territorio te ayudará a acumular influencia. Si tu facción es la dueña del territorio, tu influencia ayuda a retrasar la capacidad de los enemigos para declarar una guerra. Si no formas parte de la facción dominante, tu influencia ayudará a sumar a una declaración de guerra.\n\nUna vez que una facción atacante obtenga suficiente influencia, el territorio entrará en conflicto y los dueños de la compañía podrán declarar una guerra. Cuando se declara la guerra, se programa una batalla de asedio de 50 vs. 50 en el fuerte.</string>
+	<string key="ui_pvp_guide_4_header">Unirse a un asedio</string>
+	<string key="ui_pvp_guide_4_body">Los jugadores pueden registrarse para participar en una batalla de asedio programada en el tablero de guerra del asentamiento del territorio o afuera del fuerte.\n\nLos gobernadores de las dos compañías más importantes pueden formar sus ejércitos de 50 jugadores a partir de los jugadores que se registraron en su bando.\n\nLos jugadores elegidos recibirán un estandarte de invitación justo antes de la hora programada de inicio de la batalla de asedio. Si el jugador lo acepta, será teletransportado al área de aparición del ejército para prepararse para la batalla. Si el jugador lo rechaza, el espacio quedará disponible para los jugadores asignados a la lista de relleno del ejército.\n\nLos jugadores que pertenezcan a la facción atacante o defensora solo podrán registrarse en el bando de su facción para la guerra. Los jugadores de la tercera facción podrán registrarse para cualquiera de los dos bandos. Los jugadores que no estén en una facción no podrán participar en las guerras.</string>
+	<string key="ui_pvp_guide_5_header">Luchar en una guerra</string>
+	<string key="ui_pvp_guide_5_body">Durante una batalla de asedio, los dos equipos lucharán en primer lugar por el control de tres puntos afuera del fuerte.\n\nLos defensores comenzarán teniendo el control de todos los puntos. Los atacantes ganarán puntos manteniendo a los jugadores dentro del círculo de conquista.\n\nUna vez que se hayan obtenido los tres puntos de conquista, los atacantes deberán destruir las puertas del fuerte para acceder al último punto de conquista en el patio central.\n\nLos atacantes ganarán la guerra si logran conquistar el último punto antes de que acabe el límite de tiempo de la batalla.</string>
+	<string key="ui_pvp_modes_guide">Modos Jugador contra jugador (PvP)</string>
+	<string key="ui_pvp_modes_guide_1_header">Modos PvP</string>
+	<string key="ui_pvp_modes_guide_1_body">Cualquier jugador que cumpla con los requisitos podrá unirse a los modos de juego de jugador contra jugador en instancias, sin importar su alineación de facción. Estos modos se encuentran en la pantalla Modos desde el menú de navegación principal.</string>
+	<string key="ui_pvp_modes_guide_2_header">Avance a un puesto de avanzada</string>
+	<string key="ui_pvp_modes_guide_2_body">El avance a un puesto de avanzada es una partida de 20 vs. 20 que se desarrolla en una enorme isla con tres puestos de avanzada.\n\nLos equipos obtienen puntos al capturar y mantener estos puestos.\n\nEl primer equipo que consiga 1000 puntos ganará la partida.\n\nLa isla cuenta con recursos y criaturas especiales que los equipos pueden aprovechar para cambiar el resultado de la batalla a su favor.</string>
+	<string key="ui_pvp_modes_guide_3_header">Arena de 3v3</string>
+	<string key="ui_pvp_modes_guide_3_body">En las arenas de 3v3, dos equipos compiten para eliminar al otro. La partida se desarrolla en un formato del mejor de cinco.\n\nElimina a todo el equipo contrario para ganar una ronda.\n\nGana tres rondas para ganar la partida.\n\nNo se permiten consumibles. Mientras más tiempo dure una ronda, más débiles serán las habilidades de curación. Y, si la ronda dura demasiado, aparecerá un círculo de fuego que se cerrará progresivamente hasta que un bando gane.</string>
 	<string key="ui_event_token_disappears">&lt;font face="lyshineui/fonts/Nimbus_Medium.font" color="#cca000"&gt;Los tokens desaparecerán al final del evento.&lt;/font&gt;</string>
 	<string key="ui_event_item_disappears">&lt;font face="lyshineui/fonts/Nimbus_Medium.font" color="#cca000"&gt;Este objeto desaparecerá al finalizar el evento.&lt;/font&gt;</string>
 	<string key="ui_event_time_left">&lt;font face="lyshineui/fonts/Nimbus_Medium.font"&gt;El evento termina dentro de: &lt;font color="#cca000"&gt;{timeLeft} &lt;img src="LyShineUI/Images/Icons/Misc/icon_hourglass_yellow.png" xPadding="0" scale="1.1" yOffset="1"&gt;&lt;/img&gt;&lt;/font&gt;&lt;/font&gt;</string>
 	<string key="ui_event_time_left_compass">El evento termina dentro de: &lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{timeLeft}&lt;/font&gt;</string>
 	<string key="attribution_WinterConvergence_2021" rel_version="Event_WinterConvergence_Perm">Convergencia invernal 2021</string>
 	<string key="attribution_SummerMedleyfaire_2022" rel_version="Event_Summer_Perm">Feria de variedades de verano 2022</string>
+	<string key="attribution_NightveilHallow_2022" rel_version="Event_Halloween_Perm">Consagración del Velo Nocturno 2022</string>
 	<string key="ui_reset_daily_time">Se reinicia todos los días a las {time}</string>
 	<string key="ui_reset_weekly_time">Se reinicia una vez a la semana los {time}</string>
 	<string key="ui_buy_new_world">Comprar New World</string>

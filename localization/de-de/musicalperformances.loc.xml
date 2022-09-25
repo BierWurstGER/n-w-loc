@@ -22,6 +22,7 @@
 	<string key="ui_musical_performances_instrument_required_to_start" rel_version="Feature_MusicalPerformances">Du musst mindestens 2 Teile ausgewählt haben, um eine Vorführung zu beginnen.</string>
 	<string key="ui_musical_performances_timeout_inactivity" rel_version="Feature_MusicalPerformances">Deine Vorführung ist aufgrund von Inaktivität abgelaufen.</string>
 	<string key="ui_musical_performances_cannot_place_too_close_to_restricted" rel_version="Feature_MusicalPerformances">Du kannst hier keine Vorführung platzieren, da der Ort zu nahe an einem gesperrten Bereich ist.</string>
+	<string key="ui_musical_performances_createfailed_inhouse" rel_version="Feature_MusicalPerformances">Du kannst eine Vorführung nicht starten, während du dich in einem Haus befindest.</string>
 	<string key="ui_musical_performances_no_part_selected" rel_version="Feature_MusicalPerformances">Du hast keinen Teil ausgewählt.</string>
 	<string key="ui_musical_performances_tooltip_description" rel_version="Feature_MusicalPerformances">{instrument}-Notenblatt</string>
 	<string key="ui_musical_performances_tooltip_tip" rel_version="Feature_MusicalPerformances">Sammle Seiten, um die Notenblätter für sämtliche Instrumente zu komplettieren.</string>
@@ -72,6 +73,7 @@
 	<string key="ui_musical_performances_watching_tips_timer" rel_version="Feature_MusicalPerformances">TRINKGELD-TIMER</string>
 	<string key="ui_musical_performances_waiting_for_tips" rel_version="Feature_MusicalPerformances">WARTE AUF TRINKGELD ...</string>
 	<string key="ui_musical_performances_end_tipping" rel_version="Feature_MusicalPerformances">Aufhören und Trinkgeld einsammeln</string>
+	<string key="ui_musical_performances_tip_timer_duration" rel_version="Feature_MusicalPerformances">{seconds} Sek.</string>
 	<string key="ui_musical_performances_complete" rel_version="Feature_MusicalPerformances">VORFÜHRUNG\nABGESCHLOSSEN!</string>
 	<string key="ui_musical_performances_score_00" rel_version="Feature_MusicalPerformances">Fantastisch!</string>
 	<string key="ui_musical_performances_score_01" rel_version="Feature_MusicalPerformances">Toll!</string>
@@ -139,7 +141,7 @@
 	<string key="PerkID_MusicalInstrument_SoloXPBonus_Name" rel_version="Feature_MusicalPerformances">Spotlight</string>
 	<string key="PerkID_MusicalInstrument_OpeningNotesPerfect_Description" rel_version="Feature_MusicalPerformances">Die ersten drei gespielten Noten sind immer perfekt.</string>
 	<string key="PerkID_MusicalInstrument_IgnoreMissedNotes_Description" rel_version="Feature_MusicalPerformances">Die erste falsche Note wird ignoriert.</string>
-	<string key="PerkID_MusicalInstrument_RakeReduction_Description" rel_version="Feature_MusicalPerformances">Die Vorführungsgruppe erhält jetzt den vollständigen Trinkgeldbetrag.</string>
+	<string key="PerkID_MusicalInstrument_RakeReduction_Description" rel_version="Feature_MusicalPerformances">Der Vorführende erhält jetzt den vollständigen Trinkgeldbetrag.</string>
 	<string key="PerkID_MusicalInstrument_FinalNotePerfectXPBonus_Description" rel_version="Feature_MusicalPerformances">Wenn er die letzte Note perfekt trifft, erhält der Spieler einen Musik-EP-Boost von 10 %.</string>
 	<string key="PerkID_MusicalInstrument_GroupXPBonus_Description" rel_version="Feature_MusicalPerformances">Wenn er in einer Gruppe spielt, erhält der Spieler einen Musik-EP-Boost von 10 %.</string>
 	<string key="PerkID_MusicalInstrument_SoloXPBonus_Description" rel_version="Feature_MusicalPerformances">Wenn er allein spielt, erhält der Spieler einen Musik-EP-Boost von 10 %.</string>
@@ -187,14 +189,17 @@
 	<string key="songtitle_Seed" rel_version="Feature_MusicalPerformances">Wilde Wiesensüße</string>
 	<string key="songtitle_Set" rel_version="Feature_MusicalPerformances">Vor dem Sturm</string>
 	<string key="songtitle_Trust" rel_version="Feature_MusicalPerformances">Verblassendes Licht</string>
-	<string key="songtitle_Brown_Leaves" rel_version="Feature_MusicalPerformances">Tropenholzblätter</string>
-	<string key="songtitle_Down_The_Lane" rel_version="Feature_MusicalPerformances">Gefolge aus Windkreis</string>
-	<string key="songtitle_How_Ore_You_Today" rel_version="Feature_MusicalPerformances">Was willst du heute ERZählen?</string>
-	<string key="songtitle_The_Camp" rel_version="Feature_MusicalPerformances">Mein Lager</string>
-	<string key="songtitle_The_Camp_Grows" rel_version="Feature_MusicalPerformances">Mein Heim</string>
-	<string key="songtitle_Blue_Leaves" rel_version="Feature_MusicalPerformances">Wyrdholzlaub</string>
-	<string key="songtitle_Sounds_Of_Bells" rel_version="Feature_MusicalPerformances">Glockengeläut</string>
-	<string key="songtitle_Weavers_Webb" rel_version="Feature_MusicalPerformances">Weberlied</string>
-	<string key="songtitle_The_Kid_On_The_Mountain" rel_version="Feature_MusicalPerformances">Das Kind vom Berge</string>
+	<string key="songtitle_Brown_Leaves" rel_version="Feature_MusicalPerformancesV2">Tropenholzblätter</string>
+	<string key="songtitle_Down_The_Lane" rel_version="Feature_MusicalPerformancesV2">Gefolge aus Windkreis</string>
+	<string key="songtitle_How_Ore_You_Today" rel_version="Feature_MusicalPerformancesV2">Was willst du heute ERZählen?</string>
+	<string key="songtitle_The_Camp" rel_version="Feature_MusicalPerformancesV2">Mein Lager</string>
+	<string key="songtitle_The_Camp_Grows" rel_version="Feature_MusicalPerformancesV2">Mein Heim</string>
+	<string key="songtitle_Blue_Leaves" rel_version="Feature_MusicalPerformancesV2">Wyrdholzlaub</string>
+	<string key="songtitle_Sounds_Of_Bells" rel_version="Feature_MusicalPerformancesV2">Glockengeläut</string>
+	<string key="songtitle_Weavers_Webb" rel_version="Feature_MusicalPerformancesV2">Weberlied</string>
+	<string key="songtitle_The_Kid_On_The_Mountain" rel_version="Feature_MusicalPerformancesV2">Das Kind vom Berge</string>
+	<string key="songtitle_That_Damn_Fish" rel_version="Feature_MusicalPerformancesV2">Dieser verdammte Fisch</string>
+	<string key="songtitle_Soup_Of_The_Day" rel_version="Feature_MusicalPerformancesV2">Tagessuppe</string>
+	<string key="songtitle_Canarios" rel_version="Feature_MusicalPerformancesV2">Kanarienvögel</string>
 </resources>
 

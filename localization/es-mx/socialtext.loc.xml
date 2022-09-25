@@ -94,6 +94,7 @@
 	<string key="trade_column_status">Estado</string>
 	<string key="trade_column_rarity">Sing.</string>
 	<string key="trade_column_craftsmanship">Artesanía</string>
+	<string key="trade_column_completion_time">Tiempo de finalización</string>
 	<string key="trade_noitemmessage">Seleccionar un objeto para visualizar</string>
 	<string key="trade_not_enough_money">No hay suficiente dinero</string>
 	<string key="trade_none_available">Agotado</string>
@@ -463,6 +464,7 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invited">Invitado</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_reject">Rechazar</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_rejected">Rechazado</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_unknownerror">Error desconocido</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_servererror">Error de servidor</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_notfound">No se pudo encontrar la sala de espera</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_timeout">Expiró la solicitud</string>
@@ -471,6 +473,7 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_pvp_flag_mismatch">Tu marca de PvP no coincide con la de la sala de espera.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_pvp_faction_mismatch">La facción debe ser la misma para una sala de PvP.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_requirements_not_met">Cambiaron los requisitos de la sala de espera y no los cumples.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_cleanspeakerror">Error del filtro del chat. Actualiza el texto e inténtalo nuevamente.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_atmaxapplications">No puedes enviar más solicitudes.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_groupfull">La sala de espera está llena</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_convert_to_group_declined">{playerName} rechazó la comprobación de preparación.</string>
@@ -542,13 +545,14 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_sorted_by">Ordenados por</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_time_posted">Hora de publicación</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_join_with_group">Abrir la expedición con tu grupo</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_in_probation">Para crear una sala de espera, tu cuenta debe tener más de {accountProbationTimeRequired}, con un tiempo de juego mayor que {characterProbationTimeRequired}.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_difficulty_locked">Tienes que desbloquear este nivel de dificultad para crear una nueva sala de espera.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_decline">Rechazar</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationaccepted">Invitación aceptada</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationdeclined">Invitación rechazada</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationautodeclined_ingroup">Invitación rechazada. El jugador ya está en la sala de espera.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationautodeclined_pvpflagmismatched">Invitación rechazada. El jugador tiene una activación de la marca de PvP incompatible.</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationautodeclined_atdungeonlimit">Invitación rechazada. El jugador está en el límite de la mazmorra.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationautodeclined_atdungeonlimit">Invitación rechazada. El jugador está en el límite de la expedición.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationautodeclined_mismatchedfaction">Invitación rechazada. El jugador está en una facción diferente.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_directinvite">Invitar a sala de espera</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_directinvite_tooltip_not_creator">Solo el creador de la sala de espera puede invitar.</string>
@@ -562,6 +566,7 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_queue_hud_looking_for_more">Buscando más miembros...</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_outpost_rush_signup_fail">No puedes registrarte mientras estás en una sala de espera.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_dungeon_queue_signup_fail">No puedes entrar a la cola de la expedición mientras estás en una sala de espera.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_dungeon_queue_signup_fail_solo">No puedes entrar a la cola de la prueba de alma mientras estás en una sala de espera.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_queue_hud_group_full">Grupo lleno</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_queue_hud_open_expedition">Abrir expedición</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_queue_hud_min_players">Se requiere un mínimo de {amount} miembros para iniciar esta expedición.</string>

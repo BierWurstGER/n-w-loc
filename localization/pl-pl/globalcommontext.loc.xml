@@ -74,6 +74,7 @@
 	<string key="inv_rarity_salvage_confirm">Próbujesz rozebrać potężny przedmiot. Na pewno?</string>
 	<string key="inv_cannotsalvage_equipped">Nie możesz odzyskać składników z wyposażonych przedmiotów.</string>
 	<string key="inv_cannotsalvage_full">Nie można odzyskać składników. Twój ekwipunek jest pełny.</string>
+	<string key="inv_cannotsalvage_currencyfull">Nie można odzyskać, ponieważ {currency} jest pełny.</string>
 	<string key="ui_move_hint">Ruch</string>
 	<string key="ui_link_to_chat_hint">Wspomnij na czacie</string>
 	<string key="ui_split_stack_hint">Podziel stos</string>
@@ -959,6 +960,7 @@
 	<string key="world_set_characters_title">Ile postaci mogę mieć w zestawie światów?</string>
 	<string key="world_set_characters_desc">Możesz mieć 1 postać w każdym zestawie światów. Jeśli chcesz grać w innym świecie w obrębie zestawu światów, musisz usunąć swoją postać, ponieważ nie można ich przenosić pomiędzy światami.</string>
 	<string key="world_set_recommended_world">Zalecany świat</string>
+	<string key="world_no_recommended_worlds_available">Brak zalecanych światów</string>
 	<string key="world_set_region">Region:</string>
 	<string key="world_set_current_region">Obecny region:</string>
 	<string key="ui_mastery">Biegłość</string>
@@ -971,7 +973,6 @@
 	<string key="ui_glory_update_floating_standing">Ranga +{amount}</string>
 	<string key="ui_glory_to_level">&lt;font color="#ffffff"&gt;{xp} PD&lt;/font&gt; do poz. {level}</string>
 	<string key="ui_glory_tooltip">Masz niewykorzystane punkty cech lub umiejętności. Naciśnij [{keyName}], aby otworzyć ekran postępów i ulepszyć swoje zdolności.</string>
-	<string key="ui_coin">Monety</string>
 	<string key="ui_coin">Monety</string>
 	<string key="ui_coin_desc">Główna waluta używana do kupowania przedmiotów w faktorii i w sklepie frakcji.\nLimit monet: &lt;font color="#ffffff"&gt;{amount}&lt;/font&gt;.\n\n&lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#aaaaaa"&gt;Można otrzymać za:&lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#ffffff"&gt;Wykonywanie misji, zabijanie wrogów, branie udziału w wydarzeniach&lt;/font&gt;</string>
 	<string key="ui_coin_max">Maks. liczba monet</string>
@@ -1681,19 +1682,6 @@
 	<string key="ui_characters_count">Postacie:</string>
 	<string key="ui_characters">Postacie</string>
 	<string key="ui_map_legend">Legenda.</string>
-	<string key="ui_leaderboard_title">RANKING KOMPANII</string>
-	<string key="ui_leaderboard_timeremaining">POZOSTAŁY CZAS</string>
-	<string key="ui_leaderboard_rank_header">STOPIEŃ</string>
-	<string key="ui_leaderboard_rank_number">{number}.</string>
-	<string key="ui_leaderboard_company_header">KOMPANIA</string>
-	<string key="ui_leaderboard_area_score">({number})</string>
-	<string key="ui_leaderboard_day_title">DZIEŃ</string>
-	<string key="ui_leaderboard_day_claims_header">PRZEJĘCIA</string>
-	<string key="ui_leaderboard_day_score_header">POWIERZCHNIA</string>
-	<string key="ui_leaderboard_season_title">PORA ROKU</string>
-	<string key="ui_leaderboard_season_claims_header">CAŁKOWITA LICZBA PRZEJĘĆ</string>
-	<string key="ui_leaderboard_season_score_header">CAŁKOWITA POWIERZCHNIA</string>
-	<string key="ui_leaderboard_time_left">Pozostało {time}</string>
 	<string key="ui_autocompletetimedout">Koniec czasu automatycznego ukończenia.</string>
 	<string key="ui_autocompletethrottled">Automatyczne ukończenie spowolnione.</string>
 	<string key="ui_searchitem">Szukaj przedmiotów</string>
@@ -1707,6 +1695,7 @@
 	<string key="ui_unstuck_request_denied_no_breadcrumbs">Nie możesz żądać odblokowania bez ruchu.</string>
 	<string key="ui_unstuck_request_denied_too_frequent">Nie możesz żądać odblokowania tak często.</string>
 	<string key="ui_unstuck_request_denied_teleport_failed">Nie można się teleportować do odblokowanego miejsca</string>
+	<string key="ui_unstuck_request_denied_in_musical_performance">Nie możesz żądać odblokowania, biorąc udział w występie muzycznym.</string>
 	<string key="ui_unstuck_request_accepted">Teleportacja za %d sek.</string>
 	<string key="ui_generator_time_to_generate_item">Wytwarzanie – {item} w ilości {quantity}.</string>
 	<string key="ui_quantitywithx">x{quantity}</string>
@@ -1757,9 +1746,6 @@
 	<string key="ui_notification_teleport_text">W tym miejscu wkrótce rozpocznie się wojna.\nJeśli nie opuścisz obszaru, czeka cię teleportacja.</string>
 	<string key="ui_notification_left_teleport_area">Udało ci się opuścić teren zastrzeżony i tym samym uniknąć teleportacji.</string>
 	<string key="ui_item_link_tooltip_command">Wspomnij na czacie</string>
-	<string key="ui_leaderboard">RANKING</string>
-	<string key="ui_mapmenu_dayleaderboard">DZIEŃ</string>
-	<string key="ui_mapmenu_seasonleaderboard">PORA ROKU</string>
 	<string key="ui_mapmenu_companiesatwar">NADCHODZĄCE WOJNY</string>
 	<string key="ui_mapmenu_resourcelocations">POŁOŻENIE SUROWCÓW</string>
 	<string key="ui_mapmenu_activewars">NADCHODZĄCE WOJNY</string>
@@ -2220,6 +2206,8 @@
 	<string key="ui_nameplate_slider_desc">Zwiększ lub zmniejsz liczbę tabliczek z imieniem wyświetlanych na ekranie. UWAGA: Duża liczba tabliczek z imieniem może mieć znaczący wpływ na płynność gry</string>
 	<string key="ui_stat_bonus_tooltip">&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;+{amount}&lt;/font&gt; {attribute}</string>
 	<string key="ui_stat_bonus">+{amount} {attribute}</string>
+	<string key="ui_craft_bonus">+{amount} {bonus} {bonus2}</string>
+	<string key="ui_first_craft_bonus">(&lt;img src="lyshineui/images/icons/misc/icon_upgrade" xPadding="0" scale="1.8" yOffset="5"&gt;&lt;/img&gt; Premia do pierwszego wytworzenia)</string>
 	<string key="ui_maker_status_effects_single">{effect1}</string>
 	<string key="ui_maker_status_effects_double">{effect1} · {effect2}</string>
 	<string key="ui_maker_status_effects_triple">{effect1} · {effect2} · {effect3}</string>
@@ -2271,7 +2259,7 @@
 	<string key="ui_fishing_divert_level_yellow">Poziom zarybienia zmniejsza się!</string>
 	<string key="ui_fishing_divert_level_red">Poziom zarybienia krytyczny!</string>
 	<string key="fishing_hotspot_name">{displayName}\n({territory})</string>
-	<string key="ui_change_faction_azoth">&lt;img src="lyshineui/images/icon_azoth" xPadding="0" scale="1.8" yOffset="5"&gt;&lt;/img&gt; {amount}</string>
+	<string key="ui_change_faction_azoth">&lt;img src="lyshineui/images/icon_azoth" xPadding="5" yOffset="3"&gt;&lt;/img&gt;{amount}</string>
 	<string key="ui_change_faction_azoth_required">Wymaga &lt;img src="lyshineui/images/icon_azoth" xPadding="0" scale="1.8" yOffset="5"&gt;&lt;/img&gt; {amount}</string>
 	<string key="ui_faction_cant_pvp">Nie możesz zmienić frakcji, gdy oznaczysz się do PvP</string>
 	<string key="ui_faction_cant_sanctuary">Frakcję można zmienić tylko w azylu</string>
@@ -2289,6 +2277,7 @@
 	<string key="ui_change_faction_quest_warning" rel_version="Feature_Faction_Selection">Nie ukończono zadań wprowadzających</string>
 	<string key="ui_change_faction_visit_rep" rel_version="Feature_Faction_Selection">Odwiedź przedstawiciela frakcji, by zmienić</string>
 	<string key="ui_current_faction">Obecnie należysz do frakcji: {factionname}</string>
+	<string key="ui_current_faction_label">Obecna frakcja</string>
 	<string key="ui_dropconfirm_title">Potwierdź upuszczenie</string>
 	<string key="ui_dropconfirm_msg">Czy na pewno chcesz upuścić te przedmioty na ziemię?</string>
 	<string key="reward_new_recipe">Nowy schemat: {name}</string>
@@ -2480,7 +2469,7 @@
 	<string key="ui_expertise_tooltip_breakdown">(&lt;img src="lyshineui/images/icons/misc/icon_hwm_small_color" scale="1.5" yOffset="2"&gt;&lt;/img&gt;&lt;font color="#c59dff"&gt;{value} &lt;/font&gt; &lt;font color="#ffffff"&gt;+ {additional}&lt;/font&gt; z ulepszenia umbralem)</string>
 	<string key="ui_expertise_tooltip_breakdown_multiple">(&lt;img src="lyshineui/images/icons/misc/icon_hwm_small_color" scale="1.5" yOffset="2"&gt;&lt;/img&gt;&lt;font color="#c59dff"&gt;{value} &lt;/font&gt; &lt;font color="#ffffff"&gt;+ {additional}&lt;/font&gt; z ulepszeń umbralem)</string>
 	<string key="ui_expertise_tooltip_increase">&lt;font color="#ffffff"&gt;Maksymalna&lt;/font&gt; wartość biegłości możliwa do osiągnięcia dzięki wrogom, skrzyniom, odlewom gipsowym i rzemiosłu to &lt;img src="lyshineui/images/icons/misc/icon_hwm_small_color" scale="1.5" yOffset="2"&gt;&lt;/img&gt;&lt;font color="#c59dff"&gt;600&lt;/font&gt;.</string>
-	<string key="ui_expertise_tooltip_maximum">Aby zwiększyć biegłość powyżej &lt;img src="lyshineui/images/icons/misc/icon_hwm_small_color" scale="1.5" yOffset="2"&gt;&lt;/img&gt;&lt;font color="#c59dff"&gt;600&lt;/font&gt;, ulepsz przedmiot w tym miejscu za pomocą &lt;font color="#ffffff"&gt;odłamków umbralu&lt;/font&gt;.</string>
+	<string key="ui_expertise_tooltip_maximum">Aby zwiększyć biegłość powyżej &lt;img src="lyshineui/images/icons/misc/icon_hwm_small_color" scale="1.5" yOffset="2"&gt;&lt;/img&gt;&lt;font color="#c59dff"&gt;600&lt;/font&gt;, ulepsz przedmiot tego typu za pomocą &lt;font color="#ffffff"&gt;odłamków umbralu&lt;/font&gt;.</string>
 	<string key="ui_expertise_crafting_gain">Biegłość: {category}</string>
 	<string key="ui_guides">Poradniki</string>
 	<string key="ui_fast_travel_guide_1_header">Jak to działa?</string>
@@ -2511,12 +2500,46 @@
 	<string key="ui_endgame_guide_body8">Odłamków umbralu można użyć do ulepszenia dowolnej części wyposażenia z minimum 590 pkt i maksimum 625 pkt wyposażenia. Gdy po ulepszeniu tej części wyposażenia wyposażysz się w nią, zwiększy się twój poziom biegłości.\n\nOdłamki umbralu można zdobyć podczas napadów na posterunek, w elitarnych skrzyniach wysokiego poziomu, na zmutowanych ekspedycjach, poprzez wytwarzanie wysokopoziomowego wyposażenia i otwierając odlewy gipsowe części wyposażenia, których poziom biegłości wynosi 600 lub więcej.</string>
 	<string key="ui_endgame_guide_button_view_guide">Zobacz przewodnik</string>
 	<string key="ui_endgame_guide_button_dismiss">Odrzuć</string>
+	<string key="ui_endgame_banner_title">Osiągnięto maksymalny poziom!</string>
+	<string key="ui_endgame_banner_text1">&lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#ffdb7a"&gt;Ekspedycje końcowej fazy gry&lt;/font&gt;, w tym rotacyjne cotygodniowe mutacje dla najlepszych nagród</string>
+	<string key="ui_endgame_banner_text2">&lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#ffdb7a"&gt;Napad na posterunek&lt;/font&gt;, czyli pole bitwy 20 na 20</string>
+	<string key="ui_endgame_banner_text3">&lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#ffdb7a"&gt;Elitarne&lt;/font&gt; punkty orientacyjne, próbne areny i wyzwania w otwartym świecie dla grup</string>
+	<string key="ui_endgame_banner_text4">Odwiedź &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#ffdb7a"&gt;piec do obróbki gipsu&lt;/font&gt;, aby ulepszyć swoje wyposażenie</string>
+	<string key="ui_endgame_banner_subtitle">Witaj w końcowej fazie gry</string>
+	<string key="ui_factions">Frakcje</string>
+	<string key="ui_factions_guide_1_header">Dołączanie do frakcji</string>
+	<string key="ui_factions_guide_1_body">Zanim dołączysz do jakiejś frakcji, musisz się przed nią wykazać, wykonując serie zadań. Odwiedź przedstawiciela frakcji w dowolnej osadzie, aby rozpocząć.</string>
+	<string key="ui_factions_guide_2_header">Premie frakcyjne</string>
+	<string key="ui_factions_guide_2_body">Po dołączeniu do frakcji uzyskasz dostęp do misji frakcyjnych, PvP w otwartym świecie i wojen. Będziesz brać udział w pozyskiwaniu kontroli nad terytoriami dla twojej frakcji.\n\nPrzygody w granicach terytorium kontrolowanego przez twoją frakcję zapewnią ci szereg różnych premii, takich jak więcej PD.</string>
+	<string key="ui_factions_guide_3_header">Kompanie</string>
+	<string key="ui_factions_guide_3_body">Gracze należący do frakcji mogą zakładać kompanie i zapraszać do nich innych graczy z tej samej frakcji lub tych, którzy nie należą do żadnej frakcji. Gracze nienależący do żadnej frakcji nie mogą brać udziału w PvP ani wojnach.</string>
+	<string key="ui_factions_guide_4_header">Zarządzanie kompanią</string>
+	<string key="ui_factions_guide_4_body">Kompanie mogą sprawić, że ich przywódca stanie się zarządcą terytorium, wygrywając wojnę z jego obecnymi właścicielami. Zajrzyj do poradnika dotyczącego PvP i wojen, aby uzyskać więcej informacji na temat wywoływania i prowadzenia wojen.</string>
+	<string key="ui_pvp_guide">Gracz kontra gracz (PvP) i wojny</string>
+	<string key="ui_pvp_guide_1_header">PvP w otwartym świecie</string>
+	<string key="ui_pvp_guide_1_body">Gdy dołączysz do frakcji, zyskasz możliwość oznaczenia się do PvP. Oznaczenie do PvP pozwala uczestniczyć w bitwach gracz kontra gracz w otwartym świecie. Gdy twoje oznaczenie jest aktywne, możesz atakować (i być celem ataków) innych graczy z aktywnym oznaczeniem z innych frakcji.\n\nAby włączyć lub wyłączyć oznaczenie PvP, naciśnij przycisk Włącz tryb PvP (domyślnie: U), przebywając w osadzie lub dowolnym innym azylu.</string>
+	<string key="ui_pvp_guide_2_header">Kontrola nad fortem</string>
+	<string key="ui_pvp_guide_2_body">Oznaczeni gracze mogą walczyć o kontrolę nad dowolnym fortem.\n\nAby wziąć udział w bitwie, włącz oznaczenie PvP i udaj się do fortu, o który chcesz rywalizować, a następnie przekrocz dowolne z jego wrót. Gdy znajdziesz się w środku, przejmij i utrzymaj swoją pozycję w walce przeciwko graczom z innych frakcji.\n\nFrakcja posiadająca fort otrzymuje premie terytorialne, jak zwiększony wpływ czy więcej PD dla jej członków. Posiadanie fortu nie wpływa na kontrolę nad terytorium, ale może być pomocne przy wypowiadaniu wojny o prawa własności.</string>
+	<string key="ui_pvp_guide_3_header">Wypowiadanie wojny</string>
+	<string key="ui_pvp_guide_3_body">Branie udziału w PvP w otwartym świecie i wykonywanie misji PvP dla twojej frakcji pomoże ci zdobyć wpływy. Jeśli twoja frakcja sprawuje władzę na danym terytorium, twoje wpływy pomagają opóźnić zdolność wrogów do wypowiedzenia wojny. Jeśli nie należysz do frakcji rządzącej, twoje wpływy pomogą przy wypowiedzeniu wojny.\n\nGdy atakująca frakcja zdobędzie wystarczające wpływy, terytorium pogrąży się w konflikcie, a właściciele kompanii będą mogli wypowiedzieć wojnę. Wypowiedzenie wojny powoduje zaplanowanie oblężenia 50 na 50 w forcie.</string>
+	<string key="ui_pvp_guide_4_header">Dołączanie do oblężenia</string>
+	<string key="ui_pvp_guide_4_body">Gracze mogą zapisać się do udziału w zaplanowanym oblężeniu na tablicy wojennej w osadzie danego terytorium lub przy jego forcie.\n\nZarządcy dwóch wiodących kompanii mogą wybierać spośród graczy, którzy zgłosili się po ich stronie, aby zbudować swoje 50-osobowe armie.\n\nJeśli wybiorą również ciebie, baner z zaproszeniem pojawi się na krótko przed planowanym rozpoczęciem oblężenia. Jeśli przyjmiesz zaproszenie, teleportujesz się na obszar odradzania twojej armii, aby przygotować się do bitwy. Jeśli odrzucisz zaproszenie, twoje miejsce zostanie udostępnione graczom z listy rezerwowych.\n\nGracze z frakcji atakujących i obrońców mogą zapisać się tylko po stronie swojej frakcji w wojnie. Gracze z trzeciej frakcji mogą dołączyć do dowolnej ze stron. Gracze nienależący do żadnej frakcji nie mogą brać udziału w wojnach.</string>
+	<string key="ui_pvp_guide_5_header">Prowadzenie wojny</string>
+	<string key="ui_pvp_guide_5_body">W czasie oblężenia obie drużyny walczą najpierw o kontrolę nad trzema punktami znajdującymi się poza fortem.\n\nObrońcy kontrolują na początku wszystkie trzy punkty. Atakujący zdobywają punkty, gdy ich gracze znajdują się wewnątrz kręgu przejmowania.\n\nGdy wszystkie trzy punkty zostaną przejęte, atakujący muszą zniszczyć wrota fortu, aby uzyskać dostęp do końcowego punktu na głównym placu.\n\nAtakujący wygrywają po przejęciu końcowego punktu przed upływem limitu czasu bitwy.</string>
+	<string key="ui_pvp_modes_guide">Tryby gracz kontra gracz (PvP)</string>
+	<string key="ui_pvp_modes_guide_1_header">Tryby PvP</string>
+	<string key="ui_pvp_modes_guide_1_body">Każdy kwalifikujący się gracz może dołączać do trybów gry gracz kontra gracz niezależnie od przynależności frakcyjnej. Tryby te można znaleźć na ekranie trybów w głównym menu nawigacji.</string>
+	<string key="ui_pvp_modes_guide_2_header">Napad na posterunek</string>
+	<string key="ui_pvp_modes_guide_2_body">Napad na posterunek to potyczka 20 na 20, która odbywa się na dużej wyspie z trzema posterunkami.\n\nDrużyny zdobywają punkty poprzez przejmowanie i utrzymywanie posterunków.\n\nWygrywa drużyna, która pierwsza zdobędzie 1000 punktów.\n\nWyspa zawiera specjalne surowce i stworzenia, które można eksploatować, aby zdobyć przewagę dla swojej drużyny.</string>
+	<string key="ui_pvp_modes_guide_3_header">Arena 3 na 3</string>
+	<string key="ui_pvp_modes_guide_3_body">Dwie drużyny walczą na arenach 3 na 3 na śmierć i życie. Mecz odbywa się w formacie najlepszy z pięciu.\n\nWyeliminuj całą wrogą drużynę, aby wygrać rundę.\n\nWygraj trzy rundy, aby zwyciężyć w meczu.\n\nPrzedmioty użytkowe są zabronione. Im dłużej trwa runda, tym słabsze są zdolności leczenia. Jeśli zaś runda będzie trwała zbyt długo, wokół walczących pojawi się krąg ognia, który będzie się zacieśniać aż do chwili zwycięstwa jednej ze stron.</string>
 	<string key="ui_event_token_disappears">&lt;font face="lyshineui/fonts/Nimbus_Medium.font" color="#cca000"&gt;Żetony znikną, gdy skończy się wydarzenie.&lt;/font&gt;</string>
 	<string key="ui_event_item_disappears">&lt;font face="lyshineui/fonts/Nimbus_Medium.font" color="#cca000"&gt;Ten przedmiot zniknie po zakończeniu wydarzenia.&lt;/font&gt;</string>
 	<string key="ui_event_time_left">&lt;font face="lyshineui/fonts/Nimbus_Medium.font"&gt;Wydarzenie kończy się za: &lt;font color="#cca000"&gt;{timeLeft} &lt;img src="LyShineUI/Images/Icons/Misc/icon_hourglass_yellow.png" xPadding="0" scale="1.1" yOffset="1"&gt;&lt;/img&gt;&lt;/font&gt;&lt;/font&gt;</string>
 	<string key="ui_event_time_left_compass">Wydarzenie kończy się za: &lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{timeLeft}&lt;/font&gt;</string>
 	<string key="attribution_WinterConvergence_2021" rel_version="Event_WinterConvergence_Perm">Zimowa Konwergencja 2021</string>
 	<string key="attribution_SummerMedleyfaire_2022" rel_version="Event_Summer_Perm">Festiwal Składanek 2022</string>
+	<string key="attribution_NightveilHallow_2022" rel_version="Event_Halloween_Perm">Święty nocny całun 2022</string>
 	<string key="ui_reset_daily_time">Resetuje się codziennie o {time}</string>
 	<string key="ui_reset_weekly_time">Resetuje się co tydzień o {time}</string>
 	<string key="ui_buy_new_world">Kup New World</string>

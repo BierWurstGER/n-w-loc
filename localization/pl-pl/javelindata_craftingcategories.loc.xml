@@ -7,6 +7,7 @@
 	<string key="GypsumCasting_GroupName">Odlewanie gipsu</string>
 	<string key="GypsumRaw_GroupName">Kule gipsowe</string>
 	<string key="GypsumCasts_GroupName">Odlewy gipsowe</string>
+	<string key="InfusedCasts_GroupName">Nasycone odlewy</string>
 	<string key="GemstoneT2_GroupName">Zwykłe klejnoty</string>
 	<string key="GemstoneT3_GroupName">Doskonałe klejnoty</string>
 	<string key="GemstoneT4_GroupName">Nieskazitelne klejnoty</string>
@@ -643,6 +644,8 @@
 	<string key="CategoryData_PotionDesc">Eliksiry to przedmioty tymczasowo zwiększające twoją sprawność.</string>
 	<string key="CategoryData_Alkahest">Alkahesty</string>
 	<string key="CategoryData_AlkahestDesc">Alkahesty to przedmioty służące do wytwarzania eliksirów.</string>
+	<string key="CategoryData_Ampoule">Ampułka</string>
+	<string key="CategoryData_AmpouleDesc">Ampułki to przedmioty służące do wytwarzania eliksirów przywracających.</string>
 	<string key="CategoryData_RangedWeapons">Broń dystansowa</string>
 	<string key="CategoryData_rawresources">Pozyskane surowce</string>
 	<string key="CategoryData_RefinedMaterial">Inne materiały</string>
@@ -854,7 +857,7 @@
 	<string key="DungeonReps5_GroupName">Repliki ze Stoczni Dynastii</string>
 	<string key="DungeonReps6_GroupName">Repliki z Użyteczności Łazarza</string>
 	<string key="DungeonReps7_GroupName">Repliki z Ogrodu Genezy</string>
-	<string key="DungeonReps8_GroupName">CHWILOWO BRAK NAZWY</string>
+	<string key="DungeonReps8_GroupName">Repliki z Enneady</string>
 	<string key="DungeonReps9_GroupName">Repliki z Serca Burzy</string>
 	<string key="DungeonShields_GroupName">Tarcze z ekspedycji</string>
 	<string key="DungeonReps12_GroupName">Unikalne nagrody za ekspedycje</string>
@@ -1089,9 +1092,9 @@
 	<string key="GatheringFood_GroupName">Jedzenie zbierania</string>
 	<string key="GauntletIce_GroupDesc">Rękawica zużywająca manę do rzucania potężnych lodowych zaklęć. Idealnie nadaje się do nieustannego zadawania obrażeń przeciwnikom. Umożliwia wzywanie żywiołowych burz i lodu oraz wyprowadzanie zamrażających ataków, które osłabiają zdolności przeciwników i zadają im obrażenia.\n\n•Atak lekki: Zadaje {[DamageTable.IceMagic_Primary.DmgCoef * 100]}% obrażeń od lodu.\n•Atak ciężki: Zadaje {[DamageTable.IceMagic_Heavy.DmgCoef * 100]}% obrażeń od lodu.</string>
 	<string key="GauntletIce_GroupName">Lodowe rękawice</string>
-	<string key="GauntletVoid_GroupDesc" rel_version="Weapon_Void_Gauntlet">Rękawica zużywająca manę, by osłabiać wrogów i wzmacniać sojuszników. Rękawica próżni idealnie nadaje się do nakładania premii i obrażeń periodycznych na krótkim dystansie lub nakładania negatywnych efektów i leczenia na średnim dystansie. Jest groźna zwłaszcza wtedy, gdy walczysz w grupie.\n\n•Atak lekki: Zadaje {[DamageTable.VoidGauntlet_Primary.DmgCoef * 100]}% obrażeń od próżni.\n•Atak ciężki: Zadaje {[DamageTable.VoidGauntlet_Heavy.DmgCoef * 100]}% obrażeń od próżni. Ponadto zyskasz zdrowie w wysokości {[VoidGauntletAbilityTable.Passive_VoidGauntlet_HealOnHeavy.DmgPctToHealth * 100]}% zadanych obrażeń.\n• Zbierz esencję (przytrzymaj blok): Zamienia twoje zdrowie na manę z upływem czasu. Skaluje się z obrażeniami od broni.</string>
+	<string key="GauntletVoid_GroupDesc" rel_version="Weapon_Void_Gauntlet">Rękawica zużywająca manę, by osłabiać wrogów i wzmacniać sojuszników. Rękawica próżni idealnie nadaje się do nakładania premii i obrażeń periodycznych na krótkim dystansie lub nakładania negatywnych efektów i leczenia na średnim dystansie. Jest groźna zwłaszcza wtedy, gdy walczysz w grupie.\n\n• Atak lekki: Zadaje {[DamageTable.VoidGauntlet_Primary.DmgCoef * 100]}% obrażeń od próżni.\n•Atak ciężki: Zadaje {[DamageTable.VoidGauntlet_Heavy.DmgCoef * 100]}% obrażeń od próżni. Ponadto zyskasz zdrowie w wysokości {[VoidGauntletAbilityTable.Passive_VoidGauntlet_HealOnHeavy.DmgPctToHealth * 100]}% zadanych obrażeń.\n• Zbierz esencję (przytrzymaj blok): Zamienia twoje zdrowie na manę z upływem czasu. Skaluje się z obrażeniami od broni.</string>
 	<string key="GauntletVoid_GroupName" rel_version="Weapon_Void_Gauntlet">Rękawice próżni</string>
-	<string key="GreatSword_GroupDesc" rel_version="Weapon_GreatSword">A versitile melee weapon that utilizes stances to adapt to different combat situations. It embodies relentless offense paired with aggressive defense to cut through any challenge.\n\n•Light Attack 1 and 2: Zadaje {[DamageTable.GreatSword_PrimaryAttack1.DmgCoef * 100]}% obrażeń od cięć.\n•Atak lekki 3: Deals {[DamageTable.GreatSword_PrimaryAttack3.DmgCoef * 100]}% Slash damage.\n•Charged Heavy Attack 1 and 2: Deals {[DamageTable.GreatSword_HeavyAttack1.DmgCoef * 100]}% Slash damage.\n•Charged Heavy Attack 3: Zadaje {[DamageTable.GreatSword_HeavyAttack3.DmgCoef * 100]}% obrażeń od cięć.</string>
+	<string key="GreatSword_GroupDesc" rel_version="Weapon_GreatSword">Wszechstronna broń biała. Wykorzystuje postawy pozwalające dostosować się do różnych sytuacji w walce. Miecz dwuręczny umożliwia prowadzenie agresywnych ataków i nie mniej agresywnej obrony. Poradzi sobie z każdym wyzwaniem.\n\n• Atak lekki 1 i 2: Zadaje {[DamageTable.GreatSword_PrimaryAttack1.DmgCoef * 100]}% obrażeń od cięć.\n•Atak lekki 3: Zadaje {[DamageTable.GreatSword_PrimaryAttack3.DmgCoef * 100]}% obrażeń od cięć.\n• Naładowany atak ciężki 1 i 2: Zadaje {[DamageTable.GreatSword_HeavyAttack1.DmgCoef * 100]}% obrażeń od cięć.\n• Naładowany atak ciężki 3: Zadaje {[DamageTable.GreatSword_HeavyAttack3.DmgCoef * 100]}% obrażeń od cięć.</string>
 	<string key="GreatSword_GroupName" rel_version="Weapon_GreatSword">Miecze dwuręczne</string>
 	<string key="GemAmbe_CategoryName">Bursztyny</string>
 	<string key="GemAmet_CategoryName">Ametysty</string>
@@ -1851,11 +1854,14 @@
 	<string key="SalvageTier4_Name">Fragmenty klasy IV</string>
 	<string key="SalvageTier5_Name">Fragmenty klasy V</string>
 	<string key="Salvage">Odzyskaj fragmenty</string>
+	<string key="Salvage_GroupName">Odzyskaj fragmenty</string>
 	<string key="SalvageExtract">Wydobądź</string>
 	<string key="SalvageCreate">Wytwórz</string>
 	<string key="SalvageResearch">Zbadaj</string>
 	<string key="SalvageCondense">Skondensuj</string>
+	<string key="AlchemyAlkahestT1_GroupName">Alkahest</string>
 	<string key="AlchemyCritters_GroupName">Stworzenia alchemiczne</string>
+	<string key="Summer">Lato</string>
 	<string key="Instruments_GroupName" rel_version="Feature_MusicalPerformances">Instrumenty</string>
 	<string key="CategoryData_Instruments" rel_version="Feature_MusicalPerformances">Instrumenty</string>
 	<string key="InstrumentParts_GroupName" rel_version="Feature_MusicalPerformances">Części instrumentów</string>
@@ -1869,5 +1875,54 @@
 	<string key="TerritorySupplies_GroupName">Zapasy terytorialne</string>
 	<string key="TerritoryContribution_GroupName">Przekazywanie zapasów</string>
 	<string key="InstrumentComponents_GroupName" rel_version="Feature_MusicalPerformances">Komponenty instrumentów</string>
+	<string key="InstrumentGuitarPick_GroupName">Części gitary</string>
+	<string key="InstrumentDrumHead_GroupName">Części bębna</string>
+	<string key="InstrumentReed_GroupName">Części stroiku</string>
+	<string key="InstrumentSoundhole_GroupName">Części mandoliny</string>
+	<string key="InstrumentFingerboard_GroupName">Części kontrabasu</string>
+	<string key="InstrumentGuitarPickT4_GroupName">Części gitary klasy 4</string>
+	<string key="InstrumentDrumHeadT4_GroupName">Części bębna klasy 4</string>
+	<string key="InstrumentReedT4_GroupName">Części stroiku klasy 4</string>
+	<string key="InstrumentSoundholeT4_GroupName">Części mandoliny klasy 4</string>
+	<string key="InstrumentFingerboardT4_GroupName">Części kontrabasu klasy 4</string>
+	<string key="CategoryData_RuneglassFamily" rel_version="Territory_Brimstone_Sands">Komponenty szkła runicznego</string>
+	<string key="RuneglassEmpty_GroupName" rel_version="Territory_Brimstone_Sands">Puste oprawy ze szkła runicznego</string>
+	<string key="RuneglassAmber_GroupName" rel_version="Territory_Brimstone_Sands">Bursztyny – szkło runiczne</string>
+	<string key="RuneglassAmethyst_GroupName" rel_version="Territory_Brimstone_Sands">Ametysty – szkło runiczne</string>
+	<string key="RuneglassAquamarine_GroupName" rel_version="Territory_Brimstone_Sands">Akwamaryny – szkło runiczne</string>
+	<string key="RuneglassCarnelian_GroupName" rel_version="Territory_Brimstone_Sands">Karneole – szkło runiczne</string>
+	<string key="RuneglassDiamond_GroupName" rel_version="Territory_Brimstone_Sands">Diamenty – szkło runiczne</string>
+	<string key="RuneglassEmerald_GroupName" rel_version="Territory_Brimstone_Sands">Szmaragdy – szkło runiczne</string>
+	<string key="RuneglassJasper_GroupName" rel_version="Territory_Brimstone_Sands">Jaspisy – szkło runiczne</string>
+	<string key="RuneglassMalachite_GroupName" rel_version="Territory_Brimstone_Sands">Malachity – szkło runiczne</string>
+	<string key="RuneglassMoonstone_GroupName" rel_version="Territory_Brimstone_Sands">Kamienie księżycowe – szkło runiczne</string>
+	<string key="RuneglassOnyx_GroupName" rel_version="Territory_Brimstone_Sands">Onyksy – szkło runiczne</string>
+	<string key="RuneglassOpal_GroupName" rel_version="Territory_Brimstone_Sands">Opale – szkło runiczne</string>
+	<string key="RuneglassRuby_GroupName" rel_version="Territory_Brimstone_Sands">Rubiny – szkło runiczne</string>
+	<string key="RuneglassSapphire_GroupName" rel_version="Territory_Brimstone_Sands">Szafiry – szkło runiczne</string>
+	<string key="RuneglassTopaz_GroupName" rel_version="Territory_Brimstone_Sands">Topazy – szkło runiczne</string>
+	<string key="RuneglassFamily_GroupName" rel_version="Territory_Brimstone_Sands">Szkło runiczne</string>
+	<string key="Glasswares_GroupName" rel_version="Territory_Brimstone_Sands">Wyroby szklane</string>
+	<string key="GoldenScarabStr_GroupName">Złoty skarabeusz – siła</string>
+	<string key="GoldenScarabDex_GroupName">Złoty skarabeusz – zręczność</string>
+	<string key="GoldenScarabInt_GroupName">Złoty skarabeusz – inteligencja</string>
+	<string key="GoldenScarabFoc_GroupName">Złoty skarabeusz – skupienie</string>
+	<string key="GoldenScarabCon_GroupName">Złoty skarabeusz – kondycja</string>
+	<string key="Scarab_GroupName">Skarabeusz</string>
+	<string key="Sulfur_GroupName">Siarka</string>
+	<string key="Rune_GroupName">Runy</string>
+	<string key="DungeonNamedReplicas_GroupName">Unikalne repliki z ekspedycji</string>
+	<string key="UniqueDungeonReps1_GroupName">Unikalne repliki z wykopalisk Amrine</string>
+	<string key="UniqueDungeonReps10_GroupName">CHWILOWO BRAK NAZWY</string>
+	<string key="UniqueDungeonReps2_GroupName">Unikalne repliki ze zniszczonego obelisku</string>
+	<string key="UniqueDungeonReps3_GroupName">CHWILOWO BRAK NAZWY</string>
+	<string key="UniqueDungeonReps4_GroupName">Unikalne repliki z Głębin</string>
+	<string key="UniqueDungeonReps5_GroupName">Unikalne repliki ze Stoczni Dynastii</string>
+	<string key="UniqueDungeonReps6_GroupName">Unikalne repliki z Użyteczności Łazarza</string>
+	<string key="UniqueDungeonReps7_GroupName">Unikalne repliki z Ogrodu Genezy</string>
+	<string key="UniqueDungeonReps8_GroupName">Unikalne repliki z Enneady</string>
+	<string key="UniqueDungeonReps9_GroupName">Unikalne repliki z Serca Burzy</string>
+	<string key="UniqueDungeonReps11_GroupName">Unikalne repliki z Pąkli i czarnego prochu</string>
+	<string key="HideT5_GroupName">Skóra klasy 5</string>
 </resources>
 

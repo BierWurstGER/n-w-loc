@@ -94,6 +94,7 @@
 	<string key="trade_column_status">Stato</string>
 	<string key="trade_column_rarity">Rarità</string>
 	<string key="trade_column_craftsmanship">Mani-\nfattura</string>
+	<string key="trade_column_completion_time">Tempo di completamento</string>
 	<string key="trade_noitemmessage">Seleziona un oggetto da visualizzare</string>
 	<string key="trade_not_enough_money">Denaro insufficiente</string>
 	<string key="trade_none_available">Esaurito</string>
@@ -463,6 +464,7 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invited">Invito inviato</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_reject">Rifiuta</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_rejected">Rifiutato</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_unknownerror">Errore sconosciuto</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_servererror">Errore del server</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_notfound">Lobby non trovata</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_timeout">Richiesta scaduta</string>
@@ -471,6 +473,7 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_pvp_flag_mismatch">Il tuo PvP non corrisponde alla lobby.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_pvp_faction_mismatch">Dovete essere nella stessa fazione per una lobby PvP.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_requirements_not_met">I requisiti della lobby sono cambiati e tu non li soddisfi.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_cleanspeakerror">Errore filtro chat. Aggiorna il testo e riprova.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_atmaxapplications">Non puoi inviare altre richieste.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_groupfull">Lobby al completo</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_convert_to_group_declined">{playerName} ha rifiutato di eseguire i controlli preliminari</string>
@@ -542,13 +545,14 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_sorted_by">Ordinati per</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_time_posted">Pubblicazione</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_join_with_group">Apri la spedizione con il tuo gruppo</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_in_probation">Per creare una lobby, devi avere un account da più di {accountProbationTimeRequired} e devi aver giocato per almeno {characterProbationTimeRequired}.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_difficulty_locked">Devi sbloccare questo livello di difficoltà per creare una nuova lobby.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_decline">Rifiuta</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationaccepted">Invito accettato</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationdeclined">Invito rifiutato</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationautodeclined_ingroup">Invito rifiutato. Giocatore già nella lobby.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationautodeclined_pvpflagmismatched">Invito rifiutato. Attivazione PvP del giocatore non corrispondente.</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationautodeclined_atdungeonlimit">Invito rifiutato. Giocatore al limite dei sotterranei.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationautodeclined_atdungeonlimit">Invito rifiutato. Giocatore al limite di spedizioni.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationautodeclined_mismatchedfaction">Invito rifiutato. Giocatore in una fazione diversa.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_directinvite">Invita nella lobby</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_directinvite_tooltip_not_creator">Solo il creatore della lobby può invitare.</string>
@@ -562,6 +566,7 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_queue_hud_looking_for_more">In cerca di nuovi membri...</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_outpost_rush_signup_fail">Non puoi iscriverti se sei in una lobby.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_dungeon_queue_signup_fail">Non puoi unirti alla coda della spedizione se sei in una lobby.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_dungeon_queue_signup_fail_solo">Non puoi unirti alla coda della prova dell'anima mentre sei in una lobby.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_queue_hud_group_full">Gruppo al completo</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_queue_hud_open_expedition">Apri spedizione</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_queue_hud_min_players">È richiesto un minimo di {amount} membri per iniziare questa spedizione.</string>

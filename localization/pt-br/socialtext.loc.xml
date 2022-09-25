@@ -94,6 +94,7 @@
 	<string key="trade_column_status">Status</string>
 	<string key="trade_column_rarity">Raridade</string>
 	<string key="trade_column_craftsmanship">Artesa-\nnato</string>
+	<string key="trade_column_completion_time">Tempo de Conclusão</string>
 	<string key="trade_noitemmessage">Selecione um Item para Visualizar</string>
 	<string key="trade_not_enough_money">Dinheiro Insuficiente</string>
 	<string key="trade_none_available">Esgotado</string>
@@ -463,6 +464,7 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invited">Convidado(a)</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_reject">Rejeitar</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_rejected">Rejeitado(a)</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_unknownerror">Erro Desconhecido</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_servererror">Erro no Servidor</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_notfound">Saguão Não Encontrado</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_timeout">O pedido expirou</string>
@@ -471,6 +473,7 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_pvp_flag_mismatch">Sua sinalização de PvP não corresponde ao Saguão.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_pvp_faction_mismatch">É preciso estar na mesma facção para entrar no Saguão de PvP.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_requirements_not_met">Os requisitos do Saguão mudaram e você não os atende.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_cleanspeakerror">Erro no filtro de chat. Atualize seu texto e tente novamente.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_atmaxapplications">Você não pode enviar mais solicitações.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_groupfull">Saguão Lotado</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_convert_to_group_declined">{playerName} recusou a verificação de preparo.</string>
@@ -542,13 +545,14 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_sorted_by">Ordenado por</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_time_posted">Hora da Postagem</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_join_with_group">Abrir Expedição com Seu Grupo</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_in_probation">Sua conta deve ter mais de {accountProbationTimeRequired} com um tempo de jogo maior que {characterProbationTimeRequired} para criar um saguão.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_difficulty_locked">Você deve desbloquear este nível de dificuldade para criar um novo Saguão.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_decline">Recusar</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationaccepted">Convite Aceito</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationdeclined">Convite Recusado</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationautodeclined_ingroup">Convite recusado. O jogador já está no Saguão.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationautodeclined_pvpflagmismatched">Convite recusado. O jogador não correspondeu à sinalização PvP.</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationautodeclined_atdungeonlimit">Convite recusado. O jogador atingiu o limite de Masmorras.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationautodeclined_atdungeonlimit">Convite recusado. O jogador atingiu o limite de Expedições.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationautodeclined_mismatchedfaction">Convite recusado. O jogador está em uma Facção diferente.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_directinvite">Convidar ao Saguão</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_directinvite_tooltip_not_creator">Somente o criador do Saguão pode convidar.</string>
@@ -562,6 +566,7 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_queue_hud_looking_for_more">Procurando mais membros...</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_outpost_rush_signup_fail">Você não pode se registrar enquanto está em um Saguão.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_dungeon_queue_signup_fail">Você não pode entrar na Fila de Expedição enquanto está em um Saguão.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_dungeon_queue_signup_fail_solo">Você não pode entrar na Fila de Teste Espiritual enquanto está em um Saguão.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_queue_hud_group_full">Grupo lotado</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_queue_hud_open_expedition">Abrir Expedição</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_queue_hud_min_players">É necessário um mínimo de {amount} membros para iniciar esta expedição.</string>
