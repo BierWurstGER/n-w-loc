@@ -74,6 +74,7 @@
 	<string key="inv_rarity_salvage_confirm">Estás por desarmar un objeto poderoso. ¿Confirmas la acción?</string>
 	<string key="inv_cannotsalvage_equipped">No puedes desarmar objetos equipados.</string>
 	<string key="inv_cannotsalvage_full">No puedes desarmar. Tu inventario está lleno.</string>
+	<string key="inv_cannotsalvage_currencyfull">No puedes desarmar porque {currency} está a su máxima capacidad.</string>
 	<string key="ui_move_hint">Mover</string>
 	<string key="ui_link_to_chat_hint">Enlace al chat</string>
 	<string key="ui_split_stack_hint">Dividir pila</string>
@@ -968,7 +969,6 @@
 	<string key="ui_glory_to_level">&lt;font color="#ffffff"&gt;{xp} de EXP&lt;/font&gt; para llegar al nivel {level}</string>
 	<string key="ui_glory_tooltip">Tienes atributos o puntos de habilidad sin gastar. Usa [{keyName}] para abrir la pantalla de progreso y mejorar tus habilidades.</string>
 	<string key="ui_coin">Dinero</string>
-	<string key="ui_coin">Dinero</string>
 	<string key="ui_coin_desc">La moneda principal para comprar objetos en la tienda de intercambio y en la tienda de la facción.\nEl límite de monedas es de &lt;font color="#ffffff"&gt;{amount}&lt;/font&gt;.\n\n&lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#aaaaaa"&gt;Derivado de:&lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#ffffff"&gt; Completar misiones, matar enemigos, participar en eventos&lt;/font&gt;</string>
 	<string key="ui_coin_max">Máximo de monedas</string>
 	<string key="ui_coin_icon">{coin} &lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt;</string>
@@ -1702,6 +1702,7 @@
 	<string key="ui_unstuck_request_denied_no_breadcrumbs">No te puedes desatascar sin moverte</string>
 	<string key="ui_unstuck_request_denied_too_frequent">No te puedes desatascar con tanta frecuencia</string>
 	<string key="ui_unstuck_request_denied_teleport_failed">No te puedes teletransportar debido a que la ubicación está desatascada</string>
+	<string key="ui_unstuck_request_denied_in_musical_performance">No te puedes desatascar mientras estás en una función musical.</string>
 	<string key="ui_unstuck_request_accepted">Teletransportando en %d segundos</string>
 	<string key="ui_generator_time_to_generate_item">Tiempo para generar {quantity} {item}.</string>
 	<string key="ui_quantitywithx">x{quantity}</string>

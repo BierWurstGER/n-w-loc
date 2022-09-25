@@ -74,6 +74,7 @@
 	<string key="inv_rarity_salvage_confirm">Próbujesz rozebrać potężny przedmiot. Na pewno?</string>
 	<string key="inv_cannotsalvage_equipped">Nie możesz odzyskać składników z wyposażonych przedmiotów.</string>
 	<string key="inv_cannotsalvage_full">Nie można odzyskać składników. Twój ekwipunek jest pełny.</string>
+	<string key="inv_cannotsalvage_currencyfull">Nie można odzyskać, ponieważ {currency} jest pełny.</string>
 	<string key="ui_move_hint">Ruch</string>
 	<string key="ui_link_to_chat_hint">Wspomnij na czacie</string>
 	<string key="ui_split_stack_hint">Podziel stos</string>
@@ -647,19 +648,19 @@
 	<string key="ui_target_groupmode_toggle">Włącz/wyłącz tryb grupowy</string>
 	<string key="ui_slot_unlock_at">Odblokowanie poz. {level}</string>
 	<string key="ui_slot_unlock_at_abbr">poz. {level}</string>
-	<string key="ui_quickslot_mainhand_tooltip">Główna ręka\n\nBroń umieszczoną w tym miejscu można wybrać przez naciśnięcie odpowiedniego klawisza.</string>
-	<string key="ui_quickslot_consumable_tooltip">Miejsce na przedmiot podręczny\n\nNaciśnij odpowiedni klawisz, by użyć umieszczonego tutaj przedmiotu.</string>
-	<string key="ui_quickslot_sickle_tooltip">Miejsce na sierp żniwiarski</string>
-	<string key="ui_quickslot_fishing_tooltip">Miejsce na wędkę</string>
-	<string key="ui_quickslot_logging_tooltip">Miejsce na siekierę</string>
-	<string key="ui_quickslot_skinning_tooltip">Miejsce na nóż do skórowania</string>
-	<string key="ui_quickslot_pickaxe_tooltip">Miejsce na kilof górniczy</string>
-	<string key="ui_quickslot_azoth_tooltip">Miejsce na azothową laskę</string>
-	<string key="ui_quickslot_flute_tooltip" rel_version="Feature_MusicalPerformances">Miejsce na flet</string>
-	<string key="ui_quickslot_guitar_tooltip" rel_version="Feature_MusicalPerformances">Miejsce na gitarę</string>
-	<string key="ui_quickslot_mandolin_tooltip" rel_version="Feature_MusicalPerformances">Miejsce na mandolinę</string>
-	<string key="ui_quickslot_bass_tooltip" rel_version="Feature_MusicalPerformances">Miejsce na kontrabas</string>
-	<string key="ui_quickslot_drums_tooltip" rel_version="Feature_MusicalPerformances">Miejsce na bębny</string>
+	<string key="ui_quickslot_mainhand_tooltip">Główna ręka\n\nBroń umieszczoną w tym miejscu można zmienić przez naciśnięcie odpowiedniego klawisza.</string>
+	<string key="ui_quickslot_consumable_tooltip">Przedmiot podręczny\n\nNaciśnij odpowiedni klawisz, by użyć umieszczonego tutaj przedmiotu.</string>
+	<string key="ui_quickslot_sickle_tooltip">Sierp żniwiarski</string>
+	<string key="ui_quickslot_fishing_tooltip">Wędka</string>
+	<string key="ui_quickslot_logging_tooltip">Siekiera</string>
+	<string key="ui_quickslot_skinning_tooltip">Nóż do skórowania</string>
+	<string key="ui_quickslot_pickaxe_tooltip">Kilof</string>
+	<string key="ui_quickslot_azoth_tooltip">Azothowa laska</string>
+	<string key="ui_quickslot_flute_tooltip" rel_version="Feature_MusicalPerformances">Flet</string>
+	<string key="ui_quickslot_guitar_tooltip" rel_version="Feature_MusicalPerformances">Gitara</string>
+	<string key="ui_quickslot_mandolin_tooltip" rel_version="Feature_MusicalPerformances">Mandolina</string>
+	<string key="ui_quickslot_bass_tooltip" rel_version="Feature_MusicalPerformances">Kontrabas</string>
+	<string key="ui_quickslot_drums_tooltip" rel_version="Feature_MusicalPerformances">Bębny</string>
 	<string key="ui_instrument-flute-slot_name" rel_version="Feature_MusicalPerformances">Flet</string>
 	<string key="ui_instrument-guitar-slot_name" rel_version="Feature_MusicalPerformances">Gitara</string>
 	<string key="ui_instrument-mandolin-slot_name" rel_version="Feature_MusicalPerformances">Mandolina</string>
@@ -967,7 +968,6 @@
 	<string key="ui_glory_update_floating_standing">Ranga +{amount}</string>
 	<string key="ui_glory_to_level">&lt;font color="#ffffff"&gt;{xp} PD&lt;/font&gt; do poz. {level}</string>
 	<string key="ui_glory_tooltip">Masz niewykorzystane punkty cech lub umiejętności. Naciśnij [{keyName}], aby otworzyć ekran postępów i ulepszyć swoje zdolności.</string>
-	<string key="ui_coin">Monety</string>
 	<string key="ui_coin">Monety</string>
 	<string key="ui_coin_desc">Główna waluta używana do kupowania przedmiotów w faktorii i w sklepie frakcji.\nLimit monet: &lt;font color="#ffffff"&gt;{amount}&lt;/font&gt;.\n\n&lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#aaaaaa"&gt;Można otrzymać za:&lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#ffffff"&gt;Wykonywanie misji, zabijanie wrogów, branie udziału w wydarzeniach&lt;/font&gt;</string>
 	<string key="ui_coin_max">Maks. liczba monet</string>
@@ -1702,6 +1702,7 @@
 	<string key="ui_unstuck_request_denied_no_breadcrumbs">Nie możesz żądać odblokowania bez ruchu.</string>
 	<string key="ui_unstuck_request_denied_too_frequent">Nie możesz żądać odblokowania tak często.</string>
 	<string key="ui_unstuck_request_denied_teleport_failed">Nie można się teleportować do odblokowanego miejsca</string>
+	<string key="ui_unstuck_request_denied_in_musical_performance">Nie możesz żądać odblokowania, biorąc udział w występie muzycznym.</string>
 	<string key="ui_unstuck_request_accepted">Teleportacja za %d sek.</string>
 	<string key="ui_generator_time_to_generate_item">Wytwarzanie – {item} w ilości {quantity}.</string>
 	<string key="ui_quantitywithx">x{quantity}</string>

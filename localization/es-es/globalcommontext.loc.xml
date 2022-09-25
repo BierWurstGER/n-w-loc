@@ -74,6 +74,7 @@
 	<string key="inv_rarity_salvage_confirm">Estás a punto de aprovechar un objeto poderoso. ¿Seguro que quieres hacerlo?</string>
 	<string key="inv_cannotsalvage_equipped">No puedes aprovechar objetos equipados.</string>
 	<string key="inv_cannotsalvage_full">No puedes aprovechar. Tu inventario está lleno.</string>
+	<string key="inv_cannotsalvage_currencyfull">No se puede aprovechar porque {currency} se encuentra al máximo de su capacidad.</string>
 	<string key="ui_move_hint">Mover</string>
 	<string key="ui_link_to_chat_hint">Enlazar al chat</string>
 	<string key="ui_split_stack_hint">Dividir pila</string>
@@ -648,7 +649,7 @@
 	<string key="ui_slot_unlock_at">Desbloqueado en nivel {level}</string>
 	<string key="ui_slot_unlock_at_abbr">Nv. {level}</string>
 	<string key="ui_quickslot_mainhand_tooltip">Ranura de la mano principal\n\nEl arma colocada en esta ranura se puede cambiar pulsando la tecla correspondiente.</string>
-	<string key="ui_quickslot_consumable_tooltip">Ranura consumible\n\nEl objeto colocado en esta ranura se puede usar pulsando la tecla correspondiente.</string>
+	<string key="ui_quickslot_consumable_tooltip">Ranura de consumible\n\nEl objeto colocado en esta ranura se puede usar pulsando la tecla correspondiente.</string>
 	<string key="ui_quickslot_sickle_tooltip">Ranura de hoz de cosecha</string>
 	<string key="ui_quickslot_fishing_tooltip">Ranura de caña de pescar</string>
 	<string key="ui_quickslot_logging_tooltip">Ranura de hacha de tala</string>
@@ -967,7 +968,6 @@
 	<string key="ui_glory_update_floating_standing">+{amount} estatus</string>
 	<string key="ui_glory_to_level">&lt;font color="#ffffff"&gt;{xp} EXP&lt;/font&gt; para el nivel {level}</string>
 	<string key="ui_glory_tooltip">Tienes puntos de atributo o de habilidad sin gastar. Usa [{keyName}] para abrir la pantalla de progresión y mejorar tus habilidades.</string>
-	<string key="ui_coin">Monedas</string>
 	<string key="ui_coin">Monedas</string>
 	<string key="ui_coin_desc">El recurso principal que se usa para comprar objetos en el puesto comercial y la tienda de la facción.\nEl máximo de monedas es &lt;font color="#ffffff"&gt;{amount}&lt;/font&gt;.\n\n&lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#aaaaaa"&gt;Cómo se consigue:&lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#ffffff"&gt; Completando misiones, matando enemigos, participando en eventos&lt;/font&gt;</string>
 	<string key="ui_coin_max">Monedas máximas</string>
@@ -1702,6 +1702,7 @@
 	<string key="ui_unstuck_request_denied_no_breadcrumbs">No puedes solicitar separarte sin moverte.</string>
 	<string key="ui_unstuck_request_denied_too_frequent">No puedes solicitar separarte tan a menudo.</string>
 	<string key="ui_unstuck_request_denied_teleport_failed">No puedes teletransportarte a una ubicación desatascada</string>
+	<string key="ui_unstuck_request_denied_in_musical_performance">No puedes solicitar separarte mientras estás en una actuación musical.</string>
 	<string key="ui_unstuck_request_accepted">Teletransportación en %d segundos.</string>
 	<string key="ui_generator_time_to_generate_item">Tiempo para generar {quantity} {item}.</string>
 	<string key="ui_quantitywithx">x{quantity}</string>
@@ -2180,7 +2181,7 @@
 	<string key="ui_merge_world">Mundo</string>
 	<string key="ui_merge_character">Personaje</string>
 	<string key="ui_merge_time">Tiempo restante</string>
-	<string key="ui_freeweekend_worldwarning_title">Mundos del Fin de semana gratis</string>
+	<string key="ui_freeweekend_worldwarning_title">Fin de semana gratis</string>
 	<string key="ui_freeweekend_worldwarning_desc">Selecciona un mundo para jugar durante el Fin de semana gratis. Los mundos no marcados como «gratis» tienen sesiones limitadas que se amplían cada {time} si no hay jugadores de pago en cola.</string>
 	<string key="ui_queue_depth">Jugadores en la cola: &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{numplayers}&lt;/font&gt;&lt;/font&gt;</string>
 	<string key="ui_expected_wait_time">Tiempo de espera estimado: &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{time}&lt;/font&gt;&lt;/font&gt;</string>

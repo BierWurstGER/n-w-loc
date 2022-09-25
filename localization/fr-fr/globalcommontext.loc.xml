@@ -74,6 +74,7 @@
 	<string key="inv_rarity_salvage_confirm">Vous vous apprêtez à recycler un objet très puissant. Voulez-vous continuer ?</string>
 	<string key="inv_cannotsalvage_equipped">Vous ne pouvez pas recycler les objets dont vous êtes équipé.</string>
 	<string key="inv_cannotsalvage_full">Recyclage impossible. Votre inventaire est plein.</string>
+	<string key="inv_cannotsalvage_currencyfull">Recyclage impossible car {currency} a atteint sa capacité maximum.</string>
 	<string key="ui_move_hint">Déplacer</string>
 	<string key="ui_link_to_chat_hint">Aller à la discussion</string>
 	<string key="ui_split_stack_hint">Diviser la pile</string>
@@ -968,7 +969,6 @@
 	<string key="ui_glory_to_level">&lt;font color="#ffffff"&gt;{xp} EXP&lt;/font&gt; avant le niveau {level}</string>
 	<string key="ui_glory_tooltip">Vous avez des points de capacités à utiliser. Ouvrez l'écran de progression et améliorez vos capacités avec [{keyName}].</string>
 	<string key="ui_coin">Pièce</string>
-	<string key="ui_coin">Pièce</string>
 	<string key="ui_coin_desc">Votre monnaie principale sert à acheter des objets au comptoir et à la boutique de faction.\nVous pouvez avoir jusqu'à &lt;font color="#ffffff"&gt;{amount}&lt;/font&gt; pièces.\n\n&lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#aaaaaa"&gt;Obtenue via :&lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#ffffff"&gt; achèvement de missions, élimination d'ennemis, participation à des événements&lt;/font&gt;</string>
 	<string key="ui_coin_max">Max de pièces</string>
 	<string key="ui_coin_icon">{coin} &lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt;</string>
@@ -1702,6 +1702,7 @@
 	<string key="ui_unstuck_request_denied_no_breadcrumbs">Impossible de demander un déblocage sans déplacement</string>
 	<string key="ui_unstuck_request_denied_too_frequent">Impossible de demander un déblocage aussi souvent</string>
 	<string key="ui_unstuck_request_denied_teleport_failed">Téléportation vers un lieu débloqué impossible</string>
+	<string key="ui_unstuck_request_denied_in_musical_performance">Impossible de demander à être débloqué(e) lorsque vous êtes dans un spectacle musical.</string>
 	<string key="ui_unstuck_request_accepted">Téléportation dans %d secondes</string>
 	<string key="ui_generator_time_to_generate_item">Tps pour produire {quantity} {item} :</string>
 	<string key="ui_quantitywithx">x {quantity}</string>

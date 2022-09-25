@@ -74,6 +74,7 @@
 	<string key="inv_rarity_salvage_confirm">Du bist dabei, einen mächtigen Gegenstand zu zerlegen. Trotzdem fortfahren?</string>
 	<string key="inv_cannotsalvage_equipped">Du kannst keine ausgerüsteten Gegenstände zerlegen.</string>
 	<string key="inv_cannotsalvage_full">Zerlegen nicht möglich. Dein Inventar ist voll.</string>
+	<string key="inv_cannotsalvage_currencyfull">Zerlegen nicht möglich. Max. Kapazität für {currency} erreicht.</string>
 	<string key="ui_move_hint">Bewegen</string>
 	<string key="ui_link_to_chat_hint">Mit Chat verknüpfen</string>
 	<string key="ui_split_stack_hint">Stapel teilen</string>
@@ -648,18 +649,18 @@
 	<string key="ui_slot_unlock_at">Freigeschaltet ab St. {level}</string>
 	<string key="ui_slot_unlock_at_abbr">St. {level}</string>
 	<string key="ui_quickslot_mainhand_tooltip">Haupthandplatz\n\nZu einer auf diesen Platz gelegten Waffe kann mit der entsprechenden Taste gewechselt werden.</string>
-	<string key="ui_quickslot_consumable_tooltip">Platz für Verbrauchsgegenstände\n\nDu kannst diesem Platz einen Gegenstand zuweisen, indem du die entsprechende Taste drückst.</string>
-	<string key="ui_quickslot_sickle_tooltip">Erntesichel-Platz</string>
-	<string key="ui_quickslot_fishing_tooltip">Angel-Platz</string>
-	<string key="ui_quickslot_logging_tooltip">Holzfälleraxt-Platz</string>
-	<string key="ui_quickslot_skinning_tooltip">Häutemesser-Platz</string>
-	<string key="ui_quickslot_pickaxe_tooltip">Bergbauhacke-Platz</string>
+	<string key="ui_quickslot_consumable_tooltip">Platz für Verbrauchsgegenstände\n\nEin auf diesem Platz befindlicher Gegenstand kann mit der entsprechenden Taste verwendet werden.</string>
+	<string key="ui_quickslot_sickle_tooltip">Erntesichelplatz</string>
+	<string key="ui_quickslot_fishing_tooltip">Angelplatz</string>
+	<string key="ui_quickslot_logging_tooltip">Holzfälleraxtplatz</string>
+	<string key="ui_quickslot_skinning_tooltip">Häutemesserplatz</string>
+	<string key="ui_quickslot_pickaxe_tooltip">Bergbauhackeplatz</string>
 	<string key="ui_quickslot_azoth_tooltip">Azoth-Stab-Platz</string>
-	<string key="ui_quickslot_flute_tooltip" rel_version="Feature_MusicalPerformances">Flöten-Platz</string>
-	<string key="ui_quickslot_guitar_tooltip" rel_version="Feature_MusicalPerformances">Gitarren-Platz</string>
-	<string key="ui_quickslot_mandolin_tooltip" rel_version="Feature_MusicalPerformances">Mandolinen-Platz</string>
-	<string key="ui_quickslot_bass_tooltip" rel_version="Feature_MusicalPerformances">Kontrabass-Platz</string>
-	<string key="ui_quickslot_drums_tooltip" rel_version="Feature_MusicalPerformances">Trommel-Platz</string>
+	<string key="ui_quickslot_flute_tooltip" rel_version="Feature_MusicalPerformances">Flötenplatz</string>
+	<string key="ui_quickslot_guitar_tooltip" rel_version="Feature_MusicalPerformances">Gitarrenplatz</string>
+	<string key="ui_quickslot_mandolin_tooltip" rel_version="Feature_MusicalPerformances">Mandolinenplatz</string>
+	<string key="ui_quickslot_bass_tooltip" rel_version="Feature_MusicalPerformances">Kontrabassplatz</string>
+	<string key="ui_quickslot_drums_tooltip" rel_version="Feature_MusicalPerformances">Trommelplatz</string>
 	<string key="ui_instrument-flute-slot_name" rel_version="Feature_MusicalPerformances">Flöte</string>
 	<string key="ui_instrument-guitar-slot_name" rel_version="Feature_MusicalPerformances">Gitarre</string>
 	<string key="ui_instrument-mandolin-slot_name" rel_version="Feature_MusicalPerformances">Mandoline</string>
@@ -967,7 +968,6 @@
 	<string key="ui_glory_update_floating_standing">+{amount} Ruf</string>
 	<string key="ui_glory_to_level">&lt;font color="#ffffff"&gt;{xp} EP&lt;/font&gt; bis St. {level}</string>
 	<string key="ui_glory_tooltip">Du hast unverteilte Attributs- oder Fähigkeitenpunkte. Drücke [{keyName}], um den Fortschrittsbildschirm zu öffnen und deine Fähigkeiten zu verbessern.</string>
-	<string key="ui_coin">Taler</string>
 	<string key="ui_coin">Taler</string>
 	<string key="ui_coin_desc">Deine Primärwährung, mit der du in Handelsposten und im Fraktionsladen Gegenstände kaufen kannst.\nTalerguthaben ist begrenzt auf max. &lt;font color="#ffffff"&gt;{amount}&lt;/font&gt;.\n\n&lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#aaaaaa"&gt;Herkunft:&lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#ffffff"&gt; Missionen abschließen, Gegner töten, Teilnahme an Ereignissen&lt;/font&gt;</string>
 	<string key="ui_coin_max">Max. Taler</string>
@@ -1702,6 +1702,7 @@
 	<string key="ui_unstuck_request_denied_no_breadcrumbs">Du musst dich bewegen, um diese Anfrage zu stellen.</string>
 	<string key="ui_unstuck_request_denied_too_frequent">Anfrage zu oft gestellt.</string>
 	<string key="ui_unstuck_request_denied_teleport_failed">Teleportation in freies Gelände nicht möglich.</string>
+	<string key="ui_unstuck_request_denied_in_musical_performance">Befreien nicht möglich, während du eine Vorführung gibst.</string>
 	<string key="ui_unstuck_request_accepted">Teleportation in %d Sekunden.</string>
 	<string key="ui_generator_time_to_generate_item">Zeit bis zur Herstellung von {quantity}x {item}.</string>
 	<string key="ui_quantitywithx">x{quantity}</string>

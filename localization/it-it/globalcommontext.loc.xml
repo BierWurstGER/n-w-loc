@@ -74,6 +74,7 @@
 	<string key="inv_rarity_salvage_confirm">Stai per recuperare un oggetto potente. Vuoi procedere?</string>
 	<string key="inv_cannotsalvage_equipped">Non puoi recuperare oggetti equipaggiati.</string>
 	<string key="inv_cannotsalvage_full">Impossibile recuperare. Il tuo inventario è pieno.</string>
+	<string key="inv_cannotsalvage_currencyfull">Impossibile recuperare perché hai già la quantità massima di {currency}.</string>
 	<string key="ui_move_hint">Sposta</string>
 	<string key="ui_link_to_chat_hint">Link alla chat</string>
 	<string key="ui_split_stack_hint">Dividi pila</string>
@@ -929,7 +930,7 @@
 	<string key="ui_pvp_xp" rel_version="PvP_Rewards_Track">PE PvP</string>
 	<string key="ui_xp_boost">Aumento di PE</string>
 	<string key="ui_xp_event_title">EVENTO AUMENTO DI PE!</string>
-	<string key="ui_xp_event_desc">Speciale aumento PE attivo per questo mondo!</string>
+	<string key="ui_xp_event_desc">Speciale aumento di PE attivo per questo mondo!</string>
 	<string key="ui_xp_event_modal_title">È INIZIATO AUMENTO DI PE!</string>
 	<string key="ui_xp_event_modal_desc">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Regular.font"&gt;Vieni a divertirti nel glorioso evento Aumento di PE! Ecco la tua opportunità per far salire di livello i tuoi personaggi!\nL'aumento si applica a:&lt;/font&gt;</string>
 	<string key="ui_xp_event_xp">PE &lt;font color="#ffcc00" face="lyshineui/fonts/Nimbus_Bold.font"&gt;x{amount}&lt;/font&gt;</string>
@@ -967,7 +968,6 @@
 	<string key="ui_glory_update_floating_standing">+{amount} reputazione</string>
 	<string key="ui_glory_to_level">&lt;font color="#ffffff"&gt;{xp} PE&lt;/font&gt; per il livello {level}</string>
 	<string key="ui_glory_tooltip">Hai punti Attributo o Competenza inutilizzati. Usa [{keyName}] per aprire la schermata del personaggio e migliorare le tue competenze.</string>
-	<string key="ui_coin">Monete</string>
 	<string key="ui_coin">Monete</string>
 	<string key="ui_coin_desc">La valuta principale per acquistare oggetti nell'emporio e nel negozio della fazione.\nIl tetto massimo per le monete è &lt;font color="#ffffff"&gt;{amount}&lt;/font&gt;.\n\n&lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#aaaaaa"&gt;Derivato da:&lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#ffffff"&gt; completare missioni, uccidere i nemici, partecipare agli eventi&lt;/font&gt;</string>
 	<string key="ui_coin_max">Max monete</string>
@@ -1702,6 +1702,7 @@
 	<string key="ui_unstuck_request_denied_no_breadcrumbs">Non puoi richiedere lo sblocco senza spostamento</string>
 	<string key="ui_unstuck_request_denied_too_frequent">Non puoi richiedere lo sblocco così spesso</string>
 	<string key="ui_unstuck_request_denied_teleport_failed">Impossibile usare il teletrasporto verso un luogo sbloccato</string>
+	<string key="ui_unstuck_request_denied_in_musical_performance">Non puoi richiedere lo sblocco durante un'esibizione musicale.</string>
 	<string key="ui_unstuck_request_accepted">Teletrasporto tra %d secondi</string>
 	<string key="ui_generator_time_to_generate_item">È ora di generare: {item} (quantità: {quantity})</string>
 	<string key="ui_quantitywithx">{quantity}x</string>

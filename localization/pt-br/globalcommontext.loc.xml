@@ -74,6 +74,7 @@
 	<string key="inv_rarity_salvage_confirm">Você está prestes a sucatear um item poderoso. Tem certeza disso?</string>
 	<string key="inv_cannotsalvage_equipped">Você não pode sucatear itens equipados.</string>
 	<string key="inv_cannotsalvage_full">Você não pode sucatear. Seu inventário está cheio.</string>
+	<string key="inv_cannotsalvage_currencyfull">Não é possível sucatear porque {currency} atingiu a capacidade máxima.</string>
 	<string key="ui_move_hint">Mover</string>
 	<string key="ui_link_to_chat_hint">Mostrar no Chat</string>
 	<string key="ui_split_stack_hint">Dividir Pilha</string>
@@ -647,7 +648,7 @@
 	<string key="ui_target_groupmode_toggle">Alternar Modo de Grupo</string>
 	<string key="ui_slot_unlock_at">Desbloq. no nível {level}</string>
 	<string key="ui_slot_unlock_at_abbr">Nv. {level}</string>
-	<string key="ui_quickslot_mainhand_tooltip">Espaço de Mão Principal\n\nUma arma colocada neste espaço pode ser alternada pressionando a tecla correspondente.</string>
+	<string key="ui_quickslot_mainhand_tooltip">Espaço de Mão Principal\n\nUma arma colocada neste espaço pode ser empunhada pressionando a tecla correspondente.</string>
 	<string key="ui_quickslot_consumable_tooltip">Espaço Consumível\n\nUm item colocado neste espaço pode ser usado pressionando a tecla correspondente.</string>
 	<string key="ui_quickslot_sickle_tooltip">Espaço de Foice de Colheita</string>
 	<string key="ui_quickslot_fishing_tooltip">Espaço de Vara de Pescar</string>
@@ -929,7 +930,7 @@
 	<string key="ui_pvp_xp" rel_version="PvP_Rewards_Track">EXP PvP</string>
 	<string key="ui_xp_boost">Impulso de EXP</string>
 	<string key="ui_xp_event_title">EVENTO DE IMPULSO DE EXP!</string>
-	<string key="ui_xp_event_desc">O Impulso de EXP Especial está ativo neste mundo!</string>
+	<string key="ui_xp_event_desc">Mundo com Impulso de EXP Especial ativo!</string>
 	<string key="ui_xp_event_modal_title">IMPULSO DE EXP ATIVADO!</string>
 	<string key="ui_xp_event_modal_desc">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Regular.font"&gt;Venha aproveitar o glorioso evento de Impulso de EXP! Esta é a chance de aumentar o nível de seus personagens!\nO impulso é ativado em:&lt;/font&gt;</string>
 	<string key="ui_xp_event_xp">EXP &lt;font color="#ffcc00" face="lyshineui/fonts/Nimbus_Bold.font"&gt;x {amount}&lt;/font&gt;</string>
@@ -967,7 +968,6 @@
 	<string key="ui_glory_update_floating_standing">+{amount} Posição</string>
 	<string key="ui_glory_to_level">&lt;font color="#ffffff"&gt;{xp} EXP&lt;/font&gt; para o Nível {level}</string>
 	<string key="ui_glory_tooltip">Você tem pontos de atributos ou habilidades para usar. Use [{keyName}] para abrir a tela de progressão e melhorar as suas habilidades.</string>
-	<string key="ui_coin">Moedas</string>
 	<string key="ui_coin">Moedas</string>
 	<string key="ui_coin_desc">Sua moeda principal é usada para comprar itens no Entreposto Comercial e na Loja de Facção.\nA moeda é limitada a &lt;font color="#ffffff"&gt;{amount}&lt;/font&gt;.\n\n&lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#aaaaaa"&gt;Derivada de:&lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#ffffff"&gt; Concluir Missões, Abater Inimigos, Participar de Eventos&lt;/font&gt;</string>
 	<string key="ui_coin_max">Limite de Moedas</string>
@@ -1702,6 +1702,7 @@
 	<string key="ui_unstuck_request_denied_no_breadcrumbs">Não pode requisitar para ser desprendido sem se mover</string>
 	<string key="ui_unstuck_request_denied_too_frequent">Não pode requisitar para ser desprendido com tanta frequência</string>
 	<string key="ui_unstuck_request_denied_teleport_failed">Não foi possível se teletransportar para o local do desprendimento</string>
+	<string key="ui_unstuck_request_denied_in_musical_performance">Não é possível desprender durante uma apresentação musical</string>
 	<string key="ui_unstuck_request_accepted">Teletransportando em %d segundos</string>
 	<string key="ui_generator_time_to_generate_item">Tempo para gerar {quantity} {item}.</string>
 	<string key="ui_quantitywithx">x{quantity}</string>
