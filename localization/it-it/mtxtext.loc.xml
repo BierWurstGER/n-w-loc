@@ -60,7 +60,7 @@
 	<string key="reward_type_extra" rel_version="Feature_MTX">Extra</string>
 	<string key="reward_type_entitlement" rel_version="Feature_MTX">DIRITTO</string>
 	<string key="reward_type_marks_of_fortune" rel_version="Feature_MTX">Marchi della fortuna</string>
-	<string key="reward_type_service" rel_version="Feature_MTX">Trasferimento di mondo (monouso)</string>
+	<string key="reward_type_service" rel_version="Feature_MTX">Trasferimento di mondo o regione (monouso)</string>
 	<string key="entitlement_included" rel_version="Feature_MTX">Incluso</string>
 	<string key="ui_account_bound" rel_version="Feature_MTX">Tutti gli oggetti sono vincolati all'account (non scambiabili) e non rimborsabili</string>
 	<string key="ui_account_bound_tooltip" rel_version="Feature_MTX">Tutti gli oggetti sono vincolati all'account (li puoi usare su tutti i tuoi personaggi) e non possono essere scartati, scambiati o venduti presso l'emporio. Inoltre, tutti gli oggetti non sono rimborsabili.\n\n&lt;font face="lyshineui/fonts/Nimbus_Bold.font" &gt;Oggetti consumabili: &lt;/font&gt; Questi oggetti hanno un utilizzo limitato e usandone uno su un personaggio specifico si riduce la quantità in tutto l'account. Ad esempio, se hai cinque tinte e ne usi una su un personaggio, te ne resteranno soltanto quattro quando sceglierai un altro personaggio nello stesso account.</string>
@@ -163,7 +163,7 @@
 	<string key="ui_notification_unlock_desc">Alcuni oggetti sono stati aggiunti al tuo account.</string>
 	<string key="ui_notification_unlock_title">Sbloccato!</string>
 	<string key="ui_view_item">Vedi oggetti</string>
-	<string key="ui_claim_fail_achievementmissing" comment="DO NOT TRANSLATE"/>
+	<string key="ui_claim_fail_achievementmissing" comment="DO NOT TRANSLATE">Entitlement isn't tied to an Achievement! Failed to claim item.</string>
 	<string key="ui_claim_fail_alreadyunlocked">Hai già ottenuto questo diritto.</string>
 	<string key="ui_claim_fail_inventoryfull">Non puoi ottenere questo diritto se il tuo inventario è pieno. Libera spazio e riprova.</string>
 	<string key="ui_claim_fail_transactionerror">Errore durante la transazione. Riprova.</string>
@@ -443,7 +443,7 @@
 	<string key="ui_character_region_transfer" rel_version="Feature_Server_Transfer">Trasferimento regione del personaggio</string>
 	<string key="server_transfer_description" rel_version="Feature_Server_Transfer">Consente di trasferire questo personaggio in un altro mondo o regione a tua scelta.</string>
 	<string key="server_transfer_description_region_disabled" rel_version="Feature_Server_Transfer">Consente di trasferire questo personaggio in un altro mondo all'interno della regione attuale.</string>
-	<string key="server_transfer_extra_detail" rel_version="Feature_Server_Transfer">Sul tuo account è disponibile 1 trasferimento gratuito. Una volta rivendicato, non potrai usarlo su altri personaggi.</string>
+	<string key="server_transfer_extra_detail" rel_version="Feature_Server_Transfer">Sul tuo account è disponibile 1 trasferimento di mondo o regione gratuito. Una volta rivendicato, non potrai usarlo su altri personaggi.</string>
 	<string key="server_transfer_names" rel_version="Feature_Server_Transfer">Trasferimento &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{playerName}&lt;/font&gt; verso: &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{ServerName}&lt;/font&gt; {WorldSetName}</string>
 	<string key="server_transfer_requirements" rel_version="Feature_Server_Transfer">REQUISITI</string>
 	<string key="server_transfer_not_transfer" rel_version="Feature_Server_Transfer">COSA NON SARÀ TRASFERITO</string>
@@ -828,5 +828,15 @@
 	<string key="Bundle_PR_Metal_Instruments_description" rel_version="Entitlements_July_2022">"Scopri il metallo pesante."</string>
 	<string key="Bundle_PR_Metal_Megapack_name" rel_version="Entitlements_July_2022">Mega pacchetto heavy metal</string>
 	<string key="Bundle_PR_Metal_Megapack_description" rel_version="Entitlements_July_2022">"In certi casi bisogna andarci pesante."</string>
+	<string key="Bundle_Decor_Phoenix_name" rel_version="Housing_Phoenix_MTX_Pack_2022">Pacchetto mobilio della fenice nascente</string>
+	<string key="Bundle_Decor_Phoenix_description" rel_version="Housing_Phoenix_MTX_Pack_2022">"Se è vero che la fenice risorge dalle sue ceneri, sconsigliamo vivamente di bruciare casa per sperimentare il fenomeno."</string>
+	<string key="Apparel_Phoenix_L_name" rel_version="Apparel_Phoenix_L">Piume d'uccello</string>
+	<string key="Apparel_Phoenix_L_description" rel_version="Apparel_Phoenix_L">"Come si suol dire, volano a stormi."</string>
+	<string key="Apparel_Phoenix_M_name" rel_version="Apparel_Phoenix_M">Fiamme danzanti</string>
+	<string key="Apparel_Phoenix_M_description" rel_version="Apparel_Phoenix_M">"Come il fuoco della pira arde sempre più alto, così fa il tuo spirito battagliero."</string>
+	<string key="Apparel_Phoenix_H_name" rel_version="Apparel_Phoenix_H">Bagliore solare</string>
+	<string key="Apparel_Phoenix_H_description" rel_version="Apparel_Phoenix_H">"Eclissa, supera in astuzia e metti in ginocchio i tuoi avversari."</string>
+	<string key="Bundle_Tool_Phoenix_name" rel_version="ToolSkins_Phoenix_MTX">Strumenti delle ali sfavillanti</string>
+	<string key="Bundle_Tool_Phoenix_description" rel_version="ToolSkins_Phoenix_MTX">"Leggeri come l'aria, per puntare sempre più in alto."</string>
 </resources>
 
