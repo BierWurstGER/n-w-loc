@@ -108,8 +108,8 @@
 	<string key="ui_affliction_injury">Verletzungsresistenz</string>
 	<string key="ui_affliction_insane">Wahnresistenz</string>
 	<string key="ui_affliction_inspired">Inspiration</string>
-	<string key="ui_affliction_poison">Giftresistenz</string>
-	<string key="ui_affliction_poison_tooltip">Wenn du keine Giftresistenz mehr hast, wirst du vergiftet und verlierst nach und nach etwas Gesundheit.</string>
+	<string key="ui_affliction_poison">Säureresistenz</string>
+	<string key="ui_affliction_poison_tooltip">Sinkt die Säureresistenz auf null, erleidest du eine Säureverätzung.</string>
 	<string key="ui_affliction_weakness">Schwächeresistenz</string>
 	<string key="ui_affliction_drowning">Atem</string>
 	<string key="ui_affliction_drowning_tooltip">Wenn dir der Atem ausgeht, erstickst du.</string>
@@ -134,8 +134,8 @@
 	<string key="ui_afflicted_injury">verletzt</string>
 	<string key="ui_afflicted_insane">wahnsinnig</string>
 	<string key="ui_afflicted_inspired">inspiriert</string>
-	<string key="ui_afflicted_poison">vergiftet</string>
-	<string key="ui_afflicted_poison_tooltip">Wenn du vergiftet bist, verlierst du nach und nach Gesundheit.</string>
+	<string key="ui_afflicted_poison">Säureverätzung</string>
+	<string key="ui_afflicted_poison_tooltip">Wenn du unter einer Säureverätzung leidest, erleidest du 500 % mehr Schaden durch Säure. Säureverätzungen kannst du mit Säuretinkturen entfernen, die in einem Arkanumarchiv hergestellt werden können.</string>
 	<string key="ui_afflicted_weakness">geschwächt</string>
 	<string key="ui_afflicted_drowning">ertrinkend</string>
 	<string key="ui_afflicted_drowning_tooltip">Du bist ertrunken.</string>
@@ -666,10 +666,10 @@
 	<string key="ui_instrument-mandolin-slot_name" rel_version="Feature_MusicalPerformances">Mandoline</string>
 	<string key="ui_instrument-uprightbass-slot_name" rel_version="Feature_MusicalPerformances">Kontrabass</string>
 	<string key="ui_instrument-drums-slot_name" rel_version="Feature_MusicalPerformances">Trommeln</string>
-	<string key="ui_heartgem-slot" rel_version="Feature_Heartgems">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Semibold.font"&gt;Herzjuwelplatz&lt;/font&gt;\n\n&lt;font face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt;Ein auf diesen Platz gelegter Gegenstand aktiviert die Runenfertigkeit.\n\nWird nach Abschluss der Runenaufgabe freigeschaltet. (Verfügbar ab Stufe 60)&lt;/font&gt;</string>
+	<string key="ui_heartgem-slot" rel_version="Feature_Heartgems">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Semibold.font"&gt;Herzjuwelplatz&lt;/font&gt;\n\n&lt;font face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt;Eine auf diesen Platz gelegte Herzrune aktiviert die Runenfertigkeit.\n\nWird nach Abschluss der Herzrunenaufgabe freigeschaltet. (Verfügbar ab Stufe 60)&lt;/font&gt;</string>
 	<string key="ui_heartgemcharge-tooltip" rel_version="Feature_Heartgems">Das Herzjuwel erhält Aufladung, indem bestimmte Kampfaktionen ausgeführt werden:\n\n Schaden zufügen (einschließlich abgewehrter Treffer)\n\n Schaden erleiden (einschließlich abgewehrter Treffer)\n\n Boni (einschließlich Heilung) und Schwächungen auslösen</string>
-	<string key="ui_heartgem_rune_ability" rel_version="Feature_Heartgems">Runenfertigkeit</string>
-	<string key="ui_heartgem_rune_ability_silenced" rel_version="Feature_Heartgems">Runenfertigkeit stillgelegt</string>
+	<string key="ui_heartgem_rune_ability" rel_version="Feature_Heartgems">Herzrunenfertigkeit</string>
+	<string key="ui_heartgem_rune_ability_silenced" rel_version="Feature_Heartgems">Herzrunenfertigkeit nicht verfügbar (Stille)</string>
 	<string key="ui_buildmode_grid">Baumodusgitter</string>
 	<string key="ui_wave">Winken</string>
 	<string key="ui_inspect_player">Soziale Interaktionen</string>
@@ -949,8 +949,8 @@
 	<string key="ui_xp_event_all_faction_xp">Sämtlicher Fraktionsruf</string>
 	<string key="ui_xp_event_all_factiontoken_xp">Alle Fraktionsmarken</string>
 	<string key="ui_xp_event_progression_xp">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Regular.font"&gt;{progressionName}&lt;/font&gt; &lt;font color="#ffcc00" face="lyshineui/fonts/Nimbus_Bold.font"&gt;x {amount}&lt;/font&gt;</string>
-	<string key="ui_xp_boost_reminder" comment="The leading space is intentional"> ( x {bonus} &lt;img src="lyshineui/images/icons/misc/icon_xp_boost" xPadding="0" scale="1.1" yOffset="0.5"&gt;&lt;/img&gt;)</string>
-	<string key="ui_xp_multiplier_arrow" comment="The leading space is intentional"> x {bonus} &lt;img src="lyshineui/images/icons/misc/icon_xp_boost" xPadding="0" scale="1.1" yOffset="0.5"&gt;&lt;/img&gt;</string>
+	<string key="ui_xp_boost_reminder" comment="The leading space is intentional">( x {bonus} &lt;img src="lyshineui/images/icons/misc/icon_xp_boost" xPadding="0" scale="1.1" yOffset="0.5"&gt;&lt;/img&gt;)</string>
+	<string key="ui_xp_multiplier_arrow" comment="The leading space is intentional">x {bonus} &lt;img src="lyshineui/images/icons/misc/icon_xp_boost" xPadding="0" scale="1.1" yOffset="0.5"&gt;&lt;/img&gt;</string>
 	<string key="ui_reached_max_daily_pvp_arena_rewards">Heutiges Limit für Salz aus der PvP-Arena erreicht!</string>
 	<string key="ui_reached_max_fort_takeover_rewards">Tägliches Belohnungslimit für die Fort-Übernahme erreicht!</string>
 	<string key="world_landing_title">Die optimale WELT wurde für dich ausgewählt.</string>
@@ -1043,7 +1043,9 @@
 	<string key="ui_whisper_to_someone">{playerName} AN {recipient}</string>
 	<string key="ui_focus">Konzentration</string>
 	<string key="ui_points_to_level">{points} bis St. {level}</string>
+	<string key="ui_points_to_level_with_skill">{points} {skill} bis St. {level}</string>
 	<string key="ui_points_to_expertise">{points} bis zum Begabungsrang {level}</string>
+	<string key="ui_points_to_expertise_with_skill">{points} {skill} bis zum Begabungsrang {level}</string>
 	<string key="ui_spirit">Glaube</string>
 	<string key="ui_vitality">Körperbau</string>
 	<string key="ui_strength">Stärke</string>
@@ -1434,6 +1436,7 @@
 	<string key="ui_items_have_changed_msg">Deinem Konto wurden Gegenstände hinzugefügt oder entfernt.</string>
 	<string key="ui_account_items_changed">Kontogegenstände geändert</string>
 	<string key="ui_dismiss">Ausblenden</string>
+	<string key="ui_named">Benannt</string>
 	<string key="url_twitchchannel">https://www.twitch.tv/{channel}</string>
 	<string key="url_forums">https://forums.newworld.com/</string>
 	<string key="ui_seizure_title">Warnung vor Anfällen bei Lichtempfindlichkeit</string>
@@ -1857,7 +1860,7 @@
 	<string key="ui_has_resources">Hat Rohstoffe</string>
 	<string key="ui_deadnotification_title">DU BIST GESTORBEN.</string>
 	<string key="ui_deadnotification_body">Du musst erst respawnen, bevor du auf diese Nachricht antworten kannst.</string>
-	<string key="ui_vitals_health_tooltip" comment="Use {currentValue} and {maxValue} for the vital's numbers">Gesundheit\n{currentValue}/{maxValue}\n\n&lt;font color="#ffe940"&gt;Wiedergewinnung&lt;/font&gt; von Gesundheit.\n- Trinke Tinkturen, um dich schnell zu heilen.\n- Iss etwas, um nach einem kurzfristigen Anstieg weitere Gesundheit nach und nach zurückzugewinnen.\n\nRüste deine &lt;font color="#ffe940"&gt;Konstitution&lt;/font&gt; auf, um deine maximale Gesundheit zu erhöhen.</string>
+	<string key="ui_vitals_health_tooltip" comment="Use {currentValue} and {maxValue} for the vital's numbers">Gesundheit\n{currentValue}/{maxValue}\n\n&lt;font color="#ffe940"&gt;Wiedergewinnung&lt;/font&gt; von Gesundheit.\n- Trinke Tinkturen, um dich schnell zu heilen.\n- Iss etwas, um nach einem kurzfristigen Anstieg weitere Gesundheit nach und nach zurückzugewinnen.\n\nRüste deine &lt;font color="#ffe940"&gt;Konstitution&lt;/font&gt; auf, um deine maximale Gesundheit zu erhöhen.\n\n&lt;img src="lyshineui/images/icons/hud/vitals/Icon_combatstate" xPadding="0" scale="1.2" yOffset="0"&gt;&lt;/img&gt; bedeutet, dass der Spieler sich gerade im Kampf befindet. Einige Spielerverwaltungsaktionen sind bei aktivem Kampf gesperrt. Schließe eine Begegnung ab oder vermeide 20 Sekunden lang Kämpfe, um den Status zu verlassen.</string>
 	<string key="ui_vitals_stamina_tooltip" comment="Use {currentValue} and {maxValue} for the vital's numbers">Ausdauer\n{currentValue}/{maxValue}\n\nDefensive Aktionen wie Blocken oder Ausweichen verbrauchen deine Ausdauer. Wenn du keine Ausdauer mehr hast, kannst du möglicherweise nicht mehr effektiv agieren.\n\nAusdauer füllt sich nach und nach wieder auf, wenn du weder sprintest noch angreifst.</string>
 	<string key="ui_vitals_mana_tooltip" comment="Use {currentValue} and {maxValue} for the vital's numbers">Mana\n{currentValue}/{maxValue}\n\nEin geheimnisvoller Rohstoff, der zur Verwendung von Magie benötigt wird. Wenn dieser Wert niedrig ist, kannst du möglicherweise bestimmte übernatürliche Kräfte nicht mehr einsetzen.\n\nMana füllt sich nach und nach wieder auf.</string>
 	<string key="ui_vitals_mana_rate_tooltip">Mana füllt sich nach und nach wieder auf.\n\nStandardrate ist 1,5 Mana pro Sekunde.</string>
@@ -1870,7 +1873,7 @@
 	<string key="ui_ability1">Waffenfähigkeit 1</string>
 	<string key="ui_ability2">Waffenfähigkeit 2</string>
 	<string key="ui_ability3">Waffenfähigkeit 3</string>
-	<string key="ui_ability_heartgem">Herzjuwelfähigkeit</string>
+	<string key="ui_ability_heartgem">Herzrunenfertigkeit</string>
 	<string key="ui_pending_afk_disconnect">Spielst du noch?</string>
 	<string key="ui_pending_afk_disconnect_description">Bei dir wurde Inaktivität festgestellt und du wirst automatisch aus dem Spiel geworfen. Wenn du noch spielst, bewege deinen Charakter.</string>
 	<string key="ui_pending_freeweekend_session_ending_title">Gratissitzung endet demnächst</string>
@@ -1916,6 +1919,7 @@
 	<string key="ui_skill_increased">Fähigkeit verbessert</string>
 	<string key="ui_purchase_attribute">Attribut kaufen</string>
 	<string key="ui_solo">Einzel</string>
+	<string key="ui_summary">Zusammenfassung</string>
 	<string key="ui_azoth_max_title">Maximales Azoth</string>
 	<string key="ui_azoth_max_desc">Du hast die Azothgrenze erreicht. Zusätzliches Azoth geht verloren.</string>
 	<string key="ui_azoth_warning_title">Achtung: Azothgrenze</string>
@@ -2138,6 +2142,8 @@
 	<string key="ui_clusterwarning_warning">&lt;font color={colorHex1}&gt;Du kannst nur 1 Charakter im &lt;/font&gt;&lt;font face="lyshineui/fonts/nimbus_bold.font"&gt;&lt;font color={colorHex2}&gt;Weltset "{worldSetName}"&lt;/font&gt;&lt;/font&gt;&lt;font color={colorHex1}&gt; haben.&lt;/font&gt;</string>
 	<string key="ui_clusterwarning_description1">Du musst deinen Charakter in {worldName} löschen, wenn du in einer anderen {worldSetName}-Welt spielen willst.</string>
 	<string key="ui_clusterwarning_description2">Wenn Freunde von dir in anderen {worldSetName}-Welten spielen, kannst du nicht mit ihnen zusammen spielen.</string>
+	<string key="ui_clusterwarning_freshstart">Es können nur neue Charaktere in {worldName} erstellt werden. Charaktere können nicht in diese neue Startwelt übertragen werden.</string>
+	<string key="ui_clusterwarning_non_freshstart">Charaktere können in diese Welt hinein und aus ihr heraus übertragen werden.</string>
 	<string key="ui_character_world_info">{worldName}</string>
 	<string key="ui_cannotPin_atMax">Es können keine weiteren Ziele mehr angeheftet werden.</string>
 	<string key="ui_clusterwarning_body">&lt;font color="#ffffff"&gt;Du kannst nur einen Charakter in der Weltgruppe von {worldSetName} besitzen.&lt;/font&gt;\n\nWenn du auf einer anderen {worldSetName}-Welt spielen möchtest, musst du zuerst deinen Charakter in {worldName} löschen und dann einen neuen in einer anderen Welt erstellen.\n\nWenn Freunde von dir in anderen {worldSetName}-Welten spielen, kannst du nicht mit ihnen zusammen spielen.</string>
@@ -2207,7 +2213,7 @@
 	<string key="ui_stat_bonus_tooltip">&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;+{amount}&lt;/font&gt; {attribute}</string>
 	<string key="ui_stat_bonus">+{amount} {attribute}</string>
 	<string key="ui_craft_bonus">+ {amount} {bonus} {bonus2}</string>
-	<string key="ui_first_craft_bonus">(&lt;img src="lyshineui/images/icons/misc/icon_upgrade" xPadding="0" scale="1.8" yOffset="5"&gt;&lt;/img&gt; Erstherstellungsbonus)</string>
+	<string key="ui_first_craft_bonus">(&lt;img src="lyshineui/images/icons/misc/icon_upgrade" xPadding="0" scale="1.8" yOffset="5"&gt;&lt;/img&gt;Erstherstellungsbonus)</string>
 	<string key="ui_maker_status_effects_single">{effect1}</string>
 	<string key="ui_maker_status_effects_double">{effect1} · {effect2}</string>
 	<string key="ui_maker_status_effects_triple">{effect1} · {effect2} · {effect3}</string>
@@ -2273,7 +2279,7 @@
 	<string key="ui_change_faction_cooldown">Fraktionswechsel\n{cooldown}</string>
 	<string key="ui_change_faction_azoth_cost">Fraktionswechsel {azothcost}</string>
 	<string key="ui_change_faction_desc">Möchtest du wirklich zur Fraktion {factionname} wechseln?\nDurch den Fraktionswechsel werden dein Fraktionsrang sowie deine Fraktionsmarken zurückgesetzt.\n\nNach dem Wechseln kannst du deine Fraktion 60 Tage lang nicht mehr wechseln.</string>
-	<string key="ui_change_faction_confirmation" rel_version="Feature_Faction_Selection">Möchtest du wirklich zur Fraktion {factionname} wechseln?\nDurch den Fraktionswechsel werden dein Fraktionsrang sowie deine Fraktionsmarken zurückgesetzt.\n\nNach dem Wechseln kannst du deine Fraktion 60 Tage lang nicht mehr wechseln.\n\nFalls du Mitglied einer Kompanie bist, wirst du damit aus dieser entfernt.</string>
+	<string key="ui_change_faction_confirmation" rel_version="Feature_Faction_Selection">Möchtest du wirklich zur Fraktion {factionname} wechseln?\nDein Fraktionsrang sowie deine Fraktionsmarken werden nicht mitübertragen, aber gehen für den Fall einer Rückkehr nicht verloren.\n\nNach dem Wechseln kannst du deine Fraktion 60 Tage lang nicht mehr wechseln.\n\nFalls du Mitglied einer Kompanie bist, wirst du damit aus dieser entfernt.</string>
 	<string key="ui_change_faction_quest_warning" rel_version="Feature_Faction_Selection">Einführungsaufgaben noch nicht abgeschlossen.</string>
 	<string key="ui_change_faction_visit_rep" rel_version="Feature_Faction_Selection">Fraktionsvertreter besuchen zum Wechseln</string>
 	<string key="ui_current_faction">Deine derzeitige Fraktion: {factionname}</string>
@@ -2417,11 +2423,11 @@
 	<string key="ui_itemtypedescription_furniture">Möbel</string>
 	<string key="ui_itemtypedescription_bait">Köder</string>
 	<string key="ui_itemtypedescription_outpostrush">Außenpostensturm-Rohstoff</string>
-	<string key="ui_itemtypedescription_heartgem_rune" rel_version="Feature_Heartgems">Herzjuwelrune</string>
+	<string key="ui_itemtypedescription_heartgem_rune" rel_version="Feature_Heartgems">Herzrune</string>
 	<string key="ui_itemtooltiptitle_heartgem_rune_stone_form" rel_version="Feature_Heartgems">Steinform</string>
 	<string key="ui_itemtooltiptitle_heartgem_rune_detonate" rel_version="Feature_Heartgems">Explodieren</string>
 	<string key="ui_itemtooltiptitle_heartgem_rune_grasping_vines" rel_version="Feature_Heartgems">Windende Reben</string>
-	<string key="ui_itemtooltiptitle_heartgem_rune_heretics_fall" rel_version="Feature_Heartgems">Ketzerfall</string>
+	<string key="ui_itemtooltiptitle_heartgem_rune_heretics_fall" rel_version="Feature_Heartgems">Dunkler Aufstieg</string>
 	<string key="ui_itemtooltiptitle_heartgem_rune_cannon_blast" rel_version="Feature_Heartgems">Kanonenschuss</string>
 	<string key="ui_cannot_perform_action_at_this_time">Diese Aktion kannst du gerade nicht durchführen.</string>
 	<string key="ui_cannot_use_shield_abilities">Kein Schild ausgerüstet</string>
@@ -2459,7 +2465,7 @@
 	<string key="ui_complete_quests_to_unlock">Schließe zum Freischalten Aufgaben in der Siedlung ab</string>
 	<string key="ui_interact_required_level">Du musst mindestens Stufe {level} erreicht haben, um dies nutzen zu können</string>
 	<string key="ui_cannot_chat_trading_blocked">Dein Konto muss mindestens {hoursNeeded} alt sein, deine Spielzeit muss über {playtimeNeeded} liegen und der Handelsposten muss freigeschaltet sein, um auf diesen Kanal zugreifen zu können.</string>
-	<string key="ui_averageexpertise">Durchschnittliche\nKompetenz</string>
+	<string key="ui_averageexpertise">Durchschnittliche Kompetenz</string>
 	<string key="ui_averageexpertisetooltip">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Kompetenz&lt;/font&gt;\nKompetenz steht für die Maximalstärke eines ausgerüsteten Gegenstands.\n\n&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Maximal erreichbare Kompetenz: &lt;/font&gt;\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{maximum}&lt;/font&gt;\n\n&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Kompetenz steigern&lt;/font&gt;\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Elite-Orientierungspunkte und Expeditionen&lt;/font&gt;\nBeute von Kreaturen oder aus Truhen in Stufe-60+-Gebieten können diesen Wert steigern.\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_semibold.font"&gt;Herstellung&lt;/font&gt;\nDie Herstellung eines 600-RW-Gegenstands steigert die Kompetenz für diesen Gegenstandstyp.\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_semibold.font"&gt;Gipsabguss&lt;/font&gt;\nDas Öffnen eines Gipsabgusses steigert die Kompetenz.\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_semibold.font"&gt;Gegenstandsaufrüstung (mit Schattensplittern)&lt;/font&gt;\nNachdem du eine Kompetenz von 600 erreicht hast, kannst du sie nur noch weiter steigern, indem du Gegenstände mit Schattensplittern aufrüstest.</string>
 	<string key="ui_itemtypedescription_shield_only">Schild</string>
 	<string key="ui_expertise_value_with_icon">&lt;img src="lyshineui/images/icons/misc/icon_hwm_small_color" scale="1.5" yOffset="2"&gt;&lt;/img&gt;{value}</string>
@@ -2508,7 +2514,7 @@
 	<string key="ui_endgame_banner_subtitle">Willkommen im Endgame</string>
 	<string key="ui_factions">Fraktionen</string>
 	<string key="ui_factions_guide_1_header">Einer Fraktion beitreten</string>
-	<string key="ui_factions_guide_1_body">Bevor du einer Fraktion beitrittst, musst du dich ihr gegenüber durch einige Aufgaben beweisen. Besuche einen Fraktionsvertreter in einer beliebigen Siedlung, um damit zu beginnen.</string>
+	<string key="ui_factions_guide_1_body">Bevor du einer Fraktion beitrittst, musst du dich ihr gegenüber durch einige Fraktionsaufnahmeprüfungen beweisen. Erreiche Stufe 17 und suche die Auftraggeber der Aufnahmeprüfungen aller Fraktionen im Dorf Oxboro in Immerfall oder dessen Umgebung auf.</string>
 	<string key="ui_factions_guide_2_header">Nutzen von Fraktionen</string>
 	<string key="ui_factions_guide_2_body">Wenn du einer Fraktion beitrittst, erhältst du Zugang zu Fraktionsmissionen, PvP in der offenen Welt und Kriegen. Du kannst mithelfen, Gebiete unter die Kontrolle deiner Fraktion zu bringen.\n\nDas Vorankommen in einem Gebiet, das deine Fraktion kontrolliert, gewährt verschiedene Boni wie einen erhöhten EP-Gewinn.</string>
 	<string key="ui_factions_guide_3_header">Kompanien</string>
@@ -2543,5 +2549,7 @@
 	<string key="ui_reset_daily_time">Wird täglich um {time} zurückgesetzt</string>
 	<string key="ui_reset_weekly_time">Wird wöchentlich um {time} zurückgesetzt</string>
 	<string key="ui_buy_new_world">New World kaufen</string>
+	<string key="ui_transaction_failed_header">Transaktion fehlgeschlagen</string>
+	<string key="ui_probation_account_restriction">Diese Funktion ist nur in der Kaufversion von New World verfügbar.</string>
 </resources>
 

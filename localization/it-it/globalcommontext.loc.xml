@@ -108,8 +108,8 @@
 	<string key="ui_affliction_injury">resistenza alle lesioni</string>
 	<string key="ui_affliction_insane">resistenza alla follia</string>
 	<string key="ui_affliction_inspired">ispira</string>
-	<string key="ui_affliction_poison">resistenza ai veleni</string>
-	<string key="ui_affliction_poison_tooltip">Se esaurisci la resistenza ai veleni, sarai avvelenato e perderai un po' di salute nel tempo</string>
+	<string key="ui_affliction_poison">Resistenza antiacido</string>
+	<string key="ui_affliction_poison_tooltip">Se rimani senza Resistenza antiacido, sarai affetto da Ustione da acido.</string>
 	<string key="ui_affliction_weakness">resistenza alla debolezza</string>
 	<string key="ui_affliction_drowning">fiato</string>
 	<string key="ui_affliction_drowning_tooltip">Se esaurisci il fiato, soffocherai e morirai</string>
@@ -134,8 +134,8 @@
 	<string key="ui_afflicted_injury">contuso</string>
 	<string key="ui_afflicted_insane">folle</string>
 	<string key="ui_afflicted_inspired">ispirato</string>
-	<string key="ui_afflicted_poison">avvelenato</string>
-	<string key="ui_afflicted_poison_tooltip">Quando sei avvelenato, perdi salute nel tempo</string>
+	<string key="ui_afflicted_poison">Ustione da acido</string>
+	<string key="ui_afflicted_poison_tooltip">Quando subisci Ustione da acido, ricevi il 500% di danni in più dall'acido. Puoi rimuovere l'Ustione da acido usando Tinture antiacido, che possono essere prodotte in una postazione arcana.</string>
 	<string key="ui_afflicted_weakness">debole</string>
 	<string key="ui_afflicted_drowning">in procinto di annegare</string>
 	<string key="ui_afflicted_drowning_tooltip">Sei annegato</string>
@@ -666,10 +666,10 @@
 	<string key="ui_instrument-mandolin-slot_name" rel_version="Feature_MusicalPerformances">Mandolino</string>
 	<string key="ui_instrument-uprightbass-slot_name" rel_version="Feature_MusicalPerformances">Contrabbasso</string>
 	<string key="ui_instrument-drums-slot_name" rel_version="Feature_MusicalPerformances">Batteria</string>
-	<string key="ui_heartgem-slot" rel_version="Feature_Heartgems">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Semibold.font"&gt;Slot gemma a cuore&lt;/font&gt;\n\n&lt;font face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt;Un oggetto posizionato in questo slot sblocca l'abilità Runa.\n\nSi sblocca al completamento della missione sulle rune. (Disponibile al livello 60)&lt;/font&gt;</string>
+	<string key="ui_heartgem-slot" rel_version="Feature_Heartgems">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Semibold.font"&gt;Slot gemma a cuore&lt;/font&gt;\n\n&lt;font face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt;Una runa a cuore posizionata in questo slot ne sblocca l'abilità.\n\nSi sblocca al completamento della missione Runa a cuore. (Disponibile al livello 60)&lt;/font&gt;</string>
 	<string key="ui_heartgemcharge-tooltip" rel_version="Feature_Heartgems">La Gemma a cuore si carica eseguendo varie azioni in combattimento:\n\n Infliggere danni (colpi parati inclusi)\n\n Subire danni (colpi parati inclusi)\n\n Applicare potenziamenti (cure incluse) e depotenziamenti</string>
-	<string key="ui_heartgem_rune_ability" rel_version="Feature_Heartgems">Abilità Runa</string>
-	<string key="ui_heartgem_rune_ability_silenced" rel_version="Feature_Heartgems">Abilità Runa silenziata</string>
+	<string key="ui_heartgem_rune_ability" rel_version="Feature_Heartgems">Abilità Runa a cuore</string>
+	<string key="ui_heartgem_rune_ability_silenced" rel_version="Feature_Heartgems">Abilità Runa a cuore silenziata</string>
 	<string key="ui_buildmode_grid">Griglia modalità costruzione</string>
 	<string key="ui_wave">Saluta con la mano</string>
 	<string key="ui_inspect_player">Azioni social</string>
@@ -949,8 +949,8 @@
 	<string key="ui_xp_event_all_faction_xp">Tutta la reputazione nella fazione</string>
 	<string key="ui_xp_event_all_factiontoken_xp">Tutti i gettoni della fazione</string>
 	<string key="ui_xp_event_progression_xp">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Regular.font"&gt;{progressionName}&lt;/font&gt;&lt;font color="#ffcc00" face="lyshineui/fonts/Nimbus_Bold.font"&gt; x{amount}&lt;/font&gt;</string>
-	<string key="ui_xp_boost_reminder" comment="The leading space is intentional"> (x{bonus} &lt;img src="lyshineui/images/icons/misc/icon_xp_boost" xPadding="0" scale="1.1" yOffset="0.5"&gt;&lt;/img&gt;)</string>
-	<string key="ui_xp_multiplier_arrow" comment="The leading space is intentional"> x{bonus} &lt;img src="lyshineui/images/icons/misc/icon_xp_boost" xPadding="0" scale="1.1" yOffset="0.5"&gt;&lt;/img&gt;</string>
+	<string key="ui_xp_boost_reminder" comment="The leading space is intentional">(x{bonus} &lt;img src="lyshineui/images/icons/misc/icon_xp_boost" xPadding="0" scale="1.1" yOffset="0.5"&gt;&lt;/img&gt;)</string>
+	<string key="ui_xp_multiplier_arrow" comment="The leading space is intentional">x{bonus} &lt;img src="lyshineui/images/icons/misc/icon_xp_boost" xPadding="0" scale="1.1" yOffset="0.5"&gt;&lt;/img&gt;</string>
 	<string key="ui_reached_max_daily_pvp_arena_rewards">Limite sale giornaliero arena PvP raggiunto!</string>
 	<string key="ui_reached_max_fort_takeover_rewards">Limite ricompense giornaliere conquista del forte raggiunto!</string>
 	<string key="world_landing_title">Abbiamo selezionato per te il MONDO ottimale</string>
@@ -1043,7 +1043,9 @@
 	<string key="ui_whisper_to_someone">{playerName} A {recipient}</string>
 	<string key="ui_focus">Concentrazione</string>
 	<string key="ui_points_to_level">{points} al livello {level}</string>
+	<string key="ui_points_to_level_with_skill">{points} {skill} al livello {level}</string>
 	<string key="ui_points_to_expertise">{points} al grado di perizia {level}</string>
+	<string key="ui_points_to_expertise_with_skill">{points} {skill} al grado di perizia {level}</string>
 	<string key="ui_spirit">Fede</string>
 	<string key="ui_vitality">Fisico</string>
 	<string key="ui_strength">Forza</string>
@@ -1434,6 +1436,7 @@
 	<string key="ui_items_have_changed_msg">Alcuni oggetti sono stati aggiunti o rimossi dal tuo account.</string>
 	<string key="ui_account_items_changed">Oggetti dell'account modificati</string>
 	<string key="ui_dismiss">Ignora</string>
+	<string key="ui_named">Speciale</string>
 	<string key="url_twitchchannel">https://www.twitch.tv/{channel}</string>
 	<string key="url_forums">https://forums.newworld.com/</string>
 	<string key="ui_seizure_title">Avviso sull'epilessia fotosensibile</string>
@@ -1857,7 +1860,7 @@
 	<string key="ui_has_resources">Ha risorse</string>
 	<string key="ui_deadnotification_title">SEI MORTO</string>
 	<string key="ui_deadnotification_body">Devi rigenerarti prima di poter rispondere a questa notifica.</string>
-	<string key="ui_vitals_health_tooltip" comment="Use {currentValue} and {maxValue} for the vital's numbers">Salute\n{currentValue} / {maxValue}\n\nPer &lt;font color="#ffe940"&gt;riguadagnare&lt;/font&gt; salute\n- Consuma tinture per riguadagnarla rapidamente\n- Consuma cibo per riguadagnarla lentamente nel tempo dopo un rapido aumento immediato.\n\nMigliora &lt;font color="#ffe940"&gt;Costituzione&lt;/font&gt; per aumentare la tua salute massima.</string>
+	<string key="ui_vitals_health_tooltip" comment="Use {currentValue} and {maxValue} for the vital's numbers">Salute\n{currentValue} / {maxValue}\n\nPer &lt;font color="#ffe940"&gt;riguadagnare&lt;/font&gt; salute\n- Consuma tinture per riguadagnarla rapidamente.\n- Consuma cibo per riguadagnarla lentamente nel tempo dopo un rapido aumento immediato.\n\nMigliora &lt;font color="#ffe940"&gt;Costituzione&lt;/font&gt; per aumentare la tua salute massima.\n\n&lt;img src="lyshineui/images/icons/hud/vitals/Icon_combatstate" xPadding="0" scale="1.2" yOffset="0"&gt;&lt;/img&gt; indica che il giocatore è attualmente impegnato in combattimento. Alcune azioni di gestione del giocatore non sono disponibili mentre è in stato di combattimento attivo. Completa o evita il combattimento per 20 secondi per uscire da questo stato.</string>
 	<string key="ui_vitals_stamina_tooltip" comment="Use {currentValue} and {maxValue} for the vital's numbers">Energia\n{currentValue} / {maxValue}\n\nL'energia viene consumata eseguendo alcune azioni difensive, quali parata o schivata; se la esaurisci, potresti non essere in grado di eseguire tali azioni finché non si rigenera.\n\nL'energia si rigenera con il tempo a meno che tu non stia eseguendo uno scatto o un attacco.</string>
 	<string key="ui_vitals_mana_tooltip" comment="Use {currentValue} and {maxValue} for the vital's numbers">Mana\n{currentValue} / {maxValue}\n\nRisorsa misteriosa richiesta per usare la magia. Se il livello è basso, potresti non essere in grado di utilizzare alcune abilità soprannaturali.\n\nIl mana si rigenera nel tempo.</string>
 	<string key="ui_vitals_mana_rate_tooltip">Il mana si rigenera nel tempo.\n\n Rigenerazione di base: 1,5 mana al secondo.</string>
@@ -1870,7 +1873,7 @@
 	<string key="ui_ability1">Abilità con le armi 1</string>
 	<string key="ui_ability2">Abilità con le armi 2</string>
 	<string key="ui_ability3">Abilità con le armi 3</string>
-	<string key="ui_ability_heartgem">Abilità Gemma a cuore</string>
+	<string key="ui_ability_heartgem">Abilità Runa a cuore</string>
 	<string key="ui_pending_afk_disconnect">Stai ancora giocando?</string>
 	<string key="ui_pending_afk_disconnect_description">Sei stato rilevato come inattivo e sarai automaticamente espulso dal gioco. Se stai ancora giocando, muovi il tuo personaggio.</string>
 	<string key="ui_pending_freeweekend_session_ending_title">La sessione gratuita sta per terminare</string>
@@ -1916,6 +1919,7 @@
 	<string key="ui_skill_increased">Competenza aumentata</string>
 	<string key="ui_purchase_attribute">Acquista attributo</string>
 	<string key="ui_solo">In solitaria</string>
+	<string key="ui_summary">Riepilogo</string>
 	<string key="ui_azoth_max_title">Azoth massimo</string>
 	<string key="ui_azoth_max_desc">Hai raggiunto il limite massimo di Azoth. L'Azoth in eccesso andrà perso.</string>
 	<string key="ui_azoth_warning_title">Attenzione, limite massimo di Azoth</string>
@@ -2138,6 +2142,8 @@
 	<string key="ui_clusterwarning_warning">&lt;font color={colorHex1}&gt;Puoi avere 1 solo personaggio nel &lt;/font&gt; &lt;font face="lyshineui/fonts/nimbus_bold.font"&gt;&lt;font color={colorHex2}&gt;set di mondi{worldSetName}&lt;/font&gt;&lt;/font&gt;&lt;font color={colorHex1}&gt;.&lt;/font&gt;</string>
 	<string key="ui_clusterwarning_description1">Per giocare in un altro mondo {worldSetName}, dovrai eliminare questo personaggio in {worldName}</string>
 	<string key="ui_clusterwarning_description2">Se hai amici che giocano in altri mondi {worldSetName}, non potrai giocare con loro.</string>
+	<string key="ui_clusterwarning_freshstart">È possibile creare solo nuovi personaggi in {worldName}. I personaggi non possono essere trasferiti in questo mondo Nuovi inizi.</string>
+	<string key="ui_clusterwarning_non_freshstart">I personaggi possono essere trasferiti da e verso questo mondo.</string>
 	<string key="ui_character_world_info">{worldName}</string>
 	<string key="ui_cannotPin_atMax">Impossibile fissare altri obiettivi.</string>
 	<string key="ui_clusterwarning_body">&lt;font color="#ffffff"&gt;Puoi avere solo un personaggio nel gruppo di mondi {worldSetName}.&lt;/font&gt;\n\nSe vuoi giocare in un altro mondo {worldSetName}, devi cancellare il tuo personaggio in {worldName} e crearne uno nuovo in un mondo diverso.\n\nSe hai amici che giocano in altri mondi {worldSetName}, non potrai giocare con loro.</string>
@@ -2273,7 +2279,7 @@
 	<string key="ui_change_faction_cooldown">Cambia fazione\n{cooldown}</string>
 	<string key="ui_change_faction_azoth_cost">Cambia fazione {azothcost}</string>
 	<string key="ui_change_faction_desc">Vuoi davvero passare alla fazione {factionname}?\nCambiando fazione, il grado e i gettoni saranno azzerati.\n\nUna volta cambiata, dovrai aspettare 60 giorni prima di poterla cambiare di nuovo.</string>
-	<string key="ui_change_faction_confirmation" rel_version="Feature_Faction_Selection">Vuoi davvero passare alla fazione {factionname}?\nCambiando fazione, il grado e i gettoni saranno azzerati.\n\nUna volta cambiata, dovrai aspettare 60 giorni prima di poterla cambiare di nuovo.\n\nSe fai parte di una Compagnia, la rimozione sarà automatica.</string>
+	<string key="ui_change_faction_confirmation" rel_version="Feature_Faction_Selection">Vuoi davvero passare alla fazione {factionname}?\nIl grado e i gettoni non saranno trasferiti, ma resteranno disponibili, in caso decidessi di ritornare in futuro.\n\nUna volta cambiata la fazione, dovrai aspettare 60 giorni prima di poterla cambiare di nuovo.\n\nSe fai parte di una Compagnia, la rimozione sarà automatica.</string>
 	<string key="ui_change_faction_quest_warning" rel_version="Feature_Faction_Selection">Missioni introduttive non completate</string>
 	<string key="ui_change_faction_visit_rep" rel_version="Feature_Faction_Selection">Parla con un rappresentante della fazione per cambiare</string>
 	<string key="ui_current_faction">La tua fazione attuale: {factionname}</string>
@@ -2417,11 +2423,11 @@
 	<string key="ui_itemtypedescription_furniture">Arredamento</string>
 	<string key="ui_itemtypedescription_bait">Esca</string>
 	<string key="ui_itemtypedescription_outpostrush">Risorsa Carica all'avamposto</string>
-	<string key="ui_itemtypedescription_heartgem_rune" rel_version="Feature_Heartgems">Runa della gemma a cuore</string>
+	<string key="ui_itemtypedescription_heartgem_rune" rel_version="Feature_Heartgems">Runa a cuore</string>
 	<string key="ui_itemtooltiptitle_heartgem_rune_stone_form" rel_version="Feature_Heartgems">Forma di pietra</string>
 	<string key="ui_itemtooltiptitle_heartgem_rune_detonate" rel_version="Feature_Heartgems">Esplosiva</string>
 	<string key="ui_itemtooltiptitle_heartgem_rune_grasping_vines" rel_version="Feature_Heartgems">Rampicanti avvinghianti</string>
-	<string key="ui_itemtooltiptitle_heartgem_rune_heretics_fall" rel_version="Feature_Heartgems">Caduta dell'eretico</string>
+	<string key="ui_itemtooltiptitle_heartgem_rune_heretics_fall" rel_version="Feature_Heartgems">Salita oscura</string>
 	<string key="ui_itemtooltiptitle_heartgem_rune_cannon_blast" rel_version="Feature_Heartgems">Colpo di cannone</string>
 	<string key="ui_cannot_perform_action_at_this_time">In questo momento non puoi eseguire questa azione</string>
 	<string key="ui_cannot_use_shield_abilities">Nessuno scudo equipaggiato</string>
@@ -2459,7 +2465,7 @@
 	<string key="ui_complete_quests_to_unlock">Completa missioni nell'insediamento per sbloccare</string>
 	<string key="ui_interact_required_level">Per l'utilizzo devi aver raggiunto almeno il livello {level}</string>
 	<string key="ui_cannot_chat_trading_blocked">Per accedere a questo canale, devi avere un account da più di {hoursNeeded}, devi aver giocato per almeno {playtimeNeeded} e aver sbloccato l'emporio.</string>
-	<string key="ui_averageexpertise">Competenza\nmedia</string>
+	<string key="ui_averageexpertise">Competenza media</string>
 	<string key="ui_averageexpertisetooltip">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Competenza&lt;/font&gt;\nLa competenza consente di quantificare la potenza massima di un oggetto equipaggiato.\n\n&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Competenza massima raggiungibile&lt;/font&gt;\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{maximum}&lt;/font&gt;\n\n&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Come aumentare la competenza&lt;/font&gt;\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Spedizioni e punti d'interesse élite&lt;/font&gt;\nGli oggetti trovati nei forzieri o lasciati dalle creature in aree di livello 60 o superiore possono aumentare questo valore.\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_semibold.font"&gt;Produzione&lt;/font&gt;\nProdurre un oggetto con punteggio attrezzatura 600 aumenterà la competenza di questa tipologia di oggetti.\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_semibold.font"&gt;Calco di gesso&lt;/font&gt;\nAprire un calco di gesso aumenterà la competenza.\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_semibold.font"&gt;Miglioramento di oggetti (con schegge dell'ombra)&lt;/font&gt;Una volta raggiunta una competenza di 600, l'unico modo per aumentarla ulteriormente consiste nel migliorare gli oggetti usando le schegge dell'ombra.\n</string>
 	<string key="ui_itemtypedescription_shield_only">Scudo</string>
 	<string key="ui_expertise_value_with_icon">&lt;img src="lyshineui/images/icons/misc/icon_hwm_small_color" scale="1.5" yOffset="2"&gt;&lt;/img&gt;{value}</string>
@@ -2494,7 +2500,7 @@
 	<string key="ui_endgame_guide_body2">Al livello 60 avrai accesso a molte nuove spedizioni: Giardino della Genesi a Frutteto dell'Eden, La Strumentalità di Lazzaro ad Acquafetida, Cuore della Tempesta a Monte infranto e Cirripedi e polvere da sparo nelle Scogliere della sciabola.\n\nTieni d'occhio l'icona circolare rossa intorno a due spedizioni alla volta sulla mappa: significa che la spedizione è attualmente mutata e offre ricompense maggiori ma la difficoltà è superiore. Alcune delle migliori ricompense avanzate arrivano dai boss finali delle spedizioni mutate (di cui parleremo più avanti).</string>
 	<string key="ui_endgame_guide_body3">Al livello 60 avrai accesso a Carica all'avamposto. Puoi unirti alla coda per la modalità da qualsiasi rappresentante della fazione, da alcuni PNG negli avamposti del Nord o dalla scheda Modalità sulla barra di navigazione. Puoi unirti alla coda in singolo o con un gruppo di massimo 5 giocatori.\n\nLa modalità è un campo di battaglia istanziato PvP/PvE 20 contro 20. Ci sono tre avamposti che possono essere conquistati per ottenere punti per la propria squadra. Possono essere potenziati raccogliendo risorse nell'area e aggiungendole alle porte, ai cannoni e altro ancora. Per vincere, dovrai conquistare e mantenere questi avamposti, La prima squadra che raggiunge 1.000 punti vince la partita.\n\nSe darai un contributo minimo di 500 punti alla tua squadra, sia tramite PvP che PvE, otterrai delle ricompense alla fine della partita.</string>
 	<string key="ui_endgame_guide_body4">Quando un territorio è sotto attacco da parte dei Corrotti, è possibile iscriversi tramite il Tabellone di guerra locale o la scheda Prossime guerre nella schermata Mappa per aiutare a difendere il territorio. Ogni fazione può iscriversi e ci sono fino a 40 slot aperti, scelti dal sistema ogni volta. Le invasioni arrivano in 6 ondate e bisogna difendere il forte dai Corrotti. Se riescono a conquistarlo, l'insediamento locale subirà un declassamento casuale delle sue postazioni di produzione o dei suoi potenziamenti allo stile di vita locale.</string>
-	<string key="ui_endgame_guide_body5">Accanto a ogni slot di attrezzatura nell'inventario c'è un numero che indica il livello di competenza per ogni tipo di attrezzatura e corrisponde al punteggio attrezzatura massimo che puoi equipaggiare in ogni slot. Quando si ottengono ricompense dai nemici di livello 61 o superiore, c'è la possibilità di ricevere attrezzatura con un punteggio leggermente più alto rispetto alla propria competenza attuale: questo aumenterà la competenza fino a farla diventare uguale al punteggio dell'attrezzatura ricevuta. Anche i forzieri evento in Carica all'avamposto possono aumentare la tua competenza.\n\n• Ricompense nemici livello 61: oggetti con punteggio attrezzatura 500-530\n• Ricompense nemici livello 62: oggetti con punteggio attrezzatura 530-560\n• Ricompense nemici livello 63: oggetti con punteggio attrezzatura 560-591\n• Ricompense nemici livello 64: oggetti con punteggio attrezzatura 590-600\n\nÈ possibile equipaggiare attrezzatura con punteggi più alti rispetto alla propria competenza attuale, acquisiti tramite il commercio, ma non saranno funzionali oltre il proprio punteggio di competenza attuale e non lo aumenteranno.\n\nI nemici che si trovano nei punti di riferimento e nelle spedizioni élite hanno una probabilità di base più alta di aumentare il punteggio della competenza, così come i nemici speciali di livello 60 o superiore. I boss delle spedizioni lasceranno SEMPRE un oggetto che aumenta la tua competenza e le spedizioni stesse forniranno SEMPRE 3 oggetti (1 dai suddetti boss) per ogni tentativo. Le possibilità di ricevere una ricompensa per la competenza da un forziere d'élite sono più alte di quelle che avresti sconfiggendo un nemico d'élite.</string>
+	<string key="ui_endgame_guide_body5">Accanto a ogni slot di attrezzatura nell'inventario c'è un numero. che indica il livello di competenza per ogni tipo di attrezzatura e corrisponde al punteggio attrezzatura massimo che puoi equipaggiare in ogni slot. Quando si ottengono ricompense dai nemici di livello 61 o superiore, c'è la possibilità di ricevere attrezzatura con un punteggio leggermente più alto rispetto alla propria competenza attuale: questo aumenterà la competenza fino a farla diventare uguale al punteggio dell'attrezzatura ricevuta. Anche i forzieri evento in Carica all'avamposto possono aumentare la tua competenza.\n\n• Ricompense nemici livello 61: oggetti con punteggio attrezzatura 500-530\n• Ricompense nemici livello 62: oggetti con punteggio attrezzatura 530-560\n• Ricompense nemici livello 63: oggetti con punteggio attrezzatura 560-591\n• Ricompense nemici livello 64: oggetti con punteggio attrezzatura 590-600\n\nÈ possibile equipaggiare attrezzatura con punteggi più alti rispetto alla propria competenza attuale, acquisiti tramite il commercio, ma non saranno funzionali oltre il proprio punteggio di competenza attuale e non lo aumenteranno.\n\nI nemici che si trovano nei punti di riferimento e nelle spedizioni élite hanno una probabilità di base più alta di aumentare il punteggio della competenza, così come i nemici speciali di livello 60 o superiore. I boss delle spedizioni lasceranno SEMPRE un oggetto che aumenta la tua competenza e le spedizioni stesse forniranno SEMPRE 3 oggetti (1 dai suddetti boss) per ogni tentativo. Le possibilità di ricevere una ricompensa per la competenza da un forziere d'élite sono più alte di quelle che avresti sconfiggendo un nemico d'élite.</string>
 	<string key="ui_endgame_guide_body6">Punteggio attrezzatura 500-525 (élite 61 o superiore) - Grande Breccia: Cime straziate, Monte infranto: Svikin alta\n\nPunteggio attrezzatura 525-549 (élite 62 o superiore) - Scaglia d'ebano: Palazzo imperiale, Frutteto dell'Eden: Malevolenza\n\nPunteggio attrezzatura 549-577 (élite 63 o superiore) - Acquafetida: Castello di Prua, Monte infranto: Miniere bruciate\n\nPunteggio attrezzatura 577-591 (élite 64 o superiore) - Monte infranto: Myrkgard, Acquafetida: Laghetto Eterno, Acquafetida: Baluardo della sirena\n\nPunteggio attrezzatura 591 o superiore - Frutteto dell'Eden: Malevolenza, Scaglia d'ebano: Palazzo imperiale, Scaglia d'ebano: Cantiere navale della dinastia settentrionale, Frutteto dell'Eden: Giardino della Genesi, Acquafetida: Strumentalità di Lazzaro, Frutteto dell'Eden: Fenditura monoica, Arena dello Spriggan, Acquafetida: Arena dell'Anfiteatro, Frutteto dell'Eden: Arena dei laghetti eterni:</string>
 	<string key="ui_endgame_guide_body7">Il gesso è il materiale per aumentare la propria competenza in un tipo specifico di attrezzatura.\n\nIl gesso è disponibile in diverse varietà, ognuna delle quali può essere utilizzata in una fornace per gesso per produrre una sfera di gesso. Per produrne 1, è necessaria una certa quantità di ogni tipo. Una sfera di gesso può essere usata per creare un calco di gesso di un'attrezzatura specifica, che una volta consumata garantirà un aumento di competenza per il tipo di attrezzatura scelto e un nuovo pezzo di attrezzatura con il punteggio più alto.\n\nÈ possibile ottenere il gesso in varie quantità svolgendo le seguenti attività:\n\n• Gesso ossidiana, 3 al giorno - boss speciali nel mondo aperto di livello 60 o superiore, che si trovano solitamente nei punti di riferimento d'élite.\n• Gesso zaffiro, 2 al giorno - boss finali da Strumentalità di Lazzaro e Giardino della Genesi.\n• Gesso rubino, 2 al giorno - Carica all'avamposto (bisogna ottenere almeno 501 punti nella partita).\n• Gesso smeraldo, 1 al giorno - ricompensa checkpoint livello di perizia in una competenza.\n• Gesso citrino, 2 al giorno - arene PvE.\n• Gesso ametista, 7 al giorno - chiudendo le brecce corrotte.\n• Gesso topazio, 5 al giorno - vai in una postazione per elementi arcani o in un accampamento di livello 5 per produrre una pozione di sintonia. Bevi la pozione, dopodiché uccidi nemici di livello 55 o superiore che lasceranno cadere il gesso topazio.\n• Gesso diamante, 3 al giorno - puoi ottenere il gesso diamante raccogliendo un qualsiasi tipo di nodo ad Aeternum. Solitamente cambia durante gli eventi stagionali, come la Convergenza invernale.\n• Gesso granato, 2 al giorno - Arene PvP 3 contro 3.</string>
 	<string key="ui_endgame_guide_body8">Le schegge dell'ombra possono essere utilizzate per potenziare qualsiasi pezzo di attrezzatura che abbia un punteggio minimo di 590, fino a un massimo di 625. Se l'attrezzatura è equipaggiata quando viene potenziata, aumenterà anche il punteggio di competenza.\n\nLe schegge dell'ombra possono essere ottenute da Carica all'avamposto, aprendo forzieri d'élite di alto livello, dalle spedizioni mutate, producendo attrezzatura di alto livello e aprendo calchi di gesso per gli slot attrezzatura la cui competenza è di livello 600 o superiore.</string>
@@ -2508,7 +2514,7 @@
 	<string key="ui_endgame_banner_subtitle">Questo è il gioco avanzato</string>
 	<string key="ui_factions">Fazioni</string>
 	<string key="ui_factions_guide_1_header">Entrare a far parte di una fazione</string>
-	<string key="ui_factions_guide_1_body">Prima di unirti a una fazione, devi dimostrare le tue capacità attraverso una serie di obiettivi. Per cominciare, visita un rappresentante della fazione in un insediamento.</string>
+	<string key="ui_factions_guide_1_body">Prima di unirti a una fazione, devi dimostrare le tue capacità completando una serie di missioni di iniziazione della fazione. Raggiungi il livello 17 e cerca il personaggio che distribuisce le missioni iniziali per ogni fazione all'interno o vicino al villaggio di Oxboro, presso Calata eterna.</string>
 	<string key="ui_factions_guide_2_header">Benefici della fazione</string>
 	<string key="ui_factions_guide_2_body">Unendoti a una fazione, hai accesso alle missioni della fazione, al PvP open world e alle guerre. Potrai partecipare alla conquista del controllo dei territori per la tua fazione.\n\nAvventurandoti all'interno di un territorio controllato dalla tua fazione otterrai diversi bonus, quali l'aumento dei PE guadagnati.</string>
 	<string key="ui_factions_guide_3_header">Compagnie</string>
@@ -2543,5 +2549,7 @@
 	<string key="ui_reset_daily_time">Azzeramento giornaliero alle ore {time}</string>
 	<string key="ui_reset_weekly_time">Azzeramento settimanale ogni {time}</string>
 	<string key="ui_buy_new_world">Compra New World</string>
+	<string key="ui_transaction_failed_header">Transazione non riuscita</string>
+	<string key="ui_probation_account_restriction">Per questa funzione è necessario acquistare New World.</string>
 </resources>
 

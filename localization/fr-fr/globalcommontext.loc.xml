@@ -108,8 +108,8 @@
 	<string key="ui_affliction_injury">résistance aux lésions</string>
 	<string key="ui_affliction_insane">résistance à la folie</string>
 	<string key="ui_affliction_inspired">stimulation</string>
-	<string key="ui_affliction_poison">résistance aux empoisonnements</string>
-	<string key="ui_affliction_poison_tooltip">Si votre résistance à l'empoisonnement est épuisée, vous serez empoisonné et perdrez progressivement de la santé.</string>
+	<string key="ui_affliction_poison">Résistance à l'acide</string>
+	<string key="ui_affliction_poison_tooltip">Une fois que vous n'avez plus de résistance à l'acide, vous souffrez de brûlure à l'acide.</string>
 	<string key="ui_affliction_weakness">résistance aux affaiblissements</string>
 	<string key="ui_affliction_drowning">souffle</string>
 	<string key="ui_affliction_drowning_tooltip">Si vous manquez de souffle, vous vous étouffez puis mourez.</string>
@@ -134,8 +134,8 @@
 	<string key="ui_afflicted_injury">lésion</string>
 	<string key="ui_afflicted_insane">folie</string>
 	<string key="ui_afflicted_inspired">stimulation</string>
-	<string key="ui_afflicted_poison">empoisonnement</string>
-	<string key="ui_afflicted_poison_tooltip">Si vous êtes empoisonné, vous perdez progressivement de la santé.</string>
+	<string key="ui_afflicted_poison">Brûlure à l'acide</string>
+	<string key="ui_afflicted_poison_tooltip">En souffrant de brûlure à l'acide, vous subissez 500 % de dégâts en plus de l'acide. Vous pouvez supprimer la brûlure à l'acide à l'aide de teintures mères acides pouvant être fabriquées à une réserve dédiée aux arts obscurs.</string>
 	<string key="ui_afflicted_weakness">affaiblissement</string>
 	<string key="ui_afflicted_drowning">noyade</string>
 	<string key="ui_afflicted_drowning_tooltip">Vous vous êtes noyé.</string>
@@ -666,10 +666,10 @@
 	<string key="ui_instrument-mandolin-slot_name" rel_version="Feature_MusicalPerformances">Mandoline</string>
 	<string key="ui_instrument-uprightbass-slot_name" rel_version="Feature_MusicalPerformances">Contrebasse</string>
 	<string key="ui_instrument-drums-slot_name" rel_version="Feature_MusicalPerformances">Tambours</string>
-	<string key="ui_heartgem-slot" rel_version="Feature_Heartgems">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Semibold.font"&gt;Emplacement de joyau de cœur&lt;/font&gt;\n\n&lt;font face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt;Un objet placé dans cet emplacement confère la capacité de la rune.\n\nDéverrouillé après avoir accompli la quête de rune. (Disponible au niveau 60)&lt;/font&gt;</string>
+	<string key="ui_heartgem-slot" rel_version="Feature_Heartgems">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Semibold.font"&gt;Emplacement de joyau de cœur&lt;/font&gt;\n\n&lt;font face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt;Une rune-cœur placée dans cet emplacement confère sa capacité.\n\nDéverrouillé après avoir accompli la quête de rune-cœur. (Disponible au niveau 60)&lt;/font&gt;</string>
 	<string key="ui_heartgemcharge-tooltip" rel_version="Feature_Heartgems">Le joyau de cœur gagne des charges en accomplissant diverses actions au combat :\n\n Infliger des dégâts (coups bloqués y compris).\n\n Subir des dégâts (coups bloqués y compris).\n\n Appliquer des améliorations (soin y compris) et des affaiblissements.</string>
-	<string key="ui_heartgem_rune_ability" rel_version="Feature_Heartgems">Capacité de rune</string>
-	<string key="ui_heartgem_rune_ability_silenced" rel_version="Feature_Heartgems">Capacité de rune silencieuse</string>
+	<string key="ui_heartgem_rune_ability" rel_version="Feature_Heartgems">Capacité de rune-cœur</string>
+	<string key="ui_heartgem_rune_ability_silenced" rel_version="Feature_Heartgems">Capacité de rune-cœur silencieuse</string>
 	<string key="ui_buildmode_grid">CONSTRUCTION</string>
 	<string key="ui_wave">Saluer</string>
 	<string key="ui_inspect_player">Actions sociales</string>
@@ -949,8 +949,8 @@
 	<string key="ui_xp_event_all_faction_xp">Toutes les réputations de faction</string>
 	<string key="ui_xp_event_all_factiontoken_xp">Tous les jetons de faction</string>
 	<string key="ui_xp_event_progression_xp">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Regular.font"&gt;{progressionName}&lt;/font&gt;&lt;font color="#ffcc00" face="lyshineui/fonts/Nimbus_Bold.font"&gt; x {amount}&lt;/font&gt;</string>
-	<string key="ui_xp_boost_reminder" comment="The leading space is intentional"> (x {bonus} &lt;img src="lyshineui/images/icons/misc/icon_xp_boost" xPadding="0" scale="1.1" yOffset="0.5"&gt;&lt;/img&gt;)</string>
-	<string key="ui_xp_multiplier_arrow" comment="The leading space is intentional"> x {bonus} &lt;img src="lyshineui/images/icons/misc/icon_xp_boost" xPadding="0" scale="1.1" yOffset="0.5"&gt;&lt;/img&gt;</string>
+	<string key="ui_xp_boost_reminder" comment="The leading space is intentional">(x {bonus} &lt;img src="lyshineui/images/icons/misc/icon_xp_boost" xPadding="0" scale="1.1" yOffset="0.5"&gt;&lt;/img&gt;)</string>
+	<string key="ui_xp_multiplier_arrow" comment="The leading space is intentional">x {bonus} &lt;img src="lyshineui/images/icons/misc/icon_xp_boost" xPadding="0" scale="1.1" yOffset="0.5"&gt;&lt;/img&gt;</string>
 	<string key="ui_reached_max_daily_pvp_arena_rewards">Limite de sel d'arène JcJ quotidienne atteinte !</string>
 	<string key="ui_reached_max_fort_takeover_rewards">Limite de récompenses quotidiennes de prise de forteresse atteinte !</string>
 	<string key="world_landing_title">Le MONDE optimal a été sélectionné pour vous.</string>
@@ -1043,7 +1043,9 @@
 	<string key="ui_whisper_to_someone">{playerName} À {recipient}</string>
 	<string key="ui_focus">Concentration</string>
 	<string key="ui_points_to_level">{points} avant niveau {level}</string>
+	<string key="ui_points_to_level_with_skill">{points} {skill} avant niveau {level}</string>
 	<string key="ui_points_to_expertise">{points} avant le rang d'aptitude {level}</string>
+	<string key="ui_points_to_expertise_with_skill">{points} {skill} avant le rang d'aptitude {level}</string>
 	<string key="ui_spirit">Foi</string>
 	<string key="ui_vitality">Physique</string>
 	<string key="ui_strength">Force</string>
@@ -1434,6 +1436,7 @@
 	<string key="ui_items_have_changed_msg">Des objets ont été ajoutés ou retirés de votre compte.</string>
 	<string key="ui_account_items_changed">Changements dans les objets de votre compte</string>
 	<string key="ui_dismiss">Ignorer</string>
+	<string key="ui_named">Nommé</string>
 	<string key="url_twitchchannel">https://www.twitch.tv/{channel}</string>
 	<string key="url_forums">https://forums.newworld.com/</string>
 	<string key="ui_seizure_title">Avertissement concernant l'épilepsie photosensible</string>
@@ -1857,7 +1860,7 @@
 	<string key="ui_has_resources">Ressources disponibles</string>
 	<string key="ui_deadnotification_title">« VOUS ÊTES MORT. »</string>
 	<string key="ui_deadnotification_body">Avant de réagir à la notification, vous devez réapparaître.</string>
-	<string key="ui_vitals_health_tooltip" comment="Use {currentValue} and {maxValue} for the vital's numbers">Santé\n{currentValue} / {maxValue}\n\nPour &lt;font color="#ffe940"&gt;récupérer&lt;/font&gt; de la santé\n- Consommez des teintures pour en regagner rapidement ;\n- Consommez de la nourriture pour en récupérer progressivement après une augmentation immédiate ;\n\nAméliorez votre &lt;font color="#ffe940"&gt;forme&lt;/font&gt; pour augmenter votre santé max.</string>
+	<string key="ui_vitals_health_tooltip" comment="Use {currentValue} and {maxValue} for the vital's numbers">Santé\n{currentValue}/{maxValue}\n\nPour &lt;font color="#ffe940"&gt;récupérer&lt;/font&gt; de la santé\n- Consommez des teintures mères pour en regagner rapidement ;\n- Consommez de la nourriture pour en récupérer progressivement après une augmentation immédiate ;\n\nAméliorez votre &lt;font color="#ffe940"&gt;forme&lt;/font&gt; pour augmenter votre santé max.\n\n&lt;img src="lyshineui/images/icons/hud/vitals/Icon_combatstate" xPadding="0" scale="1.2" yOffset="0"&gt;&lt;/img&gt; indique que le joueur est actuellement en combat. Certaines actions de gestion de joueur sont interdites lorsque l'état en combat est actif. Terminez l'engagement ou évitez le combat pendant 20s pour quitter cet état.</string>
 	<string key="ui_vitals_stamina_tooltip" comment="Use {currentValue} and {maxValue} for the vital's numbers">Vitalité\n{currentValue}/{maxValue}\n\nLes actions défensives comme la parade ou l'esquive consomment votre Vitalité. Si vous n'en avez plus, vous ne pourrez plus effectuer ces actions et devez attendre qu'elle se recharge.\n\nLa Vitalité se régénère progressivement toute seule, sauf si vous sprintez ou attaquez.</string>
 	<string key="ui_vitals_mana_tooltip" comment="Use {currentValue} and {maxValue} for the vital's numbers">Mana\n{currentValue}/{maxValue}\n\nUne ressource mystérieuse indispensable pour la pratique de la magie. Si vous en manquez, vous serez dans l'incapacité d'utiliser certaines capacités surnaturelles.\n\nLe mana se régénère avec le temps.</string>
 	<string key="ui_vitals_mana_rate_tooltip">Le mana se régénère avec le temps.\n\n1,5 point de mana par seconde de base.</string>
@@ -1870,7 +1873,7 @@
 	<string key="ui_ability1">Capacité d'arme 1</string>
 	<string key="ui_ability2">Capacité d'arme 2</string>
 	<string key="ui_ability3">Capacité d'arme 3</string>
-	<string key="ui_ability_heartgem">Capacité de joyau de cœur</string>
+	<string key="ui_ability_heartgem">Capacité de rune-cœur</string>
 	<string key="ui_pending_afk_disconnect">Jouez-vous encore ?</string>
 	<string key="ui_pending_afk_disconnect_description">Aucun mouvement n'a été détecté et vous allez être éjecté de la partie. Si vous jouez encore, déplacez votre personnage.</string>
 	<string key="ui_pending_freeweekend_session_ending_title">La session gratuite se termine bientôt</string>
@@ -1916,6 +1919,7 @@
 	<string key="ui_skill_increased">Capacité améliorée</string>
 	<string key="ui_purchase_attribute">Acheter la caractéristique</string>
 	<string key="ui_solo">Solo</string>
+	<string key="ui_summary">Résumé</string>
 	<string key="ui_azoth_max_title">Azoth maximum</string>
 	<string key="ui_azoth_max_desc">Voua avez atteint le maximum d'Azoth. L'Azoth en plus sera perdu.</string>
 	<string key="ui_azoth_warning_title">Attention, Azoth max</string>
@@ -2138,6 +2142,8 @@
 	<string key="ui_clusterwarning_warning">&lt;font color={colorHex1}&gt;Vous ne pouvez avoir que 1 personnage dans l'&lt;/font&gt; &lt;font face="lyshineui/fonts/nimbus_bold.font"&gt;&lt;font color={colorHex2}&gt;{worldSetName}ensemble de monde&lt;/font&gt;&lt;/font&gt;&lt;font color={colorHex1}&gt;.&lt;/font&gt;</string>
 	<string key="ui_clusterwarning_description1">Pour jouer dans un autre monde de {worldSetName}, vous devrez supprimer ce personnage dans {worldName}.</string>
 	<string key="ui_clusterwarning_description2">Si vos amis jouent dans d'autres mondes de {worldSetName}, vous ne pourrez pas les rejoindre.</string>
+	<string key="ui_clusterwarning_freshstart">Seuls de nouveaux personnages peuvent être créés sur {worldName}. Les personnages ne peuvent pas être transférés sur ce monde nouvellement créé.</string>
+	<string key="ui_clusterwarning_non_freshstart">Les personnages peuvent être importés et exportés sur ce monde.</string>
 	<string key="ui_character_world_info">{worldName}</string>
 	<string key="ui_cannotPin_atMax">Vous ne pouvez pas marquer plus d'objectifs.</string>
 	<string key="ui_clusterwarning_body">&lt;font color="#ffffff"&gt;Vous ne pouvez avoir qu'un seul personnage dans l'ensemble de mondes {worldSetName}.&lt;/font&gt;\n\nSi vous souhaitez jouer dans un autre monde {worldSetName}, vous devez supprimer votre personnage de {worldName} et en créer un nouveau dans le monde de votre choix.\n\nVous ne pouvez pas non plus jouer avec des amis dont les personnages se trouvent dans d'autres mondes {worldSetName} que le vôtre.</string>
@@ -2207,7 +2213,7 @@
 	<string key="ui_stat_bonus_tooltip">&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;+{amount}&lt;/font&gt; {attribute}</string>
 	<string key="ui_stat_bonus">+{amount} {attribute}</string>
 	<string key="ui_craft_bonus">+{amount} {bonus} {bonus2}</string>
-	<string key="ui_first_craft_bonus">(&lt;img src="lyshineui/images/icons/misc/icon_upgrade" xPadding="0" scale="1.8" yOffset="5"&gt;&lt;/img&gt; Bonus de première fabrication)</string>
+	<string key="ui_first_craft_bonus">(&lt;img src="lyshineui/images/icons/misc/icon_upgrade" xPadding="0" scale="1.8" yOffset="5"&gt;&lt;/img&gt;Bonus de première fabrication)</string>
 	<string key="ui_maker_status_effects_single">{effect1}</string>
 	<string key="ui_maker_status_effects_double">{effect1} · {effect2}</string>
 	<string key="ui_maker_status_effects_triple">{effect1} · {effect2} · {effect3}</string>
@@ -2273,7 +2279,7 @@
 	<string key="ui_change_faction_cooldown">Changer de faction :\n{cooldown}</string>
 	<string key="ui_change_faction_azoth_cost">Changer de faction : {azothcost}</string>
 	<string key="ui_change_faction_desc">Voulez-vous vraiment quitter votre faction pour {factionname} ?\nChanger de faction remettra à zéro votre rang et vos jetons de faction.\n\nUne fois votre transfert confirmé, vous ne pourrez plus changer de faction pendant 60 jours.</string>
-	<string key="ui_change_faction_confirmation" rel_version="Feature_Faction_Selection">Voulez-vous vraiment quitter votre faction pour {factionname} ?\nChanger de faction remettra à zéro votre rang et vos jetons de faction.\n\nUne fois votre transfert confirmé, vous ne pourrez plus changer de faction pendant 60 jours.\n\nSi vous êtes membre d'une compagnie, vous la quitterez.</string>
+	<string key="ui_change_faction_confirmation" rel_version="Feature_Faction_Selection">Voulez-vous vraiment quitter votre faction pour rejoindre {factionname} ?\nVotre rang et vos jetons de faction ne seront pas transférés, mais ils ne sont pas non plus perdus, au cas où vous décideriez de revenir dans cette faction un jour.\n\nUne fois votre transfert confirmé, vous ne pourrez plus changer de faction pendant 60 jours.\n\nSi vous êtes membre d'une compagnie, vous la quitterez.</string>
 	<string key="ui_change_faction_quest_warning" rel_version="Feature_Faction_Selection">Quêtes d'initiation non accomplies</string>
 	<string key="ui_change_faction_visit_rep" rel_version="Feature_Faction_Selection">Visitez le représentant de faction pour changer</string>
 	<string key="ui_current_faction">Votre faction actuelle : {factionname}</string>
@@ -2417,11 +2423,11 @@
 	<string key="ui_itemtypedescription_furniture">Meubles</string>
 	<string key="ui_itemtypedescription_bait">Appâts</string>
 	<string key="ui_itemtypedescription_outpostrush">Ressource de Déferlante</string>
-	<string key="ui_itemtypedescription_heartgem_rune" rel_version="Feature_Heartgems">Rune de joyau de cœur</string>
-	<string key="ui_itemtooltiptitle_heartgem_rune_stone_form" rel_version="Feature_Heartgems">Cuirasse de pierre</string>
+	<string key="ui_itemtypedescription_heartgem_rune" rel_version="Feature_Heartgems">Rune-cœur</string>
+	<string key="ui_itemtooltiptitle_heartgem_rune_stone_form" rel_version="Feature_Heartgems">Forme rocheuse</string>
 	<string key="ui_itemtooltiptitle_heartgem_rune_detonate" rel_version="Feature_Heartgems">Détonation</string>
 	<string key="ui_itemtooltiptitle_heartgem_rune_grasping_vines" rel_version="Feature_Heartgems">Lianes accrocheuses</string>
-	<string key="ui_itemtooltiptitle_heartgem_rune_heretics_fall" rel_version="Feature_Heartgems">Chute hérétique</string>
+	<string key="ui_itemtooltiptitle_heartgem_rune_heretics_fall" rel_version="Feature_Heartgems">Sombre ascension</string>
 	<string key="ui_itemtooltiptitle_heartgem_rune_cannon_blast" rel_version="Feature_Heartgems">Canon</string>
 	<string key="ui_cannot_perform_action_at_this_time">Impossible d'effectuer cette action pour l'instant.</string>
 	<string key="ui_cannot_use_shield_abilities">Aucun bouclier équipé</string>
@@ -2459,7 +2465,7 @@
 	<string key="ui_complete_quests_to_unlock">Déverrouillé en terminant des quêtes dans la colonie.</string>
 	<string key="ui_interact_required_level">Vous devez avoir atteint le niveau {level} pour l'utiliser.</string>
 	<string key="ui_cannot_chat_trading_blocked">Pour accéder à ce canal, votre compte doit avoir au moins {hoursNeeded} au compteur, votre temps de jeu doit être supérieur à {playtimeNeeded} et le comptoir doit être déverrouillé.</string>
-	<string key="ui_averageexpertise">Expertise\nmoyenne</string>
+	<string key="ui_averageexpertise">Expertise moyenne</string>
 	<string key="ui_averageexpertisetooltip">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Expertise&lt;/font&gt;\nL'expertise permet de mesurer la puissance maximum d'un objet lorsque vous vous en équipez.\n\n&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Expertise max que vous pouvez atteindre&lt;/font&gt;\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{maximum}&lt;/font&gt;\n\n&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Comment améliorer l'expertise&lt;/font&gt;\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Des lieux remarquables et des expéditions d'élite&lt;/font&gt;\nDes objets octroyés par des créatures ou trouvés dans des coffres dans les zones de niveau 60 et plus ont une probabilité d'augmenter cette valeur.\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_semibold.font"&gt;Fabrication&lt;/font&gt;\nFabriquer un objet dont le score d'équipement est de 600 augmentera l'expertise de ce type d'objet.\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_semibold.font"&gt;Moule en gypse&lt;/font&gt;\nOuvrir un moule en gypse augmente l'expertise.\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_semibold.font"&gt;Amélioration d'objets (avec des éclats sombres)&lt;/font&gt;\nAprès avoir atteint une expertise de 600, le seul moyen d'augmenter davantage celle-ci est d'améliorer des objets avec des éclats sombres.</string>
 	<string key="ui_itemtypedescription_shield_only">Bouclier</string>
 	<string key="ui_expertise_value_with_icon">&lt;img src="lyshineui/images/icons/misc/icon_hwm_small_color" scale="1.5" yOffset="2"&gt;&lt;/img&gt;{value}</string>
@@ -2508,7 +2514,7 @@
 	<string key="ui_endgame_banner_subtitle">Le contenu de fin de jeu vous attend !</string>
 	<string key="ui_factions">Factions</string>
 	<string key="ui_factions_guide_1_header">Rejoindre une faction</string>
-	<string key="ui_factions_guide_1_body">Avant de rejoindre une faction, vous devez faire vos preuves en accomplissant une série d'objectifs. Parlez à un représentant de faction dans une colonie pour commencer.</string>
+	<string key="ui_factions_guide_1_body">Avant de rejoindre une faction, vous devez faire vos preuves en accomplissant une série de quêtes d'initiation de faction. Atteignez le niveau 17 et cherchez les donneurs de quête de chaque faction dans ou aux abords du village d'Oxboro à Haute-Chute.</string>
 	<string key="ui_factions_guide_2_header">Bénéfices de faction</string>
 	<string key="ui_factions_guide_2_body">En rejoignant une faction, vous aurez accès à des missions de faction, au JcJ dans le monde ouvert et aux guerres. Vous pourrez participer au changement de contrôle des territoires pour votre faction.\n\nS'aventurer dans un territoire contrôlé par votre faction vous octroie divers bonus, comme un gain d'EXP accru.</string>
 	<string key="ui_factions_guide_3_header">Compagnies</string>
@@ -2543,5 +2549,7 @@
 	<string key="ui_reset_daily_time">Réinitialiser quotidiennement à {time}</string>
 	<string key="ui_reset_weekly_time">Réinitialiser hebdomadairement à {time}</string>
 	<string key="ui_buy_new_world">Acheter New World</string>
+	<string key="ui_transaction_failed_header">Échec de la transaction</string>
+	<string key="ui_probation_account_restriction">L'achat de New World est requis pour bénéficier de cette fonctionnalité.</string>
 </resources>
 

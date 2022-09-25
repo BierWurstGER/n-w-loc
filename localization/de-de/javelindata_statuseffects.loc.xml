@@ -447,9 +447,9 @@
 	<string key="Mut_Voi_Stacks_1_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Paranoid I</string>
 	<string key="Mut_Voi_Stacks_2_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Paranoid II</string>
 	<string key="Mut_Voi_Stacks_1_Effect_DisplayName" rel_version="Feature_Dungeon_Mutators">Paranoia I</string>
-	<string key="Mut_Voi_Stacks_1_Effect_Tooltip" rel_version="Feature_Dungeon_Mutators">{[Type_StatusEffectData.Mut_Lig_Stacks_1_Effect.BaseDuration]} Sekunden lang von schrecklicher Angst erfüllt. Bei {[Type_StatusEffectData.Mut_Voi_Stacks_1_Effect.AddOnStackSize]} Stapeln wird an deinem Standort eine Unheilsexplosion erzeugt.</string>
+	<string key="Mut_Voi_Stacks_1_Effect_Tooltip" rel_version="Feature_Dungeon_Mutators">{[Type_StatusEffectData.Mut_Voi_Stacks_1_Effect.BaseDuration]} Sekunden lang von schrecklicher Angst erfüllt. Bei {[Type_StatusEffectData.Mut_Voi_Stacks_1_Effect.AddOnStackSize]} Stapeln wird an deinem Standort eine Unheilsexplosion erzeugt.</string>
 	<string key="Mut_Voi_Stacks_2_Effect_DisplayName" rel_version="Feature_Dungeon_Mutators">Paranoia II</string>
-	<string key="Mut_Voi_Stacks_2_Effect_Tooltip" rel_version="Feature_Dungeon_Mutators">{[Type_StatusEffectData.Mut_Lig_Stacks_2_Effect.BaseDuration]} Sekunden lang von schrecklicher Angst erfüllt. Bei {[Type_StatusEffectData.Mut_Voi_Stacks_2_Effect.AddOnStackSize]} Stapeln wird an deinem Standort eine Unheilsexplosion erzeugt.</string>
+	<string key="Mut_Voi_Stacks_2_Effect_Tooltip" rel_version="Feature_Dungeon_Mutators">{[Type_StatusEffectData.Mut_Voi_Stacks_2_Effect.BaseDuration]} Sekunden lang von schrecklicher Angst erfüllt. Bei {[Type_StatusEffectData.Mut_Voi_Stacks_2_Effect.AddOnStackSize]} Stapeln wird an deinem Standort eine Unheilsexplosion erzeugt.</string>
 	<string key="Mut_Voi_Leech_1_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Leere I</string>
 	<string key="Mut_Voi_Leech_2_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Leere II</string>
 	<string key="Mut_Voi_Leech_1_Damage_DisplayName" rel_version="Feature_Dungeon_Mutators">Leerensauger I</string>
@@ -625,6 +625,10 @@
 	<string key="Legion_HeroOfLegion_Crassus_Buff" rel_version="Territory_Brimstone_Sands">Helden der Legion</string>
 	<string key="LegionBurn_DisplayName" rel_version="Territory_Brimstone_Sands">Verbrennung</string>
 	<string key="LegionBurn_Description" rel_version="Territory_Brimstone_Sands">Verursacht {[Type_StatusEffectData.Legion_FireRainBurn_Debuff.BaseDuration]} Sekunden lang alle {[Type_StatusEffectData.Legion_FireRainBurn_Debuff.TickRate]} Sekunden Feuerschaden in Höhe von {[Type_StatusEffectData.Legion_FireRainBurn_Debuff.HealthModifierDamageBased * -100]} % des Basisschadens. {[Type_StatusEffectData.Legion_FireRainBurn_Debuff.StackMax]}-mal stapelbar.</string>
+	<string key="LegionBurn_Crassus_DisplayName" rel_version="Territory_Brimstone_Sands">Verbrennung</string>
+	<string key="LegionBurn_Crassus_Description" rel_version="Territory_Brimstone_Sands">Verursacht {[Type_StatusEffectData.Legion_FireRainBurn_Crassus_Debuff.BaseDuration]} Sekunden lang alle {[Type_StatusEffectData.Legion_FireRainBurn_Crassus_Debuff.TickRate]} Sekunden Feuerschaden in Höhe von {[Type_StatusEffectData.Legion_FireRainBurn_Crassus_Debuff.HealthModifierDamageBased * -100]} % des Basisschadens. {[Type_StatusEffectData.Legion_FireRainBurn_Crassus_Debuff.StackMax]}-mal stapelbar.</string>
+	<string key="Legion_Crassus_TouchOfCorruption_DisplayName">Berührung der Verderbnis</string>
+	<string key="Legion_Crassus_TouchOfCorruption_Tooltip">Bewegungstempo um {[Type_StatusEffectData.AI_Isabella_Phase2_TouchOfCorruption.MoveSpeedMod * -100]} % verringert und du erleidest alle {[Type_StatusEffectData.Legion_Crassus_TouchOfCorruption.TickRate]} Sekunden {[Type_StatusEffectData.Legion_Crassus_TouchOfCorruption.BaseDuration]} Sekunden lang den Leidenseffekt "Verderbnis".</string>
 	<string key="WitheredMinionFrenzy_DisplayName">Raserei</string>
 	<string key="WitheredMinionFrenzy_Description">Erhöht den Basisschaden für {[Type_StatusEffectData.WitheredMinionFrenzy.BaseDuration]} Sekunden um {[Type_StatusEffectData.WitheredMinionFrenzy.DMGStandard]}.</string>
 	<string key="BogMonsterPowerSpore_DisplayName">Ermächtigende Sporen</string>
@@ -659,12 +663,16 @@
 	<string key="AI_Slime_Slow_DisplayName">Klebrig</string>
 	<string key="AI_Slime_Slow_Tooltip">Bewegungstempo um {[Type_StatusEffectData.AI_Slime_Slow.MoveSpeedMod * -100]} % verringert.</string>
 	<string key="AI_PillarGoat_Buff_DisplayName" rel_version="Territory_Brimstone_Sands">Aufdringlich</string>
-	<string key="AI_HalloweenPlaguer_PumpkinPlague_DisplayName" rel_version="Event_Halloween_Temp">Pumpkin Plague</string>
-	<string key="AI_HalloweenPlaguer_PumpkinPlague_Tooltip" rel_version="Event_Halloween_Temp">Reduces healing taken by {[Type_StatusEffectData.AI_HalloweenPlaguer_PumpkinPlague.HealMod * -100]}% and Damaged for {[Type_StatusEffectData.AI_HalloweenPlaguer_PumpkinPlague.HealthModifierPercent * -100]}% base Standard damage every {[Type_StatusEffectData.AI_HalloweenPlaguer_PumpkinPlague.TickRate]} seconds for {[Type_StatusEffectData.AI_HalloweenPlaguer_PumpkinPlague.BaseDuration]} seconds, stacking {[Type_StatusEffectData.AI_HalloweenPlaguer_PumpkinPlague.StackMax]} times.</string>
-	<string key="AI_HalloweenPlaguer_HealPuddle_DisplayName" rel_version="Event_Halloween_Temp">Heal Puddle</string>
-	<string key="AI_HalloweenPlaguer_HealPuddle_Tooltip" rel_version="Event_Halloween_Temp">Prevents Pumpkin Plague and Heals for {[Type_StatusEffectData.AI_HalloweenPlaguer_HealPuddle.HealthModifierPercent * 100]}% base health every {[Type_StatusEffectData.AI_HalloweenPlaguer_HealPuddle.TickRate]} for {[Type_StatusEffectData.AI_HalloweenPlaguer_HealPuddle.BaseDuration]} seconds when inside active puddle.</string>
-	<string key="AI_HalloweenBoss_PutridAura_DisplayName">Vergiftet</string>
-	<string key="AI_HalloweenBoss_PutridAura_Tooltip">Verursacht alle {[Type_StatusEffectData.HalloweenBoss_Putrid_Aura_DoT_Damage.TickRate]} Sekunden Basis-Naturschaden in Höhe von {[Type_StatusEffectData.HalloweenBoss_Putrid_Aura_DoT_Damage.HealthModifierDamageBased * -100]} %.</string>
+	<string key="AI_HalloweenPlaguer_PumpkinPlague_DisplayName" rel_version="Event_Halloween_Temp">Kürbisplage</string>
+	<string key="AI_HalloweenPlaguer_PumpkinPlague_Tooltip" rel_version="Event_Halloween_Temp">Verringert die erhaltene Heilung für {[Type_StatusEffectData.AI_HalloweenPlaguer_PumpkinPlague.BaseDuration]} Sekunden um {[Type_StatusEffectData.AI_HalloweenPlaguer_PumpkinPlague.HealMod * -100]} %. {[Type_StatusEffectData.AI_HalloweenPlaguer_PumpkinPlague.StackMax]}-mal stapelbar.</string>
+	<string key="AI_HalloweenBoss_PumpkinPlague_DisplayName" rel_version="Event_Halloween_Temp">Kürbisplage</string>
+	<string key="AI_HalloweenBoss_PumpkinPlague_Tooltip" rel_version="Event_Halloween_Temp">Verringert die erhaltene Heilung für {[Type_StatusEffectData.AI_HalloweenPlaguer_PumpkinPlague.BaseDuration]} Sekunden um {[Type_StatusEffectData.AI_HalloweenPlaguer_PumpkinPlague.HealMod * -100]} %. {[Type_StatusEffectData.AI_HalloweenPlaguer_PumpkinPlague.StackMax]}-mal stapelbar.</string>
+	<string key="AI_HalloweenGourdspewer_HealPuddle_DisplayName" rel_version="Event_Halloween_Temp">Läuterungsaura</string>
+	<string key="AI_HalloweenGourdspewer_HealPuddle_Tooltip" rel_version="Event_Halloween_Temp">Heilt Kürbisplage und alle {[Type_StatusEffectData.AI_HalloweenGourdspewer_HealPuddle.TickRate]} Sekunden {[Type_StatusEffectData.AI_HalloweenGourdspewer_HealPuddle.HealthModifierPercent * 100]} % des Gesundheitsgrundwerts.</string>
+	<string key="AI_HalloweenPlaguer_HealPuddle_DisplayName" rel_version="Event_Halloween_Temp">Läuterungsaura</string>
+	<string key="AI_HalloweenPlaguer_HealPuddle_Tooltip" rel_version="Event_Halloween_Temp">Heilt Kürbisplage und alle {[Type_StatusEffectData.AI_HalloweenPlaguer_HealPuddle.TickRate]} Sekunden {[Type_StatusEffectData.AI_HalloweenPlaguer_HealPuddle.HealthModifierPercent * 100]} % des Gesundheitsgrundwerts.</string>
+	<string key="AI_HalloweenBoss_PutridAura_DisplayName">Baalphazus Fluch</string>
+	<string key="AI_HalloweenBoss_PutridAura_Tooltip">Du erleidest alle {[Type_StatusEffectData.HalloweenBoss_Putrid_Aura_DoT_Damage.TickRate * 6]} Sekunden Naturschaden in Höhe von {[Type_StatusEffectData.HalloweenBoss_Putrid_Aura_DoT_Damage.HealthModifierDamageBased * -100]} % des Gesundheitsgrundwerts.</string>
 	<string key="AI_SpiderBite_Tooltip">Verursacht {[Type_StatusEffectData.AI_SpiderBite.BaseDuration]} Sekunden lang alle {[Type_StatusEffectData.AI_SpiderBite.TickRate]} Sekunden Giftschaden in Höhe von {[Type_StatusEffectData.AI_SpiderBite.HealthModifierDamageBased * -100]} % des Basis-Naturschadens.</string>
 	<string key="AI_SpiderVenom_Tooltip">Rüstung ist {[Type_StatusEffectData.AI_SpiderVenom.ABSStandard * -100]} % weniger effektiv.</string>
 	<string key="AI_PoisonOnHit_Buff_DisplayName">Giftig</string>
@@ -788,10 +796,11 @@
 	<string key="godModeThirst_DisplayName">Gottmodus</string>
 	<string key="godModeHealth_DisplayName">Gottmodus</string>
 	<string key="godModeAll_DisplayName">Gottmodus</string>
+	<string key="godModeAll_Description">Sieh einer an! Überlebe und schnapp dir alle Gottmodus-Boni. Viel Spaß dabei, dem Tod von der Schippe zu springen.</string>
 	<string key="bleeding_DisplayName">Verwundend</string>
 	<string key="injury_DisplayName">Verletzung</string>
 	<string key="ShipwreckedShock_DisplayName">Im Schock</string>
-	<string key="poison_DisplayName">Gift</string>
+	<string key="poison_DisplayName">Säureverätzung</string>
 	<string key="disease_DisplayName">Krankheit</string>
 	<string key="frostbite_DisplayName">Erfrierung</string>
 	<string key="burn_DisplayName">Verbrennung</string>
@@ -1246,6 +1255,8 @@
 	<string key="Status_Spear_SlowOnLightVsLowHP_Description">Bewegungstempo wird {[Type_StatusEffectData.Spear_SlowOnLightVsLowHP.BaseDuration]} Sekunden lang um {[Type_StatusEffectData.Spear_SlowOnLightVsLowHP.MoveSpeedMod * -100]} % verringert.</string>
 	<string key="Rapier_Bleed_DoT_DisplayName">Blutung</string>
 	<string key="Rapier_Bleed_DoT_Description">Verursacht pro Sekunde {[Type_StatusEffectData.Rapier_Bleed_DOT.HealthModifierDamageBased * -100]} % des Angreifer-Waffenschadens.</string>
+	<string key="Rapier_BonusDMGAfterRiposte_DisplayName">Riposten-Ermächtigung</string>
+	<string key="Rapier_BonusDMGAfterRiposte_Description">Erhöht den Schaden um {[Type_StatusEffectData.Rapier_Riposte_Empower.DMGStandard * 100]} %.</string>
 	<string key="Rapier_Rupture_Speed_Bonus_DisplayName">Geschwindigkeit</string>
 	<string key="Rapier_Rupture_Speed_Bonus_Description">Geschwindigkeit</string>
 	<string key="Rapier_Rupture_Speed_Bonus_Upgraded_DisplayName">Geschwindigkeitsbonus 1</string>
@@ -1356,8 +1367,10 @@
 	<string key="Hatchet_SocialDist_Slow_Description">Dein Bewegungstempo wird um {[Type_StatusEffectData.Hatchet_SocialDist_Slow.MoveSpeedMod * -100]} % verringert.</string>
 	<string key="Hatchet_SocialDist_SlowBuff_Description">Dein Bewegungstempo wird um {[Type_StatusEffectData.Hatchet_SocialDist_SlowBuff.MoveSpeedMod * -100]} % verringert.</string>
 	<string key="Hatchet_3AtkFortify_Description">Erlittener Schaden wird um {[Type_StatusEffectData.Hatchet_Pass_Fortify3Atk.ABSStandard * 100]} % verringert.</string>
-	<string key="InfectedThrow_Disease_DisplayName">Infizierte verschießen Krankheiten.</string>
-	<string key="InfectedThrow_Disease_Description">Die Heilungswirkung wird um {[Type_StatusEffectData.Hatchet_Infected_DiseaseWeak.HealMod * -100]} % verringert und ausgeteilter Schaden wird um {[Type_StatusEffectData.Hatchet_Infected_DiseaseWeak.DMGStandard * -100]} % verringert.</string>
+	<string key="InfectedThrow_Disease_DisplayName">Infizierter Wurf</string>
+	<string key="InfectedThrow_Disease_Description">Die Heilungswirkung wird um {[Type_StatusEffectData.Hatchet_Infected_Disease.HealMod * -100]} % verringert.</string>
+	<string key="InfectedThrow_Weaken_DisplayName">Geschwächt</string>
+	<string key="InfectedThrow_Weaken_Description">Ausgeteilter Schaden wird um {[Type_StatusEffectData.Hatchet_Infected_Weaken.DMGStandard * -100]} % verringert.</string>
 	<string key="WarHammer_ArmorBreaker_Rend_Description">Erlittener Schaden wird um {[Type_StatusEffectData.WarHammer_ArmorBreaker_Rend.ABSStandard * -100]} % erhöht.</string>
 	<string key="WarHammer_Gavel_Haste_Description">Dein Bewegungstempo wird um {[Type_StatusEffectData.WarHammer_Gavel_Haste.MoveSpeedMod * 100]} % erhöht.</string>
 	<string key="WarHammer_HasteOnDebuff_Description">Dein Bewegungstempo wird um {[Type_StatusEffectData.WarHammer_Pass_Haste.MoveSpeedMod * 100]} % erhöht.</string>
@@ -1375,6 +1388,8 @@
 	<string key="WarHammer_CrowdCrusher_ArmorNearbyEnemy_description">Du erhältst Schadensresistenz, weil du umzingelt bist.</string>
 	<string key="Musket_Trap_Root_DisplayName">Gefangen</string>
 	<string key="Musket_Trap_Root_Description">Bewegungsunfähig für {[Type_StatusEffectData.Musket_Trap_Root.BaseDuration]} Sekunden.</string>
+	<string key="Musket_Trap_Rend_DisplayName">Aufgerissen</string>
+	<string key="Musket_Trap_Rend_Description">Erlittener Schaden wird um {[Type_StatusEffectData.Musket_Trap_Rend.ABSStandard * -100]} % erhöht.</string>
 	<string key="Musket_Sticky_Slow_DisplayName">Klebrige Langsamkeit</string>
 	<string key="Musket_Sticky_Slow_Description">Dein Bewegungstempo wird um {[Type_StatusEffectData.Musket_Sticky_Slow.MoveSpeedMod * -100]} % verringert.</string>
 	<string key="Status_PowerShot_Empower_Description">Für {[Type_StatusEffectData.Musket_PowerShot_Empower.BaseDuration]} Sekunden {[Type_StatusEffectData.Musket_PowerShot_Empower.DMGStandard * 100]} % mehr Schaden.</string>
@@ -1395,6 +1410,10 @@
 	<string key="ATB_CritOnDodge_Description">Nach Ablauf des Timers kannst du den garantierten Attributsbonus für kritischen Treffer nach Ausweichen (300 Geschick) erneut einsetzen.</string>
 	<string key="ATB_DRAtFullHP_DisplayName">Timer für Schadensminderung bei vollen TP</string>
 	<string key="ATB_DRAtFullHP_Description">Nach Ablauf des Timers kannst du den Attributsbonus für volle GES (250 Konstitution) erneut einsetzen.</string>
+	<string key="SickeningSlash_Disease_DisplayName">Krankheit</string>
+	<string key="SickeningSlash_Disease_Description">Die Heilungswirkung wird um {[Type_StatusEffectData.Greatsword_DefenseBreak_Disease.HealMod * -100]} % verringert.</string>
+	<string key="Status_Greatsword_Counter_DisplayName">Katastrophenkonter</string>
+	<string key="Status_Greatsword_Counter_Description">Die Macht von Katastrophenkonter steigert sich mit jedem Stapel dieses Effekts.</string>
 	<string key="Status_VoidGauntlet_VoidBlade_Description" rel_version="Weapon_Void_Gauntlet">Deine einfachen Angriffe sind jetzt Nahkampfangriffe.</string>
 	<string key="Status_VoidGauntlet_VoidBlade_Fortify_Description" rel_version="Weapon_Void_Gauntlet">Erlittener Schaden wird um {[Type_StatusEffectData.VoidGauntlet_VoidBlade_Fortify.ABSStandard * 100]} % verringert.</string>
 	<string key="Status_VoidGauntlet_Disintegrate_DisplayName" rel_version="Weapon_Void_Gauntlet">Zerfall</string>
@@ -1492,6 +1511,8 @@
 	<string key="AI_Anubian_Sunspots_Burn_Description" rel_version="Territory_Brimstone_Sands">Fügt alle {[Type_StatusEffectData.AI_Anubian_Sunspots_Burn.TickRate]} Sekunden Feuerschaden in Höhe von {[Type_StatusEffectData.AI_Anubian_Sunspots_Burn.HealthModifierPercent * -100]} % des Basisschadens zu.</string>
 	<string key="AI_Anubian_Burn_9_DisplayName" rel_version="Territory_Brimstone_Sands">Sonnenbrand der Ahnen</string>
 	<string key="AI_Anubian_Burn_9_Tooltip" rel_version="Territory_Brimstone_Sands">Fügt alle {[Type_StatusEffectData.AI_Anubian_Burn_9.TickRate]} Sekunden Feuerschaden in Höhe von {[Type_StatusEffectData.AI_Anubian_Burn_9.HealthModifierDamageBased * -100]} % des Basisschadens zu.</string>
+	<string key="AI_Anubian_Boss_Burn_9_DisplayName" rel_version="Territory_Brimstone_Sands">Sonnenbrand der Ahnen</string>
+	<string key="AI_Anubian_Boss_Burn_9_Tooltip" rel_version="Territory_Brimstone_Sands">Fügt alle {[Type_StatusEffectData.AI_Anubian_Boss_Burn_9.TickRate]} Sekunden Feuerschaden in Höhe von {[Type_StatusEffectData.AI_Anubian_Boss_Burn_9.HealthModifierDamageBased * -100]} % des Basisschadens zu.</string>
 	<string key="Immune_To_Damage">Immun</string>
 	<string key="HealthMin_Immortal_Damage">Unsterblich</string>
 	<string key="TauntAI_DisplayName">Provoziert</string>
@@ -1668,5 +1689,12 @@
 	<string key="Status_Rune_GraspingVines_Dominator_ReducedStamRegen_Desc">Ausdauerregeneration um {[Type_StatusEffectData.Rune_GraspingVines_Dominator_ReduceStamRegen.StaminaRate * -100]} % verringert.</string>
 	<string key="Status_Rune_HereticsFall_Greater_Desc">Bewegungstempo um {[Type_StatusEffectData.Rune_HereticsFall_Greater.MoveSpeedMod * -100]} % verringert.</string>
 	<string key="Status_Rune_HereticsFall_Survivor_Desc">Schadensabsorption um {[Type_StatusEffectData.Rune_HereticsFall_Survivor.ABSStandard * 100]} % erhöht, aber ausgehender Schaden ist um {[Type_StatusEffectData.Rune_HereticsFall_Survivor.DMGStandard * -100]} % verringert.</string>
+	<string key="AI_AnubianGuardian_HorusBoss_InstrumentOfJudgement_Tracking_DisplayName">Urteilsspruch der Götter</string>
+	<string key="AI_AnubianGuardian_HorusBoss_InstrumentOfJudgement_Tracking_Tooltip">Die Götter der Enneade bewerten dein Herz.</string>
+	<string key="AI_AnubianGuardian_HorusBoss_InstrumentOfJudgement_Damage_DisplayName">Gottesurteil</string>
+	<string key="AI_AnubianGuardian_HorusBoss_InstrumentOfJudgement_Damage_Tooltip">Du wurdest als unwürdig erachtet, musst nun deine Sünden reinwaschen und fügst Verbündeten in der Umgebung alle 2 Sekunden 2.500 Schaden zu.</string>
+	<string key="Status_TinctureAcidT5_DisplayName">Säureresistenz</string>
+	<string key="Status_TinctureAcidT5_Tooltip">Du erhältst 20 Säureresistenz.</string>
+	<string key="GruntFrenzy_DisplayName">Rasend</string>
 </resources>
 

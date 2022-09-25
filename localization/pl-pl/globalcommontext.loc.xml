@@ -108,8 +108,8 @@
 	<string key="ui_affliction_injury">odporność na rany</string>
 	<string key="ui_affliction_insane">odporność na szaleństwo</string>
 	<string key="ui_affliction_inspired">inspiracja</string>
-	<string key="ui_affliction_poison">odporność na zatrucie</string>
-	<string key="ui_affliction_poison_tooltip">Gdy odporność na zatrucie wyczerpie się, postać zostanie zatruta i zacznie stopniowo tracić punkty zdrowia.</string>
+	<string key="ui_affliction_poison">Odporność na kwas</string>
+	<string key="ui_affliction_poison_tooltip">Jeżeli zabraknie ci odporności na kwas, zaczniesz odczuwać skutki oparzenia kwasem.</string>
 	<string key="ui_affliction_weakness">odporność na osłabienie</string>
 	<string key="ui_affliction_drowning">oddech</string>
 	<string key="ui_affliction_drowning_tooltip">Gdy postaci skończy się powietrze, udusi się</string>
@@ -134,8 +134,8 @@
 	<string key="ui_afflicted_injury">rana</string>
 	<string key="ui_afflicted_insane">obłęd</string>
 	<string key="ui_afflicted_inspired">inspiracja</string>
-	<string key="ui_afflicted_poison">zatrucie</string>
-	<string key="ui_afflicted_poison_tooltip">Zatruta postać stopniowo traci punkty zdrowia</string>
+	<string key="ui_afflicted_poison">Oparzenie kwasem</string>
+	<string key="ui_afflicted_poison_tooltip">Oparzenie kwasem sprawia, że otrzymujesz 500% więcej obrażeń od kwasu. Oparzenie kwasem usuniesz przy pomocy nalewek kwasu, które można wytworzyć przy stanowisku arkanistycznym.</string>
 	<string key="ui_afflicted_weakness">osłabienie</string>
 	<string key="ui_afflicted_drowning">tonięcie</string>
 	<string key="ui_afflicted_drowning_tooltip">Postać utopiła się</string>
@@ -666,10 +666,10 @@
 	<string key="ui_instrument-mandolin-slot_name" rel_version="Feature_MusicalPerformances">Mandolina</string>
 	<string key="ui_instrument-uprightbass-slot_name" rel_version="Feature_MusicalPerformances">Kontrabas</string>
 	<string key="ui_instrument-drums-slot_name" rel_version="Feature_MusicalPerformances">Bębny</string>
-	<string key="ui_heartgem-slot" rel_version="Feature_Heartgems">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Semibold.font"&gt;Klejnot serca&lt;/font&gt;\n\n&lt;font face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt;Przedmiot umieszczony w tym miejscu odblokowuje umiejętność związaną z runami.\n\nMożna odblokować, wykonując zadanie związane z runami (dostępne od 60 poz.).&lt;/font&gt;</string>
+	<string key="ui_heartgem-slot" rel_version="Feature_Heartgems">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Semibold.font"&gt;Klejnot serca&lt;/font&gt;\n\n&lt;font face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt;Runa serca umieszczona w tym miejscu odblokowuje umiejętność, którą zapewnia.\n\nMożna odblokować, wykonując zadanie związane z runą serca. (dostępne od 60 poz.).&lt;/font&gt;</string>
 	<string key="ui_heartgemcharge-tooltip" rel_version="Feature_Heartgems">Klejnot serca ładuje się w trakcie walki poprzez:\n\n Zadawanie obrażeń (łącznie z zablokowanymi trafieniami).\n\n Otrzymywanie obrażeń (łącznie z zablokowanymi trafieniami).\n\n Nakładanie premii (łącznie z leczeniem) i negatywnych efektów.</string>
-	<string key="ui_heartgem_rune_ability" rel_version="Feature_Heartgems">Umiejętność runiczna</string>
-	<string key="ui_heartgem_rune_ability_silenced" rel_version="Feature_Heartgems">Umiejętność runiczna nieaktywna</string>
+	<string key="ui_heartgem_rune_ability" rel_version="Feature_Heartgems">Runa serca – umiejętność</string>
+	<string key="ui_heartgem_rune_ability_silenced" rel_version="Feature_Heartgems">Umiejętność runy serca nieaktywna</string>
 	<string key="ui_buildmode_grid">Siatka trybu budowy</string>
 	<string key="ui_wave">Pomachaj</string>
 	<string key="ui_inspect_player">Funkcje społeczności</string>
@@ -949,8 +949,8 @@
 	<string key="ui_xp_event_all_faction_xp">Reputację we wszystkich frakcjach</string>
 	<string key="ui_xp_event_all_factiontoken_xp">Wszystkie żetony frakcji</string>
 	<string key="ui_xp_event_progression_xp">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Regular.font"&gt;{progressionName}&lt;/font&gt; &lt;font color="#ffcc00" face="lyshineui/fonts/Nimbus_Bold.font"&gt;x {amount}&lt;/font&gt;</string>
-	<string key="ui_xp_boost_reminder" comment="The leading space is intentional"> ( x {bonus} &lt;img src="lyshineui/images/icons/misc/icon_xp_boost" xPadding="0" scale="1.1" yOffset="0.5"&gt;&lt;/img&gt;)</string>
-	<string key="ui_xp_multiplier_arrow" comment="The leading space is intentional"> x {bonus} &lt;img src="lyshineui/images/icons/misc/icon_xp_boost" xPadding="0" scale="1.1" yOffset="0.5"&gt;&lt;/img&gt;</string>
+	<string key="ui_xp_boost_reminder" comment="The leading space is intentional">( x {bonus} &lt;img src="lyshineui/images/icons/misc/icon_xp_boost" xPadding="0" scale="1.1" yOffset="0.5"&gt;&lt;/img&gt;)</string>
+	<string key="ui_xp_multiplier_arrow" comment="The leading space is intentional">x {bonus} &lt;img src="lyshineui/images/icons/misc/icon_xp_boost" xPadding="0" scale="1.1" yOffset="0.5"&gt;&lt;/img&gt;</string>
 	<string key="ui_reached_max_daily_pvp_arena_rewards">Osiągnięto dzienny limit soli areny PvP!</string>
 	<string key="ui_reached_max_fort_takeover_rewards">Osiągnięto limit dziennych nagród za przejęcie fortu!</string>
 	<string key="world_landing_title">Wybrano dla ciebie optymalny ŚWIAT</string>
@@ -1043,7 +1043,9 @@
 	<string key="ui_whisper_to_someone">{playerName} DO {recipient}</string>
 	<string key="ui_focus">Skupienie</string>
 	<string key="ui_points_to_level">{points} do poz. {level}</string>
+	<string key="ui_points_to_level_with_skill">{points} {skill} pkt do poz. {level}</string>
 	<string key="ui_points_to_expertise">{points} pkt do następnego poz. smykałki: {level}</string>
+	<string key="ui_points_to_expertise_with_skill">{points} {skill} pkt do następnego poz. smykałki: {level}</string>
 	<string key="ui_spirit">Wiara</string>
 	<string key="ui_vitality">Postura</string>
 	<string key="ui_strength">Siła</string>
@@ -1434,6 +1436,7 @@
 	<string key="ui_items_have_changed_msg">Przedmioty zostały dodane do twojego konta lub z niego usunięte.</string>
 	<string key="ui_account_items_changed">Zmiana przedmiotów przypisanych do konta</string>
 	<string key="ui_dismiss">Odrzuć</string>
+	<string key="ui_named">Nazwany</string>
 	<string key="url_twitchchannel">https://www.twitch.tv/{channel}</string>
 	<string key="url_forums">https://forums.newworld.com/</string>
 	<string key="ui_seizure_title">Ostrzeżenie przed napadem padaczki fotogennej</string>
@@ -1857,7 +1860,7 @@
 	<string key="ui_has_resources">Masz zasoby</string>
 	<string key="ui_deadnotification_title">"NIE ŻYJESZ"</string>
 	<string key="ui_deadnotification_body">Musisz się odrodzić, aby móc odpowiedzieć na to powiadomienie.</string>
-	<string key="ui_vitals_health_tooltip" comment="Use {currentValue} and {maxValue} for the vital's numbers">Zdrowie\n{currentValue} / {maxValue}\n\nAby &lt;font color="#ffe940"&gt;odzyskać&lt;/font&gt; zdrowie\n– Używaj nalewek, by szybko odzyskiwać zdrowie\n– Spożywaj jedzenie, by otrzymać zastrzyk zdrowia i odzyskiwać je z upływem czasu.\n\nPodnieś współczynnik &lt;font color="#ffe940"&gt;kondycji&lt;/font&gt;, by zwiększyć maksymalny poziom zdrowia.</string>
+	<string key="ui_vitals_health_tooltip" comment="Use {currentValue} and {maxValue} for the vital's numbers">Zdrowie\n{currentValue} / {maxValue}\n\nAby &lt;font color="#ffe940"&gt;odzyskać&lt;/font&gt; zdrowie\n– Używaj nalewek, by szybko odzyskiwać zdrowie\n– Spożywaj jedzenie, by otrzymać zastrzyk zdrowia, a potem odzyskiwać je z upływem czasu.\n\nPodnieś współczynnik &lt;font color="#ffe940"&gt;kondycji&lt;/font&gt;, by zwiększyć maksymalny poziom zdrowia.\n\n&lt;img src="lyshineui/images/icons/hud/vitals/Icon_combatstate" xPadding="0" scale="1.2" yOffset="0"&gt;&lt;/img&gt; – oznacza, że gracz obecnie bierze udział w walce. Podczas walki niektóre działania gracza są ograniczone. Zakończ walkę lub unikaj jej przez 20 sekund, by pozbyć się tego statusu.</string>
 	<string key="ui_vitals_stamina_tooltip" comment="Use {currentValue} and {maxValue} for the vital's numbers">Wytrzymałość\n{currentValue} / {maxValue}\n\nCzynności obronne, takie jak blokowanie lub unik, zużywają wytrzymałość. Gdy spadnie do zera, nie będzie można skutecznie ich wykonywać.\n\nWytrzymałość sama regeneruje się z upływem czasu, chyba że w tym czasie atakujesz lub biegasz sprintem.</string>
 	<string key="ui_vitals_mana_tooltip" comment="Use {currentValue} and {maxValue} for the vital's numbers">Mana\n{currentValue}/{maxValue}\n\nTajemnicza energia potrzebna do władania magią. Niski poziom many uniemożliwia używanie niektórych zdolności nadprzyrodzonych.\n\nMana regeneruje się z upływem czasu.</string>
 	<string key="ui_vitals_mana_rate_tooltip">Mana regeneruje się z upływem czasu.\n\nDomyślnie: 1,5 pkt many na sekundę.</string>
@@ -1870,7 +1873,7 @@
 	<string key="ui_ability1">Umiejętność broni 1</string>
 	<string key="ui_ability2">Umiejętność broni 2</string>
 	<string key="ui_ability3">Umiejętność broni 3</string>
-	<string key="ui_ability_heartgem">Klejnot serca – umiejętność</string>
+	<string key="ui_ability_heartgem">Runa serca – umiejętność</string>
 	<string key="ui_pending_afk_disconnect">Nadal grasz?</string>
 	<string key="ui_pending_afk_disconnect_description">Zauważono twoją bezczynność. Nastąpi automatyczne wyrzucenie z gry. Jeśli wciąż grasz, przemieść swoją postać.</string>
 	<string key="ui_pending_freeweekend_session_ending_title">Darmowa sesja wkrótce dobiegnie końca</string>
@@ -1916,6 +1919,7 @@
 	<string key="ui_skill_increased">Umiejętność wzrasta</string>
 	<string key="ui_purchase_attribute">Kup cechę</string>
 	<string key="ui_solo">Solo</string>
+	<string key="ui_summary">Podsumowanie</string>
 	<string key="ui_azoth_max_title">Maks. azoth</string>
 	<string key="ui_azoth_max_desc">Osiągnięto limit azothu. Jego nadmiar zostanie utracony.</string>
 	<string key="ui_azoth_warning_title">Uwaga, limit azothu</string>
@@ -2138,6 +2142,8 @@
 	<string key="ui_clusterwarning_warning">&lt;font color={colorHex1}&gt;Możesz mieć tylko 1 postać w &lt;/font&gt; &lt;font face="lyshineui/fonts/nimbus_bold.font"&gt;&lt;font color={colorHex2}&gt; zestawie światów: {worldSetName}&lt;/font&gt;&lt;/font&gt;&lt;font color={colorHex1}&gt;.&lt;/font&gt;</string>
 	<string key="ui_clusterwarning_description1">Jeśli chcesz grać w innym świecie z zestawu {worldSetName}, musisz usunąć tę postać w świecie {worldName}.</string>
 	<string key="ui_clusterwarning_description2">Jeśli twoi znajomi grają w innych światach z zestawu {worldSetName}, nie będziecie mogli grać razem.</string>
+	<string key="ui_clusterwarning_freshstart">W świecie {worldName} można tworzyć wyłącznie nowe postacie. Nie można przenosić postaci do tego świata nowego początku.</string>
+	<string key="ui_clusterwarning_non_freshstart">Postacie można przenosić do tego świata i z tego świata do innego.</string>
 	<string key="ui_character_world_info">{worldName}</string>
 	<string key="ui_cannotPin_atMax">Nie można przypiąć kolejnych celów.</string>
 	<string key="ui_clusterwarning_body">&lt;font color="#ffffff"&gt;Możesz posiadać tylko 1 postać w grupie światów {worldSetName}.&lt;/font&gt;\n\nJeśli chcesz grać w innym świecie grupy {worldSetName}, musisz usunąć postać w świecie {worldName} i stworzyć nową w innym.\n\nJeśli twoi znajomi grają w innym świecie grupy {worldSetName}, nie będziecie mogli grać razem.</string>
@@ -2273,7 +2279,7 @@
 	<string key="ui_change_faction_cooldown">Zmień frakcję\n{cooldown}</string>
 	<string key="ui_change_faction_azoth_cost">Zmień frakcję: {azothcost}</string>
 	<string key="ui_change_faction_desc">Czy na pewno chcesz zmienić frakcję na: {factionname}?\nZmiana frakcji zresetuje twoją rangę frakcyjną i żetony.\n\nGdy zmienisz frakcję, nie będzie można jej ponownie zmienić przez 60 dni.</string>
-	<string key="ui_change_faction_confirmation" rel_version="Feature_Faction_Selection">Czy na pewno chcesz zmienić frakcję na: {factionname}?\nZmiana frakcji zresetuje twoją rangę frakcyjną i żetony.\n\nGdy zmienisz frakcję, nie będzie można jej ponownie zmienić przez 60 dni.\n\nJeśli należysz do kompanii, automatycznie ją opuścisz.</string>
+	<string key="ui_change_faction_confirmation" rel_version="Feature_Faction_Selection">Czy na pewno chcesz zmienić frakcję na: {factionname}?\nTwoja ranga frakcyjna i żetony nie przeniosą się razem z tobą, ale nie zostaną też utracone – będą na ciebie czekać, jeśli w przyszłości zdecydujesz się wrócić do tej samej frakcji.\n\nGdy zmienisz frakcję, nie będzie można jej ponownie zmienić przez 60 dni.\n\nJeśli należysz do kompanii, automatycznie ją opuścisz.</string>
 	<string key="ui_change_faction_quest_warning" rel_version="Feature_Faction_Selection">Nie ukończono zadań wprowadzających</string>
 	<string key="ui_change_faction_visit_rep" rel_version="Feature_Faction_Selection">Odwiedź przedstawiciela frakcji, by zmienić</string>
 	<string key="ui_current_faction">Obecnie należysz do frakcji: {factionname}</string>
@@ -2417,17 +2423,17 @@
 	<string key="ui_itemtypedescription_furniture">Meble</string>
 	<string key="ui_itemtypedescription_bait">Przynęta</string>
 	<string key="ui_itemtypedescription_outpostrush">Zasoby z napadu</string>
-	<string key="ui_itemtypedescription_heartgem_rune" rel_version="Feature_Heartgems">Klejnot serca – runa</string>
+	<string key="ui_itemtypedescription_heartgem_rune" rel_version="Feature_Heartgems">Runa serca</string>
 	<string key="ui_itemtooltiptitle_heartgem_rune_stone_form" rel_version="Feature_Heartgems">Kamienna forma</string>
 	<string key="ui_itemtooltiptitle_heartgem_rune_detonate" rel_version="Feature_Heartgems">Detonacja</string>
 	<string key="ui_itemtooltiptitle_heartgem_rune_grasping_vines" rel_version="Feature_Heartgems">Chwytliwe pnącza</string>
-	<string key="ui_itemtooltiptitle_heartgem_rune_heretics_fall" rel_version="Feature_Heartgems">Upadek heretyka</string>
+	<string key="ui_itemtooltiptitle_heartgem_rune_heretics_fall" rel_version="Feature_Heartgems">Mroczny wzlot</string>
 	<string key="ui_itemtooltiptitle_heartgem_rune_cannon_blast" rel_version="Feature_Heartgems">Armata</string>
 	<string key="ui_cannot_perform_action_at_this_time">Nie możesz obecnie wykonać tej czynności</string>
 	<string key="ui_cannot_use_shield_abilities">Nie wyposażono się w tarczę</string>
 	<string key="ui_tooltip_effect_duration">Czas trwania efektu: &lt;font face="lyshineui/fonts/Nimbus_Bold.font" color="#ffffff"&gt;{value}&lt;/font&gt;</string>
 	<string key="ui_cap_unfocused_fps">Limit FPS w tle</string>
-	<string key="ui_cap_unfocused_fps_desc">Po włączeniu ogranicza liczbę klatek na sekundę przy minimalizacji lub zmianie aktywnego okna na inne</string>
+	<string key="ui_cap_unfocused_fps_desc">Po włączeniu ogranicza liczbę klatek na sekundę przy minimalizacji lub zmianie aktywnego okna na inne.</string>
 	<string key="ui_Enable_Viewport_Scale">Dynamiczne skalowanie rozdzielczości</string>
 	<string key="ui_Enable_Viewport_Scale_desc">Po włączeniu automatycznie dostosowuje rozdzielczość wewnątrz gry, by utrzymać liczbę klatek na sekundę</string>
 	<string key="ui_gathering_disabled">Zbieranie jest obecnie niemożliwe</string>
@@ -2459,7 +2465,7 @@
 	<string key="ui_complete_quests_to_unlock">Ukończ zadania w osadzie, by odblokować</string>
 	<string key="ui_interact_required_level">Musisz mieć {level}. poz., by móc tego użyć</string>
 	<string key="ui_cannot_chat_trading_blocked">By móc korzystać z tego kanału, twoje konto musi być starsze niż {hoursNeeded}, a czas twojej rozgrywki dłuższy niż {playtimeNeeded}. Ponadto musisz odblokować faktorię.</string>
-	<string key="ui_averageexpertise">Przeciętna\nbiegłość</string>
+	<string key="ui_averageexpertise">Przeciętna biegłość</string>
 	<string key="ui_averageexpertisetooltip">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Biegłość&lt;/font&gt;\nBiegłość służy do określania maksymalnej mocy używanego przedmiotu.\n\n&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Maksymalna biegłość do osiągnięcia&lt;/font&gt;\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{maximum}&lt;/font&gt;\n\n&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Zwiększanie biegłości&lt;/font&gt;\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Elitarne lokacje i ekspedycje&lt;/font&gt;\nŁupy upuszczane przez wrogów i znajdowane w skrzyniach w strefach powyżej 60. poziomu mają szansę na zwiększenie tej wartości.\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_semibold.font"&gt;Rzemiosło&lt;/font&gt;\nWytworzenie przedmiotu mającego 600 pkt wyposażenia zwiększy biegłość w tym rodzaju przedmiotu.\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_semibold.font"&gt;Odlew gipsowy&lt;/font&gt;\nOtwarcie odlewu gipsowego zwiększy biegłość.\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_semibold.font"&gt;Ulepszenie przedmiotu (odłamkami umbralu)&lt;/font&gt;\nPo osiągnięciu 600 pkt biegłości jedynym sposobem na jej zwiększenie jest ulepszanie przedmiotów odłamkami umbralu.</string>
 	<string key="ui_itemtypedescription_shield_only">Tarcza</string>
 	<string key="ui_expertise_value_with_icon">&lt;img src="lyshineui/images/icons/misc/icon_hwm_small_color" scale="1.5" yOffset="2"&gt;&lt;/img&gt;{value}</string>
@@ -2508,7 +2514,7 @@
 	<string key="ui_endgame_banner_subtitle">Witaj w końcowej fazie gry</string>
 	<string key="ui_factions">Frakcje</string>
 	<string key="ui_factions_guide_1_header">Dołączanie do frakcji</string>
-	<string key="ui_factions_guide_1_body">Zanim dołączysz do jakiejś frakcji, musisz się przed nią wykazać, wykonując serie zadań. Odwiedź przedstawiciela frakcji w dowolnej osadzie, aby rozpocząć.</string>
+	<string key="ui_factions_guide_1_body">Zanim dołączysz do frakcji, musisz się przed nią wykazać, wykonując serię zadań inicjacyjnych. Gdy osiągniesz 17. poziom, znajdź pierwszego zleceniodawcę każdej frakcji we wsi Oxboro (Jesieniowiecznia) lub w jej pobliżu.</string>
 	<string key="ui_factions_guide_2_header">Premie frakcyjne</string>
 	<string key="ui_factions_guide_2_body">Po dołączeniu do frakcji uzyskasz dostęp do misji frakcyjnych, PvP w otwartym świecie i wojen. Będziesz brać udział w pozyskiwaniu kontroli nad terytoriami dla twojej frakcji.\n\nPrzygody w granicach terytorium kontrolowanego przez twoją frakcję zapewnią ci szereg różnych premii, takich jak więcej PD.</string>
 	<string key="ui_factions_guide_3_header">Kompanie</string>
@@ -2543,5 +2549,7 @@
 	<string key="ui_reset_daily_time">Resetuje się codziennie o {time}</string>
 	<string key="ui_reset_weekly_time">Resetuje się co tydzień o {time}</string>
 	<string key="ui_buy_new_world">Kup New World</string>
+	<string key="ui_transaction_failed_header">Transakcja nieudana</string>
+	<string key="ui_probation_account_restriction">By móc korzystać z tej funkcji, należy zakupić New World.</string>
 </resources>
 

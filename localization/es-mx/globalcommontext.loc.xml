@@ -108,8 +108,8 @@
 	<string key="ui_affliction_injury">resistencia a la lesión</string>
 	<string key="ui_affliction_insane">resistencia a la locura</string>
 	<string key="ui_affliction_inspired">inspirar</string>
-	<string key="ui_affliction_poison">resistencia al veneno</string>
-	<string key="ui_affliction_poison_tooltip">Si te quedas sin resistencia al veneno, te envenenarás y perderás salud en el transcurso del tiempo</string>
+	<string key="ui_affliction_poison">Resistencia al ácido</string>
+	<string key="ui_affliction_poison_tooltip">Si te quedas sin resistencia al ácido, sufrirás quemadura de ácido.</string>
 	<string key="ui_affliction_weakness">resistencia a la debilidad</string>
 	<string key="ui_affliction_drowning">aliento</string>
 	<string key="ui_affliction_drowning_tooltip">Si te quedas sin aliento, te sofocarás y morirás</string>
@@ -134,8 +134,8 @@
 	<string key="ui_afflicted_injury">lesión</string>
 	<string key="ui_afflicted_insane">locura</string>
 	<string key="ui_afflicted_inspired">inspirado</string>
-	<string key="ui_afflicted_poison">veneno</string>
-	<string key="ui_afflicted_poison_tooltip">Mientras estás envenenado, pierdes salud en el transcurso del tiempo</string>
+	<string key="ui_afflicted_poison">Quemadura de ácido</string>
+	<string key="ui_afflicted_poison_tooltip">Al sufrir quemadura de ácido, recibes un 500 % más de daño de ácido. Puedes eliminar la quemadura de ácido con pociones de ácido, que puedes crear en una estación arcana.</string>
 	<string key="ui_afflicted_weakness">debilidad</string>
 	<string key="ui_afflicted_drowning">ahogamiento</string>
 	<string key="ui_afflicted_drowning_tooltip">Te ahogaste hasta morir</string>
@@ -666,10 +666,10 @@
 	<string key="ui_instrument-mandolin-slot_name" rel_version="Feature_MusicalPerformances">Mandolina</string>
 	<string key="ui_instrument-uprightbass-slot_name" rel_version="Feature_MusicalPerformances">Contrabajo</string>
 	<string key="ui_instrument-drums-slot_name" rel_version="Feature_MusicalPerformances">Tambores</string>
-	<string key="ui_heartgem-slot" rel_version="Feature_Heartgems">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Semibold.font"&gt;Ranura de gema con forma de corazón&lt;/font&gt;\n\n&lt;font face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt;Un objeto que se coloca en esta ranura desbloquea la capacidad de runa.\n\nSe desbloquea al completar la misión de la runa. (Disponible a nivel 60)&lt;/font&gt;</string>
+	<string key="ui_heartgem-slot" rel_version="Feature_Heartgems">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Semibold.font"&gt;Ranura de gema con forma de corazón&lt;/font&gt;\n\n&lt;font face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt;Una runa con forma de corazón colocada en esta ranura desbloquea su habilidad.\n\nSe desbloquea al completar la misión de la runa con forma de corazón. (Disponible a nivel 60)&lt;/font&gt;</string>
 	<string key="ui_heartgemcharge-tooltip" rel_version="Feature_Heartgems">La gema con forma de corazón gana una carga al realizar distintas acciones en un combate:\n\n Causar daño (incluidos los golpes bloqueados).\n\n Recibir daño (incluidos los golpes bloqueados).\n\n Aplicar potenciadores (incluidas curaciones) y despotenciadores.</string>
-	<string key="ui_heartgem_rune_ability" rel_version="Feature_Heartgems">Capacidad de runa</string>
-	<string key="ui_heartgem_rune_ability_silenced" rel_version="Feature_Heartgems">Capacidad de runa silenciada</string>
+	<string key="ui_heartgem_rune_ability" rel_version="Feature_Heartgems">Habilidad runa con forma de corazón</string>
+	<string key="ui_heartgem_rune_ability_silenced" rel_version="Feature_Heartgems">Habilidad runa con forma de corazón silenciada</string>
 	<string key="ui_buildmode_grid">Cuadrícula del modo de construcción</string>
 	<string key="ui_wave">Saludar</string>
 	<string key="ui_inspect_player">Interacciones sociales</string>
@@ -782,7 +782,7 @@
 	<string key="ui_container">CONTENEDOR</string>
 	<string key="ui_storageshed">ALMACENAMIENTO</string>
 	<string key="ui_stowaway">Polizón</string>
-	<string key="ui_enable_audio_window_unfocus">Habilitar el audio en el fondo</string>
+	<string key="ui_enable_audio_window_unfocus">Activar sonido de fondo</string>
 	<string key="ui_enable_audio_window_unfocus_desc">Si está activado, el audio del juego seguirá sonando mientras la ventana esté minimizada o no se encuentre activa.</string>
 	<string key="ui_submit">Enviar</string>
 	<string key="ui_comma">,</string>
@@ -949,8 +949,8 @@
 	<string key="ui_xp_event_all_faction_xp">Toda la reputación de facción</string>
 	<string key="ui_xp_event_all_factiontoken_xp">Todos los tokens de facción</string>
 	<string key="ui_xp_event_progression_xp">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Regular.font"&gt;{progressionName}&lt;/font&gt; &lt;font color="#ffcc00" face="lyshineui/fonts/Nimbus_Bold.font"&gt;x {amount}&lt;/font&gt;</string>
-	<string key="ui_xp_boost_reminder" comment="The leading space is intentional"> (x {bonus} &lt;img src="lyshineui/images/icons/misc/icon_xp_boost" xPadding="0" scale="1.1" yOffset="0.5"&gt;&lt;/img&gt;)</string>
-	<string key="ui_xp_multiplier_arrow" comment="The leading space is intentional"> x {bonus} &lt;img src="lyshineui/images/icons/misc/icon_xp_boost" xPadding="0" scale="1.1" yOffset="0.5"&gt;&lt;/img&gt;</string>
+	<string key="ui_xp_boost_reminder" comment="The leading space is intentional">(x {bonus} &lt;img src="lyshineui/images/icons/misc/icon_xp_boost" xPadding="0" scale="1.1" yOffset="0.5"&gt;&lt;/img&gt;)</string>
+	<string key="ui_xp_multiplier_arrow" comment="The leading space is intentional">x {bonus} &lt;img src="lyshineui/images/icons/misc/icon_xp_boost" xPadding="0" scale="1.1" yOffset="0.5"&gt;&lt;/img&gt;</string>
 	<string key="ui_reached_max_daily_pvp_arena_rewards">¡Límite diario de sal de la arena de PvP alcanzado!</string>
 	<string key="ui_reached_max_fort_takeover_rewards">¡Límite de recompensas diarias por invasión de fuertes alcanzado!</string>
 	<string key="world_landing_title">Hemos elegido un mundo óptimo para ti</string>
@@ -1043,7 +1043,9 @@
 	<string key="ui_whisper_to_someone">{playerName} PARA {recipient}</string>
 	<string key="ui_focus">Concentración</string>
 	<string key="ui_points_to_level">{points} para llegar al nivel {level}</string>
+	<string key="ui_points_to_level_with_skill">{points} {skill} para llegar al nivel {level}</string>
 	<string key="ui_points_to_expertise">{points} para el rango de aptitud {level}</string>
+	<string key="ui_points_to_expertise_with_skill">{points} {skill} para el rango de aptitud {level}</string>
 	<string key="ui_spirit">Fe</string>
 	<string key="ui_vitality">Físico</string>
 	<string key="ui_strength">Fuerza</string>
@@ -1434,6 +1436,7 @@
 	<string key="ui_items_have_changed_msg">Se agregaron o quitaron objetos de tu cuenta.</string>
 	<string key="ui_account_items_changed">Cambios en los objetos de la cuenta</string>
 	<string key="ui_dismiss">Ignorar</string>
+	<string key="ui_named">Nombrado</string>
 	<string key="url_twitchchannel">https://www.twitch.tv/{channel}</string>
 	<string key="url_forums">https://forums.newworld.com/</string>
 	<string key="ui_seizure_title">Aviso de epilepsia fotosensible</string>
@@ -1857,7 +1860,7 @@
 	<string key="ui_has_resources">Tiene recursos</string>
 	<string key="ui_deadnotification_title">"ESTÁS MUERTO"</string>
 	<string key="ui_deadnotification_body">Debes renacer para responder a esta notificación.</string>
-	<string key="ui_vitals_health_tooltip" comment="Use {currentValue} and {maxValue} for the vital's numbers">Salud\n{currentValue} / {maxValue}\n\nPara &lt;font color="#ffe940"&gt;recuperar&lt;/font&gt; la salud\n- Consume tinturas para recuperarla rápidamente.\n- Consume alimentos para recuperarla de a poco después de un aumento rápido.\n\nMejora tu &lt;font color="#ffe940"&gt;constitución&lt;/font&gt; para aumentar tu salud máxima.</string>
+	<string key="ui_vitals_health_tooltip" comment="Use {currentValue} and {maxValue} for the vital's numbers">Salud\n{currentValue}/{maxValue}\n\nPara &lt;font color="#ffe940"&gt;recuperar&lt;/font&gt; salud\n- Consume tinturas para recuperarla rápidamente\n- Consume comida para recuperarla poco a poco tras un incremento rápido.\n\nMejora tu &lt;font color="#ffe940"&gt;constitución&lt;/font&gt; para aumentar tu salud máxima.\n\n&lt;img src="lyshineui/images/icons/hud/vitals/Icon_combatstate" xPadding="0" scale="1.2" yOffset="0"&gt;&lt;/img&gt; indica que el jugador está en combate actualmente. Algunas acciones de gestión de los jugadores están restringidas si el estado de combate está activado. Completa un conflicto o evita el combate durante 20 s para salir del estado.</string>
 	<string key="ui_vitals_stamina_tooltip" comment="Use {currentValue} and {maxValue} for the vital's numbers">Resistencia\n{currentValue}/{maxValue}\n\nLas acciones defensivas como el bloqueo o el esquive agotarán tu resistencia y, si se agota, es posible que no puedas realizar esas acciones hasta que se recupere.\n\nLa resistencia se recupera por sí sola con el transcurso del tiempo, a menos que estés en medio de una carrera o un ataque.</string>
 	<string key="ui_vitals_mana_tooltip" comment="Use {currentValue} and {maxValue} for the vital's numbers">Maná\n{currentValue}/{maxValue}\n\nUn recurso misterioso necesario para usar magia. Si está bajo, no podrás emplear ciertas habilidades sobrenaturales.\n\nEl maná se recupera con el paso del tiempo.</string>
 	<string key="ui_vitals_mana_rate_tooltip">El maná se recupera con el paso del tiempo.\n\n 1,5 de maná base por segundo.</string>
@@ -1870,7 +1873,7 @@
 	<string key="ui_ability1">Habilidad de arma 1</string>
 	<string key="ui_ability2">Habilidad de arma 2</string>
 	<string key="ui_ability3">Habilidad de arma 3</string>
-	<string key="ui_ability_heartgem">Capacidad de gema con forma de corazón</string>
+	<string key="ui_ability_heartgem">Habilidad runa con forma de corazón</string>
 	<string key="ui_pending_afk_disconnect">¿Todavía sigues jugando?</string>
 	<string key="ui_pending_afk_disconnect_description">Has sido detectado como inactivo y serás expulsado automáticamente del juego. Si todavía estás jugando, mueve tu personaje.</string>
 	<string key="ui_pending_freeweekend_session_ending_title">La sesión gratuita finalizará pronto</string>
@@ -1916,6 +1919,7 @@
 	<string key="ui_skill_increased">Aumento de habilidad</string>
 	<string key="ui_purchase_attribute">Comprar atributo</string>
 	<string key="ui_solo">Individual</string>
+	<string key="ui_summary">Resumen</string>
 	<string key="ui_azoth_max_title">Máximo de azoth</string>
 	<string key="ui_azoth_max_desc">Alcanzaste la capacidad máxima de azoth. El exceso de azoth se perderá.</string>
 	<string key="ui_azoth_warning_title">Advertencia: capacidad máxima de azoth</string>
@@ -2138,6 +2142,8 @@
 	<string key="ui_clusterwarning_warning">&lt;font color={colorHex1}&gt;Solo puedes tener 1 personaje en el conjunto de mundos de &lt;/font&gt;&lt;font face="lyshineui/fonts/nimbus_bold.font"&gt;&lt;font color={colorHex2}&gt;{worldSetName}&lt;/font&gt;&lt;/font&gt;&lt;font color={colorHex1}&gt;.&lt;/font&gt;</string>
 	<string key="ui_clusterwarning_description1">Si quieres jugar en otro mundo {worldSetName}, tienes que borrar este personaje en {worldName}.</string>
 	<string key="ui_clusterwarning_description2">Si tienes amigos jugando en otros mundos {worldSetName}, no podrás jugar con ellos.</string>
+	<string key="ui_clusterwarning_freshstart">Solo se pueden crear personajes nuevos en {worldName}. No se pueden transferir personajes a este mundo desde cero.</string>
+	<string key="ui_clusterwarning_non_freshstart">Se pueden transferir personajes desde y a este mundo.</string>
 	<string key="ui_character_world_info">{worldName}</string>
 	<string key="ui_cannotPin_atMax">No puedes fijar más objetivos.</string>
 	<string key="ui_clusterwarning_body">&lt;font color="#ffffff"&gt;Solo puedes tener 1 personaje en el grupo del mundo {worldSetName}.&lt;/font&gt;\n\nSi en algún momento quieres jugar en otro mundo {worldSetName}, tendrás que eliminar a tu personaje en {worldName} y crear otro en un mundo diferente.\n\nSi tus amigos juegan en otros mundos {worldSetName}, no podrás jugar con ellos.</string>
@@ -2202,12 +2208,12 @@
 	<string key="ui_category">Categoría</string>
 	<string key="ui_common_uses">Usos comunes:</string>
 	<string key="ui_governing_propertytax">La compañía gobernante puede recaudar el mantenimiento de las viviendas del asentamiento.</string>
-	<string key="ui_nameplate_slider">Cantidad de placas de identificación del jugador</string>
+	<string key="ui_nameplate_slider">Cantidad de placas de identificación de jugadores</string>
 	<string key="ui_nameplate_slider_desc">Aumenta o reduce la cantidad de placas de identificación que se muestran en pantalla. ADVERTENCIA: Una gran cantidad de placas de identificación puede afectar gravemente la velocidad de fotogramas.</string>
 	<string key="ui_stat_bonus_tooltip">&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt; + {amount}&lt;/font&gt; {attribute}</string>
 	<string key="ui_stat_bonus">+ {amount} {attribute}</string>
 	<string key="ui_craft_bonus">+{amount} {bonus} {bonus2}</string>
-	<string key="ui_first_craft_bonus">(&lt;img src="lyshineui/images/icons/misc/icon_upgrade" xPadding="0" scale="1.8" yOffset="5"&gt;&lt;/img&gt; Primera bonificación de fabricación)</string>
+	<string key="ui_first_craft_bonus">(&lt;img src="lyshineui/images/icons/misc/icon_upgrade" xPadding="0" scale="1.8" yOffset="5"&gt;&lt;/img&gt;Bonificación de primera fabricación)</string>
 	<string key="ui_maker_status_effects_single">{effect1}</string>
 	<string key="ui_maker_status_effects_double">{effect1} · {effect2}</string>
 	<string key="ui_maker_status_effects_triple">{effect1} · {effect2} · {effect3}</string>
@@ -2273,7 +2279,7 @@
 	<string key="ui_change_faction_cooldown">Cambiar de facción\n{cooldown}</string>
 	<string key="ui_change_faction_azoth_cost">Cambiar de facción {azothcost}</string>
 	<string key="ui_change_faction_desc">¿Confirmas que quieres cambiar a la facción {factionname}?\nAl cambiar de facción, se restablecerá tu rango de facción y tus tokens.\n\nUna vez que cambies de facción, no podrás volver a cambiarla por 60 días.</string>
-	<string key="ui_change_faction_confirmation" rel_version="Feature_Faction_Selection">¿Confirmas que quieres cambiar a la facción {factionname}?\nAl cambiar de facción, se restablecerá tu rango de facción y tus tokens.\n\nUna vez que cambies de facción, no podrás volver a cambiarla por 60 días.\n\nSi eres miembro de una compañía, serás expulsado de ella.</string>
+	<string key="ui_change_faction_confirmation" rel_version="Feature_Faction_Selection">¿Seguro que quieres que tu nueva facción sea la facción {factionname}?\nTu rango y tokens de facción no se transferirán contigo, pero tampoco se perderán en caso de que decidas volver en el futuro.\n\nSi aceptas, no podrás volver a cambiar de facción hasta que pasen 60 días.\n\nSi eres miembro de una compañía, saldrás de ella.</string>
 	<string key="ui_change_faction_quest_warning" rel_version="Feature_Faction_Selection">Misiones introductorias no completadas</string>
 	<string key="ui_change_faction_visit_rep" rel_version="Feature_Faction_Selection">Visita al representante de la facción para cambiar.</string>
 	<string key="ui_current_faction">Tu facción actual: {factionname}</string>
@@ -2417,17 +2423,17 @@
 	<string key="ui_itemtypedescription_furniture">Muebles</string>
 	<string key="ui_itemtypedescription_bait">Cebo</string>
 	<string key="ui_itemtypedescription_outpostrush">Recurso de Avance a un puesto de avanzada</string>
-	<string key="ui_itemtypedescription_heartgem_rune" rel_version="Feature_Heartgems">Runa de gema con forma de corazón</string>
-	<string key="ui_itemtooltiptitle_heartgem_rune_stone_form" rel_version="Feature_Heartgems">Forma de piedras</string>
+	<string key="ui_itemtypedescription_heartgem_rune" rel_version="Feature_Heartgems">Runa con forma de corazón</string>
+	<string key="ui_itemtooltiptitle_heartgem_rune_stone_form" rel_version="Feature_Heartgems">Forma pétrea</string>
 	<string key="ui_itemtooltiptitle_heartgem_rune_detonate" rel_version="Feature_Heartgems">Detonar</string>
 	<string key="ui_itemtooltiptitle_heartgem_rune_grasping_vines" rel_version="Feature_Heartgems">Vides sujetadoras</string>
-	<string key="ui_itemtooltiptitle_heartgem_rune_heretics_fall" rel_version="Feature_Heartgems">Caída del hereje</string>
+	<string key="ui_itemtooltiptitle_heartgem_rune_heretics_fall" rel_version="Feature_Heartgems">Loma oscura</string>
 	<string key="ui_itemtooltiptitle_heartgem_rune_cannon_blast" rel_version="Feature_Heartgems">Explosión de cañón</string>
 	<string key="ui_cannot_perform_action_at_this_time">En este momento, no puedes realizar esta acción</string>
 	<string key="ui_cannot_use_shield_abilities">No tienes un escudo equipado</string>
 	<string key="ui_tooltip_effect_duration">&lt;font face="lyshineui/fonts/Nimbus_Bold.font" color="#ffffff"&gt;{value}&lt;/font&gt; Duración de los efectos</string>
 	<string key="ui_cap_unfocused_fps">Limitar FPS en el fondo</string>
-	<string key="ui_cap_unfocused_fps_desc">Cuando activado, limita los fotogramas mientras minimizas o desenfocas la ventana.</string>
+	<string key="ui_cap_unfocused_fps_desc">Cuando está activado, limita los fotogramas cuando minimizas o desenfocas la aplicación.</string>
 	<string key="ui_Enable_Viewport_Scale">Escala de resolución dinámica</string>
 	<string key="ui_Enable_Viewport_Scale_desc">Cuando activado, automáticamente ajusta internamente la resolución para mantener el rendimiento de fotogramas.</string>
 	<string key="ui_gathering_disabled">La recolección está deshabilitada en este momento</string>
@@ -2459,7 +2465,7 @@
 	<string key="ui_complete_quests_to_unlock">Completa misiones en el asentamiento para desbloquear</string>
 	<string key="ui_interact_required_level">Debes ser de nivel {level} para poder usar esto.</string>
 	<string key="ui_cannot_chat_trading_blocked">Tu cuenta debe tener más de {hoursNeeded}, tu tiempo de juego debe ser mayor que {playtimeNeeded} y la tienda de intercambio debe estar desbloqueada para acceder a este canal.</string>
-	<string key="ui_averageexpertise">Pericia\npromedio</string>
+	<string key="ui_averageexpertise">Pericia promedio</string>
 	<string key="ui_averageexpertisetooltip">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Pericia&lt;/font&gt;\nLa pericia se usa para medir la potencia máxima de un objeto cuando lo tienes equipado.\n\n&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Nivel máximo de pericia que puedes alcanzar&lt;/font&gt;\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{maximum}&lt;/font&gt;\n\n&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Cómo aumentar el nivel de pericia&lt;/font&gt;\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Puntos de interés y expediciones de élite&lt;/font&gt;\nLo que sueltan las criaturas o lo que contienen los cofres que se encuentran en un nivel superior a 60 tienen la posibilidad de aumentar este valor.\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_semibold.font"&gt;Fabricación&lt;/font&gt;\nLa fabricación de un objeto de 600 GS aumentará el nivel de pericia de este tipo de objeto.\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_semibold.font"&gt;Molde de aljez&lt;/font&gt;\nAbrir un molde de aljez aumentará el nivel de pericia.\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_semibold.font"&gt;Mejora de objetos (con fragmentos umbríos)&lt;/font&gt;\nDespués de alcanzar el nivel 600 de pericia, la única forma de seguir aumentando el nivel es por medio de la mejora de objetos con Fragmentos Umbríos.</string>
 	<string key="ui_itemtypedescription_shield_only">Escudo</string>
 	<string key="ui_expertise_value_with_icon">&lt;img src="lyshineui/images/icons/misc/icon_hwm_small_color" scale="1.5" yOffset="2"&gt;&lt;/img&gt;{value}</string>
@@ -2496,7 +2502,7 @@
 	<string key="ui_endgame_guide_body4">Cuando un territorio está bajo ataque de los corrompidos, puedes registrarte en el tablero de guerra local o en la pestaña de Guerras inminentes en la pantalla del mapa para ayudar a defender el territorio. Cualquier facción puede registrarse; en cada ocasión habrá 40 lugares abiertos elegidos por el sistema. Las invasiones se acercan en 6 oleadas; debes defender el fuerte para que los corrompidos no lo conquisten. Si lo conquistan, el asentamiento local experimentará bajadas de categoría al azar en sus estaciones de fabricación o en los potenciadores locales de estilo de vida.</string>
 	<string key="ui_endgame_guide_body5">Junto a cada ranura de equipo funcional de tu inventario hay un número. Este número es la pericia de cada tipo de equipo. Representa el número más alto de puntuación del equipo (PE) que puedes equipar en cada ranura de forma eficaz. A medida que consigues botín de los enemigos de nivel 61 o superior, tendrás la posibilidad de obtener equipo que sea de una puntuación de equipo ligeramente mayor que la de tu pericia actual. Esto hará que tu pericia de un «salto» para igualar la puntuación de equipo del equipo que conseguiste. Los cofres de evento del avance a un puesto de avanzada también pueden darte un «salto» de pericia.\n\n• Los enemigos de nivel 61 sueltan: Objetos con una puntuación de equipo de 500-530\n• Los enemigos de nivel 62 sueltan: Objetos con una puntuación de equipo de 530-560\n• Los enemigos de nivel 63 sueltan: Objetos con una puntuación de equipo de 560-591\n• Los enemigos de nivel 64 sueltan: Objetos con una puntuación de equipo de 590-600\n\nPodrás equiparte el equipo que adquieras mediante el intercambio y que tenga una puntuación de equipo mayor que tu nivel de pericia actual. Sin embargo, no tendrá efecto más allá de tu puntuación de pericia actual y no la aumentará.\n\nLos enemigos que encuentres en puntos de referencia y en expediciones élite tienen una posibilidad de base mayor de aumentar tu puntuación de pericia, así como los enemigos nombrados de nivel superior a 60. Los jefes de las expediciones SIEMPRE soltarán un objeto que aumente tu pericia, y las expediciones en sí SIEMPRE te darán 3 objetos (1 de los jefes que ya mencionamos) por cada partida. La posibilidad de recibir botín de pericia de un cofre élite es mayor que la que se tiene al derrotar a un enemigo élite.</string>
 	<string key="ui_endgame_guide_body6">Puntuación del equipo de 500-525 (élite 61+) - Gran surco: Cumbres destrozadas, Montaña destruida: Svikin alto\n\nPuntuación del equipo de 525-549 (élite 62+) - Ebonscale Reach: Palacio Imperial, Edengrove: Malevolencia\n\nPuntuación del equipo de 549-577 (élite 63+) - Reekwater: Deriva del castillo de proa, Montaña destruida: Minas abrasadas\n\nPuntuación del equipo de 577-591 (élite 64+) - Montaña destruida: Myrkgard, Reekwater: Estanque eterno, Reekwater: Siren’s Stand\n\nPuntuación del equipo de 591+ - Edengrove: Malevolencia, Ebonscale Reach: Palacio Imperial, Ebonscale Reach: Astillero de la dinastía del Norte, Edengrove: Jardín del Génesis, Reekwater: Instrumento de Lázaro, Edengrove: Arena de spriggan de la Grieta de Monoecius, Reekwater: Arena del anfiteatro, Edengrove: Arena de Estanques eternos</string>
-	<string key="ui_endgame_guide_body7">La forma de aumentar tu pericia en un tipo específico de equipo es mediante el aljez.\n\nEste viene en diferentes variedades y cada una se puede usar en un horno de aljez para fabricar un orbe de aljez. Necesitarás una cantidad específica de cada tipo para fabricar 1 orbe de aljez. Entonces, un orbe de aljez se puede usar para fabricar un molde de aljez de un tipo de equipo específico, el cual, una vez consumido, otorgará un salto de pericia garantizado para el tipo seleccionado de equipo. Además, otorgará una nueva pieza de equipo de la puntuación de equipo más alta.\n\nPuedes obtener aljez en cantidades variadas participando en diferentes actividades de la siguiente manera:\n\n•Aljez de obsidiana: 3 por día. Se consigue de los jefes nombrados del mundo abierto de nivel 60 o superior, comúnmente se encuentran en puntos de referencia élite.\n•Aljez de zafiro: 2 por día. Se consigue con los jefes finales del Instrumento de Lázaro y el Jardín del Génesis.\n•Aljez de rubí: 2 por día. Se consigue en avances a un puesto de avanzada (debes obtener al menos 501 puntos en la partida).\nAljez de esmeralda: 1 por día. Se consigue en los puntos de control de recompensa de aptitud de habilidad de oficio.\n•Aljez de citrino: 2 por día. Arenas de PvE.\nAljez de amatista: 7 por día. Cerrar invasiones de corrupción.\n•Aljez de topacio: 5 por día. Ir a una estación de Arcana o a un campamento de nivel 5 para fabricar una poción para modificar. Bebe la poción y, luego, elimina enemigos de nivel 55 o superior que soltarán aljez de topacio.\n•Aljez de diamante: 3 por día. Puedes conseguir aljez de diamante recolectando cualquier tipo de nodo en Aeternum. Esto suele cambiar durante los eventos de la temporada, como en la convergencia de invierno.\n•Aljez de granate: 2 por día. Se consigue en las arenas PvP de 3v3.</string>
+	<string key="ui_endgame_guide_body7">La forma de aumentar tu pericia en un tipo específico de equipo es mediante el aljez.\n\nEste viene en diferentes variedades y cada una se puede usar en un horno de aljez para fabricar un orbe de aljez. Necesitarás una cantidad específica de cada tipo para fabricar 1 orbe de aljez. Entonces, un orbe de aljez se puede usar para fabricar un molde de aljez de un tipo de equipo específico, el cual, una vez consumido, otorgará un salto de pericia garantizado para el tipo seleccionado de equipo. Además, otorgará una nueva pieza de equipo de la puntuación de equipo más alta.\n\nPuedes obtener aljez en cantidades variadas participando en diferentes actividades de la siguiente manera:\n\n•Aljez de obsidiana: 3 por día. Se consigue de los jefes nombrados del mundo abierto de nivel 60 o superior, comúnmente se encuentran en puntos de referencia élite.\n•Aljez de zafiro: 2 por día. Se consigue con los jefes finales del Instrumento de Lázaro y el Jardín del Génesis.\n•Aljez de rubí: 2 por día. Se consigue en avances a un puesto de avanzada (debes obtener al menos 501 puntos en la partida).\n•Aljez de esmeralda: 1 por día. Se consigue en los puntos de control de recompensa de aptitud de habilidad de oficio.\n•Aljez de citrino: 2 por día. Arenas de PvE.\nAljez de amatista: 7 por día. Cerrar invasiones de corrupción.\n•Aljez de topacio: 5 por día. Ir a una estación arcana o a un campamento de nivel 5 para fabricar una poción para modificar. Bebe la poción y, luego, elimina enemigos de nivel 55 o superior que soltarán aljez de topacio.\n•Aljez de diamante: 3 por día. Puedes conseguir aljez de diamante recolectando cualquier tipo de nodo en Aeternum. Esto suele cambiar durante los eventos de la temporada, como en la convergencia de invierno.\n•Aljez de granate: 2 por día. Se consigue en las arenas PvP de 3v3.</string>
 	<string key="ui_endgame_guide_body8">Los fragmentos umbríos se pueden usar para mejorar cualquier pieza de equipo con una puntuación del equipo mínima de 590 y hasta una máxima de 625. Si te lo equipas luego de mejorarlo, el equipo también aumentará tu puntuación de pericia.\n\nLos fragmentos umbríos se pueden obtener de OPR, abriendo cofres élite de nivel alto, en expediciones mutadas, fabricando equipo de nivel alto y abriendo moldes de aljez para ranuras de equipo que tengan un nivel de pericia de 600 o superior.</string>
 	<string key="ui_endgame_guide_button_view_guide">Ver guía</string>
 	<string key="ui_endgame_guide_button_dismiss">Ignorar</string>
@@ -2508,7 +2514,7 @@
 	<string key="ui_endgame_banner_subtitle">Bienvenido al fin de juego</string>
 	<string key="ui_factions">Facciones</string>
 	<string key="ui_factions_guide_1_header">Unirse a una facción</string>
-	<string key="ui_factions_guide_1_body">Antes de unirte a una facción, debes demostrarles tu valía a través de una serie de objetivos. Para comenzar, visita al representante de la facción en cualquier asentamiento.</string>
+	<string key="ui_factions_guide_1_body">Antes de unirte a una facción, debes demostrar tu valía completando una serie de misiones de iniciación de facción. Alcanza el nivel 17 y busca a quienes dan la misión inicial de cada facción en los alrededores o dentro del pueblo de Oxboro, en Everfall.</string>
 	<string key="ui_factions_guide_2_header">Beneficios de una facción</string>
 	<string key="ui_factions_guide_2_body">Cuando te unes a una facción, consigues acceso a las misiones de la facción, al PvP de mundo abierto y a las guerras. Podrás participar en el control cambiante de territorios para tu facción.\n\nSi te aventuras en un territorio controlado por tu facción, recibirás varios bonificadores diferentes, como un aumento de la ganancia de EXP.</string>
 	<string key="ui_factions_guide_3_header">Compañías</string>
@@ -2543,5 +2549,7 @@
 	<string key="ui_reset_daily_time">Se reinicia todos los días a las {time}</string>
 	<string key="ui_reset_weekly_time">Se reinicia una vez a la semana los {time}</string>
 	<string key="ui_buy_new_world">Comprar New World</string>
+	<string key="ui_transaction_failed_header">Error en la transacción</string>
+	<string key="ui_probation_account_restriction">Es necesario comprar New World para esta característica.</string>
 </resources>
 
