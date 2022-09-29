@@ -182,6 +182,7 @@
 	<string key="ui_guildrankofficer_THEY">Ufficiale</string>
 	<string key="ui_guildCannotInviteNoPrivilege">Impossibile inviare gli inviti della compagnia. Grado insufficiente.</string>
 	<string key="ui_guildCannotInviteNoFaction">Impossibile inviare gli inviti della compagnia. Non sei in una fazione.</string>
+	<string key="ui_guildcannotpromote_nofaction">Impossibile promuovere a Governatore. Non sei in una fazione.</string>
 	<string key="ui_guildranksettler" comment="Pronoun for Target Player">Colono</string>
 	<string key="ui_guildranksettler_SHE">Colona</string>
 	<string key="ui_guildranksettler_THEY">Colono</string>
@@ -227,6 +228,7 @@
 	<string key="ui_becomegovernor">Diventa Governatore</string>
 	<string key="ui_becomegovernor_SHE">Diventa Governatrice</string>
 	<string key="ui_becomegovernor_THEY">Diventa Governatore</string>
+	<string key="ui_becomegovernor_requires_faction">Unisciti alla fazione della gilda per diventare Governatore</string>
 	<string key="ui_permission_assign_structures">{allowed} assegnare strutture della compagnia</string>
 	<string key="ui_permission_build_structures">{allowed} costruire sulla terra della compagnia</string>
 	<string key="ui_permission_cancel_structures">{allowed} annullare strutture progettate</string>
@@ -463,6 +465,7 @@
 	<string key="ui_cantpromote_leaderatwar">Non puoi trasferire la leadership della compagnia durante la guerra</string>
 	<string key="ui_cantpromote_lackpermissionforrank">Non hai il permesso di promuovere membri al tuo grado o superiore</string>
 	<string key="ui_cantpromote_lackpermission">Non hai il permesso di promuovere membri</string>
+	<string key="ui_cantpromote_nonfactionmember">I membri devono unirsi a una fazione per essere promossi</string>
 	<string key="ui_cantdemote_lowestrank">È già il grado più basso possibile</string>
 	<string key="ui_cantdemote_lackpermissionforrank">Non hai il permesso di degradare membri al tuo grado o superiore</string>
 	<string key="ui_cantdemote_lackpermission">Non hai il permesso di degradare membri</string>
@@ -494,6 +497,7 @@
 	<string key="ui_forcedrename">Rinomina compagnia</string>
 	<string key="ui_forcedrename_title">Modifica nome compagnia</string>
 	<string key="ui_forcedrename_description">Il nome della tua compagnia è stato segnalato come inappropriato. Abbiamo assegnato un nome temporaneo che può essere modificato in qualsiasi momento.\n\nCodice di condotta:\n&lt;font color="#0000ff"&gt;&lt;a data="coc"&gt;visualizza il codice di condotta&lt;/a&gt;&lt;/font&gt;\n\nSe ritieni di aver ricevuto questa sanzione per errore, puoi presentare ricorso visitando:\n&lt;font color="#0000ff"&gt;&lt;a data="appealban"&gt;Presenta ricorso&lt;/a&gt;&lt;/font&gt;\n\nDesideri aggiornare il nome della compagnia adesso?</string>
+	<string key="ui_forcedrename_message">Il sistema ha cambiato il nome della compagnia in &lt;font color="#9e947e"&gt;{guildName}&lt;/font&gt;.</string>
 	<string key="ui_conquest_active_attack">Attacca</string>
 	<string key="ui_conquest_active_defend">Difendi</string>
 	<string key="ui_conquest_upcoming_attack">L'attacco inizia tra</string>

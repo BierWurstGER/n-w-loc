@@ -182,6 +182,7 @@
 	<string key="ui_guildrankofficer_THEY">Oficer</string>
 	<string key="ui_guildCannotInviteNoPrivilege">Nie można wysłać zaproszeń do kompanii. Za niski stopień.</string>
 	<string key="ui_guildCannotInviteNoFaction">Nie można wysłać zaproszeń do kompanii. Brak frakcji.</string>
+	<string key="ui_guildcannotpromote_nofaction">Nie można mianować do rangi zarządcy. Gracz nie należy do frakcji.</string>
 	<string key="ui_guildranksettler" comment="Pronoun for Target Player">Osadnik</string>
 	<string key="ui_guildranksettler_SHE">Osadniczka</string>
 	<string key="ui_guildranksettler_THEY">Osoba osadnicza</string>
@@ -227,6 +228,7 @@
 	<string key="ui_becomegovernor">Zostań zarządcą</string>
 	<string key="ui_becomegovernor_SHE">Zostań zarządczynią</string>
 	<string key="ui_becomegovernor_THEY">Zostań osobą zarządzającą</string>
+	<string key="ui_becomegovernor_requires_faction">Dołącz do frakcji, do której należy ta gildia, by zostać zarządcą</string>
 	<string key="ui_permission_assign_structures">Przydzielanie konstrukcji należących do kompanii: {allowed}</string>
 	<string key="ui_permission_build_structures">Budowanie na ziemi kompanii: {allowed}</string>
 	<string key="ui_permission_cancel_structures">Anulowanie budowania konstrukcji: {allowed}</string>
@@ -463,6 +465,7 @@
 	<string key="ui_cantpromote_leaderatwar">Nie można zmienić kapitana kompanii w trakcie wojny.</string>
 	<string key="ui_cantpromote_lackpermissionforrank">Nie masz pozwolenia na awansowanie członków o stopniu równym twojemu lub wyższym</string>
 	<string key="ui_cantpromote_lackpermission">Nie masz pozwolenia na awansowanie członków</string>
+	<string key="ui_cantpromote_nonfactionmember">Członek musi dołączyć do frakcji, by móc awansować na wyższą rangę</string>
 	<string key="ui_cantdemote_lowestrank">Gracz ma już najniższy możliwy stopień</string>
 	<string key="ui_cantdemote_lackpermissionforrank">Nie masz pozwolenia na degradowanie członków o stopniu równym twojemu lub wyższym</string>
 	<string key="ui_cantdemote_lackpermission">Nie masz pozwolenia na degradowanie członków</string>
@@ -494,6 +497,7 @@
 	<string key="ui_forcedrename">Zmiana nazwy kompanii</string>
 	<string key="ui_forcedrename_title">Zmiana nazwy kompanii</string>
 	<string key="ui_forcedrename_description">Nazwa twojej kompanii została uznana za niestosowną. Nadaliśmy nazwę tymczasową, którą można zmienić w dowolnym momencie.\n\nZasady postępowania:\n&lt;font color="#0000ff"&gt;&lt;a data="coc"&gt;Zobacz zasady postępowania&lt;/a&gt;&lt;/font&gt;\n\nJeśli uważasz, że karę nałożono na ciebie niesłusznie, możesz odwołać się od decyzji:\n&lt;font color="#0000ff"&gt;&lt;a data="appealban"&gt;Odwołaj się od decyzji&lt;/a&gt;&lt;/font&gt;\n\nCzy chcesz zmienić nazwę kompanii teraz?</string>
+	<string key="ui_forcedrename_message">System zmienił nazwę kompanii na &lt;font color="#9e947e"&gt;{guildName}&lt;/font&gt;.</string>
 	<string key="ui_conquest_active_attack">Atakuj</string>
 	<string key="ui_conquest_active_defend">Broń się</string>
 	<string key="ui_conquest_upcoming_attack">Atak zaczyna się za</string>

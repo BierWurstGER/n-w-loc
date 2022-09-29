@@ -250,6 +250,9 @@
 	<string key="OrichalcumLarge_DisplayName">Gisement d'orichalque</string>
 	<string key="OrichalcumDestroy_DisplayName">Gisement d'orichalque étrange</string>
 	<string key="DarknessOrichalcumSpire_DisplayName">Aiguille d'orichalque altérée</string>
+	<string key="GypsumOreLarge_DisplayName" rel_version="Territory_Brimstone_Sands">Gisement de gypse</string>
+	<string key="GypsumOreMedium_DisplayName" rel_version="Territory_Brimstone_Sands">Gisement de gypse</string>
+	<string key="GypsumOreSmall_DisplayName" rel_version="Territory_Brimstone_Sands">Gisement de gypse</string>
 	<string key="SandstoneLarge_DisplayName" rel_version="Territory_Brimstone_Sands">Grès</string>
 	<string key="SandstoneMedium_DisplayName" rel_version="Territory_Brimstone_Sands">Grès</string>
 	<string key="SandstoneSmall_DisplayName" rel_version="Territory_Brimstone_Sands">Grès</string>
@@ -373,6 +376,7 @@
 	<string key="LootContainer_Settlement_Water_DisplayName">Puiser de l'eau</string>
 	<string key="LootContainer_OpenStoneTomb_DisplayName">Sarcophage ouvert</string>
 	<string key="LootContainer_StoneTomb_DisplayName">Prendre les offrandes mortuaires</string>
+	<string key="LootContainer_AnubianStoneTomb_DisplayName">Prendre les offrandes des Anciens</string>
 	<string key="Item_PotionHealT1_DisplayName">Teinture mère de soin distillée</string>
 	<string key="Item_ClothT2_DisplayName">Morceaux de tissus</string>
 	<string key="Darkness_Monolith_DisplayName">Monolithe altéré</string>
@@ -476,9 +480,9 @@
 	<string key="0520_StygianChannelSegment_DisplayName">Prendre les fragments de rivière stygienne</string>
 	<string key="0521_WyrdwoodSeedPod_DisplayName">Récolter des graines de bois d'aléa</string>
 	<string key="0601_DirtHole_DisplayName">Récupérer échantillon</string>
-	<string key="0602_SpiceSackGreen_DisplayName">Récupérer sac de cardamome</string>
-	<string key="0602_SpiceSackRed_DisplayName">Récupérer sac de poivre</string>
-	<string key="0602_SpiceSackYellow_DisplayName">Récupérer sac de safran</string>
+	<string key="0602_SpiceSackGreen_DisplayName">Sac de cardamome</string>
+	<string key="0602_SpiceSackRed_DisplayName">Sac de poivre</string>
+	<string key="0602_SpiceSackYellow_DisplayName">Sac de safran</string>
 	<string key="0603_PrototypeAzothBomb_DisplayName">Placer explosif</string>
 	<string key="0604_AncientArtifactA_DisplayName">Artéfact des Anciens</string>
 	<string key="0605_AncientArtifactB_DisplayName">Artéfact des Anciens</string>
@@ -547,7 +551,7 @@
 	<string key="9926_0103_ActivityReport_DisplayName" rel_version="AI_Evil_Knights_P2">Récupérer le rapport d'activité</string>
 	<string key="9932_0104_RomacNotebook_DisplayName" rel_version="AI_Evil_Knights_P2">Récupérer le carnet de Romac</string>
 	<string key="MSQ_ShipsLocker_DisplayName">Casier de navire</string>
-	<string key="MSQ_Flag_DisplayName">Récupérer le pavillon du navire</string>
+	<string key="MSQ_Flag_DisplayName">Drapeau de navire</string>
 	<string key="MSQ_SalvagePile_A_DisplayName">Tas de récupération</string>
 	<string key="MSQ_SalvagePile_B_DisplayName">Tas de récupération</string>
 	<string key="MSQ_SalvagePile_C_DisplayName">Tas de récupération</string>
@@ -641,7 +645,7 @@
 	<string key="Dungeon_AncientConsole" rel_version="Expedition_BrimstoneSands_00">Activer la console ancienne</string>
 	<string key="Dungeon_AncientConsole_Locked" rel_version="Expedition_BrimstoneSands_00">Activer les six glyphes</string>
 	<string key="1650_0101_Idol_DisplayName">Chercher l'idole brisée</string>
-	<string key="1602_0101_Note_DisplayName">Récupérer la note d'archéologie</string>
+	<string key="1602_0101_Note_DisplayName">Prendre le rapport de la Légion</string>
 	<string key="1602_0101_Tablet_DisplayName">Récupérer la tablette ancienne</string>
 	<string key="1602_0401_StatuePanacea_DisplayName">Appliquer la panacée</string>
 	<string key="1605_0901_EnneadPrimeLock_DisplayName">Insérer la clé primordiale</string>
@@ -738,16 +742,19 @@
 	<string key="AnubianBrute_Base_DisplayName" rel_version="Territory_Brimstone_Sands">Automate anubien</string>
 	<string key="AnubianPanther_Base_DisplayName" rel_version="Territory_Brimstone_Sands">Automate sphinx</string>
 	<string key="16BS_LootContainer_Elite_LegionStoneTomb_DisplayName" rel_version="Territory_Brimstone_Sands">Offrandes mortuaires d'élite</string>
-	<string key="Nightveil_Settlement_Stage_Master_DisplayName" rel_version="Event_Halloween_Temp">Medleyfaire Stage Centerpiece</string>
-	<string key="Nightveil_Settlement_Stage_T1_DisplayName" rel_version="Event_Halloween_Temp">Dismal Vortex</string>
-	<string key="Nightveil_Settlement_Stage_T2_DisplayName" rel_version="Event_Halloween_Temp">Grand Vortex</string>
-	<string key="Nightveil_Settlement_Stage_T3_DisplayName" rel_version="Event_Halloween_Temp">Opulent Vortex</string>
-	<string key="Nightveil_Settlement_Stage_Description" rel_version="Event_Halloween_Temp">Compete Medleyfaire Town Projects to upgrade the glory and rewards bestowed by the stage!</string>
-	<string key="Nightveil_Village_BobbingStation_DisplayName" rel_version="Event_Halloween_Temp">Bobbing-for-Stuff</string>
-	<string key="Nightveil_Village_BobbingStation_Description" rel_version="Event_Halloween_Temp">Dunk your head in and fish out a spooktastic prize!</string>
-	<string key="Nightveil_SuspiciousPumpkin_DisplayName" rel_version="Event_Halloween_Temp">Suspicious Pumpkin</string>
-	<string key="Nightveil_InvocationSigil_DisplayName" rel_version="Event_Halloween_Temp">Place Invocation Sigil</string>
-	<string key="Nightviel_Baalphazu_Nethermaw_DisplayName" rel_version="Event_Halloween_Temp">Channel Baalphazu</string>
+	<string key="Nightveil_Settlement_Stage_Master_DisplayName" rel_version="Event_Halloween_Temp">Scène centrale des Mélégies</string>
+	<string key="Nightveil_Settlement_Stage_T1_DisplayName" rel_version="Event_Halloween_Temp">Vortex dérisoire</string>
+	<string key="Nightveil_Settlement_Stage_T2_DisplayName" rel_version="Event_Halloween_Temp">Grand vortex</string>
+	<string key="Nightveil_Settlement_Stage_T3_DisplayName" rel_version="Event_Halloween_Temp">Vortex majestueux</string>
+	<string key="Nightveil_Settlement_Stage_Description" rel_version="Event_Halloween_Temp">Terminez des projets urbains des Mélégies pour améliorer la gloire et les récompenses qu'offre la scène !</string>
+	<string key="Nightveil_Village_BobbingStation_DisplayName" rel_version="Event_Halloween_Temp">Pêche à pleines dents</string>
+	<string key="Nightveil_Village_BobbingStation_Description" rel_version="Event_Halloween_Temp">Plongez la tête et attrapez un prix à faire peur !</string>
+	<string key="Nightveil_ThrowablePumpklin_DisplayName" rel_version="Event_Halloween_Temp">Tête de citrouillard</string>
+	<string key="Nightveil_SuspiciousPumpkin_DisplayName" rel_version="Event_Halloween_Temp">Potiron suspect</string>
+	<string key="Nightveil_InvocationSigil_DisplayName" rel_version="Event_Halloween_Temp">Placer le sceau d'invocation</string>
+	<string key="Nightviel_Baalphazu_Nethermaw_DisplayName" rel_version="Event_Halloween_Temp">Canaliser Baalphazu</string>
+	<string key="Nightveil_Settlement_Cauldron_DisplayName" rel_version="Event_Halloween_Temp">Chaudron du Voile nocturne</string>
+	<string key="Nightveil_Settlement_Cauldron_Description" rel_version="Event_Halloween_Temp">La saison du Voile nocturne est arrivée en Aeternum et avec elle, une incroyable terreur ! Rendez visite à Salvator et aidez-le à combattre les forces des ténèbres et obtenez des récompenses exceptionnelles !</string>
 	<string key="FM_PVP_War_Camp_Loot_Box_DisplayName">Coffre du camp de guerre</string>
 	<string key="1130_ArcaneFocus1_DisplayName">Concentration arcanique</string>
 	<string key="1130_ArcaneFocus2_DisplayName">Concentration arcanique</string>
@@ -794,15 +801,17 @@
 	<string key="0601_0101_weapon_02_warhammer_DisplayName">Choisir le marteau d'armes éprouvé</string>
 	<string key="0601_0101_weapon_03_bow_DisplayName">Choisir l'arc éprouvé</string>
 	<string key="0601_0101_weapon_04_firestaff_DisplayName">Choisir le bâton de feu éprouvé</string>
+	<string key="16BS_AncientGlyph_Backup_DisplayName" rel_version="Territory_Brimstone_Sands">Étudier le glyphe ancien</string>
 	<string key="16BS_AncientGlyphLock_Strange_DisplayName" rel_version="Territory_Brimstone_Sands">Glyphe non identifié</string>
 	<string key="16BS_AncientGlyphLock_Strange_Description" rel_version="Territory_Brimstone_Sands">Un glyphe des Anciens est proche. Utilisez votre bâton d'Azoth pour apprendre son pouvoir.</string>
 	<string key="16BS_AncientGlyphLock_DisplayName" rel_version="Territory_Brimstone_Sands">Traduire le glyphe ancien</string>
+	<string key="16BS_AncientGlyphLock_Sutekh_DisplayName" rel_version="Territory_Brimstone_Sands">Sarcophage de Sutekh</string>
 	<string key="16BS_AncientTowerDoor_DisplayName" rel_version="Territory_Brimstone_Sands">Porte du Temple des Anciens</string>
 	<string key="16BS_AncientGlyphWall_Exit_DisplayName" rel_version="Territory_Brimstone_Sands">Porte du glyphe ancien</string>
 	<string key="16BS_AncientGlyphLearn_DisplayName" rel_version="Territory_Brimstone_Sands">Desceller le glyphe ancien</string>
 	<string key="16BS_AncientTeleporter_DisplayName" rel_version="Territory_Brimstone_Sands">Choisir ce glyphe</string>
 	<string key="16BS_AncientTeleporter_MapPillar_DisplayName" rel_version="Territory_Brimstone_Sands">Activer l'obélisque</string>
-	<string key="16BS_AncientTeleporter_Entrance_DisplayName" rel_version="Territory_Brimstone_Sands">Franchir le portail</string>
+	<string key="16BS_AncientTeleporter_Entrance_DisplayName" rel_version="Territory_Brimstone_Sands">Activer la plateforme</string>
 	<string key="16BS_AncientTeleporter_ShortRange_DisplayName" rel_version="Territory_Brimstone_Sands">Traduire le glyphe ancien</string>
 	<string key="16BS_AncientTeleporter_ToHermopolis_DisplayName" rel_version="Territory_Brimstone_Sands">Portail vers Hermopolis</string>
 	<string key="16BS_AncientTeleporter_HermopolisLeft_DisplayName" rel_version="Territory_Brimstone_Sands">Portail vers les lits de Ta-Bitjet</string>
@@ -812,7 +821,8 @@
 	<string key="16BS11_AncientTeleporter_Down_DisplayName" rel_version="Territory_Brimstone_Sands">Portail vers le grand sanctuaire de Thot</string>
 	<string key="16BS05_AncientTeleporter_WestWall_DisplayName" rel_version="Territory_Brimstone_Sands">Portail vers la Grande muraille de Nebet-Het</string>
 	<string key="16BS05_AncientTeleporter_EastWall_DisplayName" rel_version="Territory_Brimstone_Sands">Portail vers la Grande muraille de Nebet-Het</string>
-	<string key="16BS_HeartgemUpgrade_DisplayName" rel_version="Territory_Brimstone_Sands">Balance de la Justice</string>
+	<string key="16BS_HeartgemUpgrade_DisplayName" rel_version="Territory_Brimstone_Sands">Retrouver le joyau de cœur renforcé</string>
+	<string key="16BS_Prepare_HeartgemUpgrade_DisplayName" rel_version="Territory_Brimstone_Sands">Placer le joyau de cœur</string>
 	<string key="1679_0101_FrostcliffBerry_DisplayName" rel_version="Territory_Brimstone_Sands">Récolter une baie du Pic-de-Givre</string>
 	<string key="1666_0101_CharmionScroll_DisplayName" rel_version="Territory_Brimstone_Sands">Lire « L'héritage de Rome »</string>
 	<string key="1625_0101_LegionGear_DisplayName" rel_version="Territory_Brimstone_Sands">Fouiller l'équipement</string>
@@ -843,9 +853,9 @@
 	<string key="1624_1001_VineWall_DisplayName" rel_version="Territory_Brimstone_Sands">Détruire les lianes</string>
 	<string key="1624_1001_ArtemisCrystal_DisplayName" rel_version="Territory_Brimstone_Sands">Toucher le cristal</string>
 	<string key="NPCRescue_Generic_NPC_DisplayName" rel_version="Quest_MSQ2_Revamp">Délier les chaînes</string>
-	<string key="MSQ_ShipWheel_DisplayName" rel_version="Quest_MSQ2_Revamp">Récupérer la barre du navire</string>
+	<string key="MSQ_ShipWheel_DisplayName" rel_version="Quest_MSQ2_Revamp">Barre</string>
 	<string key="MSQ_Grace_Trapped_DisplayName" rel_version="Quest_MSQ2_Revamp">Cage d'altération</string>
-	<string key="MSQ_ShipManifest_DisplayName" rel_version="Quest_MSQ2_Revamp">Récupérer le registre du navire</string>
+	<string key="MSQ_ShipManifest_DisplayName" rel_version="Quest_MSQ2_Revamp">Registre du navire</string>
 	<string key="98_Covenant_01_Crest_DisplayName" rel_version="Quest_MSQ2_Revamp">Décrocher les armoiries de la ville</string>
 	<string key="98_Covenant_02_Captive_DisplayName" rel_version="Quest_MSQ2_Revamp">Relâcher le prisonnier</string>
 	<string key="98_Covenant_02_Grimoire_DisplayName" rel_version="Quest_MSQ2_Revamp">Prendre le grimoire</string>
@@ -854,19 +864,24 @@
 	<string key="98_Marauders_02_PirateBanner_DisplayName" rel_version="Quest_MSQ2_Revamp">Brûler la bannière pirate</string>
 	<string key="98_Marauders_02_ExplosiveBarrel_DisplayName" rel_version="Quest_MSQ2_Revamp">Réquisitionner le tonneau explosif</string>
 	<string key="98_Marauders_02_PirateHoard_DisplayName" rel_version="Quest_MSQ2_Revamp">Piller le trésor pirate</string>
+	<string key="98_Marauders_03_ExplosivePlacementA_DisplayName" rel_version="Quest_MSQ2_Revamp">Placer le tonneau explosif</string>
+	<string key="98_Marauders_03_ExplosivePlacementB_DisplayName" rel_version="Quest_MSQ2_Revamp">Placer le tonneau explosif</string>
+	<string key="98_Marauders_03_CaptiveA_DisplayName" rel_version="Quest_MSQ2_Revamp">Libérer la recrue des Maraudeurs</string>
+	<string key="98_Marauders_03_CaptiveB_DisplayName" rel_version="Quest_MSQ2_Revamp">Libérer le garde des Maraudeurs</string>
+	<string key="98_Marauders_03_CaptiveC_DisplayName" rel_version="Quest_MSQ2_Revamp">Libérer le rempart des Maraudeurs</string>
 	<string key="98_Syndicate_01_WolfLure_DisplayName" rel_version="Quest_MSQ2_Revamp">Placer le leurre pour loup</string>
 	<string key="98_Syndicate_02_AzothTreeWater_DisplayName" rel_version="Quest_MSQ2_Revamp">Récolter l'eau de l'arbre d'Azoth</string>
 	<string key="98_Syndicate_03_WaterBarrel_DisplayName" rel_version="Quest_MSQ2_Revamp">Briser le tonneau d'eau</string>
 	<string key="98_Syndicate_03_Well_A_DisplayName" rel_version="Quest_MSQ2_Revamp">Verser le philtre dans le puits</string>
 	<string key="98_Syndicate_03_Well_B_DisplayName" rel_version="Quest_MSQ2_Revamp">Verser le philtre dans le puits</string>
-	<string key="MSQ_Treasure_A_DisplayName" rel_version="Quest_MSQ2_Revamp">Récupérer l'astrolabe</string>
-	<string key="MSQ_Treasure_B_DisplayName" rel_version="Quest_MSQ2_Revamp">Récupérer le candélabre</string>
-	<string key="MSQ_Treasure_C_DisplayName" rel_version="Quest_MSQ2_Revamp">Ramasser le calice</string>
+	<string key="MSQ_Treasure_A_DisplayName" rel_version="Quest_MSQ2_Revamp">Astrolabe</string>
+	<string key="MSQ_Treasure_B_DisplayName" rel_version="Quest_MSQ2_Revamp">Candélabre</string>
+	<string key="MSQ_Treasure_C_DisplayName" rel_version="Quest_MSQ2_Revamp">Calice</string>
 	<string key="Gimmick_FallingRubble_DisplayName" rel_version="Quest_MSQ2_Revamp">Rocher piégé</string>
 	<string key="BoatEncounter_Cannon_01" rel_version="Quest_MSQ2_Revamp">Faire feu avec le canon</string>
-	<string key="Holdout_Interact_DisplayName" rel_version="Quest_MSQ2_Revamp">Commencer le Rempart</string>
+	<string key="Holdout_Interact_DisplayName" rel_version="Quest_MSQ2_Revamp">Commencer l'Épreuve</string>
 	<string key="Brazier_Interact_DisplayName" rel_version="Quest_MSQ2_Revamp">Allumer le brasero</string>
-	<string key="InteractObject_Interact_Corsairs_Quest" rel_version="Quest_MSQ2_Revamp">Cache de ravitaillement pirate</string>
+	<string key="InteractObject_Interact_Corsairs_Quest" rel_version="Quest_MSQ2_Revamp">Couler les réserves des pirates</string>
 	<string key="MSQ_HeadStatue_DisplayName" rel_version="Quest_MSQ2_Revamp">Examiner</string>
 	<string key="99A_MSQ_01_02_Armor_DisplayName" rel_version="Quest_MSQ2_Revamp">Restes d'armure abandonnés</string>
 	<string key="99a_MSQ_05_PopClot_DisplayName" rel_version="Quest_MSQ2_Revamp">Altération incubée</string>
@@ -882,13 +897,13 @@
 	<string key="99A_MSQ_13_LargeCorruption_DisplayName" rel_version="Quest_MSQ2_Revamp">Altération colossale</string>
 	<string key="99A_MSQ_14b_YetiCave_DisplayName" rel_version="Quest_MSQ2_Revamp">Encaissement glacé</string>
 	<string key="99A_MSQ_14b_HeartgemCraftSpot_DisplayName" rel_version="Quest_MSQ2_Revamp">Source d'Azoth</string>
-	<string key="MB_MSQ2_Banner_Gawain_DisplayName" rel_version="Quest_MSQ2_Revamp">Bannière de Gawain</string>
+	<string key="MB_MSQ2_Banner_Gawain_DisplayName" rel_version="Quest_MSQ2_Revamp">Bannière de Gauvain</string>
 	<string key="MB_MSQ2_Robes_Chest_DisplayName" rel_version="Quest_MSQ2_Revamp">Coffre de robes</string>
 	<string key="MB_MSQ2_Mining_Supplies_DisplayName" rel_version="Quest_MSQ2_Revamp">Matériel de minage</string>
 	<string key="MB_MSQ2_Crate_Interact_DisplayName" rel_version="Quest_MSQ2_Revamp">Brûler les réserves</string>
-	<string key="MB_MSQ2_Anchor_DisplayName" rel_version="Quest_MSQ2_Revamp">Détruire l'ancre rouillée</string>
+	<string key="MB_MSQ2_Anchor_DisplayName" rel_version="Quest_MSQ2_Revamp">Détruire l'ancre</string>
 	<string key="MB_MSQ2_Wine_DisplayName" rel_version="Quest_MSQ2_Revamp">Jarre de vin</string>
-	<string key="MB_MSQ2_DefeatNavigator_Altar_DisplayName" rel_version="Quest_MSQ2_Revamp">Sanctuaire inquiétant</string>
+	<string key="MB_MSQ2_DefeatNavigator_Altar_DisplayName" rel_version="Quest_MSQ2_Revamp">Autel inquiétant</string>
 	<string key="MB_MSQ2_DefeatNavigator_Rubble_DisplayName" rel_version="Quest_MSQ2_Revamp">Fouiller les décombres</string>
 	<string key="MB_MSQ2_ArtifactShards_Box_DisplayName" rel_version="Quest_MSQ2_Revamp">Vase canope</string>
 	<string key="MB_MSQ2_GatherJewels_stone_DisplayName" rel_version="Quest_MSQ2_Revamp">Pierre étincelante</string>
@@ -904,7 +919,7 @@
 	<string key="MB_MSQ2_DefeatGawain_Crown_DisplayName" rel_version="Quest_MSQ2_Revamp">Récupérer</string>
 	<string key="MB_MSQ2_KnightsCrest_Crest_DisplayName" rel_version="Quest_MSQ2_Revamp">Récupérer</string>
 	<string key="MB_MSQ2_DestroyShrine_Mast_DisplayName" rel_version="Quest_MSQ2_Revamp">Brûler le navire</string>
-	<string key="MB_MSQ2_DestroyShrine_Alter_DisplayName" rel_version="Quest_MSQ2_Revamp">Sanctuaire renforcé</string>
+	<string key="MB_MSQ2_DestroyShrine_Alter_DisplayName" rel_version="Quest_MSQ2_Revamp">Autel renforcé</string>
 	<string key="MB_MSQ2_BreakCurse_Device_DisplayName" rel_version="Quest_MSQ2_Revamp">Briser l'instrument</string>
 	<string key="MB_MSQ2_PlaceFlowers_Lily_DisplayName" rel_version="Quest_MSQ2_Revamp">Récupérer</string>
 	<string key="MB_MSQ2_PlaceFlowers_Bouquet_DisplayName" rel_version="Quest_MSQ2_Revamp">Placer le bouquet</string>
@@ -939,20 +954,21 @@
 	<string key="04A_Side05_03_Delivery_DisplayName" rel_version="Quest_MSQ2_Revamp">Paquet non marqué</string>
 	<string key="04A_Side05_03_Delivery_DropSpot_DisplayName" rel_version="Quest_MSQ2_Revamp">Point de chute</string>
 	<string key="04A_Side08_02_SecretIngredient_DisplayName" rel_version="Quest_MSQ2_Revamp">Hortensia imprégné</string>
+	<string key="04A_Side10_01_CopperSeam" rel_version="Quest_MSQ2_Revamp">Riche veine de cuivre</string>
 	<string key="Gimmick_BreakingWallsCannon_DisplayName" rel_version="Quest_MSQ2_Revamp">Faire feu avec le canon</string>
 	<string key="06A_MSQ_05_windmillTurn_DisplayName" rel_version="Quest_MSQ2_Revamp">Tourner les moulins à vent</string>
-	<string key="06A_MSQ_05_grainSack_DisplayName" rel_version="Quest_MSQ2_Revamp">Récupérer les céréales</string>
+	<string key="06A_MSQ_05_grainSack_DisplayName" rel_version="Quest_MSQ2_Revamp">Sac rempli de céréales</string>
 	<string key="06A_MSQ_05_foodCart_DisplayName" rel_version="Quest_MSQ2_Revamp">Placer la nourriture récupérée</string>
 	<string key="06A_MSQ_Lijsbet_Trapped_DisplayName">Sauver Lijsbet</string>
 	<string key="06A_MSQ_Michael_Trapped_DisplayName">Sauver Michael</string>
 	<string key="06A_MSQ_Nessa_Trapped_DisplayName">Sauver Nessa</string>
 	<string key="06A_MSQ_Gideon_Trapped_DisplayName">Sauver Gideon</string>
 	<string key="06A_MSQ_11_pirateCrates_DisplayName">Fracasser la caisse</string>
-	<string key="06A_MSQ_12_marcelsHat_DisplayName" rel_version="Quest_MSQ2_Revamp">Prendre le chapeau</string>
-	<string key="06A_MSQ_13_verdantJewel_DisplayName" rel_version="Quest_MSQ2_Revamp">Placer le joyau verdoyant</string>
+	<string key="06A_MSQ_12_marcelsHat_DisplayName" rel_version="Quest_MSQ2_Revamp">Chapeau de Marcel</string>
+	<string key="06A_MSQ_13_verdantJewel_DisplayName" rel_version="Quest_MSQ2_Revamp">Placer la gemme verdoyante</string>
 	<string key="06A_MSQ_14_map_DisplayName">Recopier la carte</string>
-	<string key="06A_MSQ_15_speakersChest_DisplayName" rel_version="Quest_MSQ2_Revamp">Récupérer le joyau dans le coffre</string>
-	<string key="06A_IR_02_WeaponsRack_DisplayName" rel_version="Quest_MSQ2_Revamp">Prendre l'épée de la Rose de Fer</string>
+	<string key="06A_MSQ_15_speakersChest_DisplayName" rel_version="Quest_MSQ2_Revamp">Gemme verdoyante volée</string>
+	<string key="06A_IR_02_WeaponsRack_DisplayName" rel_version="Quest_MSQ2_Revamp">Épée de la Rose de Fer</string>
 	<string key="Cyclic_06A_MSQ_puzzlestone_DisplayName">Tourner la pierre</string>
 	<string key="Gimmick_CaveIn_DisplayName" rel_version="Quest_MSQ2_Revamp">Allumer baril de poudre</string>
 	<string key="Damned_Cultist_Chaplain_GlyphIO" rel_version="Quest_MSQ2_Revamp">Mystérieux glyphe d'Azoth</string>
@@ -964,13 +980,15 @@
 	<string key="04A_Side04_02_Proximity_InvestigationSpot02" rel_version="Quest_MSQ2_Revamp">Explorer la zone</string>
 	<string key="04A_Side04_02_Proximity_InvestigationSpot03" rel_version="Quest_MSQ2_Revamp">Explorer la zone</string>
 	<string key="04A_Side04_03_EarthPatch" rel_version="Quest_MSQ2_Revamp">Empoisonner la terre</string>
-	<string key="MSQ_Thorpes_Box_DisplayName" rel_version="Quest_MSQ2_Revamp">Examiner la boîte mystérieuse</string>
+	<string key="MSQ_Thorpes_Box_DisplayName" rel_version="Quest_MSQ2_Revamp">Boîte mystérieuse</string>
 	<string key="06A_Z_02_Wyrdwood_DisplayName" rel_version="Quest_MSQ2_Revamp">Récupérer une branche de bois d'aléa</string>
 	<string key="MB_MSQ2_ReleaseCrystal_DisplayName" rel_version="Quest_MSQ2_Revamp">Libérer l'énergie</string>
+	<string key="MSQ_CorruptedMaw_DisplayName" rel_version="Quest_MSQ2_Revamp">Détruire la bouche d'altération</string>
 	<string key="16_Side_12_DragonEgg_DisplayName" rel_version="Territory_Brimstone_Sands">Récupérer des œufs de « dragon »</string>
 	<string key="16_Side_13_WormSpine_DisplayName" rel_version="Territory_Brimstone_Sands">Récupérer l'épine étrange</string>
 	<string key="NPCRescue_Dryad_DisplayName" rel_version="Quest_MSQ2_Revamp">Libérer la dryade</string>
 	<string key="Dungeon_BrimstoneSands00_TranslateGlyph" rel_version="Territory_Brimstone_Sands">Activer la console du glyphe</string>
 	<string key="Armadillo_Base_DisplayName" rel_version="Territory_Brimstone_Sands">Tamanoir</string>
+	<string key="Rat_Base_DisplayName" rel_version="Territory_Brimstone_Sands">Rat</string>
 </resources>
 

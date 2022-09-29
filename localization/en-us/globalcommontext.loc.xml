@@ -1691,6 +1691,7 @@
 	<string key="ui_characters_count">Characters:</string>
 	<string key="ui_characters">Characters</string>
 	<string key="ui_map_legend">Legend.</string>
+	<string key="ui_time_left">{time} left</string>
 	<string key="ui_autocompletetimedout">Auto complete timed out.</string>
 	<string key="ui_autocompletethrottled">Auto complete throttled.</string>
 	<string key="ui_searchitem">Search Items</string>
@@ -2152,6 +2153,8 @@
 	<string key="ui_clusterwarning_description2">If you have friends playing in other {worldSetName} Worlds, you will not be able to play with them.</string>
 	<string key="ui_clusterwarning_freshstart">Only new characters can be created in {worldName}. Characters cannot transfer to and from this Fresh Start World.</string>
 	<string key="ui_clusterwarning_non_freshstart">Characters may transfer to and from this world.</string>
+	<string key="ui_clusterwarning_transferoutonly">Characters cannot transfer to this world.\nCharacters may transfer from this world.</string>
+	<string key="ui_clusterwarning_transferinonly">Characters may transfer to this world.\nCharacters cannot transfer from this world.</string>
 	<string key="ui_character_world_info">{worldName}</string>
 	<string key="ui_cannotPin_atMax">Cannot pin any more objectives.</string>
 	<string key="ui_clusterwarning_body">&lt;font color="#ffffff"&gt;You can only have 1 character in the {worldSetName} world group.&lt;/font&gt;\n\nIf you ever want to play on a different {worldSetName} world, you will need to delete your character on {worldName} and create a new one on a different world.\n\nIf you have friends playing on other {worldSetName} worlds, you will not be able to play with them.</string>
