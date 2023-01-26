@@ -642,6 +642,7 @@
 	<string key="AI_Damage_Buff_DisplayName">Brutalność</string>
 	<string key="AI_StaminaDamage_Buff_DisplayName">Pokiereszowanie</string>
 	<string key="AI_Health_Buff_DisplayName">Pokrzepienie</string>
+	<string key="AI_Health_2_Buff_DisplayName">Pokrzepienie II</string>
 	<string key="AI_Armor_Buff_DisplayName">Opancerzenie</string>
 	<string key="AI_ColdAura_Buff_DisplayName">Aura zimna</string>
 	<string key="AI_DiseaseAura_Buff_DisplayName">Aura choroby</string>
@@ -663,14 +664,6 @@
 	<string key="AI_Slime_Slow_DisplayName">Lepki</string>
 	<string key="AI_Slime_Slow_Tooltip">Szybkość ruchu ulega zmniejszeniu o {[Type_StatusEffectData.AI_Slime_Slow.MoveSpeedMod * -100]}%.</string>
 	<string key="AI_PillarGoat_Buff_DisplayName" rel_version="Territory_Brimstone_Sands">Arogancja</string>
-	<string key="AI_HalloweenPlaguer_PumpkinPlague_DisplayName" rel_version="Event_Halloween_Temp">Dyniowa zaraza</string>
-	<string key="AI_HalloweenPlaguer_PumpkinPlague_Tooltip" rel_version="Event_Halloween_Temp">Zmniejsza przywracane zdrowie o {[Type_StatusEffectData.AI_HalloweenPlaguer_PumpkinPlague.HealMod * -100]}% na {[Type_StatusEffectData.AI_HalloweenPlaguer_PumpkinPlague.BaseDuration]} s. Kumuluje się {[Type_StatusEffectData.AI_HalloweenPlaguer_PumpkinPlague.StackMax]} razy.</string>
-	<string key="AI_HalloweenBoss_PumpkinPlague_DisplayName" rel_version="Event_Halloween_Temp">Dyniowa zaraza</string>
-	<string key="AI_HalloweenBoss_PumpkinPlague_Tooltip" rel_version="Event_Halloween_Temp">Zmniejsza przywracane zdrowie o {[Type_StatusEffectData.AI_HalloweenPlaguer_PumpkinPlague.HealMod * -100]}% na {[Type_StatusEffectData.AI_HalloweenPlaguer_PumpkinPlague.BaseDuration]} s. Kumuluje się {[Type_StatusEffectData.AI_HalloweenPlaguer_PumpkinPlague.StackMax]} razy.</string>
-	<string key="AI_HalloweenGourdspewer_HealPuddle_DisplayName" rel_version="Event_Halloween_Temp">Aura oczyszczająca</string>
-	<string key="AI_HalloweenGourdspewer_HealPuddle_Tooltip" rel_version="Event_Halloween_Temp">Usuwa dyniową zarazę i przywraca {[Type_StatusEffectData.AI_HalloweenGourdspewer_HealPuddle.HealthModifierPercent * 100]}% podstawowego zdrowia co {[Type_StatusEffectData.AI_HalloweenGourdspewer_HealPuddle.TickRate]} s.</string>
-	<string key="AI_HalloweenPlaguer_HealPuddle_DisplayName" rel_version="Event_Halloween_Temp">Aura oczyszczająca</string>
-	<string key="AI_HalloweenPlaguer_HealPuddle_Tooltip" rel_version="Event_Halloween_Temp">Usuwa dyniową zarazę i przywraca {[Type_StatusEffectData.AI_HalloweenPlaguer_HealPuddle.HealthModifierPercent * 100]}% podstawowego zdrowia co {[Type_StatusEffectData.AI_HalloweenPlaguer_HealPuddle.TickRate]} s.</string>
 	<string key="AI_HalloweenBoss_PutridAura_DisplayName">Klątwa Baalfazu</string>
 	<string key="AI_HalloweenBoss_PutridAura_Tooltip">Otrzymujesz obrażenia od natury w wysokości {[Type_StatusEffectData.HalloweenBoss_Putrid_Aura_DoT_Damage.HealthModifierDamageBased * -100]}% podstawowych obrażeń co {[Type_StatusEffectData.HalloweenBoss_Putrid_Aura_DoT_Damage.TickRate * 6]} s.</string>
 	<string key="AI_SpiderBite_Tooltip">Zatrucie zadające {[Type_StatusEffectData.AI_SpiderBite.HealthModifierDamageBased * -100]}% podstawowych obrażeń od natury co {[Type_StatusEffectData.AI_SpiderBite.TickRate]} s przez {[Type_StatusEffectData.AI_SpiderBite.BaseDuration]} s.</string>
@@ -1464,6 +1457,7 @@
 	<string key="Status_Passive_Lifestaff_Protection_HealingOnDodge_description">Zwiększa leczenie o {[Type_StatusEffectData.Status_Passive_Lifestaff_Protection_HealingOnDodge.HealScalingValueMultiplier * 100]}%.</string>
 	<string key="Status_Passive_Lifestaff_Protection_HasteWhenLow_description">Zmniejsza szybkość ruchu o {[Type_StatusEffectData.Status_Passive_Lifestaff_Protection_HasteWhenLow.SprintSpeedMod * 100]}%.</string>
 	<string key="Status_Passive_Lifestaff_Protection_HasteWhenLow_Timer_description">Czas upłynie, będzie można znów użyć równowagi.</string>
+	<string key="Status_Passive_Lifestaff_Healing_HealingBuffonBasic_name">Intensyfikacja</string>
 	<string key="Status_Passive_Lifestaff_Healing_HealingBuffonBasic_description">Zwiększa leczenie o {[Type_StatusEffectData.Status_Passive_Lifestaff_Healing_HealingBuffonBasic.HealScalingValueMultiplier * 100]}%.</string>
 	<string key="Status_Passive_Lifestaff_Healing_AoeHealWhenHit_description">Lecznicza aura przywracająca tobie i twoim znajomym znajdującym się w promieniu 4 metrów zdrowie w wysokości {[Type_StatusEffectData.Status_Passive_Lifestaff_Healing_AoeHealWhenHit.HealthModifierDamageBased * 100]}% obrażeń od broni na sekundę.</string>
 	<string key="Status_Ability_Lifestaff_SacredGround">Święta ziemia</string>
@@ -1674,7 +1668,7 @@
 	<string key="StatusTestCrafting_DisplayName">TestCrafting</string>
 	<string key="Status_Rune_StoneForm">Kamienna forma</string>
 	<string key="Status_Rune_StoneForm_Desc">Niewrażliwość na efekty obezwładniające.</string>
-	<string key="Status_Rune_StoneForm_Major_Desc">Zapewnia niewrażliwość na wszystkie efekty obezwładniające i zwiększa pochłanianie obrażeń o {[Type_StatusEffectData.Rune_StoneForm_Major.ABSStandard * 100]}%.</string>
+	<string key="Status_Rune_StoneForm_Major_Desc">Zwiększa pochłanianie obrażeń o {[Type_StatusEffectData.Rune_StoneForm_Major.ABSStandard * 100]}%.</string>
 	<string key="Status_Rune_StoneForm_Survivor_Desc">Zapewnia niewrażliwość na wszystkie efekty obezwładniające i przywraca zdrowie w wysokości {[Type_StatusEffectData.Rune_StoneForm_Survivor.HealthModifierDamageBased * 100]}% obrażeń od run co sekundę.</string>
 	<string key="Status_Rune_StoneForm_Greater_Desc">Zwiększa pochłanianie obrażeń o {[Type_StatusEffectData.Rune_StoneForm_Greater.ABSStandard * 100]}%.</string>
 	<string key="Status_Rune_CannonBlast_Major_Desc">Podpalenie zadające {[Type_StatusEffectData.Rune_CannonBlast_Burn.HealthModifierDamageBased * -100]}% obrażeń od run co sekundę.</string>
@@ -1689,6 +1683,11 @@
 	<string key="Status_Rune_GraspingVines_Dominator_ReducedStamRegen_Desc">Zmniejsza szybkość regeneracji wytrzymałości o {[Type_StatusEffectData.Rune_GraspingVines_Dominator_ReduceStamRegen.StaminaRate * -100]}%.</string>
 	<string key="Status_Rune_HereticsFall_Greater_Desc">Zmniejsza szybkość ruchu o {[Type_StatusEffectData.Rune_HereticsFall_Greater.MoveSpeedMod * -100]}%.</string>
 	<string key="Status_Rune_HereticsFall_Survivor_Desc">Zwiększa pochłanianie obrażeń o {[Type_StatusEffectData.Rune_HereticsFall_Survivor.ABSStandard * 100]}%, w zamian zmniejszając zadawane obrażenia o {[Type_StatusEffectData.Rune_HereticsFall_Survivor.DMGStandard * -100]}%.</string>
+	<string key="Status_Rune_BileBomb_Desc" rel_version="Feature_Heartgems_BileBomb">Zmniejsza otrzymywane leczenie o {[Type_StatusEffectData.Rune_BileBomb.HealMod * -100]}%. Ponadto otrzymujesz {[Type_StatusEffectData.Rune_BileBomb.HealthModifierDamageBased * -100]}% obrażeń od runy serca atakującego na sekundę.</string>
+	<string key="Status_Rune_BileBomb_Major_Desc" rel_version="Feature_Heartgems_BileBomb">Zmniejsza szybkość ruchu o {[Type_StatusEffectData.Rune_BileBomb_Major.MoveSpeedMod * -100]}%.</string>
+	<string key="Status_Rune_BileBomb_Greater_Desc" rel_version="Feature_Heartgems_BileBomb">Zmniejsza otrzymywane leczenie o {[Type_StatusEffectData.Rune_BileBomb_Greater.HealMod * -100]}% i szybkość regeneracji wytrzymałości o {[Type_StatusEffectData.Rune_BileBomb_Greater.StaminaRate * -100]}%. Ponadto otrzymujesz {[Type_StatusEffectData.Rune_BileBomb_Greater.HealthModifierDamageBased * -100]}% obrażeń od runy serca atakującego na sekundę.</string>
+	<string key="Status_Rune_BileBomb_Survivor_Desc" rel_version="Feature_Heartgems_BileBomb">Zmniejsza otrzymywane leczenie o {[Type_StatusEffectData.Rune_BileBomb_Survivor.HealMod * -100]}%. Ponadto wrogowie, którzy cię trafią, odzyskają zdrowie w wysokości {[Type_StatusEffectData.Rune_BileBomb_Survivor_Heal.HealthModifierDamageBased * 100]}% zadanych obrażeń.</string>
+	<string key="Status_Rune_BileBomb_Dominator_Desc" rel_version="Feature_Heartgems_BileBomb">Zmniejsza otrzymywane leczenie o {[Type_StatusEffectData.Rune_BileBomb_Dominator.HealMod * -100]}%. Ponadto otrzymujesz {[Type_StatusEffectData.Rune_BileBomb_Dominator.HealthModifierDamageBased * -100]}% obrażeń od runy serca atakującego na sekundę.</string>
 	<string key="AI_AnubianGuardian_HorusBoss_InstrumentOfJudgement_Tracking_DisplayName">Boski sąd</string>
 	<string key="AI_AnubianGuardian_HorusBoss_InstrumentOfJudgement_Tracking_Tooltip">Bogowie Enneady osądzają twe serce.</string>
 	<string key="AI_AnubianGuardian_HorusBoss_InstrumentOfJudgement_Damage_DisplayName">Boski wyrok</string>

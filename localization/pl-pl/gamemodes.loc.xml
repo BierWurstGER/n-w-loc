@@ -1,7 +1,7 @@
 <resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<string key="ui_queue_waiting">Oczekiwanie...</string>
 	<string key="ui_queue_elapsed">Minęło</string>
-	<string key="ui_queue_expected">Szacowany czas</string>
+	<string key="ui_queue_expected">Oczekiwany pozostały czas</string>
 	<string key="ui_queue_leave_group">Opuść grupę</string>
 	<string key="ui_queue_leave_group_confirm_title">Opuść grupę</string>
 	<string key="ui_queue_leave_group_confirm_message">Jeśli w grupie zostanie mniej niż {minGroupSize} członków, zostanie ona usunięta z kolejki.\n\nCzy na pewno chcesz to zrobić?</string>
@@ -85,12 +85,13 @@
 	<string key="ui_outpost_rush_title">Napad na posterunek</string>
 	<string key="ui_outpost_rush_invite_status">Zaakceptuj, by dołączyć do bitwy!</string>
 	<string key="ui_outpost_rush_signup_title">NAPAD NA POSTERUNEK</string>
-	<string key="ui_outpost_rush_signup_desc">&lt;font color="#ffe940"&gt;Napad na posterunek&lt;/font&gt; to potyczka drużynowa (20 przeciwko 20), rozgrywana na dużej wyspie z trzema posterunkami.\nGracze rywalizują o kontrolę nad posterunkami i utrzymanie ich jak najdłużej, co zwiększa liczbę punktów ich drużyny.</string>
+	<string key="ui_outpost_rush_signup_desc">&lt;font color="#ffe940"&gt;Napad na posterunek&lt;/font&gt; to potyczka drużynowa (20 przeciwko 20), rozgrywana na dużej wyspie z trzema posterunkami.\nDrużyny rywalizują o kontrolę nad posterunkami i utrzymanie ich, by zwiększyć liczbę swoich punktów.</string>
+	<string key="ui_outpost_rush_signup_desc_gearscore">&lt;font color="#ffe940"&gt;Napad na posterunek&lt;/font&gt; to potyczka drużynowa (20 przeciwko 20), rozgrywana na dużej wyspie z trzema posterunkami.\nDrużyny rywalizują o kontrolę nad posterunkami i utrzymanie ich, by zwiększyć liczbę swoich punktów.\nW tym trybie gry działa &lt;font color="#ffe940"&gt;skalowanie pkt wyposażenia&lt;/font&gt;, co oznacza, że liczba pkt wyposażenia przedmiotów mających mniej niż 600 PW zostaje podniesiona do 600 PW na czas gry.</string>
 	<string key="ui_outpost_rush_signup_goal1">Przejmuj posterunki i utrzymuj nad nimi kontrolę, by zdobywać punkty dla swojej drużyny</string>
 	<string key="ui_outpost_rush_signup_goal2">Pierwsza drużyna, która zdobędzie 1000 punktów, wygrywa</string>
 	<string key="ui_outpost_rush_signup_goal3">Używaj specjalnych zasobów obecnych na wyspie, by atakować i się bronić</string>
 	<string key="ui_outpost_rush_signup_points_number">1000</string>
-	<string key="ui_outpost_rush_signup_points_text">PUNKTÓW</string>
+	<string key="ui_outpost_rush_signup_points_text">PUNKTY</string>
 	<string key="ui_outpost_rush_signup_joinsolo">Graj</string>
 	<string key="ui_outpost_rush_signup_joingroup">Graj z grupą</string>
 	<string key="ui_outpost_rush_signup_joinmid">Chcę dołączyć do trwających rozgrywek &lt;font color="#ffe940"&gt;(krótszy czas oczekiwania)&lt;/font&gt;</string>
@@ -176,7 +177,7 @@
 	<string key="ui_outpost_rush_summoning_circle">Krąg przywołania</string>
 	<string key="ui_outpost_rush_summoning_circle_desc">Użyj kamienia przywołania przy tym obelisku, by twoja drużyna na pewien czas zyskała wsparcie potwornego sojusznika.</string>
 	<string key="ui_outpost_rush_portal">PORTAL</string>
-	<string key="ui_outpost_rush_portal_score">{current}/{total} &lt;img src="lyshineui/images/icon_azoth" xPadding="-3" scale="1.4" yOffset="3"&gt;&lt;/img&gt;</string>
+	<string key="ui_outpost_rush_portal_score">{current}/{total} &lt;img src="lyshineui/images/icons/misc/icon_azothCurrency" xPadding="-3" scale="1.4" yOffset="1"&gt;&lt;/img&gt;</string>
 	<string key="ui_pinning_disabled_while_in_or">Przypinanie/odpinanie celów jest niemożliwe podczas napadu na posterunek.</string>
 	<string key="ui_pinning_disabled_expeditions">Przypinanie/odpinanie celów jest niemożliwe podczas ekspedycji.</string>
 	<string key="ui_or_commandpost_buff_on">Budowla zapewnia premie drużynowe</string>
@@ -229,7 +230,7 @@
 	<string key="ui_item_durability_arena" rel_version="Feature_PVP_Arenas">Przebywasz na arenie. Twoje wyposażenie nie zostało uszkodzone wskutek śmierci.</string>
 	<string key="ui_item_durability_loss_pvp">Zabił cię inny gracz. Twoje wyposażenie zostało nieco uszkodzone.</string>
 	<string key="ui_in_spectators_box">Loża dla widzów</string>
-	<string key="ui_in_spectators_box_description">Zdolności wyłączone</string>
+	<string key="ui_in_spectators_box_description">Umiejętności wyłączone</string>
 	<string key="ui_in_spectators_moving_to">Przeniesienie do loży dla widzów za {seconds} s</string>
 	<string key="ui_round_number">Runda {number}</string>
 	<string key="ui_match_point">Punkt meczowy</string>

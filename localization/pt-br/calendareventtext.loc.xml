@@ -5,6 +5,8 @@
 	<string key="ui_calendar_event_button_go">Vamos nessa!</string>
 	<string key="ui_calendar_event_button_view_details">Ver Detalhes</string>
 	<string key="ui_rewardtype_event_progress">&lt;img src="{icon}" xPadding="0" scale="1.8" yOffset="5"&gt;&lt;/img&gt; &lt;font color="#ffffff" &gt; {amount} &lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_Medium.font"&gt;{displayName}&lt;/font&gt;</string>
+	<string key="ui_news_button">Notícias</string>
+	<string key="ui_news_button_no_news">Nenhuma notícia nova disponível.</string>
 	<string key="ui_event_progress_name">Reputação no Evento</string>
 	<string key="ui_event">Evento</string>
 	<string key="ui_event_rules">Destaques do Evento</string>
@@ -17,20 +19,23 @@
 	<string key="ui_pvp_rewards_panel1_bullet2_text" rel_version="PvP_Rewards_Track">Sal de Azoth é uma moeda que permite adquirir recompensas da Trilha PvP. Você pode ganhar Sal de Azoth participando de Guerras, Investidas do Posto Avançado, Arenas 3v3 e Missões PvP, abatendo jogadores no mundo aberto e recebendo EXP enquanto estiver sinalizado.</string>
 	<string key="ui_pvp_rewards_panel1_bullet3_title" rel_version="PvP_Rewards_Track">RECOMPENSAS</string>
 	<string key="ui_pvp_rewards_panel1_bullet3_text" rel_version="PvP_Rewards_Track">Escolha entre recompensas exclusivas, como armaduras e armas de prestígio, gestos, moedas e consumíveis.</string>
-	<string key="ui_event_halloween_rank_0" rel_version="Event_Halloween_Temp" comment="DO NOT TRANSLATE">Fledgling</string>
-	<string key="ui_event_halloween_rank_1" rel_version="Event_Halloween_Temp" comment="DO NOT TRANSLATE">Nightveil Sentinel</string>
-	<string key="ui_event_halloween_shop_header" rel_version="Event_Halloween_Temp">Relíquia do Véu Noturno</string>
-	<string key="ui_event_halloween_progress_name" rel_version="Event_Halloween_Temp">Reputação no Evento</string>
+	<string key="ui_event_weapon_xp_tabname">Impulso de EXP de Armas</string>
 	<string key="ui_event_weapon_xp_title">BÔNUS DE EXP EM ARMAS ESSA SEMANA</string>
-	<string key="ui_event_weapon_xp_desc">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Regular.font"&gt;O bônus estará disponível para:&lt;/font&gt;</string>
+	<string key="ui_event_weapon_xp_desc">O bônus estará disponível para:</string>
+	<string key="ui_event_gathering_xp_tabname">Impulso de EXP de Coleta</string>
 	<string key="ui_event_gathering_xp_title">BÔNUS DE EXP EM COLETA ESSA SEMANA</string>
-	<string key="ui_event_gathering_xp_desc">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Regular.font"&gt;O bônus estará disponível para:&lt;/font&gt;</string>
-	<string key="ui_event_character_xp_title">BÔNUS DE EXP EM NÍVEIS DE PERSONAGEM ESSA SEMANA</string>
-	<string key="ui_event_character_xp_desc">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Regular.font"&gt;O bônus estará disponível para:&lt;/font&gt;</string>
+	<string key="ui_event_gathering_xp_desc">O bônus estará disponível para:</string>
+	<string key="ui_event_character_xp_tabname">Impulso de EXP de Nível</string>
+	<string key="ui_event_character_xp_title">EVENTO DE BÔNUS DE EXP EM NÍVEIS DE PERSONAGEM</string>
+	<string key="ui_event_character_xp_desc">O bônus estará disponível para:</string>
+	<string key="ui_event_refining_xp_tabname">Impulso de EXP de Refinamento</string>
 	<string key="ui_event_refining_xp_title">BÔNUS DE EXP EM REFINAMENTO ESSA SEMANA</string>
-	<string key="ui_event_refining_xp_desc">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Regular.font"&gt;O bônus estará disponível para:&lt;/font&gt;</string>
+	<string key="ui_event_refining_xp_desc">O bônus estará disponível para:</string>
+	<string key="ui_event_extravaganza_tabname">Bônus de EXP À Vontade</string>
 	<string key="ui_event_extravaganza_title">BÔNUS DE EXP À VONTADE</string>
-	<string key="ui_event_extravaganza_desc">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Regular.font"&gt;O bônus estará disponível para:&lt;/font&gt;</string>
+	<string key="ui_event_extravaganza_desc">O bônus estará disponível para:</string>
+	<string key="ui_news_end_game_tabname">Fase Final</string>
+	<string key="ui_news_end_game_description">No nível 60, você pode &lt;font color="#ffdb7a"&gt;aprimorar seu equipamento&lt;/font&gt; para obter pontuações de equipamento mais altas. Para fazer isso, você precisará colher Gipsita de várias atividades e locais de Nível 60. Visite um &lt;font color="#ffdb7a"&gt;Forno de Gipsita&lt;/font&gt; para saber mais.</string>
 	<string key="ui_end_game_panel1_title">ATIVIDADES DA FASE FINAL</string>
 	<string key="ui_end_game_panel1_subtitle">&lt;font color="#ffffff" &gt;Você alcançou o Nível Máximo recentemente, há muito mais a fazer.&lt;/font&gt;</string>
 	<string key="ui_end_game_panel1_bullet1_title">Expedições da Fase Final</string>
@@ -45,18 +50,81 @@
 	<string key="ui_event_group_finder_panel1_title" rel_version="Feature_Group_Finder">Buscador de Grupo de Expedição!</string>
 	<string key="ui_event_group_finder_panel1_subtitle" rel_version="Feature_Group_Finder">Já disponível pelo mapa! Acesse todas as Expedições (desde que você já as tenha visitado) clicando no ícone da Expedição. A partir daqui, você pode navegar ou postar nos saguões do Buscador de Grupo ou entrar na Expedição com seu grupo existente.</string>
 	<string key="ui_event_group_finder_button_about" rel_version="Feature_Group_Finder">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Sobre o Buscador de Grupo</string>
-	<string key="ui_event_brimstone_panel1_title" rel_version="Territory_Brimstone_Sands">Comemoração do Primeiro Aniversário</string>
-	<string key="ui_event_brimstone_panel1_subtitle" rel_version="Territory_Brimstone_Sands">Comemore com novas zonas, jornadas, inimigos, habilidades e recompensas!</string>
-	<string key="ui_event_brimstone_panel1_bullet1_title" rel_version="Territory_Brimstone_Sands">Conteúdo Novo</string>
-	<string key="ui_event_brimstone_panel1_bullet1_text" rel_version="Territory_Brimstone_Sands">Arme-se com a nova Espada Grande e Gema de Coração e viaje para os desertos de Areias de Enxofre, ou comece a nova jornada da história principal!</string>
-	<string key="ui_event_brimstone_panel1_bullet2_title" rel_version="Territory_Brimstone_Sands">Novo Evento</string>
-	<string key="ui_event_brimstone_panel1_bullet2_text" rel_version="Territory_Brimstone_Sands">Salvatore, o Monge Louco, agora mora nas praças das vilas de Aeternum para alertar sobre um terrível perigo.</string>
-	<string key="ui_event_brimstone_panel1_bullet3_title" rel_version="Territory_Brimstone_Sands">Novos Itens Cosméticos</string>
-	<string key="ui_event_brimstone_panel1_bullet3_text" rel_version="Territory_Brimstone_Sands">Os itens de Areias de Enxofre, Espada Grande e Relíquia do Véu Noturno já estão disponíveis na loja. Não se esqueça de pegar suas aparências de aniversário grátis!</string>
-	<string key="ui_event_brimstone_panel2_title" rel_version="Territory_Brimstone_Sands">Areias de Enxofre</string>
-	<string key="ui_event_brimstone_panel2_subtitle" rel_version="Territory_Brimstone_Sands">Com as novas runas de habilidade de Espada Grande e Gema de Coração, explore a nova zona de Areias de Enxofre e a Expedição da Enéade, ou experimente a renovada Jornada da História Principal com novos locais, NPCs, desafios e recompensas.</string>
-	<string key="ui_event_brimstone_panel3_title" rel_version="Territory_Brimstone_Sands">Relíquia do Véu Noturno</string>
-	<string key="ui_event_brimstone_panel3_subtitle" rel_version="Territory_Brimstone_Sands">Começa às 0h01 PST em 18/10/22 | Termina às 12h01 PST em 1/11/22\n\nContornos na névoa! Gritos na noite! O demônio Baalphazu, Marquês do Terror, e sua horda de Abobreiros macabros estão espalhando um pesadelo vivo por Aeternum! Ajude Salvatore, o Louco, em sua missão de banir esses terrores imundos e colete várias recompensas da Relíquia do Véu Noturno por tempo limitado!\n\n&lt;font face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt;(A jornada é desbloqueada no nível 35)&lt;/font&gt;</string>
-	<string key="ui_event_brimstone_button_about" rel_version="Territory_Brimstone_Sands">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Sobre a Comemoração de Aniversário</string>
+	<string key="ui_event_returnem_panel1_title" rel_version="Feature_FreshStart">Novinho e Limpinho</string>
+	<string key="ui_event_returnem_panel1_subtitle" rel_version="Feature_FreshStart">Novos mundos. Nova economia. Novo começo.</string>
+	<string key="ui_event_returnem_panel1_bullet1_title" rel_version="Feature_FreshStart">Conteúdo Novo</string>
+	<string key="ui_event_returnem_panel1_bullet1_text" rel_version="Feature_FreshStart">Arme-se com a nova Espada Grande e Gema de Coração e viaje para os desertos de Areias de Enxofre, ou comece a nova jornada da história principal!</string>
+	<string key="ui_event_returnem_panel1_bullet2_title" rel_version="Feature_FreshStart">Evento da Twitch</string>
+	<string key="ui_event_returnem_panel1_bullet2_text" rel_version="Feature_FreshStart">Comece sua jornada em um novo mundo e assista seus streamers favoritos fazerem o mesmo no evento Retorno a Aeternum na Twitch até 18/11.</string>
+	<string key="ui_event_returnem_panel1_bullet3_title" rel_version="Feature_FreshStart">Novos Itens Cosméticos</string>
+	<string key="ui_event_returnem_panel1_bullet3_text" rel_version="Feature_FreshStart">Os itens de Areias de Enxofre, Espada Grande e Relíquia do Véu Noturno já estão disponíveis na loja. Não se esqueça de pegar suas aparências de aniversário grátis!</string>
+	<string key="ui_event_returnem_panel2_title" rel_version="Feature_FreshStart">Areias de Enxofre</string>
+	<string key="ui_event_returnem_panel2_subtitle" rel_version="Feature_FreshStart">Com as novas runas de habilidade de Espada Grande e Gema de Coração, explore a nova zona de Areias de Enxofre e a Expedição da Enéade, ou experimente a renovada Jornada da História Principal com novos locais, NPCs, desafios e recompensas.\n\nPara acessar as jornadas da história principal em Areias de Enxofre, os jogadores devem ter concluído a jornada "Uma Natureza Altruísta" em Bosque do Éden e a jornada "Peregrinante das Areias", que pode ser realizada em vários locais.</string>
+	<string key="ui_event_returnem_panel3_title" rel_version="Feature_FreshStart">Retorno a Aeternum</string>
+	<string key="ui_event_returnem_panel3_subtitle" rel_version="Feature_FreshStart">Comece um novo personagem em mundos certificados ou siga seus streamers favoritos no evento Retorno a Aeternum na Twitch. Veja como eles lutam pela glória em novos mundos até 18/11.\n\nhttp://www.twitch.tv/playnewworld</string>
+	<string key="ui_event_returnem_message_title" rel_version="Feature_FreshStart">Mundos Novos</string>
+	<string key="ui_event_returnem_message_description" rel_version="Feature_FreshStart">Mundos Novos já estão disponíveis! Apenas novos personagens podem fazer parte desses mundos.</string>
+	<string key="ui_event_returnem_button_about" rel_version="Feature_FreshStart">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Sobre Retorno a Aeternum</string>
+	<string key="ui_event_battle_for_new_world_panel1_title" rel_version="Feature_BFNW" comment="DO NOT TRANSLATE">Battle For New World Panel 1 Title</string>
+	<string key="ui_event_battle_for_new_world_panel1_subtitle" rel_version="Feature_BFNW" comment="DO NOT TRANSLATE">Battle for New World Subtitle.</string>
+	<string key="ui_event_battle_for_new_world_panel1_bullet1_title" rel_version="Feature_BFNW" comment="DO NOT TRANSLATE">Battle for New World Panel 1, Bullet 1 Title</string>
+	<string key="ui_event_battle_for_new_world_panel1_bullet1_text" rel_version="Feature_BFNW" comment="DO NOT TRANSLATE">Battle for New World Panel 1, Bullet 1 Text.</string>
+	<string key="ui_event_battle_for_new_world_panel1_bullet2_title" rel_version="Feature_BFNW" comment="DO NOT TRANSLATE">Battle for New World Panel 1, Bullet 2 Title</string>
+	<string key="ui_event_battle_for_new_world_panel1_bullet2_text" rel_version="Feature_BFNW" comment="DO NOT TRANSLATE">Battle for New World Panel 1, Bullet 2 Text</string>
+	<string key="ui_event_battle_for_new_world_panel1_bullet3_title" rel_version="Feature_BFNW" comment="DO NOT TRANSLATE">Battle for New World Panel 1, Bullet 3 Title</string>
+	<string key="ui_event_battle_for_new_world_panel1_bullet3_text" rel_version="Feature_BFNW" comment="DO NOT TRANSLATE">Battle for New World Panel 1, Bullet 3 Text</string>
+	<string key="ui_event_battle_for_new_world_panel2_title" rel_version="Feature_BFNW" comment="DO NOT TRANSLATE">Battle for New World Panel 2 Title</string>
+	<string key="ui_event_battle_for_new_world_panel2_subtitle" rel_version="Feature_BFNW" comment="DO NOT TRANSLATE">Battle for New World Panel 2 Subtitle</string>
+	<string key="ui_event_battle_for_new_world_panel3_title" rel_version="Feature_BFNW" comment="DO NOT TRANSLATE">Battle for New World Panel 3 Title</string>
+	<string key="ui_event_battle_for_new_world_panel3_subtitle" rel_version="Feature_BFNW" comment="DO NOT TRANSLATE">Subtítulo do Painel 3 para Batalha por New World\n \nhttp://www.twitch.tv/playnewworld</string>
+	<string key="ui_event_battle_for_new_world_button_about" rel_version="Feature_BFNW" comment="DO NOT TRANSLATE">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; About Battle For New World</string>
+	<string key="ui_news_modal_display_start_date">Começa em {startDate}</string>
+	<string key="ui_news_modal_display_end_date">Termina em {endDate}</string>
+	<string key="ui_news_modal_display_start_datetime">Começa às {startTime} em {startDate}</string>
+	<string key="ui_news_modal_display_end_datetime">Termina às {endTime} em {endDate}</string>
+	<string key="ui_event_free_weekend_event_message_title" rel_version="Feature_FreeWeekend">Final de Semana Gratuito</string>
+	<string key="ui_event_free_weekend_event_message_description" rel_version="Feature_FreeWeekend">O Final de Semana Gratuito está em andamento.</string>
+	<string key="ui_event_free_weekend_description" rel_version="Feature_FreeWeekend">Durante este evento de tempo limitado, curta a nova zona Areias de Enxofre, a renovada Jornada da História Principal e as últimas atualizações de New World de graça!\n\nPara jogar com amigos, os personagens precisam estar no mesmo mundo. Jogadores não pagantes podem aproveitar um número ilimitado de sessões, a menos que haja fila para o mundo (no fim da sessão, jogadores não pagantes deverão entrar na fila de novo).</string>
+	<string key="ui_event_free_weekend" rel_version="Feature_FreeWeekend">Final de Semana Gratuito</string>
+	<string key="ui_event_free_weekend_in_progress_panel1_bullet1_title" rel_version="Feature_FreeWeekend" comment="DO NOT TRANSLATE">Final de Semana Gratuito em andamento Painel 1, Título do Marcador 1</string>
+	<string key="ui_event_free_weekend_in_progress_panel1_bullet1_text" rel_version="Feature_FreeWeekend" comment="DO NOT TRANSLATE">Final de Semana Gratuito em andamento Painel 1, Texto do Marcador 1</string>
+	<string key="ui_event_free_weekend_in_progress_panel1_bullet2_title" rel_version="Feature_FreeWeekend" comment="DO NOT TRANSLATE">Free Weekend In Progress Panel 1, Bullet 2 Title</string>
+	<string key="ui_event_free_weekend_in_progress_panel1_bullet2_text" rel_version="Feature_FreeWeekend" comment="DO NOT TRANSLATE">Free Weekend In Progress Panel 1, Bullet 2 Text</string>
+	<string key="ui_event_free_weekend_in_progress_panel1_bullet3_title" rel_version="Feature_FreeWeekend" comment="DO NOT TRANSLATE">Free Weekend In Progress Panel 1, Bullet 3 Title</string>
+	<string key="ui_event_free_weekend_in_progress_panel1_bullet3_text" rel_version="Feature_FreeWeekend" comment="DO NOT TRANSLATE">Free Weekend In Progress Panel 1, Bullet 3 Text</string>
+	<string key="ui_event_free_weekend_in_progress_panel1_title" rel_version="Feature_FreeWeekend">Final de Semana Gratuito</string>
+	<string key="ui_event_free_weekend_in_progress_panel1_subtitle" rel_version="Feature_FreeWeekend" comment="DO NOT TRANSLATE">Final de Semana Gratuito em andamento Subtítulo do Painel 1</string>
+	<string key="ui_event_free_weekend_in_progress_panel2_title" rel_version="Feature_FreeWeekend" comment="DO NOT TRANSLATE">Free Weekend In Progress Panel 2 Title</string>
+	<string key="ui_event_free_weekend_in_progress_panel2_subtitle" rel_version="Feature_FreeWeekend" comment="DO NOT TRANSLATE">Free Weekend In Progress Panel 2 Subtitle</string>
+	<string key="ui_event_free_weekend_in_progress_panel3_title" rel_version="Feature_FreeWeekend" comment="DO NOT TRANSLATE">Free Weekend In Progress Panel 3 Title</string>
+	<string key="ui_event_free_weekend_in_progress_panel3_subtitle" rel_version="Feature_FreeWeekend" comment="DO NOT TRANSLATE">Final de Semana Gratuito em andamento Subtítulo do Painel 3\n \nhttp://www.twitch.tv/playnewworld</string>
+	<string key="ui_event_free_weekend_in_progress_button_about" rel_version="Feature_FreeWeekend">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Sobre o Final de Semana Gratuito</string>
+	<string key="ui_event_free_weekend_ending_soon_panel1_title" rel_version="Feature_FreeWeekend">O Final de Semana Gratuito Acaba Hoje!</string>
+	<string key="ui_event_free_weekend_ending_soon_panel1_subtitle" rel_version="Feature_FreeWeekend" comment="DO NOT TRANSLATE">Free Weekend Ending Soon Subtitle.</string>
+	<string key="ui_event_free_weekend_ending_soon_panel1_bullet1_title" rel_version="Feature_FreeWeekend" comment="DO NOT TRANSLATE">Free Weekend Ending Soon Panel 1, Bullet 1 Title</string>
+	<string key="ui_event_free_weekend_ending_soon_panel1_bullet1_text" rel_version="Feature_FreeWeekend" comment="DO NOT TRANSLATE">Free Weekend Ending Soon Panel 1, Bullet 1 Text.</string>
+	<string key="ui_event_free_weekend_ending_soon_panel1_bullet2_title" rel_version="Feature_FreeWeekend" comment="DO NOT TRANSLATE">Free Weekend Ending Soon Panel 1, Bullet 2 Title</string>
+	<string key="ui_event_free_weekend_ending_soon_panel1_bullet2_text" rel_version="Feature_FreeWeekend" comment="DO NOT TRANSLATE">Free Weekend Ending Soon Panel 1, Bullet 2 Text</string>
+	<string key="ui_event_free_weekend_ending_soon_panel1_bullet3_title" rel_version="Feature_FreeWeekend" comment="DO NOT TRANSLATE">Free Weekend Ending Soon Panel 1, Bullet 3 Title</string>
+	<string key="ui_event_free_weekend_ending_soon_panel1_bullet3_text" rel_version="Feature_FreeWeekend" comment="DO NOT TRANSLATE">Free Weekend Ending Soon Panel 1, Bullet 3 Text</string>
+	<string key="ui_event_free_weekend_ending_soon_panel2_title" rel_version="Feature_FreeWeekend" comment="DO NOT TRANSLATE">Free Weekend Ending Soon Panel 2 Title</string>
+	<string key="ui_event_free_weekend_ending_soon_panel2_subtitle" rel_version="Feature_FreeWeekend" comment="DO NOT TRANSLATE">Free Weekend Ending Soon Panel 2 Subtitle</string>
+	<string key="ui_event_free_weekend_ending_soon_panel3_title" rel_version="Feature_FreeWeekend" comment="DO NOT TRANSLATE">Free Weekend Ending Soon Panel 3 Title</string>
+	<string key="ui_event_free_weekend_ending_soon_panel3_subtitle" rel_version="Feature_FreeWeekend" comment="DO NOT TRANSLATE">Final de Semana Gratuito Acaba em Breve Subtítulo do Painel 3\n \nhttp://www.twitch.tv/playnewworld</string>
+	<string key="ui_event_free_weekend_ending_soon_button_about" rel_version="Feature_FreeWeekend">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Sobre o Final de Semana Gratuito</string>
+	<string key="ui_event_leaderboards_tabname" rel_version="Feature_Leaderboards">Tabela de Classificação</string>
+	<string key="ui_event_leaderboards_title" rel_version="Feature_Leaderboards">Introdução da Tabela de Classificação</string>
+	<string key="ui_event_leaderboards_description" rel_version="Feature_Leaderboards">As tabelas de classificação acompanham várias atividades do New World em assentamentos e facções. Compita com outros jogadores em várias atividades individuais, de companhias e de facções para subir nas tabelas de classificação, que são redefinidas periodicamente.\n\n&lt;font color="#ffdb7a"&gt;Acesse a Tabela de Classificação no menu de Modos.</string>
+	<string key="ui_event_leaderboards_bullet1_title" rel_version="Feature_Leaderboards">Recompensas</string>
+	<string key="ui_event_leaderboards_button_about" rel_version="Feature_Leaderboards">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Sobre a Tabela de Classificação</string>
+	<string key="ui_event_dec_mtx_tabname" rel_version="Entitlements_WinterConvergence_MTX">Loja</string>
+	<string key="ui_event_dec_mtx_title" rel_version="Entitlements_WinterConvergence_MTX">Convergência de Inverno</string>
+	<string key="ui_event_dec_mtx_description" rel_version="Entitlements_WinterConvergence_MTX">Proteja-se dos estragos do Inverno Eterno com novos cosméticos disponíveis na loja! Você com certeza vai querer se equipar com as últimas armas e roupas de inverno quando os dias ficarem mais curtos e as longas noites de terror lhe aguardarem. Verifique a loja regularmente para encontrar brindes em dezembro e aproveite nossas promoções de inverno! O conteúdo especial que não é de baú estará à venda em 13/12 e o equipamento Convergência de Inverno do ano passado chegará em 20/12!</string>
+	<string key="ui_event_dec_mtx_button_about" rel_version="Entitlements_WinterConvergence_MTX">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Convergência de Inverno</string>
+	<string key="ui_news_store_tabname">Loja</string>
+	<string key="ui_event_jan_mtx_title" rel_version="Entitlements_WinterDragon">Dragão Invernal</string>
+	<string key="ui_event_jan_mtx_description" rel_version="Entitlements_WinterDragon">Seria a sombra de um dragão o formato do inverno? Visite a loja para conferir novos itens cosméticos marcados pelo sopro glacial da serpente! Não seja pego de surpresa no meio de um combate menos letal! Pegue o emote de Tapinhas ou use Andar na Ponta dos Pés para evitar qualquer tipo de bate-boca!</string>
+	<string key="ui_event_jan_mtx_button_about" rel_version="Entitlements_WinterDragon">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Sobre o Dragão Invernal</string>
+	<string key="ui_event_jan_mtx_bullet1_title" rel_version="Entitlements_WinterDragon">Decorações de Alojamento</string>
 </resources>
 

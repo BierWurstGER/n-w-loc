@@ -642,6 +642,7 @@
 	<string key="AI_Damage_Buff_DisplayName">Brutal</string>
 	<string key="AI_StaminaDamage_Buff_DisplayName">Devastador</string>
 	<string key="AI_Health_Buff_DisplayName">Salutífero</string>
+	<string key="AI_Health_2_Buff_DisplayName">Farto II</string>
 	<string key="AI_Armor_Buff_DisplayName">Blindado</string>
 	<string key="AI_ColdAura_Buff_DisplayName">Aura Gélida</string>
 	<string key="AI_DiseaseAura_Buff_DisplayName">Aura Pestilenta</string>
@@ -663,14 +664,6 @@
 	<string key="AI_Slime_Slow_DisplayName">Grudento</string>
 	<string key="AI_Slime_Slow_Tooltip">Velocidade de movimento reduzida em {[Type_StatusEffectData.AI_Slime_Slow.MoveSpeedMod * -100]}%.</string>
 	<string key="AI_PillarGoat_Buff_DisplayName" rel_version="Territory_Brimstone_Sands">Insistente</string>
-	<string key="AI_HalloweenPlaguer_PumpkinPlague_DisplayName" rel_version="Event_Halloween_Temp">Praga da Abóbora</string>
-	<string key="AI_HalloweenPlaguer_PumpkinPlague_Tooltip" rel_version="Event_Halloween_Temp">Reduz a cura recebida em {[Type_StatusEffectData.AI_HalloweenPlaguer_PumpkinPlague.HealMod * -100]}% por {[Type_StatusEffectData.AI_HalloweenPlaguer_PumpkinPlague.BaseDuration]} s, acumula {[Type_StatusEffectData.AI_HalloweenPlaguer_PumpkinPlague.StackMax]} vezes.</string>
-	<string key="AI_HalloweenBoss_PumpkinPlague_DisplayName" rel_version="Event_Halloween_Temp">Praga da Abóbora</string>
-	<string key="AI_HalloweenBoss_PumpkinPlague_Tooltip" rel_version="Event_Halloween_Temp">Reduz a cura recebida em {[Type_StatusEffectData.AI_HalloweenPlaguer_PumpkinPlague.HealMod * -100]}% por {[Type_StatusEffectData.AI_HalloweenPlaguer_PumpkinPlague.BaseDuration]} s, acumula {[Type_StatusEffectData.AI_HalloweenPlaguer_PumpkinPlague.StackMax]} vezes.</string>
-	<string key="AI_HalloweenGourdspewer_HealPuddle_DisplayName" rel_version="Event_Halloween_Temp">Aura Purificante</string>
-	<string key="AI_HalloweenGourdspewer_HealPuddle_Tooltip" rel_version="Event_Halloween_Temp">Cura a Praga da Abóbora e cura {[Type_StatusEffectData.AI_HalloweenGourdspewer_HealPuddle.HealthModifierPercent * 100]}% da saúde base a cada {[Type_StatusEffectData.AI_HalloweenGourdspewer_HealPuddle.TickRate]} s.</string>
-	<string key="AI_HalloweenPlaguer_HealPuddle_DisplayName" rel_version="Event_Halloween_Temp">Aura Purificante</string>
-	<string key="AI_HalloweenPlaguer_HealPuddle_Tooltip" rel_version="Event_Halloween_Temp">Cura a Praga da Abóbora e cura {[Type_StatusEffectData.AI_HalloweenPlaguer_HealPuddle.HealthModifierPercent * 100]}% da saúde base a cada {[Type_StatusEffectData.AI_HalloweenPlaguer_HealPuddle.TickRate]} s.</string>
 	<string key="AI_HalloweenBoss_PutridAura_DisplayName">Maldição de Baalphazu</string>
 	<string key="AI_HalloweenBoss_PutridAura_Tooltip">Sofre {[Type_StatusEffectData.HalloweenBoss_Putrid_Aura_DoT_Damage.HealthModifierDamageBased * -100]}% da saúde base de dano Natural a cada {[Type_StatusEffectData.HalloweenBoss_Putrid_Aura_DoT_Damage.TickRate * 6]} s.</string>
 	<string key="AI_SpiderBite_Tooltip">Envenenado por {[Type_StatusEffectData.AI_SpiderBite.HealthModifierDamageBased * -100]}% de dano Natural base a cada {[Type_StatusEffectData.AI_SpiderBite.TickRate]} s com duração de {[Type_StatusEffectData.AI_SpiderBite.BaseDuration]} s.</string>
@@ -1464,6 +1457,7 @@
 	<string key="Status_Passive_Lifestaff_Protection_HealingOnDodge_description">Sua cura aumenta em {[Type_StatusEffectData.Status_Passive_Lifestaff_Protection_HealingOnDodge.HealScalingValueMultiplier * 100]}%.</string>
 	<string key="Status_Passive_Lifestaff_Protection_HasteWhenLow_description">Sua velocidade de movimento é reduzida em {[Type_StatusEffectData.Status_Passive_Lifestaff_Protection_HasteWhenLow.SprintSpeedMod * 100]}%.</string>
 	<string key="Status_Passive_Lifestaff_Protection_HasteWhenLow_Timer_description">Quando terminar, você poderá acionar Equilíbrio novamente.</string>
+	<string key="Status_Passive_Lifestaff_Healing_HealingBuffonBasic_name">Intensificar</string>
 	<string key="Status_Passive_Lifestaff_Healing_HealingBuffonBasic_description">Sua cura aumenta em {[Type_StatusEffectData.Status_Passive_Lifestaff_Healing_HealingBuffonBasic.HealScalingValueMultiplier * 100]}%.</string>
 	<string key="Status_Passive_Lifestaff_Healing_AoeHealWhenHit_description">Aura de cura ativa para você e aliados próximos em um raio de 4 m, curando em {[Type_StatusEffectData.Status_Passive_Lifestaff_Healing_AoeHealWhenHit.HealthModifierDamageBased * 100]}% do dano de arma a cada segundo.</string>
 	<string key="Status_Ability_Lifestaff_SacredGround">Solo Sagrado</string>
@@ -1674,7 +1668,7 @@
 	<string key="StatusTestCrafting_DisplayName">ConfecçãoTeste</string>
 	<string key="Status_Rune_StoneForm">Forma de Pedra</string>
 	<string key="Status_Rune_StoneForm_Desc">Imunidade a todo controle.</string>
-	<string key="Status_Rune_StoneForm_Major_Desc">Imunidade a todo controle e absorção de dano aumentada em {[Type_StatusEffectData.Rune_StoneForm_Major.ABSStandard * 100]}%.</string>
+	<string key="Status_Rune_StoneForm_Major_Desc">Absorção de dano aumentada em {[Type_StatusEffectData.Rune_StoneForm_Major.ABSStandard * 100]}%.</string>
 	<string key="Status_Rune_StoneForm_Survivor_Desc">Imunidade a todo controle e cura em {[Type_StatusEffectData.Rune_StoneForm_Survivor.HealthModifierDamageBased * 100]}% do dano de runa por segundo.</string>
 	<string key="Status_Rune_StoneForm_Greater_Desc">Absorção de dano aumentada em {[Type_StatusEffectData.Rune_StoneForm_Greater.ABSStandard * 100]}%.</string>
 	<string key="Status_Rune_CannonBlast_Major_Desc">Queima por {[Type_StatusEffectData.Rune_CannonBlast_Burn.HealthModifierDamageBased * -100]}% do dano de runa por segundo.</string>
@@ -1689,6 +1683,11 @@
 	<string key="Status_Rune_GraspingVines_Dominator_ReducedStamRegen_Desc">Regeneração de Vigor reduzida em {[Type_StatusEffectData.Rune_GraspingVines_Dominator_ReduceStamRegen.StaminaRate * -100]}%.</string>
 	<string key="Status_Rune_HereticsFall_Greater_Desc">Velocidade de movimento reduzida em {[Type_StatusEffectData.Rune_HereticsFall_Greater.MoveSpeedMod * -100]}%.</string>
 	<string key="Status_Rune_HereticsFall_Survivor_Desc">Absorção de dano aumentada em {[Type_StatusEffectData.Rune_HereticsFall_Survivor.ABSStandard * 100]}%, mas dano causado reduzido em {[Type_StatusEffectData.Rune_HereticsFall_Survivor.DMGStandard * -100]}%.</string>
+	<string key="Status_Rune_BileBomb_Desc" rel_version="Feature_Heartgems_BileBomb">A cura recebida é reduzida em {[Type_StatusEffectData.Rune_BileBomb.HealMod * -100]}% e você sofre {[Type_StatusEffectData.Rune_BileBomb.HealthModifierDamageBased * -100]}% do dano da runa de coração do atacante por segundo.</string>
+	<string key="Status_Rune_BileBomb_Major_Desc" rel_version="Feature_Heartgems_BileBomb">Velocidade de movimento reduzida em {[Type_StatusEffectData.Rune_BileBomb_Major.MoveSpeedMod * -100]}%.</string>
+	<string key="Status_Rune_BileBomb_Greater_Desc" rel_version="Feature_Heartgems_BileBomb">A cura recebida é reduzida em {[Type_StatusEffectData.Rune_BileBomb_Greater.HealMod * -100]}%, a regeneração de vigor é reduzida em {[Type_StatusEffectData.Rune_BileBomb_Greater.StaminaRate * -100]}% e você sofre {[Type_StatusEffectData.Rune_BileBomb_Greater.HealthModifierDamageBased * -100]}% do dano da runa de coração do atacante por segundo.</string>
+	<string key="Status_Rune_BileBomb_Survivor_Desc" rel_version="Feature_Heartgems_BileBomb">A cura recebida é reduzida em {[Type_StatusEffectData.Rune_BileBomb_Survivor.HealMod * -100]}% e os inimigos que o atingem são curados em {[Type_StatusEffectData.Rune_BileBomb_Survivor_Heal.HealthModifierDamageBased * 100]}% do dano causado.</string>
+	<string key="Status_Rune_BileBomb_Dominator_Desc" rel_version="Feature_Heartgems_BileBomb">A cura recebida é reduzida em {[Type_StatusEffectData.Rune_BileBomb_Dominator.HealMod * -100]}% e você sofre {[Type_StatusEffectData.Rune_BileBomb_Dominator.HealthModifierDamageBased * -100]}% do dano da runa de coração do atacante por segundo.</string>
 	<string key="AI_AnubianGuardian_HorusBoss_InstrumentOfJudgement_Tracking_DisplayName">Julgamento dos Deuses</string>
 	<string key="AI_AnubianGuardian_HorusBoss_InstrumentOfJudgement_Tracking_Tooltip">Os deuses da Enéade estão julgando seu coração.</string>
 	<string key="AI_AnubianGuardian_HorusBoss_InstrumentOfJudgement_Damage_DisplayName">Veredito dos Deuses</string>

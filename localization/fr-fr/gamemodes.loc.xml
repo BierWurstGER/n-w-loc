@@ -1,7 +1,7 @@
 <resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<string key="ui_queue_waiting">En attente...</string>
 	<string key="ui_queue_elapsed">Temps écoulé</string>
-	<string key="ui_queue_expected">Temps estimé</string>
+	<string key="ui_queue_expected">Temps restant estimé</string>
 	<string key="ui_queue_leave_group">Quitter le groupe</string>
 	<string key="ui_queue_leave_group_confirm_title">Quitter le groupe</string>
 	<string key="ui_queue_leave_group_confirm_message">Si la taille du groupe est inférieure à {minGroupSize} membres, le groupe sera retiré de la file d'attente.\n\nConfirmer ?</string>
@@ -85,11 +85,12 @@
 	<string key="ui_outpost_rush_title">Déferlante</string>
 	<string key="ui_outpost_rush_invite_status">Acceptez de rejoindre le combat !</string>
 	<string key="ui_outpost_rush_signup_title">DÉFERLANTE</string>
-	<string key="ui_outpost_rush_signup_desc">La &lt;font color="#ffe940"&gt;Déferlante&lt;/font&gt; est un match à 20 contre 20 qui se déroule sur une grande île dotée de trois avant-postes.\nLes joueurs doivent capturer et tenir ces avant-postes aussi longtemps que possible pour augmenter le score de leur équipe.</string>
+	<string key="ui_outpost_rush_signup_desc">La &lt;font color="#ffe940"&gt;Déferlante&lt;/font&gt; est un match à 20 contre 20 qui se déroule sur une grande île dotée de trois avant-postes.\nLes équipes doivent capturer et tenir ces avant-postes afin d'augmenter leur score.</string>
+	<string key="ui_outpost_rush_signup_desc_gearscore">La &lt;font color="#ffe940"&gt;Déferlante&lt;/font&gt; est un match à 20 contre 20 qui se déroule sur une grande île dotée de trois avant-postes.\nLes équipes doivent capturer et tenir ces avant-postes afin d'augmenter leur score.\nCe mode entraîne un &lt;font color="#ffe940"&gt;Équilibrage au score d'équipement&lt;/font&gt;, augmentant le score d'équipement à 600 pour l'équipement ayant un score inférieur à 600.</string>
 	<string key="ui_outpost_rush_signup_goal1">Capturez et tenez des avant-postes pour augmenter le score de votre équipe.</string>
 	<string key="ui_outpost_rush_signup_goal2">La première équipe à atteindre un score de 1 000 l'emporte.</string>
 	<string key="ui_outpost_rush_signup_goal3">Utilisez les ressources spéciales de l'île pour attaquer et vous défendre.</string>
-	<string key="ui_outpost_rush_signup_points_number">1 000</string>
+	<string key="ui_outpost_rush_signup_points_number"> .000</string>
 	<string key="ui_outpost_rush_signup_points_text">POINTS</string>
 	<string key="ui_outpost_rush_signup_joinsolo">Jouer</string>
 	<string key="ui_outpost_rush_signup_joingroup">Jouer avec votre groupe</string>
@@ -176,7 +177,7 @@
 	<string key="ui_outpost_rush_summoning_circle">Cercle d'invocation</string>
 	<string key="ui_outpost_rush_summoning_circle_desc">Utilisez une pierre d'invocation à cet obélisque pour ajouter un allié monstrueux à votre équipe pour une durée limitée.</string>
 	<string key="ui_outpost_rush_portal">PORTAIL</string>
-	<string key="ui_outpost_rush_portal_score">{current}/{total} &lt;img src="lyshineui/images/icon_azoth" xPadding="-3" scale="1.4" yOffset="3"&gt;&lt;/img&gt;</string>
+	<string key="ui_outpost_rush_portal_score">{current}/{total} &lt;img src="lyshineui/images/icons/misc/icon_azothCurrency" xPadding="-3" scale="1.4" yOffset="1"&gt;&lt;/img&gt;</string>
 	<string key="ui_pinning_disabled_while_in_or">Marquage/Effaçage d'objectif désactivé en Déferlante.</string>
 	<string key="ui_pinning_disabled_expeditions">Marquer/Ne pas marquer désactivé pour les objectifs d'expédition</string>
 	<string key="ui_or_commandpost_buff_on">Cette structure confère des bonus d'équipe.</string>

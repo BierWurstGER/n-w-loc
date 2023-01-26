@@ -1,7 +1,7 @@
 <resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<string key="ui_queue_waiting">Esperando...</string>
 	<string key="ui_queue_elapsed">Tiempo pasado</string>
-	<string key="ui_queue_expected">Tiempo previsto</string>
+	<string key="ui_queue_expected">Tiempo restante previsto</string>
 	<string key="ui_queue_leave_group">Salir del grupo</string>
 	<string key="ui_queue_leave_group_confirm_title">Salir del grupo</string>
 	<string key="ui_queue_leave_group_confirm_message">Si el tamaño del grupo cae por debajo de {minGroupSize} miembros, el grupo se eliminará de la cola.\n\n¿Confirmas esta acción?</string>
@@ -85,7 +85,8 @@
 	<string key="ui_outpost_rush_title">Puesto de avanzada</string>
 	<string key="ui_outpost_rush_invite_status">¡Acepta para unirte a la batalla!</string>
 	<string key="ui_outpost_rush_signup_title">PUESTO DE AVANZADA</string>
-	<string key="ui_outpost_rush_signup_desc">El &lt;font color="#ffe940"&gt;Avance a puesto de avanzada&lt;/font&gt; es un enfrentamiento de 20 vs. 20 que se lleva a cabo en amplias islas con tres puestos de avanzada.\nLos jugadores compiten por capturarlos y defenderlos el mayor tiempo posible para aumentar la puntuación de su equipo.</string>
+	<string key="ui_outpost_rush_signup_desc">&lt;font color="#ffe940"&gt;El Avance a puesto de avanzada&lt;/font&gt; es un enfrentamiento de 20v20 que se lleva a cabo en una isla con tres puestos de avanzada.\nLos equipos compiten por ocuparlos y defenderlos para aumentar la puntuación de su equipo.</string>
+	<string key="ui_outpost_rush_signup_desc_gearscore">&lt;font color="#ffe940"&gt;El Avance a puesto de avanzada&lt;/font&gt; es un enfrentamiento de 20v20 que se lleva a cabo en una isla con tres puestos de avanzada.\nLos equipos compiten por ocuparlos y defenderlos para aumentar la puntuación de su equipo.\nEste modo tiene &lt;font color="#ffe940"&gt;escalado de puntuación de equipo&lt;/font&gt;, lo que hace que todos los equipos con menos de 600 de puntuación del equipo pasen a tener 600.</string>
 	<string key="ui_outpost_rush_signup_goal1">Captura y defiende puestos de avanzada para aumentar la puntuación de tu equipo.</string>
 	<string key="ui_outpost_rush_signup_goal2">El primer equipo en llegar a 1000 puntos gana.</string>
 	<string key="ui_outpost_rush_signup_goal3">Utiliza los recursos especiales repartidos por la isla para atacar y defender</string>
@@ -176,7 +177,7 @@
 	<string key="ui_outpost_rush_summoning_circle">Círculo de invocación</string>
 	<string key="ui_outpost_rush_summoning_circle_desc">Usa una piedra de invocación en este obelisco para agregar un aliado monstruoso a tu equipo durante un tiempo limitado.</string>
 	<string key="ui_outpost_rush_portal">PORTAL</string>
-	<string key="ui_outpost_rush_portal_score">{current}/{total} &lt;img src="lyshineui/images/icon_azoth" xPadding="-3" scale="1.4" yOffset="3"&gt;&lt;/img&gt;</string>
+	<string key="ui_outpost_rush_portal_score">{current}/{total} &lt;img src="lyshineui/images/icons/misc/icon_azothCurrency" xPadding="-3" scale="1.4" yOffset="1"&gt;&lt;/img&gt;</string>
 	<string key="ui_pinning_disabled_while_in_or">Fijar/quitar objetivos desactivado durante Avance a puesto de avanzada.</string>
 	<string key="ui_pinning_disabled_expeditions">No se pueden fijar o quitar objetivos en las expediciones.</string>
 	<string key="ui_or_commandpost_buff_on">La estructura le ofrece potenciadores al equipo</string>

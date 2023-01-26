@@ -1,7 +1,7 @@
 <resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<string key="ui_queue_waiting">Esperando...</string>
 	<string key="ui_queue_elapsed">Tiempo pasado</string>
-	<string key="ui_queue_expected">Tiempo previsto</string>
+	<string key="ui_queue_expected">Tiempo restante esperado</string>
 	<string key="ui_queue_leave_group">Salir del grupo</string>
 	<string key="ui_queue_leave_group_confirm_title">Salir del grupo</string>
 	<string key="ui_queue_leave_group_confirm_message">Si el tamaño del grupo cae por debajo de {minGroupSize} miembros, el grupo se eliminará de la cola.\n\n¿Seguro que quieres salir?</string>
@@ -85,7 +85,8 @@
 	<string key="ui_outpost_rush_title">Asalto a puesto remoto</string>
 	<string key="ui_outpost_rush_invite_status">¡Acepta para unirte a la batalla!</string>
 	<string key="ui_outpost_rush_signup_title">ASALTO A PUESTO REMOTO</string>
-	<string key="ui_outpost_rush_signup_desc">El &lt;font color="#ffe940"&gt;Asalto a puesto remoto&lt;/font&gt; es un enfrentamiento de 20 vs. 20 que se lleva a cabo en amplias islas con tres puestos remotos.\nLos jugadores compiten por capturarlos y defenderlos el mayor tiempo posible para aumentar la puntuación de su equipo.</string>
+	<string key="ui_outpost_rush_signup_desc">&lt;font color="#ffe940"&gt;El Asalto a puesto remoto&lt;/font&gt; es un enfrentamiento 20 vs. 20 que se lleva a cabo en una extensa isla con tres puestos remotos.\nLos equipos compiten capturando y defendiendo estos puestos remotos para aumentar su puntuación.</string>
+	<string key="ui_outpost_rush_signup_desc_gearscore">&lt;font color="#ffe940"&gt;El Asalto a puesto remoto&lt;/font&gt; es un enfrentamiento 20 vs. 20 que se lleva a cabo en una extensa isla con tres puestos remotos.\nLos equipos compiten capturando y defendiendo estos puestos remotos para aumentar su puntuación.\nEste modo tiene &lt;font color="#ffe940"&gt;escalado de puntuación de equipo&lt;/font&gt;, lo que hace que todos los equipos con menos de 600 de puntuación de equipo pasen a tener 600.</string>
 	<string key="ui_outpost_rush_signup_goal1">Captura y defiende puestos remotos para aumentar la puntuación de tu equipo.</string>
 	<string key="ui_outpost_rush_signup_goal2">El primer equipo en llegar a 1000 puntos gana.</string>
 	<string key="ui_outpost_rush_signup_goal3">Utiliza los recursos especiales repartidos por la isla para atacar y defender.</string>
@@ -176,7 +177,7 @@
 	<string key="ui_outpost_rush_summoning_circle">Círculo de invocación</string>
 	<string key="ui_outpost_rush_summoning_circle_desc">Usa una piedra de invocación en este obelisco para añadir un aliado monstruoso a tu equipo durante un tiempo limitado.</string>
 	<string key="ui_outpost_rush_portal">PORTAL</string>
-	<string key="ui_outpost_rush_portal_score">{current}/{total} &lt;img src="lyshineui/images/icon_azoth" xPadding="-3" scale="1.4" yOffset="3"&gt;&lt;/img&gt;</string>
+	<string key="ui_outpost_rush_portal_score">{current}/{total} &lt;img src="lyshineui/images/icons/misc/icon_azothCurrency" xPadding="-3" scale="1.4" yOffset="1"&gt;&lt;/img&gt;</string>
 	<string key="ui_pinning_disabled_while_in_or">Fijar/Quitar objetivos está desactivado durante Asalto a puesto remoto.</string>
 	<string key="ui_pinning_disabled_expeditions">Fijar/Quitar objetivos está desactivado para los objetivos de expediciones</string>
 	<string key="ui_or_commandpost_buff_on">La estructura ofrece potenciadores al equipo</string>
