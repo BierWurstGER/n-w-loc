@@ -92,14 +92,15 @@
 	<string key="ui_leaderboard_display_invasion_kills" rel_version="Feature_Leaderboards">Ennemis tués</string>
 	<string key="ui_leaderboard_display_invasion_kill_death" rel_version="Feature_Leaderboards">Ratio Victimes/Morts</string>
 	<string key="ui_leaderboard_display_invasion_damage_dealt" rel_version="Feature_Leaderboards">Dégâts infligés</string>
-	<string key="ui_leaderboard_character_empty_leaderboard" rel_version="Feature_Leaderboards">Vous ne figurez pas dans ce classement pour le moment.</string>
+	<string key="ui_leaderboard_character_empty_leaderboard" rel_version="Feature_Leaderboards">Vous ne figurez pas dans ce classement.</string>
 	<string key="ui_leaderboard_faction_no_faction" rel_version="Feature_Leaderboards">Rejoignez une faction pour participer</string>
 	<string key="ui_leaderboard_faction_no_company" rel_version="Feature_Leaderboards">Rejoignez une compagnie pour participer</string>
-	<string key="ui_leaderboard_error_nodata" rel_version="Feature_Leaderboards">Aucune donnée n'est suivie</string>
+	<string key="ui_leaderboard_error_nodata" rel_version="Feature_Leaderboards">Aucune donnée suivie</string>
 	<string key="ui_leaderboard_error_nodata_filter" rel_version="Feature_Leaderboards">Cette donnée n'est pas suivie par : {filter}</string>
 	<string key="ui_leaderboard_error_norewards" rel_version="Feature_Leaderboards">{type} n'offre pas de récompenses</string>
-	<string key="ui_leaderboard_error_norewards_this" rel_version="Feature_Leaderboards">{type} n'offre pas de récompenses</string>
+	<string key="ui_leaderboard_error_norewards_this" rel_version="Feature_Leaderboards">Ce(tte) {type} n'offre pas de récompenses</string>
 	<string key="ui_leaderboard_error_norewards_byfaction" rel_version="Feature_Leaderboards">{type} par faction n'offre pas de récompenses</string>
+	<string key="ui_leaderboard_error" rel_version="Feature_Leaderboards">Ce classement n'offre pas de récompenses</string>
 	<string key="ui_leaderboard_error_nottracked" rel_version="Feature_Leaderboards">Ce classement n'est pas suivi par : {filter}</string>
 	<string key="ui_leaderboard_error_noboard" rel_version="Feature_Leaderboards">Aucun classement de : {rotation} pour cette catégorie.</string>
 	<string key="ui_leaderboard_page_count" rel_version="Feature_Leaderboards">Page {current} sur {total}</string>
@@ -117,7 +118,8 @@
 	<string key="ui_leaderboard_tip_invasion_score" rel_version="Feature_Leaderboards">Ceci est le score le plus élevé que vous avez obtenu lors d'une invasion.</string>
 	<string key="ui_leaderboard_tip_darkness_score" rel_version="Feature_Leaderboards">Vous gagnerez un point par point d'EXP que vaut un foyer d'altération.</string>
 	<string key="ui_leaderboard_tip_pvparena_score" rel_version="Feature_Leaderboards">Votre score en arène 3 contre 3 est cumulatif. Gagnez plus en participant à davantage de matchs.</string>
-	<string key="ui_leaderboard_expedition_title" rel_version="Feature_Leaderboards">{expedition}, {difficulty}</string>
+	<string key="ui_leaderboard_tip_inv_war_wins" rel_version="Feature_Leaderboards">Vous devez au moins marquer 500 points pour que vos victoires soient prises en compte.</string>
+	<string key="ui_leaderboard_expedition_title" rel_version="Feature_Leaderboards">{expedition}, &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{difficulty}&lt;/font&gt;</string>
 	<string key="ui_leaderboard_expedition_difficulty" rel_version="Feature_Leaderboards">Difficulté</string>
 	<string key="ui_leaderboard_expedition_difficulty_1" rel_version="Feature_Leaderboards">1</string>
 	<string key="ui_leaderboard_expedition_difficulty_2" rel_version="Feature_Leaderboards">2</string>
@@ -144,7 +146,7 @@
 	<string key="ui_leaderboard_display_legendaries" rel_version="Feature_Leaderboards">Légendaires</string>
 	<string key="ui_leaderboard_territory_all" rel_version="Feature_Leaderboards">Tous les territoires</string>
 	<string key="ui_leaderboard_row_rank_morethan" rel_version="Feature_Leaderboards">&gt;{number}</string>
-	<string key="ui_leaderboard_with_gold" rel_version="Feature_Leaderboards">Avec &lt;img src="lyshineui/images/dungeons/mutator_rank_gold_sm" scale="2.0" xPadding="0" yOffset="5"&gt;&lt;/img&gt; le &lt;font color={color}&gt;Rang or&lt;/font&gt;</string>
+	<string key="ui_leaderboard_with_gold" rel_version="Feature_Leaderboards">avec &lt;img src="lyshineui/images/dungeons/mutator_rank_gold_sm" scale="2.0" xPadding="0" yOffset="5"&gt;&lt;/img&gt; le &lt;font color={color}&gt;Rang or&lt;/font&gt;</string>
 	<string key="ui_leaderboard_company_deleted" rel_version="Feature_Leaderboards">(Compagnie supprimée)</string>
 	<string key="ui_leaderboard_player_deleted" rel_version="Feature_Leaderboards">(Joueur supprimé)</string>
 	<string key="ui_leaderboard_rewards_top" rel_version="Feature_Leaderboards">{number} meilleurs</string>

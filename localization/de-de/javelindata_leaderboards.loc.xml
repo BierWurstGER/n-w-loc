@@ -52,14 +52,14 @@
 	<string key="ui_leaderboard_display_war_wins" rel_version="Feature_Leaderboards">Siege</string>
 	<string key="ui_leaderboard_display_war_attacker_wins" rel_version="Feature_Leaderboards">Angreifersiege</string>
 	<string key="ui_leaderboard_display_war_defender_wins" rel_version="Feature_Leaderboards">Verteidigersiege</string>
-	<string key="ui_leaderboard_display_war_kill_death" rel_version="Feature_Leaderboards">Tötungsquote</string>
+	<string key="ui_leaderboard_display_war_kill_death" rel_version="Feature_Leaderboards">K/D-Verhältnis</string>
 	<string key="ui_leaderboard_display_outpostrush_heals" rel_version="Feature_Leaderboards">Heilungen</string>
 	<string key="ui_leaderboard_display_outpostrush_kills" rel_version="Feature_Leaderboards">Spielertötungen</string>
 	<string key="ui_leaderboard_display_outpostrush_resources" rel_version="Feature_Leaderboards">Beigesteuerte Rohstoffe</string>
 	<string key="ui_leaderboard_display_outpostrush_score" rel_version="Feature_Leaderboards">Punkte</string>
 	<string key="ui_leaderboard_display_outpostrush_npc_kills" rel_version="Feature_Leaderboards">NSC-Tötungen</string>
 	<string key="ui_leaderboard_display_outpostrush_wins" rel_version="Feature_Leaderboards">Siege</string>
-	<string key="ui_leaderboard_display_outpostrush_kill_death" rel_version="Feature_Leaderboards">Tötungsquote</string>
+	<string key="ui_leaderboard_display_outpostrush_kill_death" rel_version="Feature_Leaderboards">K/D-Verhältnis</string>
 	<string key="ui_leaderboard_display_outpostrush_damage_dealt" rel_version="Feature_Leaderboards">Ausgeteilter Schaden</string>
 	<string key="ui_leaderboard_display_darkness_score" rel_version="Feature_Leaderboards">Punkte</string>
 	<string key="ui_leaderboard_display_openworldpvp_influence" rel_version="Feature_Leaderboards">Verdienter Einfluss</string>
@@ -71,9 +71,9 @@
 	<string key="ui_leaderboard_display_territory_control_streak" rel_version="Feature_Leaderboards">Herrschaftsserie</string>
 	<string key="ui_leaderboard_display_territory_control_score" rel_version="Feature_Leaderboards">Herrschaftszeit (Tage)</string>
 	<string key="ui_leaderboard_display_pvparena_wins" rel_version="Feature_Leaderboards">Siege</string>
-	<string key="ui_leaderboard_display_pvparena_winlossratio" rel_version="Feature_Leaderboards">Siegesquote</string>
+	<string key="ui_leaderboard_display_pvparena_winlossratio" rel_version="Feature_Leaderboards">Sieg/NL-Verhältnis</string>
 	<string key="ui_leaderboard_display_pvparena_kills" rel_version="Feature_Leaderboards">Tötungen</string>
-	<string key="ui_leaderboard_display_pvparena_killdeathratio" rel_version="Feature_Leaderboards">Tötungsquote</string>
+	<string key="ui_leaderboard_display_pvparena_killdeathratio" rel_version="Feature_Leaderboards">K/D-Verhältnis</string>
 	<string key="ui_leaderboard_display_pvparena_score" rel_version="Feature_Leaderboards">Punkte</string>
 	<string key="ui_leaderboard_display_pvparena_heals" rel_version="Feature_Leaderboards">Heilungen</string>
 	<string key="ui_leaderboard_display_pvparena_damagedealt" rel_version="Feature_Leaderboards">Ausgeteilter Schaden</string>
@@ -90,16 +90,17 @@
 	<string key="ui_leaderboard_display_invasion_heals" rel_version="Feature_Leaderboards">Heilungen</string>
 	<string key="ui_leaderboard_display_invasion_wins" rel_version="Feature_Leaderboards">Siege</string>
 	<string key="ui_leaderboard_display_invasion_kills" rel_version="Feature_Leaderboards">Tötungen</string>
-	<string key="ui_leaderboard_display_invasion_kill_death" rel_version="Feature_Leaderboards">Tötungsquote</string>
+	<string key="ui_leaderboard_display_invasion_kill_death" rel_version="Feature_Leaderboards">K/D-Verhältnis</string>
 	<string key="ui_leaderboard_display_invasion_damage_dealt" rel_version="Feature_Leaderboards">Ausgeteilter Schaden</string>
-	<string key="ui_leaderboard_character_empty_leaderboard" rel_version="Feature_Leaderboards">Du bist aktuell nicht auf dieser Rangliste vertreten.</string>
+	<string key="ui_leaderboard_character_empty_leaderboard" rel_version="Feature_Leaderboards">Du bist nicht auf dieser Rangliste vertreten.</string>
 	<string key="ui_leaderboard_faction_no_faction" rel_version="Feature_Leaderboards">Tritt einer Fraktion bei, um teilnehmen zu können</string>
 	<string key="ui_leaderboard_faction_no_company" rel_version="Feature_Leaderboards">Tritt einer Kompanie bei, um teilnehmen zu können</string>
 	<string key="ui_leaderboard_error_nodata" rel_version="Feature_Leaderboards">Es wurden keine Daten erfasst</string>
 	<string key="ui_leaderboard_error_nodata_filter" rel_version="Feature_Leaderboards">Diese Daten werden von {filter} nicht erfasst</string>
 	<string key="ui_leaderboard_error_norewards" rel_version="Feature_Leaderboards">{type} bietet keine Belohnungen</string>
-	<string key="ui_leaderboard_error_norewards_this" rel_version="Feature_Leaderboards">Die Kategorie {type} bietet keine Belohnungen</string>
+	<string key="ui_leaderboard_error_norewards_this" rel_version="Feature_Leaderboards">Diese {type} bietet keine Belohnungen</string>
 	<string key="ui_leaderboard_error_norewards_byfaction" rel_version="Feature_Leaderboards">{type} bietet nach Fraktion keine Belohnungen</string>
+	<string key="ui_leaderboard_error" rel_version="Feature_Leaderboards">Diese Bestenliste bietet keine Belohnungen</string>
 	<string key="ui_leaderboard_error_nottracked" rel_version="Feature_Leaderboards">Diese Bestenliste kann nicht nach "{filter}" sortiert werden.</string>
 	<string key="ui_leaderboard_error_noboard" rel_version="Feature_Leaderboards">Es gibt keine {rotation}-Bestenliste für diese Kategorie.</string>
 	<string key="ui_leaderboard_page_count" rel_version="Feature_Leaderboards">Seite {current} von {total}</string>
@@ -117,7 +118,8 @@
 	<string key="ui_leaderboard_tip_invasion_score" rel_version="Feature_Leaderboards">Deine Invasionspunkte sind ein neuer Punkterekord für dich.</string>
 	<string key="ui_leaderboard_tip_darkness_score" rel_version="Feature_Leaderboards">Für jeden EP-Punkt, den ein Verderbnisausbruch wert ist, erhältst du einen Punkt.</string>
 	<string key="ui_leaderboard_tip_pvparena_score" rel_version="Feature_Leaderboards">Deine Punkte in der 3-gegen-3-Arena sind kumulativ. Erhalte mehr, indem du mehr Matches absolvierst.</string>
-	<string key="ui_leaderboard_expedition_title" rel_version="Feature_Leaderboards">{expedition}, {difficulty}</string>
+	<string key="ui_leaderboard_tip_inv_war_wins" rel_version="Feature_Leaderboards">Du musst mindestens 500 Punkte erreichen, um dich in Richtung Sieg vorzuarbeiten.</string>
+	<string key="ui_leaderboard_expedition_title" rel_version="Feature_Leaderboards">{expedition}, &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{difficulty}&lt;/font&gt;</string>
 	<string key="ui_leaderboard_expedition_difficulty" rel_version="Feature_Leaderboards">Schwierigkeitsgrad</string>
 	<string key="ui_leaderboard_expedition_difficulty_1" rel_version="Feature_Leaderboards">1</string>
 	<string key="ui_leaderboard_expedition_difficulty_2" rel_version="Feature_Leaderboards">2</string>
@@ -144,7 +146,7 @@
 	<string key="ui_leaderboard_display_legendaries" rel_version="Feature_Leaderboards">Legendäres</string>
 	<string key="ui_leaderboard_territory_all" rel_version="Feature_Leaderboards">Alle Gebiete</string>
 	<string key="ui_leaderboard_row_rank_morethan" rel_version="Feature_Leaderboards">&gt;{number}</string>
-	<string key="ui_leaderboard_with_gold" rel_version="Feature_Leaderboards">Mit &lt;img src="lyshineui/images/dungeons/mutator_rank_gold_sm" scale="2.0" xPadding="0" yOffset="5"&gt;&lt;/img&gt; &lt;font color={color}&gt; Gold-Rang&lt;/font&gt;</string>
+	<string key="ui_leaderboard_with_gold" rel_version="Feature_Leaderboards">mit &lt;img src="lyshineui/images/dungeons/mutator_rank_gold_sm" scale="2.0" xPadding="0" yOffset="5"&gt;&lt;/img&gt; &lt;font color={color}&gt; Gold-Rang&lt;/font&gt;</string>
 	<string key="ui_leaderboard_company_deleted" rel_version="Feature_Leaderboards">(Kompanie gelöscht)</string>
 	<string key="ui_leaderboard_player_deleted" rel_version="Feature_Leaderboards">(Spieler gelöscht)</string>
 	<string key="ui_leaderboard_rewards_top" rel_version="Feature_Leaderboards">Top {number}</string>
