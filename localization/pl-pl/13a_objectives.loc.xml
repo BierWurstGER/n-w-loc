@@ -9,9 +9,9 @@
 	<string key="13A_SQ_01_HakenstadtDoll_complete" speaker="Primrose Gabrielis - Hakenstadt" name="PrimroseGabrielis" gender="Female" VO="13A_SQ_01_HakenstadtDoll_complete" VO_Status="Recorded" dialogue-next="@13A_SQ_01_HakenstadtDoll_complete_next" rel_version="Quest_MSQ2_WeaversFen">Co udało ci się znaleźć w Hakenstadt? Tęsknię za tym miejscem. \n\nRazem z moim mężem uczyłam tam Hazel szycia. Uwielbiała robić sukieneczki dla swoich lalek.</string>
 	<string key="13A_SQ_01_HakenstadtDoll_complete_prompt" rel_version="Quest_MSQ2_WeaversFen">"Mam jej zapiski."</string>
 	<string key="13A_SQ_01_HakenstadtDoll_complete_next" speaker="Primrose Gabrielis - Hakenstadt" name="PrimroseGabrielis" gender="Female" VO="13A_SQ_01_HakenstadtDoll_complete_next" VO_Status="Recorded" dialogue-prompt="@13A_SQ_01_HakenstadtDoll_complete_prompt" rel_version="Quest_MSQ2_WeaversFen">Co?! To niemożliwe. Hazel nigdy nie napisałaby czegoś takiego. \n\nPo co moja córka miałaby parać się magią życia? Przecież nie ma o niej zielonego pojęcia. Magia na tej wyspie bywa niebezpieczna!</string>
-	<string key="13A_SQ_01_HakenstadtDoll_Task_GoTo" speaker="UI - Task Description" rel_version="Quest_MSQ2_WeaversFen">Znajdź Hazel, zaginioną córkę, w: {POITags}</string>
+	<string key="13A_SQ_01_HakenstadtDoll_Task_GoTo" speaker="UI - Task Description" rel_version="Quest_MSQ2_WeaversFen">Poszukaj Hazel w: {POITags}</string>
 	<string key="13A_SQ_01_HakenstadtDoll_Task_DispelFog" speaker="UI - Task Description" rel_version="Quest_MSQ2_WeaversFen">Pozbądź się pozostałości po eksperymentach Hazel</string>
-	<string key="13A_SQ_01_HakenstadtDoll_Task_CollectNotes" speaker="UI - Task Description" rel_version="Quest_MSQ2_WeaversFen">Zbierz zapiski Hazel</string>
+	<string key="13A_SQ_01_HakenstadtDoll_Task_CollectNotes" speaker="UI - Task Description" rel_version="Quest_MSQ2_WeaversFen">Zbierz notatkę Hazel</string>
 	<string rel_version="Quest_MSQ2_WeaversFen" xsi:nil="true"/>
 	<string key="13A_SQ_02_KrummholmTransmutations_objective_title" speaker="UI - Quest Title" rel_version="Quest_MSQ2_WeaversFen">Prawda o transmutacjach</string>
 	<string key="13A_SQ_02_KrummholmTransmutations_objective_desc" speaker="UI – Quest Description" rel_version="Quest_MSQ2_WeaversFen">Hazel eksperymentowała z zakazaną magią życia. Kontynuuj poszukiwania na wschodzie – w Krummholm.</string>
@@ -23,9 +23,10 @@
 	<string key="13A_SQ_02_KrummholmTransmutations_incomplete" speaker="Primrose Gabrielis - Krummholm" name="PrimroseGabrielis" gender="Female" VO="13A_SQ_02_KrummholmTransmutations_incomplete" VO_Status="Recorded" rel_version="Quest_MSQ2_WeaversFen">Jakieś wieści o Hazel? Zamartwiam się na śmierć. \n\nNie zniosłabym straty mojej córeczki. Jest promykiem, który rozjaśnia mą duszę.</string>
 	<string key="13A_SQ_02_KrummholmTransmutations_complete" speaker="Primrose Gabrielis - Krummholm" name="PrimroseGabrielis" gender="Female" VO="13A_SQ_02_KrummholmTransmutations_complete" VO_Status="Recorded" rel_version="Quest_MSQ2_WeaversFen">Wracasz! Jakie przynosisz wieści o Hazel? \n\nChwila. Jak to? Nie było jej w Krummholm?</string>
 	<string key="13A_SQ_02_KrummholmTransmutations_Task_GoTo" rel_version="Quest_MSQ2_WeaversFen">Poszukaj Hazel w: {POITags}</string>
-	<string key="13A_SQ_02_KrummholmTransmutations_Task_BloodSamples" rel_version="Quest_MSQ2_WeaversFen">Pobierz próbki krwi od stworzeń, na których eksperymentowała Hazel</string>
+	<string key="13A_SQ_02_KrummholmTransmutations_Task_BloodSamples" rel_version="Quest_MSQ2_WeaversFen">Zbierz przedmiot: {itemName} z: {targetName}</string>
 	<string key="13A_SQ_02_KrummholmTransmutations_Task_DestroyJars" rel_version="Quest_MSQ2_WeaversFen">Zniszcz słoje</string>
-	<string key="13A_SQ_02_KrummholmTransmutations_Task_CollectNotes" rel_version="Quest_MSQ2_WeaversFen">Zbierz zapiski Hazel</string>
+	<string key="13A_SQ_02_KrummholmTransmutations_Task_CollectNotes" rel_version="Quest_MSQ2_WeaversFen">Zbierz notatkę Hazel</string>
+	<string rel_version="Quest_MSQ2_WeaversFen" xsi:nil="true"/>
 	<string key="13A_SQ_03_FreeHazel_objective_title" speaker="UI - Quest Title" rel_version="Quest_MSQ2_WeaversFen">Nadzieja żywych</string>
 	<string key="13A_SQ_03_FreeHazel_objective_desc" speaker="UI – Quest Description" rel_version="Quest_MSQ2_WeaversFen">Pierwiosnka obawia się, co uczyniła jej córka. Znajdź Hazel i sprowadź ją bezpiecznie do domu.</string>
 	<string key="NPC_P1_Primrose_03" speaker="Primrose Gabrielis - Hope's Valley" name="PrimroseGabrielis" gender="Female" VO="NPC_P1_Primrose_03" VO_Status="Recorded" rel_version="Quest_MSQ2_WeaversFen">Pozszywane kawałki zwierząt… To brzmi jak coś, co zrobiłaby Wiedźma! \n\nOch, Hazel… Przecież nigdy nie domagałam się wnucząt. Dlaczego myślała, że tak bardzo mi na nich zależy?</string>
@@ -34,7 +35,7 @@
 	<string key="13A_SQ_03_FreeHazel_incomplete" speaker="Primrose Gabrielis - Hope's Valley" name="PrimroseGabrielis" gender="Female" VO="13A_SQ_03_FreeHazel_incomplete" VO_Status="Recorded" rel_version="Quest_MSQ2_WeaversFen">Proszę, znajdź Hazel i powiedz jej, żeby wracała do domu. \n\nWystarczy, że mamy siebie nawzajem. Powiedz jej to. To naprawdę wystarczy.</string>
 	<string key="13A_SQ_03_FreeHazel_complete" speaker="Primrose Gabrielis - Hope's Valley" name="PrimroseGabrielis" gender="Female" VO="13A_SQ_03_FreeHazel_complete" VO_Status="Recorded" rel_version="Quest_MSQ2_WeaversFen">Nie! Hazel! Dlaczego to sobie zrobiłaś? To moja wina… to ja do tego doprowadziłam…\n\nPrzepraszam. Nie mogę mieć do ciebie pretensji, to nie twoja wina. Zostaw mnie sam na sam z moimi łzami…</string>
 	<string key="13A_SQ_03_FreeHazel_Task_GoTo" rel_version="Quest_MSQ2_WeaversFen">Poszukaj Hazel w: {POITags}</string>
-	<string key="13A_SQ_03_FreeHazel_Task_CollectNotes" rel_version="Quest_MSQ2_WeaversFen">Zbierz zapiski Hazel</string>
+	<string key="13A_SQ_03_FreeHazel_Task_CollectNotes" rel_version="Quest_MSQ2_WeaversFen">Zbierz notatkę Hazel</string>
 	<string key="13A_SQ_03_FreeHazel_Task_FreeHazel" rel_version="Quest_MSQ2_WeaversFen">Pokonaj Hazel, by skrócić jej męki</string>
 	<string key="NPC_P1_Primrose_04" speaker="Primrose Gabrielis - Hope's Valley" name="PrimroseGabrielis" gender="Female" VO="NPC_P1_Primrose_04" VO_Status="Recorded" rel_version="Quest_MSQ2_WeaversFen">Nie wiem, jak sobie poradzę bez Hazel… \n\nTa wyspa nie spocznie, dopóki nie odbierze ci dosłownie wszystkiego.</string>
 	<string rel_version="Quest_MSQ2_WeaversFen" xsi:nil="true"/>
@@ -399,7 +400,7 @@
 	<string key="13A_SQ_28_ResearcherLubin_Prompt_Repellent_next" speaker="UI - Player Prompt" rel_version="Quest_MSQ2_WeaversFen">"Użyj środka odstraszającego. Tak będzie lepiej".</string>
 	<string key="13A_SQ_28_ResearcherLubin_Response_Repellent_next" speaker="Researcher Lubin" name="ResearcherLubin" gender="F" VO="9904_0028_thenoseknowsd_complete_available_response_next" VO_Status="Recorded" dialogue-prompt="@13A_SQ_28_ResearcherLubin_Prompt_Repellent_next" rel_version="Quest_MSQ2_WeaversFen">Pewnie masz rację. Trzeci raz nie dam się poturbować...\n\nPowiedz Theo, że spróbuję jego sposobu.</string>
 	<string key="NPC_Default_Dialogue_01_ResearcherLubin" comment="after &quot;The Nose Knows&quot;" speaker="Researcher Lubin" name="ResearcherLubin" gender="F" VO="9918_01_MSQ_Researcher4_DefaultDialog" VO_Status="Recorded" rel_version="Quest_MSQ2_WeaversFen">Lepiej jednak nie będę próbowała zaprzyjaźniać się z niedźwiedziami…\n\nPowinnam utrzymywać profesjonalny dystans.</string>
-	<string key="NPC_DefaultDialogue_00_13a_Guard1" speaker="Georg Haas" name="GeorgHaas" gender="M" VO_Status="Needs Recording" rel_version="Quest_MSQ2_WeaversFen">Mokradła i po mokradłach.</string>
-	<string key="NPC_DefaultDialogue_00_13a_Guard2" speaker="Beatrix Jung" name="BeatrixJung" gender="F" VO_Status="Needs Recording" rel_version="Quest_MSQ2_WeaversFen">Mokradła i po mokradłach.</string>
+	<string key="NPC_DefaultDialogue_00_13a_Guard1" speaker="Georg Haas" name="GeorgHaas" gender="M" VO_Status="Needs Recording" rel_version="Quest_MSQ2_WeaversFen">Miłego dnia! Chcesz trochę odsapnąć w Twillen? \n\nZałożę się, że na tablicy są jakieś nowe misje. Lubię czasem je sprawdzać podczas przerwy. Zawsze jest coś ciekawego!</string>
+	<string key="NPC_DefaultDialogue_00_13a_Guard2" speaker="Beatrix Jung" name="BeatrixJung" gender="F" VO_Status="Needs Recording" rel_version="Quest_MSQ2_WeaversFen">Witaj! Witamy w Twillen. Wyglądasz na bystrą osobę. A może to tylko pozory? \n\nJeśli zdobędziesz mi trochę złota z miejsca, które zaczyna się od wody, może dam się przekonać.</string>
 </resources>
 

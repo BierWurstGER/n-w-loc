@@ -194,8 +194,8 @@
 	<string key="inv_moreItems">+&lt;font face="lyshineui/fonts/Nimbus_bold.font"&gt;{value}&lt;/font&gt; przedmiotów</string>
 	<string key="lo_name" comment="This key needs to be short to be used directly as a loadout name." rel_version="Feature_Gear_Set_Storage">Zestaw wyposażenia</string>
 	<string key="loadout_window_title" rel_version="Feature_Gear_Set_Storage">ZESTAWY WYPOSAŻENIA</string>
-	<string key="loadout_storage_title" rel_version="Feature_Gear_Set_Storage">MAGAZYN ZESTAWÓW WYPOSAŻENIA</string>
-	<string key="loadout_storage_info" rel_version="Feature_Gear_Set_Storage">Przedmioty w twoim magazynie zestawów wyposażenia nie znajdują się w twoim ekwipunku i nie wliczają się do ciężaru twojego ekwipunku czy magazynu.</string>
+	<string key="loadout_storage_title" rel_version="Feature_Gear_Set_Storage">ZESTAWY WYPOSAŻENIA</string>
+	<string key="loadout_storage_info" rel_version="Feature_Gear_Set_Storage">Przedmioty w zestawach wyposażenia nie znajdują się w twoim ekwipunku i nie wliczają się do ciężaru twojego ekwipunku czy magazynu.</string>
 	<string key="loadout_addto_command" rel_version="Feature_Gear_Set_Storage">Dodaj do zestawu wyposażenia</string>
 	<string key="loadout_addfrom_command" rel_version="Feature_Gear_Set_Storage">Dodaj z zestawu wyposażenia</string>
 	<string key="loadout_addtoall_command" rel_version="Feature_Gear_Set_Storage">Dodaj do wszystkich zestawów wyposażenia</string>
@@ -218,8 +218,8 @@
 	<string key="loadout_notification_restricted" rel_version="Feature_Gear_Set_Storage">Obecnie nie można zmienić zestawu wyposażenia</string>
 	<string key="loadout_notification_renamefail" rel_version="Feature_Gear_Set_Storage">Nie udało się zmienić nazwy zestawu wyposażenia</string>
 	<string key="loadout_notification_renameinvalid" rel_version="Feature_Gear_Set_Storage">Nieprawidłowa nazwa zestawu wyposażenia</string>
-	<string key="loadout_notification_itemlinked" rel_version="Feature_Gear_Set_Storage">Nie udało się zwrócić przedmiotu (jest częścią innego zestawu wyposażenia)</string>
-	<string key="loadout_notification_itemslinked" rel_version="Feature_Gear_Set_Storage">Nie udało się zwrócić niektórych przedmiotów do ekwipunku (są częścią innego zestawu wyposażenia)</string>
+	<string key="loadout_notification_itemlinked" rel_version="Feature_Gear_Set_Storage">Nie udało się zwrócić przedmiotu (jest częścią innego zestawu lub w użyciu)</string>
+	<string key="loadout_notification_itemslinked" rel_version="Feature_Gear_Set_Storage">Nie udało się zwrócić niektórych przedmiotów do ekwipunku (jest częścią innego zestawu lub w użyciu)</string>
 	<string key="loadout_notification_itemadd_success" rel_version="Feature_Gear_Set_Storage">Przedmiot dodany do zestawu: {loadoutName}</string>
 	<string key="loadout_notification_itemadd_failure" rel_version="Feature_Gear_Set_Storage">Nie udało się dodać przedmiotu do zestawu: {loadoutName}</string>
 	<string key="loadout_notification_itemadd_failure_existing_slot" rel_version="Feature_Gear_Set_Storage">Nie udało się dodać przedmiotu do zestawu: {loadoutName}, przedmiot jest już w tym miejscu.</string>
@@ -227,6 +227,7 @@
 	<string key="loadout_notification_itemaddall_failure" rel_version="Feature_Gear_Set_Storage">Nie udało się dodać przedmiotu do wszystkich zestawów</string>
 	<string key="loadout_notification_switch_loadout_on_cooldown" rel_version="Feature_Gear_Set_Storage">Musisz odczekać {timeRemaining} przed zmianą zestawu wyposażenia</string>
 	<string key="loadout_tutorial" rel_version="Feature_Gear_Set_Storage">Zestawy wyposażenia są już dostępne!\nTwórz szybko zestawy wyposażenia i zmieniaj je wedle własnego uznania.</string>
+	<string key="loadout_notification_return_space_fail" rel_version="Feature_Gear_Set_Storage">Nie można było zwrócić przedmiotów z zestawu wyposażenia do ekwipunku ze względu na brak odpowiedniego miejsca.</string>
 	<string key="incompatible_elemental_perk">Niekompatybilny profit żywiołów</string>
 	<string key="incompatible_socket_item">Nie można osadzić w przedmiocie tego rodzaju</string>
 </resources>

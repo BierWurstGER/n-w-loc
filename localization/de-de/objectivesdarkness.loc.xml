@@ -83,9 +83,13 @@
 	<string key="ui_holdout_chamber_Obj_Task_01_desc" rel_version="Quest_MSQ2_Revamp">Interagiere mit der Glyphe, um die Prüfung zu beginnen.</string>
 	<string key="ui_holdout_chamber_Obj_Task_02" rel_version="Quest_MSQ2_Revamp">Überlebe die Prüfung</string>
 	<string key="ui_holdout_chamber_Obj_Task_02_desc" rel_version="Quest_MSQ2_Revamp">Verbleibende Zeit:</string>
+	<string key="ui_lostattack_swampwaterfishery" rel_version="Event_SpringtideBloom_Perm">Die Ahnen-Vorrichtung</string>
+	<string key="ui_lostattack_swampwaterfishery_description" rel_version="Event_SpringtideBloom_Perm">Ein seltsames Gerät in einer verlassenen Fischerei … was soll da schon schiefgehen?</string>
 	<string key="objective_lostattack_swampwaterfishery_title">Ahnen-Vorrichtung</string>
 	<string key="objective_lostattack_swampwaterfishery_desc">Untersuche die Ahnen-Vorrichtung am Flussufer.</string>
 	<string key="objective_lostattack_swampwaterfishery_wave_01">Ahnen-Vorrichtung verteidigen: {remainingCount}/1 \nVerbleibende Zeit:</string>
+	<string key="ui_lostattack_piscarianfishery" rel_version="Event_SpringtideBloom_Perm">Das Ahnen-Werkzeug</string>
+	<string key="ui_lostattack_piscarianfishery_description" rel_version="Event_SpringtideBloom_Perm">Ein seltsames Werkzeug der Ahnen in einer verlassenen Fischerei … was soll da schon schiefgehen?</string>
 	<string key="objective_lostattack_piscarianfishery_title">Ahnen-Vorrichtung:</string>
 	<string key="objective_lostattack_piscarianfishery_desc">Untersuche die Ahnen-Vorrichtung auf dem Weg.</string>
 	<string key="objective_lostattack_piscarianfishery_wave_01">Ahnen-Vorrichtung verteidigen: {remainingCount}/1 \nVerbleibende Zeit:</string>
@@ -153,15 +157,17 @@
 	<string key="04A_Encounter_Zane_Boss_Obj_Enc_task_setup_desc" rel_version="Quest_MSQ2_Revamp">Stelle dich Aufseher Zane</string>
 	<string key="ui_turkeyterror_worldboss_Turkulon">Trutalons Terror</string>
 	<string key="ui_turkeyterror_worldboss_Turkulon_description">Trutalon ist zurückgekehrt, um seine gefallenen Kameraden zu rächen</string>
-	<string key="ui_worldboss_season_01_event" rel_version="Season_1_Temp">Die Wut der Spriggan</string>
-	<string key="ui_worldboss_season_01_event_description" rel_version="Season_1_Temp">Die Erde erhebt sich gegen uns. Unterwirf die Dryaden und die Waffe, die sie zu beschwören versuchen.</string>
+	<string key="ui_worldboss_defeated" rel_version="Event_February_Perm">{objective} besiegt</string>
+	<string key="ui_worldboss_daily_reset" rel_version="Event_February_Perm">Tägliche Belohnung wird um {time} zurückgesetzt.</string>
+	<string key="ui_worldboss_season_01_event" rel_version="Season_1_Temp">Wut der Spriggans</string>
+	<string key="ui_worldboss_season_01_event_description" rel_version="Season_1_Temp">Die Erde erhebt sich gegen uns. Unterwirf die Dryaden und die Waffe, die sie zu beschwören versuchen.\n\nEnthält &lt;font color="#ffe940"&gt;3&lt;/font&gt; tägliche Belohnungen. Wird zurückgesetzt um {time}</string>
 	<string key="objective_worldboss_task_season_01_event_wave0_title" rel_version="Season_1_Temp">Fertige die Feuerschalen an, um deine Waffen zu verstärken und die Dryaden zu bezwingen.</string>
 	<string key="objective_worldboss_task_season_01_event_wave0_desc" rel_version="Season_1_Temp">Verbleibende Feuerschalen: {remainingCount}</string>
-	<string key="objective_worldboss_task_season_01_event_wave1_title" rel_version="Season_1_Temp">Halte gegen die Dryaden deine Stellung.</string>
+	<string key="objective_worldboss_task_season_01_event_wave1_title" rel_version="Season_1_Temp">Ermächtige deine Waffe an den Feuerschalen und halte den Dryaden stand.</string>
 	<string key="objective_worldboss_task_season_01_event_wave1_desc" rel_version="Season_1_Temp">Verbleibende Zeit:</string>
-	<string key="objective_worldboss_task_season_01_event_wave2_title" rel_version="Season_1_Temp">Halte das Schamanenritual zur Erschaffung von Spriggans auf.</string>
+	<string key="objective_worldboss_task_season_01_event_wave2_title" rel_version="Season_1_Temp">Halte das Ritual auf.</string>
 	<string key="objective_worldboss_task_season_01_event_wave2_desc" rel_version="Season_1_Temp">Verbleibende Schamanen: {remainingCount}</string>
-	<string key="objective_worldboss_task_season_01_event_wave3_title" rel_version="Season_1_Temp">Das Ritual wurde vollendet! Vernichte die Waffe!</string>
+	<string key="objective_worldboss_task_season_01_event_wave3_title" rel_version="Season_1_Temp">Das Ritual wurde vollendet! Verteidige dich gegen die Spriggans!</string>
 	<string key="objective_worldboss_task_season_01_event_wave3_desc" rel_version="Season_1_Temp">Besiege die Spriggans.</string>
 	<string key="objective_S01_Aidyn" rel_version="Season_1_Temp">Auf den Fersen</string>
 	<string key="objective_S01_Aidyn_description" rel_version="Season_1_Temp">Aidyn wurde vom Gesichtslosen verderbt und bedarf deiner Hilfe.</string>

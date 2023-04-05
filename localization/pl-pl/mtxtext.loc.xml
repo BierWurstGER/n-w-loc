@@ -46,6 +46,8 @@
 	<string key="ui_get_credits" rel_version="Feature_MTX">Zdobądź marki losu</string>
 	<string key="reward_type_emote" rel_version="Feature_MTX">Gest</string>
 	<string key="reward_type_itemskin" rel_version="Feature_MTX">Skórka</string>
+	<string key="ui_apply_skin" rel_version="Feature_MTX">Zastosuj skórkę</string>
+	<string key="ui_apply_skins" rel_version="Feature_MTX">Zastosuj skórki</string>
 	<string key="reward_type_itemdye" rel_version="Feature_MTX">Barwnik</string>
 	<string key="reward_type_statuseffect" rel_version="Feature_Seasons_Consumable_Tokens">Wzmacniacz</string>
 	<string key="reward_type_armorskin" rel_version="Feature_MTX">Skórka ubioru</string>
@@ -116,7 +118,7 @@
 	<string key="reward_type_tooltip_itemskin" rel_version="Feature_MTX">&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;SKÓRKI PRZEDMIOTÓW&lt;/font&gt;: Możesz nałożyć skórkę, klikając pancerz, broń lub narzędzia w ekwipunku, a następnie wybierając "Zmień skórkę".</string>
 	<string key="reward_type_tooltip_campskin" rel_version="Feature_Camp_Skins">&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;SKÓRKI OBOZU&lt;/font&gt;: Możesz użyć skórki za pomocą opcji "Zmień skórkę" w obozie.</string>
 	<string key="reward_type_tooltip_itemdye" rel_version="Feature_MTX">&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;BARWNIKI&lt;/font&gt;: Możesz użyć barwnika, klikając pancerz w ekwipunku, a następnie wybierając "Ufarbuj pancerz".</string>
-	<string key="reward_type_tooltip_token" rel_version="Feature_Seasons_Consumable_Tokens">&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;BARWNIKI&lt;/font&gt;: Aby użyć wzmacniacza, otwórz ekwipunek, a następnie menu wzmacniaczy.</string>
+	<string key="reward_type_tooltip_token" rel_version="Feature_Seasons_Consumable_Tokens">&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;WZMACNIACZE&lt;/font&gt;: Aby użyć wzmacniacza, otwórz ekwipunek, a następnie menu wzmacniaczy.</string>
 	<string key="reward_type_tooltip_guildcrest" rel_version="Feature_MTX">&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;HERBY&lt;/font&gt;: Możesz ustawić herb na ekranie kompanii.</string>
 	<string key="reward_type_tooltip_housing_item" rel_version="Feature_MTX">&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;PRZEDMIOTY DOMOWE&lt;/font&gt;: Możesz umieścić przedmioty domowe w swoim domu, korzystając z trybu ozdabiania.</string>
 	<string key="reward_type_tooltip_player_title" rel_version="Feature_MTX">&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;TYTUŁY&lt;/font&gt;: Możesz ustawić tytuł w zakładce "Biografia" menu postaci, klikając "Zmień tytuł".</string>
@@ -165,8 +167,8 @@
 	<string key="ui_transaction_failed">Transakcja nieudana.</string>
 	<string key="ui_transaction_timed_out">Przekroczono limit czasu transakcji. Chcesz spróbować ponownie?</string>
 	<string key="ui_transaction_timeout_overlay">Przekroczono limit czasu transakcji.\nUpewnij się, że nakładka Steam jest włączona.</string>
-	<string key="ui_bonus_marks">(marki losu: +{bonus})</string>
-	<string key="ui_bonus_percent">{bonusPct}% premii</string>
+	<string key="ui_bonus_marks">{base} + premia {bonus} = </string>
+	<string key="ui_bonus_percent">{bonusPct}% premii!</string>
 	<string key="ui_how_to_use">Sposób użycia</string>
 	<string key="ui_notification_unlock_desc">Przedmioty zostały dodane do twojego konta.</string>
 	<string key="ui_notification_unlock_title">Odblokowano!</string>
@@ -973,17 +975,17 @@
 	<string key="Bundle_PR_WinterDragon_Apparel_description" rel_version="Apparel_WinterDragon_1">Co jest zimniejsze? Lodowe serce zimy czy zmrożone serce smoka?</string>
 	<string key="Bundle_PR_WinterDragon_Weapons_name" rel_version="Weapon_Winter_Greatsword">Paczka broni Zimowego Smoka</string>
 	<string key="Bundle_PR_WinterDragon_Weapons_description" rel_version="Weapon_Winter_Greatsword">Utoruj sobie drogę przez śnieżne zaspy.</string>
-	<string key="reward_type_token" rel_version="Entitlements_FirelightSeason">Wzmacniacz</string>
-	<string key="Token_Proficiency_Boost_name" rel_version="Entitlements_FirelightSeason">Pakiet wzmacniaczy biegłości</string>
-	<string key="Token_Proficiency_Boost_description" rel_version="Entitlements_FirelightSeason">Zwiększa uzysk podczas wyrębu, górnictwa, żniw i skórowania o 10% na 90 minut.\nPremia nie działa w instancjonowanych trybach gry.</string>
-	<string key="Token_WeaponXP_Boost_name" rel_version="Entitlements_FirelightSeason">Pakiet wzmacniaczy PD broni</string>
-	<string key="Token_WeaponXP_Boost_description" rel_version="Entitlements_FirelightSeason">Zwiększa liczbę zdobywanych PD broni o 100% na 2 godziny.\nPremia nie działa w instancjonowanych trybach PvP.</string>
-	<string key="Token_TerritoryStanding_Boost_name" rel_version="Entitlements_FirelightSeason">Pakiet wzmacniaczy PD rangi terytorium</string>
-	<string key="Token_TerritoryStanding_Boost_description" rel_version="Entitlements_FirelightSeason">Zwiększa liczbę zdobywanych PD rangi terytorium o 100% na 2 godziny.\nPremia nie działa w instancjonowanych trybach gry.</string>
-	<string key="Token_SeasonXP_Boost_name" rel_version="Entitlements_FirelightSeason">Pakiet wzmacniaczy sezonowych PD</string>
-	<string key="Token_SeasonXP_Boost_description" rel_version="Entitlements_FirelightSeason">Zwiększa konwersję zwykłych PD na sezonowe PD o 100% na 2 godziny.</string>
-	<string key="Token_GatheringXP_Boost_name" rel_version="Entitlements_FirelightSeason">Pakiet wzmacniaczy PD zbieractwa</string>
-	<string key="Token_GatheringXP_Boost_description" rel_version="Entitlements_FirelightSeason">Zwiększa liczbę zdobywanych PD wyrębu, górnictwa, żniw i skórowania o 100% na 2 godziny.\nPremia nie działa w instancjonowanych trybach gry.</string>
+	<string key="reward_type_token" rel_version="Entitlements_FirelightSeason">Pakiet wzmacniaczy</string>
+	<string key="Token_Proficiency_Boost_name" rel_version="Entitlements_FirelightSeason">Wzmacniacz biegłości</string>
+	<string key="Token_Proficiency_Boost_description" rel_version="Entitlements_FirelightSeason">Zwiększa uzysk postaci podczas wyrębu, górnictwa, żniw i skórowania o 10% na 90 minut.\n\nPremia nie działa w instancjonowanych trybach gry.</string>
+	<string key="Token_WeaponXP_Boost_name" rel_version="Entitlements_FirelightSeason">Wzmacniacz PD broni</string>
+	<string key="Token_WeaponXP_Boost_description" rel_version="Entitlements_FirelightSeason">Zwiększa liczbę zdobywanych przez postać PD broni o 100% na 2 godziny.\n\nPremia nie działa w instancjonowanych trybach PvP.</string>
+	<string key="Token_TerritoryStanding_Boost_name" rel_version="Entitlements_FirelightSeason">Wzmacniacz rangi terytorium</string>
+	<string key="Token_TerritoryStanding_Boost_description" rel_version="Entitlements_FirelightSeason">Zwiększa liczbę zdobywanych przez postać PD rangi terytorium o 100% na 2 godziny.\n\nPremia nie działa w instancjonowanych trybach gry.</string>
+	<string key="Token_SeasonXP_Boost_name" rel_version="Entitlements_FirelightSeason">Wzmacniacz sezonowych PD</string>
+	<string key="Token_SeasonXP_Boost_description" rel_version="Entitlements_FirelightSeason">Zwiększa konwersję zwykłych PD postaci na sezonowe PD o 100% na 2 godziny.</string>
+	<string key="Token_GatheringXP_Boost_name" rel_version="Entitlements_FirelightSeason">Wzmacniacz PD zbieractwa</string>
+	<string key="Token_GatheringXP_Boost_description" rel_version="Entitlements_FirelightSeason">Zwiększa liczbę zdobywanych przez postać PD za wyrąb, górnictwo, żniwa i skórowanie o 100% na 2 godziny.\n\nPremia nie działa w instancjonowanych trybach gry.</string>
 	<string key="Apparel_OmensOfWinter_Owl_name" rel_version="Apparel_OmensWinter_1">Sowa Cailleach</string>
 	<string key="Apparel_OmensOfWinter_Cat_name" rel_version="Apparel_OmensWinter_2">Ryś Imbolc</string>
 	<string key="Bundle_PR_OmensOfWinter_Apparel_name" rel_version="Bundle_OmensWinter_Apparel">Paczka ubioru zimowych omenów</string>

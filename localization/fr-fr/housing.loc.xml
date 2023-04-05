@@ -146,17 +146,17 @@
 	<string key="ui_cant_pay_property_tax" comment="Housing Taxes">Paiement possible dans {time}</string>
 	<string key="ui_decoration_mode_unpaid" comment="Housing Taxes">Vous devez payer vos impôts pour pouvoir décorer votre foyer.</string>
 	<string key="ui_house_compensation_message_JAV141577" comment="Housing Taxes">En raison d'informations erronées sur les impôts pour les primo-accédants, nous vous offrons {amount} &lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt; pour l'acquisition de votre maison. Nous espérons que vous continuerez à apprécier New World et votre maison.</string>
-	<string key="ui_house_overdue_at" comment="Housing Taxes">RETARD DE PAIEMENT des frais d'entretien pour : {territoryName}. Payez vos frais d'entretien pour continuer à bénéficier du mode Décoration et du Transfert rapide</string>
-	<string key="ui_house_overdue_desc" comment="Housing Taxes">Vous avez du RETARD dans le paiement de vos frais d'entretien. Payez vos frais d'entretien pour activer des fonctionnalités de logement.</string>
-	<string key="ui_house_overdue_label" comment="Housing Taxes">RETARD DE PAIEMENT des frais d'entretien</string>
+	<string key="ui_house_overdue_at" comment="Housing Taxes">Vous avez du retard dans le paiement de vos frais d'entretien de propriété à : {territoryName}. Payez vos frais d'entretien de propriété pour activer des fonctionnalités de logement.</string>
+	<string key="ui_house_overdue_desc" comment="Housing Taxes">Vous avez du retard dans le paiement de vos frais d'entretien de propriété. Payez vos frais d'entretien pour activer des fonctionnalités de logement.</string>
+	<string key="ui_house_overdue_label" comment="Housing Taxes">Retard de paiement des frais d'entretien de propriété</string>
 	<string key="ui_house_property_tax_desc" comment="Housing Taxes">{coin} &lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt;</string>
 	<string key="ui_house_property_tax_sub_desc" comment="Housing Taxes">/requis par loyer pour entretenir cette maison</string>
 	<string key="ui_house_tax" comment="Housing Taxes">Frais d'entretien</string>
 	<string key="ui_house_tax_unpaid_flyout_warning" comment="Housing Taxes">Maison désactivée faute de paiement des frais d'entretien.</string>
 	<string key="ui_house_unpaid_taxes" comment="Housing Taxes">Somme due :</string>
-	<string key="ui_house_unpaid_taxes_due_soon" comment="Housing Taxes">Frais d'entretien de propriété à payer à : {territoryName} dans : {time}. Payez vos frais d'entretien pour continuer à bénéficier du mode Décoration et du Transfert rapide.</string>
+	<string key="ui_house_unpaid_taxes_due_soon" comment="Housing Taxes">Frais d'entretien de propriété à payer à : {territoryName} dans : {time}. Payez vos frais d'entretien de propriété pour continuer à bénéficier du mode Décoration.</string>
 	<string key="ui_house_unpaid_taxes_string" comment="Housing Taxes">Votre maison (désactivée)</string>
-	<string key="ui_housing_disabled_tooltip" comment="Housing Taxes">Votre maison est désactivée. Payer vos frais d'entretien pour la réactiver.</string>
+	<string key="ui_housing_disabled_tooltip" comment="Housing Taxes">Votre maison est désactivée. Payer vos frais d'entretien pour l'activer.</string>
 	<string key="ui_housing_pay_taxes" comment="Housing Taxes">Payer les frais</string>
 	<string key="ui_pay_house_tax_fail" comment="Housing Taxes">Erreur lors du paiement des frais d'entretien. Veuillez réessayer.</string>
 	<string key="ui_pay_property_tax" comment="Housing Taxes">Payer les frais</string>

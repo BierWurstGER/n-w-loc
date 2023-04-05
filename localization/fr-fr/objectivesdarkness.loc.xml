@@ -83,9 +83,13 @@
 	<string key="ui_holdout_chamber_Obj_Task_01_desc" rel_version="Quest_MSQ2_Revamp">Interagissez avec le glyphe pour commencer l'épreuve.</string>
 	<string key="ui_holdout_chamber_Obj_Task_02" rel_version="Quest_MSQ2_Revamp">Survivre à l'Épreuve</string>
 	<string key="ui_holdout_chamber_Obj_Task_02_desc" rel_version="Quest_MSQ2_Revamp">Temps restant :</string>
+	<string key="ui_lostattack_swampwaterfishery" rel_version="Event_SpringtideBloom_Perm">L'instrument ancien</string>
+	<string key="ui_lostattack_swampwaterfishery_description" rel_version="Event_SpringtideBloom_Perm">Un étrange appareil dans une pêcherie abandonnée... Que pourrait-il mal se passer ?</string>
 	<string key="objective_lostattack_swampwaterfishery_title">Instrument ancien</string>
 	<string key="objective_lostattack_swampwaterfishery_desc">Examinez l'instrument ancien sur les berges de la rivière.</string>
 	<string key="objective_lostattack_swampwaterfishery_wave_01">Défense de l'instrument ancien : {remainingCount}/1 \nTemps restant :</string>
+	<string key="ui_lostattack_piscarianfishery" rel_version="Event_SpringtideBloom_Perm">L'outil ancien</string>
+	<string key="ui_lostattack_piscarianfishery_description" rel_version="Event_SpringtideBloom_Perm">Un étrange outil ancien dans une pêcherie abandonnée... Que pourrait-il mal se passer ?</string>
 	<string key="objective_lostattack_piscarianfishery_title">Instrument ancien :</string>
 	<string key="objective_lostattack_piscarianfishery_desc">Examinez l'instrument ancien sur la jetée.</string>
 	<string key="objective_lostattack_piscarianfishery_wave_01">Défense de l'instrument ancien : {remainingCount}/1 \nTemps restant :</string>
@@ -153,15 +157,17 @@
 	<string key="04A_Encounter_Zane_Boss_Obj_Enc_task_setup_desc" rel_version="Quest_MSQ2_Revamp">Affrontez l'administrateur Zane.</string>
 	<string key="ui_turkeyterror_worldboss_Turkulon">Terreur de Turulon</string>
 	<string key="ui_turkeyterror_worldboss_Turkulon_description">Turulon est de retour pour venger ses camarades tombés au combat.</string>
+	<string key="ui_worldboss_defeated" rel_version="Event_February_Perm">Vaincu : {objective}</string>
+	<string key="ui_worldboss_daily_reset" rel_version="Event_February_Perm">La récompense quotidienne se réinitialise à {time}</string>
 	<string key="ui_worldboss_season_01_event" rel_version="Season_1_Temp">La fureur du spriggan</string>
-	<string key="ui_worldboss_season_01_event_description" rel_version="Season_1_Temp">La terre se soulève contre nous. Soumettez la dryade et l'arme qu'elle cherche à invoquer.</string>
+	<string key="ui_worldboss_season_01_event_description" rel_version="Season_1_Temp">La terre se soulève contre nous, soumet les dryades et l'arme qu'elles cherchent à invoquer.\n\nContient &lt;font color="#ffe940"&gt;3&lt;/font&gt; récompenses quotidiennes. Se réinitialise à {time}.</string>
 	<string key="objective_worldboss_task_season_01_event_wave0_title" rel_version="Season_1_Temp">Construire les braseros ardents pour renforcer vos armes et éliminer les dryades</string>
 	<string key="objective_worldboss_task_season_01_event_wave0_desc" rel_version="Season_1_Temp">Braseros ardents restants : {remainingCount}</string>
-	<string key="objective_worldboss_task_season_01_event_wave1_title" rel_version="Season_1_Temp">Tenir bon face aux dryades</string>
+	<string key="objective_worldboss_task_season_01_event_wave1_title" rel_version="Season_1_Temp">Renforcer vos armes aux braseros et tenir bon contre les dryades</string>
 	<string key="objective_worldboss_task_season_01_event_wave1_desc" rel_version="Season_1_Temp">Temps restant :</string>
-	<string key="objective_worldboss_task_season_01_event_wave2_title" rel_version="Season_1_Temp">Arrêter le rituel du chaman invoquant le spriggan</string>
+	<string key="objective_worldboss_task_season_01_event_wave2_title" rel_version="Season_1_Temp">Arrêter le rituel</string>
 	<string key="objective_worldboss_task_season_01_event_wave2_desc" rel_version="Season_1_Temp">Chamans restants : {remainingCount}</string>
-	<string key="objective_worldboss_task_season_01_event_wave3_title" rel_version="Season_1_Temp">Le rituel a été accompli ! Détruisez l'arme !</string>
+	<string key="objective_worldboss_task_season_01_event_wave3_title" rel_version="Season_1_Temp">Le rituel a été accompli ! Défendez-vous contre le spriggan !</string>
 	<string key="objective_worldboss_task_season_01_event_wave3_desc" rel_version="Season_1_Temp">Venez à bout du spriggan.</string>
 	<string key="objective_S01_Aidyn" rel_version="Season_1_Temp">La piste se précise</string>
 	<string key="objective_S01_Aidyn_description" rel_version="Season_1_Temp">Aidyn a été altérée par Sans-visage et a besoin de votre aide.</string>

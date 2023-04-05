@@ -1745,7 +1745,7 @@
 	<string key="PerkID_PvP_Ring_DmgPerTargetBuff_Description" rel_version="PvP_Rewards_Track">Tylko PvP: Umiejętności zadają {[GlobalAbilityTable.Global_PvP_Ring_DmgPerTargetBuff.BaseDamage * 100]}% dodatkowych obrażeń za każdą premię działającą na gracza (Maks. liczba premii: {[GlobalAbilityTable.Global_PvP_Ring_DmgPerTargetBuff.PerStatusEffectOnTargetMax]}).</string>
 	<string key="PerkID_PvP_Amulet_DodgeSuccess_DMG_Name" rel_version="PvP_Rewards_Track">Wykrętne nasączenie mocą</string>
 	<string key="PerkID_PvP_Amulet_DodgeSuccess_DMG_Description" rel_version="PvP_Rewards_Track">Tylko PvP: Jeśli uchylisz się przed atakiem za pomocą uniku, zyskasz nasączenie mocą zwiększające zadawane obrażenia o {[Type_StatusEffectData.Status_PvP_Perk_DodgeSuccess_Empower.DMGStandard * 100]}% na {[Type_StatusEffectData.Status_PvP_Perk_DodgeSuccess_Empower.BaseDuration]} s (czas trwania odświeża się, gdy efekt zostanie ponownie nałożony; kumuluje się do {[Type_StatusEffectData.Status_PvP_Perk_DodgeSuccess_Empower.StackMax]} razy).</string>
-	<string key="perk_weapon_bonus_info">(Ten profit ma mocniejsze działanie, gdy znajduje się na broni).</string>
+	<string key="perk_weapon_bonus_info">\nTen profit ma mocniejsze działanie, gdy znajduje się na broni.</string>
 	<string key="PerkID_Tools_MoteFire_Name">Ogień</string>
 	<string key="PerkID_Tools_MoteEarth_Name">Ziemia</string>
 	<string key="PerkID_Tools_MoteAir_Name">Powietrze</string>

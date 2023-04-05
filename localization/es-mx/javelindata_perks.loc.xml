@@ -1745,7 +1745,7 @@
 	<string key="PerkID_PvP_Ring_DmgPerTargetBuff_Description" rel_version="PvP_Rewards_Track">Solo PvP: Las habilidades infligen {[GlobalAbilityTable.Global_PvP_Ring_DmgPerTargetBuff.BaseDamage * 100]} % de bonificación de daño por potenciación en un jugador. (Máx. {[GlobalAbilityTable.Global_PvP_Ring_DmgPerTargetBuff.PerStatusEffectOnTargetMax]} potenciaciones).</string>
 	<string key="PerkID_PvP_Amulet_DodgeSuccess_DMG_Name" rel_version="PvP_Rewards_Track">Empoderamiento elusivo</string>
 	<string key="PerkID_PvP_Amulet_DodgeSuccess_DMG_Description" rel_version="PvP_Rewards_Track">Solo PvP: Tras esquivar un ataque obtienes fortalecimiento, que aumenta el daño infligido en un {[Type_StatusEffectData.Status_PvP_Perk_DodgeSuccess_Empower.DMGStandard * 100]} % durante {[Type_StatusEffectData.Status_PvP_Perk_DodgeSuccess_Empower.BaseDuration]} s. (La duración se actualiza al aplicar nuevas acumulaciones. Se acumula un máx. de {[Type_StatusEffectData.Status_PvP_Perk_DodgeSuccess_Empower.StackMax]} veces).</string>
-	<string key="perk_weapon_bonus_info">(Este beneficio es más fuerte cuando se aplica a un arma).</string>
+	<string key="perk_weapon_bonus_info">\nEste beneficio es más fuerte cuando se aplica a un arma.</string>
 	<string key="PerkID_Tools_MoteFire_Name">Alineación de fuego</string>
 	<string key="PerkID_Tools_MoteEarth_Name">Alineación de tierra</string>
 	<string key="PerkID_Tools_MoteAir_Name">Alineación de aire</string>

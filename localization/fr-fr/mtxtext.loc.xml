@@ -46,6 +46,8 @@
 	<string key="ui_get_credits" rel_version="Feature_MTX">Obtenir des gages de fortune</string>
 	<string key="reward_type_emote" rel_version="Feature_MTX">Émote</string>
 	<string key="reward_type_itemskin" rel_version="Feature_MTX">Apparence</string>
+	<string key="ui_apply_skin" rel_version="Feature_MTX">Appliquer apparence</string>
+	<string key="ui_apply_skins" rel_version="Feature_MTX">Appliquer apparences</string>
 	<string key="reward_type_itemdye" rel_version="Feature_MTX">Teinture</string>
 	<string key="reward_type_statuseffect" rel_version="Feature_Seasons_Consumable_Tokens">Amplificateur</string>
 	<string key="reward_type_armorskin" rel_version="Feature_MTX">Apparence de vêtement</string>
@@ -116,7 +118,7 @@
 	<string key="reward_type_tooltip_itemskin" rel_version="Feature_MTX">&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;APPARENCES D'OBJETS&lt;/font&gt; : Vous pouvez appliquer une apparence en cliquant sur une armure, un outil ou une arme de votre inventaire et sélectionner « Changer d'apparence ».</string>
 	<string key="reward_type_tooltip_campskin" rel_version="Feature_Camp_Skins">&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;APPARENCES DE BIVOUAC&lt;/font&gt; : Vous pouvez appliquer cette apparence en sélectionnant « Changer d'apparence » dans votre bivouac.</string>
 	<string key="reward_type_tooltip_itemdye" rel_version="Feature_MTX">&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;TEINTURES&lt;/font&gt; : Pour utiliser une teinture, cliquez sur une armure de votre inventaire, puis sur « Teindre l'armure ».</string>
-	<string key="reward_type_tooltip_token" rel_version="Feature_Seasons_Consumable_Tokens">&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;TEINTURES&lt;/font&gt; : Vous pouvez utiliser un amplificateur en accédant au menu Amplificateurs depuis votre inventaire.</string>
+	<string key="reward_type_tooltip_token" rel_version="Feature_Seasons_Consumable_Tokens">&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;AMPLIFICATEURS&lt;/font&gt; : Vous pouvez utiliser un amplificateur en accédant au menu Amplificateurs depuis votre inventaire.</string>
 	<string key="reward_type_tooltip_guildcrest" rel_version="Feature_MTX">&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;ARMOIRIES&lt;/font&gt; : pour appliquer des armoiries, allez sur l'écran de la compagnie.</string>
 	<string key="reward_type_tooltip_housing_item" rel_version="Feature_MTX">&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;OBJETS DOMESTIQUES&lt;/font&gt; : vous pouvez placer des objets domestiques dans votre logement depuis le mode Décoration du logement.</string>
 	<string key="reward_type_tooltip_player_title" rel_version="Feature_MTX">&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;TITRES&lt;/font&gt; : Vous pouvez indiquer un titre en accédant à l'onglet Biographie du menu Personnage, puis « Modifier le titre ».</string>
@@ -165,8 +167,8 @@
 	<string key="ui_transaction_failed">Échec de la transaction.</string>
 	<string key="ui_transaction_timed_out">La transaction a expiré. Réessayer ?</string>
 	<string key="ui_transaction_timeout_overlay">La transaction a expiré.\nAssurez-vous que l'overlay Steam est activé.</string>
-	<string key="ui_bonus_marks">(+{bonus} marques)</string>
-	<string key="ui_bonus_percent">Bonus de {bonusPct} %</string>
+	<string key="ui_bonus_marks">{base} + {bonus} de bonus = </string>
+	<string key="ui_bonus_percent">Bonus de {bonusPct} % !</string>
 	<string key="ui_how_to_use">Guide d'utilisation</string>
 	<string key="ui_notification_unlock_desc">Les objets ont été ajoutés à votre compte.</string>
 	<string key="ui_notification_unlock_title">Déverrouillé !</string>
@@ -973,17 +975,17 @@
 	<string key="Bundle_PR_WinterDragon_Apparel_description" rel_version="Apparel_WinterDragon_1">Lequel est le plus froid ? Le cœur glacial de l'hiver ou le cœur gelé du dragon ?</string>
 	<string key="Bundle_PR_WinterDragon_Weapons_name" rel_version="Weapon_Winter_Greatsword">Pack d'armes de dragon d'hiver</string>
 	<string key="Bundle_PR_WinterDragon_Weapons_description" rel_version="Weapon_Winter_Greatsword">Frayez-vous un chemin dans l'épais manteau neigeux de l'hiver.</string>
-	<string key="reward_type_token" rel_version="Entitlements_FirelightSeason">Amplificateur</string>
-	<string key="Token_Proficiency_Boost_name" rel_version="Entitlements_FirelightSeason">Pack d'amplificateurs d'aptitude</string>
-	<string key="Token_Proficiency_Boost_description" rel_version="Entitlements_FirelightSeason">Augmente de 10 % le rendement d'abattage, d'extraction du minerai, de récolte et de dépeçage pendant 90 minutes.\nSon utilisation est mise en pause pendant les modes de jeu instanciés.</string>
-	<string key="Token_WeaponXP_Boost_name" rel_version="Entitlements_FirelightSeason">Pack d'amplificateurs d'EXP d'arme</string>
-	<string key="Token_WeaponXP_Boost_description" rel_version="Entitlements_FirelightSeason">Augmente de 100 % l'expérience d'arme obtenue pendant 2 heures.\nSon utilisation est mise en pause pendant les modes JcJ instanciés.</string>
-	<string key="Token_TerritoryStanding_Boost_name" rel_version="Entitlements_FirelightSeason">Pack d'amplificateurs de réputation de territoire</string>
-	<string key="Token_TerritoryStanding_Boost_description" rel_version="Entitlements_FirelightSeason">Augmente de 100 % la réputation de territoire obtenue pendant 2 heures.\nSon utilisation est mise en pause pendant les modes de jeu instanciés.</string>
-	<string key="Token_SeasonXP_Boost_name" rel_version="Entitlements_FirelightSeason">Pack d'amplificateurs d'EXP de saison</string>
-	<string key="Token_SeasonXP_Boost_description" rel_version="Entitlements_FirelightSeason">Augmente de 100 % la conversion de l'expérience ordinaire en expérience de saison pendant 2 heures.</string>
-	<string key="Token_GatheringXP_Boost_name" rel_version="Entitlements_FirelightSeason">Pack d'amplificateurs d'EXP d'exploitation</string>
-	<string key="Token_GatheringXP_Boost_description" rel_version="Entitlements_FirelightSeason">Augmente de 100 % le rendement d'abattage, d'extraction du minerai, de récolte et de dépeçage pendant 2 heures.\nSon utilisation est mise en pause pendant les modes de jeu instanciés.</string>
+	<string key="reward_type_token" rel_version="Entitlements_FirelightSeason">Pack d'amplificateurs</string>
+	<string key="Token_Proficiency_Boost_name" rel_version="Entitlements_FirelightSeason">Amplificateur d'aptitude</string>
+	<string key="Token_Proficiency_Boost_description" rel_version="Entitlements_FirelightSeason">Augmente de 10 % le rendement obtenu par un personnage lors de l'abattage, le minage, la récolte et le dépeçage pendant 90 minutes.\n\nSon utilisation est mise en pause pendant les modes de jeu instanciés.</string>
+	<string key="Token_WeaponXP_Boost_name" rel_version="Entitlements_FirelightSeason">Amplificateur d'EXP d'arme</string>
+	<string key="Token_WeaponXP_Boost_description" rel_version="Entitlements_FirelightSeason">Augmente de 100 % l'expérience d'arme obtenue par un personnage pendant 2 heures.\n\nSon utilisation est mise en pause pendant les modes JcJ instanciés.</string>
+	<string key="Token_TerritoryStanding_Boost_name" rel_version="Entitlements_FirelightSeason">Amplificateur de réputation de territoire</string>
+	<string key="Token_TerritoryStanding_Boost_description" rel_version="Entitlements_FirelightSeason">Augmente de 100 % la réputation de territoire obtenue par un personnage pendant 2 heures.\n\nSon utilisation est mise en pause pendant les modes de jeu instanciés.</string>
+	<string key="Token_SeasonXP_Boost_name" rel_version="Entitlements_FirelightSeason">Amplificateur d'EXP de saison</string>
+	<string key="Token_SeasonXP_Boost_description" rel_version="Entitlements_FirelightSeason">Augmente de 100 % la conversion de l'expérience ordinaire en expérience de saison pour un personnage pendant 2 heures.</string>
+	<string key="Token_GatheringXP_Boost_name" rel_version="Entitlements_FirelightSeason">Amplificateur d'EXP d'exploitation</string>
+	<string key="Token_GatheringXP_Boost_description" rel_version="Entitlements_FirelightSeason">Augmente de 100 % l'expérience obtenue par un personnage lors de l'abattage, le minage, la récolte et le dépeçage pendant 2 heures.\n\nSon utilisation est mise en pause pendant les modes de jeu instanciés.</string>
 	<string key="Apparel_OmensOfWinter_Owl_name" rel_version="Apparel_OmensWinter_1">Hibou de Cailleach</string>
 	<string key="Apparel_OmensOfWinter_Cat_name" rel_version="Apparel_OmensWinter_2">Lynx d'Imbolc</string>
 	<string key="Bundle_PR_OmensOfWinter_Apparel_name" rel_version="Bundle_OmensWinter_Apparel">Pack de vêtements de l'augure hivernal</string>

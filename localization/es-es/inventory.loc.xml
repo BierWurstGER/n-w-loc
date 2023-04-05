@@ -194,8 +194,8 @@
 	<string key="inv_moreItems">&lt;font face="lyshineui/fonts/Nimbus_bold.font"&gt;{value}&lt;/font&gt; objetos más</string>
 	<string key="lo_name" comment="This key needs to be short to be used directly as a loadout name." rel_version="Feature_Gear_Set_Storage">Conjunto de equipo</string>
 	<string key="loadout_window_title" rel_version="Feature_Gear_Set_Storage">CONJUNTOS DE EQUIPO</string>
-	<string key="loadout_storage_title" rel_version="Feature_Gear_Set_Storage">ALMACENAMIENTO DE CONJUNTOS DE EQUIPO</string>
-	<string key="loadout_storage_info" rel_version="Feature_Gear_Set_Storage">Los objetos del almacenamiento de conjuntos de equipo no forman parte del inventario y no afectan a su peso ni al del almacenamiento.</string>
+	<string key="loadout_storage_title" rel_version="Feature_Gear_Set_Storage">CONJUNTOS DE EQUIPO</string>
+	<string key="loadout_storage_info" rel_version="Feature_Gear_Set_Storage">Los objetos de conjuntos de equipo no forman parte del inventario y no afectan a su peso ni al del almacenamiento.</string>
 	<string key="loadout_addto_command" rel_version="Feature_Gear_Set_Storage">Enviar al conjunto de equipo</string>
 	<string key="loadout_addfrom_command" rel_version="Feature_Gear_Set_Storage">Sacar del conjunto de equipo</string>
 	<string key="loadout_addtoall_command" rel_version="Feature_Gear_Set_Storage">Añadir a todos los conjuntos de equipo</string>
@@ -218,8 +218,8 @@
 	<string key="loadout_notification_restricted" rel_version="Feature_Gear_Set_Storage">No se pueden cambiar los conjuntos de equipo en este momento.</string>
 	<string key="loadout_notification_renamefail" rel_version="Feature_Gear_Set_Storage">Se ha producido un error al renombrar el conjunto de equipo.</string>
 	<string key="loadout_notification_renameinvalid" rel_version="Feature_Gear_Set_Storage">No se admite ese nombre de conjunto de equipo.</string>
-	<string key="loadout_notification_itemlinked" rel_version="Feature_Gear_Set_Storage">No se ha devuelto el objeto (forma parte de otro conjunto de equipo).</string>
-	<string key="loadout_notification_itemslinked" rel_version="Feature_Gear_Set_Storage">Algunos objetos no se han devuelto al inventario (forman parte de otro conjunto de equipo).</string>
+	<string key="loadout_notification_itemlinked" rel_version="Feature_Gear_Set_Storage">No se ha devuelto el objeto (está equipado o en otro conjunto de equipo).</string>
+	<string key="loadout_notification_itemslinked" rel_version="Feature_Gear_Set_Storage">Algunos objetos no se han devuelto al inventario (están equipados o en otro conjunto de equipo).</string>
 	<string key="loadout_notification_itemadd_success" rel_version="Feature_Gear_Set_Storage">Se ha añadido el objeto a {loadoutName}.</string>
 	<string key="loadout_notification_itemadd_failure" rel_version="Feature_Gear_Set_Storage">No se ha podido añadir el objeto a {loadoutName}.</string>
 	<string key="loadout_notification_itemadd_failure_existing_slot" rel_version="Feature_Gear_Set_Storage">No se ha podido añadir el objeto a {loadoutName}; ya está en esta ranura.</string>
@@ -227,6 +227,7 @@
 	<string key="loadout_notification_itemaddall_failure" rel_version="Feature_Gear_Set_Storage">No se ha podido añadir el objeto a todos los conjuntos de equipo.</string>
 	<string key="loadout_notification_switch_loadout_on_cooldown" rel_version="Feature_Gear_Set_Storage">Debes esperar {timeRemaining} para poder cambiar el conjunto de equipo.</string>
 	<string key="loadout_tutorial" rel_version="Feature_Gear_Set_Storage">¡Hay conjuntos de equipo disponibles!\nCrea y cambia conjuntos de equipo para cualquier actividad.</string>
+	<string key="loadout_notification_return_space_fail" rel_version="Feature_Gear_Set_Storage">No se han podido devolver al inventario los objetos del conjunto de equipo debido a que falta espacio.</string>
 	<string key="incompatible_elemental_perk">Ventaja elemental incompatible</string>
 	<string key="incompatible_socket_item">No se puede añadir a un objeto de este tipo.</string>
 </resources>

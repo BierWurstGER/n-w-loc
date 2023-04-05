@@ -166,7 +166,7 @@
 	<string key="mm_rejected_Terrain_Not_Loaded">Server nicht bereit: Das Gelände muss erst geladen werden.</string>
 	<string key="mm_rejected_Capitals_Not_Ready">Server nicht bereit: Basen werden errichtet.</string>
 	<string key="mm_rejected_Duplicate_Connection">Der Spieler ist bereits verbunden.</string>
-	<string key="mm_rejected_No_Persistence_Spawner">Serverfehler: Es ist nicht möglich, die Charakterwiederherstellung anzufordern.</string>
+	<string key="mm_rejected_No_Persistence_Spawner">Server noch nicht spielbereit. Erneuter Versuch …</string>
 	<string key="mm_rejected_Character_Restore_Failure">Serverfehler: Die Charakterwiederherstellung ist fehlgeschlagen.</string>
 	<string key="mm_rejected_Character_Persist_Failure">Serverfehler: Die Charaktererhaltung ist fehlgeschlagen.</string>
 	<string key="mm_rejected_Character_Service_Failure">Serverfehler: Die Charakterdaten konnten nicht geladen werden.</string>
@@ -324,16 +324,16 @@
 	<string key="ui_pvp_track_nexttrack" rel_version="PvP_Rewards_Track">Serie abschließen</string>
 	<string key="ui_pvp_track_nexttrack_popup_title" rel_version="PvP_Rewards_Track">Nächste Serie starten</string>
 	<string key="azoth_salt_currency_name" rel_version="PvP_Rewards_Track">Azoth-Salz</string>
-	<string key="azoth_salt_currency_desc" rel_version="PvP_Rewards_Track">Azoth-Salz ist die Währung, mit der du aus der PvP-Serie Belohnungen erhältst. Du erhältst Azoth-Salz, indem du dich an Kriegen, am Außenpostensturm, in 3-gg-3-Arenen, an PvP-Missionen beteiligst oder in der offenen Welt Spieler im PvP besiegst und EP dazugewinnst, während du markiert bist.\n\nDu kannst höchstens 100.000 Azoth-Salz besitzen.</string>
+	<string key="azoth_salt_currency_desc" rel_version="PvP_Rewards_Track">Azoth-Salz ist die Währung, mit der du aus der PvP-Serie Belohnungen erhältst. Du erhältst Azoth-Salz, indem du dich an Kriegen, am Außenpostensturm, in 3-gegen-3-Arenen oder an PvP-Missionen beteiligst oder in der offenen Welt Spieler im PvP besiegst und EP dazugewinnst, während du markiert bist.\n\nDu kannst höchstens 100.000 Azoth-Salz besitzen.</string>
 	<string key="azoth_salt_currency_lost" rel_version="PvP_Rewards_Track">Azoth-Salz-Verlust</string>
-	<string key="azoth_salt_lost_tooltip" rel_version="PvP_Rewards_Track">Azoth-Salz ist die Währung, mit der du aus der PvP-Serie Belohnungen erhältst. Du erhältst Azoth-Salz, indem du dich an Kriegen, am Außenpostensturm, in 3-gg-3-Arenen und an PvP-Missionen beteiligst oder in der offenen Welt Spieler im PvP besiegst und EP dazugewinnst, während du markiert bist.\n\nFür die Tötung von Spielern, die über 10 Stufen unter deiner aktuellen Stufen stehen, gibt es kein Azoth-Salz und außerdem muss das Opfer mehr als 10 Minuten lang markiert gewesen sein.</string>
+	<string key="azoth_salt_lost_tooltip" rel_version="PvP_Rewards_Track">Azoth-Salz ist die Währung, mit der du aus der PvP-Serie Belohnungen erhältst. Du erhältst Azoth-Salz, indem du dich an Kriegen, am Außenpostensturm, in 3-gegen-3-Arenen oder an PvP-Missionen beteiligst oder in der offenen Welt Spieler im PvP besiegst und EP dazugewinnst, während du markiert bist.\n\nFür die Tötung von Spielern, die über 10 Stufen unter deiner aktuellen Stufen stehen, gibt es kein Azoth-Salz und außerdem muss das Opfer mehr als 10 Minuten lang markiert gewesen sein.</string>
 	<string key="ui_pvp_track_tut_title1" rel_version="PvP_Rewards_Track">PvP-Belohnungsserie</string>
 	<string key="ui_pvp_track_tut_title2" rel_version="PvP_Rewards_Track">PvP-EP</string>
 	<string key="ui_pvp_track_tut_title3" rel_version="PvP_Rewards_Track">Azoth-Salz</string>
 	<string key="ui_pvp_track_tut_title4" rel_version="PvP_Rewards_Track">Belohnungen</string>
 	<string key="ui_pvp_track_tut_desc1" rel_version="PvP_Rewards_Track">Die PvP-Belohnungsserien enthalten PvP-spezifische Belohnungen für PvP-Aktivitäten im Spiel. Du kannst die Belohnungsserien abschließen und erneut angehen, um andere Belohnungen zu erhalten. Je mehr Belohnungsserien du absolvierst, desto hochwertiger werden die Belohnungen.</string>
 	<string key="ui_pvp_track_tut_desc2" rel_version="PvP_Rewards_Track">Erziele Fortschritte in der Belohnungsserie, indem du PvP-Missionen abschließt, dich am Außenpostensturm, an Kriegen oder der Eroberung von Festungen beteiligst, andere Spieler besiegst, oder 3-gegen-3-Arenen absolvierst.</string>
-	<string key="ui_pvp_track_tut_desc3" rel_version="PvP_Rewards_Track">Azoth-Salz ist die Währung, mit der du aus der PvP-Serie Belohnungen erhältst. Du erhältst Azoth-Salz, indem du dich an Kriegen, am Außenpostensturm, in 3-gg-3-Arenen, an PvP-Missionen beteiligst oder Spieler in der offenen Welt im PvP besiegst und EP dazugewinnst, während du markiert bist.</string>
+	<string key="ui_pvp_track_tut_desc3" rel_version="PvP_Rewards_Track">Azoth-Salz ist die Währung, mit der du aus der PvP-Serie Belohnungen erhältst. Du erhältst Azoth-Salz, indem du dich an Kriegen, am Außenpostensturm, in 3-gegen-3-Arenen oder PvP-Missionen beteiligst oder Spieler in der offenen Welt im PvP besiegst und EP dazugewinnst, während du markiert bist.</string>
 	<string key="ui_pvp_track_tut_desc4" rel_version="PvP_Rewards_Track">Wähle aus einzigartigen Belohnungen aus, darunter prestigeträchtige Rüstungen und Waffen, Emotes, Währung und Verbrauchsgegenstände.</string>
 	<string key="ui_pvp_track_leveltext" rel_version="PvP_Rewards_Track">Abgeschlossene Serien: &lt;font color="#FFFFFF" &gt;{level}&lt;/font&gt;</string>
 	<string key="ui_pvp_track_leveltext_header" rel_version="PvP_Rewards_Track">Abgeschlossene Serien: &lt;font face="lyshineui/fonts/CaslonAnt.font" color="#FFFFFF"&gt;{level}&lt;/font&gt;</string>

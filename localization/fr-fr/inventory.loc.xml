@@ -194,8 +194,8 @@
 	<string key="inv_moreItems">&lt;font face="lyshineui/fonts/Nimbus_bold.font"&gt;{value}&lt;/font&gt; objets de plus</string>
 	<string key="lo_name" comment="This key needs to be short to be used directly as a loadout name." rel_version="Feature_Gear_Set_Storage">Ens. équip.</string>
 	<string key="loadout_window_title" rel_version="Feature_Gear_Set_Storage">ENSEMBLES D'ÉQUIPEMENT</string>
-	<string key="loadout_storage_title" rel_version="Feature_Gear_Set_Storage">RANGEMENT D'ENSEMBLE D'ÉQUIPEMENT</string>
-	<string key="loadout_storage_info" rel_version="Feature_Gear_Set_Storage">Les objets dans votre rangement d'ensemble d'équipement ne font pas partie de votre inventaire et ne sont pas pris en compte dans votre poids d'inventaire ou de rangement.</string>
+	<string key="loadout_storage_title" rel_version="Feature_Gear_Set_Storage">ENSEMBLES D'ÉQUIPEMENT</string>
+	<string key="loadout_storage_info" rel_version="Feature_Gear_Set_Storage">Les objets dans les ensembles d'équipement ne font pas partie de votre inventaire et ne sont pas pris en compte dans votre poids d'inventaire ou de rangement.</string>
 	<string key="loadout_addto_command" rel_version="Feature_Gear_Set_Storage">Ajouter à l'ensemble d'équipement</string>
 	<string key="loadout_addfrom_command" rel_version="Feature_Gear_Set_Storage">Ajouter de l'ensemble d'équipement</string>
 	<string key="loadout_addtoall_command" rel_version="Feature_Gear_Set_Storage">Ajouter à tous les ensembles d'équipement</string>
@@ -218,8 +218,8 @@
 	<string key="loadout_notification_restricted" rel_version="Feature_Gear_Set_Storage">Impossible de changer d'ensemble d'équipement actuellement.</string>
 	<string key="loadout_notification_renamefail" rel_version="Feature_Gear_Set_Storage">Échec du renommage de l'ensemble d'équipement</string>
 	<string key="loadout_notification_renameinvalid" rel_version="Feature_Gear_Set_Storage">Nom d'ensemble d'équipement invalide</string>
-	<string key="loadout_notification_itemlinked" rel_version="Feature_Gear_Set_Storage">Objet non replacé (appartient à un autre ensemble d'équipement)</string>
-	<string key="loadout_notification_itemslinked" rel_version="Feature_Gear_Set_Storage">Certains objets n'ont pas été replacés dans votre inventaire (appartenant à un autre ensemble d'équipement).</string>
+	<string key="loadout_notification_itemlinked" rel_version="Feature_Gear_Set_Storage">Objet non replacé (dans un autre ensemble d'équipement ou équipé)</string>
+	<string key="loadout_notification_itemslinked" rel_version="Feature_Gear_Set_Storage">Certains objets n'ont pas été replacés dans votre inventaire (dans un autre ensemble d'équipement ou équipé).</string>
 	<string key="loadout_notification_itemadd_success" rel_version="Feature_Gear_Set_Storage">Objet ajouté à : {loadoutName}</string>
 	<string key="loadout_notification_itemadd_failure" rel_version="Feature_Gear_Set_Storage">Impossible d'ajouter l'objet à : {loadoutName}</string>
 	<string key="loadout_notification_itemadd_failure_existing_slot" rel_version="Feature_Gear_Set_Storage">Impossible d'ajouter l'objet à : {loadoutName} car l'objet est déjà dans cet emplacement.</string>
@@ -227,6 +227,7 @@
 	<string key="loadout_notification_itemaddall_failure" rel_version="Feature_Gear_Set_Storage">Impossible d'ajouter l'objet à tous les ensembles d'équipement</string>
 	<string key="loadout_notification_switch_loadout_on_cooldown" rel_version="Feature_Gear_Set_Storage">Vous devez attendre {timeRemaining} avant de pouvoir changer d'ensemble d'équipement.</string>
 	<string key="loadout_tutorial" rel_version="Feature_Gear_Set_Storage">Ensembles d'équipement disponibles !\nCréez et changez d'ensemble d'équipement selon votre activité.</string>
+	<string key="loadout_notification_return_space_fail" rel_version="Feature_Gear_Set_Storage">Impossible de replacer les objets de l'ensemble d'équipement dans l'inventaire à cause du manque de place.</string>
 	<string key="incompatible_elemental_perk">Incompatible avec l'atout élémentaire</string>
 	<string key="incompatible_socket_item">Ceci ne peut pas être serti dans un objet de ce type.</string>
 </resources>

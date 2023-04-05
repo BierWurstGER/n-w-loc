@@ -26,7 +26,7 @@
 	<string key="ui_groupinviteacceptraid" comment="">Invito all'incursione accettato</string>
 	<string key="ui_groupinvitedeclinesentmessage" comment="">Hai rifiutato l'invito al gruppo da parte di &lt;font color="#ffffff"&gt;{playerName}&lt;/font&gt;.</string>
 	<string key="ui_groupinvitedeclinesentmessage_withsource" comment="">Invito di gruppo di &lt;font color="#ffffff"&gt;{playerName}&lt;/font&gt; rifiutato da &lt;font color="#ffffff"&gt;{sourcePlayerName}&lt;/font&gt;.</string>
-	<string key="ui_groupinvitedeclineraid" comment="">Invito all'incursione rifiutato</string>
+	<string key="ui_groupinvitedeclineraid" comment="">Invito all'incursione rifiutato.</string>
 	<string key="ui_groupinvitedeclinerequeue" comment="">Sei rientrato nella coda perché un giocatore ha rinunciato</string>
 	<string key="ui_groupinvitewithdrawnreceivermessage" comment="">&lt;font color="#ffffff"&gt;{playerName}&lt;/font&gt; ha ritirato il suo invito al gruppo.</string>
 	<string key="ui_groupinvitewithdrawnreceivermessage_SHE" comment="">&lt;font color="#ffffff"&gt;{playerName}&lt;/font&gt; ha ritirato il suo invito al gruppo.</string>
@@ -108,8 +108,8 @@
 	<string key="ui_unabletoinviteself" comment="">Non ci si può invitare da soli</string>
 	<string key="ui_group_kick_choice_title" comment="">Vota per espellere &lt;font color={color}&gt;{playerName}&lt;/font&gt;</string>
 	<string key="ui_group_kick_choice_text" comment="">&lt;font color={color}&gt;{fromPlayerName}&lt;/font&gt; ha indetto una votazione per espellere &lt;font color={color}&gt;{targetPlayerName}&lt;/font&gt; dal gruppo. Sei d'accordo?</string>
-	<string key="ui_group_kick_choice_accept" comment="">Vota per espellere</string>
-	<string key="ui_group_kick_choice_decline" comment="">Vota per tenere</string>
+	<string key="ui_group_kick_choice_accept" comment="">Sì</string>
+	<string key="ui_group_kick_choice_decline" comment="">No</string>
 	<string key="ui_group_kick_started_vote" comment="">Hai indetto una votazione per espellere &lt;font color={color}&gt;{playerName}&lt;/font&gt; dal gruppo.</string>
 	<string key="ui_group_kick_ended_not_kicked" comment="">I voti sono stati favorevoli al mantenimento di &lt;font color={color}&gt;{playerName}&lt;/font&gt; nel gruppo.</string>
 	<string key="ui_group_kick_ended_timed_out" comment="">Il voto per espellere &lt;font color={color}&gt;{playerName}&lt;/font&gt; dal gruppo è scaduto.</string>
@@ -176,9 +176,9 @@
 	<string key="ui_raid_your_status" comment="">Il tuo stato</string>
 	<string key="ui_raid_standby_priority" comment="">PRIORITÀ</string>
 	<string key="ui_raid_group_header" comment="">Gruppo &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{index}&lt;/font&gt;</string>
-	<string key="ui_raid_group_disabled_tooltip" comment="">Ora le guerre supportano un massimo di {maxRosterMembers} giocatori. Non puoi aggiungere altri giocatori a questo gruppo.</string>
+	<string key="ui_raid_group_disabled_tooltip" comment="">Le guerre supportano un massimo di {maxRosterMembers} giocatori. Non puoi aggiungere altri giocatori a questo gruppo.</string>
 	<string key="ui_raid_group_disabled_notification" comment="">Gruppo disattivato per raggiungimento del numero massimo di modifiche alla formazione.</string>
-	<string key="ui_raid_max_roster_changed_tooltip" comment="">Ora le guerre supportano un massimo di {maxRosterMembers} giocatori. Non potrai aggiungere altri giocatori oltre il nuovo tetto massimo.</string>
+	<string key="ui_raid_max_roster_changed_tooltip" comment="">Le guerre supportano un massimo di {maxRosterMembers} giocatori. Non puoi aggiungere altri giocatori.</string>
 	<string key="ui_raid_member_empty" comment="">Vuoto</string>
 	<string key="ui_raid_leave_button" comment="">Abbandona</string>
 	<string key="ui_raid_leave_standby_button" comment="">Abbandona</string>
@@ -186,14 +186,14 @@
 	<string key="ui_raid_signup_button" comment="">Iscriviti</string>
 	<string key="ui_auto" comment="">Auto</string>
 	<string key="ui_manual" comment="">Manuale</string>
-	<string key="ui_drag_instruction" comment="">Trascina per aggiungere giocatori</string>
+	<string key="ui_drag_instruction" comment="">Trascina per aggiungere giocatori.</string>
 	<string key="ui_raid_selections_remaining" comment="">La compagnia governante può selezionare solo {remainingSelections} giocatori.</string>
-	<string key="ui_raid_auto_select_countdown" comment="">{totalAutoSelections} giocatori saranno selezionati automaticamente in base alla priorità tra {timeRemaining}</string>
-	<string key="ui_raid_standby_description" comment="">Attendi di essere selezionato dalla tua compagnia per unirti all'esercito.</string>
+	<string key="ui_raid_auto_select_countdown" comment="">{totalAutoSelections} giocatori saranno selezionati automaticamente in base alla priorità tra {timeRemaining}.</string>
+	<string key="ui_raid_standby_description" comment="">Attendi che la tua compagnia ti selezioni per unirti all'esercito.</string>
 	<string key="ui_raid_selected_description" comment="">Collegati &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;entro le {time} del {date}&lt;/font&gt;&lt;/font&gt;. Se a quell'ora non sarai online, perderai il posto.</string>
 	<string key="ui_raid_not_signedup_remote_description" comment="">Non hai effettuato l'iscrizione per questa guerra. Vai a un tabellone di guerra per iscriverti!</string>
 	<string key="ui_raid_not_signedup_description" comment="">Non hai effettuato l'iscrizione per questa guerra. Iscriviti subito!</string>
-	<string key="ui_invasion_standby_description" comment="">Collegati entro le {time} del {date}: a quell'ora i giocatori verranno selezionati casualmente. Non perderti l'invasione!</string>
+	<string key="ui_invasion_standby_description" comment="">Collegati alle {time} del {date}. A quell'ora i giocatori verranno selezionati casualmente.</string>
 	<string key="ui_empty_roster_instruction" comment="">Trascina qui giocatori\ndalla lista d'attesa sulla destra.</string>
 	<string key="ui_backfill_tooltip" comment="">La compagnia può decidere come riempire gli slot quando i giocatori selezionati abbandonano la guerra prima che finisca.</string>
 	<string key="ui_backfill_auto_tooltip" comment="">Seleziona automaticamente i giocatori dalla lista d'attesa in ordine di iscrizione.</string>
@@ -201,13 +201,19 @@
 	<string key="ui_raid_count" comment="">&lt;font color="#ffffff"&gt;{number}&lt;/font&gt; / {total}</string>
 	<string key="ui_raid_count_with_mercenaries" comment="">Mercenari: &lt;font color="#ffffff"&gt;{nonCompanyNumber}&lt;/font&gt;/{nonCompanyTotal} Totale: &lt;font color="#ffffff"&gt;{number}&lt;/font&gt;/{total}</string>
 	<string key="ui_invasion_count" comment="">&lt;font color="#ffffff"&gt;{number}&lt;/font&gt; / {total}</string>
-	<string key="ui_promote_disabled_max_tooltip" comment="">Impossibile promuovere ulteriormente questo giocatore</string>
-	<string key="ui_demote_disabled_min_tooltip" comment="">Impossibile degradare ulteriormente questo giocatore</string>
+	<string key="ui_promote_disabled_max_tooltip" comment="">Impossibile promuovere ulteriormente questo giocatore.</string>
+	<string key="ui_demote_disabled_min_tooltip" comment="">Impossibile fare scendere di grado ulteriormente questo giocatore.</string>
 	<string key="ui_remove_army" comment="">Rimuovi dall'esercito</string>
-	<string key="ui_kick_raid_member_cooldown" comment="">Impossibile espellere dall'esercito per altri {secRemaining} secondi</string>
+	<string key="ui_kick_raid_member_cooldown" comment="">Impossibile espellere dall'esercito per altri {secRemaining} secondi.</string>
 	<string key="ui_kick_army" comment="">Espelli e banna dalla guerra</string>
 	<string key="ui_kicked_from_army" comment="">Ti hanno espulso dall'esercito.</string>
 	<string key="ui_invasion_at" comment="">Invasione presso</string>
 	<string key="ui_army_menu" comment="">Menu esercito</string>
+	<string key="ui_raid_kick_confirmation_title">Espulsione di {player}</string>
+	<string key="ui_raid_kick_confirmation_message">Vuoi davvero espellere &lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{player}&lt;/font&gt;?</string>
+	<string key="ui_raid_kick_confirmation_yes">Conferma</string>
+	<string key="ui_raid_kick_confirmation_no">Annulla</string>
+	<string key="ui_raid_ban_confirmation_title">Ban per {player}</string>
+	<string key="ui_raid_ban_confirmation_message">Vuoi davvero espellere e bannare &lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{player}&lt;/font&gt;?</string>
 </resources>
 

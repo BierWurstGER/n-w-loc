@@ -1745,7 +1745,7 @@
 	<string key="PerkID_PvP_Ring_DmgPerTargetBuff_Description" rel_version="PvP_Rewards_Track">Nur im PvP: Fertigkeiten verursachen pro Bonus eines Spielers {[GlobalAbilityTable.Global_PvP_Ring_DmgPerTargetBuff.BaseDamage * 100]} % Bonusschaden. (Maximal {[GlobalAbilityTable.Global_PvP_Ring_DmgPerTargetBuff.PerStatusEffectOnTargetMax]} Boni.)</string>
 	<string key="PerkID_PvP_Amulet_DodgeSuccess_DMG_Name" rel_version="PvP_Rewards_Track">Ermächtigungskonter</string>
 	<string key="PerkID_PvP_Amulet_DodgeSuccess_DMG_Description" rel_version="PvP_Rewards_Track">Nur im PvP: Nach dem Ausweichen eines Angriffs erhältst du Ermächtigung und dein Schaden wird für {[Type_StatusEffectData.Status_PvP_Perk_DodgeSuccess_Empower.BaseDuration]} Sek. um {[Type_StatusEffectData.Status_PvP_Perk_DodgeSuccess_Empower.DMGStandard * 100]} % erhöht. (Die Dauer wird jedes Mal komplett verlängert, wenn ein neuer Stapel hinzukommt. Maximal {[Type_StatusEffectData.Status_PvP_Perk_DodgeSuccess_Empower.StackMax]} Stapel.)</string>
-	<string key="perk_weapon_bonus_info">(Dieser Effekt ist an einer Waffe stärker.)</string>
+	<string key="perk_weapon_bonus_info">\nDieser Effekt ist an einer Waffe stärker.</string>
 	<string key="PerkID_Tools_MoteFire_Name">Feuerverbündung</string>
 	<string key="PerkID_Tools_MoteEarth_Name">Erdverbündung</string>
 	<string key="PerkID_Tools_MoteAir_Name">Luftverbündung</string>

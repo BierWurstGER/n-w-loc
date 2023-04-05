@@ -1745,7 +1745,7 @@
 	<string key="PerkID_PvP_Ring_DmgPerTargetBuff_Description" rel_version="PvP_Rewards_Track">Apenas PvP: As habilidades causam {[GlobalAbilityTable.Global_PvP_Ring_DmgPerTargetBuff.BaseDamage * 100]}% de dano bônus por buff em um jogador (Máximo de {[GlobalAbilityTable.Global_PvP_Ring_DmgPerTargetBuff.PerStatusEffectOnTargetMax]} buffs.)</string>
 	<string key="PerkID_PvP_Amulet_DodgeSuccess_DMG_Name" rel_version="PvP_Rewards_Track">Energizado Esquivo</string>
 	<string key="PerkID_PvP_Amulet_DodgeSuccess_DMG_Description" rel_version="PvP_Rewards_Track">Apenas PvP: Após esquivar-se de um ataque, obtenha Energizado, aumentando o dano causado em {[Type_StatusEffectData.Status_PvP_Perk_DodgeSuccess_Empower.DMGStandard * 100]}% durante {[Type_StatusEffectData.Status_PvP_Perk_DodgeSuccess_Empower.BaseDuration]} s. (A duração é renovada quando um novo acúmulo é aplicado. Máx. de {[Type_StatusEffectData.Status_PvP_Perk_DodgeSuccess_Empower.StackMax]} acúmulos.)</string>
-	<string key="perk_weapon_bonus_info">(Esta vantagem é mais forte em uma arma.)</string>
+	<string key="perk_weapon_bonus_info">\nEsta vantagem é mais forte em uma arma.</string>
 	<string key="PerkID_Tools_MoteFire_Name">Alinhamento Flamejante</string>
 	<string key="PerkID_Tools_MoteEarth_Name">Alinhamento Terrestre</string>
 	<string key="PerkID_Tools_MoteAir_Name">Alinhamento Aéreo</string>
