@@ -63,7 +63,7 @@
 	<string key="ui_hiw_sect1_pt2" rel_version="Feature_Seasons_Rewards">&lt;img src="LyShineUI/Images/SeasonsRewards/pip" yOffset="1"&gt;&lt;/img&gt; Stemple vollständige Linien auf der Karte ab, um zusätzliche Saison-EP zu erhalten.</string>
 	<string key="ui_hiw_sect1_pt3" rel_version="Feature_Seasons_Rewards">&lt;img src="LyShineUI/Images/SeasonsRewards/pip" yOffset="1"&gt;&lt;/img&gt; Sammle genug Stempel, um eine Karte abzuschließen und eine neue zu erhalten.</string>
 	<string key="ui_hiw_sect2_header" rel_version="Feature_Seasons_Rewards">Wurfwiederholung</string>
-	<string key="ui_hiw_sect2_desc" rel_version="Feature_Seasons_Rewards">Du kannst die Aktivitäten neu auswürfeln, um eine neue Aktivitätenliste zu erhalten, ohne deinen Fortschritt zu verlieren.</string>
+	<string key="ui_hiw_sect2_desc" rel_version="Feature_Seasons_Rewards">Wenn dir die Aktivitäten auf deiner aktuellen Stempelkarte nicht gefallen, kannst du sie gegen Azoth neu auswürfeln lassen. Abgeschlossene Stempel bleiben erhalten, aber deine angebotenen Aktivitäten, einschließlich derer, die du abgeschlossen hast, werden durch neue Aktivitäten ersetzt, um deine neue Karte zu vervollständigen.</string>
 	<string key="ui_hiw_sect2_pt1" rel_version="Feature_Seasons_Rewards">&lt;img src="LyShineUI/Images/SeasonsRewards/pip" yOffset="1"&gt;&lt;/img&gt; Für jede neue Karte kannst du die Aktivitäten einmal kostenlos neu auswürfeln.</string>
 	<string key="ui_hiw_sect2_pt2" rel_version="Feature_Seasons_Rewards">&lt;img src="LyShineUI/Images/SeasonsRewards/pip" yOffset="1"&gt;&lt;/img&gt; Die Kosten für eine Neu-Auswürfelung steigen mit jedem Einsatz.</string>
 	<string key="ui_hiw_sect2_pt3" rel_version="Feature_Seasons_Rewards">&lt;img src="LyShineUI/Images/SeasonsRewards/pip" yOffset="1"&gt;&lt;/img&gt; Die Kosten für eine Neu-Auswürfelung werden bei einer neuen Karte zurückgesetzt.</string>
@@ -224,7 +224,7 @@
 	<string key="token_use_success" rel_version="Feature_Seasons_Consumable_Tokens">Mit {boostName} um {duration} verlängert.</string>
 	<string key="token_use_failure" rel_version="Feature_Seasons_Consumable_Tokens">{boostName} konnte diesmal nicht aktiviert werden.</string>
 	<string key="token_use_expired" rel_version="Feature_Seasons_Consumable_Tokens">{boostName} hat keinen Effekt mehr.</string>
-	<string key="token_tooltip_list_item" rel_version="Feature_Seasons_Consumable_Tokens">{effectName}\nVerbleibende Zeit: {timeRemaining}</string>
+	<string key="token_tooltip_list_item" rel_version="Feature_Seasons_Consumable_Tokens">&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;&lt;font color={color}&gt;{effectName}&lt;/font&gt;&lt;/font&gt;\nVerbleibende Zeit: {timeRemaining}</string>
 	<string key="token_disabled" rel_version="Feature_Seasons_Consumable_Tokens">Deaktiviert</string>
 	<string key="SeasonsActivities_Close1MajorBreach" rel_version="Feature_Seasons_Rewards">Schließe große Ausbrüche.</string>
 	<string key="SeasonsActivities_Close1MinorBreaches" rel_version="Feature_Seasons_Rewards">Schließe kleine Ausbrüche.</string>
@@ -237,14 +237,14 @@
 	<string key="SeasonsActivities_Kill10EnemiesTwoHanded" rel_version="Feature_Seasons_Rewards">Töte Gegner im beidhändigen Nahkampf.</string>
 	<string key="SeasonsActivities_Kill10EnemiesRanged" rel_version="Feature_Seasons_Rewards">Töte Gegner mit Bögen oder Schusswaffen.</string>
 	<string key="SeasonsActivities_Kill10EnemiesMagic" rel_version="Feature_Seasons_Rewards">Töte Gegner mit Magie.</string>
-	<string key="SeasonsActivities_Kill1Player" rel_version="Feature_Seasons_Rewards">Töte Spielercharaktere.</string>
+	<string key="SeasonsActivities_Kill1Player" rel_version="Feature_Seasons_Rewards">Erhalte Azoth-Salz, indem du Spieler tötest.</string>
 	<string key="SeasonsActivities_Capture1FactionControlPoint" rel_version="Feature_Seasons_Rewards">Erobere Fraktionskontrollpunkte.</string>
 	<string key="SeasonsActivities_ParticipateIn3Duels" rel_version="Feature_Seasons_Rewards">Nimm an Duellen teil.</string>
 	<string key="SeasonsActivities_Gather5T5Nodes" rel_version="Feature_Seasons_Rewards">Sammeln an Rohstoffadern mit Rang 5.</string>
 	<string key="SeasonsActivities_Skin10T5Animals" rel_version="Feature_Seasons_Rewards">Häute Tiere mit Rang 5.</string>
-	<string key="SeasonsActivities_Catch150lbsFish" rel_version="Feature_Seasons_Rewards">Fange 150 lbs Fisch.</string>
+	<string key="SeasonsActivities_Catch150lbsFish" rel_version="Feature_Seasons_Rewards">Fange 70 kg Fisch.</string>
 	<string key="SeasonsActivities_CraftOrCook50Items" rel_version="Feature_Seasons_Rewards">Stelle Gegenstände her oder koche sie.</string>
-	<string key="SeasonsActivities_Complete2TownProjects" rel_version="Feature_Seasons_Rewards">Schließe Stadtprojekte ab.</string>
+	<string key="SeasonsActivities_Complete2TownProjects" rel_version="Feature_Seasons_Rewards">Schließe Stadtprojektmissionen ab.</string>
 	<string key="SeasonsActivities_Salvage5T5Items" rel_version="Feature_Seasons_Rewards">Zerlege Gegenstände mit Rang 5.</string>
 	<string key="SeasonsActivities_Complete2FactionMissions" rel_version="Feature_Seasons_Rewards">Schließe Fraktionsmissionen ab.</string>
 	<string key="SeasonsActivities_Refine50T5Resources" rel_version="Feature_Seasons_Rewards">Veredle Rohstoffe mit Rang 5.</string>
@@ -311,5 +311,6 @@
 	<string key="SeasonsRewardTrack_ClaimError_NotEnoughInventorySpace" rel_version="Feature_Seasons_Rewards">Belohnung kann nicht abgeholt werden: Zu wenig Platz im Inventar.</string>
 	<string key="SeasonsRewardTrack_ClaimError_Generic" rel_version="Feature_Seasons_Rewards">Belohnung kann nicht abgeholt werden: Versuche es bitte später erneut.</string>
 	<string key="SeasonsRewardTrack_TransactionError" rel_version="Feature_Seasons_Rewards">Transaktion kann nicht verarbeitet werden. Versuche es bitte später erneut.</string>
+	<string key="SeasonsRewardTrack_PartialClaimWarning" rel_version="Feature_Seasons_Rewards">Einer oder mehrere der Gegenstände dieser Belohnung wurden bereits für dieses Konto beansprucht.</string>
 </resources>
 

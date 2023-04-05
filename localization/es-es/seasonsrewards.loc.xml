@@ -63,7 +63,7 @@
 	<string key="ui_hiw_sect1_pt2" rel_version="Feature_Seasons_Rewards">&lt;img src="LyShineUI/Images/SeasonsRewards/pip" yOffset="1"&gt;&lt;/img&gt; Sella líneas en la tarjeta para conseguir EXP de temporada adicional.</string>
 	<string key="ui_hiw_sect1_pt3" rel_version="Feature_Seasons_Rewards">&lt;img src="LyShineUI/Images/SeasonsRewards/pip" yOffset="1"&gt;&lt;/img&gt; Completa sellos suficientes para terminar una tarjeta y conseguir una nueva.</string>
 	<string key="ui_hiw_sect2_header" rel_version="Feature_Seasons_Rewards">Repetir</string>
-	<string key="ui_hiw_sect2_desc" rel_version="Feature_Seasons_Rewards">Puedes repetir la lista de actividades sin perder el progreso en tu tarjeta.</string>
+	<string key="ui_hiw_sect2_desc" rel_version="Feature_Seasons_Rewards">Si no te gustan las actividades de tu tarjeta de sellos actual, puedes sustituirlas por otras a cambio de Azoth. Los sellos completados no se perderán, pero se reemplazarán las actividades ofrecidas, incluidas las que ya hayas completado, por otras actividades con las que completar la nueva tarjeta.</string>
 	<string key="ui_hiw_sect2_pt1" rel_version="Feature_Seasons_Rewards">&lt;img src="LyShineUI/Images/SeasonsRewards/pip" yOffset="1"&gt;&lt;/img&gt; Puedes repetir cada tarjeta 1 vez de forma gratuita.</string>
 	<string key="ui_hiw_sect2_pt2" rel_version="Feature_Seasons_Rewards">&lt;img src="LyShineUI/Images/SeasonsRewards/pip" yOffset="1"&gt;&lt;/img&gt; El coste por repetir aumenta con cada uso.</string>
 	<string key="ui_hiw_sect2_pt3" rel_version="Feature_Seasons_Rewards">&lt;img src="LyShineUI/Images/SeasonsRewards/pip" yOffset="1"&gt;&lt;/img&gt; El coste por repetir se actualizará con cada tarjeta nueva.</string>
@@ -224,7 +224,7 @@
 	<string key="token_use_success" rel_version="Feature_Seasons_Consumable_Tokens">Se ha activado {boostName} durante {duration}.</string>
 	<string key="token_use_failure" rel_version="Feature_Seasons_Consumable_Tokens">No se ha podido activar {boostName} esta vez.</string>
 	<string key="token_use_expired" rel_version="Feature_Seasons_Consumable_Tokens">{boostName} ya no está en curso.</string>
-	<string key="token_tooltip_list_item" rel_version="Feature_Seasons_Consumable_Tokens">{effectName}\nTiempo restante: {timeRemaining}</string>
+	<string key="token_tooltip_list_item" rel_version="Feature_Seasons_Consumable_Tokens">&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;&lt;font color={color}&gt;{effectName}&lt;/font&gt;&lt;/font&gt;\nTiempo restante: {timeRemaining}</string>
 	<string key="token_disabled" rel_version="Feature_Seasons_Consumable_Tokens">Desactivado</string>
 	<string key="SeasonsActivities_Close1MajorBreach" rel_version="Feature_Seasons_Rewards">Cierra grietas principales</string>
 	<string key="SeasonsActivities_Close1MinorBreaches" rel_version="Feature_Seasons_Rewards">Cierra grietas menores</string>
@@ -237,14 +237,14 @@
 	<string key="SeasonsActivities_Kill10EnemiesTwoHanded" rel_version="Feature_Seasons_Rewards">Mata a enemigos en un combate cuerpo a cuerpo a dos manos</string>
 	<string key="SeasonsActivities_Kill10EnemiesRanged" rel_version="Feature_Seasons_Rewards">Matar enemigos con arcos o pistolas</string>
 	<string key="SeasonsActivities_Kill10EnemiesMagic" rel_version="Feature_Seasons_Rewards">Mata a enemigos con magia</string>
-	<string key="SeasonsActivities_Kill1Player" rel_version="Feature_Seasons_Rewards">Mata a jugadores</string>
+	<string key="SeasonsActivities_Kill1Player" rel_version="Feature_Seasons_Rewards">Mata jugadores para obtener sal de Azoth</string>
 	<string key="SeasonsActivities_Capture1FactionControlPoint" rel_version="Feature_Seasons_Rewards">Captura puntos de control de facciones</string>
 	<string key="SeasonsActivities_ParticipateIn3Duels" rel_version="Feature_Seasons_Rewards">Participa en duelos</string>
 	<string key="SeasonsActivities_Gather5T5Nodes" rel_version="Feature_Seasons_Rewards">Recolectar nodos de recursos de clase 5</string>
 	<string key="SeasonsActivities_Skin10T5Animals" rel_version="Feature_Seasons_Rewards">Despellejar animales de clase 5</string>
-	<string key="SeasonsActivities_Catch150lbsFish" rel_version="Feature_Seasons_Rewards">Pesca 150 kg de pescado.</string>
+	<string key="SeasonsActivities_Catch150lbsFish" rel_version="Feature_Seasons_Rewards">Pesca 70 kg de pescado.</string>
 	<string key="SeasonsActivities_CraftOrCook50Items" rel_version="Feature_Seasons_Rewards">Fabrica o cocina objetos</string>
-	<string key="SeasonsActivities_Complete2TownProjects" rel_version="Feature_Seasons_Rewards">Completa proyectos de pueblo</string>
+	<string key="SeasonsActivities_Complete2TownProjects" rel_version="Feature_Seasons_Rewards">Completa misiones de proyecto de pueblo</string>
 	<string key="SeasonsActivities_Salvage5T5Items" rel_version="Feature_Seasons_Rewards">Aprovechar objetos de clase 5</string>
 	<string key="SeasonsActivities_Complete2FactionMissions" rel_version="Feature_Seasons_Rewards">Completa misiones de facción</string>
 	<string key="SeasonsActivities_Refine50T5Resources" rel_version="Feature_Seasons_Rewards">Refinar recursos de clase 5</string>
@@ -265,7 +265,7 @@
 	<string key="SeasonsActivities_Complete1MutatedExpedition" rel_version="Feature_Seasons_Rewards">Completa una expedición mutada.</string>
 	<string key="SeasonsActivities_KillXNamedEnemyInXPOI" rel_version="Feature_Seasons_Rewards">Mata a enemigos con nombre en puntos de interés</string>
 	<string key="SeasonsActivities_Earn1000PvpXp" rel_version="Feature_Seasons_Rewards">Consigue EXP JcJ por matar a jugadores</string>
-	<string key="SeasonsActivities_DefeatZygormat" rel_version="Feature_Seasons_Rewards">Derrota a Zygormat en la Arboleda de Zygormat</string>
+	<string key="SeasonsActivities_DefeatZygormat" rel_version="Feature_Seasons_Rewards">Derrota a Zygoramet en la Arboleda de Zygoramet</string>
 	<string key="SeasonsActivities_DefeatSirenQueen" rel_version="Feature_Seasons_Rewards">Derrota a la reina sirena en el Capitel de Melpómene</string>
 	<string key="SeasonsActivities_DefeateAvarice" rel_version="Feature_Seasons_Rewards">Derrota a Avaricia en el estanque eterno</string>
 	<string key="SeasonsActivities_Craft1GypsumOrb" rel_version="Feature_Seasons_Rewards">Fabrica orbes de aljez</string>
@@ -311,5 +311,6 @@
 	<string key="SeasonsRewardTrack_ClaimError_NotEnoughInventorySpace" rel_version="Feature_Seasons_Rewards">No se puede reclamar esta recompensa. No hay espacio suficiente en el inventario.</string>
 	<string key="SeasonsRewardTrack_ClaimError_Generic" rel_version="Feature_Seasons_Rewards">No se puede reclamar esta recompensa. Inténtalo de nuevo más adelante.</string>
 	<string key="SeasonsRewardTrack_TransactionError" rel_version="Feature_Seasons_Rewards">No se puede completar la transacción. Inténtalo de nuevo más adelante.</string>
+	<string key="SeasonsRewardTrack_PartialClaimWarning" rel_version="Feature_Seasons_Rewards">Ya se han reclamado uno o más objetos de la recompensa con esta cuenta.</string>
 </resources>
 

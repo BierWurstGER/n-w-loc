@@ -50,6 +50,7 @@
 	<string key="ui_apply_skins" rel_version="Feature_MTX">Skins anwenden</string>
 	<string key="reward_type_itemdye" rel_version="Feature_MTX">Farbstoff</string>
 	<string key="reward_type_statuseffect" rel_version="Feature_Seasons_Consumable_Tokens">Booster</string>
+	<string key="exceeds_max_balance" rel_version="Feature_Seasons_Consumable_Tokens">Kauf überschreitet die Obergrenze von {cap}</string>
 	<string key="reward_type_armorskin" rel_version="Feature_MTX">Kleidungs-Skin</string>
 	<string key="reward_type_toolskin" rel_version="Feature_MTX">Werkzeug-Skin</string>
 	<string key="url_worldtransfer">https://www.newworld.com/forward-link?id=server-transfer-details</string>
@@ -167,7 +168,7 @@
 	<string key="ui_transaction_failed">Transaktion fehlgeschlagen.</string>
 	<string key="ui_transaction_timed_out">Zeitüberschreitung bei der Transaktion. Erneut versuchen?</string>
 	<string key="ui_transaction_timeout_overlay">Zeitüberschreitung bei der Transaktion.\nBitte stelle sicher, dass Steam-Overlay aktiviert ist.</string>
-	<string key="ui_bonus_marks">{base} + {bonus} Bonus = </string>
+	<string key="ui_bonus_marks">{base} + {bonus} Bonus =</string>
 	<string key="ui_bonus_percent">{bonusPct} % Bonus!</string>
 	<string key="ui_how_to_use">Verwendung</string>
 	<string key="ui_notification_unlock_desc">Deinem Konto wurden Gegenstände hinzugefügt.</string>
@@ -985,7 +986,7 @@
 	<string key="Token_SeasonXP_Boost_name" rel_version="Entitlements_FirelightSeason">Saison-EP-Booster</string>
 	<string key="Token_SeasonXP_Boost_description" rel_version="Entitlements_FirelightSeason">Zwei Stunden lang doppelte Umwandlungsquote von normalen EP in Saison-EP für einen Charakter.</string>
 	<string key="Token_GatheringXP_Boost_name" rel_version="Entitlements_FirelightSeason">Sammel-EP-Booster</string>
-	<string key="Token_GatheringXP_Boost_description" rel_version="Entitlements_FirelightSeason">Zwei Stunden lang doppelte EP für Holzfällerei, Bergbau, Erntearbeit und Häuten eines Charakters.\n\nAnwendung wird während Instanzen-Modi pausiert.</string>
+	<string key="Token_GatheringXP_Boost_description" rel_version="Entitlements_FirelightSeason">Zwei Stunden lang doppelte EP für Holzfällerei, Bergbau, Erntearbeit und Häuten eines Charakters. Gilt nicht für Begabungsstufen.\n\nAnwendung wird während Instanzen-Modi pausiert.</string>
 	<string key="Apparel_OmensOfWinter_Owl_name" rel_version="Apparel_OmensWinter_1">Cailleach-Eule</string>
 	<string key="Apparel_OmensOfWinter_Cat_name" rel_version="Apparel_OmensWinter_2">Imbolg-Luchs</string>
 	<string key="Bundle_PR_OmensOfWinter_Apparel_name" rel_version="Bundle_OmensWinter_Apparel">Kleidungspaket: Winteromen</string>

@@ -50,6 +50,7 @@
 	<string key="ui_apply_skins" rel_version="Feature_MTX">Zastosuj skórki</string>
 	<string key="reward_type_itemdye" rel_version="Feature_MTX">Barwnik</string>
 	<string key="reward_type_statuseffect" rel_version="Feature_Seasons_Consumable_Tokens">Wzmacniacz</string>
+	<string key="exceeds_max_balance" rel_version="Feature_Seasons_Consumable_Tokens">Zakup przekracza limit, który wynosi {cap}</string>
 	<string key="reward_type_armorskin" rel_version="Feature_MTX">Skórka ubioru</string>
 	<string key="reward_type_toolskin" rel_version="Feature_MTX">Skórka narzędzia</string>
 	<string key="url_worldtransfer">https://www.newworld.com/forward-link?id=server-transfer-details</string>
@@ -167,7 +168,7 @@
 	<string key="ui_transaction_failed">Transakcja nieudana.</string>
 	<string key="ui_transaction_timed_out">Przekroczono limit czasu transakcji. Chcesz spróbować ponownie?</string>
 	<string key="ui_transaction_timeout_overlay">Przekroczono limit czasu transakcji.\nUpewnij się, że nakładka Steam jest włączona.</string>
-	<string key="ui_bonus_marks">{base} + premia {bonus} = </string>
+	<string key="ui_bonus_marks">{base} + premia {bonus} =</string>
 	<string key="ui_bonus_percent">{bonusPct}% premii!</string>
 	<string key="ui_how_to_use">Sposób użycia</string>
 	<string key="ui_notification_unlock_desc">Przedmioty zostały dodane do twojego konta.</string>
@@ -985,7 +986,7 @@
 	<string key="Token_SeasonXP_Boost_name" rel_version="Entitlements_FirelightSeason">Wzmacniacz sezonowych PD</string>
 	<string key="Token_SeasonXP_Boost_description" rel_version="Entitlements_FirelightSeason">Zwiększa konwersję zwykłych PD postaci na sezonowe PD o 100% na 2 godziny.</string>
 	<string key="Token_GatheringXP_Boost_name" rel_version="Entitlements_FirelightSeason">Wzmacniacz PD zbieractwa</string>
-	<string key="Token_GatheringXP_Boost_description" rel_version="Entitlements_FirelightSeason">Zwiększa liczbę zdobywanych przez postać PD za wyrąb, górnictwo, żniwa i skórowanie o 100% na 2 godziny.\n\nPremia nie działa w instancjonowanych trybach gry.</string>
+	<string key="Token_GatheringXP_Boost_description" rel_version="Entitlements_FirelightSeason">Zwiększa liczbę zdobywanych przez postać PD za wyrąb, górnictwo, żniwa i skórowanie o 100% na 2 godziny. Premia nie wpływa na poziomy smykałki.\n\nPremia jest nieaktywna w instancjonowanych trybach gry.</string>
 	<string key="Apparel_OmensOfWinter_Owl_name" rel_version="Apparel_OmensWinter_1">Sowa Cailleach</string>
 	<string key="Apparel_OmensOfWinter_Cat_name" rel_version="Apparel_OmensWinter_2">Ryś Imbolc</string>
 	<string key="Bundle_PR_OmensOfWinter_Apparel_name" rel_version="Bundle_OmensWinter_Apparel">Paczka ubioru zimowych omenów</string>

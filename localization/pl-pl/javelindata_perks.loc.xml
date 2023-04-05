@@ -1160,7 +1160,7 @@
 	<string key="PerkID_Ability_Spear_Sweep_Name">Krwawe podcięcie</string>
 	<string key="PerkID_Ability_Spear_Sweep_Description">Cios miłosierdzia podcięcia nakłada na cel krwawienie w wysokości {[Type_StatusEffectData.Status_Perk_Spear_SweepFinish_Bleed.HealthModifierDamageBased * -100 * {perkMultiplier}]}% obrażeń od broni na {[Type_StatusEffectData.Status_Perk_Spear_SweepFinish_Bleed.BaseDuration]} s.</string>
 	<string key="PerkID_Ability_Spear_Javelin_Name">Rozrywający oszczep</string>
-	<string key="PerkID_Ability_Spear_Javelin_Description">Oszczep nakłada na cel rozdarcie zmniejszające jego pancerz o {[Type_StatusEffectData.Status_Perk_Spear_Javelin_Rend.PhysicalArmor * -100 * {perkMultiplier}]}% na {[Type_StatusEffectData.Status_Perk_Spear_Javelin_Rend.BaseDuration]} s.</string>
+	<string key="PerkID_Ability_Spear_Javelin_Description">Oszczep nakłada na cel mający powyżej {[GlobalAbilityTable.GlobalPerk_Ability_Spear_Javelin.TargetHealthPercent]}% zdrowia rozdarcie zmniejszające jego pancerz o {[Type_StatusEffectData.Status_Perk_Spear_Javelin_Rend.PhysicalArmor * -100 * {perkMultiplier}]}% na {[Type_StatusEffectData.Status_Perk_Spear_Javelin_Rend.BaseDuration]} s.</string>
 	<string key="PerkID_Ability_Spear_Cyclone_Name">Wysysający cyklon</string>
 	<string key="PerkID_Ability_Spear_Cyclone_Description">Trafienia cyklonem przywracają zdrowie w wysokości {[GlobalAbilityTable.GlobalPerk_Ability_Spear_Cyclone.DmgPctToHealth * 100 * {perkMultiplier}]}% obrażeń od broni.</string>
 	<string key="PerkID_Ability_Spear_Perforate_Name">Umacniające podziurawienie</string>

@@ -63,7 +63,7 @@
 	<string key="ui_hiw_sect1_pt2" rel_version="Feature_Seasons_Rewards">&lt;img src="LyShineUI/Images/SeasonsRewards/pip" yOffset="1"&gt;&lt;/img&gt; Timbra le righe della scheda per ottenere PE stagionali aggiuntivi.</string>
 	<string key="ui_hiw_sect1_pt3" rel_version="Feature_Seasons_Rewards">&lt;img src="LyShineUI/Images/SeasonsRewards/pip" yOffset="1"&gt;&lt;/img&gt; Applica un numero sufficiente di timbri per completare una scheda e ottenerne un'altra.</string>
 	<string key="ui_hiw_sect2_header" rel_version="Feature_Seasons_Rewards">Rigenerazione</string>
-	<string key="ui_hiw_sect2_desc" rel_version="Feature_Seasons_Rewards">Puoi rigenerare l'elenco di attività senza perdere i progressi della scheda.</string>
+	<string key="ui_hiw_sect2_desc" rel_version="Feature_Seasons_Rewards">Se le attività della tua scheda attuale non ti piacciono, puoi rigenerarle utilizzando Azoth. I timbri completati rimarranno, ma le attività offerte, comprese quelle che hai ultimato, verranno sostituite da nuove attività che ti consentiranno di completare la nuova scheda.</string>
 	<string key="ui_hiw_sect2_pt1" rel_version="Feature_Seasons_Rewards">&lt;img src="LyShineUI/Images/SeasonsRewards/pip" yOffset="1"&gt;&lt;/img&gt; Ogni nuova scheda include 1 rigenerazione gratuita.</string>
 	<string key="ui_hiw_sect2_pt2" rel_version="Feature_Seasons_Rewards">&lt;img src="LyShineUI/Images/SeasonsRewards/pip" yOffset="1"&gt;&lt;/img&gt; Il costo delle rigenerazioni aumenta a ogni utilizzo.</string>
 	<string key="ui_hiw_sect2_pt3" rel_version="Feature_Seasons_Rewards">&lt;img src="LyShineUI/Images/SeasonsRewards/pip" yOffset="1"&gt;&lt;/img&gt; Il costo delle rigenerazioni torna al valore iniziale a ogni nuova scheda.</string>
@@ -224,7 +224,7 @@
 	<string key="token_use_success" rel_version="Feature_Seasons_Consumable_Tokens">Gettone {boostName} attivato per {duration}.</string>
 	<string key="token_use_failure" rel_version="Feature_Seasons_Consumable_Tokens">Al momento non è possibile attivare {boostName}.</string>
 	<string key="token_use_expired" rel_version="Feature_Seasons_Consumable_Tokens">Il gettone {boostName} non è più attivo.</string>
-	<string key="token_tooltip_list_item" rel_version="Feature_Seasons_Consumable_Tokens">{effectName}\nTempo rimanente: {timeRemaining}</string>
+	<string key="token_tooltip_list_item" rel_version="Feature_Seasons_Consumable_Tokens">&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;&lt;font color={color}&gt;{effectName}&lt;/font&gt;&lt;/font&gt;\nTempo rimanente: {timeRemaining}</string>
 	<string key="token_disabled" rel_version="Feature_Seasons_Consumable_Tokens">Disabilitato</string>
 	<string key="SeasonsActivities_Close1MajorBreach" rel_version="Feature_Seasons_Rewards">Chiudi brecce grandi</string>
 	<string key="SeasonsActivities_Close1MinorBreaches" rel_version="Feature_Seasons_Rewards">Chiudi brecce piccole</string>
@@ -237,14 +237,14 @@
 	<string key="SeasonsActivities_Kill10EnemiesTwoHanded" rel_version="Feature_Seasons_Rewards">Uccidi nemici combattendo in mischia con due mani</string>
 	<string key="SeasonsActivities_Kill10EnemiesRanged" rel_version="Feature_Seasons_Rewards">Uccidi nemici usando archi o armi da fuoco</string>
 	<string key="SeasonsActivities_Kill10EnemiesMagic" rel_version="Feature_Seasons_Rewards">Uccidi nemici usando la magia</string>
-	<string key="SeasonsActivities_Kill1Player" rel_version="Feature_Seasons_Rewards">Uccidi giocatori</string>
+	<string key="SeasonsActivities_Kill1Player" rel_version="Feature_Seasons_Rewards">Ottieni sale di Azoth uccidendo giocatori</string>
 	<string key="SeasonsActivities_Capture1FactionControlPoint" rel_version="Feature_Seasons_Rewards">Conquista punti di controllo della fazione</string>
 	<string key="SeasonsActivities_ParticipateIn3Duels" rel_version="Feature_Seasons_Rewards">Partecipa a Duelli</string>
 	<string key="SeasonsActivities_Gather5T5Nodes" rel_version="Feature_Seasons_Rewards">Raccogli filoni di risorse di livello 5</string>
 	<string key="SeasonsActivities_Skin10T5Animals" rel_version="Feature_Seasons_Rewards">Scuoia animali di livello 5</string>
-	<string key="SeasonsActivities_Catch150lbsFish" rel_version="Feature_Seasons_Rewards">Pesca 150 libbre di pesce</string>
+	<string key="SeasonsActivities_Catch150lbsFish" rel_version="Feature_Seasons_Rewards">Pesca 70 kg di pesce</string>
 	<string key="SeasonsActivities_CraftOrCook50Items" rel_version="Feature_Seasons_Rewards">Produci o cucina</string>
-	<string key="SeasonsActivities_Complete2TownProjects" rel_version="Feature_Seasons_Rewards">Completa progetti cittadini</string>
+	<string key="SeasonsActivities_Complete2TownProjects" rel_version="Feature_Seasons_Rewards">Completa le missione dei progetti cittadini</string>
 	<string key="SeasonsActivities_Salvage5T5Items" rel_version="Feature_Seasons_Rewards">Recupera oggetti di livello 5</string>
 	<string key="SeasonsActivities_Complete2FactionMissions" rel_version="Feature_Seasons_Rewards">Completa missioni della fazione</string>
 	<string key="SeasonsActivities_Refine50T5Resources" rel_version="Feature_Seasons_Rewards">Lavora risorse di livello 5</string>
@@ -311,5 +311,6 @@
 	<string key="SeasonsRewardTrack_ClaimError_NotEnoughInventorySpace" rel_version="Feature_Seasons_Rewards">Impossibile ottenere questa ricompensa. Spazio insufficiente nell'inventario.</string>
 	<string key="SeasonsRewardTrack_ClaimError_Generic" rel_version="Feature_Seasons_Rewards">Impossibile ottenere questa ricompensa. Riprova più tardi.</string>
 	<string key="SeasonsRewardTrack_TransactionError" rel_version="Feature_Seasons_Rewards">Impossibile elaborare questa transazione. Riprova più tardi.</string>
+	<string key="SeasonsRewardTrack_PartialClaimWarning" rel_version="Feature_Seasons_Rewards">Uno o più oggetti di questa ricompensa sono stati già ottenuti su questo account</string>
 </resources>
 

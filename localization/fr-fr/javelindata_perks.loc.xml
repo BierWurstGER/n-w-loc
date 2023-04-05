@@ -1160,7 +1160,7 @@
 	<string key="PerkID_Ability_Spear_Sweep_Name">Balayage de saignement</string>
 	<string key="PerkID_Ability_Spear_Sweep_Description">Le dernier coup porté par Balayage applique désormais un saignement qui inflige {[Type_StatusEffectData.Status_Perk_Spear_SweepFinish_Bleed.HealthModifierDamageBased * -100 * {perkMultiplier}]} % des dégâts de l'arme pendant {[Type_StatusEffectData.Status_Perk_Spear_SweepFinish_Bleed.BaseDuration]}s.</string>
 	<string key="PerkID_Ability_Spear_Javelin_Name">Javelot scindant</string>
-	<string key="PerkID_Ability_Spear_Javelin_Description">Javelot applique lacération, réduisant l'armure de la cible de {[Type_StatusEffectData.Status_Perk_Spear_Javelin_Rend.PhysicalArmor * -100 * {perkMultiplier}]} % pendant {[Type_StatusEffectData.Status_Perk_Spear_Javelin_Rend.BaseDuration]}s.</string>
+	<string key="PerkID_Ability_Spear_Javelin_Description">Javelot applique lacération aux cibles dont la santé est supérieure à {[GlobalAbilityTable.GlobalPerk_Ability_Spear_Javelin.TargetHealthPercent]} %, réduisant leur armure de {[Type_StatusEffectData.Status_Perk_Spear_Javelin_Rend.PhysicalArmor * -100 * {perkMultiplier}]} % pendant {[Type_StatusEffectData.Status_Perk_Spear_Javelin_Rend.BaseDuration]}s.</string>
 	<string key="PerkID_Ability_Spear_Cyclone_Name">Cyclone aspirant</string>
 	<string key="PerkID_Ability_Spear_Cyclone_Description">Les coups de Cyclone vous soignent à hauteur de {[GlobalAbilityTable.GlobalPerk_Ability_Spear_Cyclone.DmgPctToHealth * 100 * {perkMultiplier}]} % des dégâts de l'arme.</string>
 	<string key="PerkID_Ability_Spear_Perforate_Name">Perforation fortificatrice</string>

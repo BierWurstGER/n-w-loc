@@ -619,7 +619,7 @@
 	<string key="BruteBlast_DisplayName">Quemadura explosiva</string>
 	<string key="BruteBlast_Description">Inflige un {[Type_StatusEffectData.PirateBrute_Blast.HealthModifierDamageBased * -100]} % de daño base de fuego cada {[Type_StatusEffectData.PirateBrute_Blast.TickRate]} segundos durante {[Type_StatusEffectData.PirateBrute_Blast.BaseDuration]}.</string>
 	<string key="UndeadBrute_Consume_DisplayName">Estómago lleno</string>
-	<string key="UndeadBrute_Consume_Description">Cura un {[Type_StatusEffectData.UndeadBrute_Consume.HealthModifierPercent * 100]} % de salud base cada {[Type_StatusEffectData.UndeadBrute_Consume.TickRate]} segundos y aumenta el daño base en {[Type_StatusEffectData.UndeadBrute_Consume.DMGStandard]} durante {[Type_StatusEffectData.UndeadBrute_Consume.BaseDuration]} segundos.</string>
+	<string key="UndeadBrute_Consume_Description">Aumenta el daño base en {[Type_StatusEffectData.UndeadBrute_Consume.DMGStandard]} durante {[Type_StatusEffectData.UndeadBrute_Consume.BaseDuration]} segundos.</string>
 	<string key="Legion_Inspire_Buff" rel_version="Territory_Brimstone_Sands">Inspirado</string>
 	<string key="Legion_HeroOfLegion_Buff" rel_version="Territory_Brimstone_Sands">Héroe de la legión</string>
 	<string key="Legion_HeroOfLegion_Crassus_Buff" rel_version="Territory_Brimstone_Sands">Héroes de la legión</string>
@@ -697,7 +697,7 @@
 	<string key="AI_Thorpe_Burn_DisplayName">Quemadura sombría</string>
 	<string key="AI_Thorpe_Burn_Tooltip">Las quemaduras te causan un {[Type_StatusEffectData.AI_Thorpe_Burn.HealthModifierDamageBased * -100]} % de daño base y un {[Type_StatusEffectData.AI_Thorpe_Burn.HealthModifierPercent * -100]} % de daño de fuego a la salud base cada {[Type_StatusEffectData.AI_Thorpe_Burn.TickRate]} segundos durante {[Type_StatusEffectData.AI_Thorpe_Burn.BaseDuration]} segundos.</string>
 	<string key="AI_Thorpe_FTUE_Burn_DisplayName">Quemadura</string>
-	<string key="AI_Thorpe_FTUE_Burn_Tooltip">Las quemaduras te causan un {[Type_StatusEffectData.AI_Thorpe_FTUE_Burn.HealthModifierDamageBased * -100]} % de daño base y un {[Type_StatusEffectData.AI_Thorpe_FTUE_Burn.HealthModifierPercent * -100]} % de daño de fuego a la salud base cada {[Type_StatusEffectData.AI_Thorpe_FTUE_Burn.TickRate]} segundos durante {[Type_StatusEffectData.AI_Thorpe_FTUE_Burn.BaseDuration]} segundos.</string>
+	<string key="AI_Thorpe_FTUE_Burn_Tooltip">Las quemaduras te causan un {[Type_StatusEffectData.AI_Thorpe_Burn.HealthModifierDamageBased * -100]} % de daño base y un {[Type_StatusEffectData.AI_Thorpe_Burn.HealthModifierPercent * -100]} % de daño de fuego a la salud base cada {[Type_StatusEffectData.AI_Thorpe_Burn.TickRate]} segundos durante {[Type_StatusEffectData.AI_Thorpe_Burn.BaseDuration]} segundos.</string>
 	<string key="AI_Evil_Knight_Fire_Champion_HeatingUp" rel_version="Expedition_GreatCleave_01">Entrando en calor</string>
 	<string key="AI_Evil_Knight_Fire_Champion_HeatingUp_Tooltip" rel_version="Expedition_GreatCleave_01">El comandante está tan lleno de ira que parece a punto de explotar.</string>
 	<string key="AI_Evil_Knight_Fire_Champion_Overheat_DisplayName" rel_version="Expedition_GreatCleave_01">Tórrido</string>
@@ -771,7 +771,7 @@
 	<string key="AI_IceDryad_Frostgrip_IceField_Slow_DisplayName" rel_version="Event_WinterConvergence_Perm">Lentitud</string>
 	<string key="AI_IceDryad_Frostgrip_IceField_Slow_Tooltip" rel_version="Event_WinterConvergence_Perm">Reduce la velocidad de movimiento en un {[Type_StatusEffectData.AI_IceDryad_Frostgrip_IceField_Slow.MoveSpeedMod * -100]} % durante {[Type_StatusEffectData.AI_IceDryad_Frostgrip_IceField_Slow.BaseDuration]} segundos.</string>
 	<string key="AI_IceDryad_Frostfang_Buff_Empower_DisplayName" rel_version="Event_WinterConvergence_Perm">Fortalecimiento</string>
-	<string key="AI_IceDryad_Frostfang_Buff_Empower_Tooltip" rel_version="Event_WinterConvergence_Perm">Daño aumentado de tipos específicos durante {[Type_StatusEffectData.Type_StatusEffectData.AI_IceDryad_Frostfang_Buff_Empower.BaseDuration * 100]} segundos.</string>
+	<string key="AI_IceDryad_Frostfang_Buff_Empower_Tooltip" rel_version="Event_WinterConvergence_Perm">Daño aumentado de tipos específicos durante {[Type_StatusEffectData.AI_IceDryad_Frostfang_Buff_Empower.BaseDuration * 100]} segundos.</string>
 	<string key="AI_IceDryad_Frostfang_Debuff_Weaken_DisplayName" rel_version="Event_WinterConvergence_Perm">Debilitamiento</string>
 	<string key="AI_IceDryad_Frostfang_Debuff_Weaken_Tooltip" rel_version="Event_WinterConvergence_Perm">Durante {[Type_StatusEffectData.AI_IceDryad_Frostfang_Debuff_Weaken.BaseDuration]} segundos, infliges menos daño con la mayoría de tipos de daño.</string>
 	<string key="AI_DPTank_SandDevil_Bleed_Cyclone_DisplayName" rel_version="Territory_Brimstone_Sands">Demonio de arena</string>
@@ -781,11 +781,11 @@
 	<string key="AI_DPTank_SandDevil_Bleed_Axe_DisplayName" rel_version="Territory_Brimstone_Sands">Arenas sangrantes</string>
 	<string key="AI_DPTank_SandDevil_Bleed_Axe_Tooltip" rel_version="Territory_Brimstone_Sands">Recibes como sangrado un {[Type_StatusEffectData.AI_DPTank_SandDevil_Bleed_Axe.HealthModifierPercent * -100]} % de daño físico a la salud base cada {[Type_StatusEffectData.AI_DPTank_SandDevil_Bleed_Axe.TickRate]} segundos durante {[Type_StatusEffectData.AI_DPTank_SandDevil_Bleed_Axe.BaseDuration]} segundos.</string>
 	<string key="AI_DPTank_Fortify_Limited_DisplayName" rel_version="Territory_Brimstone_Sands">Fortificación</string>
-	<string key="AI_DPTank_Fortify_Limited_Tooltip" rel_version="Territory_Brimstone_Sands">Aumento de la absorción del daño de tipos específicos durante {[Type_StatusEffectData.Type_StatusEffectData.AI_DPTank_Fortify_Limited.BaseDuration * 100]} segundos.</string>
+	<string key="AI_DPTank_Fortify_Limited_Tooltip" rel_version="Territory_Brimstone_Sands">Aumento de la absorción del daño de tipos específicos durante {[Type_StatusEffectData.AI_DPTank_Fortify_Limited.BaseDuration * 100]} segundos.</string>
 	<string key="AI_DPTank_Empower_Unlimited_DisplayName" rel_version="Territory_Brimstone_Sands">Fortalecimiento</string>
-	<string key="AI_DPTank_Empower_Unlimited_Tooltip" rel_version="Territory_Brimstone_Sands">Daño aumentado de tipos específicos durante {[Type_StatusEffectData.Type_StatusEffectData.AI_DPTank_Empower_Unlimited.BaseDuration * 100]} segundos.</string>
+	<string key="AI_DPTank_Empower_Unlimited_Tooltip" rel_version="Territory_Brimstone_Sands">Daño aumentado de tipos específicos durante {[Type_StatusEffectData.AI_DPTank_Empower_Unlimited.BaseDuration * 100]} segundos.</string>
 	<string key="AI_Empower_DisplayName" rel_version="Territory_Brimstone_Sands">Fortalecimiento</string>
-	<string key="AI_Empower_Tooltip" rel_version="Territory_Brimstone_Sands">Daño aumentado de tipos específicos durante {[Type_StatusEffectData.Type_StatusEffectData.AI_Empower_Unlimited.BaseDuration * 100]} segundos.</string>
+	<string key="AI_Empower_Tooltip" rel_version="Territory_Brimstone_Sands">Daño aumentado de tipos específicos durante {[Type_StatusEffectData.AI_Empower.BaseDuration * 100]} segundos.</string>
 	<string key="AI_Fulgoris_Gas_DisplayName" rel_version="Quest_MSQ2_WeaversFen">Gas infecto</string>
 	<string key="AI_Fulgoris_Gas_Tooltip" rel_version="Quest_MSQ2_WeaversFen">Recibes daño y el efecto infecto.</string>
 	<string key="AI_SandElementalHeavy_AoESlow_T2_DisplayName" rel_version="Territory_Brimstone_Sands">Atrapado</string>
@@ -1420,8 +1420,6 @@
 	<string key="Status_NearbyEnemyHaste_Description">Aumenta la velocidad de movimiento al caminar/desplazarse lateralmente en un {[Type_StatusEffectData.Musket_Pass_WalkSpeedWhileNearEnemy.MoveSpeedMod * 100]} % cuando estás cerca de un enemigo.</string>
 	<string key="Status_EmpowerHeadshot_Description">Tus ataques infligen un {[Type_StatusEffectData.Musket_Pass_EmpowerOnHeadshot.DMGSlash * 100]} % más de daño.</string>
 	<string key="Status_EmpowerOnDebuff_Description">Tus ataques infligen un {[Type_StatusEffectData.Musket_Pass_EmpowerOnDebuffHit.DMGSlash * 100]} % más de daño.</string>
-	<string key="Musket_Status_UltimateBuff">Adrenalina compuesta</string>
-	<string key="Musket_Status_UltimateBuff_Description">Reducción del {[Type_StatusEffectData.Musket_Ult_StaminaRegenPlusMoveSpeed.StaminaRate * 100]} % de la velocidad de regeneración de vitalidad, {[Type_StatusEffectData.Musket_Ult_StaminaRegenPlusMoveSpeed.MoveSpeedMod * 100]} de velocidad de movimiento y {[MusketAbilityTable.Ult_Passive_Musket_StackAbilities.CooldownTimer * -100]} de tiempo de recarga.</string>
 	<string key="Musket_Status_DMG_EveryADSShot">Precisión afinada</string>
 	<string key="Musket_Status_DMG_EveryADSShot_Description">Aumenta el daño en un 2,5 % por cada disparo certero al apuntar con la mira.</string>
 	<string key="ATB_CritOnDodge_DisplayName">Contador de crítico tras esquivar</string>
@@ -1582,9 +1580,7 @@
 	<string key="Status_Weapon_ChargedHeavyRend_Description" rel_version="MorePerksV1">Reduce tu armadura en un {[Type_StatusEffectData.Status_Perk_Weapon_ChargedHeavy_Rend.PhysicalArmor * -100]} %.</string>
 	<string key="Status_Timer_ChargedHeavyRend_Description" rel_version="MorePerksV1">Cuando termina, puedes volver a utilizar la ventaja Desgarro agudo.</string>
 	<string key="Wispy_Wasp_Swarm_Tick_DisplayName">Sangrado</string>
-	<string key="Wispy_Wasp_Swarm_Tick_Tooltip">Recibes como sangrado un {[Type_StatusEffectData.Wispy_Wasp_Swarm_Tick.HealthModifierDamageBased * -100]} % de daño físico a la salud base cada {[Type_StatusEffectData.Wispy_Wasp_Swarm_Tick.TickRate]} segundos durante {[Type_StatusEffectData.Wispy_Wasp_Swarm_Tick.BaseDuration]} segundos.</string>
-	<string key="Wispy_Wasp_Swarm_Repellent_DisplayName" rel_version="Event_SpringtideBloom_Temp">Repelente de avispas evanescentes</string>
-	<string key="Wispy_Wasp_Swarm_Repellent_Description" rel_version="Event_SpringtideBloom_Temp">Protege de las picaduras de las avispas evanescentes.</string>
+	<string key="Wispy_Wasp_Swarm_Tick_Tooltip">Recibes como sangrado un {[Type_StatusEffectData.Wispy_Wasp_Swarm_Tick.HealthModifierPercent * -100]} % de daño físico a la salud base cada {[Type_StatusEffectData.Wispy_Wasp_Swarm_Tick.TickRate]} segundos durante {[Type_StatusEffectData.Wispy_Wasp_Swarm_Tick.BaseDuration]} segundos.</string>
 	<string key="Blunderbuss_ChargeCooldown_Name" rel_version="Weapon_Blunderbuss">Redoblar</string>
 	<string key="Blunderbuss_ChargeCooldown_Desc" rel_version="Weapon_Blunderbuss">Tu siguiente habilidad de trabuco se recarga más rápido.</string>
 	<string key="Blunderbuss_ChargeCooldownOnCooldown_Desc" rel_version="Weapon_Blunderbuss">Cuando esto termine, podrás volver a usar tu pasiva de Redoblar.</string>
@@ -1595,7 +1591,7 @@
 	<string key="Blunderbuss_Ramp_Name" rel_version="Weapon_Blunderbuss">Incremento</string>
 	<string key="Blunderbuss_Ramp_Desc" rel_version="Weapon_Blunderbuss">Infliges un 4 % más de daño.</string>
 	<string key="Blunderbuss_LastChance_Name" rel_version="Weapon_Blunderbuss">Última oportunidad</string>
-	<string key="Blunderbuss_LastChance_Desc">Recibes un {[Type_StatusEffectData.Blunderbuss_LastChance.ABSStandard * 100]} % menos de daño.</string>
+	<string key="Blunderbuss_LastChance_Desc">Recibes un {[Type_StatusEffectData.Blunderbuss_LastChance.PhysicalArmor * 100]} % menos de daño.</string>
 	<string key="Blunderbuss_LastChanceCooldown_Desc" rel_version="Weapon_Blunderbuss">Cuando esto termine, podrás volver a usar tu pasiva de Última oportunidad.</string>
 	<string key="Blunderbuss_BarbedNet_Name" rel_version="Weapon_Blunderbuss">Red con espinas</string>
 	<string key="Blunderbuss_BarbedNet_Desc" rel_version="Weapon_Blunderbuss">Recibes daño con el tiempo.</string>
@@ -1626,7 +1622,6 @@
 	<string key="Status_DodgeStamina_Timer_Description" rel_version="MorePerksV2">Cuando termina, puedes volver a utilizar la ventaja Energía esquiva.</string>
 	<string key="Status_GatherProc_Heal" rel_version="MorePerksV2">Sanación por recolección</string>
 	<string key="Status_GatherProc_Heal_Description" rel_version="MorePerksV2">Regeneración de salud por la ventaja Recuperación de recolección.</string>
-	<string key="Wispy_Wasp_Swarm_ResetToFlower_DisplayName" rel_version="Event_SpringtideBloom_Temp">Vigilando la florescasa</string>
 	<string key="Status_MothersLove" rel_version="Housing_MothersLove_Memorial">Amor maternal</string>
 	<string key="Status_MothersLove_Description" rel_version="Housing_MothersLove_Memorial">Sientes una presencia orientadora y maternal sobre ti. Tu suerte aumenta un {[Type_StatusEffectData.Shrine_MothersLove.GlobalRollMod * 0.01]} % durante{[Type_StatusEffectData.Shrine_MothersLove.BaseDuration / 60]} m.</string>
 	<string key="Dungeon_RelicBubble" rel_version="Expedition_ShatterMtn_00">Relicario</string>

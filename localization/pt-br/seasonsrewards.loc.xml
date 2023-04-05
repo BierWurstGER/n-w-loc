@@ -63,7 +63,7 @@
 	<string key="ui_hiw_sect1_pt2" rel_version="Feature_Seasons_Rewards">&lt;img src="LyShineUI/Images/SeasonsRewards/pip" yOffset="1"&gt;&lt;/img&gt; Carimbe linhas na carta para ganhar mais EXP da Temporada.</string>
 	<string key="ui_hiw_sect1_pt3" rel_version="Feature_Seasons_Rewards">&lt;img src="LyShineUI/Images/SeasonsRewards/pip" yOffset="1"&gt;&lt;/img&gt; Conclua selos suficientes para finalizar uma carta e ganhar outra nova.</string>
 	<string key="ui_hiw_sect2_header" rel_version="Feature_Seasons_Rewards">Rolar Novamente</string>
-	<string key="ui_hiw_sect2_desc" rel_version="Feature_Seasons_Rewards">Você pode rolar novamente para obter uma nova lista de Atividades sem perder o progresso da carta.</string>
+	<string key="ui_hiw_sect2_desc" rel_version="Feature_Seasons_Rewards">Se as atividades da sua Carta de Selo atual não forem do seu agrado, você pode rolá-las novamente em troca de Azoth. Os Selos concluídos permanecerão, mas suas atividades oferecidas, incluindo aquelas que você concluiu, serão substituídas por novas atividades para ajudar a completar sua nova carta.</string>
 	<string key="ui_hiw_sect2_pt1" rel_version="Feature_Seasons_Rewards">&lt;img src="LyShineUI/Images/SeasonsRewards/pip" yOffset="1"&gt;&lt;/img&gt; Cada nova carta vem com 1 rolagem gratuita.</string>
 	<string key="ui_hiw_sect2_pt2" rel_version="Feature_Seasons_Rewards">&lt;img src="LyShineUI/Images/SeasonsRewards/pip" yOffset="1"&gt;&lt;/img&gt; O custo de rolar novamente aumenta a cada uso.</string>
 	<string key="ui_hiw_sect2_pt3" rel_version="Feature_Seasons_Rewards">&lt;img src="LyShineUI/Images/SeasonsRewards/pip" yOffset="1"&gt;&lt;/img&gt; Os custos de rolar novamente são zerados a cada nova carta.</string>
@@ -224,7 +224,7 @@
 	<string key="token_use_success" rel_version="Feature_Seasons_Consumable_Tokens">{boostName} ativado por {duration}.</string>
 	<string key="token_use_failure" rel_version="Feature_Seasons_Consumable_Tokens">Não foi possível ativar {boostName} desta vez.</string>
 	<string key="token_use_expired" rel_version="Feature_Seasons_Consumable_Tokens">O efeito de {boostName} não está mais ativo.</string>
-	<string key="token_tooltip_list_item" rel_version="Feature_Seasons_Consumable_Tokens">{effectName}\nTempo Restante: {timeRemaining}</string>
+	<string key="token_tooltip_list_item" rel_version="Feature_Seasons_Consumable_Tokens">&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;&lt;font color={color}&gt;{effectName}&lt;/font&gt;&lt;/font&gt;\nTempo Restante: {timeRemaining}</string>
 	<string key="token_disabled" rel_version="Feature_Seasons_Consumable_Tokens">Desativado</string>
 	<string key="SeasonsActivities_Close1MajorBreach" rel_version="Feature_Seasons_Rewards">Feche Incursões Grandes</string>
 	<string key="SeasonsActivities_Close1MinorBreaches" rel_version="Feature_Seasons_Rewards">Feche Incursões Pequenas</string>
@@ -237,14 +237,14 @@
 	<string key="SeasonsActivities_Kill10EnemiesTwoHanded" rel_version="Feature_Seasons_Rewards">Mate Inimigos em Combate Corpo a Corpo com duas mãos</string>
 	<string key="SeasonsActivities_Kill10EnemiesRanged" rel_version="Feature_Seasons_Rewards">Mate Inimigos com Arcos ou Armas de Fogo</string>
 	<string key="SeasonsActivities_Kill10EnemiesMagic" rel_version="Feature_Seasons_Rewards">Mate Inimigos com Magia</string>
-	<string key="SeasonsActivities_Kill1Player" rel_version="Feature_Seasons_Rewards">Mate Jogadores</string>
+	<string key="SeasonsActivities_Kill1Player" rel_version="Feature_Seasons_Rewards">Abata jogadores para ganhar Sal de Azoth</string>
 	<string key="SeasonsActivities_Capture1FactionControlPoint" rel_version="Feature_Seasons_Rewards">Capture Pontos de Controle da Facção</string>
 	<string key="SeasonsActivities_ParticipateIn3Duels" rel_version="Feature_Seasons_Rewards">Participe de Duelos</string>
 	<string key="SeasonsActivities_Gather5T5Nodes" rel_version="Feature_Seasons_Rewards">Colete Filões de Recurso E5</string>
 	<string key="SeasonsActivities_Skin10T5Animals" rel_version="Feature_Seasons_Rewards">Esfole Animais E5</string>
 	<string key="SeasonsActivities_Catch150lbsFish" rel_version="Feature_Seasons_Rewards">Pesque 150 libras de Peixes</string>
 	<string key="SeasonsActivities_CraftOrCook50Items" rel_version="Feature_Seasons_Rewards">Confeccione ou Cozinhe Itens</string>
-	<string key="SeasonsActivities_Complete2TownProjects" rel_version="Feature_Seasons_Rewards">Conclua Projetos de Vila</string>
+	<string key="SeasonsActivities_Complete2TownProjects" rel_version="Feature_Seasons_Rewards">Conclua missões de Projeto de Vila</string>
 	<string key="SeasonsActivities_Salvage5T5Items" rel_version="Feature_Seasons_Rewards">Sucateie Itens E5</string>
 	<string key="SeasonsActivities_Complete2FactionMissions" rel_version="Feature_Seasons_Rewards">Conclua Missões de Facção</string>
 	<string key="SeasonsActivities_Refine50T5Resources" rel_version="Feature_Seasons_Rewards">Refine Recursos E5</string>
@@ -265,7 +265,7 @@
 	<string key="SeasonsActivities_Complete1MutatedExpedition" rel_version="Feature_Seasons_Rewards">Conclua uma Expedição Transmutada</string>
 	<string key="SeasonsActivities_KillXNamedEnemyInXPOI" rel_version="Feature_Seasons_Rewards">Mate Inimigos Nomeados em Pontos de Interesse</string>
 	<string key="SeasonsActivities_Earn1000PvpXp" rel_version="Feature_Seasons_Rewards">Ganhe EXP PvP ao matar jogadores</string>
-	<string key="SeasonsActivities_DefeatZygormat" rel_version="Feature_Seasons_Rewards">Derrote Zygormat no Bosque de Zygormat</string>
+	<string key="SeasonsActivities_DefeatZygormat" rel_version="Feature_Seasons_Rewards">Derrote Zygoramet em Arvoredo de Zygoramet</string>
 	<string key="SeasonsActivities_DefeatSirenQueen" rel_version="Feature_Seasons_Rewards">Derrote a Rainha Sereia na Torre de Melpomene</string>
 	<string key="SeasonsActivities_DefeateAvarice" rel_version="Feature_Seasons_Rewards">Derrote a Avareza na Lagoa Eterna</string>
 	<string key="SeasonsActivities_Craft1GypsumOrb" rel_version="Feature_Seasons_Rewards">Confeccione Orbes de Gipsita</string>
@@ -311,5 +311,6 @@
 	<string key="SeasonsRewardTrack_ClaimError_NotEnoughInventorySpace" rel_version="Feature_Seasons_Rewards">Não é possível reivindicar esta recompensa. Espaço insuficiente no inventário.</string>
 	<string key="SeasonsRewardTrack_ClaimError_Generic" rel_version="Feature_Seasons_Rewards">Não é possível reivindicar esta recompensa. Tente novamente mais tarde.</string>
 	<string key="SeasonsRewardTrack_TransactionError" rel_version="Feature_Seasons_Rewards">Não foi possível processar esta transação. Tente novamente mais tarde.</string>
+	<string key="SeasonsRewardTrack_PartialClaimWarning" rel_version="Feature_Seasons_Rewards">Um ou mais itens desta recompensa já foram reivindicados nesta conta</string>
 </resources>
 

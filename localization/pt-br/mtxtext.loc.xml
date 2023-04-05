@@ -50,6 +50,7 @@
 	<string key="ui_apply_skins" rel_version="Feature_MTX">Aplicar Aparências</string>
 	<string key="reward_type_itemdye" rel_version="Feature_MTX">Tintura</string>
 	<string key="reward_type_statuseffect" rel_version="Feature_Seasons_Consumable_Tokens">Amplificador</string>
+	<string key="exceeds_max_balance" rel_version="Feature_Seasons_Consumable_Tokens">A compra ultrapassa o limite de {cap}</string>
 	<string key="reward_type_armorskin" rel_version="Feature_MTX">Aparência para Vestimenta</string>
 	<string key="reward_type_toolskin" rel_version="Feature_MTX">Aparência de Ferramenta</string>
 	<string key="url_worldtransfer">https://www.newworld.com/forward-link?id=server-transfer-details</string>
@@ -167,7 +168,7 @@
 	<string key="ui_transaction_failed">A transação falhou.</string>
 	<string key="ui_transaction_timed_out">A transação expirou. Tentar novamente?</string>
 	<string key="ui_transaction_timeout_overlay">A transação expirou.\nCertifique-se de que o painel Steam esteja habilitado.</string>
-	<string key="ui_bonus_marks">{base} + Bônus de {bonus} = </string>
+	<string key="ui_bonus_marks">{base} + Bônus de {bonus} =</string>
 	<string key="ui_bonus_percent">Bônus de {bonusPct}%!</string>
 	<string key="ui_how_to_use">Como Utilizar</string>
 	<string key="ui_notification_unlock_desc">Itens foram adicionados à sua conta.</string>
@@ -985,7 +986,7 @@
 	<string key="Token_SeasonXP_Boost_name" rel_version="Entitlements_FirelightSeason">Amplificador de EXP da Temporada</string>
 	<string key="Token_SeasonXP_Boost_description" rel_version="Entitlements_FirelightSeason">Aumente a conversão de experiência regular de um personagem em experiência da Temporada em 100% por 2 horas.</string>
 	<string key="Token_GatheringXP_Boost_name" rel_version="Entitlements_FirelightSeason">Amplificador de EXP de Coleta</string>
-	<string key="Token_GatheringXP_Boost_description" rel_version="Entitlements_FirelightSeason">Aumente a experiência de Extração de Madeira, Colheita e Esfolamento obtida de um personagem em 100% por 2 horas.\n\nO uso é pausado durante os modos de jogo instanciados.</string>
+	<string key="Token_GatheringXP_Boost_description" rel_version="Entitlements_FirelightSeason">Aumente a experiência de Extração de Madeira, Colheita e Esfolamento obtida de um personagem em 100% por 2 horas. Não se aplica a níveis de Aptidão.\n\nO uso é pausado durante os modos de jogo instanciados.</string>
 	<string key="Apparel_OmensOfWinter_Owl_name" rel_version="Apparel_OmensWinter_1">Coruja de Cailleach</string>
 	<string key="Apparel_OmensOfWinter_Cat_name" rel_version="Apparel_OmensWinter_2">Lince-parda Imbolc</string>
 	<string key="Bundle_PR_OmensOfWinter_Apparel_name" rel_version="Bundle_OmensWinter_Apparel">Conjunto de Vestimenta Presságios do Inverno</string>

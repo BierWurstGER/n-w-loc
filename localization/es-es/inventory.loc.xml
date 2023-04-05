@@ -154,7 +154,7 @@
 	<string key="ui_dropall_in_trade">No puedes soltar objetos al comerciar.</string>
 	<string key="ui_transfer_all_filtered">No se pueden mover todos los objetos de la sección mientras estén filtrados.</string>
 	<string key="ui_storeall">Guardar todo en el cobertizo de almacenamiento</string>
-	<string key="ui_filterDescription">&lt;font color="#a6a6a6"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Filtrar por&lt;/font&gt;&lt;/font&gt;\n• Nombre del objeto\n• Puntuación mínima de equipo (por ejemplo, 100)\n- Clase mínima (p. ej., C1)\n\n&lt;font color="#a6a6a6"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Ejemplos&lt;/font&gt;&lt;/font&gt;\n• Espada 200\n• Hacha C1\n• Pico de hierro</string>
+	<string key="ui_filterDescription">&lt;font color={headerColor} face="lyshineui/fonts/Nimbus_Bold.font"&gt;CÓMO FILTRAR OBJETOS&lt;/font&gt;\n\n&lt;font color={subheaderColor} face="lyshineui/fonts/Nimbus_semibold.font"&gt;Filtrar por&lt;/font&gt;\n• Nombre del objeto\n• Puntuación mínima de equipo (por ejemplo, 100)\n- Clase mínima (p. ej., C1)\n\n&lt;font color={subheaderColor} face="lyshineui/fonts/Nimbus_semibold.font"&gt;Ejemplos&lt;/font&gt;\n• Espada 200\n• Hacha C1\n• Pico de hierro</string>
 	<string key="ui_filterText">Buscar</string>
 	<string key="ui_filterHeader">Filtrar objetos</string>
 	<string key="ui_sort">Ordenar</string>
@@ -227,8 +227,17 @@
 	<string key="loadout_notification_itemaddall_failure" rel_version="Feature_Gear_Set_Storage">No se ha podido añadir el objeto a todos los conjuntos de equipo.</string>
 	<string key="loadout_notification_switch_loadout_on_cooldown" rel_version="Feature_Gear_Set_Storage">Debes esperar {timeRemaining} para poder cambiar el conjunto de equipo.</string>
 	<string key="loadout_tutorial" rel_version="Feature_Gear_Set_Storage">¡Hay conjuntos de equipo disponibles!\nCrea y cambia conjuntos de equipo para cualquier actividad.</string>
-	<string key="loadout_notification_return_space_fail" rel_version="Feature_Gear_Set_Storage">No se han podido devolver al inventario los objetos del conjunto de equipo debido a que falta espacio.</string>
+	<string key="loadout_notification_return_space_fail" rel_version="Feature_Gear_Set_Storage">No se han podido devolver al inventario los objetos del conjunto de equipo debido a que falta espacio. Libera espacio y cierra sesión durante unos minutos para volver a intentarlo.</string>
 	<string key="incompatible_elemental_perk">Ventaja elemental incompatible</string>
 	<string key="incompatible_socket_item">No se puede añadir a un objeto de este tipo.</string>
+	<string key="ui_effect_failed_Invalid">No se puede aplicar el efecto.</string>
+	<string key="ui_effect_failed_Disabled">No se puede aplicar el efecto desactivado temporalmente.</string>
+	<string key="ui_effect_failed_OnCooldown">No se puede aplicar el efecto durante el tiempo de recarga.</string>
+	<string key="ui_effect_failed_GameModePaused">No se puede aplicar el efecto en el modo de juego actual.</string>
+	<string key="ui_effect_failed_Dead">No se puede aplicar el efecto mientras estés muerto.</string>
+	<string key="ui_effect_failed_VitalsIgnored">No se puede aplicar el efecto.</string>
+	<string key="ui_effect_failed_MultipleFromSource">No se pueden aplicar los efectos redundantes.</string>
+	<string key="ui_effect_failed_AntirequisiteActive">No se puede aplicar con los efectos de competición activos.</string>
+	<string key="ui_effect_failed_Success">Efecto disponible</string>
 </resources>
 

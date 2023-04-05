@@ -50,6 +50,7 @@
 	<string key="ui_apply_skins" rel_version="Feature_MTX">Appliquer apparences</string>
 	<string key="reward_type_itemdye" rel_version="Feature_MTX">Teinture</string>
 	<string key="reward_type_statuseffect" rel_version="Feature_Seasons_Consumable_Tokens">Amplificateur</string>
+	<string key="exceeds_max_balance" rel_version="Feature_Seasons_Consumable_Tokens">L'achat excède la limite de {cap}</string>
 	<string key="reward_type_armorskin" rel_version="Feature_MTX">Apparence de vêtement</string>
 	<string key="reward_type_toolskin" rel_version="Feature_MTX">Apparence d'outil</string>
 	<string key="url_worldtransfer">https://www.newworld.com/fr-fr/news/articles/server-transfer-details</string>
@@ -167,7 +168,7 @@
 	<string key="ui_transaction_failed">Échec de la transaction.</string>
 	<string key="ui_transaction_timed_out">La transaction a expiré. Réessayer ?</string>
 	<string key="ui_transaction_timeout_overlay">La transaction a expiré.\nAssurez-vous que l'overlay Steam est activé.</string>
-	<string key="ui_bonus_marks">{base} + {bonus} de bonus = </string>
+	<string key="ui_bonus_marks">{base} + {bonus} de bonus =</string>
 	<string key="ui_bonus_percent">Bonus de {bonusPct} % !</string>
 	<string key="ui_how_to_use">Guide d'utilisation</string>
 	<string key="ui_notification_unlock_desc">Les objets ont été ajoutés à votre compte.</string>
@@ -985,7 +986,7 @@
 	<string key="Token_SeasonXP_Boost_name" rel_version="Entitlements_FirelightSeason">Amplificateur d'EXP de saison</string>
 	<string key="Token_SeasonXP_Boost_description" rel_version="Entitlements_FirelightSeason">Augmente de 100 % la conversion de l'expérience ordinaire en expérience de saison pour un personnage pendant 2 heures.</string>
 	<string key="Token_GatheringXP_Boost_name" rel_version="Entitlements_FirelightSeason">Amplificateur d'EXP d'exploitation</string>
-	<string key="Token_GatheringXP_Boost_description" rel_version="Entitlements_FirelightSeason">Augmente de 100 % l'expérience obtenue par un personnage lors de l'abattage, le minage, la récolte et le dépeçage pendant 2 heures.\n\nSon utilisation est mise en pause pendant les modes de jeu instanciés.</string>
+	<string key="Token_GatheringXP_Boost_description" rel_version="Entitlements_FirelightSeason">Augmente de 100 % l'expérience obtenue par un personnage lors de l'abattage, du minage, de la récolte et du dépeçage pendant 2 heures. Ne s'applique pas sur les niveaux d'aptitude.\n\nSon utilisation est mise en pause pendant les modes de jeu instanciés.</string>
 	<string key="Apparel_OmensOfWinter_Owl_name" rel_version="Apparel_OmensWinter_1">Hibou de Cailleach</string>
 	<string key="Apparel_OmensOfWinter_Cat_name" rel_version="Apparel_OmensWinter_2">Lynx d'Imbolc</string>
 	<string key="Bundle_PR_OmensOfWinter_Apparel_name" rel_version="Bundle_OmensWinter_Apparel">Pack de vêtements de l'augure hivernal</string>

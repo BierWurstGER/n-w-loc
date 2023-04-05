@@ -154,7 +154,7 @@
 	<string key="ui_dropall_in_trade">Non puoi lasciare oggetti durante lo scambio</string>
 	<string key="ui_transfer_all_filtered">Impossibile spostare tutti gli oggetti in questa sezione mentre è attivo un filtro.</string>
 	<string key="ui_storeall">Sposta tutto nel deposito</string>
-	<string key="ui_filterDescription">&lt;font color="#a6a6a6"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Filtra per&lt;/font&gt;&lt;/font&gt;\n• Nome oggetto\n• Punteggio attrezzatura minimo (es: 100)\n• Livello minimo (es: L1)\n\n&lt;font color="#a6a6a6"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Esempi&lt;/font&gt;&lt;/font&gt;\n• Spada 200\n• Ascia L1\n• Piccone -ferro</string>
+	<string key="ui_filterDescription">&lt;font color={headerColor} face="lyshineui/fonts/Nimbus_Bold.font"&gt;COME USARE IL FILTRO OGGETTI&lt;/font&gt;\n\n&lt;font color={subheaderColor} face="lyshineui/fonts/Nimbus_semibold.font"&gt;Filtra per&lt;/font&gt;\n- Nome\n- Punteggio attrezzatura minimo (es: 100)\n- Livello minimo (es: L1)\n\n&lt;font color={subheaderColor} face="lyshineui/fonts/Nimbus_semibold.font"&gt;Esempi&lt;/font&gt;\n• Spada 200\n• Ascia L1\n• Piccone -ferro</string>
 	<string key="ui_filterText">Cerca</string>
 	<string key="ui_filterHeader">Filtro oggetto</string>
 	<string key="ui_sort">Ordina</string>
@@ -227,8 +227,17 @@
 	<string key="loadout_notification_itemaddall_failure" rel_version="Feature_Gear_Set_Storage">Impossibile aggiungere l'oggetto a tutti i set attrezzatura</string>
 	<string key="loadout_notification_switch_loadout_on_cooldown" rel_version="Feature_Gear_Set_Storage">Devi aspettare {timeRemaining} per poter cambiare set attrezzatura</string>
 	<string key="loadout_tutorial" rel_version="Feature_Gear_Set_Storage">Set attrezzatura disponibili!\nCrea e cambia rapidamente set attrezzatura per qualsiasi attività.</string>
-	<string key="loadout_notification_return_space_fail" rel_version="Feature_Gear_Set_Storage">Impossibile rimettere nell'inventario gli oggetti del set attrezzatura in quanto lo spazio non è sufficiente.</string>
+	<string key="loadout_notification_return_space_fail" rel_version="Feature_Gear_Set_Storage">Impossibile rimettere nell'inventario gli oggetti del set attrezzatura in quanto lo spazio non è sufficiente. Per riprovare, libera spazio e disconnettiti per alcuni minuti.</string>
 	<string key="incompatible_elemental_perk">Vantaggio elementale incompatibile</string>
 	<string key="incompatible_socket_item">Non inseribile in un oggetto di questo tipo</string>
+	<string key="ui_effect_failed_Invalid">Impossibile applicare l'effetto</string>
+	<string key="ui_effect_failed_Disabled">Impossibile applicare l'effetto temporaneamente disattivato</string>
+	<string key="ui_effect_failed_OnCooldown">Impossibile applicare l'effetto durante il tempo di ricarica</string>
+	<string key="ui_effect_failed_GameModePaused">Impossibile applicare l'effetto nella modalità di gioco attuale</string>
+	<string key="ui_effect_failed_Dead">Impossibile applicare l'effetto quando si è morti</string>
+	<string key="ui_effect_failed_VitalsIgnored">Impossibile applicare l'effetto</string>
+	<string key="ui_effect_failed_MultipleFromSource">Impossibile applicare effetti ridondanti</string>
+	<string key="ui_effect_failed_AntirequisiteActive">Impossibile applicare con effetti in conflitto attivi</string>
+	<string key="ui_effect_failed_Success">Effetto disponibile</string>
 </resources>
 

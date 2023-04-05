@@ -1160,7 +1160,7 @@
 	<string key="PerkID_Ability_Spear_Sweep_Name">Spazzata sanguinante</string>
 	<string key="PerkID_Ability_Spear_Sweep_Description">Ora il colpo di grazia della Spazzata applica Sanguinamento per un {[Type_StatusEffectData.Status_Perk_Spear_SweepFinish_Bleed.HealthModifierDamageBased * -100 * {perkMultiplier}]}% dei danni da arma per {[Type_StatusEffectData.Status_Perk_Spear_SweepFinish_Bleed.BaseDuration]} s.</string>
 	<string key="PerkID_Ability_Spear_Javelin_Name">Giavellotto separante</string>
-	<string key="PerkID_Ability_Spear_Javelin_Description">Giavellotto infligge Lacerato, riducendo l'armatura del bersaglio di un {[Type_StatusEffectData.Status_Perk_Spear_Javelin_Rend.PhysicalArmor * -100 * {perkMultiplier}]}% per {[Type_StatusEffectData.Status_Perk_Spear_Javelin_Rend.BaseDuration]} s.</string>
+	<string key="PerkID_Ability_Spear_Javelin_Description">Giavellotto infligge Lacerato ai bersagli con salute superiore a un {[GlobalAbilityTable.GlobalPerk_Ability_Spear_Javelin.TargetHealthPercent]}%, riducendo l'armatura del bersaglio di un {[Type_StatusEffectData.Status_Perk_Spear_Javelin_Rend.PhysicalArmor * -100 * {perkMultiplier}]}% per {[Type_StatusEffectData.Status_Perk_Spear_Javelin_Rend.BaseDuration]} s.</string>
 	<string key="PerkID_Ability_Spear_Cyclone_Name">Ciclone assorbi-vita</string>
 	<string key="PerkID_Ability_Spear_Cyclone_Description">I colpi di Ciclone ti curano di un {[GlobalAbilityTable.GlobalPerk_Ability_Spear_Cyclone.DmgPctToHealth * 100 * {perkMultiplier}]}% dei danni da arma.</string>
 	<string key="PerkID_Ability_Spear_Perforate_Name">Perforazione fortificante</string>

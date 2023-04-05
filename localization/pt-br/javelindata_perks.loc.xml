@@ -1160,7 +1160,7 @@
 	<string key="PerkID_Ability_Spear_Sweep_Name">Rasteira Sangrenta</string>
 	<string key="PerkID_Ability_Spear_Sweep_Description">O golpe de misericórdia da Rasteira agora aplica Hemorragia equivalente a {[Type_StatusEffectData.Status_Perk_Spear_SweepFinish_Bleed.HealthModifierDamageBased * -100 * {perkMultiplier}]}% do dano de arma por {[Type_StatusEffectData.Status_Perk_Spear_SweepFinish_Bleed.BaseDuration]} s.</string>
 	<string key="PerkID_Ability_Spear_Javelin_Name">Dardo Separador</string>
-	<string key="PerkID_Ability_Spear_Javelin_Description">O Dardo causa Vulnerável, reduzindo a armadura do alvo em {[Type_StatusEffectData.Status_Perk_Spear_Javelin_Rend.PhysicalArmor * -100 * {perkMultiplier}]}% durante {[Type_StatusEffectData.Status_Perk_Spear_Javelin_Rend.BaseDuration]} s.</string>
+	<string key="PerkID_Ability_Spear_Javelin_Description">O Dardo causa Vulnerável a alvos com menos de {[GlobalAbilityTable.GlobalPerk_Ability_Spear_Javelin.TargetHealthPercent]}% de Saúde, reduzindo a armadura do alvo em {[Type_StatusEffectData.Status_Perk_Spear_Javelin_Rend.PhysicalArmor * -100 * {perkMultiplier}]}% durante {[Type_StatusEffectData.Status_Perk_Spear_Javelin_Rend.BaseDuration]} s.</string>
 	<string key="PerkID_Ability_Spear_Cyclone_Name">Ciclone Extrator</string>
 	<string key="PerkID_Ability_Spear_Cyclone_Description">Acertos do Ciclone curam você em {[GlobalAbilityTable.GlobalPerk_Ability_Spear_Cyclone.DmgPctToHealth * 100 * {perkMultiplier}]}% do dano de arma.</string>
 	<string key="PerkID_Ability_Spear_Perforate_Name">Perfuração Reforçada</string>

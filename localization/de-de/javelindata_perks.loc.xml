@@ -1160,7 +1160,7 @@
 	<string key="PerkID_Ability_Spear_Sweep_Name">Blutender Beinfeger</string>
 	<string key="PerkID_Ability_Spear_Sweep_Description">Der Gnadenstoß von "Beinfeger" verursacht für {[Type_StatusEffectData.Status_Perk_Spear_SweepFinish_Bleed.BaseDuration]} Sek. Blutung in Höhe von {[Type_StatusEffectData.Status_Perk_Spear_SweepFinish_Bleed.HealthModifierDamageBased * -100 * {perkMultiplier}]} % des Waffenschadens.</string>
 	<string key="PerkID_Ability_Spear_Javelin_Name">Zertrennender Wurfspeer</string>
-	<string key="PerkID_Ability_Spear_Javelin_Description">"Wurfspeer" verursacht "Aufgerissen"-Status und verringert die Rüstung des Ziels für {[Type_StatusEffectData.Status_Perk_Spear_Javelin_Rend.BaseDuration]} Sek. um {[Type_StatusEffectData.Status_Perk_Spear_Javelin_Rend.PhysicalArmor * -100 * {perkMultiplier}]} %.</string>
+	<string key="PerkID_Ability_Spear_Javelin_Description">"Wurfspeer" verursacht "Aufgerissen"-Status an Zielen über {[GlobalAbilityTable.GlobalPerk_Ability_Spear_Javelin.TargetHealthPercent]} % Gesundheit und verringert die Rüstung des Ziels für {[Type_StatusEffectData.Status_Perk_Spear_Javelin_Rend.BaseDuration]} Sek. um {[Type_StatusEffectData.Status_Perk_Spear_Javelin_Rend.PhysicalArmor * -100 * {perkMultiplier}]} %.</string>
 	<string key="PerkID_Ability_Spear_Cyclone_Name">Aussaugender Zyklon</string>
 	<string key="PerkID_Ability_Spear_Cyclone_Description">"Zyklon" heilt dich für {[GlobalAbilityTable.GlobalPerk_Ability_Spear_Cyclone.DmgPctToHealth * 100 * {perkMultiplier}]} % des Waffenschadens.</string>
 	<string key="PerkID_Ability_Spear_Perforate_Name">Verstärkendes Durchlöchern</string>

@@ -154,7 +154,7 @@
 	<string key="ui_dropall_in_trade">Beim Handeln können keine Gegenstände abgelegt werden.</string>
 	<string key="ui_transfer_all_filtered">Es können nicht alle Gegenstände in diesen Abschnitt verschoben werden, solange Gegenstände gefiltert werden.</string>
 	<string key="ui_storeall">Alles in den Lagerschuppen räumen</string>
-	<string key="ui_filterDescription">&lt;font color="#a6a6a6"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Filtern nach&lt;/font&gt;&lt;/font&gt;\n• Gegenstandsname\n• Minimal-Rüstwert (Bsp.: 100)\n• Minimaler Rang (Bsp.: R1)\n\n&lt;font color="#a6a6a6"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Beispiele&lt;/font&gt;&lt;/font&gt;\n• Schwert 200\n• Axt R1\n• Hacke (Eisen)</string>
+	<string key="ui_filterDescription">&lt;font color={headerColor} face="lyshineui/fonts/Nimbus_Bold.font"&gt;VERWENDUNG DES GEGENSTANDSFILTERS&lt;/font&gt;\n\n&lt;font color={subheaderColor} face="lyshineui/fonts/Nimbus_semibold.font"&gt;Filtern nach&lt;/font&gt;\n• Gegenstandsname\n• Mindestrüstwert (Bsp.: 100)\n• Minimaler Rang (Bsp.: R1)\n\n&lt;font color={subheaderColor} face="lyshineui/fonts/Nimbus_semibold.font"&gt;Beispiele&lt;/font&gt;\n• Schwert 200\n• Axt R1\n• Hacke (Eisen)</string>
 	<string key="ui_filterText">Suchen</string>
 	<string key="ui_filterHeader">Gegenstand filtern</string>
 	<string key="ui_sort">Sortieren</string>
@@ -227,8 +227,17 @@
 	<string key="loadout_notification_itemaddall_failure" rel_version="Feature_Gear_Set_Storage">Gegenstand konnte nicht zu allen Ausrüstungssets hinzugefügt werden.</string>
 	<string key="loadout_notification_switch_loadout_on_cooldown" rel_version="Feature_Gear_Set_Storage">Du musst noch {timeRemaining} warten, bis du Ausrüstungssets wechseln kannst.</string>
 	<string key="loadout_tutorial" rel_version="Feature_Gear_Set_Storage">Ausrüstungssets verfügbar!\nErstelle und wechsle Ausrüstungssets schnell für jegliche Aktivität.</string>
-	<string key="loadout_notification_return_space_fail" rel_version="Feature_Gear_Set_Storage">Ausrüstungsset-Gegenstände konnten aufgrund von Platzmangel nicht ins Inventar zurückgeführt werden.</string>
+	<string key="loadout_notification_return_space_fail" rel_version="Feature_Gear_Set_Storage">Ausrüstungsset-Gegenstände konnten aufgrund von Platzmangel nicht ins Inventar zurückgeführt werden. Bitte gib den Platz frei und logge dich für einige Minuten aus, um es erneut zu versuchen.</string>
 	<string key="incompatible_elemental_perk">Inkompatibler Elementareffekt</string>
 	<string key="incompatible_socket_item">Kann nicht in einen Gegenstand dieses Typs eingesetzt werden.</string>
+	<string key="ui_effect_failed_Invalid">Effekt kann nicht angewendet werden</string>
+	<string key="ui_effect_failed_Disabled">Vorübergehend deaktivierter Effekt kann nicht angewendet werden</string>
+	<string key="ui_effect_failed_OnCooldown">Effekt mit Abklingzeit kann nicht angewendet werden</string>
+	<string key="ui_effect_failed_GameModePaused">Effekt kann im aktuellen Spielmodus nicht angewendet werden</string>
+	<string key="ui_effect_failed_Dead">Effekt kann bei Toten nicht angewendet werden</string>
+	<string key="ui_effect_failed_VitalsIgnored">Effekt kann nicht angewendet werden</string>
+	<string key="ui_effect_failed_MultipleFromSource">Überflüssige Effekte können nicht angewendet werden</string>
+	<string key="ui_effect_failed_AntirequisiteActive">Kann nicht angewendet werden, wenn konkurrierende Effekte aktiv sind</string>
+	<string key="ui_effect_failed_Success">Verfügbarer Effekt</string>
 </resources>
 

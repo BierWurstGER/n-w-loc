@@ -50,6 +50,7 @@
 	<string key="ui_apply_skins" rel_version="Feature_MTX">Aplicar diseños</string>
 	<string key="reward_type_itemdye" rel_version="Feature_MTX">Tintura</string>
 	<string key="reward_type_statuseffect" rel_version="Feature_Seasons_Consumable_Tokens">Potenciador</string>
+	<string key="exceeds_max_balance" rel_version="Feature_Seasons_Consumable_Tokens">La compra supera el límite de {cap}</string>
 	<string key="reward_type_armorskin" rel_version="Feature_MTX">Diseño de indumentaria</string>
 	<string key="reward_type_toolskin" rel_version="Feature_MTX">Diseño de herramienta</string>
 	<string key="url_worldtransfer">https://www.newworld.com/forward-link?id=server-transfer-details</string>
@@ -167,7 +168,7 @@
 	<string key="ui_transaction_failed">Error de transacción.</string>
 	<string key="ui_transaction_timed_out">Se ha agotado el tiempo de la transacción Reintentar</string>
 	<string key="ui_transaction_timeout_overlay">Se ha agotado el tiempo de la transacción.\nAsegúrate de que el menú superpuesto de Steam esté habilitado.</string>
-	<string key="ui_bonus_marks">¡{base} + {bonus} de bonificación = </string>
+	<string key="ui_bonus_marks">¡{base} + {bonus} de bonificación =</string>
 	<string key="ui_bonus_percent">{bonusPct} % de bonificación!</string>
 	<string key="ui_how_to_use">Uso</string>
 	<string key="ui_notification_unlock_desc">Se han añadido objetos a tu cuenta.</string>
@@ -985,7 +986,7 @@
 	<string key="Token_SeasonXP_Boost_name" rel_version="Entitlements_FirelightSeason">Potenciador de EXP de la temporada</string>
 	<string key="Token_SeasonXP_Boost_description" rel_version="Entitlements_FirelightSeason">Aumenta en un 100 % la conversión de experiencia normal en experiencia de la temporada durante 2 horas.</string>
 	<string key="Token_GatheringXP_Boost_name" rel_version="Entitlements_FirelightSeason">Potenciador de EXP de recolección</string>
-	<string key="Token_GatheringXP_Boost_description" rel_version="Entitlements_FirelightSeason">Aumenta en un 100 % la experiencia de tala, minería, recolección y desollamiento de un personaje durante 2 horas.\n\nNo se puede usar durante los modos de juego por instancias.</string>
+	<string key="Token_GatheringXP_Boost_description" rel_version="Entitlements_FirelightSeason">Aumenta en un 100 % la experiencia de tala, minería, recolección y desollamiento de un personaje durante 2 horas. No se aplica a los niveles de aptitud.\n\nNo se puede usar durante los modos de juego por instancias.</string>
 	<string key="Apparel_OmensOfWinter_Owl_name" rel_version="Apparel_OmensWinter_1">Búho de Cailleach</string>
 	<string key="Apparel_OmensOfWinter_Cat_name" rel_version="Apparel_OmensWinter_2">Lince de Imbolc</string>
 	<string key="Bundle_PR_OmensOfWinter_Apparel_name" rel_version="Bundle_OmensWinter_Apparel">Conjunto de indumentaria Presagio invernal</string>

@@ -154,7 +154,7 @@
 	<string key="ui_dropall_in_trade">Nie możesz upuścić przedmiotów podczas handlowania</string>
 	<string key="ui_transfer_all_filtered">Nie można przenieść wszystkich przedmiotów tej kategorii, gdy zastosowano filtr przedmiotów.</string>
 	<string key="ui_storeall">Przenieś wszystko do składziku</string>
-	<string key="ui_filterDescription">&lt;font color="#a6a6a6"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Filtruj po:&lt;/font&gt;&lt;/font&gt;\n• Nazwie przedmiotu\n• Min. liczbie pkt wyposażenia (np. 100)\n Min. klasie przedmiotu (np. K1\n\n&lt;font color="#a6a6a6"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Przykłady:&lt;/font&gt;&lt;/font&gt;\n• Miecz 200\n• Topór K1\n• Oskard – żelazo</string>
+	<string key="ui_filterDescription">&lt;font color={headerColor} face="lyshineui/fonts/Nimbus_Bold.font"&gt;JAK UŻYWAĆ FILTRÓW PRZEDMIOTÓW&lt;/font&gt;\n\n&lt;font color={subheaderColor} face="lyshineui/fonts/Nimbus_semibold.font"&gt;Filtruj po:&lt;/font&gt;\n• Nazwie przedmiotu\n• Min. liczbie pkt wyposażenia (np. 100)\n• Min. klasie przedmiotu (np. K1\n\n&lt;font color={subheaderColor} face="lyshineui/fonts/Nimbus_semibold.font"&gt;Przykłady:&lt;/font&gt;\n• Miecz 200\n• Topór K1\n• Oskard – żelazo</string>
 	<string key="ui_filterText">Szukaj</string>
 	<string key="ui_filterHeader">Filtruj przedmiot</string>
 	<string key="ui_sort">Sortuj</string>
@@ -227,8 +227,17 @@
 	<string key="loadout_notification_itemaddall_failure" rel_version="Feature_Gear_Set_Storage">Nie udało się dodać przedmiotu do wszystkich zestawów</string>
 	<string key="loadout_notification_switch_loadout_on_cooldown" rel_version="Feature_Gear_Set_Storage">Musisz odczekać {timeRemaining} przed zmianą zestawu wyposażenia</string>
 	<string key="loadout_tutorial" rel_version="Feature_Gear_Set_Storage">Zestawy wyposażenia są już dostępne!\nTwórz szybko zestawy wyposażenia i zmieniaj je wedle własnego uznania.</string>
-	<string key="loadout_notification_return_space_fail" rel_version="Feature_Gear_Set_Storage">Nie można było zwrócić przedmiotów z zestawu wyposażenia do ekwipunku ze względu na brak odpowiedniego miejsca.</string>
+	<string key="loadout_notification_return_space_fail" rel_version="Feature_Gear_Set_Storage">Nie udało się zwrócić przedmiotów z zestawu wyposażenia do ekwipunku ze względu na brak miejsca. Zrób miejsce w ekwipunku, wyloguj się na kilka minut i spróbuj ponownie.</string>
 	<string key="incompatible_elemental_perk">Niekompatybilny profit żywiołów</string>
 	<string key="incompatible_socket_item">Nie można osadzić w przedmiocie tego rodzaju</string>
+	<string key="ui_effect_failed_Invalid">Nie można nałożyć efektu</string>
+	<string key="ui_effect_failed_Disabled">Nie można nałożyć tymczasowo nieaktywnego efektu</string>
+	<string key="ui_effect_failed_OnCooldown">Nie można nałożyć efektu w trakcie czasu odnowienia</string>
+	<string key="ui_effect_failed_GameModePaused">Nie można nałożyć efektu w obecnym trybie gry</string>
+	<string key="ui_effect_failed_Dead">Nie można nałożyć efektu, gdy postać nie żyje</string>
+	<string key="ui_effect_failed_VitalsIgnored">Nie można nałożyć efektu</string>
+	<string key="ui_effect_failed_MultipleFromSource">Nie można nałożyć zbędnych efektów</string>
+	<string key="ui_effect_failed_AntirequisiteActive">Nie można nałożyć – konkurencyjne efekty są aktywne</string>
+	<string key="ui_effect_failed_Success">Dostępny efekt</string>
 </resources>
 

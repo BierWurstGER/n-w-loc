@@ -154,7 +154,7 @@
 	<string key="ui_dropall_in_trade">Impossible de lâcher des objets lors des échanges</string>
 	<string key="ui_transfer_all_filtered">Impossible de déplacer tous les objets de cette section tant qu'un filtre est appliqué.</string>
 	<string key="ui_storeall">Tout déplacer dans un abri de rangement</string>
-	<string key="ui_filterDescription">&lt;font color="#a6a6a6"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Filtrer par&lt;/font&gt;&lt;/font&gt;\n• Nom d'objet\n• Score d'équipement minimum (par ex : 100)\n• Palier minimum (par ex : I)\n\n&lt;font color="#a6a6a6"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Exemples&lt;/font&gt;&lt;/font&gt;\n• Épée 200\n• Hache I\n• Piolet -fer</string>
+	<string key="ui_filterDescription">&lt;font color={headerColor} face="lyshineui/fonts/Nimbus_Bold.font"&gt;UTILISATION DU FILTRE&lt;/font&gt;\n\n&lt;font color={subheaderColor} face="lyshineui/fonts/Nimbus_semibold.font"&gt;Filtrer par&lt;/font&gt;\n• Nom d'objet\n• Score d'équipement minimum (par ex. : 100)\n• Palier minimum (par ex. : I)\n\n&lt;font color={subheaderColor} face="lyshineui/fonts/Nimbus_semibold.font"&gt;Exemples&lt;/font&gt;\n• Épée 200\n• Hache I\n• Piolet -fer</string>
 	<string key="ui_filterText">Chercher</string>
 	<string key="ui_filterHeader">Filtrer objet</string>
 	<string key="ui_sort">Trier</string>
@@ -227,8 +227,17 @@
 	<string key="loadout_notification_itemaddall_failure" rel_version="Feature_Gear_Set_Storage">Impossible d'ajouter l'objet à tous les ensembles d'équipement</string>
 	<string key="loadout_notification_switch_loadout_on_cooldown" rel_version="Feature_Gear_Set_Storage">Vous devez attendre {timeRemaining} avant de pouvoir changer d'ensemble d'équipement.</string>
 	<string key="loadout_tutorial" rel_version="Feature_Gear_Set_Storage">Ensembles d'équipement disponibles !\nCréez et changez d'ensemble d'équipement selon votre activité.</string>
-	<string key="loadout_notification_return_space_fail" rel_version="Feature_Gear_Set_Storage">Impossible de replacer les objets de l'ensemble d'équipement dans l'inventaire à cause du manque de place.</string>
+	<string key="loadout_notification_return_space_fail" rel_version="Feature_Gear_Set_Storage">Impossible de replacer les objets de l'ensemble d'équipement dans l'inventaire à cause du manque de place. Veuillez faire de la place et déconnectez-vous plusieurs minutes avant de réessayer.</string>
 	<string key="incompatible_elemental_perk">Incompatible avec l'atout élémentaire</string>
 	<string key="incompatible_socket_item">Ceci ne peut pas être serti dans un objet de ce type.</string>
+	<string key="ui_effect_failed_Invalid">Impossible d'appliquer l'effet</string>
+	<string key="ui_effect_failed_Disabled">Impossible d'appliquer l'effet temporairement désactivé</string>
+	<string key="ui_effect_failed_OnCooldown">Impossible d'appliquer l'effet pendant le temps de recharge</string>
+	<string key="ui_effect_failed_GameModePaused">Impossible d'appliquer l'effet dans le mode de jeu actuel</string>
+	<string key="ui_effect_failed_Dead">Impossible d'appliquer l'effet quand vous avez péri</string>
+	<string key="ui_effect_failed_VitalsIgnored">Impossible d'appliquer l'effet</string>
+	<string key="ui_effect_failed_MultipleFromSource">Impossible d'appliquer des effets redondants</string>
+	<string key="ui_effect_failed_AntirequisiteActive">Impossible d'appliquer avec d'autres effets contradictoires actifs</string>
+	<string key="ui_effect_failed_Success">Effet disponible</string>
 </resources>
 

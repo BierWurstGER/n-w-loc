@@ -1160,7 +1160,7 @@
 	<string key="PerkID_Ability_Spear_Sweep_Name">Barrido de sangrado</string>
 	<string key="PerkID_Ability_Spear_Sweep_Description">El Tiro de gracia del Barrido ahora aplica el sangrado para un {[Type_StatusEffectData.Status_Perk_Spear_SweepFinish_Bleed.HealthModifierDamageBased * -100 * {perkMultiplier}]} % del daño de arma durante {[Type_StatusEffectData.Status_Perk_Spear_SweepFinish_Bleed.BaseDuration]} s.</string>
 	<string key="PerkID_Ability_Spear_Javelin_Name">Jabalina cercenante</string>
-	<string key="PerkID_Ability_Spear_Javelin_Description">Jabalina inflige desgarro, lo que reduce la armadura del objetivo en un {[Type_StatusEffectData.Status_Perk_Spear_Javelin_Rend.PhysicalArmor * -100 * {perkMultiplier}]} % durante {[Type_StatusEffectData.Status_Perk_Spear_Javelin_Rend.BaseDuration]} s.</string>
+	<string key="PerkID_Ability_Spear_Javelin_Description">Jabalina inflige desgarro a los objetivos con más de un {[GlobalAbilityTable.GlobalPerk_Ability_Spear_Javelin.TargetHealthPercent]} % de salud, lo que reduce la armadura del objetivo en un {[Type_StatusEffectData.Status_Perk_Spear_Javelin_Rend.PhysicalArmor * -100 * {perkMultiplier}]} % durante {[Type_StatusEffectData.Status_Perk_Spear_Javelin_Rend.BaseDuration]} s.</string>
 	<string key="PerkID_Ability_Spear_Cyclone_Name">Ciclón succionador</string>
 	<string key="PerkID_Ability_Spear_Cyclone_Description">Los golpes con Ciclón te curan en un {[GlobalAbilityTable.GlobalPerk_Ability_Spear_Cyclone.DmgPctToHealth * 100 * {perkMultiplier}]} % del daño de arma.</string>
 	<string key="PerkID_Ability_Spear_Perforate_Name">Perforación fortificadora</string>

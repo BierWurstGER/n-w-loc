@@ -50,6 +50,7 @@
 	<string key="ui_apply_skins" rel_version="Feature_MTX">Applica skin</string>
 	<string key="reward_type_itemdye" rel_version="Feature_MTX">Tinta</string>
 	<string key="reward_type_statuseffect" rel_version="Feature_Seasons_Consumable_Tokens">Incremento</string>
+	<string key="exceeds_max_balance" rel_version="Feature_Seasons_Consumable_Tokens">L'acquisto supera il limite di: {cap}</string>
 	<string key="reward_type_armorskin" rel_version="Feature_MTX">Skin per vestiario</string>
 	<string key="reward_type_toolskin" rel_version="Feature_MTX">Skin per strumento</string>
 	<string key="url_worldtransfer">https://www.newworld.com/forward-link?id=server-transfer-details</string>
@@ -167,7 +168,7 @@
 	<string key="ui_transaction_failed">Transazione non riuscita.</string>
 	<string key="ui_transaction_timed_out">Transazione scaduta. Riprovare?</string>
 	<string key="ui_transaction_timeout_overlay">Transazione scaduta.\nAssicurati che l'overlay di Steam sia abilitato.</string>
-	<string key="ui_bonus_marks">{base} + bonus {bonus} = </string>
+	<string key="ui_bonus_marks">{base} + bonus {bonus} =</string>
 	<string key="ui_bonus_percent">{bonusPct}% di bonus!</string>
 	<string key="ui_how_to_use">Come si usa</string>
 	<string key="ui_notification_unlock_desc">Alcuni oggetti sono stati aggiunti al tuo account.</string>
@@ -985,7 +986,7 @@
 	<string key="Token_SeasonXP_Boost_name" rel_version="Entitlements_FirelightSeason">Incremento PE stagionali</string>
 	<string key="Token_SeasonXP_Boost_description" rel_version="Entitlements_FirelightSeason">Aumenta del 100% la conversione della normale esperienza di un personaggio in esperienza stagionale per 2 ore.</string>
 	<string key="Token_GatheringXP_Boost_name" rel_version="Entitlements_FirelightSeason">Incremento PE raccolta</string>
-	<string key="Token_GatheringXP_Boost_description" rel_version="Entitlements_FirelightSeason">Aumenta del 100% l'esperienza ottenuta da un personaggio durante il taglio e trasporto di legname, le attività estrattive, la raccolta e la scuoiatura per 2 ore.\n\nL'utilizzo è sospeso nelle modalità di gioco basate sulle istanze.</string>
+	<string key="Token_GatheringXP_Boost_description" rel_version="Entitlements_FirelightSeason">Aumenta del 100% l'esperienza ottenuta da un personaggio durante il taglio e trasporto di legname, le attività estrattive, la raccolta e la scuoiatura per 2 ore. Non si applica ai livelli di perizia.\n\nL'utilizzo è sospeso nelle modalità di gioco basate sulle istanze.</string>
 	<string key="Apparel_OmensOfWinter_Owl_name" rel_version="Apparel_OmensWinter_1">Cailleach-civetta</string>
 	<string key="Apparel_OmensOfWinter_Cat_name" rel_version="Apparel_OmensWinter_2">Lince dell'Imbolc</string>
 	<string key="Bundle_PR_OmensOfWinter_Apparel_name" rel_version="Bundle_OmensWinter_Apparel">Pacchetto vestiario Presagi invernali</string>
