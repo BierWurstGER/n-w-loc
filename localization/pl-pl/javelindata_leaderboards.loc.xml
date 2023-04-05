@@ -92,7 +92,7 @@
 	<string key="ui_leaderboard_display_invasion_kills" rel_version="Feature_Leaderboards">Zabójstwa</string>
 	<string key="ui_leaderboard_display_invasion_kill_death" rel_version="Feature_Leaderboards">Współczynnik zabójstw i śmierci</string>
 	<string key="ui_leaderboard_display_invasion_damage_dealt" rel_version="Feature_Leaderboards">Zadane obrażenia</string>
-	<string key="ui_leaderboard_character_empty_leaderboard" rel_version="Feature_Leaderboards">Obecnie nie masz wyniku w tym rankingu</string>
+	<string key="ui_leaderboard_character_empty_leaderboard" rel_version="Feature_Leaderboards">Nie masz wyniku w tym rankingu</string>
 	<string key="ui_leaderboard_faction_no_faction" rel_version="Feature_Leaderboards">Dołącz do frakcji, by wziąć udział</string>
 	<string key="ui_leaderboard_faction_no_company" rel_version="Feature_Leaderboards">Dołącz do kompanii, by wziąć udział</string>
 	<string key="ui_leaderboard_error_nodata" rel_version="Feature_Leaderboards">Brak danych</string>
@@ -100,13 +100,17 @@
 	<string key="ui_leaderboard_error_norewards" rel_version="Feature_Leaderboards">{type} nie zapewnia nagród</string>
 	<string key="ui_leaderboard_error_norewards_this" rel_version="Feature_Leaderboards">Ta kategoria ({type}) nie zapewnia nagród</string>
 	<string key="ui_leaderboard_error_norewards_byfaction" rel_version="Feature_Leaderboards">{type} frakcji nie zapewnia nagród</string>
+	<string key="ui_leaderboard_error" rel_version="Feature_Leaderboards">Ten ranking nie zapewnia nagród</string>
 	<string key="ui_leaderboard_error_nottracked" rel_version="Feature_Leaderboards">Ten ranking nie jest śledzony przez: {filter}</string>
 	<string key="ui_leaderboard_error_noboard" rel_version="Feature_Leaderboards">Ta kategoria nie posiada rankingu ({rotation})</string>
 	<string key="ui_leaderboard_page_count" rel_version="Feature_Leaderboards">Strona {current}/{total}</string>
 	<string key="ui_leaderboard_not_tracked_character" rel_version="Feature_Leaderboards">Ta kategoria nie dotyczy postaci</string>
 	<string key="ui_leaderboard_not_tracked_company" rel_version="Feature_Leaderboards">Ta kategoria nie dotyczy kompanii</string>
 	<string key="ui_leaderboard_not_tracked_faction" rel_version="Feature_Leaderboards">Ta kategoria nie dotyczy frakcji</string>
-	<string key="ui_leaderboard_not_tracked_season" rel_version="Feature_Leaderboards">Te statystyki nie dotyczą kwartału</string>
+	<string key="ui_leaderboard_not_tracked_category_season" rel_version="Feature_Leaderboards">Ta kategoria nie dotyczą sezonu</string>
+	<string key="ui_leaderboard_not_tracked_category_week" rel_version="Feature_Leaderboards">Ta kategoria nie jest liczona tygodniowo</string>
+	<string key="ui_leaderboard_not_tracked_category_month" rel_version="Feature_Leaderboards">Ta kategoria nie jest liczona miesięcznie</string>
+	<string key="ui_leaderboard_not_tracked_season" rel_version="Feature_Leaderboards">Te statystyki nie dotyczą sezonu</string>
 	<string key="ui_leaderboard_not_tracked_week" rel_version="Feature_Leaderboards">Te statystyki nie dotyczą tygodnia</string>
 	<string key="ui_leaderboard_not_tracked_month" rel_version="Feature_Leaderboards">Te statystyki nie dotyczą miesiąca</string>
 	<string key="ui_leaderboard_tip_war_score" rel_version="Feature_Leaderboards">Twój wynik wojny to najlepszy wynik zdobyty podczas wojny.</string>
@@ -114,7 +118,8 @@
 	<string key="ui_leaderboard_tip_invasion_score" rel_version="Feature_Leaderboards">Twój wynik inwazji to najlepszy wynik zdobyty podczas inwazji.</string>
 	<string key="ui_leaderboard_tip_darkness_score" rel_version="Feature_Leaderboards">Zdobywasz 1 punkt za każdy punkt PD wyłomu skażenia.</string>
 	<string key="ui_leaderboard_tip_pvparena_score" rel_version="Feature_Leaderboards">Twój wynik areny 3 na 3 kumuluje się. Zdobądź więcej punktów, biorąc udział w potyczkach.</string>
-	<string key="ui_leaderboard_expedition_title" rel_version="Feature_Leaderboards">{expedition}, {difficulty}</string>
+	<string key="ui_leaderboard_tip_inv_war_wins" rel_version="Feature_Leaderboards">Musisz zdobyć przynajmniej 500 pkt, by zaliczyć postęp w kierunku zwycięstwa.</string>
+	<string key="ui_leaderboard_expedition_title" rel_version="Feature_Leaderboards">{expedition}, &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{difficulty}&lt;/font&gt;</string>
 	<string key="ui_leaderboard_expedition_difficulty" rel_version="Feature_Leaderboards">Poziom trudności</string>
 	<string key="ui_leaderboard_expedition_difficulty_1" rel_version="Feature_Leaderboards">1</string>
 	<string key="ui_leaderboard_expedition_difficulty_2" rel_version="Feature_Leaderboards">2</string>
@@ -141,9 +146,10 @@
 	<string key="ui_leaderboard_display_legendaries" rel_version="Feature_Leaderboards">Legendarne</string>
 	<string key="ui_leaderboard_territory_all" rel_version="Feature_Leaderboards">Wszystkie terytoria</string>
 	<string key="ui_leaderboard_row_rank_morethan" rel_version="Feature_Leaderboards">&gt;{number}</string>
-	<string key="ui_leaderboard_with_gold" rel_version="Feature_Leaderboards">Ze &lt;img src="lyshineui/images/dungeons/mutator_rank_gold_sm" scale="2.0" xPadding="0" yOffset="5"&gt;&lt;/img&gt; &lt;font color={color}&gt; stopniem złotym&lt;/font&gt;</string>
+	<string key="ui_leaderboard_with_gold" rel_version="Feature_Leaderboards">ze &lt;img src="lyshineui/images/dungeons/mutator_rank_gold_sm" scale="2.0" xPadding="0" yOffset="5"&gt;&lt;/img&gt; &lt;font color={color}&gt; złotą rangą&lt;/font&gt;</string>
 	<string key="ui_leaderboard_company_deleted" rel_version="Feature_Leaderboards">(Kompania usunięta)</string>
 	<string key="ui_leaderboard_player_deleted" rel_version="Feature_Leaderboards">(Usunięto gracza)</string>
 	<string key="ui_leaderboard_rewards_top" rel_version="Feature_Leaderboards">Najlepsze {number}</string>
+	<string key="ui_leaderboard_category_expedition_empyrean" rel_version="Expedition_GreatCleave_01">Empirejska Kuźnia</string>
 </resources>
 
