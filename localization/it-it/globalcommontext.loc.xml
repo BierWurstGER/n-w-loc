@@ -169,6 +169,7 @@
 	<string key="ui_overflow_items_hint">Gli oggetti nascosti appariranno quando lo spazio sarà disponibile</string>
 	<string key="ui_attack">Attacchi base</string>
 	<string key="ui_melee_combat">Combattimento in mischia</string>
+	<string key="ui_combat">Combattimento</string>
 	<string key="ui_audioducking">Ducking audio</string>
 	<string key="ui_b">B</string>
 	<string key="ui_back">Indietro</string>
@@ -445,6 +446,7 @@
 	<string key="ui_hold">{Button} (premuto)</string>
 	<string key="ui_holdetogiveup">Premi [E] per arrenderti</string>
 	<string key="ui_horseequipment">Equipaggiamento per cavalli</string>
+	<string key="ui_rotation_ended">Terminato</string>
 	<string key="ui_hour">ora</string>
 	<string key="ui_hours">ore</string>
 	<string key="ui_hours:">ore:</string>
@@ -2083,7 +2085,7 @@
 	<string key="ui_ability_available" comment="tooltip message when a weapon mastery node is available to buy">Clicca per selezionare l'abilità</string>
 	<string key="ui_ability_unavailable_nopoints" comment="tooltip message for a weapon mastery node that can't be purchased due to lack of points">Nessun punto disponibile</string>
 	<string key="ui_ability_unavailable_noparent" comment="tooltip message when a weapon mastery node is not currently available to buy but doesn't have a specific requirement">Acquista un'abilità nella riga precedente per sbloccarla</string>
-	<string key="ui_ability_unavailable_parent" comment="tooltip message when a weapon mastery node is not currently available to buy and has a specific requirement, {parent}">Acquista un'abilità nella riga precedente e {parent} per sbloccarla</string>
+	<string key="ui_ability_unavailable_parent" comment="tooltip message when a weapon mastery node is not currently available to buy and has a specific requirement, {parent}">Acquista un'abilità nella riga precedente {parent} per sbloccarla</string>
 	<string key="ui_ability_unavailable_parent_firstrow" comment="tooltip message when a weapon mastery node is on the first row but still not currently available to buy and has a specific requirement, {parent}">Acquista {parent} per sbloccarla</string>
 	<string key="ui_ability_unavailable_noparent_lastrow" comment="tooltip message when a weapon mastery node in the last row of the tree is not currently available to buy but doesn't have a specific requirement">Acquista un'abilità nella riga precedente e 10 abilità in questo albero per sbloccarla</string>
 	<string key="ui_ability_unavailable_parent_lastrow" comment="tooltip message when a weapon mastery node in the last row of the tree is not currently available to buy and has a specific requirement, {parent}">Acquista un'abilità nella riga precedente e 10 abilità in questo albero, tra cui {parent}, per sbloccarla</string>
@@ -2536,7 +2538,7 @@
 	<string key="ui_autopinObjectivesFactionStory">Fissa automaticamente missioni storia fazione</string>
 	<string key="ui_autopinobjectivesFactionStory_desc">Fissa automaticamente le missioni della storia della fazione nell'HUD quando le accetti.</string>
 	<string key="ui_autopinObjectivesSkillProgression">Fissa automaticamente missioni avanzamento competenze</string>
-	<string key="ui_autopinobjectivesSkillProgression_desc">Fissa automaticamente le missioni per l'avanzamento nelle competenze nell'HUD quando le accetti.</string>
+	<string key="ui_autopinobjectivesSkillProgression_desc">Fissa automaticamente le missioni di avanzamento competenze nell'HUD quando le accetti.</string>
 	<string key="ui_autopinObjectivesEpicEquipment">Fissaggio automatico missioni per equipaggiamento epico</string>
 	<string key="ui_autopinobjectivesEpicEquipment_desc">Fissa automaticamente le missioni per equipaggiamento epico nell'HUD quando le accetti.</string>
 	<string key="ui_autopinObjectivesSeasonQuest">Fissa automaticamente obiettivi storia stagionale</string>
@@ -2669,6 +2671,7 @@
 	<string key="ui_probation_account_restriction">Per questa funzione è necessario acquistare New World.</string>
 	<string key="ui_item_skinning_disabled">Applicazione skin a oggetti disattivata</string>
 	<string key="ui_camp_skins_disabled">Skin accampamento disattivate</string>
+	<string key="attribution_SpringtideBloom_2023" rel_version="Event_SpringtideBloom_Perm">Fioritura primaverile 2023</string>
 	<string key="ui_event_reputation_title">Reputazione evento</string>
 	<string key="ui_event_reputation_description">La reputazione evento sblocca nuovi oggetti acquistabili nel negozio dell'evento.\n\n&lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#aaaaaa"&gt;Origine:&lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#ffffff"&gt; Completare le missioni evento&lt;/font&gt;</string>
 	<string key="attribution_RabbitSeason_2023" rel_version="Feature_RabbitSeasonPerm">Vendetta del coniglio 2023</string>
