@@ -1,5 +1,6 @@
 <resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<string key="inv_DroppedItems">Oggetti lasciati</string>
+	<string key="inv_Dropped">Lasciato</string>
 	<string key="inv_Storage">Deposito</string>
 	<string key="inv_itemDamaged">Oggetti gravemente danneggiati: {num} Da riparare a breve.</string>
 	<string key="inv_itemBroken">Oggetti rotti: {num}</string>
@@ -24,6 +25,7 @@
 	<string key="inv_outpostrush">Carica all'avamposto</string>
 	<string key="inv_pvparenas">Arene PvP</string>
 	<string key="inv_runes" rel_version="Feature_Heartgems">Rune</string>
+	<string key="inv_mountitem" rel_version="Feature_Mounts">Mounts</string>
 	<string key="inv_crafting_modifiers">Modificatori</string>
 	<string key="inv_repair_kit_count">Kit di riparazione: {count}</string>
 	<string key="inv_repair_kits">Kit di riparazione</string>
@@ -116,7 +118,7 @@
 	<string key="fc_campingSiteLvl2">Accampamento liv. II</string>
 	<string key="fc_campingSiteLvl3">Accampamento liv. III</string>
 	<string key="fc_campingSiteLvl4">Accampamento liv. IV</string>
-	<string key="fc_breakCampNotification">Tieni premuto [{value}] per rimuovere dall'accampamento</string>
+	<string key="fc_breakCampNotification">Tieni premuto {$ui.makeCampOn$} per rimuovere dall'accampamento.</string>
 	<string key="fc_makecamp">Costruisci accampamento</string>
 	<string key="fc_breakcamp">Distruggi accampamento</string>
 	<string key="fc_weaponsectiontitle">Armi e strumenti</string>
@@ -128,7 +130,7 @@
 	<string key="fc_fieldcrafting">Produzione sul campo</string>
 	<string key="fc_distance">Distanza dall'accampamento:</string>
 	<string key="fc_craftingErrorMessage">Non hai le risorse necessarie per produrre quest'oggetto.</string>
-	<string key="fc_campBroken">Rimosso dall'accampamento</string>
+	<string key="fc_campBroken">Rimosso dall'accampamento.</string>
 	<string key="ui_currency_self">Non puoi trasferire denaro a te stesso</string>
 	<string key="ui_currency_nameinvalid">Nome giocatore non valido</string>
 	<string key="ui_currency_namevalid">Nome giocatore valido</string>
@@ -151,10 +153,10 @@
 	<string key="ui_box_opening_open_another_single">Apri successiva</string>
 	<string key="ui_box_opening_max_items_reached">+ {quantity} oggetti aggiuntivi</string>
 	<string key="ui_dropall">Lascia tutto</string>
-	<string key="ui_dropall_in_trade">Non puoi lasciare oggetti durante lo scambio</string>
+	<string key="ui_dropall_in_trade">Non puoi lasciare oggetti durante lo scambio.</string>
 	<string key="ui_transfer_all_filtered">Impossibile spostare tutti gli oggetti in questa sezione mentre è attivo un filtro.</string>
-	<string key="ui_storeall">Sposta tutto nel deposito</string>
-	<string key="ui_filterDescription">&lt;font color={headerColor} face="lyshineui/fonts/Nimbus_Bold.font"&gt;COME USARE IL FILTRO OGGETTI&lt;/font&gt;\n\n&lt;font color={subheaderColor} face="lyshineui/fonts/Nimbus_semibold.font"&gt;Filtra per&lt;/font&gt;\n- Nome\n- Punteggio attrezzatura minimo (es: 100)\n- Livello minimo (es: L1)\n\n&lt;font color={subheaderColor} face="lyshineui/fonts/Nimbus_semibold.font"&gt;Esempi&lt;/font&gt;\n• Spada 200\n• Ascia L1\n• Piccone -ferro</string>
+	<string key="ui_storeall">Sposta tutto nella capanna di deposito.</string>
+	<string key="ui_filterDescription">&lt;font color={headerColor} face="lyshineui/fonts/Nimbus_Bold.font"&gt;COME USARE IL FILTRO OGGETTI&lt;/font&gt;\n\n&lt;font color={subheaderColor} face="lyshineui/fonts/Nimbus_semibold.font"&gt;Filtra per&lt;/font&gt;\n• Nome oggetto (es: spada -ascia)\n• Vantaggi/gemme (es: [Protezione] -[Fortuna])\n• Punteggio attrezzatura minimo (es: 100)\n• Livello minimo (es: L1)\n\n&lt;font color={subheaderColor} face="lyshineui/fonts/Nimbus_semibold.font"&gt;Esempi&lt;/font&gt;\n• Spada 200\n• Ascia L1\n• Piccone -ferro\n• Moschetto [elettrificato]</string>
 	<string key="ui_filterText">Cerca</string>
 	<string key="ui_filterHeader">Filtro oggetto</string>
 	<string key="ui_sort">Ordina</string>
@@ -166,13 +168,15 @@
 	<string key="ui_sort_gearscore_asc">&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Ordina per &lt;font color="#ebe3d6"&gt;punteggio attrezzatura:&lt;/font&gt;&lt;/font&gt; Basso - Alto</string>
 	<string key="ui_sort_chrono">&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Ordina per &lt;font color="#ebe3d6"&gt;Più recente&lt;/font&gt;&lt;/font&gt; Più recente - Meno recente</string>
 	<string key="ui_sort_chrono_asc">&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Ordina per &lt;font color="#ebe3d6"&gt;Più recente&lt;/font&gt;&lt;/font&gt; Meno recente - Più recente</string>
-	<string key="inv_equipmentstatrow_modifiertemplate">({baseValue} &lt;font color={modifierColor}&gt;{operator} {modifierValue}&lt;/font&gt;)</string>
-	<string key="ui_attributemodifier_pending_value">(+{pendingValue})</string>
-	<string key="ui_attributemodifier_tooltip">&lt;font face="lyshineui/fonts/Nimbus_semibold.font" color={color}&gt;{attributeValue} {attributeName}&lt;/font&gt;</string>
-	<string key="ui_attributemodifier_tooltip_committed">&lt;font face="lyshineui/fonts/Nimbus_regular.font" color={color}&gt;Assegnati: {value}&lt;/font&gt;</string>
-	<string key="ui_attributemodifier_tooltip_equipment">&lt;font face="lyshineui/fonts/Nimbus_regular.font" color={color}&gt;Equipaggiamento: {value}&lt;/font&gt;</string>
-	<string key="ui_attributemodifier_tooltip_buffs">&lt;font face="lyshineui/fonts/Nimbus_regular.font" color={color}&gt;Potenziamenti oggetto: &lt;/font&gt;&lt;font face="lyshineui/fonts/Nimbus_regular.font" color={modifierColor}&gt;{modifierOperator}{value}&lt;/font&gt;&lt;font face="lyshineui/fonts/Nimbus_regular.font" color={color}&gt;&lt;/font&gt;</string>
-	<string key="ui_attributemodifier_tooltip_pending">&lt;font face="lyshineui/fonts/Nimbus_regular.font" color={color}&gt;In attesa: {value}&lt;/font&gt;</string>
+	<string key="inv_equipmentstatrow_modifiertemplate">{baseValue} &lt;font color={modifierColor}&gt;{operator} {modifierValue}&lt;/font&gt;</string>
+	<string key="ui_attributemodifier_pending_value">+{pendingValue}</string>
+	<string key="ui_attributemodifier_pending_value_max">+{pendingValue} | MAX</string>
+	<string key="ui_attributemodifier_at_max">MAX: {baseValue}</string>
+	<string key="ui_attributemodifier_tooltip">&lt;font face="lyshineui/fonts/Nimbus_semibold.font" color={color}&gt;{attributeValue}&lt;/font&gt;&lt;font face="lyshineui/fonts/Nimbus_medium.font" color={colorAttributeMax}&gt;/{attributeMax}&lt;/font&gt;</string>
+	<string key="ui_attributemodifier_tooltip_committed">&lt;font face="lyshineui/fonts/Nimbus_medium.font" color={color}&gt;Assegnati: {value}&lt;/font&gt;</string>
+	<string key="ui_attributemodifier_tooltip_equipment">&lt;font face="lyshineui/fonts/Nimbus_medium.font" color={color}&gt;Equipaggiamento: {value}&lt;/font&gt;</string>
+	<string key="ui_attributemodifier_tooltip_buffs">&lt;font face="lyshineui/fonts/Nimbus_medium.font" color={color}&gt;Potenziamenti oggetto: &lt;/font&gt;&lt;font face="lyshineui/fonts/Nimbus_medium.font" color={modifierColor}&gt;{modifierOperator}{value}&lt;/font&gt;&lt;font face="lyshineui/fonts/Nimbus_regular.font" color={color}&gt;&lt;/font&gt;</string>
+	<string key="ui_attributemodifier_tooltip_pending">&lt;font face="lyshineui/fonts/Nimbus_medium.font" color={color}&gt;In attesa: {value}&lt;/font&gt;</string>
 	<string key="ui_attributemodifier_required_points">Punti richiesti:</string>
 	<string key="ui_physical_defense_short">DIF</string>
 	<string key="ui_physical_defense_full">Resistenza ai danni fisici</string>
@@ -227,6 +231,7 @@
 	<string key="loadout_notification_itemaddall_failure" rel_version="Feature_Gear_Set_Storage">Impossibile aggiungere l'oggetto a tutti i set attrezzatura</string>
 	<string key="loadout_notification_switch_loadout_on_cooldown" rel_version="Feature_Gear_Set_Storage">Devi aspettare {timeRemaining} per poter cambiare set attrezzatura</string>
 	<string key="loadout_tutorial" rel_version="Feature_Gear_Set_Storage">Set attrezzatura disponibili!\nCrea e cambia rapidamente set attrezzatura per qualsiasi attività.</string>
+	<string key="loadout_notification_itemremove_space_failure" rel_version="Feature_Gear_Set_Storage">Impossibile rimettere nell'inventario gli oggetti del set attrezzatura in quanto lo spazio non è sufficiente.</string>
 	<string key="loadout_notification_return_space_fail" rel_version="Feature_Gear_Set_Storage">Impossibile rimettere nell'inventario gli oggetti del set attrezzatura in quanto lo spazio non è sufficiente. Per riprovare, libera spazio e disconnettiti per alcuni minuti.</string>
 	<string key="incompatible_elemental_perk">Vantaggio elementale incompatibile</string>
 	<string key="incompatible_socket_item">Non inseribile in un oggetto di questo tipo</string>
@@ -237,7 +242,13 @@
 	<string key="ui_effect_failed_Dead">Impossibile applicare l'effetto quando si è morti</string>
 	<string key="ui_effect_failed_VitalsIgnored">Impossibile applicare l'effetto</string>
 	<string key="ui_effect_failed_MultipleFromSource">Impossibile applicare effetti ridondanti</string>
-	<string key="ui_effect_failed_AntirequisiteActive">Impossibile applicare con effetti in conflitto attivi</string>
+	<string key="ui_effect_failed_AntirequisiteActive">Impossibile applicare a causa di un effetto in conflitto: {competingEffect}</string>
+	<string key="ui_effect_failed_AntirequisiteActive_Multiple">Impossibile applicare a causa di più effetti in conflitto</string>
+	<string key="ui_effect_failed_NotMounted" rel_version="Feature_Mounts">Unable to apply mounted effect</string>
 	<string key="ui_effect_failed_Success">Effetto disponibile</string>
+	<string key="perktooltips_stacks">Accumuli: </string>
+	<string key="perktooltips_stacks_over_limit">Oltre il massimo</string>
+	<string key="perktooltips_stacks_over_limit_disabled">Oltre il massimo (disattivato)</string>
+	<string key="perktooltips_max_stacks">Massimo accumuli: </string>
 </resources>
 

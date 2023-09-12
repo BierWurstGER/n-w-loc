@@ -48,13 +48,14 @@
 	<string key="objective_craft_p" speaker="UI">Stwórz przedmiot {itemName} w liczbie {itemAmount}</string>
 	<string key="objective_crafthealingdrops" speaker="UI">Wytwórz przedmiot: {itemName} w swoim obozie (domyślnie: [Y])</string>
 	<string key="objective_crafthealthfood" speaker="UI">Ugotuj przy ognisku strażnika potrawę regenerującą zdrowie</string>
-	<string key="objective_crafting" speaker="UI">Rzemiosło</string>
+	<string key="objective_crafting" speaker="UI">Wytwarzanie</string>
 	<string key="objective_craftsoverseersword" speaker="UI">Wytwórz przedmiot ({itemName}) w kuźni</string>
 	<string key="objective_darkness_corrupted_portal_desc" speaker="UI">Powstrzymaj skażonych akolitów przed otwarciem portalu.</string>
 	<string key="objective_darkness_corrupted_portal_title" speaker="UI">skażony portal</string>
 	<string key="objective_darkness_task_complete_waves_desc" speaker="UI">Pokonaj fale przeciwnika ({targetAmount}).</string>
 	<string key="objective_darkness_task_complete_waves_desc_p" speaker="UI">Pokonaj fale przeciwnika ({targetAmount}).</string>
 	<string key="objective_darkness_task_kill_enemies_desc" speaker="UI">Zabij wroga ({targetName}) w liczbie: {targetAmount}.</string>
+	<string key="objective_darkness_task_kill_enemies_territory_desc" speaker="UI">Zabij: {targetName} ({targetAmount}) w: {territoryID}.</string>
 	<string key="objective_darkness_task_kill_enemies_desc_p" speaker="UI">Zabij wrogów ({targetName}) w liczbie: {targetAmount}.</string>
 	<string key="objective_darkness_task_major_corrupted_portal_container_desc" speaker="UI">Powstrzymaj skażonych akolitów przed otwarciem portalu.</string>
 	<string key="objective_destination_distance" speaker="UI">CEL ({distance})</string>
@@ -63,7 +64,7 @@
 	<string key="objective_difficulty_2" speaker="UI">Średnia</string>
 	<string key="objective_difficulty_3" speaker="UI">Trudna</string>
 	<string key="objective_difficulty_label" speaker="UI">Poziom trudności:</string>
-	<string key="ui_viewinmap" speaker="UI">Zobacz na mapie</string>
+	<string key="ui_viewinmap" speaker="UI">Mapa</string>
 	<string key="objective_empty" speaker="UI">Nie osiągnięto celu</string>
 	<string key="objective_equip" speaker="UI">Ekwipuje przedmiot {itemName}</string>
 	<string key="objective_experience" speaker="UI">PD</string>
@@ -90,6 +91,8 @@
 	<string key="objective_seasonquest_desc" speaker="UI">Cele wątku sezonowego</string>
 	<string key="objective_skillprogression" speaker="UI">Rozwój umiejętności</string>
 	<string key="objective_skillprogression_desc" speaker="UI">Cele związane z rozwojem umiejętności</string>
+	<string key="objective_mountquest" speaker="UI">Zadanie trofeum</string>
+	<string key="objective_mountquest_desc" speaker="UI">Cele trofeum</string>
 	<string key="objective_epicequipment" speaker="UI">Epickie wyposażenie</string>
 	<string key="objective_epicequipment_desc" speaker="UI">Zadania związane z epickim wyposażeniem</string>
 	<string key="objective_kill" speaker="UI">Zabij wroga {enemy}</string>
@@ -152,6 +155,7 @@
 	<string key="objective_msq_desc" speaker="UI">Zadania wątku głównego</string>
 	<string key="objective_get_msq_message" speaker="UI">Aktualnie nie masz żadnych aktywnych zadań wątku głównego.\nPoszukaj tej ikony na mapie, by sprawdzić, czy kolejne zadanie wątku głównego jest dostępne.</string>
 	<string key="M_procurer_craft_workorder_items" speaker="UI">Misja – wytwarzanie</string>
+	<string key="objective_challenge" speaker="UI">Wyzwanie</string>
 	<string key="objective_name_template" comment="Obsolete - Used to show above rewards on the conversation screen. {title} is the quest title." speaker="UI">Zadanie: "{title}"</string>
 	<string key="objective_name_and_rewards_template" comment="Shows above rewards on the conversation screen. {title} is the quest title" speaker="UI">"{title}" – nagrody</string>
 	<string key="objective_rewards_completion" comment="Rewards label when completing a quest" speaker="UI">Nagrody za ukończenie</string>
@@ -172,6 +176,7 @@
 	<string key="objective_faction_story_quest" speaker="UI">Zadanie wątku frakcji</string>
 	<string key="objective_season_quest" speaker="UI">Zadanie wątku sezonowego</string>
 	<string key="objective_skill_progression_quest" speaker="UI">Zadanie związane z rozwojem umiejętności</string>
+	<string key="objective_mount_quest" speaker="UI">Zadanie trofeum</string>
 	<string key="objective_side_quests" speaker="UI">Zadania poboczne</string>
 	<string key="objective_event" speaker="UI">Zadania z wydarzeń</string>
 	<string key="objective_event_desc" speaker="UI">Zadania dostępne podczas wydarzenia</string>
@@ -193,10 +198,12 @@
 	<string key="objective_recipe_empty" speaker="UI">Nie uzyskano receptury</string>
 	<string key="objective_recipepinned" speaker="UI">Schemat przypięty</string>
 	<string key="objective_recipes" speaker="UI">Schematy</string>
-	<string key="objective_recipes_desc" speaker="UI">Dodaj na dowolnym stanowisku rzemieślniczym</string>
+	<string key="objective_recipes_desc" speaker="UI">Dodaj na dowolnym stanowisku do wytwarzania</string>
 	<string key="objective_recipetemplate" comment="How recipe names show in the HUD. Use {title} for the item name" speaker="UI">Receptura: {title}</string>
 	<string key="objective_recipe_abandontitle">Porzuć schemat</string>
 	<string key="objective_recipe_abandonbody">Czy na pewno chcesz porzucić obecny schemat?</string>
+	<string key="objective_artifacts" rel_version="Feature_Artifacts" speaker="UI">Artifacts</string>
+	<string key="objective_artifacts_desc" rel_version="Feature_Artifacts" speaker="UI">Given from active artifact items.</string>
 	<string key="objective_subtitle_locationwithcolor" speaker="UI">&lt;font color={color}&gt;{territoryName}&lt;/font&gt;</string>
 	<string key="objective_subtitle_locationanddifficulty" speaker="UI">{territory} – {difficulty}</string>
 	<string key="objective_recommendedgroup" speaker="UI">Grupa {group}</string>
@@ -308,5 +315,63 @@
 	<string key="objective_mission_rescue_npc_generic" rel_version="Quest_MSQ2_Revamp">Uratuj zakładników</string>
 	<string key="objective_mission_boatencounter_obj_title" rel_version="Quest_MSQ2_Revamp">Zniszcz łódź</string>
 	<string key="objective_mission_boatencounter_obj_desc" rel_version="Quest_MSQ2_Revamp">Wystrzel z armat</string>
+	<string key="objective_available">Dostępne</string>
+	<string key="objective_mission_faction_darkness_hunt" rel_version="Territory_FirstLight">Complete Darkness Hunts</string>
+	<string key="objective_mission_faction_timetrial_gimmick" rel_version="Territory_FirstLight">Complete the Azoth Time Trial</string>
+	<string key="ui_show_available_objectives">Pokaż dostępne</string>
+	<string key="objective_timetrial_completed" speaker="UI">Próba czasowa ukończona!</string>
+	<string key="objective_timetrial_failed" speaker="UI">Próba czasowa zakończona niepowodzeniem!</string>
+	<string key="objective_timetrial_addTime" speaker="UI">+{secondsAdded} sek.</string>
+	<string key="objective_multiple_active_races" speaker="UI">Jednocześnie aktywny może być tylko jeden wyścig</string>
+	<string key="objective_artifact_equip_to_view" rel_version="Feature_Artifacts">Equip artifact to view objectives.</string>
+	<string key="objective_artifact_max_reminder" rel_version="Feature_Artifacts">Too many artifact objectives in progress. Abandon an existing one to start another.</string>
+	<string key="objective_artifact_equip_reminder" rel_version="Feature_Artifacts">When Equipped:</string>
+	<string key="Objective_Artifact_PerkTasks" rel_version="Feature_Expansion_1">Each tasks unlock a perk</string>
+	<string key="Objective_Artifact_Desc" rel_version="Feature_Expansion_1">Complete the following to improve this Artifact</string>
+	<string key="Objective_Artifact_Set1_HeavyHead" rel_version="Feature_Expansion_1">Artifact: Unyeilding Helm</string>
+	<string key="Objective_Artifact_Set1_HeavyChest" rel_version="Feature_Expansion_1">Artifact: Void Darkplate</string>
+	<string key="Objective_Artifact_Set1_HeavyHands" rel_version="Feature_Expansion_1">Artifact: Magnetic Gauntlets</string>
+	<string key="Objective_Artifact_Set1_HeavyLegs" rel_version="Feature_Expansion_1">Artifact: Freedom Leggings</string>
+	<string key="Objective_Artifact_Set1_MediumHead" rel_version="Feature_Expansion_1">Artifact: Headband</string>
+	<string key="Objective_Artifact_Set1_MediumChest" rel_version="Feature_Expansion_1">Artifact: Nimble Coat</string>
+	<string key="Objective_Artifact_Set1_MediumHands" rel_version="Feature_Expansion_1">Artifact: Goul Gloves</string>
+	<string key="Objective_Artifact_Set1_MediumLegs" rel_version="Feature_Expansion_1">Artifact: Attuned Pants</string>
+	<string key="Objective_Artifact_Set1_LightHead" rel_version="Feature_Expansion_1">Artifact: Wizards Hat</string>
+	<string key="Objective_Artifact_Set1_LightChest" rel_version="Feature_Expansion_1">Artifact: Featherweight</string>
+	<string key="Objective_Artifact_Set1_LightFeet" rel_version="Feature_Expansion_1">Artifact: Tumbler Feetwraps</string>
+	<string key="Objective_Artifact_Set1_1hLongsword" rel_version="Feature_Expansion_1">Artifact: The butcher</string>
+	<string key="Objective_Artifact_Set1_1hThrowingAxe" rel_version="Feature_Expansion_1">Artifact: Francisa</string>
+	<string key="Objective_Artifact_Set1_2hWarhammer" rel_version="Feature_Expansion_1">Artifact: Mjölnir</string>
+	<string key="Objective_Artifact_Set1_2hGreatAxe" rel_version="Feature_Expansion_1">Artifact: The abyss</string>
+	<string key="Objective_Artifact_Set1_2hBow" rel_version="Feature_Expansion_1">Artifact: Boltcaster</string>
+	<string key="Objective_Artifact_Set1_2hMusket" rel_version="Feature_Expansion_1">Artifact: The Mechanic</string>
+	<string key="Objective_Artifact_Set1_1hKiteShield" rel_version="Feature_Expansion_1">Artifact: Micheal</string>
+	<string key="Objective_Artifact_Set1_1hTowerShield" rel_version="Feature_Expansion_1">Artifact: The Wall</string>
+	<string key="Objective_Artifact_Set1_2hStaffFire" rel_version="Feature_Expansion_1">Artifact: Inferno Fist</string>
+	<string key="Objective_Artifact_Set1_2hSpear" rel_version="Feature_Expansion_1">Artifact: Scorpion's Sting</string>
+	<string key="Objective_Artifact_Set1_1hRapier" rel_version="Feature_Expansion_1">Artifact: Finisher</string>
+	<string key="Objective_Artifact_Set1_1hGauntletVoid" rel_version="Feature_Expansion_1">Artifact: Lifetaker</string>
+	<string key="Objective_Artifact_Set1_2hBlunderbuss" rel_version="Feature_Expansion_1">Artifact: Pestilence</string>
+	<string key="Objective_Artifact_Set1_2hGreatSword" rel_version="Feature_Expansion_1">Artifact: Serentity</string>
+	<string key="Objective_Artifact_Set1_1hFlail" rel_version="Feature_Expansion_1">Artifact: Odo</string>
+	<string key="Objective_Artifact_Set1_Earring1" rel_version="Feature_Expansion_1">Artifact: Endless Thirst</string>
+	<string key="Objective_Artifact_Set1_Ring1" rel_version="Feature_Expansion_1">Artifact: Blooddrinker</string>
+	<string key="Objective_Artifact_Set1_Amulet1" rel_version="Feature_Expansion_1">Artifact: Lost Stopwatch</string>
+	<string key="Objective_Artifact_Set1_Amulet2" rel_version="Feature_Expansion_1">Artifact: Ankh</string>
+	<string key="Objective_Kill_Dungeon_DepthBoss" rel_version="Feature_Expansion_1">Defeat {targetName} at Depths Expedition</string>
+	<string key="Objective_Kill_in_FL" rel_version="Feature_Expansion_1">Defeat {targetName} enemies in Elysian Wilds</string>
+	<string key="Objective_Kill_Corvid" rel_version="Feature_Expansion_1">Defeat Corvid enemies in Elysian Wilds</string>
+	<string key="Objective_Kill_Depths" rel_version="Feature_Expansion_1">Defeat {targetName} in Mutated The Depths</string>
+	<string key="Objective_Kill_Genesis" rel_version="Feature_Expansion_1">Defeat {targetName} in Mutated Garden of Genesis</string>
+	<string key="Objective_Kill_Dynasty" rel_version="Feature_Expansion_1">Defeat {targetName} in Mutated The Dynasty Shipyard</string>
+	<string key="Objective_Kill_BnBP" rel_version="Feature_Expansion_1">Defeat {targetName} in Mutated Barnacles and Black Powder</string>
+	<string key="Objective_Kill_Tempest" rel_version="Feature_Expansion_1">Defeat {targetName} in Mutated Tempest's Heart</string>
+	<string key="Objective_Kill_Lazarus" rel_version="Feature_Expansion_1">Defeat {targetName} in Mutated The Lazarus Instrumentality</string>
+	<string key="Objective_Kill_Ennead" rel_version="Feature_Expansion_1">Defeat {targetName} in Mutated The Ennead</string>
+	<string key="Objective_Kill_Starstone" rel_version="Feature_Expansion_1">Defeat {targetName} in Mutated The Starstone Barrows</string>
+	<string key="Objective_Kill_Empyean" rel_version="Feature_Expansion_1">Defeat {targetName} in Mutated Empyrean Forge</string>
+	<string key="Objective_Kill_OPR" rel_version="Feature_Expansion_1">Defeat {targetName} in Outpost Rush</string>
+	<string key="Objective_Kill_Arena" rel_version="Feature_Expansion_1">Defeat {targetName} in Arena</string>
+	<string key="Objective_Kill_OpenWorld" rel_version="Feature_Expansion_1">Defeat {targetName}</string>
 </resources>
 

@@ -2,8 +2,8 @@
 	<string key="mm_randomizetitle">Achtung</string>
 	<string key="mm_randomizewarning">Die zufällige Gestaltung deines Charakters bewirkt, dass alle vorher getätigten Änderungen verloren gehen. Möchtest du deinen Charakter jetzt wirklich zufällig gestalten?</string>
 	<string key="mm_deletechartitle">Charakter löschen</string>
-	<string key="mm_deletecharwarning">&lt;font color="#ffffff"&gt;Möchtest du {characterName} wirklich löschen?\n\nKann nicht rückgängig gemacht werden. Du verlierst sämtliche Gegenstände und jeglichen Fortschritt dieses Charakters.\n\nNach dem Löschen hast du &lt;font color={highlightColor}&gt;7 Tage&lt;/font&gt; Zeit, den Kundendienst zu kontaktieren, um deinen Charakter wiederherzustellen.&lt;/font&gt;\n&lt;font color="#cccccc" face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt;(Deine gekauften Gegenstände behältst du.)&lt;/font&gt;</string>
-	<string key="mm_deletecharwarning_serverfull">&lt;font color="#ffffff"&gt;Möchtest du {characterName} wirklich löschen?\n\nDies kann nicht rückgängig gemacht werden. Du verlierst sämtliche Gegenstände und jeglichen Fortschritt dieses Charakters.\n\nNach dem Löschen hast du &lt;font color={highlightColor}&gt;7 Tage&lt;/font&gt; Zeit, den Kundendienst zu kontaktieren, um deinen Charakter wiederherzustellen.&lt;/font&gt;\n&lt;font color="#cccccc" face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt;(Deine gekauften Gegenstände behältst du.)&lt;/font&gt; \n\n&lt;font color="#ff6b6b"&gt;{worldName} ist voll. Es können dort weder Charaktere erstellt noch dorthin übertragen werden.&lt;/font&gt;</string>
+	<string key="mm_deletecharwarning">Möchtest du &lt;font color={highlightColor}&gt;{characterName}&lt;/font&gt; wirklich löschen?\n\nDu behältst alle gekauften Gegenstände, aber verlierst alle anderen Gegenstände und Fortschritte dieses Charakters. Nach der Löschung kannst du dich binnen &lt;font color={highlightColor}&gt;7 Tage&lt;/font&gt; beim Kundendienst melden, um den Charakter wiederherzustellen.</string>
+	<string key="mm_deletecharwarning_serverfull">Möchtest du &lt;font color={highlightColor}&gt;{characterName}&lt;/font&gt; wirklich löschen?\n\nDu behältst alle gekauften Gegenstände, aber verlierst alle anderen Gegenstände und Fortschritte dieses Charakters. Nach der Löschung kannst du dich binnen &lt;font color={highlightColor}&gt;7 Tage&lt;/font&gt; beim Kundendienst melden, um den Charakter wiederherzustellen.\n\n&lt;font color={highlightColor}&gt;{worldName}&lt;/font&gt; ist voll und es ist nicht möglich, neue Charaktere dort zu erstellen oder dorthin zu übertragen.</string>
 	<string key="mm_selectcharacter">Charakter auswählen</string>
 	<string key="mm_charactercount">Charaktere</string>
 	<string key="mm_emptyslot">Freier Charakterplatz</string>
@@ -148,7 +148,7 @@
 	<string key="mm_csdkerr_transport_security_error">Es konnte keine sichere Verbindung hergestellt werden. Bitte starte das Spiel neu oder aktualisiere es und versuche es erneut.</string>
 	<string key="mm_csdkerr_registration_failed">Keine Verbindung zum Server möglich.</string>
 	<string key="mm_csdkerr_registration_unmarshal_error">Datenfehler auf dem Server. Suche bitte nach einem aktuellen Patch.</string>
-	<string key="mm_csdkerr_disconnect">Unerwartete Servertrennnung. Verbindungsaufbau ...</string>
+	<string key="mm_csdkerr_disconnect">Unerwartete Servertrennung. \nVerbindungsaufbau ...</string>
 	<string key="mm_csdkerr_replicate_timeout">Zeitüberschreitung während der Statussynchronisierung.</string>
 	<string key="mm_csdkerr_registration_failed_retry">Serververbindung fehlgeschlagen</string>
 	<string key="mm_connerr_rep_registration_timeout">Verbindung zum Server nicht möglich. Bitte überprüfe deine Internetverbindung und versuche es erneut.</string>
@@ -167,7 +167,7 @@
 	<string key="mm_rejected_Capitals_Not_Ready">Server nicht bereit: Basen werden errichtet.</string>
 	<string key="mm_rejected_Duplicate_Connection">Der Spieler ist bereits verbunden.</string>
 	<string key="mm_rejected_No_Persistence_Spawner">Server noch nicht spielbereit. Erneuter Versuch …</string>
-	<string key="mm_rejected_Character_Restore_Failure">Serverfehler: Die Charakterwiederherstellung ist fehlgeschlagen.</string>
+	<string key="mm_rejected_Character_Restore_Failure">Deine Daten sind momentan nicht verfügbar.\nBitte versuche es in wenigen Minuten noch einmal.</string>
 	<string key="mm_rejected_Character_Persist_Failure">Serverfehler: Die Charaktererhaltung ist fehlgeschlagen.</string>
 	<string key="mm_rejected_Character_Service_Failure">Serverfehler: Die Charakterdaten konnten nicht geladen werden.</string>
 	<string key="mm_rejected_Character_Already_Exists">Serverfehler: Charakter existiert bereits.</string>
@@ -175,7 +175,7 @@
 	<string key="mm_rejected_Character_Registry_Failure">Serverfehler: Fehler bei der Registrierung des Charakters.</string>
 	<string key="mm_rejected_Grid_Too_Busy">Serverfehler: Die Region ist ausgelastet. Versuche es bitte später erneut.</string>
 	<string key="mm_rejected_No_Ghost_Client">Serverfehler: Kopiervorgang konnte nicht eingeleitet werden.</string>
-	<string key="mm_rejected_Server_Crash">Verbindung zum Spielserver unerwarteterweise abgebrochen. Versuche es bitte später erneut.</string>
+	<string key="mm_rejected_Server_Crash">Verbindung zum Spielserver unerwarteterweise abgebrochen. Verbindungsaufbau ...</string>
 	<string key="mm_rejected_Free_Session_Expired_Title">Gratisspielzeit ist abgelaufen.</string>
 	<string key="mm_rejected_Free_Session_Expired">Deine Gratisspielzeit ist beendet. Klicke "OK", um ins Hauptmenü zurückkehren.</string>
 	<string key="mm_rejected_Client_Kicked_Login_Ticket_Error">Das Anmelde-Ticket ist für diese Welt nicht gültig.</string>
@@ -207,6 +207,7 @@
 	<string key="mm_rejected_Client_Kicked_BannedCommerce">Zahlungsproblem</string>
 	<string key="mm_rejected_Client_Kicked_Embargoed_Country">Von deinem aktuellen Standort aus ist leider kein Zugang möglich.</string>
 	<string key="mm_rejected_Client_Kicked_Unknown">Du wurdest aus dem Spiel geworfen.</string>
+	<string key="mm_rejected_Client_Expansion2023_Ownership">Dein Charakter ist momentan gesperrt. &lt;font color="#0000ff"&gt;&lt;a action="OpenRegionalUrl" data="@url_expansion2023_purchase"&gt;Expansion kaufen&lt;/a&gt;&lt;/font&gt;</string>
 	<string key="mm_authresult_Authorized">Erfolg</string>
 	<string key="mm_characterCreateDisabled">Die Charaktererstellung ist vorübergehend deaktiviert. Die Welt ist zu voll. Bitte versuche, den Charakter auf einer anderen Welt zu erstellen.</string>
 	<string key="mm_characterTransferDisabled">Der Charaktertransfer ist für diese Welt vorübergehend deaktiviert, weil sie voll ist. Bitte versuche es auf einer anderen Welt.</string>
@@ -228,7 +229,7 @@
 	<string key="mm_authresult_Error_InvalidSetup">Ungültige Authentifizierungseinstellungen.</string>
 	<string key="mm_authresult_Error_Jwt_Persona">Ungültig Antwort vom Anmeldedienst für die Abfrage der Anmeldedaten.</string>
 	<string key="mm_authresult_Error_Persona">Fehler bei der Authentifizierung mit Persona.</string>
-	<string key="mm_authresult_Error_Persona_Assume_Role">Abholung der Zugangsdaten fehlgeschlagen.\nBitte erneut versuchen oder weitere Informationen in der New-World-Community einholen: https://forums.newworld.com</string>
+	<string key="mm_authresult_Error_Persona_Assume_Role">Abholung der Zugangsdaten fehlgeschlagen.\nBitte erneut versuchen oder weitere Informationen in der New World-Community einholen: https://forums.newworld.com</string>
 	<string key="mm_authresult_Error_Steam">Fehler bei der Authentifizierung mit Steam.</string>
 	<string key="mm_authresult_Denied_DatasheetVersionCheckFailed">Datenblattversionsfehler.</string>
 	<string key="mm_authresult_Http_Error_Response">Dein Client ist möglicherweise nicht authentifiziert. Versuche es bitte erneut.</string>
@@ -307,15 +308,16 @@
 	<string key="ui_bio">Biografie</string>
 	<string key="ui_attributes">Attribute</string>
 	<string key="ui_trade_skills">Fähigkeiten</string>
+	<string key="ui_trade_skill">Fähigkeit</string>
 	<string key="ui_how_it_works">So funktioniert das</string>
 	<string key="ui_pvp_track_skills_tab" rel_version="PvP_Rewards_Track">PvP</string>
 	<string key="ui_pvp_track" rel_version="PvP_Rewards_Track">PvP-Serie</string>
-	<string key="ui_pvp_track_progress_bar_tooltip" rel_version="PvP_Rewards_Track">&lt;font face="lyshineui/fonts/Nimbus_Bold_Italic.font"&gt;Kontrollpunkt{checkpoint}:&lt;/font&gt; {currentProgression}/{maxProgression}\n\nErziele Fortschritte in der Belohnungsserie, indem du PvP-Missionen abschließt, dich am Außenpostensturm, an Kriegen oder der Eroberung von Festungen beteiligst, andere Spieler besiegst, oder 3-gegen-3-Arenen absolvierst.</string>
+	<string key="ui_pvp_track_progress_bar_tooltip" rel_version="PvP_Rewards_Track">&lt;font face="lyshineui/fonts/Nimbus_Bold_Italic.font"&gt;Kontrollpunkt {checkpoint}:&lt;/font&gt; {currentProgression}/{maxProgression}\n\nErziele Fortschritte in der Belohnungsserie, indem du andere Spieler besiegst, PvP-Missionen abschließt, dich am Außenpostensturm, an Kriegen oder der Eroberung von Festungen beteiligst oder 3-gegen-3-Arenen absolvierst.</string>
 	<string key="ui_pvp_track_next_track_tooltip" rel_version="PvP_Rewards_Track">Du musst alle Kontrollpunkte abschließen, bevor du die nächste Serie beginnen kannst. Mit der Auswahl einer Belohnung eines Kontrollpunkts beginnt automatisch die nächste Serie.\n\nFür jeden Kontrollpunkt, dessen Belohnung du nicht beanspruchst, erhältst du zum Beginn der nächsten Serie 300 Azoth-Salz.</string>
 	<string key="ui_pvp_track_unknown_item_tooltip" rel_version="PvP_Rewards_Track">Belohnungsoptionen werden nach dem Abschluss eines Kontrollpunkts enthüllt.</string>
 	<string key="ui_pvp_track_completions" comment="The number of times they have completed the track. Like a level" rel_version="PvP_Rewards_Track">Serien abgeschlossen</string>
-	<string key="ui_pvp_track_purchasehint" rel_version="PvP_Rewards_Track">Wähle max. &lt;font face="lyshineui/fonts/Nimbus_Bold.font" color={itemColor}&gt;einen Gegenstand pro Kontrollpunkt&lt;/font&gt; aus, den du mit &lt;font color={azothColor}&gt;Azoth-Salz&lt;/font&gt;&lt;img src="lyshineui/images/icons/misc/icon_azoth_salt" scale="1.5" yOffset="3"&gt;&lt;/img&gt; kaufen kannst.</string>
-	<string key="ui_pvp_track_openemblems" rel_version="PvP_Rewards_Track">Wappen und Belohnungen</string>
+	<string key="ui_pvp_track_purchasehint" rel_version="PvP_Rewards_Track">Wähle max. &lt;font face="lyshineui/fonts/Nimbus_Bold.font" color={itemColor}&gt;einen Gegenstand pro Kontrollpunkt&lt;/font&gt; aus, den du mit Azoth-Salz&lt;img src="lyshineui/images/icons/misc/icon_azoth_salt" scale="1.5" yOffset="3"&gt;&lt;/img&gt; kaufen kannst.</string>
+	<string key="ui_pvp_track_openemblems" rel_version="PvP_Rewards_Track">Belohnungen</string>
 	<string key="ui_pvp_track_checkpoint" rel_version="PvP_Rewards_Track">Kontrollpunkt &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{index}&lt;/font&gt;</string>
 	<string key="ui_pvp_track_pvpprogress" rel_version="PvP_Rewards_Track">&lt;font face="lyshineui/fonts/Nimbus_Bold.font" color={colorProgress}&gt;{amount}&lt;/font&gt;&lt;img src="lyshineui/images/icons/misc/icon_warsmall_white" scale="1.5" yOffset="4"&gt;&lt;/img&gt;&lt;font color={colorCheckpoint} face="lyshineui/fonts/Nimbus_regular.font"&gt; bis Kontrollpunkt {index}&lt;/font&gt;</string>
 	<string key="ui_pvp_currency_amount" rel_version="PvP_Rewards_Track">{amount}&lt;img src="lyshineui/images/icons/misc/icon_azoth_salt" scale="1.5" yOffset="3"&gt;&lt;/img&gt;</string>
@@ -332,23 +334,17 @@
 	<string key="ui_pvp_track_tut_title3" rel_version="PvP_Rewards_Track">Azoth-Salz</string>
 	<string key="ui_pvp_track_tut_title4" rel_version="PvP_Rewards_Track">Belohnungen</string>
 	<string key="ui_pvp_track_tut_desc1" rel_version="PvP_Rewards_Track">Die PvP-Belohnungsserien enthalten PvP-spezifische Belohnungen für PvP-Aktivitäten im Spiel. Du kannst die Belohnungsserien abschließen und erneut angehen, um andere Belohnungen zu erhalten. Je mehr Belohnungsserien du absolvierst, desto hochwertiger werden die Belohnungen.</string>
-	<string key="ui_pvp_track_tut_desc2" rel_version="PvP_Rewards_Track">Erziele Fortschritte in der Belohnungsserie, indem du PvP-Missionen abschließt, dich am Außenpostensturm, an Kriegen oder der Eroberung von Festungen beteiligst, andere Spieler besiegst, oder 3-gegen-3-Arenen absolvierst.</string>
+	<string key="ui_pvp_track_tut_desc2" rel_version="PvP_Rewards_Track">Erziele Fortschritte in der Belohnungsserie, indem du andere Spieler besiegst, PvP-Missionen abschließt, dich am Außenpostensturm, an Kriegen oder der Eroberung von Festungen beteiligst oder 3-gegen-3-Arenen absolvierst.</string>
 	<string key="ui_pvp_track_tut_desc3" rel_version="PvP_Rewards_Track">Azoth-Salz ist die Währung, mit der du aus der PvP-Serie Belohnungen erhältst. Du erhältst Azoth-Salz, indem du dich an Kriegen, am Außenpostensturm, in 3-gegen-3-Arenen oder PvP-Missionen beteiligst oder Spieler in der offenen Welt im PvP besiegst und EP dazugewinnst, während du markiert bist.</string>
 	<string key="ui_pvp_track_tut_desc4" rel_version="PvP_Rewards_Track">Wähle aus einzigartigen Belohnungen aus, darunter prestigeträchtige Rüstungen und Waffen, Emotes, Währung und Verbrauchsgegenstände.</string>
 	<string key="ui_pvp_track_leveltext" rel_version="PvP_Rewards_Track">Abgeschlossene Serien: &lt;font color="#FFFFFF" &gt;{level}&lt;/font&gt;</string>
 	<string key="ui_pvp_track_leveltext_header" rel_version="PvP_Rewards_Track">Abgeschlossene Serien: &lt;font face="lyshineui/fonts/CaslonAnt.font" color="#FFFFFF"&gt;{level}&lt;/font&gt;</string>
-	<string key="ui_pvp_track_current_balance" rel_version="PvP_Rewards_Track">Guthaben: &lt;font color={colorBalance} face="lyshineui/fonts/CaslonAnt.font"&gt;{balance}&lt;/font&gt;</string>
+	<string key="ui_pvp_track_current_balance" rel_version="PvP_Rewards_Track">Aktueller Kontostand</string>
 	<string key="ui_pvp_track_addtopool" rel_version="PvP_Rewards_Track">+ Belohnungsauswahl</string>
 	<string key="ui_pvp_track_rankup_confirmation" rel_version="PvP_Rewards_Track">Erhalte einen Bonus für jeden Kontrollpunkt mit einer unbeanspruchten Belohnung und nimm dein Azoth-Salz in die neue Serie mit neuen Belohnungen mit.</string>
 	<string key="ui_pvp_track_rankup_stagesummary" rel_version="PvP_Rewards_Track">\n&lt;font color={colorBonus}&gt;Kontrollpunkt-Bonus: &lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#ffffff"&gt;{amount}&lt;/font&gt;&lt;img src="lyshineui/images/icons/misc/icon_azoth_salt" scale="1.5" yOffset="3"&gt;&lt;/img&gt;</string>
 	<string key="ui_pvp_track_rankup_bonussalt" rel_version="PvP_Rewards_Track">&lt;font color={colorBonus}&gt; Serienabschluss-Bonus: &lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_Bold.font" color="#ffffff"&gt;{amount}&lt;/font&gt;&lt;img src="lyshineui/images/icons/misc/icon_azoth_salt" scale="1.5" yOffset="3"&gt;&lt;/img&gt;</string>
 	<string key="ui_pvp_track_bannertext" rel_version="PvP_Rewards_Track">PvP-Serie abgeschlossen</string>
-	<string key="ui_pvp_track_bannerrewards_1" rel_version="PvP_Rewards_Track">Belohnungsauswahl: \n+Emote</string>
-	<string key="ui_pvp_track_bannerrewards_2" rel_version="PvP_Rewards_Track">Belohnungsauswahl: \n+ benannte Ausrüstung \n+ Mehr Währung</string>
-	<string key="ui_pvp_track_bannerrewards_3" rel_version="PvP_Rewards_Track">Belohnungsauswahl: \n+Prestige-Ausrüstung \n+ Emote \n+ Salzphiolen-Pakete</string>
-	<string key="ui_pvp_track_bannerrewards_4" rel_version="PvP_Rewards_Track">Belohnungsauswahl: \n+ Gips \n+ Mehr Währung \n+ Mehr Schattensplitter</string>
-	<string key="ui_pvp_track_bannerrewards_5" rel_version="PvP_Rewards_Track">Belohnungsauswahl: \n+ Emote \n+ Schattensplitter</string>
-	<string key="ui_pvp_track_bannerrewards_6" rel_version="PvP_Rewards_Track">Belohnungsauswahl: \n+ Emote \n+ Mehr Währung \n+ Mehr Beute</string>
 	<string key="ui_pvp_track_next_milestone" rel_version="PvP_Rewards_Track">{milestone} Serien-Meilenstein bei:</string>
 	<string key="ui_pvp_track_milestone" rel_version="PvP_Rewards_Track">{milestone} Serien-Meilenstein</string>
 	<string key="ui_pvp_track_reward" rel_version="PvP_Rewards_Track">Belohnung</string>
@@ -462,10 +458,11 @@
 	<string key="ui_fishing_equip_action">Angelmodus</string>
 	<string key="ui_fishing_action">Auswerfen/Beißen lassen/Einholen</string>
 	<string key="ui_fishing_reset_action">Auswerfen zurücksetzen/Verlassen</string>
-	<string key="ui_performances" rel_version="Feature_MusicalPerformances">Vorführungen</string>
+	<string key="ui_riding" rel_version="Feature_Mounts">Riding</string>
+	<string key="ui_performances" rel_version="Feature_MusicalPerformances">Musik</string>
 	<string key="ui_performances_toggle" rel_version="Feature_MusicalPerformances">Vorführungsmodus</string>
-	<string key="ui_performances_start" rel_version="Feature_MusicalPerformances">Vorführung starten</string>
-	<string key="ui_performances_equip" rel_version="Feature_MusicalPerformances">Notenblatt ausrüsten</string>
+	<string key="ui_performances_start" rel_version="Feature_MusicalPerformances">Spielen</string>
+	<string key="ui_performances_equip" rel_version="Feature_MusicalPerformances">Liedauswahl</string>
 	<string key="ui_performances_invite" rel_version="Feature_MusicalPerformances">Einladen</string>
 	<string key="ui_camping">Zeltlager</string>
 	<string key="ui_tracking">Demnächst verfügbar</string>
@@ -487,6 +484,11 @@
 	<string key="ui_kiln_desc">Gips kann hier hergestellt und veredelt werden.</string>
 	<string key="ui_furnishing">Tischlerei</string>
 	<string key="ui_source_craftable">Herstellbar</string>
+	<string key="ui_source_transmoggable" rel_version="Feature_Transmog">Transmogierbar</string>
+	<string key="ui_transmog_skin_not_owned" rel_version="Feature_Transmog">Du hast den Skin noch nicht freigeschaltet.</string>
+	<string key="ui_transmog_must_have_owned" rel_version="Feature_Transmog">Für die Transmog musst du den Gegenstand sammeln.</string>
+	<string key="ui_transmog_not_currently_available" rel_version="Feature_Transmog">Der Skin ist momentan nicht verfügbar.</string>
+	<string key="ui_transmogstation" rel_version="Feature_Transmog">Zauberweber</string>
 	<string key="ui_wildernesssurvival" comment="wilderness survival is not a trainable skill and is always equal to the character's level, so just tell users it's their character level for simplicity">Charakter</string>
 	<string key="ui_weaponsmithing_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Weaponsmithing Post Cap</string>
 	<string key="ui_armoring_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Armoring Post Cap</string>
@@ -506,6 +508,7 @@
 	<string key="ui_logging_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Logging Post Cap</string>
 	<string key="ui_harvesting_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Harvesting Post Cap</string>
 	<string key="ui_musician_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Musician Post Cap</string>
+	<string key="ui_riding_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_Mounts">Riding Post Cap</string>
 	<string key="ui_seasonpass" rel_version="Feature_Seasons_Rewards">Saisonpass</string>
 	<string key="ui_decline">Ablehnen</string>
 	<string key="ui_name_your_avatar">Charaktername</string>
@@ -611,5 +614,10 @@
 	<string key="ui_fw_rtmm_body" rel_version="Feature_FreeWeekend">Vielen Dank, dass du beim Gratis-Wochenende für New World mitgemacht hast!\n\nMelde dich für den Newsletter von New World an, um die aktuellen Neuigkeiten und Angebote aus Aeternum zu erhalten.</string>
 	<string key="ui_fw_newsletter" rel_version="Feature_FreeWeekend">Newsletter</string>
 	<string key="ui_fw_survey" rel_version="Feature_FreeWeekend">Umfrage</string>
+	<string key="ui_season_track_reward" rel_version="Feature_Seasons_Rewards">Unbeanspruchte Belohnungen</string>
+	<string key="error_cross_world_maintenance_title">Serverwartung</string>
+	<string key="error_cross_world_maintenance_message">Du wurdest aufgrund der Serverwartung in die offene Welt versetzt.</string>
+	<string key="tradeskill_skillcap_info">Max. Fähigkeitenstufe: {maxRank}</string>
+	<string key="tradeskill_skillcap_tooltip">Kaufe {expansionName}, um das Fähigkeitenstufenmaximum auf {maxRank} zu erhöhen.</string>
 </resources>
 

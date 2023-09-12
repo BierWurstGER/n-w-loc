@@ -135,10 +135,10 @@
 	<string key="Skin_Mar2023_Hatchet_Description" rel_version="Weapon_Firelight_Hatchet">“Seja a chama que traz luz para o amanhã.”</string>
 	<string key="Skin_Mar2023_Warhammer_MasterName" rel_version="Weapon_Firelight_Warhammer">Fornalha de Ferro Forjado</string>
 	<string key="Skin_Mar2023_Warhammer_Description" rel_version="Weapon_Firelight_Warhammer">Pesada como uma bigorna; tão quente quanto a forja.</string>
-	<string key="Skin_Mar2023_Firestaff_MasterName" rel_version="Weapon_Firelight_Firestaff">Lodestar Lantern</string>
-	<string key="Skin_Mar2023_Firestaff_Description" rel_version="Weapon_Firelight_Firestaff">Lost souls crave the warmth of its glow.</string>
-	<string key="Skin_Mar2023_Lifestaff_MasterName" rel_version="Weapon_Firelight_Lifestaff">Burning Beacon</string>
-	<string key="Skin_Mar2023_Lifestaff_Description" rel_version="Weapon_Firelight_Lifestaff">It’s said that on a stormy night, its light can shine brighter and further than any lighthouse.</string>
+	<string key="Skin_Mar2023_Firestaff_MasterName" rel_version="Weapon_Firelight_FireStaff">Lanterna Estrela do Filão</string>
+	<string key="Skin_Mar2023_Firestaff_Description" rel_version="Weapon_Firelight_FireStaff">As almas perdidas anseiam pelo calor de seu brilho.</string>
+	<string key="Skin_Mar2023_Lifestaff_MasterName" rel_version="Weapon_Firelight_LifeStaff">Sinal Ardente</string>
+	<string key="Skin_Mar2023_Lifestaff_Description" rel_version="Weapon_Firelight_LifeStaff">Dizem que, em noites tempestuosas, a luz deste bastão brilha além do que qualquer farol.</string>
 	<string key="Skin_Mar2023_ShieldT_MasterName" rel_version="Weapon_Firelight_ShieldT">Torre de Fogo</string>
 	<string key="Skin_Mar2023_ShieldT_Description" rel_version="Weapon_Firelight_ShieldT">Uma luz fraca brilha em sua superfície.</string>
 	<string key="Skin_Mar2023_IceGauntlet_MasterName" rel_version="Weapon_Firelight_IceGauntlet">Chama Congelada</string>
@@ -185,5 +185,530 @@
 	<string key="CampSkin_Firelight01_A_Description" rel_version="CampSkin_Firelight_1">Ilumine a noite de dentro deste aconchegante yurt capaz de repelir até mesmo os mais fortes ventos de Aeternum.</string>
 	<string key="CampSkin_Firelight01_B_MasterName" rel_version="CampSkin_Firelight_2">Anel de Fogo</string>
 	<string key="CampSkin_Firelight01_B_Description" rel_version="CampSkin_Firelight_2">A luz brilha de todas as direções, preenchendo seu espaço com um brilho convidativo.</string>
+	<string key="Apr2023_Container_MasterName" rel_version="Entitlements_Highwayman">Cofre Rachado Enferrujado</string>
+	<string key="Apr2023_Container_Description" rel_version="Entitlements_Highwayman">A origem desses itens não é importante. O que importa é que são seus agora!</string>
+	<string key="Skin_Chest_Apr2023_HighwaymanPrickleRust_MasterName" rel_version="Apparel_Highwayman_3">Espaldares Manchados Lúgubres</string>
+	<string key="Skin_Chest_Apr2023_HighwaymanPrickleRust_Description" rel_version="Apparel_Highwayman_3">Rangendo e raspando, como ferrugem do osso.</string>
+	<string key="Skin_Head_Apr2023_HighwaymanPrickleRust_MasterName" rel_version="Apparel_Highwayman_3">Burgonet Manchado Lúgubre</string>
+	<string key="Skin_Head_Apr2023_HighwaymanPrickleRust_Description" rel_version="Apparel_Highwayman_3">Rangendo e raspando, como ferrugem do osso.</string>
+	<string key="Skin_Legs_Apr2023_HighwaymanPrickleRust_MasterName" rel_version="Apparel_Highwayman_3">Calças Manchadas Lúgubres</string>
+	<string key="Skin_Legs_Apr2023_HighwaymanPrickleRust_Description" rel_version="Apparel_Highwayman_3">Rangendo e raspando, como ferrugem do osso.</string>
+	<string key="Skin_Feet_Apr2023_HighwaymanPrickleRust_MasterName" rel_version="Apparel_Highwayman_3">Grevas Manchadas Lúgubres</string>
+	<string key="Skin_Feet_Apr2023_HighwaymanPrickleRust_Description" rel_version="Apparel_Highwayman_3">Rangendo e raspando, como ferrugem do osso.</string>
+	<string key="Skin_Hands_Apr2023_HighwaymanPrickleRust_MasterName" rel_version="Apparel_Highwayman_3">Avambraços Manchados Lúgubres</string>
+	<string key="Skin_Hands_Apr2023_HighwaymanPrickleRust_Description" rel_version="Apparel_Highwayman_3">Rangendo e raspando, como ferrugem do osso.</string>
+	<string key="Skin_Chest_Apr2023_HighwaymanTricorn_MasterName" rel_version="Apparel_Highwayman_2">Espanador Desfiado do Canalha</string>
+	<string key="Skin_Chest_Apr2023_HighwaymanTricorn_Description" rel_version="Apparel_Highwayman_2">Uma tensão entre integridade e indecência, banqueteando-se com os vivos como parasitas e os mortos como fungos. Essa é a natureza de um canalha.</string>
+	<string key="Skin_Head_Apr2023_HighwaymanTricorn_MasterName" rel_version="Apparel_Highwayman_2">Tricórnio de Penas Desfiado do Canalha</string>
+	<string key="Skin_Head_Apr2023_HighwaymanTricorn_Description" rel_version="Apparel_Highwayman_2">Uma tensão entre integridade e indecência, banqueteando-se com os vivos como parasitas e os mortos como fungos. Essa é a natureza de um canalha.</string>
+	<string key="Skin_Legs_Apr2023_HighwaymanTricorn_MasterName" rel_version="Apparel_Highwayman_2">Calças Desfiadas do Canalha</string>
+	<string key="Skin_Legs_Apr2023_HighwaymanTricorn_Description" rel_version="Apparel_Highwayman_2">Uma tensão entre integridade e indecência, banqueteando-se com os vivos como parasitas e os mortos como fungos. Essa é a natureza de um canalha.</string>
+	<string key="Skin_Feet_Apr2023_HighwaymanTricorn_MasterName" rel_version="Apparel_Highwayman_2">Botas de Montaria Desfiadas do Canalha</string>
+	<string key="Skin_Feet_Apr2023_HighwaymanTricorn_Description" rel_version="Apparel_Highwayman_2">Uma tensão entre integridade e indecência, banqueteando-se com os vivos como parasitas e os mortos como fungos. Essa é a natureza de um canalha.</string>
+	<string key="Skin_Hands_Apr2023_HighwaymanTricorn_MasterName" rel_version="Apparel_Highwayman_2">Agarradores Desfiados do Canalha</string>
+	<string key="Skin_Hands_Apr2023_HighwaymanTricorn_Description" rel_version="Apparel_Highwayman_2">Uma tensão entre integridade e indecência, banqueteando-se com os vivos como parasitas e os mortos como fungos. Essa é a natureza de um canalha.</string>
+	<string key="Skin_Chest_Apr2023_HighwaymanCapelet_MasterName" rel_version="Apparel_Highwayman_1">Peitoral Escalfado do Líder</string>
+	<string key="Skin_Chest_Apr2023_HighwaymanCapelet_Description" rel_version="Apparel_Highwayman_1">Quando se está adornado com riquezas brilhantes da cabeça aos pés, realmente importa de onde elas vieram? Afinal, são todas minhas agora.</string>
+	<string key="Skin_Head_Apr2023_HighwaymanCapelet_MasterName" rel_version="Apparel_Highwayman_1">Cavaleiro Desleixado e Sorriso Torto do Líder</string>
+	<string key="Skin_Head_Apr2023_HighwaymanCapelet_Description" rel_version="Apparel_Highwayman_1">Quando se está adornado com riquezas brilhantes da cabeça aos pés, realmente importa de onde elas vieram? Afinal, são todas minhas agora.</string>
+	<string key="Skin_Legs_Apr2023_HighwaymanCapelet_MasterName" rel_version="Apparel_Highwayman_1">Calças Cravejadas do Líder</string>
+	<string key="Skin_Legs_Apr2023_HighwaymanCapelet_Description" rel_version="Apparel_Highwayman_1">Quando se está adornado com riquezas brilhantes da cabeça aos pés, realmente importa de onde elas vieram? Afinal, são todas minhas agora.</string>
+	<string key="Skin_Feet_Apr2023_HighwaymanCapelet_MasterName" rel_version="Apparel_Highwayman_1">Esporas Empoeiradas do Líder</string>
+	<string key="Skin_Feet_Apr2023_HighwaymanCapelet_Description" rel_version="Apparel_Highwayman_1">Quando se está adornado com riquezas brilhantes da cabeça aos pés, realmente importa de onde elas vieram? Afinal, são todas minhas agora.</string>
+	<string key="Skin_Hands_Apr2023_HighwaymanCapelet_MasterName" rel_version="Apparel_Highwayman_1">Anéis Roubados do Líder</string>
+	<string key="Skin_Hands_Apr2023_HighwaymanCapelet_Description" rel_version="Apparel_Highwayman_1">Quando se está adornado com riquezas brilhantes da cabeça aos pés, realmente importa de onde elas vieram? Afinal, são todas minhas agora.</string>
+	<string key="Skin_Head_Apr2023_HighwaymanCapeletMask_MasterName" rel_version="Apparel_Highwayman_1">Sorriso Torto do Líder</string>
+	<string key="Skin_Head_Apr2023_HighwaymanCapeletMask_Description" rel_version="Apparel_Highwayman_1">Quando se está adornado com riquezas brilhantes da cabeça aos pés, realmente importa de onde elas vieram? Afinal, são todas minhas agora.</string>
+	<string key="Skin_Head_Apr2023_HighwaymanCapeletHat_MasterName" rel_version="Apparel_Highwayman_1">Cavaleiro Desleixado do Líder</string>
+	<string key="Skin_Head_Apr2023_HighwaymanCapeletHat_Description" rel_version="Apparel_Highwayman_1">Quando se está adornado com riquezas brilhantes da cabeça aos pés, realmente importa de onde elas vieram? Afinal, são todas minhas agora.</string>
+	<string key="Skin_Chest_Apr2023_HighwaymanCollar_MasterName" rel_version="Apparel_Highwayman_Twitch">Túnica Chapeada do Ladrão Esfarrapado</string>
+	<string key="Skin_Chest_Apr2023_HighwaymanCollar_Description" rel_version="Apparel_Highwayman_Twitch">Com um rosto escondido de todos os ângulos, você ronda as sombras tão obscuramente quanto o próprio ceifador.</string>
+	<string key="Skin_Head_Apr2023_HighwaymanCollar_MasterName" rel_version="Apparel_Highwayman_Twitch">Carranca do Ladrão Esfarrapado</string>
+	<string key="Skin_Head_Apr2023_HighwaymanCollar_Description" rel_version="Apparel_Highwayman_Twitch">Com um rosto escondido de todos os ângulos, você ronda as sombras tão obscuramente quanto o próprio ceifador.</string>
+	<string key="Skin_Legs_Apr2023_HighwaymanCollar_MasterName" rel_version="Apparel_Highwayman_Twitch">Guarda-pernas Desbotadas do Ladrão Esfarrapado</string>
+	<string key="Skin_Legs_Apr2023_HighwaymanCollar_Description" rel_version="Apparel_Highwayman_Twitch">Com um rosto escondido de todos os ângulos, você ronda as sombras tão obscuramente quanto o próprio ceifador.</string>
+	<string key="Skin_Feet_Apr2023_HighwaymanCollar_MasterName" rel_version="Apparel_Highwayman_Twitch">Sabatons Encharcados do Ladrão Esfarrapado</string>
+	<string key="Skin_Feet_Apr2023_HighwaymanCollar_Description" rel_version="Apparel_Highwayman_Twitch">Com um rosto escondido de todos os ângulos, você ronda as sombras tão obscuramente quanto o próprio ceifador.</string>
+	<string key="Skin_Hands_Apr2023_HighwaymanCollar_MasterName" rel_version="Apparel_Highwayman_Twitch">Manoplas Cravejadas do Ladrão Esfarrapado</string>
+	<string key="Skin_Hands_Apr2023_HighwaymanCollar_Description" rel_version="Apparel_Highwayman_Twitch">Com um rosto escondido de todos os ângulos, você ronda as sombras tão obscuramente quanto o próprio ceifador.</string>
+	<string key="Skin_Apr2023_Musket_MasterName" rel_version="Weapon_Highwayman_Musket">Mosquete da Estrada</string>
+	<string key="Skin_Apr2023_Musket_Description" rel_version="Weapon_Highwayman_Musket">Não se deixe enganar por sua aparência desgastada, ele tem um tiro sórdido.</string>
+	<string key="Skin_Apr2023_Rapier_MasterName" rel_version="Weapon_Highwayman_Rapier">Aço do Canalha</string>
+	<string key="Skin_Apr2023_Rapier_Description" rel_version="Weapon_Highwayman_Rapier">Prova de que a nobreza não tem o monopólio da esgrima.</string>
+	<string key="Skin_Apr2023_IceGauntlet_MasterName" rel_version="Weapon_Highwayman_IceGauntlet">Aderência Gélida</string>
+	<string key="Skin_Apr2023_IceGauntlet_Description" rel_version="Weapon_Highwayman_IceGauntlet">Alguns podem chamar o frio de misericordioso, embora isso seja discutível.</string>
+	<string key="Skin_Apr2023_ShieldT_MasterName" rel_version="Weapon_Highwayman_ShieldT">Escudete Chanfrado</string>
+	<string key="Skin_Apr2023_ShieldT_Description" rel_version="Weapon_Highwayman_ShieldT">Se esse escudo já esteve em melhores condições ou não... Isso realmente é uma questão de perspectiva.</string>
+	<string key="Skin_Apr2023_Hatchet_MasterName" rel_version="Weapon_Highwayman_Hatchet">Açougueiro Remodelado</string>
+	<string key="Skin_Apr2023_Hatchet_Description" rel_version="Weapon_Highwayman_Hatchet">Os dentes afiados e serrilhados foram um belo toque para uma machadinha letal.</string>
+	<string key="Skin_Apr2023_WarHammer_MasterName" rel_version="Weapon_Highwayman_Warhammer">Martelador Escalfado</string>
+	<string key="Skin_Apr2023_WarHammer_Description" rel_version="Weapon_Highwayman_Warhammer">O que é mais valioso do que o jogo mais perigoso?</string>
+	<string key="House_HousingItem_Entitlement_FrontierWasteland2023_RoomDivider01_MasterName" rel_version="Housing_Wasteland_MTX_Pack_2023">Divisória de Folheado</string>
+	<string key="House_HousingItem_Entitlement_FrontierWasteland2023_RoomDivider01_Description" rel_version="Housing_Wasteland_MTX_Pack_2023">Proteja sua privacidade de lenhadores trapezistas.</string>
+	<string key="House_HousingItem_Entitlement_FrontierWasteland2023_DeerWallMountr01_MasterName" rel_version="Housing_Wasteland_MTX_Pack_2023">Suporte de Parede de Cervo</string>
+	<string key="House_HousingItem_Entitlement_FrontierWasteland2023_DeerWallMountr01_Description" rel_version="Housing_Wasteland_MTX_Pack_2023">Um belo abate. Não foi você que abateu, mas não deixa de ser belo.</string>
+	<string key="House_HousingItem_Entitlement_FrontierWasteland2023_AnimalRug01_MasterName" rel_version="Housing_Wasteland_MTX_Pack_2023">Tapete de Pele de Raposa</string>
+	<string key="House_HousingItem_Entitlement_FrontierWasteland2023_AnimalRug01_Description" rel_version="Housing_Wasteland_MTX_Pack_2023">Agora que parou para pensar, você ainda não viu raposas em Aeternum...</string>
+	<string key="House_HousingItem_Entitlement_FrontierWasteland2023_Bathtub01_MasterName" rel_version="Housing_Wasteland_MTX_Pack_2023">Banheira Vitoriana</string>
+	<string key="House_HousingItem_Entitlement_FrontierWasteland2023_Bathtub01_Description" rel_version="Housing_Wasteland_MTX_Pack_2023">Depois de perseverar contra inimigos selvagens e animais ferozes, saboreie um banho de espuma.</string>
+	<string key="Skin_Chest_MedievalHistoric_HounSkull_MasterName" rel_version="Entitlements_MedievalHistoric">Arauto de Argento</string>
+	<string key="Skin_Chest_MedievalHistoric_HounSkull_Description" rel_version="Entitlements_MedievalHistoric">O herói mensageiro, coberto de prata, suporta com orgulho os fardos do reino do povo.</string>
+	<string key="Skin_Head_MedievalHistoric_HounSkull_MasterName" rel_version="Entitlements_MedievalHistoric">Visor de Capacete de Argento</string>
+	<string key="Skin_Head_MedievalHistoric_HounSkull_Description" rel_version="Entitlements_MedievalHistoric">O herói mensageiro, coberto de prata, suporta com orgulho os fardos do reino do povo.</string>
+	<string key="Skin_Legs_MedievalHistoric_HounSkull_MasterName" rel_version="Entitlements_MedievalHistoric">Joelheiras de Argento</string>
+	<string key="Skin_Legs_MedievalHistoric_HounSkull_Description" rel_version="Entitlements_MedievalHistoric">O herói mensageiro, coberto de prata, suporta com orgulho os fardos do reino do povo.</string>
+	<string key="Skin_Feet_MedievalHistoric_HounSkull_MasterName" rel_version="Entitlements_MedievalHistoric">Sabatons de Argento</string>
+	<string key="Skin_Feet_MedievalHistoric_HounSkull_Description" rel_version="Entitlements_MedievalHistoric">O herói mensageiro, coberto de prata, suporta com orgulho os fardos do reino do povo.</string>
+	<string key="Skin_Hands_MedievalHistoric_HounSkull_MasterName" rel_version="Entitlements_MedievalHistoric">Manoplas de Argento</string>
+	<string key="Skin_Hands_MedievalHistoric_HounSkull_Description" rel_version="Entitlements_MedievalHistoric">O herói mensageiro, coberto de prata, suporta com orgulho os fardos do reino do povo.</string>
+	<string key="Skin_Chest_MedievalHistoric_DarkHorns_MasterName" rel_version="Entitlements_MedievalHistoric">Dragão de Zibelina</string>
+	<string key="Skin_Chest_MedievalHistoric_DarkHorns_Description" rel_version="Entitlements_MedievalHistoric">O infame Dragão Negro é tão poderoso quanto temido.</string>
+	<string key="Skin_Head_MedievalHistoric_DarkHorns_MasterName" rel_version="Entitlements_MedievalHistoric">Armet de Zibelina</string>
+	<string key="Skin_Head_MedievalHistoric_DarkHorns_Description" rel_version="Entitlements_MedievalHistoric">O infame Dragão Negro é tão poderoso quanto temido.</string>
+	<string key="Skin_Legs_MedievalHistoric_DarkHorns_MasterName" rel_version="Entitlements_MedievalHistoric">Joelheiras de Zibelina</string>
+	<string key="Skin_Legs_MedievalHistoric_DarkHorns_Description" rel_version="Entitlements_MedievalHistoric">O infame Dragão Negro é tão poderoso quanto temido.</string>
+	<string key="Skin_Feet_MedievalHistoric_DarkHorns_MasterName" rel_version="Entitlements_MedievalHistoric">Sabatons de Zibelina</string>
+	<string key="Skin_Feet_MedievalHistoric_DarkHorns_Description" rel_version="Entitlements_MedievalHistoric">O infame Dragão Negro é tão poderoso quanto temido.</string>
+	<string key="Skin_Hands_MedievalHistoric_DarkHorns_MasterName" rel_version="Entitlements_MedievalHistoric">Manoplas de Zibelina</string>
+	<string key="Skin_Hands_MedievalHistoric_DarkHorns_Description" rel_version="Entitlements_MedievalHistoric">O infame Dragão Negro é tão poderoso quanto temido.</string>
+	<string key="Skin_Chest_MedievalHistoric_Twitch01_MasterName" rel_version="Entitlements_MedievalHistoric">Sobretudo do Paladino Dourado</string>
+	<string key="Skin_Chest_MedievalHistoric_Twitch01_Description" rel_version="Entitlements_MedievalHistoric">Os cavaleiros dourados não têm medo e seguem marchando para cumprir qualquer ordem que for necessária.</string>
+	<string key="Skin_Head_MedievalHistoric_Twitch01_MasterName" rel_version="Entitlements_MedievalHistoric">Grande Elmo do Paladino Dourado</string>
+	<string key="Skin_Head_MedievalHistoric_Twitch01_Description" rel_version="Entitlements_MedievalHistoric">Os cavaleiros dourados não têm medo e seguem marchando para cumprir qualquer ordem que for necessária.</string>
+	<string key="Skin_Legs_MedievalHistoric_Twitch01_MasterName" rel_version="Entitlements_MedievalHistoric">Chausses do Paladino Dourado</string>
+	<string key="Skin_Legs_MedievalHistoric_Twitch01_Description" rel_version="Entitlements_MedievalHistoric">Os cavaleiros dourados não têm medo e seguem marchando para cumprir qualquer ordem que for necessária.</string>
+	<string key="Skin_Feet_MedievalHistoric_Twitch01_MasterName" rel_version="Entitlements_MedievalHistoric">Caneleiras do Paladino Dourado</string>
+	<string key="Skin_Feet_MedievalHistoric_Twitch01_Description" rel_version="Entitlements_MedievalHistoric">Os cavaleiros dourados não têm medo e seguem marchando para cumprir qualquer ordem que for necessária.</string>
+	<string key="Skin_Hands_MedievalHistoric_Twitch01_MasterName" rel_version="Entitlements_MedievalHistoric">Avambraços do Paladino Dourado</string>
+	<string key="Skin_Hands_MedievalHistoric_Twitch01_Description" rel_version="Entitlements_MedievalHistoric">Os cavaleiros dourados não têm medo e seguem marchando para cumprir qualquer ordem que for necessária.</string>
+	<string key="Skin_Chest_MedievalHistoric_Twitch02_MasterName" rel_version="Entitlements_MedievalHistoric">Sobretudo do Campo de Marfim</string>
+	<string key="Skin_Chest_MedievalHistoric_Twitch02_Description" rel_version="Entitlements_MedievalHistoric">Saia triunfante do campo de batalha, seu jardim de ossos de marfim.</string>
+	<string key="Skin_Head_MedievalHistoric_Twitch02_MasterName" rel_version="Entitlements_MedievalHistoric">Grande Elmo do Campo de Marfim</string>
+	<string key="Skin_Head_MedievalHistoric_Twitch02_Description" rel_version="Entitlements_MedievalHistoric">Saia triunfante do campo de batalha, seu jardim de ossos de marfim.</string>
+	<string key="Skin_Legs_MedievalHistoric_Twitch02_MasterName" rel_version="Entitlements_MedievalHistoric">Chausses do Campo de Marfim</string>
+	<string key="Skin_Legs_MedievalHistoric_Twitch02_Description" rel_version="Entitlements_MedievalHistoric">Saia triunfante do campo de batalha, seu jardim de ossos de marfim.</string>
+	<string key="Skin_Feet_MedievalHistoric_Twitch02_MasterName" rel_version="Entitlements_MedievalHistoric">Caneleiras do Campo de Marfim</string>
+	<string key="Skin_Feet_MedievalHistoric_Twitch02_Description" rel_version="Entitlements_MedievalHistoric">Saia triunfante do campo de batalha, seu jardim de ossos de marfim.</string>
+	<string key="Skin_Hands_MedievalHistoric_Twitch02_MasterName" rel_version="Entitlements_MedievalHistoric">Avambraços do Campo de Marfim</string>
+	<string key="Skin_Hands_MedievalHistoric_Twitch02_Description" rel_version="Entitlements_MedievalHistoric">Saia triunfante do campo de batalha, seu jardim de ossos de marfim.</string>
+	<string key="Skin_MedievalHistoric_Longsword_MasterName" rel_version="Weapon_MedievalHistoric_Longsword">Aço de Antigamente</string>
+	<string key="Skin_MedievalHistoric_Longsword_Description" rel_version="Weapon_MedievalHistoric_Longsword">O design gótico remete a um tempo antigo de coragem e derramamento de sangue.</string>
+	<string key="Skin_MedievalHistoric_Greataxe_MasterName" rel_version="Weapon_MedievalHistoric_Greataxe">Lábris de Antigamente</string>
+	<string key="Skin_MedievalHistoric_Greataxe_Description" rel_version="Weapon_MedievalHistoric_Greataxe">O design formidável remete a um tempo antigo de bravura e batalha.</string>
+	<string key="Skin_MedievalHistoric_FireStaff_MasterName" rel_version="Weapon_MedievalHistoric_FireStaff">Brasão de Antigamente</string>
+	<string key="Skin_MedievalHistoric_FireStaff_Description" rel_version="Weapon_MedievalHistoric_FireStaff">O design elegante remete a um tempo antigo de fogo e paixão.</string>
+	<string key="Skin_MedievalHistoric_Blunderbuss_MasterName" rel_version="Weapon_MedievalHistoric_Blunderbuss">Mortar of Yore</string>
+	<string key="Skin_MedievalHistoric_Blunderbuss_Description" rel_version="Weapon_MedievalHistoric_Blunderbuss">The weighty design harkens back to antiquity, to a time of loyalty and siege.</string>
+	<string key="Skin_MedievalHistoric_Greatsword_MasterName" rel_version="Weapon_MedievalHistoric_Greatsword">Claymore de Antigamente</string>
+	<string key="Skin_MedievalHistoric_Greatsword_Description" rel_version="Weapon_MedievalHistoric_Greatsword">O design imponente remete a um tempo antigo de cavalaria e soberania.</string>
+	<string key="Skin_MedievalHistoric_Spear_MasterName" rel_version="Weapon_MedievalHistoric_Spear">Lanceta de Antigamente</string>
+	<string key="Skin_MedievalHistoric_Spear_Description" rel_version="Weapon_MedievalHistoric_Spear">O design venerável remete a um tempo antigo de honra e glória.</string>
+	<string key="May2023_Container_MasterName" rel_version="Entitlements_MedievalHistoric">Baú de Suprimentos Dourado</string>
+	<string key="May2023_Container_Description" rel_version="Entitlements_MedievalHistoric">Que esses suprimentos sejam úteis em sua próxima batalha.</string>
+	<string key="Skin_Head_Jun2023_FrontWasteShawl_MasterName">Chapéu de Sol do Pioneiro do Sertão</string>
+	<string key="Skin_Chest_Jun2023_FrontWasteShawl_Description">Das montanhas aos ermos, nenhuma caça ficará fora do seu alcance.</string>
+	<string key="Skin_Chest_Jun2023_FrontWasteShawl_MasterName">Poncho Bruto do Pioneiro do Sertão</string>
+	<string key="Skin_Head_Jun2023_FrontWasteShawl_Description">Das montanhas aos ermos, nenhuma caça ficará fora do seu alcance.</string>
+	<string key="Skin_Hands_Jun2023_FrontWasteShawl_MasterName">Luvas Grossas do Pioneiro do Sertão</string>
+	<string key="Skin_Legs_Jun2023_FrontWasteShawl_Description">Das montanhas aos ermos, nenhuma caça ficará fora do seu alcance.</string>
+	<string key="Skin_Legs_Jun2023_FrontWasteShawl_MasterName">Calças de Caminhada do Pioneiro do Sertão</string>
+	<string key="Skin_Feet_Jun2023_FrontWasteShawl_Description">Das montanhas aos ermos, nenhuma caça ficará fora do seu alcance.</string>
+	<string key="Skin_Feet_Jun2023_FrontWasteShawl_MasterName">Botas com Bico de Aço do Pioneiro do Sertão</string>
+	<string key="Skin_Hands_Jun2023_FrontWasteShawl_Description">Das montanhas aos ermos, nenhuma caça ficará fora do seu alcance.</string>
+	<string key="Skin_Head_Jun2023_FrontWasteGambeson_MasterName">O Chifre-longo</string>
+	<string key="Skin_Chest_Jun2023_FrontWasteGambeson_MasterName">Jaquetão Chapeado do Chifre-longo</string>
+	<string key="Skin_Hands_Jun2023_FrontWasteGambeson_MasterName">Manoplas em Camadas do Chifre-longo</string>
+	<string key="Skin_Legs_Jun2023_FrontWasteGambeson_MasterName">Escarcelas em Camadas do Chifre-longo</string>
+	<string key="Skin_Feet_Jun2023_FrontWasteGambeson_MasterName">Caneleiras Orladas do Chifre-longo</string>
+	<string key="Skin_Chest_Jun2023_FrontWasteGambeson_Description">A armadura perfeita para acomodar seus chifres majestosos, ou simplesmente para deixar os inimigos na dúvida.</string>
+	<string key="Skin_Head_Jun2023_FrontWasteGambeson_Description">A armadura perfeita para acomodar seus chifres majestosos, ou simplesmente para deixar os inimigos na dúvida.</string>
+	<string key="Skin_Legs_Jun2023_FrontWasteGambeson_Description">A armadura perfeita para acomodar seus chifres majestosos, ou simplesmente para deixar os inimigos na dúvida.</string>
+	<string key="Skin_Feet_Jun2023_FrontWasteGambeson_Description">A armadura perfeita para acomodar seus chifres majestosos, ou simplesmente para deixar os inimigos na dúvida.</string>
+	<string key="Skin_Hands_Jun2023_FrontWasteGambeson_Description">A armadura perfeita para acomodar seus chifres majestosos, ou simplesmente para deixar os inimigos na dúvida.</string>
+	<string key="Skin_Head_Jun2023_FrontWasteDeluxe_MasterName">Bacinete Gravado dos Ermos</string>
+	<string key="Skin_Chest_Jun2023_FrontWasteDeluxe_MasterName">Couraça Alada dos Ermos</string>
+	<string key="Skin_Hands_Jun2023_FrontWasteDeluxe_MasterName">Manoplas Farpadas dos Ermos</string>
+	<string key="Skin_Legs_Jun2023_FrontWasteDeluxe_MasterName">Joelheira Reforçada dos Ermos</string>
+	<string key="Skin_Feet_Jun2023_FrontWasteDeluxe_MasterName">Grevas Esporadas dos Ermos</string>
+	<string key="Skin_Chest_Jun2023_FrontWasteDeluxe_Description">Apresente uma silhueta imponente ao vagar pela fronteira e provoque medo nos inimigos.</string>
+	<string key="Skin_Head_Jun2023_FrontWasteDeluxe_Description">Apresente uma silhueta imponente ao vagar pela fronteira e provoque medo nos inimigos.</string>
+	<string key="Skin_Legs_Jun2023_FrontWasteDeluxe_Description">Apresente uma silhueta imponente ao vagar pela fronteira e provoque medo nos inimigos.</string>
+	<string key="Skin_Feet_Jun2023_FrontWasteDeluxe_Description">Apresente uma silhueta imponente ao vagar pela fronteira e provoque medo nos inimigos.</string>
+	<string key="Skin_Hands_Jun2023_FrontWasteDeluxe_Description">Apresente uma silhueta imponente ao vagar pela fronteira e provoque medo nos inimigos.</string>
+	<string key="Skin_Head_Jun2023_FrontWasteTwitch_MasterName">Armet Margeado do Errante do Deserto</string>
+	<string key="Skin_Chest_Jun2023_FrontWasteTwitch_MasterName">Soqueira Desgastada do Errante do Deserto</string>
+	<string key="Skin_Hands_Jun2023_FrontWasteTwitch_MasterName">Protetores de Dedos do Errante do Deserto</string>
+	<string key="Skin_Legs_Jun2023_FrontWasteTwitch_MasterName">Calção em Camadas do Errante do Deserto</string>
+	<string key="Skin_Feet_Jun2023_FrontWasteTwitch_MasterName">Borzeguins Protegidos do Errante do Deserto</string>
+	<string key="Skin_Chest_Jun2023_FrontWasteTwitch_Description">Espreite pelas planícies e montanhas sem temer nenhuma fera ou forma de vida.</string>
+	<string key="Skin_Head_Jun2023_FrontWasteTwitch_Description">Espreite pelas planícies e montanhas sem temer nenhuma fera ou forma de vida.</string>
+	<string key="Skin_Legs_Jun2023_FrontWasteTwitch_Description">Espreite pelas planícies e montanhas sem temer nenhuma fera ou forma de vida.</string>
+	<string key="Skin_Feet_Jun2023_FrontWasteTwitch_Description">Espreite pelas planícies e montanhas sem temer nenhuma fera ou forma de vida.</string>
+	<string key="Skin_Hands_Jun2023_FrontWasteTwitch_Description">Espreite pelas planícies e montanhas sem temer nenhuma fera ou forma de vida.</string>
+	<string key="Skin_ShieldT_FrontierWastelander_MasterName">Escudo Torre da Rosa Espinhosa</string>
+	<string key="Skin_ShieldT_FrontierWastelander_Description">Determinado como o Espinho, excepcional como a Rosa.</string>
+	<string key="Skin_Warhammer_FrontierWastelander_MasterName">Martelo de Guerra da Rosa Espinhosa</string>
+	<string key="Skin_Warhammer_FrontierWastelander_Description">Teimoso como o Espinho, notável como a Rosa.</string>
+	<string key="Skin_Bow_FrontierWastelander_MasterName">Arco da Rosa Espinhosa</string>
+	<string key="Skin_Bow_FrontierWastelander_Description">Implacável como o Espinho, sutil como a Rosa.</string>
+	<string key="Skin_Greatsword_FrontierWastelander_MasterName">Espada Grande da Rosa Espinhosa</string>
+	<string key="Skin_Greatsword_FrontierWastelander_Description">Duradoura como o Espinho, distinta como a Rosa.</string>
+	<string key="Skin_LifeStaff_FrontierWastelander_MasterName">Bastão Vital da Rosa Espinhosa</string>
+	<string key="Skin_LifeStaff_FrontierWastelander_Description">Robusto como o Espinho, benevolente como a Rosa.</string>
+	<string key="Skin_IceGauntlet_FrontierWastelander_MasterName">Manopla de Gelo da Rosa Espinhosa</string>
+	<string key="Skin_IceGauntlet_FrontierWastelander_Description">Incessante como o Espinho, magnífica como a Rosa.</string>
+	<string key="Skin_FishingPole_FrontierWastelander_MasterName">Vara de Pescar do Tratante Anônimo</string>
+	<string key="Skin_FishingPole_FrontierWastelander_Description">A terra provê, mas as águas também, basta saber procurar.</string>
+	<string key="Skin_AzothStaff_FrontierWastelander_MasterName">Cetro de Azoth do Tratante Anônimo</string>
+	<string key="Skin_AzothStaff_FrontierWastelander_Description">Um instrumento rústico, feito para suportar a fúria tanto da natureza quanto da humanidade.</string>
+	<string key="Skin_LoggingAxe_FrontierWastelander_MasterName">Machado Lenhador do Tratante Anônimo</string>
+	<string key="Skin_LoggingAxe_FrontierWastelander_Description">É mais bem usado em árvores, mas é afiado o bastante para outros usos.</string>
+	<string key="Skin_Pickaxe_FrontierWastelander_MasterName">Picareta do Tratante Anônimo</string>
+	<string key="Skin_Pickaxe_FrontierWastelander_Description">Desenterre os tesouros desconhecidos de Aeternum. Ou pelo menos alguns minerais preciosos.</string>
+	<string key="Skin_Sickle_FrontierWastelander_MasterName">Foice do Tratante Anônimo</string>
+	<string key="Skin_Sickle_FrontierWastelander_Description">Para um tipo diferente de colheita fora do campo de batalha.</string>
+	<string key="Skin_SkinningKnife_FrontierWastelander_MasterName">Faca de Esfolar do Tratante Anônimo</string>
+	<string key="Skin_SkinningKnife_FrontierWastelander_Description">Não desperdice nada — todas as partes de sua caça são úteis de alguma forma.</string>
+	<string key="Jun2023_Container_MasterName">Caixote de Suprimentos da Fronteira</string>
+	<string key="Jun2023_Container_Description">Tudo que você precisa para desbravar o vasto desconhecido.</string>
+	<string key="Jul2023_Container_MasterName">Baú do Mar Profundo Corroído</string>
+	<string key="Jul2023_Container_Description">A crosta de sal da submersão prolongada protegeu ainda mais seu conteúdo perdido há muito tempo.</string>
+	<string key="Skin_Chest_Jul2023_DSGothConch_MasterName">Rede do Oximergulhador Corrosivo</string>
+	<string key="Skin_Head_Jul2023_DSGothConch_MasterName">Burgonet do Oximergulhador Corrosivo</string>
+	<string key="Skin_Legs_Jul2023_DSGothConch_MasterName">Conchas do Oximergulhador Corrosivo</string>
+	<string key="Skin_Feet_Jul2023_DSGothConch_MasterName">Forcado do Oximergulhador Corrosivo</string>
+	<string key="Skin_Hands_Jul2023_DSGothConch_MasterName">Tenazes do Oximergulhador Corrosivo</string>
+	<string key="Skin_Chest_Jul2023_DSGothConch_Description">As profundezas abissais te ensinaram bem: o que não pode te matar só te torna mais forte.</string>
+	<string key="Skin_Head_Jul2023_DSGothConch_Description">As profundezas abissais te ensinaram bem: o que não pode te matar só te torna mais forte.</string>
+	<string key="Skin_Legs_Jul2023_DSGothConch_Description">As profundezas abissais te ensinaram bem: o que não pode te matar só te torna mais forte.</string>
+	<string key="Skin_Feet_Jul2023_DSGothConch_Description">As profundezas abissais te ensinaram bem: o que não pode te matar só te torna mais forte.</string>
+	<string key="Skin_Hands_Jul2023_DSGothConch_Description">As profundezas abissais te ensinaram bem: o que não pode te matar só te torna mais forte.</string>
+	<string key="Skin_Chest_Jul2023_DSGothCrab_MasterName">Luvas do Caçador Pelágico</string>
+	<string key="Skin_Head_Jul2023_DSGothCrab_MasterName">Máscara do Caçador Pelágico</string>
+	<string key="Skin_Legs_Jul2023_DSGothCrab_MasterName">Calças do Caçador Pelágico</string>
+	<string key="Skin_Feet_Jul2023_DSGothCrab_MasterName">Sandálias do Caçador Pelágico</string>
+	<string key="Skin_Hands_Jul2023_DSGothCrab_MasterName">Coluna do Caçador Pelágico</string>
+	<string key="Skin_Chest_Jul2023_DSGothCrab_Description">Perambule rapidamente pela costa, com o corpo envolto em concha, espinha e escamas.</string>
+	<string key="Skin_Head_Jul2023_DSGothCrab_Description">Perambule rapidamente pela costa, com o corpo envolto em concha, espinha e escamas.</string>
+	<string key="Skin_Legs_Jul2023_DSGothCrab_Description">Perambule rapidamente pela costa, com o corpo envolto em concha, espinha e escamas.</string>
+	<string key="Skin_Feet_Jul2023_DSGothCrab_Description">Perambule rapidamente pela costa, com o corpo envolto em concha, espinha e escamas.</string>
+	<string key="Skin_Hands_Jul2023_DSGothCrab_Description">Perambule rapidamente pela costa, com o corpo envolto em concha, espinha e escamas.</string>
+	<string key="Skin_Chest_Jul2023_DSGothSkeleton_MasterName">Ombreiras das Profundezas Insondáveis</string>
+	<string key="Skin_Head_Jul2023_DSGothSkeleton_MasterName">Capelina das Profundezas Insondáveis</string>
+	<string key="Skin_Legs_Jul2023_DSGothSkeleton_MasterName">Coxotes das Profundezas Insondáveis</string>
+	<string key="Skin_Feet_Jul2023_DSGothSkeleton_MasterName">Sabatons das Profundezas Insondáveis</string>
+	<string key="Skin_Hands_Jul2023_DSGothSkeleton_MasterName">Manoplas das Profundezas Insondáveis</string>
+	<string key="Skin_Chest_Jul2023_DSGothSkeleton_Description">Horrores incalculáveis espreitam as vastas extensões do mar. O primeiro deles é você.</string>
+	<string key="Skin_Head_Jul2023_DSGothSkeleton_Description">Horrores incalculáveis espreitam as vastas extensões do mar. O primeiro deles é você.</string>
+	<string key="Skin_Legs_Jul2023_DSGothSkeleton_Description">Horrores incalculáveis espreitam as vastas extensões do mar. O primeiro deles é você.</string>
+	<string key="Skin_Feet_Jul2023_DSGothSkeleton_Description">Horrores incalculáveis espreitam as vastas extensões do mar. O primeiro deles é você.</string>
+	<string key="Skin_Hands_Jul2023_DSGothSkeleton_Description">Horrores incalculáveis espreitam as vastas extensões do mar. O primeiro deles é você.</string>
+	<string key="Skin_Chest_Jul2023_DSGothOctopus_MasterName">Manto do Kraken Talássico</string>
+	<string key="Skin_Head_Jul2023_DSGothOctopus_MasterName">Tentáculos do Kraken Talássico</string>
+	<string key="Skin_Legs_Jul2023_DSGothOctopus_MasterName">Joelheiras do Kraken Talássico</string>
+	<string key="Skin_Feet_Jul2023_DSGothOctopus_MasterName">Soleret do Kraken Talássico</string>
+	<string key="Skin_Hands_Jul2023_DSGothOctopus_MasterName">Avambraços do Kraken Talássico</string>
+	<string key="Skin_Chest_Jul2023_DSGothOctopus_Description">De abismos salgados a baixios banhados pelo sol, os habitantes da terra e do mar tremem quando você se aproxima.</string>
+	<string key="Skin_Head_Jul2023_DSGothOctopus_Description">De abismos salgados a baixios banhados pelo sol, os habitantes da terra e do mar tremem quando você se aproxima.</string>
+	<string key="Skin_Legs_Jul2023_DSGothOctopus_Description">De abismos salgados a baixios banhados pelo sol, os habitantes da terra e do mar tremem quando você se aproxima.</string>
+	<string key="Skin_Feet_Jul2023_DSGothOctopus_Description">De abismos salgados a baixios banhados pelo sol, os habitantes da terra e do mar tremem quando você se aproxima.</string>
+	<string key="Skin_Hands_Jul2023_DSGothOctopus_Description">De abismos salgados a baixios banhados pelo sol, os habitantes da terra e do mar tremem quando você se aproxima.</string>
+	<string key="Skin_DeepSeaGothic_Musket_MasterName">Barbatana Espinhosa das Profundezas</string>
+	<string key="Skin_DeepSeaGothic_Musket_Description">O mar não mostra misericórdia, e você também não.</string>
+	<string key="Skin_DeepSeaGothic_Greatsword_MasterName">Espinha Espinhosa das Profundezas</string>
+	<string key="Skin_DeepSeaGothic_Greatsword_Description">O mar não conhece medo, e você também não.</string>
+	<string key="Skin_DeepSeaGothic_Bow_MasterName">Notocorda Espinhosa das Profundezas</string>
+	<string key="Skin_DeepSeaGothic_Bow_Description">O mar ataca sem avisar, e você também.</string>
+	<string key="Skin_DeepSeaGothic_LifeStaff_MasterName">Pescador Espinhoso das Profundezas</string>
+	<string key="Skin_DeepSeaGothic_LifeStaff_Description">As águas do mar oferecem vida, e você também.</string>
+	<string key="Skin_DeepSeaGothic_Hatchet_MasterName">Corta-Ondas Espinhoso das Profundezas</string>
+	<string key="Skin_DeepSeaGothic_Hatchet_Description">O mar não para por ninguém, e você também não.</string>
+	<string key="Skin_DeepSeaGothic_VoidGauntlet_MasterName">Atadura Espinhosa das Profundezas</string>
+	<string key="Skin_DeepSeaGothic_VoidGauntlet_Description">As profundezas do mar esmagam tudo, e você também.</string>
+	<string key="Skin_Head_Aug2023_BalanceLight_MasterName">Armet do Equilíbrio</string>
+	<string key="Skin_Chest_Aug2023_BalanceLight_MasterName">Jaquetão do Equilíbrio</string>
+	<string key="Skin_Hands_Aug2023_BalanceLight_MasterName">Luvas do Equilíbrio</string>
+	<string key="Skin_Legs_Aug2023_BalanceLight_MasterName">Calças do Equilíbrio</string>
+	<string key="Skin_Feet_Aug2023_BalanceLight_MasterName">Botas de Montaria do Equilíbrio</string>
+	<string key="Skin_Head_Aug2023_BalanceLight_Description">Mantendo o equilíbrio entre as trevas e a luz.</string>
+	<string key="Skin_Chest_Aug2023_BalanceLight_Description">Mantendo o equilíbrio entre as trevas e a luz.</string>
+	<string key="Skin_Hands_Aug2023_BalanceLight_Description">Mantendo o equilíbrio entre as trevas e a luz.</string>
+	<string key="Skin_Legs_Aug2023_BalanceLight_Description">Mantendo o equilíbrio entre as trevas e a luz.</string>
+	<string key="Skin_Feet_Aug2023_BalanceLight_Description">Mantendo o equilíbrio entre as trevas e a luz.</string>
+	<string key="Skin_Head_Aug2023_BalanceMedium_MasterName">Barbute da Ordem</string>
+	<string key="Skin_Chest_Aug2023_BalanceMedium_MasterName">Sobretudo da Ordem</string>
+	<string key="Skin_Hands_Aug2023_BalanceMedium_MasterName">Manoplas da Ordem</string>
+	<string key="Skin_Legs_Aug2023_BalanceMedium_MasterName">Calças da Ordem</string>
+	<string key="Skin_Feet_Aug2023_BalanceMedium_MasterName">Botas de Cavalaria da Ordem</string>
+	<string key="Skin_Head_Aug2023_BalanceMedium_Description">Caos e ordem, dia e noite, tudo tem seu lugar no mundo.</string>
+	<string key="Skin_Chest_Aug2023_BalanceMedium_Description">Caos e ordem, dia e noite, tudo tem seu lugar no mundo.</string>
+	<string key="Skin_Hands_Aug2023_BalanceMedium_Description">Caos e ordem, dia e noite, tudo tem seu lugar no mundo.</string>
+	<string key="Skin_Legs_Aug2023_BalanceMedium_Description">Caos e ordem, dia e noite, tudo tem seu lugar no mundo.</string>
+	<string key="Skin_Feet_Aug2023_BalanceMedium_Description">Caos e ordem, dia e noite, tudo tem seu lugar no mundo.</string>
+	<string key="Skin_Head_Aug2023_BalanceHeavy_MasterName">Grande Elmo da Harmonia</string>
+	<string key="Skin_Chest_Aug2023_BalanceHeavy_MasterName">Couraça da Harmonia</string>
+	<string key="Skin_Hands_Aug2023_BalanceHeavy_MasterName">Avambraços da Harmonia</string>
+	<string key="Skin_Legs_Aug2023_BalanceHeavy_MasterName">Grevas da Harmonia</string>
+	<string key="Skin_Feet_Aug2023_BalanceHeavy_MasterName">Sabatons da Harmonia</string>
+	<string key="Skin_Head_Aug2023_BalanceHeavy_Description">Simetria e equilíbrio em tudo — este é nosso juramento.</string>
+	<string key="Skin_Chest_Aug2023_BalanceHeavy_Description">Simetria e equilíbrio em tudo — este é nosso juramento.</string>
+	<string key="Skin_Hands_Aug2023_BalanceHeavy_Description">Simetria e equilíbrio em tudo — este é nosso juramento.</string>
+	<string key="Skin_Legs_Aug2023_BalanceHeavy_Description">Simetria e equilíbrio em tudo — este é nosso juramento.</string>
+	<string key="Skin_Feet_Aug2023_BalanceHeavy_Description">Simetria e equilíbrio em tudo — este é nosso juramento.</string>
+	<string key="Skin_Aug2023_Balance_ShieldK_MasterName">Sombra do Luar</string>
+	<string key="Skin_Aug2023_Balance_Longsword_MasterName">Fio da Discórdia</string>
+	<string key="Skin_Aug2023_Balance_FireStaff_MasterName">Chamas da Balança</string>
+	<string key="Skin_Aug2023_Balance_Warhammer_MasterName">Peso da Simetria</string>
+	<string key="Skin_Aug2023_Balance_ShieldK_Description">Erga seu escudo implacável em defesa do Equilíbrio.</string>
+	<string key="Skin_Aug2023_Balance_Longsword_Description">Erga sua lâmina afiada em defesa do Equilíbrio.</string>
+	<string key="Skin_Aug2023_Balance_FireStaff_Description">Erga seu bastão ardente em defesa do Equilíbrio.</string>
+	<string key="Skin_Aug2023_Balance_Warhammer_Description">Erga seu martelo poderoso em defesa do Equilíbrio.</string>
+	<string key="PrimeDay2023_Container_MasterName">Recompensa Primorosa</string>
+	<string key="PrimeDay2023_Container_Description">Uma reserva de itens de primeira que foram guardados para um dia especial.</string>
+	<string key="Aug2023_Container_MasterName">Bênção do Equilíbrio</string>
+	<string key="Aug2023_Container_Description">O Equilíbrio é uma recompensa por si só... mas uma ajudinha sempre cai bem.</string>
+	<string key="Skin_Head_Oct2023_SeanceMask01_MasterName" rel_version="Entitlements_Seance">Grinning Raven</string>
+	<string key="Skin_Head_Oct2023_SeanceMask02_MasterName" rel_version="Entitlements_Seance">Fiendish Imp</string>
+	<string key="Skin_Head_Oct2023_SeanceMask03_MasterName" rel_version="Entitlements_Seance">Blind Bull</string>
+	<string key="Skin_Head_Oct2023_SeanceMask04_MasterName" rel_version="Entitlements_Seance">Mind Melter</string>
+	<string key="Skin_Head_Oct2023_SeanceMask05_MasterName" rel_version="Entitlements_Seance">Rattle Bones</string>
+	<string key="Skin_Head_Oct2023_SeanceMask06_MasterName" rel_version="Entitlements_Seance">Sneering Crow</string>
+	<string key="Skin_Head_Oct2023_SeanceMask07_MasterName" rel_version="Entitlements_Seance">Waxen Witch</string>
+	<string key="Skin_Head_Oct2023_SeanceMask08_MasterName" rel_version="Entitlements_Seance">Bodysnatcher</string>
+	<string key="Skin_Head_Oct2023_SeanceMask01_Description" rel_version="Entitlements_Seance">TEMP</string>
+	<string key="Skin_Head_Oct2023_SeanceMask01_Description" rel_version="Entitlements_Seance">TEMP</string>
+	<string key="Skin_Head_Oct2023_SeanceMask01_Description" rel_version="Entitlements_Seance">TEMP</string>
+	<string key="Skin_Head_Oct2023_SeanceMask01_Description" rel_version="Entitlements_Seance">TEMP</string>
+	<string key="Skin_Head_Oct2023_SeanceMask01_Description" rel_version="Entitlements_Seance">TEMP</string>
+	<string key="Skin_Head_Oct2023_SeanceMask01_Description" rel_version="Entitlements_Seance">TEMP</string>
+	<string key="Skin_Head_Oct2023_SeanceMask01_Description" rel_version="Entitlements_Seance">TEMP</string>
+	<string key="Skin_Head_Oct2023_SeanceMask01_Description" rel_version="Entitlements_Seance">TEMP</string>
+	<string key="Skin_Head_Oct2023_SeanceLight_MasterName" rel_version="Entitlements_Seance">The Effigy's Blinds</string>
+	<string key="Skin_Chest_Oct2023_SeanceLight_MasterName" rel_version="Entitlements_Seance">The Effigy's Plume</string>
+	<string key="Skin_Hands_Oct2023_SeanceLight_MasterName" rel_version="Entitlements_Seance">The Effigy's Clutches</string>
+	<string key="Skin_Legs_Oct2023_SeanceLight_MasterName" rel_version="Entitlements_Seance">The Effigy's Kecks</string>
+	<string key="Skin_Feet_Oct2023_SeanceLight_MasterName" rel_version="Entitlements_Seance">The Effigy's Steps</string>
+	<string key="Skin_Head_Oct2023_SeanceLight_Description" rel_version="Entitlements_Seance">A soulless puppet. A blind servant. The perfect companion. The peril of her maker.</string>
+	<string key="Skin_Chest_Oct2023_SeanceLight_Description" rel_version="Entitlements_Seance">A soulless puppet. A blind servant. The perfect companion. The peril of her maker.</string>
+	<string key="Skin_Hands_Oct2023_SeanceLight_Description" rel_version="Entitlements_Seance">A soulless puppet. A blind servant. The perfect companion. The peril of her maker.</string>
+	<string key="Skin_Legs_Oct2023_SeanceLight_Description" rel_version="Entitlements_Seance">A soulless puppet. A blind servant. The perfect companion. The peril of her maker.</string>
+	<string key="Skin_Feet_Oct2023_SeanceLight_Description" rel_version="Entitlements_Seance">A soulless puppet. A blind servant. The perfect companion. The peril of her maker.</string>
+	<string key="Skin_Head_Oct2023_SeanceMedium_MasterName" rel_version="Entitlements_Seance">The Hay Man's Dry Crown</string>
+	<string key="Skin_Chest_Oct2023_SeanceMedium_MasterName" rel_version="Entitlements_Seance">The Hay Man's Hollow Heart</string>
+	<string key="Skin_Hands_Oct2023_SeanceMedium_MasterName" rel_version="Entitlements_Seance">The Hay Man's Nettle Mitts</string>
+	<string key="Skin_Legs_Oct2023_SeanceMedium_MasterName" rel_version="Entitlements_Seance">The Hay Man's Stuffed Legs</string>
+	<string key="Skin_Feet_Oct2023_SeanceMedium_MasterName" rel_version="Entitlements_Seance">The Hay Man's Straw Plinth</string>
+	<string key="Skin_Head_Oct2023_SeanceMedium_Description" rel_version="Entitlements_Seance">No crow fears what is only known in whispers as the Hay Man, for it is equally enmeshed in death as they are.</string>
+	<string key="Skin_Chest_Oct2023_SeanceMedium_Description" rel_version="Entitlements_Seance">No crow fears what is only known in whispers as the Hay Man, for it is equally enmeshed in death as they are.</string>
+	<string key="Skin_Hands_Oct2023_SeanceMedium_Description" rel_version="Entitlements_Seance">No crow fears what is only known in whispers as the Hay Man, for it is equally enmeshed in death as they are.</string>
+	<string key="Skin_Legs_Oct2023_SeanceMedium_Description" rel_version="Entitlements_Seance">No crow fears what is only known in whispers as the Hay Man, for it is equally enmeshed in death as they are.</string>
+	<string key="Skin_Feet_Oct2023_SeanceMedium_Description" rel_version="Entitlements_Seance">No crow fears what is only known in whispers as the Hay Man, for it is equally enmeshed in death as they are.</string>
+	<string key="Skin_Head_Oct2023_SeanceHeavy_MasterName" rel_version="Entitlements_Seance">Ethereal Hood of the Ferryman</string>
+	<string key="Skin_Chest_Oct2023_SeanceHeavy_MasterName" rel_version="Entitlements_Seance">Heartrune Lamp of the Ferryman</string>
+	<string key="Skin_Hands_Oct2023_SeanceHeavy_MasterName" rel_version="Entitlements_Seance">Cracked Gages of the Ferryman</string>
+	<string key="Skin_Legs_Oct2023_SeanceHeavy_MasterName" rel_version="Entitlements_Seance">Oily Netting of the Ferryman</string>
+	<string key="Skin_Feet_Oct2023_SeanceHeavy_MasterName" rel_version="Entitlements_Seance">Shackled Waders of the Ferryman</string>
+	<string key="Skin_Head_Oct2023_SeanceHeavy_Description" rel_version="Entitlements_Seance">One can only hope to never see a floating vessel in Aeternum, for it would surely be the Charon's and this would surely be the Underworld.</string>
+	<string key="Skin_Chest_Oct2023_SeanceHeavy_Description" rel_version="Entitlements_Seance">One can only hope to never see a floating vessel in Aeternum, for it would surely be the Charon's and this would surely be the Underworld.</string>
+	<string key="Skin_Hands_Oct2023_SeanceHeavy_Description" rel_version="Entitlements_Seance">One can only hope to never see a floating vessel in Aeternum, for it would surely be the Charon's and this would surely be the Underworld.</string>
+	<string key="Skin_Legs_Oct2023_SeanceHeavy_Description" rel_version="Entitlements_Seance">One can only hope to never see a floating vessel in Aeternum, for it would surely be the Charon's and this would surely be the Underworld.</string>
+	<string key="Skin_Feet_Oct2023_SeanceHeavy_Description" rel_version="Entitlements_Seance">One can only hope to never see a floating vessel in Aeternum, for it would surely be the Charon's and this would surely be the Underworld.</string>
+	<string key="Skin_Head_Oct2023_SeanceDeluxe_MasterName" rel_version="Entitlements_Seance">The Prophet's Sightless Eyes</string>
+	<string key="Skin_Chest_Oct2023_SeanceDeluxe_MasterName" rel_version="Entitlements_Seance">The Prophet's Featherless Wings</string>
+	<string key="Skin_Hands_Oct2023_SeanceDeluxe_MasterName" rel_version="Entitlements_Seance">The Prophet's Warmthless Touch</string>
+	<string key="Skin_Legs_Oct2023_SeanceDeluxe_MasterName" rel_version="Entitlements_Seance">The Prophet's Hollow Shadow</string>
+	<string key="Skin_Feet_Oct2023_SeanceDeluxe_MasterName" rel_version="Entitlements_Seance">The Prophet's Silent Stide</string>
+	<string key="Skin_Head_Oct2023_SeanceDeluxe_Description" rel_version="Entitlements_Seance">I am All and I am Nothing. I am Everywhere and yet Nowhere. I am the One and now I am You.</string>
+	<string key="Skin_Chest_Oct2023_SeanceDeluxe_Description" rel_version="Entitlements_Seance">I am All and I am Nothing. I am Everywhere and yet Nowhere. I am the One and now I am You.</string>
+	<string key="Skin_Hands_Oct2023_SeanceDeluxe_Description" rel_version="Entitlements_Seance">I am All and I am Nothing. I am Everywhere and yet Nowhere. I am the One and now I am You.</string>
+	<string key="Skin_Legs_Oct2023_SeanceDeluxe_Description" rel_version="Entitlements_Seance">I am All and I am Nothing. I am Everywhere and yet Nowhere. I am the One and now I am You.</string>
+	<string key="Skin_Feet_Oct2023_SeanceDeluxe_Description" rel_version="Entitlements_Seance">I am All and I am Nothing. I am Everywhere and yet Nowhere. I am the One and now I am You.</string>
+	<string key="Skin_Oct2023_Seance_Bow_MasterName" rel_version="Entitlements_Seance">Marksman's Ossuary</string>
+	<string key="Skin_Oct2023_Seance_Greataxe_MasterName" rel_version="Entitlements_Seance">Barbarian's Ossuary</string>
+	<string key="Skin_Oct2023_Seance_FireStaff_MasterName" rel_version="Entitlements_Seance">Pyromancer's Ossuary</string>
+	<string key="Skin_Oct2023_Seance_ShieldT_MasterName" rel_version="Entitlements_Seance">Guardian's Ossuary</string>
+	<string key="Skin_Oct2023_Seance_Blunderbuss_MasterName" rel_version="Entitlements_Seance">Demolitionist's Ossuary</string>
+	<string key="Skin_Oct2023_Seance_Greatsword_MasterName" rel_version="Entitlements_Seance">Warrior’s Ossuary</string>
+	<string key="Skin_Oct2023_Bow_Description" rel_version="Entitlements_Seance">Only truer than their aim was their love. May they rest in peace.</string>
+	<string key="Skin_Oct2023_Greataxe_Description" rel_version="Entitlements_Seance">Unyielding to even death. May they rest in peace.</string>
+	<string key="Skin_Oct2023_FireStaff_Description" rel_version="Entitlements_Seance">Their flame burns eternal and ever bright. May they rest in peace.</string>
+	<string key="Skin_Oct2023_ShieldT_Description" rel_version="Entitlements_Seance">Once and always a defender from evil. May they rest in peace.</string>
+	<string key="Skin_Oct2023_Blunderbuss_Description" rel_version="Entitlements_Seance">Always wanted to go out with a 'bang'. May they rest in peace.</string>
+	<string key="Skin_Oct2023_Greatsword_Description" rel_version="Entitlements_Seance">Titans in life and beyond. May they rest in peace.</string>
+	<string key="CampSkin_Seance01_A_MasterName" rel_version="Entitlements_Seance">Ritual Hut</string>
+	<string key="CampSkin_Seance01_A_Description" rel_version="Entitlements_Seance">Many enter with visions of fortune. Few leave, transformed into little more than bone and dust.</string>
+	<string key="Sep2023_Container_PrimaryName">Baú do Verdor Dourado</string>
+	<string key="Sep2023_Container_PrimaryDesc">Nem tudo que reluz é ouro, mas pode ser igualmente precioso.</string>
+	<string key="Skin_FirstLightElven_ShieldR_PrimaryName">Rondel de Jucá</string>
+	<string key="Skin_FirstLightElven_ShieldR_PrimaryDesc">Proteção infalível em um pacote surpreendentemente leve.</string>
+	<string key="Skin_FirstLightElven_Longsword_PrimaryName">Cutelo de Urtiga</string>
+	<string key="Skin_FirstLightElven_Longsword_PrimaryDesc">Faça o que fizer, garanta que o alvo não seja você.</string>
+	<string key="Skin_FirstLightElven_LifeStaff_PrimaryName">Cana de Parreira</string>
+	<string key="Skin_FirstLightElven_LifeStaff_PrimaryDesc">Deixe a videira e o ramo inspirarem e curarem.</string>
+	<string key="Skin_FirstLightElven_Bow_PrimaryName">Esporos Espalhados Luminosos</string>
+	<string key="Skin_FirstLightElven_Bow_PrimaryDesc">Não deixe que o estilo elegante te engane: é extremamente poderoso.</string>
+	<string key="Skin_FirstLightElven_Spear_PrimaryName">Pináculo de Veia Dourada</string>
+	<string key="Skin_FirstLightElven_Spear_PrimaryDesc">Linhas graciosas e ouro precioso formam o bastão pontiagudo mais elegante deste lado de Bosburgo.</string>
+	<string key="Skin_FirstLightElven_Flail_PrimaryName">Inflorescência Acorrentada</string>
+	<string key="Skin_FirstLightElven_Flail_PrimaryDesc">Beleza letal na palma da sua mão e nos flancos de seus inimigos.</string>
+	<string key="Skin_FirstLightElven_FishingPole_PrimaryName">Vara de Pescar do Verdor Dourado</string>
+	<string key="Skin_FirstLightElven_AzothStaff_PrimaryName">Cetro de Azoth do Verdor Dourado</string>
+	<string key="Skin_FirstLightElven_LoggingAxe_PrimaryName">Machado Lenhador do Verdor Dourado</string>
+	<string key="Skin_FirstLightElven_Pickaxe_PrimaryName">Picareta do Verdor Dourado</string>
+	<string key="Skin_FirstLightElven_Sickle_PrimaryName">Foice do Verdor Dourado</string>
+	<string key="Skin_FirstLightElven_SkinningKnife_PrimaryName">Faca de Esfolar do Verdor Dourado</string>
+	<string key="Skin_FirstLightElven_FishingPole_Description">Nenhum peixe vai resistir a este impressionante trabalho artesanal.</string>
+	<string key="Skin_FirstLightElven_AzothStaff_Description">Uma ferramenta elegante adornada com ramo dourado e tema de videira.</string>
+	<string key="Skin_FirstLightElven_LoggingAxe_Description">Apenas para as tábuas mais extravagantes.</string>
+	<string key="Skin_FirstLightElven_Pickaxe_Description">De aparência enganosamente delicada, mas absolutamente à altura da tarefa.</string>
+	<string key="Skin_FirstLightElven_Sickle_Description">A lâmina em forma de folha lembra os próprios itens que ajudará a colher.</string>
+	<string key="Skin_FirstLightElven_SkinningKnife_Description">Alguns Peleiros preferem lâminas mais curtas, como esta, para realizar seu trabalho mais preciso.</string>
+	<string key="2hBowFirstLightT5_TransmogName">Esporos Espalhados Luminosos</string>
+	<string key="1hSwordFirstLightT5_TransmogName">Cutelo de Urtiga</string>
+	<string key="1hRoundShieldFirstLightT5_TransmogName">Rondel de Jucá</string>
+	<string key="2hSpearFirstLightT5_TransmogName">Pináculo de Veia Dourada</string>
+	<string key="2hLifeStaffFirstLightT5_TransmogName">Cana de Parreira</string>
+	<string key="1hFlailFirstLightT5_TransmogName">Inflorescência Acorrentada</string>
+	<string key="2hFishingPoleFirstLightElvenT5_TransmogName">Vara de Pescar do Verdor Dourado</string>
+	<string key="2hAzothScepterFirstLightElvenT5_TransmogName">Cetro de Azoth do Verdor Dourado</string>
+	<string key="2hLoggingAxeFirstLightElvenT5_TransmogName">Machado Lenhador do Verdor Dourado</string>
+	<string key="1hPickaxeFirstLightElvenT5_TransmogName">Picareta do Verdor Dourado</string>
+	<string key="1hSickleFirstLightElvenT5_TransmogName">Foice do Verdor Dourado</string>
+	<string key="1hSkinningKnifeFirstLightElvenT5_TransmogName">Faca de Esfolar do Verdor Dourado</string>
+	<string key="Skin_Jul2023_DSGothConch_MasterName">Oximergulhador Corrosivo</string>
+	<string key="Skin_Jul2023_DSGothSkeleton_MasterName">Profundezas Insondáveis</string>
+	<string key="Skin_Jul2023_DSGothCrab_MasterName">Caçador Pelágico</string>
+	<string key="Bundle_PR_DeepSeaCreatures_Apparel_name">Armadura do Habitante do Fundo do Mar</string>
+	<string key="Bundle_PR_DeepSeaGothic_Weapon_name">Armas do Habitante do Fundo do Mar</string>
+	<string key="Bundle_PR_DeepSeaCreatures_Apparel_description">Esbalde-se do mar cor de vinho e abrace o poder reprimido.</string>
+	<string key="Bundle_PR_DeepSeaGothic_Weapon_description">Há muito você sabe que as braças abaixo contêm maravilhas indescritíveis, agora elas descansam em suas mãos.</string>
+	<string key="CampSkin_FrontierWaste01_A_MasterName">Descanso Rústico</string>
+	<string key="CampSkin_FrontierWaste01_A_Description">Proteja-se das tempestades de poeira e sangue.</string>
+	<string key="Skin_Head_FirstLightElvenFlowingSilver_PrimaryName">Elmo Jurado em Madeira</string>
+	<string key="Skin_Chest_FirstLightElvenFlowingSilver_PrimaryName">Espaldar Jurado em Madeira</string>
+	<string key="Skin_Hands_FirstLightElvenFlowingSilver_PrimaryName">Mitenes Jurados em Madeira</string>
+	<string key="Skin_Legs_FirstLightElvenFlowingSilver_PrimaryName">Calças Juradas em Madeira</string>
+	<string key="Skin_Feet_FirstLightElvenFlowingSilver_PrimaryName">Meia-Botas Juradas em Madeira</string>
+	<string key="Skin_Head_FirstLightElvenFlowingSilver_PrimaryDesc">Persiga a selva como um fantasma, passando como um sussurro por árvores e videiras.</string>
+	<string key="Skin_Chest_FirstLightElvenFlowingSilver_PrimaryDesc">Persiga a selva como um fantasma, passando como um sussurro por árvores e videiras.</string>
+	<string key="Skin_Hands_FirstLightElvenFlowingSilver_PrimaryDesc">Persiga a selva como um fantasma, passando como um sussurro por árvores e videiras.</string>
+	<string key="Skin_Legs_FirstLightElvenFlowingSilver_PrimaryDesc">Persiga a selva como um fantasma, passando como um sussurro por árvores e videiras.</string>
+	<string key="Skin_Feet_FirstLightElvenFlowingSilver_PrimaryDesc">Persiga a selva como um fantasma, passando como um sussurro por árvores e videiras.</string>
+	<string key="Skin_Head_FirstLightElven_2_PrimaryName">Burgonet Recoberto de Prata</string>
+	<string key="Skin_Chest_FirstLightElven_2_PrimaryName">Peitoral Recoberto de Prata</string>
+	<string key="Skin_Hands_FirstLightElven_2_PrimaryName">Avambraços Recobertos de Prata</string>
+	<string key="Skin_Legs_FirstLightElven_2_PrimaryName">Coxotes Recobertos de Prata</string>
+	<string key="Skin_Feet_FirstLightElven_2_PrimaryName">Sabatons Recobertos de Prata</string>
+	<string key="Skin_Head_FirstLightElven_2_PrimaryDesc">Fique de pé, guarda firme da selva, e erga seu rosto prateado.</string>
+	<string key="Skin_Chest_FirstLightElven_2_PrimaryDesc">Fique de pé, guarda firme da selva, e erga seu rosto prateado.</string>
+	<string key="Skin_Hands_FirstLightElven_2_PrimaryDesc">Fique de pé, guarda firme da selva, e erga seu rosto prateado.</string>
+	<string key="Skin_Legs_FirstLightElven_2_PrimaryDesc">Fique de pé, guarda firme da selva, e erga seu rosto prateado.</string>
+	<string key="Skin_Feet_FirstLightElven_2_PrimaryDesc">Fique de pé, guarda firme da selva, e erga seu rosto prateado.</string>
+	<string key="Skin_Head_FirstLightElvenDeluxe1_PrimaryName">Barbute da Alvorada Verdejante</string>
+	<string key="Skin_Chest_FirstLightElvenDeluxe1_PrimaryName">Plastrão da Alvorada Verdejante</string>
+	<string key="Skin_Hands_FirstLightElvenDeluxe1_PrimaryName">Manoplas da Alvorada Verdejante</string>
+	<string key="Skin_Legs_FirstLightElvenDeluxe1_PrimaryName">Escarcelas da Alvorada Verdejante</string>
+	<string key="Skin_Feet_FirstLightElvenDeluxe1_PrimaryName">Sollerets da Alvorada Verdejante</string>
+	<string key="Skin_Head_FirstLightElvenDeluxe1_PrimaryDesc">Olhos aguçados espreitam por trás de uma máscara adornada com trepadeiras douradas: sempre observando, nunca acabando.</string>
+	<string key="Skin_Chest_FirstLightElvenDeluxe1_PrimaryDesc">Olhos aguçados espreitam por trás de uma máscara adornada com trepadeiras douradas: sempre observando, nunca acabando.</string>
+	<string key="Skin_Hands_FirstLightElvenDeluxe1_PrimaryDesc">Olhos aguçados espreitam por trás de uma máscara adornada com trepadeiras douradas: sempre observando, nunca acabando.</string>
+	<string key="Skin_Legs_FirstLightElvenDeluxe1_PrimaryDesc">Olhos aguçados espreitam por trás de uma máscara adornada com trepadeiras douradas: sempre observando, nunca acabando.</string>
+	<string key="Skin_Feet_FirstLightElvenDeluxe1_PrimaryDesc">Olhos aguçados espreitam por trás de uma máscara adornada com trepadeiras douradas: sempre observando, nunca acabando.</string>
+	<string key="Skin_Head_FirstLightElvenDeluxe2_PrimaryName" comment="Do not translate">Head FirstLightElvenDeluxe2 TEMP NAME</string>
+	<string key="Skin_Chest_FirstLightElvenDeluxe2_PrimaryName" comment="Do not translate">Chest FirstLightElvenDeluxe2 TEMP NAME</string>
+	<string key="Skin_Hands_FirstLightElvenDeluxe2_PrimaryName" comment="Do not translate">Hands FirstLightElvenDeluxe2 TEMP NAME</string>
+	<string key="Skin_Legs_FirstLightElvenDeluxe2_PrimaryName" comment="Do not translate">Legs FirstLightElvenDeluxe2 TEMP NAME</string>
+	<string key="Skin_Feet_FirstLightElvenDeluxe2_PrimaryName" comment="Do not translate">Feet FirstLightElvenDeluxe2 TEMP NAME</string>
+	<string key="Skin_Head_FirstLightElvenDeluxe2_PrimaryDesc" comment="Do not translate">Head FirstLightElvenDeluxe2 TEMP DESC</string>
+	<string key="Skin_Chest_FirstLightElvenDeluxe2_PrimaryDesc" comment="Do not translate">Chest FirstLightElvenDeluxe2 TEMP DESC</string>
+	<string key="Skin_Hands_FirstLightElvenDeluxe2_PrimaryDesc" comment="Do not translate">Hands FirstLightElvenDeluxe2 TEMP DESC</string>
+	<string key="Skin_Legs_FirstLightElvenDeluxe2_PrimaryDesc" comment="Do not translate">Legs FirstLightElvenDeluxe2 TEMP DESC</string>
+	<string key="Skin_Feet_FirstLightElvenDeluxe2_PrimaryDesc" comment="Do not translate">Feet FirstLightElvenDeluxe2 TEMP DESC</string>
+	<string key="Skin_Head_FirstLightElvenTwitch_PrimaryName">Ilírico Preso em Árvore</string>
+	<string key="Skin_Chest_FirstLightElvenTwitch_PrimaryName">Ombreiras Presas em Árvore</string>
+	<string key="Skin_Hands_FirstLightElvenTwitch_PrimaryName">Luvas Presas em Árvore</string>
+	<string key="Skin_Legs_FirstLightElvenTwitch_PrimaryName">Calças Presas em Árvore</string>
+	<string key="Skin_Feet_FirstLightElvenTwitch_PrimaryName">Botas de Montaria Presas em Árvore</string>
+	<string key="Skin_Head_FirstLightElvenTwitch_PrimaryDesc">Preso por juramento, em armadura de aço reluzente e couro fervido.</string>
+	<string key="Skin_Chest_FirstLightElvenTwitch_PrimaryDesc">Presas por juramento, em armadura de aço reluzente e couro fervido.</string>
+	<string key="Skin_Hands_FirstLightElvenTwitch_PrimaryDesc">Presas por juramento, em armadura de aço reluzente e couro fervido.</string>
+	<string key="Skin_Legs_FirstLightElvenTwitch_PrimaryDesc">Presas por juramento, em armadura de aço reluzente e couro fervido.</string>
+	<string key="Skin_Feet_FirstLightElvenTwitch_PrimaryDesc">Presas por juramento, em armadura de aço reluzente e couro fervido.</string>
+	<string key="NightveilMaskBatWing_Head_TransmogName" rel_version="Event_Halloween2023_Perm">Chiroptera’s Cowl</string>
+	<string key="NightveilMaskBranches_Head_TransmogName" rel_version="Event_Halloween2023_Perm">Druids Headdress</string>
+	<string key="NightveilMaskJaws_Head_TransmogName" rel_version="Event_Halloween2023_Perm">Necromancers Crown</string>
+	<string key="NightveilMaskSnakes_Head_TransmogName" rel_version="Event_Halloween2023_Perm">Crone Visage</string>
+	<string key="Skin_Head_mossborneheavyroots_PrimaryName">Grinalda de Madeira Sangrenta</string>
+	<string key="Skin_Chest_mossborneheavyroots_PrimaryName">Traje de Espinhos de Madeira Sangrenta</string>
+	<string key="Skin_Hands_mossborneheavyroots_PrimaryName">Avambraços de Madeira Sangrenta</string>
+	<string key="Skin_Legs_mossborneheavyroots_PrimaryName">Coxotes de Madeira Sangrenta</string>
+	<string key="Skin_Feet_mossborneheavyroots_PrimaryName">Botas de Madeira Sangrenta</string>
+	<string key="Skin_Head_mossborneheavyroots_PrimaryDesc">Caminhando com estilo na linha tênue entre simbionte e armadura.</string>
+	<string key="Skin_Chest_mossborneheavyroots_PrimaryDesc">Caminhando com estilo na linha tênue entre simbionte e armadura.</string>
+	<string key="Skin_Hands_mossborneheavyroots_PrimaryDesc">Caminhando com estilo na linha tênue entre simbionte e armadura.</string>
+	<string key="Skin_Legs_mossborneheavyroots_PrimaryDesc">Caminhando com estilo na linha tênue entre simbionte e armadura.</string>
+	<string key="Skin_Feet_mossborneheavyroots_PrimaryDesc">Caminhando com estilo na linha tênue entre simbionte e armadura.</string>
+	<string key="Oct2023_Container_PrimaryName">Baú do Ritualista</string>
+	<string key="Oct2023_Container_PrimaryDesc">O ritual que você escolhe realizar é, obviamente, uma prerrogativa sua.</string>
+	<string key="Bundle_PR_Elven_Apparel_name">Conjunto de Armadura Verdor Dourado</string>
+	<string key="Bundle_PR_Elven_Weapon_name">Conjunto de Armas Verdor Dourado</string>
+	<string key="Weapon_Elven_Shield_name">Rondel de Jucá</string>
+	<string key="Weapon_Elven_Lifestaff_name">Cana de Parreira</string>
+	<string key="Weapon_Elven_Bow_name">Esporos Espalhados Luminosos</string>
+	<string key="Weapon_Elven_Spear_name">Pináculo de Veia Dourada</string>
+	<string key="Weapon_Elven_Flail_name">Inflorescência Acorrentada</string>
+	<string key="Weapon_Elven_Longsword_name">Cutelo de Urtiga</string>
+	<string key="Apparel_FirstLightElven_TimberswornEnforcer_name">Executor Jurado em Madeira</string>
+	<string key="Apparel_FirstLightElven_SilversweptGuardian_name">Guardião Recoberto de Prata</string>
+	<string key="Apparel_FirstLightElven_VerdantDawnSentinel_name">Sentinela da Aurora Verdejante</string>
+	<string key="Bundle_Tool_Elven_name">Conjunto de Ferramentas do Verdor Dourado</string>
+	<string key="CampSkin_FirstLightElven_1_name">Mandril de Cantaria</string>
+	<string key="Emote_FireSpin_name">Dança Giratória do Fogo</string>
+	<string key="Emote_SuperHyped_name">Superanimação</string>
+	<string key="Bundle_PR_Elven_Apparel_description">Com a fúria da natureza te envolvendo, parta para explorar a natureza selvagem.</string>
+	<string key="Bundle_PR_Elven_Weapon_description">A beleza elegante e o poder bruto da natureza, tudo na palma da sua mão.</string>
+	<string key="Weapon_Elven_Shield_description">Proteção infalível em um pacote surpreendentemente elegante.</string>
+	<string key="Weapon_Elven_Lifestaff_description">Deixe a videira e o ramo inspirarem e curarem.</string>
+	<string key="Weapon_Elven_Bow_description">Não deixe que o estilo elegante te engane: é extremamente poderoso.</string>
+	<string key="Weapon_Elven_Spear_description">Linhas graciosas e ouro precioso formam o bastão pontiagudo mais elegante deste lado de Bosburgo.</string>
+	<string key="Weapon_Elven_Flail_description">Beleza letal na palma da sua mão e nos flancos de seus inimigos.</string>
+	<string key="Weapon_Elven_Longsword_description">Faça o que fizer, garanta que o alvo não seja você.</string>
+	<string key="Apparel_FirstLightElven_TimberswornEnforcer_description">Persiga a selva como um fantasma, passando como um sussurro por árvores e videiras.</string>
+	<string key="Apparel_FirstLightElven_SilversweptGuardian_description">Fique de pé, guarda firme da selva, e erga seu rosto prateado.</string>
+	<string key="Apparel_FirstLightElven_VerdantDawnSentinel_description">Olhos aguçados espreitam por trás de uma máscara adornada com trepadeiras douradas: sempre observando, nunca acabando.</string>
+	<string key="Bundle_Tool_Elven_description">A natureza dá e tira... mas essas ferramentas podem ajudar você a equilibrar a balança.</string>
+	<string key="CampSkin_FirstLightElven_1_description">Descanse entre os elementos e deleite-se com segurança no esplendor do mundo ao seu redor.</string>
+	<string key="Emote_FireSpin_description">Batutas flamejantes? É de tirar o fôlego.</string>
+	<string key="Emote_SuperHyped_description">Para aqueles momentos em que VOCÊ é a animação.</string>
+	<string key="Apparel_Seance_TheProphet_name">O Profeta</string>
+	<string key="Apparel_Seance_TheHayMan_name">O Espantalho</string>
+	<string key="Apparel_Seance_TheFerryman_name">O Barqueiro</string>
+	<string key="Weapon_Seance_Greataxe_name">Ossuário do Bárbaro</string>
+	<string key="Weapon_Seance_Greatsword_name">Ossuário do Guerreiro</string>
+	<string key="Weapon_Seance_Bow_name">Ossuário do Atirador</string>
+	<string key="Weapon_Seance_Blunderbuss_name">Ossuário do Demolicionista</string>
+	<string key="Weapon_Seance_FireStaff_name">Ossuário do Piromante</string>
+	<string key="Weapon_Seance_Shield_name">Ossuário do Guardião</string>
+	<string key="CampSkin_Seance_1_name">Cabana do Ritual</string>
+	<string key="Bundle_PR_Seance_Apparel_name">Conjunto de Armadura Presságios da Meia-noite</string>
+	<string key="Bundle_PR_Seance_Weapon_name">Conjunto de Armas Ossuário Fadado</string>
+	<string key="Apparel_Seance_TheProphet_description">Eu sou tudo e nada. Estou em todo lugar e em lugar nenhum. Eu sou o único e agora sou você.</string>
+	<string key="Apparel_Seance_TheHayMan_description">Nenhum corvo teme o que os sussurros chamam de Espantalho, pois estão tão enredados na morte quanto essa criatura.</string>
+	<string key="Apparel_Seance_TheFerryman_description">Só nos resta torcer para que nunca avistemos um navio flutuante em Aeternum, pois certamente seria o de Charon e isso com certeza seria o Submundo.</string>
+	<string key="Weapon_Seance_Greataxe_description">Inflexível até mesmo para a morte. Que descanse em paz.</string>
+	<string key="Weapon_Seance_Greatsword_description">Titãs na vida e além. Que descanse em paz.</string>
+	<string key="Weapon_Seance_Bow_description">Mais verdadeiro do que seu objetivo, apenas seu amor. Que descanse em paz.</string>
+	<string key="Weapon_Seance_Blunderbuss_description">Sempre quis acabar em grande estilo. Que descanse em paz.</string>
+	<string key="Weapon_Seance_FireStaff_description">Sua chama arde eterna e sempre brilhante. Que descanse em paz.</string>
+	<string key="Weapon_Seance_Shield_description">Para sempre um defensor contra o mal. Que descanse em paz.</string>
+	<string key="CampSkin_Seance_1_description">Muitos entram com visões de fortuna. Poucos conseguem sair, transformados em nada além de ossos e pó.</string>
+	<string key="Bundle_PR_Seance_Apparel_description">Quando a lua surge e o véu se esvai, eles rondam e chiam entre as sombras.</string>
+	<string key="Bundle_PR_Seance_Weapon_description">Lendas do passado emprestam poder na morte, assim como fizeram em vida.</string>
+	<string key="Token_PremiumEmote_WitchBroom_name">Vassoura da Bruxa</string>
+	<string key="ui_Emote_GravePeaceSign_name">Sinal de Paz da Lápide</string>
+	<string key="ui_Emote_Walk_Trex_name">Andar de Tiranossauro</string>
+	<string key="Token_PremiumEmote_WitchBroom_description">Voe, coisa linda!</string>
+	<string key="ui_Emote_GravePeaceSign_description">Para quando você matar seu parceiro de duelo “acidentalmente”.</string>
+	<string key="ui_Emote_Walk_Trex_description">Hora de todo mundo imitar o dinossauro. </string>
 </resources>
 

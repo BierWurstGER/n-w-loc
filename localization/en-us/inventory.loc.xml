@@ -1,5 +1,6 @@
 <resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<string key="inv_DroppedItems">Dropped Items</string>
+	<string key="inv_Dropped">Dropped</string>
 	<string key="inv_Storage">Storage</string>
 	<string key="inv_itemDamaged">{num} item(s) are heavily damaged. You should repair it soon.</string>
 	<string key="inv_itemBroken">{num} item(s) have been broken</string>
@@ -24,6 +25,7 @@
 	<string key="inv_outpostrush">Outpost Rush</string>
 	<string key="inv_pvparenas">PvP Arenas</string>
 	<string key="inv_runes" rel_version="Feature_Heartgems">Runes</string>
+	<string key="inv_mountitem" rel_version="Feature_Mounts">Mounts</string>
 	<string key="inv_crafting_modifiers">Craft Mods</string>
 	<string key="inv_repair_kit_count">{count} Repair Kit</string>
 	<string key="inv_repair_kits">Repair Kits</string>
@@ -70,18 +72,21 @@
 	\n• Outgoing Healing: +30%
 	\n• Your dodge is a quick roll. 
 	\n• Dodge Stamina Cost: {[StaminaCosts_Player.Dodge_Roll_Fast.StaminaCost]}
-	\n• For {[StatusEffects_Common.Sprint_Delay_Combat_Timer_Light.BaseDuration]}s after taking a melee hit, dodge distance is reduced by 20% and you cannot run.</string>
+	\n• For {[StatusEffects_Common.Sprint_Delay_Combat_Timer_Light.BaseDuration]}s after taking a melee hit, dodge distance is reduced by 20% and you cannot run.
+	\n• PvP Crit Damage Taken: -{[GlobalAbilityTable.EquipLoad_CritDmgReduction_Light.CritDamageReduction * 100]}%	</string>
 	<string key="inv_equipLoadNormalTooltip">• Base Damage: +{[Type_EncumbranceData.Player.EquipLoadDamageMultNormal * 100]}% 
 	\n• Incoming Crowd Control Duration: -10%
 	\n• Your dodge is a quick hop.
 	\n• Dodge Stamina Cost: {[StaminaCosts_Player.Dodge_Roll.StaminaCost]}
-	\n• For {[StatusEffects_Common.Sprint_Delay_Combat_Timer_Medium.BaseDuration]}s after taking a melee hit, dodge distance is reduced by 20% and you cannot run.</string>
+	\n• For {[StatusEffects_Common.Sprint_Delay_Combat_Timer_Medium.BaseDuration]}s after taking a melee hit, dodge distance is reduced by 20% and you cannot run.
+	\n• PvP Crit Damage Taken: -{[GlobalAbilityTable.EquipLoad_CritDmgReduction_Medium.CritDamageReduction * 100]}%</string>
 	<string key="inv_equipLoadSlowTooltip">• Block Stability: +15%
 	\n• Incoming Crowd Control Duration: -20%
 	\n• Outgoing Healing: -30%
 	\n• Your dodge is a directional step. 
 	\n• Dodge Stamina Cost: {[StaminaCosts_Player.Dodge_Roll_Slow.StaminaCost]}
-	\n• For {[StatusEffects_Common.Sprint_Delay_Combat_Timer_Heavy.BaseDuration]}s after taking a melee hit, you cannot run.</string>
+	\n• For {[StatusEffects_Common.Sprint_Delay_Combat_Timer_Heavy.BaseDuration]}s after taking a melee hit, you cannot run.
+	\n• PvP Crit Damage Taken: -{[GlobalAbilityTable.EquipLoad_CritDmgReduction_Heavy.CritDamageReduction * 100]}%</string>
 	<string key="inv_equipLoadOverburdenedTooltip">When you exceed your maximum Equip Load, you cannot dodge, run, or use abilities. You should unequip some items.</string>
 	<string key="inv_equipLoadEncumberedTooltip">If the inventory weight limit is exceeded, you are encumbered, which restricts your movement and actions. You also lose more stamina while blocking.</string>
 	<string key="inv_equipLoadOverburdened_Tooltip" comment="This tooltip is for the status effect icon near vitals">You have equipped more than your maximum equip load. You cannot dodge or run, and you suffer a significant penalty to stamina recharge rate. You should unequip some items.</string>
@@ -112,6 +117,7 @@
 	<string key="inv_repairparts_onlyrepairparts">Salvaging this item will return {numRepairParts} Repair Parts.</string>
 	<string key="inv_repairparts_onlyrepairparts_withcoin">Salvaging this item will return {numRepairParts} Repair Parts and {coinAmount}.</string>
 	<string key="inv_coin_atlimit">&lt;font color="#f25d5d"&gt;You are at your Coin Cap.&lt;/font&gt;</string>
+	<string key="inv_notification_cannot_use_during_combat">Cannot use consumables from Inventory while in combat! Equip to Quickslots instead.</string>
 	<string key="salvage_notification_obtained_1">Obtained {entry1}</string>
 	<string key="salvage_notification_obtained_2">Obtained {entry1} and {entry2}</string>
 	<string key="salvage_notification_obtained_3">Obtained {entry1}, {entry2} and {entry3}</string>
@@ -129,7 +135,7 @@
 	<string key="fc_campingSiteLvl2">Camping Site Lvl II</string>
 	<string key="fc_campingSiteLvl3">Camping Site Lvl III</string>
 	<string key="fc_campingSiteLvl4">Camping Site Lvl IV</string>
-	<string key="fc_breakCampNotification">Hold [{value}] to unbind from camp</string>
+	<string key="fc_breakCampNotification">Hold {$ui.makeCampOn$} to unbind from camp.</string>
 	<string key="fc_makecamp">Make Camp</string>
 	<string key="fc_breakcamp">Break Camp</string>
 	<string key="fc_weaponsectiontitle">Weapons &amp; Tools</string>
@@ -141,8 +147,8 @@
 	<string key="fc_fieldcrafting">Field Crafting</string>
 	<string key="fc_distance">Distance to camp:</string>
 	<string key="fc_craftingErrorMessage">You do not have the resources to craft this item.</string>
-	<string key="fc_campBroken">Unbound From Camp</string>
-	<string key="ui_currency_self">Can't Transfer Currency to Self</string>
+	<string key="fc_campBroken">Unbound from camp.</string>
+	<string key="ui_currency_self">Can't transfer currency to self.</string>
 	<string key="ui_currency_nameinvalid">Player Name Invalid</string>
 	<string key="ui_currency_namevalid">Player Name Valid</string>
 	<string key="ui_currency_offline">Player Offline</string>
@@ -164,10 +170,10 @@
 	<string key="ui_box_opening_open_another_single">Open Next</string>
 	<string key="ui_box_opening_max_items_reached">+ {quantity} more items</string>
 	<string key="ui_dropall">Drop all</string>
-	<string key="ui_dropall_in_trade">Can't drop items while trading</string>
+	<string key="ui_dropall_in_trade">Can't drop items while trading.</string>
 	<string key="ui_transfer_all_filtered">Cannot move all items in this section while items are filtered.</string>
-	<string key="ui_storeall">Move all to storage shed</string>
-	<string key="ui_filterDescription">&lt;font color="#a6a6a6"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Filter by&lt;/font&gt;&lt;/font&gt;\n• Item name\n• Minimum Gear Score (ex: 100)\n• Minimum Tier (ex: T1)\n\n&lt;font color="#a6a6a6"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Examples&lt;/font&gt;&lt;/font&gt;\n• Sword 200\n• Axe T1\n• Pick -iron</string>
+	<string key="ui_storeall">Move all to storage shed.</string>
+	<string key="ui_filterDescription">&lt;font color={headerColor} face="lyshineui/fonts/Nimbus_Bold.font"&gt;HOW TO USE ITEM FILTER&lt;/font&gt;\n\n&lt;font color={subheaderColor} face="lyshineui/fonts/Nimbus_semibold.font"&gt;Filter by&lt;/font&gt;\n• Item Name (ex: Sword -Axe)\n• Perks/Gems (ex: [Ward] -[Luck])\n• Minimum Gear Score (ex: 100)\n• Minimum Tier (ex: T1)\n\n&lt;font color={subheaderColor} face="lyshineui/fonts/Nimbus_semibold.font"&gt;Examples&lt;/font&gt;\n• Sword 200\n• Axe T1\n• Pick -iron\n• Musket [Electrified]</string>
 	<string key="ui_filterText">Search</string>
 	<string key="ui_filterHeader">Filter item</string>
 	<string key="ui_sort">Sort</string>
@@ -179,13 +185,15 @@
 	<string key="ui_sort_gearscore_asc">&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Sort by &lt;font color="#ebe3d6"&gt;Gear Score:&lt;/font&gt;&lt;/font&gt; Low - High</string>
 	<string key="ui_sort_chrono">&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Sort by &lt;font color="#ebe3d6"&gt;Time:&lt;/font&gt;&lt;/font&gt; Newest - Oldest</string>
 	<string key="ui_sort_chrono_asc">&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Sort by &lt;font color="#ebe3d6"&gt;Time:&lt;/font&gt;&lt;/font&gt; Oldest - Newest</string>
-	<string key="inv_equipmentstatrow_modifiertemplate">({baseValue} &lt;font color={modifierColor}&gt;{operator} {modifierValue}&lt;/font&gt;)</string>
-	<string key="ui_attributemodifier_pending_value">(+{pendingValue})</string>
-	<string key="ui_attributemodifier_tooltip">&lt;font face="lyshineui/fonts/Nimbus_semibold.font" color={color}&gt;{attributeValue} {attributeName}&lt;/font&gt;</string>
-	<string key="ui_attributemodifier_tooltip_committed">&lt;font face="lyshineui/fonts/Nimbus_regular.font" color={color}&gt;Assigned: {value}&lt;/font&gt;</string>
-	<string key="ui_attributemodifier_tooltip_equipment">&lt;font face="lyshineui/fonts/Nimbus_regular.font" color={color}&gt;Equipment: {value}&lt;/font&gt;</string>
-	<string key="ui_attributemodifier_tooltip_buffs">&lt;font face="lyshineui/fonts/Nimbus_regular.font" color={color}&gt;Item buffs: &lt;/font&gt;&lt;font face="lyshineui/fonts/Nimbus_regular.font" color={modifierColor}&gt;{modifierOperator}{value}&lt;/font&gt;&lt;font face="lyshineui/fonts/Nimbus_regular.font" color={color}&gt;&lt;/font&gt;</string>
-	<string key="ui_attributemodifier_tooltip_pending">&lt;font face="lyshineui/fonts/Nimbus_regular.font" color={color}&gt;Pending: {value}&lt;/font&gt;</string>
+	<string key="inv_equipmentstatrow_modifiertemplate">{baseValue} &lt;font color={modifierColor}&gt;{operator} {modifierValue}&lt;/font&gt;</string>
+	<string key="ui_attributemodifier_pending_value">+{pendingValue}</string>
+	<string key="ui_attributemodifier_pending_value_max">+{pendingValue} | MAX</string>
+	<string key="ui_attributemodifier_at_max">MAX: {baseValue}</string>
+	<string key="ui_attributemodifier_tooltip">&lt;font face="lyshineui/fonts/Nimbus_semibold.font" color={color}&gt;{attributeValue}&lt;/font&gt;&lt;font face="lyshineui/fonts/Nimbus_medium.font" color={colorAttributeMax}&gt;/{attributeMax}&lt;/font&gt;</string>
+	<string key="ui_attributemodifier_tooltip_committed">&lt;font face="lyshineui/fonts/Nimbus_medium.font" color={color}&gt;Assigned: {value}&lt;/font&gt;</string>
+	<string key="ui_attributemodifier_tooltip_equipment">&lt;font face="lyshineui/fonts/Nimbus_medium.font" color={color}&gt;Equipment: {value}&lt;/font&gt;</string>
+	<string key="ui_attributemodifier_tooltip_buffs">&lt;font face="lyshineui/fonts/Nimbus_medium.font" color={color}&gt;Item buffs: &lt;/font&gt;&lt;font face="lyshineui/fonts/Nimbus_medium.font" color={modifierColor}&gt;{modifierOperator}{value}&lt;/font&gt;&lt;font face="lyshineui/fonts/Nimbus_regular.font" color={color}&gt;&lt;/font&gt;</string>
+	<string key="ui_attributemodifier_tooltip_pending">&lt;font face="lyshineui/fonts/Nimbus_medium.font" color={color}&gt;Pending: {value}&lt;/font&gt;</string>
 	<string key="ui_attributemodifier_required_points">Required points:</string>
 	<string key="ui_physical_defense_short">PHYS</string>
 	<string key="ui_physical_defense_full">Physical Damage Resistance</string>
@@ -238,8 +246,10 @@
 	<string key="loadout_notification_itemadd_failure_existing_slot" rel_version="Feature_Gear_Set_Storage">Could not add item to {loadoutName}, item is already in this slot.</string>
 	<string key="loadout_notification_itemaddall_success" rel_version="Feature_Gear_Set_Storage">Item added to all Gear Sets</string>
 	<string key="loadout_notification_itemaddall_failure" rel_version="Feature_Gear_Set_Storage">Could not add item to all Gear Sets</string>
+	<string key="loadout_notification_add_artifact_to_loadout_failure" rel_version="Feature_Artifacts">Couldn't add artifact to Gear Set, can only have 1 artifact of each item type in Gear Set.</string>
 	<string key="loadout_notification_switch_loadout_on_cooldown" rel_version="Feature_Gear_Set_Storage">You must wait {timeRemaining} before you can switch Gear Sets</string>
 	<string key="loadout_tutorial" rel_version="Feature_Gear_Set_Storage">Gear Sets Available!\nQuickly create and swap Gear Sets for any activity.</string>
+	<string key="loadout_notification_itemremove_space_failure" rel_version="Feature_Gear_Set_Storage">Couldn't return gear set items to inventory due to inadequate space.</string>
 	<string key="loadout_notification_return_space_fail" rel_version="Feature_Gear_Set_Storage">Couldn't return gear set items to inventory due to inadequate space. Please clear space and log out for several minutes to retry.</string>
 	<string key="incompatible_elemental_perk">Incompatible elemental perk</string>
 	<string key="incompatible_socket_item">This cannot be socketed into an item of this type</string>
@@ -252,6 +262,11 @@
 	<string key="ui_effect_failed_MultipleFromSource">Unable to apply redundant effects</string>
 	<string key="ui_effect_failed_AntirequisiteActive">Unable to apply due to competing effect: {competingEffect}</string>
 	<string key="ui_effect_failed_AntirequisiteActive_Multiple">Unable to apply due to multiple competing effects</string>
+	<string key="ui_effect_failed_NotMounted" rel_version="Feature_Mounts">Unable to apply mounted effect</string>
 	<string key="ui_effect_failed_Success">Available effect</string>
+	<string key="perktooltips_stacks">Perk Stacks: </string>
+	<string key="perktooltips_stacks_over_limit">(over max)</string>
+	<string key="perktooltips_stacks_over_limit_disabled">(disabled)</string>
+	<string key="perktooltips_max_stacks">Perk Max Stacks: </string>
 </resources>
 

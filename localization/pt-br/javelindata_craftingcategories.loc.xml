@@ -203,8 +203,10 @@
 	<string key="HousingTrdG_Cabinets_GroupName" comment="Housing Furniture - Trading Post - TradingGroup">Gaveteiros</string>
 	<string key="HousingTrdG_Cabinets_GroupDesc" comment="Housing Furniture - Trading Post - TradingGroup">Gaveteiros de Alojamento</string>
 	<string key="HousingTrdG_Veg_GroupName" comment="Housing Furniture - Trading Post - TradingGroup">Vegetação</string>
-	<string key="1hHatchet_GroupDesc">Uma arma diversificada que permite ataques de arremesso a distância ou ataques rápidos de curto alcance. Ideal para combate corpo a corpo agressivo e de empenho total ou para combate tático a distância média.\n\n•Ataque Leve: Causa {[DamageTable.Hatchet_Damage_PrimaryAttack.DmgCoef * 100]}% de Dano Cortante.\n•Finalizador Leve: Causa {[DamageTable.Hatchet_Damage_PrimaryAttack_Ender.DmgCoef * 100]}% de Dano Cortante.\n•Ataque Pesado: Causa {[DamageTable.Hatchet_Damage_HeavyAttack.DmgCoef * 100]}% de Dano Cortante.\n•Ataque Pesado Carregado: Causa {[DamageTable.Hatchet_Damage_HeavyAttack_Charged.DmgCoef * 100]}% de Dano Cortante.</string>
+	<string key="1hFlail_GroupName" rel_version="Weapon_Flail">Açoite</string>
+	<string key="1hFlail_GroupDesc" rel_version="Weapon_Flail">O açoite é uma arma dinâmica que usa uma corrente longa para estender o alcance dos seus ataques e se recolhe à empunhadura quando não usado. \n\nO uso mais eficaz do açoite é o de suporte a aliados. Mas ele faz isso de forma agressiva, fazendo com que os efeitos se apliquem a aliados em combate de curta distância. \n\nO açoite usa uma variedade de ataques físicos e de magia arcana, o que pode reduzir o dano causado, mas sua natureza de opressão, suporte e defesa permite que o usuário se destaque como uma força temível em uma luta.\n\n•Ataques Leves: causam {[DamageTable.1H_Flail_LightAttack1.DmgCoef * 100]}% de Dano Contundente.\n•Ataques Pesados: causam {[DamageTable.1H_Flail_HeavyAttackChain_1.DmgCoef * 100]}% de Dano Contundente.</string>
 	<string key="1hHatchet_GroupName">Machadinhas Confeccionadas</string>
+	<string key="1hHatchet_GroupDesc">Uma arma diversificada que permite ataques de arremesso a distância ou ataques rápidos de curto alcance. Ideal para combate corpo a corpo agressivo e de empenho total ou para combate tático a distância média.\n\n•Ataque Leve: Causa {[DamageTable.Hatchet_Damage_PrimaryAttack.DmgCoef * 100]}% de Dano Cortante.\n•Finalizador Leve: Causa {[DamageTable.Hatchet_Damage_PrimaryAttack_Ender.DmgCoef * 100]}% de Dano Cortante.\n•Ataque Pesado: Causa {[DamageTable.Hatchet_Damage_HeavyAttack.DmgCoef * 100]}% de Dano Cortante.\n•Ataque Pesado Carregado: Causa {[DamageTable.Hatchet_Damage_HeavyAttack_Charged.DmgCoef * 100]}% de Dano Cortante.</string>
 	<string key="1hHatchetAngryEarth_GroupName">Machadinhas Primitivas</string>
 	<string key="1hHatchetB_GroupName">Machadinhas de Ferro Frio</string>
 	<string key="1hHatchetBeast_GroupName">Machadinhas Anciãs</string>
@@ -693,6 +695,7 @@
 	<string key="CategoryData_Shields">Escudos</string>
 	<string key="CategoryData_ShieldsKite">Escudos Ogivais</string>
 	<string key="CategoryData_ShieldsRound">Escudos Circulares</string>
+	<string key="CategoryData_MountAttachments" rel_version="Feature_Mounts">Acréscimos de Montaria</string>
 	<string key="CategoryData_shots">Cartuchos</string>
 	<string key="CategoryData_SiegeTools">Itens de Cerco</string>
 	<string key="CategoryData_SlotChest">Proteção de Peito</string>
@@ -863,7 +866,7 @@
 	<string key="DungeonReps8_GroupName">Réplicas de Enéade</string>
 	<string key="DungeonReps9_GroupName">Réplicas do Coração da Tempestade</string>
 	<string key="DungeonShields_GroupName">Escudos de Expedição</string>
-	<string key="DungeonReps12_GroupName">Recompensas Únicas de Expedição</string>
+	<string key="DungeonReps12_GroupName" rel_version="Expedition_FirstLight_01">Réplicas da Garra de Cristal</string>
 	<string key="Dye1_GroupDesc">Confeccione um dos diversos tons da Tintura Vermelha.</string>
 	<string key="Dye1_GroupName">Tintura Vermelha</string>
 	<string key="Dye10_GroupDesc">Tintura Úmbria para sua armadura.</string>
@@ -1407,8 +1410,8 @@
 	<string key="ModsUncommon_GroupName">Mods Incomuns</string>
 	<string key="MoonstoneCut_GroupDesc">Gemas de Pedra Lunar Lapidadas e Polidas. Podem ser transformadas em joias para aumentar Força e Foco ou fixadas em equipamentos para fornecer as vantagens Exultante e Proteção de Corte.</string>
 	<string key="MoonstoneCut_GroupName">Pedra Lunar Lapidada</string>
-	<string key="MusketA_GroupDesc">Uma arma a distância que dispara cartuchos de dano alto. Ideal para manter alvos distantes e para combater a distância com um benefício alto para uma mira precisa.\n\n•Ataque Padrão: Causa {[DamageTable.MusketAttack1.DmgCoef * 100]}% de Dano Perfurante.</string>
-	<string key="Blunderbuss_GroupDesc" rel_version="Weapon_Blunderbuss">Uma arma a distância que dispara 6 projéteis em uma única explosão. Ideal para manter a pressão sobre alvos corpo a corpo e chegar com tudo para cima de alvos a distância.\n\n•Ataque Padrão: Causa {[DamageTable.Blunderbuss_Primary_Attack.DmgCoef * 100]}% de Dano Perfurante por projétil.</string>
+	<string key="MusketA_GroupDesc">Uma arma a distância que dispara cartuchos de dano alto. Ideal para manter os alvos distantes com um alto retorno de precisão.\n\n• Ataque Padrão: Causa {[DamageTable.MusketAttack1.DmgCoef * 100]}% de Dano Perfurante.</string>
+	<string key="Blunderbuss_GroupDesc" rel_version="Weapon_Blunderbuss">Uma arma a distância que dispara 6 projéteis em uma única explosão. Ideal para manter a pressão sobre alvos corpo a corpo e chegar com tudo para cima de alvos a distância.\n\n•Ataque Padrão: Causa {[DamageTable.Blunderbuss_Primary_Attack.DmgCoef * 100]}% de Dano Perfurante por projétil (total de {[DamageTable.Blunderbuss_Primary_Attack_TooltipValue.DmgCoef * 100]}% para os 6 projéteis).</string>
 	<string key="MusketA_GroupName">Mosquete</string>
 	<string key="Muskets_GroupName">Mosquetes</string>
 	<string key="nut_GroupName">Castanhas</string>
@@ -1926,6 +1929,7 @@
 	<string key="UniqueDungeonReps8_GroupName">Réplicas Únicas da Enéade</string>
 	<string key="UniqueDungeonReps9_GroupName">Réplicas Únicas do Coração da Tempestade</string>
 	<string key="UniqueDungeonReps11_GroupName">Réplicas Únicas de Cracas e Pólvora Preta</string>
+	<string key="UniqueDungeonReps12_GroupName" rel_version="Expedition_FirstLight_01">Réplicas Únicas das Cavernas da Garra de Cristal</string>
 	<string key="HideT5_GroupName">Pele de Escala 5</string>
 	<string key="CategoryData_ArmorHeavy">Armadura Pesada</string>
 	<string key="CategoryData_ArmorMedium">Armadura Média</string>
@@ -1940,8 +1944,8 @@
 	<string key="ScarabEarrings_GroupName">Brincos: Escaravelho Dourado</string>
 	<string key="ScarabMeleeWeapons_GroupName">Armas Corpo a Corpo: Escaravelho Dourado</string>
 	<string key="ScarabMagicStaves_GroupName">Bastões Mágicos: Escaravelho Dourado</string>
-	<string key="ScarabStaffFire_GroupName">Bastões Flamejantes: Escaravelho Dourado</string>
-	<string key="ScarabStaffLife_GroupName">Bastões de Gelo: Escaravelho Dourado</string>
+	<string key="ScarabStaffFire_GroupName">Bastões Flamejantes - Escaravelho Dourado</string>
+	<string key="ScarabStaffLife_GroupName">Bastões Vitais - Escaravelho Dourado</string>
 	<string key="ScarabGauntletIce_GroupName">Manoplas de Gelo: Escaravelho Dourado</string>
 	<string key="ScarabGauntletVoid_GroupName">Manoplas Imateriais: Escaravelho Dourado</string>
 	<string key="ScarabRangedWeapons_GroupName">Armas de Longo Alcance: Escaravelho Dourado</string>
@@ -1959,5 +1963,48 @@
 	<string key="CoatingAeternian_GroupDesc" rel_version="Season_1_Perm">Apenas PvE: Revestimentos que aumentam o dano contra Humanos (que não são Perdidos ou Corrompidos).</string>
 	<string key="CoatingAeternian_GroupName" rel_version="Season_1_Perm">Revestimento de Humano</string>
 	<string key="OverchargedCasts_GroupName">Moldes de Gipsita Sobrecarregados</string>
+	<string key="PVPReplicas_GroupName">Réplicas PvP</string>
+	<string key="PVPReplicaWeapon_GroupName">Réplicas de Armas Brutais</string>
+	<string key="PVPReplicaLightArmor_GroupName">Réplicas de Armaduras Leves Brutais</string>
+	<string key="PVPReplicaMediumArmor_GroupName">Réplicas de Armaduras Médias Brutais</string>
+	<string key="PVPReplicaHeavyArmor_GroupName">Réplicas de Armaduras Pesadas Brutais</string>
+	<string key="TrialCrafting_GroupName" rel_version="Season_2_Perm">Confecção de Teste</string>
+	<string key="TheHatchery_GroupName" rel_version="Season_2_Perm">A Incubadora</string>
+	<string key="GypsumLegendaryCasts_GroupName" rel_version="Season_2_Perm">Moldes de Gipsita Lendários</string>
+	<string key="PatternWeapon_GroupName">Padrões de Arma</string>
+	<string key="PatternArmorHeavy_GroupName" rel_version="Season_2_Perm">Padrões de Armadura Pesada</string>
+	<string key="PatternArmorMedium_GroupName" rel_version="Season_2_Perm">Padrões de Armadura Média</string>
+	<string key="PatternArmorLight_GroupName" rel_version="Season_2_Perm">Padrões de Armadura Leve</string>
+	<string key="TrialNamedReplicas_GroupName" rel_version="Season_2_Perm">Réplicas de Prova de Elite</string>
+	<string key="UniqueEliteTrialReplicas1_GroupName" rel_version="Season_2_Perm">Réplicas Únicas da Prova do Verme da Areia</string>
+	<string key="Spores_GroupName" rel_version="Territory_FirstLight_Spores">Esporos</string>
+	<string key="GatherSpores_GroupName" rel_version="Territory_FirstLight_Spores">Esporos Sintonizados para Coleta</string>
+	<string key="LootSpores_GroupName" rel_version="Territory_FirstLight_Spores">Esporos Sintonizados para Espólio</string>
+	<string key="WardSpores_GroupName" rel_version="Territory_FirstLight_Spores">Esporos Sintonizados para Proteção</string>
+	<string key="BaneSpores_GroupName" rel_version="Territory_FirstLight_Spores">Esporos Sintonizados para Ruína</string>
+	<string key="SOTS_GroupName" rel_version="Territory_FirstLight_Spores">Segredos dos Esporos</string>
+	<string key="DimensionalArtifacts_GroupName">Artefatos Dimensionais</string>
+	<string key="DimensionalTether_GroupName">Conexão Dimensional</string>
+	<string key="Flail_GroupName" rel_version="Weapon_Flail">Açoite</string>
+	<string key="ScarabFlail_GroupName" rel_version="Weapon_Flail">Açoite: Escaravelho Dourado</string>
+	<string key="Artifacts_GroupName" rel_version="Territory_FirstLight">Artefatos</string>
+	<string key="PrismaticMeleeWeapons_GroupName" rel_version="Territory_FirstLight">Armas Corpo a Corpo: Escaravelho Prismático</string>
+	<string key="PrismaticRangedWeapons_GroupName" rel_version="Territory_FirstLight">Armas de Longo Alcance: Escaravelho Prismático</string>
+	<string key="PrismaticStaffFire_GroupName" rel_version="Territory_FirstLight">Bastão Flamejante: Escaravelho Prismático</string>
+	<string key="PrismaticStaffLife_GroupName" rel_version="Territory_FirstLight">Bastão Vital: Escaravelho Prismático</string>
+	<string key="PrismaticGauntletIce_GroupName" rel_version="Territory_FirstLight">Manopla de Gelo: Escaravelho Prismático</string>
+	<string key="PrismaticGauntletVoid_GroupName" rel_version="Territory_FirstLight">Manopla Imaterial: Escaravelho Prismático</string>
+	<string key="PrismaticFlail_GroupName" rel_version="Territory_FirstLight">Açoite: Escaravelho Prismático</string>
+	<string key="PrismaticArmorPlate_GroupName" rel_version="Territory_FirstLight">Armadura Pesada: Escaravelho Prismático</string>
+	<string key="PrismaticArmorFur_GroupName" rel_version="Territory_FirstLight">Armadura Média: Escaravelho Prismático</string>
+	<string key="PrismaticArmorCloth_GroupName" rel_version="Territory_FirstLight">Armadura Leve: Escaravelho Prismático</string>
+	<string key="LeatherT52_GroupName">Couro de Escala 5 (Raro)</string>
+	<string key="LeatherT53_GroupName">Couro Prismático</string>
+	<string key="MetalT52_GroupName">Lingote de Escala 5 (Raro)</string>
+	<string key="MetalT53_GroupName">Lingote Prismático</string>
+	<string key="ClothT52_GroupName">Tecido de Escala 5 (Raro)</string>
+	<string key="ClothT53_GroupName">Tecido Prismático</string>
+	<string key="TimberT52_GroupName">Tábua de Escala 5 (Rara)</string>
+	<string key="TimberT53_GroupName">Tábua Prismática</string>
 </resources>
 

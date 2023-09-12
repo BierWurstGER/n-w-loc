@@ -2,8 +2,8 @@
 	<string key="mm_randomizetitle">Advertencia</string>
 	<string key="mm_randomizewarning">La aleatorización de tu personaje provocará que los cambios que realizaste se pierdan. ¿Confirmas que quieres aleatorizar a tu personaje?</string>
 	<string key="mm_deletechartitle">Eliminar personaje</string>
-	<string key="mm_deletecharwarning">&lt;font color="#ffffff"&gt;¿Confirmas que quieres eliminar a {characterName}?\n\nEsta acción no se puede deshacer. Perderás todos los objetos y el progreso conseguido con este personaje.\n\nDespués de eliminar el personaje, tendrás &lt;font color={highlightColor}&gt;7 días&lt;/font&gt; para comunicarte con atención al cliente y restablecerlo.&lt;/font&gt;\n&lt;font color="#cccccc" face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt;(Conservarás los objetos comprados).&lt;/font&gt;</string>
-	<string key="mm_deletecharwarning_serverfull">&lt;font color="#ffffff"&gt;¿Confirmas que quieres eliminar a {characterName}?\n\nEsta acción no se puede deshacer. Perderás todos los objetos y el progreso conseguido con este personaje.\n\nDespués de eliminar el personaje, tendrás &lt;font color={highlightColor}&gt;7 días&lt;/font&gt; para comunicarte con atención al cliente y restablecerlo.&lt;/font&gt;\n&lt;font color="#cccccc" face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt;(Conservarás los objetos comprados).&lt;/font&gt; \n\n &lt;font color="#ff6b6b"&gt; {worldName} está lleno y no es posible crear ni transferir personajes.&lt;/font&gt;</string>
+	<string key="mm_deletecharwarning">¿Seguro que quieres eliminar &lt;font color={highlightColor}&gt;{characterName}&lt;/font&gt;?\n\nConservarás los objetos comprados, pero perderás todos los demás objetos y el progreso conseguido con este personaje. Una vez eliminado, solo puedes restaurarlo comunicándote con atención al cliente dentro de los próximos &lt;font color={highlightColor}&gt;7 días&lt;/font&gt;.</string>
+	<string key="mm_deletecharwarning_serverfull">¿Seguro que quieres eliminar &lt;font color={highlightColor}&gt;{characterName}&lt;/font&gt;?\n\nConservarás los objetos comprados, pero perderás todos los demás objetos y el progreso conseguido con este personaje. Una vez eliminado, solo puedes restaurarlo comunicándote con atención al cliente dentro de los próximos &lt;font color={highlightColor}&gt;7 días&lt;/font&gt;.\n\n&lt;font color={highlightColor}&gt;{worldName}&lt;/font&gt; está lleno y no permite que se creen o transfieran nuevos personajes.</string>
 	<string key="mm_selectcharacter">Seleccionar personaje</string>
 	<string key="mm_charactercount">Personajes</string>
 	<string key="mm_emptyslot">Ranura libre</string>
@@ -167,7 +167,7 @@
 	<string key="mm_rejected_Capitals_Not_Ready">El servidor no está listo: Las bases están en construcción.</string>
 	<string key="mm_rejected_Duplicate_Connection">El jugador ya está conectado.</string>
 	<string key="mm_rejected_No_Persistence_Spawner">El servidor no está listo aún para los jugadores. Reintentando…</string>
-	<string key="mm_rejected_Character_Restore_Failure">Error del servidor: Error al restaurar el personaje.</string>
+	<string key="mm_rejected_Character_Restore_Failure">Tus datos no están disponibles en este momento.\nInténtalo de nuevo en unos minutos.</string>
 	<string key="mm_rejected_Character_Persist_Failure">Error del servidor: Error al continuar con el personaje.</string>
 	<string key="mm_rejected_Character_Service_Failure">Error del servidor: Error al cargar los datos del personaje.</string>
 	<string key="mm_rejected_Character_Already_Exists">Error del servidor: El personaje ya existe.</string>
@@ -175,7 +175,7 @@
 	<string key="mm_rejected_Character_Registry_Failure">Error del servidor: falla en el registro de personaje.</string>
 	<string key="mm_rejected_Grid_Too_Busy">Error del servidor: La región está demasiado ocupada, inténtalo nuevamente más tarde.</string>
 	<string key="mm_rejected_No_Ghost_Client">Error del servidor: no se pudo iniciar la replicación.</string>
-	<string key="mm_rejected_Server_Crash">Se perdió la conexión con el servidor de juego de forma inesperada. Vuelve a intentarlo más tarde.</string>
+	<string key="mm_rejected_Server_Crash">Se perdió la conexión con el servidor de juego de forma inesperada. Reconectando…</string>
 	<string key="mm_rejected_Free_Session_Expired_Title">El tiempo de prueba gratis expiró.</string>
 	<string key="mm_rejected_Free_Session_Expired">Tu tiempo de prueba gratis terminó. Haz clic en "Aceptar" para regresar al menú principal.</string>
 	<string key="mm_rejected_Client_Kicked_Login_Ticket_Error">El ticket de inicio de sesión no es válido para el mundo</string>
@@ -207,6 +207,7 @@
 	<string key="mm_rejected_Client_Kicked_BannedCommerce">Problema con el pago</string>
 	<string key="mm_rejected_Client_Kicked_Embargoed_Country">No es posible brindarte acceso desde tu ubicación actual.</string>
 	<string key="mm_rejected_Client_Kicked_Unknown">Fuiste expulsado del juego.</string>
+	<string key="mm_rejected_Client_Expansion2023_Ownership">Tu personaje está bloqueado. &lt;font color="#0000ff"&gt;&lt;a action="OpenRegionalUrl" data="@url_expansion2023_purchase"&gt;Comprar expansión.&lt;/a&gt;&lt;/font&gt;</string>
 	<string key="mm_authresult_Authorized">Éxito</string>
 	<string key="mm_characterCreateDisabled">La creación de personajes está inhabilitada de forma temporal porque este mundo está lleno. Prueba con un mundo diferente.</string>
 	<string key="mm_characterTransferDisabled">Las transferencias de personajes están inhabilitadas de forma temporal porque este mundo está lleno. Prueba con un mundo diferente.</string>
@@ -307,15 +308,16 @@
 	<string key="ui_bio">Biografía</string>
 	<string key="ui_attributes">Atributos</string>
 	<string key="ui_trade_skills">Habilidades de oficio</string>
+	<string key="ui_trade_skill">Habilidad de oficio</string>
 	<string key="ui_how_it_works">Cómo funciona</string>
 	<string key="ui_pvp_track_skills_tab" rel_version="PvP_Rewards_Track">PvP</string>
 	<string key="ui_pvp_track" rel_version="PvP_Rewards_Track">Pista de PvP</string>
-	<string key="ui_pvp_track_progress_bar_tooltip" rel_version="PvP_Rewards_Track">&lt;font face="lyshineui/fonts/Nimbus_Bold_Italic.font"&gt;Punto de control {checkpoint}:&lt;/font&gt; {currentProgression}/{maxProgression}\n\nProgresa en la pista por medio de misiones de PvP, guerras, avances a un puesto de avanzada, capturas de fuertes, derrotas a otros jugadores y arenas de 3v3.</string>
+	<string key="ui_pvp_track_progress_bar_tooltip" rel_version="PvP_Rewards_Track">&lt;font face="lyshineui/fonts/Nimbus_Bold_Italic.font"&gt;Punto de control {checkpoint}:&lt;/font&gt; {currentProgression}/{maxProgression}\n\nProgresa en la pista derrotando a otros jugadores y por medio de misiones de PvP, guerras, avances a un puesto de avanzada, capturas de fuertes y arenas de 3v3.</string>
 	<string key="ui_pvp_track_next_track_tooltip" rel_version="PvP_Rewards_Track">Debes completar todos los puntos de control antes de iniciar la siguiente pista. Si eliges una recompensa de cada punto de control, iniciarás la siguiente pista de forma automática.\n\nSi renuncias a las recompensas de un punto de control, recibirás 300 unidades de sal de azoth cuando inicie la siguiente pista.</string>
 	<string key="ui_pvp_track_unknown_item_tooltip" rel_version="PvP_Rewards_Track">Las opciones de recompensa se revelan tras haber completado el punto de control.</string>
 	<string key="ui_pvp_track_completions" comment="The number of times they have completed the track. Like a level" rel_version="PvP_Rewards_Track">Pistas completadas</string>
-	<string key="ui_pvp_track_purchasehint" rel_version="PvP_Rewards_Track">Elige &lt;font face="lyshineui/fonts/Nimbus_Bold.font" color={itemColor}&gt;1 objeto por punto de control&lt;/font&gt; para comprar con &lt;font color={azothColor}&gt;sal de azoth.&lt;/font&gt;&lt;img src="lyshineui/images/icons/misc/icon_azoth_salt" scale="1.5" yOffset="3"&gt;&lt;/img&gt;</string>
-	<string key="ui_pvp_track_openemblems" rel_version="PvP_Rewards_Track">Crestas y recompensas</string>
+	<string key="ui_pvp_track_purchasehint" rel_version="PvP_Rewards_Track">Elige &lt;font face="lyshineui/fonts/Nimbus_Bold.font" color={itemColor}&gt;1 objeto por punto de control&lt;/font&gt; para comprar con sal de azoth.&lt;img src="lyshineui/images/icons/misc/icon_azoth_salt" scale="1.5" yOffset="3"&gt;&lt;/img&gt;.</string>
+	<string key="ui_pvp_track_openemblems" rel_version="PvP_Rewards_Track">Recompensas</string>
 	<string key="ui_pvp_track_checkpoint" rel_version="PvP_Rewards_Track">Punto de control &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{index}&lt;/font&gt;</string>
 	<string key="ui_pvp_track_pvpprogress" rel_version="PvP_Rewards_Track">&lt;font face="lyshineui/fonts/Nimbus_Bold.font" color={colorProgress}&gt;{amount}&lt;/font&gt;&lt;img src="lyshineui/images/icons/misc/icon_warsmall_white" scale="1.5" yOffset="4"&gt;&lt;/img&gt; &lt;font color={colorCheckpoint} face="lyshineui/fonts/Nimbus_regular.font"&gt; para punto de control {index}&lt;/font&gt;</string>
 	<string key="ui_pvp_currency_amount" rel_version="PvP_Rewards_Track">{amount}&lt;img src="lyshineui/images/icons/misc/icon_azoth_salt" scale="1.5" yOffset="3"&gt;&lt;/img&gt;</string>
@@ -332,23 +334,17 @@
 	<string key="ui_pvp_track_tut_title3" rel_version="PvP_Rewards_Track">Sal de azoth</string>
 	<string key="ui_pvp_track_tut_title4" rel_version="PvP_Rewards_Track">Recompensas</string>
 	<string key="ui_pvp_track_tut_desc1" rel_version="PvP_Rewards_Track">La pista de recompensas de PvP contiene recompensas específicas de PvP por hacer actividades de PvP en el juego. Esta pista se puede completar y repetir para obtener una variedad de recompensas diferentes. Las recompensas de mayor prestigio estarán disponibles a medida que se completen más pistas.</string>
-	<string key="ui_pvp_track_tut_desc2" rel_version="PvP_Rewards_Track">Progresa en la pista por medio de misiones de PvP, guerras, avances a un puesto de avanzada, capturas de fuertes, derrotas a otros jugadores y arenas de 3v3.</string>
+	<string key="ui_pvp_track_tut_desc2" rel_version="PvP_Rewards_Track">Progresa en la pista derrotando a otros jugadores y por medio de misiones de PvP, guerras, avances a un puesto de avanzada, capturas de fuertes y arenas de 3v3.</string>
 	<string key="ui_pvp_track_tut_desc3" rel_version="PvP_Rewards_Track">La sal de azoth es la moneda que te permite obtener recompensas de la pista de PvP. Puedes obtener sal de azoth por medio de guerras, avances de puesto de avanzada, arenas de 3v3, misiones de PvP, eliminaciones en el PvP del mundo abierto y EXP cuando estés marcado para PvP.</string>
 	<string key="ui_pvp_track_tut_desc4" rel_version="PvP_Rewards_Track">Elige entre recompensas únicas como armaduras y armas de prestigio, gestos, monedas y consumibles.</string>
 	<string key="ui_pvp_track_leveltext" rel_version="PvP_Rewards_Track">Pistas completadas: &lt;font color="#FFFFFF" &gt;{level}&lt;/font&gt;</string>
 	<string key="ui_pvp_track_leveltext_header" rel_version="PvP_Rewards_Track">Pistas completadas: &lt;font face="lyshineui/fonts/CaslonAnt.font" color="#FFFFFF"&gt;{level}&lt;/font&gt;</string>
-	<string key="ui_pvp_track_current_balance" rel_version="PvP_Rewards_Track">Saldo actual: &lt;font color={colorBalance} face="lyshineui/fonts/CaslonAnt.font"&gt;{balance}&lt;/font&gt;</string>
+	<string key="ui_pvp_track_current_balance" rel_version="PvP_Rewards_Track">Saldo actual</string>
 	<string key="ui_pvp_track_addtopool" rel_version="PvP_Rewards_Track">+ a la reserva de recompensas</string>
 	<string key="ui_pvp_track_rankup_confirmation" rel_version="PvP_Rewards_Track">Recibirás una bonificación por cada punto de control que tenga una recompensa sin reclamar, y podrás pasar tu sal de azoth a una nueva pista con recompensas nuevas.</string>
 	<string key="ui_pvp_track_rankup_stagesummary" rel_version="PvP_Rewards_Track">\n&lt;font color={colorBonus}&gt;Bonificación del punto de control: &lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#ffffff"&gt;{amount}&lt;/font&gt;&lt;img src="lyshineui/images/icons/misc/icon_azoth_salt" scale="1.5" yOffset="3"&gt;&lt;/img&gt;</string>
 	<string key="ui_pvp_track_rankup_bonussalt" rel_version="PvP_Rewards_Track">&lt;font color={colorBonus}&gt; Bonificación por la finalización de la pista: &lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_Bold.font" color="#ffffff"&gt;{amount}&lt;/font&gt;&lt;img src="lyshineui/images/icons/misc/icon_azoth_salt" scale="1.5" yOffset="3"&gt;&lt;/img&gt;</string>
 	<string key="ui_pvp_track_bannertext" rel_version="PvP_Rewards_Track">Pista de PvP completada</string>
-	<string key="ui_pvp_track_bannerrewards_1" rel_version="PvP_Rewards_Track">Reserva de recompensas: \n+Gesto</string>
-	<string key="ui_pvp_track_bannerrewards_2" rel_version="PvP_Rewards_Track">Reserva de recompensas: \n+Equipamiento nombrado \n+Más monedas</string>
-	<string key="ui_pvp_track_bannerrewards_3" rel_version="PvP_Rewards_Track">Reserva de recompensas: \n+Equipamiento de prestigio \n+Gesto \n+Paquete de viales de sal</string>
-	<string key="ui_pvp_track_bannerrewards_4" rel_version="PvP_Rewards_Track">Reserva de recompensas: \n+Aljez \n+Más monedas \n+Más fragmentos umbríos</string>
-	<string key="ui_pvp_track_bannerrewards_5" rel_version="PvP_Rewards_Track">Reserva de recompensas: \n+Gesto \n+Más fragmentos umbríos</string>
-	<string key="ui_pvp_track_bannerrewards_6" rel_version="PvP_Rewards_Track">Reserva de recompensas: \n+Gesto \n+Más monedas \n+Más objetos soltados</string>
 	<string key="ui_pvp_track_next_milestone" rel_version="PvP_Rewards_Track">{milestone} Hito siguiente de la pista:</string>
 	<string key="ui_pvp_track_milestone" rel_version="PvP_Rewards_Track">{milestone} Hito de la pista</string>
 	<string key="ui_pvp_track_reward" rel_version="PvP_Rewards_Track">Recompensa</string>
@@ -462,10 +458,11 @@
 	<string key="ui_fishing_equip_action">Modo de pesca</string>
 	<string key="ui_fishing_action">Lanzar/Enganchar/Recoger sedal</string>
 	<string key="ui_fishing_reset_action">Volver a lanzar/Dejar de pescar</string>
-	<string key="ui_performances" rel_version="Feature_MusicalPerformances">Funciones</string>
+	<string key="ui_riding" rel_version="Feature_Mounts">Riding</string>
+	<string key="ui_performances" rel_version="Feature_MusicalPerformances">Música</string>
 	<string key="ui_performances_toggle" rel_version="Feature_MusicalPerformances">Modo de función</string>
-	<string key="ui_performances_start" rel_version="Feature_MusicalPerformances">Comenzar función</string>
-	<string key="ui_performances_equip" rel_version="Feature_MusicalPerformances">Equipar partitura de música</string>
+	<string key="ui_performances_start" rel_version="Feature_MusicalPerformances">Tocar</string>
+	<string key="ui_performances_equip" rel_version="Feature_MusicalPerformances">Selección de canción</string>
 	<string key="ui_performances_invite" rel_version="Feature_MusicalPerformances">Invitar</string>
 	<string key="ui_camping">Campamento</string>
 	<string key="ui_tracking">En breve</string>
@@ -487,6 +484,11 @@
 	<string key="ui_kiln_desc">Refina y fabrica aljez aquí.</string>
 	<string key="ui_furnishing">Decoración</string>
 	<string key="ui_source_craftable">Se puede fabricar.</string>
+	<string key="ui_source_transmoggable" rel_version="Feature_Transmog">Se puede transformar</string>
+	<string key="ui_transmog_skin_not_owned" rel_version="Feature_Transmog">No has desbloqueado este diseño.</string>
+	<string key="ui_transmog_must_have_owned" rel_version="Feature_Transmog">Debes recolectar este objeto para poder usar la transformación.</string>
+	<string key="ui_transmog_not_currently_available" rel_version="Feature_Transmog">Este diseño no está disponible en este momento.</string>
+	<string key="ui_transmogstation" rel_version="Feature_Transmog">Estilomante</string>
 	<string key="ui_wildernesssurvival" comment="wilderness survival is not a trainable skill and is always equal to the character's level, so just tell users it's their character level for simplicity">Personaje</string>
 	<string key="ui_weaponsmithing_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Weaponsmithing Post Cap</string>
 	<string key="ui_armoring_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Armoring Post Cap</string>
@@ -506,6 +508,7 @@
 	<string key="ui_logging_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Logging Post Cap</string>
 	<string key="ui_harvesting_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Harvesting Post Cap</string>
 	<string key="ui_musician_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Musician Post Cap</string>
+	<string key="ui_riding_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_Mounts">Riding Post Cap</string>
 	<string key="ui_seasonpass" rel_version="Feature_Seasons_Rewards">Pase de temporada</string>
 	<string key="ui_decline">Rechazar</string>
 	<string key="ui_name_your_avatar">Nombre del personaje</string>
@@ -611,5 +614,10 @@
 	<string key="ui_fw_rtmm_body" rel_version="Feature_FreeWeekend">¡Gracias por unirte a este fin de semana gratuito de New World!\n\nSuscríbete al boletín de New World para enterarte de las últimas ofertas y noticias de Aeternum.</string>
 	<string key="ui_fw_newsletter" rel_version="Feature_FreeWeekend">Boletín</string>
 	<string key="ui_fw_survey" rel_version="Feature_FreeWeekend">Inspección</string>
+	<string key="ui_season_track_reward" rel_version="Feature_Seasons_Rewards">Recompensas sin reclamar</string>
+	<string key="error_cross_world_maintenance_title">Mantenimiento del servidor</string>
+	<string key="error_cross_world_maintenance_message">Se te movió al mundo abierto porque el servidor está en mantenimiento.</string>
+	<string key="tradeskill_skillcap_info">Nivel máximo de habilidad de oficio: {maxRank}</string>
+	<string key="tradeskill_skillcap_tooltip">Compra {expansionName} para aumentar el nivel máximo de habilidad de oficio a {maxRank}.</string>
 </resources>
 

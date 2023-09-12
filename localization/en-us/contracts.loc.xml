@@ -27,6 +27,7 @@
 	<string key="ui_hideunequippable">Hide unequippable</string>
 	<string key="ui_canafford">Can Afford</string>
 	<string key="ui_canSell">Can Sell</string>
+	<string key="ui_canuse">Can Use</string>
 	<string key="ui_gem_selection_button_none">Gem: None selected</string>
 	<string key="ui_gem_selection_button_specific">Gem: {name}</string>
 	<string key="ui_perk_selection_button_none">Perks: None selected</string>
@@ -148,7 +149,7 @@
 	<string key="ui_contract_previous_freeweekend_encourage">You must have 3 hours of play time to buy or sell at the trading post.</string>
 	<string key="ui_contract_failure_server_error">Server error.</string>
 	<string key="ui_contract_failure_creator_cannot_complete">You cannot complete an order you created.</string>
-	<string key="ui_contract_failure_cross_world">You cannot use the trading post while in a cross world instance.</string>
+	<string key="ui_contract_failure_cross_world">You cannot use the trading post while in a Cross World instance.</string>
 	<string key="ui_contract_failure_invalid_request">Order request was invalid.</string>
 	<string key="ui_contract_failure_inventory_full">Inventory full.</string>
 	<string key="ui_contract_failure_throttled">Request throttled. Please wait and try again.</string>
@@ -174,6 +175,7 @@
 	<string key="ui_infinite">&lt;img src="lyshineui/images/icons/misc/infinity_tan" xPadding="0" scale="1.8" yOffset="5.5"&gt;&lt;/img&gt;</string>
 	<string key="ui_infiniteBigger">&lt;img src="lyshineui/images/icons/misc/infinity_tan" xPadding="0" scale="2.2" yOffset="5.5"&gt;&lt;/img&gt;</string>
 	<string key="ui_new_balance">New Balance</string>
+	<string key="ui_store_unlock">Unlock</string>
 	<string key="ui_view_details">View Details</string>
 	<string key="ui_cancelorder_confirmation">Are you sure you want to cancel this order?</string>
 	<string key="ui_returnorder_buyconfirmation">The remaining &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{priceTotal}&lt;/font&gt;&lt;/font&gt; &lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt; will be returned to your wallet.</string>
@@ -283,9 +285,10 @@
 	<string key="compensations_column_date" rel_version="Feature_Make_Good">Date</string>
 	<string key="compensations_column_message" rel_version="Feature_Make_Good">Message</string>
 	<string key="compensations_notification_message" rel_version="Feature_Make_Good">Message</string>
-	<string key="compensations_notification_title" rel_version="Feature_Make_Good">CompensationAvailable</string>
+	<string key="compensations_notification_title" rel_version="Feature_Make_Good">Compensation Available</string>
 	<string key="ui_compensations_available_desc_mult" rel_version="Feature_Make_Good">You have &lt;font color={color}&gt;{number} pending compensations&lt;/font&gt; to claim!</string>
 	<string key="ui_compensations_available_desc_one" rel_version="Feature_Make_Good">You have &lt;font color={color}&gt;1 pending compensation&lt;/font&gt; to claim!</string>
+	<string key="ui_compensations_no_existing_compensations_message" rel_version="Feature_Make_Good">No existing compensations</string>
 	<string key="ui_claim" rel_version="Feature_Make_Good">Claim</string>
 	<string key="ui_claimed" rel_version="Feature_Make_Good">Claimed</string>
 	<string key="ui_unclaimed_contract" rel_version="Feature_Make_Good">Unclaimed</string>

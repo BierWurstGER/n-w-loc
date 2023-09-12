@@ -203,8 +203,10 @@
 	<string key="HousingTrdG_Cabinets_GroupName" comment="Housing Furniture - Trading Post - TradingGroup">Commodes</string>
 	<string key="HousingTrdG_Cabinets_GroupDesc" comment="Housing Furniture - Trading Post - TradingGroup">Commodes (logement)</string>
 	<string key="HousingTrdG_Veg_GroupName" comment="Housing Furniture - Trading Post - TradingGroup">Plantes</string>
-	<string key="1hHatchet_GroupDesc">Une arme polyvalente qui permet des attaques de lancer à distance aussi bien que des attaques rapides au corps à corps. Idéale pour les combats rapprochés les plus violents ou les combats tactiques à moyenne distance.\n\n•Attaque légère : Inflige {[DamageTable.Hatchet_Damage_PrimaryAttack.DmgCoef * 100]} % de dégâts de taille.\n•Coup final léger : Inflige {[DamageTable.Hatchet_Damage_PrimaryAttack_Ender.DmgCoef * 100]} % de dégâts de taille.\n•Attaque lourde : Inflige {[DamageTable.Hatchet_Damage_HeavyAttack.DmgCoef * 100]} % de dégâts de taille.\n•Attaque lourde chargée : Inflige {[DamageTable.Hatchet_Damage_HeavyAttack_Charged.DmgCoef * 100]} % de dégâts de taille.</string>
+	<string key="1hFlail_GroupName" rel_version="Weapon_Flail">Fléau</string>
+	<string key="1hFlail_GroupDesc" rel_version="Weapon_Flail">Le fléau est une arme dynamique dotée d'une longue chaîne qui augmente la portée de ses attaques. Celle-ci s'enroule autour du manche lorsqu'elle n'est pas utilisée. \n\nLe fléau est particulièrement utile pour soutenir ses alliés. Il le fait cependant de manière agressive en leur appliquant des effets lors des combats au corps à corps. \n\nLe fléau utilise différents coups et attaques de magie occulte qui, malgré leur puissance moindre, permettent à celui qui le manie de mieux défendre ses alliés tout en maintenant la pression sur ses ennemis. C'est une arme à ne pas négliger en combat. \n\n•Attaques légères : infligent {[DamageTable.1H_Flail_LightAttack1.DmgCoef * 100]} % de dégâts de frappe.\n•Attaques lourdes : infligent {[DamageTable.1H_Flail_HeavyAttackChain_1.DmgCoef * 100]} % de dégâts de frappe.</string>
 	<string key="1hHatchet_GroupName">Hachettes fabriquées</string>
+	<string key="1hHatchet_GroupDesc">Une arme polyvalente qui permet des attaques de lancer à distance aussi bien que des attaques rapides au corps à corps. Idéale pour les combats rapprochés les plus violents ou les combats tactiques à moyenne distance.\n\n•Attaque légère : Inflige {[DamageTable.Hatchet_Damage_PrimaryAttack.DmgCoef * 100]} % de dégâts de taille.\n•Coup final léger : Inflige {[DamageTable.Hatchet_Damage_PrimaryAttack_Ender.DmgCoef * 100]} % de dégâts de taille.\n•Attaque lourde : Inflige {[DamageTable.Hatchet_Damage_HeavyAttack.DmgCoef * 100]} % de dégâts de taille.\n•Attaque lourde chargée : Inflige {[DamageTable.Hatchet_Damage_HeavyAttack_Charged.DmgCoef * 100]} % de dégâts de taille.</string>
 	<string key="1hHatchetAngryEarth_GroupName">Hachettes primordiales</string>
 	<string key="1hHatchetB_GroupName">Hachettes en fer froid</string>
 	<string key="1hHatchetBeast_GroupName">Hachettes anciennes</string>
@@ -693,6 +695,7 @@
 	<string key="CategoryData_Shields">Boucliers</string>
 	<string key="CategoryData_ShieldsKite">Boucliers normands</string>
 	<string key="CategoryData_ShieldsRound">Targes</string>
+	<string key="CategoryData_MountAttachments" rel_version="Feature_Mounts">Ajouts de monture</string>
 	<string key="CategoryData_shots">Cartouches</string>
 	<string key="CategoryData_SiegeTools">Outils de siège</string>
 	<string key="CategoryData_SlotChest">Torse</string>
@@ -863,7 +866,7 @@
 	<string key="DungeonReps8_GroupName">Répliques de l'Ennéade</string>
 	<string key="DungeonReps9_GroupName">Répliques du Cœur de la Tempête</string>
 	<string key="DungeonShields_GroupName">Boucliers d'expédition</string>
-	<string key="DungeonReps12_GroupName">Récompenses d'expédition unique</string>
+	<string key="DungeonReps12_GroupName" rel_version="Expedition_FirstLight_01">Répliques de grifftal</string>
 	<string key="Dye1_GroupDesc">Fabriquez l'un des tons de teinture rouge.</string>
 	<string key="Dye1_GroupName">Teinture rouge</string>
 	<string key="Dye10_GroupDesc">Teinture terre d'ombre pour votre armure</string>
@@ -1407,8 +1410,8 @@
 	<string key="ModsUncommon_GroupName">Modificateurs insolites</string>
 	<string key="MoonstoneCut_GroupDesc">Pierres précieuses taillées et polies : pierre de lune. Peuvent être transformées en bijoux pour augmenter la force et la concentration, ou serties sur de l'équipement pour lui conférer les atouts Euphorique et Protection anti-taille.</string>
 	<string key="MoonstoneCut_GroupName">Pierre de lune taillée</string>
-	<string key="MusketA_GroupDesc">Une arme à distance qui tire de puissantes cartouches. Idéale pour se battre à distance sans laisser ses cibles approcher. À manier avec précision pour infliger de lourds dégâts.\n\n•Attaque standard : Inflige {[DamageTable.MusketAttack1.DmgCoef * 100]} % de dégâts d'estoc.</string>
-	<string key="Blunderbuss_GroupDesc" rel_version="Weapon_Blunderbuss">Une arme à courte distance qui tiret 6 plombs par détonation. Parfait pour maintenir la pression sur des cibles luttant au corps à corps et pour en découdre avec des cibles tirant à distance.\n\n•Attaque standard : inflige {[DamageTable.Blunderbuss_Primary_Attack.DmgCoef * 100]} % de dégâts d'estoc par plomb.</string>
+	<string key="MusketA_GroupDesc">Une arme à distance qui tire de puissantes cartouches. Idéale pour tenir ses cibles éloignées. À manier avec précision pour infliger de lourds dégâts.\n\n•Attaque standard : Inflige {[DamageTable.MusketAttack1.DmgCoef * 100]} % de dégâts d'estoc.</string>
+	<string key="Blunderbuss_GroupDesc" rel_version="Weapon_Blunderbuss">Une arme à courte distance qui tire 6 plombs par détonation. Parfait pour maintenir la pression sur des cibles luttant au corps à corps et pour en découdre avec des cibles tirant à distance.\n\n•Attaque standard : Inflige {[DamageTable.Blunderbuss_Primary_Attack.DmgCoef * 100]} % de dégâts d'estoc par plomb ({[DamageTable.Blunderbuss_Primary_Attack_TooltipValue.DmgCoef * 100]} % du total des 6 plombs).</string>
 	<string key="MusketA_GroupName">Mousquet</string>
 	<string key="Muskets_GroupName">Mousquets</string>
 	<string key="nut_GroupName">Noix</string>
@@ -1758,7 +1761,7 @@
 	<string key="TinctureBlight_GroupName">Teintures mères de dépérissement</string>
 	<string key="TinctureCorruption_GroupName">Teintures mères d'altération</string>
 	<string key="Tokens_GroupName">Jetons d'événement</string>
-	<string key="TokenCreation_GroupName">Création de marques</string>
+	<string key="TokenCreation_GroupName">Création de jetons</string>
 	<string key="TokenConversion_GroupName">Conversion de jetons</string>
 	<string key="ToolHatchet_GroupDesc">À une main. Pour obtenir du bois.</string>
 	<string key="ToolHatchet_GroupName">Hachette</string>
@@ -1926,6 +1929,7 @@
 	<string key="UniqueDungeonReps8_GroupName">Répliques uniques de l'Ennéade</string>
 	<string key="UniqueDungeonReps9_GroupName">Répliques uniques du Cœur de la Tempête</string>
 	<string key="UniqueDungeonReps11_GroupName">Répliques uniques de Bernacles et Poudre noire</string>
+	<string key="UniqueDungeonReps12_GroupName" rel_version="Expedition_FirstLight_01">Répliques uniques de la grotte de Grifftal</string>
 	<string key="HideT5_GroupName">Peaux V</string>
 	<string key="CategoryData_ArmorHeavy">Armure lourde</string>
 	<string key="CategoryData_ArmorMedium">Armure moyenne</string>
@@ -1941,7 +1945,7 @@
 	<string key="ScarabMeleeWeapons_GroupName">Armes de corps à corps - scarabée d'or</string>
 	<string key="ScarabMagicStaves_GroupName">Bâtons magiques - scarabée d'or</string>
 	<string key="ScarabStaffFire_GroupName">Bâtons de feu - scarabée d'or</string>
-	<string key="ScarabStaffLife_GroupName">Bâtons de glace - scarabée d'or</string>
+	<string key="ScarabStaffLife_GroupName">Bâtons de vie - scarabée d'or</string>
 	<string key="ScarabGauntletIce_GroupName">Gantelets de glace - scarabée d'or</string>
 	<string key="ScarabGauntletVoid_GroupName">Gantelets du néant - scarabée d'or</string>
 	<string key="ScarabRangedWeapons_GroupName">Armes à distance - scarabée d'or</string>
@@ -1959,5 +1963,48 @@
 	<string key="CoatingAeternian_GroupDesc" rel_version="Season_1_Perm">JcE seulement : Enduits augmentant les dégâts infligés aux humains (qui ne sont ni dévoyés ni altérés).</string>
 	<string key="CoatingAeternian_GroupName" rel_version="Season_1_Perm">Enduit anti-humains</string>
 	<string key="OverchargedCasts_GroupName">Moules en gypse surchargés</string>
+	<string key="PVPReplicas_GroupName">Répliques JcJ</string>
+	<string key="PVPReplicaWeapon_GroupName">Répliques d'armes brutales</string>
+	<string key="PVPReplicaLightArmor_GroupName">Répliques d'armures légères brutales</string>
+	<string key="PVPReplicaMediumArmor_GroupName">Répliques d'armures moyennes brutales</string>
+	<string key="PVPReplicaHeavyArmor_GroupName">Répliques d'armures lourdes brutales</string>
+	<string key="TrialCrafting_GroupName" rel_version="Season_2_Perm">Fabrication d'épreuves</string>
+	<string key="TheHatchery_GroupName" rel_version="Season_2_Perm">L'incubateur</string>
+	<string key="GypsumLegendaryCasts_GroupName" rel_version="Season_2_Perm">Moules en gypse légendaires</string>
+	<string key="PatternWeapon_GroupName">Plans d'arme</string>
+	<string key="PatternArmorHeavy_GroupName" rel_version="Season_2_Perm">Plans d'armures lourdes</string>
+	<string key="PatternArmorMedium_GroupName" rel_version="Season_2_Perm">Plans d'armures moyennes</string>
+	<string key="PatternArmorLight_GroupName" rel_version="Season_2_Perm">Plans d'armures légères</string>
+	<string key="TrialNamedReplicas_GroupName" rel_version="Season_2_Perm">Répliques d'épreuves d'élite</string>
+	<string key="UniqueEliteTrialReplicas1_GroupName" rel_version="Season_2_Perm">Répliques uniques de l'épreuve du ver de sable</string>
+	<string key="Spores_GroupName" rel_version="Territory_FirstLight_Spores">Spores</string>
+	<string key="GatherSpores_GroupName" rel_version="Territory_FirstLight_Spores">Spores d'affinité d'exploitation</string>
+	<string key="LootSpores_GroupName" rel_version="Territory_FirstLight_Spores">Spores d'affinité de butin</string>
+	<string key="WardSpores_GroupName" rel_version="Territory_FirstLight_Spores">Spores d'affinité de protection</string>
+	<string key="BaneSpores_GroupName" rel_version="Territory_FirstLight_Spores">Spores d'affinité de tourment</string>
+	<string key="SOTS_GroupName" rel_version="Territory_FirstLight_Spores">Secrets de spores</string>
+	<string key="DimensionalArtifacts_GroupName">Artéfacts dimensionnels</string>
+	<string key="DimensionalTether_GroupName">Liens dimensionnels</string>
+	<string key="Flail_GroupName" rel_version="Weapon_Flail">Fléau</string>
+	<string key="ScarabFlail_GroupName" rel_version="Weapon_Flail">Fléau - scarabée d'or</string>
+	<string key="Artifacts_GroupName" rel_version="Territory_FirstLight">Artéfacts</string>
+	<string key="PrismaticMeleeWeapons_GroupName" rel_version="Territory_FirstLight">Armes de corps à corps - scarabée prismatique</string>
+	<string key="PrismaticRangedWeapons_GroupName" rel_version="Territory_FirstLight">Armes à distance - scarabée prismatique</string>
+	<string key="PrismaticStaffFire_GroupName" rel_version="Territory_FirstLight">Bâton de feu - scarabée prismatique</string>
+	<string key="PrismaticStaffLife_GroupName" rel_version="Territory_FirstLight">Bâton de vie - scarabée prismatique</string>
+	<string key="PrismaticGauntletIce_GroupName" rel_version="Territory_FirstLight">Gantelets de glace - scarabée prismatique</string>
+	<string key="PrismaticGauntletVoid_GroupName" rel_version="Territory_FirstLight">Gantelets du néant - scarabée prismatique</string>
+	<string key="PrismaticFlail_GroupName" rel_version="Territory_FirstLight">Fléau - scarabée prismatique</string>
+	<string key="PrismaticArmorPlate_GroupName" rel_version="Territory_FirstLight">Armure lourde - scarabée prismatique</string>
+	<string key="PrismaticArmorFur_GroupName" rel_version="Territory_FirstLight">Armure moyenne - scarabée prismatique</string>
+	<string key="PrismaticArmorCloth_GroupName" rel_version="Territory_FirstLight">Armure légère - scarabée prismatique</string>
+	<string key="LeatherT52_GroupName">Cuir – palier 5 (rare)</string>
+	<string key="LeatherT53_GroupName">Cuir prismatique</string>
+	<string key="MetalT52_GroupName">Lingot – palier 5 (rare)</string>
+	<string key="MetalT53_GroupName">Lingot prismatique</string>
+	<string key="ClothT52_GroupName">Tissu – palier 5 (rare)</string>
+	<string key="ClothT53_GroupName">Tissu prismatique</string>
+	<string key="TimberT52_GroupName">Planche – palier 5 (rare)</string>
+	<string key="TimberT53_GroupName">Planche prismatique</string>
 </resources>
 

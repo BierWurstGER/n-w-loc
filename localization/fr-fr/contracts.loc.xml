@@ -148,6 +148,7 @@
 	<string key="ui_contract_previous_freeweekend_encourage">Vous devez justifier de 3 heures de temps de jeu pour pouvoir acheter et vendre au comptoir.</string>
 	<string key="ui_contract_failure_server_error">Erreur de serveur.</string>
 	<string key="ui_contract_failure_creator_cannot_complete">Vous ne pouvez pas finaliser l'ordre que vous avez créé.</string>
+	<string key="ui_contract_failure_cross_world">Vous ne pouvez pas utiliser le comptoir dans une instance intermondes.</string>
 	<string key="ui_contract_failure_invalid_request">Demande d'ordre incorrecte</string>
 	<string key="ui_contract_failure_inventory_full">Inventaire plein.</string>
 	<string key="ui_contract_failure_throttled">Requête ralentie. Veuillez réessayer plus tard.</string>
@@ -173,6 +174,7 @@
 	<string key="ui_infinite">&lt;img src="lyshineui/images/icons/misc/infinity_tan" xPadding="0" scale="1.8" yOffset="5.5"&gt;&lt;/img&gt;</string>
 	<string key="ui_infiniteBigger">&lt;img src="lyshineui/images/icons/misc/infinity_tan" xPadding="0" scale="2.2" yOffset="5.5"&gt;&lt;/img&gt;</string>
 	<string key="ui_new_balance">Nouveau solde</string>
+	<string key="ui_store_unlock">Déverrouiller</string>
 	<string key="ui_view_details">Afficher les détails</string>
 	<string key="ui_cancelorder_confirmation">Voulez-vous vraiment annuler cet ordre ?</string>
 	<string key="ui_returnorder_buyconfirmation">Les &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{priceTotal}&lt;/font&gt;&lt;/font&gt; &lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt; restants seront reversés dans votre bourse.</string>
@@ -285,6 +287,7 @@
 	<string key="compensations_notification_title" rel_version="Feature_Make_Good">Dédommagement disponible</string>
 	<string key="ui_compensations_available_desc_mult" rel_version="Feature_Make_Good">Vous avez &lt;font color={color}&gt;{number} dédommagements en attente&lt;/font&gt; à récupérer !</string>
 	<string key="ui_compensations_available_desc_one" rel_version="Feature_Make_Good">Vous avez &lt;font color={color}&gt;1 dédommagement en attente&lt;/font&gt; à récupérer !</string>
+	<string key="ui_compensations_no_existing_compensations_message" rel_version="Feature_Make_Good">Aucun dédommagement possible</string>
 	<string key="ui_claim" rel_version="Feature_Make_Good">Récupérer</string>
 	<string key="ui_claimed" rel_version="Feature_Make_Good">Récupéré</string>
 	<string key="ui_unclaimed_contract" rel_version="Feature_Make_Good">Non récupéré</string>
@@ -292,6 +295,6 @@
 	<string key="compensations_delivery_message" rel_version="Feature_Make_Good">Cet objet sera envoyé dans votre inventaire.</string>
 	<string key="compensations_popup_title" rel_version="Feature_Make_Good">Dédommagement</string>
 	<string key="compensations_popup_message" rel_version="Feature_Make_Good">Date de réception : {dateString}\n\n{messageString}\n\nAprès acceptation, ce message expirera au bout de 30 jours. Les messages en attente expirent au bout d'un an.</string>
-	<string key="compensations_cannot_claim" rel_version="Feature_Make_Good">Récupération impossible : inventaire plein</string>
+	<string key="compensations_cannot_claim" rel_version="Feature_Make_Good">Récupération impossible : bourse ou inventaire pleins</string>
 </resources>
 

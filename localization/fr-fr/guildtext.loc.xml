@@ -100,8 +100,8 @@
 	<string key="ui_guildranknameinusemessage">Ce nom de rang existe déjà.</string>
 	<string key="ui_guildoverviewtab">Synthèse</string>
 	<string key="ui_guildoverviewtabsubtitle">Lire le message du jour</string>
-	<string key="ui_guildwarstab">Guerres en cours</string>
-	<string key="ui_guildwarstabsubtitle">Voir ennemis</string>
+	<string key="ui_guildwarstab">Conflits en cours</string>
+	<string key="ui_guildwarstabsubtitle">Voir les conflits en cours</string>
 	<string key="ui_guildrankstab">Rangs</string>
 	<string key="ui_guildrostertab">Membres</string>
 	<string key="ui_guildsiegetab">Fenêtre de siège</string>
@@ -183,6 +183,8 @@
 	<string key="ui_guildCannotInviteNoPrivilege">Impossible d'envoyer des invitations de compagnie. Rang insuffisant.</string>
 	<string key="ui_guildCannotInviteNoFaction">Impossible d'envoyer des invitations de compagnie. Vous ne faites pas partie d'une faction.</string>
 	<string key="ui_guildcannotpromote_nofaction" rel_version="Feature_Unfactioned_Company_Members">Impossible de promouvoir au rang de gouverneur. Le joueur ne fait pas partie d'une faction.</string>
+	<string key="ui_guild_blocked_on_this_world" rel_version="Feature_Cross_World_Social">Action impossible dans ce monde.</string>
+	<string key="ui_guild_cannot_invite_player_from_other_world" rel_version="Feature_Cross_World_Social">Impossible d'inviter un joueur d'un autre monde.</string>
 	<string key="ui_guildranksettler" comment="Pronoun for Target Player">Colon</string>
 	<string key="ui_guildranksettler_SHE">Colon</string>
 	<string key="ui_guildranksettler_THEY">Colon</string>
@@ -378,10 +380,11 @@
 	<string key="ui_warframe_siegeinfo_label">PROCHAINE FENÊTRE DE SIÈGE</string>
 	<string key="ui_myguildtitle">Ma compagnie</string>
 	<string key="ui_otherguildstitlewithworld">Compagnies de {worldName}</string>
+	<string key="ui_companylist_crossworld">Indisponible en intermondes</string>
 	<string key="ui_otherguildstitle">Monde</string>
 	<string key="ui_otherguildssubtitle">De {worldName}</string>
 	<string key="ui_guildsinworld">{number} dans {worldName}</string>
-	<string key="ui_warstitle">Guerres</string>
+	<string key="ui_warstitle">Conflits</string>
 	<string key="ui_otherguilds_memberslabel">Membres</string>
 	<string key="ui_otherguilds_claimslabel">Territoires</string>
 	<string key="ui_otherguilds_claimslabelsingular">Territoire</string>
@@ -444,7 +447,7 @@
 	<string key="ui_permission_withdraw_from_structure">{allowed} retirer objets des structures.</string>
 	<string key="ui_permissioncategory_members">Gestion</string>
 	<string key="ui_permissioncategory_communications">Communications</string>
-	<string key="ui_permissioncategory_structures">Structures</string>
+	<string key="ui_permissioncategory_structures">Territoire</string>
 	<string key="ui_permissioncategory_treasury">Trésorerie</string>
 	<string key="ui_trade_failure">Échec de l'échange</string>
 	<string key="ui_trade_failure_invalid_transaction">Transaction incorrecte</string>
@@ -455,6 +458,7 @@
 	<string key="ui_trade_failure_global_storage_wrong_faction">Pour pouvoir effectuer un retrait, les deux territoires doivent faire partie de votre faction et être à jour dans leur entretien.</string>
 	<string key="ui_trade_failure_global_storage_invalid_deposit">Vous ne pouvez déposer d'objets que dans l'abri de rangement où vous vous trouvez.</string>
 	<string key="ui_trade_failure_global_storage_invalid_deposit_rfi">Vous pouvez déposer des objets uniquement dans les abris de rangement des colonies que vous avez déjà visitées.</string>
+	<string key="ui_trade_failure_global_storage_settlement_inaccessible">Vous ne pouvez pas déposer d'objets dans des colonies inaccessibles.</string>
 	<string key="ui_guildclaimsowned">Territoires</string>
 	<string key="ui_guildoneclaimowned">Territoire</string>
 	<string key="ui_acceptguildinvitepopuptitle">Rejoindre cette compagnie</string>
@@ -617,14 +621,17 @@
 	<string key="ui_war_time_dec_remaining">Temps restant pour déclarer la guerre : {time}</string>
 	<string key="ui_in_conflict">En conflit</string>
 	<string key="ui_war_refund_tooltip">Les pièces dépensées pour déclarer la guerre seront remboursées si votre compagnie n'est pas sélectionnée.</string>
-	<string key="ui_not_in_conflict">Le territoire doit être en conflit.</string>
+	<string key="ui_not_in_conflict">Le territoire doit être en conflit suite à une Course d'influence.</string>
 	<string key="ui_declare_war_hint">Les autres compagnies peuvent également déclarer la guerre. La compagnie en guerre sera choisie aléatoirement.</string>
 	<string key="ui_no_company" comment="text to show when a company name would be present but the player isn't in one">Sans compagnie.</string>
 	<string key="ui_no_faction" comment="text to show when a faction name would be present but the player isn't in one">Sans faction.</string>
 	<string key="ui_wartime">Heure de la guerre</string>
+	<string key="ui_racetime" rel_version="Feature_Influence_V2">Race time</string>
+	<string key="ui_vs_other_factions" rel_version="Feature_Influence_V2">ENEMY FACTIONS</string>
 	<string key="ui_location">Lieu</string>
 	<string key="ui_how_does_war_work">Fonctionnement de la guerre</string>
 	<string key="ui_how_does_invasion_work">Fonctionnement de l'invasion</string>
+	<string key="ui_how_does_influencerace_work" rel_version="Feature_Influence_V2">How do Influence Races work?</string>
 	<string key="ui_signup_restriction_tooltip">Vous ne pouvez pas vous inscrire auprès de l'adversaire de votre faction.</string>
 	<string key="ui_signup_nofaction_tooltip">Vous devez faire partie d'une faction afin de vous inscrire à une guerre.</string>
 	<string key="ui_signup_warinprogress_tooltip">Vous ne pouvez pas vous inscrire pour une guerre ou une invasion en cours.</string>
@@ -654,10 +661,11 @@
 	<string key="ui_how_war_works">Tutoriel : Guerre</string>
 	<string key="ui_how_invasion_works">Tutoriel : Invasion</string>
 	<string key="ui_tutorial_level_requirement">Le &lt;font color="#ffe294"&gt;niveau {level}&lt;/font&gt; est requis pour prendre part à une invasion.</string>
-	<string key="ui_raid_time_remaining">Plus que &lt;font color="#bababa"&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{time}&lt;/font&gt;&lt;/font&gt;.</string>
+	<string key="ui_raid_time_remaining">&lt;font color="#bababa"&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{time}&lt;/font&gt;&lt;/font&gt;</string>
 	<string key="ui_current_time">Heure actuelle : &lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;{time}&lt;/font&gt;</string>
 	<string key="ui_manage_army">Gestion de l'armée</string>
 	<string key="ui_invitation_time">Les invitations seront envoyées à\n&lt;font color="#ffdd85"&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{time}&lt;/font&gt;&lt;/font&gt;</string>
+	<string key="ui_warinvitation_time">L'invitation sera envoyée dans</string>
 	<string key="ui_normal">Normal</string>
 	<string key="ui_high">Élevé</string>
 	<string key="ui_highest">Optimal</string>

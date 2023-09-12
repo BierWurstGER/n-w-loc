@@ -203,8 +203,10 @@
 	<string key="HousingTrdG_Cabinets_GroupName" comment="Housing Furniture - Trading Post - TradingGroup">Armarios</string>
 	<string key="HousingTrdG_Cabinets_GroupDesc" comment="Housing Furniture - Trading Post - TradingGroup">Armarios para casas</string>
 	<string key="HousingTrdG_Veg_GroupName" comment="Housing Furniture - Trading Post - TradingGroup">Plantas</string>
-	<string key="1hHatchet_GroupDesc">Armas variables con ataques arrojadizos y para combates cara a cara rápidos. Son ideales tanto en escaramuzas cuerpo a cuerpo como en combates estratégicos y de media distancia.\n\n•Ataque ligero: Inflige {[DamageTable.Hatchet_Damage_PrimaryAttack.DmgCoef * 100]} % de daño de corte.\n•Remate ligero: Inflige {[DamageTable.Hatchet_Damage_PrimaryAttack_Ender.DmgCoef * 100]} % de daño de corte.\n•Ataque pesado: Inflige {[DamageTable.Hatchet_Damage_HeavyAttack.DmgCoef * 100]} % de daño de corte.\n•Ataque pesado cargado: Inflige {[DamageTable.Hatchet_Damage_HeavyAttack_Charged.DmgCoef * 100]} % de daño de corte.</string>
+	<string key="1hFlail_GroupName" rel_version="Weapon_Flail">Látigo</string>
+	<string key="1hFlail_GroupDesc" rel_version="Weapon_Flail">El látigo es un arma dinámica con una larga cadena que se extiende para aumentar el alcance de sus ataques y se retrae cuando no se usa. \n\nEl látigo es más fuerte cuando se usa para dar apoyo a aliados. Sus efectos se aplican a los aliados si estáis todos juntos combatiendo codo con codo. \n\nEl látigo utiliza una variedad de ataques físicos y de magia arcana que no causan mucho daño, pero su capacidad de opresión, apoyo y protección convertirá a su portador en un temible rival a tener en cuenta. \n\n•Ataques ligeros: Infligen un {[DamageTable.1H_Flail_LightAttack1.DmgCoef * 100]} % de daño de impacto.\n•Ataques pesados: Infligen un {[DamageTable.1H_Flail_HeavyAttackChain_1.DmgCoef * 100]} % de daño de impacto.</string>
 	<string key="1hHatchet_GroupName">Destrales fabricados</string>
+	<string key="1hHatchet_GroupDesc">Armas variables con ataques arrojadizos y para combates cara a cara rápidos. Son ideales tanto en escaramuzas cuerpo a cuerpo como en combates estratégicos y de media distancia.\n\n•Ataque ligero: Inflige {[DamageTable.Hatchet_Damage_PrimaryAttack.DmgCoef * 100]} % de daño de corte.\n•Remate ligero: Inflige {[DamageTable.Hatchet_Damage_PrimaryAttack_Ender.DmgCoef * 100]} % de daño de corte.\n•Ataque pesado: Inflige {[DamageTable.Hatchet_Damage_HeavyAttack.DmgCoef * 100]} % de daño de corte.\n•Ataque pesado cargado: Inflige {[DamageTable.Hatchet_Damage_HeavyAttack_Charged.DmgCoef * 100]} % de daño de corte.</string>
 	<string key="1hHatchetAngryEarth_GroupName">Destrales primitivos</string>
 	<string key="1hHatchetB_GroupName">Destrales de hierro frío</string>
 	<string key="1hHatchetBeast_GroupName">Destrales antiguos</string>
@@ -693,6 +695,7 @@
 	<string key="CategoryData_Shields">Escudos</string>
 	<string key="CategoryData_ShieldsKite">Escudos de lágrima</string>
 	<string key="CategoryData_ShieldsRound">Rodelas</string>
+	<string key="CategoryData_MountAttachments" rel_version="Feature_Mounts">Accesorios de montura</string>
 	<string key="CategoryData_shots">Cartuchos</string>
 	<string key="CategoryData_SiegeTools">Herr. de asedio</string>
 	<string key="CategoryData_SlotChest">Pecheras</string>
@@ -863,7 +866,7 @@
 	<string key="DungeonReps8_GroupName">Réplicas de la Enéada</string>
 	<string key="DungeonReps9_GroupName">Réplicas del Corazón de la Tempestad</string>
 	<string key="DungeonShields_GroupName">Escudos de expediciones</string>
-	<string key="DungeonReps12_GroupName">Recompensas de expedición únicas</string>
+	<string key="DungeonReps12_GroupName" rel_version="Expedition_FirstLight_01">Réplicas de garravítrea</string>
 	<string key="Dye1_GroupDesc">Fabrica un tinte de color rojo.</string>
 	<string key="Dye1_GroupName">Tinte rojo</string>
 	<string key="Dye10_GroupDesc">Tinte ocre oscuro para tu armadura.</string>
@@ -1407,8 +1410,8 @@
 	<string key="ModsUncommon_GroupName">Modificadores poco comunes</string>
 	<string key="MoonstoneCut_GroupDesc">Gemas de piedra de luna talladas y pulidas. Sirven para fabricar joyas que aumentan la fuerza y la concentración. También se pueden engarzar en el equipo para obtener las ventajas Revancha y Protección contra cortes.</string>
 	<string key="MoonstoneCut_GroupName">Piedra de luna tallada</string>
-	<string key="MusketA_GroupDesc">Armas a distancia que disparan cartuchos e infligen mucho daño. Son ideales para mantener al enemigo a raya y en combates de larga distancia, y recompensan la precisión.\n\n•Ataque estándar: Inflige {[DamageTable.MusketAttack1.DmgCoef * 100]} % de daño de estocada.</string>
-	<string key="Blunderbuss_GroupDesc" rel_version="Weapon_Blunderbuss">Un arma a distancia de corto alcance que dispara 6 perdigones en un solo disparo. Ideal para mantener la presión sobre objetivos cuerpo a cuerpo y acercarse a objetivos a distancia.\n\n•Ataque estándar: Inflige un {[DamageTable.Blunderbuss_Primary_Attack.DmgCoef * 100]} % de daño de estocada por perdigón.</string>
+	<string key="MusketA_GroupDesc">Armas a distancia que disparan cartuchos e infligen mucho daño. Son ideales para mantener al enemigo a raya y recompensan la precisión.\n\n•Ataque estándar: Inflige {[DamageTable.MusketAttack1.DmgCoef * 100]} % de daño de estocada.</string>
+	<string key="Blunderbuss_GroupDesc" rel_version="Weapon_Blunderbuss">Un arma a distancia de corto alcance que dispara 6 perdigones en un solo disparo. Ideal para mantener la presión sobre objetivos cuerpo a cuerpo y acercarse a objetivos a distancia.\n\n•Ataque estándar: Inflige un {[DamageTable.Blunderbuss_Primary_Attack.DmgCoef * 100]} % de daño de estocada por perdigón ({[DamageTable.Blunderbuss_Primary_Attack_TooltipValue.DmgCoef * 100]} % en total de los 6 perdigones).</string>
 	<string key="MusketA_GroupName">Mosquetes</string>
 	<string key="Muskets_GroupName">Mosquetes</string>
 	<string key="nut_GroupName">Frutos secos</string>
@@ -1926,6 +1929,7 @@
 	<string key="UniqueDungeonReps8_GroupName">Réplicas únicas de la Enéada</string>
 	<string key="UniqueDungeonReps9_GroupName">Réplicas únicas del Corazón de la Tempestad</string>
 	<string key="UniqueDungeonReps11_GroupName">Réplicas únicas de Percebes y pólvora negra</string>
+	<string key="UniqueDungeonReps12_GroupName" rel_version="Expedition_FirstLight_01">Réplicas únicas de las Cavernas de Garravítrea</string>
 	<string key="HideT5_GroupName">Piel de clase 5</string>
 	<string key="CategoryData_ArmorHeavy">Armaduras pesadas</string>
 	<string key="CategoryData_ArmorMedium">Armaduras medias</string>
@@ -1941,7 +1945,7 @@
 	<string key="ScarabMeleeWeapons_GroupName">Armas cuerpo a cuerpo: escarabajo de oro</string>
 	<string key="ScarabMagicStaves_GroupName">Báculos mágicos: escarabajo de oro</string>
 	<string key="ScarabStaffFire_GroupName">Báculos ígneos: escarabajo de oro</string>
-	<string key="ScarabStaffLife_GroupName">Báculos de hielo: escarabajo de oro</string>
+	<string key="ScarabStaffLife_GroupName">Báculos de vida: escarabajo de oro</string>
 	<string key="ScarabGauntletIce_GroupName">Manoplas de hielo: escarabajo de oro</string>
 	<string key="ScarabGauntletVoid_GroupName">Manoplas de vacío: escarabajo de oro</string>
 	<string key="ScarabRangedWeapons_GroupName">Armas a distancia: escarabajo de oro</string>
@@ -1959,5 +1963,48 @@
 	<string key="CoatingAeternian_GroupDesc" rel_version="Season_1_Perm">Solo JcE: Revestimientos que aumentan el daño infligido a humanos (si no son perdidos o corruptos).</string>
 	<string key="CoatingAeternian_GroupName" rel_version="Season_1_Perm">Revestimiento contra humanos</string>
 	<string key="OverchargedCasts_GroupName">Moldes de aljez sobrecargados</string>
+	<string key="PVPReplicas_GroupName">Réplicas de JcJ</string>
+	<string key="PVPReplicaWeapon_GroupName">Réplicas de armas brutas</string>
+	<string key="PVPReplicaLightArmor_GroupName">Réplicas de armaduras ligeras brutas</string>
+	<string key="PVPReplicaMediumArmor_GroupName">Réplicas de armaduras medias brutas</string>
+	<string key="PVPReplicaHeavyArmor_GroupName">Réplicas de armaduras pesadas brutas</string>
+	<string key="TrialCrafting_GroupName" rel_version="Season_2_Perm">Artesanía de prueba</string>
+	<string key="TheHatchery_GroupName" rel_version="Season_2_Perm">El criadero</string>
+	<string key="GypsumLegendaryCasts_GroupName" rel_version="Season_2_Perm">Moldes de aljez legendarios</string>
+	<string key="PatternWeapon_GroupName">Patrones de arma</string>
+	<string key="PatternArmorHeavy_GroupName" rel_version="Season_2_Perm">Patrones de armaduras pesadas</string>
+	<string key="PatternArmorMedium_GroupName" rel_version="Season_2_Perm">Patrones de armaduras medias</string>
+	<string key="PatternArmorLight_GroupName" rel_version="Season_2_Perm">Patrones de armaduras ligeras</string>
+	<string key="TrialNamedReplicas_GroupName" rel_version="Season_2_Perm">Réplicas de la prueba de élite</string>
+	<string key="UniqueEliteTrialReplicas1_GroupName" rel_version="Season_2_Perm">Réplicas únicas de la prueba del gusano de arena</string>
+	<string key="Spores_GroupName" rel_version="Territory_FirstLight_Spores">Esporas</string>
+	<string key="GatherSpores_GroupName" rel_version="Territory_FirstLight_Spores">Esporas en sintonía con la recolección</string>
+	<string key="LootSpores_GroupName" rel_version="Territory_FirstLight_Spores">Esporas en sintonía con los botines</string>
+	<string key="WardSpores_GroupName" rel_version="Territory_FirstLight_Spores">Esporas en sintonía con la protección</string>
+	<string key="BaneSpores_GroupName" rel_version="Territory_FirstLight_Spores">Esporas en sintonía con el flagelo</string>
+	<string key="SOTS_GroupName" rel_version="Territory_FirstLight_Spores">Los secretos de las esporas</string>
+	<string key="DimensionalArtifacts_GroupName">Artefactos dimensionales</string>
+	<string key="DimensionalTether_GroupName">Atadura dimensional</string>
+	<string key="Flail_GroupName" rel_version="Weapon_Flail">Látigo</string>
+	<string key="ScarabFlail_GroupName" rel_version="Weapon_Flail">Látigo: escarabajo de oro</string>
+	<string key="Artifacts_GroupName" rel_version="Territory_FirstLight">Artefactos</string>
+	<string key="PrismaticMeleeWeapons_GroupName" rel_version="Territory_FirstLight">Armas cuerpo a cuerpo: escarabajo prismático</string>
+	<string key="PrismaticRangedWeapons_GroupName" rel_version="Territory_FirstLight">Armas a distancia: escarabajo prismático</string>
+	<string key="PrismaticStaffFire_GroupName" rel_version="Territory_FirstLight">Báculo ígneo: escarabajo prismático</string>
+	<string key="PrismaticStaffLife_GroupName" rel_version="Territory_FirstLight">Báculo de vida: escarabajo prismático</string>
+	<string key="PrismaticGauntletIce_GroupName" rel_version="Territory_FirstLight">Manopla de hielo: escarabajo prismático</string>
+	<string key="PrismaticGauntletVoid_GroupName" rel_version="Territory_FirstLight">Manopla de vacío: escarabajo prismático</string>
+	<string key="PrismaticFlail_GroupName" rel_version="Territory_FirstLight">Látigo: escarabajo prismático</string>
+	<string key="PrismaticArmorPlate_GroupName" rel_version="Territory_FirstLight">Armadura pesada: escarabajo prismático</string>
+	<string key="PrismaticArmorFur_GroupName" rel_version="Territory_FirstLight">Armadura media: escarabajo prismático</string>
+	<string key="PrismaticArmorCloth_GroupName" rel_version="Territory_FirstLight">Armadura ligera: escarabajo prismático</string>
+	<string key="LeatherT52_GroupName">Cueros de clase 5 (raros)</string>
+	<string key="LeatherT53_GroupName">Cuero prismático</string>
+	<string key="MetalT52_GroupName">Lingotes de clase 5 (raros)</string>
+	<string key="MetalT53_GroupName">Lingote prismático</string>
+	<string key="ClothT52_GroupName">Telas de clase 5 (raras)</string>
+	<string key="ClothT53_GroupName">Tela prismática</string>
+	<string key="TimberT52_GroupName">Tablones de clase 5 (raros)</string>
+	<string key="TimberT53_GroupName">Tablón prismático</string>
 </resources>
 

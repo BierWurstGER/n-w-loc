@@ -74,7 +74,7 @@
 	<string key="dungeon_reekwater_task_victory_celebration">Quitter l'Instrument de Lazarus</string>
 	<string key="dungeon_reekwater_task_complete">Quitter l'Instrument de Lazarus</string>
 	<string key="dungeon_ebonscale00_title">Le chantier naval de la dynastie</string>
-	<string key="dungeon_ebonscale00_description">Déjouer les plans de l'impératrice.</string>
+	<string key="dungeon_ebonscale00_description">Déjouez les plans de l'impératrice.</string>
 	<string key="dungeon_cutlasskeys00_title" rel_version="Expedition_CutlassKeys_00">Bernacles et Poudre noire</string>
 	<string key="dungeon_cutlasskeys00_description" rel_version="Expedition_CutlassKeys_00">Infiltrez le repaire des pirates du drapeau noir et découvrez ce qui se cache dans les profondeurs sous la crique.</string>
 	<string key="dungeon_cutlasskeys00_required_equipment" rel_version="Expedition_CutlassKeys_00">1 arme à distance</string>
@@ -188,8 +188,9 @@
 	<string key="dungeon_ebonscale00_task_defeat_empress">Vaincre l'impératrice Zhou !</string>
 	<string key="dungeon_ebonscale00_task_leave_dungeon">Quitter le chantier naval</string>
 	<string key="dungeon_greatcleave01_title" rel_version="Expedition_GreatCleave_01">Forge empyréenne</string>
+	<string key="dungeon_greatcleave01_title" rel_version="Expedition_GreatCleave_01">Forge empyréenne</string>
 	<string key="dungeon_greatcleave01_required_equipment" rel_version="Expedition_GreatCleave_01">1 bâton d'Azoth</string>
-	<string key="dungeon_greatcleave01_description" rel_version="Expedition_GreatCleave_01">Poursuivre sire Loth et débarrasser la forge de la présence varègue</string>
+	<string key="dungeon_greatcleave01_description" rel_version="Expedition_GreatCleave_01">Poursuivez sire Loth et débarrassez la forge de la présence varègue.</string>
 	<string key="dungeon_greatcleave01_task_explore" rel_version="Expedition_GreatCleave_01">Pénétrer dans la forge empyréenne</string>
 	<string key="dungeon_greatcleave01_task_solveforgeentry" rel_version="Expedition_GreatCleave_01">Trouver un moyen de franchir la porte principale</string>
 	<string key="dungeon_greatcleave01_task_gain_access_forge" rel_version="Expedition_GreatCleave_01">Utiliser le sceau d'Azoth ancien</string>
@@ -267,13 +268,21 @@
 	<string key="dungeon_shattermtn00_task_dungeon_complete" rel_version="Expedition_ShatterMtn_00">Quitter l'expédition du Cœur de la Tempête</string>
 	<string key="DungeonUseRelicBubble" rel_version="Expedition_ShatterMtn_00">Nécessite le Reliquaire</string>
 	<string key="dungeon_open_conversation" rel_version="Expedition_CutlassKeys_00">Examiner</string>
+	<string key="trial_brimstone_sandworm_title" rel_version="Trial_Brimstone_Sandworm">L'épreuve du Dévoreur</string>
+	<string key="trial_brimstone_sandworm_description" rel_version="Trial_Brimstone_Sandworm">Attirez Shah Neshen le Dévoreur des dunes de Sulfure et piégez ce colossal léviathan.</string>
+	<string key="trial_sandworm_title" rel_version="Trial_Brimstone_Sandworm">L'épreuve du Dévoreur</string>
+	<string key="trial_clearscorpions" rel_version="Trial_Brimstone_Sandworm">Venir à bout de l'arène</string>
+	<string key="trial_callsandworm" rel_version="Trial_Brimstone_Sandworm">Appeler Shah Neshen le Dévoreur</string>
+	<string key="trial_bossfight" rel_version="Trial_Brimstone_Sandworm">Vaincre Shah Neshen le Dévoreur</string>
+	<string key="trial_victory" rel_version="Trial_Brimstone_Sandworm">Quitter l'épreuve</string>
+	<string key="trial_exitarena" rel_version="Trial_Brimstone_Sandworm">Quitter l'épreuve</string>
 	<string key="Quest_Apophis_title" rel_version="Territory_Brimstone_Sands">Nécropole de Sutekh</string>
-	<string key="Quest_Apophis_description" rel_version="Territory_Brimstone_Sands">Empêcher Apophis de réveiller Sutekh, le puissant Ancien ou tout Aeternum sera plongé dans la folie</string>
+	<string key="Quest_Apophis_description" rel_version="Territory_Brimstone_Sands">Empêchez Apophis de réveiller Sutekh, le puissant Ancien ou tout Aeternum sera plongé dans la folie.</string>
 	<string key="quest_apophis_task_approach" rel_version="Territory_Brimstone_Sands">S'approcher du sarcophage de l'Ancien</string>
 	<string key="quest_apophis_task_destroy_apophis" rel_version="Territory_Brimstone_Sands">Vaincre Apophis</string>
 	<string key="quest_apophis_task_leave" rel_version="Territory_Brimstone_Sands">Explorer la nécropole et quitter l'Épreuve de l'âme</string>
 	<string key="Quest_Apophis_required_equipment" rel_version="Territory_Brimstone_Sands">1 bâton d'Azoth</string>
-	<string key="ui_solo_arena_leave" rel_version="Territory_Brimstone_Sands">Quitter l'Épreuve de l'âme</string>
+	<string key="ui_solo_arena_leave" rel_version="Territory_Brimstone_Sands">Quitter</string>
 	<string key="ui_solo_arena_leave_desc" rel_version="Territory_Brimstone_Sands">Voulez-vous vraiment quitter l'Épreuve de l'âme ?</string>
 	<string key="ui_solo_arena_leave_desc_time" rel_version="Territory_Brimstone_Sands">Voulez-vous vraiment quitter l'Épreuve de l'âme ?\nVous ne pourrez pas rejoindre la file d'attente pour l'Épreuve de l'âme avant &lt;font color="#ffdb7a"&gt;[{time}]&lt;/font&gt;.</string>
 	<string key="ui_solo_arena_leave_title" rel_version="Territory_Brimstone_Sands">Quitter l'Épreuve de l'âme ?</string>
@@ -287,5 +296,122 @@
 	<string key="quest_CaerDun_task_purify" rel_version="Quest_MSQ2_Brightwood">Utiliser votre bâton d'Azoth pour dissiper la malédiction de Caer Dun</string>
 	<string key="quest_CaerDun_task_leave" rel_version="Quest_MSQ2_Brightwood">Explorer la crypte et quitter l'Épreuve de l'âme</string>
 	<string key="Quest_CaerDun_required_equipment" rel_version="Quest_MSQ2_Brightwood">1 bâton d'Azoth, 1 pioche de mineur</string>
+	<string key="dungeon_firstlight01_title" rel_version="Expedition_FirstLight_01">Savage Divide</string>
+	<string key="dungeon_firstlight01_description" rel_version="Expedition_FirstLight_01">Hunt down the two beast lords, Kurok and Mahantaram.</string>
+	<string key="dungeon_firstlight01_required_equipment" rel_version="Expedition_FirstLight_01">1 Azoth Staff</string>
+	<string key="dungeon_firstlight01_task_explore" rel_version="Expedition_FirstLight_01">Explore the caverns</string>
+	<string key="dungeon_firstlight01_task_trainpressureplates" rel_version="Expedition_FirstLight_01">Find a way to unlock the ancient gate</string>
+	<string key="dungeon_firstlight01_task_trainorb" rel_version="Expedition_FirstLight_01">Transfer the orb to the vessel by the ancient gate</string>
+	<string key="dungeon_firstlight01_task_gotohub1" rel_version="Expedition_FirstLight_01">Continue to explore the caverns</string>
+	<string key="dungeon_firstlight01_task_2a_unlock" rel_version="Expedition_FirstLight_01">Use the Azoth staff to unlock the gate to Rockfall</string>
+	<string key="dungeon_firstlight01_task_2a_progress" rel_version="Expedition_FirstLight_01">Continue to explore the area</string>
+	<string key="dungeon_firstlight01_task_2a_gate" rel_version="Expedition_FirstLight_01">Defeat the beasts guarding the path forward</string>
+	<string key="dungeon_firstlight01_task_2a_findorb" rel_version="Expedition_FirstLight_01">Locate another ancient orb and carry it to its vessel by the Ancient Gate</string>
+	<string key="dungeon_firstlight01_task_hub1orb1" rel_version="Expedition_FirstLight_01">Carry the orb to its vessel by the Ancient Gate</string>
+	<string key="dungeon_firstlight01_task_2b_unlock" rel_version="Expedition_FirstLight_01">Use the Azoth staff to unlock the gate to Sunken Shrine</string>
+	<string key="dungeon_firstlight01_task_2b_progress" rel_version="Expedition_FirstLight_01">Continue to explore the area</string>
+	<string key="dungeon_firstlight01_task_2b_gate" rel_version="Expedition_FirstLight_01">Defeat the beasts guarding the pressure plates</string>
+	<string key="dungeon_firstlight01_task_2b_pressureplates" rel_version="Expedition_FirstLight_01">Activate the pressure plates to open the exit from Sunken Shrine</string>
+	<string key="dungeon_firstlight01_task_2b_findorb" rel_version="Expedition_FirstLight_01">Locate the ancient orb and carry it to its vessel by the Ancient Gate</string>
+	<string key="dungeon_firstlight01_task_hub1orb2" rel_version="Expedition_FirstLight_01">Carry the orb to its vessel by the Ancient Gate</string>
+	<string key="dungeon_firstlight01_task_explorefirstcaptain" rel_version="Expedition_FirstLight_01">Push forward toward the den of the beast lord</string>
+	<string key="dungeon_firstlight01_task_firstcaptain" rel_version="Expedition_FirstLight_01">Defeat Kurok</string>
+	<string key="dungeon_firstlight01_task_explorenextcaptain" rel_version="Expedition_FirstLight_01">Search for the other beast lord</string>
+	<string key="dungeon_firstlight01_task_hub2orb1" rel_version="Expedition_FirstLight_01">Search the area and move the two orbs to the vessels by the ancient gate: 0/2</string>
+	<string key="dungeon_firstlight01_task_azothbridge" rel_version="Expedition_FirstLight_01">Use the Azoth Staff to activate the bridge</string>
+	<string key="dungeon_firstlight01_task_hub2orb2" rel_version="Expedition_FirstLight_01">Move the two orbs to the vessels by the ancient gate: 1/2</string>
+	<string key="dungeon_firstlight01_task_uphill" rel_version="Expedition_FirstLight_01">Push up the hill to the den of the beast lord</string>
+	<string key="dungeon_firstlight01_task_secondcaptain" rel_version="Expedition_FirstLight_01">Defeat Mahantaram</string>
+	<string key="dungeon_firstlight01_task_exit" rel_version="Expedition_FirstLight_01">Exit the Savage Divide</string>
+	<string key="trial_season_02_q12_title" rel_version="Season_2_Temp">Faire une omelette</string>
+	<string key="trial_season_02_q12_description" rel_version="Season_2_Temp">Contrecarrez les plans de Malek visant à faire éclore les œufs de Dévoreur.</string>
+	<string key="trial_season_02_q12_task_approach" rel_version="Season_2_Temp">S'approcher du centre de l'arène</string>
+	<string key="trial_season_02_q12_task_defeat_fodder01" rel_version="Season_2_Temp">Éliminer les sbires d'Hadish</string>
+	<string key="trial_season_02_q12_task_fodder02_grace" rel_version="Season_2_Temp">Se préparer à la prochaine attaque d'Hadish</string>
+	<string key="trial_season_02_q12_task_defeat_fodder02" rel_version="Season_2_Temp">Éliminer les officiers d'Hadish</string>
+	<string key="trial_season_02_q12_task_boss_grace" rel_version="Season_2_Temp">Se préparer à affronter Hadish Azar</string>
+	<string key="trial_season_02_q12_task_defeat_boss" rel_version="Season_2_Temp">Vaincre Hadish Azar, le gardien de la flamme</string>
+	<string key="trial_season_02_q12_task_destroy_eggs" rel_version="Season_2_Temp">Détruire les œufs de Dévoreur altérés</string>
+	<string key="trial_season_02_q12_task_leave" rel_version="Season_2_Temp">Quitter l'Épreuve de l'âme</string>
+	<string key="trial_season_02_q13_title" rel_version="Season_2_Temp">Héritage des Sables</string>
+	<string key="trial_season_02_q13_description" rel_version="Season_2_Temp">Affrontez Malek et contrecarrez ses plans.</string>
+	<string key="trial_season_02_q13_task_approach" rel_version="Season_2_Temp">S'approcher de Malek</string>
+	<string key="trial_season_02_q13_task_defeat_boss" rel_version="Season_2_Temp">Vaincre Malek</string>
+	<string key="trial_season_02_q13_task_leave" rel_version="Season_2_Temp">Quitter l'Épreuve de l'âme</string>
+	<string key="trial_hatchery_title" rel_version="Season_2_Temp">L'incubateur</string>
+	<string key="trial_hatchery_description" rel_version="Season_2_Temp">Réunissez vos alliés et mettez un terme aux plans d'Hadish Azar visant à faire éclore les œufs des Dévoreurs.</string>
+	<string key="trial_hatchery_approach_01" rel_version="Season_2_Temp">S'approcher du centre de l'arène</string>
+	<string key="trial_hatchery_defeat_fodder01" rel_version="Season_2_Temp">Survivre à l'embuscade des marcheurs de sable</string>
+	<string key="trial_hatchery_defeat_fodder01_banner_title" rel_version="Season_2_Temp">Étape 1 sur 5</string>
+	<string key="trial_hatchery_defeat_fodder01_banner_description" rel_version="Season_2_Temp">Survivre à l'embuscade des marcheurs de sable</string>
+	<string key="trial_hatchery_fodder02_grace" rel_version="Season_2_Temp">Prendre un instant pour reprendre vos esprits</string>
+	<string key="trial_hatchery_defeat_fodder02" rel_version="Season_2_Temp">Éliminer les sbires d'Hadish</string>
+	<string key="trial_hatchery_defeat_fodder02_banner_title" rel_version="Season_2_Temp">Étape 2 sur 5</string>
+	<string key="trial_hatchery_defeat_fodder02_banner_description" rel_version="Season_2_Temp">Éliminer les sbires d'Hadish</string>
+	<string key="trial_hatchery_fodder03_grace" rel_version="Season_2_Temp">Prendre un instant pour reprendre vos esprits</string>
+	<string key="trial_hatchery_defeat_fodder03" rel_version="Season_2_Temp">Éliminer les officiers d'Hadish</string>
+	<string key="trial_hatchery_defeat_fodder03_banner_title" rel_version="Season_2_Temp">Étape 3 sur 5</string>
+	<string key="trial_hatchery_defeat_fodder03_banner_description" rel_version="Season_2_Temp">Éliminer les officiers d'Hadish</string>
+	<string key="trial_hatchery_minibosss_grace" rel_version="Season_2_Temp">Prendre un moment pour reprendre votre souffle</string>
+	<string key="trial_hatchery_defeat_miniboss" rel_version="Season_2_Temp">Vaincre Razhan le maître des hordes</string>
+	<string key="trial_hatchery_defeat_miniboss_banner_title" rel_version="Season_2_Temp">Étape 4 sur 5</string>
+	<string key="trial_hatchery_defeat_miniboss_banner_description" rel_version="Season_2_Temp">Triomphez de Razhan le maître des hordes.</string>
+	<string key="trial_hatchery_boss_grace" rel_version="Season_2_Temp">S'accorder un peu de temps pour récupérer.</string>
+	<string key="trial_hatchery_defeat_boss" rel_version="Season_2_Temp">Vaincre Hadish Azar, le gardien de la flamme</string>
+	<string key="trial_hatchery_defeat_boss_banner_title" rel_version="Season_2_Temp">Étape 5 sur 5</string>
+	<string key="trial_hatchery_defeat_boss_banner_description" rel_version="Season_2_Temp">Vaincre Hadish Azar, le gardien de la flamme</string>
+	<string key="trial_hatchery_leave" rel_version="Season_2_Temp">Explorer, puis quitter l'Épreuve de l'âme</string>
+	<string key="Trial_Season_01_title" rel_version="Season_2_Temp">L'incubateur</string>
+	<string key="Trial_Season_01_description" rel_version="Season_2_Temp">Réunissez vos alliés et mettez un terme au plan d'Hadish Azar visant à faire éclore les œufs des Dévoreurs.</string>
+	<string key="Trial_Season_01_required_equipment" rel_version="Season_2_Temp">1 arme à distance</string>
+	<string key="Quest_Motherwell_title" rel_version="Quest_MSQ2_Edengrove">The Motherwell</string>
+	<string key="Quest_Motherwell_description" rel_version="Quest_MSQ2_Edengrove">Gaea's most cherished grove, tilled by sacred vessels and tended by blessed divinity, yet through aeon's wake remains unprofane and sacrosanct.</string>
+	<string key="quest_Motherwell_task_approach" rel_version="Quest_MSQ2_Edengrove">Follow the Passageway</string>
+	<string key="quest_Motherwell_task_place" rel_version="Quest_MSQ2_Edengrove">Place the Staff of Myrrdin into the pristine waters</string>
+	<string key="quest_Motherwell_task_smash" rel_version="Quest_MSQ2_Edengrove">Draw out the toxic poison and begin the Ritual</string>
+	<string key="quest_Motherwell_task_destroy_boss" rel_version="Quest_MSQ2_Edengrove">Defend the Ritual until it Completes</string>
+	<string key="quest_Motherwell_task_purify" rel_version="Quest_MSQ2_Edengrove">Expel the last essence of Corruption</string>
+	<string key="quest_Motherwell_task_leave" rel_version="Quest_MSQ2_Edengrove">Explore the Blighted Motherwell and Exit the Soul Trial</string>
+	<string key="Quest_Motherwell_required_equipment" rel_version="Quest_MSQ2_Edengrove">1 Azoth Staff, 1 Corrupted Staff</string>
+	<string key="Trial_Season_01_Objective_1" rel_version="Season_2_Temp">Vaincre Hadish Azar et ses sbires</string>
+	<string key="Trial_Season_01_Objective_2" rel_version="Season_2_Temp">Résister à la chaleur de l'incubateur</string>
+	<string key="Trial_Season_01_Objective_3" rel_version="Season_2_Temp">Récupérer les richesses du désert en guise de victoire</string>
+	<string key="Trial_Season_02_Objective_1" rel_version="Trial_Brimstone_Sandworm">Vaincre Shah Neshen dans l'arène du désert</string>
+	<string key="Trial_Season_02_Objective_2" rel_version="Trial_Brimstone_Sandworm">Résister aux terribles dangers d'acide</string>
+	<string key="Trial_Season_02_Objective_3" rel_version="Trial_Brimstone_Sandworm">Récupérer les richesses après votre victoire sur le ver</string>
+	<string key="Quest_mammoth_title" rel_version="Territory_FirstLight">Rage of the Mammoth</string>
+	<string key="Quest_mammoth_description" rel_version="Territory_FirstLight">Enter and show humility, mortal, you who dares entreat with the Lord of all Mammoths, Eldest of the Tribunal.</string>
+	<string key="Quest_mammoth_required_equipment" rel_version="Territory_FirstLight">1 Azoth Staff</string>
+	<string key="trial_mammoth_approach" rel_version="Territory_FirstLight">Approach the Mammoth Lord</string>
+	<string key="trial_mammoth_defeat_boss" rel_version="Territory_FirstLight">Defeat Mahantaram</string>
+	<string key="trial_mammoth_defeat_boss_banner_title" rel_version="Territory_FirstLight">Defeat the Beast Lord</string>
+	<string key="trial_mammoth_defeat_boss_banner_description" rel_version="Territory_FirstLight">Defeat Mahantaram</string>
+	<string key="trial_mammoth_leave" rel_version="Territory_FirstLight">Explore the cave and Exit the Soul Trial</string>
+	<string key="Quest_adiana_title" rel_version="Territory_FirstLight">The End of New Eden</string>
+	<string key="Quest_adiana_description" rel_version="Territory_FirstLight">Hear us, Artemis, celebrated queen, eternal and Ancient, of a noble mien: In arrows rejoicing and on all to shine, bow-bearing Goddess, Diana divine; O'er Motherwell presided, Wild Creator and more, glorying in this Elysian war.</string>
+	<string key="Quest_adiana_required_equipment" rel_version="Territory_FirstLight">1 Azoth Staff</string>
+	<string key="trial_adiana_approach" rel_version="Territory_FirstLight">Approach the Goddess</string>
+	<string key="trial_adiana_defeat_boss" rel_version="Territory_FirstLight">Defeat Artemis</string>
+	<string key="trial_adiana_defeat_boss_banner_title" rel_version="Territory_FirstLight">Defeat the Goddess</string>
+	<string key="trial_adiana_defeat_boss_banner_description" rel_version="Territory_FirstLight">Defeat Artemis</string>
+	<string key="trial_adiana_leave" rel_version="Territory_FirstLight">Explore the Temple and Exit the Soul Trial</string>
+	<string key="Quest_medusa_title" rel_version="Territory_FirstLight">The Petrified Throne</string>
+	<string key="Quest_medusa_description" rel_version="Territory_FirstLight">Beware, living creature. A sorrowful warning. Dare not look into the eyes of the Gorgon; but it is not the Curse of Medusa you fear, but the pools of regret welled deep past the monster's eyes, most inner mind, past leftovers of a desperate Priestess. Or Pontifex.</string>
+	<string key="Quest_medusa_required_equipment" rel_version="Territory_FirstLight">1 Azoth Staff</string>
+	<string key="trial_medusa_approach" rel_version="Territory_FirstLight">Approach the Throne</string>
+	<string key="trial_medusa_defeat_boss" rel_version="Territory_FirstLight">Defeat Medusa</string>
+	<string key="trial_medusa_defeat_boss_banner_title" rel_version="Territory_FirstLight">Defeat the Gorgon</string>
+	<string key="trial_medusa_defeat_boss_banner_description" rel_version="Territory_FirstLight">Defeat Medusa</string>
+	<string key="trial_medusa_leave" rel_version="Territory_FirstLight">Explore the Throne Room and Exit the Soul Trial</string>
+	<string key="Quest_Yonas_title" rel_version="Quest_MSQ2_GreatCleave">The Last Soulwarden</string>
+	<string key="Quest_Yonas_description" rel_version="Quest_MSQ2_GreatCleave">Whispers entwined with corruption have found this faithful heart.</string>
+	<string key="Quest_Yonas_required_equipment" rel_version="Quest_MSQ2_GreatCleave">1 Azoth Staff</string>
+	<string key="quest_Yonas_task_leadup" rel_version="Quest_MSQ2_GreatCleave">Deal with corrupted interceptors</string>
+	<string key="quest_Yonas_task_approach" rel_version="Quest_MSQ2_GreatCleave">Approach Isabella</string>
+	<string key="quest_Yonas_task_destroy_boss" rel_version="Quest_MSQ2_GreatCleave">Defeat Yonas</string>
+	<string key="quest_Yonas_task_leave" rel_version="Quest_MSQ2_GreatCleave">Leave the cave</string>
+	<string key="Quest_Nihilo_title" rel_version="Quest_MSQ2_GreatCleave">Beyond the Gate</string>
+	<string key="Quest_Nihilo_description" rel_version="Quest_MSQ2_GreatCleave">It is a place of horror and beauty, where the eye betrays the mind's understanding. A realm that we cannot comprehend. Leap, and let go of this mortal grip called sanity. Leap, and know what is truly unknowable beyond the gate.</string>
+	<string key="Quest_Nihilo_required_equipment" rel_version="Quest_MSQ2_GreatCleave">1 Azoth Staff</string>
 </resources>
 

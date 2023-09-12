@@ -2,8 +2,8 @@
 	<string key="mm_randomizetitle">Uwaga</string>
 	<string key="mm_randomizewarning">Losowe generowanie postaci spowoduje utratę wszystkich wprowadzonych zmian. Czy na pewno chcesz wygenerować losową postać?</string>
 	<string key="mm_deletechartitle">Usuń postać</string>
-	<string key="mm_deletecharwarning">&lt;font color="#ffffff"&gt;Czy na pewno chcesz usunąć postać {characterName}?\n\nTej decyzji nie można cofnąć. Stracisz wszystkie postępy i przedmioty tej postaci.\n\nPo usunięciu będziesz mieć &lt;font color={highlightColor}&gt;7 dni&lt;/font&gt; na kontakt z działem obsługi klienta, by przywrócić postać.&lt;/font&gt;\n&lt;font color="#cccccc" face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt;(Zachowasz zakupione przedmioty).&lt;/font&gt;</string>
-	<string key="mm_deletecharwarning_serverfull">&lt;font color="#ffffff"&gt;Czy na pewno chcesz usunąć postać {characterName}?\n\nTej decyzji nie można cofnąć. Stracisz wszystkie postępy i przedmioty tej postaci.\n\nPo usunięciu będziesz mieć &lt;font color={highlightColor}&gt;7 dni&lt;/font&gt; na kontakt z działem obsługi klienta, by przywrócić postać.&lt;/font&gt;\n&lt;font color="#cccccc" face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt;(Zachowasz zakupione przedmioty).&lt;/font&gt;\n\n&lt;font color="#ff6b6b"&gt;Świat {worldName} jest pełny i nie pozwala na tworzenie nowych postaci lub przenoszenie innych.&lt;/font&gt;</string>
+	<string key="mm_deletecharwarning">Czy na pewno chcesz usunąć postać &lt;font color={highlightColor}&gt;{characterName}&lt;/font&gt;?\n\nZachowasz zakupione przedmioty, ale stracisz wszystkie postępy i pozostałe przedmioty tej postaci. Po usunięciu będziesz mieć &lt;font color={highlightColor}&gt;7 dni&lt;/font&gt; na kontakt z działem obsługi klienta, by przywrócić postać.</string>
+	<string key="mm_deletecharwarning_serverfull">Czy na pewno chcesz usunąć postać &lt;font color={highlightColor}&gt;{characterName}&lt;/font&gt;?\n\nZachowasz zakupione przedmioty, ale stracisz wszystkie postępy i pozostałe przedmioty tej postaci. Po usunięciu będziesz mieć &lt;font color={highlightColor}&gt;7 dni&lt;/font&gt; na kontakt z działem obsługi klienta, by przywrócić postać.\n\n&lt;font color={highlightColor}&gt;Świat {worldName}&lt;/font&gt; jest pełny i nie pozwala na tworzenie nowych postaci lub przenoszenie do niego innych.</string>
 	<string key="mm_selectcharacter">Wybierz postać</string>
 	<string key="mm_charactercount">Postacie</string>
 	<string key="mm_emptyslot">Puste miejsce</string>
@@ -167,7 +167,7 @@
 	<string key="mm_rejected_Capitals_Not_Ready">Serwer nie jest gotowy: trwa budowanie baz.</string>
 	<string key="mm_rejected_Duplicate_Connection">Gracz jest już połączony.</string>
 	<string key="mm_rejected_No_Persistence_Spawner">Serwer nie jest jeszcze gotowy do przyjęcia graczy. Ponawianie…</string>
-	<string key="mm_rejected_Character_Restore_Failure">Błąd serwera: nie udało się przywrócić postaci.</string>
+	<string key="mm_rejected_Character_Restore_Failure">Twoje dane są obecnie niedostępne.\nSpróbuj ponownie za kilka minut.</string>
 	<string key="mm_rejected_Character_Persist_Failure">Błąd serwera: nie udało się utrzymać postaci.</string>
 	<string key="mm_rejected_Character_Service_Failure">Błąd serwera: nie udało się wczytać danych postaci.</string>
 	<string key="mm_rejected_Character_Already_Exists">Błąd serwera: postać już istnieje.</string>
@@ -175,7 +175,7 @@
 	<string key="mm_rejected_Character_Registry_Failure">Błąd serwera: nie udało się zarejestrować postaci.</string>
 	<string key="mm_rejected_Grid_Too_Busy">Błąd serwera: region jest niedostępny z powodu zbyt dużej aktywności. Spróbuj ponownie później.</string>
 	<string key="mm_rejected_No_Ghost_Client">Błąd serwera: nie udało się rozpocząć replikacji.</string>
-	<string key="mm_rejected_Server_Crash">Utracono połączenie z serwerem, spróbuj ponownie później.</string>
+	<string key="mm_rejected_Server_Crash">Utracono połączenie z serwerem. Trwa ponowne łączenie…</string>
 	<string key="mm_rejected_Free_Session_Expired_Title">Darmowy czas rozgrywki wygasł.</string>
 	<string key="mm_rejected_Free_Session_Expired">Skończył się darmowy czas twojej rozgrywki. Naciśnij "OK", aby powrócić do menu głównego.</string>
 	<string key="mm_rejected_Client_Kicked_Login_Ticket_Error">Zgłoszenie logowania nie jest prawidłowe dla świata</string>
@@ -207,6 +207,7 @@
 	<string key="mm_rejected_Client_Kicked_BannedCommerce">Problem z płatnością</string>
 	<string key="mm_rejected_Client_Kicked_Embargoed_Country">Nie możemy zapewnić ci dostępu z twojej obecnej lokalizacji.</string>
 	<string key="mm_rejected_Client_Kicked_Unknown">Wyrzucono cię z gry.</string>
+	<string key="mm_rejected_Client_Expansion2023_Ownership">Twoja postać jest obecnie zablokowana. &lt;font color="#0000ff"&gt;&lt;a action="OpenRegionalUrl" data="@url_expansion2023_purchase"&gt;Kup rozszerzenie.&lt;/a&gt;&lt;/font&gt;</string>
 	<string key="mm_authresult_Authorized">Sukces</string>
 	<string key="mm_characterCreateDisabled">Tworzenie postaci zostało tymczasowo wyłączone – ten świat jest pełny. Wybierz inny świat.</string>
 	<string key="mm_characterTransferDisabled">Przenoszenie postaci jest aktualnie niedostępne, ponieważ ten świat jest pełny. Wybierz inny świat.</string>
@@ -238,7 +239,7 @@
 	<string key="mm_queuewithestimate">Szacowany czas: {time}\nMiejsce w kolejce: {rank}\n{status}</string>
 	<string key="mm_queuewithcappedestimate">Szacowany czas: &gt;{time}\nMiejsce w kolejce: {rank}\n{status}</string>
 	<string key="mm_queueestimateunknown">Szacowany czas: nieznany\nMiejsce w kolejce: nieznane\n{status}</string>
-	<string key="mm_queuepopuptitle">Oczekiwanie na zalogowanie...</string>
+	<string key="mm_queuepopuptitle">Logowanie...</string>
 	<string key="mm_queuejoinfailed">Zalogowanie niemożliwe z powodu zbyt dużej liczby oczekujących graczy. Spróbuj ponownie później.</string>
 	<string key="mm_queuerefresherror">Błąd połączenia z kolejką logowania. Ponawianie...</string>
 	<string key="mm_server_message_title">Komunikat serwera</string>
@@ -307,15 +308,16 @@
 	<string key="ui_bio">Biografia</string>
 	<string key="ui_attributes">Cechy</string>
 	<string key="ui_trade_skills">Profesje</string>
+	<string key="ui_trade_skill">Profesja</string>
 	<string key="ui_how_it_works">Jak to działa?</string>
 	<string key="ui_pvp_track_skills_tab" rel_version="PvP_Rewards_Track">PvP</string>
 	<string key="ui_pvp_track" rel_version="PvP_Rewards_Track">Ścieżka PvP</string>
-	<string key="ui_pvp_track_progress_bar_tooltip" rel_version="PvP_Rewards_Track">&lt;font face="lyshineui/fonts/Nimbus_Bold_Italic.font"&gt;Punkt kontrolny {checkpoint}:&lt;/font&gt; {currentProgression}/{maxProgression}\n\nRób postępy na swojej ścieżce, wykonując misje PvP, biorąc udział w wojnach, napadach na posterunek czy przejmowaniu fortów, pokonując innych graczy i zaliczając areny 3 na 3.</string>
+	<string key="ui_pvp_track_progress_bar_tooltip" rel_version="PvP_Rewards_Track">&lt;font face="lyshineui/fonts/Nimbus_Bold_Italic.font"&gt;Punkt kontrolny {checkpoint}:&lt;/font&gt; {currentProgression}/{maxProgression}\n\nRób postępy na swojej ścieżce, pokonując innych graczy, wykonując misje PvP, biorąc udział w wojnach, napadach na posterunek czy przejmowaniu fortów i zaliczając areny 3 na 3.</string>
 	<string key="ui_pvp_track_next_track_tooltip" rel_version="PvP_Rewards_Track">Musisz zaliczyć wszystkie punkty kontrolne przed rozpoczęciem następnej ścieżki. Jeśli odbierzesz nagrodę z każdego punktu kontrolnego, automatycznie rozpoczniesz następną ścieżkę.\n\nZa każdy punkt kontrolny, z którego nie odbierzesz nagrody, otrzymasz 300 jednostek azothowej soli w momencie, gdy rozpoczniesz następną ścieżkę.</string>
 	<string key="ui_pvp_track_unknown_item_tooltip" rel_version="PvP_Rewards_Track">Nagrody do wyboru zostaną ujawnione po zaliczeniu punktu kontrolnego.</string>
 	<string key="ui_pvp_track_completions" comment="The number of times they have completed the track. Like a level" rel_version="PvP_Rewards_Track">Ukończone ścieżki</string>
-	<string key="ui_pvp_track_purchasehint" rel_version="PvP_Rewards_Track">Wybierz maksymalnie &lt;font face="lyshineui/fonts/Nimbus_Bold.font" color={itemColor}&gt;1 przedmiot na punkt kontrolny&lt;/font&gt; do kupienia za &lt;font color={azothColor}&gt;azothową sól&lt;/font&gt;&lt;img src="lyshineui/images/icons/misc/icon_azoth_salt" scale="1.5" yOffset="3"&gt;&lt;/img&gt;</string>
-	<string key="ui_pvp_track_openemblems" rel_version="PvP_Rewards_Track">Herby i nagrody</string>
+	<string key="ui_pvp_track_purchasehint" rel_version="PvP_Rewards_Track">Wybierz maksymalnie &lt;font face="lyshineui/fonts/Nimbus_Bold.font" color={itemColor}&gt;1 przedmiot na punkt kontrolny&lt;/font&gt; do kupienia za azothową sól&lt;img src="lyshineui/images/icons/misc/icon_azoth_salt" scale="1.5" yOffset="3"&gt;&lt;/img&gt;.</string>
+	<string key="ui_pvp_track_openemblems" rel_version="PvP_Rewards_Track">Nagrody</string>
 	<string key="ui_pvp_track_checkpoint" rel_version="PvP_Rewards_Track">Punkt kontrolny &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{index}&lt;/font&gt;</string>
 	<string key="ui_pvp_track_pvpprogress" rel_version="PvP_Rewards_Track">&lt;font face="lyshineui/fonts/Nimbus_Bold.font" color={colorProgress}&gt;{amount}&lt;/font&gt;&lt;img src="lyshineui/images/icons/misc/icon_warsmall_white" scale="1.5" yOffset="4"&gt;&lt;/img&gt; &lt;font color={colorCheckpoint} face="lyshineui/fonts/Nimbus_regular.font"&gt; do punktu kontrolnego {index}&lt;/font&gt;</string>
 	<string key="ui_pvp_currency_amount" rel_version="PvP_Rewards_Track">{amount}&lt;img src="lyshineui/images/icons/misc/icon_azoth_salt" scale="1.5" yOffset="3"&gt;&lt;/img&gt;</string>
@@ -332,23 +334,17 @@
 	<string key="ui_pvp_track_tut_title3" rel_version="PvP_Rewards_Track">Azothowa sól</string>
 	<string key="ui_pvp_track_tut_title4" rel_version="PvP_Rewards_Track">Nagrody</string>
 	<string key="ui_pvp_track_tut_desc1" rel_version="PvP_Rewards_Track">Ścieżka nagród PvP zawiera nagrody związane z trybem PvP, które można zdobyć za wykonywanie aktywności PvP. Po ukończeniu ścieżki można ją ponownie rozpocząć, by zdobyć inne nagrody. Im więcej ukończonych ścieżek, tym bardziej prestiżowe nagrody do zdobycia.</string>
-	<string key="ui_pvp_track_tut_desc2" rel_version="PvP_Rewards_Track">Rób postępy na swojej ścieżce, wykonując misje PvP, biorąc udział w wojnach, napadach na posterunek czy przejmowaniu fortów, pokonując innych graczy i zaliczając areny 3 na 3.</string>
+	<string key="ui_pvp_track_tut_desc2" rel_version="PvP_Rewards_Track">Rób postępy na swojej ścieżce, pokonując innych graczy, wykonując misje PvP, biorąc udział w wojnach, napadach na posterunek czy przejmowaniu fortów i zaliczając areny 3 na 3.</string>
 	<string key="ui_pvp_track_tut_desc3" rel_version="PvP_Rewards_Track">Azothowa sól jest walutą służącą do zdobywania nagród na ścieżce PvP. Możesz ją pozyskać, biorąc udział w wojnach, napadach na posterunek, starciach na arenach 3 na 3, wykonując misje PvP i zabijając graczy w otwartym świecie, a także zdobywając PD z aktywnym oznaczeniem do PvP.</string>
 	<string key="ui_pvp_track_tut_desc4" rel_version="PvP_Rewards_Track">Wybieraj spośród wyjątkowych nagród, takich jak prestiżowa broń i pancerz, gesty, waluty czy przedmioty użytkowe.</string>
 	<string key="ui_pvp_track_leveltext" rel_version="PvP_Rewards_Track">Ukończone ścieżki: &lt;font color="#FFFFFF" &gt;{level}&lt;/font&gt;</string>
 	<string key="ui_pvp_track_leveltext_header" rel_version="PvP_Rewards_Track">Ukończone ścieżki: &lt;font face="lyshineui/fonts/CaslonAnt.font" color="#FFFFFF"&gt;{level}&lt;/font&gt;</string>
-	<string key="ui_pvp_track_current_balance" rel_version="PvP_Rewards_Track">Saldo: &lt;font color={colorBalance} face="lyshineui/fonts/CaslonAnt.font"&gt;{balance}&lt;/font&gt;</string>
+	<string key="ui_pvp_track_current_balance" rel_version="PvP_Rewards_Track">Saldo</string>
 	<string key="ui_pvp_track_addtopool" rel_version="PvP_Rewards_Track">+ pula nagród</string>
 	<string key="ui_pvp_track_rankup_confirmation" rel_version="PvP_Rewards_Track">Otrzymasz premię za każdy punkt kontrolny, za który nie odebrano nagrody. Twoja azothowa sól zostanie przeniesiona na nową ścieżkę, na której czekają nowe nagrody.</string>
 	<string key="ui_pvp_track_rankup_stagesummary" rel_version="PvP_Rewards_Track">\n&lt;font color={colorBonus}&gt;Premie za punkt kontrolny: &lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#ffffff"&gt;{amount}&lt;/font&gt;&lt;img src="lyshineui/images/icons/misc/icon_azoth_salt" scale="1.5" yOffset="3"&gt;&lt;/img&gt;</string>
 	<string key="ui_pvp_track_rankup_bonussalt" rel_version="PvP_Rewards_Track">&lt;font color={colorBonus}&gt; Premia za ukończenie ścieżki: &lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_Bold.font" color="#ffffff"&gt;{amount}&lt;/font&gt;&lt;img src="lyshineui/images/icons/misc/icon_azoth_salt" scale="1.5" yOffset="3"&gt;&lt;/img&gt;</string>
 	<string key="ui_pvp_track_bannertext" rel_version="PvP_Rewards_Track">Ukończono ścieżkę PvP</string>
-	<string key="ui_pvp_track_bannerrewards_1" rel_version="PvP_Rewards_Track">Pula nagród: \n+gest</string>
-	<string key="ui_pvp_track_bannerrewards_2" rel_version="PvP_Rewards_Track">Pula nagród: \n+nazwane wyposażenie \n+więcej waluty</string>
-	<string key="ui_pvp_track_bannerrewards_3" rel_version="PvP_Rewards_Track">Pula nagród: \n+prestiżowe wyposażenie \n+gest \n+paczki fiolek z solą</string>
-	<string key="ui_pvp_track_bannerrewards_4" rel_version="PvP_Rewards_Track">Pula nagród: \n+gips \n+więcej waluty \n+więcej odłamków umbralu</string>
-	<string key="ui_pvp_track_bannerrewards_5" rel_version="PvP_Rewards_Track">Pula nagród: \n+gest \n+więcej odłamków umbralu</string>
-	<string key="ui_pvp_track_bannerrewards_6" rel_version="PvP_Rewards_Track">Pula nagród: \n+gest \n+więcej waluty \n+więcej przedmiotów z łupów</string>
 	<string key="ui_pvp_track_next_milestone" rel_version="PvP_Rewards_Track">Kamień milowy ścieżki {milestone}:</string>
 	<string key="ui_pvp_track_milestone" rel_version="PvP_Rewards_Track">Kamień milowy ścieżki{milestone}</string>
 	<string key="ui_pvp_track_reward" rel_version="PvP_Rewards_Track">Nagroda</string>
@@ -462,15 +458,16 @@
 	<string key="ui_fishing_equip_action">Tryb wędkowania</string>
 	<string key="ui_fishing_action">Zarzuć / Złap / Zwiń</string>
 	<string key="ui_fishing_reset_action">Resetuj rzucanie / Przerwij</string>
-	<string key="ui_performances" rel_version="Feature_MusicalPerformances">Występy</string>
+	<string key="ui_riding" rel_version="Feature_Mounts">Riding</string>
+	<string key="ui_performances" rel_version="Feature_MusicalPerformances">Muzyka</string>
 	<string key="ui_performances_toggle" rel_version="Feature_MusicalPerformances">Tryb występu</string>
-	<string key="ui_performances_start" rel_version="Feature_MusicalPerformances">Rozpocznij występ</string>
-	<string key="ui_performances_equip" rel_version="Feature_MusicalPerformances">Wyposaż nuty</string>
+	<string key="ui_performances_start" rel_version="Feature_MusicalPerformances">Graj</string>
+	<string key="ui_performances_equip" rel_version="Feature_MusicalPerformances">Wybór piosenki</string>
 	<string key="ui_performances_invite" rel_version="Feature_MusicalPerformances">Zaproś</string>
 	<string key="ui_camping">Biwakowanie</string>
 	<string key="ui_tracking">Już wkrótce</string>
 	<string key="ui_exploring">Już wkrótce</string>
-	<string key="ui_crafting">Rzemiosło</string>
+	<string key="ui_crafting">Wytwarzanie</string>
 	<string key="ui_repairing">Naprawa</string>
 	<string key="ui_gathering">Zbieranie</string>
 	<string key="ui_refining">Przetwarzanie</string>
@@ -487,6 +484,11 @@
 	<string key="ui_kiln_desc">Możesz tu wytwarzać i przetwarzać gips.</string>
 	<string key="ui_furnishing">Meblarstwo</string>
 	<string key="ui_source_craftable">Można wytworzyć</string>
+	<string key="ui_source_transmoggable" rel_version="Feature_Transmog">Przemiana możliwa</string>
+	<string key="ui_transmog_skin_not_owned" rel_version="Feature_Transmog">Ta skórka nie została przez ciebie odblokowana.</string>
+	<string key="ui_transmog_must_have_owned" rel_version="Feature_Transmog">Musisz zdobyć ten przedmiot, by móc poddać go przemianie.</string>
+	<string key="ui_transmog_not_currently_available" rel_version="Feature_Transmog">Ta skórka jest obecnie niedostępna.</string>
+	<string key="ui_transmogstation" rel_version="Feature_Transmog">Stylomancja</string>
 	<string key="ui_wildernesssurvival" comment="wilderness survival is not a trainable skill and is always equal to the character's level, so just tell users it's their character level for simplicity">Postać</string>
 	<string key="ui_weaponsmithing_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Limit faktorii zbrojmistrzowskiej</string>
 	<string key="ui_armoring_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Limit faktorii płatnerskiej</string>
@@ -506,6 +508,7 @@
 	<string key="ui_logging_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Limit faktorii drwalskiej</string>
 	<string key="ui_harvesting_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Limit faktorii żniwiarskiej</string>
 	<string key="ui_musician_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Limit muzyków</string>
+	<string key="ui_riding_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_Mounts">Riding Post Cap</string>
 	<string key="ui_seasonpass" rel_version="Feature_Seasons_Rewards">Przepustka sezonowa</string>
 	<string key="ui_decline">Odrzuć</string>
 	<string key="ui_name_your_avatar">Imię postaci</string>
@@ -611,5 +614,10 @@
 	<string key="ui_fw_rtmm_body" rel_version="Feature_FreeWeekend">Dziękujemy za wspólną grę podczas darmowego weekendu New World!\n\nZasubskrybuj newsletter New World, by poznać najnowsze wieści i oferty z Aeternum.</string>
 	<string key="ui_fw_newsletter" rel_version="Feature_FreeWeekend">Newsletter</string>
 	<string key="ui_fw_survey" rel_version="Feature_FreeWeekend">Ankieta</string>
+	<string key="ui_season_track_reward" rel_version="Feature_Seasons_Rewards">Nieodebrane nagrody</string>
+	<string key="error_cross_world_maintenance_title">Konserwacja serwera</string>
+	<string key="error_cross_world_maintenance_message">Przeniesiono cię do otwartego świata z powodu konserwacji serwera.</string>
+	<string key="tradeskill_skillcap_info">Maksymalny poziom profesji: {maxRank}</string>
+	<string key="tradeskill_skillcap_tooltip">{expansionName} – zakup, by podnieść maksymalny poziom profesji do {maxRank}.</string>
 </resources>
 

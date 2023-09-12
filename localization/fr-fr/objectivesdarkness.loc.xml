@@ -68,6 +68,7 @@
 	<string key="objective_darkness_invasion_waves_title">DÉFENDEZ LA FORTERESSE</string>
 	<string key="objective_darkness_invasion_waves_desc">VAGUE &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{currentWave}&lt;/font&gt;&lt;/font&gt; SUR &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{totalWaves}&lt;/font&gt;</string>
 	<string key="objective_darkness_invasion_waves_desc_final">VAGUE FINALE</string>
+	<string key="ui_summermedley_shredlyfair" rel_version="Event_Summer2023_Perm">Scène de concert</string>
 	<string key="ui_preddieu_farm_attack" rel_version="Quest_MSQ2_Revamp">La vengeance de Sneed</string>
 	<string key="ui_preddieu_farm_attack_description" rel_version="Quest_MSQ2_Revamp">Sneed le fermier croit toujours que cette terre lui appartient et ne reculera devant rien pour la récupérer. Protégez les fermes et chassez-le.</string>
 	<string key="objective_preddieu_farm_attack_title">Empêcher les dévoyés de détruire les réserves</string>
@@ -83,9 +84,13 @@
 	<string key="ui_holdout_chamber_Obj_Task_01_desc" rel_version="Quest_MSQ2_Revamp">Interagissez avec le glyphe pour commencer l'épreuve.</string>
 	<string key="ui_holdout_chamber_Obj_Task_02" rel_version="Quest_MSQ2_Revamp">Survivre à l'Épreuve</string>
 	<string key="ui_holdout_chamber_Obj_Task_02_desc" rel_version="Quest_MSQ2_Revamp">Temps restant :</string>
+	<string key="ui_lostattack_swampwaterfishery" rel_version="Event_SpringtideBloom_Perm">L'instrument ancien</string>
+	<string key="ui_lostattack_swampwaterfishery_description" rel_version="Event_SpringtideBloom_Perm">Un étrange appareil dans une pêcherie abandonnée... Que pourrait-il mal se passer ?</string>
 	<string key="objective_lostattack_swampwaterfishery_title">Instrument ancien</string>
 	<string key="objective_lostattack_swampwaterfishery_desc">Examinez l'instrument ancien sur les berges de la rivière.</string>
 	<string key="objective_lostattack_swampwaterfishery_wave_01">Défense de l'instrument ancien : {remainingCount}/1 \nTemps restant :</string>
+	<string key="ui_lostattack_piscarianfishery" rel_version="Event_SpringtideBloom_Perm">L'outil ancien</string>
+	<string key="ui_lostattack_piscarianfishery_description" rel_version="Event_SpringtideBloom_Perm">Un étrange outil ancien dans une pêcherie abandonnée... Que pourrait-il mal se passer ?</string>
 	<string key="objective_lostattack_piscarianfishery_title">Instrument ancien :</string>
 	<string key="objective_lostattack_piscarianfishery_desc">Examinez l'instrument ancien sur la jetée.</string>
 	<string key="objective_lostattack_piscarianfishery_wave_01">Défense de l'instrument ancien : {remainingCount}/1 \nTemps restant :</string>
@@ -120,14 +125,26 @@
 	<string key="objective_ordealscorpio_attack_wave_01_desc" rel_version="Territory_Brimstone_Sands">Scorpion divin</string>
 	<string key="objective_ordealscorpio_attack_wave_02_title" rel_version="Territory_Brimstone_Sands">Explorer la caverne</string>
 	<string key="objective_ordealscorpio_attack_wave_02_desc" rel_version="Territory_Brimstone_Sands">Temps restant</string>
+	<string key="ui_ordealisland_attack" rel_version="Territory_FirstLight">Isle of Zurvān</string>
+	<string key="ui_ordealisland_attack_description" rel_version="Territory_FirstLight">Elite Overlord</string>
+	<string key="objective_ordealisland_attack_wave_00_title" rel_version="Territory_FirstLight">Begin the Climb:</string>
+	<string key="objective_ordealisland_attack_wave_00_desc" rel_version="Territory_FirstLight">Cross the First Threshold</string>
+	<string key="objective_ordealisland_attack_wave_01_title" rel_version="Territory_FirstLight">Ascend the Mountain:</string>
+	<string key="objective_ordealisland_attack_wave_01_desc" rel_version="Territory_FirstLight">Cross the Second Threshold</string>
+	<string key="objective_ordealisland_attack_wave_02_title" rel_version="Territory_FirstLight">Awaken the Overlords:</string>
+	<string key="objective_ordealisland_attack_wave_02_desc" rel_version="Territory_FirstLight">Cross the Final Threshold</string>
+	<string key="objective_ordealisland_attack_wave_03_title" rel_version="Territory_FirstLight">Defeat the Overlords:</string>
+	<string key="objective_ordealisland_attack_wave_03_desc" rel_version="Territory_FirstLight">The Twin Lions: {remainingCount}/2</string>
+	<string key="objective_ordealisland_attack_wave_04_title" rel_version="Territory_FirstLight">Explore the Island</string>
+	<string key="objective_ordealisland_attack_wave_04_desc" rel_version="Territory_FirstLight">Time Remaining:</string>
 	<string key="objective_msq_beach_chaplain">Œil du cyclone</string>
 	<string key="objective_msq_beach_chaplain_description">Défiez et venez à bout du religieux de la Tempête dans la grotte altérée pour dissiper l'orage.</string>
 	<string key="objective_msq_beach_chaplain_task_defeat_title">Dissiper la tempête d'altération</string>
 	<string key="objective_msq_beach_chaplain_task_defeat_desc">Venez à bout du religieux de la Tempête.</string>
 	<string key="objective_msq_beach_chaplain_task_destroy_title">Détruire les bouches d'altération</string>
-	<string key="objective_msq_beach_chaplain_task_destroy_desc">Bouches d'altération restantes : {remainingCount}.</string>
+	<string key="objective_msq_beach_chaplain_task_destroy_desc">Bouches d'altération restantes : {remainingCount}</string>
 	<string key="objective_msq_heartforge_guardian">Épreuve de Forgecœur</string>
-	<string key="objective_msq_heartforge_guardian_description">Défiez et éliminez de gardien de Forgecœur.</string>
+	<string key="objective_msq_heartforge_guardian_description">Défiez et éliminez le gardien de Forgecœur.</string>
 	<string key="objective_msq_heartforge_guardian_task_approach_title">S'approcher du gardien de Forgecœur pour commencer l'Épreuve</string>
 	<string key="objective_msq_heartforge_guardian_task_approach_desc">Approchez-vous du gardien de Forgecœur.</string>
 	<string key="objective_msq_heartforge_guardian_task_ignite_title">Raviver les flammes de Forgecœur pour briser les défenses du gardien</string>
@@ -155,27 +172,41 @@
 	<string key="ui_turkeyterror_worldboss_Turkulon_description">Turulon est de retour pour venger ses camarades tombés au combat.</string>
 	<string key="ui_worldboss_defeated" rel_version="Event_February_Perm">Vaincu : {objective}</string>
 	<string key="ui_worldboss_daily_reset" rel_version="Event_February_Perm">La récompense quotidienne se réinitialise à {time}</string>
-	<string key="ui_worldboss_season_01_event" rel_version="Season_1_Temp">La fureur du spriggan</string>
-	<string key="ui_worldboss_season_01_event_description" rel_version="Season_1_Temp">La terre se soulève contre nous, soumet les dryades et l'arme qu'elles cherchent à invoquer.\n\nContient &lt;font color="#ffe940"&gt;3&lt;/font&gt; récompenses quotidiennes. Se réinitialise à {time}.</string>
-	<string key="objective_worldboss_task_season_01_event_wave0_title" rel_version="Season_1_Temp">Construire les braseros ardents pour renforcer vos armes et éliminer les dryades</string>
-	<string key="objective_worldboss_task_season_01_event_wave0_desc" rel_version="Season_1_Temp">Braseros ardents restants : {remainingCount}</string>
-	<string key="objective_worldboss_task_season_01_event_wave1_title" rel_version="Season_1_Temp">Renforcer vos armes aux braseros et tenir bon contre les dryades</string>
-	<string key="objective_worldboss_task_season_01_event_wave1_desc" rel_version="Season_1_Temp">Temps restant :</string>
-	<string key="objective_worldboss_task_season_01_event_wave2_title" rel_version="Season_1_Temp">Arrêter le rituel</string>
-	<string key="objective_worldboss_task_season_01_event_wave2_desc" rel_version="Season_1_Temp">Chamans restants : {remainingCount}</string>
-	<string key="objective_worldboss_task_season_01_event_wave3_title" rel_version="Season_1_Temp">Le rituel a été accompli ! Défendez-vous contre le spriggan !</string>
-	<string key="objective_worldboss_task_season_01_event_wave3_desc" rel_version="Season_1_Temp">Venez à bout du spriggan.</string>
-	<string key="objective_S01_Aidyn" rel_version="Season_1_Temp">La piste se précise</string>
-	<string key="objective_S01_Aidyn_description" rel_version="Season_1_Temp">Aidyn a été altérée par Sans-visage et a besoin de votre aide.</string>
-	<string key="objective_S01_Aidyn_task_approach_title" rel_version="Season_1_Temp">Aidyn a été altérée par Sans-visage et a besoin de votre aide.</string>
-	<string key="objective_S01_Aidyn_task_approach_desc" rel_version="Season_1_Temp">S'approcher d'Aidyn</string>
-	<string key="objective_S01_Aidyn_task_defeat_title" rel_version="Season_1_Temp">Aidyn a été altérée par Sans-visage et a besoin de votre aide.</string>
-	<string key="objective_S01_Aidyn_task_defeat_desc" rel_version="Season_1_Temp">Vaincre Aidyn</string>
-	<string key="objective_S01_Faceless" rel_version="Season_1_Temp">Le sorcier noir</string>
-	<string key="objective_S01_Faceless_description" rel_version="Season_1_Temp">Mettez un terme aux plans diaboliques de Sans-visage.</string>
-	<string key="objective_S01_Faceless_task_approach_title" rel_version="Season_1_Temp">Mettez un terme aux plans diaboliques de Sans-visage.</string>
-	<string key="objective_S01_Faceless_task_approach_desc" rel_version="Season_1_Temp">S'approcher de Sans-visage</string>
-	<string key="objective_S01_Faceless_task_defeat_title" rel_version="Season_1_Temp">Mettez un terme aux plans diaboliques de Sans-visage.</string>
-	<string key="objective_S01_Faceless_task_defeat_desc" rel_version="Season_1_Temp">Vaincre Sans-visage</string>
+	<string key="objective_Season_02_PoolsOfOrcus_title_wave1" rel_version="Quest_MSQ_Update_4">Bassins d'Orcus</string>
+	<string key="objective_Season_02_PoolsOfOrcus_encounter1" rel_version="Quest_MSQ_Update_4">Arrêter les geysers : {remainingCount}/3</string>
+	<string key="objective_Season_02_DancingPillars_title_wave1" rel_version="Quest_MSQ_Update_4">Piliers dansants : étape 1/5</string>
+	<string key="objective_Season_02_DancingPillars_title_wave2" rel_version="Quest_MSQ_Update_4">Piliers dansants : étape 2/5</string>
+	<string key="objective_Season_02_DancingPillars_title_wave3" rel_version="Quest_MSQ_Update_4">Piliers dansants : étape 3/5</string>
+	<string key="objective_Season_02_DancingPillars_title_wave4" rel_version="Quest_MSQ_Update_4">Piliers dansants : étape 4/5</string>
+	<string key="objective_Season_02_DancingPillars_title_wave5" rel_version="Quest_MSQ_Update_4">Piliers dansants : étape 5/5</string>
+	<string key="objective_Season_02_DancingPillars_encounter1" rel_version="Quest_MSQ_Update_4">Atteindre le marqueur</string>
+	<string key="ui_poi_spiritshrine_20430" rel_version="Season_2_Perm">Autel des piliers</string>
+	<string key="ui_motherwell_attack" rel_version="Quest_MSQ2_Edengrove">The Motherwell</string>
+	<string key="ui_motherwell_attack_description" rel_version="Quest_MSQ2_Edengrove">Soul Trial</string>
+	<string key="objective_motherwell_attack_wave_01_title" rel_version="Quest_MSQ2_Edengrove">Defeat Actaeon:</string>
+	<string key="objective_motherwell_attack_wave_01_desc" rel_version="Quest_MSQ2_Edengrove">{remainingCount}/1</string>
+	<string key="objective_motherwell_attack_wave_02_title" rel_version="Quest_MSQ2_Edengrove">Defend the Barrier:</string>
+	<string key="objective_motherwell_attack_wave_02_desc" rel_version="Quest_MSQ2_Edengrove">Time Remaining:</string>
+	<string key="ui_fl_worldboss_beast_01_Obj_Enc_Title" rel_version="Territory_FirstLight">Defeat Kol Ciron</string>
+	<string key="ui_fl_worldboss_beast_02_Obj_Enc_Title" rel_version="Territory_FirstLight">Defeat Bulrok the Burning</string>
+	<string key="ui_fl_worldboss_beast_03_Obj_Enc_Title" rel_version="Territory_FirstLight">Defeat Kondak the Frigid</string>
+	<string key="ui_fl_worldboss_beast_04_Obj_Enc_Title" rel_version="Territory_FirstLight">Defeat Mawthor, The Thundering</string>
+	<string key="ui_fl_worldboss_beast_05_Obj_Enc_Title" rel_version="Territory_FirstLight">Defeat Mosantar, The Earth Eater</string>
+	<string key="ui_fl_worldboss_beast_06_Obj_Enc_Title" rel_version="Territory_FirstLight">Defeat Zirash</string>
+	<string key="ui_fl_worldboss_beast_07_Obj_Enc_Title" rel_version="Territory_FirstLight">Defeat Kudzu</string>
+	<string key="ui_fl_worldboss_beast_01_Obj_Enc_Title_description" rel_version="Territory_FirstLight">Hunt The indomitable Kol Ciron</string>
+	<string key="ui_fl_worldboss_beast_02_Obj_Enc_Title_description" rel_version="Territory_FirstLight">Hunt The blazing Bulrok the Burning</string>
+	<string key="ui_fl_worldboss_beast_03_Obj_Enc_Title_description" rel_version="Territory_FirstLight">Hunt The frostbitten Kondak the Frigid</string>
+	<string key="ui_fl_worldboss_beast_04_Obj_Enc_Title_description" rel_version="Territory_FirstLight">Hunt The voice of the sky Mawthor, The Thundering</string>
+	<string key="ui_fl_worldboss_beast_05_Obj_Enc_Title_description" rel_version="Territory_FirstLight">Hunt The giant Mosantar, The Earth Eater</string>
+	<string key="ui_fl_worldboss_beast_06_Obj_Enc_Title_description" rel_version="Territory_FirstLight">Hunt The pride of Zirash</string>
+	<string key="ui_fl_worldboss_beast_07_Obj_Enc_Title_description" rel_version="Territory_FirstLight">Hunt The scurge of the jungle Kudzu</string>
+	<string key="objective_enc_darkness_Hunt_armored_dragon_wave_01_title" rel_version="Territory_FirstLight">Rend the scales</string>
+	<string key="objective_enc_darkness_Hunt_Fire_Gorilla_wave_01_title" rel_version="Territory_FirstLight">Stop the inferno</string>
+	<string key="objective_enc_darkness_Hunt_Ice_Gorilla_wave_01_title" rel_version="Territory_FirstLight">Melt the frost</string>
+	<string key="objective_enc_darkness_Hunt_Mammoth_Lightning_wave_01_title" rel_version="Territory_FirstLight">Break the Tusk</string>
+	<string key="objective_enc_darkness_Hunt_Mammoth_Nature_wave_01_title" rel_version="Territory_FirstLight">Smash the growth</string>
+	<string key="objective_enc_darkness_Hunt_Primal_Lions_wave_01_title" rel_version="Territory_FirstLight">Slay the Beasts</string>
+	<string key="objective_enc_darkness_Hunt_Razro_Lotus_wave_01_title" rel_version="Territory_FirstLight">Uproot the horde</string>
 </resources>
 

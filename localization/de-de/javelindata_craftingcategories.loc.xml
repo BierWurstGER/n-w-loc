@@ -203,8 +203,10 @@
 	<string key="HousingTrdG_Cabinets_GroupName" comment="Housing Furniture - Trading Post - TradingGroup">Schränke</string>
 	<string key="HousingTrdG_Cabinets_GroupDesc" comment="Housing Furniture - Trading Post - TradingGroup">Behausung, Schränke</string>
 	<string key="HousingTrdG_Veg_GroupName" comment="Housing Furniture - Trading Post - TradingGroup">Pflanzen</string>
-	<string key="1hHatchet_GroupDesc">Eine vielseitige Waffe, die mit Wurfangriffen Ziele in der Ferne und mit schnellen Schlägen Ziele in der Nähe angreifen kann. Ideal für den aggressiven, wagemutigen Nahkampf oder taktische Angriffe auf mittlere Entfernungen.\n\n• Leichter Angriff: Verursacht {[DamageTable.Hatchet_Damage_PrimaryAttack.DmgCoef * 100]} % Schnittschaden.\n• Leichtes Ende: Verursacht {[DamageTable.Hatchet_Damage_PrimaryAttack_Ender.DmgCoef * 100]} % Schnittschaden.\n• Schwerer Angriff: Verursacht {[DamageTable.Hatchet_Damage_HeavyAttack.DmgCoef * 100]} % Schnittschaden.\n• Aufgeladener schwerer Angriff: Verursacht {[DamageTable.Hatchet_Damage_HeavyAttack_Charged.DmgCoef * 100]} % Schnittschaden.</string>
+	<string key="1hFlail_GroupName" rel_version="Weapon_Flail">Flegel</string>
+	<string key="1hFlail_GroupDesc" rel_version="Weapon_Flail">Der Flegel ist eine dynamische Waffe, die ihre Reichweite mit einer langen Kette vergrößern kann. Wird sie nicht genutzt, ruht der Kopf auf dem Griff. \n\nDer Flegel ist am effektivsten, wenn er zur Unterstützung von Verbündeten eingesetzt wird. Das tut er aber auf aggressive Weise, indem er Verbündeten starke Effekte verleiht, während sich der Träger selbst im Nahkampf befindet. \n\nDer Flegel verfügt über verschiedene Schlag- und Arkanmagieangriffe. Die sind zwar für sich nicht sehr stark, aber ihre unterdrückenden, unterstützenden und verteidigenden Effekte erlauben es dem Träger, sich im Kampf als erhebliche Bedrohung hervorzutun.\n\n• Leichte Angriffe: Verursacht {[DamageTable.1H_Flail_LightAttack1.DmgCoef * 100]} % Schlagschaden.\n• Schwere Angriffe: Verursacht {[DamageTable.1H_Flail_HeavyAttackChain_1.DmgCoef * 100]} % Schlagschaden.</string>
 	<string key="1hHatchet_GroupName">Hergestellte Beile</string>
+	<string key="1hHatchet_GroupDesc">Eine vielseitige Waffe, die mit Wurfangriffen Ziele in der Ferne und mit schnellen Schlägen Ziele in der Nähe angreifen kann. Ideal für den aggressiven, wagemutigen Nahkampf oder taktische Angriffe auf mittlere Entfernungen.\n\n• Leichter Angriff: Verursacht {[DamageTable.Hatchet_Damage_PrimaryAttack.DmgCoef * 100]} % Schnittschaden.\n• Leichtes Ende: Verursacht {[DamageTable.Hatchet_Damage_PrimaryAttack_Ender.DmgCoef * 100]} % Schnittschaden.\n• Schwerer Angriff: Verursacht {[DamageTable.Hatchet_Damage_HeavyAttack.DmgCoef * 100]} % Schnittschaden.\n• Aufgeladener schwerer Angriff: Verursacht {[DamageTable.Hatchet_Damage_HeavyAttack_Charged.DmgCoef * 100]} % Schnittschaden.</string>
 	<string key="1hHatchetAngryEarth_GroupName">Beile der Verderbnis</string>
 	<string key="1hHatchetB_GroupName">Beile (kaltes Eisen)</string>
 	<string key="1hHatchetBeast_GroupName">Beile der Urzeit</string>
@@ -693,6 +695,7 @@
 	<string key="CategoryData_Shields">Schilde</string>
 	<string key="CategoryData_ShieldsKite">Langspitzschilde</string>
 	<string key="CategoryData_ShieldsRound">Rundschilde</string>
+	<string key="CategoryData_MountAttachments" rel_version="Feature_Mounts">Reittieranhänge</string>
 	<string key="CategoryData_shots">Patronen</string>
 	<string key="CategoryData_SiegeTools">Belagerung</string>
 	<string key="CategoryData_SlotChest">Brustpanzerung</string>
@@ -863,7 +866,7 @@
 	<string key="DungeonReps8_GroupName">Nachbildungen der Enneade</string>
 	<string key="DungeonReps9_GroupName">Nachbildungen des Herzens des Sturmwinds</string>
 	<string key="DungeonShields_GroupName">Expeditions-Schilde</string>
-	<string key="DungeonReps12_GroupName">Einzigartige Expeditionsbelohnungen</string>
+	<string key="DungeonReps12_GroupName" rel_version="Expedition_FirstLight_01">Kristallklauennachbildungen</string>
 	<string key="Dye1_GroupDesc">Stelle einen roten Farbton her.</string>
 	<string key="Dye1_GroupName">Farbe: Rot</string>
 	<string key="Dye10_GroupDesc">Farbstoff in Umbrabraun für deine Rüstung.</string>
@@ -1133,7 +1136,7 @@
 	<string key="GrainT3_GroupName">Getreide Rang 3</string>
 	<string key="GrainT4_GroupName">Getreide Rang 4</string>
 	<string key="GrainT5_GroupName">Getreide Rang 5</string>
-	<string key="Greataxe_GroupDesc">Eine Nahkampfwaffe für weit ausholende Schwünge und mächtige vertikale Schläge. Dank Flächenschaden ist die Waffe ideal für Angriffe auf mehrere Gegner oder zum Verursachen von massiven Schaden bei einem einzelnen Gegner.\n\n• Leichter Angriff: Verursacht {[DamageTable.GreatAxe_PrimaryAttack.DmgCoef * 100]} % Schnittschaden.\n• Schwerer Angriff: Verursacht {[DamageTable.GreatAxe_HeavyAttack.DmgCoef * 100]} % Schnittschaden.\n• Aufgeladener schwerer Angriff: Verursacht {[DamageTable.GreatAxe_HeavyAttack_Charged.DmgCoef * 100]} % Schnittschaden.</string>
+	<string key="Greataxe_GroupDesc">Eine Nahkampfwaffe für weit ausholende Schwünge und mächtige vertikale Schläge. Dank Flächenschaden ist die Waffe ideal für Angriffe auf mehrere Gegner oder zum Verursachen von massivem Schaden bei einem einzelnen Gegner.\n\n• Leichter Angriff: Verursacht {[DamageTable.GreatAxe_PrimaryAttack.DmgCoef * 100]} % Schnittschaden.\n• Schwerer Angriff: Verursacht {[DamageTable.GreatAxe_HeavyAttack.DmgCoef * 100]} % Schnittschaden.\n• Aufgeladener schwerer Angriff: Verursacht {[DamageTable.GreatAxe_HeavyAttack_Charged.DmgCoef * 100]} % Schnittschaden.</string>
 	<string key="GreatAxe_GroupName">Streitaxt</string>
 	<string key="GreatAxes_GroupName">Streitäxte</string>
 	<string key="GunPowder_GroupDesc">Zur Herstellung von Schusswaffenmunition.</string>
@@ -1407,8 +1410,8 @@
 	<string key="ModsUncommon_GroupName">Ungewöhnliche Mods</string>
 	<string key="MoonstoneCut_GroupDesc">Geschliffene und polierte Mondsteine. Kann zu Schmuck verarbeitet werden, der Stärke und Konzentration steigert, oder in Ausrüstung gesockelt werden, um die Effekte "Erheitern" und "Schnittschutz" zu gewähren.</string>
 	<string key="MoonstoneCut_GroupName">Geschliffener Mondstein</string>
-	<string key="MusketA_GroupDesc">Diese Fernkampfwaffe verschießt Patronen, die hohen Schaden verursachen. Ideal, um Ziele auf Distanz zu halten, und dank hoher Zielgenauigkeit auch für den Fernkampf bestens geeignet.\n\n• Standardangriff: Verursacht {[DamageTable.MusketAttack1.DmgCoef * 100]} % Stichschaden.</string>
-	<string key="Blunderbuss_GroupDesc" rel_version="Weapon_Blunderbuss">Eine Fernkampfwaffe für den Nahkampf, die in einer Salve 6 Kugeln verschießt. Ideal, um Nahkampfziele unter Druck zu setzen und mit entfernten Zielen in den Nahkampf zu gelangen.\n\n• Standardangriff: Verursacht {[DamageTable.Blunderbuss_Primary_Attack.DmgCoef * 100]} % Stichschaden pro Kugel.</string>
+	<string key="MusketA_GroupDesc">Diese Fernkampfwaffe verschießt Patronen, die hohen Schaden verursachen. Ideal, um Ziele auf Distanz zu halten, und ist besonders Effektiv, wenn man sehr genau zielt.\n\n• Standardangriff: Verursacht {[DamageTable.MusketAttack1.DmgCoef * 100]} % Stichschaden.</string>
+	<string key="Blunderbuss_GroupDesc" rel_version="Weapon_Blunderbuss">Eine Fernkampfwaffe geringer Reichweite, die in einer Salve 6 Kugeln verschießt. Ideal, um Nahkampfziele unter Druck zu setzen und mit entfernten Zielen in den Nahkampf zu gelangen.\n\n• Standardangriff: Verursacht {[DamageTable.Blunderbuss_Primary_Attack.DmgCoef * 100]} % Stichschaden pro Kugel. (Insgesamt {[DamageTable.Blunderbuss_Primary_Attack_TooltipValue.DmgCoef * 100]} % von allen 6 Kugeln)</string>
 	<string key="MusketA_GroupName">Muskete</string>
 	<string key="Muskets_GroupName">Musketen</string>
 	<string key="nut_GroupName">Nuss</string>
@@ -1739,7 +1742,7 @@
 	<string key="SurvivalTools_GroupName">Überlebenswerkzeuge</string>
 	<string key="SwordA_GroupDesc">Ein Paar Nahkampfwaffen, die zusammen sowohl exzellente Angriffs- wie auch Verteidigungsmöglichkeiten bieten. Nutzt eine Kombination von ausholenden Schwüngen und Ausfallschritten für aggressive Offensivangriffe und einen Schild zur besseren Verteidigung.\n\n• Leichter Angriff: Verursacht {[DamageTable.1H_Sword_Attack1.DmgCoef * 100]} % Schnittschaden.\n• Leichtes Ende: Verursacht {[DamageTable.1H_Sword_Attack1_Ender.DmgCoef * 100]} % Schnittschaden.\n• Schwerer Angriff: Verursacht {[DamageTable.1H_Sword_Attack2.DmgCoef * 100]} % Stichschaden.\n• Aufgeladener schwerer Angriff: Verursacht {[DamageTable.1H_Sword_Attack2_Charged.DmgCoef * 100]} % Stichschaden.</string>
 	<string key="SwordA_GroupName">Gerades Schwert</string>
-	<string key="SwordB_GroupDesc">Eine auf Geschwindigkeit ausgelegte Nahkampfwaffe für eine Vielzahl schneller Ausfallschrittangriffe. Überragend für präzise abgestimmte Angriffe und zum Ausbooten von Gegnern geeignet, während Blutung ihnen beständig das Leben entzieht.\n\n• Leichter Angriff: Verursacht {[DamageTable.1H_Rapier_PrimaryAttack.DmgCoef * 100]} % Stichschaden.\n• Leichte mittlere Schwünge: Verursacht {[DamageTable.1H_Rapier_PrimaryTwoThirdsAttack.DmgCoef * 100]} % Stichschaden.\n• Schwerer Angriff: Verursacht {[DamageTable.1H_Rapier_HeavyAttack.DmgCoef * 100]} % Stichschaden.</string>
+	<string key="SwordB_GroupDesc">Eine auf Geschwindigkeit ausgelegte Nahkampfwaffe für eine Vielzahl schneller Ausfallschrittangriffe. Überragend für präzise abgestimmte Angriffe und zum Ausmanövrieren von Gegnern geeignet, während Blutung ihnen beständig das Leben entzieht.\n\n• Leichter Angriff: Verursacht {[DamageTable.1H_Rapier_PrimaryAttack.DmgCoef * 100]} % Stichschaden.\n• Leichte mittlere Schwünge: Verursacht {[DamageTable.1H_Rapier_PrimaryTwoThirdsAttack.DmgCoef * 100]} % Stichschaden.\n• Schwerer Angriff: Verursacht {[DamageTable.1H_Rapier_HeavyAttack.DmgCoef * 100]} % Stichschaden.</string>
 	<string key="SwordB_GroupName">Rapier</string>
 	<string key="SwordC_GroupDesc">Einhändig zu führen.</string>
 	<string key="SwordC_GroupName">Säbel</string>
@@ -1926,6 +1929,7 @@
 	<string key="UniqueDungeonReps8_GroupName">Einzigartige Nachbildungen der Enneade</string>
 	<string key="UniqueDungeonReps9_GroupName">Einzigartige Nachbildungen des Herzens des Sturmwinds</string>
 	<string key="UniqueDungeonReps11_GroupName">Einzigartige Nachbildungen von Seepocken und Schwarzpulver</string>
+	<string key="UniqueDungeonReps12_GroupName" rel_version="Expedition_FirstLight_01">Einzigartige Nachbildungen aus den Kristallklauenhöhlen.</string>
 	<string key="HideT5_GroupName">Rang-5-Häute</string>
 	<string key="CategoryData_ArmorHeavy">Schwere Rüstung</string>
 	<string key="CategoryData_ArmorMedium">Mittlere Rüstung</string>
@@ -1941,7 +1945,7 @@
 	<string key="ScarabMeleeWeapons_GroupName">Nahkampfwaffen – Goldener Skarabäus</string>
 	<string key="ScarabMagicStaves_GroupName">Magische Stäbe – Goldener Skarabäus</string>
 	<string key="ScarabStaffFire_GroupName">Feuerstäbe – Goldener Skarabäus</string>
-	<string key="ScarabStaffLife_GroupName">Eisstäbe – Goldener Skarabäus</string>
+	<string key="ScarabStaffLife_GroupName">Lebensstäbe – Goldener Skarabäus</string>
 	<string key="ScarabGauntletIce_GroupName">Eisstulpen – Goldener Skarabäus</string>
 	<string key="ScarabGauntletVoid_GroupName">Unheilsstulpen – Goldener Skarabäus</string>
 	<string key="ScarabRangedWeapons_GroupName">Fernkampfwaffen – Goldener Skarabäus</string>
@@ -1959,5 +1963,48 @@
 	<string key="CoatingAeternian_GroupDesc" rel_version="Season_1_Perm">Nur im PvE: Die Beschichtungen verbessern den Schaden gegen Menschen (die weder Verlorene noch Verderbte sind).</string>
 	<string key="CoatingAeternian_GroupName" rel_version="Season_1_Perm">Menschenbeschichtung</string>
 	<string key="OverchargedCasts_GroupName">Gipsabgussüberladungen</string>
+	<string key="PVPReplicas_GroupName">PvP-Nachbildungen</string>
+	<string key="PVPReplicaWeapon_GroupName">Brutale Waffennachbildungen</string>
+	<string key="PVPReplicaLightArmor_GroupName">Brutale leichte Rüstungsnachbildungen</string>
+	<string key="PVPReplicaMediumArmor_GroupName">Brutale mittlere Rüstungsnachbildungen</string>
+	<string key="PVPReplicaHeavyArmor_GroupName">Brutale schwere Rüstungsnachbildungen</string>
+	<string key="TrialCrafting_GroupName" rel_version="Season_2_Perm">Prüfungsherstellung</string>
+	<string key="TheHatchery_GroupName" rel_version="Season_2_Perm">Die Brutstätte</string>
+	<string key="GypsumLegendaryCasts_GroupName" rel_version="Season_2_Perm">Legendäre Gipsabgüsse</string>
+	<string key="PatternWeapon_GroupName">Waffenschemata</string>
+	<string key="PatternArmorHeavy_GroupName" rel_version="Season_2_Perm">Schemata für Schwere Rüstung</string>
+	<string key="PatternArmorMedium_GroupName" rel_version="Season_2_Perm">Schemata für Mittlere Rüstung</string>
+	<string key="PatternArmorLight_GroupName" rel_version="Season_2_Perm">Schemata für Leichte Rüstung</string>
+	<string key="TrialNamedReplicas_GroupName" rel_version="Season_2_Perm">Eliteprüfungsnachbildungen</string>
+	<string key="UniqueEliteTrialReplicas1_GroupName" rel_version="Season_2_Perm">Einzigartige Sandwurmprüfungsnachbildungen</string>
+	<string key="Spores_GroupName" rel_version="Territory_FirstLight_Spores">Sporen</string>
+	<string key="GatherSpores_GroupName" rel_version="Territory_FirstLight_Spores">Auf das Sammeln abgestimmte Sporen</string>
+	<string key="LootSpores_GroupName" rel_version="Territory_FirstLight_Spores">Auf das Bergen von Beute abgestimmte Sporen</string>
+	<string key="WardSpores_GroupName" rel_version="Territory_FirstLight_Spores">Auf das Schützen abgestimmte Sporen</string>
+	<string key="BaneSpores_GroupName" rel_version="Territory_FirstLight_Spores">Auf das Bannen abgestimmte Sporen</string>
+	<string key="SOTS_GroupName" rel_version="Territory_FirstLight_Spores">Geheimnisse der Sporen</string>
+	<string key="DimensionalArtifacts_GroupName">Dimensionale Artefakte</string>
+	<string key="DimensionalTether_GroupName">Dimensionale Verbindung</string>
+	<string key="Flail_GroupName" rel_version="Weapon_Flail">Flegel</string>
+	<string key="ScarabFlail_GroupName" rel_version="Weapon_Flail">Flegel – Goldener Skarabäus</string>
+	<string key="Artifacts_GroupName" rel_version="Territory_FirstLight">Artefakte</string>
+	<string key="PrismaticMeleeWeapons_GroupName" rel_version="Territory_FirstLight">Nahkampfwaffen – Prisma-Skarabäus</string>
+	<string key="PrismaticRangedWeapons_GroupName" rel_version="Territory_FirstLight">Fernkampfwaffen – Prisma-Skarabäus</string>
+	<string key="PrismaticStaffFire_GroupName" rel_version="Territory_FirstLight">Feuerstab – Prisma-Skarabäus</string>
+	<string key="PrismaticStaffLife_GroupName" rel_version="Territory_FirstLight">Lebensstab – Prisma-Skarabäus</string>
+	<string key="PrismaticGauntletIce_GroupName" rel_version="Territory_FirstLight">Eisstulpen – Prisma-Skarabäus</string>
+	<string key="PrismaticGauntletVoid_GroupName" rel_version="Territory_FirstLight">Unheilsstulpen – Prisma-Skarabäus</string>
+	<string key="PrismaticFlail_GroupName" rel_version="Territory_FirstLight">Flegel – Prisma-Skarabäus</string>
+	<string key="PrismaticArmorPlate_GroupName" rel_version="Territory_FirstLight">Schwere Rüstung – Prisma-Skarabäus</string>
+	<string key="PrismaticArmorFur_GroupName" rel_version="Territory_FirstLight">Mittlere Rüstung – Prisma-Skarabäus</string>
+	<string key="PrismaticArmorCloth_GroupName" rel_version="Territory_FirstLight">Leichte Rüstung – Prisma-Skarabäus</string>
+	<string key="LeatherT52_GroupName">Leder Rang 5 (selten)</string>
+	<string key="LeatherT53_GroupName">Prismaleder</string>
+	<string key="MetalT52_GroupName">Barren Rang 5 (selten)</string>
+	<string key="MetalT53_GroupName">Prismabarren</string>
+	<string key="ClothT52_GroupName">Stoff Rang 5 (selten)</string>
+	<string key="ClothT53_GroupName">Prismastoff</string>
+	<string key="TimberT52_GroupName">Brett Rang 5 (selten)</string>
+	<string key="TimberT53_GroupName">Prismabrett</string>
 </resources>
 
