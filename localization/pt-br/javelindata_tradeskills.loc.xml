@@ -262,6 +262,7 @@
 	<string key="ui_hempt4">Flor-de-seda</string>
 	<string key="ui_aloe">Gel de Babosa</string>
 	<string key="ui_hempt5">Fibra-de-fio</string>
+	<string key="ui_hempt52">Fibra Cruzada</string>
 	<string key="ui_alchemy1">Plantas Mágicas</string>
 	<string key="ui_alchemy2">Pedras Mágicas</string>
 	<string key="ui_alchemy3">Criaturas Mágicas</string>
@@ -283,15 +284,20 @@
 	<string key="ui_orichalcum">Oricalco</string>
 	<string key="ui_wyrdwood">Urdeira</string>
 	<string key="ui_ironwood">Jucá</string>
+	<string key="ui_runewood">Jacarandá</string>
+	<string key="ui_mycodendra">Mycodendra</string>
 	<string key="ui_toolrequired">Ferramenta Necessária</string>
 	<string key="ui_alchemyStones">Pedras de Alquimia</string>
 	<string key="ui_skinningOnly">Esfolamento</string>
 	<string key="ui_trackingOnly">Rastreamento</string>
-	<string key="ui_purchase_expansion" rel_version="Feature_Mounts">Riding</string>
-	<string key="ui_riding" rel_version="Feature_Mounts">Riding</string>
-	<string key="ui_mount" rel_version="Feature_Mounts">Mount</string>
-	<string key="ui_mount_speedboost" rel_version="Feature_Mounts">Speed Bonus</string>
-	<string key="ui_mount_speedboost_tooltip" rel_version="Feature_Mounts">Increases the max speed of your mount while riding.</string>
+	<string key="ui_purchase_expansion" rel_version="Feature_Mounts">Cavalgar</string>
+	<string key="ui_riding" rel_version="Feature_Mounts">Cavalgar</string>
+	<string key="ui_mount" rel_version="Feature_Mounts">Montaria</string>
+	<string key="ui_trainedThrough" rel_version="Feature_Mounts">Adestramento Completo</string>
+	<string key="ui_mount_require_text_race" rel_version="Feature_Mounts">Provas de Tempo de Montaria\n\nTeste sua habilidade em montaria realizando provas de tempo por toda Aeternum para ganhar EXP de Montaria.</string>
+	<string key="ui_mount_require_text_consumable" rel_version="Feature_Mounts">Consumíveis de Montaria\n\nUse Comida de Montaria para ganhar EXP de Montaria.</string>
+	<string key="ui_mount_speedboost" rel_version="Feature_Mounts">Bônus de Velocidade</string>
+	<string key="ui_mount_speedboost_tooltip" rel_version="Feature_Mounts">Aumenta a velocidade máxima de sua montaria enquanto cavalga.</string>
 	<string key="ui_canSkinLevel">Você pode esfolar animais de &lt;font color={levelColor}&gt;nível {maxGatherLevel}&lt;/font&gt;</string>
 	<string key="ui_skillToSkinLevel">No nível {skillLevel} de habilidade, você poderá esfolar animais de nível {maxGatherLevel}</string>
 	<string key="ui_skillToSkinLevelShort">Nível de habilidade: {skillLevel} - Nível do animal: {maxGatherLevel}</string>
@@ -303,5 +309,6 @@
 	<string key="iconTypeUnlock_Runewood">Jacarandá</string>
 	<string key="iconTypeUnlock_Mythril">Mythril</string>
 	<string key="iconTypeUnlock_harvestingplantT52">Fibra Cruzada</string>
+	<string key="iconTypeUnlock_Aloe">Aloe</string>
 </resources>
 

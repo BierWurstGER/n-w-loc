@@ -25,7 +25,7 @@
 	<string key="inv_outpostrush">Asalto a puesto remoto</string>
 	<string key="inv_pvparenas">Arenas JcJ</string>
 	<string key="inv_runes" rel_version="Feature_Heartgems">Runas</string>
-	<string key="inv_mountitem" rel_version="Feature_Mounts">Mounts</string>
+	<string key="inv_mountitem" rel_version="Feature_Mounts">Monturas</string>
 	<string key="inv_crafting_modifiers">Fabricación</string>
 	<string key="inv_repair_kit_count">Kit de reparación: {count}</string>
 	<string key="inv_repair_kits">Kits de reparación</string>
@@ -47,19 +47,19 @@
 	<string key="inv_instruments">Instrumentos</string>
 	<string key="inv_giveGold" comment="Currency name is Coin">Dar monedas</string>
 	<string key="inv_tooltipMessageAxeActive">Esta herramienta es tu hacha de tala activa en este momento.</string>
-	<string key="inv_tooltipMessageAxeInactive">Haz clic para que sea tu hacha de tala activa.</string>
+	<string key="inv_tooltipMessageAxeInactive">Select to make this your active logging axe.</string>
 	<string key="inv_tooltipMessagePickActive">Esta herramienta es tu pico de minería activo en este momento.</string>
-	<string key="inv_tooltipMessagePickInactive">Haz clic para que sea tu pico de minería activo.</string>
+	<string key="inv_tooltipMessagePickInactive">Select to make this your active mining pick.</string>
 	<string key="inv_tooltipMessageSickleActive">Esta herramienta es tu hoz de siega activa en este momento.</string>
-	<string key="inv_tooltipMessageSickleInactive">Haz clic para que sea tu hoz de siega activa.</string>
+	<string key="inv_tooltipMessageSickleInactive">Select to make this your active harvesting sickle.</string>
 	<string key="inv_tooltipMessageKnifeActive">Esta herramienta es tu cuchillo de desuello activo en este momento.</string>
-	<string key="inv_tooltipMessageKnifeInactive">Haz clic para que sea tu cuchillo de desuello activo.</string>
+	<string key="inv_tooltipMessageKnifeInactive">Select to make this your active skinning knife.</string>
 	<string key="inv_tooltipMessageFishingPoleActive">Esta herramienta es tu caña de pescar activa en este momento.</string>
-	<string key="inv_tooltipMessageFishingPoleInactive">Haz clic para que sea tu caña de pescar activa.</string>
+	<string key="inv_tooltipMessageFishingPoleInactive">Select to make this your active fishing pole.</string>
 	<string key="inv_tooltipMessagePrimaryArrowActive">Estas flechas son tu munición de arco activa en este momento.</string>
-	<string key="inv_tooltipMessagePrimaryArrowInactive">Haz clic para que sea tu munición de arco activa.</string>
+	<string key="inv_tooltipMessagePrimaryArrowInactive">Select to make this your active bow ammunition.</string>
 	<string key="inv_tooltipMessagePrimaryShotActive">Estos cartuchos son tu munición de arma activa en este momento.</string>
-	<string key="inv_tooltipMessagePrimaryShotInactive">Haz clic para que sea tu munición de arma activa.</string>
+	<string key="inv_tooltipMessagePrimaryShotInactive">Select to make this your active gun ammunition.</string>
 	<string key="inv_tooltipMessageToolLevelRequirement">Necesitas estar a &lt;font color="#ebe3d6" face="lyshineui/fonts/Nimbus_Bold.font"&gt;nivel {level}&lt;/font&gt; para establecer esta herramienta como principal.</string>
 	<string key="inv_tooltipCommandToolLevelRequirement">Requiere nv. {level} para usar</string>
 	<string key="inv_equipLoad">Carga de equipo</string>
@@ -68,9 +68,9 @@
 	<string key="inv_equipLoadSlow">Pesado</string>
 	<string key="inv_equipLoadOverburdened">Exceso de equipamiento.</string>
 	<string key="inv_equipLoadTooltip">El peso combinado de la armadura y el escudo que llevas equipados determina tu carga de equipo. Cada carga de equipo ofrece una capacidad de esquivar diferente y otros efectos.</string>
-	<string key="inv_equipLoadFastTooltip">• Daño base: +{[Type_EncumbranceData.Player.EquipLoadDamageMultFast * 100]} % \n• Curación a objetivos: +30 %\n• Ruedas rápidamente para esquivar. \n• Coste de vitalidad de esquivar: {[StaminaCosts_Player.Dodge_Roll_Fast.StaminaCost]} \n• Durante {[StatusEffects_Common.Sprint_Delay_Combat_Timer_Light.BaseDuration]} s después de recibir un golpe cuerpo a cuerpo, la distancia de esquivar se reduce en un 20 % y no puedes correr.</string>
-	<string key="inv_equipLoadNormalTooltip">• Daño base: +{[Type_EncumbranceData.Player.EquipLoadDamageMultNormal * 100]} % \n• Duración del control de multitudes recibido: -10 %\n• Saltas rápidamente para esquivar. \n• Coste de vitalidad de esquivar: {[StaminaCosts_Player.Dodge_Roll.StaminaCost]} \n• Durante {[StatusEffects_Common.Sprint_Delay_Combat_Timer_Medium.BaseDuration]} s después de recibir un golpe cuerpo a cuerpo, la distancia de esquivar se reduce en un 20 % y no puedes correr.</string>
-	<string key="inv_equipLoadSlowTooltip">• Estabilidad de bloqueo: + 15 % \n• Duración del control de multitudes recibido: -20 % \n• Curación a objetivos: -30 % \n• Esquivas con un paso en una dirección. \n• Coste de vitalidad de esquivar: {[StaminaCosts_Player.Dodge_Roll_Slow.StaminaCost]} \n• Durante {[StatusEffects_Common.Sprint_Delay_Combat_Timer_Heavy.BaseDuration]} s después de recibir un golpe cuerpo a cuerpo, no puedes correr.</string>
+	<string key="inv_equipLoadFastTooltip">• Daño base: +{[Type_EncumbranceData.Player.EquipLoadDamageMultFast * 100]} % \n• Curación a objetivos: +30 %\n• Ruedas rápidamente para esquivar. \n• Coste de vitalidad de esquivar: {[StaminaCosts_Player.Dodge_Roll_Fast.StaminaCost]} \n• Durante {[StatusEffects_Common.Sprint_Delay_Combat_Timer_Light.BaseDuration]} s después de recibir un golpe cuerpo a cuerpo, la distancia de esquivar se reduce en un 20 % y no puedes correr. \n• Daño crítico de JcJ recibido: -{[GlobalAbilityTable.EquipLoad_CritDmgReduction_Light.CritDamageReduction * 100]} %	</string>
+	<string key="inv_equipLoadNormalTooltip">• Daño base: +{[Type_EncumbranceData.Player.EquipLoadDamageMultNormal * 100]} % \n• Duración del control de multitudes recibido: -10 %\n• Saltas rápidamente para esquivar. \n• Coste de vitalidad de esquivar: {[StaminaCosts_Player.Dodge_Roll.StaminaCost]} \n• Durante {[StatusEffects_Common.Sprint_Delay_Combat_Timer_Medium.BaseDuration]} s después de recibir un golpe cuerpo a cuerpo, la distancia de esquivar se reduce en un 20 % y no puedes correr. \n• Daño crítico de JcJ recibido: -{[GlobalAbilityTable.EquipLoad_CritDmgReduction_Medium.CritDamageReduction * 100]} %</string>
+	<string key="inv_equipLoadSlowTooltip">• Estabilidad de bloqueo: + +15 % \n• Duración del control de multitudes recibido: -20 % \n• Curación a objetivos: -30 % \n• Esquivas con un paso en una dirección. \n• Coste de vitalidad de esquivar: {[StaminaCosts_Player.Dodge_Roll_Slow.StaminaCost]} \n• Durante {[StatusEffects_Common.Sprint_Delay_Combat_Timer_Heavy.BaseDuration]} s después de recibir un golpe cuerpo a cuerpo, no puedes correr. \n• Daño crítico de JcJ recibido: -{[GlobalAbilityTable.EquipLoad_CritDmgReduction_Heavy.CritDamageReduction * 100]} %</string>
 	<string key="inv_equipLoadOverburdenedTooltip">Si superas la carga de equipo máxima, no podrás esquivar, correr ni usar habilidades. Debes desequipar algunos objetos.</string>
 	<string key="inv_equipLoadEncumberedTooltip">Si superas el límite de peso del inventario, llevarás una carga excesiva que restringirá tus movimientos y acciones. También perderás más vitalidad al bloquear.</string>
 	<string key="inv_equipLoadOverburdened_Tooltip" comment="This tooltip is for the status effect icon near vitals">Has equipado más de lo permitido por la carga de equipo máxima. No puedes esquivar ni correr, y la velocidad de recarga de vitalidad se verá penalizada significativamente. Debes desequipar algunos objetos.</string>
@@ -101,6 +101,7 @@
 	<string key="inv_repairparts_onlyrepairparts">Aprovechar este artículo te devolverá {numRepairParts} piezas de reparación.</string>
 	<string key="inv_repairparts_onlyrepairparts_withcoin">Aprovechar este artículo te devolverá: {numRepairParts} piezas de reparación y {coinAmount}.</string>
 	<string key="inv_coin_atlimit">&lt;font color="#f25d5d"&gt;Has alcanzado el límite de monedas.&lt;/font&gt;</string>
+	<string key="inv_notification_cannot_use_during_combat">¡No puedes usar consumibles del inventario en combate! En su lugar, debes equiparlos en una ranura rápida.</string>
 	<string key="salvage_notification_obtained_1">Has obtenido {entry1}.</string>
 	<string key="salvage_notification_obtained_2">Has obtenido {entry1} y {entry2}.</string>
 	<string key="salvage_notification_obtained_3">Has obtenido {entry1}, {entry2} y {entry3}.</string>
@@ -229,6 +230,7 @@
 	<string key="loadout_notification_itemadd_failure_existing_slot" rel_version="Feature_Gear_Set_Storage">No se ha podido añadir el objeto a {loadoutName}; ya está en esta ranura.</string>
 	<string key="loadout_notification_itemaddall_success" rel_version="Feature_Gear_Set_Storage">Se ha añadido el objeto a todos los conjuntos de equipo.</string>
 	<string key="loadout_notification_itemaddall_failure" rel_version="Feature_Gear_Set_Storage">No se ha podido añadir el objeto a todos los conjuntos de equipo.</string>
+	<string key="loadout_notification_add_artifact_to_loadout_failure" rel_version="Feature_Artifacts">No se ha podido añadir el artefacto al conjunto de equipo. Solo se puede tener un artefacto de cada tipo de objeto en el conjunto.</string>
 	<string key="loadout_notification_switch_loadout_on_cooldown" rel_version="Feature_Gear_Set_Storage">Debes esperar {timeRemaining} para poder cambiar el conjunto de equipo.</string>
 	<string key="loadout_tutorial" rel_version="Feature_Gear_Set_Storage">¡Hay conjuntos de equipo disponibles!\nCrea y cambia conjuntos de equipo para cualquier actividad.</string>
 	<string key="loadout_notification_itemremove_space_failure" rel_version="Feature_Gear_Set_Storage">No se han podido devolver al inventario los objetos del conjunto de equipo debido a que falta espacio.</string>
@@ -244,11 +246,11 @@
 	<string key="ui_effect_failed_MultipleFromSource">No se pueden aplicar los efectos redundantes.</string>
 	<string key="ui_effect_failed_AntirequisiteActive">No se puede aplicar debido al efecto de competición {competingEffect}</string>
 	<string key="ui_effect_failed_AntirequisiteActive_Multiple">No se puede aplicar porque hay múltiples efectos de competición</string>
-	<string key="ui_effect_failed_NotMounted" rel_version="Feature_Mounts">Unable to apply mounted effect</string>
+	<string key="ui_effect_failed_NotMounted" rel_version="Feature_Mounts">No se puede aplicar el efecto de montura.</string>
 	<string key="ui_effect_failed_Success">Efecto disponible</string>
-	<string key="perktooltips_stacks">Acumulaciones: </string>
-	<string key="perktooltips_stacks_over_limit">Por encima del máximo</string>
-	<string key="perktooltips_stacks_over_limit_disabled">Por encima del máximo (desactivado)</string>
-	<string key="perktooltips_max_stacks">Acumulaciones máximas: </string>
+	<string key="perktooltips_stacks">Acumulaciones de ventaja: </string>
+	<string key="perktooltips_stacks_over_limit">(por encima del máximo)</string>
+	<string key="perktooltips_stacks_over_limit_disabled">(desactivado)</string>
+	<string key="perktooltips_max_stacks">Acumulaciones máx. de ventaja: </string>
 </resources>
 

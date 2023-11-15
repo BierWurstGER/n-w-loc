@@ -93,13 +93,13 @@
 	<string key="ui_outpost_rush_invite_status">Acceptez de rejoindre le combat !</string>
 	<string key="ui_outpost_rush_signup_title">DÉFERLANTE</string>
 	<string key="ui_outpost_rush_signup_desc">La &lt;font color="#ffe940"&gt;Déferlante&lt;/font&gt; est un match à 20 contre 20 qui se déroule sur une grande île dotée de trois avant-postes que les équipes doivent capturer et tenir.</string>
-	<string key="ui_outpost_rush_signup_desc_gearscore">L'&lt;font color="#ffe940"&gt;équilibrage au score d'équipement&lt;/font&gt; augmente le score d'équipement à 600 pour tout l'équipement inférieur à 600.</string>
+	<string key="ui_outpost_rush_signup_desc_gearscore">L'&lt;font color="#ffe940"&gt;équilibrage au score d'équipement&lt;/font&gt; augmente le score d'équipement à 675 pour tout l'équipement inférieur à 675.</string>
 	<string key="ui_outpost_rush_signup_desc_cross_world">La Déferlante est un &lt;font color="#ffe940"&gt;mode de jeu intermondes&lt;/font&gt; à 20 contre 20.</string>
 	<string key="ui_outpost_rush_signup_desc_cross_world_tooltip">&lt;font color="#ffe940"&gt;Intermondes&lt;/font&gt; signifie que vous jouerez avec des joueurs de tous les mondes au sein de votre région. Cela peut aider à raccourcir les délais d'attente avant de trouver un match.\n\nNotez bien :\n\n- Lorsque vous voyez un joueur avec &lt;img src="lyshineui/images/icons/crossworld/icon_crossworld_identifier" xPadding="-1" scale="1.8" yOffset="2"&gt;&lt;/img&gt; à côté de son nom, cela signifie qu'il vient d'un autre monde.\n\n- En match intermondes, plusieurs fonctions sociales sont désactivées (échanges, invitations et autres).\n\n- Le classement des victoires en Déferlante est désormais un classement régional.</string>
 	<string key="ui_outpost_rush_signup_goal1">Capturez et tenez des avant-postes pour marquer des points.</string>
 	<string key="ui_outpost_rush_signup_goal2">La première équipe à atteindre 1 000 points l'emporte.</string>
 	<string key="ui_outpost_rush_signup_goal3">Utilisez des ressources spéciales pour attaquer et vous défendre.</string>
-	<string key="ui_outpost_rush_signup_points_number">1 000</string>
+	<string key="ui_outpost_rush_signup_points_number"> .000</string>
 	<string key="ui_outpost_rush_signup_points_text">POINTS</string>
 	<string key="ui_outpost_rush_signup_joinsolo">Jouer</string>
 	<string key="ui_outpost_rush_signup_joingroup">Jeu en groupe</string>
@@ -192,6 +192,12 @@
 	<string key="ui_or_outpost_b">AVANT-POSTE SOL</string>
 	<string key="ui_or_outpost_c">AVANT-POSTE ASTRA</string>
 	<string key="ui_or_kills">ENNEMIS TUÉS</string>
+	<string key="ui_or_total_score_case">Score total</string>
+	<string key="ui_or_points_from_case">Points via</string>
+	<string key="ui_or_outpost_a_case">Avant-poste Luna</string>
+	<string key="ui_or_outpost_b_case">Avant-poste Sol</string>
+	<string key="ui_or_outpost_c_case">Avant-poste Astra</string>
+	<string key="ui_or_kills_case">Ennemis tués</string>
 	<string key="ui_outpost_rush_storage_message">Seuls les objets de la Déferlante peuvent être entreposés ici.</string>
 	<string key="ui_outpost_rush_summoning_circle">Cercle d'invocation</string>
 	<string key="ui_outpost_rush_summoning_circle_desc">Utilisez une pierre d'invocation à cet obélisque pour ajouter un allié monstrueux à votre équipe pour une durée limitée.</string>
@@ -273,29 +279,34 @@
 	<string key="ui_rounds_won">Manches gagnées</string>
 	<string key="ui_see_through_label">Mode transparent</string>
 	<string key="ui_invasion_leave">Quitter l'activité</string>
+	<string key="ui_matchmaking_ready_accept_choice">Prêt</string>
 	<string key="ui_matchmaking_ready_title">Combat prêt</string>
+	<string key="ui_matchmaking_ready_title_dungeon">Group Found</string>
 	<string key="ui_matchmaking_ready_text">Le &lt;font color={color}&gt;combat que vous attendiez&lt;/font&gt; est prêt. Voulez-vous vous téléporter à l'intérieur ?</string>
+	<string key="ui_matchmaking_ready_text_dungeon">{name} - {numAccepted} / {numInvited} Players ready</string>
 	<string key="dungeon_how_to_raid">Guide d'assaut</string>
 	<string key="dungeon_entry_requirements">Conditions d'accès</string>
-	<string key="ui_influence_tutorial_how_it_works" rel_version="Feature_Influence_V2">How Influence Races Work</string>
-	<string key="ui_influence_tutorial_title1" rel_version="Feature_Influence_V2">Push Influence</string>
-	<string key="ui_influence_tutorial_title2" rel_version="Feature_Influence_V2">Faction Control Points</string>
-	<string key="ui_influence_tutorial_title3" rel_version="Feature_Influence_V2">Declare War</string>
-	<string key="ui_influence_tutorial_title4" rel_version="Feature_Influence_V2">Earn Rewards</string>
-	<string key="ui_influence_tutorial_desc1" rel_version="Feature_Influence_V2">Complete PvP missions and capture towers to push influence and put the territory into conflict.</string>
-	<string key="ui_influence_tutorial_desc2" rel_version="Feature_Influence_V2">Modifies the amount of Influence earned and provide a continuous flow of influence for the controlling faction.</string>
-	<string key="ui_influence_tutorial_desc3" rel_version="Feature_Influence_V2">Qualifying companies will be able to declare war at the end of every Influence Race.</string>
-	<string key="ui_influence_tutorial_desc4" rel_version="Feature_Influence_V2">Participating players will earn rewards. Bonus war cache for defenders winning the war. </string>
-	<string key="ui_pvp_balance_tooltip" rel_version="Feature_PvP_PvE_Split">PvP Balancing</string>
-	<string key="ui_pvp_balance_header" rel_version="Feature_PvP_PvE_Split">The following PvP balance modifiers are in effect:</string>
-	<string key="ui_pvp_balance_global_disabled_weapon" rel_version="Feature_PvP_PvE_Split">PvP balancing is currently disabled for this weapon.</string>
-	<string key="ui_pvp_balance_global_disabled_mode" rel_version="Feature_PvP_PvE_Split">PvP balancing is currently disabled for this game mode.</string>
-	<string key="ui_pvp_balance_open_world_disabled" rel_version="Feature_PvP_PvE_Split">PvP balancing is currently disabled for Open World.</string>
-	<string key="ui_pvp_balance_damage_header" rel_version="Feature_PvP_PvE_Split">PvP Base Damage Modifiers:</string>
-	<string key="ui_pvp_balance_global_base_damage" rel_version="Feature_PvP_PvE_Split">Global:</string>
-	<string key="ui_pvp_balance_affix_stats" rel_version="Feature_PvP_PvE_Split">Affix Stat Damage Modifier:</string>
-	<string key="ui_pvp_balance_ability_damage_bonuses" rel_version="Feature_PvP_PvE_Split">Ability Damage Bonus Modifier:</string>
-	<string key="ui_pvp_balance_healing_category" rel_version="Feature_PvP_PvE_Split">Healing Modifiers:</string>
-	<string key="ui_pvp_balance_status_effect_potencies" rel_version="Feature_PvP_PvE_Split">Status Effect Potency:</string>
+	<string key="ui_influence_tutorial_how_it_works" rel_version="Feature_Influence_V2">Comment fonctionnent les Courses d'influence</string>
+	<string key="ui_influence_tutorial_title1" rel_version="Feature_Influence_V2">Augmenter l'influence</string>
+	<string key="ui_influence_tutorial_title2" rel_version="Feature_Influence_V2">Points de contrôle de faction</string>
+	<string key="ui_influence_tutorial_title3" rel_version="Feature_Influence_V2">Déclarer la guerre</string>
+	<string key="ui_influence_tutorial_title4" rel_version="Feature_Influence_V2">Obtenir des récompenses</string>
+	<string key="ui_influence_tutorial_desc1" rel_version="Feature_Influence_V2">Accomplissez des missions JcJ et capturez des tours pour augmenter votre influence et plonger le territoire dans le conflit.</string>
+	<string key="ui_influence_tutorial_desc2" rel_version="Feature_Influence_V2">Modifie le niveau d'influence obtenu et fournit un apport continu d'influence pour la faction qui les contrôle.</string>
+	<string key="ui_influence_tutorial_desc3" rel_version="Feature_Influence_V2">Les compagnies remplissant les conditions pourront déclarer la guerre à la fin de chaque Course d'influence.</string>
+	<string key="ui_influence_tutorial_desc4" rel_version="Feature_Influence_V2">Les joueurs participants recevront des récompenses. Cache de guerre bonus pour les défenseurs remportant la guerre. </string>
+	<string key="ui_pvp_balance_tooltip" rel_version="Feature_PvP_PvE_Split">Équilibrage JcJ effectif.</string>
+	<string key="ui_pvp_balance_header" rel_version="Feature_PvP_PvE_Split">Modificateurs d'équilibrage JcJ effectifs :</string>
+	<string key="ui_pvp_balance_global_disabled_weapon" rel_version="Feature_PvP_PvE_Split">L'équilibrage JcJ est actuellement désactivé pour cette arme.</string>
+	<string key="ui_pvp_balance_global_disabled_mode" rel_version="Feature_PvP_PvE_Split">L'équilibrage JcJ est actuellement désactivé pour ce mode de jeu.</string>
+	<string key="ui_pvp_balance_open_world_disabled" rel_version="Feature_PvP_PvE_Split">L'équilibrage JcJ est actuellement désactivé pour le monde ouvert.</string>
+	<string key="ui_pvp_balance_damage_header" rel_version="Feature_PvP_PvE_Split">Modificateurs de dégâts de base JcJ :\n • (valeurs magiques/à distances augmentées globalement, mais ajustées pour l'équilibrage JcJ)</string>
+	<string key="ui_pvp_balance_global_base_damage" rel_version="Feature_PvP_PvE_Split">Global :</string>
+	<string key="ui_pvp_balance_affix_stats" rel_version="Feature_PvP_PvE_Split">Modificateur de dégâts lié aux stats :</string>
+	<string key="ui_pvp_balance_ability_damage_bonuses" rel_version="Feature_PvP_PvE_Split">Modificateur de dégâts bonus de capacité :</string>
+	<string key="ui_pvp_balance_healing_category" rel_version="Feature_PvP_PvE_Split">Modificateurs de soins :</string>
+	<string key="ui_pvp_balance_status_effect_potencies" rel_version="Feature_PvP_PvE_Split">Puissance des effets de statut :</string>
+	<string key="ui_gamemodeinvitedeclinesentmessage">Invitation pour le mode &lt;font color="#ffffff"&gt;{gameModeName}&lt;/font&gt; refusée.</string>
+	<string key="ui_gamemodeinvitedeclinesentmessage_withsource">Invitation pour le mode &lt;font color="#ffffff"&gt;{gameModeName}&lt;/font&gt; refusée par &lt;font color="#ffffff"&gt;{sourcePlayerName}&lt;/font&gt;.</string>
 </resources>
 

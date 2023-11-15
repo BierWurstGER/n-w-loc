@@ -25,7 +25,7 @@
 	<string key="inv_outpostrush">Napad na posterunek</string>
 	<string key="inv_pvparenas">Areny PvP</string>
 	<string key="inv_runes" rel_version="Feature_Heartgems">Runy</string>
-	<string key="inv_mountitem" rel_version="Feature_Mounts">Mounts</string>
+	<string key="inv_mountitem" rel_version="Feature_Mounts">Wierzchowce</string>
 	<string key="inv_crafting_modifiers">Modyfikatory wytwarzania</string>
 	<string key="inv_repair_kit_count">Zestaw naprawczy: {count}</string>
 	<string key="inv_repair_kits">Zestawy naprawcze</string>
@@ -47,19 +47,19 @@
 	<string key="inv_instruments">Instrumenty</string>
 	<string key="inv_giveGold" comment="Currency name is Coin">Daj monety</string>
 	<string key="inv_tooltipMessageAxeActive">To narzędzie jest obecnie twoją aktywną siekierą do wyrębu.</string>
-	<string key="inv_tooltipMessageAxeInactive">Kliknij, aby to narzędzie stało się twoją aktywną siekierą do wyrębu.</string>
+	<string key="inv_tooltipMessageAxeInactive">Select to make this your active logging axe.</string>
 	<string key="inv_tooltipMessagePickActive">To narzędzie jest obecnie twoim aktywnym kilofem górniczym.</string>
-	<string key="inv_tooltipMessagePickInactive">Kliknij, aby to narzędzie stało się twoim aktywnym kilofem górniczym.</string>
+	<string key="inv_tooltipMessagePickInactive">Select to make this your active mining pick.</string>
 	<string key="inv_tooltipMessageSickleActive">To narzędzie jest obecnie twoim aktywnym sierpem żniwiarskim.</string>
-	<string key="inv_tooltipMessageSickleInactive">Kliknij, aby to narzędzie stało się twoim aktywnym sierpem żniwiarskim.</string>
+	<string key="inv_tooltipMessageSickleInactive">Select to make this your active harvesting sickle.</string>
 	<string key="inv_tooltipMessageKnifeActive">To narzędzie jest obecnie twoim aktywnym nożem do skórowania.</string>
-	<string key="inv_tooltipMessageKnifeInactive">Kliknij, aby to narzędzie stało się twoim aktywnym nożem do skórowania.</string>
+	<string key="inv_tooltipMessageKnifeInactive">Select to make this your active skinning knife.</string>
 	<string key="inv_tooltipMessageFishingPoleActive">To narzędzie jest obecnie twoją aktywną wędką.</string>
-	<string key="inv_tooltipMessageFishingPoleInactive">Kliknij, aby to narzędzie stało się twoją aktywną wędką.</string>
+	<string key="inv_tooltipMessageFishingPoleInactive">Select to make this your active fishing pole.</string>
 	<string key="inv_tooltipMessagePrimaryArrowActive">Te strzały są obecnie wybrane jako aktywna amunicja do łuku.</string>
-	<string key="inv_tooltipMessagePrimaryArrowInactive">Kliknij, aby te strzały stały się aktywną amunicją do łuku.</string>
+	<string key="inv_tooltipMessagePrimaryArrowInactive">Select to make this your active bow ammunition.</string>
 	<string key="inv_tooltipMessagePrimaryShotActive">Te naboje są obecnie wybrane jako aktywna amunicja do broni palnej.</string>
-	<string key="inv_tooltipMessagePrimaryShotInactive">Kliknij, aby te naboje stały się aktywną amunicją do broni palnej.</string>
+	<string key="inv_tooltipMessagePrimaryShotInactive">Select to make this your active gun ammunition.</string>
 	<string key="inv_tooltipMessageToolLevelRequirement">Musisz osiągnąć &lt;font color="#ebe3d6" face="lyshineui/fonts/Nimbus_Bold.font"&gt; poziom {level}&lt;/font&gt;, by ustawić ten przedmiot jako główne narzędzie.</string>
 	<string key="inv_tooltipCommandToolLevelRequirement">Wymaga poz. {level}</string>
 	<string key="inv_equipLoad">Ciężar wyposażenia</string>
@@ -68,10 +68,10 @@
 	<string key="inv_equipLoadSlow">Ciężkie</string>
 	<string key="inv_equipLoadOverburdened">Nadmiar ekwipunku</string>
 	<string key="inv_equipLoadTooltip">Łączna waga noszonego pancerza i tarczy określa ciężar twojego wyposażenia. W zależności od ciężaru wyposażenia różnią się uniki i inne efekty.</string>
-	<string key="inv_equipLoadFastTooltip">• Obrażenia podstawowe: +{[Type_EncumbranceData.Player.EquipLoadDamageMultFast * 100]}% \n• Leczenie innych: +30% \n• W ramach uniku wykonujesz szybki przewrót. \n• Koszt uniku: {[StaminaCosts_Player.Dodge_Roll_Fast.StaminaCost]} pkt wytrzymałości \n• Otrzymanie ciosu wręcz sprawia, że zasięg uniku ulega zmniejszeniu o 20% na {[StatusEffects_Common.Sprint_Delay_Combat_Timer_Light.BaseDuration]} s. W tym czasie nie możesz również biegać.</string>
-	<string key="inv_equipLoadNormalTooltip">• Obrażenia podstawowe: +{[Type_EncumbranceData.Player.EquipLoadDamageMultNormal * 100]}% \n• Czas trwania efektów obezwładniających nakładanych na ciebie: -10% \n• W ramach uniku wykonujesz szybki odskok. \n• Koszt uniku: {[StaminaCosts_Player.Dodge_Roll.StaminaCost]} pkt wytrzymałości \n• Otrzymanie ciosu wręcz sprawia, że zasięg uniku ulega zmniejszeniu o 20% na {[StatusEffects_Common.Sprint_Delay_Combat_Timer_Medium.BaseDuration]} s. W tym czasie nie możesz również biegać.</string>
-	<string key="inv_equipLoadSlowTooltip">• Stabilność blokowania: +15% \n• Czas trwania efektów obezwładniających nakładanych na ciebie: -20% \n• Leczenie innych: -30% \n• Możesz wykonać powolny zwód. \n• Koszt uniku: {[StaminaCosts_Player.Dodge_Roll_Slow.StaminaCost]} pkt wytrzymałości \n• Otrzymanie ciosu wręcz sprawia, że nie możesz biegać przez {[StatusEffects_Common.Sprint_Delay_Combat_Timer_Heavy.BaseDuration]} s.</string>
-	<string key="inv_equipLoadOverburdenedTooltip">Po przekroczeniu maksymalnego ciężaru wyposażenia nie możesz wykonywać uników, biegać i używać zdolności. Odłóż część przedmiotów.</string>
+	<string key="inv_equipLoadFastTooltip">• Obrażenia podstawowe: +{[Type_EncumbranceData.Player.EquipLoadDamageMultFast * 100]}% \n• Leczenie innych: +30% \n• W ramach uniku wykonujesz szybki przewrót. \n• Koszt uniku: {[StaminaCosts_Player.Dodge_Roll_Fast.StaminaCost]} pkt wytrzymałości \n• Otrzymanie ciosu wręcz sprawia, że zasięg uniku ulega zmniejszeniu o 20% na {[StatusEffects_Common.Sprint_Delay_Combat_Timer_Light.BaseDuration]} s. W tym czasie nie możesz również biegać.\n• Otrzymywane obrażenia krytyczne podczas PvP: -{[GlobalAbilityTable.EquipLoad_CritDmgReduction_Light.CritDamageReduction * 100]}%	</string>
+	<string key="inv_equipLoadNormalTooltip">• Obrażenia podstawowe: +{[Type_EncumbranceData.Player.EquipLoadDamageMultNormal * 100]}% \n• Czas trwania efektów obezwładniających nakładanych na ciebie: -10% \n• W ramach uniku wykonujesz szybki odskok. \n• Koszt uniku: {[StaminaCosts_Player.Dodge_Roll.StaminaCost]} pkt wytrzymałości \n• Otrzymanie ciosu wręcz sprawia, że zasięg uniku ulega zmniejszeniu o 20% na {[StatusEffects_Common.Sprint_Delay_Combat_Timer_Medium.BaseDuration]} s. W tym czasie nie możesz również biegać.\n• Otrzymywane obrażenia krytyczne podczas PvP: -{[GlobalAbilityTable.EquipLoad_CritDmgReduction_Medium.CritDamageReduction * 100]}%</string>
+	<string key="inv_equipLoadSlowTooltip">• Stabilność blokowania: +15% \n• Czas trwania efektów obezwładniających nakładanych na ciebie: -20% \n• Leczenie innych: -30% \n• Możesz wykonać powolny zwód. \n• Koszt uniku: {[StaminaCosts_Player.Dodge_Roll_Slow.StaminaCost]} pkt wytrzymałości \n• Otrzymanie ciosu wręcz sprawia, że nie możesz biegać przez {[StatusEffects_Common.Sprint_Delay_Combat_Timer_Heavy.BaseDuration]} s.\n• Otrzymywane obrażenia krytyczne podczas PvP: -{[GlobalAbilityTable.EquipLoad_CritDmgReduction_Heavy.CritDamageReduction * 100]}%</string>
+	<string key="inv_equipLoadOverburdenedTooltip">Po przekroczeniu maksymalnego ciężaru wyposażenia nie możesz wykonywać uników, biegać i używać umiejętności. Odłóż część przedmiotów.</string>
 	<string key="inv_equipLoadEncumberedTooltip">Jeśli limit ciężaru twojego ekwipunku zostanie przekroczony, ulegniesz przeciążeniu – stan ten ogranicza twoje ruchy i czynności. Ponadto blokowanie zużywa więcej wytrzymałości.</string>
 	<string key="inv_equipLoadOverburdened_Tooltip" comment="This tooltip is for the status effect icon near vitals">Waga przenoszonych przez ciebie przedmiotów przekracza maksymalny ciężar wyposażenia. Nie możesz biegać ani wykonywać uników i otrzymujesz karę do szybkości regeneracji wytrzymałości. Odłóż część przedmiotów.</string>
 	<string key="inv_equipLoadFastNotification">Twoje aktualne wyposażenie jest lekkie</string>
@@ -101,6 +101,7 @@
 	<string key="inv_repairparts_onlyrepairparts">Po odzyskaniu tego przedmiotu otrzymasz części zamienne w liczbie {numRepairParts}.</string>
 	<string key="inv_repairparts_onlyrepairparts_withcoin">Po odzyskaniu tego przedmiotu otrzymasz części zamienne ({numRepairParts}) oraz monety ({coinAmount}).</string>
 	<string key="inv_coin_atlimit">&lt;font color="#f25d5d"&gt;Osiągnięto limit monet.&lt;/font&gt;</string>
+	<string key="inv_notification_cannot_use_during_combat">Podczas walki nie można korzystać z przedmiotów użytkowych, które są w ekwipunku! Aby z nich korzystać, dodaj je do okien szybkiego wyboru.</string>
 	<string key="salvage_notification_obtained_1">Pozyskano: {entry1}</string>
 	<string key="salvage_notification_obtained_2">Pozyskano: {entry1} oraz {entry2}</string>
 	<string key="salvage_notification_obtained_3">Pozyskano: {entry1}, {entry2} oraz {entry3}</string>
@@ -113,7 +114,7 @@
 	<string key="salvage_notification_pefectly_salvaged">Idealny odzysk!</string>
 	<string key="salvage_notification_pefectly_salvaged_item">&lt;font color={color}&gt;{itemName}&lt;/font&gt; x {quantity}</string>
 	<string key="fc_campingtitle">Biwakowanie</string>
-	<string key="fc_campingInstructions">Podstawowe stanowisko do wytwarzania i punkt odrodzenia.</string>
+	<string key="fc_campingInstructions">Podstawowe stanowisko rzemieślnicze i punkt odrodzenia.</string>
 	<string key="fc_campingSiteLvl1">Obozowisko poziomu I</string>
 	<string key="fc_campingSiteLvl2">Obozowisko poziomu II</string>
 	<string key="fc_campingSiteLvl3">Obozowisko poziomu III</string>
@@ -229,6 +230,7 @@
 	<string key="loadout_notification_itemadd_failure_existing_slot" rel_version="Feature_Gear_Set_Storage">Nie udało się dodać przedmiotu do zestawu: {loadoutName}, przedmiot jest już w tym miejscu.</string>
 	<string key="loadout_notification_itemaddall_success" rel_version="Feature_Gear_Set_Storage">Przedmiot dodany do wszystkich zestawów wyposażenia</string>
 	<string key="loadout_notification_itemaddall_failure" rel_version="Feature_Gear_Set_Storage">Nie udało się dodać przedmiotu do wszystkich zestawów</string>
+	<string key="loadout_notification_add_artifact_to_loadout_failure" rel_version="Feature_Artifacts">Nie udało się przypisać artefaktu do zestawu wyposażenia. Możesz mieć tylko 1 artefakt na każdy rodzaj przedmiotu w zestawie wyposażenia.</string>
 	<string key="loadout_notification_switch_loadout_on_cooldown" rel_version="Feature_Gear_Set_Storage">Musisz odczekać {timeRemaining} przed zmianą zestawu wyposażenia</string>
 	<string key="loadout_tutorial" rel_version="Feature_Gear_Set_Storage">Zestawy wyposażenia są już dostępne!\nTwórz szybko zestawy wyposażenia i zmieniaj je wedle własnego uznania.</string>
 	<string key="loadout_notification_itemremove_space_failure" rel_version="Feature_Gear_Set_Storage">Nie udało się zwrócić przedmiotów z zestawu wyposażenia do ekwipunku ze względu na brak miejsca.</string>
@@ -244,11 +246,11 @@
 	<string key="ui_effect_failed_MultipleFromSource">Nie można nałożyć zbędnych efektów</string>
 	<string key="ui_effect_failed_AntirequisiteActive">Nie można nałożyć – konkurencyjny efekt: {competingEffect}</string>
 	<string key="ui_effect_failed_AntirequisiteActive_Multiple">Nie można nałożyć – wiele konkurencyjnych efektów</string>
-	<string key="ui_effect_failed_NotMounted" rel_version="Feature_Mounts">Unable to apply mounted effect</string>
+	<string key="ui_effect_failed_NotMounted" rel_version="Feature_Mounts">Nie można nałożyć efektu dosiadania</string>
 	<string key="ui_effect_failed_Success">Dostępny efekt</string>
-	<string key="perktooltips_stacks">Kumulacje: </string>
-	<string key="perktooltips_stacks_over_limit">Ponad maks.</string>
-	<string key="perktooltips_stacks_over_limit_disabled">Ponad maks. (wyłączone)</string>
-	<string key="perktooltips_max_stacks">Maks. liczba skum. efektów: </string>
+	<string key="perktooltips_stacks">Kumulacja efektów profitu: </string>
+	<string key="perktooltips_stacks_over_limit">(ponad maks.)</string>
+	<string key="perktooltips_stacks_over_limit_disabled">(nieaktywne)</string>
+	<string key="perktooltips_max_stacks">Maks. liczba skum. efektów profitu: </string>
 </resources>
 

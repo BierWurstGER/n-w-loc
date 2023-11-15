@@ -1,7 +1,7 @@
 <resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<string key="ui_leaderboard_inactive" rel_version="Feature_Leaderboards">Tabelas de Classificação Inativas</string>
 	<string key="ui_leaderboard_category_war" rel_version="Feature_Leaderboards">Guerra</string>
-	<string key="ui_leaderboard_category_outpostrush" rel_version="Feature_Leaderboards">Investida do Posto Avançado &lt;img src="lyshineui/images/icons/crossworld/icon_crossworld_identifier" scale="1.0" xPadding="2" yOffset="2"&gt;&lt;/img&gt;</string>
+	<string key="ui_leaderboard_category_outpostrush" rel_version="Feature_Leaderboards">Investida do Posto Avançado &lt;img src="lyshineui/images/icons/crossworld/icon_crossworld_identifier_tan" scale="1.0" xPadding="2" yOffset="2"&gt;&lt;/img&gt;</string>
 	<string key="ui_leaderboard_category_darkness" rel_version="Feature_Leaderboards">Incursões de Corrupção</string>
 	<string key="ui_leaderboard_category_openworldpvp" rel_version="Feature_Leaderboards">PvP de Mundo Aberto</string>
 	<string key="ui_leaderboard_category_war_faction" rel_version="Feature_Leaderboards">Guerras de Facções</string>
@@ -93,15 +93,14 @@
 	<string key="ui_leaderboard_display_invasion_wins" rel_version="Feature_Leaderboards">Vitórias</string>
 	<string key="ui_leaderboard_display_invasion_kills" rel_version="Feature_Leaderboards">Abates</string>
 	<string key="ui_leaderboard_display_invasion_kill_death" rel_version="Feature_Leaderboards">Taxa de Abates/Mortes</string>
-	<string key="ui_leaderboard_display_invasion_damage_dealt" rel_version="Feature_Leaderboards">Dano Causado</string>
 	<string key="ui_leaderboard_character_empty_leaderboard" rel_version="Feature_Leaderboards">Você não está nesta classificação</string>
 	<string key="ui_leaderboard_faction_no_faction" rel_version="Feature_Leaderboards">Entre em uma facção para participar</string>
 	<string key="ui_leaderboard_faction_no_company" rel_version="Feature_Leaderboards">Entre em uma companhia para participar</string>
 	<string key="ui_leaderboard_error_nodata" rel_version="Feature_Leaderboards">Nenhum dado foi localizado</string>
 	<string key="ui_leaderboard_error_nodata_filter" rel_version="Feature_Leaderboards">Esses dados não são localizados por {filter}</string>
-	<string key="ui_leaderboard_error_norewards" rel_version="Feature_Leaderboards">{type} não tem recompensas</string>
-	<string key="ui_leaderboard_error_norewards_this" rel_version="Feature_Leaderboards">{type} não tem recompensas</string>
-	<string key="ui_leaderboard_error_norewards_byfaction" rel_version="Feature_Leaderboards">{type} por Facção não tem recompensas</string>
+	<string key="ui_leaderboard_error_norewards" rel_version="Feature_Leaderboards">{type} não concede recompensas</string>
+	<string key="ui_leaderboard_error_norewards_this" rel_version="Feature_Leaderboards">Essa {type} não concede recompensas</string>
+	<string key="ui_leaderboard_error_norewards_byfaction" rel_version="Feature_Leaderboards">{type} por Facção não concede recompensas</string>
 	<string key="ui_leaderboard_error" rel_version="Feature_Leaderboards">Esta classificação não tem recompensas</string>
 	<string key="ui_leaderboard_error_nottracked" rel_version="Feature_Leaderboards">Esta tabela de classificação não é localizada por {filter}</string>
 	<string key="ui_leaderboard_error_noboard" rel_version="Feature_Leaderboards">Não há nenhuma Tabela de Classificação de {rotation} para esta categoria.</string>
@@ -156,13 +155,13 @@
 	<string key="ui_leaderboard_category_elitetrials" rel_version="Trial_Brimstone_Sandworm">Provas de Elite</string>
 	<string key="ui_leaderboard_display_elitetrials_sandworm1" rel_version="Trial_Brimstone_Sandworm">Prova do Devorador - Tempo de Conclusão</string>
 	<string key="ui_leaderboard_display_elitetrials_sandworm2" rel_version="Trial_Brimstone_Sandworm">Prova do Devorador</string>
-	<string key="ui_leaderboard_tip_outpostrush_score" rel_version="Feature_Leaderboards">&lt;img src="lyshineui/images/icons/crossworld/icon_crossworld_identifier" scale="2.0" xPadding="2" yOffset="5"&gt;&lt;/img&gt; &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_Regular.font"&gt;Classificação Regional&lt;/font&gt;&lt;/font&gt;\n\nSua Pontuação em Investidas do Posto Avançado é a pontuação máxima que você recebeu em uma partida.</string>
+	<string key="ui_leaderboard_tip_outpostrush_score" rel_version="Feature_Leaderboards">&lt;img src="lyshineui/images/icons/crossworld/icon_crossworld_identifier_tan" scale="2.0" xPadding="2" yOffset="5"&gt;&lt;/img&gt; &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_Regular.font"&gt;Classificação Regional&lt;/font&gt;&lt;/font&gt;\n\nSua Pontuação em Investidas do Posto Avançado é a pontuação máxima que você recebeu em uma partida.</string>
 	<string key="ui_leaderboard_display_regional">Regional</string>
 	<string key="ui_leaderboard_display_world_archived">Mundo (Arquivado)</string>
-	<string key="ui_leaderboard_tip_regional_only">&lt;img src="lyshineui/images/icons/crossworld/icon_crossworld_identifier" scale="2.0" xPadding="2" yOffset="5"&gt;&lt;/img&gt; &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_Regular.font"&gt;Classificação Regional&lt;/font&gt;&lt;/font&gt;</string>
-	<string key="ui_leaderboard_display_influence_race_wins" rel_version="Feature_Influence_V2">Influence Race Wins</string>
-	<string key="ui_leaderboard_display_influence_race_wins_all" rel_version="Feature_Influence_V2">All</string>
-	<string key="ui_leaderboard_display_influence_race_wins_attackers" rel_version="Feature_Influence_V2">Attackers</string>
-	<string key="ui_leaderboard_display_influence_race_wins_defenders" rel_version="Feature_Influence_V2">Defenders</string>
+	<string key="ui_leaderboard_tip_regional_only">&lt;img src="lyshineui/images/icons/crossworld/icon_crossworld_identifier_tan" scale="2.0" xPadding="2" yOffset="5"&gt;&lt;/img&gt; &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_Regular.font"&gt;Classificação Regional&lt;/font&gt;&lt;/font&gt;</string>
+	<string key="ui_leaderboard_display_influence_race_wins" rel_version="Feature_Influence_V2">Vitórias em Corridas de Influência</string>
+	<string key="ui_leaderboard_display_influence_race_wins_all" rel_version="Feature_Influence_V2">Tudo</string>
+	<string key="ui_leaderboard_display_influence_race_wins_attackers" rel_version="Feature_Influence_V2">Atacantes</string>
+	<string key="ui_leaderboard_display_influence_race_wins_defenders" rel_version="Feature_Influence_V2">Defensores</string>
 </resources>
 

@@ -506,7 +506,7 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_pvp_flag_mismatch">Twoje oznaczenie do PvP nie zgadza się z lobby.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_pvp_faction_mismatch">Musisz należeć do tej samej frakcji, by móc dołączyć do lobby PvP.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_requirements_not_met">Wymagania lobby uległy zmianie, a ty ich nie spełniasz.</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_cleanspeakerror">Błąd filtra czatu. Zaktualizuj swój tekst i spróbuj ponownie.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_cleanspeakerror">Twój opis lobby zawierał wulgaryzm lub słowa zabronione. Spróbuj ponownie.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_atmaxapplications">Nie możesz wysłać więcej zgłoszeń.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_groupfull">Lobby jest pełne</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_convert_to_group_declined">{playerName} nie jest w gotowości.</string>
@@ -543,6 +543,15 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_button_confirm_disabled_tooltip">Musisz wybrać rolę.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_button_confirm_disabled_none_accepted_tooltip">Musisz zaakceptować przynajmniej 1 rolę</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_button_confirm_disabled_tooltip_queue">Nie możesz wysłać prośby o dołączenie do lobby, gdy czekasz w kolejce do trybu gry.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_button_lock_in">Blokada</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_button_lock_in_disabled_tooltip">Musisz wybrać rolę, która nie osiągnęła limitu osobowego.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_button_change_role">Zmień rolę</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_button_decline">Odrzuć</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_button_minimize">Minimalizuj</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_bonus_label">Premie roli</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_max_allowed">Maks. {amount}</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_players_locked_in">Gracze zablokowani – &lt;font color={numberColor}&gt; &lt;img src="LyShineUI/Images/icons/chat/channelgroup" scale="1.5" yOffset="5.5"&gt;&lt;/img&gt; {numLockedIn}&lt;/font&gt; / {numInGroup}</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_all_players_locked_in">Wszyscy gracze zablokowani. Dołączanie do kolejki…</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_required_item_tooltip">Jeśli chcesz stworzyć nowe lobby tej ekspedycji, musisz posiadać: {item} ({quantity}).</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_current_roles_label">Obecne role w tej grupie</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_current_role_text">&lt;img src="{icon}" scale="2.5" yOffset="8.0"&gt;&lt;/img&gt; {count} {role}</string>
@@ -580,13 +589,14 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_join_with_group">Otwórz ekspedycję razem z grupą</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_in_probation">Twoje konto musi być starsze niż {accountProbationTimeRequired}, a czas twojej rozgrywki dłuższy niż {characterProbationTimeRequired}, aby można było utworzyć lobby.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_difficulty_locked">Jeśli chcesz stworzyć nowe lobby, musisz odblokować ten poziom trudności.</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_decline">Odrzuć</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationaccepted">Zaproszenie przyjęte</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationdeclined">Zaproszenie odrzucone</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationautodeclined_ingroup">Zaproszenie odrzucone. Gracz należy już do lobby.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationautodeclined_pvpflagmismatched">Zaproszenie odrzucone. Gracz ma niezgodne oznaczenie do PvP.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationautodeclined_atdungeonlimit">Zaproszenie odrzucone. Gracz osiągnął limit ekspedycji.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationautodeclined_mismatchedfaction">Zaproszenie odrzucone. Gracz należy do innej frakcji.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationautodeclined_mutationlevel">Zaproszenie odrzucone. Player too low level.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_mutationlevel">You are too low a level to create a lobby for this mutatated expedition.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_directinvite">Zaproś do lobby</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_directinvite_tooltip_not_creator">Tylko twórca lobby może zapraszać innych graczy.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_directinvite_tooltip_already_in_group">{player} należy już do twojego lobby.</string>
@@ -649,6 +659,7 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_min_level_desc">Twój poziom: {level}\nMinimalny poziom nie może przewyższać twojego poziomu.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_min_gear_score_desc">Twoje punkty wyposażenia: {gearscore}\nMinimalna liczba punktów wyposażenia nie może przewyższać twojej liczby punktów wyposażenia.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_comment_format">"{text}"</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_comment_invalid_characters">Znak niedozwolony w opisie lobby</string>
 	<string rel_version="Feature_Group_Finder" key="ui_chat_name_group_finder_group">Lobby</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_lobbies_header">Lobby</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_time_ago">{time} temu</string>

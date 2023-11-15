@@ -27,6 +27,7 @@
 	<string key="ui_hideunequippable">Nur ausrüstbar</string>
 	<string key="ui_canafford">Bezahlbar</string>
 	<string key="ui_canSell">Verkäuflich</string>
+	<string key="ui_canuse">Verwendbar</string>
 	<string key="ui_gem_selection_button_none">Edelstein: Keine ausgewählt</string>
 	<string key="ui_gem_selection_button_specific">Edelstein: {name}</string>
 	<string key="ui_perk_selection_button_none">Effekte: Keine ausgewählt</string>
@@ -278,7 +279,7 @@
 	<string key="ui_order_tooltip">Verfügbare Aufträge in dieser Kategorie: \n&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{number}&lt;/font&gt;</string>
 	<string key="ui_available_buy_orders">Aktuelle Kaufaufträge</string>
 	<string key="ui_item_attribute">{attributeName} &lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{statValue}&lt;/font&gt;</string>
-	<string key="ui_item_attributes_separator">, </string>
+	<string key="ui_item_attributes_separator">. </string>
 	<string key="compensations_column_name" rel_version="Feature_Make_Good">Name</string>
 	<string key="compensations_column_status" rel_version="Feature_Make_Good">Status</string>
 	<string key="compensations_column_date" rel_version="Feature_Make_Good">Datum</string>

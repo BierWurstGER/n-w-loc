@@ -93,7 +93,7 @@
 	<string key="ui_outpost_rush_invite_status">¡Acepta para unirte a la batalla!</string>
 	<string key="ui_outpost_rush_signup_title">ASALTO A PUESTO REMOTO</string>
 	<string key="ui_outpost_rush_signup_desc">&lt;font color="#ffe940"&gt;El Asalto a puesto remoto&lt;/font&gt; es un enfrentamiento 20 vs. 20 que se lleva a cabo en una extensa isla con tres puestos remotos que los equipos compiten para capturar y defender.</string>
-	<string key="ui_outpost_rush_signup_desc_gearscore">El &lt;font color="#ffe940"&gt;escalado de puntuación de equipo&lt;/font&gt; aumenta la puntuación del siguiente equipo por debajo de 600 puntos a 600.</string>
+	<string key="ui_outpost_rush_signup_desc_gearscore">El &lt;font color="#ffe940"&gt;escalado de puntuación de equipo&lt;/font&gt; aumenta la puntuación de todo el equipo por debajo de 675 puntos a 675.</string>
 	<string key="ui_outpost_rush_signup_desc_cross_world">Asalto a puesto remoto es un &lt;font color="#ffe940"&gt;modo de juego de mundo múltiple&lt;/font&gt; 20x20.</string>
 	<string key="ui_outpost_rush_signup_desc_cross_world_tooltip">&lt;font color="#ffe940"&gt;Mundo múltiple&lt;/font&gt; quiere decir que vas a jugar con jugadores de todos los mundos de tu región. Así se reducen los tiempos de espera para un combate.\n\nTen en cuenta que:\n\n- Cuando veas un jugador con &lt;img src="lyshineui/images/icons/crossworld/icon_crossworld_identifier" xPadding="-1" scale="1.8" yOffset="2"&gt;&lt;/img&gt; junto al nombre, significa que procede de otro mundo.\n\n- En el combate de mundo múltiple se desactivarán varias funciones sociales, como el comercio y las invitaciones, entre otras.\n\n- La clasificación de victorias de APR ahora es una clasificación regional.</string>
 	<string key="ui_outpost_rush_signup_goal1">Captura y defiende puestos remotos para aumentar la puntuación de tu equipo</string>
@@ -192,6 +192,12 @@
 	<string key="ui_or_outpost_b">PUESTO REMOTO SOL</string>
 	<string key="ui_or_outpost_c">PUESTO REMOTO ASTRA</string>
 	<string key="ui_or_kills">ASESINATOS</string>
+	<string key="ui_or_total_score_case">Puntuación total</string>
+	<string key="ui_or_points_from_case">Puntos de</string>
+	<string key="ui_or_outpost_a_case">Puesto remoto Luna</string>
+	<string key="ui_or_outpost_b_case">Puesto remoto Sol</string>
+	<string key="ui_or_outpost_c_case">Puesto remoto Astra</string>
+	<string key="ui_or_kills_case">Asesinatos</string>
 	<string key="ui_outpost_rush_storage_message">Aquí solo se pueden almacenar objetos de Asalto a puesto remoto.</string>
 	<string key="ui_outpost_rush_summoning_circle">Círculo de invocación</string>
 	<string key="ui_outpost_rush_summoning_circle_desc">Usa una piedra de invocación en este obelisco para añadir un aliado monstruoso a tu equipo durante un tiempo limitado.</string>
@@ -273,29 +279,34 @@
 	<string key="ui_rounds_won">Rondas ganadas</string>
 	<string key="ui_see_through_label">Modo transparente</string>
 	<string key="ui_invasion_leave">Abandonar actividad</string>
+	<string key="ui_matchmaking_ready_accept_choice">Listo</string>
 	<string key="ui_matchmaking_ready_title">Partida lista</string>
+	<string key="ui_matchmaking_ready_title_dungeon">Group Found</string>
 	<string key="ui_matchmaking_ready_text">Tu &lt;font color={color}&gt;partida ya está lista&lt;/font&gt;. ¿Quieres teletransportarte ahora?</string>
+	<string key="ui_matchmaking_ready_text_dungeon">{name} - {numAccepted} / {numInvited} Players ready</string>
 	<string key="dungeon_how_to_raid">Cómo crear una incursión</string>
 	<string key="dungeon_entry_requirements">Requisitos de acceso</string>
-	<string key="ui_influence_tutorial_how_it_works" rel_version="Feature_Influence_V2">How Influence Races Work</string>
-	<string key="ui_influence_tutorial_title1" rel_version="Feature_Influence_V2">Push Influence</string>
-	<string key="ui_influence_tutorial_title2" rel_version="Feature_Influence_V2">Faction Control Points</string>
-	<string key="ui_influence_tutorial_title3" rel_version="Feature_Influence_V2">Declare War</string>
-	<string key="ui_influence_tutorial_title4" rel_version="Feature_Influence_V2">Earn Rewards</string>
-	<string key="ui_influence_tutorial_desc1" rel_version="Feature_Influence_V2">Complete PvP missions and capture towers to push influence and put the territory into conflict.</string>
-	<string key="ui_influence_tutorial_desc2" rel_version="Feature_Influence_V2">Modifies the amount of Influence earned and provide a continuous flow of influence for the controlling faction.</string>
-	<string key="ui_influence_tutorial_desc3" rel_version="Feature_Influence_V2">Qualifying companies will be able to declare war at the end of every Influence Race.</string>
-	<string key="ui_influence_tutorial_desc4" rel_version="Feature_Influence_V2">Participating players will earn rewards. Bonus war cache for defenders winning the war. </string>
-	<string key="ui_pvp_balance_tooltip" rel_version="Feature_PvP_PvE_Split">PvP Balancing</string>
-	<string key="ui_pvp_balance_header" rel_version="Feature_PvP_PvE_Split">The following PvP balance modifiers are in effect:</string>
-	<string key="ui_pvp_balance_global_disabled_weapon" rel_version="Feature_PvP_PvE_Split">PvP balancing is currently disabled for this weapon.</string>
-	<string key="ui_pvp_balance_global_disabled_mode" rel_version="Feature_PvP_PvE_Split">PvP balancing is currently disabled for this game mode.</string>
-	<string key="ui_pvp_balance_open_world_disabled" rel_version="Feature_PvP_PvE_Split">PvP balancing is currently disabled for Open World.</string>
-	<string key="ui_pvp_balance_damage_header" rel_version="Feature_PvP_PvE_Split">PvP Base Damage Modifiers:</string>
-	<string key="ui_pvp_balance_global_base_damage" rel_version="Feature_PvP_PvE_Split">Global:</string>
-	<string key="ui_pvp_balance_affix_stats" rel_version="Feature_PvP_PvE_Split">Affix Stat Damage Modifier:</string>
-	<string key="ui_pvp_balance_ability_damage_bonuses" rel_version="Feature_PvP_PvE_Split">Ability Damage Bonus Modifier:</string>
-	<string key="ui_pvp_balance_healing_category" rel_version="Feature_PvP_PvE_Split">Healing Modifiers:</string>
-	<string key="ui_pvp_balance_status_effect_potencies" rel_version="Feature_PvP_PvE_Split">Status Effect Potency:</string>
+	<string key="ui_influence_tutorial_how_it_works" rel_version="Feature_Influence_V2">Cómo funcionan las carreras de influencia</string>
+	<string key="ui_influence_tutorial_title1" rel_version="Feature_Influence_V2">Obtener influencia</string>
+	<string key="ui_influence_tutorial_title2" rel_version="Feature_Influence_V2">Puntos de control de facciones</string>
+	<string key="ui_influence_tutorial_title3" rel_version="Feature_Influence_V2">Declarar la guerra</string>
+	<string key="ui_influence_tutorial_title4" rel_version="Feature_Influence_V2">Obtener recompensas</string>
+	<string key="ui_influence_tutorial_desc1" rel_version="Feature_Influence_V2">Completa misiones de JcJ y captura torres para obtener influencia y disputarte un territorio.</string>
+	<string key="ui_influence_tutorial_desc2" rel_version="Feature_Influence_V2">Modifica la cantidad de influencia que se obtiene y aporta un flujo constante de influencia a la facción que lo controla.</string>
+	<string key="ui_influence_tutorial_desc3" rel_version="Feature_Influence_V2">Las compañías que cumplan los requisitos podrán declarar la guerra al final de una carrera de influencia.</string>
+	<string key="ui_influence_tutorial_desc4" rel_version="Feature_Influence_V2">Los jugadores que participen obtendrán recompensas. Botín de guerra adicional para los defensores que ganen la guerra. </string>
+	<string key="ui_pvp_balance_tooltip" rel_version="Feature_PvP_PvE_Split">El equilibrado de JcJ está en curso.</string>
+	<string key="ui_pvp_balance_header" rel_version="Feature_PvP_PvE_Split">Los modificadores de equilibrado de JcJ están en curso.</string>
+	<string key="ui_pvp_balance_global_disabled_weapon" rel_version="Feature_PvP_PvE_Split">El equilibrado de JcJ está desactivado ahora mismo en esta arma.</string>
+	<string key="ui_pvp_balance_global_disabled_mode" rel_version="Feature_PvP_PvE_Split">El equilibrado de JcJ está desactivado ahora mismo en este modo de juego.</string>
+	<string key="ui_pvp_balance_open_world_disabled" rel_version="Feature_PvP_PvE_Split">El equilibrado de JcJ está desactivado ahora mismo en el mundo abierto.</string>
+	<string key="ui_pvp_balance_damage_header" rel_version="Feature_PvP_PvE_Split">Modificadores de daño base de JcJ:\n • (Se han aumentado los valores de magia y a distancia de forma general, pero se han equilibrado en JcJ)</string>
+	<string key="ui_pvp_balance_global_base_damage" rel_version="Feature_PvP_PvE_Split">Mundial:</string>
+	<string key="ui_pvp_balance_affix_stats" rel_version="Feature_PvP_PvE_Split">Modificador de daño fijo:</string>
+	<string key="ui_pvp_balance_ability_damage_bonuses" rel_version="Feature_PvP_PvE_Split">Modificador de bonificación de daño de habilidades:</string>
+	<string key="ui_pvp_balance_healing_category" rel_version="Feature_PvP_PvE_Split">Modificadores de curación:</string>
+	<string key="ui_pvp_balance_status_effect_potencies" rel_version="Feature_PvP_PvE_Split">Potencia de efecto de estado:</string>
+	<string key="ui_gamemodeinvitedeclinesentmessage">Invitación para &lt;font color="#ffffff"&gt;{gameModeName}&lt;/font&gt; rechazada.</string>
+	<string key="ui_gamemodeinvitedeclinesentmessage_withsource">&lt;font color="#ffffff"&gt;{sourcePlayerName}&lt;/font&gt; ha rechazado la invitación para &lt;font color="#ffffff"&gt;{gameModeName}&lt;/font&gt;.</string>
 </resources>
 

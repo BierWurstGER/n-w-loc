@@ -1,7 +1,7 @@
 <resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<string key="ui_leaderboard_inactive" rel_version="Feature_Leaderboards">Inaktive Bestenlisten</string>
 	<string key="ui_leaderboard_category_war" rel_version="Feature_Leaderboards">Krieg</string>
-	<string key="ui_leaderboard_category_outpostrush" rel_version="Feature_Leaderboards">Außenpostensturm &lt;img src="lyshineui/images/icons/crossworld/icon_crossworld_identifier" scale="1.0" xPadding="2" yOffset="2"&gt;&lt;/img&gt;</string>
+	<string key="ui_leaderboard_category_outpostrush" rel_version="Feature_Leaderboards">Außenpostensturm &lt;img src="lyshineui/images/icons/crossworld/icon_crossworld_identifier_tan" scale="1.0" xPadding="2" yOffset="2"&gt;&lt;/img&gt;</string>
 	<string key="ui_leaderboard_category_darkness" rel_version="Feature_Leaderboards">Verderbnisausbrüche</string>
 	<string key="ui_leaderboard_category_openworldpvp" rel_version="Feature_Leaderboards">PvP in der offenen Welt</string>
 	<string key="ui_leaderboard_category_war_faction" rel_version="Feature_Leaderboards">Fraktionskriege</string>
@@ -93,15 +93,14 @@
 	<string key="ui_leaderboard_display_invasion_wins" rel_version="Feature_Leaderboards">Siege</string>
 	<string key="ui_leaderboard_display_invasion_kills" rel_version="Feature_Leaderboards">Tötungen</string>
 	<string key="ui_leaderboard_display_invasion_kill_death" rel_version="Feature_Leaderboards">K/D-Verhältnis</string>
-	<string key="ui_leaderboard_display_invasion_damage_dealt" rel_version="Feature_Leaderboards">Ausgeteilter Schaden</string>
 	<string key="ui_leaderboard_character_empty_leaderboard" rel_version="Feature_Leaderboards">Du bist nicht auf dieser Rangliste vertreten.</string>
-	<string key="ui_leaderboard_faction_no_faction" rel_version="Feature_Leaderboards">Tritt einer Fraktion bei, um teilnehmen zu können</string>
+	<string key="ui_leaderboard_faction_no_faction" rel_version="Feature_Leaderboards">Tritt einer Kompanie bei, \num teilnehmen zu können</string>
 	<string key="ui_leaderboard_faction_no_company" rel_version="Feature_Leaderboards">Tritt einer Kompanie bei, um teilnehmen zu können</string>
 	<string key="ui_leaderboard_error_nodata" rel_version="Feature_Leaderboards">Es wurden keine Daten erfasst</string>
 	<string key="ui_leaderboard_error_nodata_filter" rel_version="Feature_Leaderboards">Diese Daten werden von {filter} nicht erfasst</string>
 	<string key="ui_leaderboard_error_norewards" rel_version="Feature_Leaderboards">{type} bietet keine Belohnungen</string>
 	<string key="ui_leaderboard_error_norewards_this" rel_version="Feature_Leaderboards">Diese {type} bietet keine Belohnungen</string>
-	<string key="ui_leaderboard_error_norewards_byfaction" rel_version="Feature_Leaderboards">{type} bietet nach Fraktion keine Belohnungen</string>
+	<string key="ui_leaderboard_error_norewards_byfaction" rel_version="Feature_Leaderboards">{type} bietet keine Belohnungen nach Fraktion</string>
 	<string key="ui_leaderboard_error" rel_version="Feature_Leaderboards">Diese Bestenliste bietet keine Belohnungen</string>
 	<string key="ui_leaderboard_error_nottracked" rel_version="Feature_Leaderboards">Diese Bestenliste kann nicht nach "{filter}" sortiert werden.</string>
 	<string key="ui_leaderboard_error_noboard" rel_version="Feature_Leaderboards">Es gibt keine {rotation}-Bestenliste für diese Kategorie.</string>
@@ -156,13 +155,13 @@
 	<string key="ui_leaderboard_category_elitetrials" rel_version="Trial_Brimstone_Sandworm">Eliteprüfungen</string>
 	<string key="ui_leaderboard_display_elitetrials_sandworm1" rel_version="Trial_Brimstone_Sandworm">Die Prüfung des Verzehrers – Abschlusszeit</string>
 	<string key="ui_leaderboard_display_elitetrials_sandworm2" rel_version="Trial_Brimstone_Sandworm">Die Prüfung des Verzehrers</string>
-	<string key="ui_leaderboard_tip_outpostrush_score" rel_version="Feature_Leaderboards">&lt;img src="lyshineui/images/icons/crossworld/icon_crossworld_identifier" scale="2.0" xPadding="2" yOffset="5"&gt;&lt;/img&gt; &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_Regular.font"&gt;Regionale Bestenliste&lt;/font&gt;&lt;/font&gt;\n\nDas ist dein bisheriger Außenpostensturm-Bestwert in einem Match.</string>
+	<string key="ui_leaderboard_tip_outpostrush_score" rel_version="Feature_Leaderboards">&lt;img src="lyshineui/images/icons/crossworld/icon_crossworld_identifier_tan" scale="2.0" xPadding="2" yOffset="5"&gt;&lt;/img&gt; &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_Regular.font"&gt;Regionale Bestenliste&lt;/font&gt;&lt;/font&gt;\n\nDas ist dein bisheriger Außenpostensturm-Bestwert in einem Match.</string>
 	<string key="ui_leaderboard_display_regional">Region</string>
 	<string key="ui_leaderboard_display_world_archived">Welt (archiviert)</string>
-	<string key="ui_leaderboard_tip_regional_only">&lt;img src="lyshineui/images/icons/crossworld/icon_crossworld_identifier" scale="2.0" xPadding="2" yOffset="5"&gt;&lt;/img&gt; &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_Regular.font"&gt;Regionale Bestenliste&lt;/font&gt;&lt;/font&gt;</string>
-	<string key="ui_leaderboard_display_influence_race_wins" rel_version="Feature_Influence_V2">Influence Race Wins</string>
-	<string key="ui_leaderboard_display_influence_race_wins_all" rel_version="Feature_Influence_V2">All</string>
-	<string key="ui_leaderboard_display_influence_race_wins_attackers" rel_version="Feature_Influence_V2">Attackers</string>
-	<string key="ui_leaderboard_display_influence_race_wins_defenders" rel_version="Feature_Influence_V2">Defenders</string>
+	<string key="ui_leaderboard_tip_regional_only">&lt;img src="lyshineui/images/icons/crossworld/icon_crossworld_identifier_tan" scale="2.0" xPadding="2" yOffset="5"&gt;&lt;/img&gt; &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_Regular.font"&gt;Regionale Bestenliste&lt;/font&gt;&lt;/font&gt;</string>
+	<string key="ui_leaderboard_display_influence_race_wins" rel_version="Feature_Influence_V2">Einflusswettlauf-Siege</string>
+	<string key="ui_leaderboard_display_influence_race_wins_all" rel_version="Feature_Influence_V2">Alle</string>
+	<string key="ui_leaderboard_display_influence_race_wins_attackers" rel_version="Feature_Influence_V2">Angreifer</string>
+	<string key="ui_leaderboard_display_influence_race_wins_defenders" rel_version="Feature_Influence_V2">Verteidiger</string>
 </resources>
 

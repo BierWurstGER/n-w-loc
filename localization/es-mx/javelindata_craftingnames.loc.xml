@@ -12,7 +12,6 @@
 	<string key="LeatherT2_Down_Name">Bajar de categoría de cuero arrugado a cuero burdo</string>
 	<string key="LeatherT3_Down_Name">Bajar de categoría de cuero en capas a cuero arrugado</string>
 	<string key="LeatherT4_Down_Name">Bajar de categoría de cuero imbuido a cuero en capas</string>
-	<string key="LeatherT4_Down_Name">Bajar de categoría de cuero imbuido a cuero en capas</string>
 	<string key="ClothT2_Down_Name">Bajar de categoría de satén a lino</string>
 	<string key="ClothT3_Down_Name">Bajar de categoría de seda a satén</string>
 	<string key="ClothT4_Down_Name">Bajar de categoría de seda imbuida a seda</string>
@@ -510,6 +509,9 @@
 	<string key="Procedural_PotionBoostVoidAbsT3">Poción de absorción de vacío fuerte</string>
 	<string key="Procedural_PotionBoostVoidAbsT4">Poción de absorción de vacío poderosa</string>
 	<string key="Procedural_PotionBoostVoidAbsT5">Poción de absorción de vacío imbuida</string>
+	<string key="Procedural_PotionBoostIceAbsT3" rel_version="IceAbsorbPot">Strong Ice Absorption Potion</string>
+	<string key="Procedural_PotionBoostIceAbsT4" rel_version="IceAbsorbPot">Powerful Ice Absorption Potion</string>
+	<string key="Procedural_PotionBoostIceAbsT5" rel_version="IceAbsorbPot">Infused Ice Absorption Potion</string>
 	<string key="Procedural_HealthRecoveryT1">Ración liviana</string>
 	<string key="Procedural_HealthRecoveryT2">Vianda</string>
 	<string key="Procedural_HealthRecoveryT3">Comida ligera</string>
@@ -1896,6 +1898,9 @@
 	<string key="Procedural_GauntletVoidT3_WC" rel_version="Event_WinterConvergence_Perm">Sombra amarga</string>
 	<string key="Procedural_GauntletVoidT4_WC" rel_version="Event_WinterConvergence_Perm">Sombra amarga</string>
 	<string key="Procedural_GauntletVoidT5_WC" rel_version="Event_WinterConvergence_Perm">Sombra amarga</string>
+	<string key="PresentToken" rel_version="Event_WinterConvergence_Temp">Blasón invernal - Regalos</string>
+	<string key="GleamiteToken" rel_version="Event_WinterConvergence_Temp">Blasón invernal - Brillantita</string>
+	<string key="WarriorToken" rel_version="Event_WinterConvergence_Temp">Blasón de invierno - Pico de granizo del guerrero</string>
 	<string key="ScrapExtractMetalT2">Extraer metal - Hierro</string>
 	<string key="ScrapExtractMetalT3">Extraer metal - Acero</string>
 	<string key="ScrapExtractMetalT4">Extraer metal - Metal de estrellas</string>
@@ -1953,7 +1958,7 @@
 	<string key="GypsumOrbOrange">Orbe de aljez – Citrino</string>
 	<string key="GypsumOrbPurple">Orbe de aljez – Ametista</string>
 	<string key="GypsumOrbWhite">Orbe de aljez – Diamante</string>
-	<string key="GypsumOrbSpores" rel_version="Territory_FirstLight_Spores">Gypsum Orb - Sporecraft</string>
+	<string key="GypsumOrbSpores" rel_version="Territory_FirstLight_Spores">Orbe de aljez – Espora preciosa</string>
 	<string key="Procedural_2hGreatSwordT2">Mandoble de hierro</string>
 	<string key="Procedural_2hGreatSwordT3">Mandoble de acero</string>
 	<string key="Procedural_2hGreatSwordT4">Mandoble de metal de estrellas</string>
@@ -1982,39 +1987,49 @@
 	<string key="Procedural_CoatingAeternianT3" rel_version="Season_1_Perm">Revestimiento contra humanos fuerte</string>
 	<string key="Procedural_CoatingAeternianT4" rel_version="Season_1_Perm">Revestimiento contra humanos potente</string>
 	<string key="Procedural_CoatingAeternianT5" rel_version="Season_1_Perm">Revestimiento contra humanos imbuido</string>
-	<string key="Procedural_1hFlailT2" rel_version="Weapon_Flail">Iron Flail</string>
-	<string key="Procedural_1hFlailT3" rel_version="Weapon_Flail">Steel Flail</string>
-	<string key="Procedural_1hFlailT4" rel_version="Weapon_Flail">Starmetal Flail</string>
-	<string key="Procedural_1hFlailT5" rel_version="Weapon_Flail">Orichalcum Flail</string>
-	<string key="Procedural_1hFlailT52" rel_version="Weapon_Flail">Mythril Flail</string>
-	<string key="CraftArtifact_Set1_HeavyHead_Name">Mejora de Casco firme</string>
-	<string key="CraftArtifact_Set1_HeavyChest_Name">Mejora de Armadura oscura del vacío</string>
-	<string key="CraftArtifact_Set1_HeavyHands_Name">Mejora de Manoplas magnéticas</string>
-	<string key="CraftArtifact_Set1_HeavyLegs_Name">Mejora de Libertad</string>
-	<string key="CraftArtifact_Set1_MediumHead_Name">Mejora de Vincha</string>
-	<string key="CraftArtifact_Set1_MediumChest_Name">Mejora de Abrigo veloz</string>
-	<string key="CraftArtifact_Set1_MediumHands_Name">Mejora de Guantes de demonio</string>
-	<string key="CraftArtifact_Set1_MediumLegs_Name">Mejora de Pantalones sincronizados</string>
-	<string key="CraftArtifact_Set1_LightHead_Name">Mejora de Sombrero del hechicero</string>
-	<string key="CraftArtifact_Set1_LightChest_Name">Mejora de Peso pluma</string>
-	<string key="CraftArtifact_Set1_LightFeet_Name">Mejora de Calzado de rebote</string>
-	<string key="CraftArtifact_Set1_1hLongsword_Name">Mejora de El carnicero</string>
-	<string key="CraftArtifact_Set1_1hThrowingAxe_Name">Mejora de Francisa</string>
-	<string key="CraftArtifact_Set1_2hWarhammer_Name">Mejora de Mjölnir</string>
-	<string key="CraftArtifact_Set1_2hGreatAxe_Name">Mejora de El abismo</string>
-	<string key="CraftArtifact_Set1_2hMusket_Name">Mejora de El mecánico</string>
-	<string key="CraftArtifact_Set1_1hKiteShield_Name">Mejora de Michael</string>
-	<string key="CraftArtifact_Set1_1hTowerShield_Name">Mejora de El muro</string>
-	<string key="CraftArtifact_Set1_2hStaffFire_Name">Mejora de Infierno</string>
-	<string key="CraftArtifact_Set1_2hSpear_Name">Mejora de Picadura de escorpión</string>
-	<string key="CraftArtifact_Set1_1hRapier_Name">Mejora de Remate</string>
-	<string key="CraftArtifact_Set1_1hGauntletVoid_Name">Mejora de Tomavidas</string>
-	<string key="CraftArtifact_Set1_2hBlunderbuss_Name">Mejora de Pestilencia</string>
-	<string key="CraftArtifact_Set1_2hGreatSword_Name">Mejora de Serenidad</string>
-	<string key="CraftArtifact_Set1_1hFlail_Name">Mejora de Odo</string>
-	<string key="CraftArtifact_Set1_Earring1_Name">Mejora de Sed insaciable</string>
-	<string key="CraftArtifact_Set1_Ring1_Name">Mejora de Bebesangre</string>
-	<string key="CraftArtifact_Set1_Amulet1_Name">Mejora de Cronómetro perdido</string>
-	<string key="CraftArtifact_Set1_Amulet2_Name">Mejora de Anj</string>
+	<string key="Procedural_1hFlailT2" rel_version="Weapon_Flail">Mangual de hierro</string>
+	<string key="Procedural_1hFlailT3" rel_version="Weapon_Flail">Mangual de acero</string>
+	<string key="Procedural_1hFlailT4" rel_version="Weapon_Flail">Mangual de metal de estrellas</string>
+	<string key="Procedural_1hFlailT5" rel_version="Weapon_Flail">Mangual de oricalco</string>
+	<string key="Procedural_1hFlailT52" rel_version="Weapon_Flail">Mangual de mithril</string>
+	<string key="CraftArtifact_Set1_HeavyHead_Name">Mejora inquebrantable en el horno de aljez</string>
+	<string key="CraftArtifact_Set1_HeavyChest_Name">Mejora de Armadura oscura del vacío en el horno de aljez</string>
+	<string key="CraftArtifact_Set1_HeavyHands_Name">Mejora de Manoplas magnéticas en el horno de aljez</string>
+	<string key="CraftArtifact_Set1_HeavyLegs_Name">Mejora de libertad en el horno de aljez</string>
+	<string key="CraftArtifact_Set1_HeavyFeet_Name" rel_version="Feature_Artifacts_Set2">The Unmoved Upgrade at the Gypsum Kiln</string>
+	<string key="CraftArtifact_Set1_MediumHead_Name">Mejora de Vendas para la cabeza de Djinn en el horno de aljez</string>
+	<string key="CraftArtifact_Set1_MediumChest_Name">Mejora de Abrigo veloz en el horno de aljez</string>
+	<string key="CraftArtifact_Set1_MediumHands_Name">Mejora de Guantes de demonio en el horno de aljez</string>
+	<string key="CraftArtifact_Set1_MediumLegs_Name">Mejora de sintonía en el horno de aljez</string>
+	<string key="CraftArtifact_Set1_MediumFeet_Name" rel_version="Feature_Artifacts_Set2">Winged Shoes Upgrade at the Gypsum Kiln</string>
+	<string key="CraftArtifact_Set1_LightHead_Name">Mejora de Sombrero del mago gris en el horno de aljez</string>
+	<string key="CraftArtifact_Set1_LightChest_Name">Mejora de peso pluma en el horno de aljez</string>
+	<string key="CraftArtifact_Set1_LightHands_Name" rel_version="Feature_Artifacts_Set2">Quickdraw Upgrade at the Gypsum Kiln</string>
+	<string key="CraftArtifact_Set1_LightLegs_Name" rel_version="Feature_Artifacts_Set2">Koya's Knee Guards Upgrade at the Gypsum Kiln</string>
+	<string key="CraftArtifact_Set1_LightFeet_Name">Mejora de Calzado de rebote en el horno de aljez</string>
+	<string key="CraftArtifact_Set1_1hLongsword_Name">Mejora de El carnicero en el horno de aljez</string>
+	<string key="CraftArtifact_Set1_1hThrowingAxe_Name">Mejora de Francisa de Freya en el horno de aljez</string>
+	<string key="CraftArtifact_Set1_2hWarhammer_Name">Mejora de Chispa de Mjölnir en el horno de aljez</string>
+	<string key="CraftArtifact_Set1_2hGreatAxe_Name">Mejora de El abismo en el horno de aljez</string>
+	<string key="CraftArtifact_Set1_2hBow_Name" rel_version="Feature_Artifacts_Set2">Boltcaster Upgrade at the Gypsum Kiln</string>
+	<string key="CraftArtifact_Set1_2hMusket_Name">Mejora de El mecánico en el horno de aljez</string>
+	<string key="CraftArtifact_Set1_1hRoundShield_Name" rel_version="Feature_Artifacts_Set2">Gladiator Upgrade at the Gypsum Kiln</string>
+	<string key="CraftArtifact_Set1_1hKiteShield_Name">Mejora de Michael en el horno de aljez</string>
+	<string key="CraftArtifact_Set1_1hTowerShield_Name">Mejora de El muro en el horno de aljez</string>
+	<string key="CraftArtifact_Set1_2hStaffFire_Name">Mejora del Infierno en el horno de aljez</string>
+	<string key="CraftArtifact_Set1_2hStaffLife_Name" rel_version="Feature_Artifacts_Set2">Vengence Upgrade at the Gypsum Kiln</string>
+	<string key="CraftArtifact_Set1_2hSpear_Name">Mejora de Picadura de escorpión en el horno de aljez</string>
+	<string key="CraftArtifact_Set1_1hRapier_Name">Mejora de Espada de Domingo en el horno de aljez</string>
+	<string key="CraftArtifact_Set1_1hGauntletIce_Name" rel_version="Feature_Artifacts_Set2">Deep Freeze Upgrade at the Gypsum Kiln</string>
+	<string key="CraftArtifact_Set1_1hGauntletVoid_Name">Mejora de Tomavidas en el horno de aljez</string>
+	<string key="CraftArtifact_Set1_2hBlunderbuss_Name">Mejora de Pestilencia en el horno de aljez</string>
+	<string key="CraftArtifact_Set1_2hGreatSword_Name">Mejora de Serenidad en el horno de aljez</string>
+	<string key="CraftArtifact_Set1_1hFlail_Name">Mejora de Odo en el horno de aljez</string>
+	<string key="CraftArtifact_Set1_Earring1_Name">Mejora de Sed insaciable en el horno de aljez</string>
+	<string key="CraftArtifact_Set1_Ring1_Name">Mejora de Tragasangre en el horno de aljez</string>
+	<string key="CraftArtifact_Set1_Amulet1_Name">Mejora de Cronómetro perdido en el horno de aljez</string>
+	<string key="CraftArtifact_Set1_Earring2_Name" rel_version="Feature_Artifacts_Set2">Ocean's Peace Upgrade at the Gypsum Kiln</string>
+	<string key="CraftArtifact_Set1_Ring2_Name" rel_version="Feature_Artifacts_Set2">Mastermind Upgrade at the Gypsum Kiln</string>
+	<string key="CraftArtifact_Set1_Amulet2_Name">Mejora de Anj en el horno de aljez</string>
 </resources>
 

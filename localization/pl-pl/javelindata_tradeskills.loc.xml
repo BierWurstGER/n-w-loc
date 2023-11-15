@@ -262,6 +262,7 @@
 	<string key="ui_hempt4">Jedwabne ziele</string>
 	<string key="ui_aloe">Żel aloesowy</string>
 	<string key="ui_hempt5">Włóknik</string>
+	<string key="ui_hempt52">Włókno do przędzenia (roślina)</string>
 	<string key="ui_alchemy1">Magiczne rośliny</string>
 	<string key="ui_alchemy2">Magiczne kamienie</string>
 	<string key="ui_alchemy3">Magiczne stworzenia</string>
@@ -283,15 +284,20 @@
 	<string key="ui_orichalcum">Orichalcum</string>
 	<string key="ui_wyrdwood">Cieniodrzewo</string>
 	<string key="ui_ironwood">Żelazodrzewo</string>
+	<string key="ui_runewood">Runodrzewo</string>
+	<string key="ui_mycodendra">Mykodendra</string>
 	<string key="ui_toolrequired">Potrzebne narzędzie</string>
 	<string key="ui_alchemyStones">Kamienie alchemiczne</string>
 	<string key="ui_skinningOnly">Skórowanie</string>
 	<string key="ui_trackingOnly">Tropienie</string>
-	<string key="ui_purchase_expansion" rel_version="Feature_Mounts">Riding</string>
-	<string key="ui_riding" rel_version="Feature_Mounts">Riding</string>
-	<string key="ui_mount" rel_version="Feature_Mounts">Mount</string>
-	<string key="ui_mount_speedboost" rel_version="Feature_Mounts">Speed Bonus</string>
-	<string key="ui_mount_speedboost_tooltip" rel_version="Feature_Mounts">Increases the max speed of your mount while riding.</string>
+	<string key="ui_purchase_expansion" rel_version="Feature_Mounts">Jazda</string>
+	<string key="ui_riding" rel_version="Feature_Mounts">Jazda</string>
+	<string key="ui_mount" rel_version="Feature_Mounts">Wierzchowiec</string>
+	<string key="ui_trainedThrough" rel_version="Feature_Mounts">Rozwijane poprzez:</string>
+	<string key="ui_mount_require_text_race" rel_version="Feature_Mounts">Próby czasowe wierzchowca\n\nPrzetestuj swoje umiejętności jeździeckie podczas prób czasowych rozsianych po całym Aeternum i zdobywaj PD jazdy.</string>
+	<string key="ui_mount_require_text_consumable" rel_version="Feature_Mounts">Przedmioty użytkowe wierzchowca\n\nUżywaj żywności dla wierzchowca, by zdobywać PD jazdy.</string>
+	<string key="ui_mount_speedboost" rel_version="Feature_Mounts">Premia do szybkości</string>
+	<string key="ui_mount_speedboost_tooltip" rel_version="Feature_Mounts">Zwiększa maksymalną szybkość twojego wierzchowca podczas jazdy.</string>
 	<string key="ui_canSkinLevel">Możesz skórować zwierzęta na maksymalnie &lt;font color={levelColor}&gt;{maxGatherLevel}. poziomie&lt;/font&gt;</string>
 	<string key="ui_skillToSkinLevel">Po osiągnięciu {skillLevel}. poziomu będzie można skórować zwierzęta na maksymalnie {maxGatherLevel}. poziomie.</string>
 	<string key="ui_skillToSkinLevelShort">Poz. umiejętności: {skillLevel}. Poz. zwierzęcia: {maxGatherLevel}.</string>
@@ -303,5 +309,6 @@
 	<string key="iconTypeUnlock_Runewood">Runodrzewo</string>
 	<string key="iconTypeUnlock_Mythril">Mythril</string>
 	<string key="iconTypeUnlock_harvestingplantT52">Włókno do przędzenia</string>
+	<string key="iconTypeUnlock_Aloe">Aloes</string>
 </resources>
 

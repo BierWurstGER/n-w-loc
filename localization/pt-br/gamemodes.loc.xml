@@ -93,7 +93,7 @@
 	<string key="ui_outpost_rush_invite_status">Aceite para se juntar à batalha!</string>
 	<string key="ui_outpost_rush_signup_title">INVESTIDA DO POSTO AVANÇADO</string>
 	<string key="ui_outpost_rush_signup_desc">&lt;font color="#ffe940"&gt;Investida do Posto Avançado&lt;/font&gt; é uma partida de 20 versus 20 que acontece em uma grande ilha com três Postos Avançados que as equipes competem para capturar e tomar.</string>
-	<string key="ui_outpost_rush_signup_desc_gearscore">A &lt;font color="#ffe940"&gt;Escala de Pontuação do Equipamento&lt;/font&gt; aumenta a pontuação do equipamento de todos os equipamentos abaixo de 600 para 600.</string>
+	<string key="ui_outpost_rush_signup_desc_gearscore">A &lt;font color="#ffe940"&gt;Escala de Pontuação do Equipamento&lt;/font&gt; aumenta a pontuação do equipamento de todos os equipamentos abaixo de 675 para 675.</string>
 	<string key="ui_outpost_rush_signup_desc_cross_world">A Investida do Posto Avançado é um &lt;font color="#ffe940"&gt;modo de jogo entre mundos&lt;/font&gt; 20 vs 20.</string>
 	<string key="ui_outpost_rush_signup_desc_cross_world_tooltip">Algo &lt;font color="#ffe940"&gt;entre mundos&lt;/font&gt; significa que você jogará junto com jogadores de todos os mundos da sua região. Isso pode ajudar a reduzir o tempo de espera para encontrar uma partida.\n\nObservações importantes:\n\n-Quando ver um jogador com &lt;img src="lyshineui/images/icons/crossworld/icon_crossworld_identifier" xPadding="-1" scale="1.8" yOffset="2"&gt;&lt;/img&gt; ao lado do nome, significa que ele é de outro mundo.\n\n-Durante a partida entre mundos, várias funções sociais serão desativadas, incluindo negociação, convites e outros.\n\n-A classificação da Investida do Posto Avançado agora é regional.</string>
 	<string key="ui_outpost_rush_signup_goal1">Capture e segure os Postos Avançados para pontuar</string>
@@ -192,6 +192,12 @@
 	<string key="ui_or_outpost_b">POSTO AVANÇADO SOL</string>
 	<string key="ui_or_outpost_c">POSTO AVANÇADO ASTRA</string>
 	<string key="ui_or_kills">ABATES</string>
+	<string key="ui_or_total_score_case">Pontuação Total</string>
+	<string key="ui_or_points_from_case">Pontos de</string>
+	<string key="ui_or_outpost_a_case">Posto Avançado Luna</string>
+	<string key="ui_or_outpost_b_case">Posto Avançado Sol</string>
+	<string key="ui_or_outpost_c_case">Posto Avançado Astra</string>
+	<string key="ui_or_kills_case">Abates</string>
 	<string key="ui_outpost_rush_storage_message">Apenas itens da Investida do Posto Avançado podem ser armazenados aqui.</string>
 	<string key="ui_outpost_rush_summoning_circle">Círculo de Invocação</string>
 	<string key="ui_outpost_rush_summoning_circle_desc">Use uma Pedra de Invocação neste obelisco para adicionar um aliado monstruoso à sua equipe por um tempo limitado.</string>
@@ -273,29 +279,34 @@
 	<string key="ui_rounds_won">Rodadas Vencidas</string>
 	<string key="ui_see_through_label">Modo Transparente</string>
 	<string key="ui_invasion_leave">Deixar Atividade</string>
+	<string key="ui_matchmaking_ready_accept_choice">Pronto</string>
 	<string key="ui_matchmaking_ready_title">Partida Pronta</string>
+	<string key="ui_matchmaking_ready_title_dungeon">Group Found</string>
 	<string key="ui_matchmaking_ready_text">A &lt;font color={color}&gt;partida na fila está pronta&lt;/font&gt;. Teletransportar-se para entrar agora?</string>
+	<string key="ui_matchmaking_ready_text_dungeon">{name} - {numAccepted} / {numInvited} Players ready</string>
 	<string key="dungeon_how_to_raid">Como Formar um Assalto</string>
 	<string key="dungeon_entry_requirements">Requisitos de Entrada</string>
-	<string key="ui_influence_tutorial_how_it_works" rel_version="Feature_Influence_V2">How Influence Races Work</string>
-	<string key="ui_influence_tutorial_title1" rel_version="Feature_Influence_V2">Push Influence</string>
-	<string key="ui_influence_tutorial_title2" rel_version="Feature_Influence_V2">Faction Control Points</string>
-	<string key="ui_influence_tutorial_title3" rel_version="Feature_Influence_V2">Declare War</string>
-	<string key="ui_influence_tutorial_title4" rel_version="Feature_Influence_V2">Earn Rewards</string>
-	<string key="ui_influence_tutorial_desc1" rel_version="Feature_Influence_V2">Complete PvP missions and capture towers to push influence and put the territory into conflict.</string>
-	<string key="ui_influence_tutorial_desc2" rel_version="Feature_Influence_V2">Modifies the amount of Influence earned and provide a continuous flow of influence for the controlling faction.</string>
-	<string key="ui_influence_tutorial_desc3" rel_version="Feature_Influence_V2">Qualifying companies will be able to declare war at the end of every Influence Race.</string>
-	<string key="ui_influence_tutorial_desc4" rel_version="Feature_Influence_V2">Participating players will earn rewards. Bonus war cache for defenders winning the war. </string>
-	<string key="ui_pvp_balance_tooltip" rel_version="Feature_PvP_PvE_Split">PvP Balancing</string>
-	<string key="ui_pvp_balance_header" rel_version="Feature_PvP_PvE_Split">The following PvP balance modifiers are in effect:</string>
-	<string key="ui_pvp_balance_global_disabled_weapon" rel_version="Feature_PvP_PvE_Split">PvP balancing is currently disabled for this weapon.</string>
-	<string key="ui_pvp_balance_global_disabled_mode" rel_version="Feature_PvP_PvE_Split">PvP balancing is currently disabled for this game mode.</string>
-	<string key="ui_pvp_balance_open_world_disabled" rel_version="Feature_PvP_PvE_Split">PvP balancing is currently disabled for Open World.</string>
-	<string key="ui_pvp_balance_damage_header" rel_version="Feature_PvP_PvE_Split">PvP Base Damage Modifiers:</string>
+	<string key="ui_influence_tutorial_how_it_works" rel_version="Feature_Influence_V2">Como Funcionam as Corridas de Influência</string>
+	<string key="ui_influence_tutorial_title1" rel_version="Feature_Influence_V2">Impulsionar a Influência</string>
+	<string key="ui_influence_tutorial_title2" rel_version="Feature_Influence_V2">Postos de Controle da Facção</string>
+	<string key="ui_influence_tutorial_title3" rel_version="Feature_Influence_V2">Declarar Guerra</string>
+	<string key="ui_influence_tutorial_title4" rel_version="Feature_Influence_V2">Ganhar Recompensas</string>
+	<string key="ui_influence_tutorial_desc1" rel_version="Feature_Influence_V2">Complete missões PvP e capture torres para aumentar a influência e colocar o território em conflito.</string>
+	<string key="ui_influence_tutorial_desc2" rel_version="Feature_Influence_V2">Modificam a quantidade de influência obtida e fornecem um fluxo contínuo de influência para a facção controladora.</string>
+	<string key="ui_influence_tutorial_desc3" rel_version="Feature_Influence_V2">As companhias qualificadas poderão declarar guerra ao final de cada Corrida de Influência.</string>
+	<string key="ui_influence_tutorial_desc4" rel_version="Feature_Influence_V2">Os jogadores participantes ganharão recompensas. Suprimentos de guerra adicionais para quem vencer a guerra. </string>
+	<string key="ui_pvp_balance_tooltip" rel_version="Feature_PvP_PvE_Split">O Equilíbrio de PvP está em vigor.</string>
+	<string key="ui_pvp_balance_header" rel_version="Feature_PvP_PvE_Split">Modificadores de Equilíbrio de PvP em vigor:</string>
+	<string key="ui_pvp_balance_global_disabled_weapon" rel_version="Feature_PvP_PvE_Split">O equilíbrio de PvP está desativado para esta arma no momento.</string>
+	<string key="ui_pvp_balance_global_disabled_mode" rel_version="Feature_PvP_PvE_Split">O equilíbrio de PvP está desativado para este modo de jogo no momento.</string>
+	<string key="ui_pvp_balance_open_world_disabled" rel_version="Feature_PvP_PvE_Split">O equilíbrio de PvP está desativado para Mundo Aberto no momento.</string>
+	<string key="ui_pvp_balance_damage_header" rel_version="Feature_PvP_PvE_Split">Modificadores de Dano Base em PvP:\n • (Os valores de Magia/Ataque à Distância aumentaram globalmente, mas foram ajustados para equilíbrio no PvP)</string>
 	<string key="ui_pvp_balance_global_base_damage" rel_version="Feature_PvP_PvE_Split">Global:</string>
-	<string key="ui_pvp_balance_affix_stats" rel_version="Feature_PvP_PvE_Split">Affix Stat Damage Modifier:</string>
-	<string key="ui_pvp_balance_ability_damage_bonuses" rel_version="Feature_PvP_PvE_Split">Ability Damage Bonus Modifier:</string>
-	<string key="ui_pvp_balance_healing_category" rel_version="Feature_PvP_PvE_Split">Healing Modifiers:</string>
-	<string key="ui_pvp_balance_status_effect_potencies" rel_version="Feature_PvP_PvE_Split">Status Effect Potency:</string>
+	<string key="ui_pvp_balance_affix_stats" rel_version="Feature_PvP_PvE_Split">Modificador de dano de estatística fixa:</string>
+	<string key="ui_pvp_balance_ability_damage_bonuses" rel_version="Feature_PvP_PvE_Split">Modificador de bônus de dano de habilidade:</string>
+	<string key="ui_pvp_balance_healing_category" rel_version="Feature_PvP_PvE_Split">Modificadores de cura:</string>
+	<string key="ui_pvp_balance_status_effect_potencies" rel_version="Feature_PvP_PvE_Split">Potência de efeito de status:</string>
+	<string key="ui_gamemodeinvitedeclinesentmessage">Convite para &lt;font color="#ffffff"&gt;{gameModeName}&lt;/font&gt; recusado.</string>
+	<string key="ui_gamemodeinvitedeclinesentmessage_withsource">Convite para &lt;font color="#ffffff"&gt;{gameModeName}&lt;/font&gt; recusado por &lt;font color="#ffffff"&gt;{sourcePlayerName}&lt;/font&gt;.</string>
 </resources>
 

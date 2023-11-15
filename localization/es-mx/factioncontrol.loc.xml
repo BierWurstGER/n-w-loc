@@ -5,7 +5,7 @@
 	<string key="ui_factioncontrol_unclaimed">Sin conquistar</string>
 	<string key="ui_factioncontrol_reminder">Recordatorio de\nuso: Debes tener el modo PvP activado para entrar en este momento.</string>
 	<string key="ui_factioncontrol_reminder_map">Activo: Debes tener el modo PvP activado para entrar. Fuera de una carrera de influencia, este punto de control se bloqueará durante una hora tras su captura.</string>
-	<string key="ui_factioncontrol_reminder_map_inactive">Bloqueado: El punto de control se bloqueará durante una hora cuando sea capturado fuera de una carrera de influencia.</string>
+	<string key="ui_factioncontrol_reminder_map_inactive">Bloqueado: El punto de control se bloqueará durante una hora cuando sea capturado. Durante la carrera de influencia, el fuerte no se bloqueará.</string>
 	<string key="ui_factioncontrol_reminder_map_inactive_specific">{siegeType} en progreso: El punto de control está bloqueado hasta una hora después de que se resuelva el {siegeType2}.</string>
 	<string key="ui_factioncontrol_reminder_type_war">Guerra</string>
 	<string key="ui_factioncontrol_reminder_type_invasion">Invasión</string>
@@ -14,14 +14,19 @@
 	<string key="ui_factioncontrol_status_label">Estado</string>
 	<string key="ui_factioncontrol_benefits_label">Beneficios por control</string>
 	<string key="ui_factioncontrol_territory_bonuses_label">Bonificaciones del territorio</string>
+	<string key="ui_bonus_flyout_influencesection">Sección de influencia</string>
+	<string key="ui_bonus_flyout_towermodifier">Modificador de torre(s):</string>
+	<string key="ui_bonus_flyout_fortmodifier">Modificador de fuerte:</string>
+	<string key="ui_bonus_flyout_underdogmodifier">Modificador de perdedor:</string>
 	<string key="ui_factioncontrol_faction_bonuses_label">Bonificaciones de la facción</string>
 	<string key="ui_factioncontrol_controlledby_inline">Controlado por {factionName}</string>
 	<string key="ui_factioncontrol_controlledby_label">Controlado por </string>
 	<string key="ui_factioncontrol_defend_controlpoint">Defiende el punto de control</string>
 	<string key="ui_factioncontrol_claim_controlpoint">Conquista el punto de control</string>
-	<string key="ui_factioncontrol_defend_influencetower" rel_version="Feature_Influence_V2">Defend {towerName}</string>
-	<string key="ui_factioncontrol_claim_influencetower" rel_version="Feature_Influence_V2">Claim {towerName}</string>
-	<string key="ui_factioncontrol_reminder_influencetower" rel_version="Feature_Influence_V2">Flag for PvP in a Sanctuary to capture Influence Towers.</string>
+	<string key="ui_influencetower_bonus">+{multiplier} %</string>
+	<string key="ui_factioncontrol_defend_influencetower" rel_version="Feature_Influence_V2">Defender {towerName}</string>
+	<string key="ui_factioncontrol_claim_influencetower" rel_version="Feature_Influence_V2">Conquistar {towerName}</string>
+	<string key="ui_factioncontrol_reminder_influencetower" rel_version="Feature_Influence_V2">Activa la marca de PvP en un santuario para capturar torres de influencia.</string>
 	<string key="ui_factioncontrol_fortcontested_announce">¡{fortName} está bajo ataque!</string>
 	<string key="ui_factioncontrol_ownerchange_announce">¡{factionName} conquistó {fortName}!</string>
 	<string key="ui_factioncontrol_controlpointactive_announce">{fortName} ahora puede conquistarse. ¡Apodérate de él por tu facción!</string>
@@ -76,7 +81,7 @@
 	<string key="@ui_faction_store_discount_modifier_desc">Disminuye el costo de los objetos de la tienda de la facción en {value}.</string>
 	<string key="@ui_free_camping_desc">Ya no se requiere del uso de recursos para acampar.</string>
 	<string key="@ui_chance_consumable_not_used_desc">Aumenta la posibilidad de que un consumible no se consuma al ser utilizado en {value}.</string>
-	<string key="@ui_fcp_crowdcontrol_qualified_warning">Hay demasiados jugadores de tu facción en la zona del punto de control de facción. Teletransportación en {TeleportSeconds} segundos.</string>
+	<string key="@ui_fcp_crowdcontrol_qualified_warning">Hay demasiados jugadores con la marca activa o de tu facción en la zona del punto de control de facción. Teletransportación en {TeleportSeconds} segundos.</string>
 	<string key="@ui_fcp_crowdcontrol_unqualified_warning">Hay demasiados jugadores en la zona del punto de control de facción. Teletransportación en {TeleportSeconds} segundos.</string>
 	<string key="@ui_fcp_fast_travel_discounts_title">Descuentos de control de facción</string>
 	<string key="@ui_fcp_faction_mission_bonus_label">(+{value} de FCP)</string>

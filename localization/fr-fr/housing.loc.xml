@@ -30,9 +30,9 @@
 	<string key="ui_fast_travel_error_description_inCooldown_with_time" comment="Fast Travel">Cette action est cours de recharge.\nRetour possible dans {time}.</string>
 	<string key="ui_fast_travel_error_encumbered" comment="Fast Travel">Vous ne pouvez pas effectuer de transfert rapide ni de retour lorsque votre inventaire est encombré.</string>
 	<string key="ui_fast_travel_error_inCooldown" comment="Fast Travel">{time}</string>
-	<string key="ui_fast_travel_error_noDestination" comment="Fast Travel">Pour effectuer ce transfert rapide, il vous faut avoir déjà visité cette colonie.</string>
-	<string key="ui_fast_travel_error_noDestination_outpost" comment="Fast Travel">Pour effectuer ce transfert rapide, il vous faut avoir déjà visité cet avant-poste.</string>
-	<string key="ui_fast_travel_error_noDestination_shrine" comment="Fast Travel">Pour effectuer ce transfert rapide, il vous faut avoir déjà visité ce sanctuaire spirituel.</string>
+	<string key="ui_fast_travel_error_noDestination" comment="Fast Travel">Visit this location first in order to fast travel here.</string>
+	<string key="ui_fast_travel_error_noDestination_outpost" comment="Fast Travel">Visit this location first in order to fast travel here.</string>
+	<string key="ui_fast_travel_error_noDestination_shrine" comment="Fast Travel">Visit this location first in order to fast travel here.</string>
 	<string key="ui_fast_travel_failed" comment="Fast Travel">Échec du transfert rapide</string>
 	<string key="ui_fast_travel_mission_abandon_confirm" comment="Fast Travel">ATTENTION : le transfert rapide entraînera la réinitialisation de la course chronométrée et l'abandon de toutes les missions de faction JcJ.\nRéinitialisation de {timedRaceCount} course(s) chronométrée(s) et abandon de {missionCount} mission(s).\n\nContinuer ?</string>
 	<string key="ui_fast_travel_popup_confirm" comment="Fast Travel">Voulez-vous effectuer un transfert rapide vers ce lieu ?</string>
@@ -119,6 +119,7 @@
 	<string key="ui_housingDecResult_Unknown" comment="Housing Décor Result">Erreur de placement inconnue</string>
 	<string key="ui_housingDecResult_Waiting" comment="Housing Décor Result">Placement impossible, en attente</string>
 	<string key="ui_housingDecResult_HousingTaxesUnpaid" comment="Housing Décor Result">Placement impossible, impôts impayés</string>
+	<string key="ui_housingDecResult_ServerError" comment="Housing Décor Result">Action impossible en raison d'une erreur de serveur</string>
 	<string key="ui_active_home_point_fail" comment="Housing Errors">Échec de l'enregistrement</string>
 	<string key="ui_buildmode_disabled" comment="Housing Errors">Le mode Décoration est en maintenance et actuellement désactivé.</string>
 	<string key="ui_context_menu_hint" comment="Housing Hints">Options</string>
@@ -180,7 +181,7 @@
 	<string key="ui_housing_trophy_buff_desc_tooltip" comment="Housing Trophy Buffs">Un trophée qui vous inspire par sa présence dans votre foyer.</string>
 	<string key="ui_housing_trophy_buffs" comment="Housing Trophy Buffs">Trophées</string>
 	<string key="ui_housing_trophy_buffs_disabled" comment="Housing Trophy Buffs">Trophées (désactivés)</string>
-	<string key="ui_housing_tip_description1" comment="Load Screen Housing Tips">En &lt;font color={colorHex}&gt;mode Décoration&lt;/font&gt;, utilisez les fonctionnalités « &lt;font color={colorHex}&gt;Rotation&lt;/font&gt; », « &lt;font color={colorHex}&gt;Placement&lt;/font&gt; » et « &lt;font color={colorHex}&gt;Verrouiller à la surface&lt;/font&gt; » pour décorer votre maison exactement comme vous l'entendez.</string>
+	<string key="ui_housing_tip_description1" comment="Load Screen Housing Tips">En &lt;font color={colorHex}&gt;mode Décoration&lt;/font&gt;, utilisez les fonctionnalités « &lt;font color={colorHex}&gt;Rotation&lt;/font&gt; », « &lt;font color={colorHex}&gt;Placement&lt;/font&gt; »&lt;/font&gt; et « &lt;font color={colorHex}&gt;Verrouiller à la surface&lt;/font&gt; » pour décorer votre maison exactement comme vous l'entendez.</string>
 	<string key="ui_housing_tip_description2" comment="Load Screen Housing Tips">Disposer vos objets sans qu'ils se chevauchent est le meilleur moyen d'augmenter votre &lt;font color={colorHex}&gt;score de décoration&lt;/font&gt; pour chaque objet placé.</string>
 	<string key="ui_housing_tip_description3" comment="Load Screen Housing Tips">Accrochez des &lt;font color={colorHex}&gt;trophées&lt;/font&gt; pour activer des &lt;font color={colorHex}&gt;bonus passifs&lt;/font&gt;.\n\nConseil : une maison ne peut contenir que 5 trophées, mais les effets des trophées en double s'additionnent.</string>
 	<string key="ui_housing_tip_description4" comment="Load Screen Housing Tips">La fenêtre à droite de l'écran vous indique le &lt;font color={colorHex}&gt;score de décoration&lt;/font&gt; et les &lt;font color={colorHex}&gt;limites de décoration&lt;/font&gt; de votre maison.\n\nConseil : placer trop d'exemplaires du même objet réduira votre score de décoration.</string>
@@ -267,5 +268,6 @@
 	<string key="ui_remove_all_furniture_confirm_title" comment="Remove All Furniture">Tout enlever</string>
 	<string key="ui_remove_all_furniture_confirm_message" comment="Remove All Furniture">Tous les trophées et les meubles de cette maison seront stockés dans l'abri de rangement.</string>
 	<string key="ui_house_remove_all_furniture_confirm_button" comment="Remove All Furniture">Tout enlever</string>
+	<string key="ui_housing_territory_name" comment="UIC 2.0">{territoryName} Housing</string>
 </resources>
 

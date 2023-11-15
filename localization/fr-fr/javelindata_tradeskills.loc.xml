@@ -262,6 +262,7 @@
 	<string key="ui_hempt4">Asclépiade</string>
 	<string key="ui_aloe">Gel d'aloès</string>
 	<string key="ui_hempt5">Souchet</string>
+	<string key="ui_hempt52">Fibre torsadée</string>
 	<string key="ui_alchemy1">Plantes magiques</string>
 	<string key="ui_alchemy2">Pierres magiques</string>
 	<string key="ui_alchemy3">Créatures magiques</string>
@@ -283,15 +284,20 @@
 	<string key="ui_orichalcum">Orichalque</string>
 	<string key="ui_wyrdwood">Bois d'aléa</string>
 	<string key="ui_ironwood">Bois de fer</string>
+	<string key="ui_runewood">Bois-rune</string>
+	<string key="ui_mycodendra">Mycodendre</string>
 	<string key="ui_toolrequired">Outil requis</string>
 	<string key="ui_alchemyStones">Pierres alchimiques</string>
 	<string key="ui_skinningOnly">Dépeçage</string>
 	<string key="ui_trackingOnly">Pistage</string>
-	<string key="ui_purchase_expansion" rel_version="Feature_Mounts">Riding</string>
-	<string key="ui_riding" rel_version="Feature_Mounts">Riding</string>
-	<string key="ui_mount" rel_version="Feature_Mounts">Mount</string>
-	<string key="ui_mount_speedboost" rel_version="Feature_Mounts">Speed Bonus</string>
-	<string key="ui_mount_speedboost_tooltip" rel_version="Feature_Mounts">Increases the max speed of your mount while riding.</string>
+	<string key="ui_purchase_expansion" rel_version="Feature_Mounts">Équitation</string>
+	<string key="ui_riding" rel_version="Feature_Mounts">Chevaucher</string>
+	<string key="ui_mount" rel_version="Feature_Mounts">Montures</string>
+	<string key="ui_trainedThrough" rel_version="Feature_Mounts">Formation reçue</string>
+	<string key="ui_mount_require_text_race" rel_version="Feature_Mounts">Épreuves chronométrées montées\n\nTestez vos compétences d'équitation lors d'épreuves chronométrées aux quatre coins d'Aeternum pour obtenir de l'EXP en équitation.</string>
+	<string key="ui_mount_require_text_consumable" rel_version="Feature_Mounts">Consommables de monture\n\nUtilisez de la nourriture pour monture pour obtenir de l'EXP en équitation.</string>
+	<string key="ui_mount_speedboost" rel_version="Feature_Mounts">Bonus de vitesse</string>
+	<string key="ui_mount_speedboost_tooltip" rel_version="Feature_Mounts">Augmente la vitesse maximale de la monture que vous chevauchez.</string>
 	<string key="ui_canSkinLevel">Vous pouvez dépecer des animaux de &lt;font color={levelColor}&gt;niveau {maxGatherLevel}&lt;/font&gt; maximum</string>
 	<string key="ui_skillToSkinLevel">Quand vous atteindrez le niveau de capacité {skillLevel}, vous pourrez dépecer des animaux de niveau {maxGatherLevel} maximum.</string>
 	<string key="ui_skillToSkinLevelShort">Niveau de capacité : {skillLevel} - Niveau de l'animal : {maxGatherLevel}</string>
@@ -303,5 +309,6 @@
 	<string key="iconTypeUnlock_Runewood">Bois-rune</string>
 	<string key="iconTypeUnlock_Mythril">Mithril</string>
 	<string key="iconTypeUnlock_harvestingplantT52">Fibre torsadée</string>
+	<string key="iconTypeUnlock_Aloe">Aloe</string>
 </resources>
 

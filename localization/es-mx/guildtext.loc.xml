@@ -185,6 +185,9 @@
 	<string key="ui_guildcannotpromote_nofaction" rel_version="Feature_Unfactioned_Company_Members">No se puede promover a gobernador. No pertenece a una facción.</string>
 	<string key="ui_guild_blocked_on_this_world" rel_version="Feature_Cross_World_Social">No puedes realizar esta acción en este mundo.</string>
 	<string key="ui_guild_cannot_invite_player_from_other_world" rel_version="Feature_Cross_World_Social">No puedes invitar a un jugador de otro mundo.</string>
+	<string key="ui_guild_at_max_invite_limit">No se puede invitar al jugador. Tu gremio alcanzó su límite máximo de invitaciones.</string>
+	<string key="guild_invite_failed_too_many_invites">No se puede enviar la invitación.</string>
+	<string key="guild_invite_failed_remove_oldest_invite">Tu gremio alcanzó la cantidad máxima de invitaciones al gremio permitidas. ¿Quieres eliminar la invitación más antigua para hacer espacio para esta invitación?</string>
 	<string key="ui_guildranksettler" comment="Pronoun for Target Player">Colono</string>
 	<string key="ui_guildranksettler_SHE">Colona</string>
 	<string key="ui_guildranksettler_THEY">Colono</string>
@@ -226,7 +229,7 @@
 	<string key="ui_governorexpire_offline">El gobernador de tu compañía ha estado ausente por un largo tiempo. Un miembro con el rango de «cónsul» puede convertirse en gobernador.</string>
 	<string key="ui_governorexpire_deleted" comment="Pronoun for Disappeared Governor">El gobernador de tu compañía se ha retirado o ha borrado su personaje. Un miembro con el rango de «cónsul» puede convertirse en gobernador.</string>
 	<string key="ui_governorexpire_deleted_SHE">La gobernadora de tu compañía se ha retirado o ha borrado su personaje. Un miembro con el rango de «cónsul» puede convertirse en gobernador.</string>
-	<string key="ui_governorexpire_deleted_THEY"> El gobernador de tu compañía se ha retirado. Un miembro con el rango de «cónsul» puede convertirse en gobernador.</string>
+	<string key="ui_governorexpire_deleted_THEY">El gobernador de tu compañía se ha retirado o ha borrado su personaje. Un miembro con el rango de «cónsul» puede convertirse en gobernador.</string>
 	<string key="ui_governorseat_vacant">El puesto de gobernador está vacante.</string>
 	<string key="ui_governorseat_overthrowable">Los cónsules pueden derrocar el puesto de gobernador.</string>
 	<string key="ui_becomegovernor">Conviértete en gobernador</string>
@@ -541,7 +544,7 @@
 	<string key="ui_siege_signup_darknessinvasion">mata corrompidos,\ndefiende la fortaleza</string>
 	<string key="ui_siege_signup_fortressname">Fuerte {territoryName}</string>
 	<string key="ui_siege_signup_war_title">Registrarse en la guerra.</string>
-	<string key="ui_siege_signup_invasion_title">Unirse a la invasión</string>
+	<string key="ui_siege_signup_invasion_title">Registrarse en la invasión.</string>
 	<string key="ui_siege_signup_warschedule">CRONOGRAMA DE LA GUERRA</string>
 	<string key="ui_siege_signup_invasionduration">DURACIÓN DE LA INVASIÓN</string>
 	<string key="ui_siege_signup_invasionstarttime">HORA DE INICIO DE LA INVASIÓN</string>
@@ -626,12 +629,12 @@
 	<string key="ui_no_company" comment="text to show when a company name would be present but the player isn't in one">Sin compañía</string>
 	<string key="ui_no_faction" comment="text to show when a faction name would be present but the player isn't in one">Sin facción</string>
 	<string key="ui_wartime">Hora de la guerra</string>
-	<string key="ui_racetime" rel_version="Feature_Influence_V2">Race time</string>
-	<string key="ui_vs_other_factions" rel_version="Feature_Influence_V2">ENEMY FACTIONS</string>
+	<string key="ui_racetime" rel_version="Feature_Influence_V2">Hora de la carrera</string>
+	<string key="ui_vs_other_factions" rel_version="Feature_Influence_V2">FACCIONES ENEMIGAS</string>
 	<string key="ui_location">Ubicación</string>
 	<string key="ui_how_does_war_work">Cómo funciona la guerra</string>
 	<string key="ui_how_does_invasion_work">¿Cómo funciona la invasión?</string>
-	<string key="ui_how_does_influencerace_work" rel_version="Feature_Influence_V2">How do Influence Races work?</string>
+	<string key="ui_how_does_influencerace_work" rel_version="Feature_Influence_V2">¿Cómo funcionan las carreras de influencia?</string>
 	<string key="ui_signup_restriction_tooltip">No puedes registrarte con el oponente de tu facción.</string>
 	<string key="ui_signup_nofaction_tooltip">Debes tener una facción para poder registrarte para una guerra.</string>
 	<string key="ui_signup_warinprogress_tooltip">No puedes registrarte a guerra o invasión que ya están en progreso.</string>
@@ -671,9 +674,10 @@
 	<string key="ui_highest">Máximo</string>
 	<string key="ui_kick_disabled_invasion">No puedes expulsar jugadores de la invasión</string>
 	<string key="ui_war_schedule_adjustment_title">{warType} {scheduleAdjustmentType}</string>
-	<string key="ui_war_schedule_adjustment_message">La {warType} en {territoryName} ha sido {scheduleAdjustmentType}.</string>
-	<string key="ui_war_schedule_adjustment_cancelled">cancelada</string>
-	<string key="ui_war_schedule_adjustment_rescheduled">reprogramada</string>
+	<string key="ui_war_schedule_adjustment_message">{warType} en {territoryName} se {scheduleAdjustmentType}.</string>
+	<string key="ui_war_schedule_adjustment_cancelled">canceló</string>
+	<string key="ui_war_schedule_adjustment_rescheduled">reprogramó</string>
 	<string key="ui_war_camp_tier">Nivel &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{value}&lt;/font&gt;</string>
+	<string key="ui_war_camp_weapons_tier">Siege Weapon Tier</string>
 </resources>
 

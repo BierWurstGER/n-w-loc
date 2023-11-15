@@ -185,6 +185,9 @@
 	<string key="ui_guildcannotpromote_nofaction" rel_version="Feature_Unfactioned_Company_Members">Impossibile promuovere a Governatore. Non sei in una fazione.</string>
 	<string key="ui_guild_blocked_on_this_world" rel_version="Feature_Cross_World_Social">Impossibile eseguire questa azione in questo mondo.</string>
 	<string key="ui_guild_cannot_invite_player_from_other_world" rel_version="Feature_Cross_World_Social">Impossibile invitare un giocatore da un altro mondo.</string>
+	<string key="ui_guild_at_max_invite_limit">Impossibile invitare il giocatore. La tua gilda ha raggiunto il limite massimo di inviti.</string>
+	<string key="guild_invite_failed_too_many_invites">Impossibile inviare l'invito</string>
+	<string key="guild_invite_failed_remove_oldest_invite">La tua gilda ha raggiunto il limite massimo di inviti di gilda consentiti. Vuoi rimuovere gli inviti più vecchi per far spazio per questo invito?</string>
 	<string key="ui_guildranksettler" comment="Pronoun for Target Player">Colono</string>
 	<string key="ui_guildranksettler_SHE">Colona</string>
 	<string key="ui_guildranksettler_THEY">Colono</string>
@@ -226,7 +229,7 @@
 	<string key="ui_governorexpire_offline">Il Governatore della tua compagnia è assente da molto tempo. Un membro con il grado di "Console" può diventare Governatore.</string>
 	<string key="ui_governorexpire_deleted" comment="Pronoun for Disappeared Governor">Il Governatore della tua compagnia ha abbandonato o eliminato il suo personaggio. Un membro con il grado di "Console" può diventare Governatore.</string>
 	<string key="ui_governorexpire_deleted_SHE">La Governatrice della tua compagnia ha abbandonato o eliminato il suo personaggio. Un membro con il grado di "Console" può diventare Governatrice.</string>
-	<string key="ui_governorexpire_deleted_THEY">Il Governatore della tua compagnia ha abbandonato o eliminato il suo personaggio. Un membro con il grado di "Console" può diventare Governatore.</string>
+	<string key="ui_governorexpire_deleted_THEY">Il Governatore della tua compagnia ha abbandonato o eliminato il suo personaggio. Un membro con il grado di "Console" può diventare Governatrice.</string>
 	<string key="ui_governorseat_vacant">Il posto di governatore è vacante</string>
 	<string key="ui_governorseat_overthrowable">Il posto di governatore può essere rovesciato dai consoli</string>
 	<string key="ui_becomegovernor">Diventa Governatore</string>
@@ -626,12 +629,12 @@
 	<string key="ui_no_company" comment="text to show when a company name would be present but the player isn't in one">Nessuna compagnia</string>
 	<string key="ui_no_faction" comment="text to show when a faction name would be present but the player isn't in one">Nessuna fazione</string>
 	<string key="ui_wartime">Orario guerra</string>
-	<string key="ui_racetime" rel_version="Feature_Influence_V2">Race time</string>
-	<string key="ui_vs_other_factions" rel_version="Feature_Influence_V2">ENEMY FACTIONS</string>
+	<string key="ui_racetime" rel_version="Feature_Influence_V2">Tempo di gara</string>
+	<string key="ui_vs_other_factions" rel_version="Feature_Influence_V2">FAZIONI NEMICHE</string>
 	<string key="ui_location">Luogo</string>
 	<string key="ui_how_does_war_work">Come funziona la guerra</string>
 	<string key="ui_how_does_invasion_work">Come funziona l'invasione?</string>
-	<string key="ui_how_does_influencerace_work" rel_version="Feature_Influence_V2">How do Influence Races work?</string>
+	<string key="ui_how_does_influencerace_work" rel_version="Feature_Influence_V2">Come funzionano le gare di influenza?</string>
 	<string key="ui_signup_restriction_tooltip">Non puoi iscriverti per la fazione avversaria.</string>
 	<string key="ui_signup_nofaction_tooltip">Per iscriverti a una guerra devi appartenere a una fazione.</string>
 	<string key="ui_signup_warinprogress_tooltip">Non puoi iscriverti a una guerra o invasione dopo che questa ha avuto inizio.</string>
@@ -672,8 +675,9 @@
 	<string key="ui_kick_disabled_invasion">Impossibile espellere i giocatori dall'invasione</string>
 	<string key="ui_war_schedule_adjustment_title">{warType} {scheduleAdjustmentType}</string>
 	<string key="ui_war_schedule_adjustment_message">{warType} in {territoryName} è stato {scheduleAdjustmentType}.</string>
-	<string key="ui_war_schedule_adjustment_cancelled">annullata</string>
+	<string key="ui_war_schedule_adjustment_cancelled">annullato</string>
 	<string key="ui_war_schedule_adjustment_rescheduled">rinviato</string>
 	<string key="ui_war_camp_tier">Livello &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{value}&lt;/font&gt;</string>
+	<string key="ui_war_camp_weapons_tier">Siege Weapon Tier</string>
 </resources>
 

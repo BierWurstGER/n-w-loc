@@ -30,9 +30,9 @@
 	<string key="ui_fast_travel_error_description_inCooldown_with_time" comment="Fast Travel">Esta acción está en tiempo de reutilización.\nPuedes regresar dentro de {time}.</string>
 	<string key="ui_fast_travel_error_encumbered" comment="Fast Travel">No puedes viajar rápido ni regresar estando demasiado cargado.</string>
 	<string key="ui_fast_travel_error_inCooldown" comment="Fast Travel">{time}</string>
-	<string key="ui_fast_travel_error_noDestination" comment="Fast Travel">Para poder viajar rápido, primero debes visitar este asentamiento.</string>
-	<string key="ui_fast_travel_error_noDestination_outpost" comment="Fast Travel">Para poder viajar rápido, primero debes visitar este puesto de avanzada.</string>
-	<string key="ui_fast_travel_error_noDestination_shrine" comment="Fast Travel">Para poder viajar rápido, primero debes visitar este santuario espiritual.</string>
+	<string key="ui_fast_travel_error_noDestination" comment="Fast Travel">Visit this location first in order to fast travel here.</string>
+	<string key="ui_fast_travel_error_noDestination_outpost" comment="Fast Travel">Visit this location first in order to fast travel here.</string>
+	<string key="ui_fast_travel_error_noDestination_shrine" comment="Fast Travel">Visit this location first in order to fast travel here.</string>
 	<string key="ui_fast_travel_failed" comment="Fast Travel">Error al viajar rápido</string>
 	<string key="ui_fast_travel_mission_abandon_confirm" comment="Fast Travel">ADVERTENCIA: Viajar rápido reiniciará la carrera cronometrada activa y se abandonarán todas las misiones PvP de facciones.\nSe reestablecerá {timedRaceCount} carrera cronometrada y se abandonará {missionCount} misión.\n\n¿Quieres continuar?</string>
 	<string key="ui_fast_travel_popup_confirm" comment="Fast Travel">¿Quieres usar el viaje rápido para ir a esta ubicación?</string>
@@ -119,6 +119,7 @@
 	<string key="ui_housingDecResult_Unknown" comment="Housing Décor Result">Error de ubicación desconocido</string>
 	<string key="ui_housingDecResult_Waiting" comment="Housing Décor Result">No se puede ubicar; estás en espera</string>
 	<string key="ui_housingDecResult_HousingTaxesUnpaid" comment="Housing Décor Result">No se puede ubicar porque hay impuestos sin pagar</string>
+	<string key="ui_housingDecResult_ServerError" comment="Housing Décor Result">No se puede realizar la acción debido a un error del servidor.</string>
 	<string key="ui_active_home_point_fail" comment="Housing Errors">No se pudo realizar el registro</string>
 	<string key="ui_buildmode_disabled" comment="Housing Errors">El modo de decoración no está disponible ahora mismo por tareas de mantenimiento</string>
 	<string key="ui_context_menu_hint" comment="Housing Hints">Opciones</string>
@@ -162,7 +163,7 @@
 	<string key="ui_housing_disabled_tooltip" comment="Housing Taxes">Tu casa está deshabilitada. Paga el mantenimiento ahora para activar tu casa.</string>
 	<string key="ui_housing_pay_taxes" comment="Housing Taxes">Mantenimiento</string>
 	<string key="ui_pay_house_tax_fail" comment="Housing Taxes">Se produjo un error al pagar el mantenimiento de la casa. Vuelve a intentarlo.</string>
-	<string key="ui_pay_property_tax" comment="Housing Taxes">Pagar mantenimiento de la propiedad</string>
+	<string key="ui_pay_property_tax" comment="Housing Taxes">Pagar mantenimiento</string>
 	<string key="ui_pay_property_tax_desc" comment="Housing Taxes">Paga el mantenimiento de la propiedad a través del mapa o en tu casa.</string>
 	<string key="ui_pay_property_tax_popup_desc" comment="Housing Taxes">Si quieres regresar a tu casa, renacer en ella y decorarla, debes pagar el mantenimiento de la propiedad.\nEl mantenimiento se paga {firstCycle} después de que compres la casa y cada {otherCycle} después.</string>
 	<string key="ui_property_tax" comment="Housing Taxes">Gestión de propiedad</string>
@@ -267,5 +268,6 @@
 	<string key="ui_remove_all_furniture_confirm_title" comment="Remove All Furniture">Quitar todo</string>
 	<string key="ui_remove_all_furniture_confirm_message" comment="Remove All Furniture">Todos los trofeos y muebles de esta casa se trasladarán la caseta de almacenamiento.</string>
 	<string key="ui_house_remove_all_furniture_confirm_button" comment="Remove All Furniture">Quitar todo</string>
+	<string key="ui_housing_territory_name" comment="UIC 2.0">{territoryName} Housing</string>
 </resources>
 

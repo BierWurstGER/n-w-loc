@@ -106,7 +106,7 @@
 	<string key="ui_guildrostertab">Mitglieder</string>
 	<string key="ui_guildsiegetab">Belagerungszeitfenster</string>
 	<string key="ui_guildtreasurytab">Schatzkammer</string>
-	<string key="ui_guildtreasurytab_balance">{balance} {coinImage}</string>
+	<string key="ui_guildtreasurytab_balance">{balance} {coinImage}</string>
 	<string key="ui_treasury_totalbalance">Balance</string>
 	<string key="ui_treasury_dailywithdrawallimit">Tägliches Abhebungslimit</string>
 	<string key="ui_treasury_dailywithdrawallimitsmall">Tägliches Abhebungslimit:</string>
@@ -155,7 +155,7 @@
 	<string key="ui_siegewindow_tooltip_nopermission">Dein Rang ({rankName}) gestattet es dir nicht, ein Belagerungszeitfenster festzulegen.</string>
 	<string key="ui_siegewindow_tooltip_atwar">Während eines aktiven Krieges kann das Belagerungszeitfenster nicht geändert werden.</string>
 	<string key="ui_siegewindow_tooltip_disabled">Du kannst das Belagerungszeitfenster für weitere {timeRemaining} nicht ändern.</string>
-	<string key="ui_siegewindowtime">{beginHour}:{minutes}–{endHour}:{minutes} ({timeZone})</string>
+	<string key="ui_siegewindowtime">{beginHour}:{minutes} – {endHour}:{minutes} ({timeZone})</string>
 	<string key="ui_siegeclaimsowned">Ansprüche: {numClaims}</string>
 	<string key="ui_siegenoclaimsowned">Belagerungszeitfenster nicht erforderlich.</string>
 	<string key="ui_setsiegeswindowpopup_title">Änderung bestätigen</string>
@@ -185,6 +185,9 @@
 	<string key="ui_guildcannotpromote_nofaction" rel_version="Feature_Unfactioned_Company_Members">Kann nicht zum Gouverneur befördert werden. Nicht in einer Fraktion.</string>
 	<string key="ui_guild_blocked_on_this_world" rel_version="Feature_Cross_World_Social">Die Aktion kannst du auf dieser Welt nicht durchführen.</string>
 	<string key="ui_guild_cannot_invite_player_from_other_world" rel_version="Feature_Cross_World_Social">Es kann kein Spieler aus einer anderen Welt eingeladen werden.</string>
+	<string key="ui_guild_at_max_invite_limit">Spieler kann nicht eingeladen werden. Deine Gilde hat ihr maximales Einladungslimit erreicht.</string>
+	<string key="guild_invite_failed_too_many_invites">Einladung konnte nicht gesendet werden.</string>
+	<string key="guild_invite_failed_remove_oldest_invite">Deine Gilde hat die maximale Anzahl an erlaubten Gildeneinladungen erreicht. Möchtest du die älteste Einladung löschen, um Platz für diese Einladung zu schaffen?</string>
 	<string key="ui_guildranksettler" comment="Pronoun for Target Player">Siedler</string>
 	<string key="ui_guildranksettler_SHE">Siedlerin</string>
 	<string key="ui_guildranksettler_THEY">Siedler*in</string>
@@ -338,7 +341,7 @@
 	<string key="ui_wardeclarationpopup_unknown">Unbekannter Fehler. Versuche es bitte erneut.</string>
 	<string key="ui_wardeclarationpopup_siegewindow_changed">Das Belagerungszeitfenster der Zielkompanie hat sich geändert. Versuche es bitte erneut.</string>
 	<string key="ui_wardeclarationpopup_warcost_changed">Die Kosten für eine Kriegserklärung haben sich geändert. Versuche es bitte erneut.</string>
-	<string key="ui_wardeclarationpopup_siegewindow_and_warcost_changed">Die Kosten für eine Kriegserklärung und das Belagerungszeitfenster haben sich geändert. Versuche bitte erneut.</string>
+	<string key="ui_wardeclarationpopup_siegewindow_and_warcost_changed">Die Kosten für eine Kriegserklärung und das Belagerungszeitfenster haben sich geändert. Versuche es bitte erneut.</string>
 	<string key="ui_wardeclarationpopup_attackinfo_warning">Achtung!</string>
 	<string key="ui_wardeclarationpopup_attackinfo_text">Gegen deine Kompanie kann ein &lt;font color={colorHex}&gt;Gegenangriff eingeleitet&lt;/font&gt; werden, sobald ein Krieg erklärt wird (in der Auflösungsphase).</string>
 	<string key="ui_wardeclarationpopup_attackinfo_viewdetail">Details</string>
@@ -398,7 +401,7 @@
 	<string key="ui_otherguilds_header_warstatus">Kriegsstatus</string>
 	<string key="ui_otherguilds_header_wartimeremaining">Verbleibende Zeit</string>
 	<string key="ui_otherguilds_searchbyguildname">Nach Kompaniename suchen</string>
-	<string key="ui_otherguilds_list_memberslessthan5">1 – 4</string>
+	<string key="ui_otherguilds_list_memberslessthan5">1–4</string>
 	<string key="ui_otherguilds_list_members">{numberLow} – {numberHigh}</string>
 	<string key="ui_otherguilds_pagenumber">Seite {number}</string>
 	<string key="ui_otherguilds_previousbutton">Vorher</string>
@@ -626,12 +629,12 @@
 	<string key="ui_no_company" comment="text to show when a company name would be present but the player isn't in one">Ohne Kompanie</string>
 	<string key="ui_no_faction" comment="text to show when a faction name would be present but the player isn't in one">Fraktionslos</string>
 	<string key="ui_wartime">Kriegszeit</string>
-	<string key="ui_racetime" rel_version="Feature_Influence_V2">Race time</string>
-	<string key="ui_vs_other_factions" rel_version="Feature_Influence_V2">ENEMY FACTIONS</string>
+	<string key="ui_racetime" rel_version="Feature_Influence_V2">Wettlaufzeit</string>
+	<string key="ui_vs_other_factions" rel_version="Feature_Influence_V2">GEGNERFRAKTIONEN</string>
 	<string key="ui_location">Ort</string>
 	<string key="ui_how_does_war_work">So funktioniert Krieg</string>
 	<string key="ui_how_does_invasion_work">Wie funktioniert eine Invasion?</string>
-	<string key="ui_how_does_influencerace_work" rel_version="Feature_Influence_V2">How do Influence Races work?</string>
+	<string key="ui_how_does_influencerace_work" rel_version="Feature_Influence_V2">Wie funktionieren Einflusswettläufe?</string>
 	<string key="ui_signup_restriction_tooltip">Du kannst dich nicht als Gegner deiner Fraktion eintragen.</string>
 	<string key="ui_signup_nofaction_tooltip">Du musst einer Fraktion angehören, um dich für einen Krieg anzumelden.</string>
 	<string key="ui_signup_warinprogress_tooltip">Du kannst dich nicht für einen bereits laufenden Krieg oder eine bereits laufende Invasion eintragen.</string>
@@ -675,5 +678,6 @@
 	<string key="ui_war_schedule_adjustment_cancelled">abgesagt</string>
 	<string key="ui_war_schedule_adjustment_rescheduled">verschoben</string>
 	<string key="ui_war_camp_tier">Rang &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{value}&lt;/font&gt;</string>
+	<string key="ui_war_camp_weapons_tier">Siege Weapon Tier</string>
 </resources>
 
