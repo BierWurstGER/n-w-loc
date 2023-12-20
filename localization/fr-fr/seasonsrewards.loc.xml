@@ -10,6 +10,9 @@
 	<string key="data_season_03_name" rel_version="Season_3_Perm">Saison 3 : Le réveil de la Terre enragée</string>
 	<string key="data_season_03_display_name" rel_version="Season_3_Perm">Saison 3</string>
 	<string key="data_season_03_desc" rel_version="Season_3_Perm">Retournez au Levant et affrontez la nouvelle menace qui se profile dans la troisième saison de New World !</string>
+	<string key="data_season_04_name" rel_version="Season_4_Perm">Saison 4 : Froid éternel</string>
+	<string key="data_season_04_display_name" rel_version="Season_4_Perm">Saison 4</string>
+	<string key="data_season_04_desc" rel_version="Season_4_Perm">REMPLACEZ-MOI</string>
 	<string key="seasons_rewards_categorical_progression_id" rel_version="Feature_Seasons_Rewards">Passe de saison</string>
 	<string key="seasons_rewards_tab_battlepass" rel_version="Feature_Seasons_Rewards">Passe de bataille</string>
 	<string key="seasons_rewards_tab_journey" rel_version="Feature_Seasons_Rewards">Périple</string>
@@ -73,6 +76,7 @@
 	<string key="ui_hiw_sect1_pt1" rel_version="Feature_Seasons_Rewards">&lt;img src="LyShineUI/Images/SeasonsRewards/pip" yOffset="1"&gt;&lt;/img&gt; Sélectionnez un carré en surbrillance pour tamponner la carte et remporter de l'EXP de saison.</string>
 	<string key="ui_hiw_sect1_pt2" rel_version="Feature_Seasons_Rewards">&lt;img src="LyShineUI/Images/SeasonsRewards/pip" yOffset="1"&gt;&lt;/img&gt; Tamponnez les lignes de la carte pour obtenir davantage d'EXP de saison.</string>
 	<string key="ui_hiw_sect1_pt3" rel_version="Feature_Seasons_Rewards">&lt;img src="LyShineUI/Images/SeasonsRewards/pip" yOffset="1"&gt;&lt;/img&gt; Récupérez assez de tampons pour terminer une carte et en obtenir une nouvelle.</string>
+	<string key="ui_hiw_sect1_pt4" rel_version="Feature_Seasons_Rewards">&lt;img src="LyShineUI/Images/SeasonsRewards/pip" yOffset="1"&gt;&lt;/img&gt; Obtenez un tampon sauvage tous les jours ou terminez des lignes de quatre tampons de la carte d'activités.</string>
 	<string key="ui_hiw_sect2_header" rel_version="Feature_Seasons_Rewards">Relancer</string>
 	<string key="ui_hiw_sect2_desc" rel_version="Feature_Seasons_Rewards">Vous pouvez relancer la liste d'activités pour en obtenir de nouvelles en échange d'Azoth. La progression des activités incomplètes sera perdue.</string>
 	<string key="ui_hiw_sect2_pt1" rel_version="Feature_Seasons_Rewards">&lt;img src="LyShineUI/Images/SeasonsRewards/pip" yOffset="1"&gt;&lt;/img&gt; Chaque nouvelle carte offre 1 possibilité de relancer gratuitement.</string>
@@ -135,7 +139,7 @@
 	<string key="ui_seasons_task_Complete2SeasonalChallenge_name" rel_version="Feature_Seasons_Rewards">Défi relevé II</string>
 	<string key="ui_seasons_task_Complete3SeasonalChallenge_name" rel_version="Feature_Seasons_Rewards">Défi relevé III</string>
 	<string key="ui_seasons_task_Complete4SeasonalChallenge_name" rel_version="Feature_Seasons_Rewards">Défi relevé IV</string>
-	<string key="ui_seasons_task_CompleteSeasonalChallenge_desc" rel_version="Feature_Seasons_Rewards">Terminez {maxCount} défis saisonniers.</string>
+	<string key="ui_seasons_task_CompleteSeasonalChallenge_desc" rel_version="Feature_Seasons_Rewards">Terminez {maxCount} défi(s) saisonnier(s).</string>
 	<string key="ui_seasons_task_CompleteSongsAnyDifficultyGrouped_name" rel_version="Feature_Seasons_Rewards">Fondons un groupe</string>
 	<string key="ui_seasons_task_CompleteSongsAnyDifficultyGrouped_desc" rel_version="Feature_Seasons_Rewards">Exécutez {maxCount} chansons de n'importe quelle difficulté dans un groupe.</string>
 	<string key="ui_seasons_task_Complete1War_name" rel_version="Feature_Seasons_Rewards">Va-t-en-guerre</string>
@@ -266,6 +270,8 @@
 	<string key="SeasonsActivities_Catch1TreasureChest" rel_version="Feature_Seasons_Rewards">Pêcher des coffres au trésor</string>
 	<string key="SeasonsActivities_Catch5RareFish" rel_version="Feature_Seasons_Rewards">Attraper des poissons rares</string>
 	<string key="SeasonsActivities_Craft5T5WeaponOrApparel" rel_version="Feature_Seasons_Rewards">Fabriquer des armes ou vêtements de palier 5</string>
+	<string key="SeasonsActivities_Craft5T5Weapon" rel_version="Feature_Seasons_Rewards">Fabriquer des armes de palier 5</string>
+	<string key="SeasonsActivities_Craft5T5Apparel" rel_version="Feature_Seasons_Rewards">Fabriquer des vêtements de palier 5</string>
 	<string key="SeasonsActivities_Craft10T5Consumables" rel_version="Feature_Seasons_Rewards">Fabriquer des consommables de palier 5</string>
 	<string key="SeasonsActivities_KillingBlowOPR" rel_version="Feature_Seasons_Rewards">Infliger des coups de grâce à des ennemis lors d'une Déferlante</string>
 	<string key="SeasonsActivities_ParticipateIn1OPR" rel_version="Feature_Seasons_Rewards">Participer à des Déferlantes</string>
@@ -342,6 +348,7 @@
 	<string key="SeasonsRewardTrack_ClaimError_RewardNotUnlocked" rel_version="Feature_Seasons_Rewards">Impossible d'obtenir cette récompense. Elle n'est pas déverrouillée.</string>
 	<string key="SeasonsRewardTrack_ClaimError_RewardAlreadyRedeemed" rel_version="Feature_Seasons_Rewards">Impossible d'obtenir cette récompense. Elle a déjà été récupérée.</string>
 	<string key="SeasonsRewardTrack_ClaimError_NotEnoughInventorySpace" rel_version="Feature_Seasons_Rewards">Impossible d'obtenir cette récompense. Place insuffisante dans l'inventaire.</string>
+	<string key="SeasonsRewardTrack_ClaimError_PlayerHasNoFaction" rel_version="Feature_Seasons_Rewards">Impossible d'obtenir cette récompense. Doit appartenir à une faction.</string>
 	<string key="SeasonsRewardTrack_ClaimError_Generic" rel_version="Feature_Seasons_Rewards">Impossible d'obtenir cette récompense. Veuillez réessayer plus tard.</string>
 	<string key="SeasonsRewardTrack_ClaimError_AlreadyClaimingReward" rel_version="Feature_Seasons_Rewards">Vous essayez déjà d'obtenir une récompense. Veuillez réessayer plus tard.</string>
 	<string key="SeasonsRewardTrack_TransactionError" rel_version="Feature_Seasons_Rewards">Transaction impossible. Veuillez réessayer plus tard.</string>
@@ -375,7 +382,7 @@
 	<string key="ui_seasons_task_name_CompleteSeasonalChallenge_4" rel_version="Season_2_Perm">Défi relevé IV</string>
 	<string key="ui_seasons_task_name_CompleteSeasonalChallenge_5" rel_version="Season_2_Perm">Défi relevé V</string>
 	<string key="ui_seasons_task_descripion_CompleteSeasonalChallengeSingle" rel_version="Season_2_Perm">Terminez un défi saisonnier.</string>
-	<string key="ui_seasons_task_descripion_CompleteSeasonalChallenge" rel_version="Season_2_Perm">Terminez {maxCount} défis saisonniers.</string>
+	<string key="ui_seasons_task_descripion_CompleteSeasonalChallenge" rel_version="Season_2_Perm">Terminez {maxCount} défi(s) saisonnier(s).</string>
 	<string key="ui_seasons_task_name_CompleteTownProjects_1" rel_version="Season_2_Perm">Architecte de projet I</string>
 	<string key="ui_seasons_task_name_CompleteTownProjects_2" rel_version="Season_2_Perm">Architecte de projet II</string>
 	<string key="ui_seasons_task_name_CompleteTownProjects_3" rel_version="Season_2_Perm">Architecte de projet III</string>
@@ -398,6 +405,7 @@
 	<string key="ui_seasons_task_description_CloseMajorBreaches" rel_version="Season_2_Perm">Fermez {maxCount} foyers d'altération majeurs.</string>
 	<string key="ui_seasons_task_name_PlayOutpostRush_1" rel_version="Season_2_Perm">Bagarre en Déferlante I</string>
 	<string key="ui_seasons_task_name_PlayOutpostRush_2" rel_version="Season_2_Perm">Bagarre en Déferlante II</string>
+	<string key="ui_seasons_task_name_PlayOutpostRush_3" rel_version="Season_4_Perm">Bagarre en Déferlante III</string>
 	<string key="ui_seasons_task_description_PlayOutpostRushSingle" rel_version="Season_2_Perm">Participez à une Déferlante.</string>
 	<string key="ui_seasons_task_description_PlayOutpostRush" rel_version="Season_2_Perm">Participez à {maxCount} Déferlantes.</string>
 	<string key="ui_seasons_task_name_WinWar_1" rel_version="Season_2_Perm">PLACEHOLDER</string>
@@ -493,12 +501,14 @@
 	<string key="ui_seasons_task_name_Challenge_FishingAptitudeLevels" rel_version="Season_2_Perm">Pêche en série</string>
 	<string key="ui_seasons_task_description_Challenge_FishingAptitudeLevels" rel_version="Season_2_Perm">Obtenez {maxCount} niveaux d'aptitude de pêche.</string>
 	<string key="ui_seasons_task_name_Challenge_CraftItemsGoldenScarabs" rel_version="Season_2_Perm">Artisanat d'or</string>
-	<string key="SeasonsActivities_Complete2Songs" rel_version="Season_2_Perm">Interprétez des chansons.</string>
+	<string key="SeasonsActivities_Complete2Songs" rel_version="Season_2_Perm">Interpréter des chansons</string>
 	<string key="ui_seasons_task_name_ReachLevel65" rel_version="Season_3_Perm">Expérience d'exception</string>
 	<string key="ui_seasons_task_description_ReachLevel" rel_version="Season_3_Perm">Atteignez le niveau {maxCount}.</string>
+	<string key="ui_seasons_task_description_ReachLevel65" rel_version="Season_3_Perm">Atteignez le niveau 65.</string>
 	<string key="ui_seasons_task_name_FlailMastery_1" rel_version="Season_3_Perm">Communauté du fléau I</string>
 	<string key="ui_seasons_task_name_FlailMastery_2" rel_version="Season_3_Perm">Communauté du fléau II</string>
-	<string key="ui_seasons_task_description_FlailMastery" rel_version="Season_3_Perm">Atteignez le niveau de maîtrise {maxCount} avec le fléau.</string>
+	<string key="ui_seasons_task_name_FlailMastery_3" rel_version="Season_3_Perm">Communauté du fléau III</string>
+	<string key="ui_seasons_task_description_FlailMastery" rel_version="Season_3_Perm">Gagnez {maxCount} niveaux de maîtrise avec le fléau.</string>
 	<string key="ui_seasons_task_name_EdengroveSettlement" rel_version="Season_3_Perm">Colonisation de Bois-Éden</string>
 	<string key="ui_seasons_task_description_EdengroveSettlement" rel_version="Season_3_Perm">Découvrez la colonie de Bois-Éden.</string>
 	<string key="ui_seasons_task_name_AcquireMount" rel_version="Season_3_Perm">Ma première monture</string>
@@ -507,30 +517,32 @@
 	<string key="ui_seasons_task_name_CraftMushroomFlask_2" rel_version="Season_3_Perm">Brasserie de champignons II</string>
 	<string key="ui_seasons_task_name_CraftMushroomFlask_3" rel_version="Season_3_Perm">Brasserie de champignons III</string>
 	<string key="ui_seasons_task_name_CraftMushroomFlask_4" rel_version="Season_3_Perm">Brasserie de champignons IV</string>
-	<string key="ui_seasons_task_description_CraftMushroomFlaskSingle" rel_version="Season_3_Perm">Fabriquez une fiole de champignons.</string>
-	<string key="ui_seasons_task_description_CraftMushroomFlaskPotion" rel_version="Season_3_Perm">Fabriquez {maxCount} potions avec votre fiole de champignons.</string>
-	<string key="ui_seasons_task_description_UpgradeMushroomFlaskT3" rel_version="Season_3_Perm">Améliorez votre fiole de champignons en qualité III.</string>
-	<string key="ui_seasons_task_description_UpgradeMushroomFlaskT5" rel_version="Season_3_Perm">Améliorez votre fiole de champignons en qualité V.</string>
+	<string key="ui_seasons_task_description_CraftMushroomFlaskSingle" rel_version="Season_3_Perm">Fabriquez une fiole de gelée de spores.</string>
+	<string key="ui_seasons_task_description_CraftMushroomFlaskPotion" rel_version="Season_3_Perm">Fabriquez {maxCount} potions de spores.</string>
+	<string key="ui_seasons_task_description_UpgradeMushroomFlaskT3" rel_version="Season_3_Perm">Améliorez votre récipient de gelée de spores en bouteille.</string>
+	<string key="ui_seasons_task_description_UpgradeMushroomFlaskT5" rel_version="Season_3_Perm">Améliorez votre récipient de gelée de spores en carafe.</string>
 	<string key="ui_seasons_task_name_InfluenceRace_1" rel_version="Season_3_Perm">Influence I</string>
 	<string key="ui_seasons_task_name_InfluenceRace_2" rel_version="Season_3_Perm">Influence II</string>
 	<string key="ui_seasons_task_description_ParticipateInfluenceRaceSingle" rel_version="Season_3_Perm">Participez à une Course d'influence.</string>
 	<string key="ui_seasons_task_description_WinInfluenceRace" rel_version="Season_3_Perm">Remportez {maxCount} Courses d'influence.</string>
+	<string key="ui_seasons_task_description_WinInfluenceRaceSingle" rel_version="Season_4_Perm">Remportez une Course d'influence.</string>
 	<string key="ui_seasons_task_name_GatherSpore" rel_version="Season_3_Perm">Porte-parole des spores</string>
-	<string key="ui_seasons_task_description_GatherSpore" rel_version="Season_3_Perm">Faites la récolte de {maxCount} cosses de spores.</string>
+	<string key="ui_seasons_task_description_GatherSpore" rel_version="Season_3_Perm">Cueillez {maxCount} cosses de spores.</string>
 	<string key="ui_seasons_task_name_Quest_InvasionOfArtemis" rel_version="Season_3_Perm">Défier le divin</string>
 	<string key="ui_seasons_task_description_Quest_InvasionOfArtemis" rel_version="Season_3_Perm">Accomplissez la quête : L'invasion d'Artémis</string>
 	<string key="ui_seasons_task_name_GearScore700" rel_version="Season_3_Perm">Un équipement bravache</string>
-	<string key="ui_seasons_task_description_GearScore700Single" rel_version="Season_3_Perm">Obtenez une pièce d'équipement ayant un S.É de 700.</string>
+	<string key="ui_seasons_task_description_GearScore700Single" rel_version="Season_3_Perm">Équipez-vous d'une pièce d'équipement de S.É 700.</string>
 	<string key="ui_seasons_task_name_CaptureInfluenceTower_1" rel_version="Season_3_Perm">Tour de force I</string>
 	<string key="ui_seasons_task_description_CaptureInfluenceTower" rel_version="Season_3_Perm">Capturez {maxCount} tours d'influence.</string>
 	<string key="ui_seasons_task_name_Quest_IntoTheDarkness" rel_version="Season_3_Perm">Plongée dans les ténèbres</string>
 	<string key="ui_seasons_task_description_Quest_IntoTheDarkness" rel_version="Season_3_Perm">Accomplissez la quête : Dans les ténèbres</string>
 	<string key="ui_seasons_task_name_RidingTradeskill" rel_version="Season_3_Perm">L'équitation pour les nuls</string>
+	<string key="ui_seasons_task_name_RidingTradeskill_2" rel_version="Season_3_Perm">Cavalier en devenir</string>
 	<string key="ui_seasons_task_description_RidingTradeskill" rel_version="Season_3_Perm">Atteignez le niveau {maxCount} dans la compétence de métier équitation.</string>
 	<string key="ui_seasons_task_name_Forellac" rel_version="Season_3_Perm">Randonnée à Forelac</string>
 	<string key="ui_seasons_task_description_Forellac" rel_version="Season_3_Perm">Découvrez Forelac.</string>
-	<string key="ui_seasons_task_name_Quest_ToDivideAndConquer" rel_version="Season_3_Perm">Diviser pour mieux conquérir</string>
-	<string key="ui_seasons_task_description_Quest_ToDivideAndConquer" rel_version="Season_3_Perm">Accomplissez la quête : Diviser et conquérir</string>
+	<string key="ui_seasons_task_name_Quest_ToDivideAndConquer" rel_version="Season_3_Perm">Artiste de l'évasion</string>
+	<string key="ui_seasons_task_description_Quest_ToDivideAndConquer" rel_version="Season_3_Perm">Accomplissez la quête : Fuite des ruines</string>
 	<string key="ui_seasons_task_name_WarFirstLight" rel_version="Season_3_Perm">Bataille pour le Levant</string>
 	<string key="ui_seasons_task_description_WarFirstLight" rel_version="Season_3_Perm">Participez à une guerre au Levant.</string>
 	<string key="ui_seasons_task_name_LevelTradeskill250" rel_version="Season_3_Perm">Maîtrise de votre art</string>
@@ -538,9 +550,11 @@
 	<string key="ui_seasons_task_name_CraftGS700" rel_version="Season_3_Perm">Artisanat d'excellence</string>
 	<string key="ui_seasons_task_description_CraftGS700" rel_version="Season_3_Perm">Fabriquez {maxCount} objets de S.É 700.</string>
 	<string key="ui_seasons_task_name_MountGear" rel_version="Season_3_Perm">Accumulation d'accessoires</string>
-	<string key="ui_seasons_task_description_MountGear" rel_version="Season_3_Perm">Obtenez {maxCount} accessoires de monture.</string>
+	<string key="ui_seasons_task_description_MountGear" rel_version="Season_3_Perm">Équipez-vous de {maxCount} accessoires de monture en même temps.</string>
 	<string key="ui_seasons_task_name_FlailDamageOrHeal" rel_version="Season_3_Perm">Amis ou ennemis du fléau</string>
 	<string key="ui_seasons_task_description_FlailDamageOrHeal" rel_version="Season_3_Perm">Infligez ou soignez {maxCount} points de dégâts / de santé avec le fléau.</string>
+	<string key="ui_seasons_task_name_FlailNamed" rel_version="Season_3_Perm">Mordu du fléau</string>
+	<string key="ui_seasons_task_description_FlailNamed" rel_version="Season_3_Perm">Tuez {maxCount} ennemis nommés de niveau 65 ou plus avec le fléau.</string>
 	<string key="ui_seasons_task_name_ScalefangEnclave" rel_version="Season_3_Perm">Reconnaissance d'Écaillecroc</string>
 	<string key="ui_seasons_task_description_ScalefangEnclave" rel_version="Season_3_Perm">Découvrez l'enclave d'Écaillecroc.</string>
 	<string key="ui_seasons_task_name_Quest_GardenOfTheGorgon" rel_version="Season_3_Perm">Jardin gorgontuesque</string>
@@ -549,27 +563,27 @@
 	<string key="ui_seasons_task_description_AcquireMountTypes" rel_version="Season_3_Perm">Obtenez tous les types de montures.</string>
 	<string key="ui_seasons_task_name_CraftArtifact" rel_version="Season_3_Perm">Magnum Opus</string>
 	<string key="ui_seasons_task_description_CraftArtifactSingle" rel_version="Season_3_Perm">Fabriquez un artéfact.</string>
-	<string key="ui_seasons_task_name_KillPlayersFirstLight" rel_version="Season_3_Perm">Combat au Levant</string>
-	<string key="ui_seasons_task_description_KillPlayersFirstLight" rel_version="Season_3_Perm">Tuez {maxCount} joueurs au Levant.</string>
+	<string key="ui_seasons_task_name_KillPlayersFirstLight" rel_version="Season_3_Perm">Combattant des contrées sauvages élyséennes</string>
+	<string key="ui_seasons_task_description_KillPlayersFirstLight" rel_version="Season_3_Perm">Tuez {maxCount} joueurs dans les contrées sauvages élyséennes.</string>
 	<string key="ui_seasons_task_name_AcquireArtifact" rel_version="Season_3_Perm">Figure élue</string>
-	<string key="ui_seasons_task_description_AcquireArtifactSingle" rel_version="Season_3_Perm">Obtenez un artéfact.</string>
+	<string key="ui_seasons_task_description_AcquireArtifactSingle" rel_version="Season_3_Perm">Équipez-vous d'un artéfact.</string>
 	<string key="ui_seasons_task_name_KillPlayersFlail" rel_version="Season_3_Perm">Furie du fléau</string>
 	<string key="ui_seasons_task_description_KillPlayersFlail" rel_version="Season_3_Perm">Tuez {maxCount} joueurs avec le fléau.</string>
 	<string key="ui_seasons_task_name_Quest_EndOfNewEden" rel_version="Season_3_Perm">La fin d'Éden</string>
 	<string key="ui_seasons_task_description_Quest_EndOfNewEden" rel_version="Season_3_Perm">Accomplissez la quête : La fin de Nouvel Éden</string>
-	<string key="ui_seasons_task_name_Crystalclaw_1" rel_version="Season_3_Perm">Spéléologie à Grifftal I</string>
-	<string key="ui_seasons_task_name_Crystalclaw_2" rel_version="Season_3_Perm">Spéléologie à Grifftal II</string>
-	<string key="ui_seasons_task_name_Crystalclaw_3" rel_version="Season_3_Perm">Spéléologie à Grifftal III</string>
-	<string key="ui_seasons_task_name_Crystalclaw_4" rel_version="Season_3_Perm">Spéléologie à Grifftal IV</string>
-	<string key="ui_seasons_task_description_Crystalclaw" rel_version="Season_3_Perm">Terminez les grottes de Grifftal.</string>
-	<string key="ui_seasons_task_description_CrystalclawM1" rel_version="Season_3_Perm">Terminez les grottes de Grifftal M1.</string>
-	<string key="ui_seasons_task_description_CrystalclawM2" rel_version="Season_3_Perm">Terminez les grottes de Grifftal M2.</string>
-	<string key="ui_seasons_task_description_CrystalclawM3" rel_version="Season_3_Perm">Terminez les grottes de Grifftal M3.</string>
+	<string key="ui_seasons_task_name_Crystalclaw_1" rel_version="Season_3_Perm">Spéléologue du Fossé sauvage I</string>
+	<string key="ui_seasons_task_name_Crystalclaw_2" rel_version="Season_3_Perm">Spéléologue du Fossé sauvage II</string>
+	<string key="ui_seasons_task_name_Crystalclaw_3" rel_version="Season_3_Perm">Spéléologue du Fossé sauvage III</string>
+	<string key="ui_seasons_task_name_Crystalclaw_4" rel_version="Season_3_Perm">Spéléologue du Fossé sauvage IV</string>
+	<string key="ui_seasons_task_description_Crystalclaw" rel_version="Season_3_Perm">Terminez le Fossé sauvage.</string>
+	<string key="ui_seasons_task_description_CrystalclawM1" rel_version="Season_3_Perm">Terminez le Fossé sauvage M1.</string>
+	<string key="ui_seasons_task_description_CrystalclawM2" rel_version="Season_3_Perm">Terminez le Fossé sauvage M2.</string>
+	<string key="ui_seasons_task_description_CrystalclawM3" rel_version="Season_3_Perm">Terminez le Fossé sauvage M3.</string>
 	<string key="ui_seasons_task_name_MountBuffs" rel_version="Season_3_Perm">Améliorations bestiales</string>
-	<string key="ui_seasons_task_description_MountBuffs" rel_version="Season_3_Perm">Utilisez {maxCount} améliorations de monture.</string>
+	<string key="ui_seasons_task_description_MountBuffs" rel_version="Season_3_Perm">Utilisez {maxCount} consommables de monture.</string>
 	<string key="ui_seasons_task_name_MountRace_PathOfTheOldWarrior" rel_version="Season_3_Perm">Drapeau à damiers</string>
-	<string key="ui_seasons_task_description_MountRace_PathOfTheOldWarrior" rel_version="Season_3_Perm">Terminez la course de monture : Le chemin du vieux guerrier</string>
-	<string key="ui_seasons_task_name_FactionStory" rel_version="Season_3_Perm">Voyage aux frais de la faction</string>
+	<string key="ui_seasons_task_description_MountRace_PathOfTheOldWarrior" rel_version="Season_3_Perm">Terminez le rallye de l'ermite.</string>
+	<string key="ui_seasons_task_name_FactionStory" rel_version="Season_3_Perm">Faction familière</string>
 	<string key="ui_seasons_task_description_FactionStory" rel_version="Season_3_Perm">Terminez l'histoire de votre faction.</string>
 	<string key="ui_seasons_task_name_FactionControlPointFirstLight" rel_version="Season_3_Perm">Conquête du Levant</string>
 	<string key="ui_seasons_task_description_FactionControlPointFirstLight" rel_version="Season_3_Perm">Capturer {maxCount} points de contrôle de faction au Levant.</string>
@@ -579,6 +593,8 @@
 	<string key="ui_seasons_task_description_BeastModeT3" rel_version="Season_3_Perm">Améliorez la rune-cœur du mode bestial en qualité III.</string>
 	<string key="ui_seasons_task_name_ElafryPyrgo" rel_version="Season_3_Perm">Exploration d'Elafry</string>
 	<string key="ui_seasons_task_description_ElafryPyrgo" rel_version="Season_3_Perm">Découvrez Elafry Pyrgo.</string>
+	<string key="ui_seasons_task_name_KongIsland" rel_version="Season_3_Perm">Élite de Zurvan</string>
+	<string key="ui_seasons_task_description_KongIsland" rel_version="Season_3_Perm">Tuez 3 monstres nommés d'élite sur l'Île de Zurvan.</string>
 	<string key="ui_seasons_task_name_Challenge_CraftGS700" rel_version="Season_3_Perm">Artisanat mythique</string>
 	<string key="ui_seasons_task_description_Challenge_CraftGS700" rel_version="Season_3_Perm">Fabriquez {maxCount} objets de S.É 700.</string>
 	<string key="ui_seasons_task_name_Challenge_KillFlail" rel_version="Season_3_Perm">Porte-fléau fréquent</string>
@@ -586,31 +602,131 @@
 	<string key="ui_seasons_task_name_Challenge_RidingTradeskill" rel_version="Season_3_Perm">Difficile chevauchée</string>
 	<string key="ui_seasons_task_description_Challenge_RidingTradeskill" rel_version="Season_3_Perm">Atteignez le niveau 250 dans la compétence de métier équitation.</string>
 	<string key="ui_seasons_task_name_Challenge_KillFirstLight" rel_version="Season_3_Perm">Lumière déclinante</string>
-	<string key="ui_seasons_task_description_Challenge_KillFirstLight" rel_version="Season_3_Perm">Éliminez {maxCount} ennemis au Levant.</string>
-	<string key="ui_seasons_task_name_Challenge_CrystalclawFlawless" rel_version="Season_3_Perm">Cristal agrippé</string>
-	<string key="ui_seasons_task_description_Challenge_CrystalclawFlawless" rel_version="Season_3_Perm">Terminez parfaitement les grottes de Grifftal M3.</string>
+	<string key="ui_seasons_task_description_Challenge_KillFirstLight" rel_version="Season_3_Perm">Terrassez {maxCount} ennemis dans les contrées sauvages élyséennes.</string>
+	<string key="ui_seasons_task_name_Challenge_CrystalclawFlawless" rel_version="Season_3_Perm">Complètement sauvage</string>
+	<string key="ui_seasons_task_description_Challenge_CrystalclawFlawless" rel_version="Season_3_Perm">Terminez parfaitement le Fossé sauvage M3.</string>
 	<string key="ui_seasons_task_name_Challenge_FirstLightPOI" rel_version="Season_3_Perm">Exploration intrépide</string>
-	<string key="ui_seasons_task_description_Challenge_FirstLightPOI" rel_version="Season_3_Perm">Découvrez tous les lieux d'importance du Levant.</string>
+	<string key="ui_seasons_task_description_Challenge_FirstLightPOI" rel_version="Season_3_Perm">Découvrez tous les lieux d'importance des contrées sauvages élyséennes.</string>
 	<string key="ui_seasons_task_name_Challenge_InfluenceRace" rel_version="Season_3_Perm">Influenceur d'Aeternum</string>
 	<string key="ui_seasons_task_description_Challenge_InfluenceRace" rel_version="Season_3_Perm">Remportez {maxCount} Courses d'influence.</string>
 	<string key="ui_seasons_task_name_Challenge_MaxTradeskills" rel_version="Season_3_Perm">Talents multiples</string>
 	<string key="ui_seasons_task_description_Challenge_MaxTradeskills" rel_version="Season_3_Perm">Faites monter 5 compétences de métier au niveau 250.</string>
-	<string key="ui_seasons_task_name_Challenge_NamedFirstLight" rel_version="Season_3_Perm">Combattant de la liberté du Levant</string>
-	<string key="ui_seasons_task_description_Challenge_NamedFirstLight" rel_version="Season_3_Perm">Tuez {maxCount} ennemis nommés au Levant.</string>
+	<string key="ui_seasons_task_name_Challenge_NamedFirstLight" rel_version="Season_3_Perm">Résistant des contrées sauvages élyséennes</string>
+	<string key="ui_seasons_task_description_Challenge_NamedFirstLight" rel_version="Season_3_Perm">Tuez {maxCount} ennemis nommés dans les contrées sauvages élyséennes.</string>
 	<string key="ui_seasons_task_name_Challenge_EquipArtifacts" rel_version="Season_3_Perm">Aventurier légendaire</string>
-	<string key="ui_seasons_task_description_Challenge_EquipArtifacts" rel_version="Season_3_Perm">Équipez-vous d'un artéfact d'arme, d'un artéfact d'armure ou d'un artéfact de talisman.</string>
+	<string key="ui_seasons_task_description_Challenge_EquipArtifacts" rel_version="Season_3_Perm">Équipez-vous d'un artéfact d'arme, d'un artéfact d'armure et d'un artéfact de talisman en même temps.</string>
 	<string key="ui_seasons_task_name_WinOutpostRush" rel_version="Season_3_Perm">Ruée vers la victoire</string>
 	<string key="ui_seasons_task_description_WinOutpostRushSingle" rel_version="Season_3_Perm">Remportez une Déferlante.</string>
 	<string key="ui_seasons_task_name_KillHercyne" rel_version="Season_3_Perm">Traque des Hercynes</string>
 	<string key="ui_seasons_task_description_KillHercyne" rel_version="Season_3_Perm">Tuez {maxCount} Hercynes.</string>
 	<string key="ui_seasons_task_name_KillPlants" rel_version="Season_3_Perm">Énorme horticulture</string>
 	<string key="ui_seasons_task_description_KillPlants" rel_version="Season_3_Perm">Tuez {maxCount} méga végétaux.</string>
+	<string key="ui_seasons_task_name_Challenge_MushroomFlask" rel_version="Season_3_Perm">Fan de champignons</string>
+	<string key="ui_seasons_task_description_Challenge_MushroomFlask" rel_version="Season_3_Perm">Buvez une potion de gelée de spores {maxCount} fois.</string>
+	<string key="ui_seasons_task_name_Challenge_LootBeastChest" rel_version="Season_3_Perm">Chasseur de trésors bestial</string>
+	<string key="ui_seasons_task_description_Challenge_LootBeastChest" rel_version="Season_3_Perm">Pillez {maxCount} magots de bête d'élite.</string>
+	<string key="ui_seasons_task_name_CompleteExpedition" rel_version="Season_4_Perm">Découverte d'expédition</string>
+	<string key="ui_seasons_task_name_CraftPotion" rel_version="Season_4_Perm">Potions efficaces</string>
+	<string key="ui_seasons_task_name_KillElite" rel_version="Season_4_Perm">Exorcisme d'élite</string>
+	<string key="ui_seasons_task_name_KillNamed_1" rel_version="Season_4_Perm">Ennemi juré nommé I</string>
+	<string key="ui_seasons_task_name_KillNamed_2" rel_version="Season_4_Perm">Ennemi juré nommé II</string>
+	<string key="ui_seasons_task_name_KillNamed_3" rel_version="Season_4_Perm">Ennemi juré nommé III</string>
+	<string key="ui_seasons_task_name_PlayDuel" rel_version="Season_4_Perm">Duelliste</string>
+	<string key="ui_seasons_task_name_RepeatableQuests" rel_version="Season_4_Perm">Agression répétée</string>
+	<string key="ui_seasons_task_name_CraftArcana" rel_version="Season_4_Perm">Artisanat d'arts obscurs</string>
+	<string key="ui_seasons_task_name_KillGreatCleave" rel_version="Season_4_Perm">Tranchant sans faille</string>
+	<string key="ui_seasons_task_name_DiscoverPOIGreatCleave" rel_version="Season_4_Perm">Cartographe de la grande Faille</string>
+	<string key="ui_seasons_task_name_EaselGreatCleave" rel_version="Season_4_Perm">Conservation d'art</string>
+	<string key="ui_seasons_task_name_LootEliteChest_1" rel_version="Season_4_Perm">Butin d'élite I</string>
+	<string key="ui_seasons_task_name_LootEliteChest_2" rel_version="Season_4_Perm">Butin d'élite II</string>
+	<string key="ui_seasons_task_name_GlacialTarn_1" rel_version="Season_4_Perm">Belluaire de glace I</string>
+	<string key="ui_seasons_task_name_GlacialTarn_2" rel_version="Season_4_Perm">Belluaire de glace II</string>
+	<string key="ui_seasons_task_name_GlacialTarn_3" rel_version="Season_4_Perm">Belluaire de glace III</string>
+	<string key="ui_seasons_task_name_GlacialTarn_4" rel_version="Season_4_Perm">Belluaire de glace IV</string>
+	<string key="ui_seasons_task_name_CraftCoating" rel_version="Season_4_Perm">Amélioration d'arme</string>
+	<string key="ui_seasons_task_name_KillIceVarangian" rel_version="Season_4_Perm">Dégivreur varègue I</string>
+	<string key="ui_seasons_task_name_KillIceVarangian_2" rel_version="Season_4_Perm">Dégivreur varègue II</string>
+	<string key="ui_seasons_task_name_CompleteHatchery" rel_version="Season_4_Perm">Éclosion forcenée</string>
+	<string key="ui_seasons_task_name_CompleteMutation" rel_version="Season_4_Perm">Maniaque de la mutation</string>
+	<string key="ui_seasons_task_name_CraftPrismaticScarab" rel_version="Season_4_Perm">Adepte prismatique</string>
+	<string key="ui_seasons_task_name_KillFrostAncient" rel_version="Season_4_Perm">Brise-glace des Anciens</string>
+	<string key="ui_seasons_task_name_CraftGS650" rel_version="Season_4_Perm">Équipement, bidules et gadgets</string>
+	<string key="ui_seasons_task_name_FactionTokens" rel_version="Season_4_Perm">Financement de faction</string>
+	<string key="ui_seasons_task_name_CompleteM3Expedition" rel_version="Season_4_Perm">Mutation maximum</string>
+	<string key="ui_seasons_task_name_KillPlayer" rel_version="Season_4_Perm">Tuerie de joueurs</string>
+	<string key="ui_seasons_task_name_Kill65" rel_version="Season_4_Perm">Chasse de haut niveau</string>
+	<string key="ui_seasons_task_name_MountRace" rel_version="Season_4_Perm">Drapeau à damiers</string>
+	<string key="ui_seasons_task_name_PvPRewardTrack" rel_version="Season_4_Perm">Engranger les récompenses</string>
+	<string key="ui_seasons_task_name_Quest_SearchRing" rel_version="Season_4_Perm">Un accueil glacial</string>
+	<string key="ui_seasons_task_name_Quest_GetDaichi" rel_version="Season_4_Perm">Daichi Saito</string>
+	<string key="ui_seasons_task_name_Quest_FightMage" rel_version="Season_4_Perm">Le mage</string>
+	<string key="ui_seasons_task_name_Quest_StopDevice" rel_version="Season_4_Perm">Froid éternel</string>
+	<string key="ui_seasons_task_name_Quest_WrapFrost" rel_version="Season_4_Perm">De client à corbeau</string>
+	<string key="ui_seasons_task_name_CraftArtifactUpgrade" rel_version="Season_4_Perm">Mise à niveau unique</string>
+	<string key="ui_seasons_task_description_CompleteExpedition" rel_version="Season_4_Perm">Terminez {maxCount} expéditions.</string>
+	<string key="ui_seasons_task_description_CraftPotionT3" rel_version="Season_4_Perm">Fabriquez {maxCount} potions III ou de meilleure qualité.</string>
+	<string key="ui_seasons_task_description_KillElite" rel_version="Season_4_Perm">Tuez {maxCount} ennemis d'élite.</string>
+	<string key="ui_seasons_task_description_KillNamed" rel_version="Season_4_Perm">Tuez {maxCount} ennemis nommés.</string>
+	<string key="ui_seasons_task_description_KillNamed60" rel_version="Season_4_Perm">Tuez {maxCount} ennemis nommés de niveau 60 ou plus.</string>
+	<string key="ui_seasons_task_description_KillNamed65" rel_version="Season_4_Perm">Tuez {maxCount} ennemis nommés de niveau 65 ou plus.</string>
+	<string key="ui_seasons_task_description_PlayDuel" rel_version="Season_4_Perm">Participez à {maxCount} escarmouches.</string>
+	<string key="ui_seasons_task_description_RepeatableQuests" rel_version="Season_4_Perm">Terminez {maxCount} quêtes d'expédition reproductibles.</string>
+	<string key="ui_seasons_task_description_CraftArcanaWeaponT4" rel_version="Season_4_Perm">Fabriquez {maxCount} armes d'arts obscurs IV ou de meilleure qualité.</string>
+	<string key="ui_seasons_task_description_KillGreatCleave" rel_version="Season_4_Perm">Tuez {maxCount} ennemis dans la grande Faille.</string>
+	<string key="ui_seasons_task_description_DiscoverPOIGreatCleave" rel_version="Season_4_Perm">Découvrez tous les lieux d'importance de la grande Faille.</string>
+	<string key="ui_seasons_task_description_EaselGreatCleave" rel_version="Season_4_Perm">Récupérez les deux chevalets de panorama de la grande Faille.</string>
+	<string key="ui_seasons_task_description_LootEliteChest" rel_version="Season_4_Perm">Ouvrez {maxCount} coffres d'élite.</string>
+	<string key="ui_seasons_task_description_GlacialTarn" rel_version="Season_4_Perm">Terminez l'expédition du lac de glace.</string>
+	<string key="ui_seasons_task_description_GlacialTarnM1" rel_version="Season_4_Perm">Terminez l'expédition du lac de glace M1.</string>
+	<string key="ui_seasons_task_description_GlacialTarnM2" rel_version="Season_4_Perm">Terminez l'expédition du lac de glace M2.</string>
+	<string key="ui_seasons_task_description_GlacialTarnM3" rel_version="Season_4_Perm">Terminez l'expédition du lac de glace M3.</string>
+	<string key="ui_seasons_task_description_CraftCoatingT5" rel_version="Season_4_Perm">Fabriquez {maxCount} enduits d'arme V ou de meilleure qualité.</string>
+	<string key="ui_seasons_task_description_KillIceVarangian" rel_version="Season_4_Perm">Tuez {maxCount} Varègues givreurs.</string>
+	<string key="ui_seasons_task_description_CompleteHatchery" rel_version="Season_4_Perm">Terminez {maxCount} fois l'épreuve de l'incubateur.</string>
+	<string key="ui_seasons_task_description_CompleteMutation" rel_version="Season_4_Perm">Terminez {maxCount} expéditions mutantes.</string>
+	<string key="ui_seasons_task_description_CraftPrismaticScarabSingle" rel_version="Season_4_Perm">Fabriquez un objet à l'aide d'un scarabée prismatique.</string>
+	<string key="ui_seasons_task_description_KillFrostAncient" rel_version="Season_4_Perm">Tuez {maxCount} élémentaires anciens.</string>
+	<string key="ui_seasons_task_description_CraftGS650" rel_version="Season_4_Perm">Fabriquez {maxCount} pièces d'équipement de S.É 650 ou plus.</string>
+	<string key="ui_seasons_task_description_FactionTokens" rel_version="Season_4_Perm">Gagnez {maxCount} jetons de faction.</string>
+	<string key="ui_seasons_task_description_CompleteM3Expedition" rel_version="Season_4_Perm">Terminez {maxCount} expéditions M3.</string>
+	<string key="ui_seasons_task_description_KillPlayer" rel_version="Season_4_Perm">Tuez {maxCount} joueurs.</string>
+	<string key="ui_seasons_task_description_Kill65" rel_version="Season_4_Perm">Tuez {maxCount} ennemis de niveau 65 ou plus.</string>
+	<string key="ui_seasons_task_description_MountRace" rel_version="Season_4_Perm">Terminez {maxCount} courses de monture.</string>
+	<string key="ui_seasons_task_description_PvPRewardTrack" rel_version="Season_4_Perm">Terminez {maxCount} chaînes de récompenses JcJ.</string>
+	<string key="ui_seasons_task_description_Quest_SearchRing" rel_version="Season_4_Perm">Accomplissez la quête : Un accueil glacial</string>
+	<string key="ui_seasons_task_description_Quest_GetDaichi" rel_version="Season_4_Perm">Accomplissez la quête : Daichi Saito</string>
+	<string key="ui_seasons_task_description_Quest_FightMage" rel_version="Season_4_Perm">Accomplissez la quête : Le mage</string>
+	<string key="ui_seasons_task_description_Quest_StopDevice" rel_version="Season_4_Perm">Accomplissez la quête : Froid éternel</string>
+	<string key="ui_seasons_task_description_Quest_WrapFrost" rel_version="Season_4_Perm">Accomplissez la quête : De client à corbeau</string>
+	<string key="ui_seasons_task_description_CraftArtifactUpgrade" rel_version="Season_4_Perm">Améliorez {maxCount} objets nommés au S.É 700.</string>
+	<string key="ui_seasons_task_name_Challenge_Aptitude" rel_version="Season_4_Perm">Aficionado des aptitudes</string>
+	<string key="ui_seasons_task_name_Challenge_M3Expeditions" rel_version="Season_4_Perm">Optimisation des mutations</string>
+	<string key="ui_seasons_task_name_Challenge_S4Storyline" rel_version="Season_4_Perm">Combat givré</string>
+	<string key="ui_seasons_task_name_Challenge_T52Resources" rel_version="Season_4_Perm">Moisson de ressources</string>
+	<string key="ui_seasons_task_name_Challenge_CraftGS700_2" rel_version="Season_4_Perm">Divinité de l'équipement</string>
+	<string key="ui_seasons_task_name_Challenge_S4Completionist" rel_version="Season_4_Perm">Perfectionniste du Froid éternel</string>
+	<string key="ui_seasons_task_name_Challenge_KillNamedElite65" rel_version="Season_4_Perm">Légendes pourfendues</string>
+	<string key="ui_seasons_task_name_Challenge_MountRaces" rel_version="Season_4_Perm">Incarnation de la vitesse</string>
+	<string key="ui_seasons_task_name_Challenge_FlawlessGlacialTarn" rel_version="Season_4_Perm">Dieu glacial</string>
+	<string key="ui_seasons_task_name_Challenge_LootElite" rel_version="Season_4_Perm">Butin inépuisable</string>
+	<string key="ui_seasons_task_name_Challenge_KillPlayers" rel_version="Season_4_Perm">Tueur de sang-froid</string>
+	<string key="ui_seasons_task_description_Challenge_Aptitude" rel_version="Season_4_Perm">Gagnez {maxCount} niveaux d'aptitude de compétence de métier.</string>
+	<string key="ui_seasons_task_description_Challenge_M3Expeditions" rel_version="Season_4_Perm">Terminez {maxCount} expéditions M3.</string>
+	<string key="ui_seasons_task_description_Challenge_S4Storyline" rel_version="Season_4_Perm">Terminez le scénario de la saison 4.</string>
+	<string key="ui_seasons_task_description_Challenge_T52Resources" rel_version="Season_4_Perm">Récupérez {maxCount} fois du minerai de mithril, du bois-rune, de la fibre torsadée ou de la peau sombre.</string>
+	<string key="ui_seasons_task_description_Challenge_CraftGS700_2" rel_version="Season_4_Perm">Fabriquez {maxCount} pièces d'équipement de S.É 700.</string>
+	<string key="ui_seasons_task_description_Challenge_S4Completionist" rel_version="Season_4_Perm">Terminez {maxCount} tâches du périple de la saison 4.</string>
+	<string key="ui_seasons_task_description_Challenge_KillNamedElite65" rel_version="Season_4_Perm">Tuez {maxCount} ennemis nommés de niveau 65 ou plus.</string>
+	<string key="ui_seasons_task_description_Challenge_MountRaces" rel_version="Season_4_Perm">Terminez {maxCount} courses de monture.</string>
+	<string key="ui_seasons_task_description_Challenge_LootElite" rel_version="Season_4_Perm">Ouvrez {maxCount} coffres d'élite.</string>
+	<string key="ui_seasons_task_description_Challenge_KillPlayers" rel_version="Season_4_Perm">Tuez {maxCount} joueurs en JcJ.</string>
+	<string key="ui_seasons_task_description_Challenge_FlawlessGlacialTarn" rel_version="Season_4_Perm">Terminez parfaitement (sans mourir) le lac de glace {maxCount} fois.</string>
 	<string key="ui_seasons_wild_stamp_count" rel_version="Feature_Seasons_Rewards">&lt;img src="LyShineUI/Images/SeasonsRewards/Wild-Stamp-Icon-Small" scale="2" yOffset="7"&gt;&lt;/img&gt; Tampons sauvages : {count}</string>
 	<string key="ui_seasons_wild_stamp_count_and_max" rel_version="Feature_Seasons_Rewards">&lt;img src="LyShineUI/Images/SeasonsRewards/Wild-Stamp-Icon-Small" scale="2" yOffset="7"&gt;&lt;/img&gt; Tampons sauvages : {count}/{max}</string>
 	<string key="ui_seasons_wild_stamp_awarded_header" rel_version="Feature_Seasons_Rewards">Tampon sauvage bonus</string>
 	<string key="ui_seasons_wild_stamp_awarded" rel_version="Feature_Seasons_Rewards">Vous avez obtenu un tampon gratuit !\n\nVous pouvez avoir jusqu'à {max} tampons sauvages à tout moment.</string>
 	<string key="ui_seasons_wild_stamp_awarded_nolimit" rel_version="Feature_Seasons_Rewards">Vous avez obtenu un tampon gratuit !\n\nIl n'y a aucune limite au nombre de tampons sauvages que vous pouvez récupérer.</string>
-	<string key="ui_seasons_wild_stamp_award_pending" rel_version="Feature_Seasons_Rewards">La limite de tampons sauvages a été atteinte !\n\nUtilisez-en un et reconnectez-vous pour récupérer le tampon sauvage gratuit d'aujourd'hui !</string>
+	<string key="ui_seasons_wild_stamp_award_pending" rel_version="Feature_Seasons_Rewards">La limite de tampons sauvages a été atteinte !\n\nUtilisez un tampon sauvage et reconnectez-vous pour récupérer le tampon sauvage gratuit d'aujourd'hui !</string>
 	<string key="ui_seasons_wild_stamp_tooltip" rel_version="Feature_Seasons_Rewards">Sélectionnez n'importe quel &lt;font color="#ffea00"&gt;CARRÉ LIBRE&lt;/font&gt; pour &lt;font color="#ffea00"&gt;TAMPONNER&lt;/font&gt; la carte.</string>
 	<string key="ui_CWI_reroll_disabled_tooltip" rel_version="Season_2_Perm">Relancer n'est pas permis en instance intermondes.</string>
 	<string key="ui_CWI_claiming_disabled_title" rel_version="Season_2_Perm">Récupération désactivée</string>
@@ -622,7 +738,7 @@
 	<string key="ui_CWI_purchase_premium_tooltip" rel_version="Season_2_Perm">L'achat du passe de saison premium est désactivé en instance intermondes.</string>
 	<string key="SeasonsActivities_KillPOIMyrkgard" rel_version="Feature_Seasons_Rewards">Tuer des ennemis à Myrkgard</string>
 	<string key="SeasonsActivities_KillPOIImperialPalace" rel_version="Feature_Seasons_Rewards">Tuer des ennemis dans le palais impérial</string>
-	<string key="SeasonsActivities_KillPOIMalevolence" rel_version="Feature_Seasons_Rewards">Tuer des ennemis à Malveillance</string>
+	<string key="SeasonsActivities_KillPOIMalevolence" rel_version="Feature_Seasons_Rewards">Tuer des ennemis à Tor Mallacht</string>
 	<string key="SeasonsActivities_KillPOIEternalPool" rel_version="Feature_Seasons_Rewards">Tuer des ennemis dans la Mare d'éternité</string>
 	<string key="SeasonsActivities_KillPOIBedsOfTaBitJet" rel_version="Feature_Seasons_Rewards">Tuer des ennemis dans les lits de \nTa-Bitjet</string>
 	<string key="SeasonsActivities_KillNamed" rel_version="Feature_Seasons_Rewards">Tuer des ennemis nommés</string>
@@ -631,5 +747,15 @@
 	<string key="SeasonsActivities_CompleteYahhhh" rel_version="Season_2_Perm">Interpréter YAAAHHHHH !</string>
 	<string key="SeasonsActivities_Gather1MaudlinDust" rel_version="Season_2_Perm">Récupérer de la poussière de larminsecte</string>
 	<string key="SeasonsActivities_Gather3AeternumSturgeon" rel_version="Season_2_Perm">Récupérer des esturgeons d'Aeternum</string>
+	<string key="SeasonsActivities_CompleteSavageDivide" rel_version="Feature_Seasons_Rewards">Terminer une partie de Fossé sauvage</string>
+	<string key="SeasonsActivities_GatherSporePlant" rel_version="Feature_Seasons_Rewards">Prendre le contenu d'une cosse de spores</string>
+	<string key="SeasonsActivities_CompleteAnyRace" rel_version="Feature_Seasons_Rewards">Terminer une course de monture</string>
+	<string key="SeasonsActivities_KillGreatCleave" rel_version="Feature_Seasons_Rewards">Tuer des ennemis dans la grande Faille</string>
+	<string key="SeasonsActivities_KillNamedGreatCleave" rel_version="Feature_Seasons_Rewards">Tuer des ennemis nommés dans la grande Faille</string>
+	<string key="SeasonsActivities_CompleteGlacialTarn" rel_version="Feature_Seasons_Rewards">Terminer une partie de lac glacial</string>
+	<string key="SeasonsActivities_KillIceVarangian" rel_version="Season_4_Perm">Tuez des Varègues givreurs.</string>
+	<string key="SeasonsActivities_KillFrostAncient" rel_version="Season_4_Perm">Tuer des élémentaires anciens</string>
+	<string key="SeasonsRewardTrack_ClaimError_LootLimitActive">Impossible de récupérer cette récompense. Cet objet est limité et vous le possédez déjà.</string>
+	<string key="ui_seasons_task_name_WinArenaMatches_3">Épopée gladiatrice III</string>
 </resources>
 
