@@ -1461,7 +1461,7 @@
 	<string key="PerkID_Ring_DurPosion_Name">Empoisonnement</string>
 	<string key="PerkID_Ring_DurPosion_Description">Augmente de {[PerksAbilityTable.Global_Ring_DurPosion.TargetStatusEffectDurationMult * 100 * {perkMultiplier}]} % la durée de base des poisons que vous appliquez.</string>
 	<string key="PerkID_Ring_DurBleed_Name">Effusion de sang</string>
-	<string key="PerkID_Ring_DurBleed_Description">Augmente de {[PerksAbilityTable.Global_Ring_DurPosion.TargetStatusEffectDurationMult * 100 * {perkMultiplier}]} % la durée de base des saignements que vous appliquez.</string>
+	<string key="PerkID_Ring_DurBleed_Description">Augmente de {[PerksAbilityTable.Global_Ring_DurBleed.TargetStatusEffectDurationMult * 100 * {perkMultiplier}]} % la durée de base des saignements que vous appliquez.</string>
 	<string key="PerkID_Ring_DurBurning_Name">Brûlure</string>
 	<string key="PerkID_Ring_DurBurning_Description">Augmente de {[PerksAbilityTable.Global_Ring_DurBurning.TargetStatusEffectDurationMult * 100 * {perkMultiplier}]} % la durée de base des brûlures que vous appliquez.</string>
 	<string key="PerkID_Ring_DurSlow_Name">Paralysie</string>
@@ -1655,7 +1655,7 @@
 	<string key="PerkID_Weapon_Disease_OnLowHP_Crit_Name" rel_version="MorePerksV1">Coups critiques pestiférés</string>
 	<string key="PerkID_Weapon_Disease_OnLowHP_Crit_Description" rel_version="MorePerksV1">Les coups critiques contre les cibles appliquent maladie pendant {[Type_StatusEffectData.Status_Perk_Weapon_DiseaseOnCrit.BaseDuration]} s, réduisant l'efficacité des soins qu'elles reçoivent de {[Type_StatusEffectData.Status_Perk_Weapon_DiseaseOnCrit.HealMod * -100 * {perkMultiplier}]} % et de {[Type_StatusEffectData.Status_Perk_Weapon_DiseaseOnCrit.HealScalingValueMultiplier * -100 * {perkMultiplier}]} % les soins qu'elles prodiguent.</string>
 	<string key="PerkID_Weapon_Disease_OnLowHP_Heavy_Name" rel_version="MorePerksV1">Frappes pestiférées</string>
-	<string key="PerkID_Weapon_Disease_OnLowHP_Heavy_Description" rel_version="MorePerksV1">Les attaques lourdes infligent maladie pendant {[Type_StatusEffectData.Status_Perk_Weapon_DiseaseOnHeavy.BaseDuration]} s et réduisent de {[Type_StatusEffectData.Status_Perk_Weapon_DiseaseOnHeavy.HealMod * -100 * {perkMultiplier}]} % l'efficacité des soins de la cible.</string>
+	<string key="PerkID_Weapon_Disease_OnLowHP_Heavy_Description" rel_version="MorePerksV1">Les attaques lourdes appliquent maladie sur les cibles pendant {[Type_StatusEffectData.Status_Perk_Weapon_DiseaseOnHeavy.BaseDuration]} s, réduisant l'efficacité des soins qu'elles reçoivent de {[Type_StatusEffectData.Status_Perk_Weapon_DiseaseOnHeavy.HealMod * -100 * {perkMultiplier}]} % et de {[Type_StatusEffectData.Status_Perk_Weapon_DiseaseOnHeavy.HealScalingValueMultiplier * -100 * {perkMultiplier}]} % les soins qu'elles prodiguent.</string>
 	<string key="PerkID_Weapon_DmgAgainstGrit_Name" rel_version="MorePerksV1">Contre de déjouement</string>
 	<string key="PerkID_Weapon_DmgAgainstGrit_Description" rel_version="MorePerksV1">+{[PerksAbilityTable.Global_Weapon_DmgAgainstGrit.BaseDamage * 100 * {perkMultiplier}]} % de dégâts contre des cibles avec le courage actif.</string>
 	<string key="PerkID_Weapon_DmgWithGrit_Name" rel_version="MorePerksV1">Frappes de déjouement</string>
@@ -2601,7 +2601,7 @@
 	<string key="PerkID_Artifact_Set1_VoidGauntlet_Name">Énergie négative</string>
 	<string key="PerkID_Artifact_Set1_VoidGauntlet_Desc">Vos attaques à distance appliquent Désintégration pendant {[Type_StatusEffectData.VoidGauntlet_Disintegrate.BaseDuration]} s avec les deux armes ({[ArtifactsAbilityTable.GlobalPerk_Artifact_Set1_VoidGauntlet.ActivationCooldown]} s de temps de recharge). Les dégâts de votre arme se basent sur la dextérité si elle est supérieure.</string>
 	<string key="PerkID_Artifact_Set1_Blunderbuss_Name">Enchantement vicié</string>
-	<string key="PerkID_Artifact_Set1_Blunderbuss_Desc">Les attaques des deux armes contre les cibles leur infligent un cumul de poison et une réduction de l'efficacité de soins prodigués et reçus de {[Type_StatusEffectData.Status_Perk_Artifact_Set1_BlunderbussPerk.HealthModifierDamageBased * -100]} % par cumul pendant {[Type_StatusEffectData.Status_Perk_Artifact_Set1_BlunderbussPerk.BaseDuration]} s (cumulable {[Type_StatusEffectData.Status_Perk_Artifact_Set1_BlunderbussPerk.StackMax]} fois).</string>
+	<string key="PerkID_Artifact_Set1_Blunderbuss_Desc">Les attaques des deux armes contre les cibles leur infligent un cumul de poison et une réduction de l'efficacité de soins reçus de {[Type_StatusEffectData.Status_Perk_Artifact_Set1_BlunderbussPerk.HealScalingValueMultiplier * -100]} % par cumul et des soins prodigués de {[Type_StatusEffectData.Status_Perk_Artifact_Set1_BlunderbussPerk.HealScalingValueMultiplier * -100]} % par cumul pendant {[Type_StatusEffectData.Status_Perk_Artifact_Set1_BlunderbussPerk.BaseDuration]} s (cumulable {[Type_StatusEffectData.Status_Perk_Artifact_Set1_BlunderbussPerk.StackMax]} fois).</string>
 	<string key="PerkID_Artifact_Set1_BlunderbussPerk_Name">Peste</string>
 	<string key="PerkID_Artifact_Set1_BlunderbussPerk_Desc">{[ArtifactsAbilityTable.GlobalPerk_Artifact_Set1_BlunderbussPerk.BaseDamage * 100]} % de dégâts contre les cibles empoisonnées et malades.</string>
 	<string key="PerkID_Artifact_Set1_Greatsword_Name">Lame équilibrée</string>
