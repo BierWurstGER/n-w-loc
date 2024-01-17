@@ -142,7 +142,7 @@
 	<string key="HempSmallT5_DisplayName">Fibra intrecciante</string>
 	<string key="HempMediumT5_DisplayName">Fibra intrecciante</string>
 	<string key="HempLargeT5_DisplayName">Fibra intrecciante</string>
-	<string key="HempSmallT52_DisplayName" rel_version="Territory_FirstLight">Fibra vitaspina</string>
+	<string key="HempSmallT52_DisplayName" rel_version="Territory_FirstLight">Filato</string>
 	<string key="HempMediumT52_DisplayName" rel_version="Territory_FirstLight">Filato</string>
 	<string key="HempLargeT52_DisplayName" rel_version="Territory_FirstLight">Filato</string>
 	<string key="FarmAzalea_DisplayName">Rododendro coltivato</string>
@@ -394,6 +394,7 @@
 	<string key="LootContainer_StoneTomb_DisplayName">Prendi offerte sepolcrali</string>
 	<string key="LootContainer_AnubianStoneTomb_DisplayName">Prendi offerte antiche</string>
 	<string key="LootContainer_WeaponPile_DisplayName">Cumulo di armi</string>
+	<string key="LootContainer_Throne_DisplayName">Scorte del trono</string>
 	<string key="Item_PotionHealT1_DisplayName">Tintura curativa distillata</string>
 	<string key="Item_ClothT2_DisplayName">Stracci</string>
 	<string key="Darkness_Monolith_DisplayName">Monolite corrotto</string>
@@ -796,19 +797,8 @@
 	<string key="AnubianBrute_Base_DisplayName" rel_version="Territory_Brimstone_Sands">Automa di Anubi</string>
 	<string key="AnubianPanther_Base_DisplayName" rel_version="Territory_Brimstone_Sands">Automa di sfinge</string>
 	<string key="16BS_LootContainer_Elite_LegionStoneTomb_DisplayName" rel_version="Territory_Brimstone_Sands">Offerte sepolcrali élite</string>
-	<string key="WinterConv_Settlement_Tree_Master_DisplayName" rel_version="Event_WinterConvergence_Temp">Albero della luce</string>
-	<string key="WinterConv_Settlement_Tree_Master_Description" rel_version="Event_WinterConvergence_Temp">Completa i progetti cittadini per aumentare la bellezza e le ricompense ottenibili grazie all'Albero della luce!</string>
-	<string key="WinterConv_SettlementTree_T1_DisplayName" rel_version="Event_WinterConvergence_Temp">Mucchio di doni abbandonati</string>
-	<string key="WinterConv_SettlementTree_T2_DisplayName" rel_version="Event_WinterConvergence_Temp">Mucchio di doni magnifici</string>
-	<string key="WinterConv_SettlementTree_T3_DisplayName" rel_version="Event_WinterConvergence_Temp">Mucchio di doni pregiati</string>
-	<string key="WinterConv_Gleamite_Chunk_DisplayName" rel_version="Event_WinterConvergence_Temp">Blocco di brillantite</string>
-	<string key="WinterConv_Gleamite_Shard_DisplayName" rel_version="Event_WinterConvergence_Temp">Brillantite</string>
-	<string key="WinterConv_Village_GiftBag_DisplayName" rel_version="Event_WinterConvergence_Temp">Sacco di regali abbondante</string>
-	<string key="WinterConv_Village_GiftBag_Description" rel_version="Event_WinterConvergence_Temp">Raccogli un premio meraviglioso al giorno per festeggiare e partecipare al gaudio della convergenza invernale!</string>
-	<string key="LostPresent00_DisplayName" rel_version="Event_WinterConvergence_Temp">Regalo perduto</string>
-	<string key="LostPresent01_DisplayName" rel_version="Event_WinterConvergence_Temp">Regalo perduto</string>
-	<string key="Season_04_IceGuardian_Icicle_DisplayName" rel_version="Season_4_Trial">Throwable Icicle</string>
-	<string key="Season_04_IceGuardian_BrokenRune_DisplayName" rel_version="Season_4_Trial">Gain Ancient Flame Empowerment</string>
+	<string key="Season_04_IceGuardian_Icicle_DisplayName" rel_version="Season_4_Trial">Ghiacciolo lanciabile</string>
+	<string key="Season_04_IceGuardian_BrokenRune_DisplayName" rel_version="Season_4_Trial">Ottieni il potenziamento della fiamma antica</string>
 	<string key="FM_PVP_War_Camp_Loot_Box_DisplayName">Forziere dell'accampamento di guerra</string>
 	<string key="1130_ArcaneFocus1_DisplayName">Concentrazione arcana</string>
 	<string key="1130_ArcaneFocus2_DisplayName">Concentrazione arcana</string>
@@ -1062,8 +1052,6 @@
 	<string key="16_Side_13_WormSpine_DisplayName" rel_version="Territory_Brimstone_Sands">Raccogli strana spina</string>
 	<string key="NPCRescue_Dryad_DisplayName" rel_version="Quest_MSQ2_Revamp">Libera la driade</string>
 	<string key="Dungeon_BrimstoneSands00_TranslateGlyph" rel_version="Territory_Brimstone_Sands">Attiva il quadro di comandi dei glifi</string>
-	<string key="Yeti_2022_Fortify_Monolith_DisplayName" rel_version="Event_WinterConvergence_Temp">Aura di pietrabrina</string>
-	<string key="Yeti_2022_Empower_Monolith_DisplayName" rel_version="Event_WinterConvergence_Temp">Monolite della forza bestiale</string>
 	<string key="Armadillo_Base_DisplayName" rel_version="Territory_Brimstone_Sands">Armadillo</string>
 	<string key="Rat_Base_DisplayName" rel_version="Territory_Brimstone_Sands">Ratto</string>
 	<string key="HercyneRat_Base_DisplayName" rel_version="Territory_FirstLight">Ratto Ercinio</string>
@@ -1112,7 +1100,7 @@
 	<string key="99B_MSQ_06_MementoPlaceA_DisplayName" rel_version="Quest_MSQ2_Brightwood">Offri il cimelio</string>
 	<string key="99B_MSQ_06_MementoPlaceB_DisplayName" rel_version="Quest_MSQ2_Brightwood">Offri il cimelio</string>
 	<string key="99B_MSQ_06_MementoPlaceC_DisplayName" rel_version="Quest_MSQ2_Brightwood">Offri il cimelio</string>
-	<string key="99B_MSQ_07_BurnCasket_DisplayName" rel_version="Quest_MSQ2_Brightwood">Brucia i cofanetti</string>
+	<string key="99B_MSQ_07_BurnCasket_DisplayName" rel_version="Quest_MSQ2_Brightwood">Brucia le bare</string>
 	<string key="99B_MSQ_07_CleanseDarkness_DisplayName" rel_version="Quest_MSQ2_Brightwood">Rimuovi l'oscurità</string>
 	<string key="99B_MSQ_07_DigMoira_DisplayName" rel_version="Quest_MSQ2_Brightwood">Apri la tomba</string>
 	<string key="99B_MSQ_08_PurificationHerb_DisplayName" rel_version="Quest_MSQ2_Brightwood">Raccogli le erbe purificanti</string>
@@ -1127,9 +1115,9 @@
 	<string key="99B_MSQ_08_AzothTree_DisplayName" rel_version="Quest_MSQ2_Brightwood">Tocca l'albero di Azoth</string>
 	<string key="99B_MSQ_11_BrightwatchHistory_DisplayName" rel_version="Quest_MSQ2_Brightwood">Leggi la storia</string>
 	<string key="Dungeon_GreatCleave_01_GemGather" rel_version="Expedition_GreatCleave_01">Aggregato di amirite</string>
-	<string key="Dungeon_GreatCleave_00_IceGatherA" rel_version="Expedition_GreatCleave_00">Gather Ice Sample</string>
-	<string key="Dungeon_GreatCleave_00_IceGatherB" rel_version="Expedition_GreatCleave_00">Gather Ice Sample</string>
-	<string key="Dungeon_GreatCleave_00_IceGatherC" rel_version="Expedition_GreatCleave_00">Gather Ice Sample</string>
+	<string key="Dungeon_GreatCleave_00_IceGatherA" rel_version="Expedition_GreatCleave_00">Raccogli un campione di ghiaccio</string>
+	<string key="Dungeon_GreatCleave_00_IceGatherB" rel_version="Expedition_GreatCleave_00">Raccogli un campione di ghiaccio</string>
+	<string key="Dungeon_GreatCleave_00_IceGatherC" rel_version="Expedition_GreatCleave_00">Raccogli un campione di ghiaccio</string>
 	<string key="95_s01_05_ChurchFundCabinet" rel_version="Season_1_Perm">Raccogli i fondi</string>
 	<string key="02A_Side08_CoffinA_DisplayName" rel_version="Quest_MSQ2_Brightwood">Apri la porta</string>
 	<string key="95_s01_06_TEMP_SupplyChain_Footprints">Indaga sulle impronte</string>
@@ -1344,54 +1332,54 @@
 	<string key="09FL_BeastGlyphNearby_DisplayName" rel_version="Territory_FirstLight">Un sigillo di un Signore delle Bestie è vicino.</string>
 	<string key="09FL_Jungle_CorpseFlower_DisplayName" rel_version="Territory_FirstLight">Ambrosia degli Elisi</string>
 	<string key="Rafflebones_Portal_FOTB_DisplayName">Evoca Riffossa</string>
-	<string key="95_s04_ReadJournal_gatherable" rel_version="Season_4_Perm">Read Journal</string>
+	<string key="95_s04_ReadJournal_gatherable" rel_version="Season_4_Perm">Leggi il diario</string>
 	<string key="Halloween_Basket_Candy_DisplayName">Raccogli dolcetti</string>
 	<string key="98_S_Q5_RelicPileIO_DisplayName">Reliquie antiche</string>
 	<string key="98_M_Q5_GoldStashIO_DisplayName">Forziere del labirinto</string>
-	<string key="95_S04_Q2_Buildfire_A_DisplayName" rel_version="Season_4_Perm">Build the Earth Seal</string>
-	<string key="95_S04_Q2_Buildfire_B_DisplayName" rel_version="Season_4_Perm">Build the Water Seal</string>
-	<string key="95_S04_Q2_Buildfire_C_DisplayName" rel_version="Season_4_Perm">Build the Fire Seal</string>
-	<string key="95_S04_Q2_Buildfire_D_DisplayName" rel_version="Season_4_Perm">Build the Wind Seal</string>
-	<string key="95_S04_Q2_CollectWood_DisplayName" rel_version="Season_4_Perm">Spirit Wood</string>
-	<string key="95_s04_03_Boat_DisplayName" rel_version="Season_4_Perm">Use Boat</string>
+	<string key="95_S04_Q2_Buildfire_A_DisplayName" rel_version="Season_4_Perm">Costruisci il sigillo della terra</string>
+	<string key="95_S04_Q2_Buildfire_B_DisplayName" rel_version="Season_4_Perm">Costruisci il sigillo dell'acqua</string>
+	<string key="95_S04_Q2_Buildfire_C_DisplayName" rel_version="Season_4_Perm">Costruisci il sigillo del fuoco</string>
+	<string key="95_S04_Q2_Buildfire_D_DisplayName" rel_version="Season_4_Perm">Costruisci il sigillo del vento</string>
+	<string key="95_S04_Q2_CollectWood_DisplayName" rel_version="Season_4_Perm">Legno spirituale</string>
+	<string key="95_s04_03_Boat_DisplayName" rel_version="Season_4_Perm">Usa la barca</string>
 	<string key="95_s04_03_round1_selectRook_DisplayName" rel_version="Season_4_Perm">Seleziona la torre</string>
-	<string key="95_s04_03_round1_selectQueen_DisplayName" rel_version="Season_4_Perm">Select Queen</string>
-	<string key="95_s04_03_round1_selectPawn_DisplayName" rel_version="Season_4_Perm">Select Pawn</string>
-	<string key="95_s04_03_round1_moveRook_f1_DisplayName" rel_version="Season_4_Perm">Take Knight with Rook</string>
-	<string key="95_s04_03_round1_moveRook_d1_DisplayName" rel_version="Season_4_Perm">Capture Knight with Rook</string>
-	<string key="95_s04_03_round1_moveQueen_f1_DisplayName" rel_version="Season_4_Perm">Capture Knight with Queen</string>
-	<string key="95_s04_03_round1_moveQueen_g1_DisplayName" rel_version="Season_4_Perm">Move Queen to threaten King</string>
-	<string key="95_s04_03_round1_moveQueen_g2_DisplayName" rel_version="Season_4_Perm">Capture Bishop with Queen</string>
-	<string key="95_s04_03_round1_movePawn_h5_DisplayName" rel_version="Season_4_Perm">Move Pawn forward</string>
-	<string key="95_s04_03_round2_moveQueen_f1_DisplayName" rel_version="Season_4_Perm">Take Bishop with Queen</string>
-	<string key="95_s04_03_round2_moveQueen_g1_DisplayName" rel_version="Season_4_Perm">Move Queen to threaten King</string>
-	<string key="95_s04_03_round2_moveQueen_h2_DisplayName" rel_version="Season_4_Perm">Capture Pawn with Queen</string>
-	<string key="95_s04_03_Icewall_DisplayName" rel_version="Season_4_Perm">Ice Wall</string>
-	<string key="95_s04_03_Castledoor_DisplayName" rel_version="Season_4_Perm">Castle Door</string>
+	<string key="95_s04_03_round1_selectQueen_DisplayName" rel_version="Season_4_Perm">Seleziona la regina</string>
+	<string key="95_s04_03_round1_selectPawn_DisplayName" rel_version="Season_4_Perm">Seleziona il pedone</string>
+	<string key="95_s04_03_round1_moveRook_f1_DisplayName" rel_version="Season_4_Perm">Prendi il cavallo con la torre</string>
+	<string key="95_s04_03_round1_moveRook_d1_DisplayName" rel_version="Season_4_Perm">Cattura il cavallo con la torre</string>
+	<string key="95_s04_03_round1_moveQueen_f1_DisplayName" rel_version="Season_4_Perm">Cattura il cavallo con la regina</string>
+	<string key="95_s04_03_round1_moveQueen_g1_DisplayName" rel_version="Season_4_Perm">Muovi la regina per minacciare il re</string>
+	<string key="95_s04_03_round1_moveQueen_g2_DisplayName" rel_version="Season_4_Perm">Cattura l'alfiere con la regina</string>
+	<string key="95_s04_03_round1_movePawn_h5_DisplayName" rel_version="Season_4_Perm">Muovi il pedone in avanti</string>
+	<string key="95_s04_03_round2_moveQueen_f1_DisplayName" rel_version="Season_4_Perm">Prendi l'alfiere con la regina</string>
+	<string key="95_s04_03_round2_moveQueen_g1_DisplayName" rel_version="Season_4_Perm">Muovi la regina per minacciare il re</string>
+	<string key="95_s04_03_round2_moveQueen_h2_DisplayName" rel_version="Season_4_Perm">Cattura il pedone con la regina</string>
+	<string key="95_s04_03_Icewall_DisplayName" rel_version="Season_4_Perm">Muro di ghiaccio</string>
+	<string key="95_s04_03_Castledoor_DisplayName" rel_version="Season_4_Perm">Porta del castello</string>
 	<string key="99E_Motherwell_MSQ_PlaceStaff_DisplayName" rel_version="Quest_MSQ2_Edengrove">Posiziona la testa del bastone corrotta</string>
 	<string key="99E_Motherwell_MSQ_PurifyStaff_DisplayName" rel_version="Quest_MSQ2_Edengrove">Attira la Corruzione</string>
 	<string key="99E_Motherwell_MSQ_FinalStaff_DisplayName" rel_version="Quest_MSQ2_Edengrove">Elimina la Corruzione</string>
 	<string key="Turkey_ChameleonNest_DisplayName" rel_version="Territory_FirstLight">Nido di camaleonte</string>
 	<string key="Turkey_LizardEgg_DisplayName" rel_version="Territory_FirstLight">Uovo di lucertola gigante</string>
-	<string key="95_S04_Q2_Cyclic_Bonfire_1_DisplayName" rel_version="Season_4_Perm">Launch at Water Seal</string>
-	<string key="95_S04_Q2_Cyclic_Bonfire_2_DisplayName" rel_version="Season_4_Perm">Launch at Earth Seal</string>
-	<string key="95_S04_Q2_Cyclic_Bonfire_3_DisplayName" rel_version="Season_4_Perm">Launch at Wind Seal</string>
-	<string key="95_S04_Q2_Cyclic_Bonfire_4_DisplayName" rel_version="Season_4_Perm">Launch at Fire Seal</string>
-	<string key="95_S04_Q2_ShootRocket_DisplayName" rel_version="Season_4_Perm">Launch Rocket</string>
+	<string key="95_S04_Q2_Cyclic_Bonfire_1_DisplayName" rel_version="Season_4_Perm">Lancia un sigillo dell'acqua</string>
+	<string key="95_S04_Q2_Cyclic_Bonfire_2_DisplayName" rel_version="Season_4_Perm">Lancia un sigillo della terra</string>
+	<string key="95_S04_Q2_Cyclic_Bonfire_3_DisplayName" rel_version="Season_4_Perm">Lancia un sigillo del vento</string>
+	<string key="95_S04_Q2_Cyclic_Bonfire_4_DisplayName" rel_version="Season_4_Perm">Lancia un sigillo del fuoco</string>
+	<string key="95_S04_Q2_ShootRocket_DisplayName" rel_version="Season_4_Perm">Lancia razzo</string>
 	<string key="14_SQ_02_BadStatue" rel_version="Quest_Supplement_Edengrove">Distruggi la scultura</string>
-	<string key="95_s04_MordredCinematic2D_DisplayName" rel_version="Season_4_Temp">Read Letter</string>
-	<string key="95_S04_03_RescueElsa_DisplayName" rel_version="Season_4_Temp">Thaw Explorer</string>
-	<string key="95_S04_03_RescueShen_DisplayName" rel_version="Season_4_Temp">Thaw Soldier</string>
-	<string key="95_S04_03_ChessExitKey_DisplayName" rel_version="Season_4_Temp">Retrieve Gem</string>
-	<string key="95_S04_03_SlotChessExitKey_DisplayName" rel_version="Season_4_Temp">Place Gem</string>
-	<string key="95_S04_05_WinterRune_DisplayName" rel_version="Season_4_Temp">Retrieve Rune</string>
-	<string key="95_S04_06_FirstRune_DisplayName" rel_version="Season_4_Temp">Capture Rune</string>
-	<string key="95_S04_06_SecondRune_DisplayName" rel_version="Season_4_Temp">Get Rune</string>
-	<string key="95_S04_04_DestroyWall_DisplayName" rel_version="Season_4_Temp">Destroy Wall</string>
-	<string key="95_s04_06_lizardStatues_DisplayName" rel_version="Season_4_Temp">Rotate Statue</string>
-	<string key="95_s04_04_TP_DoorInteract" rel_version="Season_4_Temp">Enter Door</string>
-	<string key="95_s04_04_MageDoor_DisplayName" rel_version="Season_4_Temp">Touch Orb</string>
-	<string key="S04_Q02_Daichi_Bow_DisplayName" rel_version="Season_4_Perm">Arco</string>
+	<string key="95_s04_MordredCinematic2D_DisplayName" rel_version="Season_4_Temp">Leggi la lettera</string>
+	<string key="95_S04_03_RescueElsa_DisplayName" rel_version="Season_4_Temp">Esploratrice del disgelo</string>
+	<string key="95_S04_03_RescueShen_DisplayName" rel_version="Season_4_Temp">Soldato del disgelo</string>
+	<string key="95_S04_03_ChessExitKey_DisplayName" rel_version="Season_4_Temp">Recupera la gemma</string>
+	<string key="95_S04_03_SlotChessExitKey_DisplayName" rel_version="Season_4_Temp">Posiziona la gemma</string>
+	<string key="95_S04_05_WinterRune_DisplayName" rel_version="Season_4_Temp">Recupera la runa</string>
+	<string key="95_S04_06_FirstRune_DisplayName" rel_version="Season_4_Temp">Cattura la runa</string>
+	<string key="95_S04_06_SecondRune_DisplayName" rel_version="Season_4_Temp">Ottieni la runa</string>
+	<string key="95_S04_04_DestroyWall_DisplayName" rel_version="Season_4_Temp">Distruggi il muro</string>
+	<string key="95_s04_06_lizardStatues_DisplayName" rel_version="Season_4_Temp">Ruota la statua</string>
+	<string key="95_s04_04_TP_DoorInteract" rel_version="Season_4_Temp">Entra dalla porta</string>
+	<string key="95_s04_04_MageDoor_DisplayName" rel_version="Season_4_Temp">Tocca la sfera</string>
+	<string key="S04_Q02_Daichi_Bow_DisplayName" rel_version="Season_4_Perm">Inchino</string>
 	<string key="Gorilla_Boss_Rift_Fire_DisplayName" rel_version="Territory_FirstLight">Glifo del fuoco</string>
 	<string key="Gorilla_Boss_Rift_Ice_DisplayName" rel_version="Territory_FirstLight">Glifo del ghiaccio</string>
 	<string key="Gorilla_Boss_Rift_Nature_DisplayName" rel_version="Territory_FirstLight">Glifo della natura</string>
@@ -1401,5 +1389,22 @@
 	<string key="09FL_HornholdExit" rel_version="Territory_FirstLight">Torna all'avamposto</string>
 	<string key="09FL_BypassHornhold" rel_version="Territory_FirstLight">Torna da Taurus</string>
 	<string key="09FL_HornOfVictory" rel_version="Territory_FirstLight">Corno della vittoria</string>
+	<string key="LNY_tribute_table_01_displayname" rel_version="Event_Lunar_NewYear_Temp">Posiziona il vino secolare</string>
+	<string key="LNY_tribute_table_02_displayname" rel_version="Event_Lunar_NewYear_Temp">Posiziona il tè verde giada</string>
+	<string key="LNY_tribute_table_03_displayname" rel_version="Event_Lunar_NewYear_Temp">Posiziona l'antica pergamena</string>
+	<string key="LNY_tribute_table_04_displayname" rel_version="Event_Lunar_NewYear_Temp">Posiziona il pesce fiorente</string>
+	<string key="LNY_Tribute_Heirloom_01_DisplayName" rel_version="Event_Lunar_NewYear_Temp">Recupera il vino secolare</string>
+	<string key="LNY_Tribute_Heirloom_02_DisplayName" rel_version="Event_Lunar_NewYear_Temp">Recupera il tè verde giada</string>
+	<string key="LNY_Tribute_Heirloom_03_DisplayName" rel_version="Event_Lunar_NewYear_Temp">Recupera l'antica pergamena</string>
+	<string key="LNY_Banquet_Food_01_HotPot_DisplayName" rel_version="Event_Lunar_NewYear2024_Perm">Prepara lo stufato</string>
+	<string key="LNY_Banquet_Food_02_Meat_DisplayName" rel_version="Event_Lunar_NewYear2024_Perm">Prendi la carne alla griglia</string>
+	<string key="LNY_Banquet_Food_03_Rice_DisplayName" rel_version="Event_Lunar_NewYear2024_Perm">Prendi il riso fritto</string>
+	<string key="LNY_Banquet_Food_04_Buns_DisplayName" rel_version="Event_Lunar_NewYear2024_Perm">Prendi il piatto al vapore</string>
+	<string key="LNY_Tribute_Reward_DisplayName" rel_version="Event_Lunar_NewYear2024_Perm">Sintonizzati con la benedizione del drago</string>
+	<string key="LNY_Tribute_Cook_Fish_DisplayName" rel_version="Event_Lunar_NewYear2024_Perm">Accendi il fuoco sotto al wok</string>
+	<string key="LNY_Tribute_Take_Fish_DisplayName" rel_version="Event_Lunar_NewYear2024_Perm">Prendi gli ingredienti</string>
+	<string key="LNY_Corrupted_Core_DisplayName" rel_version="Event_Lunar_NewYear2024_Perm">Distruggi il Nucleo corrotto</string>
+	<string key="LNY_Banquet_Food_05_Fruit_DisplayName" rel_version="Event_Lunar_NewYear2024_Perm">Prendi il piatto di frutta</string>
+	<string key="LNY_Giftsack_Pile_Displayname" rel_version="Event_Lunar_NewYear2024_Perm">Prendi il sacco di regali della fortuna</string>
 </resources>
 

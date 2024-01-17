@@ -63,8 +63,8 @@
 	<string key="tip_overworld_combat_weaponCoatings01-content">Powłoki broni to potężne krótkotrwałe wzmocnienia nakładane na broń w celu uzyskania przewagi nad określonymi grupami wrogów, takimi jak skażeni lub pradawni. Powłoki można też nakładać na broń dystansową i magiczną!</string>
 	<string key="tip_overworld_combat_grit01-title">Determinacja</string>
 	<string key="tip_overworld_combat_grit01-content">Jeśli postać w trakcie ataku świeci się na biało, nie można jej przerwać, chyba że przy użyciu efektów obezwładniających (spowolnienie, uziemienie i ogłuszenie).</string>
-	<string key="tip_overworld_combat_swordAndShield01-title">Miecz i tarcza</string>
-	<string key="tip_overworld_combat_swordAndShield01-content">Statystyki tarczy przynoszą graczowi korzyść tylko w przypadku używania również miecza.</string>
+	<string key="tip_overworld_combat_swordAndShield01-title">Niedobyta tarcza</string>
+	<string key="tip_overworld_combat_swordAndShield01-content">Profity tarczy są aktywne tylko wtedy, gdy jest wyciągnięta.</string>
 	<string key="tip_overworld_combat_rapier01-title">Rapier</string>
 	<string key="tip_overworld_combat_rapier01-content">Zadający szybkie cięcia rapier dobrze współgra z inną bronią opartą na inteligencji, taką jak magiczne laski czy rękawice.</string>
 	<string key="tip_overworld_combat_hatchet01-title">Siekierka</string>
@@ -138,7 +138,7 @@
 	<string key="tip_overworld_equipment_equipmentLoad01-title">Wyposażenie</string>
 	<string key="tip_overworld_equipment_equipmentLoad01-content">Ciężar twojego wyposażenia decyduje o tym, jak wykonujesz unik. LEKKIE wyposażenie umożliwia wyturlanie się z zasięgu niebezpieczeństwa podczas uniku.</string>
 	<string key="tip_overworld_equipment_skins01-title">Skórki przedmiotów</string>
-	<string key="tip_overworld_equipment_skins01-content">To equip a skin, select a weapon or piece of armor in your Inventory and select the "Change Skin" option to equip any skin you own for that item.</string>
+	<string key="tip_overworld_equipment_skins01-content">Aby założyć skórkę, wybierz broń lub element pancerza znajdujący się w twoim ekwipunku, a następnie użyj opcji "Zmień skórkę". Będziesz mieć możliwość założenia dowolnej posiadanej skórki dla danego przedmiotu.</string>
 	<string key="tip_overworld_equipment_dyes01-title">Barwniki</string>
 	<string key="tip_overworld_equipment_dyes01-content">Barwnikami można ufarbować różne części tego samego przedmiotu. Sprawdź różne kombinacje, zanim zdecydujesz się na określoną kolorystykę.</string>
 	<string key="tip_overworld_equipment_rarity01-title">Im praktyczniejszy, tym cenniejszy</string>
@@ -154,7 +154,7 @@
 	<string key="tip_overworld_equipment_repairing01-title">Szybka naprawa i odzysk</string>
 	<string key="tip_overworld_equipment_repairing01-content">Naciśnij przypisany klawisz, by naprawić lub odzyskać przedmiot jednym kliknięciem. [{hint1}] + LPM, by szybko naprawić, lub [{hint2}] + LPM, by szybko odzyskać.</string>
 	<string key="tip_overworld_equipment_lockingItems01-title">Blokowanie przedmiotów</string>
-	<string key="tip_overworld_equipment_lockingItems01-content">Prevent items from being salvaged by selecting the item in your Inventory and choosing "Lock" [{hint1}]. Na zablokowanym przedmiocie pojawi się ikona blokady.</string>
+	<string key="tip_overworld_equipment_lockingItems01-content">Zablokuj przedmioty, aby nie dało się ich odzyskać. Wybierz przedmiot z ekwipunku, a następnie użyj opcji "Zablokuj" [{hint1}]. Na zablokowanym przedmiocie pojawi się ikona blokady.</string>
 	<string key="tip_overworld_factions_types01-title">Syndykat</string>
 	<string key="tip_overworld_factions_types01-content">Sprytni badacze, używający swego intelektu do walki o wiedzę i postęp.</string>
 	<string key="tip_overworld_factions_types02-title">Maruderzy</string>
@@ -216,7 +216,7 @@
 	<string key="tip_overworld_fishing_mechanics04-title">Wędkowanie</string>
 	<string key="tip_overworld_fishing_mechanics04-content">Każda przynęta skraca czas potrzebny do złapania ryby na haczyk.</string>
 	<string key="tip_overworld_fishing_mechanics05-title">Wędkowanie</string>
-	<string key="tip_overworld_fishing_mechanics05-content">Press [{hint1}] to enter Fishing Mode.</string>
+	<string key="tip_overworld_fishing_mechanics05-content">Naciśnij [{hint1}], by rozpocząć wędkowanie.</string>
 	<string key="tip_overworld_fishing_poles01-title">Wędkowanie</string>
 	<string key="tip_overworld_fishing_poles01-content">Im lepsza wędka, tym dalej ją zarzucisz. Ponadto lepsze wędki odznaczają się większą trwałością, szybciej odzyskują naprężenie żyłki i dają większą szansę na złowienie rzadkiej ryby.</string>
 	<string key="tip_overworld_fishing_poles02-title">Wędkowanie</string>
@@ -300,7 +300,7 @@
 	<string key="tip_overworld_movement_compass01-title">Znajdowanie surowców</string>
 	<string key="tip_overworld_movement_compass01-content">Rozwijanie niektórych profesji odblokuje wyższe poziomy śledzenia surowców na twoim kompasie.</string>
 	<string key="tip_overworld_movement_map01-title">Punkty nawigacyjne</string>
-	<string key="tip_overworld_movement_map01-content">If you're headed somewhere specific, open the map [{hint1}] to place a waypoint at your destination. Jego znacznik pojawi się na twoim kompasie.</string>
+	<string key="tip_overworld_movement_map01-content">Jeśli udajesz się w konkretne miejsce, otwórz mapę [{hint1}], by ustawić punkt nawigacyjny. Jego znacznik pojawi się na twoim kompasie.</string>
 	<string key="tip_overworld_movement_lore01-title">Strony z ksiąg</string>
 	<string key="tip_overworld_movement_lore01-content">Nakarm głowę! Czytanie zapisków i stron z ksiąg na temat Aeternum zapewnia PD!</string>
 	<string key="tip_overworld_pings_contextualPings01-title">Komendy</string>
@@ -502,7 +502,7 @@
 	<string key="tip_outpostRush_general02-title">Napad na posterunek</string>
 	<string key="tip_outpostRush_general02-content">Zbieraj nasycone drewno, rudę i skóry, by ulepszać posterunki przez budowanie bram i broni oblężniczej. Zbuduj stanowisko dowodzenia, by twoja drużyna zyskała potężne premie ofensywne i defensywne.</string>
 	<string key="tip_outpostRush_general03-title">Napad na posterunek</string>
-	<string key="tip_outpostRush_general03-content">Używaj kamieni przywołania, by przyzywać potężnych sojuszników w kręgach przywołania. Przyzwij niedźwiedzia, kupując odpowiedni kamień w zbrojowni, albo zyskaj potężnego i brutalnego sojusznika, deponując azoth w skażonym portalu.</string>
+	<string key="tip_outpostRush_general03-content">Używaj kamieni przywołania, by przyzywać potężnych sojuszników w kręgach przywołania. Pokonaj kluczowych wrogów, by zyskać możliwość przyzwania niedźwiedzia i widma albo oczyść skażony portal, by zyskać niesamowicie potężnego sojusznika w postaci brutala.</string>
 	<string key="tip_outpostRush_general04-title">Napad na posterunek</string>
 	<string key="tip_outpostRush_general04-content">Baronowa Hain jest duchem zmarłej dawno temu arystokratki nawiedzającym wyspę. Zgładź ją, by zyskać potężną premię zwiększającą zdolności obronne twojej drużyny i wstrzymującą naliczanie punktów wrogiej drużynie!</string>
 	<string key="tip_pvpArena_general01-title" rel_version="Feature_PVP_Arenas">Przez ogień i płomienie</string>

@@ -30,9 +30,9 @@
 	<string key="ui_fast_travel_error_description_inCooldown_with_time" comment="Fast Travel">Esta acción se está recargando. Puedes regresar en {time}.</string>
 	<string key="ui_fast_travel_error_encumbered" comment="Fast Travel">No puedes regresar ni usar el viaje rápido cuando llevas carga excesiva.</string>
 	<string key="ui_fast_travel_error_inCooldown" comment="Fast Travel">{time}</string>
-	<string key="ui_fast_travel_error_noDestination" comment="Fast Travel">Visit this location first in order to fast travel here.</string>
-	<string key="ui_fast_travel_error_noDestination_outpost" comment="Fast Travel">Visit this location first in order to fast travel here.</string>
-	<string key="ui_fast_travel_error_noDestination_shrine" comment="Fast Travel">Visit this location first in order to fast travel here.</string>
+	<string key="ui_fast_travel_error_noDestination" comment="Fast Travel">Visita esta ubicación para poder usar el viaje rápido.</string>
+	<string key="ui_fast_travel_error_noDestination_outpost" comment="Fast Travel">Visita esta ubicación para poder usar el viaje rápido.</string>
+	<string key="ui_fast_travel_error_noDestination_shrine" comment="Fast Travel">Visita esta ubicación para poder usar el viaje rápido.</string>
 	<string key="ui_fast_travel_failed" comment="Fast Travel">Error al realizar el viaje rápido</string>
 	<string key="ui_fast_travel_mission_abandon_confirm" comment="Fast Travel">AVISO: Si usas el viaje rápido, se reiniciará la carrera por tiempo activa y abandonarás todas las misiones JcJ y de facción.\nSe reiniciará la carrera por tiempo {timedRaceCount} y abandonarás la misión {missionCount}.\n\n¿Quieres continuar?</string>
 	<string key="ui_fast_travel_popup_confirm" comment="Fast Travel">¿Quieres usar el viaje rápido para ir a esta ubicación?</string>
@@ -268,6 +268,6 @@
 	<string key="ui_remove_all_furniture_confirm_title" comment="Remove All Furniture">Quitar todo</string>
 	<string key="ui_remove_all_furniture_confirm_message" comment="Remove All Furniture">Todos los trofeos y muebles de esta casa se llevarán al cobertizo de almacenamiento.</string>
 	<string key="ui_house_remove_all_furniture_confirm_button" comment="Remove All Furniture">Quitar todo</string>
-	<string key="ui_housing_territory_name" comment="UIC 2.0">{territoryName} Housing</string>
+	<string key="ui_housing_territory_name" comment="UIC 2.0">Casa de {territoryName}</string>
 </resources>
 

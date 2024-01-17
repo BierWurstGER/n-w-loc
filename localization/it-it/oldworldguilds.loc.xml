@@ -314,7 +314,7 @@
 	<string key="CMissionAcquireBlock_Name">Richiesti muratori</string>
 	<string key="CMissionAcquireTimber_Name">Richiesti carpentieri</string>
 	<string key="CMissionAcquireCloth_Name">Richiesti tessitori</string>
-	<string key="CMissionAcquireMetal_Name">Richiesti fabbri</string>
+	<string key="CMissionAcquireMetal_Name">Richiesti armaioli</string>
 	<string key="CMissionAcquireFibers_Name">Richiesti mietitori</string>
 	<string key="CMissionAcquireFood_Name">Richiesti cuochi</string>
 	<string key="CMissionAcquirePotions_Name">Richiesti alchimisti</string>
@@ -432,13 +432,13 @@
 	<string key="FactionMission_C_EXPEDITIONLOOT_desc">Addentrati nel territorio di {POITags} per conto del Patto e raccogli ogni &lt;font color="#eaeaea"&gt;{itemName}&lt;/font&gt; che trovi.\n\n &lt;font color="#eaeaea"&gt;(Spedizione)&lt;/font&gt;</string>
 	<string key="FactionMission_ASSASSINATE_title">Ottieni una taglia presso: {POITags}</string>
 	<string key="FactionMission_ASSASSINATE_desc">I Predoni vogliono che tu tolga di mezzo: &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;.\n\nDimostra il tuo valore rintracciando il bersaglio presso {POITags} e distruggendolo.</string>
-	<string key="FactionMission_M_ASSASSINATE_NIGHT_desc">The Marauders need &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; removed from the theater.\n\nProve your valor by tracking them down in {POITags} and destroying them.\n\n&lt;font color="#eaeaea"&gt;Can only be completed at Night.&lt;/font&gt;</string>
+	<string key="FactionMission_M_ASSASSINATE_NIGHT_desc">I Predoni vogliono che tu tolga di mezzo: &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;.\n\nDimostra il tuo valore rintracciando il bersaglio presso {POITags} e distruggendolo.\n\n&lt;font color="#eaeaea"&gt;Si può completare soltanto di notte.&lt;/font&gt;</string>
 	<string key="FactionMission_S_ASSASSINATE_title">Assassina presso: {POITags}</string>
 	<string key="FactionMission_S_ASSASSINATE_desc">L'Unione ha individuato un bersaglio da eliminare: &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;.\n\nDimostra la tua astuzia rintracciandolo presso {POITags} e distruggendolo.</string>
-	<string key="FactionMission_S_ASSASSINATE_NIGHT_desc">The Syndicate has identified &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; to be a target for elimination.\n\nProve your cunning by tracking them down in {POITags} and destroying them.\n\n&lt;font color="#eaeaea"&gt;Can only be completed at Night.&lt;/font&gt;</string>
+	<string key="FactionMission_S_ASSASSINATE_NIGHT_desc">L'Unione ha individuato un bersaglio da eliminare: &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;.\n\nDimostra la tua astuzia rintracciandolo presso {POITags} e distruggendolo.\n\n&lt;font color="#eaeaea"&gt;Si può completare soltanto di notte.&lt;/font&gt;</string>
 	<string key="FactionMission_C_ASSASSINATE_title">Distruggi presso: {POITags}</string>
 	<string key="FactionMission_C_ASSASSINATE_desc">Il Patto ha individuato una minaccia da eliminare: &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;.\n\nDimostra la tua astuzia rintracciandola presso {POITags} e distruggendola.</string>
-	<string key="FactionMission_C_ASSASSINATE_NIGHT_desc">The Covenant has identified &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; to be eliminated.\n\nProve your devotion by tracking them down in {POITags} and destroying them.\n\n&lt;font color="#eaeaea"&gt;Can only be completed at Night.&lt;/font&gt;</string>
+	<string key="FactionMission_C_ASSASSINATE_NIGHT_desc">Il Patto ha individuato una minaccia da eliminare: &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;.\n\nDimostra la tua astuzia rintracciandola presso {POITags} e distruggendola.\n\n&lt;font color="#eaeaea"&gt;Si può completare soltanto di notte.&lt;/font&gt;</string>
 	<string key="FactionMission_ASSASSINATE_ELITE_title">Ottieni una taglia presso: {POITags} (Élite)</string>
 	<string key="FactionMission_ASSASSINATE_ELITE_desc">I Predoni vogliono che tu tolga di mezzo: &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;.\n\nDimostra il tuo valore rintracciando il bersaglio presso {POITags} e distruggendolo.\n&lt;font color="#eaeaea"&gt;(Élite)&lt;/font&gt;</string>
 	<string key="FactionMission_S_ASSASSINATE_ELITE_title">Assassina presso: {POITags} (Élite)</string>
@@ -487,7 +487,7 @@
 	<string key="FactionMission_WARCAMP_LOOT_title">Informazioni nemiche (PvP)</string>
 	<string key="FactionMission_WARCAMP_LOOT_desc">Infiltrati nell'&lt;font color="#eaeaea"&gt;accampamento di guerra&lt;/font&gt; presso il &lt;font color="#eaeaea"&gt;forte di {territoryID}&lt;/font&gt; e cerca preziose informazioni.</string>
 	<string key="FactionMission_CONTROL_POINT_title">Conquista (PvP)</string>
-	<string key="FactionMission_CONTROL_POINT_desc">Take up arms to help the Marauders take control of the &lt;font color="#eaeaea"&gt;Fort&lt;/font&gt; or an &lt;font color="#eaeaea"&gt;Influence Watch&lt;/font&gt; (during Influence Races) at &lt;font color="#eaeaea"&gt;{territoryID}&lt;/font&gt;\n\n(This mission may not be completable at all times)</string>
+	<string key="FactionMission_CONTROL_POINT_desc">Scendi in battaglia per aiutare i Predoni a prendere il controllo del &lt;font color="#eaeaea"&gt;forte&lt;/font&gt; o di un &lt;font color="#eaeaea"&gt;punto di vedetta di influenza&lt;/font&gt; (durante le Gare di influenza) presso &lt;font color="#eaeaea"&gt;{territoryID}&lt;/font&gt;\n\n(Questa missione potrebbe non essere sempre disponibile)</string>
 	<string key="FactionMission_S_WARCAMP_LOOT_title">Ricognizione nemica (PvP)</string>
 	<string key="FactionMission_S_WARCAMP_LOOT_desc">Infiltrati nell'&lt;font color="#eaeaea"&gt;accampamento di guerra&lt;/font&gt; presso il &lt;font color="#eaeaea"&gt;forte di {territoryID}&lt;/font&gt; e cerca preziose informazioni.</string>
 	<string key="FactionMission_S_CONTROL_POINT_title">Acquisisci (PvP)</string>
@@ -554,17 +554,6 @@
 	<string key="CMissionAcquireWoodWorker">Procurati e consegna: &lt;font color="#eaeaea"&gt;{itemName} (x{itemAmount})&lt;/font&gt; presso una falegnameria.</string>
 	<string key="CMissionAcquireOutfitter">Procurati e consegna: &lt;font color="#eaeaea"&gt;{itemName} (x{itemAmount})&lt;/font&gt; presso una postazione di accessoristica.</string>
 	<string key="CMissionAcquireEngineer">Procurati e consegna: &lt;font color="#eaeaea"&gt;{itemName} (x{itemAmount})&lt;/font&gt; presso un laboratorio.</string>
-	<string key="CMissionAcquireBlock_Name_WC" rel_version="Event_WinterConvergence_Temp">Richiesti muratori festivi</string>
-	<string key="CMissionAcquireTimber_Name_WC" rel_version="Event_WinterConvergence_Temp">Richiesti carpentieri festivi</string>
-	<string key="CMissionAcquireCloth_Name_WC" rel_version="Event_WinterConvergence_Temp">Richiesti tessitori festivi</string>
-	<string key="CMissionAcquireMetal_Name_WC" rel_version="Event_WinterConvergence_Temp">Richiesti fabbri festivi</string>
-	<string key="CMissionAcquireFibers_Name_WC" rel_version="Event_WinterConvergence_Temp">Richiesti mietitori festivi</string>
-	<string key="CMissionAcquireFood_Name_WC" rel_version="Event_WinterConvergence_Temp">Richiesti cuochi festivi</string>
-	<string key="CMissionAcquirePotions_Name_WC" rel_version="Event_WinterConvergence_Temp">Richiesti alchimisti festivi</string>
-	<string key="CMissionAcquireGeneric_Name_WC" rel_version="Event_WinterConvergence_Temp">Richieste provviste festive</string>
-	<string key="CMissionAcquireWood_Name_WC" rel_version="Event_WinterConvergence_Temp">Richiesti taglialegna festivi</string>
-	<string key="CMissionAcquireRawhide_Name_WC" rel_version="Event_WinterConvergence_Temp">Richiesti cacciatori festivi</string>
-	<string key="CMissionAcquireLeather_Name_WC" rel_version="Event_WinterConvergence_Temp">Richiesti conciatori festivi</string>
 	<string key="ui_already_in_faction">Sei già in questa fazione</string>
 	<string key="ui_cant_switch_faction_pvp">Non puoi cambiare fazione mentre è attivo il PvP</string>
 	<string key="ui_cant_switch_faction_azoth">Azoth insufficiente</string>

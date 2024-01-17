@@ -81,8 +81,11 @@
 	<string key="@ui_faction_store_discount_modifier_desc">Disminuye el coste de los objetos de la tienda de facción en {value}.</string>
 	<string key="@ui_free_camping_desc">Los campamentos ya no cuestan recursos.</string>
 	<string key="@ui_chance_consumable_not_used_desc">Aumenta la posibilidad de que un consumible no se consuma al ser utilizado en {value}.</string>
+	<string key="@ui_fcp_crowdcontrol_title">Control de multitudes</string>
 	<string key="@ui_fcp_crowdcontrol_qualified_warning">Hay demasiados jugadores activos o de tu facción en la zona del punto de control de la facción. Teletransportación en {TeleportSeconds} segundos.</string>
 	<string key="@ui_fcp_crowdcontrol_unqualified_warning">Hay demasiados jugadores en la zona del punto de control de la facción. Teletransportación en {TeleportSeconds} segundos.</string>
+	<string key="@ui_fcp_crowdcontrol_banner_warning">Hay demasiados jugadores cerca del punto de control de la facción. Abandona la zona o se te teletransportará.\n\n&lt;font color="#EDC63E"&gt;Teletransportación en {TeleportSeconds} segundos.&lt;/font&gt;</string>
+	<string key="@ui_fcp_crowdcontrol_banner_teleported">Había demasiados jugadores activos o de tu facción en la zona del punto de control de la facción. Se te ha teletransportado al asentamiento más cercano.</string>
 	<string key="@ui_fcp_fast_travel_discounts_title">Descuentos de control de facción</string>
 	<string key="@ui_fcp_faction_mission_bonus_label">(+{value} de PCF)</string>
 </resources>

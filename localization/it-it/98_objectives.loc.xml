@@ -120,7 +120,7 @@
 	<string key="Covenant_DeclineRecruitment_Prompt" speaker="UI" rel_version="Quest_MSQ2_Revamp">"Grazie, ma sto ancora valutando la cosa."</string>
 	<string key="Covenant_DeclineRecruitment_Response" speaker="Lumen Beyza" name="LumenBeyza" VO_Status="Not Recorded" rel_version="Quest_MSQ2_Revamp">Capisco. È una scelta importante. Se dovessi decidere di unirti a noi ti basterà farmelo sapere.\n\nSo che anche Florina sarebbe felice di incontrarti di nuovo.\n\n(Per unirti a questa fazione, parla di nuovo con questa rappresentante. Se fai già parte di un'altra fazione, ora puoi cambiare fazione dalla schermata Biografia.)</string>
 	<string key="FM_TimeTrial_Gimmick_Objective_Title" speaker="UI" rel_version="Territory_FirstLight">Prova a tempo dell'Azoth</string>
-	<string key="FM_TimeTrial_Gimmick_Objective_Description" speaker="UI" rel_version="Territory_FirstLight">Complete the Azoth Time Trial.</string>
+	<string key="FM_TimeTrial_Gimmick_Objective_Description" speaker="UI" rel_version="Territory_FirstLight">Completa la Prova del tempo di Azoth.</string>
 	<string rel_version="Quest_MSQ2_Revamp" xsi:nil="true"/>
 	<string rel_version="Quest_MSQ2_Revamp" xsi:nil="true"/>
 	<string key="9809_CovenantGuard_Default" VO="9809_CovenantGuard_Default" rel_version="Quest_MSQ2_Revamp">Non perdere la tua determinazione!</string>
@@ -255,6 +255,7 @@
 	<string key="9808_Cleo_00_Default" speaker="Cleo Elsayad" name="CleoElsayad" VO="9808_Cleo_00_Default" VO_Status="Recorded" rel_version="Quest_MSQ2_Revamp">Per favore, fatti da parte. Ho molti problemi da risolvere. \n\nGli Scrivani sono sempre entusiasti di sfidare potenziali neofiti, se stai cercando lavoro.</string>
 	<string key="9807_Aventus_00_01" speaker="Aventus Valenti" name="AventusValenti" VO="9807_Aventus_00_01" VO_Status="Recorded" rel_version="Quest_MSQ2_Revamp">Per favore, per favore, vieni! Sembri in gamba e l'Unione potrebbe compensarti per il tuo tempo. \n\nVedo che sei qui da poco. Aiutami, e forse potrò illuminare l'oscurità con un po' di luce.</string>
 	<string key="FactionIntro_Syndicate_01_Title" speaker="UI - Journal - Quest Title" rel_version="Quest_MSQ2_Revamp">Fusioni volatili, follie zannute</string>
+	<string key="FactionIntro_Syndicate_01_Title_Description" speaker="UI - Journal - Quest Description" rel_version="Quest_MSQ2_Revamp">Distruggi i lupi per Aventus e incontralo all'Enclave.</string>
 	<string key="FactionIntro_Syndicate_01_Description" speaker="UI - Journal - Quest Description" rel_version="Quest_MSQ2_Revamp">Missione di iniziazione dell'Unione: Aventus ti ha assunto per attirare i lupi alterati nella Tana di mezzanotte e distruggerli. Quando avrai finito, incontrati con lui all'Enclave dell'Unione a nord-est.</string>
 	<string key="FactionIntro_Syndicate_01_StartPrompt" speaker="UI - Player Prompt" rel_version="Quest_MSQ2_Revamp">"Offri conoscenza?"</string>
 	<string key="FactionIntro_Syndicate_01_Proposal" speaker="Aventus Valenti" name="AventusValenti" VO="FactionIntro_Syndicate_01_Proposal" VO_Status="Recorded" dialogue-next="@FactionIntro_Syndicate_01_Proposal_next" rel_version="Quest_MSQ2_Revamp">Sì, e del tipo più prezioso, se mi aiuterai! \n\nVedi, ho testato delle esche alchemiche sui lupi locali. I risultati sono stati promettenti, finché uno dei lupi non ha consumato l'esca... ed è cresciuto sia in dimensioni che in ferocia.</string>
@@ -769,8 +770,8 @@
 	<string key="0209b_00_Adjudicator_DefaultDialogue" speaker="Adjudicator Delgado - Everfall Enclave" name="AdjudicatorDelgado" VO_Status="Needs Recording" rel_version="Quest_FactionTrial_Update">Quando ti avvicini riesco a vedere le ombre diradarsi. C'è una scintilla che brilla dentro di te. Il Patto può aiutarti a nutrire il fuoco che arde in te!</string>
 	<string key="0209b_01pre_Adjudicator_DefaultDialogue" speaker="Adjudicator Delgado - Everfall Enclave" name="AdjudicatorDelgado" VO_Status="Needs Recording" rel_version="Quest_FactionTrial_Update">Su quest'isola c'è molta oscurità. Devi essere la luce della virtù per coloro i quali si trovano in pericolo.\n\n[Per le missioni della fazione a Boscobrillante è richiesto il livello 24]</string>
 	<string key="0209b_01_Adjudicator_DefaultDialogue" speaker="Adjudicator Delgado - Everfall Enclave" name="AdjudicatorDelgado" VO_Status="Needs Recording" rel_version="Quest_FactionTrial_Update">Su quest'isola c'è molta oscurità. Devi essere la luce della virtù per coloro i quali si trovano in pericolo.</string>
-	<string key="FM_98_TravelToPOI_GT" speaker="UI" rel_version="Season_4_Perm">Enter Glacial Tarn</string>
-	<string key="FM_98_KillQuest_GT" speaker="UI" rel_version="Season_4_Perm">Defeat {targetName} in Glacial Tarn</string>
-	<string key="FM_98_ObjectiveLootChest_GT" speaker="UI" rel_version="Season_4_Perm">Loot chests in Glacial Tarn</string>
+	<string key="FM_98_TravelToPOI_GT" speaker="UI" rel_version="Season_4_Perm">Entra nel Lago congelato</string>
+	<string key="FM_98_KillQuest_GT" speaker="UI" rel_version="Season_4_Perm">Sconfiggi {targetName} nel Lago congelato</string>
+	<string key="FM_98_ObjectiveLootChest_GT" speaker="UI" rel_version="Season_4_Perm">Svuota i forzieri nel Lago congelato</string>
 </resources>
 

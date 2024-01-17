@@ -16,7 +16,7 @@
 	<string key="ui_termsnotice_desc">Wyświetl regulamin w oknie przeglądarki.</string>
 	<string key="ui_visual">Opcje wizualne</string>
 	<string key="ui_section_language">Język</string>
-	<string key="ui_section_camera">Klawiatura i mysz – kamera</string>
+	<string key="ui_section_camera">Kamera</string>
 	<string key="ui_section_gameplay">Rozgrywka</string>
 	<string key="ui_section_hud">HUD</string>
 	<string key="ui_section_healing">Leczenie</string>
@@ -33,10 +33,10 @@
 	<string key="ui_section_group">Więcej opcji</string>
 	<string key="ui_voicechatsettings">Czat głosowy</string>
 	<string key="ui_openvoicechatsettings">Wyświetl ustawienia czatu głosowego</string>
-	<string key="ui_invertlook">Odwróć kamerę</string>
-	<string key="ui_invertlook_desc">Wybierz, czy odwrócić oś pionową podczas używania klawiatury i myszy</string>
-	<string key="ui_looksensitivity">Czułość kamery</string>
-	<string key="ui_looksensitivity_desc">Ustaw szybkość poruszania się kamery</string>
+	<string key="ui_invertlook">Odwróć kamerę [mysz/klawiatura]</string>
+	<string key="ui_invertlook_desc">Wybierz, czy odwrócić oś pionową podczas używania myszy i klawiatury</string>
+	<string key="ui_looksensitivity">Czułość kamery [mysz/klawiatura]</string>
+	<string key="ui_looksensitivity_desc">Ustaw szybkość poruszania się kamery podczas używania myszy i klawiatury</string>
 	<string key="ui_window_mode">Tryb okna</string>
 	<string key="ui_window_mode_desc">Ustaw tryb wyświetlania gry w oknie</string>
 	<string key="ui_fullscreen">Pełny ekran</string>
@@ -239,9 +239,9 @@
 	<string key="ui_options_TwitchSubArmy_desc">Ustaw, czy umożliwiać dołączanie do streamerów lub werbowanie subskrybentów i obserwujących na Twitchu do własnej grupy lub kompanii</string>
 	<string key="ui_textSize">Wielkość tekstu</string>
 	<string key="ui_textSize_desc">Ustaw rozmiar tekstu na tabliczkach z imionami i w podpowiedziach działań</string>
-	<string key="ui_diegeticPinSize">Rozmiar przypiętej pomocy do zadań</string>
+	<string key="ui_diegeticPinSize">Rozmiar przypiętej pomocy przy zadaniach</string>
 	<string key="ui_diegeticPinSize_desc">Ustaw rozmiar przypiętej pomocy przy zadaniach</string>
-	<string key="ui_diegeticPinOpacity">Przezroczystość przypiętej pomocy do zadań</string>
+	<string key="ui_diegeticPinOpacity">Przezroczystość przypiętej pomocy przy zadaniach</string>
 	<string key="ui_diegeticPinOpacity_desc">Ustaw przezroczystość przypiętej pomocy przy zadaniach</string>
 	<string key="ui_section_map">Mapa</string>
 	<string key="ui_options_map">Automatyczne przybliżenie</string>
@@ -250,12 +250,12 @@
 	<string key="ui_options_textSize_bigger">Większa</string>
 	<string key="ui_cameraShake">Drganie kamery</string>
 	<string key="ui_cameraShake_desc">Włącz lub wyłącz drganie kamery – dla niektórych graczy drganie kamery może być dezorientujące</string>
-	<string key="ui_strafeCamera">Zawsze idź bokiem</string>
-	<string key="ui_strafeCamera_desc">Ustaw, czy postać jest zawsze zwrócona w tym samym kierunku, co kamera</string>
+	<string key="ui_strafeCamera">Swobodny ruch [mysz/klawiatura]</string>
+	<string key="ui_strafeCamera_desc">Postać obraca się w kierunku, w którym się porusza, podczas używania myszy i klawiatury</string>
 	<string key="ui_alwaysShowReticle">Zawsze pokazuj celownik</string>
 	<string key="ui_alwaysShowReticle_desc">Ustaw, czy celownik ma być widoczny nawet wtedy, gdy broń jest schowana</string>
 	<string key="ui_toggleblockads">Przełącz celowanie i blok</string>
-	<string key="ui_toggleblockads_desc">Ustaw, czy włączać i wyłączać celowanie lub blok, naciskając przycisk</string>
+	<string key="ui_toggleblockads_desc">Ustaw, czy włączać i wyłączać celowanie lub blok przez naciśnięcie przycisku zamiast przez przytrzymanie</string>
 	<string key="ui_enable_ally_team_color_tinting">Kolor sojuszniczej drużyny</string>
 	<string key="ui_enable_enemy_team_color_tinting">Kolor wrogiej drużyny</string>
 	<string key="ui_enable_ally_team_color_tinting_desc">Ustaw, czy oznaczać kolorem sojuszników w różnych trybach gry</string>
@@ -301,23 +301,25 @@
 	<string key="ui_analyticsenabled_desc">Ustaw, czy chcesz wysyłać do zespołu New World pewne dane telemetryczne klienta związane z Twoimi doświadczeniami i ustawieniami w grze (jeśli doświadczasz problemów sieciowych podczas rozgrywki, wyłączenie tego ustawienia może pomóc)</string>
 	<string key="ui_leaderboardenabled" rel_version="Feature_Leaderboards">Weź udział w klasyfikacji rankingowej</string>
 	<string key="ui_leaderboardenabled_desc" rel_version="Feature_Leaderboards">Ustaw, czy wyświetlać imię twojej postaci w rankingu i włączyć nagrody za ranking</string>
-	<string key="ui_enable_camera_lock">Celowane leczenie</string>
-	<string key="ui_enable_camera_lock_description">Włącz lub wyłącz system celowanego leczenia</string>
+	<string key="ui_enable_targeted_healing">Celowane leczenie</string>
+	<string key="ui_enable_targeted_healing_description">Włącz lub wyłącz system celowanego leczenia</string>
 	<string key="ui_enable_camera_lock_friendlies">Zablokuj kamerę na sojusznikach</string>
 	<string key="ui_enable_camera_lock_friendlies_description">Ustaw, czy chcesz namierzać sojuszników, by następnie ich uleczyć</string>
-	<string key="ui_enable_camera_lock_target_follow">Swobodna kamera</string>
-	<string key="ui_enable_camera_lock_target_follow_description">Włącz lub wyłącz swobodne poruszanie kamerą po namierzeniu celu (wyłącz tę opcję, by kamera podążała za aktywnym celem)</string>
+	<string key="ui_enable_camera_lock_target_follow">Podążanie kamery za namierzonym celem</string>
+	<string key="ui_enable_camera_lock_target_follow_description">Zdecyduj, czy kamera ma podążać za namierzonym celem (wyłącz tę opcję, by móc swobodnie poruszać kamerą po namierzeniu celu)</string>
 	<string key="ui_enable_camera_lock_retarget">Zmiana celu kamerą</string>
-	<string key="ui_enable_camera_lock_retarget_description">Włącz lub wyłącz zmianę aktywnego celu za pomocą kamery (działa tylko wtedy, gdy swobodna kamera jest wyłączona)</string>
+	<string key="ui_enable_camera_lock_retarget_description">Włącz lub wyłącz zmianę aktywnego celu za pomocą kamery (działa tylko wtedy, gdy podążanie kamery za namierzonym celem jest włączone)</string>
 	<string key="ui_enable_camera_lock_sticky_lock">Trwałe namierzenie</string>
 	<string key="ui_enable_camera_lock_sticky_lock_description">Włącz lub wyłącz dalsze namierzanie celu po przeprowadzeniu leczenia</string>
 	<string key="ui_enable_camera_lock_group_mode">Tryb grupowy</string>
-	<string key="ui_enable_camera_lock_group_mode_description">Włącz lub wyłącz tryb grupowy, podczas którego można się przełączać pomiędzy członkami grupy za pomocą środkowego kółka myszy (ta opcja nie działa podczas rajdu, w którym włączone jest namierzanie podczas rajdu za pomocą grup i klawiszy)</string>
+	<string key="ui_enable_camera_lock_group_mode_description">Włącz tryb grupowy, pozwalający przełączać pomiędzy członkami grupy lub rajdu za pomocą środkowego kółka myszy (ta opcja nie działa podczas rajdu, w którym włączone jest namierzanie podczas rajdu za pomocą grup i klawiszy)</string>
+	<string key="ui_enable_target_mygroup_only_in_raid">Tylko grupa (rajd)</string>
+	<string key="ui_enable_target_mygroup_only_in_raid_description">Ogranicz liczbę sojuszników, których można namierzać, do pięciu członków twojej grupy podczas rajdu i gdy tryb grupowy jest włączony (ta opcja nie działa podczas rajdu, w którym włączone jest namierzanie podczas rajdu za pomocą grup i klawiszy)</string>
 	<string key="ui_enable_camera_lock_select_raid_members_by_group_and_hotkey">Namierzanie podczas rajdu za pomocą grup i klawiszy</string>
-	<string key="ui_enable_camera_lock_select_raid_members_by_group_and_hotkey_description">Włącz lub wyłącz namierzanie rajdu, pozwalające przełączać grupy rajdu za pomocą środkowego kółka myszy i wybór członków za pomocą klawiszy (wybieranie celów w grupie wymaga przypisania klawiszy namierzania członków grupy; automatycznie włącza tryb grupowy podczas rajdów)</string>
+	<string key="ui_enable_camera_lock_select_raid_members_by_group_and_hotkey_description">Włącz namierzanie rajdu, pozwalające przełączać grupy rajdu za pomocą środkowego kółka myszy i wybór członków za pomocą klawiszy (wybieranie celów w grupie wymaga przypisania klawiszy namierzania członków grupy; gdy ta opcja jest włączona, można namierzać tylko członków rajdu)</string>
 	<string key="ui_enable_show_healing_hotkeys_in_raid_hud">Pokaż podpowiedzi klawiszy w trakcie rajdu</string>
 	<string key="ui_enable_show_healing_hotkeys_in_raid_hud_description">Ustaw, czy pokazywać podpowiedzi klawiszy dla członków aktualnie wybranej grupy przy włączonej opcji namierzania podczas rajdu za pomocą grup i klawiszy</string>
-	<string key="ui_toggle_target_lock" rel_version="Feature_Controller">Włącz namierzanie celu</string>
+	<string key="ui_toggle_target_lock">Włącz namierzanie celu</string>
 	<string key="ui_raid_member_hotkeys_unbound_error_title">Nie przypisano klawiszy</string>
 	<string key="ui_raid_member_hotkeys_unbound_error_message">Przejdź do konfiguracji klawiszy i przypisz wszystkie klawisze walki laską życia członkom grupy, by włączyć tę opcję.</string>
 	<string key="ui_gena_escape" rel_version="Feature_GameEntryNarrationAssistance">Escape</string>

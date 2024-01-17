@@ -348,6 +348,8 @@
 	<string key="SeasonsRewardTrack_ClaimError_RewardNotUnlocked" rel_version="Feature_Seasons_Rewards">Odebranie nagrody niemożliwe. Nie jest odblokowana.</string>
 	<string key="SeasonsRewardTrack_ClaimError_RewardAlreadyRedeemed" rel_version="Feature_Seasons_Rewards">Odebranie nagrody niemożliwe. Została już odebrana.</string>
 	<string key="SeasonsRewardTrack_ClaimError_NotEnoughInventorySpace" rel_version="Feature_Seasons_Rewards">Odebranie nagrody niemożliwe. Za mało miejsca w ekwipunku.</string>
+	<string key="SeasonsRewardTrack_ClaimError_LootLimitActive" rel_version="Feature_Seasons_Rewards">Odebranie nagrody jest niemożliwe. Ten przedmiot jest ograniczony do łupu i już go posiadasz.</string>
+	<string key="SeasonsRewardTrack_ClaimError_PlayerHasNoFaction" rel_version="Feature_Seasons_Rewards">Odebranie nagrody niemożliwe. Musisz należeć do którejś z frakcji.</string>
 	<string key="SeasonsRewardTrack_ClaimError_Generic" rel_version="Feature_Seasons_Rewards">Odebranie nagrody niemożliwe. Spróbuj ponownie później.</string>
 	<string key="SeasonsRewardTrack_ClaimError_AlreadyClaimingReward" rel_version="Feature_Seasons_Rewards">Próbujesz już odebrać nagrodę. Spróbuj ponownie później.</string>
 	<string key="SeasonsRewardTrack_TransactionError" rel_version="Feature_Seasons_Rewards">Niemożliwe przetworzenie transakcji. Spróbuj ponownie później.</string>
@@ -372,6 +374,7 @@
 	<string key="ui_seasons_task_description_CraftGoldenScarab" rel_version="Season_2_Perm">Wytwórz następującą liczbę przedmiotów ze złotym skarabeuszem: {maxCount}</string>
 	<string key="ui_seasons_task_name_WinArenaMatches_1" rel_version="Season_2_Perm">Gladiator I</string>
 	<string key="ui_seasons_task_name_WinArenaMatches_2" rel_version="Season_2_Perm">Gladiator II</string>
+	<string key="ui_seasons_task_name_WinArenaMatches_3" rel_version="Season_4_Perm">Gladiator III</string>
 	<string key="ui_seasons_task_name_CompleteFactionMissions_1" rel_version="Season_2_Perm">Fanatyzm frakcyjny I</string>
 	<string key="ui_seasons_task_name_CompleteFactionMissions_2" rel_version="Season_2_Perm">Fanatyzm frakcyjny II</string>
 	<string key="ui_seasons_task_description_CompleteFactionMissions" rel_version="Season_2_Perm">Ukończ następującą liczbę misji frakcyjnych: {maxCount}</string>
@@ -507,7 +510,7 @@
 	<string key="ui_seasons_task_name_FlailMastery_1" rel_version="Season_3_Perm">Drużyna kiścienia I</string>
 	<string key="ui_seasons_task_name_FlailMastery_2" rel_version="Season_3_Perm">Drużyna kiścienia II</string>
 	<string key="ui_seasons_task_name_FlailMastery_3" rel_version="Season_3_Perm">Drużyna kiścienia III</string>
-	<string key="ui_seasons_task_description_FlailMastery" rel_version="Season_3_Perm">Osiągnij {maxCount}. poziom biegłości w używaniu kiścienia</string>
+	<string key="ui_seasons_task_description_FlailMastery" rel_version="Season_3_Perm">Osiągnij {maxCount} poz. biegłości w używaniu kiścienia</string>
 	<string key="ui_seasons_task_name_EdengroveSettlement" rel_version="Season_3_Perm">Osadnictwo w Rajskim Gaju</string>
 	<string key="ui_seasons_task_description_EdengroveSettlement" rel_version="Season_3_Perm">Odkryj osadę w Rajskim Gaju</string>
 	<string key="ui_seasons_task_name_AcquireMount" rel_version="Season_3_Perm">Mój pierwszy wierzchowiec</string>
@@ -524,7 +527,7 @@
 	<string key="ui_seasons_task_name_InfluenceRace_2" rel_version="Season_3_Perm">Wpływowa persona II</string>
 	<string key="ui_seasons_task_description_ParticipateInfluenceRaceSingle" rel_version="Season_3_Perm">Weź udział w walce o wpływy</string>
 	<string key="ui_seasons_task_description_WinInfluenceRace" rel_version="Season_3_Perm">Wygraj następującą liczbę walk o wpływy: {maxCount}</string>
-	<string key="ui_seasons_task_description_WinInfluenceRaceSingle" rel_version="Season_4_Perm">Wygraj walki o wpływy</string>
+	<string key="ui_seasons_task_description_WinInfluenceRaceSingle" rel_version="Season_4_Perm">Wygraj walkę o wpływy</string>
 	<string key="ui_seasons_task_name_GatherSpore" rel_version="Season_3_Perm">Komunikacja z zarodnikami</string>
 	<string key="ui_seasons_task_description_GatherSpore" rel_version="Season_3_Perm">Zbierz następującą liczbę strąków z zarodnikami: {maxCount}</string>
 	<string key="ui_seasons_task_name_Quest_InvasionOfArtemis" rel_version="Season_3_Perm">Starcie z boginią</string>
@@ -562,8 +565,8 @@
 	<string key="ui_seasons_task_description_AcquireMountTypes" rel_version="Season_3_Perm">Zdobądź wierzchowce każdego rodzaju</string>
 	<string key="ui_seasons_task_name_CraftArtifact" rel_version="Season_3_Perm">Magnum opus</string>
 	<string key="ui_seasons_task_description_CraftArtifactSingle" rel_version="Season_3_Perm">Wytwórz artefakt</string>
-	<string key="ui_seasons_task_name_KillPlayersFirstLight" rel_version="Season_3_Perm">Bojownik z Niebiańskiej Dziczy</string>
-	<string key="ui_seasons_task_description_KillPlayersFirstLight" rel_version="Season_3_Perm">Zabij {maxCount} graczy w Niebiańskiej Dziczy</string>
+	<string key="ui_seasons_task_name_KillPlayersFirstLight" rel_version="Season_3_Perm">Bojownik z Dziczy Elizejskiej</string>
+	<string key="ui_seasons_task_description_KillPlayersFirstLight" rel_version="Season_3_Perm">Zabij {maxCount} graczy w Dziczy Elizejskiej</string>
 	<string key="ui_seasons_task_name_AcquireArtifact" rel_version="Season_3_Perm">Wybraniec</string>
 	<string key="ui_seasons_task_description_AcquireArtifactSingle" rel_version="Season_3_Perm">Dodaj artefakt do wyposażenia</string>
 	<string key="ui_seasons_task_name_KillPlayersFlail" rel_version="Season_3_Perm">Srogie kiścieniowanie</string>
@@ -601,17 +604,17 @@
 	<string key="ui_seasons_task_name_Challenge_RidingTradeskill" rel_version="Season_3_Perm">Bez trzymanki</string>
 	<string key="ui_seasons_task_description_Challenge_RidingTradeskill" rel_version="Season_3_Perm">Osiągnij 250. poziom profesji "Jazda"</string>
 	<string key="ui_seasons_task_name_Challenge_KillFirstLight" rel_version="Season_3_Perm">Gasnące światło</string>
-	<string key="ui_seasons_task_description_Challenge_KillFirstLight" rel_version="Season_3_Perm">Pokonaj {maxCount} wrogów w Niebiańskiej Dziczy</string>
+	<string key="ui_seasons_task_description_Challenge_KillFirstLight" rel_version="Season_3_Perm">Pokonaj {maxCount} wrogów w Dziczy Elizejskiej</string>
 	<string key="ui_seasons_task_name_Challenge_CrystalclawFlawless" rel_version="Season_3_Perm">Kompletna dzicz</string>
 	<string key="ui_seasons_task_description_Challenge_CrystalclawFlawless" rel_version="Season_3_Perm">Ukończ bezbłędnie Dziki Przełom M3</string>
 	<string key="ui_seasons_task_name_Challenge_FirstLightPOI" rel_version="Season_3_Perm">Nieposkromiony odkrywca</string>
-	<string key="ui_seasons_task_description_Challenge_FirstLightPOI" rel_version="Season_3_Perm">Odkryj każde ważne miejsce w Niebiańskiej Dziczy</string>
+	<string key="ui_seasons_task_description_Challenge_FirstLightPOI" rel_version="Season_3_Perm">Odkryj każde ważne miejsce w Dziczy Elizejskiej</string>
 	<string key="ui_seasons_task_name_Challenge_InfluenceRace" rel_version="Season_3_Perm">Aeterniańska gwiazda wpływów</string>
 	<string key="ui_seasons_task_description_Challenge_InfluenceRace" rel_version="Season_3_Perm">Wygraj następującą liczbę walk o wpływy: {maxCount}</string>
 	<string key="ui_seasons_task_name_Challenge_MaxTradeskills" rel_version="Season_3_Perm">Wszechstronnie uzdolniony</string>
 	<string key="ui_seasons_task_description_Challenge_MaxTradeskills" rel_version="Season_3_Perm">Osiągnij 250. poziom 5 profesji</string>
-	<string key="ui_seasons_task_name_Challenge_NamedFirstLight" rel_version="Season_3_Perm">Bojownik o wolność Niebiańskiej Dziczy</string>
-	<string key="ui_seasons_task_description_Challenge_NamedFirstLight" rel_version="Season_3_Perm">Zabij {maxCount} nazwanych wrogów w Niebiańskiej Dziczy</string>
+	<string key="ui_seasons_task_name_Challenge_NamedFirstLight" rel_version="Season_3_Perm">Bojownik o wolność Dziczy Elizejskiej</string>
+	<string key="ui_seasons_task_description_Challenge_NamedFirstLight" rel_version="Season_3_Perm">Zabij {maxCount} nazwanych wrogów w Dziczy Elizejskiej</string>
 	<string key="ui_seasons_task_name_Challenge_EquipArtifacts" rel_version="Season_3_Perm">Legendarny poszukiwacz przygód</string>
 	<string key="ui_seasons_task_description_Challenge_EquipArtifacts" rel_version="Season_3_Perm">Dodaj do wyposażenia artefakt broni, pancerza i błyskotki w tym samym czasie</string>
 	<string key="ui_seasons_task_name_WinOutpostRush" rel_version="Season_3_Perm">Zwycięski napad</string>
@@ -640,8 +643,11 @@
 	<string key="ui_seasons_task_name_LootEliteChest_2" rel_version="Season_4_Perm">Elitarne łupy II</string>
 	<string key="ui_seasons_task_name_GlacialTarn_1" rel_version="Season_4_Perm">Lodowy gladiator I</string>
 	<string key="ui_seasons_task_name_GlacialTarn_2" rel_version="Season_4_Perm">Lodowy gladiator II</string>
+	<string key="ui_seasons_task_name_GlacialTarn_3" rel_version="Season_4_Perm">Lodowy gladiator III</string>
+	<string key="ui_seasons_task_name_GlacialTarn_4" rel_version="Season_4_Perm">Lodowy gladiator IV</string>
 	<string key="ui_seasons_task_name_CraftCoating" rel_version="Season_4_Perm">Ulepszenie broni</string>
-	<string key="ui_seasons_task_name_KillIceVarangian" rel_version="Season_4_Perm">Wareski odmrażacz</string>
+	<string key="ui_seasons_task_name_KillIceVarangian" rel_version="Season_4_Perm">Wareski odmrażacz I</string>
+	<string key="ui_seasons_task_name_KillIceVarangian_2" rel_version="Season_4_Perm">Wareski odmrażacz II</string>
 	<string key="ui_seasons_task_name_CompleteHatchery" rel_version="Season_4_Perm">Wzmożone wylęganie</string>
 	<string key="ui_seasons_task_name_CompleteMutation" rel_version="Season_4_Perm">Mania mutacji</string>
 	<string key="ui_seasons_task_name_CraftPrismaticScarab" rel_version="Season_4_Perm">Pryzmatyczny profesjonalista</string>
@@ -658,6 +664,7 @@
 	<string key="ui_seasons_task_name_Quest_FightMage" rel_version="Season_4_Perm">Mag</string>
 	<string key="ui_seasons_task_name_Quest_StopDevice" rel_version="Season_4_Perm">Wieczny mróz</string>
 	<string key="ui_seasons_task_name_Quest_WrapFrost" rel_version="Season_4_Perm">Od klienta do Wrony</string>
+	<string key="ui_seasons_task_name_CraftArtifactUpgrade" rel_version="Season_4_Perm">Unikatowy ulepszacz</string>
 	<string key="ui_seasons_task_description_CompleteExpedition" rel_version="Season_4_Perm">Ukończ następującą liczbę ekspedycji: {maxCount}</string>
 	<string key="ui_seasons_task_description_CraftPotionT3" rel_version="Season_4_Perm">Wytwórz następującą liczbę eliksirów K3+: {maxCount}</string>
 	<string key="ui_seasons_task_description_KillElite" rel_version="Season_4_Perm">Zabij następującą liczbę elitarnych wrogów: {maxCount}</string>
@@ -672,13 +679,15 @@
 	<string key="ui_seasons_task_description_EaselGreatCleave" rel_version="Season_4_Perm">Zabierz obie sztalugi z panoramą w Wielkiej Wyrwie</string>
 	<string key="ui_seasons_task_description_LootEliteChest" rel_version="Season_4_Perm">Opróżnij następującą liczbę elitarnych skrzyń: {maxCount}</string>
 	<string key="ui_seasons_task_description_GlacialTarn" rel_version="Season_4_Perm">Ukończ ekspedycję do Jeziora Lodowcowego</string>
+	<string key="ui_seasons_task_description_GlacialTarnM1" rel_version="Season_4_Perm">Ukończ ekspedycję do Jeziora Lodowcowego M1</string>
+	<string key="ui_seasons_task_description_GlacialTarnM2" rel_version="Season_4_Perm">Ukończ ekspedycję do Jeziora Lodowcowego M2</string>
 	<string key="ui_seasons_task_description_GlacialTarnM3" rel_version="Season_4_Perm">Ukończ ekspedycję do Jeziora Lodowcowego M3</string>
 	<string key="ui_seasons_task_description_CraftCoatingT5" rel_version="Season_4_Perm">Wytwórz następującą liczbę powłok broni K5+: {maxCount}</string>
-	<string key="ui_seasons_task_description_KillIceVarangian" rel_version="Season_4_Perm">Zabij następującą liczbę lodowych Waregów: {maxCount}</string>
+	<string key="ui_seasons_task_description_KillIceVarangian" rel_version="Season_4_Perm">Zabij następującą liczbę mroźnych Waregów: {maxCount}</string>
 	<string key="ui_seasons_task_description_CompleteHatchery" rel_version="Season_4_Perm">Ukończ Próbę Wylęgarni {maxCount} razy.</string>
 	<string key="ui_seasons_task_description_CompleteMutation" rel_version="Season_4_Perm">Ukończ następującą liczbę zmutowanych ekspedycji: {maxCount}</string>
 	<string key="ui_seasons_task_description_CraftPrismaticScarabSingle" rel_version="Season_4_Perm">Wytwórz przedmiot przy użyciu pryzmatycznego skarabeusza</string>
-	<string key="ui_seasons_task_description_KillFrostAncient" rel_version="Season_4_Perm">Zabij następującą liczbę mroźnych pradawnych: {maxCount}</string>
+	<string key="ui_seasons_task_description_KillFrostAncient" rel_version="Season_4_Perm">Zabij następującą liczbę pradawnych żywiołaków: {maxCount}</string>
 	<string key="ui_seasons_task_description_CraftGS650" rel_version="Season_4_Perm">Wytwórz następującą liczbę wyposażenia PW650+: {maxCount}</string>
 	<string key="ui_seasons_task_description_FactionTokens" rel_version="Season_4_Perm">Zdobądź następującą liczbę żetonów frakcji: {maxCount}</string>
 	<string key="ui_seasons_task_description_CompleteM3Expedition" rel_version="Season_4_Perm">Ukończ następującą liczbę ekspedycji M3: {maxCount}</string>
@@ -691,6 +700,7 @@
 	<string key="ui_seasons_task_description_Quest_FightMage" rel_version="Season_4_Perm">Ukończ zadanie: Mag</string>
 	<string key="ui_seasons_task_description_Quest_StopDevice" rel_version="Season_4_Perm">Ukończ zadanie: Wieczny mróz</string>
 	<string key="ui_seasons_task_description_Quest_WrapFrost" rel_version="Season_4_Perm">Ukończ zadanie: Od klienta do Wrony</string>
+	<string key="ui_seasons_task_description_CraftArtifactUpgrade" rel_version="Season_4_Perm">Ulepsz tyle nazwanych przedmiotów do PW700: {maxCount}</string>
 	<string key="ui_seasons_task_name_Challenge_Aptitude" rel_version="Season_4_Perm">Miłośnik smykałki</string>
 	<string key="ui_seasons_task_name_Challenge_M3Expeditions" rel_version="Season_4_Perm">Maksymalizator mutacji</string>
 	<string key="ui_seasons_task_name_Challenge_S4Storyline" rel_version="Season_4_Perm">Mroźny wojownik</string>
@@ -699,18 +709,20 @@
 	<string key="ui_seasons_task_name_Challenge_S4Completionist" rel_version="Season_4_Perm">Komplecjonista Wiecznego mrozu</string>
 	<string key="ui_seasons_task_name_Challenge_KillNamedElite65" rel_version="Season_4_Perm">Pogromca legend</string>
 	<string key="ui_seasons_task_name_Challenge_MountRaces" rel_version="Season_4_Perm">Szybkość wcielona</string>
+	<string key="ui_seasons_task_name_Challenge_FlawlessGlacialTarn" rel_version="Season_4_Perm">Lodowcowy bóg</string>
 	<string key="ui_seasons_task_name_Challenge_LootElite" rel_version="Season_4_Perm">Niezmierzone łupy</string>
-	<string key="ui_seasons_task_name_Challenge_KillPlayers" rel_version="Season_4_Perm">Zmora graczy</string>
+	<string key="ui_seasons_task_name_Challenge_KillPlayers" rel_version="Season_4_Perm">Zimnokrwisty zabójca</string>
 	<string key="ui_seasons_task_description_Challenge_Aptitude" rel_version="Season_4_Perm">Zdobądź następującą liczbę poziomów smykałki danej profesji: {maxCount}</string>
 	<string key="ui_seasons_task_description_Challenge_M3Expeditions" rel_version="Season_4_Perm">Ukończ następującą liczbę ekspedycji M3: {maxCount}</string>
 	<string key="ui_seasons_task_description_Challenge_S4Storyline" rel_version="Season_4_Perm">Ukończ sezonowy wątek sezonu 4</string>
-	<string key="ui_seasons_task_description_Challenge_T52Resources" rel_version="Season_4_Perm">Pozyskaj zasoby z 500 złóż surowca klasy 5,2</string>
+	<string key="ui_seasons_task_description_Challenge_T52Resources" rel_version="Season_4_Perm">Zbierz rudę mythrilu, runodrzewo, włókno do przędzenia lub mroczną skórę następującą liczbę razy: {maxCount}</string>
 	<string key="ui_seasons_task_description_Challenge_CraftGS700_2" rel_version="Season_4_Perm">Wytwórz następującą liczbę elementów wyposażenia PW700: {maxCount}</string>
 	<string key="ui_seasons_task_description_Challenge_S4Completionist" rel_version="Season_4_Perm">Ukończ następującą liczbę zadań przygody sezonu 4: {maxCount}</string>
 	<string key="ui_seasons_task_description_Challenge_KillNamedElite65" rel_version="Season_4_Perm">Zabij następującą liczbę nazwanych elitarnych wrogów na poziomie 65+: {maxCount}</string>
 	<string key="ui_seasons_task_description_Challenge_MountRaces" rel_version="Season_4_Perm">Ukończ następującą liczbę wyścigów: {maxCount}</string>
 	<string key="ui_seasons_task_description_Challenge_LootElite" rel_version="Season_4_Perm">Opróżnij następującą liczbę elitarnych skrzyń: {maxCount}</string>
 	<string key="ui_seasons_task_description_Challenge_KillPlayers" rel_version="Season_4_Perm">Zabij następującą liczbę graczy podczas PvP: {maxCount}</string>
+	<string key="ui_seasons_task_description_Challenge_FlawlessGlacialTarn" rel_version="Season_4_Perm">Ukończ bezbłędnie Jezioro Lodowcowe (nie ginąc ani razu) następującą liczbę razy: {maxCount}</string>
 	<string key="ui_seasons_wild_stamp_count" rel_version="Feature_Seasons_Rewards">&lt;img src="LyShineUI/Images/SeasonsRewards/Wild-Stamp-Icon-Small" scale="2" yOffset="7"&gt;&lt;/img&gt; Dzikie pieczątki: {count}</string>
 	<string key="ui_seasons_wild_stamp_count_and_max" rel_version="Feature_Seasons_Rewards">&lt;img src="LyShineUI/Images/SeasonsRewards/Wild-Stamp-Icon-Small" scale="2" yOffset="7"&gt;&lt;/img&gt; Dzikie pieczątki: {count}/{max}</string>
 	<string key="ui_seasons_wild_stamp_awarded_header" rel_version="Feature_Seasons_Rewards">Premia dzikich pieczątek</string>
@@ -740,5 +752,12 @@
 	<string key="SeasonsActivities_CompleteSavageDivide" rel_version="Feature_Seasons_Rewards">Ukończ Dziki Przełom</string>
 	<string key="SeasonsActivities_GatherSporePlant" rel_version="Feature_Seasons_Rewards">Pozyskaj składniki ze strąku z zarodnikami</string>
 	<string key="SeasonsActivities_CompleteAnyRace" rel_version="Feature_Seasons_Rewards">Ukończ wyścig</string>
+	<string key="SeasonsActivities_KillGreatCleave" rel_version="Feature_Seasons_Rewards">Zabij wrogów w Wielkiej Wyrwie</string>
+	<string key="SeasonsActivities_KillNamedGreatCleave" rel_version="Feature_Seasons_Rewards">Zabij nazwanych wrogów w Wielkiej Wyrwie</string>
+	<string key="SeasonsActivities_CompleteGlacialTarn" rel_version="Feature_Seasons_Rewards">Ukończ Jezioro Lodowcowe</string>
+	<string key="SeasonsActivities_KillIceVarangian" rel_version="Season_4_Perm">Zabij mroźnych Waregów</string>
+	<string key="SeasonsActivities_KillFrostAncient" rel_version="Season_4_Perm">Zabij pradawne żywiołaki</string>
+	<string key="ui_seasons_task_placeholder_name" rel_version="Feature_Seasons_Rewards">PLACEHOLDER</string>
+	<string key="ui_seasons_task_placeholder_desc" rel_version="Feature_Seasons_Rewards">PLACEHOLDER</string>
 </resources>
 

@@ -243,7 +243,7 @@
 	<string key="owg_pvp_title_merchantt1">Livraison</string>
 	<string key="owg_pvp_title_procurementt1">Obtenir</string>
 	<string key="owg_pvp_acceptmission_title">ACCEPTER LA MISSION</string>
-	<string key="owg_pvp_acceptmission_prompt">Accepter une &lt;font color="#eaeaea"&gt;mission JcJ &lt;/font&gt;&lt;font color="#eaeaea"&gt;activera le mode JcJ&lt;/font&gt;.\nVous ne pourrez pas désactiver le mode JcJ pendant cette mission. Pour le désactiver, vous devez d'abord abandonner la mission.\n\nVoulez-vous vraiment accepter cette mission ?</string>
+	<string key="owg_pvp_acceptmission_prompt">Accepter une &lt;font color="#eaeaea"&gt;mission JcJ&lt;/font&gt; &lt;font color="#eaeaea"&gt;activera le mode JcJ&lt;/font&gt;.\nVous ne pourrez pas désactiver le mode JcJ pendant cette mission. Pour le désactiver, vous devez d'abord abandonner la mission.\n\nVoulez-vous vraiment accepter cette mission ?</string>
 	<string key="owg_pvp_cannotacceptmission_title">IMPOSSIBLE D'ACCEPTER LA MISSION</string>
 	<string key="owg_pvp_cannotacceptmission_ingroup">Vous ne pouvez pas accepter une &lt;font color="#eaeaea"&gt;mission JcJ&lt;/font&gt; quand vous faites partie d'un groupe JcE qui empêche l'activation du mode JcJ.</string>
 	<string key="owg_pvp_cannotacceptmission_pendinggroupinvite">Vous ne pouvez pas accepter de &lt;font color="#eaeaea"&gt;mission JcJ&lt;/font&gt; tant que vous avez des invitations de groupe qui empêchent l'activation du mode JcJ.</string>
@@ -432,13 +432,13 @@
 	<string key="FactionMission_C_EXPEDITIONLOOT_desc">Allez à : {POITags} pour le compte des Engagés et récupérez : &lt;font color="#eaeaea"&gt;{itemName}&lt;/font&gt;.\n\n &lt;font color="#eaeaea"&gt;(Expédition)&lt;/font&gt;</string>
 	<string key="FactionMission_ASSASSINATE_title">Prime : {POITags}</string>
 	<string key="FactionMission_ASSASSINATE_desc">Les Maraudeurs ont besoin d'éliminer cette cible : &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;.\n\nProuvez votre valeur en la pourchassant puis en l'éliminant à : {POITags}.</string>
-	<string key="FactionMission_M_ASSASSINATE_NIGHT_desc">The Marauders need &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; removed from the theater.\n\nProve your valor by tracking them down in {POITags} and destroying them.\n\n&lt;font color="#eaeaea"&gt;Can only be completed at Night.&lt;/font&gt;</string>
+	<string key="FactionMission_M_ASSASSINATE_NIGHT_desc">Les Maraudeurs ont besoin d'éliminer cette cible : &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;.\n\nProuvez votre valeur en la pourchassant puis en l'éliminant à : {POITags}.\n\n&lt;font color="#eaeaea"&gt;Ne peut être qu'accompli de nuit.&lt;/font&gt;</string>
 	<string key="FactionMission_S_ASSASSINATE_title">Assassinat : {POITags}</string>
 	<string key="FactionMission_S_ASSASSINATE_desc">L'Ombre a identifié une cible à éliminer : &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;.\n\nFaites preuve de ruse en la pourchassant puis en l'éliminant à : {POITags}.</string>
-	<string key="FactionMission_S_ASSASSINATE_NIGHT_desc">The Syndicate has identified &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; to be a target for elimination.\n\nProve your cunning by tracking them down in {POITags} and destroying them.\n\n&lt;font color="#eaeaea"&gt;Can only be completed at Night.&lt;/font&gt;</string>
+	<string key="FactionMission_S_ASSASSINATE_NIGHT_desc">L'Ombre a identifié une cible à éliminer : &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;.\n\nFaites preuve de ruse en la pourchassant puis en l'éliminant à : {POITags}.\n\n&lt;font color="#eaeaea"&gt;Ne peut être qu'accompli de nuit.&lt;/font&gt;</string>
 	<string key="FactionMission_C_ASSASSINATE_title">Châtiment : {POITags}</string>
 	<string key="FactionMission_C_ASSASSINATE_desc">Les Engagés ont identifié une menace spécifique à éliminer : &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;.\n\nProuvez votre dévotion en la pourchassant et en l'éliminant à : {POITags}.</string>
-	<string key="FactionMission_C_ASSASSINATE_NIGHT_desc">The Covenant has identified &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; to be eliminated.\n\nProve your devotion by tracking them down in {POITags} and destroying them.\n\n&lt;font color="#eaeaea"&gt;Can only be completed at Night.&lt;/font&gt;</string>
+	<string key="FactionMission_C_ASSASSINATE_NIGHT_desc">Les Engagés ont identifié une menace spécifique à éliminer : &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;.\n\nProuvez votre dévotion en la pourchassant et en l'éliminant à : {POITags}.\n\n&lt;font color="#eaeaea"&gt;Ne peut être qu'accompli de nuit.&lt;/font&gt;</string>
 	<string key="FactionMission_ASSASSINATE_ELITE_title">Prime : {POITags} (Élite)</string>
 	<string key="FactionMission_ASSASSINATE_ELITE_desc">Les Maraudeurs ont besoin d'éliminer cette cible : &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;.\n\nProuvez votre valeur en la pourchassant puis en l'éliminant à : {POITags}.\n&lt;font color="#eaeaea"&gt;(Élite)&lt;/font&gt;</string>
 	<string key="FactionMission_S_ASSASSINATE_ELITE_title">Assassinat : {POITags} (Élite)</string>
@@ -487,7 +487,7 @@
 	<string key="FactionMission_WARCAMP_LOOT_title">Renseignements sur l'ennemi (JcJ)</string>
 	<string key="FactionMission_WARCAMP_LOOT_desc">Infiltrez le &lt;font color="#eaeaea"&gt;camp de guerre&lt;/font&gt; à côté de la &lt;font color="#eaeaea"&gt;forteresse {territoryID}&lt;/font&gt; et cherchez des renseignements précieux.</string>
 	<string key="FactionMission_CONTROL_POINT_title">Conquête (JcJ)</string>
-	<string key="FactionMission_CONTROL_POINT_desc">Take up arms to help the Marauders take control of the &lt;font color="#eaeaea"&gt;Fort&lt;/font&gt; or an &lt;font color="#eaeaea"&gt;Influence Watch&lt;/font&gt; (during Influence Races) at &lt;font color="#eaeaea"&gt;{territoryID}&lt;/font&gt;\n\n(This mission may not be completable at all times)</string>
+	<string key="FactionMission_CONTROL_POINT_desc">Prenez les armes pour aider les Maraudeurs à s'emparer de la &lt;font color="#eaeaea"&gt;forteresse&lt;/font&gt; ou d'un &lt;font color="#eaeaea"&gt;guet d'influence&lt;/font&gt; (lors de Courses d'influence) à : &lt;font color="#eaeaea"&gt;{territoryID}&lt;/font&gt;\n\n(Cette mission peut ne pas être réalisable à tout moment)</string>
 	<string key="FactionMission_S_WARCAMP_LOOT_title">Reconnaissance de l'ennemi (JcJ)</string>
 	<string key="FactionMission_S_WARCAMP_LOOT_desc">Infiltrez le &lt;font color="#eaeaea"&gt;camp de guerre&lt;/font&gt; à côté de la &lt;font color="#eaeaea"&gt;forteresse {territoryID}&lt;/font&gt; et cherchez des renseignements précieux.</string>
 	<string key="FactionMission_S_CONTROL_POINT_title">Opportunité (JcJ)</string>
@@ -554,17 +554,6 @@
 	<string key="CMissionAcquireWoodWorker">Depuis un atelier de menuiserie, obtenir et apporter &lt;font color="#eaeaea"&gt;{itemAmount} x {itemName}&lt;/font&gt;</string>
 	<string key="CMissionAcquireOutfitter">Depuis un poste d'équipement, obtenir et apporter : &lt;font color="#eaeaea"&gt;{itemName} x {itemAmount}&lt;/font&gt;.</string>
 	<string key="CMissionAcquireEngineer">Depuis un atelier, obtenir et apporter &lt;font color="#eaeaea"&gt;{itemAmount} {itemName}&lt;/font&gt;</string>
-	<string key="CMissionAcquireBlock_Name_WC" rel_version="Event_WinterConvergence_Temp">Tailleurs de pierre festifs requis</string>
-	<string key="CMissionAcquireTimber_Name_WC" rel_version="Event_WinterConvergence_Temp">Charpentiers festifs requis</string>
-	<string key="CMissionAcquireCloth_Name_WC" rel_version="Event_WinterConvergence_Temp">Tisseurs festifs requis</string>
-	<string key="CMissionAcquireMetal_Name_WC" rel_version="Event_WinterConvergence_Temp">Forgerons festifs requis</string>
-	<string key="CMissionAcquireFibers_Name_WC" rel_version="Event_WinterConvergence_Temp">Cueilleurs festifs requis</string>
-	<string key="CMissionAcquireFood_Name_WC" rel_version="Event_WinterConvergence_Temp">Cuisiniers festifs requis</string>
-	<string key="CMissionAcquirePotions_Name_WC" rel_version="Event_WinterConvergence_Temp">Alchimistes festifs requis</string>
-	<string key="CMissionAcquireGeneric_Name_WC" rel_version="Event_WinterConvergence_Temp">Matériel festif requis</string>
-	<string key="CMissionAcquireWood_Name_WC" rel_version="Event_WinterConvergence_Temp">Bûcherons festifs requis</string>
-	<string key="CMissionAcquireRawhide_Name_WC" rel_version="Event_WinterConvergence_Temp">Chasseurs festifs requis</string>
-	<string key="CMissionAcquireLeather_Name_WC" rel_version="Event_WinterConvergence_Temp">Tanneurs festifs requis</string>
 	<string key="ui_already_in_faction">Vous êtes déjà dans cette faction.</string>
 	<string key="ui_cant_switch_faction_pvp">Impossible de changer de faction en mode JcJ</string>
 	<string key="ui_cant_switch_faction_azoth">Azoth insuffisant</string>

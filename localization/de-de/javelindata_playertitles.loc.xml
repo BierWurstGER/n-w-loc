@@ -259,9 +259,9 @@
 	<string key="ui_playertitle_skill_woodworking5" rel_version="P2_MetaAchievements">Holzverarbeitungsmeister</string>
 	<string key="ui_playertitle_skill_woodworking5_SHE" rel_version="P2_MetaAchievements">Holzverarbeitungsmeisterin</string>
 	<string key="ui_playertitle_skill_woodworking5_THEY" rel_version="P2_MetaAchievements">Holzverarbeitungsmeister*in</string>
-	<string key="ui_playertitle_skill_harvesting4" rel_version="P2_MetaAchievements">Erntearbeiterexperte</string>
-	<string key="ui_playertitle_skill_harvesting4_SHE" rel_version="P2_MetaAchievements">Erntearbeiterexpertin</string>
-	<string key="ui_playertitle_skill_harvesting4_THEY" rel_version="P2_MetaAchievements">Erntearbeiterexperte*in</string>
+	<string key="ui_playertitle_skill_harvesting4" rel_version="P2_MetaAchievements">Erntearbeitsexperte</string>
+	<string key="ui_playertitle_skill_harvesting4_SHE" rel_version="P2_MetaAchievements">Erntearbeitsexpertin</string>
+	<string key="ui_playertitle_skill_harvesting4_THEY" rel_version="P2_MetaAchievements">Erntearbeitsexperte*in</string>
 	<string key="ui_playertitle_skill_harvesting5" rel_version="P2_MetaAchievements">Meistererntearbeiter</string>
 	<string key="ui_playertitle_skill_harvesting5_SHE" rel_version="P2_MetaAchievements">Meistererntearbeiterin</string>
 	<string key="ui_playertitle_skill_harvesting5_THEY" rel_version="P2_MetaAchievements">Meistererntearbeiter*in</string>
@@ -776,7 +776,7 @@
 	<string key="ui_playertitle_notification_title">Titel freigeschaltet</string>
 	<string key="ui_playertitle_notification_desc">Du hast &lt;font color={color}&gt;{title} &lt;/font&gt; freigeschaltet.</string>
 	<string key="ui_playertitle_notification_expired_title">Dein Titel ist verfallen!</string>
-	<string key="ui_playertitle_notification_expired_desc">Dein Titel &lt;font color={color}&gt;{title}&lt;/font&gt; ist verfallen! Select View Detail to choose a new title.</string>
+	<string key="ui_playertitle_notification_expired_desc">Dein Titel &lt;font color={color}&gt;{title}&lt;/font&gt; ist verfallen! Wähle "Details ansehen" aus, um dir einen neuen Titel auszusuchen.</string>
 	<string key="ui_playertitle_meta_achievement_description">Du hast den Erfolg {title} ({description}) erlangt.</string>
 	<string key="ui_playertitle_meta_helper_help_description" rel_version="Feature_Titles">Gefunden im Inneren einer Vorratskiste.</string>
 	<string key="ui_playertitle_meta_helper_factions_description" rel_version="Feature_Titles">Wird freigeschaltet, wenn du einer Fraktion beigetreten bist.</string>
@@ -1334,10 +1334,10 @@
 	<string key="ui_playertitle_season3_journeychallenge7_SHE" rel_version="Season_3_Perm">Aeternum-Influencerin</string>
 	<string key="ui_playertitle_season3_journeychallenge7_THEY" rel_version="Season_3_Perm">Aeternum-Influencer*in</string>
 	<string key="ui_playertitle_season3_journeychallenge7_description" rel_version="Season_3_Perm">Gibt es für den Abschluss folgender Saison-3-Herausforderung: Aeternum-Einflussnehmer</string>
-	<string key="ui_playertitle_season3_journeychallenge8" rel_version="Season_3_Perm">Schwammerlschlucker</string>
-	<string key="ui_playertitle_season3_journeychallenge8_SHE" rel_version="Season_3_Perm">Schwammerlschluckerin</string>
-	<string key="ui_playertitle_season3_journeychallenge8_THEY" rel_version="Season_3_Perm">Schwammerlschlucker*in</string>
-	<string key="ui_playertitle_season3_journeychallenge8_description" rel_version="Season_3_Perm">Gibt es für den Abschluss folgender Saison-3-Herausforderung: Schwammerlschlucker*in</string>
+	<string key="ui_playertitle_season3_journeychallenge8" rel_version="Season_3_Perm">Pilzschlucker</string>
+	<string key="ui_playertitle_season3_journeychallenge8_SHE" rel_version="Season_3_Perm">Pilzschluckerin</string>
+	<string key="ui_playertitle_season3_journeychallenge8_THEY" rel_version="Season_3_Perm">Pilzschlucker*in</string>
+	<string key="ui_playertitle_season3_journeychallenge8_description" rel_version="Season_3_Perm">Gibt es für den Abschluss folgender Saison-3-Herausforderung: Pilzschlucker*in</string>
 	<string key="ui_playertitle_season3_journeychallenge9" rel_version="Season_3_Perm">Freiheitskämpfer der Himmelswildnis</string>
 	<string key="ui_playertitle_season3_journeychallenge9_SHE" rel_version="Season_3_Perm">Freiheitskämpferin der Himmelswildnis</string>
 	<string key="ui_playertitle_season3_journeychallenge9_THEY" rel_version="Season_3_Perm">Freiheitskämpfer*in der Himmelswildnis</string>
@@ -1346,49 +1346,57 @@
 	<string key="ui_playertitle_season3_journeychallenge10_SHE" rel_version="Season_3_Perm">Schatzjägerbestie</string>
 	<string key="ui_playertitle_season3_journeychallenge10_THEY" rel_version="Season_3_Perm">Schatzjägerbestie</string>
 	<string key="ui_playertitle_season3_journeychallenge10_description" rel_version="Season_3_Perm">Gibt es für den Abschluss folgender Saison-3-Herausforderung: Schatzjägerbestie</string>
-	<string key="ui_playertitle_season4journey" rel_version="Season_4_Perm">Frost Eternal</string>
-	<string key="ui_playertitle_season4journey_SHE" rel_version="Season_4_Perm">Frost Eternal</string>
-	<string key="ui_playertitle_season4journey_THEY" rel_version="Season_4_Perm">Frost Eternal</string>
-	<string key="ui_playertitle_season4journey_description" rel_version="Season_4_Perm">Earned for completing Chapter 4 of the Season 4 Season Journey.</string>
-	<string key="ui_playertitle_season4_journeychallenge1" rel_version="Season_4_Perm">Aptitude Aficionado</string>
-	<string key="ui_playertitle_season4_journeychallenge1_SHE" rel_version="Season_4_Perm">Aptitude Aficionado</string>
-	<string key="ui_playertitle_season4_journeychallenge1_THEY" rel_version="Season_4_Perm">Aptitude Aficionado</string>
-	<string key="ui_playertitle_season4_journeychallenge1_description" rel_version="Season_4_Perm">Earned by completing the Season 4 Challenge: Aptitude Aficionado</string>
-	<string key="ui_playertitle_season4_journeychallenge2" rel_version="Season_4_Perm">Mutation Maximizer</string>
-	<string key="ui_playertitle_season4_journeychallenge2_SHE" rel_version="Season_4_Perm">Mutation Maximizer</string>
-	<string key="ui_playertitle_season4_journeychallenge2_THEY" rel_version="Season_4_Perm">Mutation Maximizer</string>
-	<string key="ui_playertitle_season4_journeychallenge2_description" rel_version="Season_4_Perm">Earned by completing the Season 4 Challenge: Mutation Maximizer</string>
-	<string key="ui_playertitle_season4_journeychallenge3" rel_version="Season_4_Perm">Frost Fighter</string>
-	<string key="ui_playertitle_season4_journeychallenge3_SHE" rel_version="Season_4_Perm">Frost Fighter</string>
-	<string key="ui_playertitle_season4_journeychallenge3_THEY" rel_version="Season_4_Perm">Frost Fighter</string>
-	<string key="ui_playertitle_season4_journeychallenge3_description" rel_version="Season_4_Perm">Earned by completing the Season 4 Challenge: Frost Fighter</string>
-	<string key="ui_playertitle_season4_journeychallenge4" rel_version="Season_4_Perm">Resource Reaper</string>
-	<string key="ui_playertitle_season4_journeychallenge4_SHE" rel_version="Season_4_Perm">Resource Reaper</string>
-	<string key="ui_playertitle_season4_journeychallenge4_THEY" rel_version="Season_4_Perm">Resource Reaper</string>
-	<string key="ui_playertitle_season4_journeychallenge4_description" rel_version="Season_4_Perm">Earned by completing the Season 4 Challenge: Resource Reaper</string>
-	<string key="ui_playertitle_season4_journeychallenge5" rel_version="Season_4_Perm">God of Gear</string>
-	<string key="ui_playertitle_season4_journeychallenge5_SHE" rel_version="Season_4_Perm">God of Gear</string>
-	<string key="ui_playertitle_season4_journeychallenge5_THEY" rel_version="Season_4_Perm">God of Gear</string>
-	<string key="ui_playertitle_season4_journeychallenge5_description" rel_version="Season_4_Perm">Earned by completing the Season 4 Challenge: God of Gear</string>
-	<string key="ui_playertitle_season4_journeychallenge6" rel_version="Season_4_Perm">Eternal Frost Completionist</string>
-	<string key="ui_playertitle_season4_journeychallenge6_SHE" rel_version="Season_4_Perm">Eternal Frost Completionist</string>
-	<string key="ui_playertitle_season4_journeychallenge6_THEY" rel_version="Season_4_Perm">Eternal Frost Completionist</string>
-	<string key="ui_playertitle_season4_journeychallenge6_description" rel_version="Season_4_Perm">Earned by completing the Season 4 Challenge: Eternal Frost Completionist</string>
-	<string key="ui_playertitle_season4_journeychallenge7" rel_version="Season_4_Perm">Legend Slayer</string>
-	<string key="ui_playertitle_season4_journeychallenge7_SHE" rel_version="Season_4_Perm">Legend Slayer</string>
-	<string key="ui_playertitle_season4_journeychallenge7_THEY" rel_version="Season_4_Perm">Legend Slayer</string>
-	<string key="ui_playertitle_season4_journeychallenge7_description" rel_version="Season_4_Perm">Earned by completing the Season 4 Challenge: Legend Slayer</string>
-	<string key="ui_playertitle_season4_journeychallenge8" rel_version="Season_4_Perm">Speed Incarnate</string>
-	<string key="ui_playertitle_season4_journeychallenge8_SHE" rel_version="Season_4_Perm">Speed Incarnate</string>
-	<string key="ui_playertitle_season4_journeychallenge8_THEY" rel_version="Season_4_Perm">Speed Incarnate</string>
-	<string key="ui_playertitle_season4_journeychallenge8_description" rel_version="Season_4_Perm">Earned by completing the Season 4 Challenge: Speed Incarnate</string>
-	<string key="ui_playertitle_season4_journeychallenge9" rel_version="Season_4_Perm">Boundless Spoils</string>
-	<string key="ui_playertitle_season4_journeychallenge9_SHE" rel_version="Season_4_Perm">Boundless Spoils</string>
-	<string key="ui_playertitle_season4_journeychallenge9_THEY" rel_version="Season_4_Perm">Boundless Spoils</string>
-	<string key="ui_playertitle_season4_journeychallenge9_description" rel_version="Season_4_Perm">Earned by completing the Season 4 Challenge: Boundless Spoils</string>
-	<string key="ui_playertitle_season4_journeychallenge10" rel_version="Season_4_Perm">Player Prowler</string>
-	<string key="ui_playertitle_season4_journeychallenge10_SHE" rel_version="Season_4_Perm">Player Prowler</string>
-	<string key="ui_playertitle_season4_journeychallenge10_THEY" rel_version="Season_4_Perm">Player Prowler</string>
-	<string key="ui_playertitle_season4_journeychallenge10_description" rel_version="Season_4_Perm">Earned by completing the Season 4 Challenge: Player Prowler</string>
+	<string key="ui_playertitle_season4journey" rel_version="Season_4_Perm">Ewiger Frost</string>
+	<string key="ui_playertitle_season4journey_SHE" rel_version="Season_4_Perm">Ewiger Frost</string>
+	<string key="ui_playertitle_season4journey_THEY" rel_version="Season_4_Perm">Ewiger Frost</string>
+	<string key="ui_playertitle_season4journey_description" rel_version="Season_4_Perm">Wird für den Abschluss von Kapitel 4 der Saisonreise in Saison 4 verliehen.</string>
+	<string key="ui_playertitle_season4_journeychallenge1" rel_version="Season_4_Perm">Begabungsliebhaber</string>
+	<string key="ui_playertitle_season4_journeychallenge1_SHE" rel_version="Season_4_Perm">Begabungsliebhaberin</string>
+	<string key="ui_playertitle_season4_journeychallenge1_THEY" rel_version="Season_4_Perm">Begabungsliebhaber*in</string>
+	<string key="ui_playertitle_season4_journeychallenge1_description" rel_version="Season_4_Perm">Gibt es für den Abschluss folgender Saison-4-Herausforderung: Begabungsliebhaber*in</string>
+	<string key="ui_playertitle_season4_journeychallenge2" rel_version="Season_4_Perm">Mutationsmaximierer</string>
+	<string key="ui_playertitle_season4_journeychallenge2_SHE" rel_version="Season_4_Perm">Mutationsmaximiererin</string>
+	<string key="ui_playertitle_season4_journeychallenge2_THEY" rel_version="Season_4_Perm">Mutationsmaximierer*in</string>
+	<string key="ui_playertitle_season4_journeychallenge2_description" rel_version="Season_4_Perm">Gibt es für den Abschluss folgender Saison-4-Herausforderung: Mutationsmaximierer*in</string>
+	<string key="ui_playertitle_season4_journeychallenge3" rel_version="Season_4_Perm">Frostkämpfer</string>
+	<string key="ui_playertitle_season4_journeychallenge3_SHE" rel_version="Season_4_Perm">Frostkämpferin</string>
+	<string key="ui_playertitle_season4_journeychallenge3_THEY" rel_version="Season_4_Perm">Frostkämpfer*in</string>
+	<string key="ui_playertitle_season4_journeychallenge3_description" rel_version="Season_4_Perm">Gibt es für den Abschluss folgender Saison-4-Herausforderung: Frostkämpfer*in</string>
+	<string key="ui_playertitle_season4_journeychallenge4" rel_version="Season_4_Perm">Rohstoffschnitter</string>
+	<string key="ui_playertitle_season4_journeychallenge4_SHE" rel_version="Season_4_Perm">Rohstoffschnitterin</string>
+	<string key="ui_playertitle_season4_journeychallenge4_THEY" rel_version="Season_4_Perm">Rohstoffschnitter*in</string>
+	<string key="ui_playertitle_season4_journeychallenge4_description" rel_version="Season_4_Perm">Gibt es für den Abschluss folgender Saison-4-Herausforderung: Rohstoffschnitter*in</string>
+	<string key="ui_playertitle_season4_journeychallenge5" rel_version="Season_4_Perm">Gott der Ausrüstung</string>
+	<string key="ui_playertitle_season4_journeychallenge5_SHE" rel_version="Season_4_Perm">Göttin der Ausrüstung</string>
+	<string key="ui_playertitle_season4_journeychallenge5_THEY" rel_version="Season_4_Perm">Gott/Göttin der Ausrüstung</string>
+	<string key="ui_playertitle_season4_journeychallenge5_description" rel_version="Season_4_Perm">Gibt es für den Abschluss folgender Saison-4-Herausforderung: Gott/Göttin der Ausrüstung</string>
+	<string key="ui_playertitle_season4_journeychallenge6" rel_version="Season_4_Perm">Ewiger-Frost-Komplettist</string>
+	<string key="ui_playertitle_season4_journeychallenge6_SHE" rel_version="Season_4_Perm">Ewige-Frost-Komplettistin</string>
+	<string key="ui_playertitle_season4_journeychallenge6_THEY" rel_version="Season_4_Perm">Ewige*r-Frost-Komplettist*in</string>
+	<string key="ui_playertitle_season4_journeychallenge6_description" rel_version="Season_4_Perm">Gibt es für den Abschluss folgender Saison-4-Herausforderung: Ewige*r-Frost-Komplettist*in</string>
+	<string key="ui_playertitle_season4_journeychallenge7" rel_version="Season_4_Perm">Legendenschlächter</string>
+	<string key="ui_playertitle_season4_journeychallenge7_SHE" rel_version="Season_4_Perm">Legendenschlächterin</string>
+	<string key="ui_playertitle_season4_journeychallenge7_THEY" rel_version="Season_4_Perm">Legendenschlächter*in</string>
+	<string key="ui_playertitle_season4_journeychallenge7_description" rel_version="Season_4_Perm">Gibt es für den Abschluss folgender Saison-4-Herausforderung: Legendenschlächter*in</string>
+	<string key="ui_playertitle_season4_journeychallenge8" rel_version="Season_4_Perm">Gletschergott</string>
+	<string key="ui_playertitle_season4_journeychallenge8_SHE" rel_version="Season_4_Perm">Gletschergöttin</string>
+	<string key="ui_playertitle_season4_journeychallenge8_THEY" rel_version="Season_4_Perm">Gletschergott/-göttin</string>
+	<string key="ui_playertitle_season4_journeychallenge8_description" rel_version="Season_4_Perm">Gibt es für den Abschluss folgender Saison-4-Herausforderung: Gletschergott/-göttin</string>
+	<string key="ui_playertitle_season4_journeychallenge9" rel_version="Season_4_Perm">Grenzenlose Beute</string>
+	<string key="ui_playertitle_season4_journeychallenge9_SHE" rel_version="Season_4_Perm">Grenzenlose Beute</string>
+	<string key="ui_playertitle_season4_journeychallenge9_THEY" rel_version="Season_4_Perm">Grenzenlose Beute</string>
+	<string key="ui_playertitle_season4_journeychallenge9_description" rel_version="Season_4_Perm">Gibt es für den Abschluss folgender Saison-4-Herausforderung: Grenzenlose Beute</string>
+	<string key="ui_playertitle_season4_journeychallenge10" rel_version="Season_4_Perm">Eiskalter Killer</string>
+	<string key="ui_playertitle_season4_journeychallenge10_SHE" rel_version="Season_4_Perm">Eiskalte Killerin</string>
+	<string key="ui_playertitle_season4_journeychallenge10_THEY" rel_version="Season_4_Perm">Eiskalte*r Killer*in</string>
+	<string key="ui_playertitle_season4_journeychallenge10_description" rel_version="Season_4_Perm">Gibt es für den Abschluss folgender Saison-4-Herausforderung: Eiskalte*r Killer*in</string>
+	<string key="ui_playertitle_leaderboard_glacialtarn_score_rank1" rel_version="Expedition_GreatCleave_00">Gletscher-Sieger*in</string>
+	<string key="ui_playertitle_leaderboard_glacialtarn_score_rank1_description" rel_version="Expedition_GreatCleave_00">Titel, den du erhältst, indem du den ersten Belohnungsplatz in der wöchentlichen Bestenliste (Punkte) des Gletschersees belegst.</string>
+	<string key="ui_playertitle_leaderboard_glacialtarn_score_rank2" rel_version="Expedition_GreatCleave_00">Gletscher-Medaillengewinner*in</string>
+	<string key="ui_playertitle_leaderboard_glacialtarn_score_rank2_description" rel_version="Expedition_GreatCleave_00">Titel, den du erhältst, indem du den zweiten Belohnungsplatz in der wöchentlichen Bestenliste (Punkte) des Gletschersees belegst.</string>
+	<string key="ui_playertitle_leaderboard_glacialtarn_time_rank1" rel_version="Expedition_GreatCleave_00">Schnellste*r Gletscher-Sieger*in</string>
+	<string key="ui_playertitle_leaderboard_glacialtarn_time_rank1_description" rel_version="Expedition_GreatCleave_00">Titel, den du erhältst, indem du den ersten Belohnungsplatz in der wöchentlichen Bestenliste (Abschlusszeit) des Gletschersees belegst.</string>
+	<string key="ui_playertitle_leaderboard_glacialtarn_time_rank2" rel_version="Expedition_GreatCleave_00">Schnellste*r Gletscher-Medaillengewinner*in</string>
+	<string key="ui_playertitle_leaderboard_glacialtarn_time_rank2_description" rel_version="Expedition_GreatCleave_00">Titel, den du erhältst, indem du den zweiten Belohnungsplatz in der wöchentlichen Bestenliste (Abschlusszeit) des Gletschersees belegst.</string>
 </resources>
 

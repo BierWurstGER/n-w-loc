@@ -173,7 +173,7 @@
 	<string key="06A_MSQ_08_RescueGideon_title" speaker="UI - Journal - Quest  Title" rel_version="Quest_MSQ2_Revamp">Hierro y sangre</string>
 	<string key="06A_MSQ_08_RescueGideon_desc" speaker="UI - Journal - Quest  Description" rel_version="Quest_MSQ2_Revamp">Rescata a los miembros supervivientes de la compañía de la Rosa de Hierro y descubre el destino del sargento Cotheran. Luego, reúnete con Leovix Silva en la Fortaleza de Hierro.</string>
 	<string key="06A_MSQ_08_RescueGideon_goto_campsite" speaker="UI" rel_version="Quest_MSQ2_Revamp">Viaje al campamento cerca de la guarnición de la Rosa de Hierro</string>
-	<string key="06A_MSQ_08_RescueGideon_makeCamp" speaker="UI" rel_version="Quest_MSQ2_Revamp">Make Camp to set a Respawn Point near the Iron Rose Garrison</string>
+	<string key="06A_MSQ_08_RescueGideon_makeCamp" speaker="UI" rel_version="Quest_MSQ2_Revamp">Monta un campamento para crear un punto de reaparición cerca de la guarnición de la Rosa de Hierro.</string>
 	<string key="06A_MSQ_08_RescueGideon_goto_keep" speaker="UI" rel_version="Quest_MSQ2_Revamp">Busca: {POITags}</string>
 	<string key="06A_MSQ_08_RescueGideon_rescue_trigger" speaker="UI" rel_version="Quest_MSQ2_Revamp">Rescata a los supervivientes</string>
 	<string key="06A_MSQ_08_RescueGideon_talk_Gideon" speaker="UI" rel_version="Quest_MSQ2_Revamp">Habla con Gideon</string>
@@ -900,14 +900,14 @@
 	<string key="0223_0101_d_01_TaskHaveItems" speaker="UI" rel_version="Quest_MSQ2_Revamp">Aprovecha un calamar ganchudo para obtener: {itemName}</string>
 	<string key="0223_0101_d_02_TaskHaveItems" speaker="UI" rel_version="Quest_MSQ2_Revamp">Aprovecha un siluro barbado para obtener: {itemName}</string>
 	<string key="1323_0101_FQ08_objective_title" speaker="UI" rel_version="Quest_MSQ2_Revamp">Una captura inusual</string>
-	<string key="1323_0101_FQ08_objective_desc" speaker="UI" rel_version="Quest_MSQ2_Revamp">Catch three Slimy Boots in Weaver's Fen to clean up the waters for Master Fisher Agarwal and deliver a new line to Master Fisher O'Connor in Restless Shore.</string>
+	<string key="1323_0101_FQ08_objective_desc" speaker="UI" rel_version="Quest_MSQ2_Revamp">Pesca tres botas pringosas en la Ciénaga de los Tejedores para limpiar las aguas como te ha pedido la pescadora maestra Agarwal. Luego, entrégale un sedal nuevo a le pescadore maestre O'Connor en Costa de la Zozobra.</string>
 	<string key="1323_0101_FQ08_prompt" speaker="UI - Player Prompt" rel_version="Quest_MSQ2_Revamp">«¿Qué tipos de peces abundan en la Ciénaga?»</string>
 	<string key="1323_0101_FQ08_proposal" speaker="Master Fisher Agarwal - Weaver's Fen" name="MasterFisherAgarwal" VO="Fisher_1323_0101_FQ08_ProposalResponse" VO_Status="Recorded" dialogue-next="@1323_0101_FQ08_proposal_next" rel_version="Quest_MSQ2_Revamp">Lo que abunda bastante es el calzado: la gente lo pierde por lo trabajoso que es caminar por el pantano. Pescar cinco botas sería un buen comienzo para empezar a limpiar las aguas de la zona.</string>
 	<string key="1323_0101_FQ08_proposal_prompt" speaker="UI - Player Prompt" rel_version="Quest_MSQ2_Revamp">«¿Qué tengo que hacer cuando haya terminado?»</string>
 	<string key="1323_0101_FQ08_proposal_next" speaker="Master Fisher Agarwal - Weaver's Fen" name="MasterFisherAgarwal" VO="Fisher_1323_0101_FQ08_CompleteNext" VO_Status="Recorded" dialogue-prompt="@1323_0101_FQ08_proposal_prompt" rel_version="Quest_MSQ2_Revamp">Cuando me hayas ayudado a limpiar las aguas de la Ciénaga, ve a ver a le pescadore maestre O'Connor. Siempre rebosa energía y seguro que tendrá alguna tarea más interesante para ti.</string>
 	<string key="1323_0101_FQ08_incomplete" speaker="Master Fisher Agarwal - Weaver's Fen" rel_version="Quest_MSQ2_Revamp">Pesca cinco botas y después ve a ver a le pescadore maestre O'Connor. ¡Buena suerte!</string>
 	<string key="1323_0101_FQ08_complete_available_response" speaker="Master Fisher O'Connor - Restless Shore" name="MasterFisherO'Connor" VO="Fisher_1323_0101_FQ08_AvailResponse" VO_Status="Recorded" rel_version="Quest_MSQ2_Revamp">Ahora me gusta más pescar que luchar, aunque no he dejado lo segundo del todo.</string>
-	<string key="1323_0101_d_01_TaskFishingCatchFish" speaker="UI" rel_version="Quest_MSQ2_Revamp">Catch {itemName} in Weaver's Fen</string>
+	<string key="1323_0101_d_01_TaskFishingCatchFish" speaker="UI" rel_version="Quest_MSQ2_Revamp">Pesca {itemName} en la Ciénaga de los Tejedores</string>
 	<string key="1523_0101_FQ09_objective_title" speaker="UI" rel_version="Quest_MSQ2_Revamp">Armas del mar</string>
 	<string key="1523_0101_FQ09_objective_desc" speaker="UI" rel_version="Quest_MSQ2_Revamp">Captura una espada de pez y un martillo de pez para le pescadore maestre O'Connor y enséñaselos al pescador maestro Abebe en el Valle del Pesar.</string>
 	<string key="1523_0101_FQ09_prompt" speaker="UI - Player Prompt" rel_version="Quest_MSQ2_Revamp">«Agarwal dijo que tenías algo para mí».</string>

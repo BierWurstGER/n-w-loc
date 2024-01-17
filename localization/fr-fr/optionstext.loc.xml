@@ -16,7 +16,7 @@
 	<string key="ui_termsnotice_desc">Consulter les conditions d'utilisation dans le navigateur Internet.</string>
 	<string key="ui_visual">Graphismes</string>
 	<string key="ui_section_language">Langue</string>
-	<string key="ui_section_camera">Caméra clavier et souris</string>
+	<string key="ui_section_camera">Caméra</string>
 	<string key="ui_section_gameplay">Options de jeu</string>
 	<string key="ui_section_hud">ATH</string>
 	<string key="ui_section_healing">Soins</string>
@@ -33,10 +33,10 @@
 	<string key="ui_section_group">Plus d'options</string>
 	<string key="ui_voicechatsettings">Discussion vocale</string>
 	<string key="ui_openvoicechatsettings">Ouvrir paramètres de discussion vocale</string>
-	<string key="ui_invertlook">Inverser caméra</string>
+	<string key="ui_invertlook">Inverser caméra [souris/clavier]</string>
 	<string key="ui_invertlook_desc">Pour inverser l'axe vertical en utilisant un clavier et une souris.</string>
-	<string key="ui_looksensitivity">Sensibilité de la caméra</string>
-	<string key="ui_looksensitivity_desc">Définissez la vitesse de déplacement de votre caméra.</string>
+	<string key="ui_looksensitivity">Sensibilité de la caméra [souris/clavier]</string>
+	<string key="ui_looksensitivity_desc">Définissez la vitesse de déplacement de votre caméra en utilisant un clavier et une souris.</string>
 	<string key="ui_window_mode">Mode d'affichage</string>
 	<string key="ui_window_mode_desc">Permet le mode d'affichage fenêtré.</string>
 	<string key="ui_fullscreen">Plein écran</string>
@@ -250,12 +250,12 @@
 	<string key="ui_options_textSize_bigger">Grand</string>
 	<string key="ui_cameraShake">Tremblements de la caméra</string>
 	<string key="ui_cameraShake_desc">Pour activer les mouvements de la caméra qui sont susceptibles de désorienter certains joueurs.</string>
-	<string key="ui_strafeCamera">Toujours faire des pas de côté</string>
-	<string key="ui_strafeCamera_desc">Pour que le personnage reste toujours dans l'axe de la caméra.</string>
+	<string key="ui_strafeCamera">Déplacement libre [souris/clavier]</string>
+	<string key="ui_strafeCamera_desc">Les personnages se tourneront selon la direction du mouvement imprimé par le clavier et la souris.</string>
 	<string key="ui_alwaysShowReticle">Toujours afficher le réticule</string>
 	<string key="ui_alwaysShowReticle_desc">Pour que le réticule de votre arme soit visible même lorsque celle-ci est rangée.</string>
 	<string key="ui_toggleblockads">Activer visée et parade</string>
-	<string key="ui_toggleblockads_desc">Pour activer la visée et la parade de la pression d'un bouton.</string>
+	<string key="ui_toggleblockads_desc">Pour définir si la visée et la parade doivent être activées lorsque le bouton est pressé au lieu d'être maintenu.</string>
 	<string key="ui_enable_ally_team_color_tinting">Teinte de l'équipe alliée</string>
 	<string key="ui_enable_enemy_team_color_tinting">Teinte de l'équipe ennemie</string>
 	<string key="ui_enable_ally_team_color_tinting_desc">Pour activer la teinte de couleur pour les alliés dans les modes de jeu.</string>
@@ -301,23 +301,25 @@
 	<string key="ui_analyticsenabled_desc">Pour envoyer certaines données de télémétrie client relatives à votre expérience de jeu et à vos paramètres à l'équipe de New World (si vous éprouvez des problèmes de connexion en jouant, désactiver cette option peut être utile).</string>
 	<string key="ui_leaderboardenabled" rel_version="Feature_Leaderboards">Participer au classement</string>
 	<string key="ui_leaderboardenabled_desc" rel_version="Feature_Leaderboards">Pour afficher la place de votre personnage dans le classement et activer des récompenses de classement.</string>
-	<string key="ui_enable_camera_lock">Soins ciblés</string>
-	<string key="ui_enable_camera_lock_description">Pour activer le système de soins ciblés.</string>
+	<string key="ui_enable_targeted_healing">Soins ciblés</string>
+	<string key="ui_enable_targeted_healing_description">Pour activer le système de soins ciblés.</string>
 	<string key="ui_enable_camera_lock_friendlies">Verrouillage de la caméra sur les alliés</string>
 	<string key="ui_enable_camera_lock_friendlies_description">Pour activer le système de soins ciblés sur les cibles alliées.</string>
-	<string key="ui_enable_camera_lock_target_follow">Caméra libre</string>
-	<string key="ui_enable_camera_lock_target_follow_description">Pour activer la caméra libre quand une cible est verrouillée (désactivez pour que la caméra suive une cible active).</string>
+	<string key="ui_enable_camera_lock_target_follow">Suivi de la cible verrouillée par la caméra</string>
+	<string key="ui_enable_camera_lock_target_follow_description">Pour que la caméra suive la cible verrouillée (à désactiver si vous voulez librement déplacer la caméra quand une cible est verrouillée).</string>
 	<string key="ui_enable_camera_lock_retarget">Reciblage via la visée caméra</string>
-	<string key="ui_enable_camera_lock_retarget_description">Pour activer le changement de la cible verrouillée avec la visée caméra (ne fonctionne que lorsque la caméra libre est désactivée).</string>
+	<string key="ui_enable_camera_lock_retarget_description">Pour changer de cible verrouillée avec la visée caméra (ne fonctionne que lorsque le « suivi de la cible verrouillée par la caméra » est activé).</string>
 	<string key="ui_enable_camera_lock_sticky_lock">Verrouillage collant</string>
 	<string key="ui_enable_camera_lock_sticky_lock_description">Pour maintenir la cible verrouillée après avoir prodigué des soins.</string>
 	<string key="ui_enable_camera_lock_group_mode">Mode groupe</string>
-	<string key="ui_enable_camera_lock_group_mode_description">Pour activer le mode groupe, qui fait défiler les membres du groupe seulement via le bouton central de la souris (ne fonctionne pas dans un raid lorsque l'option de ciblage d'assaut via groupes et raccourcis est activée).</string>
+	<string key="ui_enable_camera_lock_group_mode_description">Active le mode groupe, qui fait défiler seulement les membres d'un groupe ou d'un assaut via le bouton central de la souris (cette option est inutile lors d'un assaut lorsque l'option « Ciblage d'assaut via groupes et raccourcis » est activée).</string>
+	<string key="ui_enable_target_mygroup_only_in_raid">Groupe uniquement en assaut</string>
+	<string key="ui_enable_target_mygroup_only_in_raid_description">Limite les alliés pouvant être ciblés à cinq membres de votre groupe proche en assaut avec le Mode groupe activé (cette option est inutile lors d'un assaut lorsque l'option « Ciblage d'assaut via groupes et raccourcis » est activée).</string>
 	<string key="ui_enable_camera_lock_select_raid_members_by_group_and_hotkey">Ciblage d'assaut via groupes et raccourcis</string>
-	<string key="ui_enable_camera_lock_select_raid_members_by_group_and_hotkey_description">Pour activer le ciblage d'assaut qui fait défiler les groupes d'assaut via la molette de la souris et cible les membres grâce aux raccourcis (raccourcis de ciblage des membres du groupe requis pour sélectionner une cible dans un groupe. Active automatiquement le mode groupe dans les raids).</string>
+	<string key="ui_enable_camera_lock_select_raid_members_by_group_and_hotkey_description">Active le ciblage d'assaut qui fait défiler les groupes d'assaut via la molette de la souris et cible les membres du groupe grâce aux raccourcis (raccourcis de ciblage des membres du groupe requis pour sélectionner une cible dans un groupe. Seuls les membres d'assaut peuvent être ciblés quand activé).</string>
 	<string key="ui_enable_show_healing_hotkeys_in_raid_hud">Afficher le guide des raccourcis lors des assauts</string>
 	<string key="ui_enable_show_healing_hotkeys_in_raid_hud_description">Pour afficher le guide des raccourcis pour chaque membre du groupe actuellement sélectionné lorsque le ciblage d'assaut via groupes et raccourcis est activé.</string>
-	<string key="ui_toggle_target_lock" rel_version="Feature_Controller">Activer le verrouillage de cible</string>
+	<string key="ui_toggle_target_lock">Activer le verrouillage de cible</string>
 	<string key="ui_raid_member_hotkeys_unbound_error_title">Raccourci non assigné</string>
 	<string key="ui_raid_member_hotkeys_unbound_error_message">Rendez-vous dans les Raccourcis clavier et assignez toutes les touches de ciblage de membre du groupe du combat au bâton de vie afin d'activer cette fonctionnalité.</string>
 	<string key="ui_gena_escape" rel_version="Feature_GameEntryNarrationAssistance">Échap</string>

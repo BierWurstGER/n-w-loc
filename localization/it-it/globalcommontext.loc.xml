@@ -82,7 +82,7 @@
 	<string key="inv_cannotsalvage_equipped">Non puoi recuperare oggetti equipaggiati.</string>
 	<string key="inv_cannotsalvage_full">Impossibile recuperare. Il tuo inventario è pieno.</string>
 	<string key="inv_cannotsalvage_currencyfull">Impossibile recuperare perché hai già la quantità massima di {currency}.</string>
-	<string key="ui_move_hint">Sposta</string>
+	<string key="ui_move_hint">Muoviti</string>
 	<string key="ui_link_to_chat_hint">Link alla chat</string>
 	<string key="ui_split_stack_hint">Dividi pila</string>
 	<string key="inv_use">Usa</string>
@@ -217,7 +217,7 @@
 	<string key="ui_azoth_desc">Puoi usare l'Azoth per viaggiare velocemente tra santuari e insediamenti e per produrre oggetti più potenti.\n\nPer ottenere Azoth completa missioni e chiudi brecce della Corruzione.\n\n&lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#aaaaaa"&gt;Origine:&lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#FFFFFF"&gt; brecce della Corruzione, missioni&lt;/font&gt;</string>
 	<string key="ui_cards">Carte</string>
 	<string key="ui_leave_arena_coming_soon">Uscita dall'arena, prossimamente</string>
-	<string key="ui_equipfishingpole">[{value}] per pescare</string>
+	<string key="ui_equipfishingpole">{$player.fishing_activate$} per pescare</string>
 	<string key="ui_castfishingline">: Lancia la lenza</string>
 	<string key="ui_fishing_hotspot_nearby">Trova il punto di pesca nelle vicinanze!</string>
 	<string key="ui_changekey">Cambia chiave</string>
@@ -446,7 +446,7 @@
 	<string key="ui_food">Cibo</string>
 	<string key="ui_foreground_description">Seleziona un sigillo che ti rappresenti.</string>
 	<string key="ui_foreground">Emblema</string>
-	<string key="ui_free">GRATUITO</string>
+	<string key="ui_free">GRATIS</string>
 	<string key="ui_friendrequests">Richieste di amicizia</string>
 	<string key="ui_fuel">FUEL</string>
 	<string key="ui_fuelremaining">{fuelremaining} rimanenti</string>
@@ -538,7 +538,7 @@
 	<string key="ui_max">MASSIMO!!!</string>
 	<string key="ui_microinteractions">Micro interazioni</string>
 	<string key="ui_microphone">Microfono</string>
-	<string key="ui_tooltip_actions">Opzioni</string>
+	<string key="ui_tooltip_actions">Azioni</string>
 	<string key="ui_microphoneselection">Selezione microfono</string>
 	<string key="ui_microphonetest">Test microfono</string>
 	<string key="ui_microphonevolume">Volume microfono</string>
@@ -974,6 +974,22 @@
 	<string key="ui_world_select_hide_options">Nascondi opzioni aggiuntive</string>
 	<string key="ui_world_select_view_worlds">Visualizza mondi</string>
 	<string key="ui_world_select_refresh">Aggiorna</string>
+	<string key="ui_world_free_transfer">Trasferimento gratuito</string>
+	<string key="ui_world_leave_world">Abbandona mondo</string>
+	<string key="ui_world_leave_world_confirm_message_start">Abbandonare il mondo avrà un impatto sull'esperienza del tuo personaggio:</string>
+	<string key="ui_world_leave_world_confirm_message_friends_list">La tua lista amici non sarà trasferita</string>
+	<string key="ui_world_leave_world_confirm_message_company_membership">La tua appartenenza alla compagnia e i fondi nella cassa comune non saranno trasferiti</string>
+	<string key="ui_world_leave_world_confirm_message_town_projects">Le tue missioni del progetto cittadino non saranno trasferite</string>
+	<string key="ui_world_leave_world_confirm_message_faction_missions">Le tue missioni della fazione non saranno trasferite</string>
+	<string key="ui_world_leave_world_confirm_message_trading_post">I tuoi contratti nell'emporio verranno cancellati e non saranno trasferiti</string>
+	<string key="ui_world_leave_world_confirm_message_season_pass">I tuoi progressi del pass stagionale e le ricompense saranno trasferiti</string>
+	<string key="ui_world_leave_world_confirm_message_houses">Le tue case saranno trasferite</string>
+	<string key="ui_world_leave_world_confirm_message_end">Vuoi davvero abbandonare {worldName}?\n\nUna volta lasciato questo mondo, potresti non essere in grado di tornare finché non verrà sbloccato e potrai selezionare solo un mondo in questa regione.</string>
+	<string key="ui_world_leave_world_failed_header">Trasferimento personaggio non disponibile</string>
+	<string key="ui_world_leave_world_failed_message">Il trasferimento personaggio gratuito non è attualmente disponibile.</string>
+	<string key="ui_world_free_transfer_tooltip_transfer_unavailable">Il trasferimento personaggio non è attualmente disponibile.</string>
+	<string key="ui_world_free_transfer_tooltip_is_latent">Personaggio già in fase di trasferimento</string>
+	<string key="ui_world_free_transfer_tooltip_cooldown">Trasferimento personaggio\ndisponibile dopo: {time}</string>
 	<string key="ui_resolution_popup_title">Risoluzione</string>
 	<string key="ui_resolution_popup_title_message">Mantenere questa risoluzione?</string>
 	<string key="ui_monitor_popup_title">Monitor</string>
@@ -1054,12 +1070,14 @@
 	<string key="ui_killfeed_tradeskill_val">+ {amount} </string>
 	<string key="ui_navmenu_friends">AMICI</string>
 	<string key="ui_navmenu_modes">Modalità</string>
+	<string key="ui_navmenu_activities" rel_version="Feature_PUG_Finder">Attività</string>
 	<string key="ui_navmenu_guild">Compagnia</string>
 	<string key="ui_navmenu_map">Mappa</string>
 	<string key="ui_navmenu_journal">Diario</string>
 	<string key="ui_navmenu_settings">Impostazioni</string>
 	<string key="ui_navmenu_exit">ESCI / OPZIONI</string>
 	<string key="ui_navmenu_game_menu">Menu gioco</string>
+	<string key="ui_navmenu_social_menu">Menu Social</string>
 	<string key="ui_navmenu_benchmark">BENCHMARK</string>
 	<string key="ui_navmenu_store">Negozio</string>
 	<string key="ui_navmenu_quit">Esci</string>
@@ -1125,6 +1143,7 @@
 	<string key="ui_constitution">Costituzione</string>
 	<string key="ui_respec">Riassegnazione</string>
 	<string key="ui_respec_attributes">Riaccredita tutti i punti Attributo</string>
+	<string key="ui_cannot_respec_attributes_during_combat">Impossibile riassegnare gli Attributi durante il combattimento</string>
 	<string key="ui_respec_mastery">Riaccredita tutti i punti Maestria</string>
 	<string key="ui_base">Base</string>
 	<string key="ui_health">Salute</string>
@@ -1529,7 +1548,7 @@
 	<string key="ui_deathrecap_new_personal_best">Nuovo record personale!</string>
 	<string key="ui_deathrecap_respawn_ready">Pronto</string>
 	<string key="ui_deathrecap_respawn_overloaded">Questo posto è troppo occupato per rigenerarsi.</string>
-	<string key="ui_deathrecap_respawn_out_of_range">Per rigenerarti devi trovarti entro &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{distance}&lt;/font&gt; dall'accampamento.</string>
+	<string key="ui_deathrecap_respawn_out_of_range">Possibile entro &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{distance}&lt;/font&gt; dall'accampamento.</string>
 	<string key="ui_deathrecap_respawn_out_of_range_with_cooldown">Potrai rigenerarti tra &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{time}&lt;/font&gt; entro &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{distance}&lt;/font&gt; dall'accampamento.</string>
 	<string key="ui_deathrecap_survived_for">Sopravvissuto per</string>
 	<string key="ui_deathrecap_respawn_points">Punti di rigenerazione</string>
@@ -1539,7 +1558,7 @@
 	<string key="ui_claimmarker">Punto di rivendicazione</string>
 	<string key="ui_claimstreak">Giorno {number}</string>
 	<string key="ui_random_location">Luogo casuale</string>
-	<string key="ui_scroll_hint">(Scorri) Ingrandisci</string>
+	<string key="ui_scroll_hint">Zoom</string>
 	<string key="ui_map_rotate_camera">(Premuto) Ruota visuale</string>
 	<string key="ui_zoom_camera">&lt;img src="lyshineui/images/icons/misc/Icon_RightMouseButton" xPadding="0" scale="2.2" yOffset="8"&gt;&lt;/img&gt; + &lt;img src="lyshineui/images/icons/misc/Icon_MiddleMouseButton" xPadding="1" scale="2.3" yOffset="9"&gt;&lt;/img&gt; (premuto) Ingrandisci</string>
 	<string key="ui_global_storage_description">Gli altri giocatori non possono prendere o vedere gli oggetti che lasci qui. Devi tornare a questo avamposto per recuperare gli oggetti.</string>

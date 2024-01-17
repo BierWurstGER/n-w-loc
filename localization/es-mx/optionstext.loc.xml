@@ -16,7 +16,7 @@
 	<string key="ui_termsnotice_desc">Ver las Condiciones de uso en una ventana de navegador</string>
 	<string key="ui_visual">Visual</string>
 	<string key="ui_section_language">Idioma</string>
-	<string key="ui_section_camera">Cámara del mouse y teclado</string>
+	<string key="ui_section_camera">Cámara</string>
 	<string key="ui_section_gameplay">Juego</string>
 	<string key="ui_section_hud">HUD</string>
 	<string key="ui_section_healing">Sanación</string>
@@ -33,10 +33,10 @@
 	<string key="ui_section_group">Más opciones</string>
 	<string key="ui_voicechatsettings">Chat de voz</string>
 	<string key="ui_openvoicechatsettings">Abrir los ajustes de chat por voz</string>
-	<string key="ui_invertlook">Invertir cámara</string>
-	<string key="ui_invertlook_desc">Indica si prefieres invertir el eje vertical al usar un teclado y un mouse</string>
-	<string key="ui_looksensitivity">Sensibilidad de la cámara</string>
-	<string key="ui_looksensitivity_desc">Indica en qué velocidad prefieres que se mueva la cámara</string>
+	<string key="ui_invertlook">Invertir cámara [mouse/teclado]</string>
+	<string key="ui_invertlook_desc">Indica si prefieres invertir el eje vertical al usar el mouse/teclado</string>
+	<string key="ui_looksensitivity">Sensibilidad de la cámara [mouse/teclado]</string>
+	<string key="ui_looksensitivity_desc">Indica en qué velocidad prefieres que se mueva la cámara cuando usas el mouse/teclado</string>
 	<string key="ui_window_mode">Modo de ventana</string>
 	<string key="ui_window_mode_desc">Ajusta el modo de presentación de la ventana</string>
 	<string key="ui_fullscreen">Pantalla completa</string>
@@ -250,12 +250,12 @@
 	<string key="ui_options_textSize_bigger">Más grande</string>
 	<string key="ui_cameraShake">Sacudida de la cámara</string>
 	<string key="ui_cameraShake_desc">Indica si prefieres habilitar la sacudida de la cámara, que podría desorientar a ciertos jugadores</string>
-	<string key="ui_strafeCamera">Desplazamiento lateral</string>
-	<string key="ui_strafeCamera_desc">Indica si prefieres que el personaje siempre mire en dirección a la cámara</string>
+	<string key="ui_strafeCamera">Movimiento de cámara libre [mouse/teclado]</string>
+	<string key="ui_strafeCamera_desc">El personaje avanzará en la dirección de entrada del movimiento con el mouse/teclado</string>
 	<string key="ui_alwaysShowReticle">Mostrar retícula siempre</string>
 	<string key="ui_alwaysShowReticle_desc">Indica si prefieres que la retícula sea visible incluso cuando tienes el arma envainada</string>
 	<string key="ui_toggleblockads">Activar/Desactivar apuntar y bloquear</string>
-	<string key="ui_toggleblockads_desc">Indica si prefieres activar/desactivar apuntar y bloquear presionando un botón</string>
+	<string key="ui_toggleblockads_desc">Indica si prefieres activar/desactivar apuntar y bloquear al presionar el botón en lugar de mantenerlo presionado</string>
 	<string key="ui_enable_ally_team_color_tinting">Tintura del color del equipo aliado</string>
 	<string key="ui_enable_enemy_team_color_tinting">Tintura del color del equipo enemigo</string>
 	<string key="ui_enable_ally_team_color_tinting_desc">Indica si prefieres habilitar la tintura del color de los equipos aliados en los modos de juego</string>
@@ -301,23 +301,25 @@
 	<string key="ui_analyticsenabled_desc">Indica si prefieres enviarle al equipo de New World ciertos datos telemétricos del cliente relacionados con tus ajustes y experiencia de juego (si tienes problemas de red al jugar, deshabilitar esta configuración puede resultarte útil)</string>
 	<string key="ui_leaderboardenabled" rel_version="Feature_Leaderboards">Participar en las clasificaciones</string>
 	<string key="ui_leaderboardenabled_desc" rel_version="Feature_Leaderboards">Indica si prefieres visualizar las clasificaciones con el nombre de tu personaje y habilitar las recompensas de clasificación</string>
-	<string key="ui_enable_camera_lock">Sanación dirigida</string>
-	<string key="ui_enable_camera_lock_description">Indica si prefieres habilitar el sistema de sanación dirigida</string>
+	<string key="ui_enable_targeted_healing">Sanación dirigida</string>
+	<string key="ui_enable_targeted_healing_description">Indica si prefieres habilitar el sistema de sanación dirigida</string>
 	<string key="ui_enable_camera_lock_friendlies">Bloquear cámara en simpatizantes</string>
 	<string key="ui_enable_camera_lock_friendlies_description">Indica si prefieres habilitar el sistema de dirección en los objetivos simpatizantes para la sanación</string>
-	<string key="ui_enable_camera_lock_target_follow">Cámara libre</string>
-	<string key="ui_enable_camera_lock_target_follow_description">Indica si prefieres habilitar la cámara libre cuando se bloquea en el objetivo (inhabilita la opción para que la cámara siga a un objetivo activo)</string>
+	<string key="ui_enable_camera_lock_target_follow">Seguir al objetivo fijado con la cámara</string>
+	<string key="ui_enable_camera_lock_target_follow_description">Indica que la cámara siga a un objetivo fijado (desactívalo para que la cámara se mueva libremente mientras el objetivo está fijado).</string>
 	<string key="ui_enable_camera_lock_retarget">Cambio de objetivo de la cámara</string>
-	<string key="ui_enable_camera_lock_retarget_description">Indica si prefieres habilitar el cambio de bloqueo del objetivo con la cámara (solo se activa si la cámara libre está deshabilitada)</string>
+	<string key="ui_enable_camera_lock_retarget_description">Indica si prefieres habilitar el cambio de bloqueo del objetivo con la cámara (solo se activa si la opción de "Seguir al objetivo fijado con la cámara" está activada).</string>
 	<string key="ui_enable_camera_lock_sticky_lock">Bloqueo adherente</string>
 	<string key="ui_enable_camera_lock_sticky_lock_description">Indica si prefieres habilitar la conservación del objetivo después de realizar una sanación</string>
 	<string key="ui_enable_camera_lock_group_mode">Modo de grupo</string>
-	<string key="ui_enable_camera_lock_group_mode_description">Indica si prefieres habilitar el modo de grupo, que alterna entre los miembros del grupo únicamente mediante la rueda central del mouse (esta opción no funciona durante una incursión mientras la opción de fijación de incursión mediante grupos y atajos esté activada)</string>
+	<string key="ui_enable_camera_lock_group_mode_description">Activa el modo de grupo, que alterna solo entre los miembros del grupo o la incursión mediante la rueda central del mouse (esta opción no funciona durante una incursión mientras la opción de "Fijación de incursión mediante grupos y atajos" esté activada).</string>
+	<string key="ui_enable_target_mygroup_only_in_raid">Solo grupos en incursiones</string>
+	<string key="ui_enable_target_mygroup_only_in_raid_description">Limita la cantidad de aliados objetivos a cinco miembros de tu grupo inmediato mientras estás en una Incursión con el Modo de grupo activado (esta opción no funciona durante una incursión mientras la opción de "Fijación de incursión mediante grupos y atajos" esté activada).</string>
 	<string key="ui_enable_camera_lock_select_raid_members_by_group_and_hotkey">Fijación de incursión mediante grupos y atajos</string>
-	<string key="ui_enable_camera_lock_select_raid_members_by_group_and_hotkey_description">Indica si prefieres habilitar la fijación de incursiones, que alterna entre los grupos de incursión mediante la rueda central del ratón y los miembros objetivos mediante el atajo del teclado (para seleccionar objetivos dentro de un grupo se necesitan asignaciones de teclas para los miembros del grupo objetivo; activa automáticamente el modo grupo en las incursiones)</string>
+	<string key="ui_enable_camera_lock_select_raid_members_by_group_and_hotkey_description">Activa la fijación de incursiones, que alterna entre los grupos de incursión mediante la rueda central del ratón y fija los miembros del grupo mediante el atajo del teclado (para seleccionar objetivos dentro de un grupo se necesitan asignaciones de teclas para los miembros del grupo objetivo. Cuando se activa, solo se puede fijar a miembros de la incursión).</string>
 	<string key="ui_enable_show_healing_hotkeys_in_raid_hud">Mostrar sugerencias de atajos del teclado en incursión</string>
 	<string key="ui_enable_show_healing_hotkeys_in_raid_hud_description">Indica si prefieres visualizar sugerencias del atajo del teclado para cada miembro del grupo seleccionado cuando la fijación de incursión mediante grupos y atajos está activada</string>
-	<string key="ui_toggle_target_lock" rel_version="Feature_Controller">Alternar bloqueo del objetivo</string>
+	<string key="ui_toggle_target_lock">Alternar bloqueo del objetivo</string>
 	<string key="ui_raid_member_hotkeys_unbound_error_title">No se encontraron atajos</string>
 	<string key="ui_raid_member_hotkeys_unbound_error_message">Para activar esta función, ve a Asignaciones de teclas y asigna todas las entradas de los miembros del grupo objetivo del combate con el bastón vital.</string>
 	<string key="ui_gena_escape" rel_version="Feature_GameEntryNarrationAssistance">Escape</string>

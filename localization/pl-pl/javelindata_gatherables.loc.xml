@@ -394,6 +394,7 @@
 	<string key="LootContainer_StoneTomb_DisplayName">Weź przedmioty pochówkowe</string>
 	<string key="LootContainer_AnubianStoneTomb_DisplayName">Weź pradawne ofiary</string>
 	<string key="LootContainer_WeaponPile_DisplayName">Sterta broni</string>
+	<string key="LootContainer_Throne_DisplayName">Zapasy tronu</string>
 	<string key="Item_PotionHealT1_DisplayName">Destylowana nalewka lecznicza</string>
 	<string key="Item_ClothT2_DisplayName">Strzępy tkaniny</string>
 	<string key="Darkness_Monolith_DisplayName">Skażony monolit</string>
@@ -511,7 +512,7 @@
 	<string key="0701_AntiCorruptionBomb_DisplayName">Umieść bombę</string>
 	<string key="0702_BlightNodule_DisplayName">Weź skupisko zarazy</string>
 	<string key="0703_BaetylusLuckstone_DisplayName">Weź szczęśliwy betyl</string>
-	<string key="0901_Barley_DisplayName">Jęczmień z Wiosny</string>
+	<string key="0901_Barley_DisplayName">Jęczmień ze Świtu</string>
 	<string key="0902_GunpowderCask_DisplayName">Beczka prochu strzelniczego</string>
 	<string key="0903_HilltopHops_DisplayName">Chmiel ze wzgórza</string>
 	<string key="0904_FishTrap_DisplayName">Pułapka na ryby</string>
@@ -796,19 +797,8 @@
 	<string key="AnubianBrute_Base_DisplayName" rel_version="Territory_Brimstone_Sands">Anubijski automat</string>
 	<string key="AnubianPanther_Base_DisplayName" rel_version="Territory_Brimstone_Sands">Sfinksowy automat</string>
 	<string key="16BS_LootContainer_Elite_LegionStoneTomb_DisplayName" rel_version="Territory_Brimstone_Sands">Elitarne przedmioty pochówkowe</string>
-	<string key="WinterConv_Settlement_Tree_Master_DisplayName" rel_version="Event_WinterConvergence_Temp">Drzewo Światła</string>
-	<string key="WinterConv_Settlement_Tree_Master_Description" rel_version="Event_WinterConvergence_Temp">Realizuj projekty miasteczka, by zwiększyć piękno Drzewa Światła i otrzymywane z niego nagrody!</string>
-	<string key="WinterConv_SettlementTree_T1_DisplayName" rel_version="Event_WinterConvergence_Temp">Żałosna sterta podarków</string>
-	<string key="WinterConv_SettlementTree_T2_DisplayName" rel_version="Event_WinterConvergence_Temp">Wspaniała sterta podarków</string>
-	<string key="WinterConv_SettlementTree_T3_DisplayName" rel_version="Event_WinterConvergence_Temp">Cudowna sterta podarków</string>
-	<string key="WinterConv_Gleamite_Chunk_DisplayName" rel_version="Event_WinterConvergence_Temp">Odłamek błyszczytu</string>
-	<string key="WinterConv_Gleamite_Shard_DisplayName" rel_version="Event_WinterConvergence_Temp">Błyszczyt</string>
-	<string key="WinterConv_Village_GiftBag_DisplayName" rel_version="Event_WinterConvergence_Temp">Worek z prezentami</string>
-	<string key="WinterConv_Village_GiftBag_Description" rel_version="Event_WinterConvergence_Temp">Odbieraj codziennie wspaniały prezent i świętuj Zimową Konwergencję!</string>
-	<string key="LostPresent00_DisplayName" rel_version="Event_WinterConvergence_Temp">Zagubiony podarek</string>
-	<string key="LostPresent01_DisplayName" rel_version="Event_WinterConvergence_Temp">Zagubiony podarek</string>
-	<string key="Season_04_IceGuardian_Icicle_DisplayName" rel_version="Season_4_Trial">Throwable Icicle</string>
-	<string key="Season_04_IceGuardian_BrokenRune_DisplayName" rel_version="Season_4_Trial">Gain Ancient Flame Empowerment</string>
+	<string key="Season_04_IceGuardian_Icicle_DisplayName" rel_version="Season_4_Trial">Sopel do ciskania</string>
+	<string key="Season_04_IceGuardian_BrokenRune_DisplayName" rel_version="Season_4_Trial">Zyskaj nasączenie mocą pradawnego płomienia</string>
 	<string key="FM_PVP_War_Camp_Loot_Box_DisplayName">Skrzynia obozu wojennego</string>
 	<string key="1130_ArcaneFocus1_DisplayName">Magiczny fokus</string>
 	<string key="1130_ArcaneFocus2_DisplayName">Magiczny fokus</string>
@@ -1062,8 +1052,6 @@
 	<string key="16_Side_13_WormSpine_DisplayName" rel_version="Territory_Brimstone_Sands">Weź dziwny kolec</string>
 	<string key="NPCRescue_Dryad_DisplayName" rel_version="Quest_MSQ2_Revamp">Uwolnij driadę</string>
 	<string key="Dungeon_BrimstoneSands00_TranslateGlyph" rel_version="Territory_Brimstone_Sands">Aktywuj pulpit z glifami</string>
-	<string key="Yeti_2022_Fortify_Monolith_DisplayName" rel_version="Event_WinterConvergence_Temp">Aura mroźnoszronu</string>
-	<string key="Yeti_2022_Empower_Monolith_DisplayName" rel_version="Event_WinterConvergence_Temp">Monolit bestialskiej siły</string>
 	<string key="Armadillo_Base_DisplayName" rel_version="Territory_Brimstone_Sands">Pancernik</string>
 	<string key="Rat_Base_DisplayName" rel_version="Territory_Brimstone_Sands">Szczur</string>
 	<string key="HercyneRat_Base_DisplayName" rel_version="Territory_FirstLight">Szczur hercyński</string>
@@ -1127,9 +1115,9 @@
 	<string key="99B_MSQ_08_AzothTree_DisplayName" rel_version="Quest_MSQ2_Brightwood">Dotknij azothowego drzewa</string>
 	<string key="99B_MSQ_11_BrightwatchHistory_DisplayName" rel_version="Quest_MSQ2_Brightwood">Przeczytaj historię</string>
 	<string key="Dungeon_GreatCleave_01_GemGather" rel_version="Expedition_GreatCleave_01">Skupisko amirytów</string>
-	<string key="Dungeon_GreatCleave_00_IceGatherA" rel_version="Expedition_GreatCleave_00">Gather Ice Sample</string>
-	<string key="Dungeon_GreatCleave_00_IceGatherB" rel_version="Expedition_GreatCleave_00">Gather Ice Sample</string>
-	<string key="Dungeon_GreatCleave_00_IceGatherC" rel_version="Expedition_GreatCleave_00">Gather Ice Sample</string>
+	<string key="Dungeon_GreatCleave_00_IceGatherA" rel_version="Expedition_GreatCleave_00">Zbierz próbkę lodu</string>
+	<string key="Dungeon_GreatCleave_00_IceGatherB" rel_version="Expedition_GreatCleave_00">Zbierz próbkę lodu</string>
+	<string key="Dungeon_GreatCleave_00_IceGatherC" rel_version="Expedition_GreatCleave_00">Zbierz próbkę lodu</string>
 	<string key="95_s01_05_ChurchFundCabinet" rel_version="Season_1_Perm">Weź środki</string>
 	<string key="02A_Side08_CoffinA_DisplayName" rel_version="Quest_MSQ2_Brightwood">Otwórz trumnę</string>
 	<string key="95_s01_06_TEMP_SupplyChain_Footprints">Zbadaj ślady stóp</string>
@@ -1322,7 +1310,7 @@
 	<string key="99E_MSQ_08_ExamineArea_DisplayName" rel_version="Quest_MSQ2_Edengrove">Przeszukaj okolicę</string>
 	<string key="99E_MSQ_09_PlaceCorrStaff_DisplayName" rel_version="Quest_MSQ2_Edengrove">Umieść skażoną głownię</string>
 	<string key="99E_MSQ_09_TakePureStaff_DisplayName" rel_version="Quest_MSQ2_Edengrove">Weź oczyszczoną laskę</string>
-	<string key="99E_MSQ_09_BrokenPole_DisplayName" rel_version="Quest_MSQ2_Edengrove">Dotknij zepsutą wędkę</string>
+	<string key="99E_MSQ_09_BrokenPole_DisplayName" rel_version="Quest_MSQ2_Edengrove">Dotknij zepsutej wędki</string>
 	<string key="99E_MSQ_10_ActivateShield_DisplayName" rel_version="Quest_MSQ2_GreatCleave">Aktywuj tarczę</string>
 	<string key="Dungeon_FirstLight01_Interact_OrbGateKey_Get" rel_version="Territory_FirstLight">Pradawna kula</string>
 	<string key="Dungeon_FirstLight01_Interact_OrbGateKey_Deposit" rel_version="Territory_FirstLight">Wymaga pradawnej kuli</string>
@@ -1344,54 +1332,54 @@
 	<string key="09FL_BeastGlyphNearby_DisplayName" rel_version="Territory_FirstLight">W pobliżu znajduje się sygnet Władcy Bestii.</string>
 	<string key="09FL_Jungle_CorpseFlower_DisplayName" rel_version="Territory_FirstLight">Elizejska ambrozja</string>
 	<string key="Rafflebones_Portal_FOTB_DisplayName">Przywołaj Gnaciarza</string>
-	<string key="95_s04_ReadJournal_gatherable" rel_version="Season_4_Perm">Read Journal</string>
+	<string key="95_s04_ReadJournal_gatherable" rel_version="Season_4_Perm">Przeczytaj dziennik</string>
 	<string key="Halloween_Basket_Candy_DisplayName">Zbierz łakocie</string>
 	<string key="98_S_Q5_RelicPileIO_DisplayName">Pradawne relikty</string>
 	<string key="98_M_Q5_GoldStashIO_DisplayName">Skrzynia z labiryntu</string>
-	<string key="95_S04_Q2_Buildfire_A_DisplayName" rel_version="Season_4_Perm">Build the Earth Seal</string>
-	<string key="95_S04_Q2_Buildfire_B_DisplayName" rel_version="Season_4_Perm">Build the Water Seal</string>
-	<string key="95_S04_Q2_Buildfire_C_DisplayName" rel_version="Season_4_Perm">Build the Fire Seal</string>
-	<string key="95_S04_Q2_Buildfire_D_DisplayName" rel_version="Season_4_Perm">Build the Wind Seal</string>
-	<string key="95_S04_Q2_CollectWood_DisplayName" rel_version="Season_4_Perm">Spirit Wood</string>
-	<string key="95_s04_03_Boat_DisplayName" rel_version="Season_4_Perm">Use Boat</string>
+	<string key="95_S04_Q2_Buildfire_A_DisplayName" rel_version="Season_4_Perm">Zbuduj pieczęć ziemi</string>
+	<string key="95_S04_Q2_Buildfire_B_DisplayName" rel_version="Season_4_Perm">Zbuduj pieczęć wody</string>
+	<string key="95_S04_Q2_Buildfire_C_DisplayName" rel_version="Season_4_Perm">Zbuduj pieczęć ognia</string>
+	<string key="95_S04_Q2_Buildfire_D_DisplayName" rel_version="Season_4_Perm">Zbuduj pieczęć wiatru</string>
+	<string key="95_S04_Q2_CollectWood_DisplayName" rel_version="Season_4_Perm">Drewno duchowe</string>
+	<string key="95_s04_03_Boat_DisplayName" rel_version="Season_4_Perm">Użyj łodzi</string>
 	<string key="95_s04_03_round1_selectRook_DisplayName" rel_version="Season_4_Perm">Wybierz wieżę</string>
-	<string key="95_s04_03_round1_selectQueen_DisplayName" rel_version="Season_4_Perm">Select Queen</string>
-	<string key="95_s04_03_round1_selectPawn_DisplayName" rel_version="Season_4_Perm">Select Pawn</string>
-	<string key="95_s04_03_round1_moveRook_f1_DisplayName" rel_version="Season_4_Perm">Take Knight with Rook</string>
-	<string key="95_s04_03_round1_moveRook_d1_DisplayName" rel_version="Season_4_Perm">Capture Knight with Rook</string>
-	<string key="95_s04_03_round1_moveQueen_f1_DisplayName" rel_version="Season_4_Perm">Capture Knight with Queen</string>
-	<string key="95_s04_03_round1_moveQueen_g1_DisplayName" rel_version="Season_4_Perm">Move Queen to threaten King</string>
-	<string key="95_s04_03_round1_moveQueen_g2_DisplayName" rel_version="Season_4_Perm">Capture Bishop with Queen</string>
-	<string key="95_s04_03_round1_movePawn_h5_DisplayName" rel_version="Season_4_Perm">Move Pawn forward</string>
-	<string key="95_s04_03_round2_moveQueen_f1_DisplayName" rel_version="Season_4_Perm">Take Bishop with Queen</string>
-	<string key="95_s04_03_round2_moveQueen_g1_DisplayName" rel_version="Season_4_Perm">Move Queen to threaten King</string>
-	<string key="95_s04_03_round2_moveQueen_h2_DisplayName" rel_version="Season_4_Perm">Capture Pawn with Queen</string>
-	<string key="95_s04_03_Icewall_DisplayName" rel_version="Season_4_Perm">Ice Wall</string>
-	<string key="95_s04_03_Castledoor_DisplayName" rel_version="Season_4_Perm">Castle Door</string>
+	<string key="95_s04_03_round1_selectQueen_DisplayName" rel_version="Season_4_Perm">Wybierz królową</string>
+	<string key="95_s04_03_round1_selectPawn_DisplayName" rel_version="Season_4_Perm">Wybierz piona</string>
+	<string key="95_s04_03_round1_moveRook_f1_DisplayName" rel_version="Season_4_Perm">Weź skoczka wieżą</string>
+	<string key="95_s04_03_round1_moveRook_d1_DisplayName" rel_version="Season_4_Perm">Zbij skoczka wieżą</string>
+	<string key="95_s04_03_round1_moveQueen_f1_DisplayName" rel_version="Season_4_Perm">Zbij skoczka hetmanem</string>
+	<string key="95_s04_03_round1_moveQueen_g1_DisplayName" rel_version="Season_4_Perm">Rusz hetmana, by zagrozić królowi</string>
+	<string key="95_s04_03_round1_moveQueen_g2_DisplayName" rel_version="Season_4_Perm">Zbij gońca hetmanem</string>
+	<string key="95_s04_03_round1_movePawn_h5_DisplayName" rel_version="Season_4_Perm">Rusz pionem do przodu</string>
+	<string key="95_s04_03_round2_moveQueen_f1_DisplayName" rel_version="Season_4_Perm">Weź gońca hetmanem</string>
+	<string key="95_s04_03_round2_moveQueen_g1_DisplayName" rel_version="Season_4_Perm">Rusz hetmana, by zagrozić królowi</string>
+	<string key="95_s04_03_round2_moveQueen_h2_DisplayName" rel_version="Season_4_Perm">Zbij piona hetmanem</string>
+	<string key="95_s04_03_Icewall_DisplayName" rel_version="Season_4_Perm">Lodowy mur</string>
+	<string key="95_s04_03_Castledoor_DisplayName" rel_version="Season_4_Perm">Wrota zamku</string>
 	<string key="99E_Motherwell_MSQ_PlaceStaff_DisplayName" rel_version="Quest_MSQ2_Edengrove">Umieść skażoną głownię</string>
 	<string key="99E_Motherwell_MSQ_PurifyStaff_DisplayName" rel_version="Quest_MSQ2_Edengrove">Pozbądź się skażenia</string>
 	<string key="99E_Motherwell_MSQ_FinalStaff_DisplayName" rel_version="Quest_MSQ2_Edengrove">Usuń skażenie</string>
 	<string key="Turkey_ChameleonNest_DisplayName" rel_version="Territory_FirstLight">Gniazdo kameleona</string>
 	<string key="Turkey_LizardEgg_DisplayName" rel_version="Territory_FirstLight">Jajo ogromnego gada</string>
-	<string key="95_S04_Q2_Cyclic_Bonfire_1_DisplayName" rel_version="Season_4_Perm">Launch at Water Seal</string>
-	<string key="95_S04_Q2_Cyclic_Bonfire_2_DisplayName" rel_version="Season_4_Perm">Launch at Earth Seal</string>
-	<string key="95_S04_Q2_Cyclic_Bonfire_3_DisplayName" rel_version="Season_4_Perm">Launch at Wind Seal</string>
-	<string key="95_S04_Q2_Cyclic_Bonfire_4_DisplayName" rel_version="Season_4_Perm">Launch at Fire Seal</string>
-	<string key="95_S04_Q2_ShootRocket_DisplayName" rel_version="Season_4_Perm">Launch Rocket</string>
+	<string key="95_S04_Q2_Cyclic_Bonfire_1_DisplayName" rel_version="Season_4_Perm">Wystrzel przy pieczęci wody</string>
+	<string key="95_S04_Q2_Cyclic_Bonfire_2_DisplayName" rel_version="Season_4_Perm">Wystrzel przy pieczęci ziemi</string>
+	<string key="95_S04_Q2_Cyclic_Bonfire_3_DisplayName" rel_version="Season_4_Perm">Wystrzel przy pieczęci wiatru</string>
+	<string key="95_S04_Q2_Cyclic_Bonfire_4_DisplayName" rel_version="Season_4_Perm">Wystrzel przy pieczęci ognia</string>
+	<string key="95_S04_Q2_ShootRocket_DisplayName" rel_version="Season_4_Perm">Wystrzel rakietę</string>
 	<string key="14_SQ_02_BadStatue" rel_version="Quest_Supplement_Edengrove">Zniszcz rzeźbę</string>
-	<string key="95_s04_MordredCinematic2D_DisplayName" rel_version="Season_4_Temp">Read Letter</string>
-	<string key="95_S04_03_RescueElsa_DisplayName" rel_version="Season_4_Temp">Thaw Explorer</string>
-	<string key="95_S04_03_RescueShen_DisplayName" rel_version="Season_4_Temp">Thaw Soldier</string>
-	<string key="95_S04_03_ChessExitKey_DisplayName" rel_version="Season_4_Temp">Retrieve Gem</string>
-	<string key="95_S04_03_SlotChessExitKey_DisplayName" rel_version="Season_4_Temp">Place Gem</string>
-	<string key="95_S04_05_WinterRune_DisplayName" rel_version="Season_4_Temp">Retrieve Rune</string>
-	<string key="95_S04_06_FirstRune_DisplayName" rel_version="Season_4_Temp">Capture Rune</string>
-	<string key="95_S04_06_SecondRune_DisplayName" rel_version="Season_4_Temp">Get Rune</string>
-	<string key="95_S04_04_DestroyWall_DisplayName" rel_version="Season_4_Temp">Destroy Wall</string>
-	<string key="95_s04_06_lizardStatues_DisplayName" rel_version="Season_4_Temp">Rotate Statue</string>
-	<string key="95_s04_04_TP_DoorInteract" rel_version="Season_4_Temp">Enter Door</string>
-	<string key="95_s04_04_MageDoor_DisplayName" rel_version="Season_4_Temp">Touch Orb</string>
-	<string key="S04_Q02_Daichi_Bow_DisplayName" rel_version="Season_4_Perm">Łuk</string>
+	<string key="95_s04_MordredCinematic2D_DisplayName" rel_version="Season_4_Temp">Przeczytaj list</string>
+	<string key="95_S04_03_RescueElsa_DisplayName" rel_version="Season_4_Temp">Rozmróź odkrywczynię</string>
+	<string key="95_S04_03_RescueShen_DisplayName" rel_version="Season_4_Temp">Rozmróź żołnierza</string>
+	<string key="95_S04_03_ChessExitKey_DisplayName" rel_version="Season_4_Temp">Weź klejnot</string>
+	<string key="95_S04_03_SlotChessExitKey_DisplayName" rel_version="Season_4_Temp">Umieść klejnot</string>
+	<string key="95_S04_05_WinterRune_DisplayName" rel_version="Season_4_Temp">Weź runę</string>
+	<string key="95_S04_06_FirstRune_DisplayName" rel_version="Season_4_Temp">Zdobądź runę</string>
+	<string key="95_S04_06_SecondRune_DisplayName" rel_version="Season_4_Temp">Zdobądź runę</string>
+	<string key="95_S04_04_DestroyWall_DisplayName" rel_version="Season_4_Temp">Zniszcz mur</string>
+	<string key="95_s04_06_lizardStatues_DisplayName" rel_version="Season_4_Temp">Obróć pomnik</string>
+	<string key="95_s04_04_TP_DoorInteract" rel_version="Season_4_Temp">Wejdź przez drzwi</string>
+	<string key="95_s04_04_MageDoor_DisplayName" rel_version="Season_4_Temp">Dotknij kuli</string>
+	<string key="S04_Q02_Daichi_Bow_DisplayName" rel_version="Season_4_Perm">Ukłoń się</string>
 	<string key="Gorilla_Boss_Rift_Fire_DisplayName" rel_version="Territory_FirstLight">Glif ognia</string>
 	<string key="Gorilla_Boss_Rift_Ice_DisplayName" rel_version="Territory_FirstLight">Glif lodu</string>
 	<string key="Gorilla_Boss_Rift_Nature_DisplayName" rel_version="Territory_FirstLight">Glif natury</string>
@@ -1401,5 +1389,22 @@
 	<string key="09FL_HornholdExit" rel_version="Territory_FirstLight">Wróć na posterunek</string>
 	<string key="09FL_BypassHornhold" rel_version="Territory_FirstLight">Wróć do Taurusa</string>
 	<string key="09FL_HornOfVictory" rel_version="Territory_FirstLight">Róg zwycięstwa</string>
+	<string key="LNY_tribute_table_01_displayname" rel_version="Event_Lunar_NewYear_Temp">Umieść stuletnie wino</string>
+	<string key="LNY_tribute_table_02_displayname" rel_version="Event_Lunar_NewYear_Temp">Umieść jadeitową zieloną herbatę</string>
+	<string key="LNY_tribute_table_03_displayname" rel_version="Event_Lunar_NewYear_Temp">Umieść pradawny zwój</string>
+	<string key="LNY_tribute_table_04_displayname" rel_version="Event_Lunar_NewYear_Temp">Umieść kwitnącą rybę</string>
+	<string key="LNY_Tribute_Heirloom_01_DisplayName" rel_version="Event_Lunar_NewYear_Temp">Weź stuletnie wino</string>
+	<string key="LNY_Tribute_Heirloom_02_DisplayName" rel_version="Event_Lunar_NewYear_Temp">Weź jadeitową zieloną herbatę</string>
+	<string key="LNY_Tribute_Heirloom_03_DisplayName" rel_version="Event_Lunar_NewYear_Temp">Weź pradawny zwój</string>
+	<string key="LNY_Banquet_Food_01_HotPot_DisplayName" rel_version="Event_Lunar_NewYear2024_Perm">Przygotuj potrawkę z jarzynami</string>
+	<string key="LNY_Banquet_Food_02_Meat_DisplayName" rel_version="Event_Lunar_NewYear2024_Perm">Weź grillowane mięso</string>
+	<string key="LNY_Banquet_Food_03_Rice_DisplayName" rel_version="Event_Lunar_NewYear2024_Perm">Weź smażony ryż</string>
+	<string key="LNY_Banquet_Food_04_Buns_DisplayName" rel_version="Event_Lunar_NewYear2024_Perm">Weź gotowaną na parzę rację</string>
+	<string key="LNY_Tribute_Reward_DisplayName" rel_version="Event_Lunar_NewYear2024_Perm">Przyjmij błogosławieństwo smoka</string>
+	<string key="LNY_Tribute_Cook_Fish_DisplayName" rel_version="Event_Lunar_NewYear2024_Perm">Rozpal ogień pod wokiem</string>
+	<string key="LNY_Tribute_Take_Fish_DisplayName" rel_version="Event_Lunar_NewYear2024_Perm">Weź składniki</string>
+	<string key="LNY_Corrupted_Core_DisplayName" rel_version="Event_Lunar_NewYear2024_Perm">Zniszcz skażony rdzeń</string>
+	<string key="LNY_Banquet_Food_05_Fruit_DisplayName" rel_version="Event_Lunar_NewYear2024_Perm">Weź talerz owoców</string>
+	<string key="LNY_Giftsack_Pile_Displayname" rel_version="Event_Lunar_NewYear2024_Perm">Weź worek z prezentami losu</string>
 </resources>
 

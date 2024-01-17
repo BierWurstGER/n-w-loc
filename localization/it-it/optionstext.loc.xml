@@ -16,7 +16,7 @@
 	<string key="ui_termsnotice_desc">Visualizza le Condizioni d'uso in una finestra del browser</string>
 	<string key="ui_visual">Grafica</string>
 	<string key="ui_section_language">Lingua</string>
-	<string key="ui_section_camera">Visuale tastiera e mouse</string>
+	<string key="ui_section_camera">Telecamera</string>
 	<string key="ui_section_gameplay">Impostazioni di gioco</string>
 	<string key="ui_section_hud">HUD</string>
 	<string key="ui_section_healing">Guarigione</string>
@@ -33,10 +33,10 @@
 	<string key="ui_section_group">Altre opzioni</string>
 	<string key="ui_voicechatsettings">Chat vocale</string>
 	<string key="ui_openvoicechatsettings">Apri impostazioni chat vocale</string>
-	<string key="ui_invertlook">Inverti telecamera</string>
-	<string key="ui_invertlook_desc">Stabilisci se invertire l'asse verticale quando usi tastiera e mouse</string>
-	<string key="ui_looksensitivity">Sensibilità telecamera</string>
-	<string key="ui_looksensitivity_desc">Regola la velocità di movimento della telecamera</string>
+	<string key="ui_invertlook">Inverti telecamera [mouse/tastiera]</string>
+	<string key="ui_invertlook_desc">Stabilisci se invertire l'asse verticale quando usi mouse/tastiera</string>
+	<string key="ui_looksensitivity">Sensibilità telecamera [mouse/tastiera]</string>
+	<string key="ui_looksensitivity_desc">Imposta la velocità di movimento della telecamera quando usi mouse/tastiera</string>
 	<string key="ui_window_mode">Modalità di visualizzazione</string>
 	<string key="ui_window_mode_desc">Imposta modalità di visualizzazione su schermo</string>
 	<string key="ui_fullscreen">Schermo intero</string>
@@ -250,12 +250,12 @@
 	<string key="ui_options_textSize_bigger">Grande</string>
 	<string key="ui_cameraShake">Vibrazioni telecamera</string>
 	<string key="ui_cameraShake_desc">Stabilisci se abilitare le vibrazioni della telecamera, che potrebbero disorientare alcuni giocatori</string>
-	<string key="ui_strafeCamera">Usa sempre movimento laterale</string>
-	<string key="ui_strafeCamera_desc">Stabilisci se il personaggio è sempre rivolto nella stessa direzione della telecamera</string>
+	<string key="ui_strafeCamera">Movimento libero [mouse/tastiera]</string>
+	<string key="ui_strafeCamera_desc">Il personaggio si girerà nella direzione di input del movimento mentre utilizzi mouse/tastiera</string>
 	<string key="ui_alwaysShowReticle">Mostra sempre mirino</string>
 	<string key="ui_alwaysShowReticle_desc">Stabilisci se rendere visibile il mirino anche quando l'arma non è estratta</string>
 	<string key="ui_toggleblockads">Attiva/disattiva Mira e Parata</string>
-	<string key="ui_toggleblockads_desc">Stabilisci se attivare e disattivare Mira e Parata premendo un pulsante</string>
+	<string key="ui_toggleblockads_desc">Imposta se attivare e disattivare Mira e Parata premendo un pulsante invece che tenendolo premuto</string>
 	<string key="ui_enable_ally_team_color_tinting">Colorazione squadra alleata</string>
 	<string key="ui_enable_enemy_team_color_tinting">Colorazione squadra nemica</string>
 	<string key="ui_enable_ally_team_color_tinting_desc">Stabilisci se impostare una colorazione per la squadra alleata nelle varie modalità di gioco</string>
@@ -301,23 +301,25 @@
 	<string key="ui_analyticsenabled_desc">Stabilisci se inviare determinati dati di telemetria relativi alla tua esperienza di gioco e alle impostazioni al team di New World (Se riscontri problemi di rete mentre giochi, disattivare questa impostazione potrebbe essere d'aiuto)</string>
 	<string key="ui_leaderboardenabled" rel_version="Feature_Leaderboards">Partecipa alle classifiche</string>
 	<string key="ui_leaderboardenabled_desc" rel_version="Feature_Leaderboards">Stabilisci se visualizzare o meno le classifiche del tuo personaggio e abilitare le ricompense classifica</string>
-	<string key="ui_enable_camera_lock">Guarigione mirata</string>
-	<string key="ui_enable_camera_lock_description">Stabilisci se abilitare il sistema di guarigione mirata</string>
+	<string key="ui_enable_targeted_healing">Guarigione mirata</string>
+	<string key="ui_enable_targeted_healing_description">Stabilisci se abilitare il sistema di guarigione mirata</string>
 	<string key="ui_enable_camera_lock_friendlies">Blocco visuale sugli alleati</string>
 	<string key="ui_enable_camera_lock_friendlies_description">Stabilisci se abilitare il sistema di mira sugli alleati per curarli</string>
-	<string key="ui_enable_camera_lock_target_follow">Visuale libera</string>
-	<string key="ui_enable_camera_lock_target_follow_description">Stabilisci se abilitare la visuale libera quando agganci un obiettivo (disattiva per far seguire un bersaglio attivo alla telecamera)</string>
+	<string key="ui_enable_camera_lock_target_follow">Telecamera sul bersaglio agganciato</string>
+	<string key="ui_enable_camera_lock_target_follow_description">Imposta se la telecamera deve seguire il bersaglio agganciato (disabilita per consentire alla telecamera di muoversi liberamente mentre il bersaglio è agganciato)</string>
 	<string key="ui_enable_camera_lock_retarget">Cambio bersaglio con visuale telecamera</string>
-	<string key="ui_enable_camera_lock_retarget_description">Stabilisci se abilitare il cambiamento del bersaglio agganciato con la visuale della telecamera (disponibile solo se la visuale libera è disattivata)</string>
+	<string key="ui_enable_camera_lock_retarget_description">Stabilisci se abilitare il cambiamento del bersaglio agganciato con la visuale della telecamera (disponibile solo se è attiva l'opzione "Telecamera sul bersaglio agganciato")</string>
 	<string key="ui_enable_camera_lock_sticky_lock">Mantieni aggancio</string>
 	<string key="ui_enable_camera_lock_sticky_lock_description">Stabilisci se abilitare il mantenimento del bersaglio selezionato dopo le cure</string>
 	<string key="ui_enable_camera_lock_group_mode">Modalità gruppo</string>
-	<string key="ui_enable_camera_lock_group_mode_description">Stabilisci se abilitare la modalità di gruppo che alterna i membri del gruppo usando la rotellina centrale del mouse (non ha effetto nelle incursioni in cui è attiva l'opzione Mira incursioni tramite gruppi e tasti di scelta rapida)</string>
+	<string key="ui_enable_camera_lock_group_mode_description">Abilita la modalità di gruppo che alterna i membri del gruppo o dell'incursione usando la rotellina centrale del mouse (non ha effetto nelle incursioni in cui è attiva l'opzione "Mira incursioni tramite gruppi e tasti di scelta rapida")</string>
+	<string key="ui_enable_target_mygroup_only_in_raid">Solo gruppo in Incursione</string>
+	<string key="ui_enable_target_mygroup_only_in_raid_description">Limita gli alleati selezionabili ai cinque membri del tuo gruppo più vicino durante un'Incursione con modalità Gruppo attiva (non ha effetto nelle incursioni in cui è attiva l'opzione "Mira incursioni tramite gruppi e tasti di scelta rapida"</string>
 	<string key="ui_enable_camera_lock_select_raid_members_by_group_and_hotkey">Mira incursioni tramite gruppi e tasti di scelta rapida</string>
-	<string key="ui_enable_camera_lock_select_raid_members_by_group_and_hotkey_description">Nelle incursioni, stabilisci se abilitare un sistema di mira che consente di alternare i gruppi da incursione usando la rotellina centrale del mouse e di selezionare membri usando i tasti di scelta rapida (Per selezionare i bersagli all'interno di un gruppo sarà necessaria un'associazione di tasti. Attiva automaticamente la modalità gruppo nelle incursioni.)</string>
+	<string key="ui_enable_camera_lock_select_raid_members_by_group_and_hotkey_description">Abilita un sistema di mira nelle incursioni che consente di alternare i gruppi da incursione usando la rotellina centrale del mouse e di selezionare membri del gruppo usando i tasti di scelta rapida (per selezionare i bersagli all'interno di un gruppo sarà necessaria un'associazione di tasti; se è attiva l'opzione, solo i membri dell'incursione possono essere selezionati)</string>
 	<string key="ui_enable_show_healing_hotkeys_in_raid_hud">Mostra tasti di scelta rapida nelle incursioni</string>
 	<string key="ui_enable_show_healing_hotkeys_in_raid_hud_description">Stabilisci se visualizzare i tasti di scelta rapida per ogni membro del gruppo selezionato quando è attiva l'opzione Mira incursioni tramite gruppi e tasti di scelta rapida</string>
-	<string key="ui_toggle_target_lock" rel_version="Feature_Controller">Attiva Blocco bersaglio</string>
+	<string key="ui_toggle_target_lock">Attiva Blocco bersaglio</string>
 	<string key="ui_raid_member_hotkeys_unbound_error_title">Tasti di scelta rapida non associati</string>
 	<string key="ui_raid_member_hotkeys_unbound_error_message">Per attivare questa funzionalità, vai su Associazione tasti e associa tutti i comandi Punta membro del gruppo nei combattimenti con bastone della vita.</string>
 	<string key="ui_gena_escape" rel_version="Feature_GameEntryNarrationAssistance">Esc</string>

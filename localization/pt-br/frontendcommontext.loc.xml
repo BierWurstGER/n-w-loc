@@ -240,7 +240,7 @@
 	<string key="mm_queuewithestimate">Tempo Estimado: {time}\nPosição na Fila: {rank}\n{status}</string>
 	<string key="mm_queuewithcappedestimate">Tempo Estimado: &gt; {time}\nPosição na Fila: {rank}\n{status}</string>
 	<string key="mm_queueestimateunknown">Tempo Estimado: Desconhecido\nPosição na Fila: Desconhecida\n{status}</string>
-	<string key="mm_queuepopuptitle">Aguarde início de sessão...</string>
+	<string key="mm_queuepopuptitle">Aguardando início de sessão...</string>
 	<string key="mm_queuejoinfailed">Não é possível entrar devido ao número alto de jogadores na fila. Tente novamente mais tarde.</string>
 	<string key="mm_queuerefresherror">Erro ao comunicar com a fila de autenticação. Tentando novamente...</string>
 	<string key="mm_server_message_title">Mensagem do Servidor</string>
@@ -268,7 +268,7 @@
 	<string key="lt_6_text2">Se deseja romper a guarda de um oponente, pressione &lt;font color="#fff1ce"&gt;&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;F&lt;/font&gt;&lt;/font&gt; para um ataque de ruptura.</string>
 	<string key="lt_7_title">Construindo Estruturas</string>
 	<string key="lt_7_text">Você pode estabelecer um plano de estruturação nas Conquistas.\nPara completá-lo, adicione a ele os recursos que encontrar.</string>
-	<string key="ui_chat_placeholder">Enviar mensagem no chat. @mencione alguém.</string>
+	<string key="ui_chat_placeholder">Enviar mensagem no chat. @mention alguém.</string>
 	<string key="loadingScreen_ingame_scenic01">CARREGANDO</string>
 	<string key="loadingScreen_ingame_scenic02">CARREGANDO</string>
 	<string key="loadingScreen_ingame_scenic03">CARREGANDO</string>
@@ -305,6 +305,7 @@
 	<string key="loadingScreen_ingame_ancient08">CARREGANDO</string>
 	<string key="ui_cantDropMissionItem">Não é possível soltar itens de missões</string>
 	<string key="ui_cantDropLockedItem">Não é possível soltar itens bloqueados</string>
+	<string key="ui_cantDropGameModeItem">Itens do modo de jogo só são derrubados ao morrer</string>
 	<string key="ui_navmenu_progression">PERSONAGEM</string>
 	<string key="ui_bio">Biografia</string>
 	<string key="ui_attributes">Atributos</string>

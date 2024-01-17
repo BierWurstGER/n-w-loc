@@ -432,13 +432,13 @@
 	<string key="FactionMission_C_EXPEDITIONLOOT_desc">Adéntrate en {POITags} en nombre de la Alianza y recoge todas las unidades de &lt;font color="#eaeaea"&gt;{itemName}&lt;/font&gt; que haya allí.\n\n &lt;font color="#eaeaea"&gt;(Expedición)&lt;/font&gt;</string>
 	<string key="FactionMission_ASSASSINATE_title">Botín: {POITags}</string>
 	<string key="FactionMission_ASSASSINATE_desc">Los Saqueadores necesitan eliminar a &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; del tablero.\n\nDemuestra tu valor rastreándolo en {POITags} y destruyéndolo.</string>
-	<string key="FactionMission_M_ASSASSINATE_NIGHT_desc">The Marauders need &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; removed from the theater.\n\nProve your valor by tracking them down in {POITags} and destroying them.\n\n&lt;font color="#eaeaea"&gt;Can only be completed at Night.&lt;/font&gt;</string>
+	<string key="FactionMission_M_ASSASSINATE_NIGHT_desc">Los Saqueadores necesitan eliminar a &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; del tablero.\n\nDemuestra tu valor siguiéndole la pista en {POITags} y dándole muerte.\n\n&lt;font color="#eaeaea"&gt;Solo se puede completar de noche.&lt;/font&gt;</string>
 	<string key="FactionMission_S_ASSASSINATE_title">Asesina a: {POITags}</string>
 	<string key="FactionMission_S_ASSASSINATE_desc">El Sindicato ha identificado a &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; como objetivo para su eliminación.\n\nDemuestra tu astucia rastreándolo en {POITags} y destruyéndolo.</string>
-	<string key="FactionMission_S_ASSASSINATE_NIGHT_desc">The Syndicate has identified &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; to be a target for elimination.\n\nProve your cunning by tracking them down in {POITags} and destroying them.\n\n&lt;font color="#eaeaea"&gt;Can only be completed at Night.&lt;/font&gt;</string>
+	<string key="FactionMission_S_ASSASSINATE_NIGHT_desc">El Sindicato ha identificado a &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; como objetivo para su eliminación.\n\nDemuestra tu astucia siguiéndole la pista en {POITags} y dándole muerte.\n\n&lt;font color="#eaeaea"&gt;Solo se puede completar de noche.&lt;/font&gt;</string>
 	<string key="FactionMission_C_ASSASSINATE_title">Aniquila: {POITags}</string>
 	<string key="FactionMission_C_ASSASSINATE_desc">La Alianza ha identificado a &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; para su eliminación.\n\nDemuestra tu devoción rastreándolo en {POITags} y destruyéndolo.</string>
-	<string key="FactionMission_C_ASSASSINATE_NIGHT_desc">The Covenant has identified &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; to be eliminated.\n\nProve your devotion by tracking them down in {POITags} and destroying them.\n\n&lt;font color="#eaeaea"&gt;Can only be completed at Night.&lt;/font&gt;</string>
+	<string key="FactionMission_C_ASSASSINATE_NIGHT_desc">La Alianza ha identificado a &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; para su eliminación.\n\nDemuestra tu devoción siguiéndole la pista en {POITags} y dándole muerte.\n\n&lt;font color="#eaeaea"&gt;Solo se puede completar de noche.&lt;/font&gt;</string>
 	<string key="FactionMission_ASSASSINATE_ELITE_title">Botín: {POITags} (élite)</string>
 	<string key="FactionMission_ASSASSINATE_ELITE_desc">Los Saqueadores necesitan eliminar a &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; del tablero.\n\nDemuestra tu valor rastreándolo en {POITags} y destruyéndolo.\n&lt;font color="#eaeaea"&gt;(élite)&lt;/font&gt;</string>
 	<string key="FactionMission_S_ASSASSINATE_ELITE_title">Asesina a: {POITags} (élite)</string>
@@ -487,7 +487,7 @@
 	<string key="FactionMission_WARCAMP_LOOT_title">Inteligencia enemiga (JcJ)</string>
 	<string key="FactionMission_WARCAMP_LOOT_desc">Infíltrate en el &lt;font color="#eaeaea"&gt;campamento de guerra&lt;/font&gt; cerca del &lt;font color="#eaeaea"&gt;fuerte de {territoryID}&lt;/font&gt; e inspecciónalo en busca de información valiosa.</string>
 	<string key="FactionMission_CONTROL_POINT_title">Conquistar (JcJ)</string>
-	<string key="FactionMission_CONTROL_POINT_desc">Take up arms to help the Marauders take control of the &lt;font color="#eaeaea"&gt;Fort&lt;/font&gt; or an &lt;font color="#eaeaea"&gt;Influence Watch&lt;/font&gt; (during Influence Races) at &lt;font color="#eaeaea"&gt;{territoryID}&lt;/font&gt;\n\n(This mission may not be completable at all times)</string>
+	<string key="FactionMission_CONTROL_POINT_desc">Álzate en armas para ayudar a que los Saqueadores controlen el &lt;font color="#eaeaea"&gt;fuerte&lt;/font&gt; o una &lt;font color="#eaeaea"&gt;torre de influencia&lt;/font&gt; (durante carreras de influencia) en &lt;font color="#eaeaea"&gt;{territoryID}&lt;/font&gt;\n\n(Esta misión no se puede completar en cualquier momento).</string>
 	<string key="FactionMission_S_WARCAMP_LOOT_title">Reconocimiento enemigo (JcJ)</string>
 	<string key="FactionMission_S_WARCAMP_LOOT_desc">Infíltrate en el &lt;font color="#eaeaea"&gt;campamento de guerra&lt;/font&gt; cerca del &lt;font color="#eaeaea"&gt;fuerte de {territoryID}&lt;/font&gt; e inspecciónalo en busca de información valiosa.</string>
 	<string key="FactionMission_S_CONTROL_POINT_title">Apoderarse (JcJ)</string>
@@ -554,17 +554,6 @@
 	<string key="CMissionAcquireWoodWorker">Adquiere y entrega &lt;font color="#eaeaea"&gt;{itemAmount} {itemName}&lt;/font&gt; en una carpintería.</string>
 	<string key="CMissionAcquireOutfitter">Adquiere y entrega &lt;font color="#eaeaea"&gt;{itemAmount} {itemName}&lt;/font&gt; en una estación de equipamiento.</string>
 	<string key="CMissionAcquireEngineer">Adquiere y entrega &lt;font color="#eaeaea"&gt;{itemAmount} {itemName}&lt;/font&gt; en un taller de ingeniería.</string>
-	<string key="CMissionAcquireBlock_Name_WC" rel_version="Event_WinterConvergence_Temp">Se necesitan canteros festivos</string>
-	<string key="CMissionAcquireTimber_Name_WC" rel_version="Event_WinterConvergence_Temp">Se necesitan carpinteros festivos</string>
-	<string key="CMissionAcquireCloth_Name_WC" rel_version="Event_WinterConvergence_Temp">Se necesitan tejedores festivos</string>
-	<string key="CMissionAcquireMetal_Name_WC" rel_version="Event_WinterConvergence_Temp">Se necesitan herreros festivos</string>
-	<string key="CMissionAcquireFibers_Name_WC" rel_version="Event_WinterConvergence_Temp">Se necesitan cosechadores festivos</string>
-	<string key="CMissionAcquireFood_Name_WC" rel_version="Event_WinterConvergence_Temp">Se necesitan cocineros festivos</string>
-	<string key="CMissionAcquirePotions_Name_WC" rel_version="Event_WinterConvergence_Temp">Se necesitan alquimistas festivos</string>
-	<string key="CMissionAcquireGeneric_Name_WC" rel_version="Event_WinterConvergence_Temp">Se necesitan suministros festivos</string>
-	<string key="CMissionAcquireWood_Name_WC" rel_version="Event_WinterConvergence_Temp">Se necesitan leñadores festivos</string>
-	<string key="CMissionAcquireRawhide_Name_WC" rel_version="Event_WinterConvergence_Temp">Se necesitan cazadores festivos</string>
-	<string key="CMissionAcquireLeather_Name_WC" rel_version="Event_WinterConvergence_Temp">Se necesitan curtidores festivos</string>
 	<string key="ui_already_in_faction">Ya estás en esta facción</string>
 	<string key="ui_cant_switch_faction_pvp">No puedes cambiar de facción con el JcJ activado</string>
 	<string key="ui_cant_switch_faction_azoth">Azoth insuficiente</string>

@@ -16,7 +16,7 @@
 	<string key="ui_termsnotice_desc">Consulta las Condiciones de uso en el navegador.</string>
 	<string key="ui_visual">Elementos visuales</string>
 	<string key="ui_section_language">Idioma</string>
-	<string key="ui_section_camera">Cámara de ratón y teclado</string>
+	<string key="ui_section_camera">Cámara</string>
 	<string key="ui_section_gameplay">Jugabilidad</string>
 	<string key="ui_section_hud">HUD</string>
 	<string key="ui_section_healing">Curación</string>
@@ -33,10 +33,10 @@
 	<string key="ui_section_group">Más opciones</string>
 	<string key="ui_voicechatsettings">Chat de voz</string>
 	<string key="ui_openvoicechatsettings">Abrir ajustes de chat de voz</string>
-	<string key="ui_invertlook">Invertir cámara</string>
-	<string key="ui_invertlook_desc">Invierte el eje vertical al usar teclado y ratón.</string>
-	<string key="ui_looksensitivity">Sensibilidad de la cámara</string>
-	<string key="ui_looksensitivity_desc">Cambia la velocidad a la que se mueve tu cámara.</string>
+	<string key="ui_invertlook">Invertir cámara [ratón/teclado]</string>
+	<string key="ui_invertlook_desc">Invierte el eje vertical al usar el ratón o el teclado.</string>
+	<string key="ui_looksensitivity">Sensibilidad de la cámara [ratón/teclado]</string>
+	<string key="ui_looksensitivity_desc">Cambia la velocidad a la que se mueve tu cámara al usar el ratón o el teclado.</string>
 	<string key="ui_window_mode">Modo de ventana</string>
 	<string key="ui_window_mode_desc">Establece el modo de visualización de la pantalla.</string>
 	<string key="ui_fullscreen">Pantalla completa</string>
@@ -118,8 +118,8 @@
 	<string key="ui_speaker_desc">Establece el dispositivo de salida de altavoz.</string>
 	<string key="ui_receivevolume_desc">Ajusta el volumen de recepción.</string>
 	<string key="ui_microphone_desc">Establece el dispositivo de entrada de micrófono.</string>
-	<string key="ui_microphonevolume_desc">Ajusta el volumen del micrófono.</string>
-	<string key="ui_microphonesensitivity_desc">Ajusta la sensibilidad del micrófono.</string>
+	<string key="ui_microphonevolume_desc">Ajusta el volumen de tu micrófono.</string>
+	<string key="ui_microphonesensitivity_desc">Ajusta la sensibilidad de tu micrófono.</string>
 	<string key="ui_voicechatinputmode">Modo de entrada del chat de voz</string>
 	<string key="ui_voicechatinputmode_desc">Establece el modo de entrada del chat de voz.</string>
 	<string key="ui_voicechatinputmode_alwayson">Siempre activo</string>
@@ -250,12 +250,12 @@
 	<string key="ui_options_textSize_bigger">Más grande</string>
 	<string key="ui_cameraShake">Sacudida de la cámara</string>
 	<string key="ui_cameraShake_desc">Activa la sacudida de la cámara. Podría desorientar a ciertos jugadores.</string>
-	<string key="ui_strafeCamera">Desplazamiento lateral siempre</string>
-	<string key="ui_strafeCamera_desc">El personaje siempre mira en la dirección de la cámara.</string>
+	<string key="ui_strafeCamera">Movimiento libre [ratón/teclado]</string>
+	<string key="ui_strafeCamera_desc">El personaje se girará hacia la dirección de movimiento indicada al usar el ratón o el teclado.</string>
 	<string key="ui_alwaysShowReticle">Mostrar siempre la mira</string>
 	<string key="ui_alwaysShowReticle_desc">La retícula es visible incluso cuando tienes el arma envainada.</string>
 	<string key="ui_toggleblockads">Alternar apuntar y bloquear</string>
-	<string key="ui_toggleblockads_desc">Alterna apuntar y bloquear al pulsar un botón.</string>
+	<string key="ui_toggleblockads_desc">Activa apuntar y bloquear al pulsar el botón en lugar de tener que mantenerlo pulsado.</string>
 	<string key="ui_enable_ally_team_color_tinting">Tinte de color de equipo aliado</string>
 	<string key="ui_enable_enemy_team_color_tinting">Tinte de color de equipo enemigo</string>
 	<string key="ui_enable_ally_team_color_tinting_desc">Activa el tinte de color para equipos aliados en los modos de juego.</string>
@@ -301,23 +301,25 @@
 	<string key="ui_analyticsenabled_desc">Envía al equipo de New World ciertos datos de telemetría del cliente relacionados con tu experiencia de juego y tu configuración. Si tienes problemas de red mientras juegas, desactivar esta opción podría ser útil.</string>
 	<string key="ui_leaderboardenabled" rel_version="Feature_Leaderboards">Participa en las clasificaciones</string>
 	<string key="ui_leaderboardenabled_desc" rel_version="Feature_Leaderboards">Muestra el nombre de tu personaje en las clasificaciones y activa las recompensas de las clasificaciones.</string>
-	<string key="ui_enable_camera_lock">Curación a objetivos</string>
-	<string key="ui_enable_camera_lock_description">Activa el sistema de curación a objetivos.</string>
+	<string key="ui_enable_targeted_healing">Curación a objetivos</string>
+	<string key="ui_enable_targeted_healing_description">Activa el sistema de curación a objetivos.</string>
 	<string key="ui_enable_camera_lock_friendlies">Fijar aliados con la cámara</string>
 	<string key="ui_enable_camera_lock_friendlies_description">Activa el sistema de fijación de objetivos aliados para curar.</string>
-	<string key="ui_enable_camera_lock_target_follow">Cámara libre</string>
-	<string key="ui_enable_camera_lock_target_follow_description">Activa la cámara libre al fijar un objetivo. Deshabilítala para que la cámara siga al objetivo activo.</string>
+	<string key="ui_enable_camera_lock_target_follow">Seguimiento de cámara al objetivo bloqueado</string>
+	<string key="ui_enable_camera_lock_target_follow_description">Activa el seguimiento de la cámara al objetivo bloqueado. Al desactivar la opción, la cámara se mueve libremente mientras el objetivo está bloqueado.</string>
 	<string key="ui_enable_camera_lock_retarget">Cambio de objetivo mediante el movimiento de la cámara</string>
-	<string key="ui_enable_camera_lock_retarget_description">Permite cambiar el objetivo fijado moviendo la cámara. Solo es posible si la cámara libre está desactivada.</string>
+	<string key="ui_enable_camera_lock_retarget_description">Permite cambiar el objetivo fijado moviendo la cámara. Solo es posible si se ha activado el seguimiento de cámara al objetivo bloqueado.</string>
 	<string key="ui_enable_camera_lock_sticky_lock">Bloqueo pegajoso</string>
 	<string key="ui_enable_camera_lock_sticky_lock_description">Permite mantener el mismo objetivo tras hacer curaciones.</string>
 	<string key="ui_enable_camera_lock_group_mode">Modo grupo</string>
-	<string key="ui_enable_camera_lock_group_mode_description">Activa el modo de grupo, que alterna entre los miembros del grupo únicamente mediante la rueda central del ratón. Esta opción no funciona en incursiones si se ha activado la fijación de incursión mediante grupos y atajos.</string>
+	<string key="ui_enable_camera_lock_group_mode_description">Activa el modo de grupo, que alterna entre los miembros del grupo o de la incursión únicamente mediante la rueda central del ratón. Esta opción no funciona en incursiones si se ha activado la opción «Fijación de incursión mediante grupos y atajos».</string>
+	<string key="ui_enable_target_mygroup_only_in_raid">Solo grupo en incursión</string>
+	<string key="ui_enable_target_mygroup_only_in_raid_description">Limita los aliados objetivos a los cinco miembros de tu grupo mientras estés en una incursión con el modo de grupo activado. Esta opción no funciona si se ha activado la opción «Fijación de incursión mediante grupos y atajos».</string>
 	<string key="ui_enable_camera_lock_select_raid_members_by_group_and_hotkey">Fijación de incursión mediante grupos y atajos</string>
-	<string key="ui_enable_camera_lock_select_raid_members_by_group_and_hotkey_description">Activa la fijación de incursiones, que alterna entre los grupos de incursión mediante la rueda central del ratón y la selección de miembros mediante el atajo de teclas. Es necesario asignar las teclas de fijación de miembros del grupo para seleccionar los objetivos dentro de un grupo. Activa automáticamente el modo de grupo en las incursiones.</string>
+	<string key="ui_enable_camera_lock_select_raid_members_by_group_and_hotkey_description">Activa la fijación de incursiones, que alterna entre los grupos de incursión mediante la rueda central del ratón y la selección de miembros mediante el atajo de teclas. Es necesario asignar las teclas de fijación de miembros del grupo para seleccionar los objetivos dentro de un grupo. Solo se puede fijar a miembros de la incursión si se activa.</string>
 	<string key="ui_enable_show_healing_hotkeys_in_raid_hud">Mostrar pistas de atajos en incursiones</string>
 	<string key="ui_enable_show_healing_hotkeys_in_raid_hud_description">Muestra pistas de atajos para cada miembro del grupo seleccionado si se ha activado la fijación de incursión mediante grupos y atajos.</string>
-	<string key="ui_toggle_target_lock" rel_version="Feature_Controller">Alternar fijación de objetivo</string>
+	<string key="ui_toggle_target_lock">Alternar fijación de objetivo</string>
 	<string key="ui_raid_member_hotkeys_unbound_error_title">No se han asignado atajos</string>
 	<string key="ui_raid_member_hotkeys_unbound_error_message">Ve a las asignaciones de teclas para asignar teclas a todos los participantes del combate con báculos de vida y activar esta función.</string>
 	<string key="ui_gena_escape" rel_version="Feature_GameEntryNarrationAssistance">Escape</string>

@@ -204,7 +204,7 @@
 	<string key="HousingTrdG_Cabinets_GroupDesc" comment="Housing Furniture - Trading Post - TradingGroup">Armadietti della casa</string>
 	<string key="HousingTrdG_Veg_GroupName" comment="Housing Furniture - Trading Post - TradingGroup">Piante</string>
 	<string key="1hFlail_GroupName" rel_version="Weapon_Flail">Mazzafrusto</string>
-	<string key="1hFlail_GroupDesc" rel_version="Weapon_Flail">A dynamic weapon that can utilize a long chain to extend the reach of its attacks and will collapse into its hilt when idle. \n\nIl mazzafrusto è perfetto da usare per supportare gli alleati, ma richiede un approccio aggressivo: i suoi effetti sono applicati agli alleati solo durante i combattimenti ravvicinati. \n\nIl mazzafrusto consente di sferrare una varietà di colpi e attacchi magici che infliggono danni minori, ma la loro natura oppressiva, difensiva e di supporto rende chi lo brandisce una vera e propria minaccia sul campo di battaglia. \n\n•Attacchi leggeri: Infliggi un {[DamageTable.1H_Flail_LightAttack1.DmgCoef * 100]}% di danni &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_strike_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt;.\n•Attacchi pesanti: Infliggi un {[DamageTable.1H_Flail_HeavyAttackChain_1.DmgCoef * 100]}% di danni &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_strike_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt;.</string>
+	<string key="1hFlail_GroupDesc" rel_version="Weapon_Flail">Un'arma dinamica che utilizza una lunga catena per estendere la portata d'attacco e si ritrae nell'impugnatura quando non viene usata. \n\nIl mazzafrusto è perfetto da usare per supportare gli alleati, ma richiede un approccio aggressivo: i suoi effetti sono applicati agli alleati solo durante i combattimenti ravvicinati. \n\nIl mazzafrusto consente di sferrare una varietà di colpi e attacchi magici che infliggono danni minori, ma la loro natura oppressiva, difensiva e di supporto rende chi lo brandisce una vera e propria minaccia sul campo di battaglia. \n\n•Attacchi leggeri: Infliggi un {[DamageTable.1H_Flail_LightAttack1.DmgCoef * 100]}% di danni &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_strike_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt;.\n•Attacchi pesanti: Infliggi un {[DamageTable.1H_Flail_HeavyAttackChain_1.DmgCoef * 100]}% di danni &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_strike_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt;.</string>
 	<string key="1hHatchet_GroupName">Accette prodotte</string>
 	<string key="1hHatchet_GroupDesc">Un'arma polivalente che permette di effettuare sia attacchi con lancio dalla distanza, sia rapidi attacchi in mischia. È perfetta per scontri impegnativi in corpo a corpo e combattimenti tattici a media distanza.\n\n•Attacco leggero: Infligge un {[DamageTable.Hatchet_Damage_PrimaryAttack.DmgCoef * 100]}% di danni &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_slash_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt;.\n•Colpo finale leggero: Infligge un {[DamageTable.Hatchet_Damage_PrimaryAttack_Ender.DmgCoef * 100]}% di danni &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_slash_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt;.\n•Attacco pesante: Infligge un {[DamageTable.Hatchet_Damage_HeavyAttack.DmgCoef * 100]}% di danni &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_slash_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt;.\n•Attacco pesante caricato: Infligge un {[DamageTable.Hatchet_Damage_HeavyAttack_Charged.DmgCoef * 100]}% di danni &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_slash_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt;.</string>
 	<string key="1hHatchetAngryEarth_GroupName">Accette primitive</string>
@@ -552,7 +552,7 @@
 	<string key="BowA_GroupDesc">Una versatile arma a distanza capace di scoccare frecce in rapida successione o essere tesa completamente per infliggere il massimo dei danni. Ottimo per sferrare diversi attacchi in grado di ostacolare o infliggere danni ai nemici mantenendo la distanza.\n\n•Colpo non mirato: Infligge un {[DamageTable.BowAttack_Hipshot.DmgCoef * 100]}% di danni &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_thrust_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt;.\n•Tensione breve: Infligge un {[DamageTable.BowAttack1.DmgCoef * 100]}% di danni &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_thrust_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt;.\n•Tensione lunga: Infligge un {[DamageTable.BowAttack2.DmgCoef * 100]}% di danni &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_thrust_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt;.</string>
 	<string key="BowA_GroupName">Archi</string>
 	<string key="BowA2_GroupName">Archi</string>
-	<string key="BowB_GroupDesc">A 2 mani. Un'arma a distanza che usa le frecce. Per ottenere il massimo dei danni, l'arco deve essere teso completamente prima di scoccare la freccia..</string>
+	<string key="BowB_GroupDesc">A 2 mani. Un'arma a distanza che usa le frecce. Per ottenere il massimo dei danni, l'arco deve essere teso completamente prima di scoccare la freccia.</string>
 	<string key="BowB_GroupName">Archi</string>
 	<string key="Bows_GroupName">Archi</string>
 	<string key="branch_GroupName">Rami</string>
@@ -867,6 +867,7 @@
 	<string key="DungeonReps9_GroupName">Repliche Cuore della Tempesta</string>
 	<string key="DungeonShields_GroupName">Scudi spedizione</string>
 	<string key="DungeonReps12_GroupName" rel_version="Expedition_FirstLight_01">Repliche Divisione incivile</string>
+	<string key="DungeonReps13_GroupName" rel_version="Expedition_FirstLight_01">Repliche Lago congelato</string>
 	<string key="Dye1_GroupDesc">Produci una delle varie tonalità della tinta rossa.</string>
 	<string key="Dye1_GroupName">Tinta rossa</string>
 	<string key="Dye10_GroupDesc">Tinta terra d'ombra per la tua armatura.</string>
@@ -1100,7 +1101,7 @@
 	<string key="GauntletIce_GroupName">Guanti di ghiaccio</string>
 	<string key="GauntletVoid_GroupDesc" rel_version="Weapon_Void_Gauntlet">Guanto che consuma mana per indebolire i nemici e rafforzare gli alleati. Specializzato nei danni nel tempo e nei potenziamenti a distanza ravvicinata, oppure nelle cure e nei depotenziamenti a distanza media, il Guanto del Vuoto è particolarmente pericoloso se usato in gruppo.\n\n• Attacco leggero: Infligge un {[DamageTable.VoidGauntlet_Primary.DmgCoef * 100]}% di danni &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_void_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt;.\n•Attacco pesante: Infligge un {[DamageTable.VoidGauntlet_Heavy.DmgCoef * 100]}% di danni &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_void_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; e curi te stesso per un {[VoidGauntletAbilityTable.Passive_VoidGauntlet_HealOnHeavy.DmgPctToHealth * 100]}% dei danni inflitti.\n•Essenza del raccolto (tieni premuto "Parata"): Converte gradualmente la tua salute in mana. La velocità aumenta in base ai danni da arma.</string>
 	<string key="GauntletVoid_GroupName" rel_version="Weapon_Void_Gauntlet">Guanti del Vuoto</string>
-	<string key="GreatSword_GroupDesc" rel_version="Weapon_GreatSword">A versatile melee weapon that utilizes stances to adapt to different combat situations. Combina un attacco implacabile con una difesa aggressiva, permettendo di affrontare qualunque sfida.\n\nAttacco leggero 1 e 2: Infligge un {[DamageTable.GreatSword_PrimaryAttack1.DmgCoef * 100]}% di danni &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_slash_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt;.\n•Attacco leggero 3: Infligge un {[DamageTable.GreatSword_PrimaryAttack3.DmgCoef * 100]}% di danni &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_slash_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt;.\n•Attacco pesante caricato 1 e 2: Infligge un {[DamageTable.GreatSword_HeavyAttack1.DmgCoef * 100]}% di danni &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_slash_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt;.\n•Attacco pesante caricato 3: Infligge un {[DamageTable.GreatSword_HeavyAttack3.DmgCoef * 100]}% di danni &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_slash_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt;.</string>
+	<string key="GreatSword_GroupDesc" rel_version="Weapon_GreatSword">Un'arma da mischia versatile che utilizza le posture per adattarsi a diverse situazioni di combattimento. Combina un attacco implacabile con una difesa aggressiva, permettendo di affrontare qualunque sfida.\n\nAttacco leggero 1 e 2: Infligge un {[DamageTable.GreatSword_PrimaryAttack1.DmgCoef * 100]}% di danni &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_slash_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt;.\n•Attacco leggero 3: Infligge un {[DamageTable.GreatSword_PrimaryAttack3.DmgCoef * 100]}% di danni &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_slash_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt;.\n•Attacco pesante caricato 1 e 2: Infligge un {[DamageTable.GreatSword_HeavyAttack1.DmgCoef * 100]}% di danni &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_slash_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt;.\n•Attacco pesante caricato 3: Infligge un {[DamageTable.GreatSword_HeavyAttack3.DmgCoef * 100]}% di danni &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_slash_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt;.</string>
 	<string key="GemAmbe_CategoryName">Pietre d'ambra</string>
 	<string key="GemAmet_CategoryName">Pietre di ametista</string>
 	<string key="GemAqua_CategoryName">Pietre di acquamarina</string>
@@ -1393,6 +1394,7 @@
 	<string key="MediumVines_GroupName">Rampicanti medi</string>
 	<string key="Metal_CategoryName">Metalli</string>
 	<string key="MetalPrecious_CategoryName">Metalli preziosi</string>
+	<string key="Prospecting_GroupName">Prospezione</string>
 	<string key="MetalT2_GroupName">Metalli livello 2</string>
 	<string key="MetalT3_GroupName">Metalli livello 3</string>
 	<string key="MetalT4_GroupName">Metalli livello 4</string>
@@ -1409,6 +1411,7 @@
 	<string key="ModsUncommon_GroupName">Modificatori non comuni</string>
 	<string key="MoonstoneCut_GroupDesc">Pietre di luna tagliate e levigate. Si possono usare per produrre gioielli che aumentano la Forza e la Concentrazione, oppure si possono incastonare nell'equipaggiamento per fornire i vantaggi Euforia e Protezione contro fendente.</string>
 	<string key="MoonstoneCut_GroupName">Pietra di luna\ntagliata</string>
+	<string key="Mounts_GroupName" rel_version="Feature_Mounts">Cavalcature</string>
 	<string key="MusketA_GroupDesc">Un'arma a distanza che spara proiettili in grado di infliggere notevoli danni. Ideale per tenere i nemici a distanza, ricompensa la precisione.\n\n•Attacco standard: Infligge un {[DamageTable.MusketAttack1.DmgCoef * 100]}% di danni &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_thrust_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt;.</string>
 	<string key="Blunderbuss_GroupDesc" rel_version="Weapon_Blunderbuss">Un'arma a distanza per scontri ravvicinati, capace di sparare 6 pallottole con un solo colpo. Ideale per tenere sotto pressione bersagli in mischia e dare una bella lezione ai bersagli a distanza.\n\n•Attacco standard: Infligge un {[DamageTable.Blunderbuss_Primary_Attack.DmgCoef * 100]}% di danni &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_thrust_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; per pallottola. ({[DamageTable.Blunderbuss_Primary_Attack_TooltipValue.DmgCoef * 100]}% in totale per tutte e 6 le pallottole)</string>
 	<string key="MusketA_GroupName">Moschetto</string>
@@ -1928,7 +1931,8 @@
 	<string key="UniqueDungeonReps8_GroupName">Repliche uniche Enneade</string>
 	<string key="UniqueDungeonReps9_GroupName">Repliche uniche Cuore della Tempesta</string>
 	<string key="UniqueDungeonReps11_GroupName">Repliche uniche Cirripedi e polvere da sparo</string>
-	<string key="UniqueDungeonReps12_GroupName" rel_version="Expedition_FirstLight_01">Unique Savage Divide Replicas</string>
+	<string key="UniqueDungeonReps12_GroupName" rel_version="Expedition_FirstLight_01">Repliche uniche Divisione incivile</string>
+	<string key="UniqueDungeonReps13_GroupName" rel_version="Expedition_GreatCleave_00">Repliche uniche Lago congelato</string>
 	<string key="HideT5_GroupName">Nascondi livello 5</string>
 	<string key="CategoryData_ArmorHeavy">Armatura pesante</string>
 	<string key="CategoryData_ArmorMedium">Armatura media</string>
@@ -1958,6 +1962,7 @@
 	<string key="NightveilHallow_GroupName">(Evento) Velo notturno consacrato</string>
 	<string key="SummerMedleyfaire_GroupName">(Evento) Fiera estiva</string>
 	<string key="SpringtideBloom_GroupName">(Evento) Fioritura primaverile</string>
+	<string key="LunarNewYear_GroupName">(Evento) Nuovo anno lunare</string>
 	<string key="Greatsword_GroupName">Spadone</string>
 	<string key="CoatingAeternian_GroupDesc" rel_version="Season_1_Perm">Solo PvE: rivestimenti che potenziano i danni inflitti agli umani (che non sono Perduti o Corrotti).</string>
 	<string key="CoatingAeternian_GroupName" rel_version="Season_1_Perm">Rivestimento per umani</string>
@@ -1998,6 +2003,7 @@
 	<string key="PrismaticArmorFur_GroupName" rel_version="Territory_FirstLight">Armatura media - Scarabeo prismatico</string>
 	<string key="PrismaticArmorCloth_GroupName" rel_version="Territory_FirstLight">Armatura leggera - Scarabeo prismatico</string>
 	<string key="PrismaticJewelry_GroupName" rel_version="Territory_FirstLight">Gioielli - Scarabeo prismatico</string>
+	<string key="PrismaticTools_GroupName" rel_version="Territory_FirstLight">Scarabeo prismatico</string>
 	<string key="LeatherT52_GroupName">Cuoio livello 5 (raro)</string>
 	<string key="LeatherT53_GroupName">Cuoio prismatico</string>
 	<string key="MetalT52_GroupName">Lingotto livello 5 (raro)</string>
@@ -2010,10 +2016,11 @@
 	<string key="UniqueMutatorReps_GroupName" rel_version="Territory_FirstLight">Repliche speciali mutanti</string>
 	<string key="FLXPac_MateriaConverts_GroupName" rel_version="Territory_FirstLight">Materia dell'Ascesa della Terra irata</string>
 	<string key="cookingrecipes_GroupName">Ricette di cucina</string>
-	<string key="armoringrecipes_GroupName">Armoring Patterns</string>
-	<string key="engineeringrecipes_GroupName">Engineering Patterns</string>
-	<string key="weaponsmithingrecipes_GroupName">Weaponsmithing Patterns</string>
+	<string key="armoringrecipes_GroupName">Schemi di armature</string>
+	<string key="engineeringrecipes_GroupName">Schemi di ingegneria</string>
+	<string key="weaponsmithingrecipes_GroupName">Schemi di forgiatura di armi</string>
 	<string key="furnishingrecipes_GroupName">Schemi di arredamento</string>
-	<string key="arcanarecipes_GroupName">Arcana Patterns</string>
+	<string key="arcanarecipes_GroupName">Schemi arcani</string>
+	<string key="sealedFactionArmor_GroupName">Armatura della fazione sigillata</string>
 </resources>
 

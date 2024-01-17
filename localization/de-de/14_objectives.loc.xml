@@ -100,7 +100,7 @@
 	<string key="1418_0202_f_Complete_Pt2Prompt" speaker="UI - Player Prompt">"Ich helfe den Waldläufern gerne."</string>
 	<string key="1418_0202_f_Complete_Pt2" speaker="Ranger Wardell - Edengrove" name="RangerWardell" VO="Ranger_1418_0202_azuretears_CompleteNext2" VO_Status="Recorded" dialogue-prompt="@1418_0202_f_Complete_Pt2Prompt">Wir sind das Wispern im Walde, die Augen im Schatten ... Du siehst uns vielleicht nicht, aber wir behalten dich stets im Auge.\n\nIch hoffe, du wirst unsere Hilfe ebenso zu schätzen wissen, wie wir deine zu schätzen wissen.</string>
 	<string key="1418_0202_d_01_Task" speaker="UI">Sammle Wyrdholztränen von den Dryaden am Ort {POITags}</string>
-	<string key="1418_0202_d_02_Task" speaker="UI">Besiege Dryadensoldaten und erbeute Folgendes: {itemName}</string>
+	<string key="1418_0202_d_02_Task" speaker="UI">Besiege Dryadensoldaten und erbeute Folgendes: {itemName}.</string>
 	<string key="1416_0301_a_Title" speaker="UI">Nordöstlich von Eden</string>
 	<string key="1416_0301_b_Description" speaker="UI">Triff dich mit Überlebenskünstler Ellwood im nordöstlichen Außenposten von Edenhain.</string>
 	<string key="1416_0301_Start_Prompt" speaker="UI - Player Prompt">"Was hat er gesagt?"</string>
@@ -532,7 +532,7 @@
 	<string key="1421_0203_b_Description" speaker="UI">Reise zur Spilaiohöhle und erbeute Bruchstücke des Verhexten Knochens von Ahnenwächtern.</string>
 	<string key="1421_0204_b_Description" speaker="UI">Reise zum Steinschädelfort und erbeute Stücke von Seegeküsstem Eichenholz von Steinschädelpiraten.</string>
 	<string key="1421_0205_b_Description" speaker="UI">Erklimme den höchsten Turm in Edenhain, Heimtücke und erbeute Perfektionierte Hanfsehnen von den alcazarianischen Bogenschützen.</string>
-	<string key="1421_0206_b_Description" speaker="UI">Bahne dir deinen Weg durch den Skorpion in Klagental und erbeute ein Stück des Ledereinbands von S’ylanx.</string>
+	<string key="1421_0206_b_Description" speaker="UI">Bezwinge den Skorpion in Klagental und erbeute ein Stück des Ledereinbands von S‘ylanx.</string>
 	<string key="1421_0207_b_Description" speaker="UI">Reise zu den Verbrannten Minen und erbeute Brandaderöl von verderbten Bergarbeitern.</string>
 	<string key="1421_0208_b_Description" speaker="UI">Reise nach Verzerrte Höhe und erbeute Stücke Geschwärzter Sehne von Unheiligen Ranken.</string>
 	<string key="1421_0209_b_Description" speaker="UI">Reise nach Eridanus und erbeute Stücke von Verzaubertem Azoth-Holz von Eridanischer Freisasse.</string>
@@ -740,7 +740,7 @@
 	<string key="14_SQ_PioneerLament_Complete" speaker="Abiathar Stull" name="AbiatharStull" VO="npc_14_SQ_PioneerLament_Complete" VO_Status="Recorded" dialogue-next="@14_SQ_PioneerLament_Complete_Next" rel_version="Quest_Supplement_Edengrove">Du hast meine Ausrüstung gefunden, Gott sei Dank. Was ist das? Ein Brief von meinem Sohn? Er schreibt, dass er einen Hof in Ebenmaß aufbaut, der tapfere, einfallsreiche Junge.</string>
 	<string key="14_SQ_PioneerLament_Complete_Prompt" speaker="UI - Player Prompt" rel_version="Quest_Supplement_Edengrove">"Er hat den Angriff doch überlebt."</string>
 	<string key="14_SQ_PioneerLament_Complete_Next" speaker="Abiathar Stull" name="AbiatharStull" VO="npc_14_SQ_PioneerLament_Complete_Next" VO_Status="Recorded" dialogue-prompt="@14_SQ_PioneerLament_Complete_Prompt" rel_version="Quest_Supplement_Edengrove">Noch ist nicht alles verloren! Ich werde ihn sofort besuchen. Danke für diese Nachricht, du hast mich vor dem Abgrund bewahrt.</string>
-	<string key="14_Side01_01_Task_GoTo1" rel_version="Quest_Supplement_Edengrove">Gehe zu folgendem Ort: {POITags}</string>
+	<string key="14_Side01_01_Task_GoTo1" rel_version="Quest_Supplement_Edengrove">Gehe zu folgendem Ort: {POITags}.</string>
 	<string key="14_Side01_01_Task_LootChests" rel_version="Quest_Supplement_Edengrove">Suche auf dem Hof nach Abiathars Ausrüstung</string>
 	<string key="14_SQ_HeartHate_Title" rel_version="Quest_Supplement_Edengrove">Ein hasserfülltes Herz</string>
 	<string key="14_SQ_HeartHate_Description" rel_version="Quest_Supplement_Edengrove">Beschaffe das Herz von Aeternums zornigstem Dryadenwüstling – zu Forschungszwecken.</string>

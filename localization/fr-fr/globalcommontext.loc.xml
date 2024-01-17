@@ -217,7 +217,7 @@
 	<string key="ui_azoth_desc">L'Azoth peut être utilisé pour voyager rapidement entre les sanctuaires et les colonies et pour fabriquer des objets plus puissants.\n\nObtenez de l'Azoth en accomplissant des quêtes et en fermant des foyers d'altération.\n\n&lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#aaaaaa"&gt;Source :&lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#FFFFFF"&gt; foyers d'altération, quêtes&lt;/font&gt;</string>
 	<string key="ui_cards">Cartes</string>
 	<string key="ui_leave_arena_coming_soon">La fonctionnalité Quitter l'arène sera bientôt disponible.</string>
-	<string key="ui_equipfishingpole">[{value}] pour pêcher</string>
+	<string key="ui_equipfishingpole">{$player.fishing_activate$} pour pêcher</string>
 	<string key="ui_castfishingline">: Jeter la ligne</string>
 	<string key="ui_fishing_hotspot_nearby">Cherchez la zone de pêche dans les environs !</string>
 	<string key="ui_changekey">Changer de touche</string>
@@ -538,7 +538,7 @@
 	<string key="ui_max">MAX !</string>
 	<string key="ui_microinteractions">Micro-interactions</string>
 	<string key="ui_microphone">Micro</string>
-	<string key="ui_tooltip_actions">Options</string>
+	<string key="ui_tooltip_actions">Actions</string>
 	<string key="ui_microphoneselection">Sélection du micro</string>
 	<string key="ui_microphonetest">Test de micro</string>
 	<string key="ui_microphonevolume">Volume du micro</string>
@@ -974,6 +974,22 @@
 	<string key="ui_world_select_hide_options">Moins d'options</string>
 	<string key="ui_world_select_view_worlds">Voir les mondes</string>
 	<string key="ui_world_select_refresh">Rafraîchir</string>
+	<string key="ui_world_free_transfer">Transfert gratuit</string>
+	<string key="ui_world_leave_world">Quitter le monde</string>
+	<string key="ui_world_leave_world_confirm_message_start">Quitter un monde impacte l'expérience de votre personnage :</string>
+	<string key="ui_world_leave_world_confirm_message_friends_list">Votre liste d'amis ne sera pas transférée</string>
+	<string key="ui_world_leave_world_confirm_message_company_membership">Vous quitterez votre compagnie et les fonds de trésorerie ne seront pas transférés</string>
+	<string key="ui_world_leave_world_confirm_message_town_projects">Vos missions de projet urbain ne seront pas transférées</string>
+	<string key="ui_world_leave_world_confirm_message_faction_missions">Vos missions de faction ne seront pas transférées</string>
+	<string key="ui_world_leave_world_confirm_message_trading_post">Vos contrats de comptoir ne seront pas transférés et seront annulés</string>
+	<string key="ui_world_leave_world_confirm_message_season_pass">La progression et les récompenses de votre passe de saison seront transférées</string>
+	<string key="ui_world_leave_world_confirm_message_houses">Vos maisons seront transférées</string>
+	<string key="ui_world_leave_world_confirm_message_end">Voulez-vous vraiment quitter {worldName} ?\n\nUne fois que vous aurez quitté ce monde, vous ne pourrez pas y retourner avant qu'il soit déverrouillé et devrez sélectionner un autre monde de cette région.</string>
+	<string key="ui_world_leave_world_failed_header">Transfert de personnage indisponible</string>
+	<string key="ui_world_leave_world_failed_message">Le transfert de personnage gratuit est actuellement disponible.</string>
+	<string key="ui_world_free_transfer_tooltip_transfer_unavailable">Le transfert de personnage est actuellement indisponible.</string>
+	<string key="ui_world_free_transfer_tooltip_is_latent">Le personnage est déjà en instance de transfert</string>
+	<string key="ui_world_free_transfer_tooltip_cooldown">Transfert de personnage\ndisponible dans : {time}</string>
 	<string key="ui_resolution_popup_title">Résolution</string>
 	<string key="ui_resolution_popup_title_message">Conserver cette résolution ?</string>
 	<string key="ui_monitor_popup_title">Écran</string>
@@ -1041,7 +1057,7 @@
 	<string key="ui_glory_update_floating_standing">Réputation +{amount}</string>
 	<string key="ui_glory_to_level">&lt;font color="#FFFFFF"&gt;{xp} EXP&lt;/font&gt; avant le niveau {level}</string>
 	<string key="ui_glory_tooltip">Vous avez des points de capacités à utiliser. Ouvrez l'écran de progression et améliorez vos capacités avec [{keyName}].</string>
-	<string key="ui_coin">Pièce</string>
+	<string key="ui_coin">Pièces</string>
 	<string key="ui_coin_desc">Votre monnaie principale sert à acheter des objets au comptoir et à la boutique de faction.\nVous pouvez avoir jusqu'à &lt;font color="#FFFFFF"&gt;{amount}&lt;/font&gt; pièces.\n\n&lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#aaaaaa"&gt;Source :&lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#FFFFFF"&gt; achèvement de missions, élimination d'ennemis, participation à des événements&lt;/font&gt;</string>
 	<string key="ui_coin_max">Max de pièces</string>
 	<string key="ui_coin_icon">{coin} &lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt;</string>
@@ -1054,12 +1070,14 @@
 	<string key="ui_killfeed_tradeskill_val"> +{amount}</string>
 	<string key="ui_navmenu_friends">AMIS</string>
 	<string key="ui_navmenu_modes">Modes</string>
+	<string key="ui_navmenu_activities" rel_version="Feature_PUG_Finder">Activités</string>
 	<string key="ui_navmenu_guild">Compagnie</string>
 	<string key="ui_navmenu_map">Carte</string>
 	<string key="ui_navmenu_journal">Journal</string>
 	<string key="ui_navmenu_settings">Options</string>
 	<string key="ui_navmenu_exit">QUITTER/OPT.</string>
 	<string key="ui_navmenu_game_menu">Menu du jeu</string>
+	<string key="ui_navmenu_social_menu">Menu social</string>
 	<string key="ui_navmenu_benchmark">BANC D'ESSAI</string>
 	<string key="ui_navmenu_store">Boutique</string>
 	<string key="ui_navmenu_quit">Quitter</string>
@@ -1125,6 +1143,7 @@
 	<string key="ui_constitution">Forme</string>
 	<string key="ui_respec">Réinitialisation</string>
 	<string key="ui_respec_attributes">Réinitialiser tous les points de caractéristiques</string>
+	<string key="ui_cannot_respec_attributes_during_combat">Réinitialisation impossible des caractéristiques en combat</string>
 	<string key="ui_respec_mastery">Réinitialiser tous les points de savoir-faire</string>
 	<string key="ui_base">Base</string>
 	<string key="ui_health">Santé</string>
@@ -1244,7 +1263,7 @@
 	<string key="ui_teleport_backup_location">Votre point de réapparition n'était pas disponible, vous avez été téléporté(e) non loin.</string>
 	<string key="ui_territoryLockedReclaim">Ne peut pas être revendiqué à nouveau jusqu'à la fin de la phase de résolution.</string>
 	<string key="ui_territoryLockedClaim">Ne peut pas être revendiqué par un tiers avant la fin de la guerre.</string>
-	<string key="ui_territoryinfluencetooltip">Lors d'une Course d'influence, les factions gagnent de l'influence grâce aux &lt;font face="lyshineui/fonts/Nimbus_semibold.font" &gt;missions JcJ de faction&lt;/font&gt; et aux &lt;font face="lyshineui/fonts/Nimbus_semibold.font" &gt;points de contrôle de faction&lt;/font&gt;. Les points de contrôle de faction donnent à la faction les contrôlant un bonus à toute l'influence obtenue. \n\nLa faction assaillante qui obtient le plus d'influence lors d'une Course d'influence obtient une déclaration de guerre. Les compagnies doivent accomplir des missions de faction pour obtenir assez d'influence et être qualifiée pour déclarer la guerre. \n\n&lt;font face="lyshineui/fonts/Nimbus_semibold.font" &gt;Bonus d'outsider :&lt;/font&gt; Les factions avec 2 territoires ou moins obtiennent un bonus de &lt;font color="#FFFFFF"&gt;10 %&lt;/font&gt; de points d'influence.</string>
+	<string key="ui_territoryinfluencetooltip">Lors d'une Course d'influence, les factions gagnent de l'influence grâce aux &lt;font face="lyshineui/fonts/Nimbus_semibold.font" &gt;missions JcJ de faction&lt;/font&gt; et aux &lt;font face="lyshineui/fonts/Nimbus_semibold.font" &gt;points de contrôle de faction&lt;/font&gt;. Les points de contrôle de faction donnent à la faction les contrôlant un bonus à toute l'influence obtenue. \n\nLa faction assaillante qui obtient le plus d'influence lors d'une Course d'influence obtient une déclaration de guerre. Les compagnies doivent accomplir des missions de faction pour obtenir assez d'influence et être qualifiées pour déclarer la guerre. \n\n&lt;font face="lyshineui/fonts/Nimbus_semibold.font" &gt;Bonus d'outsider :&lt;/font&gt; Les factions avec 2 territoires ou moins obtiennent un bonus de &lt;font color="#FFFFFF"&gt;10 %&lt;/font&gt; de points d'influence.</string>
 	<string key="ui_availableToReclaimIn">Revendicable à nouveau dans :</string>
 	<string key="ui_availableToClaimIn">Revendicable dans :</string>
 	<string key="ui_availableTimeToCapture">Temps de capture disponible :</string>
@@ -1287,7 +1306,7 @@
 	<string key="ui_buildmode_territorytax">Taxe de territoire :</string>
 	<string key="ui_buildmode_territorytax_caps">TAXE DE TERRITOIRE</string>
 	<string key="ui_buildmode_ingredients">INGRÉDIENTS</string>
-	<string key="ui_buildmode_crown">PIÈCE</string>
+	<string key="ui_buildmode_crown">PIÈCES</string>
 	<string key="ui_buildmode_planningmode_unavailable">Construction autorisée uniquement sur territoire revendiqué</string>
 	<string key="ui_buildmode_skill_required">Capacités de construction de {skillreq}\n(actuelles : {current})</string>
 	<string key="ui_canberevived">Réanimation rétablie</string>
@@ -1295,7 +1314,7 @@
 	<string key="ui_respawn_banner_message">Votre âme redescend dans le Nouveau monde.</string>
 	<string key="ui_deathsdoorcooldown">Prochaine réanimation</string>
 	<string key="ui_deathsdoorcooldown_description">Réanimation possible dans</string>
-	<string key="ui_currency">Pièce</string>
+	<string key="ui_currency">Pièces</string>
 	<string key="ui_currency_type">Monnaie</string>
 	<string key="ui_currency_value">{value} pièces</string>
 	<string key="ui_active_crimes">Crimes en cours : {crimeList}</string>
@@ -1539,7 +1558,7 @@
 	<string key="ui_claimmarker">Point de revendication</string>
 	<string key="ui_claimstreak">Jour {number}</string>
 	<string key="ui_random_location">Emplacement aléatoire</string>
-	<string key="ui_scroll_hint">(Molette) Zoomer</string>
+	<string key="ui_scroll_hint">Zoomer</string>
 	<string key="ui_map_rotate_camera">(Maintenir) Pivoter la caméra</string>
 	<string key="ui_zoom_camera">&lt;img src="lyshineui/images/icons/misc/Icon_RightMouseButton" xPadding="0" scale="2.2" yOffset="8"&gt;&lt;/img&gt; + &lt;img src="lyshineui/images/icons/misc/Icon_MiddleMouseButton" xPadding="1" scale="2.3" yOffset="9"&gt;&lt;/img&gt; (Maintenir) Zoom</string>
 	<string key="ui_global_storage_description">Les autres joueurs ne peuvent pas voir ni prendre les objets que vous laissez ici. Vous devez retourner dans cet avant-poste pour récupérer les objets.</string>
@@ -1688,7 +1707,7 @@
 	<string key="ui_tooltip_cannot_use_while_dismounted" rel_version="Feature_Mounts">Utilisation impossible pied à terre.</string>
 	<string key="ui_tooltip_clickToLock">Sélectionner objet à verrouiller</string>
 	<string key="ui_siege_damage_needed">Doit utiliser une arme de siège</string>
-	<string key="ui_tooltip_gatherspeed">Vitesse\nd'exploitation</string>
+	<string key="ui_tooltip_gatherspeed">Vitesse d'exploitation</string>
 	<string key="ui_tooltip_gatherbonus">Bonus d'exploitation</string>
 	<string key="ui_tooltip_maxcastdistance">Portée de lancement maximum</string>
 	<string key="ui_tooltip_basedamage">Dégâts de base</string>

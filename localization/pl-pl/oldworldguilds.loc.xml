@@ -195,7 +195,7 @@
 	<string key="owg_influence_conflict_notification_title">Konflikt frakcyjny</string>
 	<string key="owg_influence_conflict_notification_desc">Frakcja {faction} wprowadza stan konfliktu na terytorium {territoryName}! Mogą teraz wypowiedzieć wojnę.</string>
 	<string key="owg_war_declared_lottery_active">{territoryName} – wypowiedziano wojnę!</string>
-	<string key="owg_war_declared_lottery_active_desc">Kompania z frakcji: {faction} wypowiedziała wojnę terytorium: {territoryName}. Ostatnia kompania, która weźmie udział zostanie określona za: {time}</string>
+	<string key="owg_war_declared_lottery_active_desc">Kompania z frakcji: {faction} wypowiedziała wojnę terytorium: {territoryName}. Ostatnia kompania, która weźmie udział, zostanie określona za: {time}</string>
 	<string key="ui_fortressinfo_lotterydescription">Kompanie wypowiedziały wojnę. Kompania tocząca wojnę zostanie wkrótce wybrana.</string>
 	<string key="owg_target_Ancient">Pradawni</string>
 	<string key="owg_target_Bear">Niedźwiedzie</string>
@@ -432,13 +432,13 @@
 	<string key="FactionMission_C_EXPEDITIONLOOT_desc">{POITags} – udaj się do tego miejsca. &lt;font color="#eaeaea"&gt;{itemName}&lt;/font&gt; – to twój cel. Zbierz dla przymierza wszystkie cenne przedmioty, które znajdziesz.\n\n &lt;font color="#eaeaea"&gt;(Ekspedycja)&lt;/font&gt;</string>
 	<string key="FactionMission_ASSASSINATE_title">Zabójstwo: {POITags}</string>
 	<string key="FactionMission_ASSASSINATE_desc">&lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; – maruderzy chcą pozbyć się tego celu.\n\nDowiedź swej odwagi – wytrop cel w: {POITags} i pozbądź się go.</string>
-	<string key="FactionMission_M_ASSASSINATE_NIGHT_desc">The Marauders need &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; removed from the theater.\n\nProve your valor by tracking them down in {POITags} and destroying them.\n\n&lt;font color="#eaeaea"&gt;Can only be completed at Night.&lt;/font&gt;</string>
+	<string key="FactionMission_M_ASSASSINATE_NIGHT_desc">&lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; – maruderzy chcą pozbyć się tego celu.\n\nDowiedź swej odwagi – wytrop cel w: {POITags} i pozbądź się go.\n\n&lt;font color="#eaeaea"&gt;Tę misję można wykonać tylko nocą.&lt;/font&gt;</string>
 	<string key="FactionMission_S_ASSASSINATE_title">Eliminacja: {POITags}</string>
 	<string key="FactionMission_S_ASSASSINATE_desc">&lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; – syndykat zidentyfikował cel, którego należy się pozbyć.\n\nDowiedź swego sprytu – wytrop cel w: {POITags} i pozbądź się go.</string>
-	<string key="FactionMission_S_ASSASSINATE_NIGHT_desc">The Syndicate has identified &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; to be a target for elimination.\n\nProve your cunning by tracking them down in {POITags} and destroying them.\n\n&lt;font color="#eaeaea"&gt;Can only be completed at Night.&lt;/font&gt;</string>
+	<string key="FactionMission_S_ASSASSINATE_NIGHT_desc">&lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; – syndykat zidentyfikował cel, którego należy się pozbyć.\n\nDowiedź swego sprytu – wytrop cel w: {POITags} i pozbądź się go.\n\n&lt;font color="#eaeaea"&gt;Tę misję można wykonać tylko nocą.&lt;/font&gt;</string>
 	<string key="FactionMission_C_ASSASSINATE_title">Kara: {POITags}</string>
 	<string key="FactionMission_C_ASSASSINATE_desc">&lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;– przymierze zidentyfikowało groźny cel, którego należy się pozbyć.\n\nDowiedź swego oddania – wytrop cel w: {POITags} i pozbądź się go.</string>
-	<string key="FactionMission_C_ASSASSINATE_NIGHT_desc">The Covenant has identified &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; to be eliminated.\n\nProve your devotion by tracking them down in {POITags} and destroying them.\n\n&lt;font color="#eaeaea"&gt;Can only be completed at Night.&lt;/font&gt;</string>
+	<string key="FactionMission_C_ASSASSINATE_NIGHT_desc">&lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; – przymierze zidentyfikowało groźny cel, którego należy się pozbyć.\n\nDowiedź swego oddania – wytrop cel w: {POITags} i się go pozbądź.\n\n&lt;font color="#eaeaea"&gt;Tę misję można wykonać tylko nocą.&lt;/font&gt;</string>
 	<string key="FactionMission_ASSASSINATE_ELITE_title">Zabójstwo: {POITags} (elitarny cel)</string>
 	<string key="FactionMission_ASSASSINATE_ELITE_desc">&lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; – maruderzy chcą pozbyć się tego celu.\n\nDowiedź swej odwagi – wytrop cel w: {POITags} i pozbądź się go.\n&lt;font color="#eaeaea"&gt;(elitarny)&lt;/font&gt;</string>
 	<string key="FactionMission_S_ASSASSINATE_ELITE_title">Eliminacja: {POITags} (elitarny cel)</string>
@@ -487,7 +487,7 @@
 	<string key="FactionMission_WARCAMP_LOOT_title">Działania wywiadowcze (PvP)</string>
 	<string key="FactionMission_WARCAMP_LOOT_desc">Zakradnij się do &lt;font color="#eaeaea"&gt;obozu wojennego&lt;/font&gt; w pobliżu &lt;font color="#eaeaea"&gt;fortu w: {territoryID}&lt;/font&gt; i poszukaj cennych informacji.</string>
 	<string key="FactionMission_CONTROL_POINT_title">Podbój (PvP)</string>
-	<string key="FactionMission_CONTROL_POINT_desc">Take up arms to help the Marauders take control of the &lt;font color="#eaeaea"&gt;Fort&lt;/font&gt; or an &lt;font color="#eaeaea"&gt;Influence Watch&lt;/font&gt; (during Influence Races) at &lt;font color="#eaeaea"&gt;{territoryID}&lt;/font&gt;\n\n(This mission may not be completable at all times)</string>
+	<string key="FactionMission_CONTROL_POINT_desc">Chwyć za broń i pomóż maruderom zająć &lt;font color="#eaeaea"&gt;fort&lt;/font&gt; albo &lt;font color="#eaeaea"&gt;strażnicę wpływów&lt;/font&gt; (podczas walki o wpływy) w: &lt;font color="#eaeaea"&gt;{territoryID}.&lt;/font&gt;\n\n(Ta misja nie zawsze jest możliwa do wykonania)</string>
 	<string key="FactionMission_S_WARCAMP_LOOT_title">Rekonesans (PvP)</string>
 	<string key="FactionMission_S_WARCAMP_LOOT_desc">Zakradnij się do &lt;font color="#eaeaea"&gt;obozu wojennego&lt;/font&gt; w pobliżu &lt;font color="#eaeaea"&gt;fortu w: {territoryID}&lt;/font&gt; i poszukaj cennych informacji.</string>
 	<string key="FactionMission_S_CONTROL_POINT_title">Przejęcie (PvP)</string>
@@ -554,17 +554,6 @@
 	<string key="CMissionAcquireWoodWorker">Zdobądź i dostarcz: &lt;font color="#eaeaea"&gt;{itemName} ({itemAmount})&lt;/font&gt; ze stolarni.</string>
 	<string key="CMissionAcquireOutfitter">Zdobądź i dostarcz: &lt;font color="#eaeaea"&gt;{itemName} ({itemAmount})&lt;/font&gt; ze stanowiska krawieckiego.</string>
 	<string key="CMissionAcquireEngineer">Zdobądź i dostarcz: &lt;font color="#eaeaea"&gt;{itemName} ({itemAmount})&lt;/font&gt; z warsztatu.</string>
-	<string key="CMissionAcquireBlock_Name_WC" rel_version="Event_WinterConvergence_Temp">Potrzebni świąteczni kamieniarze</string>
-	<string key="CMissionAcquireTimber_Name_WC" rel_version="Event_WinterConvergence_Temp">Potrzebni świąteczni cieśle</string>
-	<string key="CMissionAcquireCloth_Name_WC" rel_version="Event_WinterConvergence_Temp">Potrzebni świąteczni tkacze</string>
-	<string key="CMissionAcquireMetal_Name_WC" rel_version="Event_WinterConvergence_Temp">Potrzebni świąteczni hutnicy</string>
-	<string key="CMissionAcquireFibers_Name_WC" rel_version="Event_WinterConvergence_Temp">Potrzebni świąteczni żniwiarze</string>
-	<string key="CMissionAcquireFood_Name_WC" rel_version="Event_WinterConvergence_Temp">Potrzebni świąteczni kucharze</string>
-	<string key="CMissionAcquirePotions_Name_WC" rel_version="Event_WinterConvergence_Temp">Potrzebni świąteczni alchemicy</string>
-	<string key="CMissionAcquireGeneric_Name_WC" rel_version="Event_WinterConvergence_Temp">Potrzebne świąteczne zapasy</string>
-	<string key="CMissionAcquireWood_Name_WC" rel_version="Event_WinterConvergence_Temp">Potrzebni świąteczni drwale</string>
-	<string key="CMissionAcquireRawhide_Name_WC" rel_version="Event_WinterConvergence_Temp">Potrzebni świąteczni łowcy</string>
-	<string key="CMissionAcquireLeather_Name_WC" rel_version="Event_WinterConvergence_Temp">Potrzebni świąteczni garbarze</string>
 	<string key="ui_already_in_faction">Już należysz do tej frakcji</string>
 	<string key="ui_cant_switch_faction_pvp">Nie możesz zmienić frakcji, gdy oznaczysz się do PvP</string>
 	<string key="ui_cant_switch_faction_azoth">Za mało azothu</string>

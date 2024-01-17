@@ -16,7 +16,7 @@
 	<string key="ui_termsnotice_desc">Nutzungsbedingungen in einem Browserfenster anzeigen.</string>
 	<string key="ui_visual">Grafik</string>
 	<string key="ui_section_language">Sprache</string>
-	<string key="ui_section_camera">Tastatur- und Mauskamera</string>
+	<string key="ui_section_camera">Kamera</string>
 	<string key="ui_section_gameplay">Spiel</string>
 	<string key="ui_section_hud">HUD</string>
 	<string key="ui_section_healing">Heilung</string>
@@ -33,10 +33,10 @@
 	<string key="ui_section_group">Weitere Optionen</string>
 	<string key="ui_voicechatsettings">Sprach-Chat</string>
 	<string key="ui_openvoicechatsettings">Einstellung für Sprach-Chat öffnen</string>
-	<string key="ui_invertlook">Kamerasteuerung umkehren</string>
-	<string key="ui_invertlook_desc">Lege fest, ob die vertikale Achse bei Verwendung einer Tastatur und Maus umgekehrt werden soll.</string>
-	<string key="ui_looksensitivity">Kameraempfindlichkeit</string>
-	<string key="ui_looksensitivity_desc">Lege die Bewegungsgeschwindigkeit der Kamera fest.</string>
+	<string key="ui_invertlook">Kamerasteuerung umkehren [Maus/Tastatur]</string>
+	<string key="ui_invertlook_desc">Lege fest, ob die vertikale Achse bei Verwendung von Maus/Tastatur umgekehrt werden soll.</string>
+	<string key="ui_looksensitivity">Kameraempfindlichkeit [Maus/Tastatur]</string>
+	<string key="ui_looksensitivity_desc">Lege die Bewegungsgeschwindigkeit der Kamera bei Verwendung von Maus/Tastatur fest.</string>
 	<string key="ui_window_mode">Darstellungsmodus</string>
 	<string key="ui_window_mode_desc">Lege den Anzeigemodus des Fensters fest.</string>
 	<string key="ui_fullscreen">Vollbild</string>
@@ -250,12 +250,12 @@
 	<string key="ui_options_textSize_bigger">Größer</string>
 	<string key="ui_cameraShake">Kamerawackeln</string>
 	<string key="ui_cameraShake_desc">Lege fest, ob Kamerawackeln aktiviert sein soll, was manche Spieler desorientieren kann.</string>
-	<string key="ui_strafeCamera">Immer seitwärts bewegen</string>
-	<string key="ui_strafeCamera_desc">Lege fest, ob der Charakter immer in Kamerablickrichtung blicken soll.</string>
+	<string key="ui_strafeCamera">Freie Bewegung [Maus/Tastatur]</string>
+	<string key="ui_strafeCamera_desc">Der Charakter dreht sich bei der Verwendung von Maus/Tastatur in die Richtung der Bewegungseingabe.</string>
 	<string key="ui_alwaysShowReticle">Zielkreis immer anzeigen</string>
 	<string key="ui_alwaysShowReticle_desc">Lege fest, ob der Zielkreis auch dann sichtbar sein soll, wenn nicht gezielt wird.</string>
 	<string key="ui_toggleblockads">Zielen und Blocken umschalten</string>
-	<string key="ui_toggleblockads_desc">Lege fest, ob Zielen und Blocken per Tastendruck umgeschaltet werden sollen.</string>
+	<string key="ui_toggleblockads_desc">Lege fest, ob Zielen und Blocken beim Tastendruck umgeschaltet werden sollen, anstatt die Taste gedrückt halten zu müssen.</string>
 	<string key="ui_enable_ally_team_color_tinting">Farbtönung für verbündete Teams</string>
 	<string key="ui_enable_enemy_team_color_tinting">Farbtönung für gegnerische Teams</string>
 	<string key="ui_enable_ally_team_color_tinting_desc">Lege fest, ob die Team-Farbtönung für Verbündete in Spielmodi aktiviert werden soll.</string>
@@ -301,23 +301,25 @@
 	<string key="ui_analyticsenabled_desc">Lege fest, ob bestimmte telemetrische Kundendaten bezüglich deines Spielerlebnisses und deiner Spieleinstellungen ans New World-Team übermittelt werden sollen (falls beim Spielen Netzwerkprobleme auftreten, könnte die Deaktivierung dieser Einstellung das Problem beheben).</string>
 	<string key="ui_leaderboardenabled" rel_version="Feature_Leaderboards">Auf Bestenlisten anzeigen</string>
 	<string key="ui_leaderboardenabled_desc" rel_version="Feature_Leaderboards">Lege fest, ob dein Charaktername in Bestenlisten angezeigt und Bestenlistenbelohnungen aktiviert werden sollen.</string>
-	<string key="ui_enable_camera_lock">Gezielte Heilung</string>
-	<string key="ui_enable_camera_lock_description">Lege fest, ob das anvisierte Heilsystem aktiviert werden soll.</string>
+	<string key="ui_enable_targeted_healing">Anvisierte Heilung</string>
+	<string key="ui_enable_targeted_healing_description">Lege fest, ob das System für anvisierte Heilung aktiviert werden soll.</string>
 	<string key="ui_enable_camera_lock_friendlies">Kameraerfassung Verbündeter</string>
 	<string key="ui_enable_camera_lock_friendlies_description">Lege fest, ob das Zielsystem freundlicher Ziele zur Heilung aktiviert werden soll.</string>
-	<string key="ui_enable_camera_lock_target_follow">Freie Kamera</string>
-	<string key="ui_enable_camera_lock_target_follow_description">Lege fest, ob bei erfasstem Ziel die freie Kameraführung aktiviert werden soll. (Deaktivieren, damit die Kamera einem aktiven Ziel folgt.)</string>
+	<string key="ui_enable_camera_lock_target_follow">Kamera folgt erfasstem Ziel.</string>
+	<string key="ui_enable_camera_lock_target_follow_description">Lege fest, ob die Kamera dem erfassten Ziel folgen soll. (Deaktivieren, um die Kamera bei erfasstem Ziel frei bewegen zu können.)</string>
 	<string key="ui_enable_camera_lock_retarget">Kameraziel wechseln</string>
-	<string key="ui_enable_camera_lock_retarget_description">Lege fest, ob der Wechsel des erfassten Ziels per Kameraausrichtung aktiviert werden soll. (Ist nur bei deaktivierter freier Kamera wirksam.)</string>
+	<string key="ui_enable_camera_lock_retarget_description">Lege fest, ob der Wechsel des erfassten Ziels per Kameraausrichtung aktiviert werden soll. (Ist nur wirksam, wenn "Kamera folgt erfasstem Ziel" aktiviert ist.)</string>
 	<string key="ui_enable_camera_lock_sticky_lock">Anhaftende Zielerfassung</string>
 	<string key="ui_enable_camera_lock_sticky_lock_description">Lege fest, ob das Ziel auch nach der Heilung beibehalten werden soll.</string>
 	<string key="ui_enable_camera_lock_group_mode">Gruppenmodus</string>
-	<string key="ui_enable_camera_lock_group_mode_description">Lege fest, ob der Gruppenmodus aktiviert werden soll, mit dem man per Mausrad durch die Gruppenmitglieder schalten kann. (Diese Option hat bei Raubzügen keinen Effekt, wenn Raubzug-Ziel über Gruppen und Tastenkürzel aktiviert wurde.)</string>
+	<string key="ui_enable_camera_lock_group_mode_description">Ermöglicht den Gruppenmodus, mit dem man per Mausrad durch die Gruppen- oder Raubzugmitglieder schalten kann. (Diese Option hat bei Raubzügen keinen Effekt, wenn "Raubzug-Ziel über Gruppen und Tastenkürzel" aktiviert wurde.)</string>
+	<string key="ui_enable_target_mygroup_only_in_raid">Nur Gruppen in Raubzügen</string>
+	<string key="ui_enable_target_mygroup_only_in_raid_description">Begrenze bei einem Raubzug mit aktiviertem Gruppenmodus die anvisierbaren Verbündeten auf die fünf Mitglieder deiner unmittelbaren Gruppe. (Diese Option hat bei Raubzügen keinen Effekt, wenn "Raubzug-Ziel über Gruppen und Tastenkürzel" aktiviert wurde.)</string>
 	<string key="ui_enable_camera_lock_select_raid_members_by_group_and_hotkey">Raubzug-Ziel über Gruppen und Tastenkürzel</string>
-	<string key="ui_enable_camera_lock_select_raid_members_by_group_and_hotkey_description">Lege fest, ob die Raubzug-Zielausrichtung aktiviert werden soll. Mit dem mittleren Mausrad kann durch die Raubzuggruppen geschaltet werden. Per Tastenkürzel erfolgt die individuelle Mitgliederauswahl. (Tastenbelegung für "Gruppenmitglied anvisieren" erforderlich, um Ziele innerhalb der Gruppe auszuwählen.) Aktiviert automatisch den Gruppenmodus bei Raubzügen.</string>
+	<string key="ui_enable_camera_lock_select_raid_members_by_group_and_hotkey_description">Aktiviert die Raubzug-Zielausrichtung. Mit dem mittleren Mausrad kann durch die Raubzuggruppen geschaltet werden. Per Tastenkürzel erfolgt die individuelle Mitgliederauswahl. (Tastenbelegung für "Gruppenmitglied anvisieren" erforderlich, um Ziele innerhalb der Gruppe auszuwählen. Wenn aktiv, sind nur Raubzugmitglieder anvisierbar.)</string>
 	<string key="ui_enable_show_healing_hotkeys_in_raid_hud">Tastenkürzelhinweise in Raubzügen anzeigen</string>
 	<string key="ui_enable_show_healing_hotkeys_in_raid_hud_description">Lege fest, ob Tastenkürzelhinweise für jedes Mitglied der derzeit ausgewählten Gruppe angezeigt werden sollen, wenn die Raubzug-Ziel über Gruppen und Tastenkürzel aktiv ist.</string>
-	<string key="ui_toggle_target_lock" rel_version="Feature_Controller">Zielerfassung ein-/ausschalten</string>
+	<string key="ui_toggle_target_lock">Zielerfassung ein-/ausschalten</string>
 	<string key="ui_raid_member_hotkeys_unbound_error_title">Tastenkürzel nicht festgelegt</string>
 	<string key="ui_raid_member_hotkeys_unbound_error_message">Lege im Menü "Tastenbelegung" alle Zielgruppenmitglied-Eingaben für den Lebensstabkampf fest, um diese Funktion nutzen zu können.</string>
 	<string key="ui_gena_escape" rel_version="Feature_GameEntryNarrationAssistance">ESC-Taste</string>

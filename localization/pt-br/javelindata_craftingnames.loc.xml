@@ -509,9 +509,9 @@
 	<string key="Procedural_PotionBoostVoidAbsT3">Poção de Absorção do Imaterial Intensa</string>
 	<string key="Procedural_PotionBoostVoidAbsT4">Poção de Absorção do Imaterial Poderosa</string>
 	<string key="Procedural_PotionBoostVoidAbsT5">Poção de Absorção do Imaterial Infusa</string>
-	<string key="Procedural_PotionBoostIceAbsT3" rel_version="IceAbsorbPot">Strong Ice Absorption Potion</string>
-	<string key="Procedural_PotionBoostIceAbsT4" rel_version="IceAbsorbPot">Powerful Ice Absorption Potion</string>
-	<string key="Procedural_PotionBoostIceAbsT5" rel_version="IceAbsorbPot">Infused Ice Absorption Potion</string>
+	<string key="Procedural_PotionBoostIceAbsT3" rel_version="IceAbsorbPot">Poção de Absorção de Gelo Intensa</string>
+	<string key="Procedural_PotionBoostIceAbsT4" rel_version="IceAbsorbPot">Poção de Absorção de Gelo Poderosa</string>
+	<string key="Procedural_PotionBoostIceAbsT5" rel_version="IceAbsorbPot">Poção de Absorção de Gelo Infusa</string>
 	<string key="Procedural_HealthRecoveryT1">Ração Leve</string>
 	<string key="Procedural_HealthRecoveryT2">Ração de Viagem</string>
 	<string key="Procedural_HealthRecoveryT3">Refeição Leve</string>
@@ -1898,9 +1898,6 @@
 	<string key="Procedural_GauntletVoidT3_WC" rel_version="Event_WinterConvergence_Perm">Sombra Amarga</string>
 	<string key="Procedural_GauntletVoidT4_WC" rel_version="Event_WinterConvergence_Perm">Sombra Amarga</string>
 	<string key="Procedural_GauntletVoidT5_WC" rel_version="Event_WinterConvergence_Perm">Sombra Amarga</string>
-	<string key="PresentToken" rel_version="Event_WinterConvergence_Temp">Token de Inverno - Presentes</string>
-	<string key="GleamiteToken" rel_version="Event_WinterConvergence_Temp">Token de Inverno - Brilhita</string>
-	<string key="WarriorToken" rel_version="Event_WinterConvergence_Temp">Token de Inverno - Espinhos de Granizo do Guerreiro</string>
 	<string key="ScrapExtractMetalT2">Extrair Metal - Ferro</string>
 	<string key="ScrapExtractMetalT3">Extrair Metal - Aço</string>
 	<string key="ScrapExtractMetalT4">Extrair Metal - Estelaço</string>
@@ -1996,31 +1993,31 @@
 	<string key="CraftArtifact_Set1_HeavyChest_Name">Aprimoramento para Placa Escura do Imaterial no Forno de Gipsita</string>
 	<string key="CraftArtifact_Set1_HeavyHands_Name">Aprimoramento para Manoplas Magnéticas no Forno de Gipsita</string>
 	<string key="CraftArtifact_Set1_HeavyLegs_Name">Aprimoramento para Liberdade no Forno de Gipsita</string>
-	<string key="CraftArtifact_Set1_HeavyFeet_Name" rel_version="Feature_Artifacts_Set2">The Unmoved Upgrade at the Gypsum Kiln</string>
+	<string key="CraftArtifact_Set1_HeavyFeet_Name" rel_version="Feature_Artifacts_Set2">Aprimoramento para O Imóvel no Forno de Gipsita</string>
 	<string key="CraftArtifact_Set1_MediumHead_Name">Aprimoramento para Adereço de Djinn no Forno de Gipsita</string>
 	<string key="CraftArtifact_Set1_MediumChest_Name">Aprimoramento para Casaco Ágil no Forno de Gipsita</string>
 	<string key="CraftArtifact_Set1_MediumHands_Name">Aprimoramento para Luvas Malignas no Forno de Gipsita</string>
 	<string key="CraftArtifact_Set1_MediumLegs_Name">Aprimoramento para Sintonizado no Forno de Gipsita</string>
-	<string key="CraftArtifact_Set1_MediumFeet_Name" rel_version="Feature_Artifacts_Set2">Winged Shoes Upgrade at the Gypsum Kiln</string>
+	<string key="CraftArtifact_Set1_MediumFeet_Name" rel_version="Feature_Artifacts_Set2">Aprimoramento para Sapatos Alados no Forno de Gipsita</string>
 	<string key="CraftArtifact_Set1_LightHead_Name">Aprimoramento para Chapéu de Feiticeiro Cinzento no Forno de Gipsita</string>
 	<string key="CraftArtifact_Set1_LightChest_Name">Aprimoramento para Superleve no Forno de Gipsita</string>
-	<string key="CraftArtifact_Set1_LightHands_Name" rel_version="Feature_Artifacts_Set2">Quickdraw Upgrade at the Gypsum Kiln</string>
-	<string key="CraftArtifact_Set1_LightLegs_Name" rel_version="Feature_Artifacts_Set2">Koya's Knee Guards Upgrade at the Gypsum Kiln</string>
+	<string key="CraftArtifact_Set1_LightHands_Name" rel_version="Feature_Artifacts_Set2">Aprimoramento para Saque Rápido no Forno de Gipsita</string>
+	<string key="CraftArtifact_Set1_LightLegs_Name" rel_version="Feature_Artifacts_Set2">Aprimoramento para Joelheiras de Koya no Forno de Gipsita</string>
 	<string key="CraftArtifact_Set1_LightFeet_Name">Aprimoramento para Faixas de Pés de Saltador no Forno de Gipsita</string>
 	<string key="CraftArtifact_Set1_1hLongsword_Name">Aprimoramento para A Açougueira no Forno de Gipsita</string>
 	<string key="CraftArtifact_Set1_1hThrowingAxe_Name">Aprimoramento para Francisa de Freya no Forno de Gipsita</string>
 	<string key="CraftArtifact_Set1_2hWarhammer_Name">Aprimoramento para Centelha de Mjölnir no Forno de Gipsita</string>
 	<string key="CraftArtifact_Set1_2hGreatAxe_Name">Aprimoramento para O Abismo no Forno de Gipsita</string>
-	<string key="CraftArtifact_Set1_2hBow_Name" rel_version="Feature_Artifacts_Set2">Boltcaster Upgrade at the Gypsum Kiln</string>
+	<string key="CraftArtifact_Set1_2hBow_Name" rel_version="Feature_Artifacts_Set2">Aprimoramento para Lança-dardos no Forno de Gipsita</string>
 	<string key="CraftArtifact_Set1_2hMusket_Name">Aprimoramento para O Mecânico no Forno de Gipsita</string>
-	<string key="CraftArtifact_Set1_1hRoundShield_Name" rel_version="Feature_Artifacts_Set2">Gladiator Upgrade at the Gypsum Kiln</string>
+	<string key="CraftArtifact_Set1_1hRoundShield_Name" rel_version="Feature_Artifacts_Set2">Aprimoramento para Gladiador no Forno de Gipsita</string>
 	<string key="CraftArtifact_Set1_1hKiteShield_Name">Aprimoramento para Michael no Forno de Gipsita</string>
 	<string key="CraftArtifact_Set1_1hTowerShield_Name">Aprimoramento para A Parede no Forno de Gipsita</string>
 	<string key="CraftArtifact_Set1_2hStaffFire_Name">Aprimoramento para Infernal no Forno de Gipsita</string>
-	<string key="CraftArtifact_Set1_2hStaffLife_Name" rel_version="Feature_Artifacts_Set2">Vengence Upgrade at the Gypsum Kiln</string>
+	<string key="CraftArtifact_Set1_2hStaffLife_Name" rel_version="Feature_Artifacts_Set2">Aprimoramento para Vingança no Forno de Gipsita</string>
 	<string key="CraftArtifact_Set1_2hSpear_Name">Aprimoramento para Picada de Escorpião no Forno de Gipsita</string>
-	<string key="CraftArtifact_Set1_1hRapier_Name">Aprimoramento para Lâmina de Domingo no Forno de Gipsita</string>
-	<string key="CraftArtifact_Set1_1hGauntletIce_Name" rel_version="Feature_Artifacts_Set2">Deep Freeze Upgrade at the Gypsum Kiln</string>
+	<string key="CraftArtifact_Set1_1hRapier_Name">Aprimoramento para Golpe Final no Forno de Gipsita</string>
+	<string key="CraftArtifact_Set1_1hGauntletIce_Name" rel_version="Feature_Artifacts_Set2">Aprimoramento para Congelamento Profundo no Forno de Gipsita</string>
 	<string key="CraftArtifact_Set1_1hGauntletVoid_Name">Aprimoramento para Tira-vidas no Forno de Gipsita</string>
 	<string key="CraftArtifact_Set1_2hBlunderbuss_Name">Aprimoramento para Pestilência no Forno de Gipsita</string>
 	<string key="CraftArtifact_Set1_2hGreatSword_Name">Aprimoramento para Serenidade no Forno de Gipsita</string>
@@ -2028,8 +2025,8 @@
 	<string key="CraftArtifact_Set1_Earring1_Name">Aprimoramento para Sede Infinita no Forno de Gipsita</string>
 	<string key="CraftArtifact_Set1_Ring1_Name">Aprimoramento para Sugador de Sangue no Forno de Gipsita</string>
 	<string key="CraftArtifact_Set1_Amulet1_Name">Aprimoramento para Cronômetro Perdido no Forno de Gipsita</string>
-	<string key="CraftArtifact_Set1_Earring2_Name" rel_version="Feature_Artifacts_Set2">Ocean's Peace Upgrade at the Gypsum Kiln</string>
-	<string key="CraftArtifact_Set1_Ring2_Name" rel_version="Feature_Artifacts_Set2">Mastermind Upgrade at the Gypsum Kiln</string>
+	<string key="CraftArtifact_Set1_Earring2_Name" rel_version="Feature_Artifacts_Set2">Aprimoramento para Paz do Oceano no Forno de Gipsita</string>
+	<string key="CraftArtifact_Set1_Ring2_Name" rel_version="Feature_Artifacts_Set2">Aprimoramento para Mentor no Forno de Gipsita</string>
 	<string key="CraftArtifact_Set1_Amulet2_Name">Aprimoramento para Ankh no Forno de Gipsita</string>
 </resources>
 

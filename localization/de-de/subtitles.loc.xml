@@ -246,7 +246,7 @@
 	<string key="Flamekeeper_CombatBark_12" speaker="Hadish Azar" comment="Evil_Knight_Flamekeeper.slice" rel_version="Season_1_Perm">Erhebe dich, flammende Barriere!</string>
 	<string key="Flamekeeper_CombatBark_13" speaker="Hadish Azar" comment="Evil_Knight_Flamekeeper.slice" rel_version="Season_1_Perm">Entfache meinen Atem! Entzünde meine Seele!</string>
 	<string key="Flamekeeper_CombatBark_14" speaker="Hadish Azar" comment="Evil_Knight_Flamekeeper.slice" rel_version="Season_1_Perm">Das reinigende Feuer … empfängt mich …</string>
-	<string key="BrotherUmberto_Intro_Human" speaker="@UmbertoHuman_SubName" comment="brother_umberto_human.slice" rel_version="Quest_MSQ2_Brightwood">Ich werde weder Buße tun noch versagen! Du wirst deine Seele verlieren! Und ich werde auch nicht sterben. Du wirst deine Seele verlieren!</string>
+	<string key="BrotherUmberto_Intro_Human" speaker="@UmbertoHuman_SubName" comment="brother_umberto_human.slice" rel_version="Quest_MSQ2_Brightwood">Ich werde weder Buße tun noch versagen! Du wirst deine Seele verlieren!</string>
 	<string key="BrotherUmberto_Death_Human" speaker="@UmbertoHuman_SubName" comment="brother_umberto_human.slice" rel_version="Quest_MSQ2_Brightwood">Die Rechtschaffenen kommen immer wieder!</string>
 	<string key="BrotherUmberto_Intro_Dark_Alt" speaker="@UmbertoSpirit_SubName" comment="brother_umberto.slice" rel_version="Quest_MSQ2_Brightwood">Meine Seele wird nicht so leicht bezwungen …</string>
 	<string key="BrotherUmberto_Death_Dark" speaker="@UmbertoSpirit_SubName" comment="io_caerdun_99b_msq_10_finalseal.slice" rel_version="Quest_MSQ2_Brightwood">Ich bin frei …</string>
@@ -273,26 +273,39 @@
 	<string key="VOX_Combat_1" speaker="Medusa" comment="ai_fl_medusa.slice" rel_version="Territory_FirstLight">Deine Verteidigung wird dich nicht retten.</string>
 	<string key="VOX_Combat_2" speaker="Medusa" comment="ai_fl_medusa.slice" rel_version="Territory_FirstLight">Diese Schönheit wird unsterblich sein.</string>
 	<string key="VOX_Combat_3" speaker="Medusa" comment="ai_fl_medusa.slice" rel_version="Territory_FirstLight">Die Ahnengötter werden wiederauferstehen!</string>
-	<string key="AncientIceGuardian_Intro" speaker="Ancient Ice Guardian" comment="Ancient_Ice_Guardian_Trial_Boss.slice" rel_version="Season_4_Perm">You are forbidden here, mortal!</string>
-	<string key="AncientIceGuardian_Death" speaker="Ancient Ice Guardian" comment="Ancient_Ice_Guardian_Trial_Boss.slice" rel_version="Season_4_Perm">No, I have failed the great ones! May the Curse of the Forge... be upon you...</string>
-	<string key="AncientIceGuardian_Transition_01" speaker="Ancient Ice Guardian" comment="Ancient_Ice_Guardian_Trial_Boss.slice" rel_version="Season_4_Perm">You are not ready for what comes next!</string>
-	<string key="AncientIceGuardian_Transition_02" speaker="Ancient Ice Guardian" comment="Ancient_Ice_Guardian_Trial_Boss.slice" rel_version="Season_4_Perm">My full power... Unleashed!</string>
-	<string key="AncientIceGuardian_Entomb" speaker="Ancient Ice Guardian" comment="Ancient_Ice_Guardian_Trial_Boss.slice" rel_version="Season_4_Perm">You cannot run.</string>
-	<string key="AncientIceGuardian_IcicleSmash" speaker="Ancient Ice Guardian" comment="Ancient_Ice_Guardian_Trial_Boss.slice" rel_version="Season_4_Perm">Be crushed upon the Anvil!</string>
-	<string key="AncientIceGuardian_DeepFreeze" speaker="Ancient Ice Guardian" comment="Ancient_Ice_Guardian_Trial_Boss.slice" rel_version="Season_4_Perm">I will freeze your magic trickery.</string>
-	<string key="AncientIceGuardian_FreezingGust" speaker="Ancient Ice Guardian" comment="Ancient_Ice_Guardian_Trial_Boss.slice" rel_version="Season_4_Perm">Bathe in cold fire!</string>
-	<string key="AncientIceGuardian_RunePuzzle_SetRune" speaker="Ancient Ice Guardian" comment="Ancient_Ice_Guardian_Trial_Boss.slice" rel_version="Season_4_Perm">I call on the power of the Runes!</string>
-	<string key="AncientIceGuardian_RunePuzzle_Success" speaker="Ancient Ice Guardian" comment="Ancient_Ice_Guardian_Trial_Boss.slice" rel_version="Season_4_Perm">Unmöglich! How can a mere mortal master the Runes?</string>
-	<string key="AncientIceGuardian_RunePuzzle_Failure" speaker="Ancient Ice Guardian" comment="Ancient_Ice_Guardian_Trial_Boss.slice" rel_version="Season_4_Perm">Ha! Your failure was expected.</string>
-	<string key="Runeforge_Fodder_CombatBark_01" speaker="Forge Guardians" comment="AncientGuardian_Spearman_IceVariant_Solo.slice" rel_version="Season_4_Perm">Arise, Forge warriors! To battle!</string>
-	<string key="Runeforge_Fodder_CombatBark_02" speaker="Forge Guardians" comment="AncientGuardian_Spearman_IceVariant_Solo.slice" rel_version="Season_4_Perm">Strike down the invader!</string>
-	<string key="Runeforge_Fodder_CombatBark_03" speaker="Forge Guardians" comment="AncientGuardian_Spearman_IceVariant_Solo.slice" rel_version="Season_4_Perm">Shatter under our might!</string>
-	<string key="Daichi_Bark_Death" speaker="Daichi" comment="Season_04_Daichi.slice" rel_version="Season_4_Perm">Ich hab’s versucht. Ja. You're someone I can follow. Wir treffen uns bei eurem Silberkrähenlager.</string>
+	<string key="AncientIceGuardian_Intro" speaker="Ancient Ice Guardian" comment="Ancient_Ice_Guardian_Trial_Boss.slice" rel_version="Season_4_Perm">Sterbliche sind hier unerwünscht!</string>
+	<string key="AncientIceGuardian_Death" speaker="Ancient Ice Guardian" comment="Ancient_Ice_Guardian_Trial_Boss.slice" rel_version="Season_4_Perm">Nein, ich habe die Herrn enttäuscht! Möge der Fluch der Schmiede … über dich kommen …</string>
+	<string key="AncientIceGuardian_Transition_01" speaker="Ancient Ice Guardian" comment="Ancient_Ice_Guardian_Trial_Boss.slice" rel_version="Season_4_Perm">Du bist nicht bereit für das, was als Nächstes kommt!</string>
+	<string key="AncientIceGuardian_Transition_02" speaker="Ancient Ice Guardian" comment="Ancient_Ice_Guardian_Trial_Boss.slice" rel_version="Season_4_Perm">Meine volle Macht … Entfesselt!</string>
+	<string key="AncientIceGuardian_Entomb" speaker="Ancient Ice Guardian" comment="Ancient_Ice_Guardian_Trial_Boss.slice" rel_version="Season_4_Perm">Du kommst nicht davon.</string>
+	<string key="AncientIceGuardian_IcicleSmash" speaker="Ancient Ice Guardian" comment="Ancient_Ice_Guardian_Trial_Boss.slice" rel_version="Season_4_Perm">Soll dich der Amboss zermalmen!</string>
+	<string key="AncientIceGuardian_DeepFreeze" speaker="Ancient Ice Guardian" comment="Ancient_Ice_Guardian_Trial_Boss.slice" rel_version="Season_4_Perm">Ich friere deine Zaubertricks ein.</string>
+	<string key="AncientIceGuardian_FreezingGust" speaker="Ancient Ice Guardian" comment="Ancient_Ice_Guardian_Trial_Boss.slice" rel_version="Season_4_Perm">Tauche ins kalte Feuer ein!</string>
+	<string key="AncientIceGuardian_RunePuzzle_SetRune" speaker="Ancient Ice Guardian" comment="Ancient_Ice_Guardian_Trial_Boss.slice" rel_version="Season_4_Perm">Ich beschwöre die Macht der Runen!</string>
+	<string key="AncientIceGuardian_RunePuzzle_Success" speaker="Ancient Ice Guardian" comment="Ancient_Ice_Guardian_Trial_Boss.slice" rel_version="Season_4_Perm">Unmöglich! Wie können bloße Sterbliche die Runen beherrschen?</string>
+	<string key="AncientIceGuardian_RunePuzzle_Failure" speaker="Ancient Ice Guardian" comment="Ancient_Ice_Guardian_Trial_Boss.slice" rel_version="Season_4_Perm">Ha! Dein Versagen kommt wie erwartet.</string>
+	<string key="Runeforge_Fodder_CombatBark_01" speaker="Forge Guardians" comment="AncientGuardian_Spearman_IceVariant_Solo.slice" rel_version="Season_4_Perm">Erhebt euch, Krieger der Schmiede! Auf in den Kampf!</string>
+	<string key="Runeforge_Fodder_CombatBark_02" speaker="Forge Guardians" comment="AncientGuardian_Spearman_IceVariant_Solo.slice" rel_version="Season_4_Perm">Streckt den Eindringling nieder!</string>
+	<string key="Runeforge_Fodder_CombatBark_03" speaker="Forge Guardians" comment="AncientGuardian_Spearman_IceVariant_Solo.slice" rel_version="Season_4_Perm">Unsere Macht zerschmettert dich!</string>
+	<string key="Daichi_Bark_Death" speaker="Daichi" comment="Season_04_Daichi.slice" rel_version="Season_4_Perm">Ich hab's versucht. Wir treffen uns bei eurem Silberkrähenlager.</string>
 	<string key="Daichi_Bark_Flameblossom" speaker="Daichi" comment="Season_04_Daichi.slice" rel_version="Season_4_Perm">Das Lied des Windes.</string>
 	<string key="Daichi_Bark_Kanjibomb" speaker="Daichi" comment="Season_04_Daichi.slice" rel_version="Season_4_Perm">Der Frosch springt ins Feuer.</string>
 	<string key="Daichi_Bark_Phase1to2" speaker="Daichi" comment="Season_04_Daichi.slice" rel_version="Season_4_Perm">Du kannst kämpfen. Mal sehen, was du denkst.</string>
 	<string key="Daichi_Bark_Phase2to3" speaker="Daichi" comment="Season_04_Daichi.slice" rel_version="Season_4_Perm">Ahhaha! Das schaffst du schon. Stell dich jetzt ins Feuer!</string>
-	<string key="Daichi_Bark_Stagger" speaker="Daichi" comment="Season_04_Daichi.slice" rel_version="Season_4_Perm">Das ist gut. Du vergeudest keine Energie.</string>
-	<string key="Daichi_Bark_Victory" speaker="Daichi" comment="Season_04_Daichi.slice" rel_version="Season_4_Perm">It seams you Silver Crows are just talk, after all.</string>
+	<string key="Daichi_Bark_Stagger" speaker="Daichi" comment="Season_04_Daichi.slice" rel_version="Season_4_Perm">Gut. Du vergeudest keine Energie.</string>
+	<string key="Daichi_Bark_Victory" speaker="Daichi" comment="Season_04_Daichi.slice" rel_version="Season_4_Perm">Ihr Silberkrähen redet doch nur und tut gar nichts.</string>
+	<string key="Mordred_Bark_Intro" speaker="Mordred" comment="Season_04_Mordred_AI.slice" rel_version="Season_4_Perm">Ah ha, ja!</string>
+	<string key="Mordred_Bark_Phase1to2" speaker="Mordred" comment="Season_04_Mordred_AI.slice" rel_version="Season_4_Perm">Der Zorn der Götter. Brodelt in mir!</string>
+	<string key="Mordred_Bark_Phase2to3" speaker="Mordred" comment="Season_04_Mordred_AI.slice" rel_version="Season_4_Perm">Bezeugt die wahre Macht des Winters!</string>
+	<string key="Mordred_Bark_Death" speaker="Mordred" comment="Season_04_Mordred_AI.slice" rel_version="Season_4_Perm">Ah … ah … nein. NEIN!</string>
+	<string key="Mordred_Bark_Victory" speaker="Mordred" comment="Season_04_Mordred_AI.slice" rel_version="Season_4_Perm">Du hast deinen Platz gefunden. Zu meinen Füßen.</string>
+	<string key="Mordred_Bark_ManiFistAtion" speaker="Mordred" comment="Season_04_Mordred_AI.slice" rel_version="Season_4_Perm">Spüre die Macht des Frosts!</string>
+	<string key="Mordred_Bark_ArchimideanTrap" speaker="Mordred" comment="Season_04_Mordred_AI.slice" rel_version="Season_4_Perm">Wahre Macht! Wahre Macht in meiner Hand!</string>
+	<string key="EvilKnightLoth_Intro" speaker="Commander Loth" comment="evil_knight_heavy_commanderloth_boss.slice" rel_version="Season_4_Perm">Ich werde Shailyn vernichten. Aber erst bist du dran.</string>
+	<string key="EvilKnightLoth_Death" speaker="Commander Loth" comment="evil_knight_heavy_commanderloth_boss.slice" rel_version="Season_4_Perm">Nein … Du stürzt Aeternum ins Unglück!</string>
+	<string key="EvilKnightLoth_Victory" speaker="Commander Loth" comment="evil_knight_heavy_commanderloth_boss.slice" rel_version="Season_4_Perm">Richte Shailyn aus, ihr erbärmlicher Plan ist gescheitert.</string>
+	<string key="LNY_tribute_intro" speaker="Dynasty Spearman" comment="LNY_Corrupted_Dynasty_Spearman_Fodder.slice" rel_version="Event_Lunar_NewYear2024_Perm">Nimm diesen Segen jetzt an!</string>
+	<string key="LNY_tribute_intro_maiden" speaker="Ying" comment="LNY_Corrupted_Dynasty_Maiden_Boss.slice" rel_version="Event_Lunar_NewYear2024_Perm">Der Segen und dein Leben gehören uns!</string>
+	<string key="LNY_tribute_victory_maiden" speaker="Ying" comment="LNY_Corrupted_Dynasty_Maiden_Boss.slice" rel_version="Event_Lunar_NewYear2024_Perm">Nein! Sind wir wirklich … Unwürdig?</string>
 </resources>
 

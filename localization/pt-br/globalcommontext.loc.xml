@@ -217,7 +217,7 @@
 	<string key="ui_azoth_desc">Azoth pode ser usado para fazer viagens rápidas entre santuários e assentamentos e para confeccionar itens mais poderosos.\n\nEle é obtido principalmente por meio da conclusão de Jornadas e ao fechar Incursões de Corrupção.\n\n&lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#aaaaaa"&gt;Origem:&lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#FFFFFF"&gt; Incursões de Corrupção, Jornadas&lt;/font&gt;</string>
 	<string key="ui_cards">Cartas</string>
 	<string key="ui_leave_arena_coming_soon">Recurso de Sair da Arena Em Breve</string>
-	<string key="ui_equipfishingpole">[{value}] para Pescar</string>
+	<string key="ui_equipfishingpole">{$player.fishing_activate$} para Pescar</string>
 	<string key="ui_castfishingline">: Lançar linha de pesca</string>
 	<string key="ui_fishing_hotspot_nearby">Encontre o local de pesca na área próxima!</string>
 	<string key="ui_changekey">Alterar Tecla</string>
@@ -538,7 +538,7 @@
 	<string key="ui_max">MÁXIMO!!!</string>
 	<string key="ui_microinteractions">Microinterações</string>
 	<string key="ui_microphone">Microfone</string>
-	<string key="ui_tooltip_actions">Opções</string>
+	<string key="ui_tooltip_actions">Ações</string>
 	<string key="ui_microphoneselection">Seleção de Microfone</string>
 	<string key="ui_microphonetest">Teste de Microfone</string>
 	<string key="ui_microphonevolume">Volume do Microfone</string>
@@ -758,7 +758,7 @@
 	<string key="ui_respawn_home_location">Casa de {territoryName}</string>
 	<string key="ui_respawn_home_location_unpaid">{territoryName}: Pague a taxa de manutenção do imóvel para renascer na sua casa.</string>
 	<string key="ui_respawn">Renascer</string>
-	<string key="ui_return_to_aeternum">Retorno a Aeternum</string>
+	<string key="ui_return_to_aeternum">Voltar a Aeternum</string>
 	<string key="ui_respawnpoints">Pontos de renascimento</string>
 	<string key="ui_respawnpoint">Ponto de Renascimento:</string>
 	<string key="ui_outofrange">Fora de Alcance</string>
@@ -974,6 +974,22 @@
 	<string key="ui_world_select_hide_options">Ocultar mais opções</string>
 	<string key="ui_world_select_view_worlds">Exibir Mundos</string>
 	<string key="ui_world_select_refresh">Atualizar</string>
+	<string key="ui_world_free_transfer">Transferência Gratuita</string>
+	<string key="ui_world_leave_world">Sair do Mundo</string>
+	<string key="ui_world_leave_world_confirm_message_start">Sair de um mundo afetará a experiência do seu personagem:</string>
+	<string key="ui_world_leave_world_confirm_message_friends_list">Sua Lista de Amigos não será transferida</string>
+	<string key="ui_world_leave_world_confirm_message_company_membership">Sua associação a uma Companhia e os fundos na Tesouraria não serão transferidos</string>
+	<string key="ui_world_leave_world_confirm_message_town_projects">Suas missões de Projeto de Vila não serão transferidas</string>
+	<string key="ui_world_leave_world_confirm_message_faction_missions">Suas missões de Facção não serão transferidas</string>
+	<string key="ui_world_leave_world_confirm_message_trading_post">Seus contratos de Entreposto Comercial não serão transferidos e serão cancelados</string>
+	<string key="ui_world_leave_world_confirm_message_season_pass">O progresso e as recompensas do seu Passe da Temporada serão transferidos</string>
+	<string key="ui_world_leave_world_confirm_message_houses">Suas Casas serão transferidas</string>
+	<string key="ui_world_leave_world_confirm_message_end">Deseja mesmo sair de {worldName}?\n\nDepois de deixar este mundo, você não poderá retornar até que ele seja desbloqueado e só poderá selecionar um mundo nesta região.</string>
+	<string key="ui_world_leave_world_failed_header">Transferência de Personagem Indisponível</string>
+	<string key="ui_world_leave_world_failed_message">A Transferência de Personagem Gratuita está indisponível no momento.</string>
+	<string key="ui_world_free_transfer_tooltip_transfer_unavailable">A Transferência de Personagem está indisponível no momento.</string>
+	<string key="ui_world_free_transfer_tooltip_is_latent">O personagem já está definido para transferência</string>
+	<string key="ui_world_free_transfer_tooltip_cooldown">Transferência de Personagem\nDisponível depois de: {time}</string>
 	<string key="ui_resolution_popup_title">Resolução</string>
 	<string key="ui_resolution_popup_title_message">Manter esta resolução?</string>
 	<string key="ui_monitor_popup_title">Monitor</string>
@@ -1054,12 +1070,14 @@
 	<string key="ui_killfeed_tradeskill_val">+{amount} de</string>
 	<string key="ui_navmenu_friends">AMIGOS</string>
 	<string key="ui_navmenu_modes">Modos</string>
+	<string key="ui_navmenu_activities" rel_version="Feature_PUG_Finder">Atividades</string>
 	<string key="ui_navmenu_guild">Companhia</string>
 	<string key="ui_navmenu_map">Mapa</string>
 	<string key="ui_navmenu_journal">Diário</string>
 	<string key="ui_navmenu_settings">Configurações</string>
 	<string key="ui_navmenu_exit">SAIR/OPÇÕES</string>
 	<string key="ui_navmenu_game_menu">Menu do Jogo</string>
+	<string key="ui_navmenu_social_menu">Menu Social</string>
 	<string key="ui_navmenu_benchmark">DESEMPENHO</string>
 	<string key="ui_navmenu_store">Loja</string>
 	<string key="ui_navmenu_quit">Sair</string>
@@ -1109,7 +1127,7 @@
 	<string key="ui_giveup">Desistir</string>
 	<string key="ui_use_sacrifice">Usar Sacrifício</string>
 	<string key="ui_claimmarker_back">VOLTAR</string>
-	<string key="ui_available_points">Ponto(s) Disponível(is)</string>
+	<string key="ui_available_points">Pontos Disponíveis</string>
 	<string key="ui_whisper_to_someone">{playerName} PARA {recipient}</string>
 	<string key="ui_focus">Foco</string>
 	<string key="ui_points_to_level">{points} até o próximo nível</string>
@@ -1125,6 +1143,7 @@
 	<string key="ui_constitution">Constituição</string>
 	<string key="ui_respec">Realocar</string>
 	<string key="ui_respec_attributes">Reembolsar todos os Pontos de Atributo</string>
+	<string key="ui_cannot_respec_attributes_during_combat">Não é possível realocar Atributos durante o combate</string>
 	<string key="ui_respec_mastery">Reembolsar todos os Pontos de Maestria</string>
 	<string key="ui_base">Base</string>
 	<string key="ui_health">Saúde</string>
@@ -1529,7 +1548,7 @@
 	<string key="ui_deathrecap_new_personal_best">Novo Recorde Pessoal!</string>
 	<string key="ui_deathrecap_respawn_ready">Pronto</string>
 	<string key="ui_deathrecap_respawn_overloaded">O lugar está cheio demais para um renascimento.</string>
-	<string key="ui_deathrecap_respawn_out_of_range">Você deve estar dentro de um raio de &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{distance}&lt;/font&gt; do acampamento para renascer.</string>
+	<string key="ui_deathrecap_respawn_out_of_range">Deve estar a pelo menos &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{distance}&lt;/font&gt; do acampamento.</string>
 	<string key="ui_deathrecap_respawn_out_of_range_with_cooldown">Pode renascer em &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{time}&lt;/font&gt; dentro de um raio de &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{distance}&lt;/font&gt; do acampamento.</string>
 	<string key="ui_deathrecap_survived_for">Sobreviveu Por</string>
 	<string key="ui_deathrecap_respawn_points">Pontos de Renascimento</string>
@@ -1539,7 +1558,7 @@
 	<string key="ui_claimmarker">Ponto de Conquista</string>
 	<string key="ui_claimstreak">Dia {number}</string>
 	<string key="ui_random_location">Local Aleatório</string>
-	<string key="ui_scroll_hint">(Rolar) Zoom</string>
+	<string key="ui_scroll_hint">Zoom</string>
 	<string key="ui_map_rotate_camera">(Segurar) Rotacionar Câmera</string>
 	<string key="ui_zoom_camera">&lt;img src="lyshineui/images/icons/misc/Icon_RightMouseButton" xPadding="0" scale="2.2" yOffset="8"&gt;&lt;/img&gt; + &lt;img src="lyshineui/images/icons/misc/Icon_MiddleMouseButton" xPadding="1" scale="2.3" yOffset="9"&gt;&lt;/img&gt; (Segurar) Zoom</string>
 	<string key="ui_global_storage_description">Outros jogadores não podem pegar nem ver os itens que você colocar aqui. Você deve retornar a este posto avançado para recuperar os itens.</string>
@@ -1957,7 +1976,7 @@
 	<string key="ui_chat_message_fade_delay">Atraso no Des. da Mens.</string>
 	<string key="ui_chat_message_fade_delay_options">Atraso no Desaparecimento da Mensagem do Chat</string>
 	<string key="ui_chat_message_fade_delay_tooltip">Quanto tempo antes das mensagens começarem a desaparecer durante o jogo.</string>
-	<string key="ui_chat_message_background_opacity">Plano de Fundo da Mens.</string>
+	<string key="ui_chat_message_background_opacity">Plano de Fundo da Mensagem</string>
 	<string key="ui_chat_message_background_opacity_options">Plano de Fundo da Mensagem do Chat</string>
 	<string key="ui_chat_message_background_opacity_tooltip">Opacidade de um fundo escuro para colocar atrás das mensagens de bate-papo para aumentar o contraste. Defina como 0 para desativar.</string>
 	<string key="ui_chat_message_gameplay_opacity">Opacidade da Jogabilidade</string>
@@ -1998,7 +2017,7 @@
 	<string key="ui_vitals_cooldown_tooltip">Reduz o período que você precisa aguardar para usar uma habilidade novamente.</string>
 	<string key="ui_vitals_food_tooltip" comment="Use {currentValue} and {maxValue} for the vital's numbers">Comida\n{currentValue}/{maxValue}\n\nComer aumenta a frequência com que sua saúde se regenera. Se sua comida estiver baixa, a regeneração pode até parar completamente!\n\nVocê não perderá saúde devido à fome. Ela apenas afeta a taxa de regeneração.</string>
 	<string key="ui_vitals_drink_tooltip" comment="Use {currentValue} and {maxValue} for the vital's numbers">Bebida\n{currentValue}/{maxValue}\n\nManter-se hidratado aumenta a frequência com que seu vigor se regenera. Manter isso alto maximiza o seu desempenho.\n\nVocê não perderá vigor devido à sede. Ela apenas afeta a taxa de regeneração.</string>
-	<string key="ui_vitals">Elem. Essenciais</string>
+	<string key="ui_vitals">Elementos Essenciais</string>
 	<string key="ui_vitals_value">&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{value}&lt;/font&gt;/{max}</string>
 	<string key="ui_equipped_weapons">Armas Equipadas</string>
 	<string key="ui_ability1">Habilidade de Arma #1</string>
@@ -2175,7 +2194,7 @@
 	<string key="ui_greataxe_tree2">Martelador</string>
 	<string key="ui_juggernaut">Demolidor</string>
 	<string key="ui_crowdcrusher">Arrasa-Multidões</string>
-	<string key="ui_warhammer">Mart. de Guerra</string>
+	<string key="ui_warhammer">Martelo de Guerra</string>
 	<string key="ui_warhammer_mastery">Maestria de Martelo de Guerra</string>
 	<string key="ui_bow">Arco</string>
 	<string key="ui_bow_mastery">Maestria de Arco</string>
@@ -2189,7 +2208,7 @@
 	<string key="ui_blunderbuss_tree2" rel_version="Weapon_Blunderbuss">Caos</string>
 	<string key="ui_firemagic">Magia Flamejante</string>
 	<string key="ui_firemagic_mastery">Maestria de Bastão Flamejante</string>
-	<string key="ui_firestaff">Bast. Flamejante</string>
+	<string key="ui_firestaff">Bastão Flamejante</string>
 	<string key="ui_lifemagic">Magia de Vida</string>
 	<string key="ui_lifemagic_mastery">Maestria de Bastão Vital</string>
 	<string key="ui_lifestaff">Bastão Vital</string>

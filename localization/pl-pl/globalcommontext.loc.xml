@@ -216,8 +216,8 @@
 	<string key="ui_azoth_currency">Azoth</string>
 	<string key="ui_azoth_desc">Azoth służy do szybkiej podróży pomiędzy kapliczkami i osadami oraz do wytwarzania potężniejszych przedmiotów.\n\nZdobywaj go przez wykonywanie zadań i zamykanie wyłomów skażenia.\n\n&lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#aaaaaa"&gt;Źródło:&lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#FFFFFF"&gt;Wyłomy skażenia, zadania&lt;/font&gt;</string>
 	<string key="ui_cards">Karty</string>
-	<string key="ui_leave_arena_coming_soon">Funkcja "opuszczanie areny" zostanie wkótce dodana</string>
-	<string key="ui_equipfishingpole">[{value}], aby wędkować</string>
+	<string key="ui_leave_arena_coming_soon">Funkcja "opuszczanie areny" zostanie wkrótce dodana</string>
+	<string key="ui_equipfishingpole">{$player.fishing_activate$}, aby wędkować</string>
 	<string key="ui_castfishingline">: Zarzuć żyłkę</string>
 	<string key="ui_fishing_hotspot_nearby">Znajdź łowisko w okolicy!</string>
 	<string key="ui_changekey">Zmień klawisz</string>
@@ -392,8 +392,8 @@
 	<string key="ui_territory_upgrades">Ulepszenia terytorium {upgradeCount}</string>
 	<string key="ui_territory_locked_title">TERYTORIUM ZABLOKOWANE</string>
 	<string key="ui_expansion2023_title">Powstanie wściekłej ziemi</string>
-	<string key="ui_territory_expansion2023_owned_locked_desc">Niebiańska Dzicz jest pełna zabójczych zarodników, które zabiją cię w mgnieniu oka. Jeśli nie zawrócisz, zginiesz marnie.\n Musisz być na 60. poziomie i ukończyć &lt;font color="#FFD500"&gt;"Inwazję Artemidy"&lt;/font&gt; {location}, by móc bezpiecznie wejść na teren Dziczy Elizejskiej.</string>
-	<string key="ui_territory_expansion2023_not_owned_locked_desc">Niebiańska Dzicz jest pełna zabójczych zarodników, które zabiją cię w mgnieniu oka. Jeśli nie zawrócisz, zginiesz marnie.\n Musisz posiadać "Powstanie wściekłej ziemi", być na 60. poziomie i ukończyć &lt;font color="#FFD500"&gt;"Inwazję Artemidy"&lt;/font&gt; {location}, by móc bezpiecznie wejść na teren Dziczy Elizejskiej.</string>
+	<string key="ui_territory_expansion2023_owned_locked_desc">Dzicz Elizejska jest pełna zabójczych zarodników, które zabiją cię w mgnieniu oka. Jeśli nie zawrócisz, zginiesz marnie.\n Musisz być na 60. poziomie i ukończyć &lt;font color="#FFD500"&gt;"Inwazję Artemidy"&lt;/font&gt; {location}, by móc bezpiecznie wejść na teren Dziczy Elizejskiej.</string>
+	<string key="ui_territory_expansion2023_not_owned_locked_desc">Dzicz Elizejska jest pełna zabójczych zarodników, które zabiją cię w mgnieniu oka. Jeśli nie zawrócisz, zginiesz marnie.\n Musisz posiadać "Powstanie wściekłej ziemi", być na 60. poziomie i ukończyć &lt;font color="#FFD500"&gt;"Inwazję Artemidy"&lt;/font&gt; {location}, by móc bezpiecznie wejść na teren Dziczy Elizejskiej.</string>
 	<string key="ui_territory_expansion2023_quest_location_faction1">z nowo utworzonej osady w Rajskim Gaju</string>
 	<string key="ui_territory_expansion2023_quest_location_faction2">z posterunku Górna Grań w Strzaskanej Górze</string>
 	<string key="ui_territory_expansion2023_quest_location_faction3">z osady Daleka Przystań w Cuchnącej Wodzie</string>
@@ -538,7 +538,7 @@
 	<string key="ui_max">MAKS!!!</string>
 	<string key="ui_microinteractions">Mikrodziałania</string>
 	<string key="ui_microphone">Mikrofon</string>
-	<string key="ui_tooltip_actions">Opcje</string>
+	<string key="ui_tooltip_actions">Działania</string>
 	<string key="ui_microphoneselection">Wybór mikrofonu</string>
 	<string key="ui_microphonetest">Próba mikrofonu</string>
 	<string key="ui_microphonevolume">Głośność mikrofonu</string>
@@ -974,6 +974,22 @@
 	<string key="ui_world_select_hide_options">Ukryj więcej opcji</string>
 	<string key="ui_world_select_view_worlds">Zobacz światy</string>
 	<string key="ui_world_select_refresh">Odśwież</string>
+	<string key="ui_world_free_transfer">Darmowe przeniesienie</string>
+	<string key="ui_world_leave_world">Opuść świat</string>
+	<string key="ui_world_leave_world_confirm_message_start">Opuszczenie świata wpłynie na twoją postać:</string>
+	<string key="ui_world_leave_world_confirm_message_friends_list">Twoja lista znajomych nie zostanie przeniesiona</string>
+	<string key="ui_world_leave_world_confirm_message_company_membership">Twoje członkostwo w kompanii i środki ze skarbca nie zostaną przeniesione</string>
+	<string key="ui_world_leave_world_confirm_message_town_projects">Twoje misje projektu miasteczka nie zostaną przeniesione</string>
+	<string key="ui_world_leave_world_confirm_message_faction_missions">Twoje misje frakcyjne nie zostaną przeniesione</string>
+	<string key="ui_world_leave_world_confirm_message_trading_post">Twoje oferty w faktorii nie zostaną przeniesione i zostaną anulowane</string>
+	<string key="ui_world_leave_world_confirm_message_season_pass">Twój postęp przepustki sezonowej i nagrody zostaną przeniesione</string>
+	<string key="ui_world_leave_world_confirm_message_houses">Twoje domy zostaną przeniesione</string>
+	<string key="ui_world_leave_world_confirm_message_end">Czy na pewno chcesz opuścić świat {worldName}?\n\nGdy opuścisz świat, możesz nie być w stanie do niego powrócić, dopóki nie zostanie odblokowany. Jedyną możliwością będzie wybór innego świata w tym regionie.</string>
+	<string key="ui_world_leave_world_failed_header">Przenoszenie postaci niedostępne</string>
+	<string key="ui_world_leave_world_failed_message">Darmowe przeniesienie postaci jest chwilowo niedostępne.</string>
+	<string key="ui_world_free_transfer_tooltip_transfer_unavailable">Przenoszenie postaci jest aktualnie niedostępne.</string>
+	<string key="ui_world_free_transfer_tooltip_is_latent">Ta postać została już wybrana do przeniesienia</string>
+	<string key="ui_world_free_transfer_tooltip_cooldown">Przenoszenie postaci\nDostępne za: {time}</string>
 	<string key="ui_resolution_popup_title">Rozdzielczość</string>
 	<string key="ui_resolution_popup_title_message">Zachować tę rozdzielczość?</string>
 	<string key="ui_monitor_popup_title">Monitor</string>
@@ -1054,12 +1070,14 @@
 	<string key="ui_killfeed_tradeskill_val">+{amount}</string>
 	<string key="ui_navmenu_friends">ZNAJOMI</string>
 	<string key="ui_navmenu_modes">Tryby</string>
+	<string key="ui_navmenu_activities" rel_version="Feature_PUG_Finder">Aktywności</string>
 	<string key="ui_navmenu_guild">Kompania</string>
 	<string key="ui_navmenu_map">Mapa</string>
 	<string key="ui_navmenu_journal">Dziennik</string>
 	<string key="ui_navmenu_settings">Ustawienia</string>
 	<string key="ui_navmenu_exit">WYJŚCIE / OPCJE</string>
 	<string key="ui_navmenu_game_menu">Menu</string>
+	<string key="ui_navmenu_social_menu">Menu funkcji społeczności</string>
 	<string key="ui_navmenu_benchmark">BENCHMARK</string>
 	<string key="ui_navmenu_store">Sklep</string>
 	<string key="ui_navmenu_quit">Wyjdź</string>
@@ -1125,6 +1143,7 @@
 	<string key="ui_constitution">Kondycja</string>
 	<string key="ui_respec">Rekonfig.</string>
 	<string key="ui_respec_attributes">Resetuj wszystkie punkty cech</string>
+	<string key="ui_cannot_respec_attributes_during_combat">Nie można przeprowadzić rekonfiguracji cech podczas walki</string>
 	<string key="ui_respec_mastery">Resetuj wszystkie punkty biegłości</string>
 	<string key="ui_base">Podstawa</string>
 	<string key="ui_health">Zdrowie</string>
@@ -1529,7 +1548,7 @@
 	<string key="ui_deathrecap_new_personal_best">Nowy rekord życiowy!</string>
 	<string key="ui_deathrecap_respawn_ready">Gotowy</string>
 	<string key="ui_deathrecap_respawn_overloaded">To miejsce jest zbyt zatłoczone, by się w nim odrodzić.</string>
-	<string key="ui_deathrecap_respawn_out_of_range">Musisz znajdować się w odległości nie większej niż &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{distance}&lt;/font&gt; od obozu, by móc się odrodzić.</string>
+	<string key="ui_deathrecap_respawn_out_of_range">Musisz być nie więcej niż &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{distance}&lt;/font&gt; od obozu, by móc się odrodzić.</string>
 	<string key="ui_deathrecap_respawn_out_of_range_with_cooldown">Odrodzenie dostępne za &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{time}&lt;/font&gt; w odległości nie większej niż &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{distance}&lt;/font&gt; od obozu.</string>
 	<string key="ui_deathrecap_survived_for">Postać przeżyła:</string>
 	<string key="ui_deathrecap_respawn_points">Punkty odrodzenia</string>
@@ -1539,7 +1558,7 @@
 	<string key="ui_claimmarker">Przejmij punkt</string>
 	<string key="ui_claimstreak">Dzień {number}</string>
 	<string key="ui_random_location">Losowe miejsce</string>
-	<string key="ui_scroll_hint">Przybliż (przewiń)</string>
+	<string key="ui_scroll_hint">Przybliżenie</string>
 	<string key="ui_map_rotate_camera">(przytrzymaj) Obróć kamerę</string>
 	<string key="ui_zoom_camera">&lt;img src="lyshineui/images/icons/misc/Icon_RightMouseButton" xPadding="0" scale="2.2" yOffset="8"&gt;&lt;/img&gt; + &lt;img src="lyshineui/images/icons/misc/Icon_MiddleMouseButton" xPadding="1" scale="2.3" yOffset="9"&gt;&lt;/img&gt; (przytrzymaj) Przybliż</string>
 	<string key="ui_global_storage_description">Inni gracze nie mogą zobaczyć ani zabrać przedmiotów, które tu pozostawisz. Aby zabrać te przedmioty, musisz wrócić do tego posterunku.</string>
@@ -1597,7 +1616,7 @@
 	<string key="ui_tooltip_required">Wymagania:</string>
 	<string key="ui_tooltip_requires">Wymaga:</string>
 	<string key="ui_tooltip_attribute">&lt;font face="lyshineui/fonts/Nimbus_Bold.font" color="#FFFFFF"&gt;{value}&lt;/font&gt; {label}</string>
-	<string key="ui_tooltip_equip">Ekwipuj</string>
+	<string key="ui_tooltip_equip">Użyj</string>
 	<string key="ui_tooltip_equip_desc">Wyposaż się w ten przedmiot</string>
 	<string key="ui_tooltip_equip_requirements_not_met">Wymagania nie zostały spełnione</string>
 	<string key="ui_tooltip_equipasweapon">Użyj jako broni</string>
@@ -1669,7 +1688,7 @@
 	<string key="ui_chat_mention_self_markup">&lt;font face="lyshineui/fonts/Nimbus_Bold_Italic.font" color="#FFFFFF"&gt;@{name}&lt;/font&gt;</string>
 	<string key="ui_and">i</string>
 	<string key="ui_or">Lub</string>
-	<string key="ui_for">na</string>
+	<string key="ui_for">za</string>
 	<string key="ui_question_mark">?</string>
 	<string key="ui_tooltip_ingredient_type">Typ:</string>
 	<string key="ui_tooltip_ingredient_types">Typy:</string>
@@ -1988,7 +2007,7 @@
 	<string key="ui_station_skill_header" comment="{skillName} is the type of skill, like 'Blacksmithing'.">{skillName}</string>
 	<string key="ui_station_tooltip_text">{stationName} P{tierRequired}</string>
 	<string key="ui_has_resources">Masz zasoby</string>
-	<string key="ui_deadnotification_title">"NIE ŻYJESZ"</string>
+	<string key="ui_deadnotification_title">NIE ŻYJESZ</string>
 	<string key="ui_deadnotification_body">Musisz się odrodzić, aby móc odpowiedzieć na to powiadomienie.</string>
 	<string key="ui_vitals_health_tooltip" comment="Use {currentValue} and {maxValue} for the vital's numbers">&lt;font color={headerColor} face="lyshineui/fonts/Nimbus_Bold.font"&gt;ZDROWIE&lt;/font&gt;\n&lt;font color={subHeaderColor} face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;{currentValue} / {maxValue}&lt;/font&gt;\n\nAby odzyskać &lt;font color={highlightColor}&gt;zdrowie&lt;/font&gt;\n• Używaj nalewek, by szybko odzyskiwać zdrowie\n• Spożywaj jedzenie, by otrzymać zastrzyk zdrowia, a potem odzyskiwać je z upływem czasu.\n\nPodnieś współczynnik &lt;font color={highlightColor}&gt;kondycji&lt;/font&gt;, by zwiększyć maksymalny poziom &lt;font color={highlightColor}&gt;zdrowia&lt;/font&gt;.\n\n&lt;img src="lyshineui/images/icons/hud/vitals/Icon_combatstate" xPadding="0" scale="1.2" yOffset="0"&gt;&lt;/img&gt; – oznacza, że gracz obecnie bierze udział w walce. Podczas walki niektóre działania gracza są ograniczone. Zakończ walkę lub unikaj jej przez 10 sekund, by pozbyć się tego statusu.</string>
 	<string key="ui_vitals_stamina_tooltip" comment="Use {currentValue} and {maxValue} for the vital's numbers">&lt;font color={headerColor} face="lyshineui/fonts/Nimbus_Bold.font"&gt;WYTRZYMAŁOŚĆ&lt;/font&gt;\n&lt;font color={subHeaderColor} face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;{currentValue} / {maxValue}&lt;/font&gt;\n\nCzynności obronne, takie jak blokowanie lub unik, zużywają &lt;font color={highlightColor}&gt;wytrzymałość&lt;/font&gt;. Gdy spadnie ona do zera, nie będzie można skutecznie ich wykonywać.\n\n&lt;font color={highlightColor}&gt;Wytrzymałość&lt;/font&gt; sama regeneruje się z upływem czasu, chyba że w tym czasie atakujesz lub biegasz sprintem.</string>
@@ -2624,7 +2643,7 @@
 	<string key="ui_autopinobjectivesFactionStory_desc">Wybierz, czy automatycznie przypinać do interfejsu zadania frakcji po ich przyjęciu</string>
 	<string key="ui_autopinObjectivesSkillProgression">Automatycznie przypinaj zadania dotyczące rozwoju umiejętności</string>
 	<string key="ui_autopinobjectivesSkillProgression_desc">Wybierz, czy automatycznie przypinać do interfejsu zadania rozwoju umiejętności po ich przyjęciu</string>
-	<string key="ui_autopinObjectivesMountQuest">Automatycznie przypinaj zadania trofeum</string>
+	<string key="ui_autopinObjectivesMountQuest">Automatycznie przypinaj zadania związane z wierzchowcem</string>
 	<string key="ui_autopinobjectivesMountQuest_desc">Wybierz, czy automatycznie przypinać do interfejsu zadania związane z wierzchowcem po ich przyjęciu</string>
 	<string key="ui_autopinObjectivesEpicEquipment">Automatycznie przypinaj zadania związane z epickim wyposażeniem</string>
 	<string key="ui_autopinobjectivesEpicEquipment_desc">Wybierz, czy automatycznie przypinać do interfejsu zadania związane z epickim wyposażeniem po ich przyjęciu</string>

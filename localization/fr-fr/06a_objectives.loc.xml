@@ -173,7 +173,7 @@
 	<string key="06A_MSQ_08_RescueGideon_title" speaker="UI - Journal - Quest  Title" rel_version="Quest_MSQ2_Revamp">De fer et de sang</string>
 	<string key="06A_MSQ_08_RescueGideon_desc" speaker="UI - Journal - Quest  Description" rel_version="Quest_MSQ2_Revamp">Sauvez tout membre survivant de la compagnie de la Rose de Fer et découvrez ce qu'il est advenu de la sergente Cotheran, puis retrouvez Leovix Silva au Donjon de fer.</string>
 	<string key="06A_MSQ_08_RescueGideon_goto_campsite" speaker="UI" rel_version="Quest_MSQ2_Revamp">Aller au bivouac près de la garnison de la Rose de Fer</string>
-	<string key="06A_MSQ_08_RescueGideon_makeCamp" speaker="UI" rel_version="Quest_MSQ2_Revamp">Make Camp to set a Respawn Point near the Iron Rose Garrison</string>
+	<string key="06A_MSQ_08_RescueGideon_makeCamp" speaker="UI" rel_version="Quest_MSQ2_Revamp">Monter un bivouac pour définir un point de réapparition près de la garnison de la Rose de Fer</string>
 	<string key="06A_MSQ_08_RescueGideon_goto_keep" speaker="UI" rel_version="Quest_MSQ2_Revamp">Explorer : {POITags}</string>
 	<string key="06A_MSQ_08_RescueGideon_rescue_trigger" speaker="UI" rel_version="Quest_MSQ2_Revamp">Sauver tout survivant</string>
 	<string key="06A_MSQ_08_RescueGideon_talk_Gideon" speaker="UI" rel_version="Quest_MSQ2_Revamp">Parler à Gideon</string>
@@ -200,7 +200,7 @@
 	<string key="06A_MSQ_09_DefeatCommander_haveItem_letter" speaker="UI" rel_version="Quest_MSQ2_Revamp">Récupérer des preuves pour Leovix</string>
 	<string key="06A_MSQ_09_DefeatCommander_return_Corinth" rel_version="Quest_MSQ2_Revamp">Aller à Corinthe</string>
 	<string key="06A_MSQ_09_DefeatCommander_use_shrine" speaker="UI" rel_version="Quest_MSQ2_Revamp">(Optionnel) Utiliser le sanctuaire spirituel</string>
-	<string key="NPC_DefaultDialogue_02_LeovixSilva" speaker="Leovix Silva" name="LeovixSilva" VO="NPC_DefaultDialogue_02_LeovixSilva" VO_Status="Needs Re-recording" rel_version="Quest_MSQ2_Revamp">Quelles nouvelles de la garnison ? Qu'est-ce donc ? Le brassard de la sergente Cotheran ! Oh, non... \n\nLa chute de Cotheran a Rouge, c'est d'autant plus tragique qu'elle avait été assignée à l'escorte du tribut à Médéa.</string>
+	<string key="NPC_DefaultDialogue_02_LeovixSilva" speaker="Leovix Silva" name="LeovixSilva" VO="NPC_DefaultDialogue_02_LeovixSilva" VO_Status="Needs Re-recording" rel_version="Quest_MSQ2_Revamp">Quelles nouvelles de la garnison ? Qu'est-ce donc ? Le brassard de la sergente Cotheran ! Oh, non... \n\nLa chute de Cotheran la Rouge, c'est d'autant plus tragique qu'elle avait été assignée à l'escorte du tribut à Médéa.</string>
 	<string key="06A_MSQ_09_DefeatCommander_prompt" speaker="UI - Player Prompt" name="Player" rel_version="Quest_MSQ2_Revamp">« Elle n'a pas pris le tribut ? »</string>
 	<string key="06A_MSQ_09_DefeatCommander_proposal" speaker="Leovix Silva" name="LeovixSilva" VO="06A_MSQ_09_DefeatCommander_proposal" VO_Status="Needs Re-recording" dialogue-next="@06A_MSQ_09_DefeatCommander_proposal_next" rel_version="Quest_MSQ2_Revamp">Non, on a reçu une missive nous informant que le capitaine Dupont avait déjà pris le tribut. \n\nContrairement à d'habitude. Bien sûr, si Cotheran y était allée, elle aurait encore son âme...</string>
 	<string key="06A_MSQ_09_DefeatCommander_proposal_prompt" speaker="UI - Player Prompt" name="Player" rel_version="Quest_MSQ2_Revamp">« Et si Médéa ne l'a pas reçu ? »</string>
@@ -900,14 +900,14 @@
 	<string key="0223_0101_d_01_TaskHaveItems" speaker="UI" rel_version="Quest_MSQ2_Revamp">Recycler un calmar crochu pour obtenir : {itemName}</string>
 	<string key="0223_0101_d_02_TaskHaveItems" speaker="UI" rel_version="Quest_MSQ2_Revamp">Recycler un poisson-chat barbelé pour obtenir : {itemName}</string>
 	<string key="1323_0101_FQ08_objective_title" speaker="UI" rel_version="Quest_MSQ2_Revamp">Pêche en eaux troubles</string>
-	<string key="1323_0101_FQ08_objective_desc" speaker="UI" rel_version="Quest_MSQ2_Revamp">Catch three Slimy Boots in Weaver's Fen to clean up the waters for Master Fisher Agarwal and deliver a new line to Master Fisher O'Connor in Restless Shore.</string>
+	<string key="1323_0101_FQ08_objective_desc" speaker="UI" rel_version="Quest_MSQ2_Revamp">Pêchez trois bottes visqueuses dans le marais des Trames pour aider Agarwal à le nettoyer, puis apportez une nouvelle ligne au pêcheur O'Connor à la Rive tourmentée.</string>
 	<string key="1323_0101_FQ08_prompt" speaker="UI - Player Prompt" rel_version="Quest_MSQ2_Revamp">« Qu'est-ce qu'on trouve le plus dans ce marais ? »</string>
 	<string key="1323_0101_FQ08_proposal" speaker="Master Fisher Agarwal - Weaver's Fen" name="MasterFisherAgarwal" VO="Fisher_1323_0101_FQ08_ProposalResponse" VO_Status="Recorded" dialogue-next="@1323_0101_FQ08_proposal_next" rel_version="Quest_MSQ2_Revamp">Le marais a bien souvent tendance à engloutir vos chaussures. Si vous pouviez repêcher cinq bottes, ce serait déjà un bon début pour nettoyer la zone.</string>
 	<string key="1323_0101_FQ08_proposal_prompt" speaker="UI - Player Prompt" rel_version="Quest_MSQ2_Revamp">« Et quand j'aurai terminé ? »</string>
 	<string key="1323_0101_FQ08_proposal_next" speaker="Master Fisher Agarwal - Weaver's Fen" name="MasterFisherAgarwal" VO="Fisher_1323_0101_FQ08_CompleteNext" VO_Status="Recorded" dialogue-prompt="@1323_0101_FQ08_proposal_prompt" rel_version="Quest_MSQ2_Revamp">Une fois que vous m'aurez aidée à nettoyer le marais, vous n'aurez qu'à aller voir le pêcheur O'Connor. Il est toujours plein d'énergie. Il aura sûrement une mission plus glorieuse à vous confier.</string>
 	<string key="1323_0101_FQ08_incomplete" speaker="Master Fisher Agarwal - Weaver's Fen" rel_version="Quest_MSQ2_Revamp">Repêchez cinq bottes puis allez voir le pêcheur O'Connor. Bonne chance !</string>
 	<string key="1323_0101_FQ08_complete_available_response" speaker="Master Fisher O'Connor - Restless Shore" name="MasterFisherO'Connor" VO="Fisher_1323_0101_FQ08_AvailResponse" VO_Status="Recorded" rel_version="Quest_MSQ2_Revamp">Je préfère la pêche aux affrontements, maintenant, mais je me bats encore assez souvent.</string>
-	<string key="1323_0101_d_01_TaskFishingCatchFish" speaker="UI" rel_version="Quest_MSQ2_Revamp">Catch {itemName} in Weaver's Fen</string>
+	<string key="1323_0101_d_01_TaskFishingCatchFish" speaker="UI" rel_version="Quest_MSQ2_Revamp">Pêcher dans le marais des Trames : {itemName}</string>
 	<string key="1523_0101_FQ09_objective_title" speaker="UI" rel_version="Quest_MSQ2_Revamp">Les armes de Neptune</string>
 	<string key="1523_0101_FQ09_objective_desc" speaker="UI" rel_version="Quest_MSQ2_Revamp">Attrapez une épée poisson et un marteau poisson, puis apportez-les au pêcheur expert Abebe au Val des Larmes au nom de son collègue O'Connor.</string>
 	<string key="1523_0101_FQ09_prompt" speaker="UI - Player Prompt" rel_version="Quest_MSQ2_Revamp">« Agarwal m'a dit que vous aviez quelque chose pour moi. »</string>

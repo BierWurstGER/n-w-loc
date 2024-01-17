@@ -217,7 +217,7 @@
 	<string key="ui_azoth_desc">Azoth kann für Schnellreisen zwischen Schreinen und Siedlungen sowie zum Herstellen hochwertiger Gegenstände verwendet werden.\n\nErhalte Azoth beim Abschluss von Aufgaben und dem Schließen der Verderbnisausbrüche.\n\n&lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#aaaaaa"&gt;Quelle:&lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#FFFFFF"&gt; Verderbnisausbrüche, Aufgaben&lt;/font&gt;</string>
 	<string key="ui_cards">Karten</string>
 	<string key="ui_leave_arena_coming_soon">Funktion zum Verlassen der Arena – demnächst verfügbar</string>
-	<string key="ui_equipfishingpole">[{value}] zum Angeln</string>
+	<string key="ui_equipfishingpole">{$player.fishing_activate$} zum Angeln</string>
 	<string key="ui_castfishingline">: Angel auswerfen</string>
 	<string key="ui_fishing_hotspot_nearby">Finde die Angelstelle im Gebiet in der Nähe!</string>
 	<string key="ui_changekey">Taste ändern</string>
@@ -315,7 +315,7 @@
 	<string key="ui_lessthan_minute_with_time_short">weniger als 1 Min.</string>
 	<string key="ui_hours_with_time">{time} Stunden</string>
 	<string key="ui_hours_with_time_short">{time} Std.</string>
-	<string key="ui_minutes_with_time">{time} Minuten</string>
+	<string key="ui_minutes_with_time">{time} Minuten</string>
 	<string key="ui_minutes_with_time_short">{time} Min.</string>
 	<string key="ui_seconds_with_time">{time} Sekunden</string>
 	<string key="ui_seconds_with_time_short">{time} Sek.</string>
@@ -538,7 +538,7 @@
 	<string key="ui_max">MAXIMUM!!!</string>
 	<string key="ui_microinteractions">Geringe Interaktionen</string>
 	<string key="ui_microphone">Mikrofon</string>
-	<string key="ui_tooltip_actions">Optionen</string>
+	<string key="ui_tooltip_actions">Aktionen</string>
 	<string key="ui_microphoneselection">Mikrofonauswahl</string>
 	<string key="ui_microphonetest">Mikrofontest</string>
 	<string key="ui_microphonevolume">Mikrofonlautstärke</string>
@@ -974,6 +974,22 @@
 	<string key="ui_world_select_hide_options">Weitere Optionen verbergen</string>
 	<string key="ui_world_select_view_worlds">Welten ansehen</string>
 	<string key="ui_world_select_refresh">Neu laden</string>
+	<string key="ui_world_free_transfer">Kostenloser Transfer</string>
+	<string key="ui_world_leave_world">Welt verlassen</string>
+	<string key="ui_world_leave_world_confirm_message_start">Das Verlassen einer Welt hat Auswirkungen auf die Erfahrung deines Charakters:</string>
+	<string key="ui_world_leave_world_confirm_message_friends_list">Deine Freundesliste wird nicht übertragen.</string>
+	<string key="ui_world_leave_world_confirm_message_company_membership">Deine Kompaniemitgliedschaft und jegliche Gelder in der Schatzkammer werden nicht übertragen.</string>
+	<string key="ui_world_leave_world_confirm_message_town_projects">Deine Stadtprojektmissionen werden nicht übertragen.</string>
+	<string key="ui_world_leave_world_confirm_message_faction_missions">Deine Fraktionsmissionen werden nicht übertragen.</string>
+	<string key="ui_world_leave_world_confirm_message_trading_post">Deine Handelspostenaufträge werden nicht übertragen und werden stattdessen annulliert.</string>
+	<string key="ui_world_leave_world_confirm_message_season_pass">Dein Fortschritt und deine Belohnungen für den Saisonpass werden übertragen.</string>
+	<string key="ui_world_leave_world_confirm_message_houses">Deine Häuser werden übertragen.</string>
+	<string key="ui_world_leave_world_confirm_message_end">Bist du sicher, dass du {worldName} verlassen möchtest?\n\nWenn du diese Welt verlassen hast, kannst du möglicherweise nicht zurückkehren, bis sie freigeschaltet ist, und nur eine Welt in dieser Region auswählen.</string>
+	<string key="ui_world_leave_world_failed_header">Charaktertransfer nicht verfügbar</string>
+	<string key="ui_world_leave_world_failed_message">Kostenloser Charaktertransfer ist derzeit nicht verfügbar.</string>
+	<string key="ui_world_free_transfer_tooltip_transfer_unavailable">Charaktertransfer ist derzeit nicht verfügbar.</string>
+	<string key="ui_world_free_transfer_tooltip_is_latent">Charakter wird bereits übertragen.</string>
+	<string key="ui_world_free_transfer_tooltip_cooldown">Charaktertransfer\nVerfügbar: {time}</string>
 	<string key="ui_resolution_popup_title">Bildschirmauflösung</string>
 	<string key="ui_resolution_popup_title_message">Diese Bildschirmauflösung beibehalten?</string>
 	<string key="ui_monitor_popup_title">Monitor</string>
@@ -1049,17 +1065,19 @@
 	<string key="ui_floating_xp_val">&lt;img src="lyshineui/images/icons/misc/icon_xp" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt;{amount}</string>
 	<string key="ui_floating_standing_val">&lt;img src="lyshineui/images/icons/misc/icon_territoryStanding" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt;{amount}</string>
 	<string key="ui_killfeed_xp_val">+ {amount}</string>
-	<string key="ui_killfeed_coin_val">+ {amount}</string>
-	<string key="ui_killfeed_standing_val">+ {amount}</string>
-	<string key="ui_killfeed_tradeskill_val">+ {amount}</string>
+	<string key="ui_killfeed_coin_val">+{amount}</string>
+	<string key="ui_killfeed_standing_val">+{amount}</string>
+	<string key="ui_killfeed_tradeskill_val">+{amount}</string>
 	<string key="ui_navmenu_friends">FREUNDE</string>
 	<string key="ui_navmenu_modes">Modi</string>
+	<string key="ui_navmenu_activities" rel_version="Feature_PUG_Finder">Aktivitäten</string>
 	<string key="ui_navmenu_guild">Kompanie</string>
 	<string key="ui_navmenu_map">Karte</string>
 	<string key="ui_navmenu_journal">Tagebuch</string>
 	<string key="ui_navmenu_settings">Optionen</string>
 	<string key="ui_navmenu_exit">VERLASSEN</string>
 	<string key="ui_navmenu_game_menu">Spielmenü</string>
+	<string key="ui_navmenu_social_menu">Sozialmenü</string>
 	<string key="ui_navmenu_benchmark">RICHTWERTE</string>
 	<string key="ui_navmenu_store">Shop</string>
 	<string key="ui_navmenu_quit">Verlassen</string>
@@ -1125,6 +1143,7 @@
 	<string key="ui_constitution">Konstitution</string>
 	<string key="ui_respec">Werte ändern</string>
 	<string key="ui_respec_attributes">Alle Attributspunkte erstatten</string>
+	<string key="ui_cannot_respec_attributes_during_combat">Attribute können im Kampf nicht geändert werden.</string>
 	<string key="ui_respec_mastery">Alle Meisterschaftspunkte erstatten</string>
 	<string key="ui_base">Grundwert</string>
 	<string key="ui_health">Gesundheit</string>
@@ -1269,7 +1288,7 @@
 	<string key="ui_map_localplayer">Lokaler Spieler</string>
 	<string key="ui_map_pointofinterest">Landmarken</string>
 	<string key="ui_map_resource_locations">ROHSTOFFE</string>
-	<string key="ui_craftItemSuccessHeader">{number} Mal {itemName} erstellt</string>
+	<string key="ui_craftItemSuccessHeader">{number}-mal {itemName} hergestellt</string>
 	<string key="ui_map_protected">Geschützt</string>
 	<string key="ui_buildmode">PLANUNGSMODUS</string>
 	<string key="ui_buildmode_tooltip">Drücke [{keyName}], um den Planungsmodus zu aktivieren. Im Planungsmodus kannst du Baupläne für Gebäude im Gebiet deiner Kompanie platzieren. Dein Rang in der Kompanie muss dir die Berechtigung zur Platzierung von Gebäuden geben.</string>
@@ -1529,7 +1548,7 @@
 	<string key="ui_deathrecap_new_personal_best">Neuer persönlicher Bestwert!</string>
 	<string key="ui_deathrecap_respawn_ready">Bereit</string>
 	<string key="ui_deathrecap_respawn_overloaded">Dieser Ort ist zu stark besucht. Respawn nicht möglich.</string>
-	<string key="ui_deathrecap_respawn_out_of_range">Du musst dich für den Respawn innerhalb von &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{distance}&lt;/font&gt; vom Zeltlager befinden.</string>
+	<string key="ui_deathrecap_respawn_out_of_range">Nur innerhalb von &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{distance}&lt;/font&gt; vom Zeltlager möglich.</string>
 	<string key="ui_deathrecap_respawn_out_of_range_with_cooldown">Respawn möglich in &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{time}&lt;/font&gt; innerhalb von &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{distance}&lt;/font&gt; vom Zeltlager.</string>
 	<string key="ui_deathrecap_survived_for">Überlebt für</string>
 	<string key="ui_deathrecap_respawn_points">Respawnpunkte</string>
@@ -1539,7 +1558,7 @@
 	<string key="ui_claimmarker">Gebietsanspruchspunkt</string>
 	<string key="ui_claimstreak">Tag {number}</string>
 	<string key="ui_random_location">Zufälliger Ort</string>
-	<string key="ui_scroll_hint">Zoom (scrollen)</string>
+	<string key="ui_scroll_hint">Zoomen</string>
 	<string key="ui_map_rotate_camera">(Halten) Kamera drehen</string>
 	<string key="ui_zoom_camera">&lt;img src="lyshineui/images/icons/misc/Icon_RightMouseButton" xPadding="0" scale="2.2" yOffset="8"&gt;&lt;/img&gt; + &lt;img src="lyshineui/images/icons/misc/Icon_MiddleMouseButton" xPadding="1" scale="2.3" yOffset="9"&gt;&lt;/img&gt; (Halten) Zoomen</string>
 	<string key="ui_global_storage_description">Andere Spieler können hier eingelagerte Gegenstände nicht sehen oder aufnehmen. Du kannst die Gegenstände nur in diesem Außenposten wieder abholen.</string>
@@ -1706,7 +1725,7 @@
 	<string key="ui_tooltip_tertiaryAttack">Tertiärangriff</string>
 	<string key="ui_tooltip_stability">Stabilität</string>
 	<string key="ui_tooltip_blockingstability">Blockstabilität</string>
-	<string key="ui_tooltip_broken">Zerbrochen – Boni deaktiviert</string>
+	<string key="ui_tooltip_broken">Kaputt – Boni deaktiviert</string>
 	<string key="ui_tooltip_absorption">Absorption</string>
 	<string key="ui_tooltip_armorrating">Rüstung</string>
 	<string key="ui_tooltip_resistances">Resistenzen</string>
@@ -2399,9 +2418,9 @@
 	<string key="ui_hotspot_broad">Gewöhnlich</string>
 	<string key="ui_hotspot_rare">Selten</string>
 	<string key="ui_hotspot_secret">Geheim</string>
-	<string key="ui_num_hotspot_type_1">{num1} {type1}e Angelstelle</string>
+	<string key="ui_num_hotspot_type_1">{num1} {type1}-Angelstelle</string>
 	<string key="ui_num_hotspot_type_1_plural">{num1} {type1}e Angelstellen</string>
-	<string key="ui_num_hotspot_type_2">{num1} {type1}e und {num2} {type2}e Angelstellen</string>
+	<string key="ui_num_hotspot_type_2">{num1} {type1}- und {num2} {type2}-Angelstellen</string>
 	<string key="ui_num_hotspot_type_3">{num1} {type1}e, {num2} {type2}e und {num3} {type3}e Angelstellen</string>
 	<string key="ui_fishing_hook_too_early">Schade – zu früh!</string>
 	<string key="ui_fishing_hook_too_late">Schade – zu spät!</string>

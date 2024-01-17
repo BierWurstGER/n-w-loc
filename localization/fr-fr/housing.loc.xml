@@ -30,9 +30,9 @@
 	<string key="ui_fast_travel_error_description_inCooldown_with_time" comment="Fast Travel">Cette action est cours de recharge.\nRetour possible dans {time}.</string>
 	<string key="ui_fast_travel_error_encumbered" comment="Fast Travel">Vous ne pouvez pas effectuer de transfert rapide ni de retour lorsque votre inventaire est encombré.</string>
 	<string key="ui_fast_travel_error_inCooldown" comment="Fast Travel">{time}</string>
-	<string key="ui_fast_travel_error_noDestination" comment="Fast Travel">Visit this location first in order to fast travel here.</string>
-	<string key="ui_fast_travel_error_noDestination_outpost" comment="Fast Travel">Visit this location first in order to fast travel here.</string>
-	<string key="ui_fast_travel_error_noDestination_shrine" comment="Fast Travel">Visit this location first in order to fast travel here.</string>
+	<string key="ui_fast_travel_error_noDestination" comment="Fast Travel">Visitez d'abord ce lieu avant de pouvoir effectuer un transfert rapide ici.</string>
+	<string key="ui_fast_travel_error_noDestination_outpost" comment="Fast Travel">Visitez d'abord ce lieu avant de pouvoir effectuer un transfert rapide ici.</string>
+	<string key="ui_fast_travel_error_noDestination_shrine" comment="Fast Travel">Visitez d'abord ce lieu avant de pouvoir effectuer un transfert rapide ici.</string>
 	<string key="ui_fast_travel_failed" comment="Fast Travel">Échec du transfert rapide</string>
 	<string key="ui_fast_travel_mission_abandon_confirm" comment="Fast Travel">ATTENTION : le transfert rapide entraînera la réinitialisation de la course chronométrée et l'abandon de toutes les missions de faction JcJ.\nRéinitialisation de {timedRaceCount} course(s) chronométrée(s) et abandon de {missionCount} mission(s).\n\nContinuer ?</string>
 	<string key="ui_fast_travel_popup_confirm" comment="Fast Travel">Voulez-vous effectuer un transfert rapide vers ce lieu ?</string>
@@ -268,6 +268,6 @@
 	<string key="ui_remove_all_furniture_confirm_title" comment="Remove All Furniture">Tout enlever</string>
 	<string key="ui_remove_all_furniture_confirm_message" comment="Remove All Furniture">Tous les trophées et les meubles de cette maison seront stockés dans l'abri de rangement.</string>
 	<string key="ui_house_remove_all_furniture_confirm_button" comment="Remove All Furniture">Tout enlever</string>
-	<string key="ui_housing_territory_name" comment="UIC 2.0">{territoryName} Housing</string>
+	<string key="ui_housing_territory_name" comment="UIC 2.0">Logement à : {territoryName}</string>
 </resources>
 

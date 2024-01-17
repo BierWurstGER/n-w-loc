@@ -204,7 +204,7 @@
 	<string key="HousingTrdG_Cabinets_GroupDesc" comment="Housing Furniture - Trading Post - TradingGroup">Szafki do domu</string>
 	<string key="HousingTrdG_Veg_GroupName" comment="Housing Furniture - Trading Post - TradingGroup">Rośliny</string>
 	<string key="1hFlail_GroupName" rel_version="Weapon_Flail">Kiścień</string>
-	<string key="1hFlail_GroupDesc" rel_version="Weapon_Flail">A dynamic weapon that can utilize a long chain to extend the reach of its attacks and will collapse into its hilt when idle. \n\nKiścień idealnie nadaje się do wspierania sojuszników. Jednak jest bronią zaczepną: efekty są nakładane na sojuszników, gdy bierzesz czynny udział w walce. \n\nAtaki kiścieniem zadają obrażenia od uderzeń i magii, które może i nie są szczególnie wysokie, ale za to są uciążliwe dla przeciwników, wspomagające dla sojuszników i defensywne z natury, co sprawia, że wrogowie powinni liczyć się z każdym, kto dzierży kiścień. \n\n• Atak lekki: Zadaje {[DamageTable.1H_Flail_LightAttack1.DmgCoef * 100]}% &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_strike_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; obrażeń.\n• Atak ciężki: Zadaje {[DamageTable.1H_Flail_HeavyAttackChain_1.DmgCoef * 100]}% &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_strike_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; obrażeń.</string>
+	<string key="1hFlail_GroupDesc" rel_version="Weapon_Flail">Dynamiczna broń na długim łańcuchu, która umożliwia zwiększenie zasięgu ataków. Po walce łańcuch zwinie się do rękojeści. \n\nKiścień idealnie nadaje się do wspierania sojuszników. Jednak jest bronią zaczepną: efekty są nakładane na sojuszników, gdy bierzesz czynny udział w walce. \n\nAtaki kiścieniem zadają obrażenia od uderzeń i magii, które może i nie są szczególnie wysokie, ale za to są uciążliwe dla przeciwników, wspomagające dla sojuszników i defensywne z natury, co sprawia, że wrogowie powinni liczyć się z każdym, kto dzierży kiścień. \n\n• Atak lekki: Zadaje {[DamageTable.1H_Flail_LightAttack1.DmgCoef * 100]}% &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_strike_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; obrażeń.\n• Atak ciężki: Zadaje {[DamageTable.1H_Flail_HeavyAttackChain_1.DmgCoef * 100]}% &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_strike_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; obrażeń.</string>
 	<string key="1hHatchet_GroupName">Wytworzone siekierki</string>
 	<string key="1hHatchet_GroupDesc">Wszechstronna broń, którą można wyprowadzać szybkie ataki w walce wręcz lub rzucać z dystansu. Idealna do agresywnej walki wręcz lub taktycznej walki na średnim dystansie.\n\n• Atak lekki: Zadaje {[DamageTable.Hatchet_Damage_PrimaryAttack.DmgCoef * 100]}% &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_slash_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; obrażeń.\n•Lekki cios kończący serię: Zadaje {[DamageTable.Hatchet_Damage_PrimaryAttack_Ender.DmgCoef * 100]}% &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_slash_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; obrażeń.\n•Atak ciężki: Zadaje {[DamageTable.Hatchet_Damage_HeavyAttack.DmgCoef * 100]}% &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_slash_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; obrażeń.\n•Naładowany atak ciężki: Zadaje {[DamageTable.Hatchet_Damage_HeavyAttack_Charged.DmgCoef * 100]}% &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_slash_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; obrażeń.</string>
 	<string key="1hHatchetAngryEarth_GroupName">Pierwotne siekierki</string>
@@ -867,6 +867,7 @@
 	<string key="DungeonReps9_GroupName">Repliki z Serca Burzy</string>
 	<string key="DungeonShields_GroupName">Tarcze z ekspedycji</string>
 	<string key="DungeonReps12_GroupName" rel_version="Expedition_FirstLight_01">Repliki z Dzikiego Przełomu</string>
+	<string key="DungeonReps13_GroupName" rel_version="Expedition_FirstLight_01">Repliki z Jeziora Lodowcowego</string>
 	<string key="Dye1_GroupDesc">Wytwórz jeden z wielu odcieni czerwonego barwnika.</string>
 	<string key="Dye1_GroupName">Czerwony barwnik</string>
 	<string key="Dye10_GroupDesc">Umbra – barwnik do farbowania pancerza.</string>
@@ -1100,7 +1101,7 @@
 	<string key="GauntletIce_GroupName">Lodowe rękawice</string>
 	<string key="GauntletVoid_GroupDesc" rel_version="Weapon_Void_Gauntlet">Rękawica zużywająca manę, by osłabiać wrogów i wzmacniać sojuszników. Rękawica próżni idealnie nadaje się do nakładania premii i obrażeń periodycznych na krótkim dystansie lub nakładania negatywnych efektów i leczenia na średnim dystansie. Jest groźna zwłaszcza wtedy, gdy walczysz w grupie.\n\n• Atak lekki: Zadaje {[DamageTable.VoidGauntlet_Primary.DmgCoef * 100]}% &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_void_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; obrażeń.\n• Atak ciężki: Zadaje {[DamageTable.VoidGauntlet_Heavy.DmgCoef * 100]}% &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_void_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; obrażeń. Ponadto zyskasz zdrowie w wysokości {[VoidGauntletAbilityTable.Passive_VoidGauntlet_HealOnHeavy.DmgPctToHealth * 100]}% zadanych obrażeń.\n• Zbierz esencję (przytrzymaj blok): Zamienia twoje zdrowie na manę z upływem czasu. Skaluje się z obrażeniami od broni.</string>
 	<string key="GauntletVoid_GroupName" rel_version="Weapon_Void_Gauntlet">Rękawice próżni</string>
-	<string key="GreatSword_GroupDesc" rel_version="Weapon_GreatSword">A versatile melee weapon that utilizes stances to adapt to different combat situations. Miecz dwuręczny umożliwia prowadzenie agresywnych ataków i nie mniej agresywnej obrony. Poradzi sobie z każdym wyzwaniem.\n\n• Atak lekki 1 i 2: Zadaje {[DamageTable.GreatSword_PrimaryAttack1.DmgCoef * 100]}% &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_slash_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; obrażeń.\n• Atak lekki 3: Zadaje {[DamageTable.GreatSword_PrimaryAttack3.DmgCoef * 100]}% &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_slash_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; obrażeń.\n• Naładowany atak ciężki 1 i 2: Zadaje {[DamageTable.GreatSword_HeavyAttack1.DmgCoef * 100]}% &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_slash_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; obrażeń.\n• Naładowany atak ciężki 3: Zadaje {[DamageTable.GreatSword_HeavyAttack3.DmgCoef * 100]}% &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_slash_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; obrażeń.</string>
+	<string key="GreatSword_GroupDesc" rel_version="Weapon_GreatSword">Wszechstronna broń biała. Wykorzystuje postawy pozwalające dostosować się do różnych sytuacji w walce. Miecz dwuręczny umożliwia prowadzenie agresywnych ataków i nie mniej agresywnej obrony. Poradzi sobie z każdym wyzwaniem.\n\n• Atak lekki 1 i 2: Zadaje {[DamageTable.GreatSword_PrimaryAttack1.DmgCoef * 100]}% &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_slash_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; obrażeń.\n• Atak lekki 3: Zadaje {[DamageTable.GreatSword_PrimaryAttack3.DmgCoef * 100]}% &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_slash_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; obrażeń.\n• Naładowany atak ciężki 1 i 2: Zadaje {[DamageTable.GreatSword_HeavyAttack1.DmgCoef * 100]}% &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_slash_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; obrażeń.\n• Naładowany atak ciężki 3: Zadaje {[DamageTable.GreatSword_HeavyAttack3.DmgCoef * 100]}% &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_slash_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; obrażeń.</string>
 	<string key="GemAmbe_CategoryName">Bursztyny</string>
 	<string key="GemAmet_CategoryName">Ametysty</string>
 	<string key="GemAqua_CategoryName">Akwamaryny</string>
@@ -1393,6 +1394,7 @@
 	<string key="MediumVines_GroupName">Średnie pnącza</string>
 	<string key="Metal_CategoryName">Metale</string>
 	<string key="MetalPrecious_CategoryName">Metale szlachetne</string>
+	<string key="Prospecting_GroupName">Poszukiwanie</string>
 	<string key="MetalT2_GroupName">Metale klasy 2</string>
 	<string key="MetalT3_GroupName">Metale klasy 3</string>
 	<string key="MetalT4_GroupName">Metale klasy 4</string>
@@ -1409,6 +1411,7 @@
 	<string key="ModsUncommon_GroupName">Niezwykłe modyfikatory</string>
 	<string key="MoonstoneCut_GroupDesc">Szlifowane i polerowane kamienie księżycowe. Można z nich wytworzyć biżuterię, która zwiększa siłę i skupienie, albo umieścić w gnieździe przedmiotu, by zyskać profity "Radość" i "Ochrona przed cięciami".</string>
 	<string key="MoonstoneCut_GroupName">Szlifowany kamień księżycowy</string>
+	<string key="Mounts_GroupName" rel_version="Feature_Mounts">Wierzchowce</string>
 	<string key="MusketA_GroupDesc">Broń dystansowa wykorzystująca naboje zadające duże obrażenia. Idealna do trzymania wrogów na dystans. Premiuje precyzję.\n\n•Standardowy atak: Zadaje {[DamageTable.MusketAttack1.DmgCoef * 100]}% &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_thrust_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; obrażeń.</string>
 	<string key="Blunderbuss_GroupDesc" rel_version="Weapon_Blunderbuss">Broń dystansowa do walki na niewielką odległość, strzelająca 6 śrucinami naraz. Doskonała do wywierania presji na cele w walce wręcz i przybliżania się do przeciwników walczących na dystans.\n\n•Standardowy atak: Zadaje {[DamageTable.Blunderbuss_Primary_Attack.DmgCoef * 100]}% &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_thrust_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; obrażeń na śrucinę ({[DamageTable.Blunderbuss_Primary_Attack_TooltipValue.DmgCoef * 100]}% łącznie dla wszystkich 6 śrucin).</string>
 	<string key="MusketA_GroupName">Muszkiety</string>
@@ -1928,7 +1931,8 @@
 	<string key="UniqueDungeonReps8_GroupName">Unikalne repliki z Enneady</string>
 	<string key="UniqueDungeonReps9_GroupName">Unikalne repliki z Serca Burzy</string>
 	<string key="UniqueDungeonReps11_GroupName">Unikalne repliki z Pąkli i czarnego prochu</string>
-	<string key="UniqueDungeonReps12_GroupName" rel_version="Expedition_FirstLight_01">Unique Savage Divide Replicas</string>
+	<string key="UniqueDungeonReps12_GroupName" rel_version="Expedition_FirstLight_01">Unikalne repliki z Dzikiego Przełomu</string>
+	<string key="UniqueDungeonReps13_GroupName" rel_version="Expedition_GreatCleave_00">Unikalne repliki z Jeziora Lodowcowego</string>
 	<string key="HideT5_GroupName">Skóra klasy 5</string>
 	<string key="CategoryData_ArmorHeavy">Ciężki pancerz</string>
 	<string key="CategoryData_ArmorMedium">Średni pancerz</string>
@@ -1958,6 +1962,7 @@
 	<string key="NightveilHallow_GroupName">Święto nocnego całunu (wydarzenie)</string>
 	<string key="SummerMedleyfaire_GroupName">Festiwal Składanek (wydarzenie)</string>
 	<string key="SpringtideBloom_GroupName">Wiosenny Kwiat (wydarzenie)</string>
+	<string key="LunarNewYear_GroupName">Księżycowy Nowy Rok (wydarzenie)</string>
 	<string key="Greatsword_GroupName">Miecz dwuręczny</string>
 	<string key="CoatingAeternian_GroupDesc" rel_version="Season_1_Perm">Tylko PvE: Powłoki zwiększające obrażenia zadawane ludziom (którzy nie są zagubieni lub skażeni).</string>
 	<string key="CoatingAeternian_GroupName" rel_version="Season_1_Perm">Antyludzka powłoka</string>
@@ -1998,6 +2003,7 @@
 	<string key="PrismaticArmorFur_GroupName" rel_version="Territory_FirstLight">Średni pancerz – pryzmatyczny skarabeusz</string>
 	<string key="PrismaticArmorCloth_GroupName" rel_version="Territory_FirstLight">Lekki pancerz – pryzmatyczny skarabeusz</string>
 	<string key="PrismaticJewelry_GroupName" rel_version="Territory_FirstLight">Biżuteria – pryzmatyczny skarabeusz</string>
+	<string key="PrismaticTools_GroupName" rel_version="Territory_FirstLight">Pryzmatyczny skarabeusz</string>
 	<string key="LeatherT52_GroupName">Skóra klasy 5 (rzadka)</string>
 	<string key="LeatherT53_GroupName">Pryzmatyczna skóra</string>
 	<string key="MetalT52_GroupName">Sztaba klasy 5 (rzadka)</string>
@@ -2010,10 +2016,11 @@
 	<string key="UniqueMutatorReps_GroupName" rel_version="Territory_FirstLight">Mutacja – nazwane repliki</string>
 	<string key="FLXPac_MateriaConverts_GroupName" rel_version="Territory_FirstLight">Materia z Powstania wściekłej ziemi</string>
 	<string key="cookingrecipes_GroupName">Przepisy kucharskie</string>
-	<string key="armoringrecipes_GroupName">Armoring Patterns</string>
-	<string key="engineeringrecipes_GroupName">Engineering Patterns</string>
-	<string key="weaponsmithingrecipes_GroupName">Weaponsmithing Patterns</string>
+	<string key="armoringrecipes_GroupName">Wzory płatnerskie</string>
+	<string key="engineeringrecipes_GroupName">Wzory inżynierskie</string>
+	<string key="weaponsmithingrecipes_GroupName">Wzory zbrojmistrzowskie</string>
 	<string key="furnishingrecipes_GroupName">Schematy wyposażenia domu</string>
-	<string key="arcanarecipes_GroupName">Arcana Patterns</string>
+	<string key="arcanarecipes_GroupName">Wzory arkanistyczne</string>
+	<string key="sealedFactionArmor_GroupName">Zapieczętowany pancerz frakcyjny</string>
 </resources>
 

@@ -81,8 +81,11 @@
 	<string key="@ui_faction_store_discount_modifier_desc">Verringert die Gegenstandskosten im Fraktionsladen um {value}.</string>
 	<string key="@ui_free_camping_desc">Lagern kostet keine Rohstoffe mehr.</string>
 	<string key="@ui_chance_consumable_not_used_desc">Erhöht die Wahrscheinlichkeit, dass ein Verbrauchsgegenstand bei Verwendung nicht verbraucht wird, um {value}.</string>
+	<string key="@ui_fcp_crowdcontrol_title">Massenkontrolle</string>
 	<string key="@ui_fcp_crowdcontrol_qualified_warning">Es befinden sich zu viele markierte Spieler oder Spieler aus deiner Fraktion im Bereich des Fraktionskontrollpunkts. Teleportation in {TeleportSeconds} Sekunden.</string>
 	<string key="@ui_fcp_crowdcontrol_unqualified_warning">Es befinden sich zu viele Spieler im Bereich des Fraktionskontrollpunkts. Teleportation in {TeleportSeconds} Sekunden.</string>
+	<string key="@ui_fcp_crowdcontrol_banner_warning">Es befinden sich zu viele Spieler in der Nähe des Fraktionskontrollpunkts. Verlasse den Bereich oder du wirst teleportiert.\n\n&lt;font color="#EDC63E"&gt;Teleportation in {TeleportSeconds} Sekunden.&lt;/font&gt;</string>
+	<string key="@ui_fcp_crowdcontrol_banner_teleported">Es befanden sich zu viele markierte Spieler oder Spieler aus deiner Fraktion im Bereich des Fraktionskontrollpunkts. Du wurdest zur nächstgelegenen Siedlung teleportiert.</string>
 	<string key="@ui_fcp_fast_travel_discounts_title">Fraktionskontrolle-Rabatte</string>
 	<string key="@ui_fcp_faction_mission_bonus_label">(+{value} vom FKR)</string>
 </resources>

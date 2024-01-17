@@ -139,7 +139,7 @@
 	<string key="ui_seasons_task_Complete2SeasonalChallenge_name" rel_version="Feature_Seasons_Rewards">Sfida superata II</string>
 	<string key="ui_seasons_task_Complete3SeasonalChallenge_name" rel_version="Feature_Seasons_Rewards">Sfida superata III</string>
 	<string key="ui_seasons_task_Complete4SeasonalChallenge_name" rel_version="Feature_Seasons_Rewards">Sfida superata IV</string>
-	<string key="ui_seasons_task_CompleteSeasonalChallenge_desc" rel_version="Feature_Seasons_Rewards">Completa {maxCount} sfide stagionali</string>
+	<string key="ui_seasons_task_CompleteSeasonalChallenge_desc" rel_version="Feature_Seasons_Rewards">Completa {maxCount} sfida/e stagionale/i</string>
 	<string key="ui_seasons_task_CompleteSongsAnyDifficultyGrouped_name" rel_version="Feature_Seasons_Rewards">Mettiamo su una band</string>
 	<string key="ui_seasons_task_CompleteSongsAnyDifficultyGrouped_desc" rel_version="Feature_Seasons_Rewards">Suona {maxCount} canzoni di qualsiasi livello di difficoltà in gruppo</string>
 	<string key="ui_seasons_task_Complete1War_name" rel_version="Feature_Seasons_Rewards">Spirito guerriero</string>
@@ -348,6 +348,8 @@
 	<string key="SeasonsRewardTrack_ClaimError_RewardNotUnlocked" rel_version="Feature_Seasons_Rewards">Impossibile ottenere questa ricompensa. Non è stata sbloccata.</string>
 	<string key="SeasonsRewardTrack_ClaimError_RewardAlreadyRedeemed" rel_version="Feature_Seasons_Rewards">Impossibile ottenere questa ricompensa. È stata già ottenuta.</string>
 	<string key="SeasonsRewardTrack_ClaimError_NotEnoughInventorySpace" rel_version="Feature_Seasons_Rewards">Impossibile ottenere questa ricompensa. Spazio insufficiente nell'inventario.</string>
+	<string key="SeasonsRewardTrack_ClaimError_LootLimitActive" rel_version="Feature_Seasons_Rewards">Impossibile rivendicare questa ricompensa. Possiedi già quest'oggetto e non puoi raccoglierne un altro.</string>
+	<string key="SeasonsRewardTrack_ClaimError_PlayerHasNoFaction" rel_version="Feature_Seasons_Rewards">Impossibile rivendicare questa ricompensa. Devi far parte di una fazione.</string>
 	<string key="SeasonsRewardTrack_ClaimError_Generic" rel_version="Feature_Seasons_Rewards">Impossibile ottenere questa ricompensa. Riprova più tardi.</string>
 	<string key="SeasonsRewardTrack_ClaimError_AlreadyClaimingReward" rel_version="Feature_Seasons_Rewards">Stai già tentando di ottenere una ricompensa. Riprova più tardi.</string>
 	<string key="SeasonsRewardTrack_TransactionError" rel_version="Feature_Seasons_Rewards">Impossibile elaborare questa transazione. Riprova più tardi.</string>
@@ -372,6 +374,7 @@
 	<string key="ui_seasons_task_description_CraftGoldenScarab" rel_version="Season_2_Perm">Produci {maxCount} oggetti con uno scarabeo dorato</string>
 	<string key="ui_seasons_task_name_WinArenaMatches_1" rel_version="Season_2_Perm">Gladiatore I</string>
 	<string key="ui_seasons_task_name_WinArenaMatches_2" rel_version="Season_2_Perm">Gladiatore II</string>
+	<string key="ui_seasons_task_name_WinArenaMatches_3" rel_version="Season_4_Perm">Gladiatore III</string>
 	<string key="ui_seasons_task_name_CompleteFactionMissions_1" rel_version="Season_2_Perm">Tutto per la fazione I</string>
 	<string key="ui_seasons_task_name_CompleteFactionMissions_2" rel_version="Season_2_Perm">Tutto per la fazione II</string>
 	<string key="ui_seasons_task_description_CompleteFactionMissions" rel_version="Season_2_Perm">Completa {maxCount} missioni della fazione</string>
@@ -381,7 +384,7 @@
 	<string key="ui_seasons_task_name_CompleteSeasonalChallenge_4" rel_version="Season_2_Perm">Sfida superata IV</string>
 	<string key="ui_seasons_task_name_CompleteSeasonalChallenge_5" rel_version="Season_2_Perm">Sfida superata V</string>
 	<string key="ui_seasons_task_descripion_CompleteSeasonalChallengeSingle" rel_version="Season_2_Perm">Completa una sfida stagionale</string>
-	<string key="ui_seasons_task_descripion_CompleteSeasonalChallenge" rel_version="Season_2_Perm">Completa {maxCount} sfide stagionali</string>
+	<string key="ui_seasons_task_descripion_CompleteSeasonalChallenge" rel_version="Season_2_Perm">Completa {maxCount} sfida/e stagionale/i</string>
 	<string key="ui_seasons_task_name_CompleteTownProjects_1" rel_version="Season_2_Perm">Progenitore di progetti I</string>
 	<string key="ui_seasons_task_name_CompleteTownProjects_2" rel_version="Season_2_Perm">Progenitore di progetti II</string>
 	<string key="ui_seasons_task_name_CompleteTownProjects_3" rel_version="Season_2_Perm">Progenitore di progetti III</string>
@@ -507,7 +510,7 @@
 	<string key="ui_seasons_task_name_FlailMastery_1" rel_version="Season_3_Perm">Confraternita del Mazzafrusto I</string>
 	<string key="ui_seasons_task_name_FlailMastery_2" rel_version="Season_3_Perm">Confraternita del Mazzafrusto II</string>
 	<string key="ui_seasons_task_name_FlailMastery_3" rel_version="Season_3_Perm">Confraternita del Mazzafrusto III</string>
-	<string key="ui_seasons_task_description_FlailMastery" rel_version="Season_3_Perm">Raggiungi Maestria {maxCount} con il Mazzafrusto</string>
+	<string key="ui_seasons_task_description_FlailMastery" rel_version="Season_3_Perm">Raggiungi {maxCount} livelli di maestria con il mazzafrusto</string>
 	<string key="ui_seasons_task_name_EdengroveSettlement" rel_version="Season_3_Perm">Colono di Frutteto dell'Eden</string>
 	<string key="ui_seasons_task_description_EdengroveSettlement" rel_version="Season_3_Perm">Scopri l'insediamento di Frutteto dell'Eden</string>
 	<string key="ui_seasons_task_name_AcquireMount" rel_version="Season_3_Perm">La mia prima cavalcatura</string>
@@ -524,7 +527,7 @@
 	<string key="ui_seasons_task_name_InfluenceRace_2" rel_version="Season_3_Perm">Influente II</string>
 	<string key="ui_seasons_task_description_ParticipateInfluenceRaceSingle" rel_version="Season_3_Perm">Partecipa a una Gara di influenza</string>
 	<string key="ui_seasons_task_description_WinInfluenceRace" rel_version="Season_3_Perm">Vinci {maxCount} Gare di influenza</string>
-	<string key="ui_seasons_task_description_WinInfluenceRaceSingle" rel_version="Season_4_Perm">Vinci una gara di influenza</string>
+	<string key="ui_seasons_task_description_WinInfluenceRaceSingle" rel_version="Season_4_Perm">Vinci una Gara di influenza</string>
 	<string key="ui_seasons_task_name_GatherSpore" rel_version="Season_3_Perm">Portavoce delle spore</string>
 	<string key="ui_seasons_task_description_GatherSpore" rel_version="Season_3_Perm">Raccogli {maxCount} baccelli di spore</string>
 	<string key="ui_seasons_task_name_Quest_InvasionOfArtemis" rel_version="Season_3_Perm">Sfida la divinità</string>
@@ -640,8 +643,11 @@
 	<string key="ui_seasons_task_name_LootEliteChest_2" rel_version="Season_4_Perm">Bottino élite II</string>
 	<string key="ui_seasons_task_name_GlacialTarn_1" rel_version="Season_4_Perm">Gladiatore glaciale I</string>
 	<string key="ui_seasons_task_name_GlacialTarn_2" rel_version="Season_4_Perm">Gladiatore glaciale II</string>
+	<string key="ui_seasons_task_name_GlacialTarn_3" rel_version="Season_4_Perm">Gladiatore glaciale III</string>
+	<string key="ui_seasons_task_name_GlacialTarn_4" rel_version="Season_4_Perm">Gladiatore glaciale IV</string>
 	<string key="ui_seasons_task_name_CraftCoating" rel_version="Season_4_Perm">Potenziamento arma</string>
-	<string key="ui_seasons_task_name_KillIceVarangian" rel_version="Season_4_Perm">Scongelatore dei Variaghi</string>
+	<string key="ui_seasons_task_name_KillIceVarangian" rel_version="Season_4_Perm">Scongelatore dei Variaghi I</string>
+	<string key="ui_seasons_task_name_KillIceVarangian_2" rel_version="Season_4_Perm">Scongelatore dei Variaghi II</string>
 	<string key="ui_seasons_task_name_CompleteHatchery" rel_version="Season_4_Perm">Incubazione frenetica</string>
 	<string key="ui_seasons_task_name_CompleteMutation" rel_version="Season_4_Perm">Maniaco della mutazione</string>
 	<string key="ui_seasons_task_name_CraftPrismaticScarab" rel_version="Season_4_Perm">Professionista prismatico</string>
@@ -658,6 +664,7 @@
 	<string key="ui_seasons_task_name_Quest_FightMage" rel_version="Season_4_Perm">Il mago</string>
 	<string key="ui_seasons_task_name_Quest_StopDevice" rel_version="Season_4_Perm">Gelo eterno</string>
 	<string key="ui_seasons_task_name_Quest_WrapFrost" rel_version="Season_4_Perm">Da cliente a corvo</string>
+	<string key="ui_seasons_task_name_CraftArtifactUpgrade" rel_version="Season_4_Perm">Miglioratore esclusivo</string>
 	<string key="ui_seasons_task_description_CompleteExpedition" rel_version="Season_4_Perm">Completa {maxCount} spedizioni</string>
 	<string key="ui_seasons_task_description_CraftPotionT3" rel_version="Season_4_Perm">Produci {maxCount} pozioni di L3 o superiore</string>
 	<string key="ui_seasons_task_description_KillElite" rel_version="Season_4_Perm">Uccidi {maxCount} nemici d'élite</string>
@@ -672,13 +679,15 @@
 	<string key="ui_seasons_task_description_EaselGreatCleave" rel_version="Season_4_Perm">Saccheggia entrambi i cavalletti panoramici di Grande Breccia</string>
 	<string key="ui_seasons_task_description_LootEliteChest" rel_version="Season_4_Perm">Saccheggia {maxCount} forzieri élite</string>
 	<string key="ui_seasons_task_description_GlacialTarn" rel_version="Season_4_Perm">Completa la spedizione del Lago congelato</string>
+	<string key="ui_seasons_task_description_GlacialTarnM1" rel_version="Season_4_Perm">Completa la spedizione del Lago congelato Mutazione 1</string>
+	<string key="ui_seasons_task_description_GlacialTarnM2" rel_version="Season_4_Perm">Completa la spedizione del Lago congelato Mutazione 2</string>
 	<string key="ui_seasons_task_description_GlacialTarnM3" rel_version="Season_4_Perm">Completa la spedizione del Lago congelato Mutazione 3</string>
 	<string key="ui_seasons_task_description_CraftCoatingT5" rel_version="Season_4_Perm">Produci {maxCount} rivestimenti per armi di L5 o superiore</string>
-	<string key="ui_seasons_task_description_KillIceVarangian" rel_version="Season_4_Perm">Uccidi {maxCount} Variaghi glaciali</string>
+	<string key="ui_seasons_task_description_KillIceVarangian" rel_version="Season_4_Perm">Uccidi {maxCount} Variaghi ghiacciati</string>
 	<string key="ui_seasons_task_description_CompleteHatchery" rel_version="Season_4_Perm">Completa la prova dell'incubatrice {maxCount} volte</string>
 	<string key="ui_seasons_task_description_CompleteMutation" rel_version="Season_4_Perm">Completa {maxCount} spedizioni mutate</string>
 	<string key="ui_seasons_task_description_CraftPrismaticScarabSingle" rel_version="Season_4_Perm">Produci un oggetto usando uno Scarabeo prismatico</string>
-	<string key="ui_seasons_task_description_KillFrostAncient" rel_version="Season_4_Perm">Uccidi {maxCount} Antichi congelati</string>
+	<string key="ui_seasons_task_description_KillFrostAncient" rel_version="Season_4_Perm">Uccidi {maxCount} elementali degli Antichi</string>
 	<string key="ui_seasons_task_description_CraftGS650" rel_version="Season_4_Perm">Produci {maxCount} pezzi di attrezzatura da PA 650 o superiore</string>
 	<string key="ui_seasons_task_description_FactionTokens" rel_version="Season_4_Perm">Guadagna {maxCount} gettoni della fazione</string>
 	<string key="ui_seasons_task_description_CompleteM3Expedition" rel_version="Season_4_Perm">Completa {maxCount} spedizioni Mutazione 3</string>
@@ -691,6 +700,7 @@
 	<string key="ui_seasons_task_description_Quest_FightMage" rel_version="Season_4_Perm">Completa la missione: Il mago</string>
 	<string key="ui_seasons_task_description_Quest_StopDevice" rel_version="Season_4_Perm">Completa la missione: Gelo eterno</string>
 	<string key="ui_seasons_task_description_Quest_WrapFrost" rel_version="Season_4_Perm">Completa la missione: Da cliente a corvo</string>
+	<string key="ui_seasons_task_description_CraftArtifactUpgrade" rel_version="Season_4_Perm">Migliora {maxCount} oggetti speciali a 700 PA</string>
 	<string key="ui_seasons_task_name_Challenge_Aptitude" rel_version="Season_4_Perm">Fan della perizia</string>
 	<string key="ui_seasons_task_name_Challenge_M3Expeditions" rel_version="Season_4_Perm">Massimizzatore delle mutazioni</string>
 	<string key="ui_seasons_task_name_Challenge_S4Storyline" rel_version="Season_4_Perm">Combattente del gelo</string>
@@ -699,18 +709,20 @@
 	<string key="ui_seasons_task_name_Challenge_S4Completionist" rel_version="Season_4_Perm">Completista del Gelo eterno</string>
 	<string key="ui_seasons_task_name_Challenge_KillNamedElite65" rel_version="Season_4_Perm">Uccisore di leggende</string>
 	<string key="ui_seasons_task_name_Challenge_MountRaces" rel_version="Season_4_Perm">Velocità incarnata</string>
+	<string key="ui_seasons_task_name_Challenge_FlawlessGlacialTarn" rel_version="Season_4_Perm">Divinità glaciale</string>
 	<string key="ui_seasons_task_name_Challenge_LootElite" rel_version="Season_4_Perm">Bottino sterminato</string>
-	<string key="ui_seasons_task_name_Challenge_KillPlayers" rel_version="Season_4_Perm">Predatore di giocatori</string>
+	<string key="ui_seasons_task_name_Challenge_KillPlayers" rel_version="Season_4_Perm">Killer glaciale</string>
 	<string key="ui_seasons_task_description_Challenge_Aptitude" rel_version="Season_4_Perm">Ottieni {maxCount} livelli di perizia nella competenza</string>
 	<string key="ui_seasons_task_description_Challenge_M3Expeditions" rel_version="Season_4_Perm">Completa {maxCount} spedizioni Mutazione 3</string>
 	<string key="ui_seasons_task_description_Challenge_S4Storyline" rel_version="Season_4_Perm">Completa la storia della Stagione 4</string>
-	<string key="ui_seasons_task_description_Challenge_T52Resources" rel_version="Season_4_Perm">Raccogli da 500 Filoni di risorse di L5.2</string>
+	<string key="ui_seasons_task_description_Challenge_T52Resources" rel_version="Season_4_Perm">Raccogli minerale di mithril, legno runico, fibra vitaspina o pelle scura {maxCount} volte</string>
 	<string key="ui_seasons_task_description_Challenge_CraftGS700_2" rel_version="Season_4_Perm">Produci {maxCount} pezzi di attrezzatura di PA 700</string>
 	<string key="ui_seasons_task_description_Challenge_S4Completionist" rel_version="Season_4_Perm">Completa {maxCount} Incarichi viaggio della Stagione 4</string>
 	<string key="ui_seasons_task_description_Challenge_KillNamedElite65" rel_version="Season_4_Perm">Uccidi {maxCount} nemici d'élite di L65 o superiore</string>
 	<string key="ui_seasons_task_description_Challenge_MountRaces" rel_version="Season_4_Perm">Completa {maxCount} gare di cavalcature</string>
 	<string key="ui_seasons_task_description_Challenge_LootElite" rel_version="Season_4_Perm">Saccheggia {maxCount} forzieri élite</string>
 	<string key="ui_seasons_task_description_Challenge_KillPlayers" rel_version="Season_4_Perm">Uccidi {maxCount} giocatori in PvP</string>
+	<string key="ui_seasons_task_description_Challenge_FlawlessGlacialTarn" rel_version="Season_4_Perm">Completa Lago congelato in modo impeccabile (senza mai morire) {maxCount} volte</string>
 	<string key="ui_seasons_wild_stamp_count" rel_version="Feature_Seasons_Rewards">&lt;img src="LyShineUI/Images/SeasonsRewards/Wild-Stamp-Icon-Small" scale="2" yOffset="7"&gt;&lt;/img&gt; Timbri selvatici: {count}</string>
 	<string key="ui_seasons_wild_stamp_count_and_max" rel_version="Feature_Seasons_Rewards">&lt;img src="LyShineUI/Images/SeasonsRewards/Wild-Stamp-Icon-Small" scale="2" yOffset="7"&gt;&lt;/img&gt; Timbri selvatici: {count}/{max}</string>
 	<string key="ui_seasons_wild_stamp_awarded_header" rel_version="Feature_Seasons_Rewards">Bonus timbri selvatici</string>
@@ -740,5 +752,12 @@
 	<string key="SeasonsActivities_CompleteSavageDivide" rel_version="Feature_Seasons_Rewards">Completa una volta Divisione incivile</string>
 	<string key="SeasonsActivities_GatherSporePlant" rel_version="Feature_Seasons_Rewards">Raccogli da un baccello di spore</string>
 	<string key="SeasonsActivities_CompleteAnyRace" rel_version="Feature_Seasons_Rewards">Completa una gara di cavalcature</string>
+	<string key="SeasonsActivities_KillGreatCleave" rel_version="Feature_Seasons_Rewards">Uccidi nemici a Grande Breccia</string>
+	<string key="SeasonsActivities_KillNamedGreatCleave" rel_version="Feature_Seasons_Rewards">Uccidi nemici speciali a Grande Breccia</string>
+	<string key="SeasonsActivities_CompleteGlacialTarn" rel_version="Feature_Seasons_Rewards">Completa una volta il Lago congelato</string>
+	<string key="SeasonsActivities_KillIceVarangian" rel_version="Season_4_Perm">Uccidi Variaghi ghiacciati</string>
+	<string key="SeasonsActivities_KillFrostAncient" rel_version="Season_4_Perm">Uccidi elementali degli Antichi</string>
+	<string key="ui_seasons_task_placeholder_name" rel_version="Feature_Seasons_Rewards">PLACEHOLDER</string>
+	<string key="ui_seasons_task_placeholder_desc" rel_version="Feature_Seasons_Rewards">PLACEHOLDER</string>
 </resources>
 

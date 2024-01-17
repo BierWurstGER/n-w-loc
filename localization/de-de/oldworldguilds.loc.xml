@@ -432,13 +432,13 @@
 	<string key="FactionMission_C_EXPEDITIONLOOT_desc">Begib dich für das Bündnis nach {POITags} und sammle dort alle &lt;font color="#eaeaea"&gt;{itemName}&lt;/font&gt;.\n\n &lt;font color="#eaeaea"&gt;(Expedition)&lt;/font&gt;</string>
 	<string key="FactionMission_ASSASSINATE_title">Kopfgeld: {POITags}</string>
 	<string key="FactionMission_ASSASSINATE_desc">&lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; muss für die Marodeure beseitigt werden.\n\nBeweise deine Tapferkeit, indem du {POITags} betrittst und sie dort aufspürst und tötest.</string>
-	<string key="FactionMission_M_ASSASSINATE_NIGHT_desc">The Marauders need &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; removed from the theater.\n\nProve your valor by tracking them down in {POITags} and destroying them.\n\n&lt;font color="#eaeaea"&gt;Can only be completed at Night.&lt;/font&gt;</string>
+	<string key="FactionMission_M_ASSASSINATE_NIGHT_desc">&lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; Muss für die Marodeure beseitigt werden.\n\nBeweise deine Tapferkeit, indem du {POITags} betrittst und sie dort aufspürst und tötest.\n\n&lt;font color="#eaeaea"&gt;Kann nur nachts abgeschlossen werden.&lt;/font&gt;</string>
 	<string key="FactionMission_S_ASSASSINATE_title">Meuchelmord: {POITags}</string>
 	<string key="FactionMission_S_ASSASSINATE_desc">&lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; muss für das Syndikat beseitigt werden.\n\nBeweise deine Raffinesse, indem du es in {POITags} aufspürst und tötest.</string>
-	<string key="FactionMission_S_ASSASSINATE_NIGHT_desc">The Syndicate has identified &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; to be a target for elimination.\n\nProve your cunning by tracking them down in {POITags} and destroying them.\n\n&lt;font color="#eaeaea"&gt;Can only be completed at Night.&lt;/font&gt;</string>
+	<string key="FactionMission_S_ASSASSINATE_NIGHT_desc">&lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; Muss für das Syndikat beseitigt werden.\n\nBeweise deine Raffinesse, indem du es in {POITags} aufspürst und tötest.\n\n&lt;font color="#eaeaea"&gt;Kann nur nachts abgeschlossen werden.&lt;/font&gt;</string>
 	<string key="FactionMission_C_ASSASSINATE_title">Zerschmettern: {POITags}</string>
 	<string key="FactionMission_C_ASSASSINATE_desc">&lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; muss für das Bündnis beseitigt werden.\n\nBeweise deine Hingabe, indem du es in {POITags} aufspürst und tötest.</string>
-	<string key="FactionMission_C_ASSASSINATE_NIGHT_desc">The Covenant has identified &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; to be eliminated.\n\nProve your devotion by tracking them down in {POITags} and destroying them.\n\n&lt;font color="#eaeaea"&gt;Can only be completed at Night.&lt;/font&gt;</string>
+	<string key="FactionMission_C_ASSASSINATE_NIGHT_desc">Der Gegner &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; muss für das Bündnis beseitigt werden.\n\nBeweise deine Hingabe, indem du ihn an folgendem Ort aufspürst und tötest: {POITags}.\n\n&lt;font color="#eaeaea"&gt;Kann nur nachts abgeschlossen werden.&lt;/font&gt;</string>
 	<string key="FactionMission_ASSASSINATE_ELITE_title">Kopfgeld: {POITags} (Elite)</string>
 	<string key="FactionMission_ASSASSINATE_ELITE_desc">&lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; muss für die Marodeure beseitigt werden.\n\nBeweise deine Tapferkeit, indem du {POITags} betrittst und sie dort aufspürst und tötest.\n&lt;font color="#eaeaea"&gt;(Elite)&lt;/font&gt;</string>
 	<string key="FactionMission_S_ASSASSINATE_ELITE_title">Meuchelmord: {POITags} (Elite)</string>
@@ -487,7 +487,7 @@
 	<string key="FactionMission_WARCAMP_LOOT_title">Aufklärungsarbeit (PvP)</string>
 	<string key="FactionMission_WARCAMP_LOOT_desc">Infiltriere das &lt;font color="#eaeaea"&gt;Kriegslager&lt;/font&gt; neben dem &lt;font color="#eaeaea"&gt;Fort {territoryID}&lt;/font&gt; und suche nach wertvollen Informationen.</string>
 	<string key="FactionMission_CONTROL_POINT_title">Erobern (PvP)</string>
-	<string key="FactionMission_CONTROL_POINT_desc">Take up arms to help the Marauders take control of the &lt;font color="#eaeaea"&gt;Fort&lt;/font&gt; or an &lt;font color="#eaeaea"&gt;Influence Watch&lt;/font&gt; (during Influence Races) at &lt;font color="#eaeaea"&gt;{territoryID}&lt;/font&gt;\n\n(This mission may not be completable at all times)</string>
+	<string key="FactionMission_CONTROL_POINT_desc">Greif zu den Waffen und hilf den Marodeuren, das &lt;font color="#eaeaea"&gt;Fort&lt;/font&gt; oder einen &lt;font color="#eaeaea"&gt;Einfluss-Wachturm&lt;/font&gt; (während Einflusswettläufen) in &lt;font color="#eaeaea"&gt;{territoryID}&lt;/font&gt; einzunehmen.\n\n(Diese Mission kann möglicherweise nicht zu jeder Zeit abgeschlossen werden.)</string>
 	<string key="FactionMission_S_WARCAMP_LOOT_title">Spionage (PvP)</string>
 	<string key="FactionMission_S_WARCAMP_LOOT_desc">Infiltriere das &lt;font color="#eaeaea"&gt;Kriegslager&lt;/font&gt; neben dem &lt;font color="#eaeaea"&gt;Fort {territoryID}&lt;/font&gt; und suche nach wertvollen Informationen.</string>
 	<string key="FactionMission_S_CONTROL_POINT_title">Einnehmen (PvP)</string>
@@ -554,17 +554,6 @@
 	<string key="CMissionAcquireWoodWorker">Erhalte und liefere &lt;font color="#eaeaea"&gt;{itemAmount} {itemName}&lt;/font&gt; von einer Holzwerkstatt.</string>
 	<string key="CMissionAcquireOutfitter">Erhalte und liefere &lt;font color="#eaeaea"&gt;{itemAmount} {itemName}&lt;/font&gt; von der Kleidermacherei.</string>
 	<string key="CMissionAcquireEngineer">Erhalte und liefere &lt;font color="#eaeaea"&gt;{itemAmount} {itemName}&lt;/font&gt; von der Werkstatt.</string>
-	<string key="CMissionAcquireBlock_Name_WC" rel_version="Event_WinterConvergence_Temp">Festliche Steinmetze gesucht</string>
-	<string key="CMissionAcquireTimber_Name_WC" rel_version="Event_WinterConvergence_Temp">Festliche Zimmermänner gesucht</string>
-	<string key="CMissionAcquireCloth_Name_WC" rel_version="Event_WinterConvergence_Temp">Festliche Weber gesucht</string>
-	<string key="CMissionAcquireMetal_Name_WC" rel_version="Event_WinterConvergence_Temp">Festliche Metallbauer gesucht</string>
-	<string key="CMissionAcquireFibers_Name_WC" rel_version="Event_WinterConvergence_Temp">Festliche Erntearbeiter gesucht</string>
-	<string key="CMissionAcquireFood_Name_WC" rel_version="Event_WinterConvergence_Temp">Festliche Köche gesucht</string>
-	<string key="CMissionAcquirePotions_Name_WC" rel_version="Event_WinterConvergence_Temp">Festliche Alchemisten gesucht</string>
-	<string key="CMissionAcquireGeneric_Name_WC" rel_version="Event_WinterConvergence_Temp">Festliche Vorräte gesucht</string>
-	<string key="CMissionAcquireWood_Name_WC" rel_version="Event_WinterConvergence_Temp">Festliche Holzfäller gesucht</string>
-	<string key="CMissionAcquireRawhide_Name_WC" rel_version="Event_WinterConvergence_Temp">Festliche Jäger gesucht</string>
-	<string key="CMissionAcquireLeather_Name_WC" rel_version="Event_WinterConvergence_Temp">Festliche Gerber gesucht</string>
 	<string key="ui_already_in_faction">Du befindest dich bereits in der Fraktion.</string>
 	<string key="ui_cant_switch_faction_pvp">Fraktionswechsel nicht möglich, wenn du für PvP markiert bist.</string>
 	<string key="ui_cant_switch_faction_azoth">Nicht genug Azoth</string>
