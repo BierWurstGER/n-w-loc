@@ -578,9 +578,9 @@
 	<string key="ui_okay">Ok</string>
 	<string key="ui_on">Sì</string>
 	<string key="ui_online">Online</string>
-	<string key="ui_online_inopr">CA tra mondi</string>
+	<string key="ui_online_inopr" comment="HighPri">Modalità tra mondi</string>
 	<string key="ui_onlineactivity">Attività online</string>
-	<string key="ui_in_cross_world_opr">CA tra mondi</string>
+	<string key="ui_in_cross_world_opr" comment="HighPri">Modalità tra mondi</string>
 	<string key="ui_opendoor">Apri porta</string>
 	<string key="ui_openjournal">Apri diario</string>
 	<string key="ui_openmap">Apri mappa</string>
@@ -1070,6 +1070,7 @@
 	<string key="ui_killfeed_tradeskill_val">+ {amount} </string>
 	<string key="ui_navmenu_friends">AMICI</string>
 	<string key="ui_navmenu_modes">Modalità</string>
+	<string key="ui_navmenu_activities" rel_version="Feature_PUG_Finder">Attività</string>
 	<string key="ui_navmenu_guild">Compagnia</string>
 	<string key="ui_navmenu_map">Mappa</string>
 	<string key="ui_navmenu_journal">Diario</string>
@@ -1142,6 +1143,7 @@
 	<string key="ui_constitution">Costituzione</string>
 	<string key="ui_respec">Riassegnazione</string>
 	<string key="ui_respec_attributes">Riaccredita tutti i punti Attributo</string>
+	<string key="ui_cannot_respec_attributes_during_combat">Impossibile riassegnare gli Attributi durante il combattimento</string>
 	<string key="ui_respec_mastery">Riaccredita tutti i punti Maestria</string>
 	<string key="ui_base">Base</string>
 	<string key="ui_health">Salute</string>
@@ -2871,6 +2873,5 @@
 	<string key="ui_sort_by_price_high">Ordina per prezzo: decrescente</string>
 	<string key="ui_requirements">Requisiti</string>
 	<string key="ui_external_rewards">Ricompense eterne</string>
-	<string key="ui_cannot_respec_attributes_during_combat">Impossibile riassegnare gli Attributi durante il combattimento</string>
 </resources>
 

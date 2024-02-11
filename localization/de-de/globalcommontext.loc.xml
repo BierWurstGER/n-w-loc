@@ -578,9 +578,9 @@
 	<string key="ui_okay">Okay</string>
 	<string key="ui_on">An</string>
 	<string key="ui_online">Online</string>
-	<string key="ui_online_inopr">Weltübergreifender APS</string>
+	<string key="ui_online_inopr" comment="HighPri">Weltübergreifender Modus</string>
 	<string key="ui_onlineactivity">Onlineaktivität</string>
-	<string key="ui_in_cross_world_opr">Weltübergreifender APS</string>
+	<string key="ui_in_cross_world_opr" comment="HighPri">Weltübergreifender Modus</string>
 	<string key="ui_opendoor">Tür öffnen</string>
 	<string key="ui_openjournal">Tagebuch öffnen</string>
 	<string key="ui_openmap">Karte öffnen</string>
@@ -1070,6 +1070,7 @@
 	<string key="ui_killfeed_tradeskill_val">+ {amount}</string>
 	<string key="ui_navmenu_friends">FREUNDE</string>
 	<string key="ui_navmenu_modes">Modi</string>
+	<string key="ui_navmenu_activities" rel_version="Feature_PUG_Finder">Aktivitäten</string>
 	<string key="ui_navmenu_guild">Kompanie</string>
 	<string key="ui_navmenu_map">Karte</string>
 	<string key="ui_navmenu_journal">Tagebuch</string>
@@ -1142,6 +1143,7 @@
 	<string key="ui_constitution">Konstitution</string>
 	<string key="ui_respec">Werte ändern</string>
 	<string key="ui_respec_attributes">Alle Attributspunkte erstatten</string>
+	<string key="ui_cannot_respec_attributes_during_combat">Attribute können im Kampf nicht geändert werden.</string>
 	<string key="ui_respec_mastery">Alle Meisterschaftspunkte erstatten</string>
 	<string key="ui_base">Grundwert</string>
 	<string key="ui_health">Gesundheit</string>
@@ -2871,6 +2873,5 @@
 	<string key="ui_sort_by_price_high">Nach Preis sortieren: Absteigend</string>
 	<string key="ui_requirements">Erforderlich</string>
 	<string key="ui_external_rewards">Externe Belohnungen</string>
-	<string key="ui_cannot_respec_attributes_during_combat">Attribute können im Kampf nicht geändert werden.</string>
 </resources>
 

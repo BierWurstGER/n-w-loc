@@ -151,6 +151,7 @@
 	<string key="ui_news_bullet_resources">Rohstoffe</string>
 	<string key="ui_news_bullet_mounts" rel_version="Feature_Mounts">Reittiere</string>
 	<string key="ui_news_bullet_mount_skins" rel_version="Feature_Mounts">Reittier-Skins</string>
+	<string key="ui_news_bullet_mount_attachments" rel_version="Feature_Mounts">Reittieranhänge</string>
 	<string key="ui_news_bullet_artifact" rel_version="Feature_Artifacts">Artefakt</string>
 	<string key="ui_news_bullet_artifacts" rel_version="Feature_Artifacts">Artefakte</string>
 	<string key="ui_news_bullet_transmog_tokens" rel_version="Season_2_Perm">Transmog-Marken</string>
@@ -163,12 +164,6 @@
 	<string key="ui_event_feb_mtx_bullet1" rel_version="Entitlements_OmensOfWinter">Skins</string>
 	<string key="ui_event_feb_mtx_bullet2" rel_version="Entitlements_OmensOfWinter">Emotes</string>
 	<string key="ui_event_feb_mtx_button_about" rel_version="Entitlements_OmensOfWinter">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Über Winteromen</string>
-	<string key="ui_event_legacy_of_crassus_tabname" rel_version="Event_February_Temp">Crassus' Vermächtnis</string>
-	<string key="ui_event_legacy_of_crassus_title" rel_version="Event_February_Temp">Crassus' Vermächtnis</string>
-	<string key="ui_event_legacy_of_crassus_description" rel_version="Event_February_Temp">Die Macht Roms bedroht Aeternum! Bringe Crassus' monströse Hauptmänner Decimus und Lucanus zur Strecke und banne den drohenden Schatten der römischen Tyrannei. Sammle neben den Belohnungen für den Sieg über diese Barbaren in Lichtholz, Webermoor, Klagental, Ebenmaß und Edenhain tägliche Belohnungen.</string>
-	<string key="ui_event_legacy_of_crassus_about" rel_version="Event_February_Temp">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Über Crassus' Vermächtnis</string>
-	<string key="ui_event_legacy_of_crassus_bullet1" rel_version="Event_February_Temp">Tägliche Waffen</string>
-	<string key="ui_event_legacy_of_crassus_bullet2" rel_version="Event_February_Temp">Tägliche Rüstungsteile</string>
 	<string key="ui_event_empyrean_forge_tabname" rel_version="Expedition_GreatCleave_01">Empyreum-Schmiede</string>
 	<string key="ui_event_empyrean_forge_title" rel_version="Expedition_GreatCleave_01">Empyreum-Schmiede</string>
 	<string key="ui_event_empyrean_forge_description" rel_version="Expedition_GreatCleave_01">Legendäre Gießerei, in der die Ahnen verheerende Kriegsmaschinen geschmiedet haben. Wer auf Macht aus ist, hat es auf die uralte Magie dieser gewaltigen Ruinen abgesehen.</string>
@@ -334,14 +329,30 @@
 	<string key="ui_event_glacial_tarn_title" rel_version="Expedition_GreatCleave_00">Gletschersee</string>
 	<string key="ui_event_glacial_tarn_description" rel_version="Expedition_GreatCleave_00">Urzeitliche Eisgestalten sind in der Tiefen Schlucht aufgetaucht, herbeigelockt von den grausigen Experimenten von Ser Loth! Steige hinab in die frostigen Tiefen des Gletschersees, wo uralte und mächtige Elementarmagie auf dich wartet. Bahne dir mit Hilfe der Empyreum-Flamme deinen Weg durch eine Lawine an Feinden, um dem Treiben des dunklen Magiers endgültig ein Ende zu setzen!</string>
 	<string key="ui_event_glacial_tarn_about" rel_version="Expedition_GreatCleave_00">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Über den Gletschersee</string>
-	<string key="ui_event_legacy_of_crassus_2024_bullet2">Decimus-Statue</string>
-	<string key="ui_event_legacy_of_crassus_2024_title">Crassus' Vermächtnis</string>
-	<string key="ui_event_legacy_of_crassus_2024_description">Crassus ist zurückgekehrt und hat Legionen von Monstern mitgebracht! Kämpfe mit deinen Kameraden gegen die brutalen Zenturios Decimus und Lucanus in Lichtholz, Klagental, Webermoor, Edenhain und Ebenmaß. Wehrt den römischen Ansturm ab und besiegt die dunkle Klaue der Verderbnis, um euch Ruhm, Ehre und zeitlich begrenzte Belohnungen zu sichern!</string>
-	<string key="ui_event_legacy_of_crassus_2024_bullet1">Spitzhacke der Legion</string>
-	<string key="ui_event_legacy_of_crassus_2024_bullet3">Lucanus-Statue</string>
-	<string key="ui_event_legacy_of_crassus_2024_about">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Über Crassus' Vermächtnis</string>
-	<string key="ui_event_jan_2024_mtx_title">Ronin – Teil II</string>
-	<string key="ui_event_jan_2024_mtx_description">Der Schatten der Ronin erstreckt sich weit über das Land! Schau jetzt im Laden nach und entdecke neue Samurai-Gegenstände!</string>
-	<string key="ui_event_jan_2024_mtx_about">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Über Ronin – Teil II</string>
+	<string key="ui_event_legacy_of_crassus_2024_title" rel_version="Event_Legacy_Of_Crassus2024">Crassus' Vermächtnis</string>
+	<string key="ui_event_legacy_of_crassus_2024_description" rel_version="Event_Legacy_Of_Crassus2024">Crassus ist zurückgekehrt und hat Legionen von Monstern mitgebracht! Kämpfe mit deinen Kameraden gegen die brutalen Zenturios Decimus und Lucanus in Lichtholz, Klagental, Webermoor, Edenhain und Ebenmaß. Wehrt den römischen Ansturm ab und besiegt die dunkle Klaue der Verderbnis, um euch Ruhm, Ehre und zeitlich begrenzte Belohnungen zu sichern!</string>
+	<string key="ui_event_legacy_of_crassus_2024_bullet1" rel_version="Event_Legacy_Of_Crassus2024">Spitzhacke der Legion</string>
+	<string key="ui_event_legacy_of_crassus_2024_bullet2" rel_version="Event_Legacy_Of_Crassus2024">Decimus-Statue</string>
+	<string key="ui_event_legacy_of_crassus_2024_bullet3" rel_version="Event_Legacy_Of_Crassus2024">Lucanus-Statue</string>
+	<string key="ui_event_legacy_of_crassus_2024_about" rel_version="Event_Legacy_Of_Crassus2024">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Über Crassus' Vermächtnis</string>
+	<string key="ui_event_jan_2024_mtx_title" rel_version="Entitlements_Ronin">Ronin – Teil II</string>
+	<string key="ui_event_jan_2024_mtx_description" rel_version="Entitlements_Ronin">Der Schatten der Ronin erstreckt sich weit über das Land! Schau jetzt im Laden nach und entdecke neue Samurai-Gegenstände!</string>
+	<string key="ui_event_jan_2024_mtx_about" rel_version="Entitlements_Ronin">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Über Ronin – Teil II</string>
+	<string key="ui_event_year_of_the_dragon_title" rel_version="Event_Lunar_NewYear2024_Perm">Jahr des Drachen</string>
+	<string key="ui_event_year_of_the_dragon_description" rel_version="Event_Lunar_NewYear2024_Perm">Feiere das Mondneujahr mit den Einwohnern von Ebenmaß. Koche schmackhaftes Essen im Feuertopf, genieße das spektakuläre Feuerwerk in den Abendstunden und schließe Missionen für Tribute ab, um den Drachensegen für das Jahr des Drachen zu erlangen.</string>
+	<string key="ui_event_year_of_the_dragon_bullet2" rel_version="Event_Lunar_NewYear2024_Perm">Dunkelmaterie</string>
+	<string key="ui_event_year_of_the_dragon_bullet3" rel_version="Event_Lunar_NewYear2024_Perm">Feuertopf</string>
+	<string key="ui_event_year_of_the_dragon_about" rel_version="Event_Lunar_NewYear2024_Perm">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Über das Jahr des Drachen</string>
+	<string key="ui_event_feb_2024_mtx_title" rel_version="Entitlements_WinterMerc">Wintersöldner</string>
+	<string key="ui_event_feb_2024_mtx_description" rel_version="Entitlements_WinterMerc">Der Wintersöldner ist ein furchterregender Gegner! Er besitzt ein Herz, das so kalt wie die vereiste Landschaft ist, und den Willen, unter Bedingungen zu kämpfen, die für andere unerträglich wären. Decke dich passend zu den Wintermonaten mit den neuen im Shop erhältlichen Kleidungsgegenständen ein!</string>
+	<string key="ui_event_feb_2024_mtx_about" rel_version="Entitlements_WinterMerc">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Über den Wintersöldner</string>
+	<string key="ui_event_activity_finder_tabname" rel_version="Feature_PUG_Finder">Aktivitäten</string>
+	<string key="ui_event_activity_finder_title" rel_version="Feature_PUG_Finder">Aktivitätenfinder</string>
+	<string key="ui_event_activity_finder_description" rel_version="Feature_PUG_Finder">Der neue Aktivitätenfinder bietet jetzt weltübergreifende Expeditionen und eine verbesserte Gruppensuche. Schau sie dir im neuen Aktivitätenmenü an.\n\nNeue Inhalte:</string>
+	<string key="ui_event_activity_finder_description_bullet1" rel_version="Feature_PUG_Finder">Weltübergreifende Expeditionssuche</string>
+	<string key="ui_event_activity_finder_description_bullet2" rel_version="Feature_PUG_Finder">Weltübergreifende Spielersuche füllt Gruppen für normale und mutierte Expeditionen (Nur M1 und M2)</string>
+	<string key="ui_event_activity_finder_description_bullet3" rel_version="Feature_PUG_Finder">Bonusbelohnungen beim Einreihen in die Warteschlange für "Zufällig" und als Heiler oder Tank</string>
+	<string key="ui_event_activity_finder_description_bullet4" rel_version="Feature_PUG_Finder">Automatisches Auffüllen von weltübergreifenden Gruppen</string>
+	<string key="ui_event_activity_finder_about" rel_version="Feature_PUG_Finder">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Über Aktivitäten</string>
 </resources>
 

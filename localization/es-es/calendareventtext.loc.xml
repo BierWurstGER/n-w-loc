@@ -151,6 +151,7 @@
 	<string key="ui_news_bullet_resources">Recursos</string>
 	<string key="ui_news_bullet_mounts" rel_version="Feature_Mounts">Monturas</string>
 	<string key="ui_news_bullet_mount_skins" rel_version="Feature_Mounts">Diseños de montura</string>
+	<string key="ui_news_bullet_mount_attachments" rel_version="Feature_Mounts">Accesorios de montura</string>
 	<string key="ui_news_bullet_artifact" rel_version="Feature_Artifacts">Artefacto</string>
 	<string key="ui_news_bullet_artifacts" rel_version="Feature_Artifacts">Artefactos</string>
 	<string key="ui_news_bullet_transmog_tokens" rel_version="Season_2_Perm">Blasones de transformación</string>
@@ -163,12 +164,6 @@
 	<string key="ui_event_feb_mtx_bullet1" rel_version="Entitlements_OmensOfWinter">Diseños</string>
 	<string key="ui_event_feb_mtx_bullet2" rel_version="Entitlements_OmensOfWinter">Gestos</string>
 	<string key="ui_event_feb_mtx_button_about" rel_version="Entitlements_OmensOfWinter">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Sobre Presagio invernal</string>
-	<string key="ui_event_legacy_of_crassus_tabname" rel_version="Event_February_Temp">Legado de Craso</string>
-	<string key="ui_event_legacy_of_crassus_title" rel_version="Event_February_Temp">Legado de Craso</string>
-	<string key="ui_event_legacy_of_crassus_description" rel_version="Event_February_Temp">¡El poder de Roma es una amenaza para Aetérnum! Acaba con los monstruosos capitanes del general Craso, Décimo y Lucano, y elimina la sombra de la tiranía de Roma. Consigue recompensas diarias además de las recompensas por acabar con estos despiadados mercenarios en el Bosque Luminoso, la Ciénaga de los Tejedores, el Valle del Pesar, los Altos de Escamanegra y la Arboleda del Edén.</string>
-	<string key="ui_event_legacy_of_crassus_about" rel_version="Event_February_Temp">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Sobre Legado de Craso</string>
-	<string key="ui_event_legacy_of_crassus_bullet1" rel_version="Event_February_Temp">Armas diarias</string>
-	<string key="ui_event_legacy_of_crassus_bullet2" rel_version="Event_February_Temp">Piezas de armadura diarias</string>
 	<string key="ui_event_empyrean_forge_tabname" rel_version="Expedition_GreatCleave_01">Fragua empírea</string>
 	<string key="ui_event_empyrean_forge_title" rel_version="Expedition_GreatCleave_01">Fragua empírea</string>
 	<string key="ui_event_empyrean_forge_description" rel_version="Expedition_GreatCleave_01">Fundición legendaria donde los antiguos forjaban sus devastadores mecanismos de guerra. Los ávidos de poder ansían que la magia siniestra se desate en estas ruinas colosales.</string>
@@ -334,14 +329,30 @@
 	<string key="ui_event_glacial_tarn_title" rel_version="Expedition_GreatCleave_00">Lago glaciar</string>
 	<string key="ui_event_glacial_tarn_description" rel_version="Expedition_GreatCleave_00">Fuerzas gélidas primordiales han salido a la luz en la Gran Grieta, invocadas por los perversos experimentos de sir Lot. Adéntrate en las profundidades heladas del lago glaciar, donde una poderosa y antigua magia elemental aguarda. ¡Utiliza el poder del fuego empíreo para abrirte paso luchando a través de la ofensiva glacial y acaba con las maquinaciones del mago oscuro de una vez por todas!</string>
 	<string key="ui_event_glacial_tarn_about" rel_version="Expedition_GreatCleave_00">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Sobre el Lago Glaciar</string>
-	<string key="ui_event_legacy_of_crassus_2024_bullet2">Estatua de Décimo</string>
-	<string key="ui_event_legacy_of_crassus_2024_title">Legado de Craso</string>
-	<string key="ui_event_legacy_of_crassus_2024_description">¡Craso vuelve con su monstruosa legión a rastras! Reúne a tus fuerzas y lucha contra los brutales capitanes Décimo y Lucano en el Bosque Luminoso, el Valle del Pesar, la Ciénaga de los Tejedores, la Arboleda del Edén y los Altos de Escamanegra. Repele el ataque de los romanos y derrota a las oscuras huestes de la corrupción para conseguir honor, gloria y recompensas por tiempo limitado.</string>
-	<string key="ui_event_legacy_of_crassus_2024_bullet1">Piqueta de la legión</string>
-	<string key="ui_event_legacy_of_crassus_2024_bullet3">Estatua de Lucano</string>
-	<string key="ui_event_legacy_of_crassus_2024_about">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Sobre Legado de Craso</string>
-	<string key="ui_event_jan_2024_mtx_title">Ronin parte II</string>
-	<string key="ui_event_jan_2024_mtx_description">¡La sombra del ronin se extiende más lejos sobre tierra! ¡Echa un vistazo a los nuevos objetos con temática samuráis en la tienda!</string>
-	<string key="ui_event_jan_2024_mtx_about">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Sobre Ronin parte II</string>
+	<string key="ui_event_legacy_of_crassus_2024_title" rel_version="Event_Legacy_Of_Crassus2024">Legado de Craso</string>
+	<string key="ui_event_legacy_of_crassus_2024_description" rel_version="Event_Legacy_Of_Crassus2024">¡Craso vuelve con su monstruosa legión a rastras! Reúne a tus fuerzas y lucha contra los brutales capitanes Décimo y Lucano en el Bosque Luminoso, el Valle del Pesar, la Ciénaga de los Tejedores, la Arboleda del Edén y los Altos de Escamanegra. Repele el ataque de los romanos y derrota a las oscuras huestes de la corrupción para conseguir honor, gloria y recompensas por tiempo limitado.</string>
+	<string key="ui_event_legacy_of_crassus_2024_bullet1" rel_version="Event_Legacy_Of_Crassus2024">Piqueta de la legión</string>
+	<string key="ui_event_legacy_of_crassus_2024_bullet2" rel_version="Event_Legacy_Of_Crassus2024">Estatua de Décimo</string>
+	<string key="ui_event_legacy_of_crassus_2024_bullet3" rel_version="Event_Legacy_Of_Crassus2024">Estatua de Lucano</string>
+	<string key="ui_event_legacy_of_crassus_2024_about" rel_version="Event_Legacy_Of_Crassus2024">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Sobre Legado de Craso</string>
+	<string key="ui_event_jan_2024_mtx_title" rel_version="Entitlements_Ronin">Ronin parte II</string>
+	<string key="ui_event_jan_2024_mtx_description" rel_version="Entitlements_Ronin">¡La sombra del ronin se extiende más lejos sobre tierra! ¡Echa un vistazo a los nuevos objetos con temática samuráis en la tienda!</string>
+	<string key="ui_event_jan_2024_mtx_about" rel_version="Entitlements_Ronin">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Sobre Ronin parte II</string>
+	<string key="ui_event_year_of_the_dragon_title" rel_version="Event_Lunar_NewYear2024_Perm">Año del dragón</string>
+	<string key="ui_event_year_of_the_dragon_description" rel_version="Event_Lunar_NewYear2024_Perm">Celebra el Año Nuevo Lunar con los habitantes de Altos de Escamanegra. Prepara comidas deliciosas en la olla caliente, disfruta de los impresionantes fuegos artificiales nocturnos y rinde homenaje al dragón para recibir su bendición durante el año del dragón.</string>
+	<string key="ui_event_year_of_the_dragon_bullet2" rel_version="Event_Lunar_NewYear2024_Perm">Materia oscura</string>
+	<string key="ui_event_year_of_the_dragon_bullet3" rel_version="Event_Lunar_NewYear2024_Perm">Olla caliente</string>
+	<string key="ui_event_year_of_the_dragon_about" rel_version="Event_Lunar_NewYear2024_Perm">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Sobre el año del dragón</string>
+	<string key="ui_event_feb_2024_mtx_title" rel_version="Entitlements_WinterMerc">Mercenario invernal</string>
+	<string key="ui_event_feb_2024_mtx_description" rel_version="Entitlements_WinterMerc">De corazón frío como un prado helado y dispuesto a luchar por los demás en condiciones inaguantables, el mercenario invernal es un terrible enemigo. ¡Equípate para los meses de invierno con los nuevos objetos disponibles en la tienda!</string>
+	<string key="ui_event_feb_2024_mtx_about" rel_version="Entitlements_WinterMerc">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Sobre Mercenario invernal</string>
+	<string key="ui_event_activity_finder_tabname" rel_version="Feature_PUG_Finder">Actividades</string>
+	<string key="ui_event_activity_finder_title" rel_version="Feature_PUG_Finder">Buscador de actividades</string>
+	<string key="ui_event_activity_finder_description" rel_version="Feature_PUG_Finder">Ahora el nuevo buscador de actividades cuenta con expediciones de mundo múltiple y una experiencia de búsqueda de grupo mejorada. Echa un vistazo al nuevo menú de actividades y no te lo pierdas.\n\nLas últimas novedades incluyen lo siguiente:</string>
+	<string key="ui_event_activity_finder_description_bullet1" rel_version="Feature_PUG_Finder">Buscador de expediciones de mundo múltiple</string>
+	<string key="ui_event_activity_finder_description_bullet2" rel_version="Feature_PUG_Finder">Organizador de partidas de mundo múltiple que forma grupos para expediciones mutadas y normales (solo M1 y M2)</string>
+	<string key="ui_event_activity_finder_description_bullet3" rel_version="Feature_PUG_Finder">Recompensas por hacer cola para partidas aleatorias y para jugar como sanador o como tanque</string>
+	<string key="ui_event_activity_finder_description_bullet4" rel_version="Feature_PUG_Finder">Sustitución automática en grupos de mundo múltiple</string>
+	<string key="ui_event_activity_finder_about" rel_version="Feature_PUG_Finder">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Sobre Actividades</string>
 </resources>
 

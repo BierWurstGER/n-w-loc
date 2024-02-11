@@ -578,9 +578,9 @@
 	<string key="ui_okay">Está bien</string>
 	<string key="ui_on">SÍ</string>
 	<string key="ui_online">En línea</string>
-	<string key="ui_online_inopr">APR multimundo</string>
+	<string key="ui_online_inopr" comment="HighPri">Modo entre mundos</string>
 	<string key="ui_onlineactivity">Actividad en línea</string>
-	<string key="ui_in_cross_world_opr">APR multimundo</string>
+	<string key="ui_in_cross_world_opr" comment="HighPri">Modo entre mundos</string>
 	<string key="ui_opendoor">Abrir puerta</string>
 	<string key="ui_openjournal">Abrir diario</string>
 	<string key="ui_openmap">Abrir mapa</string>
@@ -1070,6 +1070,7 @@
 	<string key="ui_killfeed_tradeskill_val">+ {amount}</string>
 	<string key="ui_navmenu_friends">AMIGOS</string>
 	<string key="ui_navmenu_modes">Modos</string>
+	<string key="ui_navmenu_activities" rel_version="Feature_PUG_Finder">Actividades</string>
 	<string key="ui_navmenu_guild">Compañía</string>
 	<string key="ui_navmenu_map">Mapa</string>
 	<string key="ui_navmenu_journal">Diario</string>
@@ -1107,8 +1108,8 @@
 	<string key="ui_quitdesktoppopup_message">¿Confirmas que quieres salir al escritorio?</string>
 	<string key="ui_quitmainmenupopup_message">¿Confirmas que quieres salir al menú principal?</string>
 	<string key="ui_quitpopup_incombat_message" comment="Player is still in a combat situation and tries to log-out">Si sales luego de un combate reciente,\ntu cuerpo continuará durante &lt;font color="#ffd45f"&gt;[{timeremaining}]&lt;/font&gt; en el mundo.\n\n¿Quieres continuar?</string>
-	<string key="ui_quitpopup_criminal_message">Si sales mientras eres un criminal,\ntu cuerpo continuará durante [{timeremaining}] en el mundo.\n\n¿Quieres continuar?</string>
-	<string key="ui_quitpopup_murderer_message">Si sales mientras eres un asesino,\ntu cuerpo continuará durante [{timeremaining}] en el mundo.\n\n¿Quieres continuar?</string>
+	<string key="ui_quitpopup_criminal_message">Si sales mientras eres un criminal,\ntu cuerpo continuará durante &lt;font color="#ffd45f"&gt;[{timeremaining}]&lt;/font&gt; en el mundo.\n\n¿Quieres continuar?</string>
+	<string key="ui_quitpopup_murderer_message">Si sales mientras eres un asesino,\ntu cuerpo continuará durante &lt;font color="#ffd45f"&gt;[{timeremaining}]&lt;/font&gt; en el mundo.\n\n¿Quieres continuar?</string>
 	<string key="ui_crime_notification_title">ACCIÓN CRIMINAL</string>
 	<string key="ui_crime_assault">ASALTANTE</string>
 	<string key="ui_crime_vandalism">VÁNDALO</string>
@@ -1142,6 +1143,7 @@
 	<string key="ui_constitution">Constitución</string>
 	<string key="ui_respec">Reasignar</string>
 	<string key="ui_respec_attributes">Reembolsar todos los puntos de atributo</string>
+	<string key="ui_cannot_respec_attributes_during_combat">No se puede realizar una reasignación de atributos mientras estás en combate</string>
 	<string key="ui_respec_mastery">Reembolsar todos los puntos de dominio</string>
 	<string key="ui_base">Base</string>
 	<string key="ui_health">Salud</string>
@@ -2871,6 +2873,5 @@
 	<string key="ui_sort_by_price_high">Ordenar por precio: Del más alto al más bajo</string>
 	<string key="ui_requirements">Requisitos</string>
 	<string key="ui_external_rewards">Recompensas externas</string>
-	<string key="ui_cannot_respec_attributes_during_combat">No se puede realizar una reasignación de atributos mientras estás en combate</string>
 </resources>
 

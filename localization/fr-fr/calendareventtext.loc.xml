@@ -151,6 +151,7 @@
 	<string key="ui_news_bullet_resources">Ressources</string>
 	<string key="ui_news_bullet_mounts" rel_version="Feature_Mounts">Montures</string>
 	<string key="ui_news_bullet_mount_skins" rel_version="Feature_Mounts">Apparences de monture</string>
+	<string key="ui_news_bullet_mount_attachments" rel_version="Feature_Mounts">Accessoires de monture</string>
 	<string key="ui_news_bullet_artifact" rel_version="Feature_Artifacts">Artéfact</string>
 	<string key="ui_news_bullet_artifacts" rel_version="Feature_Artifacts">Artéfacts</string>
 	<string key="ui_news_bullet_transmog_tokens" rel_version="Season_2_Perm">Jetons de transmogrification</string>
@@ -163,12 +164,6 @@
 	<string key="ui_event_feb_mtx_bullet1" rel_version="Entitlements_OmensOfWinter">Apparences</string>
 	<string key="ui_event_feb_mtx_bullet2" rel_version="Entitlements_OmensOfWinter">Émotes</string>
 	<string key="ui_event_feb_mtx_button_about" rel_version="Entitlements_OmensOfWinter">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; À propos de l'augure hivernal</string>
-	<string key="ui_event_legacy_of_crassus_tabname" rel_version="Event_February_Temp">Héritage de Crassus</string>
-	<string key="ui_event_legacy_of_crassus_title" rel_version="Event_February_Temp">Héritage de Crassus</string>
-	<string key="ui_event_legacy_of_crassus_description" rel_version="Event_February_Temp">La toute-puissance de Rome menace Aeternum ! Traquez Decimus et Lucanus, les monstrueux capitaines de Crassus, et bannissez l'emprise de la tyrannie romaine. Récupérez des récompenses quotidiennes en plus des autres récompenses en éliminant ces brutes violentes à Boisclair, au marais des Trames, au Val des Larmes, au bief de Nerécaille et à Bois-Éden.</string>
-	<string key="ui_event_legacy_of_crassus_about" rel_version="Event_February_Temp">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; À propos de l'Héritage de Crassus</string>
-	<string key="ui_event_legacy_of_crassus_bullet1" rel_version="Event_February_Temp">Armes quotidiennes</string>
-	<string key="ui_event_legacy_of_crassus_bullet2" rel_version="Event_February_Temp">Parties d'armure quotidiennes</string>
 	<string key="ui_event_empyrean_forge_tabname" rel_version="Expedition_GreatCleave_01">FORGE EMPYRÉENNE</string>
 	<string key="ui_event_empyrean_forge_title" rel_version="Expedition_GreatCleave_01">FORGE EMPYRÉENNE</string>
 	<string key="ui_event_empyrean_forge_description" rel_version="Expedition_GreatCleave_01">Une fonderie légendaire où les Anciens forgeaient leurs redoutables machines de guerre. Celles et ceux qui sont avides de pouvoir convoitent la sombre magie qui sévit dans ces gigantesques ruines.</string>
@@ -334,14 +329,30 @@
 	<string key="ui_event_glacial_tarn_title" rel_version="Expedition_GreatCleave_00">Lac de glace</string>
 	<string key="ui_event_glacial_tarn_description" rel_version="Expedition_GreatCleave_00">Invoquées par sire Loth lors d'expériences démentes, des forces primordiales et glaciales ont émergé près de la grande Faille ! Plongez dans les profondeurs gelées du Lac de glace, où d'antiques et redoutables magies élémentaires vous attendent. Exploitez la puissance du feu empyréen pour vous frayer un chemin au cœur de l'assaut des glaces et mettez un terme définitif aux plans du mage noir !</string>
 	<string key="ui_event_glacial_tarn_about" rel_version="Expedition_GreatCleave_00">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; À propos du Lac de glace</string>
-	<string key="ui_event_legacy_of_crassus_2024_bullet2">Statue de Decimus</string>
-	<string key="ui_event_legacy_of_crassus_2024_title">Héritage de Crassus</string>
-	<string key="ui_event_legacy_of_crassus_2024_description">Crassus et sa légion monstrueuse sont de retour ! Ralliez vos forces et combattez les brutaux capitaines Decimus et Lucanus à Boisclair, au Val des Larmes, au marais des Trames, à Bois-Éden et au bief de Nerécaille. Repoussez l'assaut romain et triomphez de l'altération pour l'honneur, la gloire et des récompenses limitées dans le temps !</string>
-	<string key="ui_event_legacy_of_crassus_2024_bullet1">Pioche de la Légion</string>
-	<string key="ui_event_legacy_of_crassus_2024_bullet3">Statue de Lucanus</string>
-	<string key="ui_event_legacy_of_crassus_2024_about">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; À propos de l'Héritage de Crassus</string>
-	<string key="ui_event_jan_2024_mtx_title">Ronin 2e partie</string>
-	<string key="ui_event_jan_2024_mtx_description">L'ombre du ronin s'étend sur nos terres ! Visitez la boutique pour y récupérer des objets sur le thème des samouraïs !</string>
-	<string key="ui_event_jan_2024_mtx_about">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; À propos de Ronin 2e partie</string>
+	<string key="ui_event_legacy_of_crassus_2024_title" rel_version="Event_Legacy_Of_Crassus2024">Héritage de Crassus</string>
+	<string key="ui_event_legacy_of_crassus_2024_description" rel_version="Event_Legacy_Of_Crassus2024">Crassus et sa légion monstrueuse sont de retour ! Ralliez vos forces et combattez les brutaux capitaines Decimus et Lucanus à Boisclair, au Val des Larmes, au marais des Trames, à Bois-Éden et au bief de Nerécaille. Repoussez l'assaut romain et triomphez de l'altération pour l'honneur, la gloire et des récompenses limitées dans le temps !</string>
+	<string key="ui_event_legacy_of_crassus_2024_bullet1" rel_version="Event_Legacy_Of_Crassus2024">Pioche de la Légion</string>
+	<string key="ui_event_legacy_of_crassus_2024_bullet2" rel_version="Event_Legacy_Of_Crassus2024">Statue de Decimus</string>
+	<string key="ui_event_legacy_of_crassus_2024_bullet3" rel_version="Event_Legacy_Of_Crassus2024">Statue de Lucanus</string>
+	<string key="ui_event_legacy_of_crassus_2024_about" rel_version="Event_Legacy_Of_Crassus2024">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; À propos de l'Héritage de Crassus</string>
+	<string key="ui_event_jan_2024_mtx_title" rel_version="Entitlements_Ronin">Ronin 2e partie</string>
+	<string key="ui_event_jan_2024_mtx_description" rel_version="Entitlements_Ronin">L'ombre du ronin s'étend sur nos terres ! Visitez la boutique pour y récupérer des objets sur le thème des samouraïs !</string>
+	<string key="ui_event_jan_2024_mtx_about" rel_version="Entitlements_Ronin">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; À propos de Ronin 2e partie</string>
+	<string key="ui_event_year_of_the_dragon_title" rel_version="Event_Lunar_NewYear2024_Perm">L'année du Dragon</string>
+	<string key="ui_event_year_of_the_dragon_description" rel_version="Event_Lunar_NewYear2024_Perm">Célébrez le Nouvel An lunaire avec les résidents du bief de Nerécaille. Préparez des fondues délicieuses, admirez les feux d'artifice spectaculaires du soir, et terminez des courses de tribut pour recevoir la bénédiction du Dragon pendant l'année du Dragon.</string>
+	<string key="ui_event_year_of_the_dragon_bullet2" rel_version="Event_Lunar_NewYear2024_Perm">Matière noire</string>
+	<string key="ui_event_year_of_the_dragon_bullet3" rel_version="Event_Lunar_NewYear2024_Perm">Fondue</string>
+	<string key="ui_event_year_of_the_dragon_about" rel_version="Event_Lunar_NewYear2024_Perm">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; À propos de l'année du Dragon</string>
+	<string key="ui_event_feb_2024_mtx_title" rel_version="Entitlements_WinterMerc">Mercenaire de l'hiver</string>
+	<string key="ui_event_feb_2024_mtx_description" rel_version="Entitlements_WinterMerc">Avec un cœur aussi froid que les étendues glacées et une volonté de se battre dans des conditions que d'autres trouveraient insupportables, le mercenaire de l'hiver est un redoutable adversaire ! Habillez-vous pour supporter la rudesse de l'hiver avec les nouveaux objets disponibles dans la boutique !</string>
+	<string key="ui_event_feb_2024_mtx_about" rel_version="Entitlements_WinterMerc">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; À propos du mercenaire de l'hiver</string>
+	<string key="ui_event_activity_finder_tabname" rel_version="Feature_PUG_Finder">Activités</string>
+	<string key="ui_event_activity_finder_title" rel_version="Feature_PUG_Finder">Recherche d'activités</string>
+	<string key="ui_event_activity_finder_description" rel_version="Feature_PUG_Finder">La nouvelle recherche d'activités ajoute les expéditions intermondes ainsi que la recherche de groupes améliorée. Parcourez le nouveau menu d'activités pour la découvrir.\n\nInclut de nouvelles fonctionnalités :</string>
+	<string key="ui_event_activity_finder_description_bullet1" rel_version="Feature_PUG_Finder">Recherche d'expéditions intermondes</string>
+	<string key="ui_event_activity_finder_description_bullet2" rel_version="Feature_PUG_Finder">Système de matchmaking pour combler les groupes des expéditions normales et mutantes (M1 et M2 seulement)</string>
+	<string key="ui_event_activity_finder_description_bullet3" rel_version="Feature_PUG_Finder">Récompenses bonus en rejoignant une fille d'attente aléatoire et en endossant le rôle de guérisseur ou de tank.</string>
+	<string key="ui_event_activity_finder_description_bullet4" rel_version="Feature_PUG_Finder">Remplissage automatique des groupes intermondes</string>
+	<string key="ui_event_activity_finder_about" rel_version="Feature_PUG_Finder">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; À propos des activités</string>
 </resources>
 

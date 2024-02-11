@@ -151,6 +151,7 @@
 	<string key="ui_news_bullet_resources">Surowce</string>
 	<string key="ui_news_bullet_mounts" rel_version="Feature_Mounts">Wierzchowce</string>
 	<string key="ui_news_bullet_mount_skins" rel_version="Feature_Mounts">Skórki wierzchowców</string>
+	<string key="ui_news_bullet_mount_attachments" rel_version="Feature_Mounts">Dodatki dla wierzchowca</string>
 	<string key="ui_news_bullet_artifact" rel_version="Feature_Artifacts">Artefakt</string>
 	<string key="ui_news_bullet_artifacts" rel_version="Feature_Artifacts">Artefakty</string>
 	<string key="ui_news_bullet_transmog_tokens" rel_version="Season_2_Perm">Żetony przemiany</string>
@@ -163,12 +164,6 @@
 	<string key="ui_event_feb_mtx_bullet1" rel_version="Entitlements_OmensOfWinter">Skórki</string>
 	<string key="ui_event_feb_mtx_bullet2" rel_version="Entitlements_OmensOfWinter">Gesty</string>
 	<string key="ui_event_feb_mtx_button_about" rel_version="Entitlements_OmensOfWinter">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; O zimowych omenach</string>
-	<string key="ui_event_legacy_of_crassus_tabname" rel_version="Event_February_Temp">Dziedzictwo Krassusa</string>
-	<string key="ui_event_legacy_of_crassus_title" rel_version="Event_February_Temp">Dziedzictwo Krassusa</string>
-	<string key="ui_event_legacy_of_crassus_description" rel_version="Event_February_Temp">Potęga Rzymu zagraża Aeternum! Dorwij Decimusa i Lukana, potwornych kapitanów generała Krassusa, i przepędź złowrogi cień rzymskiej tyranii. Oprócz nagród za pokonanie tych okrutnych brutali możesz też odebrać dzienne nagrody w Lśniącej Kniei, na Tkackich Mokradłach, w Żałobnicy, Czarnej Łusce i Rajskim Gaju.</string>
-	<string key="ui_event_legacy_of_crassus_about" rel_version="Event_February_Temp">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; O Dziedzictwie Krassusa</string>
-	<string key="ui_event_legacy_of_crassus_bullet1" rel_version="Event_February_Temp">Dzienna broń</string>
-	<string key="ui_event_legacy_of_crassus_bullet2" rel_version="Event_February_Temp">Dzienne elementy pancerza</string>
 	<string key="ui_event_empyrean_forge_tabname" rel_version="Expedition_GreatCleave_01">Empirejska Kuźnia</string>
 	<string key="ui_event_empyrean_forge_title" rel_version="Expedition_GreatCleave_01">Empirejska Kuźnia</string>
 	<string key="ui_event_empyrean_forge_description" rel_version="Expedition_GreatCleave_01">Legendarna odlewnia, w której pradawni tworzyli niszczycielskie machiny wojenne. Pradawna moc skrywająca się w tych kolosalnych ruinach pociąga tych, którzy pałają żądzą władzy.</string>
@@ -334,14 +329,30 @@
 	<string key="ui_event_glacial_tarn_title" rel_version="Expedition_GreatCleave_00">Jezioro Lodowcowe</string>
 	<string key="ui_event_glacial_tarn_description" rel_version="Expedition_GreatCleave_00">W Wielkiej Wyrwie na powierzchnię wydostały się pierwotne siły lodu, wezwane przez sir Lotha w wyniku jego wynaturzonych eksperymentów! Zagłęb się w mroźne czeluście Jeziora Lodowcowego, gdzie czyha starożytna, potężna magia żywiołów. Okiełznaj potęgę empirejskiego płomienia, by przebić się przez najazd lodowych istot i raz na zawsze zakończyć knowania mrocznego maga!</string>
 	<string key="ui_event_glacial_tarn_about" rel_version="Expedition_GreatCleave_00">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; O Jeziorze Lodowcowym</string>
-	<string key="ui_event_legacy_of_crassus_2024_bullet2">Posąg Decimusa</string>
-	<string key="ui_event_legacy_of_crassus_2024_title">Dziedzictwo Krassusa</string>
-	<string key="ui_event_legacy_of_crassus_2024_description">Krassus powraca, a wraz z nim jego potworny legion! Zbierz swą armię i walcz z brutalnymi kapitanami Decimusem i Lukanem w Lśniącej Kniei, Żałobnicy, Rajskim Gaju, Czarnej Łusce i na Tkackich Mokradłach. Odeprzyj rzymski najazd i zwalcz mroczny chwyt skażenia w imię honoru, chwały i ograniczonych czasowo nagród!</string>
-	<string key="ui_event_legacy_of_crassus_2024_bullet1">Kilof legionu</string>
-	<string key="ui_event_legacy_of_crassus_2024_bullet3">Posąg Lukana</string>
-	<string key="ui_event_legacy_of_crassus_2024_about">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; O Dziedzictwie Krassusa</string>
-	<string key="ui_event_jan_2024_mtx_title">Ronin część II</string>
-	<string key="ui_event_jan_2024_mtx_description">Padający na ziemię cień ronina rośnie i wydłuża się! Zajrzyj do sklepu po nowe przedmioty dla samurajów!</string>
-	<string key="ui_event_jan_2024_mtx_about">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Ronin część II – informacje</string>
+	<string key="ui_event_legacy_of_crassus_2024_title" rel_version="Event_Legacy_Of_Crassus2024">Dziedzictwo Krassusa</string>
+	<string key="ui_event_legacy_of_crassus_2024_description" rel_version="Event_Legacy_Of_Crassus2024">Krassus powraca, a wraz z nim jego potworny legion! Zbierz swą armię i walcz z brutalnymi kapitanami Decimusem i Lukanem w Lśniącej Kniei, Żałobnicy, Rajskim Gaju, Czarnej Łusce i na Tkackich Mokradłach. Odeprzyj rzymski najazd i zwalcz mroczny chwyt skażenia w imię honoru, chwały i ograniczonych czasowo nagród!</string>
+	<string key="ui_event_legacy_of_crassus_2024_bullet1" rel_version="Event_Legacy_Of_Crassus2024">Kilof legionu</string>
+	<string key="ui_event_legacy_of_crassus_2024_bullet2" rel_version="Event_Legacy_Of_Crassus2024">Posąg Decimusa</string>
+	<string key="ui_event_legacy_of_crassus_2024_bullet3" rel_version="Event_Legacy_Of_Crassus2024">Posąg Lukana</string>
+	<string key="ui_event_legacy_of_crassus_2024_about" rel_version="Event_Legacy_Of_Crassus2024">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; O Dziedzictwie Krassusa</string>
+	<string key="ui_event_jan_2024_mtx_title" rel_version="Entitlements_Ronin">Ronin część II</string>
+	<string key="ui_event_jan_2024_mtx_description" rel_version="Entitlements_Ronin">Padający na ziemię cień ronina rośnie i wydłuża się! Zajrzyj do sklepu po nowe przedmioty dla samurajów!</string>
+	<string key="ui_event_jan_2024_mtx_about" rel_version="Entitlements_Ronin">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Ronin część II – informacje</string>
+	<string key="ui_event_year_of_the_dragon_title" rel_version="Event_Lunar_NewYear2024_Perm">Rok Smoka</string>
+	<string key="ui_event_year_of_the_dragon_description" rel_version="Event_Lunar_NewYear2024_Perm">Świętuj Księżycowy Nowy Rok razem z mieszkańcami Czarnej Łuski. Przyrządzaj pyszne, gorące potrawy w kociołku, podziwiaj spektakularne sztuczne ognie wieczorową porą i składaj daniny, by zyskać błogosławieństwo smoka podczas roku Smoka.</string>
+	<string key="ui_event_year_of_the_dragon_bullet2" rel_version="Event_Lunar_NewYear2024_Perm">Ciemna materia</string>
+	<string key="ui_event_year_of_the_dragon_bullet3" rel_version="Event_Lunar_NewYear2024_Perm">Gorący kociołek</string>
+	<string key="ui_event_year_of_the_dragon_about" rel_version="Event_Lunar_NewYear2024_Perm">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Informacje o roku Smoka</string>
+	<string key="ui_event_feb_2024_mtx_title" rel_version="Entitlements_WinterMerc">Zimowy Najemnik</string>
+	<string key="ui_event_feb_2024_mtx_description" rel_version="Entitlements_WinterMerc">Zimowy Najemnik ma lodowate serce i jest gotów walczyć w warunkach, których nie są w stanie znieść inni. To przeciwnik, z którym należy się liczyć! W sklepie są dostępne nowe przedmioty. Wyposaż się odpowiednio do pogody!</string>
+	<string key="ui_event_feb_2024_mtx_about" rel_version="Entitlements_WinterMerc">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Informacje o Zimowym Najemniku</string>
+	<string key="ui_event_activity_finder_tabname" rel_version="Feature_PUG_Finder">Aktywności</string>
+	<string key="ui_event_activity_finder_title" rel_version="Feature_PUG_Finder">Wyszukiwanie aktywności</string>
+	<string key="ui_event_activity_finder_description" rel_version="Feature_PUG_Finder">Nowa funkcja, wyszukiwanie aktywności, umożliwia branie udziału w ekspedycjach w trybie pomiędzy światami oraz usprawnia wyszukiwanie grupy. Sprawdź nowe menu Aktywności, by się z nią zapoznać.\n\nNowa zawartość obejmuje:</string>
+	<string key="ui_event_activity_finder_description_bullet1" rel_version="Feature_PUG_Finder">Wyszukiwanie ekspedycji pomiędzy światami</string>
+	<string key="ui_event_activity_finder_description_bullet2" rel_version="Feature_PUG_Finder">Dobieranie graczy pomiędzy światami pozwala kompletować grupy na normalne i zmutowane ekspedycje (tylko M1 i M2)</string>
+	<string key="ui_event_activity_finder_description_bullet3" rel_version="Feature_PUG_Finder">Dodatkowe nagrody za dołączenie do kolejki do losowej ekspedycji lub za granie jako uzdrowiciel lub obrońca</string>
+	<string key="ui_event_activity_finder_description_bullet4" rel_version="Feature_PUG_Finder">Automatyczne uzupełnianie grup graczy z różnych światów</string>
+	<string key="ui_event_activity_finder_about" rel_version="Feature_PUG_Finder">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Informacje o aktywnościach</string>
 </resources>
 
