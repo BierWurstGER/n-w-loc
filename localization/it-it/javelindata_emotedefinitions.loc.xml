@@ -60,7 +60,7 @@
 	<string key="ui_emote">Emote</string>
 	<string key="ui_emotes">Emote</string>
 	<string key="ui_emote_unavailable_reason">Questa emote è disponibile solo per {entitlementRequirements}</string>
-	<string key="ui_emote_unavailable">&lt;font color="#f25d5d"&gt;Questa emote non è disponibile.&lt;/font&gt;</string>
+	<string key="ui_emote_unavailable">&lt;font color="#ff7171"&gt;Questa emote non è disponibile.&lt;/font&gt;</string>
 	<string key="ui_emote_BlowKiss">Lancia un bacio</string>
 	<string key="ui_emote_PiratePose">Posa da pirata</string>
 	<string key="ui_emote_FingerWag">No no no</string>
@@ -530,9 +530,9 @@
 	<string key="ui_Emote_YouMeNow_description" rel_version="Season_3_Perm">Ce ne occuperemo subito!</string>
 	<string key="Emote_YouMeNow" rel_version="Season_3_Perm">{playerName} ti invita a entrare in azione!</string>
 	<string key="ui_Emote_YouMeNow">Tu, io, ORA!</string>
-	<string key="ui_Emote_CraneKick_description" rel_version="Emotes_Gothknight">Dai un calcio alla noia con i tuoi amici. Oppure dai una calcio ai tuoi amici. Vanno bene entrambe le cose.</string>
-	<string key="Emote_CraneKick" rel_version="Emotes_Gothknight">{playerName} esegue un calcio della gru impeccabile!</string>
-	<string key="ui_Emote_CraneKick" rel_version="Emotes_Gothknight">Calcio della gru</string>
+	<string key="ui_Emote_CraneKick_description">Dai un calcio alla noia con i tuoi amici. Oppure dai una calcio ai tuoi amici. Vanno bene entrambe le cose.</string>
+	<string key="Emote_CraneKick">{playerName} esegue un calcio della gru impeccabile!</string>
+	<string key="ui_Emote_CraneKick">Calcio della gru</string>
 	<string key="ui_Emote_PopTheBottle_name" rel_version="Event_WinterConvergence2023_Perm">Stappa la bottiglia</string>
 	<string key="ui_Emote_PopTheBottle_description" rel_version="Event_WinterConvergence2023_Perm">Festeggia le tue grandi vittorie! E anche quelle piccole.</string>
 	<string key="Emote_PopTheBottle" rel_version="Event_WinterConvergence2023_Perm">{playerName} stappa una bottiglia per festeggiare.</string>
@@ -564,5 +564,20 @@
 	<string key="ui_Emote_PlayDead_name">Finto morto</string>
 	<string key="ui_Emote_PlayDead_description">Ovviamente sta fingendo... Giusto?!?!?</string>
 	<string key="Emote_PlayDead">{playerName} ha tirato le cuoia... Probabilmente.</string>
+	<string key="ui_Emote_LolNo_name" rel_version="Entitlements_Reaper">LOL! No.</string>
+	<string key="ui_Emote_LolNo_description" rel_version="Entitlements_Reaper">Quando vedi qualcosa di così sbagliato che non puoi fare a meno di ridere.</string>
+	<string key="Emote_LolNo" rel_version="Entitlements_Reaper">{playerName} scoppia a ridere, poi dice un chiaro "no".</string>
+	<string key="ui_Emote_Shadowbox_description" rel_version="Season_5_Perm">Qualcuno ha detto che vuole metterti al tappeto!</string>
+	<string key="ui_Emote_Shadowbox_name" rel_version="Season_5_Perm">Shadowbox</string>
+	<string key="Emote_Shadowbox" rel_version="Season_5_Perm">{playerName} tira pugni a un bersaglio invisibile.</string>
+	<string key="ui_Emote_Walk_Wave_description" rel_version="Season_5_Perm">Oggi sei al centro dell'attenzione.</string>
+	<string key="ui_Emote_Walk_Wave_name" rel_version="Season_5_Perm">Saluto celebrativo</string>
+	<string key="Emote_Walk_Wave" rel_version="Season_5_Perm">{playerName} saluta la folla che ha intorno.</string>
+	<string key="ui_Emote_Walk_Torch_name">Camminata con fiaccola</string>
+	<string key="ui_Emote_Walk_Torch_description">Hai bisogno di vagare per la città con aria minacciosa? Abbiamo ciò che fa al caso tuo. </string>
+	<string key="Emote_Walk_Torch">{playerName} se ne va a zonzo con aria minacciosa, tenendo in mano la sua torcia. </string>
+	<string key="ui_Emote_GauntletThrow_name">Lancia il guanto</string>
+	<string key="ui_Emote_GauntletThrow_description">Lancia una sfida in grande stile con l'ausilio dell'intramontabile guanto. </string>
+	<string key="Emote_GauntletThrow">{playerName} lancia il guanto di sfida </string>
 </resources>
 

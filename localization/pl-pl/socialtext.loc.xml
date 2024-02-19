@@ -43,8 +43,8 @@
 	<string key="ui_chat_filter_global">Pokaż czat globalny.</string>
 	<string key="ui_chat_voiceChat">Czat głosowy</string>
 	<string key="ui_chat_GameMasterTag">MG</string>
-	<string key="ui_badge_gamemaster">&lt;font color="#ff9900" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Mistrz Gry&lt;/font&gt;\nCzłonek community team Amazona, który może pomóc w rozwiązaniu problemów</string>
-	<string key="ui_badge_criminal">&lt;font color="#f67272" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Przestępca&lt;/font&gt;\nTen gracz niedawno popełnił zbrodnię przeciwko innemu graczowi</string>
+	<string key="ui_badge_gamemaster">&lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Mistrz Gry&lt;/font&gt;\nCzłonek community team Amazona, który może pomóc w rozwiązaniu problemów</string>
+	<string key="ui_badge_criminal">&lt;font color="#ff7171" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Przestępca&lt;/font&gt;\nTen gracz niedawno popełnił zbrodnię przeciwko innemu graczowi</string>
 	<string key="ui_cycle_channels">TAB przełącza kolejno kanały</string>
 	<string key="ui_enter_recipient">Wpisz imię gracza</string>
 	<string key="ui_error_whisper_block">Odblokuj lub anuluj wyciszenie adresata, aby mu coś wyszeptać</string>
@@ -132,7 +132,7 @@
 	<string key="ui_p2ptrading_initiate_trade">Handel</string>
 	<string key="ui_p2ptrading_trade_notification_sent">Zaproszenie do handlu wysłane</string>
 	<string key="ui_p2ptrading_invite_notification_title">Prośba o handel</string>
-	<string key="ui_p2ptrading_invite_notification_text">&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{playerName}&lt;/font&gt; zaprasza cię do handlu.\nCzy chcesz przyjąć zaproszenie?</string>
+	<string key="ui_p2ptrading_invite_notification_text">&lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{playerName}&lt;/font&gt; zaprasza cię do handlu.\nCzy chcesz przyjąć zaproszenie?</string>
 	<string key="ui_p2ptrading_failmessage_invalidname">{playerName} jest niewłaściwym imieniem gracza.</string>
 	<string key="ui_p2ptrading_failmessage_system_error">Nie udało się wysłać zaproszenia do handlu.</string>
 	<string key="ui_p2ptrading_failmessage_eligibility_failed">Nie możesz już zaakceptować tego zaproszenia do handlu.</string>
@@ -292,12 +292,12 @@
 	<string key="ui_twitch_socialpane_spotlight_hide">Ukryj innych streamerów</string>
 	<string key="ui_spotlight_viewer">1 widz</string>
 	<string key="ui_spotlight_viewers">{viewers} widzów</string>
-	<string key="ui_spotlight_failed">&lt;font color="#835acd"&gt;Stan:&lt;/font&gt; &lt;font color="#f25d5d"&gt; niepowodzenie&lt;/font&gt;</string>
-	<string key="ui_spotlight_notconnected">&lt;font color="#835acd"&gt;Stan:&lt;/font&gt; &lt;font color="#f25d5d"&gt; wył.&lt;/font&gt;</string>
-	<string key="ui_spotlight_connecting">&lt;font color="#835acd"&gt;Stan:&lt;/font&gt; &lt;font color="#ffffff"&gt; rozpoczynanie&lt;/font&gt;</string>
+	<string key="ui_spotlight_failed">Stan: &lt;font color="#ff7171"&gt;Nieudany&lt;/font&gt;</string>
+	<string key="ui_spotlight_notconnected">Stan: &lt;font color="#ff7171"&gt;Wył.&lt;/font&gt;</string>
+	<string key="ui_spotlight_connecting">Stan: &lt;font color="#ebe3d6"&gt;Rozpoczynanie&lt;/font&gt;</string>
 	<string key="ui_spotlight_failed_notification_title">Błąd połączenia</string>
 	<string key="ui_spotlight_failed_notification_message">Nie można uaktywnić wyróżniania streamera na Twitchu. Sprawdź, czy twój stream działa, i spróbuj ponownie.</string>
-	<string key="ui_spotlight_error">&lt;font color="#835acd"&gt;Stan:&lt;/font&gt; &lt;font color="#f25d5d"&gt; błąd&lt;/font&gt;</string>
+	<string key="ui_spotlight_error">Stan: &lt;font color="#ff7171"&gt;Błąd&lt;/font&gt;</string>
 	<string key="ui_subarmy_title">Armia subskrybentów Twitch</string>
 	<string key="ui_subarmy_join_desc">Dołącz do sesji dla armii subskrybentów innych streamerów.</string>
 	<string key="ui_subarmy_tooltip">&lt;font face="lyshineui/fonts/nimbus_bold_italic.font" &gt;Włącz&lt;/font&gt; w &lt;font face="lyshineui/fonts/nimbus_bold_italic.font" &gt;ustawieniach&lt;/font&gt;, by stworzyć armię subskrybentów Twitcha lub do niej dołączyć.</string>
@@ -358,7 +358,7 @@
 	<string key="ui_notification_pvp_disabled">Oznaczenie do PvP nieaktywne.</string>
 	<string key="ui_notification_pvp_countdown">Licznik czasu ochrony PvP uruchomiony.</string>
 	<string key="ui_notification_pvp_flagging_title">Oznaczanie do PvP.</string>
-	<string key="ui_notification_pvp_flagging_message">Po oznaczeniu się do trybu PvP możesz atakować innych graczy z takim samym oznaczeniem, ale inni oznaczeni gracze również mogą cię atakować. Ponadto dzięki oznaczeniu zyskasz &lt;font color="#ff9900"&gt;10% premii do PD&lt;/font&gt;. \n\nGdy opuścisz azyl, otrzymasz &lt;font color="#ff9900"&gt;30-sekundową ochronę&lt;/font&gt;.</string>
+	<string key="ui_notification_pvp_flagging_message">Po oznaczeniu się do trybu PvP możesz atakować innych graczy z takim samym oznaczeniem, ale inni oznaczeni gracze również mogą cię atakować. Ponadto dzięki oznaczeniu zyskasz &lt;font color="#edc63e"&gt;10% premii do PD&lt;/font&gt;. \n\nGdy opuścisz azyl, otrzymasz &lt;font color="#edc63e"&gt;30-sekundową ochronę&lt;/font&gt;.</string>
 	<string key="ui_notification_pvp_track_flagging_message">Po oznaczeniu się do trybu PvP możesz atakować innych graczy z takim samym oznaczeniem, ale inni oznaczeni gracze również mogą cię atakować. &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;Za zabójstwa otrzymasz azothową sól oraz PD PvP.&lt;/font&gt; \nOtrzymujesz również następujące premie: &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;+10% PD, +3% szczęścia podczas zbierania, +1% globalnej premii do szczęścia&lt;/font&gt; za duże/elitarne skrzynie. \n\nGdy opuścisz azyl, otrzymasz &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;30-sekundową ochronę&lt;/font&gt;.</string>
 	<string key="ui_notification_pvp_checkpoint_unlocked">Odblokowano punkt kontrolny</string>
 	<string key="ui_notification_pvp_reward_options">Zobacz nagrody</string>
@@ -388,7 +388,7 @@
 	<string key="ui_no_permission_alert">Nie masz pozwolenia na wysyłanie powiadomień.</string>
 	<string key="ui_title_alpha">Założyciel</string>
 	<string key="ui_title_preorder">Pierwsza ekspedycja</string>
-	<string key="ui_player_levelup_chat">{playerName} awansuje na &lt;font color="#ff9900"&gt;poziom {param0}&lt;/font&gt;.</string>
+	<string key="ui_player_levelup_chat">{playerName} awansuje na &lt;font color="#edc63e"&gt;poziom {param0}&lt;/font&gt;.</string>
 	<string key="ui_transcribed_audio_message">(MNT) {transcribedMessage}</string>
 	<string key="ui_company_upkeep_due">Premie frakcyjne i premie kompanii są nieaktywne, ponieważ kompania zarządzająca terytorium o nazwie {territoryName} nie uiściła opłaty za jego utrzymanie.</string>
 	<string key="ui_territory_bonus_active_buffs">Aktywne premie</string>
@@ -565,7 +565,7 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_dps_recommended">Garłacz, łuk, ognista laska, topór dwuręczny, siekierka, lodowa rękawica, muszkiet, rapier, włócznia, rękawica próżni</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_healer_name">Uzdrawianie</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_healer_description">Uzdrowiciele są odpowiedzialni za utrzymanie grupy przy życiu za pomocą premii leczenia i ochrony (np. umocnienia). Uzdrowiciele mogą również usuwać z sojuszników szkodliwe efekty (np. krwawienie lub truciznę). Uzdrowiciele powinni inwestować w skupienie, by leczyć jak najskuteczniej.</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_healer_recommended">Laska życia, rękawica próżni</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_healer_recommended">Laska życia, rękawica próżni, kiścień</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_groupcreated">Stworzono lobby</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_groupupdated">Zaktualizowano lobby</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_groupremoved">Usunięto lobby</string>
@@ -613,12 +613,12 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_queue_hud_group_full">Grupa pełna</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_queue_hud_open_expedition">Otwórz ekspedycję</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_queue_hud_min_players">Do rozpoczęcia tej ekspedycji potrzeba co najmniej {amount} członków.</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_creator">Twórca: &lt;font face="lyshineui/fonts/Nimbus_Semibold.font" color="#ffffff"&gt;{name}&lt;/font&gt;</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_creator">Twórca: &lt;font face="lyshineui/fonts/Nimbus_Semibold.font" color="#ebe3d6"&gt;{name}&lt;/font&gt;</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_gear_score_requirement">Wymagana liczba pkt wyposażenia: &lt;font face="lyshineui/fonts/Nimbus_Semibold.font" color={scoreColor}&gt;{score}&lt;/font&gt;</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_level_requirement">Wymagany poziom: &lt;font face="lyshineui/fonts/Nimbus_Semibold.font" color={scoreColor}&gt;{score}&lt;/font&gt;</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_num_members">Gracze: &lt;font face="lyshineui/fonts/Nimbus_Semibold.font" color="#ffffff"&gt;{numMembers}&lt;/font&gt; / 5</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_member_stat_attribute">{name} &lt;font face="lyshineui/fonts/Nimbus_Semibold.font" color="#ffffff"&gt;{value}&lt;/font&gt;</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_member_stat_mastery">&lt;font face="lyshineui/fonts/Nimbus_Semibold.font" color="#ffffff"&gt;{value}&lt;/font&gt; {name}</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_num_members">Gracze: &lt;font face="lyshineui/fonts/Nimbus_Semibold.font" color="#ebe3d6"&gt;{numMembers}&lt;/font&gt; / 5</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_member_stat_attribute">{name} &lt;font face="lyshineui/fonts/Nimbus_Semibold.font" color="#ebe3d6"&gt;{value}&lt;/font&gt;</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_member_stat_mastery">&lt;font face="lyshineui/fonts/Nimbus_Semibold.font" color="#ebe3d6"&gt;{value}&lt;/font&gt; {name}</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_none_equipped">Brak ekwipowanej broni</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_member_list_creator">Twórca</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_voice">Głos</string>
@@ -648,8 +648,8 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_tooltip_leave_and_unlist_group_desc">Czy na pewno chcesz usunąć to lobby?\n\nWszyscy członkowie zostaną wyrzuceni.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invite_reject">Tylko twórca lobby może zapraszać innych graczy lub odrzucać zgłoszenia.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pending_group_invites_header">Zaproszenie do lobby</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pending_group_description">&lt;font color="#ffea00" &gt;{creator}&lt;/font&gt; zaprasza cię w roli: &lt;font color={roleColor} &gt;{role}&lt;/font&gt;</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pending_group_description_directinvitation">&lt;font color="#ffea00" &gt;{creator}&lt;/font&gt; cię zaprasza</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pending_group_description">&lt;font color="#edc63e" &gt;{creator}&lt;/font&gt; zaprasza cię w roli: &lt;font color={roleColor} &gt;{role}&lt;/font&gt;</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pending_group_description_directinvitation">&lt;font color="#edc63e" &gt;{creator}&lt;/font&gt; cię zaprasza</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_convert_to_group">W gotowości do ekspedycji</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_start_expedition">Rozpocznij</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_tooltip_not_enough_members">W lobby jest zbyt mało osób</string>
@@ -673,8 +673,8 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_chat_lobby_left">{playerName} opuszcza lobby.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_error_group_finder_group_chat" comment="An error when you try to talk in group finder group chat">Nie należysz do lobby.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_create_limit_title">Nie można stworzyć lobby</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_create_limit_desc_regular">Poniżsi członkowie grupy osiągnęli dzienny limit zwykłych ekspedycji i nie mogą dołączyć do tego lobby.\n\n&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{characters}&lt;/font&gt;\n&lt;font color={dateColor}&gt;(możliwe wejście: {date})&lt;/font&gt;</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_create_limit_desc_mutated">Poniżsi członkowie grupy osiągnęli tygodniowy limit zmutowanych ekspedycji i nie mogą dołączyć do tego lobby.\n\n&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{characters}&lt;/font&gt;\n&lt;font color={dateColor}&gt;(możliwe wejście: {date})&lt;/font&gt;</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_create_limit_desc_regular">Poniżsi członkowie grupy osiągnęli dzienny limit zwykłych ekspedycji i nie mogą dołączyć do tego lobby.\n\n&lt;font color="#ebe3d6" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{characters}&lt;/font&gt;\n&lt;font color={dateColor}&gt;(możliwe wejście: {date})&lt;/font&gt;</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_create_limit_desc_mutated">Poniżsi członkowie grupy osiągnęli tygodniowy limit zmutowanych ekspedycji i nie mogą dołączyć do tego lobby.\n\n&lt;font color="#ebe3d6" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{characters}&lt;/font&gt;\n&lt;font color={dateColor}&gt;(możliwe wejście: {date})&lt;/font&gt;</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_limit_refresh">(Reset: {date})</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pending_invites_single">&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;1&lt;/font&gt; oczekujące zaproszenie</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pending_invites">Oczekujące zaproszenia: &lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{amount}&lt;/font&gt;</string>
@@ -686,8 +686,6 @@
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_activity_expeditions_desc" comment="">Zbadaj dawno zapomniane miejsca (z maksymalnie 4 członkami drużyny), by zdobyć unikalne nagrody, które pozwolą ci nabrać mocy i zmiażdżyć twych wrogów.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_activity_mutations_name">Zmutowane ekspedycje</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_activity_mutations_desc" comment="">Odwiedź ponownie ukończone ekspedycje, by stawić czoła nowym zagrożeniom. Dostępne są 3 nowe poziomy trudności. Ty i twoi towarzysze musicie ze sobą ściśle współpracować, ale jeśli uda wam się przetrwać, zdobędziecie najcenniejsze nagrody.</string>
-	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_activity_season_trials_name">Sezonowe Próby</string>
-	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_activity_season_trials_desc" comment="">Każdy nowy sezon oznacza nowe, straszliwe wyzwania.\n\nMinimalna liczba graczy: 6\nTylko grupy lokalne</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_activity_elite_trials_name">Elitarne próby</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_activity_elite_trials_desc" comment="">Weź udział w tej elitarnej próbie i staw czoła kolosalnemu Szach Neszenowi Pożeraczowi z maksymalnie 20 graczami.\n\nMinimalna liczba graczy: 12\nTylko grupy lokalne</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_activity_opr_desc" comment="">Zdobądź 1000 punktów w tym szybkim trybie gry PvP 20 przeciwko 20, by zwyciężyć. Przejmuj punkty kontrolne i zbieraj zasoby, by wznosić fortyfikacje i zapewniać taktyczne premie swojej drużynie.</string>
@@ -713,6 +711,7 @@
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_none_checked_tooltip">Zaznacz dowolne pole wyboru, by wybrać minimum jedną aktywność z powyższej listy.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_all_checked_tooltip">Wybrano wszystkie dostępne aktywności. Wybierz "Losowo", by dołączyć do kolejki do wszystkich aktywności i nie przegapić dziennych premii.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_none_available_tooltip">Obecnie nie możesz wziąć udziału w żadnej z aktywności.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_none_available_for_group_tooltip">Obecnie twoja grupa nie może wziąć udziału w żadnej z aktywności.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_lobby_tooltip">{lobbyCount} – tyle grup rekrutuje do tej aktywności za pomocą funkcji wyszukiwania grupy. Wybierz "Zobacz lobby" na ekranie informacyjnym aktywności, by je przeglądać.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_lobby_tooltip_single">1 grupa rekrutuje do tej aktywności za pomocą funkcji wyszukiwania grupy. Wybierz "Zobacz lobby" na ekranie informacyjnym aktywności, by je przeglądać.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_your_mutation_level">Twój poziom mutacji:</string>
@@ -747,6 +746,8 @@
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_in_queue_tooltip">Nie możesz dołączyć do kolejki systemu dobierania graczy, ponieważ bierzesz już udział w: {matchname}.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_in_role_select_tooltip">Nie możesz dołączyć do kolejki systemu dobierania graczy, ponieważ bierzesz już udział w: {matchname}. Członkowie grupy wybierają role.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_war_tooltip">Nie możesz dołączyć do kolejki systemu dobierania graczy, ponieważ bierzesz już udział w nadchodzącej wojnie, która rozpocznie się w ciągu godziny.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_at_limit">Osiągnięto limit dla tego rodzaju aktywności.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_group_at_limit">Co najmniej jeden z członków twojej grupy osiągnął limit dla tego rodzaju aktywności.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_premade_group_dungeon_tooltip">Nie możesz dołączyć do kolejki systemu dobierania graczy, ponieważ czekasz już w kolejce do ekspedycji lub elitarnej próby.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_group_finder_lobby_tooltip">Nie możesz dołączyć do kolejki systemu dobierania graczy, ponieważ jesteś już w lobby.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_group_invite_tooltip">Nie możesz dołączyć do kolejki systemu dobierania graczy, ponieważ masz oczekujące zaproszenie.</string>
@@ -758,6 +759,7 @@
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_no_azoth_staff_simple">&lt;img src="LyShineUI/Images/Icons/Misc/icon_exclamation" scale="1.5" yOffset="3.5"&gt;&lt;/img&gt; &lt;font color={color}&gt; Nie wyposażono azothowej laski&lt;/font&gt;</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_group_full_tooltip">Nie możesz dołączyć do kolejki systemu dobierania graczy, gdy twoja grupa jest pełna.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_ineligible_unhandled_tooltip">Obecnie nie możesz dołączyć do kolejki systemu dobierania graczy.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_M3s_disabled_tooltip">Elitarne mutacje (M3) są dostępne tylko dla grup lokalnych.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_button_cancel_queue">Opuść kolejkę</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_button_select_role">Wybierz rolę</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_button_decline">Odrzuć</string>
@@ -770,13 +772,14 @@
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_click_here_join_group">Naciśnij, by móc wejść do M3 z grupą</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_requirement_gear_score">{gearScore}</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_requirement_deserter_penalty">&lt;img src="LyShineUI/Images/Icons/Misc/icon_exclamation" scale="1.5" yOffset="3.5"&gt;&lt;/img&gt; &lt;font color={color}&gt; Działa na ciebie kara za dezercję. Nie możesz dołączyć do tej kolejki systemu dobierania graczy.&lt;/font&gt;</string>
-	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_requirement_group_ineligible">&lt;img src="LyShineUI/Images/Icons/Misc/icon_exclamation" scale="1.5" yOffset="3.5"&gt;&lt;/img&gt; &lt;font color={color}&gt; Przynajmniej jeden z członków twojej grupy nie spełnia tych wymagań.&lt;/font&gt;</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_requirement_group_ineligible">&lt;img src="LyShineUI/Images/Icons/Misc/icon_exclamation" scale="1.5" yOffset="3.5"&gt;&lt;/img&gt; &lt;font color={color}&gt; Przynajmniej jeden z członków twojej grupy nie spełnia tych wymagań albo działa na niego kara za dezercję.&lt;/font&gt;</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_requirement_group_too_big">&lt;img src="LyShineUI/Images/Icons/Misc/icon_exclamation" scale="1.5" yOffset="3.5"&gt;&lt;/img&gt; &lt;font color={color}&gt; Twoja grupa jest zbyt duża.&lt;/font&gt;</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_level_requirement_not_met">Masz zbyt niski poziom, by wziąć udział w tej ekspedycji.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_gearscore_requirement_not_met">Masz zbyt niską liczbę punktów wyposażenia, by wziąć udział w tej ekspedycji.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_cancel_queue_title">Opuść kolejkę</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_cancel_queue_expedition_desc">Czy na pewno chcesz opuścić kolejkę do ekspedycji?</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_cancel_queue_mutation_desc">Czy na pewno chcesz opuścić kolejkę do zmutowanej(-nych) ekspedycji?</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_cancel_queue_enter_dungeon">Próbujesz wejść do tej ekspedycji ze swoją obecną grupą. Czy na pewno chcesz opuścić kolejkę systemu dobierania graczy, by wejść?</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_backfilling_group">Uzupełnianie grupy</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_select_started_title">Dołączanie do kolejki systemu dobierania graczy</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_select_started_info">Wymagane wybranie roli</string>
@@ -790,7 +793,7 @@
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_description_damage">– Zadawaj jak najwięcej obrażeń\n– Zabijaj wrogów, zanim cię przytłoczą</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_recommended_damage">– Garłacz, łuk, ognista laska, topór dwuręczny, siekierka, lodowa rękawica, muszkiet, rapier, włócznia, rękawica próżni\n– Inwestuj w umiejętności i cechy, które pomagają zadawać duże obrażenia\n– Ataki obszarowe</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_description_healer">– Utrzymaj drużynę przy życiu, lecząc jej członków i chroniąc ich przed obrażeniami\n– Usuwaj szkodliwe negatywne efekty działające na sojuszników</string>
-	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_recommended_healer">– Laska życia, rękawica próżni\n– Inwestuj w skupienie</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_recommended_healer">– Laska życia, rękawica próżni, kiścień\n– Inwestuj w skupienie</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_description_tank">– Pochłaniaj obrażenia\n– Prowokuj wrogów</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_recommended_tank">– Miecz i tarcza, topór dwuręczny, młot bojowy\n– Ciężki pancerz\n– Karneole\n– Efekty obezwładniające (ogłuszenie, uziemienie, powalenie)</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_ready_check_decline_popup_title">Potwierdź odrzucenie</string>
@@ -802,5 +805,6 @@
 	<string rel_version="Feature_PUG_Finder" key="matchmaking_dungeon_activity">Ekspedycja(-je)</string>
 	<string rel_version="Feature_PUG_Finder" key="matchmaking_mutation_activity">Zmutowana(-ne) ekspedycja(-je)</string>
 	<string rel_version="Feature_PUG_Finder" key="matchmaking_requirements_replacement_when_M3s_disabled">Nie można wziąć udziału w dobieraniu graczy do M3. Skorzystaj z powyższej funkcji "Wejdź z grupą".</string>
+	<string rel_version="Feature_PUG_Finder" key="matchmaking_queue_hud_already_accepted_match_tooltip">Nie możesz opuścić kolejki po zaakceptowaniu zaproszenia do meczu.</string>
 </resources>
 

@@ -1,13 +1,13 @@
 <resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<string key="ui_mounts" rel_version="Feature_Mounts">Monturas</string>
 	<string key="ui_mount_attachments" rel_version="Feature_Mounts">Accesorios de montura</string>
-	<string key="ui_mount_attachment1_tooltip" rel_version="Feature_Mounts">&lt;font color="#FFFFFF" face="lyshineui/fonts/Nimbus_Semibold.font"&gt;Ranura de accesorio izquierdo&lt;/font&gt;\n\n&lt;font face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt;Aquí puedes colocar un objeto de accesorio de montura.&lt;/font&gt;</string>
+	<string key="ui_mount_attachment1_tooltip" rel_version="Feature_Mounts">&lt;font color="#ebe3d6" face="lyshineui/fonts/Nimbus_Semibold.font"&gt;Ranura de accesorio izquierdo&lt;/font&gt;\n\n&lt;font face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt;Aquí puedes colocar un objeto de accesorio de montura.&lt;/font&gt;</string>
 	<string key="ui_mount_attachment1_slot_tooltip_unlocked" rel_version="Feature_Mounts">Los objetos de accesorio de montura colocados aquí aparecerán en la parte posterior izquierda de la montura</string>
-	<string key="ui_mount_attachment2_tooltip" rel_version="Feature_Mounts">&lt;font color="#FFFFFF" face="lyshineui/fonts/Nimbus_Semibold.font"&gt;Ranura de accesorio derecho&lt;/font&gt;\n\n&lt;font face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt;Aquí puedes colocar un objeto de accesorio de montura.&lt;/font&gt;</string>
+	<string key="ui_mount_attachment2_tooltip" rel_version="Feature_Mounts">&lt;font color="#ebe3d6" face="lyshineui/fonts/Nimbus_Semibold.font"&gt;Ranura de accesorio derecho&lt;/font&gt;\n\n&lt;font face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt;Aquí puedes colocar un objeto de accesorio de montura.&lt;/font&gt;</string>
 	<string key="ui_mount_attachment2_slot_tooltip_unlocked" rel_version="Feature_Mounts">Los objetos de accesorio de montura colocados aquí aparecerán en la parte posterior derecha de la montura</string>
-	<string key="ui_mount_buff1_tooltip" rel_version="Feature_Mounts">&lt;font color="#FFFFFF" face="lyshineui/fonts/Nimbus_Semibold.font"&gt;Ranura de herradura&lt;/font&gt;\n\n&lt;font face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt;Aquí puedes colocar objetos de potenciación de montura relacionados con la resistencia.&lt;/font&gt;</string>
+	<string key="ui_mount_buff1_tooltip" rel_version="Feature_Mounts">&lt;font color="#ebe3d6" face="lyshineui/fonts/Nimbus_Semibold.font"&gt;Ranura de herradura&lt;/font&gt;\n\n&lt;font face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt;Aquí puedes colocar objetos de potenciación de montura relacionados con la resistencia.&lt;/font&gt;</string>
 	<string key="ui_mount_buff1_slot_tooltip_unlocked" rel_version="Feature_Mounts">Los objetos de potenciación de montura ofrecen ventajas únicas que varían según el objeto.</string>
-	<string key="ui_mount_buff2_tooltip" rel_version="Feature_Mounts">&lt;font color="#FFFFFF" face="lyshineui/fonts/Nimbus_Semibold.font"&gt;Ranura de correa&lt;/font&gt;\n\n&lt;font face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt;Aquí puedes colocar objetos de potenciación de montura relacionados con efectos de estado.&lt;/font&gt;</string>
+	<string key="ui_mount_buff2_tooltip" rel_version="Feature_Mounts">&lt;font color="#ebe3d6" face="lyshineui/fonts/Nimbus_Semibold.font"&gt;Ranura de correa&lt;/font&gt;\n\n&lt;font face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt;Aquí puedes colocar objetos de potenciación de montura relacionados con efectos de estado.&lt;/font&gt;</string>
 	<string key="ui_mount_trail_vfx" rel_version="Feature_Mounts">Efectos visuales de huella de montura</string>
 	<string key="ui_mount_summon_vfx" rel_version="Feature_Mounts">Efectos visuales de llamado de montura</string>
 	<string key="ui_mount_summon_started" rel_version="Feature_Mounts">Llamando…</string>
@@ -133,6 +133,7 @@
 	<string key="ui_mounts_lion_description_4" rel_version="Feature_Mounts">Se dice que el león blanco es el mensajero de un poder superior.</string>
 	<string key="ui_mounts_lion_description_5" rel_version="Feature_Mounts">Los leones negros proclaman el final de una era y el comienzo de la siguiente.</string>
 	<string key="ui_mounts_lion_description_6" rel_version="Feature_Mounts">Esta majestuosa bestia, una cruza peculiar, ayuda a aquellos que conservan un corazón salvaje.</string>
+	<string key="ui_mounts_bear_description" rel_version="Feature_Mounts">Humphrey es un animal grandote, gruñón y enérgico que protege a los que más quiere con todo su ser.</string>
 	<string key="ui_mounts_unlock_horse_message" rel_version="Feature_Mounts">Tienda de caballo</string>
 	<string key="ui_mounts_unlock_wolf_message" rel_version="Feature_Mounts">Tienda de lobo huargo</string>
 	<string key="ui_mounts_unlock_lion_message" rel_version="Feature_Mounts">Tienda de león</string>
@@ -179,9 +180,15 @@
 	<string key="ui_mounts_MTX_7_horse_name" rel_version="Season_4_Perm">Félix</string>
 	<string key="ui_mounts_MTX_7_wolf_name" rel_version="Season_4_Perm">Smokey</string>
 	<string key="ui_mounts_MTX_7_lion_name" rel_version="Season_4_Perm">Alacer</string>
+	<string key="ui_mounts_MTX_8_horse_name" rel_version="Season_5_Perm">Daemonicus</string>
+	<string key="ui_mounts_MTX_8_wolf_name" rel_version="Season_5_Perm">Malum</string>
+	<string key="ui_mounts_MTX_8_lion_name" rel_version="Season_5_Perm">Sicarius</string>
 	<string key="ui_mounts_horse_description_7" rel_version="Season_4_Perm">Félix luce orgulloso su casco con cuernos. Hace alarde de su poderío y majestuosidad.</string>
 	<string key="ui_mounts_wolf_description_7" rel_version="Season_4_Perm">El aplomo y el sigilo de Ahumado le dieron gran notoriedad. Los enemigos no lo ven venir.</string>
 	<string key="ui_mounts_lion_description_7" rel_version="Season_4_Perm">La energía sin límites de Alacer desafía las leyes de la naturaleza. Dormir es para los débiles.</string>
+	<string key="ui_mounts_horse_description_8" rel_version="Season_5_Perm">Según los rumores, Daemonicus nació de un ritual oscuro. Sea cierto o no, su vigor es incuestionable.</string>
+	<string key="ui_mounts_wolf_description_8" rel_version="Season_5_Perm">Ser jinete de Malum infunde miedo en los corazones de enemigos y aliados.</string>
+	<string key="ui_mounts_lion_description_8" rel_version="Season_5_Perm">Si bien Sicarius se siente frío cuando lo tocan, en su vientre arden los fuegos.</string>
 	<string key="ui_mounts_horse_name_1" rel_version="Feature_Mounts">El poderoso Gregorius</string>
 	<string key="ui_mounts_horse_name_1a" rel_version="Feature_Mounts">El poderoso Gregorius (GRATIS)</string>
 	<string key="ui_mount_horse_name_2" rel_version="Feature_Mounts">Sombra de luna</string>
@@ -199,13 +206,14 @@
 	<string key="ui_mounts_keybind_summon" rel_version="Feature_Mounts">Invocar montura</string>
 	<string key="ui_mounts_keybind_dash" rel_version="Feature_Mounts">Galopar</string>
 	<string key="ui_mounts_keybind_jump" rel_version="Feature_Mounts">Salto</string>
+	<string key="ui_mounts_keybind_stop_reverse" rel_version="Feature_Controller">Alternar entre detenerse/retroceder</string>
 	<string key="ui_section_mounts" rel_version="Feature_Mounts">Monturas</string>
 	<string key="ui_mount_auto_road_follow" rel_version="Feature_Mounts">Seguimiento de carreteras de monturas</string>
-	<string key="ui_mount_auto_road_follow_desc" rel_version="Feature_Mounts">Indica si prefieres que las monturas sigan las carreteras automáticamente cuando Correr automáticamente esté activado</string>
-	<string key="ui_mount_dash_toggle" rel_version="Feature_Mounts">Activar/desactivar galope</string>
-	<string key="ui_mount_dash_toggle_desc" rel_version="Feature_Mounts">Indica si prefieres activar/desactivar galope presionando un botón</string>
+	<string key="ui_mount_auto_road_follow_desc" rel_version="Feature_Mounts">Indica si prefieres que siga las carreteras automáticamente al estar montado cuando Correr automáticamente esté activado</string>
+	<string key="ui_mount_dash_toggle" rel_version="Feature_Mounts">Toca para galopar</string>
+	<string key="ui_mount_dash_toggle_desc" rel_version="Feature_Mounts">Indica si prefieres activar el galope con un toque</string>
 	<string key="ui_mount_walk_speed" rel_version="Feature_Mounts">Reducir velocidad de caminata de montura</string>
-	<string key="ui_mount_walk_speed_desc" rel_version="Feature_Mounts">Indica si prefieres reducir más la velocidad de la montura al caminar</string>
+	<string key="ui_mount_walk_speed_desc" rel_version="Feature_Mounts">Indica si prefieres reducir más la velocidad de montura mientras caminas</string>
 	<string key="ui_mount_level_requirement_long" rel_version="Feature_Mounts">Se requiere rango de jinete</string>
 	<string key="ui_mount_customize_keybinds_description" rel_version="Feature_Mounts">Permite que las teclas de control de la montura sean independientes de las de tu personaje</string>
 	<string key="ui_mount_paperdoll_button_unlock" rel_version="Feature_Mounts">Requiere {expansion_name} para acceder a monturas. \n\nSelecciona la opción para comprarla.</string>

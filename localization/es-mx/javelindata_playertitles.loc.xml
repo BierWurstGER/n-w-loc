@@ -774,9 +774,9 @@
 	<string key="ui_title_section_current_title_tag">Mostrado:</string>
 	<string key="ui_title_section_apply">Confirmar</string>
 	<string key="ui_playertitle_notification_title">Título desbloqueado</string>
-	<string key="ui_playertitle_notification_desc">Has desbloqueado &lt;font color={color}&gt;{title} &lt;/font&gt;</string>
-	<string key="ui_playertitle_notification_expired_title">¡Tu título caducó!</string>
-	<string key="ui_playertitle_notification_expired_desc">Tu título &lt;font color={color}&gt;{title}&lt;/font&gt; ha caducado. Selecciona "Ver detalles" para elegir un título nuevo.</string>
+	<string key="ui_playertitle_notification_desc">&lt;font color={color}&gt;{title} &lt;/font&gt;</string>
+	<string key="ui_playertitle_notification_expired_title">Título caducado</string>
+	<string key="ui_playertitle_notification_expired_desc">&lt;font color={color}&gt;{title}&lt;/font&gt;</string>
 	<string key="ui_playertitle_meta_achievement_description">Alcanzaste el logro {title} ({description})</string>
 	<string key="ui_playertitle_meta_helper_help_description" rel_version="Feature_Titles">Encontrado en el fondo de una caja de suministros.</string>
 	<string key="ui_playertitle_meta_helper_factions_description" rel_version="Feature_Titles">Desbloqueado cuando te uniste a tu facción.</string>
@@ -785,8 +785,8 @@
 	<string key="ui_playertitle_skills_description">Obtenido por mejorar tus habilidades.</string>
 	<string key="ui_playertitle_generic_description">Obtenido al jugar el juego.</string>
 	<string key="ui_playertitle_no_title_description">Selecciona esta opción para no mostrar ningún título.</string>
-	<string key="ui_playertitle_addendum_accounttype">\n\n&lt;font face="lyshineui/fonts/Nimbus_Regular.font" color = "#ffffff"&gt;Este título se aplica a cualquier personaje de tu cuenta.&lt;/font&gt;</string>
-	<string key="ui_playertitle_addendum_charactertype">\n\n&lt;font face="lyshineui/fonts/Nimbus_Regular.font" color = "#ffffff"&gt;Este título no se aplica a otros personajes de tu cuenta.&lt;/font&gt;</string>
+	<string key="ui_playertitle_addendum_accounttype">\n\n&lt;font face="lyshineui/fonts/Nimbus_Regular.font" color = "#ebe3d6"&gt;Este título se aplica a cualquier personaje de tu cuenta.&lt;/font&gt;</string>
+	<string key="ui_playertitle_addendum_charactertype">\n\n&lt;font face="lyshineui/fonts/Nimbus_Regular.font" color = "#ebe3d6"&gt;Este título no se aplica a otros personajes de tu cuenta.&lt;/font&gt;</string>
 	<string key="ui_playertitle_special_stoic" rel_version="Feature_Titles">El imperturbable</string>
 	<string key="ui_playertitle_special_stoic_SHE" rel_version="Feature_Titles">La imperturbable</string>
 	<string key="ui_playertitle_special_stoic_THEY" rel_version="Feature_Titles">Imperturbable</string>
@@ -1398,5 +1398,53 @@
 	<string key="ui_playertitle_leaderboard_glacialtarn_time_rank1_description" rel_version="Expedition_GreatCleave_00">Este título se obtiene por quedar en el primer puesto de recompensas clasificación por tiempo semanal del Lago Glacial.</string>
 	<string key="ui_playertitle_leaderboard_glacialtarn_time_rank2" rel_version="Expedition_GreatCleave_00">Velocista medallista del Lago Glacial</string>
 	<string key="ui_playertitle_leaderboard_glacialtarn_time_rank2_description" rel_version="Expedition_GreatCleave_00">Este título se obtiene por quedar en el segundo puesto de recompensas clasificación por tiempo semanal del Lago Glacial.</string>
+	<string key="ui_playertitle_season5_journeychallenge1" rel_version="Season_5_Perm">As de la forja de runas</string>
+	<string key="ui_playertitle_season5_journeychallenge1_SHE" rel_version="Season_5_Perm">As de la forja de runas</string>
+	<string key="ui_playertitle_season5_journeychallenge1_THEY" rel_version="Season_5_Perm">As de la forja de runas</string>
+	<string key="ui_playertitle_season5_journeychallenge1_description" rel_version="Season_5_Perm">Se obtiene al completar el desafío de la temporada 5: As de la forja de runas</string>
+	<string key="ui_playertitle_season5_journeychallenge2" rel_version="Season_5_Perm">Apagallamas</string>
+	<string key="ui_playertitle_season5_journeychallenge2_SHE" rel_version="Season_5_Perm">Apagallamas</string>
+	<string key="ui_playertitle_season5_journeychallenge2_THEY" rel_version="Season_5_Perm">Apagallamas</string>
+	<string key="ui_playertitle_season5_journeychallenge2_description" rel_version="Season_5_Perm">Se obtiene al completar el desafío de la temporada 5: Apagallamas</string>
+	<string key="ui_playertitle_season5_journeychallenge3" rel_version="Season_5_Perm">Completista Hécate</string>
+	<string key="ui_playertitle_season5_journeychallenge3_SHE" rel_version="Season_5_Perm">Completista Hécate</string>
+	<string key="ui_playertitle_season5_journeychallenge3_THEY" rel_version="Season_5_Perm">Completista Hécate</string>
+	<string key="ui_playertitle_season5_journeychallenge3_description" rel_version="Season_5_Perm">Se obtiene al completar el desafío de la temporada 5: Completista Hécate</string>
+	<string key="ui_playertitle_season5_journeychallenge4" rel_version="Season_5_Perm">Constructor consumado</string>
+	<string key="ui_playertitle_season5_journeychallenge4_SHE" rel_version="Season_5_Perm">Constructora consumada</string>
+	<string key="ui_playertitle_season5_journeychallenge4_THEY" rel_version="Season_5_Perm">Constructor consumado</string>
+	<string key="ui_playertitle_season5_journeychallenge4_description" rel_version="Season_5_Perm">Se obtiene al completar el desafío de la temporada 5: Constructor consumado</string>
+	<string key="ui_playertitle_season5_journeychallenge5" rel_version="Season_5_Perm">Artesano prismático</string>
+	<string key="ui_playertitle_season5_journeychallenge5_SHE" rel_version="Season_5_Perm">Artesana prismática</string>
+	<string key="ui_playertitle_season5_journeychallenge5_THEY" rel_version="Season_5_Perm">Artesano prismático</string>
+	<string key="ui_playertitle_season5_journeychallenge5_description" rel_version="Season_5_Perm">Se obtiene al completar el desafío de la temporada 5: Artesano prismático</string>
+	<string key="ui_playertitle_season5_journeychallenge6" rel_version="Season_5_Perm">Partehielo</string>
+	<string key="ui_playertitle_season5_journeychallenge6_SHE" rel_version="Season_5_Perm">Partehielo</string>
+	<string key="ui_playertitle_season5_journeychallenge6_THEY" rel_version="Season_5_Perm">Partehielo</string>
+	<string key="ui_playertitle_season5_journeychallenge6_description" rel_version="Season_5_Perm">Se obtiene al completar el desafío de la temporada 5: Partehielo</string>
+	<string key="ui_playertitle_season5_journeychallenge7" rel_version="Season_5_Perm">Terror en la torre</string>
+	<string key="ui_playertitle_season5_journeychallenge7_SHE" rel_version="Season_5_Perm">Terror en la torre</string>
+	<string key="ui_playertitle_season5_journeychallenge7_THEY" rel_version="Season_5_Perm">Terror en la torre</string>
+	<string key="ui_playertitle_season5_journeychallenge7_description" rel_version="Season_5_Perm">Se obtiene al completar el desafío de la temporada 5: Terror en la torre</string>
+	<string key="ui_playertitle_season5_journeychallenge8" rel_version="Season_5_Perm">Destructor consumado</string>
+	<string key="ui_playertitle_season5_journeychallenge8_SHE" rel_version="Season_5_Perm">Destructora consumada</string>
+	<string key="ui_playertitle_season5_journeychallenge8_THEY" rel_version="Season_5_Perm">Destructor consumado</string>
+	<string key="ui_playertitle_season5_journeychallenge8_description" rel_version="Season_5_Perm">Se obtiene al completar el desafío de la temporada 5: Destructor consumado</string>
+	<string key="ui_playertitle_season5_journeychallenge9" rel_version="Season_5_Perm">Guardián de pruebas</string>
+	<string key="ui_playertitle_season5_journeychallenge9_SHE" rel_version="Season_5_Perm">Guardiana de pruebas</string>
+	<string key="ui_playertitle_season5_journeychallenge9_THEY" rel_version="Season_5_Perm">Guardián de pruebas</string>
+	<string key="ui_playertitle_season5_journeychallenge9_description" rel_version="Season_5_Perm">Se obtiene al completar el desafío de la temporada 5: Pruebas del guardián de almas</string>
+	<string key="ui_playertitle_season5_journeychallenge10" rel_version="Season_5_Perm">Muerte del devorador</string>
+	<string key="ui_playertitle_season5_journeychallenge10_SHE" rel_version="Season_5_Perm">Muerte del devorador</string>
+	<string key="ui_playertitle_season5_journeychallenge10_THEY" rel_version="Season_5_Perm">Muerte del devorador</string>
+	<string key="ui_playertitle_season5_journeychallenge10_description" rel_version="Season_5_Perm">Se obtiene al completar el desafío de la temporada 5: Muerte del devorador</string>
+	<string key="ui_playertitle_season5journey" rel_version="Season_5_Perm">Gran guardián</string>
+	<string key="ui_playertitle_season5journey_SHE" rel_version="Season_5_Perm">Gran guardiana</string>
+	<string key="ui_playertitle_season5journey_THEY" rel_version="Season_5_Perm">Gran guardián</string>
+	<string key="ui_playertitle_season5journey_description" rel_version="Season_5_Perm">Se obtiene al completar el capítulo 4 del progreso de temporada de la temporada 5.</string>
+	<string key="ui_playertitle_season5_battlepass" rel_version="Season_5_Perm">Héroe guardián</string>
+	<string key="ui_playertitle_season5_battlepass_SHE" rel_version="Season_5_Perm">Heroína guardiana</string>
+	<string key="ui_playertitle_season5_battlepass_THEY" rel_version="Season_5_Perm">Héroe guardián</string>
+	<string key="ui_playertitle_season5_battlepass_description" rel_version="Season_5_Perm">Se obtiene en el seguimiento gratuito del pase de la temporada 5.</string>
 </resources>
 

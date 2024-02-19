@@ -20,6 +20,7 @@
 	<string key="ui_pvp_rewards_panel1_bullet3_title" rel_version="PvP_Rewards_Track">RÉCOMPENSES</string>
 	<string key="ui_pvp_rewards_panel1_bullet3_text" rel_version="PvP_Rewards_Track">Choisissez entre des récompenses uniques telles que des armures et des armes de prestige, des émotes, de la monnaie et des consommables.</string>
 	<string key="ui_event_summer_progress_name" rel_version="Event_Summer_Perm">Réputation de l'événement</string>
+	<string key="ui_event_spring_progress_name" rel_version="Event_SpringtideBloom_Temp">Event Reputation</string>
 	<string key="ui_event_weapon_xp_tabname">Événement d'EXP</string>
 	<string key="ui_event_weapon_xp_title">ÉVÉNEMENT BONUS D'EXP D'ARME</string>
 	<string key="ui_event_weapon_xp_desc">Bonus actifs :</string>
@@ -85,7 +86,7 @@
 	<string key="ui_news_modal_display_end_datetime">Se termine à {endTime} le {endDate}</string>
 	<string key="ui_event_free_weekend_event_message_title" rel_version="Feature_FreeWeekend">Week-end gratuit</string>
 	<string key="ui_event_free_weekend_event_message_description" rel_version="Feature_FreeWeekend">Le week-end gratuit est en cours.</string>
-	<string key="ui_event_free_weekend_description" rel_version="Feature_FreeWeekend">Découvrez lors de cet événement limité dans le temps la nouvelle zone de Sulfure, des quêtes de l'histoire principale revisitées et les dernières mises à jour de New World. Et tout ça, gratuitement !\n\nPour pouvoir jouer avec vos amis, les personnages doivent être dans le même monde. Les joueurs de la version gratuite peuvent profiter de sessions de jeu illimitées à moins qu'une file d'attente se forme pour entrer dans le monde (à la fin de leur session, les joueurs de la version gratuite se verront proposer d'entrer à nouveau dans la file d'attente).\nLes nouveaux joueurs peuvent également profiter d'une réduction de 50 % sur le prix des éditions Standard et Deluxe de New World en achetant le jeu entre le 15 décembre à 19 h (heure de Paris) et le 5 janvier à 19 h (heure de Paris).</string>
+	<string key="ui_event_free_weekend_description" rel_version="Feature_FreeWeekend">Découvrez lors de cet événement limité dans le temps la nouvelle zone de Sulfure, des quêtes de l'histoire principale revisitées et les dernières mises à jour de New World. Et tout ça, gratuitement !\nPour pouvoir jouer avec vos amis, les personnages doivent être dans le même monde. Les joueurs de la version gratuite peuvent profiter de sessions de jeu illimitées à moins qu'une file d'attente se forme pour entrer dans le monde (à la fin de leur session, les joueurs de la version gratuite se verront proposer d'entrer à nouveau dans la file d'attente).\nLes nouveaux joueurs peuvent également profiter d'une réduction de 50 % sur le prix des éditions Standard et Deluxe de New World en achetant le jeu entre le 15 décembre à 19 h (heure de Paris) et le 5 janvier à 19 h (heure de Paris).</string>
 	<string key="ui_event_free_weekend" rel_version="Feature_FreeWeekend">Week-end gratuit</string>
 	<string key="ui_event_free_weekend_in_progress_panel1_bullet1_title" rel_version="Feature_FreeWeekend" comment="DO NOT TRANSLATE">Free Weekend In Progress Panel 1, Bullet 1 Title</string>
 	<string key="ui_event_free_weekend_in_progress_panel1_bullet1_text" rel_version="Feature_FreeWeekend" comment="DO NOT TRANSLATE">Free Weekend In Progress Panel 1, Bullet 1 Text</string>
@@ -143,14 +144,17 @@
 	<string key="ui_news_bullet_armor_skins">Apparences d'armure</string>
 	<string key="ui_news_bullet_weapon_skins">Apparences d'arme</string>
 	<string key="ui_news_bullet_weapons">Armes</string>
+	<string key="ui_news_bullet_weapon">Arme</string>
 	<string key="ui_news_bullet_armor">Armure</string>
 	<string key="ui_news_bullet_armor_set">Ensemble d'armure</string>
 	<string key="ui_news_bullet_emote">Émote</string>
 	<string key="ui_news_bullet_emotes">Émotes</string>
 	<string key="ui_news_bullet_housing">Logement</string>
 	<string key="ui_news_bullet_resources">Ressources</string>
+	<string key="ui_news_bullet_decor">Décoration</string>
 	<string key="ui_news_bullet_mounts" rel_version="Feature_Mounts">Montures</string>
 	<string key="ui_news_bullet_mount_skins" rel_version="Feature_Mounts">Apparences de monture</string>
+	<string key="ui_news_bullet_mount_attachments" rel_version="Feature_Mounts">Accessoires de monture</string>
 	<string key="ui_news_bullet_artifact" rel_version="Feature_Artifacts">Artéfact</string>
 	<string key="ui_news_bullet_artifacts" rel_version="Feature_Artifacts">Artéfacts</string>
 	<string key="ui_news_bullet_transmog_tokens" rel_version="Season_2_Perm">Jetons de transmogrification</string>
@@ -328,6 +332,10 @@
 	<string key="ui_event_glacial_tarn_title" rel_version="Expedition_GreatCleave_00">Lac de glace</string>
 	<string key="ui_event_glacial_tarn_description" rel_version="Expedition_GreatCleave_00">Invoquées par sire Loth lors d'expériences démentes, des forces primordiales et glaciales ont émergé près de la grande Faille ! Plongez dans les profondeurs gelées du Lac de glace, où d'antiques et redoutables magies élémentaires vous attendent. Exploitez la puissance du feu empyréen pour vous frayer un chemin au cœur de l'assaut des glaces et mettez un terme définitif aux plans du mage noir !</string>
 	<string key="ui_event_glacial_tarn_about" rel_version="Expedition_GreatCleave_00">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; À propos du Lac de glace</string>
+	<string key="ui_event_controller_tabname" comment="DO NOT TRANSLATE" rel_version="Feature_Controller">Controller</string>
+	<string key="ui_event_controller_title" comment="DO NOT TRANSLATE" rel_version="Feature_Controller">Controller Title Placeholder</string>
+	<string key="ui_event_controller_description" comment="DO NOT TRANSLATE" rel_version="Feature_Controller">Controller Description Placeholder</string>
+	<string key="ui_event_controller_about" comment="DO NOT TRANSLATE" rel_version="Feature_Controller">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; About Controller</string>
 	<string key="ui_event_legacy_of_crassus_2024_title" rel_version="Event_Legacy_Of_Crassus2024">Héritage de Crassus</string>
 	<string key="ui_event_legacy_of_crassus_2024_description" rel_version="Event_Legacy_Of_Crassus2024">Crassus et sa légion monstrueuse sont de retour ! Ralliez vos forces et combattez les brutaux capitaines Decimus et Lucanus à Boisclair, au Val des Larmes, au marais des Trames, à Bois-Éden et au bief de Nerécaille. Repoussez l'assaut romain et triomphez de l'altération pour l'honneur, la gloire et des récompenses limitées dans le temps !</string>
 	<string key="ui_event_legacy_of_crassus_2024_bullet1" rel_version="Event_Legacy_Of_Crassus2024">Pioche de la Légion</string>
@@ -337,8 +345,31 @@
 	<string key="ui_event_jan_2024_mtx_title" rel_version="Entitlements_Ronin">Ronin 2e partie</string>
 	<string key="ui_event_jan_2024_mtx_description" rel_version="Entitlements_Ronin">L'ombre du ronin s'étend sur nos terres ! Visitez la boutique pour y récupérer des objets sur le thème des samouraïs !</string>
 	<string key="ui_event_jan_2024_mtx_about" rel_version="Entitlements_Ronin">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; À propos de Ronin 2e partie</string>
-	<string key="ui_event_year_of_the_dragon_title" comment="DO NOT TRANSLATE" rel_version="Event_Lunar_NewYear2024_Perm">Year of the Dragon</string>
-	<string key="ui_event_year_of_the_dragon_description" comment="DO NOT TRANSLATE" rel_version="Event_Lunar_NewYear2024_Perm">Celebrate the Lunar New Year with the denizens of Ebonscale Reach. Cook up delicious food at the hot pot, take in the spectacular fireworks in the evening, and complete tribute runs to gain the Dragon's blessing during the Year of the Dragon.</string>
-	<string key="ui_event_year_of_the_dragon_about" comment="DO NOT TRANSLATE" rel_version="Event_Lunar_NewYear2024_Perm">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; About the Year of the Dragon</string>
+	<string key="ui_event_year_of_the_dragon_title" rel_version="Event_Lunar_NewYear2024_Perm">L'année du Dragon</string>
+	<string key="ui_event_year_of_the_dragon_description" rel_version="Event_Lunar_NewYear2024_Perm">Célébrez le Nouvel An lunaire avec les résidents du bief de Nerécaille. Préparez des fondues délicieuses, admirez les feux d'artifice spectaculaires du soir, et terminez des courses de tribut pour recevoir la bénédiction du Dragon pendant l'année du Dragon.</string>
+	<string key="ui_event_year_of_the_dragon_bullet2" rel_version="Event_Lunar_NewYear2024_Perm">Matière noire</string>
+	<string key="ui_event_year_of_the_dragon_bullet3" rel_version="Event_Lunar_NewYear2024_Perm">Fondue</string>
+	<string key="ui_event_year_of_the_dragon_about" rel_version="Event_Lunar_NewYear2024_Perm">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; À propos de l'année du Dragon</string>
+	<string key="ui_event_feb_2024_mtx_title" rel_version="Entitlements_WinterMerc">Mercenaire de l'hiver</string>
+	<string key="ui_event_feb_2024_mtx_description" rel_version="Entitlements_WinterMerc">Avec un cœur aussi froid que les étendues glacées et une volonté de se battre dans des conditions que d'autres trouveraient insupportables, le mercenaire de l'hiver est un redoutable adversaire ! Habillez-vous pour supporter la rudesse de l'hiver avec les nouveaux objets disponibles dans la boutique !</string>
+	<string key="ui_event_feb_2024_mtx_about" rel_version="Entitlements_WinterMerc">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; À propos du mercenaire de l'hiver</string>
+	<string key="ui_event_activity_finder_tabname" rel_version="Feature_PUG_Finder">Activités</string>
+	<string key="ui_event_activity_finder_title" rel_version="Feature_PUG_Finder">Recherche d'activités</string>
+	<string key="ui_event_activity_finder_description" rel_version="Feature_PUG_Finder">La nouvelle recherche d'activités ajoute les expéditions intermondes ainsi que la recherche de groupes améliorée. Parcourez le nouveau menu d'activités pour la découvrir.\n\nInclut de nouvelles fonctionnalités :</string>
+	<string key="ui_event_activity_finder_description_bullet1" rel_version="Feature_PUG_Finder">Recherche d'expéditions intermondes</string>
+	<string key="ui_event_activity_finder_description_bullet2" rel_version="Feature_PUG_Finder">Système de matchmaking pour combler les groupes des expéditions normales et mutantes (M1 et M2 seulement)</string>
+	<string key="ui_event_activity_finder_description_bullet3" rel_version="Feature_PUG_Finder">Récompenses bonus en rejoignant une fille d'attente aléatoire et en endossant le rôle de guérisseur ou de tank.</string>
+	<string key="ui_event_activity_finder_description_bullet4" rel_version="Feature_PUG_Finder">Remplissage automatique des groupes intermondes</string>
+	<string key="ui_event_activity_finder_about" rel_version="Feature_PUG_Finder">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; À propos des activités</string>
+	<string key="ui_event_season_five_tabname" rel_version="Season_5_Perm">Saison 5</string>
+	<string key="ui_event_season_five_title" rel_version="Season_5_Perm">Saison des épreuves</string>
+	<string key="ui_event_season_five_description" rel_version="Season_5_Perm">La saison des épreuves est ouverte ! Redécouvrez de vieux adversaires et mettez-vous en quête de nouveaux et prometteurs artéfacts. Aventurez-vous dans la forge des runes de l'hiver et combattez les ennemis qui s'y terrent avec 10 de vos amis. Recevez d'incroyables récompenses comme des apparences, des artéfacts et bien d'autres choses avec la chaîne de récompenses de la saison des épreuves.</string>
+	<string key="ui_event_season_five_about" rel_version="Season_5_Perm">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; À propos de la saison 5</string>
+	<string key="ui_event_mar_2024_mtx_title" rel_version="Entitlements_Reaper">Étreinte de la faucheuse</string>
+	<string key="ui_event_mar_2024_mtx_description" rel_version="Entitlements_Reaper">Quand la mort frappe à votre porte, c'est du sérieux ! Rendez-vous dans la boutique pour découvrir les objets de la sinistre faucheuse disponibles pendant une durée limitée ! Autant aller en Enfer avec style !</string>
+	<string key="ui_event_mar_2024_mtx_about" rel_version="Entitlements_Reaper">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; À propos de l'étreinte de la faucheuse</string>
+	<string key="ui_event_apr_2024_mtx_title" comment="DO NOT TRANSLATE" rel_version="Entitlements_BattleMage">Battle Mage Placeholder</string>
+	<string key="ui_event_apr_2024_mtx_description" comment="DO NOT TRANSLATE" rel_version="Entitlements_BattleMage">Why get your hands dirty swinging a sword or hammer when you can stand back and launch balls of fire into the battle? Even better, why not look good while doing it? New cosmetics have teleported into the Store, perfect for the discerning Battle Mage!</string>
+	<string key="ui_event_apr_2024_mtx_about" comment="DO NOT TRANSLATE" rel_version="Entitlements_BattleMage">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; About Battle Mage Placeholder</string>
 </resources>
 

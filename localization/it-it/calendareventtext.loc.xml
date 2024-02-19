@@ -20,6 +20,7 @@
 	<string key="ui_pvp_rewards_panel1_bullet3_title" rel_version="PvP_Rewards_Track">RICOMPENSE</string>
 	<string key="ui_pvp_rewards_panel1_bullet3_text" rel_version="PvP_Rewards_Track">Scegli tra ricompense uniche come armature e armi prestigiose, emote, valute e consumabili.</string>
 	<string key="ui_event_summer_progress_name" rel_version="Event_Summer_Perm">Reputazione evento</string>
+	<string key="ui_event_spring_progress_name" rel_version="Event_SpringtideBloom_Temp">Event Reputation</string>
 	<string key="ui_event_weapon_xp_tabname">Evento PE</string>
 	<string key="ui_event_weapon_xp_title">EVENTO BONUS PE ARMI</string>
 	<string key="ui_event_weapon_xp_desc">Bonus attivi:</string>
@@ -143,14 +144,17 @@
 	<string key="ui_news_bullet_armor_skins">Skin per armatura</string>
 	<string key="ui_news_bullet_weapon_skins">Skin per arma</string>
 	<string key="ui_news_bullet_weapons">Armi</string>
+	<string key="ui_news_bullet_weapon">Arma</string>
 	<string key="ui_news_bullet_armor">Armature</string>
 	<string key="ui_news_bullet_armor_set">Set per armatura</string>
 	<string key="ui_news_bullet_emote">Emote</string>
 	<string key="ui_news_bullet_emotes">Emote</string>
 	<string key="ui_news_bullet_housing">Casa</string>
 	<string key="ui_news_bullet_resources">Risorse</string>
+	<string key="ui_news_bullet_decor">Decorazioni</string>
 	<string key="ui_news_bullet_mounts" rel_version="Feature_Mounts">Cavalcature</string>
 	<string key="ui_news_bullet_mount_skins" rel_version="Feature_Mounts">Skin per cavalcatura</string>
+	<string key="ui_news_bullet_mount_attachments" rel_version="Feature_Mounts">Accessori per cavalcatura</string>
 	<string key="ui_news_bullet_artifact" rel_version="Feature_Artifacts">Manufatto</string>
 	<string key="ui_news_bullet_artifacts" rel_version="Feature_Artifacts">Manufatti</string>
 	<string key="ui_news_bullet_transmog_tokens" rel_version="Season_2_Perm">Gettoni transmog</string>
@@ -328,6 +332,10 @@
 	<string key="ui_event_glacial_tarn_title" rel_version="Expedition_GreatCleave_00">Lago congelato</string>
 	<string key="ui_event_glacial_tarn_description" rel_version="Expedition_GreatCleave_00">A Grande Breccia sono emerse gelide forze primordiali evocate dai contorti esperimenti di Ser Loth! Immergiti nelle fredde profondità del Lago congelato, dove ti aspettano antiche e potenti magie elementali. Usa il potere della fiamma empirea per affrontare l'assalto glaciale e metti fine al complotto del mago oscuro una volta per tutte!</string>
 	<string key="ui_event_glacial_tarn_about" rel_version="Expedition_GreatCleave_00">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Informazioni sul Lago congelato</string>
+	<string key="ui_event_controller_tabname" comment="DO NOT TRANSLATE" rel_version="Feature_Controller">Controller</string>
+	<string key="ui_event_controller_title" comment="DO NOT TRANSLATE" rel_version="Feature_Controller">Controller Title Placeholder</string>
+	<string key="ui_event_controller_description" comment="DO NOT TRANSLATE" rel_version="Feature_Controller">Controller Description Placeholder</string>
+	<string key="ui_event_controller_about" comment="DO NOT TRANSLATE" rel_version="Feature_Controller">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; About Controller</string>
 	<string key="ui_event_legacy_of_crassus_2024_title" rel_version="Event_Legacy_Of_Crassus2024">Lascito di Crasso</string>
 	<string key="ui_event_legacy_of_crassus_2024_description" rel_version="Event_Legacy_Of_Crassus2024">Crasso ritorna con la sua mostruosa legione al seguito! Raduna le tue forze e affronta i brutali capitani Decimus e Lucanus presso Boscobrillante, Valle del cordoglio, Palude del tessitore, Frutteto dell'Eden e Scaglia d'ebano. Respingi l'offensiva romana e liberati dalla morsa della Corruzione per conquistare gloria, onore e ricompense a tempo limitato!</string>
 	<string key="ui_event_legacy_of_crassus_2024_bullet1" rel_version="Event_Legacy_Of_Crassus2024">Piccozza della legione</string>
@@ -337,8 +345,31 @@
 	<string key="ui_event_jan_2024_mtx_title" rel_version="Entitlements_Ronin">Ronin - Parte II</string>
 	<string key="ui_event_jan_2024_mtx_description" rel_version="Entitlements_Ronin">L'ombra di Ronin si estende su queste terre! Visita il negozio per scoprire i nuovi oggetti a tema samurai!</string>
 	<string key="ui_event_jan_2024_mtx_about" rel_version="Entitlements_Ronin">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Informazioni su Ronin - Parte II</string>
-	<string key="ui_event_year_of_the_dragon_title" comment="DO NOT TRANSLATE" rel_version="Event_Lunar_NewYear2024_Perm">Year of the Dragon</string>
-	<string key="ui_event_year_of_the_dragon_description" comment="DO NOT TRANSLATE" rel_version="Event_Lunar_NewYear2024_Perm">Celebrate the Lunar New Year with the denizens of Ebonscale Reach. Cook up delicious food at the hot pot, take in the spectacular fireworks in the evening, and complete tribute runs to gain the Dragon's blessing during the Year of the Dragon.</string>
-	<string key="ui_event_year_of_the_dragon_about" comment="DO NOT TRANSLATE" rel_version="Event_Lunar_NewYear2024_Perm">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; About the Year of the Dragon</string>
+	<string key="ui_event_year_of_the_dragon_title" rel_version="Event_Lunar_NewYear2024_Perm">Anno del drago</string>
+	<string key="ui_event_year_of_the_dragon_description" rel_version="Event_Lunar_NewYear2024_Perm">Festeggia il nuovo anno lunare con gli abitanti di Scaglia d'ebano. Prepara deliziosi stufati, ammira gli incredibili spettacoli pirotecnici serali e fai sfoggio delle tue abilità per ottenere la benedizione del drago durante l'anno a lui dedicato.</string>
+	<string key="ui_event_year_of_the_dragon_bullet2" rel_version="Event_Lunar_NewYear2024_Perm">Materia oscura</string>
+	<string key="ui_event_year_of_the_dragon_bullet3" rel_version="Event_Lunar_NewYear2024_Perm">Stufato</string>
+	<string key="ui_event_year_of_the_dragon_about" rel_version="Event_Lunar_NewYear2024_Perm">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Informazioni sull'anno del drago</string>
+	<string key="ui_event_feb_2024_mtx_title" rel_version="Entitlements_WinterMerc">Mercenario d'inverno</string>
+	<string key="ui_event_feb_2024_mtx_description" rel_version="Entitlements_WinterMerc">Con un cuore freddo come il paesaggio ghiacciato e la volontà di combattere in condizioni insopportabili per gli altri, il mercenario d'inverno è un nemico temibile! Equipaggiati per i mesi invernali con i nuovi oggetti disponibili nel negozio!</string>
+	<string key="ui_event_feb_2024_mtx_about" rel_version="Entitlements_WinterMerc">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Informazioni sul mercenario d'inverno</string>
+	<string key="ui_event_activity_finder_tabname" rel_version="Feature_PUG_Finder">Attività</string>
+	<string key="ui_event_activity_finder_title" rel_version="Feature_PUG_Finder">Ricerca attività</string>
+	<string key="ui_event_activity_finder_description" rel_version="Feature_PUG_Finder">La nuova funzionalità Ricerca attività aggiunge le spedizioni tra mondi e un'esperienza di ricerca dei gruppi migliorata. Puoi trovarla nel nuovo menu Attività.\n\nLe novità includono:</string>
+	<string key="ui_event_activity_finder_description_bullet1" rel_version="Feature_PUG_Finder">Ricerca spedizioni tra mondi</string>
+	<string key="ui_event_activity_finder_description_bullet2" rel_version="Feature_PUG_Finder">Il matchmaker tra mondi definirà i gruppi per le spedizioni normali e mutate (solo M1 e M2)</string>
+	<string key="ui_event_activity_finder_description_bullet3" rel_version="Feature_PUG_Finder">Ricompense bonus per chi si mette in coda selezionando Casuale e per chi gioca come guaritore o tank</string>
+	<string key="ui_event_activity_finder_description_bullet4" rel_version="Feature_PUG_Finder">Completamento automatico dei gruppi tra mondi</string>
+	<string key="ui_event_activity_finder_about" rel_version="Feature_PUG_Finder">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Informazioni sulle attività</string>
+	<string key="ui_event_season_five_tabname" rel_version="Season_5_Perm">Stagione 5</string>
+	<string key="ui_event_season_five_title" rel_version="Season_5_Perm">Stagione delle prove</string>
+	<string key="ui_event_season_five_description" rel_version="Season_5_Perm">Inizia la stagione delle prove! Incontra vecchi nemici e dai la caccia a nuovi, entusiasmanti manufatti. Avventurati nella Fucina della Runa dell'Inverno e affronta ciò che ti aspetta con dieci dei tuoi migliori amici. Ottieni incredibili ricompense tra cui skin, manufatti e molto altro ancora con il percorso di ricompense della stagione delle prove.</string>
+	<string key="ui_event_season_five_about" rel_version="Season_5_Perm">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Informazioni sulla stagione 5</string>
+	<string key="ui_event_mar_2024_mtx_title" rel_version="Entitlements_Reaper">Abbraccio del mietitore</string>
+	<string key="ui_event_mar_2024_mtx_description" rel_version="Entitlements_Reaper">C'è poco da ridere quando la morte bussa alla tua porta! Visita il negozio per scoprire i nuovi oggetti del Tristo mietitore, disponibili per un periodo limitato! Perché rinunciare all'eleganza durante la discesa negli inferi?</string>
+	<string key="ui_event_mar_2024_mtx_about" rel_version="Entitlements_Reaper">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Informazioni su Abbraccio del mietitore</string>
+	<string key="ui_event_apr_2024_mtx_title" comment="DO NOT TRANSLATE" rel_version="Entitlements_BattleMage">Battle Mage Placeholder</string>
+	<string key="ui_event_apr_2024_mtx_description" comment="DO NOT TRANSLATE" rel_version="Entitlements_BattleMage">Why get your hands dirty swinging a sword or hammer when you can stand back and launch balls of fire into the battle? Even better, why not look good while doing it? New cosmetics have teleported into the Store, perfect for the discerning Battle Mage!</string>
+	<string key="ui_event_apr_2024_mtx_about" comment="DO NOT TRANSLATE" rel_version="Entitlements_BattleMage">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; About Battle Mage Placeholder</string>
 </resources>
 
