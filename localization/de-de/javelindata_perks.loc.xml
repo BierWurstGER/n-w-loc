@@ -1124,7 +1124,7 @@
 	<string key="PerkID_Ability_Hatchet_FeralRush_Name">Lähmender Wilder Ansturm</string>
 	<string key="PerkID_Ability_Hatchet_FeralRush_Description">Ein Treffer von "Wilder Ansturm" verlangsamt für {[3.000000]} Sek. um {[-0.100000 * -100 * {perkMultiplier}]} % und verursacht +{[0.050000 * 100 * {perkMultiplier}]} % Schaden.</string>
 	<string key="PerkID_Ability_Hatchet_Berserk_Name">Tobender Berserker</string>
-	<string key="PerkID_Ability_Hatchet_Berserk_Description">+{[0.050000 * 100 * {perkMultiplier}]} % kritische Trefferchance und +{[0.000000 * 100 * {perkMultiplier}]} % Schaden, wenn du weniger als {[0.000000]} % Gesundheit hast und "Berserker" aktiv ist.</string>
+	<string key="PerkID_Ability_Hatchet_Berserk_Description">Erhalte +{[0.050000 * 100 * {perkMultiplier}]} % kritische Trefferchance und +{[0.050000 * 100 * {perkMultiplier}]} % kritischen Schaden, wenn "Berserker" aktiv ist.</string>
 	<string key="PerkID_Ability_Hatchet_RagingTorrent_Name">Auffrischende Flut</string>
 	<string key="PerkID_Ability_Hatchet_RagingTorrent_Description">Jeder Treffer mit "Tosende Fluten" verringert die Beil-Abklingzeiten um {[-0.010000 * -100 * {perkMultiplier}]} %. (Abklingzeit {[0.200000]} Sek.)</string>
 	<string key="PerkID_Ability_Hatchet_Rending_Throw_Name">Ermächtigender Zerreißender Wurf</string>
@@ -1184,7 +1184,7 @@
 	<string key="PerkID_Ability_Rapier_Tondo_Name">Eifriger Tondo</string>
 	<string key="PerkID_Ability_Rapier_Tondo_Description">+{[0.020000 * 100 * {perkMultiplier}]} % Chance auf kritische Treffer bei Zielen, die von "Tondos Blutung"-Effekt betroffen sind. Wirkt der Effekt auf einer Waffe, verursacht Tondo auch für {[10.000000]} Sek. {[-0.100000 * -100]} % Schwächen. </string>
 	<string key="PerkID_Ability_Rapier_FlourishAndFinish_Name">Tödlicher Schwung</string>
-	<string key="PerkID_Ability_Rapier_FlourishAndFinish_Description">Schwung verursacht +{[0.100000 * 100 * {perkMultiplier}]} % Schaden an Zielen unter 50 % Gesundheit.</string>
+	<string key="PerkID_Ability_Rapier_FlourishAndFinish_Description">Schwung verursacht +{[0.100000 * 100 * {perkMultiplier}]} % Basisschaden und belegt Ziele mit Blutung des Rapiers.</string>
 	<string key="PerkID_Ability_Rapier_Flurry_Name">Aussaugendes Schnittgestöber</string>
 	<string key="PerkID_Ability_Rapier_Flurry_Description">Du heilst dich für {[0.100000 * 100 * {perkMultiplier}]} % des durch "Schnittgestöber" zugefügten Schadens. Du erhältst {[0.500000]} Sek. Unverwundbarkeit, wenn du "Schnittgestöber" einsetzt. </string>
 	<string key="PerkID_Ability_Rapier_Riposte_Name">Zertrennende Riposte</string>
@@ -1532,7 +1532,7 @@
 	<string key="PerkID_Weapon_BleedonCrit_Description">Fügt bei kritischen Treffern Blutung zu, die für {[6.000000]} Sek. {[-0.100000 * -100]} % Waffenschaden verursacht. ({[7.000000]} Sek. Abklingzeit.)</string>
 	<string key="PerkID_Weapon_FortifyOnCrit_Name">Eifrige Verstärkung</string>
 	<string key="PerkID_Weapon_FortifyOnCrit_Description">Bei einem kritischen Treffer erhältst du für {[3.000000]} Sek. {[0.100000 * 100 * {perkMultiplier}]} % Verstärkung. ({[10.000000]} Sek. Abklingzeit.)</string>
-	<string key="PerkID_Weapon_EmpowerOnCrit_Name">Eifrig Ermächtigung</string>
+	<string key="PerkID_Weapon_EmpowerOnCrit_Name">Eifrig Ermächtigt</string>
 	<string key="PerkID_Weapon_EmpowerOnCrit_Description">Bei einem kritischen Treffer erhältst du für {[5.000000]} Sek. {[0.100000 * 100 * {perkMultiplier}]} % Ermächtigung. ({[10.000000]} Sek. Abklingzeit.)</string>
 	<string key="PerkID_Weapon_HasteOnCrit_Name">Eifriges Tempo</string>
 	<string key="PerkID_Weapon_HasteOnCrit_Description">Bei einem kritischen Treffer erhältst du für {[7.000000]} Sek. {[0.200000 * 100 * {perkMultiplier}]} % Eile. ({[7.000000]} Sek. Abklingzeit.)</string>
@@ -1697,7 +1697,7 @@
 	<string key="PerkID_Ability_Blunderbuss_VortexShot_Name" rel_version="Weapon_Blunderbuss">Lähmender Explosivschuss</string>
 	<string key="PerkID_Ability_Blunderbuss_VortexShot_Description" rel_version="Weapon_Blunderbuss">Mit "Explosivschuss" getroffene Ziele erleiden "Verlangsamung", wodurch sich ihr Bewegungstempo für {[5.000000]} Sekunden um {[-0.050000 * -100 * {perkMultiplier}]} % verringert.</string>
 	<string key="PerkID_Ability_Flail_Slam_Name" rel_version="Weapon_Flail">Belastendes Zerschmettern</string>
-	<string key="PerkID_Ability_Flail_Slam_Description" rel_version="Weapon_Flail">Nur im PvP: Treffer von "Zerschmettern" gegen Ziele verlängern ihre aktiven Abklingzeiten um {[0.050000 * 100 * {perkMultiplier}]} %.</string>
+	<string key="PerkID_Ability_Flail_Slam_Description" rel_version="Weapon_Flail">Nur im PvP: Treffer von "Zerschmettern" gegen Ziele verlängern ihre aktive Abklingzeiten um {[0.050000 * 100 * {perkMultiplier}]} %.</string>
 	<string key="PerkID_Ability_Flail_Blast_Name" rel_version="Weapon_Flail">Heilender Strudel</string>
 	<string key="PerkID_Ability_Flail_Blast_Description" rel_version="Weapon_Flail">Jeder {[2.000000]}. Treffer mit "Strudel" heilt dich um {[0.050000 * 100 * {perkMultiplier}]} % des Basiswaffenschadens.</string>
 	<string key="PerkID_Ability_Flail_Burst_Name" rel_version="Weapon_Flail">Mächtiger Ausbruch</string>
@@ -2645,7 +2645,7 @@
 	<string key="PerkID_Artifact_Set1_MediumLegs_SecondaryName">Meister aller Klassen</string>
 	<string key="PerkID_Artifact_Set1_MediumLegs_Desc">+10 auf alle Attribute.</string>
 	<string key="PerkID_Artifact_Set1_MediumFeet_Name" rel_version="Feature_Artifacts_Set2">Flitzebogen</string>
-	<string key="PerkID_Artifact_Set1_MediumFeet_Desc" rel_version="Feature_Artifacts_Set2">Die Grunddauer von Eile bei dir wird um {[0.500000 * 100]} % verlängert.</string>
+	<string key="PerkID_Artifact_Set1_MediumFeet_Desc" rel_version="Feature_Artifacts_Set2">Die Grunddauer von Eile bei dir wird um {[0.500000 * 100]} % verlängert. Bei aktiver Eile verursachst du {[0.100000 * 100]} % mehr Basisschaden.</string>
 	<string key="PerkID_Artifact_Set1_LightHead_Name">Brillanz</string>
 	<string key="PerkID_Artifact_Set1_LightHead_Desc">+{[1.000000 * 100]} % max. Mana.</string>
 	<string key="PerkID_Artifact_Set1_LightChest_Name">Schwerelos</string>

@@ -840,9 +840,9 @@
 	<string key="LoggingMastery1Desc">+15 % de ressources abattues.</string>
 	<string key="LoggingMastery2Desc">+20 % de ressources abattues.</string>
 	<string key="LoggingMastery3Desc">+30 % de ressources abattues.</string>
-	<string key="MiningMastery1Desc">+15 % de ressources minées.</string>
-	<string key="MiningMastery2Desc">+20 % de ressources minées.</string>
-	<string key="MiningMastery3Desc">+30 % de ressources minées.</string>
+	<string key="MiningMastery1Desc">+15 % de ressources extraites.</string>
+	<string key="MiningMastery2Desc">+20 % de ressources extraites.</string>
+	<string key="MiningMastery3Desc">+30 % de ressources extraites.</string>
 	<string key="SkinningMastery1Desc">+15 % de ressources dépecées.</string>
 	<string key="SkinningMastery2Desc">+20 % de ressources dépecées.</string>
 	<string key="SkinningMastery3Desc">+30 % de ressources dépecées.</string>
@@ -1124,13 +1124,13 @@
 	<string key="PerkID_Ability_Hatchet_FeralRush_Name">Ruée féroce handicapante</string>
 	<string key="PerkID_Ability_Hatchet_FeralRush_Description">Quand Ruée féroce touche, provoque {[-0.100000 * -100 * {perkMultiplier}]} % de ralentissement pendant {[3.000000]} s et inflige +{[0.050000 * 100 * {perkMultiplier}]} % de dégâts supplémentaires.</string>
 	<string key="PerkID_Ability_Hatchet_Berserk_Name">Rage intense</string>
-	<string key="PerkID_Ability_Hatchet_Berserk_Description">+{[0.050000 * 100 * {perkMultiplier}]} % de chances de coup critique et +{[0.000000 * 100 * {perkMultiplier}]} % de dégâts supplémentaires lorsque vous avez moins de {[0.000000]} % de santé et lorsque le mode Rage est actif.</string>
+	<string key="PerkID_Ability_Hatchet_Berserk_Description">+{[0.050000 * 100 * {perkMultiplier}]} % de chances de coup critique et +{[0.050000 * 100 * {perkMultiplier}]} % de dégâts critiques lorsque le mode Rage est actif.</string>
 	<string key="PerkID_Ability_Hatchet_RagingTorrent_Name">Torrent régénérateur</string>
-	<string key="PerkID_Ability_Hatchet_RagingTorrent_Description">Chaque attaque de Torrent enragé réduit de {[-0.010000 * -100 * {perkMultiplier}]} % tous les temps de recharge de la hachette ({[0.200000]}s de temps de recharge).</string>
+	<string key="PerkID_Ability_Hatchet_RagingTorrent_Description">Chaque attaque de Torrent enragé réduit de {[-0.010000 * -100 * {perkMultiplier}]} % tous les temps de recharge de la hachette ({[0.200000]} s de temps de recharge).</string>
 	<string key="PerkID_Ability_Hatchet_Rending_Throw_Name">Lancer déchirant fortifiant</string>
 	<string key="PerkID_Ability_Hatchet_Rending_Throw_Description">Les attaques à distance de la hachette infligent +{[0.100000 * 100 * {perkMultiplier}]} % de dégâts aux ennemis ciblés par Lancer déchirant.</string>
-	<string key="PerkID_Ability_Hatchet_DistancingThrow_Name">Distanciation sociale régénératrice</string>
-	<string key="PerkID_Ability_Hatchet_DistancingThrow_Description">Les attaques de Distanciation sociale à moins de {[6.000000]} m réduisent le temps de recharge de {[-0.075000 * -100 * {perkMultiplier}]} %.</string>
+	<string key="PerkID_Ability_Hatchet_DistancingThrow_Name">Distanciation tranchante régénératrice</string>
+	<string key="PerkID_Ability_Hatchet_DistancingThrow_Description">Les attaques de Distanciation tranchante à moins de {[6.000000]} m réduisent le temps de recharge de {[-0.075000 * -100 * {perkMultiplier}]} %.</string>
 	<string key="PerkID_Ability_Hatchet_InfectedThrow_Name">Lancer infecté épuisant</string>
 	<string key="PerkID_Ability_Hatchet_InfectedThrow_Description">Les coups directs avec Lancer infecté épuisent les cibles, réduisant leur régénération de la vitalité de {[-0.100000 * -100 * {perkMultiplier}]} % pendant {[6.000000]} s.</string>
 	<string key="PerkID_Ability_Hammer_ArmorBreaker_Name">Brise-armure fortifiant</string>
@@ -1139,7 +1139,7 @@
 	<string key="PerkID_Ability_Hammer_MightyGavel_Description">Les coups portés par Saut de marteau réduisent de {[-0.050000 * -100 * {perkMultiplier}]} % le temps de recharge de la capacité ({[2.000000]} activations maximum par impact).</string>
 	<string key="PerkID_Ability_Hammer_WreckingBall_Name">Marteau de destruction pénétrant</string>
 	<string key="PerkID_Ability_Hammer_WreckingBall_Description">Marteau de destruction pénètre {[0.050000 * 100 * {perkMultiplier}]} % de l'armure de la cible.</string>
-	<string key="PerkID_Ability_Hammer_Shockwave_Name">Onde de choc scindante</string>
+	<string key="PerkID_Ability_Hammer_Shockwave_Name">Onde de choc déchirante</string>
 	<string key="PerkID_Ability_Hammer_Shockwave_Description">Marteau sismique applique lacération, réduisant l'armure de la cible de {[-0.050000 * -100 * {perkMultiplier}]} % pendant {[10.000000]} s.</string>
 	<string key="PerkID_Ability_Hammer_ClearOut_Name">Marteau balayeur déchirant</string>
 	<string key="PerkID_Ability_Hammer_ClearOut_Description">Marteau balayeur applique lacération, réduisant l'armure de la cible de {[-0.050000 * -100 * {perkMultiplier}]} % pendant {[7.000000]} s.</string>
@@ -1159,8 +1159,8 @@
 	<string key="PerkID_Ability_Musket_StickyBomb_Description">Chaque coup porté par Bombes collantes vous soigne à hauteur de {[0.100000 * 100 * {perkMultiplier}]} % des dégâts infligés.</string>
 	<string key="PerkID_Ability_Spear_Sweep_Name">Balayage de saignement</string>
 	<string key="PerkID_Ability_Spear_Sweep_Description">Le dernier coup porté par Balayage applique désormais un saignement qui inflige {[-0.020000 * -100 * {perkMultiplier}]} % des dégâts de l'arme pendant {[8.000000]} s.</string>
-	<string key="PerkID_Ability_Spear_Javelin_Name">Javelot scindant</string>
-	<string key="PerkID_Ability_Spear_Javelin_Description">Javelot applique lacération aux cibles dont la santé est supérieure à {[50.000000]} %, réduisant leur armure de {[-0.050000 * -100 * {perkMultiplier}]} % pendant {[10.000000]}s.</string>
+	<string key="PerkID_Ability_Spear_Javelin_Name">Javelot déchirant</string>
+	<string key="PerkID_Ability_Spear_Javelin_Description">Javelot applique lacération aux cibles dont la santé est supérieure à {[50.000000]} %, réduisant leur armure de {[-0.050000 * -100 * {perkMultiplier}]} % pendant {[10.000000]} s.</string>
 	<string key="PerkID_Ability_Spear_Cyclone_Name">Cyclone aspirant</string>
 	<string key="PerkID_Ability_Spear_Cyclone_Description">Les coups de Cyclone vous soignent à hauteur de {[0.100000 * 100 * {perkMultiplier}]} % des dégâts de l'arme ({[3.000000]} cibles maximum).</string>
 	<string key="PerkID_Ability_Spear_Perforate_Name">Perforation fortificatrice</string>
@@ -1184,10 +1184,10 @@
 	<string key="PerkID_Ability_Rapier_Tondo_Name">Tondo vicieux</string>
 	<string key="PerkID_Ability_Rapier_Tondo_Description">+{[0.020000 * 100 * {perkMultiplier}]} % de chances de coup critique contre les cibles affectées par le saignement de Tondo. Si cet atout est sur une arme, Tondo inflige également {[-0.100000 * -100]} % d'affaiblissement pendant {[10.000000]} s. </string>
 	<string key="PerkID_Ability_Rapier_FlourishAndFinish_Name">Embellissement mortel</string>
-	<string key="PerkID_Ability_Rapier_FlourishAndFinish_Description">Embellissement inflige +{[0.100000 * 100 * {perkMultiplier}]} % des dégâts contre les cibles ayant moins de 50 % de santé.</string>
+	<string key="PerkID_Ability_Rapier_FlourishAndFinish_Description">Embellissement inflige {[0.100000 * 100 * {perkMultiplier}]} % de dégâts de base supplémentaires et la rapière fait saigner ses cibles.</string>
 	<string key="PerkID_Ability_Rapier_Flurry_Name">Frénésie aspirante</string>
 	<string key="PerkID_Ability_Rapier_Flurry_Description">Vous soigne à hauteur de {[0.100000 * 100 * {perkMultiplier}]} % des dégâts infligés par Frénésie. Bénéficiez de {[0.500000]} s d'invulnérabilité en utilisant Frénésie. </string>
-	<string key="PerkID_Ability_Rapier_Riposte_Name">Riposte scindante</string>
+	<string key="PerkID_Ability_Rapier_Riposte_Name">Riposte déchirante</string>
 	<string key="PerkID_Ability_Rapier_Riposte_Description">Riposte applique lacération, réduisant de {[-0.050000 * -100 * {perkMultiplier}]} % l'armure de la cible pendant {[10.000000]} s.</string>
 	<string key="PerkID_Ability_Rapier_Evade_Name">Esquive omnidirectionnelle</string>
 	<string key="PerkID_Ability_Rapier_Evade_Description">+{[0.010000 * 100 * {perkMultiplier}]} % de dégâts pendant {[2.000000]} s après avoir utilisé Esquive. L'amélioration Adagio est appliquée lors d'une esquive effectuée dans n'importe quelle direction.</string>
@@ -1250,7 +1250,7 @@
 	<string key="PerkID_Ability_IceGauntlet_DeadlyFrost_Name">Gel mortel</string>
 	<string key="PerkID_Ability_IceGauntlet_DeadlyFrost_Description">Tant que l'amélioration Douches glaciales est active, les engelures provoquées par Tempête de grêle infligent {[-0.080000 * -100]} % des dégâts de l'arme par seconde aux ennemis affectés. Réduit de {[-0.050000 * -100 * {perkMultiplier}]} % le temps de recharge de Tempête de grêle.</string>
 	<string key="PerkID_Ability_IceGauntlet_PylonBurst_Name">Pylône détonant</string>
-	<string key="PerkID_Ability_IceGauntlet_PylonBurst_Description">Pylône de glace inflige +{[0.015000 * 100 * {perkMultiplier}]} % de dégâts et une rafale de dégâts toutes les 2 s aux ennemis dans un rayon de {[3.000000]} m.</string>
+	<string key="PerkID_Ability_IceGauntlet_PylonBurst_Description">Pylône de glace inflige +{[0.015000 * 100 * {perkMultiplier}]} % de dégâts et une rafale de dégâts toutes les 2s aux ennemis dans un rayon de {[3.000000]} m.</string>
 	<string key="PerkID_Ability_IceGauntlet_HealingTomb_Name">Prison curative</string>
 	<string key="PerkID_Ability_IceGauntlet_HealingTomb_Description">Soigne à hauteur de {[0.050000 * 100 * {perkMultiplier}]} % de votre santé de base à la fin de Prison de glace.</string>
 	<string key="PerkID_Ability_VoidGauntlet_VoidBlade_Lifesteal_Name">Lame vorace</string>
@@ -1274,7 +1274,7 @@
 	<string key="PerkID_Common_Luck_Name">Chance</string>
 	<string key="PerkID_Common_Luck_Description">+{[50.000000 * 0.01 * {perkMultiplier}]} % de chances d'obtenir des objets rares dans les coffres et sur les monstres.</string>
 	<string key="PerkID_Tools_Durability_Name">Résistance</string>
-	<string key="PerkID_Tools_Durability_Description">Cet objet ne perd désormais plus de résistance.</string>
+	<string key="PerkID_Tools_Durability_Description">Cet objet ne perd désormais plus de durabilité.</string>
 	<string key="PerkID_Tools_AzothGain_Name">Extraction d'Azoth</string>
 	<string key="PerkID_Tools_AzothGain_Description">La collecte d'un nœud vous confère +{[0.300000 * 100 * {perkMultiplier}]} % de chances de gagner 1 Azoth.</string>
 	<string key="PerkID_Tools_LoggingLuck_Name">Chance d'abattage</string>
@@ -1328,9 +1328,9 @@
 	<string key="PerkID_Bags_AzothYield_Name">Affinité avec l'Azoth</string>
 	<string key="PerkID_Bags_AzothYield_Description">Vous gagnez {[0.030000 * 100 * {perkMultiplier}]} % d'Azoth supplémentaire.</string>
 	<string key="PerkID_Bags_ArrowReturn_Name">Munitions abondantes</string>
-	<string key="PerkID_Bags_ArrowReturn_Description">+{[0.050000 * 100 * {perkMultiplier}]} % de chances d'obtenir 1 munition en touchant la cible avec une arme à distance ({[2.000000]}s de temps de recharge).</string>
+	<string key="PerkID_Bags_ArrowReturn_Description">+{[0.050000 * 100 * {perkMultiplier}]} % de chances d'obtenir 1 munition en touchant avec une arme à distance ({[2.000000]} s de temps de recharge).</string>
 	<string key="PerkID_Bags_AmmoReturn_Name">Munitions abondantes</string>
-	<string key="PerkID_Bags_AmmoReturn_Description">+{[0.050000 * 100 * {perkMultiplier}]} % de chances d'obtenir 1 munition en touchant la cible avec une arme à distance ({[2.000000]}s de temps de recharge).</string>
+	<string key="PerkID_Bags_AmmoReturn_Description">+{[0.050000 * 100 * {perkMultiplier}]} % de chances d'obtenir 1 munition en touchant avec une arme à distance ({[2.000000]} s de temps de recharge).</string>
 	<string key="PerkID_Bags_FactionGain_Name">Loyauté</string>
 	<string key="PerkID_Bags_FactionGain_Description">Vous gagnez {[0.030000 * 100 * {perkMultiplier}]} % de jetons de faction supplémentaires.</string>
 	<string key="PerkID_Armor_DefAncient_Name">Protection anti-Anciens</string>
@@ -1358,7 +1358,7 @@
 	<string key="PerkID_Armor_DefCritDmg_Name">Résilience</string>
 	<string key="PerkID_Armor_DefCritDmg_Description">JcJ seulement : Vous subissez {[0.030000 * 100 * {perkMultiplier}]} % de dégâts en moins des coups critiques.</string>
 	<string key="PerkID_Armor_Durability_Name">Indestructible</string>
-	<string key="PerkID_Armor_Durability_Description">Cet objet ne perd désormais plus de résistance.</string>
+	<string key="PerkID_Armor_Durability_Description">Cet objet ne perd désormais plus de durabilité.</string>
 	<string key="PerkID_Armor_DurCC_Name">Liberté</string>
 	<string key="PerkID_Armor_DurCC_Description">Réduit de {[-0.030000 * -100 * {perkMultiplier}]} % les durées de base de ralentissement, d'étourdissement et d'enracinement.</string>
 	<string key="PerkID_Armor_DurDot_Name">Vigueur</string>
@@ -1533,7 +1533,7 @@
 	<string key="PerkID_Weapon_FortifyOnCrit_Name">Grandement fortifié</string>
 	<string key="PerkID_Weapon_FortifyOnCrit_Description">Octroie {[0.100000 * 100 * {perkMultiplier}]} % de fortification pendant {[3.000000]} s lors des coups critiques ({[10.000000]} s de temps de recharge).</string>
 	<string key="PerkID_Weapon_EmpowerOnCrit_Name">Pleinement renforcé</string>
-	<string key="PerkID_Weapon_EmpowerOnCrit_Description">Octroie {[0.100000 * 100 * {perkMultiplier}]} % de renforcement pendant {[5.000000]} s lors de coups critiques ({[10.000000]} s de temps de recharge).</string>
+	<string key="PerkID_Weapon_EmpowerOnCrit_Description">Octroie {[0.100000 * 100 * {perkMultiplier}]} % de renforcement pendant {[5.000000]} s lors de coups critiques ({[10.000000]}s de temps de recharge).</string>
 	<string key="PerkID_Weapon_HasteOnCrit_Name">Vitesse de pointe</string>
 	<string key="PerkID_Weapon_HasteOnCrit_Description">Octroie {[0.200000 * 100 * {perkMultiplier}]} % de célérité pendant {[7.000000]} s lors de coups critiques ({[7.000000]} s de temps de recharge).</string>
 	<string key="PerkID_Weapon_ManaOnHit_Name">Coup de siphon</string>
@@ -1709,21 +1709,21 @@
 	<string key="PerkID_Ability_Flail_DefensiveStrike_Name" rel_version="Weapon_Flail">Matraquage de masse</string>
 	<string key="PerkID_Ability_Flail_DefensiveStrike_Description" rel_version="Weapon_Flail">Si au moins {[2.000000]} cibles sont touchées par Matraquage protecteur et même si les coups sont parés, réduit son temps de recharge de {[-0.050000 * -100 * {perkMultiplier}]} %.</string>
 	<string key="PerkID_Weapon_DodgeSuccess_FireDMG_Name" rel_version="MorePerksV2">Flammes élusives</string>
-	<string key="PerkID_Weapon_DodgeSuccess_FireDMG_Description" rel_version="MorePerksV2">Après avoir esquivé une attaque, votre prochain coup dans les {[10.000000]} s infligera +{[-0.050000 * -100 * {perkMultiplier}]} % de dégâts de l'arme de base sous forme de dégâts de feu.</string>
+	<string key="PerkID_Weapon_DodgeSuccess_FireDMG_Description" rel_version="MorePerksV2">Après avoir esquivé une attaque, votre prochain coup dans les {[10.000000]}s infligera +{[-0.050000 * -100 * {perkMultiplier}]} % de dégâts de l'arme de base sous forme de dégâts de feu.</string>
 	<string key="PerkID_Weapon_DodgeSuccess_NatureDMG_Name" rel_version="MorePerksV2">Nature élusive</string>
-	<string key="PerkID_Weapon_DodgeSuccess_NatureDMG_Description" rel_version="MorePerksV2">Après avoir esquivé une attaque, votre prochain coup dans les {[10.000000]} s infligera +{[-0.050000 * -100 * {perkMultiplier}]} % de dégâts de l'arme de base sous forme de dégâts de nature.</string>
+	<string key="PerkID_Weapon_DodgeSuccess_NatureDMG_Description" rel_version="MorePerksV2">Après avoir esquivé une attaque, votre prochain coup dans les {[10.000000]}s infligera +{[-0.050000 * -100 * {perkMultiplier}]} % de dégâts de l'arme de base sous forme de dégâts de nature.</string>
 	<string key="PerkID_Weapon_DodgeSuccess_IceDMG_Name" rel_version="MorePerksV2">Engelure élusive</string>
-	<string key="PerkID_Weapon_DodgeSuccess_IceDMG_Description" rel_version="MorePerksV2">Après avoir esquivé une attaque, votre prochain coup dans les {[10.000000]} s infligera +{[-0.050000 * -100 * {perkMultiplier}]} % de dégâts de l'arme de base sous forme de dégâts de glace.</string>
+	<string key="PerkID_Weapon_DodgeSuccess_IceDMG_Description" rel_version="MorePerksV2">Après avoir esquivé une attaque, votre prochain coup dans les {[10.000000]}s infligera +{[-0.050000 * -100 * {perkMultiplier}]} % de dégâts de l'arme de base sous forme de dégâts de glace.</string>
 	<string key="PerkID_Weapon_DodgeSuccess_LightningDMG_Name" rel_version="MorePerksV2">Foudre élusive</string>
-	<string key="PerkID_Weapon_DodgeSuccess_LightningDMG_Description" rel_version="MorePerksV2">Après avoir esquivé une attaque, votre prochain coup dans les {[10.000000]} s infligera +{[-0.050000 * -100 * {perkMultiplier}]} % de dégâts de l'arme de base sous forme de dégâts de foudre.</string>
+	<string key="PerkID_Weapon_DodgeSuccess_LightningDMG_Description" rel_version="MorePerksV2">Après avoir esquivé une attaque, votre prochain coup dans les {[10.000000]}s infligera +{[-0.050000 * -100 * {perkMultiplier}]} % de dégâts de l'arme de base sous forme de dégâts de foudre.</string>
 	<string key="PerkID_Weapon_DodgeSuccess_VoidDMG_Name" rel_version="MorePerksV2">Abysses élusifs</string>
-	<string key="PerkID_Weapon_DodgeSuccess_VoidDMG_Description" rel_version="MorePerksV2">Après avoir esquivé une attaque, votre prochain coup dans les {[10.000000]} s infligera +{[-0.050000 * -100 * {perkMultiplier}]} % de dégâts de l'arme de base sous forme de dégâts de néant.</string>
+	<string key="PerkID_Weapon_DodgeSuccess_VoidDMG_Description" rel_version="MorePerksV2">Après avoir esquivé une attaque, votre prochain coup dans les {[10.000000]}s infligera +{[-0.050000 * -100 * {perkMultiplier}]} % de dégâts de l'arme de base sous forme de dégâts de néant.</string>
 	<string key="PerkID_Weapon_DodgeSuccess_ArcaneDMG_Name" rel_version="MorePerksV2">Arts obscurs élusifs</string>
-	<string key="PerkID_Weapon_DodgeSuccess_ArcaneDMG_Description" rel_version="MorePerksV2">Après avoir esquivé une attaque, votre prochain coup dans les {[10.000000]} s infligera +{[-0.050000 * -100 * {perkMultiplier}]} % de dégâts de l'arme de base sous forme de dégâts de magie occulte.</string>
+	<string key="PerkID_Weapon_DodgeSuccess_ArcaneDMG_Description" rel_version="MorePerksV2">Après avoir esquivé une attaque, votre prochain coup dans les {[10.000000]}s infligera +{[-0.050000 * -100 * {perkMultiplier}]} % de dégâts de l'arme de base sous forme de dégâts de magie occulte.</string>
 	<string key="PerkID_Amulet_DodgeSuccess_CleanseDoT_Name" rel_version="MorePerksV2">Purification élusive de dégâts sur la durée</string>
-	<string key="PerkID_Amulet_DodgeSuccess_CleanseDoT_Description" rel_version="MorePerksV2">Après avoir esquivé une attaque avec un poids d'équipement léger, vous perdez 1 effet de dégâts sur la durée (saignement, brûlure, poison) (limité à 1 fois toutes les {[5.000000]} s).</string>
+	<string key="PerkID_Amulet_DodgeSuccess_CleanseDoT_Description" rel_version="MorePerksV2">Après avoir esquivé une attaque avec un poids d'équipement léger, vous perdez 1 effet de dégâts sur la durée (saignement, brûlure, poison) (limité à 1 fois toutes les {[5.000000]}s).</string>
 	<string key="PerkID_Amulet_DodgeSuccess_CleanseDebilitate_Name" rel_version="MorePerksV2">Purification élusive handicapante</string>
-	<string key="PerkID_Amulet_DodgeSuccess_CleanseDebilitate_Description" rel_version="MorePerksV2">Après avoir esquivé une attaque avec un poids d'équipement moyen, vous perdez 1 handicap (lacération, affaiblissement, épuisement, maladie) (limité à 1 fois toutes les {[5.000000]} s).</string>
+	<string key="PerkID_Amulet_DodgeSuccess_CleanseDebilitate_Description" rel_version="MorePerksV2">Après avoir esquivé une attaque avec un poids d'équipement moyen, vous perdez 1 handicap (lacération, affaiblissement, épuisement, maladie) (limité à 1 fois toutes les {[5.000000]}s).</string>
 	<string key="PerkID_Armor_DodgeSuccess_Fortify_Name" rel_version="MorePerksV2">Fortification élusive</string>
 	<string key="PerkID_Armor_DodgeSuccess_Fortify_Description" rel_version="MorePerksV2">Après avoir esquivé une attaque, vous obtenez fortification, augmentant de {[0.020000 * 100 * {perkMultiplier}]} % l'armure pendant {[4.000000]} s (les objets avec cet atout se cumulent).</string>
 	<string key="PerkID_Head_OnCritTaken_CritChance_Name" rel_version="MorePerksV2">Rétribution critique</string>
@@ -2384,7 +2384,7 @@
 	<string key="PerkID_RuneglassGem_ArcaneAdd_Mana_Name" rel_version="Territory_Brimstone_Sands">Renforcement drainant</string>
 	<string key="PerkID_RuneglassGem_ArcaneAdd_Mana_Description" rel_version="Territory_Brimstone_Sands">Convertit {[0.500000 * 100]} % des dégâts en dégâts de magie occulte (les dégâts de l'arme se basent sur la CON si elle est supérieure, mais à hauteur de {[0.005500 * 10000]} %). +{[0.015000 * 100]} points de mana en touchant (2 s de temps de recharge).</string>
 	<string key="PerkID_RuneglassGem_ArcaneSub_Mana_Name" rel_version="Territory_Brimstone_Sands">Protection anti-occulte drainante</string>
-	<string key="PerkID_RuneglassGem_ArcaneSub_Mana_Description" rel_version="Territory_Brimstone_Sands">+{[0.050000 * 100]} % d'absorption des dégâts de magie occulte. +{[0.008000 * 100]} points de mana en touchant (2s de temps de recharge).</string>
+	<string key="PerkID_RuneglassGem_ArcaneSub_Mana_Description" rel_version="Territory_Brimstone_Sands">+{[0.050000 * 100]} % d'absorption des dégâts de magie occulte. +{[0.008000 * 100]} points de mana en touchant (2 s de temps de recharge).</string>
 	<string key="PerkID_RuneglassGem_ArcaneAdd_Stamina_Name" rel_version="Territory_Brimstone_Sands">Renforcement dynamisant</string>
 	<string key="PerkID_RuneglassGem_ArcaneAdd_Stamina_Description" rel_version="Territory_Brimstone_Sands">Convertit {[0.500000 * 100]} % des dégâts en dégâts de magie occulte (les dégâts de l'arme se basent sur la CON si elle est supérieure, mais à hauteur de {[0.005500 * 10000]} %). +{[4.000000]} points de vitalité en touchant (3 s de temps de recharge).</string>
 	<string key="PerkID_RuneglassGem_ArcaneSub_Stamina_Name" rel_version="Territory_Brimstone_Sands">Protection anti-occulte dynamisante</string>
@@ -2645,7 +2645,7 @@
 	<string key="PerkID_Artifact_Set1_MediumLegs_SecondaryName">Polyvalence</string>
 	<string key="PerkID_Artifact_Set1_MediumLegs_Desc">+10 à toutes les caractéristiques.</string>
 	<string key="PerkID_Artifact_Set1_MediumFeet_Name" rel_version="Feature_Artifacts_Set2">Hâte</string>
-	<string key="PerkID_Artifact_Set1_MediumFeet_Desc" rel_version="Feature_Artifacts_Set2">La durée de base des effets de célérité dont vous bénéficiez augmente de {[0.500000 * 100]} %.</string>
+	<string key="PerkID_Artifact_Set1_MediumFeet_Desc" rel_version="Feature_Artifacts_Set2">La durée de base des effets de célérité dont vous bénéficiez augmente de {[0.500000 * 100]} % et vous infligez {[0.100000 * 100]} % de dégâts de base supplémentaire sous l'effet de la hâte.</string>
 	<string key="PerkID_Artifact_Set1_LightHead_Name">Brio</string>
 	<string key="PerkID_Artifact_Set1_LightHead_Desc">+{[1.000000 * 100]} % de mana max.</string>
 	<string key="PerkID_Artifact_Set1_LightChest_Name">Apesanteur</string>

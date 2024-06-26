@@ -1124,7 +1124,7 @@
 	<string key="PerkID_Ability_Hatchet_FeralRush_Name">Carica selvaggia paralizzante</string>
 	<string key="PerkID_Ability_Hatchet_FeralRush_Description">Quando Carica selvaggia va a segno, causa un {[-0.100000 * -100 * {perkMultiplier}]}% di Rallentamento per {[3.000000]} s e infligge +{[0.050000 * 100 * {perkMultiplier}]}% di danni aggiuntivi.</string>
 	<string key="PerkID_Ability_Hatchet_Berserk_Name">Berserker incisivo</string>
-	<string key="PerkID_Ability_Hatchet_Berserk_Description">+{[0.050000 * 100 * {perkMultiplier}]}% di probabilità di colpo critico e +{[0.000000 * 100 * {perkMultiplier}]}% di danni aggiuntivi con salute inferiore a {[0.000000]}% e mentre Berserker è attivo.</string>
+	<string key="PerkID_Ability_Hatchet_Berserk_Description">Ottieni un +{[0.050000 * 100 * {perkMultiplier}]}% di probabilità di colpo critico e un +{[0.050000 * 100 * {perkMultiplier}]}% di danni critici mentre Berserker è attivo.</string>
 	<string key="PerkID_Ability_Hatchet_RagingTorrent_Name">Torrente ricaricante</string>
 	<string key="PerkID_Ability_Hatchet_RagingTorrent_Description">Ogni attacco di Torrente furioso andato a segno riduce di un {[-0.010000 * -100 * {perkMultiplier}]}% tutti i tempi di ricarica dell'accetta (tempo di ricarica {[0.200000]} s).</string>
 	<string key="PerkID_Ability_Hatchet_Rending_Throw_Name">Lancio lacerante potenziato</string>
@@ -1184,7 +1184,7 @@
 	<string key="PerkID_Ability_Rapier_Tondo_Name">Tondo incisivo</string>
 	<string key="PerkID_Ability_Rapier_Tondo_Description">+{[0.020000 * 100 * {perkMultiplier}]}% di probabilità di colpo critico contro bersagli con Sanguinamento di Tondo. Se questo vantaggio è applicato a un'arma, Tondo indebolisce di un {[-0.100000 * -100]}% per {[10.000000]} s. </string>
 	<string key="PerkID_Ability_Rapier_FlourishAndFinish_Name">Svolazzo letale</string>
-	<string key="PerkID_Ability_Rapier_FlourishAndFinish_Description">Svolazzo infligge +{[0.100000 * 100 * {perkMultiplier}]}% di danni contro bersagli con salute inferiore al 50%.</string>
+	<string key="PerkID_Ability_Rapier_FlourishAndFinish_Description">Svolazzo infligge un +{[0.100000 * 100 * {perkMultiplier}]}% di danni base e Sanguinamento da stocco ai bersagli.</string>
 	<string key="PerkID_Ability_Rapier_Flurry_Name">Folata assorbi-vita</string>
 	<string key="PerkID_Ability_Rapier_Flurry_Description">Guarisce di un {[0.100000 * 100 * {perkMultiplier}]}% dei danni inflitti da Folata. Ottieni {[0.500000]} s di invulnerabilità quando usi Folata. </string>
 	<string key="PerkID_Ability_Rapier_Riposte_Name">Contrattacco separante</string>
@@ -2604,7 +2604,7 @@
 	<string key="PerkID_Artifact_Set1_VoidGauntlet_Name">Energia negativa</string>
 	<string key="PerkID_Artifact_Set1_VoidGauntlet_Desc">I tuoi attacchi a distanza infliggono Disintegrazione per {[8.000000]} s su entrambe le armi (tempo di ricarica di {[1.000000]} s). Se il tuo attributo destrezza è più alto, sostituisce la tua arma di base commisurandola alla destrezza.</string>
 	<string key="PerkID_Artifact_Set1_Blunderbuss_Name">Incantesimo logorato</string>
-	<string key="PerkID_Artifact_Set1_Blunderbuss_Desc">Gli attacchi di entrambe le armi contro i bersagli infliggono un accumulo di veleno e una diminuzione della guarigione in entrata del {[-0.050000 * -100]}% e in uscita del {[-0.025000 * -100]}% per accumulo per {[3.000000]}s ({[3.000000]} accumuli massimi, cooldown di attivazione di {[1.000000]}s).</string>
+	<string key="PerkID_Artifact_Set1_Blunderbuss_Desc">Gli attacchi di entrambe le armi contro i bersagli infliggono un accumulo di veleno e una diminuzione della guarigione in entrata di un {[-0.050000 * -100]}% e in uscita di un {[-0.025000 * -100]}% per accumulo per {[3.000000]}s ({[3.000000]} accumuli massimi, tempo di ricarica di attivazione di {[1.000000]} s).</string>
 	<string key="PerkID_Artifact_Set1_BlunderbussPerk_Name">Parassita</string>
 	<string key="PerkID_Artifact_Set1_BlunderbussPerk_Desc">{[0.080000 * 100]}% di danni contro bersagli avvelenati e malati.</string>
 	<string key="PerkID_Artifact_Set1_Greatsword_Name">Lama bilanciata</string>
@@ -2645,7 +2645,7 @@
 	<string key="PerkID_Artifact_Set1_MediumLegs_SecondaryName">Completo</string>
 	<string key="PerkID_Artifact_Set1_MediumLegs_Desc">+10 a tutti gli attributi.</string>
 	<string key="PerkID_Artifact_Set1_MediumFeet_Name" rel_version="Feature_Artifacts_Set2">Rapido</string>
-	<string key="PerkID_Artifact_Set1_MediumFeet_Desc" rel_version="Feature_Artifacts_Set2">La durata base di Fretta su di te aumenta di un {[0.500000 * 100]}%.</string>
+	<string key="PerkID_Artifact_Set1_MediumFeet_Desc" rel_version="Feature_Artifacts_Set2">Aumenta di un {[0.500000 * 100]} la durata base di Fretta su di te e infligge un {[0.100000 * 100]}% di danni base in più mentre Fretta è attiva.</string>
 	<string key="PerkID_Artifact_Set1_LightHead_Name">Brillantezza</string>
 	<string key="PerkID_Artifact_Set1_LightHead_Desc">+{[1.000000 * 100]}% di mana massimo.</string>
 	<string key="PerkID_Artifact_Set1_LightChest_Name">Senza peso</string>
