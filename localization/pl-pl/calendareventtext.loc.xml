@@ -20,6 +20,10 @@
 	<string key="ui_pvp_rewards_panel1_bullet3_title" rel_version="PvP_Rewards_Track">NAGRODY</string>
 	<string key="ui_pvp_rewards_panel1_bullet3_text" rel_version="PvP_Rewards_Track">Wybieraj spośród wyjątkowych nagród, takich jak prestiżowa broń i pancerz, gesty, waluty czy przedmioty użytkowe.</string>
 	<string key="ui_event_summer_progress_name" rel_version="Event_Summer_Perm">Reputacja w wydarzeniu</string>
+	<string key="ui_event_halloween_rank_0" rel_version="Event_Halloween_Temp">Pisklak</string>
+	<string key="ui_event_halloween_rank_1" rel_version="Event_Halloween_Temp">Wartownik\nnocnego\ncałunu</string>
+	<string key="ui_event_halloween_rank_2" rel_version="Event_Halloween_Temp">Ghul\nnocnego\ncałunu</string>
+	<string key="ui_event_halloween_shop_header" rel_version="Event_Halloween_Temp">Święto nocnego całunu</string>
 	<string key="ui_event_halloween_progress_name" rel_version="Event_Halloween_Perm">Reputacja w wydarzeniu</string>
 	<string key="ui_event_spring_progress_name" rel_version="Event_SpringtideBloom_Perm">Reputacja w wydarzeniu</string>
 	<string key="ui_event_weapon_xp_tabname">Wydarzenie dot. PD</string>
@@ -68,6 +72,19 @@
 	<string key="ui_event_returnem_message_title" rel_version="Feature_FreshStart">Światy nowego początku</string>
 	<string key="ui_event_returnem_message_description" rel_version="Feature_FreshStart">Światy nowego początku są dostępne! Światy te są przeznaczone wyłącznie dla nowych postaci.</string>
 	<string key="ui_event_returnem_button_about" rel_version="Feature_FreshStart">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Powrót do Aeternum</string>
+	<string key="ui_event_brimstone_panel1_title" rel_version="Event_Halloween_Temp">Pierwsza rocznica gry</string>
+	<string key="ui_event_brimstone_panel1_subtitle" rel_version="Event_Halloween_Temp">Świętuj pierwszą rocznicę gry razem z nami! Czekają na Ciebie nowe obszary, zadania, wrogowie, umiejętności i nagrody!</string>
+	<string key="ui_event_brimstone_panel1_bullet1_title" rel_version="Event_Halloween_Temp">Nowa zawartość</string>
+	<string key="ui_event_brimstone_panel1_bullet1_text" rel_version="Event_Halloween_Temp">Uzbrój się w nowy miecz dwuręczny i klejnot serca i ruszaj na rozległe pustynie Piaskobrzegów albo rozpocznij nowe zadanie z wątku głównego!</string>
+	<string key="ui_event_brimstone_panel1_bullet2_title" rel_version="Event_Halloween_Temp">Nowe wydarzenie</string>
+	<string key="ui_event_brimstone_panel1_bullet2_text" rel_version="Event_Halloween_Temp">Szalony mnich Salvatore przestrzega mieszkańców Aeternum przed straszliwym zagrożeniem – w tym celu odwiedza rynki osad.</string>
+	<string key="ui_event_brimstone_panel1_bullet3_title" rel_version="Event_Halloween_Temp">Nowe przedmioty kosmetyczne</string>
+	<string key="ui_event_brimstone_panel1_bullet3_text" rel_version="Event_Halloween_Temp">Przedmioty związane z Piaskobrzegami, mieczem dwuręcznym i świętem nocnego całunu są już dostępne w sklepie. Nie zapomnij odebrać darmowych skórek rocznicowych!</string>
+	<string key="ui_event_brimstone_panel2_title" rel_version="Event_Halloween_Temp">Piaskobrzegi</string>
+	<string key="ui_event_brimstone_panel2_subtitle" rel_version="Event_Halloween_Temp">Wyposaż się w miecz dwuręczny i korzystaj z umiejętności runicznych klejnotu serca, eksplorując nowe terytorium, Piaskobrzegi i ekspedycję do Enneady albo sprawdź odnowione zadania z wątku głównego – czekają na Ciebie nowe lokacje, NPC, wyzwania i nagrody.\n\nZadania z wątku głównego w Piaskobrzegach dostępne są po ukończeniu zadania „Bezinteresowna natura” w Rajskim Gaju oraz zadania „Kroczący pośród piasków”, które można rozpocząć w wielu miejscach.</string>
+	<string key="ui_event_brimstone_panel3_title" rel_version="Event_Halloween_Temp">Święto nocnego całunu</string>
+	<string key="ui_event_brimstone_panel3_subtitle" rel_version="Event_Halloween_Temp">Data rozpoczęcia: 21.01 CET, 18.10.2022 r. | Data zakończenia: 21.01 CET, 1.11.2022 r.\n\nKształty we mgle! Wrzaski w ciemnościach! Demon Baalfazu, Markiz Grozy, terroryzuje Aeternum wraz ze swą hordą upiornych dyniołaków, chcąc zamienić wyspę w krainę koszmarów! Pomóż Szalonemu Salvatore w wygnaniu tych plugawych istot i zdobądź czasowo limitowane nagrody święta nocnego całunu!\n\n&lt;font face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt;(Zadania odblokowują się na 35. poziomie)&lt;/font&gt;</string>
+	<string key="ui_event_brimstone_button_about" rel_version="Event_Halloween_Temp">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Pierwsza rocznica gry</string>
 	<string key="ui_event_battle_for_new_world_panel1_title" rel_version="Feature_BFNW" comment="DO NOT TRANSLATE">Battle For New World Panel 1 Title</string>
 	<string key="ui_event_battle_for_new_world_panel1_subtitle" rel_version="Feature_BFNW" comment="DO NOT TRANSLATE">Battle for New World Subtitle.</string>
 	<string key="ui_event_battle_for_new_world_panel1_bullet1_title" rel_version="Feature_BFNW" comment="DO NOT TRANSLATE">Battle for New World Panel 1, Bullet 1 Title</string>
@@ -407,6 +424,13 @@
 	<string key="ui_event_aug_2024_mtx_title" rel_version="Season_6_Perm">Kosiarz</string>
 	<string key="ui_event_aug_2024_mtx_description" rel_version="Season_6_Perm">Śmierć grasuje po Aeternum. Sprawdź w sklepie nowe skórki Kosiarza i klasyki takie jak zestaw Szeptu zabójcy! Ucisz swych wrogów i odbierz im dusze!</string>
 	<string key="ui_event_aug_2024_mtx_about" rel_version="Season_6_Perm">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Informacje o Kosiarzu</string>
+	<string key="ui_news_rise_of_the_angry_earth_expansion_title">Odkryj wszystko, co ma do zaoferowania Aeternum</string>
+	<string key="ui_news_rise_of_the_angry_earth_expansion_description">Zdobądź pełne doświadczenie New World: Aeternum.\n\nGracze na komputerach, którzy posiadają rozszerzenie Powstanie wściekłej ziemi, uzyskają dostęp do wszystkich funkcji New World: Aeternum, w tym głównych dodatków, takich jak:</string>
+	<string key="ui_news_rise_of_the_angry_earth_expansion_about">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Informacje o "Powstaniu wściekłej ziemi"</string>
+	<string key="ui_news_rise_of_the_angry_earth_expansion_icon1">Wierzchowce</string>
+	<string key="ui_news_rise_of_the_angry_earth_expansion_icon2">Kiścień</string>
+	<string key="ui_news_rise_of_the_angry_earth_expansion_icon3">Najazd dla 10 graczy</string>
+	<string key="ui_news_rise_of_the_angry_earth_expansion_purchase_button">Kup teraz</string>
 	<string key="ui_event_legacy_of_crassus_title">Dziedzictwo Krassusa</string>
 	<string key="ui_event_legacy_of_crassus_description">Krassus powraca, a wraz z nim jego potworny legion! Zbierz swą armię i walcz z brutalnymi kapitanami Decimusem i Lukanem w Lśniącej Kniei, Żałobnicy, Rajskim Gaju, Czarnej Łusce i na Tkackich Mokradłach. Odeprzyj rzymski najazd i zwalcz mroczny chwyt skażenia w imię honoru, chwały i ograniczonych czasowo nagród!</string>
 	<string key="ui_event_legacy_of_crassus_bullet1">Kilof legionu</string>

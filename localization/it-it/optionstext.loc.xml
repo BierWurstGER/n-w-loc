@@ -583,13 +583,13 @@
 	<string key="ui_equip_loadout10" rel_version="Feature_Gear_Set_Storage">Equipaggia set attrezzatura 10</string>
 	<string key="ui_section_crossplay" rel_version="Feature_Crossplay">Crossplay</string>
 	<string key="ui_options_enable_crossplay" rel_version="Feature_Crossplay">Abilita gioco multipiattaforma</string>
-	<string key="ui_options_enable_crossplay_desc" rel_version="Feature_Crossplay">Questa impostazione può essere modificata dal menu principale.\n Se non è possibile modificare l'impostazione, attiva prima il crossplay nelle impostazioni della console.</string>
+	<string key="ui_options_enable_crossplay_desc" rel_version="Feature_Crossplay">Questa impostazione può essere modificata dal menu principale.\nSe non è possibile modificare l'impostazione, attiva prima il crossplay nelle impostazioni della console. I personaggi creati sulla base di un'unica impostazione non saranno disponibili quando tale impostazione viene modificata. Riattiva il crossplay per giocare con questi personaggi.</string>
 	<string key="ui_options_enable_crossplay_comms" rel_version="Feature_Crossplay">Comunicazioni multipiattaforma</string>
-	<string key="ui_options_enable_crossplay_comms_pc_desc" rel_version="Feature_Crossplay">Usa questa funzionalità per attivare o disattivare la comunicazione con giocatori su altre piattaforme. I personaggi creati sulla base di un'unica impostazione non saranno disponibili quando tale impostazione viene modificata. Riattiva il crossplay per giocare con questi personaggi.</string>
-	<string key="ui_options_enable_crossplay_comms_console_desc" rel_version="Feature_Crossplay">Questa opzione è accessibile solo quando le comunicazioni sono abilitate tramite la console.\n Usa questa funzionalità per attivare o disattivare la chat testuale e vocale con giocatori su altre piattaforme. I personaggi creati sulla base di un'unica impostazione non saranno disponibili quando tale impostazione viene modificata.</string>
+	<string key="ui_options_enable_crossplay_comms_pc_desc" rel_version="Feature_Crossplay">Usa questa funzionalità per attivare o disattivare la comunicazione con giocatori su altre piattaforme.</string>
+	<string key="ui_options_enable_crossplay_comms_console_desc" rel_version="Feature_Crossplay">Questa opzione è accessibile solo quando le comunicazioni sono abilitate tramite la console.\nUsa questa funzionalità per attivare o disattivare la chat testuale e vocale con giocatori su altre piattaforme.</string>
 	<string key="ui_options_crossplay_prompt_title" rel_version="Feature_Crossplay">Crossplay</string>
-	<string key="ui_options_enable_crossplay_prompt" rel_version="Feature_Crossplay">Vuoi abilitare il crossplay?\n Tornerai al menu principale.</string>
-	<string key="ui_options_disable_crossplay_prompt" rel_version="Feature_Crossplay">Vuoi disabilitare il crossplay?\n Tornerai al menu principale.</string>
+	<string key="ui_options_enable_crossplay_prompt" rel_version="Feature_Crossplay">Vuoi abilitare il crossplay?\nTornerai al menu principale.</string>
+	<string key="ui_options_disable_crossplay_prompt" rel_version="Feature_Crossplay">Vuoi disabilitare il crossplay?\nTornerai al menu principale.</string>
 	<string key="ui_tutorial_classification" rel_version="Feature_Player_Tutorials">Tutorial</string>
 	<string key="ui_tutorial_classification_desc" rel_version="Feature_Player_Tutorials">Imposta la frequenza dei tutorial.</string>
 	<string key="ui_classification_basic" rel_version="Feature_Player_Tutorials">Predefinito</string>

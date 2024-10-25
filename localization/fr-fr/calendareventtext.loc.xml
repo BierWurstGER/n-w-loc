@@ -20,6 +20,10 @@
 	<string key="ui_pvp_rewards_panel1_bullet3_title" rel_version="PvP_Rewards_Track">RÉCOMPENSES</string>
 	<string key="ui_pvp_rewards_panel1_bullet3_text" rel_version="PvP_Rewards_Track">Choisissez entre des récompenses uniques telles que des armures et des armes de prestige, des émotes, de la monnaie et des consommables.</string>
 	<string key="ui_event_summer_progress_name" rel_version="Event_Summer_Perm">Réputation de l'événement</string>
+	<string key="ui_event_halloween_rank_0" rel_version="Event_Halloween_Temp">Néophyte</string>
+	<string key="ui_event_halloween_rank_1" rel_version="Event_Halloween_Temp">Sentinelle</string>
+	<string key="ui_event_halloween_rank_2" rel_version="Event_Halloween_Temp">Goule</string>
+	<string key="ui_event_halloween_shop_header" rel_version="Event_Halloween_Temp">Voile nocturne</string>
 	<string key="ui_event_halloween_progress_name" rel_version="Event_Halloween_Perm">Réputation de l'événement</string>
 	<string key="ui_event_spring_progress_name" rel_version="Event_SpringtideBloom_Perm">Réputation de l'événement</string>
 	<string key="ui_event_weapon_xp_tabname">Événement d'EXP</string>
@@ -68,6 +72,19 @@
 	<string key="ui_event_returnem_message_title" rel_version="Feature_FreshStart">Mondes de nouveau départ</string>
 	<string key="ui_event_returnem_message_description" rel_version="Feature_FreshStart">Les mondes de nouveau départ sont disponibles ! Seuls les nouveaux personnages peuvent intégrer ces mondes.</string>
 	<string key="ui_event_returnem_button_about" rel_version="Feature_FreshStart">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; À propos de Retourner à Aeternum</string>
+	<string key="ui_event_brimstone_panel1_title" rel_version="Event_Halloween_Temp">Fête du premier anniversaire</string>
+	<string key="ui_event_brimstone_panel1_subtitle" rel_version="Event_Halloween_Temp">Fêtez le premier anniversaire du jeu avec de nouvelles zones, de nouvelles quêtes, de nouveaux ennemis, de nouvelles capacités et de nouvelles récompenses !</string>
+	<string key="ui_event_brimstone_panel1_bullet1_title" rel_version="Event_Halloween_Temp">Nouveau contenu</string>
+	<string key="ui_event_brimstone_panel1_bullet1_text" rel_version="Event_Halloween_Temp">Armez-vous de la toute nouvelle épée longue et du nouveau joyau de cœur et partez explorer les déserts de Sulfure, ou bien découvrez la nouvelle quête de l'histoire principale !</string>
+	<string key="ui_event_brimstone_panel1_bullet2_title" rel_version="Event_Halloween_Temp">Nouvel événement</string>
+	<string key="ui_event_brimstone_panel1_bullet2_text" rel_version="Event_Halloween_Temp">Salvator le moine fou s'est installé sur les grand-places d'Aeternum pour annoncer à qui veut l'entendre l'approche d'un terrible danger.</string>
+	<string key="ui_event_brimstone_panel1_bullet3_title" rel_version="Event_Halloween_Temp">Nouveaux objets cosmétiques</string>
+	<string key="ui_event_brimstone_panel1_bullet3_text" rel_version="Event_Halloween_Temp">L'épée longue, ainsi que des objets de Sulfure et du Voile nocturne sont maintenant disponibles dans la boutique. N'oubliez pas de récupérer vos apparences d'anniversaire gratuites !</string>
+	<string key="ui_event_brimstone_panel2_title" rel_version="Event_Halloween_Temp">Sulfure</string>
+	<string key="ui_event_brimstone_panel2_subtitle" rel_version="Event_Halloween_Temp">Équipez-vous de la nouvelle épée longue et des nouvelles runes de capacité du joyau de cœur pour explorer la nouvelle zone de Sulfure et l'expédition de l'Ennéade ou bien découvrir une quête de l'histoire principale remaniée, avec de nouveaux lieux, PNJ, défis et récompenses.\n\nPour accéder aux quêtes de l'histoire principale de Sulfure, les joueurs doivent avoir terminé les quêtes « Une nature altruiste » (à Bois-Éden) et « Arpenteur des sables » (qui peut être commencée à plusieurs endroits différents).</string>
+	<string key="ui_event_brimstone_panel3_title" rel_version="Event_Halloween_Temp">Voile nocturne</string>
+	<string key="ui_event_brimstone_panel3_subtitle" rel_version="Event_Halloween_Temp">Commence le 18-10-2022 à 09 h 01 (heure de Paris) | Prend fin le 01-11-2022 à 09 h 01 (heure de Paris)\n\nDes silhouettes dans la brume ! Des cris dans la nuit ! Le démon Baalphazu, marquis de l'effroi, et sa horde de citrouillites macabres sèment la terreur dans tout Aeternum ! Aidez Salvator le fou dans sa quête pour bannir ces horreurs ignobles et gagner des récompenses du Voile nocturne à durée limitée !\n\n&lt;font face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt;(La série de quêtes est déverrouillée au niveau 35)&lt;/font&gt;</string>
+	<string key="ui_event_brimstone_button_about" rel_version="Event_Halloween_Temp">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; À propos de la fête d'anniversaire</string>
 	<string key="ui_event_battle_for_new_world_panel1_title" rel_version="Feature_BFNW" comment="DO NOT TRANSLATE">Battle For New World Panel 1 Title</string>
 	<string key="ui_event_battle_for_new_world_panel1_subtitle" rel_version="Feature_BFNW" comment="DO NOT TRANSLATE">Battle for New World Subtitle.</string>
 	<string key="ui_event_battle_for_new_world_panel1_bullet1_title" rel_version="Feature_BFNW" comment="DO NOT TRANSLATE">Battle for New World Panel 1, Bullet 1 Title</string>
@@ -407,6 +424,13 @@
 	<string key="ui_event_aug_2024_mtx_title" rel_version="Season_6_Perm">Faucheuse</string>
 	<string key="ui_event_aug_2024_mtx_description" rel_version="Season_6_Perm">La mort rôde en Aeternum en cette période cruciale. Découvrez dans la boutique les nouvelles apparences de la Faucheuse et des classiques du caveau, comme l'ensemble du Murmure de l'assassin ! Faites taire vos ennemis et emparez-vous de leur âme !</string>
 	<string key="ui_event_aug_2024_mtx_about" rel_version="Season_6_Perm">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; À propos de la Faucheuse</string>
+	<string key="ui_news_rise_of_the_angry_earth_expansion_title">Découvrez tout ce qu’Aeternum peut offrir</string>
+	<string key="ui_news_rise_of_the_angry_earth_expansion_description">Vivez l’expérience complète de New World: Aeternum.\n\nLes joueurs PC qui ont l’extension Le réveil de la Terre enragée ont accès à toutes les fonctionnalités de New World: Aeternum, cela inclut des ajouts majeurs comme :</string>
+	<string key="ui_news_rise_of_the_angry_earth_expansion_about">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt;À propos du Réveil de la Terre enragée</string>
+	<string key="ui_news_rise_of_the_angry_earth_expansion_icon1">Montures</string>
+	<string key="ui_news_rise_of_the_angry_earth_expansion_icon2">Fléau</string>
+	<string key="ui_news_rise_of_the_angry_earth_expansion_icon3">Raid à 10 joueurs</string>
+	<string key="ui_news_rise_of_the_angry_earth_expansion_purchase_button">Acheter</string>
 	<string key="ui_event_legacy_of_crassus_title">Héritage de Crassus</string>
 	<string key="ui_event_legacy_of_crassus_description">Crassus et sa légion monstrueuse sont de retour ! Ralliez vos forces et combattez les brutaux capitaines Decimus et Lucanus à Boisclair, au Val des Larmes, au marais des Trames, à Bois-Éden et au bief de Nerécaille. Repoussez l'assaut romain et triomphez de l'altération pour l'honneur, la gloire et des récompenses limitées dans le temps !</string>
 	<string key="ui_event_legacy_of_crassus_bullet1">Pioche de la Légion</string>

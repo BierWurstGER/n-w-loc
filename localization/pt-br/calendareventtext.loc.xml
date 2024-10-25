@@ -20,6 +20,10 @@
 	<string key="ui_pvp_rewards_panel1_bullet3_title" rel_version="PvP_Rewards_Track">RECOMPENSAS</string>
 	<string key="ui_pvp_rewards_panel1_bullet3_text" rel_version="PvP_Rewards_Track">Escolha entre recompensas exclusivas, como armaduras e armas de prestígio, gestos, moedas e consumíveis.</string>
 	<string key="ui_event_summer_progress_name" rel_version="Event_Summer_Perm">Reputação no Evento</string>
+	<string key="ui_event_halloween_rank_0" rel_version="Event_Halloween_Temp">Principiante</string>
+	<string key="ui_event_halloween_rank_1" rel_version="Event_Halloween_Temp">Sentinela</string>
+	<string key="ui_event_halloween_rank_2" rel_version="Event_Halloween_Temp">Fantasma</string>
+	<string key="ui_event_halloween_shop_header" rel_version="Event_Halloween_Temp">Relíquia do Véu Noturno</string>
 	<string key="ui_event_halloween_progress_name" rel_version="Event_Halloween_Perm">Reputação no Evento</string>
 	<string key="ui_event_spring_progress_name" rel_version="Event_SpringtideBloom_Perm">Reputação no Evento</string>
 	<string key="ui_event_weapon_xp_tabname">Evento de EXP</string>
@@ -68,6 +72,19 @@
 	<string key="ui_event_returnem_message_title" rel_version="Feature_FreshStart">Mundos Novos</string>
 	<string key="ui_event_returnem_message_description" rel_version="Feature_FreshStart">Mundos Novos já estão disponíveis! Apenas novos personagens podem fazer parte desses mundos.</string>
 	<string key="ui_event_returnem_button_about" rel_version="Feature_FreshStart">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Sobre Retorno a Aeternum</string>
+	<string key="ui_event_brimstone_panel1_title" rel_version="Event_Halloween_Temp">Comemoração do Primeiro Aniversário</string>
+	<string key="ui_event_brimstone_panel1_subtitle" rel_version="Event_Halloween_Temp">Comemore com novas zonas, jornadas, inimigos, habilidades e recompensas!</string>
+	<string key="ui_event_brimstone_panel1_bullet1_title" rel_version="Event_Halloween_Temp">Conteúdo Novo</string>
+	<string key="ui_event_brimstone_panel1_bullet1_text" rel_version="Event_Halloween_Temp">Arme-se com a nova Espada Grande e Gema de Coração e viaje para os desertos de Areias de Enxofre, ou comece a nova jornada da história principal!</string>
+	<string key="ui_event_brimstone_panel1_bullet2_title" rel_version="Event_Halloween_Temp">Novo Evento</string>
+	<string key="ui_event_brimstone_panel1_bullet2_text" rel_version="Event_Halloween_Temp">Salvatore, o Monge Louco, agora mora nas praças das vilas de Aeternum para alertar sobre um terrível perigo.</string>
+	<string key="ui_event_brimstone_panel1_bullet3_title" rel_version="Event_Halloween_Temp">Novos Itens Cosméticos</string>
+	<string key="ui_event_brimstone_panel1_bullet3_text" rel_version="Event_Halloween_Temp">Os itens de Areias de Enxofre, Espada Grande e Relíquia do Véu Noturno já estão disponíveis na loja. Não se esqueça de pegar suas aparências de aniversário grátis!</string>
+	<string key="ui_event_brimstone_panel2_title" rel_version="Event_Halloween_Temp">Areias de Enxofre</string>
+	<string key="ui_event_brimstone_panel2_subtitle" rel_version="Event_Halloween_Temp">Com as novas runas de habilidade de Espada Grande e Gema de Coração, explore a nova zona de Areias de Enxofre e a Expedição da Enéade, ou experimente a renovada Jornada da História Principal com novos locais, NPCs, desafios e recompensas.\n\nPara acessar as jornadas da história principal em Areias de Enxofre, os jogadores devem ter concluído a jornada "Uma Natureza Altruísta" em Bosque do Éden e a jornada "Peregrinante das Areias", que pode ser realizada em vários locais.</string>
+	<string key="ui_event_brimstone_panel3_title" rel_version="Event_Halloween_Temp">Relíquia do Véu Noturno</string>
+	<string key="ui_event_brimstone_panel3_subtitle" rel_version="Event_Halloween_Temp">Começa às 0h01 PST em 18/10/22 | Termina às 12h01 PST em 1/11/22\n\nContornos na névoa! Gritos na noite! O demônio Baalphazu, Marquês do Terror, e sua horda de Abobreiros macabros estão espalhando um pesadelo vivo por Aeternum! Ajude Salvatore, o Louco, em sua missão de banir esses terrores imundos e colete várias recompensas da Relíquia do Véu Noturno por tempo limitado!\n\n&lt;font face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt;(A jornada é desbloqueada no nível 35)&lt;/font&gt;</string>
+	<string key="ui_event_brimstone_button_about" rel_version="Event_Halloween_Temp">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Sobre a Comemoração de Aniversário</string>
 	<string key="ui_event_battle_for_new_world_panel1_title" rel_version="Feature_BFNW" comment="DO NOT TRANSLATE">Battle For New World Panel 1 Title</string>
 	<string key="ui_event_battle_for_new_world_panel1_subtitle" rel_version="Feature_BFNW" comment="DO NOT TRANSLATE">Battle for New World Subtitle.</string>
 	<string key="ui_event_battle_for_new_world_panel1_bullet1_title" rel_version="Feature_BFNW" comment="DO NOT TRANSLATE">Battle for New World Panel 1, Bullet 1 Title</string>
@@ -407,6 +424,13 @@
 	<string key="ui_event_aug_2024_mtx_title" rel_version="Season_6_Perm">Ceifeiro</string>
 	<string key="ui_event_aug_2024_mtx_description" rel_version="Season_6_Perm">A morte persegue Aeternum nesse momento importante. Visite a loja para conferir as novas aparências de Ceifeiro e os clássicos do cofre, como o conjunto Sussurro do Assassino! Silencie seus inimigos e conquiste suas almas!</string>
 	<string key="ui_event_aug_2024_mtx_about" rel_version="Season_6_Perm">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Sobre o Ceifeiro</string>
+	<string key="ui_news_rise_of_the_angry_earth_expansion_title">Experimente tudo o que Aeternum tem a oferecer</string>
+	<string key="ui_news_rise_of_the_angry_earth_expansion_description">Obtenha a experiência completa de New World: Aeternum.\n\nOs jogadores de PC que possuem a expansão Ascensão da Terra Indócil têm acesso a todos os recursos do New World: Aeternum, incluindo grandes adições como:</string>
+	<string key="ui_news_rise_of_the_angry_earth_expansion_about">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Sobre Ascensão da Terra Indócil</string>
+	<string key="ui_news_rise_of_the_angry_earth_expansion_icon1">Montarias</string>
+	<string key="ui_news_rise_of_the_angry_earth_expansion_icon2">Mangual</string>
+	<string key="ui_news_rise_of_the_angry_earth_expansion_icon3">Incursão com 10 jogadores</string>
+	<string key="ui_news_rise_of_the_angry_earth_expansion_purchase_button">Compre Já</string>
 	<string key="ui_event_legacy_of_crassus_title">Legado de Crasso</string>
 	<string key="ui_event_legacy_of_crassus_description">Crasso e sua legião monstruosa retornam! Reúna suas tropas e batalhe contra os capitães brutais, Decimus e Lucanus, em Bosque Reluzente, Vale das Lamentações, Pântano do Tecelão, Bosque do Éden e Crosta de Ébano. Combata o massacre romano e derrote o domínio maligno da Corrupção por honra, glória e recompensas por tempo limitado!</string>
 	<string key="ui_event_legacy_of_crassus_bullet1">Picareta da Legião</string>
