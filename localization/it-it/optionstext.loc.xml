@@ -131,9 +131,9 @@
 	<string key="ui_graphics_render_mode">Modalità</string>
 	<string key="ui_graphics_render_mode_description">Stabilisci se privilegiare le prestazioni o la qualità</string>
 	<string key="ui_graphics_temporalUpScaling_type">Scala di risoluzione</string>
-	<string key="ui_graphics_temporalUpScaling_type_description">Seleziona se utilizzare la scala di risoluzione o no</string>
+	<string key="ui_graphics_temporalUpScaling_type_description">Imposta se utilizzare il ridimensionamento della risoluzione</string>
 	<string key="ui_graphics_temporalUpScaling_mode">Modalità</string>
-	<string key="ui_graphics_temporalUpScaling_mode_description">Stabilisce il livello qualitativo della scala di risoluzione</string>
+	<string key="ui_graphics_temporalUpScaling_mode_description">Imposta il livello di qualità della scala di risoluzione</string>
 	<string key="ui_options_keybindings">Associazione tasti</string>
 	<string key="ui_options_kbm_controls">Associazioni tastiera e mouse</string>
 	<string key="ui_options_gameplay">Gioco</string>
@@ -203,7 +203,7 @@
 	<string key="ui_options_graphics_resolution2K">2K</string>
 	<string key="ui_options_graphics_resolution4K">4K</string>
 	<string key="ui_options_temporalUpscaling_off">No</string>
-	<string key="ui_options_temporalUpscaling_FSR">FSR</string>
+	<string key="ui_options_temporalUpscaling_FSR">FSR 3.1</string>
 	<string key="ui_options_temporalUpscaling_quality">Qualità</string>
 	<string key="ui_options_temporalUpscaling_balanced">Bilanciata</string>
 	<string key="ui_options_temporalUpscaling_performance">Prestazioni</string>
@@ -611,5 +611,8 @@
 	<string key="ui_modifier_keys" rel_version="Feature_Controller">Modificatori</string>
 	<string key="ui_housing" rel_version="Feature_Controller">Decora casa</string>
 	<string key="ui_menu" rel_version="Feature_Controller">Menu</string>
+	<string key="ui_options_temporalUpscaling_sharpness">Nitidezza</string>
+	<string key="ui_options_temporalUpscaling_sharpness_desc">Imposta la quantità di nitidezza</string>
+	<string key="ui_options_temporalUpscaling_native">Nativo (solo TAA)</string>
 </resources>
 

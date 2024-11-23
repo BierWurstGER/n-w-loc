@@ -77,10 +77,12 @@
 	<string key="ui_mount_type_sabretooth" rel_version="Feature_Mounts">León</string>
 	<string key="ui_mount_type_direwolf" rel_version="Feature_Mounts">Lobo huargo</string>
 	<string key="ui_mount_type_bear" rel_version="Feature_Mounts_Bear">Oso</string>
+	<string key="ui_mount_type_turkey" rel_version="Feature_Mounts_Turkey">Otro</string>
 	<string key="ui_mounts_default_horse_name" rel_version="Feature_Mounts">Caballo_predeterminado</string>
 	<string key="ui_mounts_default_sabretooth_name" rel_version="Feature_Mounts">Tigre_dientes_de_sable_predeterminado</string>
 	<string key="ui_mounts_default_direwolf" rel_version="Feature_Mounts">Lobo_huargo_predeterminado</string>
 	<string key="ui_mounts_default_bear" rel_version="Feature_Mounts_Bear">Oso_predeterminado</string>
+	<string key="ui_mounts_default_turkey" rel_version="Feature_Mounts_Turkey">Pavo_Predeterminado</string>
 	<string key="ui_mounts_horse_entitlement_test_name" rel_version="Feature_Mounts">Prueba_de_derecho_de_caballo</string>
 	<string key="ui_mounts_sabretooth_achievement_test_name" rel_version="Feature_Mounts">Prueba_de_logo_de_tigre_dientes_de_sable</string>
 	<string key="ui_mounts_test_name" rel_version="Feature_Mounts">Montura de prueba</string>
@@ -113,6 +115,7 @@
 	<string key="ui_mounts_wolf_shop" rel_version="Feature_Mounts">Tienda de lobo</string>
 	<string key="ui_mounts_lion_shop" rel_version="Feature_Mounts">Tienda de león</string>
 	<string key="ui_navmenu_mounts" rel_version="Feature_Mounts">Montura</string>
+	<string key="ui_mounts_undyeable" rel_version="Feature_Mounts">Esta armadura de montura no se puede teñir.</string>
 	<string key="ui_mounts_dye_command" rel_version="Feature_Mounts">Teñir armadura</string>
 	<string key="ui_mounts_dye_screen_title" rel_version="Feature_Mounts">Teñir armadura de montura</string>
 	<string key="ui_rename_mount" rel_version="Feature_Mounts">Renombrar montura</string>
@@ -142,6 +145,7 @@
 	<string key="ui_mounts_unlock_wolf_message" rel_version="Feature_Mounts">Tienda de lobo huargo</string>
 	<string key="ui_mounts_unlock_lion_message" rel_version="Feature_Mounts">Tienda de león</string>
 	<string key="ui_mounts_unlock_bear_message" rel_version="Feature_Mounts_Bear">Tienda de oso</string>
+	<string key="ui_mounts_unlock_turkey_message" rel_version="Feature_Mounts_Turkey">Tienda de pavo</string>
 	<string key="ui_mounts_unlock_tradeskill_message" rel_version="Feature_Mounts">Habilidad de oficio de montar</string>
 	<string key="ui_mounts_unlock_worlddrop_message" rel_version="Feature_Mounts">Botín en el mundo</string>
 	<string key="ui_mounts_unlock_mutator_message" rel_version="Feature_Mounts">Expedición mutada</string>
@@ -151,6 +155,8 @@
 	<string key="ui_mounts_owned_horse_message" rel_version="Feature_Mounts">Caballo</string>
 	<string key="ui_mounts_owned_wolf_message" rel_version="Feature_Mounts">Lobo huargo</string>
 	<string key="ui_mounts_owned_lion_message" rel_version="Feature_Mounts">León</string>
+	<string key="ui_mounts_owned_bear_message" rel_version="Feature_Mounts_Bear">Oso</string>
+	<string key="ui_mounts_owned_turkey_message" rel_version="Feature_Mounts_Turkey">Pavo</string>
 	<string key="ui_mounts_test_expansion_name" comment="DO NOT TRANSLATE" rel_version="Feature_Mounts">Rise of the Angry Earth</string>
 	<string key="ui_mounts_test_expansion_description" comment="DO NOT TRANSLATE" rel_version="Feature_Mounts">Release: {releaseName}</string>
 	<string key="ui_mounts_summon_mount" rel_version="Feature_Mounts">Invocar</string>
@@ -290,5 +296,7 @@
 	<string key="Mount_Lion_PatternA10_description" rel_version="Feature_Mounts">Incluso cuando era apenas una cría, Godfrey siempre ha tenido buena suerte. Ojalá te pase algo de su buena fortuna.</string>
 	<string key="Mount_Bear_PatternA1_Name" rel_version="Feature_Mounts_Bear">Vapuleador Corrompido</string>
 	<string key="Mount_Wolf_PatternA11_Name" rel_version="Feature_Mounts_Bear">Merodeador de azoth</string>
+	<string key="ui_mounts_MTX_1_turkey_name" rel_version="Feature_Mounts_Turkey">Pata de pollo</string>
+	<string key="ui_mounts_MTX_1_turkey_description" rel_version="Feature_Mounts_Turkey">Un pavo para montar, no para comer.\n\nNOTA: Esta montura no se puede teñir, y no muestra accesorios.</string>
 </resources>
 

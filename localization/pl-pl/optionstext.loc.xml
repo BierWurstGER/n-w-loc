@@ -131,9 +131,9 @@
 	<string key="ui_graphics_render_mode">Tryb</string>
 	<string key="ui_graphics_render_mode_description">Ustaw, czy ważniejsza jest dla ciebie wydajność, czy jakość</string>
 	<string key="ui_graphics_temporalUpScaling_type">Skalowanie rozdzielczości</string>
-	<string key="ui_graphics_temporalUpScaling_type_description">Określa, czy skalowanie rozdzielczości ma być używane</string>
+	<string key="ui_graphics_temporalUpScaling_type_description">Określanie użycia skalowania rozdzielczości</string>
 	<string key="ui_graphics_temporalUpScaling_mode">Tryb</string>
-	<string key="ui_graphics_temporalUpScaling_mode_description">Określa poziom jakości skalowania rozdzielczości</string>
+	<string key="ui_graphics_temporalUpScaling_mode_description">Ustawienie poziomu jakości skalowania rozdzielczości</string>
 	<string key="ui_options_keybindings">Konfiguracja klawiszy</string>
 	<string key="ui_options_kbm_controls">Klawiatura i mysz – przypisanie klawiszy</string>
 	<string key="ui_options_gameplay">Gra</string>
@@ -203,7 +203,7 @@
 	<string key="ui_options_graphics_resolution2K">2K</string>
 	<string key="ui_options_graphics_resolution4K">4K</string>
 	<string key="ui_options_temporalUpscaling_off">Wył.</string>
-	<string key="ui_options_temporalUpscaling_FSR">FSR</string>
+	<string key="ui_options_temporalUpscaling_FSR">FSR 3.1</string>
 	<string key="ui_options_temporalUpscaling_quality">Jakość</string>
 	<string key="ui_options_temporalUpscaling_balanced">Równowaga</string>
 	<string key="ui_options_temporalUpscaling_performance">Wydajność</string>
@@ -611,5 +611,8 @@
 	<string key="ui_modifier_keys" rel_version="Feature_Controller">Modyfikatory</string>
 	<string key="ui_housing" rel_version="Feature_Controller">Ozdób dom</string>
 	<string key="ui_menu" rel_version="Feature_Controller">Menu</string>
+	<string key="ui_options_temporalUpscaling_sharpness">Ostrość</string>
+	<string key="ui_options_temporalUpscaling_sharpness_desc">Ustawienie stopnia ostrości</string>
+	<string key="ui_options_temporalUpscaling_native">Natywny (tylko TAA)</string>
 </resources>
 

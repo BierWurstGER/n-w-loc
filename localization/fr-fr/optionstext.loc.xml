@@ -131,9 +131,9 @@
 	<string key="ui_graphics_render_mode">Mode</string>
 	<string key="ui_graphics_render_mode_description">Pour privilégier la performance ou la qualité.</string>
 	<string key="ui_graphics_temporalUpScaling_type">Mise à l'échelle de la résolution</string>
-	<string key="ui_graphics_temporalUpScaling_type_description">Définit l’usage de la mise à l'échelle de la résolution.</string>
+	<string key="ui_graphics_temporalUpScaling_type_description">Définir si la mise à l’échelle de la résolution doit être utilisée</string>
 	<string key="ui_graphics_temporalUpScaling_mode">Mode</string>
-	<string key="ui_graphics_temporalUpScaling_mode_description">Définit le niveau de la mise à l’échelle de la résolution.</string>
+	<string key="ui_graphics_temporalUpScaling_mode_description">Définir le niveau de qualité de la mise à l’échelle de la résolution</string>
 	<string key="ui_options_keybindings">Raccourcis clavier</string>
 	<string key="ui_options_kbm_controls">Attributions du clavier et de la souris</string>
 	<string key="ui_options_gameplay">Jeu</string>
@@ -203,7 +203,7 @@
 	<string key="ui_options_graphics_resolution2K">2K</string>
 	<string key="ui_options_graphics_resolution4K">4K</string>
 	<string key="ui_options_temporalUpscaling_off">Non</string>
-	<string key="ui_options_temporalUpscaling_FSR">FSR</string>
+	<string key="ui_options_temporalUpscaling_FSR">FSR 3.1</string>
 	<string key="ui_options_temporalUpscaling_quality">Qualité</string>
 	<string key="ui_options_temporalUpscaling_balanced">Équilibré</string>
 	<string key="ui_options_temporalUpscaling_performance">Performance</string>
@@ -611,5 +611,8 @@
 	<string key="ui_modifier_keys" rel_version="Feature_Controller">Modificateurs</string>
 	<string key="ui_housing" rel_version="Feature_Controller">Décorer la maison</string>
 	<string key="ui_menu" rel_version="Feature_Controller">Menu</string>
+	<string key="ui_options_temporalUpscaling_sharpness">Netteté</string>
+	<string key="ui_options_temporalUpscaling_sharpness_desc">Définir la quantité de netteté</string>
+	<string key="ui_options_temporalUpscaling_native">Natif (TAA seulement)</string>
 </resources>
 
