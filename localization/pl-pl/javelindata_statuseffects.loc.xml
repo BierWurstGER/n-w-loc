@@ -876,6 +876,12 @@
 	<string key="AI_AdmiralBrute_Blackpowder_Burn_Tooltip" rel_version="Expedition_CutlassKeys_00">Podpalenie zadające obrażenia od ognia w wysokości {[-0.05 * -100]}% podstawowych obrażeń co {[1.000000]} s przez {[10.000000]} s.</string>
 	<string key="AI_AdmiralBrute_CannonRain_Targeted_DOT_DisplayName" rel_version="Expedition_CutlassKeys_00">Armatnie podpalenie</string>
 	<string key="AI_AdmiralBrute_CannonRain_Targeted_DOT_Tooltip" rel_version="Expedition_CutlassKeys_00">Nakłada podpalenie zadające {[-7.4999999999999997E-2 * -100]}% podstawowych obrażeń od ognia co {[1.000000]} s.</string>
+	<string key="AI_Yeti_2022_IceDome_Empower_DisplayName" rel_version="Event_WinterConvergence_Temp">Bestialska siła</string>
+	<string key="AI_Yeti_2022_IceDome_Empower_Tooltip" rel_version="Event_WinterConvergence_Temp">Zwiększa obrażenia Zimowego Wojownika o {[0.150000 * 100]}%.</string>
+	<string key="AI_Yeti_2022_IceDome_Fortify_DisplayName" rel_version="Event_WinterConvergence_Temp">Zimowa wytrwałość</string>
+	<string key="AI_Yeti_2022_IceDome_Fortify_Tooltip" rel_version="Event_WinterConvergence_Temp">Zwiększa pochłanianie obrażeń Zimowego Wojownika o {[0.150000 * 100]}%.</string>
+	<string key="AI_Yeti_2022_Snare_and_DoT_DomeFX_DisplayName" rel_version="Event_WinterConvergence_Temp">Smagnięcie Wiecznej Zimy</string>
+	<string key="AI_Yeti_2022_Snare_and_DoT_DomeFX_Tooltip" rel_version="Event_WinterConvergence_Temp">Działa na ciebie magia Wiecznej Zimy. Ulegasz spowolnieniu i otrzymujesz obrażenia od chłodu.</string>
 	<string key="AI_FireNaga_Flamethrower_DoT_DisplayName" rel_version="Expedition_GreatCleave_01">Podpalenie</string>
 	<string key="AI_FireNaga_Flamethrower_DoT_Tooltip" rel_version="Expedition_GreatCleave_01">Podpalenie zadające obrażenia od ognia w wysokości {[-0.03 * -100]}% maksymalnego zdrowia co {[0.300000]} s przez {[3.000000]} s.</string>
 	<string key="AI_FireNaga_LavaPool_DoT_DisplayName" rel_version="Expedition_GreatCleave_01">Płonąca lawa</string>
@@ -1395,8 +1401,6 @@
 	<string key="WeaponCoatingEffect_T4_AngryEarth_Description">Zadajesz o {[AngryEarth=.13 * 100]}% więcej obrażeń wściekłej ziemi.</string>
 	<string key="WeaponCoatingEffect_T5_Beasts_DisplayName">Nasycona bestialska powłoka broni</string>
 	<string key="WeaponCoatingEffect_T5_Beasts_Description">Zadajesz o {[Beast=.15 * 100]}% więcej obrażeń bestiom.</string>
-	<string key="WeaponCoatingEffect_T5_BeastsTurkey_DisplayName" rel_version="Event_TurkeyTerror_Temp">Nasycona indycza powłoka broni</string>
-	<string key="WeaponCoatingEffect_T5_BeastsTurkey_Description" rel_version="Event_TurkeyTerror_Temp">Zadajesz 300% więcej obrażeń Turkulonowi i 15% więcej obrażeń bestiom.</string>
 	<string key="WeaponCoatingEffect_T5_Ancient_DisplayName">Nasycona pradawna powłoka broni</string>
 	<string key="WeaponCoatingEffect_T5_Ancient_Description">Zadajesz o {[Ancient=.15 * 100]}% więcej obrażeń pradawnym.</string>
 	<string key="WeaponCoatingEffect_T5_Lost_DisplayName">Nasycona zagubiona powłoka broni</string>

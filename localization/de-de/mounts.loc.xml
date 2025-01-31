@@ -77,12 +77,10 @@
 	<string key="ui_mount_type_sabretooth" rel_version="Feature_Mounts">Löwe</string>
 	<string key="ui_mount_type_direwolf" rel_version="Feature_Mounts">Grauwolf</string>
 	<string key="ui_mount_type_bear" rel_version="Feature_Mounts_Bear">Bär</string>
-	<string key="ui_mount_type_turkey" rel_version="Feature_Mounts_Turkey">Sonstiges</string>
 	<string key="ui_mounts_default_horse_name" rel_version="Feature_Mounts">Default_Horse</string>
 	<string key="ui_mounts_default_sabretooth_name" rel_version="Feature_Mounts">Default_Sabretooth</string>
 	<string key="ui_mounts_default_direwolf" rel_version="Feature_Mounts">Default_DireWolf</string>
 	<string key="ui_mounts_default_bear" rel_version="Feature_Mounts_Bear">Default_Bear</string>
-	<string key="ui_mounts_default_turkey" rel_version="Feature_Mounts_Turkey">Truthahn _Voreinstellung</string>
 	<string key="ui_mounts_horse_entitlement_test_name" rel_version="Feature_Mounts">Horse_Entitlement_Test</string>
 	<string key="ui_mounts_sabretooth_achievement_test_name" rel_version="Feature_Mounts">Sabretooth_Achievement_Test</string>
 	<string key="ui_mounts_test_name" rel_version="Feature_Mounts">Test-Reittier</string>
@@ -115,7 +113,6 @@
 	<string key="ui_mounts_wolf_shop" rel_version="Feature_Mounts">Wolfsmarkt</string>
 	<string key="ui_mounts_lion_shop" rel_version="Feature_Mounts">Löwenmarkt</string>
 	<string key="ui_navmenu_mounts" rel_version="Feature_Mounts">Reittier</string>
-	<string key="ui_mounts_undyeable" rel_version="Feature_Mounts">Die Rüstung dieses Reittiers kann nicht gefärbt werden.</string>
 	<string key="ui_mounts_dye_command" rel_version="Feature_Mounts">Gefärbte Rüstung</string>
 	<string key="ui_mounts_dye_screen_title" rel_version="Feature_Mounts">Reittierrüstung umfärben</string>
 	<string key="ui_rename_mount" rel_version="Feature_Mounts">Reittier umbenennen</string>
@@ -145,7 +142,6 @@
 	<string key="ui_mounts_unlock_wolf_message" rel_version="Feature_Mounts">Grauwolfsmarkt</string>
 	<string key="ui_mounts_unlock_lion_message" rel_version="Feature_Mounts">Löwenmarkt</string>
 	<string key="ui_mounts_unlock_bear_message" rel_version="Feature_Mounts_Bear">Bärenladen</string>
-	<string key="ui_mounts_unlock_turkey_message" rel_version="Feature_Mounts_Turkey">Truthahn-Shop</string>
 	<string key="ui_mounts_unlock_tradeskill_message" rel_version="Feature_Mounts">Reit-Fähigkeit</string>
 	<string key="ui_mounts_unlock_worlddrop_message" rel_version="Feature_Mounts">Weltbeute</string>
 	<string key="ui_mounts_unlock_mutator_message" rel_version="Feature_Mounts">Mutierte Expedition</string>
@@ -155,8 +151,6 @@
 	<string key="ui_mounts_owned_horse_message" rel_version="Feature_Mounts">Pferd</string>
 	<string key="ui_mounts_owned_wolf_message" rel_version="Feature_Mounts">Grauwolf</string>
 	<string key="ui_mounts_owned_lion_message" rel_version="Feature_Mounts">Löwe</string>
-	<string key="ui_mounts_owned_bear_message" rel_version="Feature_Mounts_Bear">Bär</string>
-	<string key="ui_mounts_owned_turkey_message" rel_version="Feature_Mounts_Turkey">Truthahn</string>
 	<string key="ui_mounts_test_expansion_name" comment="DO NOT TRANSLATE" rel_version="Feature_Mounts">Rise of the Angry Earth</string>
 	<string key="ui_mounts_test_expansion_description" comment="DO NOT TRANSLATE" rel_version="Feature_Mounts">Release: {releaseName}</string>
 	<string key="ui_mounts_summon_mount" rel_version="Feature_Mounts">Beschwören</string>
@@ -203,6 +197,7 @@
 	<string key="ui_mounts_MTX_8_lion_name" rel_version="Season_5_Perm">Sicarius</string>
 	<string key="ui_mounts_MTX_8_bear_name" rel_version="Feature_Mounts_Bear">Morti</string>
 	<string key="ui_mounts_MTX_10_wolf_name" rel_version="Feature_Mounts_Bear">Azoth-Pirscher</string>
+	<string key="ui_mounts_MTX_bear_winter_name" rel_version="Entitlements_Valkyrie">Nisse</string>
 	<string key="ui_mounts_MTX_bear_hippo_name" rel_version="Season_6_Perm" comment="This is a homophonic pun, made to sound like 'hyperbole' which means 'not to be taken seriously'.">Hippo Hyperbel</string>
 	<string key="ui_mounts_horse_description_7" rel_version="Season_4_Perm">Felix trägt seinen Hornhelm mit Stolz. Er verweist auf seine Stärke und Erhabenheit.</string>
 	<string key="ui_mounts_wolf_description_7" rel_version="Season_4_Perm">Smokeys verstohlene Haltung hat ihm viel Anerkennung eingebracht. Die Gegner sehen ihn nicht kommen.</string>
@@ -218,6 +213,7 @@
 	<string key="ui_mounts_bear_description_3" rel_version="Feature_Mounts_Bear">Entgegen seinem Namen ist Behemoth meist eine sanfte und ruhige Seele. Meist.</string>
 	<string key="ui_mounts_lion_description_9" rel_version="Feature_Mounts_Bear">Walküre-Platzhalter-Beschreibung.</string>
 	<string key="ui_mounts_wolf_description_10" rel_version="Feature_Mounts_Bear">Der Azoth-Pirscher ist ein gewiefter Rudelanführer. Dieses furchtlose, gerissene und ausdauernde Wesen hat es bis an die Spitze des Rudels geschafft.</string>
+	<string key="ui_mounts_bear_winter_description" rel_version="Entitlements_Valkyrie">Trägt ihren Hut und Schal, seit sie ganz klein war.</string>
 	<string key="ui_mounts_bear_hippo_description" rel_version="Season_6_Perm" comment="This is a pun, using 'barely' to represent that actual bear part of the mount.">Wow, ein echtes Hippo! Ist ja bärig dass wir in knapp 1000 Tagen eines gefunden haben.</string>
 	<string key="ui_mounts_horse_name_1" rel_version="Feature_Mounts">Mächtiger Gregorius</string>
 	<string key="ui_mounts_horse_name_1a" rel_version="Feature_Mounts">Mächtiger Gregorius (GRATIS)</string>
@@ -296,7 +292,15 @@
 	<string key="Mount_Lion_PatternA10_description" rel_version="Feature_Mounts">Godfrey hatte schon als Löwenjunges immer Glück. Möge dieses Glück auf dich abfärben.</string>
 	<string key="Mount_Bear_PatternA1_Name" rel_version="Feature_Mounts_Bear">Verderbte Bärenpranke</string>
 	<string key="Mount_Wolf_PatternA11_Name" rel_version="Feature_Mounts_Bear">Azoth-Pirscher</string>
+	<string key="ui_mounts_default_turkey">Truthahn _Voreinstellung</string>
+	<string key="ui_mounts_unlock_turkey_message">Truthahn-Shop</string>
+	<string key="ui_mounts_owned_turkey_message">Truthahn</string>
 	<string key="ui_mounts_MTX_1_turkey_name" rel_version="Feature_Mounts_Turkey">Schenkel</string>
 	<string key="ui_mounts_MTX_1_turkey_description" rel_version="Feature_Mounts_Turkey">Ein Truthahn ist zum Reiten da, nicht zum Essen.\n\nANMERKUNG: Dieses Reittier kann nicht gefärbt werden und zeigt kein Zubehör an.</string>
+	<string key="ui_mounts_MTX_horse_Rudolph_name">Rudy</string>
+	<string key="ui_mounts_horse_Rudolph_desc">Die leuchtende Nase rührt glücklicherweise von der Festtagsfreude und nicht von der Verderbnis her.</string>
+	<string key="ui_mounts_owned_bear_message">Bär</string>
+	<string key="ui_mount_type_turkey">Sonstiges</string>
+	<string key="ui_mounts_undyeable">Die Rüstung dieses Reittiers kann nicht gefärbt werden.</string>
 </resources>
 

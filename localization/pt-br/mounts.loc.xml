@@ -77,12 +77,10 @@
 	<string key="ui_mount_type_sabretooth" rel_version="Feature_Mounts">Leão</string>
 	<string key="ui_mount_type_direwolf" rel_version="Feature_Mounts">Lobo Atroz</string>
 	<string key="ui_mount_type_bear" rel_version="Feature_Mounts_Bear">Urso</string>
-	<string key="ui_mount_type_turkey" rel_version="Feature_Mounts_Turkey">Outro</string>
 	<string key="ui_mounts_default_horse_name" rel_version="Feature_Mounts">Default_Horse</string>
 	<string key="ui_mounts_default_sabretooth_name" rel_version="Feature_Mounts">Default_Sabretooth</string>
 	<string key="ui_mounts_default_direwolf" rel_version="Feature_Mounts">Default_DireWolf</string>
 	<string key="ui_mounts_default_bear" rel_version="Feature_Mounts_Bear">Default_Bear</string>
-	<string key="ui_mounts_default_turkey" rel_version="Feature_Mounts_Turkey">Peru_Padrão</string>
 	<string key="ui_mounts_horse_entitlement_test_name" rel_version="Feature_Mounts">Horse_Entitlement_Test</string>
 	<string key="ui_mounts_sabretooth_achievement_test_name" rel_version="Feature_Mounts">Sabretooth_Achievement_Test</string>
 	<string key="ui_mounts_test_name" rel_version="Feature_Mounts">Montaria de Teste</string>
@@ -115,7 +113,6 @@
 	<string key="ui_mounts_wolf_shop" rel_version="Feature_Mounts">Loja de Lobos Atrozes</string>
 	<string key="ui_mounts_lion_shop" rel_version="Feature_Mounts">Loja de Leões</string>
 	<string key="ui_navmenu_mounts" rel_version="Feature_Mounts">Montaria</string>
-	<string key="ui_mounts_undyeable" rel_version="Feature_Mounts">A armadura dessa montaria não pode ser tingida.</string>
 	<string key="ui_mounts_dye_command" rel_version="Feature_Mounts">Tingir Armadura</string>
 	<string key="ui_mounts_dye_screen_title" rel_version="Feature_Mounts">Tingir Armadura da Montaria</string>
 	<string key="ui_rename_mount" rel_version="Feature_Mounts">Renomear Montaria</string>
@@ -145,7 +142,6 @@
 	<string key="ui_mounts_unlock_wolf_message" rel_version="Feature_Mounts">Loja de Lobos Atrozes</string>
 	<string key="ui_mounts_unlock_lion_message" rel_version="Feature_Mounts">Loja de Leões</string>
 	<string key="ui_mounts_unlock_bear_message" rel_version="Feature_Mounts_Bear">Loja de Ursos</string>
-	<string key="ui_mounts_unlock_turkey_message" rel_version="Feature_Mounts_Turkey">Loja do peru</string>
 	<string key="ui_mounts_unlock_tradeskill_message" rel_version="Feature_Mounts">Habilidade Mercante de Montaria</string>
 	<string key="ui_mounts_unlock_worlddrop_message" rel_version="Feature_Mounts">Concessão do Mundo</string>
 	<string key="ui_mounts_unlock_mutator_message" rel_version="Feature_Mounts">Expedição Transmutada</string>
@@ -155,8 +151,6 @@
 	<string key="ui_mounts_owned_horse_message" rel_version="Feature_Mounts">Cavalo</string>
 	<string key="ui_mounts_owned_wolf_message" rel_version="Feature_Mounts">Lobo Atroz</string>
 	<string key="ui_mounts_owned_lion_message" rel_version="Feature_Mounts">Leão</string>
-	<string key="ui_mounts_owned_bear_message" rel_version="Feature_Mounts_Bear">Urso</string>
-	<string key="ui_mounts_owned_turkey_message" rel_version="Feature_Mounts_Turkey">Peru</string>
 	<string key="ui_mounts_test_expansion_name" comment="DO NOT TRANSLATE" rel_version="Feature_Mounts">Rise of the Angry Earth</string>
 	<string key="ui_mounts_test_expansion_description" comment="DO NOT TRANSLATE" rel_version="Feature_Mounts">Release: {releaseName}</string>
 	<string key="ui_mounts_summon_mount" rel_version="Feature_Mounts">Convocar</string>
@@ -203,6 +197,7 @@
 	<string key="ui_mounts_MTX_8_lion_name" rel_version="Season_5_Perm">Sicarius</string>
 	<string key="ui_mounts_MTX_8_bear_name" rel_version="Feature_Mounts_Bear">Morti</string>
 	<string key="ui_mounts_MTX_10_wolf_name" rel_version="Feature_Mounts_Bear">Espreitador de Azoth</string>
+	<string key="ui_mounts_MTX_bear_winter_name" rel_version="Entitlements_Valkyrie">Nisse</string>
 	<string key="ui_mounts_MTX_bear_hippo_name" rel_version="Season_6_Perm" comment="This is a homophonic pun, made to sound like 'hyperbole' which means 'not to be taken seriously'.">Ursopótamo</string>
 	<string key="ui_mounts_horse_description_7" rel_version="Season_4_Perm">Felix tem orgulho em usar seu elmo com chifres. Ele ostenta seu poder e majestade.</string>
 	<string key="ui_mounts_wolf_description_7" rel_version="Season_4_Perm">A postura furtiva do Enfumaçado lhe rendeu muitos elogios. Os inimigos não conseguem prever seu ataque.</string>
@@ -218,6 +213,7 @@
 	<string key="ui_mounts_bear_description_3" rel_version="Feature_Mounts_Bear">Ao contrário de seu nome, Behemoth é quase sempre uma alma gentil e tranquila. Quase.</string>
 	<string key="ui_mounts_lion_description_9" rel_version="Feature_Mounts_Bear">Marcador da descrição de Valquíria.</string>
 	<string key="ui_mounts_wolf_description_10" rel_version="Feature_Mounts_Bear">O Espreitador de Azoth é um líder de matilha astuto. Destemido, experiente e obstinado por natureza... essas são as qualidades acompanharam sua ascensão ao topo.</string>
+	<string key="ui_mounts_bear_winter_description" rel_version="Entitlements_Valkyrie">Tem usado seu chapéu e cachecol desde que era um filhote.</string>
 	<string key="ui_mounts_bear_hippo_description" rel_version="Season_6_Perm" comment="This is a pun, using 'barely' to represent that actual bear part of the mount.">Uau, um hipopótamo de verdade! Mal posso acreditar que encontramos um em pouco menos de 1.000 dias.</string>
 	<string key="ui_mounts_horse_name_1" rel_version="Feature_Mounts">Poderoso Gregoroso</string>
 	<string key="ui_mounts_horse_name_1a" rel_version="Feature_Mounts">Poderoso Gregoroso (GRATUITO)</string>
@@ -296,7 +292,15 @@
 	<string key="Mount_Lion_PatternA10_description" rel_version="Feature_Mounts">Godfrey sempre teve sorte, mesmo quando era filhote. Que sua boa sorte seja passada para você.</string>
 	<string key="Mount_Bear_PatternA1_Name" rel_version="Feature_Mounts_Bear">Martelador Corrompido</string>
 	<string key="Mount_Wolf_PatternA11_Name" rel_version="Feature_Mounts_Bear">Espreitador de Azoth</string>
+	<string key="ui_mounts_default_turkey">Peru_Padrão</string>
+	<string key="ui_mounts_unlock_turkey_message">Loja do peru</string>
+	<string key="ui_mounts_owned_turkey_message">Peru</string>
 	<string key="ui_mounts_MTX_1_turkey_name" rel_version="Feature_Mounts_Turkey">Baqueta</string>
 	<string key="ui_mounts_MTX_1_turkey_description" rel_version="Feature_Mounts_Turkey">Um peru para cavalgar, não para comer.\n\nOBSERVAÇÃO: Essa montaria não pode ser tingida e não exibe acessórios.</string>
+	<string key="ui_mounts_MTX_horse_Rudolph_name">Rudy</string>
+	<string key="ui_mounts_horse_Rudolph_desc">Esse nariz brilhante é causado pela alegria das festividades e, felizmente, não pela Corrupção.</string>
+	<string key="ui_mounts_owned_bear_message">Urso</string>
+	<string key="ui_mount_type_turkey">Outro</string>
+	<string key="ui_mounts_undyeable">A armadura dessa montaria não pode ser tingida.</string>
 </resources>
 
