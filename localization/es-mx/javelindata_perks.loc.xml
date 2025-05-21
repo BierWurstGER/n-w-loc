@@ -1268,7 +1268,7 @@
 	<string key="PerkID_Common_CDR_Name">Revitalización</string>
 	<string key="PerkID_Common_CDR_Description">Reduce los tiempos de reutilización máximos un {[-0.024000 * -100 * {perkMultiplier}]} %.</string>
 	<string key="PerkID_Common_CDRonHit_Name">Protección revitalizante</string>
-	<string key="PerkID_Common_CDRonHit_Description">Reduce los tiempos de reutilización activos un {[-0.005000 * -100 * {perkMultiplier}]} % tras recibir 4 impactos. (No desencadena daños persistentes, efectos de daño con el tiempo ni ataques bloqueados).</string>
+	<string key="PerkID_Common_CDRonHit_Description">Reduce los tiempos de reutilización activos un {[-0.001000 * -100 * {perkMultiplier}]} % tras recibir 4 impactos. (No desencadena daños persistentes, efectos de daño con el tiempo ni ataques bloqueados).</string>
 	<string key="PerkID_Common_CDRonDodge_Name">Evasión revitalizante</string>
 	<string key="PerkID_Common_CDRonDodge_Description">Reduce los tiempos de reutilización activos en un {[-0.005000 * -100 * {perkMultiplier}]} % tras salir de la animación de esquivar.</string>
 	<string key="PerkID_Common_Luck_Name">Suerte</string>
@@ -2598,7 +2598,7 @@
 	<string key="PerkID_Artifact_Set1_TowerShield_Name">Muro escudo</string>
 	<string key="PerkID_Artifact_Set1_TowerShield_Desc">Obtienes una reducción del daño base de un {[0.050000 * 100]} %\nNo puedes esquivar, pero tienes un {[0.330000 * 100]} % más de resistencia. (Mientras está activo o enfundado)</string>
 	<string key="PerkID_Artifact_Set1_TowerShieldPerk_Name">Protección cromática</string>
-	<string key="PerkID_Artifact_Set1_TowerShieldPerk_Desc">Recibes un {[0.250000 * 100]} % menos de daño de todas las fuentes elementales.</string>
+	<string key="PerkID_Artifact_Set1_TowerShieldPerk_Desc">Recibes un {[0.130000 * 100]} % menos de daño de todas las fuentes elementales.</string>
 	<string key="PerkID_Artifact_Set1_Firestaff_Name">Poder interior</string>
 	<string key="PerkID_Artifact_Set1_Firestaff_Desc">Si tu atributo de fuerza es mayor, reemplaza el escalado base del arma con fuerza. {[0.150000 * 100]} % más de daño cuando golpeas a un objetivo dentro de los {[15.000000]} m.</string>
 	<string key="PerkID_Artifact_Set1_FirestaffPerk_Desc">+{[0.150000 * 100]} % de daño al impactar a un objetivo dentro de {[15.000000]} m. </string>

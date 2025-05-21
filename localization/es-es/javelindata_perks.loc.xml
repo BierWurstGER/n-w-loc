@@ -1268,7 +1268,7 @@
 	<string key="PerkID_Common_CDR_Name">Renovación</string>
 	<string key="PerkID_Common_CDR_Description">Reduce las recargas máximas en un {[-0.024000 * -100 * {perkMultiplier}]} %.</string>
 	<string key="PerkID_Common_CDRonHit_Name">Protección renovadora</string>
-	<string key="PerkID_Common_CDRonHit_Description">Reduce las recargas activas en un {[-0.005000 * -100 * {perkMultiplier}]} % tras recibir 4 impactos (no desencadena daños persistentes, efectos de daño con el tiempo ni ataques bloqueados).</string>
+	<string key="PerkID_Common_CDRonHit_Description">Reduce las recargas activas en un {[-0.001000 * -100 * {perkMultiplier}]} % tras recibir 4 impactos (no desencadena daños persistentes, efectos de daño con el tiempo ni ataques bloqueados).</string>
 	<string key="PerkID_Common_CDRonDodge_Name">Evasión renovadora</string>
 	<string key="PerkID_Common_CDRonDodge_Description">Reduce las recargas activas en un {[-0.005000 * -100 * {perkMultiplier}]} % tras salir de la animación de esquivar.</string>
 	<string key="PerkID_Common_Luck_Name">Fortuna</string>
@@ -2598,7 +2598,7 @@
 	<string key="PerkID_Artifact_Set1_TowerShield_Name">Muro protector</string>
 	<string key="PerkID_Artifact_Set1_TowerShield_Desc">Se reduce en un {[0.050000 * 100]} % el daño base recibido.\nNo puedes esquivar, pero tienes un {[0.330000 * 100]} % más de vitalidad. (Mientras está activo o guardado).</string>
 	<string key="PerkID_Artifact_Set1_TowerShieldPerk_Name">Protección cromática</string>
-	<string key="PerkID_Artifact_Set1_TowerShieldPerk_Desc">Recibes un {[0.250000 * 100]} % menos de daño de todas las fuentes elementales.</string>
+	<string key="PerkID_Artifact_Set1_TowerShieldPerk_Desc">Recibes un {[0.130000 * 100]} % menos de daño de todas las fuentes elementales.</string>
 	<string key="PerkID_Artifact_Set1_Firestaff_Name">Poder interior</string>
 	<string key="PerkID_Artifact_Set1_Firestaff_Desc">Si tu atributo de fuerza es superior, sustituye tu escalado de arma base por fuerza. +{[0.150000 * 100]} % de daño al golpear a un objetivo a {[15.000000]} m.</string>
 	<string key="PerkID_Artifact_Set1_FirestaffPerk_Desc">+{[0.150000 * 100]} % de daño al golpear a un objetivo a {[15.000000]} m. </string>

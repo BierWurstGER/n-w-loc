@@ -1268,7 +1268,7 @@
 	<string key="PerkID_Common_CDR_Name">Rafraîchissement</string>
 	<string key="PerkID_Common_CDR_Description">Réduit de {[-0.024000 * -100 * {perkMultiplier}]} % les temps de recharge max.</string>
 	<string key="PerkID_Common_CDRonHit_Name">Protection régénératrice</string>
-	<string key="PerkID_Common_CDRonHit_Description">Réduit de {[-0.005000 * -100 * {perkMultiplier}]} % les temps de recharge actifs après avoir été touché(e) 4 fois (ne se déclenche pas lors de dégâts persistants, d'effets sur la durée ou d'attaques parées).</string>
+	<string key="PerkID_Common_CDRonHit_Description">Réduit de {[-0.001000 * -100 * {perkMultiplier}]} % les temps de recharge actifs après avoir été touché(e) 4 fois (ne se déclenche pas lors de dégâts persistants, d'effets sur la durée ou d'attaques parées).</string>
 	<string key="PerkID_Common_CDRonDodge_Name">Évasion régénératrice</string>
 	<string key="PerkID_Common_CDRonDodge_Description">Réduit de {[-0.005000 * -100 * {perkMultiplier}]} % les temps de recharge après avoir accompli une esquive.</string>
 	<string key="PerkID_Common_Luck_Name">Chance</string>
@@ -2598,7 +2598,7 @@
 	<string key="PerkID_Artifact_Set1_TowerShield_Name">Mur de boucliers</string>
 	<string key="PerkID_Artifact_Set1_TowerShield_Desc">Vous obtenez {[0.050000 * 100]} % de réduction des dégâts de base.\nVous ne pouvez pas esquiver, mais avez {[0.330000 * 100]} % de vitalité en plus. (Lorsque active ou rangée)</string>
 	<string key="PerkID_Artifact_Set1_TowerShieldPerk_Name">Protection chromatique</string>
-	<string key="PerkID_Artifact_Set1_TowerShieldPerk_Desc">Vous subissez {[0.250000 * 100]} % de dégâts en moins de tous les éléments.</string>
+	<string key="PerkID_Artifact_Set1_TowerShieldPerk_Desc">Vous subissez {[0.130000 * 100]} % de dégâts en moins de tous les éléments.</string>
 	<string key="PerkID_Artifact_Set1_Firestaff_Name">Puissance intérieure</string>
 	<string key="PerkID_Artifact_Set1_Firestaff_Desc">Les dégâts de votre arme se basent sur la force si elle est supérieure. +{[0.150000 * 100]} % de dégâts lorsque vous touchez une cible dans les {[15.000000]} m.</string>
 	<string key="PerkID_Artifact_Set1_FirestaffPerk_Desc">+{[0.150000 * 100]} % de dégâts lorsque vous touchez une cible se trouvant à moins de {[15.000000]} m de distance. </string>
