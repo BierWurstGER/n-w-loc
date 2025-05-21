@@ -1411,7 +1411,7 @@
 	<string key="PerkID_Amulet_HP_Name">Saúde</string>
 	<string key="PerkID_Amulet_HP_Description">Aumenta a Saúde máxima em {[0.030000 * 100 * {perkMultiplier}]}% do valor base.</string>
 	<string key="PerkID_Amulet_StamOnLow_Name">Recuperação de Vigor</string>
-	<string key="PerkID_Amulet_StamOnLow_Description">Ao sofrer um ataque com menos de 50% de Saúde, você ganha {[30.000000 * {perkMultiplier}]} de Vigor. (Tempo de recarga: {[45.000000]} s. Não aciona com dano persistente, nem efeitos de dano contínuo, nem ataques bloqueados.)</string>
+	<string key="PerkID_Amulet_StamOnLow_Description">Ao sofrer um ataque com menos de 50% de Saúde, você ganha {[30.000000 * {perkMultiplier}]} de Vigor. (Tempo de recarga: {[60.000000]} s. Não aciona com dano persistente, nem efeitos de dano contínuo, nem ataques bloqueados.)</string>
 	<string key="PerkID_Amulet_ManaOnLow_Name">Recuperação de Mana</string>
 	<string key="PerkID_Amulet_ManaOnLow_Description">Ao sofrer um ataque com menos de 50% de Saúde, você ganha {[0.500000 * 100 * {perkMultiplier}]} de Mana. (Tempo de recarga: {[30.000000]} s. Não desencadeia dano persistente, nem efeitos de dano contínuo, nem ataques bloqueados).</string>
 	<string key="PerkID_Amulet_RemoveOnLow_Name">Purificar</string>
@@ -1741,7 +1741,7 @@
 	<string key="PerkID_Head_OnCritTaken_CritChance_Name" rel_version="MorePerksV2">Retribuição Crítica</string>
 	<string key="PerkID_Head_OnCritTaken_CritChance_Description" rel_version="MorePerksV2">Apenas PvP: Ganha {[0.030000 * 100 * {perkMultiplier}]}% de chance de acerto crítico durante {[7.000000]} s ao sofrer um acerto crítico (tempo de recarga: {[20.000000]} s).</string>
 	<string key="PerkID_Chest_OnBlockedHitTaken_StaminaRegen_Name" rel_version="MorePerksV2">Energia Robusta</string>
-	<string key="PerkID_Chest_OnBlockedHitTaken_StaminaRegen_Description" rel_version="MorePerksV2">Ao bloquear um golpe tendo menos de {[30.000000]}% de Vigor, ganhe {[0.200000 * 100 * {perkMultiplier}]}% de Regeneração de Vigor durante {[6.000000]} s (o efeito será removido em caso de Exaustão).</string>
+	<string key="PerkID_Chest_OnBlockedHitTaken_StaminaRegen_Description" rel_version="MorePerksV2">Ao bloquear um golpe enquanto estiver abaixo de {[30.000000]}% vigor, ganho {[0.200000 * 100 * {perkMultiplier}]}% Regeneração de vigor para {[6.000000]}s ({[15.000000]}s tempo de recarga. O efeito será removido se o jogador ficar Exausto).</string>
 	<string key="PerkID_Hands_OnBlockedHit_EmpowerStack_Name" rel_version="MorePerksV2">Ruptura Energizante</string>
 	<string key="PerkID_Hands_OnBlockedHit_EmpowerStack_Description" rel_version="MorePerksV2">Cada ataque seu bloqueado gera um acúmulo de Energizado, aumentando o dano em {[0.020000 * 100 * {perkMultiplier}]}% durante {[5.000000]} s (máximo de {[5.000000]} acúmulos).</string>
 	<string key="PerkID_Legs_DodgeSuccess_Stamina_Name" rel_version="MorePerksV2">Energia Esquiva</string>

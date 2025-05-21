@@ -1411,7 +1411,7 @@
 	<string key="PerkID_Amulet_HP_Name">Zdrowie</string>
 	<string key="PerkID_Amulet_HP_Description">Zwiększa maks. zdrowie o {[0.030000 * 100 * {perkMultiplier}]}% wartości podstawowej.</string>
 	<string key="PerkID_Amulet_StamOnLow_Name">Regeneracja wytrzymałości</string>
-	<string key="PerkID_Amulet_StamOnLow_Description">Jeśli wróg trafi cię, gdy masz mniej niż 50% zdrowia, zyskujesz {[30.000000 * {perkMultiplier}]} pkt wytrzymałości (czas odnowienia: {[45.000000]} s). (Nie aktywuje się od obrażeń nieustannych, periodycznych ani od zablokowanych ataków).</string>
+	<string key="PerkID_Amulet_StamOnLow_Description">Jeśli wróg trafi cię, gdy masz mniej niż 50% zdrowia, zyskujesz {[30.000000 * {perkMultiplier}]} pkt wytrzymałości (czas odnowienia: {[60.000000]} s). (Nie aktywuje się od obrażeń nieustannych, periodycznych ani od zablokowanych ataków).</string>
 	<string key="PerkID_Amulet_ManaOnLow_Name">Regeneracja many</string>
 	<string key="PerkID_Amulet_ManaOnLow_Description">Jeśli wróg trafi cię, gdy masz mniej niż 50% zdrowia, zyskujesz {[0.500000 * 100 * {perkMultiplier}]} pkt many (czas odnowienia: {[30.000000]} s). (Nie aktywuje się od obrażeń nieustannych, periodycznych ani od zablokowanych ataków).</string>
 	<string key="PerkID_Amulet_RemoveOnLow_Name">Puryfikacja</string>
@@ -1741,7 +1741,7 @@
 	<string key="PerkID_Head_OnCritTaken_CritChance_Name" rel_version="MorePerksV2">Krytyczna zemsta</string>
 	<string key="PerkID_Head_OnCritTaken_CritChance_Description" rel_version="MorePerksV2">Tylko PvP: Gdy otrzymasz trafienie krytyczne, zyskasz {[0.030000 * 100 * {perkMultiplier}]}% do szansy na trafienie krytyczne na {[7.000000]} s (czas odnowienia: {[20.000000]} s).</string>
 	<string key="PerkID_Chest_OnBlockedHitTaken_StaminaRegen_Name" rel_version="MorePerksV2">Wytrzymała energia</string>
-	<string key="PerkID_Chest_OnBlockedHitTaken_StaminaRegen_Description" rel_version="MorePerksV2">Zablokowanie ataku, gdy masz mniej niż {[30.000000]}% wytrzymałości, zwiększy szybkość regeneracji wytrzymałości o {[0.200000 * 100 * {perkMultiplier}]}% na {[6.000000]} s (efekt zostanie usunięty, gdy znajdziesz się pod wpływem wyczerpania).</string>
+	<string key="PerkID_Chest_OnBlockedHitTaken_StaminaRegen_Description" rel_version="MorePerksV2">Podczas blokowania trafienia, gdy jesteś {[30.000000]}% Wytrzymałości, dostajesz {[0.200000 * 100 * {perkMultiplier}]}% regeneracji Wytrzymałości dla {[6.000000]}s ({[15.000000]}s Czas odnowienia. efekt zostanie usunięty, gdy znajdziesz się pod wpływem wyczerpania).</string>
 	<string key="PerkID_Hands_OnBlockedHit_EmpowerStack_Name" rel_version="MorePerksV2">Wzmacniające przełamanie</string>
 	<string key="PerkID_Hands_OnBlockedHit_EmpowerStack_Description" rel_version="MorePerksV2">Gdy twój atak zostanie zablokowany, zyskasz nasączenie mocą zwiększające zadawane obrażenia o {[0.020000 * 100 * {perkMultiplier}]}% na {[5.000000]} s (kumuluje się do {[5.000000]} razy).</string>
 	<string key="PerkID_Legs_DodgeSuccess_Stamina_Name" rel_version="MorePerksV2">Wykrętna energia</string>

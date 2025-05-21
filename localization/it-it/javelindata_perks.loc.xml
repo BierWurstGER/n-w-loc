@@ -1411,7 +1411,7 @@
 	<string key="PerkID_Amulet_HP_Name">Salute</string>
 	<string key="PerkID_Amulet_HP_Description">Aumenta la salute massima di un {[0.030000 * 100 * {perkMultiplier}]}% del valore base.</string>
 	<string key="PerkID_Amulet_StamOnLow_Name">Recupero dell'energia</string>
-	<string key="PerkID_Amulet_StamOnLow_Description">Quando vieni colpito con salute inferiore al 50%, ottieni {[30.000000 * {perkMultiplier}]} di energia. (Tempo di ricarica {[45.000000]} s. Non innesca effetti di danni persistenti o nel tempo, né di attacchi bloccati).</string>
+	<string key="PerkID_Amulet_StamOnLow_Description">Quando vieni colpito con salute inferiore al 50%, ottieni {[30.000000 * {perkMultiplier}]} di energia. (Tempo di ricarica {[60.000000]} s. Non innesca effetti di danni persistenti o nel tempo, né di attacchi bloccati).</string>
 	<string key="PerkID_Amulet_ManaOnLow_Name">Recupero del mana</string>
 	<string key="PerkID_Amulet_ManaOnLow_Description">Quando vieni colpito con salute inferiore al 50%, ottieni {[0.500000 * 100 * {perkMultiplier}]} di mana. (Tempo di ricarica {[30.000000]} s. Non innesca effetti di danni persistenti o nel tempo, né di attacchi bloccati).</string>
 	<string key="PerkID_Amulet_RemoveOnLow_Name">Purifica</string>
@@ -1741,7 +1741,7 @@
 	<string key="PerkID_Head_OnCritTaken_CritChance_Name" rel_version="MorePerksV2">Castigo critico</string>
 	<string key="PerkID_Head_OnCritTaken_CritChance_Description" rel_version="MorePerksV2">Solo PvP: Ottieni un {[0.030000 * 100 * {perkMultiplier}]}% di probabilità di colpo critico per {[7.000000]} s dopo aver subito un colpo critico (tempo di ricarica {[20.000000]} s).</string>
 	<string key="PerkID_Chest_OnBlockedHitTaken_StaminaRegen_Name" rel_version="MorePerksV2">Energia robusta</string>
-	<string key="PerkID_Chest_OnBlockedHitTaken_StaminaRegen_Description" rel_version="MorePerksV2">Quando pari un colpo con energia inferiore a {[30.000000]}%, ottieni un {[0.200000 * 100 * {perkMultiplier}]}% di rigenerazione di energia per {[6.000000]} s (l'effetto viene rimosso quando il giocatore è Sfinito).</string>
+	<string key="PerkID_Chest_OnBlockedHitTaken_StaminaRegen_Description" rel_version="MorePerksV2">Se blocchi un colpo quando sei al di sotto di {[30.000000]}% di energia, ottieni {[0.200000 * 100 * {perkMultiplier}]}% di regenerazione di energia per {[6.000000]}s ({[15.000000]}s cooldown. L'effetto viene rimosso quando il giocatore è Sfinito).</string>
 	<string key="PerkID_Hands_OnBlockedHit_EmpowerStack_Name" rel_version="MorePerksV2">Frantumatore potenziante</string>
 	<string key="PerkID_Hands_OnBlockedHit_EmpowerStack_Description" rel_version="MorePerksV2">Quando i tuoi attacchi vengono parati, ottieni un accumulo di Potenziamento che aumenta i danni di un {[0.020000 * 100 * {perkMultiplier}]}% per {[5.000000]} s (massimo {[5.000000]} accumuli).</string>
 	<string key="PerkID_Legs_DodgeSuccess_Stamina_Name" rel_version="MorePerksV2">Energia elusiva</string>

@@ -1411,7 +1411,7 @@
 	<string key="PerkID_Amulet_HP_Name">Salud</string>
 	<string key="PerkID_Amulet_HP_Description">Aumenta la salud máxima un {[0.030000 * 100 * {perkMultiplier}]} % del valor base.</string>
 	<string key="PerkID_Amulet_StamOnLow_Name">Recuperación de vitalidad</string>
-	<string key="PerkID_Amulet_StamOnLow_Description">Si te golpean cuando tienes menos del 50 % de salud, obtienes {[30.000000 * {perkMultiplier}]} de vitalidad ({[45.000000]} s de recarga. No desencadena daños persistentes, efectos de daño con el tiempo ni ataques bloqueados).</string>
+	<string key="PerkID_Amulet_StamOnLow_Description">Si te golpean cuando tienes menos del 50 % de salud, obtienes {[30.000000 * {perkMultiplier}]} de vitalidad ({[60.000000]} s de recarga. No desencadena daños persistentes, efectos de daño con el tiempo ni ataques bloqueados).</string>
 	<string key="PerkID_Amulet_ManaOnLow_Name">Recuperación de maná</string>
 	<string key="PerkID_Amulet_ManaOnLow_Description">Si te golpean cuando tienes menos del 50 % de salud, obtienes {[0.500000 * 100 * {perkMultiplier}]} de maná ({[30.000000]} s de recarga). No desencadena daños persistentes, efectos de daño con el tiempo ni ataques bloqueados.</string>
 	<string key="PerkID_Amulet_RemoveOnLow_Name">Purificar</string>
@@ -1741,7 +1741,7 @@
 	<string key="PerkID_Head_OnCritTaken_CritChance_Name" rel_version="MorePerksV2">Castigo crítico</string>
 	<string key="PerkID_Head_OnCritTaken_CritChance_Description" rel_version="MorePerksV2">Solo JcJ: Obtienes un {[0.030000 * 100 * {perkMultiplier}]} % de probabilidad de crítico durante {[7.000000]} s al recibir un impacto crítico ({[20.000000]} s de tiempo de recarga).</string>
 	<string key="PerkID_Chest_OnBlockedHitTaken_StaminaRegen_Name" rel_version="MorePerksV2">Energía sólida</string>
-	<string key="PerkID_Chest_OnBlockedHitTaken_StaminaRegen_Description" rel_version="MorePerksV2">Al bloquear un golpe con la vitalidad por debajo del {[30.000000]} %, ganas un {[0.200000 * 100 * {perkMultiplier}]} % de regeneración de vitalidad durante {[6.000000]} s (el efecto desaparece si estás agotado).</string>
+	<string key="PerkID_Chest_OnBlockedHitTaken_StaminaRegen_Description" rel_version="MorePerksV2">Al bloquear un golpe con la vitalidad por debajo del {[30.000000]}%, ganas un {[0.200000 * 100 * {perkMultiplier}]}% de regeneración de vitalidad durante {[6.000000]}s (tiempo de recarga de {[15.000000]}s. El efecto desaparece si estás agotado).</string>
 	<string key="PerkID_Hands_OnBlockedHit_EmpowerStack_Name" rel_version="MorePerksV2">Rotura empoderadora</string>
 	<string key="PerkID_Hands_OnBlockedHit_EmpowerStack_Description" rel_version="MorePerksV2">Cuando te bloquean los ataques, ganas una acumulación de Fortalecimiento, lo que aumenta el daño en un {[0.020000 * 100 * {perkMultiplier}]} % durante {[5.000000]} s (máx. {[5.000000]} acumulaciones).</string>
 	<string key="PerkID_Legs_DodgeSuccess_Stamina_Name" rel_version="MorePerksV2">Energía esquiva</string>

@@ -1411,7 +1411,7 @@
 	<string key="PerkID_Amulet_HP_Name">Salud</string>
 	<string key="PerkID_Amulet_HP_Description">Aumenta tu salud máxima en un {[0.030000 * 100 * {perkMultiplier}]} % sobre el valor base.</string>
 	<string key="PerkID_Amulet_StamOnLow_Name">Recuperación de resistencia</string>
-	<string key="PerkID_Amulet_StamOnLow_Description">Cuando tienes menos del 50 % de salud y te golpean, obtienes {[30.000000 * {perkMultiplier}]} de resistencia (tiempo de reutilización de {[45.000000]} s. No desencadena daños persistentes, efectos de daño con el tiempo ni ataques bloqueados).</string>
+	<string key="PerkID_Amulet_StamOnLow_Description">Cuando tienes menos del 50 % de salud y te golpean, obtienes {[30.000000 * {perkMultiplier}]} de resistencia (tiempo de reutilización de {[60.000000]} s. No desencadena daños persistentes, efectos de daño con el tiempo ni ataques bloqueados).</string>
 	<string key="PerkID_Amulet_ManaOnLow_Name">Recuperación del maná</string>
 	<string key="PerkID_Amulet_ManaOnLow_Description">Cuando tienes menos del 50 % de salud, obtienes {[0.500000 * 100 * {perkMultiplier}]} de maná (tiempo de reutilización de {[30.000000]} s. No desencadena daños persistentes, efectos de daño con el tiempo ni ataques bloqueados).</string>
 	<string key="PerkID_Amulet_RemoveOnLow_Name">Purificar</string>
@@ -1741,7 +1741,7 @@
 	<string key="PerkID_Head_OnCritTaken_CritChance_Name" rel_version="MorePerksV2">Retribución crítica</string>
 	<string key="PerkID_Head_OnCritTaken_CritChance_Description" rel_version="MorePerksV2">Solo PvP: Obtienes un {[0.030000 * 100 * {perkMultiplier}]} % de probabilidad de crítico durante {[7.000000]} s al recibir un impacto crítico. (Tiempo de reutilización de {[20.000000]} s).</string>
 	<string key="PerkID_Chest_OnBlockedHitTaken_StaminaRegen_Name" rel_version="MorePerksV2">Energía resistente</string>
-	<string key="PerkID_Chest_OnBlockedHitTaken_StaminaRegen_Description" rel_version="MorePerksV2">Al bloquear un golpe con la resistencia por debajo del {[30.000000]} %, ganas un {[0.200000 * 100 * {perkMultiplier}]} % de regeneración de resistencia durante {[6.000000]} s. (El efecto desaparece si estás agotado).</string>
+	<string key="PerkID_Chest_OnBlockedHitTaken_StaminaRegen_Description" rel_version="MorePerksV2">Al bloquear un golpe mientras estes debajo de {[30.000000]}% de resistencia, ganas {[0.200000 * 100 * {perkMultiplier}]}% de regeneración de resistencia por {[6.000000]}s ({[15.000000]}s de tiempo de enfriamiento. El efecto desaparece si estás agotado).</string>
 	<string key="PerkID_Hands_OnBlockedHit_EmpowerStack_Name" rel_version="MorePerksV2">Destructor fortificador</string>
 	<string key="PerkID_Hands_OnBlockedHit_EmpowerStack_Description" rel_version="MorePerksV2">Cuando te bloquean los ataques, ganas una acumulación de fortalecimiento, lo que aumenta el daño en un {[0.020000 * 100 * {perkMultiplier}]} % durante {[5.000000]} s. (Se acumula un máx. de {[5.000000]} veces).</string>
 	<string key="PerkID_Legs_DodgeSuccess_Stamina_Name" rel_version="MorePerksV2">Energía elusiva</string>

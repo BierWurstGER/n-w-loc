@@ -1411,7 +1411,7 @@
 	<string key="PerkID_Amulet_HP_Name">Gesundheit</string>
 	<string key="PerkID_Amulet_HP_Description">Erhöht max. Gesundheit um {[0.030000 * 100 * {perkMultiplier}]} % des Grundwerts.</string>
 	<string key="PerkID_Amulet_StamOnLow_Name">Ausdauererholung</string>
-	<string key="PerkID_Amulet_StamOnLow_Description">Wenn du bei unter 50 % Gesundheit getroffen wirst, erhältst du {[30.000000 * {perkMultiplier}]} Ausdauer ({[45.000000]} Sek. Abklingzeit. Wird nicht durch andauernden Schaden, Schaden-über-Zeit-Effekte oder blockierte Angriffe ausgelöst.)</string>
+	<string key="PerkID_Amulet_StamOnLow_Description">Wenn du bei unter 50 % Gesundheit getroffen wirst, erhältst du {[30.000000 * {perkMultiplier}]} Ausdauer ({[60.000000]} Sek. Abklingzeit. Wird nicht durch andauernden Schaden, Schaden-über-Zeit-Effekte oder blockierte Angriffe ausgelöst.)</string>
 	<string key="PerkID_Amulet_ManaOnLow_Name">Manaerholung</string>
 	<string key="PerkID_Amulet_ManaOnLow_Description">Wenn du bei unter 50 % Gesundheit getroffen wirst, erhältst du {[0.500000 * 100 * {perkMultiplier}]} Mana ({[30.000000]} Sek. Abklingzeit. (Wird nicht durch andauernden Schaden, Schaden-über-Zeit-Effekte oder blockierte Angriffe ausgelöst.)</string>
 	<string key="PerkID_Amulet_RemoveOnLow_Name">Läuterung</string>
@@ -1741,7 +1741,7 @@
 	<string key="PerkID_Head_OnCritTaken_CritChance_Name" rel_version="MorePerksV2">Kritische Vergeltung</string>
 	<string key="PerkID_Head_OnCritTaken_CritChance_Description" rel_version="MorePerksV2">Nur im PvP: Erhalte für {[7.000000]} Sek. {[0.030000 * 100 * {perkMultiplier}]} % Chance auf kritische Treffer, wenn du einen kritischen Treffer erleidest. ({[20.000000]} Sek. Abklingzeit.)</string>
 	<string key="PerkID_Chest_OnBlockedHitTaken_StaminaRegen_Name" rel_version="MorePerksV2">Robuste Energie</string>
-	<string key="PerkID_Chest_OnBlockedHitTaken_StaminaRegen_Description" rel_version="MorePerksV2">Blockst du einen Treffer, während du weniger als {[30.000000]} % Ausdauer hast, erhältst du für {[6.000000]} Sek. {[0.200000 * 100 * {perkMultiplier}]} % Ausdauerregeneration. (Effekt wird entfernt, wenn der Spieler erschöpft ist.)</string>
+	<string key="PerkID_Chest_OnBlockedHitTaken_StaminaRegen_Description" rel_version="MorePerksV2">Wenn du einen Treffer abwehrst, während du weniger als {[30.000000]} % Ausdauer hast, erhältst du {[0.200000 * 100 * {perkMultiplier}]} % Ausdauerregeneration für {[6.000000]}Sek. ({[15.000000]}Sek. Abklingzeit. Effekt wird entfernt, wenn der Spieler erschöpft ist).</string>
 	<string key="PerkID_Hands_OnBlockedHit_EmpowerStack_Name" rel_version="MorePerksV2">Ermächtigender Durchbruch</string>
 	<string key="PerkID_Hands_OnBlockedHit_EmpowerStack_Description" rel_version="MorePerksV2">Wenn deine Angriffe geblockt werden, erhältst du einen Stapel Ermächtigung, der für {[5.000000]} Sek. deinen Schaden um {[0.020000 * 100 * {perkMultiplier}]} % erhöht. (Maximal {[5.000000]}-mal stapelbar)</string>
 	<string key="PerkID_Legs_DodgeSuccess_Stamina_Name" rel_version="MorePerksV2">Energieschub-Konter</string>

@@ -1411,7 +1411,7 @@
 	<string key="PerkID_Amulet_HP_Name">Santé</string>
 	<string key="PerkID_Amulet_HP_Description">Augmente la santé max à hauteur de {[0.030000 * 100 * {perkMultiplier}]} % de la valeur de base.</string>
 	<string key="PerkID_Amulet_StamOnLow_Name">Récupération de vitalité</string>
-	<string key="PerkID_Amulet_StamOnLow_Description">Si vous subissez des dégâts alors que votre santé est inférieure à 50 %, vous gagnez {[30.000000 * {perkMultiplier}]} points de vitalité ({[45.000000]} s de temps de recharge. Ne se déclenche pas lors de dégâts persistants, d'effets sur la durée ou d'attaques parées).</string>
+	<string key="PerkID_Amulet_StamOnLow_Description">Si vous subissez des dégâts alors que votre santé est inférieure à 50 %, vous gagnez {[30.000000 * {perkMultiplier}]} points de vitalité ({[60.000000]} s de temps de recharge. Ne se déclenche pas lors de dégâts persistants, d'effets sur la durée ou d'attaques parées).</string>
 	<string key="PerkID_Amulet_ManaOnLow_Name">Récupération de mana</string>
 	<string key="PerkID_Amulet_ManaOnLow_Description">Si vous subissez des dégâts alors que votre santé est inférieure à 50 %, vous gagnez {[0.500000 * 100 * {perkMultiplier}]} points de mana ({[30.000000]} s de temps de recharge. Ne se déclenche pas lors de dégâts persistants, d'effets sur la durée ou d'attaques parées).</string>
 	<string key="PerkID_Amulet_RemoveOnLow_Name">Purification</string>
@@ -1741,7 +1741,7 @@
 	<string key="PerkID_Head_OnCritTaken_CritChance_Name" rel_version="MorePerksV2">Rétribution critique</string>
 	<string key="PerkID_Head_OnCritTaken_CritChance_Description" rel_version="MorePerksV2">JcJ seulement : Confère {[0.030000 * 100 * {perkMultiplier}]} % de chances de coup critique pendant {[7.000000]} s en subissant un coup critique ({[20.000000]} s de temps de recharge).</string>
 	<string key="PerkID_Chest_OnBlockedHitTaken_StaminaRegen_Name" rel_version="MorePerksV2">Énergie robuste</string>
-	<string key="PerkID_Chest_OnBlockedHitTaken_StaminaRegen_Description" rel_version="MorePerksV2">Parer un coup avec moins de {[30.000000]} % de vitalité vous confère {[0.200000 * 100 * {perkMultiplier}]} % de régénération de la vitalité pendant {[6.000000]} s (l'effet est supprimé si le joueur s'épuise).</string>
+	<string key="PerkID_Chest_OnBlockedHitTaken_StaminaRegen_Description" rel_version="MorePerksV2">Lorsque vous bloquez un coup pendant que vous avez moins de {[30.000000]}% de vitalité, gagnez {[0.200000 * 100 * {perkMultiplier}]}% de régénération de vitalité pendant {[6.000000]}s ({[15.000000]}s de temps de recharge. l'effet est supprimé si le joueur s'épuise).</string>
 	<string key="PerkID_Hands_OnBlockedHit_EmpowerStack_Name" rel_version="MorePerksV2">Rupture renforcée</string>
 	<string key="PerkID_Hands_OnBlockedHit_EmpowerStack_Description" rel_version="MorePerksV2">Vos attaques parées vous confèrent un cumul de renforcement, augmentant de {[0.020000 * 100 * {perkMultiplier}]} % vos dégâts pendant {[5.000000]} s (cumulable {[5.000000]} fois).</string>
 	<string key="PerkID_Legs_DodgeSuccess_Stamina_Name" rel_version="MorePerksV2">Énergie élusive</string>
