@@ -514,7 +514,7 @@
 	<string key="ui_enablepushtotalksound">Mode Appuyer pour parler</string>
 	<string key="ui_enablevoicechat">Discussion vocale</string>
 	<string key="ui_end">Fin</string>
-	<string key="ui_enter">Entrer</string>
+	<string key="ui_enter">Entrée</string>
 	<string key="ui_enterplayername">Saisir nom du joueur</string>
 	<string key="ui_entermountname" rel_version="Feature_Mounts">Saisir un nom de monture</string>
 	<string key="ui_equipment">Équipement</string>
@@ -709,8 +709,8 @@
 	<string key="ui_play">Jouer</string>
 	<string key="ui_playername">Nom du joueur</string>
 	<string key="ui_playername_with_platformicon" rel_version="ConsoleLaunch">&lt;font color={playerNameColor} face="lyshineui/fonts/Nimbus_Semibold.font"&gt;{playerName} &lt;/font&gt; &lt;img src="{platformIcon}" scale="1.3" yOffset="3"&gt;&lt;/img&gt;</string>
-	<string key="ui_playername_with_platformname_with_platformicon" rel_version="ConsoleLaunch">&lt;font color={platformNameColor} face="lyshineui/fonts/Nimbus_Semibold.font"&gt;{platformName} &lt;/font&gt; &lt;img src="{platformIcon}" scale="1.3" yOffset="3"&gt;&lt;/img&gt;&lt;font color={playerNameColor} face="lyshineui/fonts/Nimbus_medium.font" &gt; | {playerName}&lt;/font&gt;</string>
-	<string key="ui_playername_with_platformname_with_platformicon_platformfriend" rel_version="ConsoleLaunch">&lt;font color={platformNameColor} face="lyshineui/fonts/Nimbus_Semibold.font"&gt;{platformName} &lt;/font&gt; &lt;img src="{platformIcon}" scale="1.3" yOffset="3"&gt;&lt;/img&gt; &lt;img src="{platformFriendIcon}" scale="1.3" yOffset="3"&gt;&lt;/img&gt;&lt;font color={playerNameColor} face="lyshineui/fonts/Nimbus_medium.font" &gt; | {playerName}&lt;/font&gt;</string>
+	<string key="ui_playername_with_platformname_with_platformicon" rel_version="ConsoleLaunch">&lt;font color={playerNameColor} face="lyshineui/fonts/Nimbus_Semibold.font" &gt;{playerName} &lt;/font&gt;&lt;font color={platformNameColor} face="lyshineui/fonts/Nimbus_medium.font"&gt;| &lt;img src="{platformIcon}" scale="1.3" yOffset="3"&gt;&lt;/img&gt; {platformName}&lt;/font&gt;</string>
+	<string key="ui_playername_with_platformname_with_platformicon_platformfriend" rel_version="ConsoleLaunch">&lt;font color={playerNameColor} face="lyshineui/fonts/Nimbus_Semibold.font" &gt;{playerName} &lt;/font&gt;&lt;font color={platformNameColor} face="lyshineui/fonts/Nimbus_medium.font"&gt;| &lt;img src="{platformIcon}" scale="1.3" yOffset="3"&gt;&lt;/img&gt; &lt;img src="{platformFriendIcon}" scale="1.3" yOffset="3"&gt;&lt;/img&gt; {platformName}&lt;/font&gt;</string>
 	<string key="ui_playernamehassentyouag">Playername vous a envoyé une invitation de groupe. Maintenez [H] pour l'accepter.</string>
 	<string key="ui_pressanykeytocontinue">Appuyez sur une touche pour continuer.</string>
 	<string key="ui_presskeytoassign">Choisissez à quelle touche attribuer cette capacité.</string>
@@ -732,6 +732,8 @@
 	<string key="ui_out">Arrière</string>
 	<string key="ui_zoom_in">Zoom avant</string>
 	<string key="ui_zoom_out">Zoom arrière</string>
+	<string key="ui_cycle_pvpspectator_next" rel_version="Feature_SpectatorCam">Voir suivant</string>
+	<string key="ui_cycle_pvpspectator_prev" rel_version="Feature_SpectatorCam">Voir précédent</string>
 	<string key="ui_freelook">Caméra libre</string>
 	<string key="ui_rangedcombat">Combat à distance</string>
 	<string key="ui_shoot">Tirer</string>
@@ -906,22 +908,7 @@
 	<string key="ui_shift_modifier_toggle_popup_title" rel_version="Feature_Controller">Mettre à jour l'attribution</string>
 	<string key="ui_shift_modifier_toggle_popup_message" rel_version="Feature_Controller">Les touches de modificateur ne sont valables que dans ce mode et ne peuvent pas être utilisées pour d'autres actions. Activer le modificateur dissociera toute action ayant la même touche. Continuer ?</string>
 	<string key="ui_binding_controller_success" rel_version="Feature_Controller">L'action {action} a été réattribuée.</string>
-	<string key="ui_binding_controller_reserved_key_blocked" rel_version="Feature_Controller">&lt;img src="{path}" gpBtn="{key}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt; est une touche réservée et ne peut pas être utilisée.</string>
-	<string key="ui_binding_controller_confirmation_message" rel_version="Feature_Controller">Attribuer &lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{actionName}&lt;/font&gt; à &lt;img src="{path}" gpBtn="{key}" isHoldBtn="{isStaticHold}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt; ?</string>
-	<string key="ui_binding_controller_double_size_confirmation_message" rel_version="Feature_Controller">Attribuer &lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{actionName}&lt;/font&gt; à &lt;img src="{path}" gpBtn="{key}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt; / &lt;img src="{path}" gpBtn="{key}" isHoldBtn="1" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt; ?</string>
-	<string key="ui_binding_controller_combo_confirmation_message" rel_version="Feature_Controller">Attribuer &lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{actionName}&lt;/font&gt; à &lt;img src="{firstPath}" gpBtn="{firstKey}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt; + &lt;img src="{secondPath}" gpBtn="{secondKey}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt; ?</string>
-	<string key="ui_binding_controller_shift_modifier_child_confirmation_message" rel_version="Feature_Controller">Le modificateur parent est &lt;img src="{shiftModifierPath}" gpBtn="{shiftModifierKey}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt;.\n\nAttribuer &lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{actionName}&lt;/font&gt; à &lt;img src="{shiftModifierPath}" gpBtn="{shiftModifierKey}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt; + &lt;img src="{path}" gpBtn="{key}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt; ?</string>
-	<string key="ui_binding_controller_shift_modifier_combo_child_confirmation_message" rel_version="Feature_Controller">Le modificateur parent est &lt;img src="{shiftModifierPath}" gpBtn="{shiftModifierKey}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt;.\n\nBind &lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{actionName}&lt;/font&gt; à &lt;img src="{shiftModifierPath}" gpBtn="{shiftModifierKey}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt; + &lt;img src="{firstPath}" gpBtn="{firstKey}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt; + &lt;img src="{secondPath}" gpBtn="{secondKey}" isHoldBtn="{isStaticHold}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt; ?</string>
-	<string key="ui_binding_controller_shift_modifier_confirmation_message" rel_version="Feature_Controller">Attribuer &lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{actionName}&lt;/font&gt; à &lt;img src="{path}" gpBtn="{key}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt; ajoutera &lt;img src="{path}" gpBtn="{key}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt; à toute configuration affiliée. En cas d'affiliation incompatible, celle-ci sera substituée et laissée vide.\n\nAttribuer &lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{actionName}&lt;/font&gt; à &lt;img src="{path}" gpBtn="{key}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt; ?</string>
 	<string key="ui_binding_controller_reserved_key_title" rel_version="Feature_Controller">Changer l'attribution</string>
-	<string key="ui_binding_controller_reserved_key_message" rel_version="Feature_Controller">&lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{oldAction}&lt;/font&gt; utilise actuellement &lt;img src="{path}" gpBtn="{key}" isHoldBtn="{isStaticHold}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt;.\n\nSubstituer et attribuer &lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{newAction}&lt;/font&gt; à &lt;img src="{path}" gpBtn="{key}" isHoldBtn="{newIsStaticHold}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt; ?</string>
-	<string key="ui_binding_controller_double_old_reserved_key_message" rel_version="Feature_Controller">&lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{oldAction}&lt;/font&gt; utilise actuellement &lt;img src="{path}" gpBtn="{key}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt; / &lt;img src="{path}" gpBtn="{key}" isHoldBtn="1" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt;.\n\nSubstituer et attribuer &lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{newAction}&lt;/font&gt; à &lt;img src="{path}" gpBtn="{key}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt; ?</string>
-	<string key="ui_binding_controller_double_new_reserved_key_message" rel_version="Feature_Controller">&lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{oldAction}&lt;/font&gt; utilise actuellement &lt;img src="{path}" gpBtn="{key}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt;.\n\nSubstituer et attribuer &lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{newAction}&lt;/font&gt; à &lt;img src="{path}" gpBtn="{key}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt; / &lt;img src="{path}" gpBtn="{key}" isHoldBtn="1" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt; ?</string>
-	<string key="ui_binding_controller_double_both_reserved_key_message" rel_version="Feature_Controller">&lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{oldAction}&lt;/font&gt; utilise actuellement &lt;img src="{path}" gpBtn="{key}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt; / &lt;img src="{path}" gpBtn="{key}" isHoldBtn="1" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt;.\n\nSubstituer et attribuer &lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{newAction}&lt;/font&gt; à &lt;img src="{path}" gpBtn="{key}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt; / &lt;img src="{path}" gpBtn="{key}" isHoldBtn="1" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt; ?</string>
-	<string key="ui_binding_controller_reserved_combo_message" rel_version="Feature_Controller">&lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{oldAction}&lt;/font&gt; utilise actuellement &lt;img src="{firstPath}" gpBtn="{firstKey}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt; + &lt;img src="{secondPath}" gpBtn="{secondKey}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt;.\n\nSubstituer et attribuer &lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{newAction}&lt;/font&gt; à &lt;img src="{firstPath}" gpBtn="{firstKey}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt; + &lt;img src="{secondPath}" gpBtn="{secondKey}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt; ?</string>
-	<string key="ui_binding_controller_reserved_key_multiple" rel_version="Feature_Controller">Attribuer &lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{newAction}&lt;/font&gt; à &lt;img src="{path}" gpBtn="{key}" isHoldBtn="{newIsStaticHold}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt; ?\n\nLes actions suivantes ne seront plus attribuées :\n\n&lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{oldAction}&lt;/font&gt;</string>
-	<string key="ui_binding_controller_double_reserved_key_multiple" rel_version="Feature_Controller">Attribuer &lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{newAction}&lt;/font&gt; à &lt;img src="{path}" gpBtn="{key}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt; / &lt;img src="{path}" gpBtn="{key}" isHoldBtn="1" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt; ?\n\nLes actions suivantes ne seront plus attribuées :\n\n&lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{oldAction}&lt;/font&gt;</string>
-	<string key="ui_binding_controller_reserved_shift_modifier_message" rel_version="Feature_Controller">&lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{shiftModifierAction}&lt;/font&gt; utilise actuellement &lt;img src="{path}" gpBtn="{key}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt;.\n\nSubstituer ce modificateur remplacera &lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{shiftModifierAction}&lt;/font&gt; et toutes ses attributions affiliées.\n\nSubstituer et attribuer &lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{newAction}&lt;/font&gt; à &lt;img src="{path}" gpBtn="{key}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt; ?</string>
 	<string key="ui_binding_controller_reserved_shift_modifier_blocked" rel_version="Feature_Controller">La touche {key} est attribuée au modificateur parent et ne peut pas être utilisée.</string>
 	<string key="ui_binding_controller_reset_shift_modifier_toggle_accessibility" rel_version="Feature_Controller">Désactiver le modificateur change l'accessibilité.</string>
 	<string key="ui_binding_reserved_key_blocked">{key} est attribué à &lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{actionName}&lt;/font&gt; et ne peut pas être délié.</string>
@@ -1106,7 +1093,7 @@
 	<string key="ui_landControlledBy">Territoire contrôlé par</string>
 	<string key="ui_ProtectionTime">Durée de protection</string>
 	<string key="cc_=">=</string>
-	<string key="ui_world_select_title">Sélectionner le monde</string>
+	<string key="ui_world_select_title">Sélectionner monde</string>
 	<string key="ui_world_select_change_selection">Modifier la sélection</string>
 	<string key="ui_world_select_select_world">Sélectionner monde</string>
 	<string key="ui_world_select_world">Monde</string>
@@ -1276,6 +1263,7 @@
 	<string key="ui_murderer_start_notification_message">Vous êtes désormais un meurtrier !</string>
 	<string key="ui_giveup_wait_for_revive">Vous pouvez encore être ranimé.</string>
 	<string key="ui_giveup_deaths_door_header">Aux portes de la mort</string>
+	<string key="ui_deathsdoortimer">Temps restant avant que vous pouviez abandonner : {DeathQueueNumber}</string>
 	<string key="ui_giveup_dungeon_revival_header">Réanimations restantes</string>
 	<string key="ui_giveup">Abandonner</string>
 	<string key="ui_use_sacrifice">Utiliser sacrifice</string>
@@ -1551,6 +1539,7 @@
 	<string key="ui_camp_obstructed">Reculez pour terminer.</string>
 	<string key="ui_camping_restricted">Bivouac interdit</string>
 	<string key="ui_camping_available">Bivouac disponible</string>
+	<string key="ui_camp_unbind_on_pvp_toggle_warning" rel_version="Feature_PvP_Camps">Activer le mode JcJ vous dissociera de votre bivouac.\n\nVoulez-vous vraiment activer le mode JcJ ?</string>
 	<string key="ui_notification_nameplate_hidden">Nom caché</string>
 	<string key="ui_notification_nameplate_visible">Nom visible</string>
 	<string key="ui_confirm_before_use_title">Consommer l'objet</string>
@@ -1721,7 +1710,7 @@
 	<string key="ui_deathrecap_survived_for">Survie de</string>
 	<string key="ui_deathrecap_respawn_points">Points de réapparition</string>
 	<string key="ui_deathrecap_ffa_itemsdropped" rel_version="Territory_CutlassKeys_Rework">Objets maudits abandonnés au lieu de mort.</string>
-	<string key="ui_global_storage">Abri de rangement</string>
+	<string key="ui_global_storage">Rangement</string>
 	<string key="ui_global_storage_desc">Entreposez vos objets ici. Les autres joueurs ne peuvent pas voir ni prendre ces objets.</string>
 	<string key="ui_global_storage_visit_storage_shed">Rendez-vous dans un abri de rangement pour retrouver les objets mis de côté.</string>
 	<string key="ui_claimmarker">Point de revendication</string>
@@ -2246,7 +2235,7 @@
 	<string key="ui_cycle_view_channels_mod">Déf. modif. canaux</string>
 	<string key="ui_view_my_storage">Consulter mon rangement</string>
 	<string key="ui_improve">Améliorer</string>
-	<string key="ui_xp_tooltip">&lt;font face="lyshineui/fonts/Pica_Regular.font" color={headerColor}&gt;EXP DE BASE&lt;/font&gt;\n {totalXP} EXP totale\n {xpToLevel} avant le niveau {nextLevel}{bonusXpString}</string>
+	<string key="ui_xp_tooltip">&lt;font face="lyshineui/fonts/Pica_Regular.font" color={headerColor}&gt;EXP DE BASE&lt;/font&gt;\n {totalXP} EXP totale\n {xpToLevel} avant niveau {nextLevel}{bonusXpString}</string>
 	<string key="ui_xp_tooltip_header">EXP de base</string>
 	<string key="ui_xp_tooltip_total_xp">EXP totale</string>
 	<string key="ui_xp_tooltip_remaining_xp">Avant le niveau {nextLevel}</string>
@@ -2554,7 +2543,7 @@
 	<string key="ui_merge_world">Monde</string>
 	<string key="ui_merge_character">Personnage</string>
 	<string key="ui_merge_time">Temps restant</string>
-	<string key="ui_select_world" rel_version="Territory_Brimstone_Sands">Sélectionner le monde</string>
+	<string key="ui_select_world" rel_version="Territory_Brimstone_Sands">Sélectionner monde</string>
 	<string key="ui_character_needs_transfer" rel_version="Territory_Brimstone_Sands">Ce personnage n'est lié à aucun monde. Sélectionnez-en un pour déplacer la progression et les objets de votre personnage vers le monde désiré.</string>
 	<string key="ui_select_world_for_character" rel_version="Territory_Brimstone_Sands">Sélectionner monde pour {name}.</string>
 	<string key="ui_freeweekend_worldwarning_title">Week-end mondes gratuits</string>
@@ -2754,7 +2743,7 @@
 	<string key="ui_locked">Verrouillé(e)</string>
 	<string key="ui_artifact" rel_version="Feature_Artifacts">Artéfact</string>
 	<string key="ui_artifact_already_equipped" rel_version="Feature_Artifacts">Vous avez déjà un artéfact de type {type} équipé.</string>
-	<string key="ui_reset_artifact" rel_version="Feature_Artifacts">Réinitialisation</string>
+	<string key="ui_reset_artifact" rel_version="Feature_Artifacts">Réinitialiser l'artéfact</string>
 	<string key="ui_reset_artifact_message" rel_version="Feature_Artifacts">Abandonner une mission d'artéfact réinitialisera toute la progression effectuée pour déverrouiller ses atouts.\n\nVoulez-vous continuer ?</string>
 	<string key="ui_locked_account_title">COMPTE VERROUILLÉ</string>
 	<string key="ui_locked_account_description">Votre compte est actuellement verrouillé.\n\nCe statut coupe l'accès à certaines fonctionnalités en jeu telles que les achats dans la boutique ou l'utilisation d'objets issus de la boutique.</string>
@@ -2972,9 +2961,9 @@
 	<string key="ui_transmog_guide_body2" rel_version="Feature_Transmog">Rendez-vous dans la Station de transmogrification &lt;img src="lyshineui/images/map/icon/pois/transmog" xPadding="-10" scale="3.5" yOffset="14"&gt;&lt;/img&gt;, trouvez l'objet et utilisez des jetons de transmogrification &lt;img src="lyshineui/images/icons/items/currency/transmogtokensmall" xPadding="0" scale="2.2" yOffset="6.0"&gt;&lt;/img&gt; pour créer une apparence.\n\nLes apparences de transmogrification sont liées à votre compte (et sont donc utilisables par tous les personnages dudit compte).</string>
 	<string key="ui_mount_guide_title1" rel_version="Feature_Mounts">Fonctionnement</string>
 	<string key="ui_mount_guide_body1" rel_version="Feature_Mounts">Vous pouvez invoquer votre monture avec {$ui.mount_summon_description$}. Marchez avec {$ui.walk_mount_description$}, galopez avec {$player.mount_dash$} et sautez avec {$movement.jump$}. Galoper coûte de la vitalité à la monture. Chuter de très haut et les coups ennemis réduisent sa vitalité et peuvent vous forcer à mettre pied à terre.</string>
-	<string key="ui_event_token_disappears">&lt;font face="lyshineui/fonts/Nimbus_Medium.font" color="#edc63e"&gt;Les jetons disparaîtront à la fin de l'événement.&lt;/font&gt;</string>
-	<string key="ui_event_item_disappears">&lt;font face="lyshineui/fonts/Nimbus_Medium.font" color="#edc63e"&gt;Cet objet disparaîtra à la fin de l'événement.&lt;/font&gt;</string>
-	<string key="ui_event_time_left">&lt;font face="lyshineui/fonts/Nimbus_Medium.font"&gt;Fin de l'événement dans : &lt;font color="#edc63e"&gt;{timeLeft} &lt;img src="LyShineUI/Images/Icons/Misc/icon_hourglass_yellow.png" xPadding="0" scale="1.1" yOffset="1"&gt;&lt;/img&gt;&lt;/font&gt;&lt;/font&gt;</string>
+	<string key="ui_event_token_disappears">Les jetons disparaîtront à la fin de l'événement.</string>
+	<string key="ui_event_item_disappears">Cet objet disparaîtra à la fin de l'événement.</string>
+	<string key="ui_event_time_left">Fin de l'événement dans : {timeLeft} &lt;img src="LyShineUI/Images/Icons/Misc/icon_hourglass_yellow.png" xPadding="0" scale="1.1" yOffset="1"&gt;&lt;/img&gt;</string>
 	<string key="ui_event_time_left_compass">Fin de l'événement dans : &lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{timeLeft}&lt;/font&gt;</string>
 	<string key="attribution_WinterConvergence_2021" rel_version="Event_WinterConvergence_Perm">La convergence hivernale</string>
 	<string key="attribution_WinterConvergence_2022" rel_version="Event_WinterConvergence_Perm">La convergence hivernale</string>
@@ -3058,12 +3047,22 @@
 	<string key="ui_transmog_error_apply_skin_pending">Échec de la transmogrification : changement d'apparence en attente sur l'objet.</string>
 	<string key="ui_transmog_error_generic">Erreur de transmogrification</string>
 	<string key="ui_transmog_npc_name">Stylemancien</string>
-	<string key="ui_transmog_npc_tooltip">Créez des apparences à partir d'objets que vous avez récupérés à l'aide de &lt;img src="lyshineui/images/icons/items/currency/transmogtokensmall" xPadding="0" scale="2.2" yOffset="6.0"&gt;&lt;/img&gt; jetons de transmogrification.</string>
+	<string key="ui_transmog_npc_tooltip">Dépensez des &lt;img src="lyshineui/images/icons/items/currency/appearancetokensmall" scale="2.2" yOffset="6"&gt;&lt;/img&gt; jetons de barbier pour changer votre apparence et des &lt;img src="lyshineui/images/icons/items/currency/transmogtokensmall" xPadding="0" scale="2.2" yOffset="6.0"&gt;&lt;/img&gt; jetons de transmogrification pour créer des apparences à partir d'objets que vous avez récupérés.</string>
 	<string key="ui_transmog_dyeing_error">Erreur lors de la teinture. Veuillez réessayer.</string>
 	<string key="ui_transmog_dyeing_previews_disabled">Impossible de teindre les apparences prévisualisées.</string>
 	<string key="ui_transmog_services_unavailable_title">Services de transmogrification indisponibles</string>
 	<string key="ui_transmog_services_unavailable_tooltip">Transmogrification indisponible</string>
 	<string key="ui_transmog_services_unavailable_message">La transmogrification est actuellement indisponible. Veuillez réessayer plus tard.</string>
+	<string key="ui_barbershop_open_menu" rel_version="Feature_Barbershop">Mettre à jour mon apparence</string>
+	<string key="ui_barbershop_unavailable_message" rel_version="Feature_Barbershop">Le barbier est actuellement indisponible. Veuillez réessayer plus tard.</string>
+	<string key="ui_barbershop_changes_warning" rel_version="Feature_Barbershop">Les modifications seront sauvegardées à la fermeture du jeu.</string>
+	<string key="ui_barbershop_reload_title" rel_version="Feature_Barbershop">Charger l'apparence</string>
+	<string key="ui_barbershop_reload_prompt" rel_version="Feature_Barbershop">Charger les modifications de votre dernière visite ?</string>
+	<string key="ui_barbershop_purchase_title" rel_version="Feature_Barbershop">Confirmer l'apparence</string>
+	<string key="ui_barbershop_purchase_body_cost" rel_version="Feature_Barbershop">Sauvegarder l'apparence du personnage pour &lt;font face="lyshineui/fonts/Pica_Regular.font"&gt;{amount} &lt;/font &gt;&lt;img src="lyshineui/images/icons/items/currency/appearancetokensmall" scale="1.8" xPadding="5" yOffset="5"&gt;&lt;/img&gt; ?\n\nAprès confirmation, les changements d'apparence ne pourront pas être annulés sans avoir acheté un autre jeton de barbier.</string>
+	<string key="ui_barbershop_tokens" rel_version="Feature_Barbershop">Jetons de barbier</string>
+	<string key="ui_barbershop_add_more_tokens" rel_version="Feature_Barbershop">Ajouter plus de &lt;img src="lyshineui/images/icons/items/currency/appearancetokensmall" scale="1.5" yOffset="10"&gt;&lt;/img&gt;</string>
+	<string key="ui_barbershop_services_unavailable_message" rel_version="Feature_Barbershop">Le barbier est actuellement indisponible. Veuillez réessayer plus tard.</string>
 	<string key="ui_unclaimed_seasons_rewards">Récompenses de saison non récupérées</string>
 	<string key="ui_expansion_name_expansion2023" comment="DO NOT TRANSLATE">[TMP] Expansion 2023</string>
 	<string key="ui_required_expansion_missing_tooltip" comment="DO NOT TRANSLATE">[TMP] Missing expansion: {expansion}</string>
@@ -3108,6 +3107,7 @@
 	<string key="ui_sort_by_type">Trier par type</string>
 	<string key="ui_requirements">Prérequis</string>
 	<string key="ui_external_rewards">Récompenses externes</string>
+	<string key="ui_external_rewards_no_tooltip">Aucune récompense disponible.</string>
 	<string key="ui_ability_minimum_cooldown">{baseCooldown} ({minimumCooldown} minimum)</string>
 	<string key="ui_ability_supports_smartcast" rel_version="Feature_Smartcast">Cette capacité est prise en charge par Lancer intelligent.</string>
 	<string key="ui_transfer_world">Transférer le monde</string>
@@ -3129,21 +3129,46 @@
 	<string key="ui_mount_unlock_acquisition" rel_version="Feature_Mounts">Achèvement de « Mon royaume pour un cheval »</string>
 	<string key="ui_seasonal_worlds" rel_version="Feature_Seasonal_Servers">Mondes saisonniers</string>
 	<string key="ui_seasonal_worlds_popup_header" rel_version="Feature_Seasonal_Servers">Choisir le type de monde</string>
-	<string key="ui_seasonal_worlds_about_popup_description" rel_version="Feature_Seasonal_Servers">Les Mondes saisonniers offrent une nouvelle façon de profiter d'Aeternum et d'obtenir des récompenses uniques pendant un temps limité chaque saison.\n\nDans le Monde saisonnier de la saison 7, tous les joueurs verront leur mode JcJ automatiquement activé au niveau {level}. Fabriquez ou terrassez pour obtenir de l'équipement du conquérant, des armes et des objets puissants qui changeront la donne sur le champ de bataille.\n\nUn périple saisonnier spécial peut être entrepris dans les Mondes saisonniers. Déverrouillez les récompenses obtenues lors du périple saisonnier en achetant un passe de bataille premium dans la boutique.</string>
+	<string key="ui_seasonal_worlds_about_popup_description" rel_version="Feature_Seasonal_Servers">Les Mondes saisonniers offrent une nouvelle façon de profiter d'Aeternum et d'obtenir des récompenses uniques pendant une durée limitée chaque saison.\n\nDans le Monde saisonnier de la saison 8, la puissance est au centre du jeu. Les personnages sur ce serveur peuvent s'équiper d'autant d'artéfacts qu'ils le désirent et chaque fois qu'ils meurent, ils obtiennent des points de caractéristiques supplémentaires. Renforcez-vous plus rapidement et relevez des défis qui vous étaient jusqu'à présent inaccessibles.\n\nUn nouveau parcours périple saisonnier peut-être entrepris sur ce serveur, axé sur le nombre de morts de votre personnage. Accomplir ces objectifs vous octroiera de nouveaux matériaux de fabrication utilisables également dans les mondes non saisonniers. Utilisez-les pour fabriquer des artéfacts ou trophées III de votre choix sur un personnage non saisonnier (ceux apparus jusqu'à la saison 8). Remarque : certaines récompenses du parcours du Monde saisonnier nécessitent l'achat d'un passe de bataille premium dans la boutique.</string>
 	<string key="ui_regular_character" rel_version="Feature_Seasonal_Servers">Standard</string>
 	<string key="ui_seasonal_character" rel_version="Feature_Seasonal_Servers">Saisonnier</string>
-	<string key="ui_regular_character_button_description" rel_version="Feature_Seasonal_Servers">Découvrez Aeternum comme il a été prévu. Créez un personnage sur un monde persistant standard.</string>
-	<string key="ui_seasonal_character_button_description" rel_version="Feature_Seasonal_Servers">Créez un personnage sur un Monde saisonnier à durée limitée aux règles et récompenses uniques.</string>
+	<string key="ui_regular_character_button_description" rel_version="Feature_Seasonal_Servers">Découvrez Aeternum comme il a été prévu. Créez un personnage standard sur un monde persistant.</string>
+	<string key="ui_seasonal_character_button_description" rel_version="Feature_Seasonal_Servers">Créez un personnage à durée limitée sur un Monde saisonnier aux règles et récompenses uniques.</string>
 	<string key="ui_seasonal_worlds_unavailable" rel_version="Feature_Seasonal_Servers">Mondes saisonniers indisponibles</string>
 	<string key="ui_seasonal_worlds_available" rel_version="Feature_Seasonal_Servers">Mondes saisonniers disponibles</string>
-	<string key="ui_seasonal_worlds_avaialble_until" rel_version="Feature_Seasonal_Servers">La saison se termine le {date} à {time}</string>
+	<string key="ui_seasonal_worlds_avaialble_until" rel_version="Feature_Seasonal_Servers">La saison se termine le {date} à {time}\n\nCe personnage devra être supprimé à la fin de la saison.</string>
 	<string key="ui_seasonal_worlds_ended" rel_version="Feature_Seasonal_Servers">La saison s'est terminée le {date} à {time}</string>
-	<string key="ui_seasonal_worlds_available_24h" rel_version="Feature_Seasonal_Servers">La saison se termine dans &lt;img src="LyShineUI/Images/PUGFinder/Pugfinder_hourglass" xPadding="-4" scale="2.25" yOffset="8"&gt;&lt;/img&gt;{time}</string>
+	<string key="ui_seasonal_worlds_available_24h" rel_version="Feature_Seasonal_Servers">La saison se termine dans &lt;img src="LyShineUI/Images/PUGFinder/Pugfinder_hourglass" xPadding="-4" scale="2.25" yOffset="8"&gt;&lt;/img&gt;{time}\n\nCe personnage devra être supprimé à la fin de la saison.</string>
 	<string key="ui_seasonal_worlds_duration" rel_version="Feature_Seasonal_Servers">{timeStart} - {timeEnd}</string>
-	<string key="ui_seasonal_worlds_server_description" rel_version="Feature_Seasonal_Servers">&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; Dans ce monde, le mode JcJ sera activé de façon permanente au niveau {level}.\n&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; Seuls de nouveaux personnages peuvent être créés sur {worldName}.\n&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; Les personnages ne peuvent pas être transférés dans ce Monde saisonnier.</string>
+	<string key="ui_seasonal_worlds_server_description" rel_version="Feature_Seasonal_Servers">&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; Sur ce serveur saisonnier, les joueurs découvriront les quêtes d'une brève histoire principale et un parcours de Monde saisonnier unique permettant d'obtenir des récompenses spéciales en accomplissant du contenu difficile sans mourir. Chaque fois qu'un personnage meurt dans ce monde, il obtient un cumul d'effet de statut Déchu. Ses caractéristiques augmentent alors avec chaque cumul, jusqu'à un maximum de 5 cumuls.\n&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; Dans ce monde, les personnages peuvent équiper un artéfact dans chaque emplacement d'équipement.\n&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; Le matchmaking intermondes et la recherche d'activités sont désactivés sur {worldName}. Les joueurs devront utiliser la Recherche de groupe pour les expéditions.\n&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; Les personnages ne peuvent pas être transférés sur et depuis ce monde.\n&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; Les personnages de ce monde devront être supprimés à la fin de la saison.</string>
 	<string key="ui_seasonal_worlds_server_duration" rel_version="Feature_Seasonal_Servers">Disponible du {dateStart} à {timeStart} au {dateEnd} à {timeEnd}</string>
-	<string key="ui_seasonal_worlds_tooltip" rel_version="Feature_Seasonal_Servers">Dans ce monde JcJ, votre faction décide avec quels joueurs vous pouvez vous regrouper et former des compagnies. Choisissez la même faction que celle de vos amis pour pouvoir jouer ensemble.\n\nVous pouvez changer de faction en jeu.</string>
-	<string key="ui_external_rewards_no_tooltip">Aucune récompense disponible.</string>
-	<string key="ui_deathsdoortimer">Temps restant avant que vous pouviez abandonner : {DeathQueueNumber}</string>
+	<string key="ui_seasonal_worlds_tooltip" rel_version="Feature_Seasonal_Servers">Dans ce Monde saisonnier, votre faction décide avec quels joueurs vous pouvez vous regrouper et former des compagnies. Choisissez la même faction que celle de vos amis pour pouvoir jouer ensemble.\n\nVous pouvez changer de faction en jeu.</string>
+	<string key="currency_SEK">{amount} kr</string>
+	<string key="ui_perks_disabled_for_game_mode">Les atouts sont désactivés dans ce mode.</string>
+	<string key="ui_itemtooltiptitle_heartgem_rune_spinning_swords">Lames spectrales</string>
+	<string key="currency_DKK">{amount} kr</string>
+	<string key="ui_world_leave_world_confirm_message_makegoods">Vos dédommagements ne seront pas transférés</string>
+	<string key="ui_camping_error_poi_restricted_gamemode">Bivouac interdit dans cette activité.</string>
+	<string key="ui_camp_placement_unavailable_on_cooldown">Le placement du bivouac est indisponible pendant {time}.</string>
+	<string key="ui_camp_placement_unavailable_under_attack">Le placement du bivouac est indisponible tant que votre bivouac est attaqué.</string>
+	<string key="ui_barbershop_changes_disclaimer">Les jetons de barbier sont liés au compte (non cessibles) et non remboursables.</string>
+	<string key="ui_skin_change_skin_desc">Changer l'apparence de cet objet</string>
+	<string key="ui_autopinObjectivesArtifact">Auto-marquage des artéfacts</string>
+	<string key="ui_bind_to_camp_disabled_under_attack">Bivouac lié attaqué</string>
+	<string key="ui_camp_reconnect_failed_destroyed">Votre bivouac a été détruit !</string>
+	<string key="ui_autopinobjectivesArtifact_desc">Pour automatiquement épingler les tâches d'artéfacts à l'interface quand vous les équipez.</string>
+	<string key="ui_consumables_shared_cooldowns_survival">Potions de survie</string>
+	<string key="ui_event_item_disabled">L'événement associé à cet objet a pris fin. Cet objet ne fonctionne plus et sera supprimé à votre prochaine connexion.</string>
+	<string key="ui_options_damage_numbers_display_mode_description">Définissez la présentation des valeurs affichées lorsque vous infligez des dégâts, subissez des dégâts, soignez d'autres joueurs et recevez des soins.</string>
+	<string key="ui_from_intelligence_and_strength">Intelligence (90 %), Force (65 %)</string>
+	<string key="ui_camp_under_attack">Votre bivouac est attaqué !</string>
+	<string key="ui_options_damage_numbers_display_mode">Valeurs des dégâts et des soins</string>
+	<string key="ui_options_damage_numbers_display_mode_floating">Flottantes</string>
+	<string key="ui_options_damage_numbers_display_mode_stacked">Empilées</string>
+	<string key="ui_buildmode_error_pvp_camp_obstruction">Vous êtes trop proche d'un autre bivouac JcJ</string>
+	<string key="ui_barbershop_change_appearance">Changer d'apparence</string>
+	<string key="ui_consumables_shared_cooldown_text">\n\nUtiliser ceci entraînera un temps de recharge de {cooldown} % pour les {consumableType}.</string>
+	<string key="ui_camp_icon_tooltip">Avec le mode JcJ non activé, vous pouvez placer ou vous lier à un &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;bivouac non-JcJ&lt;/font&gt; indestructible pour créer un point de réapparition.\n\nAvec le mode JcJ activé, vous pouvez placer ou vous lier à un &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;bivouac JcJ&lt;/font&gt; de la même faction.\n\nVous ne pouvez pas placer ou vous lier à un autre bivouac JcJ lorsque votre bivouac JcJ est attaqué, moins de &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;{placementCooldown} s&lt;/font&gt; après l'avoir placé, &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;{bindCooldown} s&lt;/font&gt; après vous y être lié ou &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;{destructionCooldown} s&lt;/font&gt; après la destruction de votre bivouac JcJ.</string>
+	<string key="ui_add_more">En ajouter plus</string>
 </resources>
 

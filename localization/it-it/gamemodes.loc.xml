@@ -100,7 +100,7 @@
 	<string key="ui_outpost_rush_signup_title">CARICA ALL'AVAMPOSTO</string>
 	<string key="ui_outpost_rush_signup_desc">&lt;font color="#edc63e"&gt;Carica all'avamposto&lt;/font&gt; è una partita 20 contro 20 ambientata su una grande isola con tre avamposti che le squadre devono conquistare e difendere.</string>
 	<string key="ui_outpost_rush_signup_desc_gearscore">La &lt;font color="#edc63e"&gt;calibrazione punteggio attrezzatura&lt;/font&gt; aumenta a 700 il punteggio attrezzatura di tutto l'equipaggiamento inferiore a 700.</string>
-	<string key="ui_outpost_rush_signup_desc_cross_world">Carica all'avamposto è una &lt;font color="#edc63e"&gt;modalità di gioco tra mondi&lt;/font&gt; 20x20.</string>
+	<string key="ui_outpost_rush_signup_desc_cross_world">Carica all'avamposto è una &lt;font color="#edc63e"&gt;modalità di gioco tra mondi&lt;/font&gt; 20vs20.\nLa &lt;font color="#edc63e"&gt;calibrazione punteggio attrezzatura&lt;/font&gt; aumenta a 700 il punteggio attrezzatura di tutto l'equipaggiamento inferiore a 700.</string>
 	<string key="ui_outpost_rush_signup_desc_cross_world_tooltip">&lt;font color="#edc63e"&gt;Tra mondi&lt;/font&gt; significa che giocherai insieme a giocatori di tutti i mondi della tua regione. Questo potrebbe ridurre i tempi di attesa per l'abbinamento.\n\nNota bene:\n\n- Quando vedi un giocatore con &lt;img src="lyshineui/images/icons/crossworld/icon_crossworld_identifier" xPadding="-1" scale="1.8" yOffset="2"&gt;&lt;/img&gt; vicino al suo nome, significa che viene da un altro mondo.\n\n- Durante la partita tra mondi, diverse funzioni social saranno disabilitate, inclusi scambi, inviti e altro.\n\n- La classifica delle vittorie in CA ora è una classifica regionale.</string>
 	<string key="ui_outpost_rush_signup_goal1">Conquista e difendi gli avamposti per aumentare il punteggio</string>
 	<string key="ui_outpost_rush_signup_goal2">Vince la prima squadra che raggiunge 1.000 punti!</string>
@@ -229,9 +229,9 @@
 	<string key="or_tutorial_rules_portal_title">Sconfiggi e chiudi il portale corrotto</string>
 	<string key="or_tutorial_rules_portal_body">Sconfiggi e chiudi il portale corrotto per ricevere una pietra di evocazione del bruto.</string>
 	<string key="or_tutorial_boss_spawn_title">LA BARONESSA HAIN È COMPARSA</string>
-	<string key="or_tutorial_boss_spawn_body">Uccidila per ottenere un prezioso potenziamento difensivo e bloccare il punteggio della squadra nemica per 3 minuti.</string>
+	<string key="or_tutorial_boss_spawn_body">Uccidila per ottenere un prezioso potenziamento difensivo e bloccare il punteggio della squadra nemica per un massimo di 2 minuti e 30 secondi.</string>
 	<string key="or_tutorial_boss_near_title">LA BARONESSA HAIN È VICINA</string>
-	<string key="or_tutorial_boss_near_body">Uccidila per ottenere un prezioso potenziamento difensivo e bloccare il punteggio della squadra nemica per 3 minuti.</string>
+	<string key="or_tutorial_boss_near_body">Uccidila per ottenere un prezioso potenziamento difensivo e bloccare il punteggio della squadra nemica per un massimo di 2 minuti e 30 secondi.</string>
 	<string key="or_tutorial_outpost_gates_title">COSTRISCI PORTE PER PROTEGGERE L'AVAMPOSTO</string>
 	<string key="or_tutorial_outpost_gates_body">Raccogli minerali e legno impregnati, poi interagisci con la porta per costruirla e potenziarla.</string>
 	<string key="or_tutorial_outpost_ward_title">COSTRUISCI UNA SENTINELLA</string>
@@ -292,7 +292,7 @@
 	<string key="ui_matchmaking_ready_title">Partita pronta</string>
 	<string key="ui_matchmaking_ready_title_dungeon">Gruppo trovato</string>
 	<string key="ui_matchmaking_ready_text">La &lt;font color={color}&gt;partita in coda è pronta&lt;/font&gt;. Vuoi teletrasportartici ora?</string>
-	<string key="ui_matchmaking_ready_text_dungeon">In attesa di giocatori ({numAccepted}/{numInvited})</string>
+	<string key="ui_matchmaking_ready_text_dungeon">In attesa di giocatori (&lt;font color={acceptedColor}&gt;{numAccepted}&lt;/font&gt;/{numInvited})</string>
 	<string key="dungeon_how_to_raid">Come formare un'incursione</string>
 	<string key="dungeon_entry_requirements">Requisiti di partecipazione</string>
 	<string key="ui_influence_tutorial_how_it_works" rel_version="Feature_Influence_V2">Come funzionano le gare di influenza</string>
@@ -307,6 +307,7 @@
 	<string key="ui_pvp_balance_tooltip" rel_version="Feature_PvP_PvE_Split">Il bilanciamento PvP è attivo.</string>
 	<string key="ui_pvp_balance_header" rel_version="Feature_PvP_PvE_Split">Modificatori del bilanciamento PvP attivi:</string>
 	<string key="or_outpost_rush_map_name" rel_version="Season_7_Perm">Isola di Nauthynos</string>
+	<string key="or_outpost_rush_trench_map_name" rel_version="OPR_004_Trench">Divisione corallina</string>
 	<string key="arena_3v3_map_name" rel_version="Feature_PVP_Arenas">Sacrario antico</string>
 	<string key="arena_3v3_02_map_name" rel_version="Feature_PVP_Arenas">Arena del gladiatore</string>
 	<string key="ui_activity_finder_tooltip_current_map_rotation_text" rel_version="Season_7_Perm">Mappa attuale in rotazione</string>
@@ -336,7 +337,67 @@
 	<string key="ui_gamemode_timeout_description">Tempo massimo consentito nell'attività quasi raggiunto</string>
 	<string key="ui_ready_up_ready_choice">Pronto</string>
 	<string key="ui_ready_up_unready_choice">Non pronto</string>
-	<string key="ui_ready_up_waiting_message">In attesa</string>
-	<string key="or_outpost_rush_trench_map_name">Divisione corallina</string>
+	<string key="ui_ready_up_waiting_message">In attesa di altri ({numReady}/{numTotal})</string>
+	<string key="ctf_gamemode_description">Conquista la bandiera è una modalità di gioco rapida e incentrata sulla squadra, che richiede tattiche sia offensive che difensive. Difendi la tua base e ruba la bandiera del nemico per vincere.</string>
+	<string key="ctf_flag_picked_up">La tua bandiera è stata presa</string>
+	<string key="ctf_flag_returned">La tua bandiera è stata riportata</string>
+	<string key="ctf_red_team">&lt;font color="#f25d5d"&gt;Squadra rossa&lt;/font&gt;</string>
+	<string key="ctf_gamemode_name">Conquista la bandiera</string>
+	<string key="ctf_003_Long_Map_Name">Anteprima CLB</string>
+	<string key="ui_opr_no_perks_signup_desc_cross_world">Non è necessario possedere l'attrezzatura migliore! Scopri questa nuova versione di Carica all'avamposto, in cui tutti i vantaggi delle armi sono inattivi, partendo così da una condizione di equilibrio.\n\nLa &lt;font color="#edc63e"&gt;calibrazione punteggio attrezzatura&lt;/font&gt; aumenta a 725 il punteggio attrezzatura di tutto l'equipaggiamento inferiore a 725.</string>
+	<string key="ctf_flag_match_completed">Partita completata</string>
+	<string key="ui_ctf_leave_desc">Vuoi davvero abbandonare Conquista la bandiera?</string>
+	<string key="ctf_flag_status_safe">Bandiera al sicuro</string>
+	<string key="ctf_flag_carrier_debuff_icon_desc">Hai il ruolo di Portabandiera! Ora sei più vulnerabile agli attacchi nemici e ricevi meno cure.</string>
+	<string key="ctf_eom_stat_captures_neutral_flags">Bandiere neutrali</string>
+	<string key="ctf_flag_status_taken">Bandiera presa</string>
+	<string key="ctf_flag_wild_spawned">Bandiera neutrale comparsa</string>
+	<string key="ui_opr_no_perks_signup_goal2">Vince la prima squadra che raggiunge 1.000 punti!</string>
+	<string key="ctf_flag_wild_timer">Comparsa tra {time}</string>
+	<string key="ui_opr_no_perks_title">Carica all'avamposto: Ossanude</string>
+	<string key="ui_capture_the_flag_begin">VAI!</string>
+	<string key="ctf_eom_stat_captures_team_flags">Bandiere squadra</string>
+	<string key="ctf_flag_you_scored">Hai ottenuto punti!</string>
+	<string key="ui_opr_no_perks_signup_goal1">Conquista e difendi gli avamposti per aumentare il punteggio</string>
+	<string key="ctf_eom_stat_flag_returns">Bandiere riportate</string>
+	<string key="ui_capture_the_flag_signup_goal1">Conquista il maggior numero di bandiere per vincere la partita</string>
+	<string key="CTF_Powerup_Healing_Desc">Ottiene 8.000 salute alla raccolta. (L'equipaggiamento può influenzare il totale.)</string>
+	<string key="ui_capture_the_flag_title">Conquista la bandiera</string>
+	<string key="ui_capture_the_flag_signup_failgrouppenalty">Uno o più membri del tuo gruppo devono scontare una penalità di tempo per aver abbandonato una precedente partita di Conquista la bandiera.</string>
+	<string key="ui_capture_the_flag_pregame_description">La partita inizia tra</string>
+	<string key="ctf_flag_enemy_team_scored">La squadra nemica ha ottenuto punti</string>
+	<string key="ui_capture_the_flag_signup_goal3">Proteggi il tuo portabandiera per garantirgli un ritorno sicuro</string>
+	<string key="ctf_flag_carrier_debuff_icon_name">Portabandiera!</string>
+	<string key="ui_capture_the_flag_signup_joinsolo">Gioca</string>
+	<string key="ctf_wild_flag_picked_up">La bandiera neutrale è stata presa</string>
+	<string key="ctf_flag_dropped">La tua bandiera è caduta</string>
+	<string key="CTF_Powerup_Damage_Empower_Name">Potenziamento attacco</string>
+	<string key="ui_capture_the_flag_leave_queue_title">Abbandona coda</string>
+	<string key="CTF_Powerup_Speed_Name">Potenziamento Fretta</string>
+	<string key="ctf_wild_flag_dropped">La bandiera neutrale è caduta</string>
+	<string key="ctf_wild_flag_returned">La bandiera neutrale è stata riportata</string>
+	<string key="ctf_eom_stat_captures">Conquiste</string>
+	<string key="ui_capture_the_flag_leave_queue_desc">Vuoi davvero abbandonare la coda di Conquista la bandiera?</string>
+	<string key="ui_capture_the_flag_signup_goal2">Per ottenere punti, la bandiera della tua squadra deve essere al suo posto</string>
+	<string key="ctf_flag_status_dropped">Bandiera caduta</string>
+	<string key="arena_3v3_04_map_name">Anteprima arena</string>
+	<string key="ui_ctf_leave">Abbandona attività</string>
+	<string key="ui_capture_the_flag_invite_notification_text">Hai ricevuto un invito a Conquista la bandiera!</string>
+	<string key="ctf_overtime_banner_title">Tempi supplementari</string>
+	<string key="ctf_flag_our_team_scored">La nostra squadra ha ottenuto punti!</string>
+	<string key="ctf_flag_player_count">Giocatori: {count}</string>
+	<string key="ctf_overtime_banner_desc">La prossima bandiera vince!</string>
+	<string key="ui_cannot_travel_ctf">Non puoi usare il viaggio veloce in Conquista la bandiera.</string>
+	<string key="ctf_flag_away_from_base">La tua bandiera deve essere riportata al suo posto per ottenere punti</string>
+	<string key="ctf_blue_team">&lt;font color="#45d1ff"&gt;Squadra blu&lt;/font&gt;</string>
+	<string key="ctf_flag_scored">La tua squadra ha ottenuto punti</string>
+	<string key="CTF_Powerup_Healing_Name">Potenziamento salute</string>
+	<string key="ui_capture_the_flag_invite_notification_title">Invito a Conquista la bandiera</string>
+	<string key="ui_ctf_leave_desc_time">Vuoi davvero abbandonare la Conquista la bandiera?\nNon potrai rientrare nella coda di accesso a Conquista la bandiera per &lt;font color="#edc63e"&gt;[{time}]&lt;/font&gt;.</string>
+	<string key="ctf_eom_stat_flagbearers_killed">Portabandiera uccisi</string>
+	<string key="CTF_Powerup_Speed_Desc">+50% Fretta per 5 secondi.</string>
+	<string key="ctf_002_Wide_Map_Name">Anteprima CLB</string>
+	<string key="CTF_Powerup_Damage_Empower_Desc">+20% Prodigioso per 10 secondi. Questo effetto non può essere annullato.</string>
+	<string key="ui_opr_no_perks_signup_goal3">Usa le risorse speciali per attaccare e difendere</string>
 </resources>
 

@@ -315,7 +315,7 @@
 	<string key="objective_mission_kill_with_musket">Besiege {targetName} mit der Muskete</string>
 	<string key="objective_mission_kill_with_firestaff">Besiege {targetName} mit dem Feuerstab</string>
 	<string key="objective_mission_kill_with_lifestaff">Besiege {targetName} mit dem Lebensstab</string>
-	<string key="objective_mission_kill_with_icegauntlet">Besiege {targetName} mit der Eisstulpe</string>
+	<string key="objective_mission_kill_with_icegauntlet">Besiege {targetName} mit den Eisstulpen</string>
 	<string key="objective_mission_task_control_point_S">Erobere am folgenden Ort einen Fraktionskontrollpunkt für das Syndikat: {TerritoryID}.</string>
 	<string key="objective_mission_task_control_point_C">Erobere am folgenden Ort einen Fraktionskontrollpunkt für das Bündnis: {TerritoryID}.</string>
 	<string key="objective_mission_faction_corruption_breach" rel_version="Quest_FM_BreachMissions">Verschließe einen Verderbnisausbruch</string>
@@ -410,7 +410,7 @@
 	<string key="Objective_Kill_OPR" rel_version="Feature_Expansion_1">Besiege: {targetName}-Gegner in Außenpostensturm</string>
 	<string key="Objective_Kill_Arena" rel_version="Feature_Expansion_1">Besiege: {targetName}-Gegner in Arena</string>
 	<string key="Objective_Kill_OpenWorld" rel_version="Feature_Expansion_1">Besiege folgende Gegner: {targetName}</string>
-	<string key="Objective_Kill_Hatchery" rel_version="Feature_Expansion_1">Besiege Hadish Azar, den Hüter der Flamme, in der Brutstätten-Eliteprüfung.</string>
+	<string key="Objective_Kill_Hatchery" rel_version="Feature_Expansion_1">Besiege Hadish Azar, den Hüter der Flamme, in der Brutstätten-Eliteprüfung</string>
 	<string key="Objective_Kill_Runeforge" rel_version="Feature_Expansion_1">Besiege den Eiswächter der Ahnen in der Winter-Runenschmieden-Eliteprüfung.</string>
 	<string key="Objective_Kill_in_POI" rel_version="Feature_Expansion_1">Töte Gegner an folgendem Ort: {POITags}.</string>
 	<string key="Objective_Kill_Forged" rel_version="Feature_Expansion_1">Besiege geschmiedete Varangianer.</string>
@@ -423,22 +423,29 @@
 	<string key="Objective_Artifact_Set2_HeavyChest" rel_version="Feature_Artifacts_S6">Artefakt: Überlebenden-Mantel</string>
 	<string key="Objective_Artifact_Set2_HeavyHands" rel_version="Feature_Artifacts_S5">Artefakt: Gillis Schwerkraftstulpen</string>
 	<string key="Objective_Artifact_Set2_HeavyLegs" rel_version="Feature_Artifacts_S5">Artefakt: Eisenherz</string>
+	<string key="Objective_Artifact_Set2_HeavyFeet" rel_version="UNSCHEDULED">Artefakt: Runen-Beinschienen</string>
+	<string key="Objective_Artifact_Set2_MediumHead" rel_version="UNSCHEDULED">Artefakt: Alte Krone</string>
 	<string key="Objective_Artifact_Set2_MediumChest" rel_version="Feature_Artifacts_S5">Artefakt: Zorn der Natur</string>
 	<string key="Objective_Artifact_Set2_MediumHands" rel_version="Feature_Artifacts_S6">Artefakt: Gespenstische Berührung</string>
 	<string key="Objective_Artifact_Set2_MediumLegs" rel_version="Feature_Artifacts_S6">Artefakt: Azoth-Leiter</string>
 	<string key="Objective_Artifact_Set2_LightHead" rel_version="Feature_Artifacts_S6">Artefakt: Kapuze der Macht</string>
+	<string key="Objective_Artifact_Set2_LightChest" rel_version="UNSCHEDULED">Artefakt: Vampirgewänder</string>
+	<string key="Objective_Artifact_Set2_LightHands" rel_version="UNSCHEDULED">Artefakt: Lich-Handschuhe</string>
 	<string key="Objective_Artifact_Set2_LightFeet" rel_version="Feature_Artifacts_S5">Artefakt: Stiefel des Glaubens</string>
+	<string key="Objective_Artifact_Set2_1hLongsword" rel_version="UNSCHEDULED">Artefakt: Schlagfertigkeit</string>
 	<string key="Objective_Artifact_Set2_1hThrowingAxe" rel_version="Feature_Artifacts_S5">Artefakt: Sünde</string>
 	<string key="Objective_Artifact_Set2_2hWarhammer" rel_version="Feature_Artifacts_S6">Artefakt: Trsna</string>
 	<string key="Objective_Artifact_Set2_2hGreatAxe" rel_version="Feature_Artifacts_S5">Artefakt: Zorn des Sturmwinds</string>
 	<string key="Objective_Artifact_Set2_2hBow" rel_version="Feature_Artifacts_S7">Artefakt: Wolfswurz</string>
 	<string key="Objective_Artifact_Set2_2hMusket" rel_version="Feature_Artifacts_S7">Artefakt: Schrapnell</string>
+	<string key="Objective_Artifact_Set2_1hTowerShield" rel_version="UNSCHEDULED">Artefakt: Unerbittlich</string>
 	<string key="Objective_Artifact_Set2_2hStaffFire" rel_version="Feature_Artifacts_S7">Artefakt: Flamminator</string>
 	<string key="Objective_Artifact_Set2_2hStaffLife" rel_version="Feature_Artifacts_S7">Artefakt: Heceta</string>
 	<string key="Objective_Artifact_Set2_2hSpear" rel_version="Feature_Artifacts_S5">Artefakt: Gift</string>
 	<string key="Objective_Artifact_Set2_1hRapier" rel_version="Feature_Artifacts_S7">Artefakt: Dorgorts Klinge</string>
 	<string key="Objective_Artifact_Set2_1hGauntletIce" rel_version="Feature_Artifacts_S7">Artefakt: Ötzi</string>
 	<string key="Objective_Artifact_Set2_1hGauntletVoid" rel_version="Feature_Artifacts_S7">Artefakt: Fraktur</string>
+	<string key="Objective_Artifact_Set2_2hBlunderbuss" rel_version="UNSCHEDULED">Artefakt: Chaos</string>
 	<string key="Objective_Artifact_Set2_2hGreatSword" rel_version="Feature_Artifacts_S6">Artefakt: Anmut</string>
 	<string key="Objective_Artifact_Set2_1hFlail" rel_version="Feature_Artifacts_S6">Artefakt: Stein der Macht</string>
 	<string key="Objective_Artifact_Set2_Earring1" rel_version="Feature_Artifacts_S7">Artefakt: Gerechtigkeit</string>

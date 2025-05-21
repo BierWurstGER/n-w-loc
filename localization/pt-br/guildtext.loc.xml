@@ -121,7 +121,7 @@
 	<string key="ui_treasury_popup_fromcompanytreasury">Da Tesouraria da Companhia</string>
 	<string key="ui_treasury_popup_dailylimit">Limite de Saque Diário:</string>
 	<string key="ui_treasury_popup_availablelimit">Limite de Saque Disponível:</string>
-	<string key="ui_treasury_popup_newtreasurybalance">Novo Saldo da Tesouraria da Companhia:</string>
+	<string key="ui_treasury_popup_newtreasurybalance">Novo Saldo da Tesouraria da Companhia</string>
 	<string key="ui_treasury_popup_setdailylimit_title">Limite de Saque Diário</string>
 	<string key="ui_treasury_popup_setdailylimit_current">Limite Atual</string>
 	<string key="ui_treasury_popup_setdailylimit_new">Novo Limite</string>
@@ -332,7 +332,7 @@
 	<string key="ui_wardeclarationpopup_title">Declaração de Guerra</string>
 	<string key="ui_wardeclarationpopup_target">vs. {guildName}</string>
 	<string key="ui_wardeclarationpopup_message">Durante uma guerra, a companhia atacante tenta tomar o território da companhia defensora, capturando seu forte dentro da área do Cerco.</string>
-	<string key="ui_wardeclarationpopup_declarebutton">Declare Guerra! {coinImage} {cost}</string>
+	<string key="ui_wardeclarationpopup_declarebutton">{coinImage} {cost}</string>
 	<string key="ui_wardeclarationpopup_mywallet" comment="When presented to the user, the name for currency is always Coin">Moedas</string>
 	<string key="ui_wardeclarationpopup_extendtitle">Contra-ataque</string>
 	<string key="ui_wardeclarationpopup_extendmessage" comment="This will have a time below it for how long the war will last after the extension">Tem certeza de que deseja contra-atacar {guildName}?\nAmbas as Companhias poderão se enfrentar sem serem taxadas como criminosas por:</string>
@@ -360,7 +360,7 @@
 	<string key="ui_wardeclarationpopup_siege_time_title">Próxima Janela de Cerco Disponível</string>
 	<string key="ui_wardeclarationpopup_siege_selection_title">Selecione Seu Acampamento de Guerra</string>
 	<string key="ui_wardeclarationpopup_siege_selection_action">Selecione Acampamento</string>
-	<string key="ui_wardeclarationpopup_confirmation_title">A Guerra Foi Declarada!</string>
+	<string key="ui_wardeclarationpopup_confirmation_title">Guerra Declarada!</string>
 	<string key="ui_wardeclarationpopup_confirmation_message">Existe um acampamento de guerra perto da fortaleza.\nSua companhia poderá usar o acampamento quando a guerra começar.</string>
 	<string key="ui_wardeclarationpopup_item_gate_strength">Resistência do Portão</string>
 	<string key="ui_wardeclarationpopup_item_deployment_limit">Limite da Arma de Cerco</string>
@@ -682,7 +682,14 @@
 	<string key="ui_war_schedule_adjustment_message">{warType} em {territoryName} foi {scheduleAdjustmentType}.</string>
 	<string key="ui_war_schedule_adjustment_cancelled">cancelado(a)</string>
 	<string key="ui_war_schedule_adjustment_rescheduled">remarcado(a)</string>
-	<string key="ui_war_camp_tier">Escala &lt;font face="lyshineui/fonts/Pica_Regular.font"&gt;{value}&lt;/font&gt;</string>
+	<string key="ui_war_camp_tier">Escala {value}</string>
 	<string key="ui_war_camp_weapons_tier">Escala de Arma de Cerco</string>
+	<string key="ui_guildrank_security_label">&lt;img src="lyshineui/images/markers/marker_textDivider" xPadding="0" scale="1" yOffset="0"&gt;&lt;/img&gt; {rankText}</string>
+	<string key="ui_wardeclarationpopup_wallet_company">Companhia</string>
+	<string key="ui_wardeclarationpopup_defending">Defendendo</string>
+	<string key="ui_wardeclarationpopup_declare">Declarar</string>
+	<string key="ui_wardeclarationpopup_wallet">Carteira</string>
+	<string key="ui_wardeclarationpopup_attacking">Atacando</string>
+	<string key="ui_wardeclarationpopup_wallet_personal">Pessoal</string>
 </resources>
 

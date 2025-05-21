@@ -1,7 +1,6 @@
 <resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<string key="ui_news_button">Notícias e Eventos</string>
 	<string key="ui_news_button_no_news">Nenhuma notícia nova disponível.</string>
-	<string key="ui_news_about">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Sobre as Notícias</string>
 	<string key="ui_news_modal_display_start_date">Começa em {startDate}</string>
 	<string key="ui_news_modal_display_end_date">Termina em {endDate}</string>
 	<string key="ui_news_modal_display_start_datetime">Começa às {startTime} em {startDate}</string>
@@ -13,6 +12,10 @@
 	<string key="ui_event_summer_progress_name" rel_version="Event_Summer_Perm">Reputação no Evento</string>
 	<string key="ui_event_halloween_progress_name" rel_version="Event_Halloween_Perm">Reputação no Evento</string>
 	<string key="ui_event_spring_progress_name" rel_version="Event_SpringtideBloom_Perm">Reputação no Evento</string>
+	<string key="ui_event_spring_rank_0" rel_version="Event_SpringtideBloom_Temp">Floração</string>
+	<string key="ui_event_spring_rank_1" rel_version="Event_SpringtideBloom_Temp">Pastor</string>
+	<string key="ui_event_spring_rank_2" rel_version="Event_SpringtideBloom_Temp">Arauto</string>
+	<string key="ui_event_spring_shop_header" rel_version="Event_SpringtideBloom_Temp">Primavera do Florescer</string>
 	<string key="ui_news_store_tabname">Loja</string>
 	<string key="ui_news_expedition_tabname">Expedição</string>
 	<string key="ui_news_expeditions_tabname">Expedições</string>
@@ -49,6 +52,7 @@
 	<string key="ui_news_bullet_resources">Recursos</string>
 	<string key="ui_news_bullet_decor">Decoração</string>
 	<string key="ui_news_bullet_mounts" rel_version="Feature_Mounts">Montarias</string>
+	<string key="ui_news_bullet_mount_skin" rel_version="Feature_Mounts">Aparência de Montaria</string>
 	<string key="ui_news_bullet_mount_skins" rel_version="Feature_Mounts">Aparências de Montaria</string>
 	<string key="ui_news_bullet_mount_attachments" rel_version="Feature_Mounts">Acréscimos de Montaria</string>
 	<string key="ui_news_bullet_artifact" rel_version="Feature_Artifacts">Artefato</string>
@@ -56,21 +60,13 @@
 	<string key="ui_news_bullet_transmog_tokens" rel_version="Season_2_Perm">Tokens de Alteração de Aparência</string>
 	<string key="ui_news_bullet_instrument_skins">Aparências para Instrumento</string>
 	<string key="ui_news_bullet_housing_trophy">Troféu de Alojamento</string>
-	<string key="ui_event_weapon_xp_tabname">Evento de EXP</string>
+	<string key="ui_news_bullet_apparel_skin">Aparência para Vestimenta</string>
+	<string key="ui_news_bullet_apparel_skins">Aparências para vestimenta</string>
 	<string key="ui_event_weapon_xp_title">EVENTO DE BÔNUS DE EXP EM ARMAS</string>
-	<string key="ui_event_weapon_xp_desc">Bônus ativos:</string>
-	<string key="ui_event_gathering_xp_tabname">Evento de EXP</string>
 	<string key="ui_event_gathering_xp_title">EVENTO DE BÔNUS DE EXP EM COLETA</string>
-	<string key="ui_event_gathering_xp_desc">Bônus ativos:</string>
-	<string key="ui_event_character_xp_tabname">Evento de EXP</string>
 	<string key="ui_event_character_xp_title">EVENTO DE BÔNUS DE EXP DE NÍVEL</string>
-	<string key="ui_event_character_xp_desc">Bônus ativos:</string>
-	<string key="ui_event_refining_xp_tabname">Evento de EXP</string>
 	<string key="ui_event_refining_xp_title">EVENTO DE BÔNUS DE EXP DE REFINAMENTO</string>
-	<string key="ui_event_refining_xp_desc">Bônus ativos:</string>
-	<string key="ui_event_extravaganza_tabname">Evento de EXP</string>
 	<string key="ui_event_extravaganza_title">EXP À VONTADE</string>
-	<string key="ui_event_extravaganza_desc">Bônus ativos:</string>
 	<string key="ui_news_end_game_tabname">Fase Final</string>
 	<string key="ui_news_end_game_description">No nível 60, você pode &lt;font color="#edc63e"&gt;aprimorar seu equipamento&lt;/font&gt; para obter pontuações de equipamento mais altas. Para fazer isso, você precisará colher Gipsita de várias atividades e locais de Nível 60. Visite um &lt;font color="#edc63e"&gt;Forno de Gipsita&lt;/font&gt; para saber mais.</string>
 	<string key="ui_end_game_panel1_title">ATIVIDADES DA FASE FINAL</string>
@@ -91,8 +87,8 @@
 	<string key="ui_event_console_beta_preorder_news_bullet_azoth_stalker">Espreitador de Azoth</string>
 	<string key="ui_event_console_beta_preorder_news_bullet_mount_skins_deluxe">Aparências de Montaria\n(Edição de Luxo)</string>
 	<string key="ui_event_console_beta_preorder_news_bullet_armor_skins_deluxe">Aparências para Armadura\n(Edição de Luxo)</string>
-	<string key="ui_event_season_seven_title" comment="DO NOT TRANSLATE" rel_version="Season_7_Perm">Era dos Conquistadores</string>
-	<string key="ui_event_season_seven_description" comment="DO NOT TRANSLATE" rel_version="Season_7_Perm">Busque um novo começo e lute pelo domínio em um Servidor Sazonal exclusivo que incentiva o combate jogador versus jogador. Ganhe uma recompensa de novos artefatos, aparências e muito mais na trilha de recompensas da Era dos Conquistadores.</string>
+	<string key="ui_event_season_seven_title" rel_version="Season_7_Perm">Era dos Conquistadores</string>
+	<string key="ui_event_season_seven_description" rel_version="Season_7_Perm">Busque um novo começo e lute pelo domínio em um Servidor Sazonal exclusivo que incentiva o combate jogador versus jogador. Ganhe uma recompensa de novos artefatos, aparências e muito mais na trilha de recompensas da Era dos Conquistadores.</string>
 	<string key="ui_event_season_seven_about" comment="DO NOT TRANSLATE" rel_version="Season_7_Perm">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; About Season 7 Placeholder</string>
 	<string key="ui_news_rise_of_the_angry_earth_expansion_title">Experimente tudo o que Aeternum tem a oferecer</string>
 	<string key="ui_news_rise_of_the_angry_earth_expansion_description">Obtenha a experiência completa de New World: Aeternum.\n\nOs jogadores de PC que possuem a expansão Ascensão da Terra Indócil têm acesso a todos os recursos do New World: Aeternum, incluindo grandes adições como:</string>
@@ -101,12 +97,30 @@
 	<string key="ui_news_rise_of_the_angry_earth_expansion_icon2">Mangual</string>
 	<string key="ui_news_rise_of_the_angry_earth_expansion_icon3">Incursão com 10 jogadores</string>
 	<string key="ui_news_rise_of_the_angry_earth_expansion_purchase_button">Compre Já</string>
+	<string key="ui_event_siege_of_sulfur_title_2025">Cerco do Enxofre</string>
+	<string key="ui_event_siege_of_sulfur_description_2025">Os magos de Sanguinários das Areias de Sharif estão sendo atacados! Enquanto transportavam valiosos ovos de Vermes-da-areia para locais seguros em Aeternum, esses magos foram atacados pelas forças de Adiana. Elementais de Enxofre Enfurecido estão tentando destruir os ovos e erradicar os vermes de Aeternum. Defenda os ovos e ganhe recompensas valiosas, incluindo equipamentos poderosos e itens e cosméticos de alojamento incríveis.</string>
+	<string key="ui_event_legacy_of_crassus_title_2025">Legado de Crasso</string>
+	<string key="ui_event_legacy_of_crassus_description_2025">Crasso e sua legião monstruosa retornam! Reúna suas tropas e batalhe contra os capitães brutais, Decimus e Lucanus, em Bosque Reluzente, Vale das Lamentações, Pântano do Tecelão e Crosta de Ébano. Combata o massacre romano e derrote o domínio maligno da Corrupção por honra, glória e recompensas por tempo limitado!</string>
+	<string key="ui_event_rabbits_revenge_title_2025">Vingança do Coelho!</string>
+	<string key="ui_event_rabbits_revenge_description_2025">Coelhos Corrompidos tomaram conta de Aeternum! Elimine a Corrupção e receba recompensas ferozes.</string>
+	<string key="ui_event_valkyrie_title" rel_version="Entitlements_Valkyrie">Valquíria</string>
+	<string key="ui_event_valkyrie_description" rel_version="Entitlements_Valkyrie">Chegou o novo conteúdo com o tema Valquíria! Mostre a armadura que escolhe quem vai morrer em batalha e quem vai viver.</string>
+	<string key="ui_event_valkyrie_about" rel_version="Entitlements_Valkyrie">Sobre a Valquíria</string>
+	<string key="ui_event_barbarian_title" rel_version="Entitlements_Barbarian">Bárbaro</string>
+	<string key="ui_event_barbarian_description" rel_version="Entitlements_Barbarian">Chegou o novo conteúdo com o tema Bárbaro! Aplique o machado diretamente no problema e repita essa ação conforme sempre que precisar.</string>
+	<string key="ui_event_barbarian_about" rel_version="Entitlements_Barbarian">Sobre o Bárbaro</string>
+	<string key="ui_event_thick_as_thieves_title" rel_version="Entitlements_ThickThieves">Carne e Unha</string>
+	<string key="ui_event_thick_as_thieves_description" rel_version="Entitlements_ThickThieves">Somente os confiáveis entram nas sombras; somente os habilidosos saem ilesos. Abrace o vestuário forjado para aqueles que são unidos como carne e unha. Chegou o novo conteúdo com o tema Carne e Unha!</string>
+	<string key="ui_event_thick_as_thieves_about" rel_version="Entitlements_ThickThieves">Sobre Carne e Unha</string>
 	<string key="ui_event_legacy_of_crassus_title">Legado de Crasso</string>
-	<string key="ui_event_legacy_of_crassus_description">Crasso e sua legião monstruosa retornam! Reúna suas tropas e batalhe contra os capitães brutais, Decimus e Lucanus, em Bosque Reluzente, Vale das Lamentações, Pântano do Tecelão, Bosque do Éden e Crosta de Ébano. Combata o massacre romano e derrote o domínio maligno da Corrupção por honra, glória e recompensas por tempo limitado!</string>
+	<string key="ui_event_legacy_of_crassus_description">Crasso e sua legião monstruosa retornam! Reúna suas tropas e batalhe contra os capitães brutais, Decimus e Lucanus, em Bosque Reluzente, Vale das Lamentações, Pântano do Tecelão e Crosta de Ébano. Combata o massacre romano e derrote o domínio maligno da Corrupção por honra, glória e recompensas por tempo limitado!</string>
 	<string key="ui_event_legacy_of_crassus_bullet1">Picareta da Legião</string>
 	<string key="ui_event_legacy_of_crassus_bullet2">Estátua de Decimus</string>
 	<string key="ui_event_legacy_of_crassus_bullet3">Estátua de Lucanus</string>
 	<string key="ui_event_legacy_of_crassus_about">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Sobre Legado de Crasso</string>
+	<string key="ui_event_springtide_bloom_title" rel_version="Event_SpringtideBloom_Temp">A Primavera Chegou!</string>
+	<string key="ui_event_springtide_bloom_description" rel_version="Event_SpringtideBloom_Temp">A floração anual das Flores Bruxuleantes está prestes a começar! É hora de colher suas pétalas para comemorar esta época mágica e visitar o Povoado de Primavera do Florescer para coletar recompensas únicas e poderosas. Lembre-se de trazer repelente para se livrar das Vespas Bruxuleantes irritantes!</string>
+	<string key="ui_event_springtide_bloom_about" rel_version="Event_SpringtideBloom_Temp">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Sobre a Primavera do Florescer</string>
 	<string key="ui_event_rabbits_revenge_title">Vingança do Coelho!</string>
 	<string key="ui_event_rabbits_revenge_description">Coelhos Corrompidos tomaram conta de Aeternum! Elimine a Corrupção e receba recompensas ferozes.</string>
 	<string key="ui_event_rabbits_revenge_about">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Sobre a Vingança do Coelho</string>
@@ -136,23 +150,5 @@
 	<string key="ui_event_winter_convergence_title">Convergência de Inverno</string>
 	<string key="ui_event_winter_convergence_description">O Guerreiro Invernal e seus lacaios glaciais retornaram a Aeternum, e eles vêm armados com a ameaça gélida do Inverno Eterno! Junte seus amigos e espalhe todo o calor e festividades da Convergência para combater o frio paralisante. Depois, busque o Andarilho Invernal alegre pelas Vilas Invernais em Aeternum para ganhar uma série de recompensas disponíveis por tempo limitado!</string>
 	<string key="ui_event_winter_convergence_about">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Sobre a Convergência de Inverno</string>
-	<string key="ui_event_valkyrie_title">Valquíria</string>
-	<string key="ui_news_bullet_apparel_skin">Aparência para Vestimenta</string>
-	<string key="ui_event_barbarian_title">Bárbaro</string>
-	<string key="ui_event_siege_of_sulfur_description_2025">Os magos de Sanguinários das Areias de Sharif estão sendo atacados! Enquanto transportavam valiosos ovos de Vermes-da-areia para locais seguros em Aeternum, esses magos foram atacados pelas forças de Adiana. Elementais de Enxofre Enfurecido estão tentando destruir os ovos e erradicar os vermes de Aeternum. Defenda os ovos e ganhe recompensas valiosas, incluindo equipamentos poderosos e itens e cosméticos de alojamento incríveis.</string>
-	<string key="ui_event_rabbits_revenge_description_2025">Coelhos Corrompidos tomaram conta de Aeternum! Elimine a Corrupção e receba recompensas ferozes.</string>
-	<string key="ui_event_rabbits_revenge_title_2025">Vingança do Coelho!</string>
-	<string key="ui_event_siege_of_sulfur_title_2025">Cerco do Enxofre</string>
-	<string key="ui_event_barbarian_about">Sobre o Bárbaro</string>
-	<string key="ui_event_barbarian_description">Chegou o novo conteúdo com o tema Bárbaro! Aplique o machado diretamente no problema e repita essa ação conforme sempre que precisar.</string>
-	<string key="ui_event_thick_as_thieves_title">Carne e Unha</string>
-	<string key="ui_event_legacy_of_crassus_title_2025">Legado de Crasso</string>
-	<string key="ui_news_bullet_mount_skin">Aparência de Montaria</string>
-	<string key="ui_event_valkyrie_about">Sobre a Valquíria</string>
-	<string key="ui_event_legacy_of_crassus_description_2025">Crasso e sua legião monstruosa retornam! Reúna suas tropas e batalhe contra os capitães brutais, Decimus e Lucanus, em Bosque Reluzente, Vale das Lamentações, Pântano do Tecelão e Crosta de Ébano. Combata o massacre romano e derrote o domínio maligno da Corrupção por honra, glória e recompensas por tempo limitado!</string>
-	<string key="ui_news_bullet_apparel_skins">Aparências para vestimenta</string>
-	<string key="ui_event_thick_as_thieves_description">Somente os confiáveis entram nas sombras; somente os habilidosos saem ilesos. Abrace o vestuário forjado para aqueles que são unidos como carne e unha. Chegou o novo conteúdo com o tema Carne e Unha!</string>
-	<string key="ui_event_valkyrie_description">Chegou o novo conteúdo com o tema Valquíria! Mostre a armadura que escolhe quem vai morrer em batalha e quem vai viver.</string>
-	<string key="ui_event_thick_as_thieves_about">Sobre Carne e Unha</string>
 </resources>
 

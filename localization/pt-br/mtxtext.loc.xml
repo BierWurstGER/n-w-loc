@@ -79,6 +79,7 @@
 	<string key="reward_type_service" rel_version="Feature_MTX">Serviço</string>
 	<string key="reward_type_loadout" rel_version="Feature_Gear_Set_Storage">Conjunto de Equipamento</string>
 	<string key="reward_type_transmog" rel_version="Season_2_Perm">Token de Alteração de Aparência</string>
+	<string key="reward_type_barbershop" rel_version="Feature_Barbershop">Barbershop Token</string>
 	<string key="entitlement_included" rel_version="Feature_MTX">Incluído</string>
 	<string key="ui_account_bound" rel_version="Feature_MTX">Todos os itens são vinculados à conta (não negociáveis) e não reembolsáveis.</string>
 	<string key="ui_account_bound_marks" rel_version="Feature_MTX">As Marcas da Sorte são vinculadas à conta (não negociáveis) e não reembolsáveis.</string>
@@ -153,12 +154,13 @@
 	<string key="reward_type_tooltip_transmog" rel_version="Season_2_Perm">Para usar um Token de Alteração de Aparência, vá até um Estilomante.</string>
 	<string key="reward_type_tooltip_mount" rel_version="Feature_Mounts">Para equipar uma Montaria, abra Montarias.</string>
 	<string key="reward_type_tooltip_mountattachment" rel_version="Feature_Mounts">Para equipar uma Aparência de Acréscimos de Montaria, selecione Ver Equipamento de Montaria no Inventário, depois escolha um Acréscimo de Montaria equipado.</string>
+	<string key="reward_type_tooltip_barbershop" rel_version="Feature_Barbershop">To use a Barbershop Token, go to a Stylemancer.</string>
 	<string key="ui_crest_disclaimer" rel_version="Feature_MTX">&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;Aviso:&lt;/font&gt; Brasões da Companhia só podem ser usados se você for o governador (criador) da companhia.</string>
 	<string key="ui_disabled_default_title" rel_version="Feature_MTX">Conteúdo Indisponível</string>
 	<string key="ui_disabled_default_description" rel_version="Feature_MTX">Este conteúdo não está disponível no momento.</string>
 	<string key="ui_disabled_freeplayer_description" rel_version="Feature_MTX">Adquira New World: Aeternum para acessar a loja.</string>
 	<string key="ui_preview_emote">Pré-visualizar Gesto</string>
-	<string key="ui_preview_skin">Pré-visualizar Aparência</string>
+	<string key="ui_preview_skin">Pré-visualização da Aparência</string>
 	<string key="ui_preview_cooldown">Tempo de Recarga de Pré-visualização: {timeRemaining}</string>
 	<string key="ui_end_preview">Encerrar pré-visualização</string>
 	<string key="ui_preview_item_withname">Pré-visualização de {itemName}</string>
@@ -215,6 +217,7 @@
 	<string key="store_requires_expansion_multiple_icon">&lt;img src="lyshineui/images/icons/misc/icon_exclamation" xPadding="0" scale="2" yOffset="5"&gt;&lt;/img&gt; {quantity} itens neste conjunto requerem {expansionName}</string>
 	<string key="store_requires_expansion_warning">Você não poderá usar {quantity} dos itens deste conjunto até adquirir {expansionName}.</string>
 	<string key="store_requires_expansion_confirm">Comprar Mesmo Assim</string>
+	<string key="ui_amount_pack" rel_version="MTXStore_V2">Pacote de {amount}</string>
 	<string key="ui_tag_intro_offer" rel_version="MTXStore_V2">Oferta Inicial</string>
 	<string key="runic_jackal_name" rel_version="Apparel_RunicJackal">Chacal Rúnico</string>
 	<string key="crescent_fang_name" rel_version="Weapon_CrescentFang">Presa Crescente</string>
@@ -310,11 +313,11 @@
 	<string key="Bundle_Emote_Launch_description" rel_version="Bundle_LaunchSet_Emote">“Gestos vitais compreendidos em todos os idiomas.”</string>
 	<string key="ui_no_featured_deal">Não há nenhuma promoção em destaque.\n\n&lt;font face="lyshineui/fonts/Pica_Regular.font"&gt;&lt;font color="#ebe3d6"&gt;E X P L O R E A L O J A&lt;/font&gt;&lt;/font&gt;</string>
 	<string key="ui_no_featured_deal_store">Não há nenhuma promoção em destaque.\nExplore a loja usando as abas na esquerda.</string>
-	<string key="Marks_Of_Fortune_5000_name" rel_version="New_World_Launch">Malote de Marcas</string>
-	<string key="Marks_Of_Fortune_11000_name" rel_version="New_World_Launch">Monte de Marcas</string>
-	<string key="Marks_Of_Fortune_23000_name" rel_version="New_World_Launch">Pilha de Marcas</string>
-	<string key="Marks_Of_Fortune_40250_name" rel_version="New_World_Launch">Bolsa de Marcas</string>
-	<string key="Marks_Of_Fortune_60000_name" rel_version="New_World_Launch">Baú de Marcas</string>
+	<string key="Marks_Of_Fortune_5000_name" rel_version="New_World_Launch">Malote de Marcos</string>
+	<string key="Marks_Of_Fortune_11000_name" rel_version="New_World_Launch">Monte de Marcos</string>
+	<string key="Marks_Of_Fortune_23000_name" rel_version="New_World_Launch">Pilha de Marcos</string>
+	<string key="Marks_Of_Fortune_40250_name" rel_version="New_World_Launch">Bolsa de Marcos</string>
+	<string key="Marks_Of_Fortune_60000_name" rel_version="New_World_Launch">Baú de Marcos</string>
 	<string key="Marks_Of_Fortune_5000_description" rel_version="New_World_Launch">Pacote de Moeda Marcas da Sorte</string>
 	<string key="Marks_Of_Fortune_11000_description" rel_version="New_World_Launch">Pacote de Moeda Marcas da Sorte</string>
 	<string key="Marks_Of_Fortune_23000_description" rel_version="New_World_Launch">Pacote de Moeda Marcas da Sorte</string>
@@ -443,8 +446,8 @@
 	<string key="server_transfer_not_transfer_detail3" rel_version="Feature_Server_Transfer">Missões de Facção ativas não serão transferidas</string>
 	<string key="server_transfer_not_transfer_detail4" rel_version="Feature_Seasons_Rewards">Progresso de Passe da Temporada</string>
 	<string key="server_transfer_not_transfer_detail4_tooltip" rel_version="Feature_Seasons_Rewards">O progresso do Passe da Temporada é específico por região. O progresso que você vê em seu personagem refletirá o progresso de sua conta na região. Transferir um personagem para um mundo em outra região não transferirá o progresso do Passe da Temporada.\n\nApesar das recompensas de Passe da Temporada serem atribuídas à região, algumas recompensas são atribuídas à conta e não podem ser reivindicadas novamente ao transferir ou criar um personagem novo.\n\nO Passe da Temporada Premium é atribuído à conta.</string>
-	<string key="server_tranfer_refund_policy_not_refundable" rel_version="Feature_Server_Transfer">Este produto não é reembolsável</string>
-	<string key="server_tranfer_cooldown_detail" rel_version="Feature_Server_Transfer">O tempo de recarga entre Transferências de Região é de {cooldownDuration}</string>
+	<string key="server_tranfer_refund_policy_not_refundable" rel_version="Feature_Server_Transfer">Este produto não é reembolsável.</string>
+	<string key="server_tranfer_cooldown_detail" rel_version="Feature_Server_Transfer">O tempo de recarga entre Transferências de Região é de {cooldownDuration}.</string>
 	<string key="server_transfer_unavailable_raidid" rel_version="Feature_Server_Transfer">Você não pode se transferir para outro mundo enquanto estiver em uma Guerra.</string>
 	<string key="server_transfer_unavailable_group" rel_version="Feature_Server_Transfer">Você precisa sair do seu grupo para fazer a transferência.</string>
 	<string key="server_transfer_unavailable_dungeon" rel_version="Feature_Server_Transfer">Você não pode se transferir para outro mundo enquanto estiver em uma Expedição.</string>
@@ -588,7 +591,7 @@
 	<string key="Bundle_Tool_LegendaryTech_description" rel_version="MTX_Tool_Skins_LegendaryTech">“Estes suntuosos adornos representam uma tecnologia perdida que vai além das ciências de qualquer estudioso que você possa conhecer.”</string>
 	<string key="Weapon_Rapier_Dec21_description" rel_version="Weapon_Rapier_Winter_MTX">“Canções antigas preenchem a mente do portador desta espada, por vezes fazendo com que dance em meio à batalha. Toque o sino! Toque o sino!”</string>
 	<string key="Weapon_Spear_Dec21_description" rel_version="Weapon_Spear_Winter_MTX">“Cada abate é como uma oferenda para as forças ctônicas presentes nestas celebrações.”</string>
-	<string key="Weapon_Bow_Dec21_description" rel_version="Weapon_Bow_Winter_MTX">“Espete sua presa com flechas festivas e enfeite o salão com seus troféus.”</string>
+	<string key="Weapon_Bow_Dec21_description" rel_version="Weapon_Bow_Winter_MTX">“Espete sua presa com flechas festivas e enfeite os salão com seus troféus.”</string>
 	<string key="Weapon_Hatchet_Dec21_description" rel_version="Weapon_Hatchet_Winter_MTX">“Este machado dourado brilha e reluz com a glória desta época do ano.”</string>
 	<string key="Weapon_IceGauntlet_Dec21_description" rel_version="Weapon_IceGauntlet_Winter_MTX">“Com os sons do gelo em formação, é possível ouvir a risada alegre de um demônio fanfarrão.”</string>
 	<string key="Weapon_Lifestaff_Dec21_description" rel_version="Weapon_LifeStaff_Winter_MTX">“Entalhado no inverno e fortalecido em lenha, as energias deste bastão são capazes de aquecer tal qual uma lareira quentinha.”</string>
@@ -927,7 +930,7 @@
 	<string key="Bundle_Decor_DarkFae_description" rel_version="Housing_DarkFae_MTX_Pack_2022">Seus convidados finos vão se sentir em casa nestes móveis luxuosos e encantados.</string>
 	<string key="Bundle_Decor_Winter2022_name" rel_version="Housing_Winter_MTX_Pack_2022">Conjunto de Decoração de Confortos Invernais</string>
 	<string key="Bundle_Decor_Winter2022_description" rel_version="Housing_Winter_MTX_Pack_2022">Algo quente e reconfortante para se agarrar quando os ventos de inverno sopram e criaturas de pesadelos uivam.</string>
-	<string key="Bundle_Tool_DarkFae_name" rel_version="ToolSkins_DarkFae_MTX">Conjuntos de Ferramentas do Espírito Crepuscular</string>
+	<string key="Bundle_Tool_DarkFae_name" rel_version="ToolSkins_DarkFae_MTX">Conjunto de Ferramentas do Espírito Crepuscular</string>
 	<string key="Bundle_Tool_DarkFae_description" rel_version="ToolSkins_DarkFae_MTX">Os espíritos místicos que guardam a terra imbuíram este conjunto de ferramentas em seu conhecimento sobre a melhor forma de colher seus recursos.</string>
 	<string key="Apparel_WinterConv2022_1_name" rel_version="Apparel_Winter_Conv_MTX_1">Cervo Macho do Inverno</string>
 	<string key="Apparel_WinterConv2022_1_description" rel_version="Apparel_Winter_Conv_MTX_1">Você pode sentir o estranho calor do inverno dentro de você.</string>
@@ -1300,23 +1303,35 @@
 	<string key="StoreItem_Bundle_Phoenix_Apparel_desc" rel_version="Season_7_Perm">Surja do fogo e das chamas em grande estilo!</string>
 	<string key="StoreItem_Bundle_Valentines_ApparelWeapon_name" rel_version="Season_7_Perm">Conjunto Amor Corrompido</string>
 	<string key="StoreItem_Bundle_Valentines_ApparelWeapon_desc" rel_version="Season_7_Perm">O amor verdadeiro não pode ser manchado pela Corrupção... ou será que pode?</string>
-	<string key="StoreItem_Bundle_Valkyrie_Coiled_description">Quando este mundo acabar, nos veremos no recomeço?</string>
-	<string key="UI_EVENT_2">Novos Itens</string>
-	<string key="StoreItem_Bundle_Valkyrie_Coiled_name">Conjunto Destino de Jörmungandr</string>
-	<string key="mtx_emote_sale_store">Promoção de Gestos!</string>
-	<string key="UI_EVENT_1">Festividades</string>
-	<string key="Category_Override_FlavorText">Aguardamos você!</string>
-	<string key="mtx_valkyrie_store">Loja da Valquíria</string>
-	<string key="StoreItem_Bundle_Valkyrie_Feathered_description">Sente-se no lado do céu.</string>
-	<string key="StoreItem_Bundle_Valkyrie_Feathered_name">Conjunto Penas de Hræsvelgr</string>
-	<string key="ui_amount_pack">Pacote de {amount}</string>
-	<string key="mtx_mount_sale_store">Promoção de montarias!</string>
-	<string key="mtx_barbarian_store">Loja bárbara</string>
-	<string key="mtx_thickasthieves_store">Loja unha e carne</string>
-	<string key="mtx_campskin_sale_store">Promoção de Aparência de Acampamento!</string>
-	<string key="mtx_tool_sale_store">Promoção de ferramentas!</string>
-	<string key="mtx_housing_sale_store">Promoção de alojamentos!</string>
-	<string key="mtx_apparel_sale_store">Promoção de roupas!</string>
-	<string key="mtx_weapon_sale_store">Promoção de armas!</string>
+	<string key="StoreItem_Token_Barbershop_X1_description" rel_version="Feature_Barbershop">Used for changing your look in the Barbershop.</string>
+	<string key="StoreItem_Token_Barbershop_X1_name" rel_version="Feature_Barbershop">Barbershop Token</string>
+	<string key="StoreItem_Bundle_Valkyrie_Coiled_name" rel_version="Season_7_Perm">Conjunto Destino de Jörmungandr</string>
+	<string key="StoreItem_Bundle_Valkyrie_Coiled_description" rel_version="Season_7_Perm">Quando este mundo acabar, nos veremos no recomeço?</string>
+	<string key="StoreItem_Bundle_Valkyrie_Feathered_name" rel_version="Season_7_Perm">Conjunto Penas de Hræsvelgr</string>
+	<string key="StoreItem_Bundle_Valkyrie_Feathered_description" rel_version="Season_7_Perm">Sente-se no lado do céu.</string>
+	<string key="mtx_valkyrie_store" rel_version="Season_7_Perm">Loja da Valquíria</string>
+	<string key="UI_EVENT_1" rel_version="Season_7_Perm">Novo!</string>
+	<string key="mtx_emote_sale_store" rel_version="Season_7_Perm">Promoção de Gestos!</string>
+	<string key="Category_Override_FlavorText" rel_version="Season_7_Perm">Aguardamos você!</string>
+	<string key="UI_EVENT_2" rel_version="Season_7_Perm">Festividades</string>
+	<string key="mtx_barbarian_store" rel_version="Season_7_Perm">Loja bárbara</string>
+	<string key="mtx_thickasthieves_store" rel_version="Season_7_Perm">Loja unha e carne</string>
+	<string key="mtx_campskin_sale_store" rel_version="Season_7_Perm">Promoção de Aparência de Acampamento!</string>
+	<string key="mtx_apparel_sale_store" rel_version="Season_7_Perm">Promoção de roupas!</string>
+	<string key="mtx_weapon_sale_store" rel_version="Season_7_Perm">Promoção de armas!</string>
+	<string key="mtx_tool_sale_store" rel_version="Season_7_Perm">Promoção de ferramentas!</string>
+	<string key="mtx_housing_sale_store" rel_version="Season_7_Perm">Promoção de alojamentos!</string>
+	<string key="mtx_mount_sale_store" rel_version="Season_7_Perm">Promoção de montarias!</string>
+	<string key="DyeA026_Mounts_MasterName">Runa de Coração vermelho</string>
+	<string key="StoreItem_Bundle_Ninja_Kitsune_description">Dance com as raposas e persiga a névoa.</string>
+	<string key="StoreItem_Bundle_GothicCoquette_name">Conjunto da Dança Macabra</string>
+	<string key="StoreItem_Bundle_GothicCoquette_description">A hora da bruxaria está chegando.</string>
+	<string key="SeasonPass_Premium_Season_8_name">Passe Premium: Temporada 8</string>
+	<string key="StoreItem_Bundle_Ninja_Kitsune_name">Conjunto da Raposa de Fogo</string>
+	<string key="StoreItem_Bundle_GreekGodsApparelWeapon_description">Os deuses convocam seus campeões. Você vai responder?</string>
+	<string key="SeasonPass_HeadStart_Season_8_name">Bom Começo do Passe Premium: Temporada 8</string>
+	<string key="DyeA025_Mounts_MasterName">Branco virtuoso</string>
+	<string key="DyeA024_Mounts_MasterName">Espectro Preto</string>
+	<string key="StoreItem_Bundle_GreekGodsApparelWeapon_name">Conjunto do Anfitrião de Myrmidon</string>
 </resources>
 

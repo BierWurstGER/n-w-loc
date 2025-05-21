@@ -925,7 +925,7 @@
 	<string key="MTX_Reaper_Flail_Desc" rel_version="Entitlements_Reaper">Avance, Precursor do Esquecimento, e colha sua recompensa.</string>
 	<string key="Mar2024_Container_Name" rel_version="Entitlements_Reaper">Reserva Bem Coletada de Recompensas</string>
 	<string key="Mar2024_Container_Desc" rel_version="Entitlements_Reaper">Embora saibamos que a vitória é uma recompensa por si só, talvez isso lhe guie até a sua.</string>
-	<string key="MTX_Reaper_Void_Set_Name" rel_version="Entitlements_Reaper">Aspecto do Fantasma da Garganta Imaterial</string>
+	<string key="MTX_Reaper_Void_Set_Name" rel_version="Entitlements_Reaper">Conjunto do Fantasma da Garganta Imaterial</string>
 	<string key="MTX_Reaper_Deluxe_Set_Name" rel_version="Entitlements_Reaper">Feição do Soberano Espectral</string>
 	<string key="PRO_Reaper_Twitch_Set_Name" rel_version="Entitlements_Reaper">Empreiteiro Vingativo</string>
 	<string key="MTX_Battlemage_Blindfold_Set_Name" rel_version="Entitlements_BattleMage">Aegis do Bruxo de Aço</string>
@@ -1052,9 +1052,9 @@
 	<string key="MTX_Beanie_FunnyHat_Desc" rel_version="Season_7_Perm">Quente e estiloso!</string>
 	<string key="MTX_Frog_FunnyHat_Name" rel_version="Season_7_Perm">Chapéu de Sapo Tricotado</string>
 	<string key="MTX_Frog_FunnyHat_Desc" rel_version="Season_7_Perm">Croac.</string>
-	<string key="PrimeGenericCache1_Container_Name" rel_version="Season_7_Perm">Reserva de Recompensas Primorosa Escala 1</string>
-	<string key="PrimeGenericCache2_Container_Name" rel_version="Season_7_Perm">Reserva de Recompensas Primorosa Escala 2</string>
-	<string key="PrimeGenericCache3_Container_Name" rel_version="Season_7_Perm">Reserva de Recompensas Primorosa Escala 3</string>
+	<string key="PrimeGenericCache1_Container_Name" rel_version="Season_7_Perm">Reserva de Recompensas Prime Escala 1</string>
+	<string key="PrimeGenericCache2_Container_Name" rel_version="Season_7_Perm">Reserva de Recompensas Prime Escala 2</string>
+	<string key="PrimeGenericCache3_Container_Name" rel_version="Season_7_Perm">Reserva de Recompensas Prime Escala 3</string>
 	<string key="TwitchGenericCache1_Container_Name" rel_version="Season_7_Perm">Reserva de Recompensas da Twitch Escala 1</string>
 	<string key="TwitchGenericCache2_Container_Name" rel_version="Season_7_Perm">Reserva de Recompensas da Twitch Escala 2</string>
 	<string key="TwitchGenericCache3_Container_Name" rel_version="Season_7_Perm">Reserva de Recompensas da Twitch Escala 3</string>
@@ -1084,7 +1084,22 @@
 	<string key="MTX_FunnyHat_ElfHat_Name" rel_version="Entitlements_WinterHoliday">Chapéu de Ajudante das Festividades</string>
 	<string key="MTX_FunnyHat_ElfHat_Desc" rel_version="Entitlements_WinterHoliday">Usar esse boné o enche de confiança na criação sem realmente melhorar suas habilidades.</string>
 	<string key="StoreItem_Apparel_Winter_Nutcracker_name" rel_version="Entitlements_WinterHoliday">Príncipe invernal</string>
-	<string key="Apr2025_TwitchPrime_Box_Description">Este objeto contém um presente por assistir ao seu streamer favorito.\n\nInclui:\n&lt;font color="#b2aea1"&gt; 5x Frascos de Azoth em Suspensão\n 25x Matéria Escura\n 3x Orbes de Gipsita\n 15x Poção de Saúde Infusa\n 5x Poção de Regeneração Infusa\n 5x Parfait de Banana\n 5x Pedra de Amolar Poderosa\n 5x Pó de Gema Poderoso&lt;/font&gt;</string>
-	<string key="Apr2025_TwitchPrime_Box_MasterName">Reserva da Twitch Robusta</string>
+	<string key="Apr2025_TwitchPrime_Box_MasterName" rel_version="Feature_RabbitSeasonPerm">Reserva da Twitch Robusta</string>
+	<string key="Apr2025_TwitchPrime_Box_Description" rel_version="Feature_RabbitSeasonPerm">Este objeto contém um presente por assistir ao seu streamer favorito.\n\nInclui:\n&lt;font color="#b2aea1"&gt; 5x Frascos de Azoth em Suspensão\n 25x Matéria Escura\n 3x Orbes de Gipsita\n 15x Poção de Saúde Infusa\n 5x Poção de Regeneração Infusa\n 5x Parfait de Banana\n 5x Pedra de Amolar Poderosa\n 5x Pó de Gema Poderoso&lt;/font&gt;</string>
+	<string key="Skin_MTX_Coquette_2hVoidGauntlet_MasterName">Toque Evanescente</string>
+	<string key="housing_factionfest_reward_decor_marauder_Description">Decore sua casa com essa pedra mística que canaliza a essência da Facção dos Saqueadores.</string>
+	<string key="housing_factionfest_reward_decor_syndicate_MasterName">Pedra da Luz Bélica do Sindicato</string>
+	<string key="Skin_MTX_Coquette_head_MasterName">Chapéu Vitoriano da Feiticeira Elegante</string>
+	<string key="MTX_Coquette_Armor_Desc">Um toque de seda, uma pitada de feitiçaria e o estilo direto de Pântano do Tecelão.</string>
+	<string key="housing_factionfest_reward_decor_syndicate_Description">Decore sua casa com essa pedra mística que canaliza a essência da Facção do Sindicato.</string>
+	<string key="housing_factionfest_reward_decor_marauder_MasterName">Pedra da Luz Bélica dos Saqueadores</string>
+	<string key="Skin_MTX_Coquette_legs_MasterName">Meia-calça de Seda da Feiticeira Elegante</string>
+	<string key="housing_factionfest_reward_decor_covenant_MasterName">Pedra da Luz Bélica da Aliança</string>
+	<string key="Skin_MTX_Coquette_feet_MasterName">Botas de Salto Alto da Feiticeira Elegante</string>
+	<string key="housing_factionfest_reward_decor_covenant_Description">Decore sua casa com essa pedra mística que canaliza a essência da Facção da Aliança.</string>
+	<string key="MTX_Coquette_Weapon_Desc">Uma arma extremamente elegante de uma era um tanto macabra, ideal para a aspirante a bruxa das trevas.</string>
+	<string key="Skin_MTX_Coquette_chest_MasterName">Vestido com Babados da Feiticeira Elegante</string>
+	<string key="Skin_MTX_Coquette_gloves_MasterName">Luvas sem Dedos da Feiticeira Elegante</string>
+	<string key="Skin_MTX_Coquette_1hFlail_MasterName">Estrela Evanescente</string>
 </resources>
 

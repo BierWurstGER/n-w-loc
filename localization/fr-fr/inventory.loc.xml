@@ -84,10 +84,10 @@
 	<string key="inv_equipLoadNormalNotification">Poids d'équipement moyen</string>
 	<string key="inv_equipLoadSlowNotification">Poids d'équipement lourd</string>
 	<string key="inv_equipLoadOverburdenedNotification">Suréquipé - Impossible d'esquiver ou de courir</string>
-	<string key="inv_equipLoadEncumberedNotification">Encombré - Impossible d'esquiver, de sauter ou de courir</string>
+	<string key="inv_equipLoadEncumberedNotification">Encombrement : course, esquive et saut impossibles</string>
 	<string key="inv_encumbranceTooltip">Le poids de l'inventaire influe sur votre déplacement et vos actions. Améliorez vos sacs pour augmenter sa limite de poids. Si la limite est dépassée, vous serez encombré(e). Si celle-ci est largement dépassée, vous serez en surcharge.</string>
 	<string key="inv_encumbranceUnencumberedTooltip">Vous pouvez effectuer librement toutes les actions puisque le poids de votre inventaire est inférieur à la limite.</string>
-	<string key="inv_encumbranceEncumberedTooltip">• Encombrement : Course, esquive et saut impossibles.\n• Surcharge : Déplacement, esquive, saut et attaque impossibles.</string>
+	<string key="inv_encumbranceEncumberedTooltip">• Encombrement : Course, esquive et saut impossibles.\n• Surcharge : attaque, course, esquive et saut impossibles</string>
 	<string key="inv_does_not_meet_weapon_requirements">Caractéristiques insuffisantes</string>
 	<string key="inv_encumbranceAttackNotification">Surcharge – Attaque impossible</string>
 	<string key="inv_insufficientManaNotification">Mana insuffisant</string>
@@ -163,7 +163,7 @@
 	<string key="ui_dropall_in_trade">Impossible de lâcher des objets lors des échanges.</string>
 	<string key="ui_transfer_all_filtered">Impossible de déplacer tous les objets de cette section tant qu'un filtre est appliqué.</string>
 	<string key="ui_storeall">Tout déplacer dans l'abri de rangement.</string>
-	<string key="ui_filterDescription">&lt;font color={subheaderColor} face="lyshineui/fonts/Nimbus_Bold.font"&gt;COMMENT CHERCHER&lt;/font&gt;\n\n&lt;font color={subheaderColor} face="lyshineui/fonts/Nimbus_semibold.font"&gt;Transformation&lt;/font&gt;\n• Inclut : Épée\n• Exclut : Hache\n• Atouts/Gemmes : [Protection]\n• Score d'équipement minimum : 100\n• Palier minimum : I\n\n&lt;font color={subheaderColor} face="lyshineui/fonts/Nimbus_semibold.font"&gt;Avancé&lt;/font&gt;\n• Épée 200\n• Hache I\n• Piolet -fer\n• Mousquet [Électrifié]</string>
+	<string key="ui_filterDescription">&lt;font color={subHeaderColor} face="lyshineui/fonts/Nimbus_Bold.font"&gt;COMMENT CHERCHER&lt;/font&gt;\n\n&lt;font color={subHeaderColor} face="lyshineui/fonts/Nimbus_semibold.font"&gt;Transformation&lt;/font&gt;\n• Inclut : Épée\n• Exclut : Hache\n• Atouts/Gemmes : [Protection]\n• Score d'équipement minimum : 100\n• Palier minimum : I\n\n&lt;font color={subHeaderColor} face="lyshineui/fonts/Nimbus_semibold.font"&gt;Avancé&lt;/font&gt;\n• Épée 200\n• Hache I\n• Piolet -fer\n• Mousquet [Électrifié]</string>
 	<string key="ui_filterText">Chercher</string>
 	<string key="ui_filterHeader">Filtrer objet</string>
 	<string key="ui_sort">Trier</string>
@@ -261,5 +261,6 @@
 	<string key="perktooltips_stacks_over_limit">(max dépassé)</string>
 	<string key="perktooltips_stacks_over_limit_disabled">(désactivé)</string>
 	<string key="perktooltips_max_stacks">Cumuls d'atouts max : </string>
+	<string key="inv_equipLoadOverEncumberedNotification">Surcharge : attaque, course, esquive et saut impossibles</string>
 </resources>
 

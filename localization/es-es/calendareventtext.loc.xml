@@ -1,7 +1,6 @@
 <resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<string key="ui_news_button">Noticias y eventos</string>
 	<string key="ui_news_button_no_news">No hay noticias disponibles.</string>
-	<string key="ui_news_about">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Sobre las noticias</string>
 	<string key="ui_news_modal_display_start_date">Empieza el {startDate}</string>
 	<string key="ui_news_modal_display_end_date">Acaba el {endDate}</string>
 	<string key="ui_news_modal_display_start_datetime">Empieza el {startTime} a las {startDate}</string>
@@ -13,6 +12,10 @@
 	<string key="ui_event_summer_progress_name" rel_version="Event_Summer_Perm">Reputación del evento</string>
 	<string key="ui_event_halloween_progress_name" rel_version="Event_Halloween_Perm">Reputación del evento</string>
 	<string key="ui_event_spring_progress_name" rel_version="Event_SpringtideBloom_Perm">Reputación del evento</string>
+	<string key="ui_event_spring_rank_0" rel_version="Event_SpringtideBloom_Temp">Florista</string>
+	<string key="ui_event_spring_rank_1" rel_version="Event_SpringtideBloom_Temp">Ramilletero</string>
+	<string key="ui_event_spring_rank_2" rel_version="Event_SpringtideBloom_Temp">Heraldo</string>
+	<string key="ui_event_spring_shop_header" rel_version="Event_SpringtideBloom_Temp">Afloramiento Primaveral</string>
 	<string key="ui_news_store_tabname">Tienda</string>
 	<string key="ui_news_expedition_tabname">Expedición</string>
 	<string key="ui_news_expeditions_tabname">Expediciones</string>
@@ -49,6 +52,7 @@
 	<string key="ui_news_bullet_resources">Recursos</string>
 	<string key="ui_news_bullet_decor">Decoraciones</string>
 	<string key="ui_news_bullet_mounts" rel_version="Feature_Mounts">Monturas</string>
+	<string key="ui_news_bullet_mount_skin" rel_version="Feature_Mounts">Diseño de montura</string>
 	<string key="ui_news_bullet_mount_skins" rel_version="Feature_Mounts">Diseños de montura</string>
 	<string key="ui_news_bullet_mount_attachments" rel_version="Feature_Mounts">Accesorios de montura</string>
 	<string key="ui_news_bullet_artifact" rel_version="Feature_Artifacts">Artefacto</string>
@@ -56,21 +60,13 @@
 	<string key="ui_news_bullet_transmog_tokens" rel_version="Season_2_Perm">Blasones de transformación</string>
 	<string key="ui_news_bullet_instrument_skins">Diseños de instrumentos</string>
 	<string key="ui_news_bullet_housing_trophy">Trofeo para casas</string>
-	<string key="ui_event_weapon_xp_tabname">Evento de EXP</string>
+	<string key="ui_news_bullet_apparel_skin">Diseño de prendas</string>
+	<string key="ui_news_bullet_apparel_skins">Diseños de prendas</string>
 	<string key="ui_event_weapon_xp_title">EVENTO DE BONIFICACIÓN DE EXP DE ARMAS</string>
-	<string key="ui_event_weapon_xp_desc">Bonificaciones activas:</string>
-	<string key="ui_event_gathering_xp_tabname">Evento de EXP</string>
 	<string key="ui_event_gathering_xp_title">EVENTO DE BONIFICACIÓN DE EXP DE RECOLECCIÓN</string>
-	<string key="ui_event_gathering_xp_desc">Bonificaciones activas:</string>
-	<string key="ui_event_character_xp_tabname">Evento de EXP</string>
 	<string key="ui_event_character_xp_title">EVENTO DE BONIFICACIÓN DE EXP DE NIVEL</string>
-	<string key="ui_event_character_xp_desc">Bonificaciones activas:</string>
-	<string key="ui_event_refining_xp_tabname">Evento de EXP</string>
 	<string key="ui_event_refining_xp_title">EVENTO DE BONIFICACIÓN DE EXP DE REFINADO</string>
-	<string key="ui_event_refining_xp_desc">Bonificaciones activas:</string>
-	<string key="ui_event_extravaganza_tabname">Evento de EXP</string>
 	<string key="ui_event_extravaganza_title">ESPECTÁCULO DE EXP</string>
-	<string key="ui_event_extravaganza_desc">Bonificaciones activas:</string>
 	<string key="ui_news_end_game_tabname">Final del juego</string>
 	<string key="ui_news_end_game_description">Cuando alcances el nivel 60, podrás &lt;font color="#edc63e"&gt;mejorar tu equipo&lt;/font&gt; para conseguir puntuaciones de equipo más altas. Para ello, tendrás que cosechar aljez de distintas ubicaciones y actividades de nivel 60. Visita un &lt;font color="#edc63e"&gt;horno de aljez&lt;/font&gt; para obtener más información.</string>
 	<string key="ui_end_game_panel1_title">ACTIVIDADES DEL FINAL DEL JUEGO</string>
@@ -85,14 +81,14 @@
 	<string key="ui_event_console_beta_preorder_description_bullet2">Objeto digital de la Deluxe Edition: Montura de oso vapuleador corrupto</string>
 	<string key="ui_event_console_beta_preorder_description_bullet3">Objeto digital de la Deluxe Edition: Diseño de armadura Alma corrupta</string>
 	<string key="ui_event_console_beta_preorder_details">Reservar</string>
-	<string key="ui_event_console_beta_preorder_aboutbuttontext">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Acerca de las reservas</string>
+	<string key="ui_event_console_beta_preorder_aboutbuttontext">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt;Acerca de las reservas</string>
 	<string key="ui_event_console_beta_preorder_eventmessagetitle">Reservar</string>
 	<string key="ui_event_console_beta_preorder_eventmessagedescription">Reserva la edición estándar o deluxe de New World: Aetérnum y consigue la montura Lobo acechador de Azoth cuando el juego salga a la venta el 15 de octubre.</string>
 	<string key="ui_event_console_beta_preorder_news_bullet_azoth_stalker">Acechador de Azoth</string>
 	<string key="ui_event_console_beta_preorder_news_bullet_mount_skins_deluxe">Diseños de montura\n(Deluxe)</string>
 	<string key="ui_event_console_beta_preorder_news_bullet_armor_skins_deluxe">Diseños de armadura\n(Deluxe)</string>
-	<string key="ui_event_season_seven_title" comment="DO NOT TRANSLATE" rel_version="Season_7_Perm">Temporada de conquistadores</string>
-	<string key="ui_event_season_seven_description" comment="DO NOT TRANSLATE" rel_version="Season_7_Perm">Emprende un nuevo comienzo y lucha por el poder en combates contra otros jugadores en un servidor de la temporada. Consigue un botín de artefactos nuevos, diseños y mucho más en el seguimiento de recompensas de la Temporada de los Conquistadores.</string>
+	<string key="ui_event_season_seven_title" rel_version="Season_7_Perm">Temporada de conquistadores</string>
+	<string key="ui_event_season_seven_description" rel_version="Season_7_Perm">Emprende un nuevo comienzo y lucha por el poder en combates contra otros jugadores en un servidor de la temporada. Consigue un botín de artefactos nuevos, diseños y mucho más en el seguimiento de recompensas de la Temporada de los Conquistadores.</string>
 	<string key="ui_event_season_seven_about" comment="DO NOT TRANSLATE" rel_version="Season_7_Perm">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; About Season 7 Placeholder</string>
 	<string key="ui_news_rise_of_the_angry_earth_expansion_title">Disfruta de todo lo que Aetérnum te puede ofrecer</string>
 	<string key="ui_news_rise_of_the_angry_earth_expansion_description">Vive la experiencia completa de New World: Aeternum.\n\nLos jugadores de PC que tienen la expansión Rise of the Angry Earth tienen acceso a todos los recursos de New World: Aeternum, incluyendo grandes añadidos como:</string>
@@ -101,12 +97,30 @@
 	<string key="ui_news_rise_of_the_angry_earth_expansion_icon2">Mangual</string>
 	<string key="ui_news_rise_of_the_angry_earth_expansion_icon3">Incursión de 10 jugadores</string>
 	<string key="ui_news_rise_of_the_angry_earth_expansion_purchase_button">Comprar ahora</string>
+	<string key="ui_event_siege_of_sulfur_title_2025">Asedio de azufre</string>
+	<string key="ui_event_siege_of_sulfur_description_2025">¡Los magos de Sharif de Sangre de las Arenas están siendo atacados! Mientras transportaban los valiosos huevos de gusano de arena hasta varios lugares seguros a lo largo de Aetérnum, estos magos han sido asaltados por las fuerzas de Adiana. Elementales de azufre enfurecidos están intentando destruir los huevos y erradicar los gusanos de Aetérnum. Defiende los huevos y obtén valiosas recompensas como poderosas piezas de equipo, objetos para casas y cosméticos.</string>
+	<string key="ui_event_legacy_of_crassus_title_2025">Legado de Craso</string>
+	<string key="ui_event_legacy_of_crassus_description_2025">¡Craso vuelve con su monstruosa legión a rastras! Reúne a tus fuerzas y lucha contra los brutales capitanes Décimo y Lucano en el Bosque Luminoso, el Valle del Pesar, la Ciénaga de los Tejedores y los Altos de Escamanegra. Repele el ataque de los romanos y derrota a las oscuras huestes de la corrupción para conseguir honor, gloria y recompensas por tiempo limitado.</string>
+	<string key="ui_event_rabbits_revenge_title_2025">¡La venganza de los conejos!</string>
+	<string key="ui_event_rabbits_revenge_description_2025">¡Los conejos corruptos han invadido Aetérnum! Erradica la corrupción y obtén recompensas feroces.</string>
+	<string key="ui_event_valkyrie_title" rel_version="Entitlements_Valkyrie">Valkiria</string>
+	<string key="ui_event_valkyrie_description" rel_version="Entitlements_Valkyrie">¡Ya está aquí el nuevo contenido con temática de valkirias! Enfúndate la armadura de quien dicta sentencia en combate.</string>
+	<string key="ui_event_valkyrie_about" rel_version="Entitlements_Valkyrie">Acerca de Valkiria</string>
+	<string key="ui_event_barbarian_title" rel_version="Entitlements_Barbarian">Bárbaro</string>
+	<string key="ui_event_barbarian_description" rel_version="Entitlements_Barbarian">¡Ya está aquí el nuevo contenido con temática de bárbaros! Erradica el problema de un hachazo y vuelvo a hacerlo tantas veces como necesites.</string>
+	<string key="ui_event_barbarian_about" rel_version="Entitlements_Barbarian">Acerca de Bárbaro</string>
+	<string key="ui_event_thick_as_thieves_title" rel_version="Entitlements_ThickThieves">Amigos de confianza</string>
+	<string key="ui_event_thick_as_thieves_description" rel_version="Entitlements_ThickThieves">Solo alguien de confianza se adentra en las sombras, pero solo alguien con talento sale ileso. Vístete con el equipamiento de quienes son uña y carne. ¡Ya está aquí el nuevo contenido de Amigos de confianza!</string>
+	<string key="ui_event_thick_as_thieves_about" rel_version="Entitlements_ThickThieves">Acerca de Amigos de confianza</string>
 	<string key="ui_event_legacy_of_crassus_title">Legado de Craso</string>
-	<string key="ui_event_legacy_of_crassus_description">¡Craso vuelve con su monstruosa legión a rastras! Reúne a tus fuerzas y lucha contra los brutales capitanes Décimo y Lucano en el Bosque Luminoso, el Valle del Pesar, la Ciénaga de los Tejedores, la Arboleda del Edén y los Altos de Escamanegra. Repele el ataque de los romanos y derrota a las oscuras huestes de la corrupción para conseguir honor, gloria y recompensas por tiempo limitado.</string>
+	<string key="ui_event_legacy_of_crassus_description">¡Craso vuelve con su monstruosa legión a rastras! Reúne a tus fuerzas y lucha contra los brutales capitanes Décimo y Lucano en el Bosque Luminoso, el Valle del Pesar, la Ciénaga de los Tejedores y los Altos de Escamanegra. Repele el ataque de los romanos y derrota a las oscuras huestes de la corrupción para conseguir honor, gloria y recompensas por tiempo limitado.</string>
 	<string key="ui_event_legacy_of_crassus_bullet1">Piqueta de la legión</string>
 	<string key="ui_event_legacy_of_crassus_bullet2">Estatua de Décimo</string>
 	<string key="ui_event_legacy_of_crassus_bullet3">Estatua de Lucano</string>
 	<string key="ui_event_legacy_of_crassus_about">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Sobre Legado de Craso</string>
+	<string key="ui_event_springtide_bloom_title" rel_version="Event_SpringtideBloom_Temp">¡La primavera ya está aquí!</string>
+	<string key="ui_event_springtide_bloom_description" rel_version="Event_SpringtideBloom_Temp">¡Comienza la floración anual de las florescasas! Celebra esta mágica estación recogiendo sus pétalos y visita la Aldea Primaveral para conseguir recompensas únicas y poderosas. ¡Y no te olvides de traer repelente para las dichosas avispas evanescentes!</string>
+	<string key="ui_event_springtide_bloom_about" rel_version="Event_SpringtideBloom_Temp">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Acerca del Afloramiento Primaveral</string>
 	<string key="ui_event_rabbits_revenge_title">¡La venganza de los conejos!</string>
 	<string key="ui_event_rabbits_revenge_description">¡Los conejos corruptos han invadido Aetérnum! Erradica la corrupción y obtén recompensas feroces.</string>
 	<string key="ui_event_rabbits_revenge_about">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Acerca de La venganza de los conejos</string>
@@ -136,23 +150,5 @@
 	<string key="ui_event_winter_convergence_title">Convergencia Invernal</string>
 	<string key="ui_event_winter_convergence_description">¡El guerrero invernal y sus esbirros helados han vuelto a Aetérnum trayendo consigo la gélida amenaza del invierno eterno! Únete a tus amigos y propagad el calor y el júbilo de la Convergencia para contrarrestar el frío penetrante. A continuación, ¡buscad al caminante invernal en las villas invernales de Aetérnum para conseguir un botín de recompensas por tiempo limitado!</string>
 	<string key="ui_event_winter_convergence_about">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Sobre la Convergencia Invernal</string>
-	<string key="ui_event_valkyrie_title">Valkiria</string>
-	<string key="ui_news_bullet_apparel_skin">Diseño de prendas</string>
-	<string key="ui_event_barbarian_title">Bárbaro</string>
-	<string key="ui_event_siege_of_sulfur_description_2025">¡Los magos de Sharif de Sangre de las Arenas están siendo atacados! Mientras transportaban los valiosos huevos de gusano de arena hasta varios lugares seguros a lo largo de Aetérnum, estos magos han sido asaltados por las fuerzas de Adiana. Elementales de azufre enfurecidos están intentando destruir los huevos y erradicar los gusanos de Aetérnum. Defiende los huevos y obtén valiosas recompensas como poderosas piezas de equipo, objetos para casas y cosméticos.</string>
-	<string key="ui_event_rabbits_revenge_description_2025">¡Los conejos corruptos han invadido Aetérnum! Erradica la corrupción y obtén recompensas feroces.</string>
-	<string key="ui_event_rabbits_revenge_title_2025">¡La venganza de los conejos!</string>
-	<string key="ui_event_siege_of_sulfur_title_2025">Asedio de azufre</string>
-	<string key="ui_event_barbarian_about">Acerca de Bárbaro</string>
-	<string key="ui_event_barbarian_description">¡Ya está aquí el nuevo contenido con temática de bárbaros! Erradica el problema de un hachazo y vuelvo a hacerlo tantas veces como necesites.</string>
-	<string key="ui_event_thick_as_thieves_title">Amigos de confianza</string>
-	<string key="ui_event_legacy_of_crassus_title_2025">Legado de Craso</string>
-	<string key="ui_news_bullet_mount_skin">Diseño de montura</string>
-	<string key="ui_event_valkyrie_about">Acerca de Valkiria</string>
-	<string key="ui_event_legacy_of_crassus_description_2025">¡Craso vuelve con su monstruosa legión a rastras! Reúne a tus fuerzas y lucha contra los brutales capitanes Décimo y Lucano en el Bosque Luminoso, el Valle del Pesar, la Ciénaga de los Tejedores y los Altos de Escamanegra. Repele el ataque de los romanos y derrota a las oscuras huestes de la corrupción para conseguir honor, gloria y recompensas por tiempo limitado.</string>
-	<string key="ui_news_bullet_apparel_skins">Diseños de prendas</string>
-	<string key="ui_event_thick_as_thieves_description">Solo alguien de confianza se adentra en las sombras, pero solo alguien con talento sale ileso. Vístete con el equipamiento de quienes son uña y carne. ¡Ya está aquí el nuevo contenido de Amigos de confianza!</string>
-	<string key="ui_event_valkyrie_description">¡Ya está aquí el nuevo contenido con temática de valkirias! Enfúndate la armadura de quien dicta sentencia en combate.</string>
-	<string key="ui_event_thick_as_thieves_about">Acerca de Amigos de confianza</string>
 </resources>
 

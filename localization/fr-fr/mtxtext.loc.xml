@@ -79,6 +79,7 @@
 	<string key="reward_type_service" rel_version="Feature_MTX">Service</string>
 	<string key="reward_type_loadout" rel_version="Feature_Gear_Set_Storage">Ensemble d'équipement</string>
 	<string key="reward_type_transmog" rel_version="Season_2_Perm">Jeton de transmog.</string>
+	<string key="reward_type_barbershop" rel_version="Feature_Barbershop">Barbershop Token</string>
 	<string key="entitlement_included" rel_version="Feature_MTX">Compris</string>
 	<string key="ui_account_bound" rel_version="Feature_MTX">Tous les objets sont liés au compte (non cessibles) et non remboursables.</string>
 	<string key="ui_account_bound_marks" rel_version="Feature_MTX">Tous les gages de fortune sont liés au compte (non cessibles) et non remboursables.</string>
@@ -153,6 +154,7 @@
 	<string key="reward_type_tooltip_transmog" rel_version="Season_2_Perm">Pour utiliser un jeton de transmogrification, rendez visite à un stylemancien.</string>
 	<string key="reward_type_tooltip_mount" rel_version="Feature_Mounts">Pour vous équiper d'une monture, ouvrez Montures.</string>
 	<string key="reward_type_tooltip_mountattachment" rel_version="Feature_Mounts">Pour appliquer une apparence d'accessoire de monture, sélectionnez Voir l'équipement de monture dans l'Inventaire, puis sélectionnez un accessoire de monture équipé.</string>
+	<string key="reward_type_tooltip_barbershop" rel_version="Feature_Barbershop">To use a Barbershop Token, go to a Stylemancer.</string>
 	<string key="ui_crest_disclaimer" rel_version="Feature_MTX">&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;Attention :&lt;/font&gt; seul le gouverneur (créateur) de la compagnie peut utiliser les armoiries de compagnie.</string>
 	<string key="ui_disabled_default_title" rel_version="Feature_MTX">Contenu indisponible</string>
 	<string key="ui_disabled_default_description" rel_version="Feature_MTX">Ce contenu est actuellement indisponible.</string>
@@ -215,6 +217,7 @@
 	<string key="store_requires_expansion_multiple_icon">&lt;img src="lyshineui/images/icons/misc/icon_exclamation" xPadding="0" scale="2" yOffset="5"&gt;&lt;/img&gt; {quantity} objets dans ce pack nécessite {expansionName}</string>
 	<string key="store_requires_expansion_warning">Vous ne pourrez pas utiliser {quantity} des objets de ce paquet sans l'achat de {expansionName}.</string>
 	<string key="store_requires_expansion_confirm">Acheter tout de même</string>
+	<string key="ui_amount_pack" rel_version="MTXStore_V2">Pack de {amount}</string>
 	<string key="ui_tag_intro_offer" rel_version="MTXStore_V2">Offre découverte</string>
 	<string key="runic_jackal_name" rel_version="Apparel_RunicJackal">Chacal runique</string>
 	<string key="crescent_fang_name" rel_version="Weapon_CrescentFang">Croc ourlé</string>
@@ -463,7 +466,7 @@
 	<string key="server_transfer_final_details" rel_version="Feature_Server_Transfer">En confirmant le transfert, vous vous déconnecterez du menu principal de sélection des personnages.</string>
 	<string key="server_transfer_final_details_purchase" rel_version="Feature_Server_Transfer">Après la transaction, vous vous déconnecterez du menu principal de sélection des personnages.</string>
 	<string key="server_transfer_change_world" rel_version="Feature_Server_Transfer">Changer de monde</string>
-	<string key="server_transfer_select_world" rel_version="Feature_Server_Transfer">Sélectionner le monde</string>
+	<string key="server_transfer_select_world" rel_version="Feature_Server_Transfer">Sélectionner monde</string>
 	<string key="server_transfer_select_region" rel_version="Feature_Server_Transfer">Choisir la région</string>
 	<string key="server_transfer_change_world_tooltip" rel_version="Feature_Server_Transfer">Pour changer de monde, il vous suffit de vous connecter à votre personnage, de vous rendre dans la boutique en jeu et de choisir l'option « Transfert de personnage ».</string>
 	<string key="server_transfer_change_world_tooltip_seasonalserver" rel_version="Feature_Seasonal_Servers">Les personnages des Mondes saisonniers ne peuvent pas être transférés avant la fermeture du Monde saisonnier.</string>
@@ -1300,23 +1303,35 @@
 	<string key="StoreItem_Bundle_Phoenix_Apparel_desc" rel_version="Season_7_Perm">Surgissez du feu et des flammes avec style !</string>
 	<string key="StoreItem_Bundle_Valentines_ApparelWeapon_name" rel_version="Season_7_Perm">Pack Amour altéré</string>
 	<string key="StoreItem_Bundle_Valentines_ApparelWeapon_desc" rel_version="Season_7_Perm">Le véritable amour ne peut être terni par l'altération... pas vrai ?</string>
-	<string key="StoreItem_Bundle_Valkyrie_Coiled_description">Une fois ce mode fini, te reverrai-je lorsque tout recommencera ?</string>
-	<string key="UI_EVENT_2">Nouveaux objets</string>
-	<string key="StoreItem_Bundle_Valkyrie_Coiled_name">Pack du destin de Jörmungandr</string>
-	<string key="mtx_emote_sale_store">Promo sur les émotes !</string>
-	<string key="UI_EVENT_1">Vacances</string>
-	<string key="Category_Override_FlavorText">On vous attend !</string>
-	<string key="mtx_valkyrie_store">Boutique de la Valkyrie</string>
-	<string key="StoreItem_Bundle_Valkyrie_Feathered_description">Prenez votre place à l'extrémité des cieux.</string>
-	<string key="StoreItem_Bundle_Valkyrie_Feathered_name">Pack de plumes de Hræsvelg</string>
-	<string key="ui_amount_pack">Pack de {amount}</string>
-	<string key="mtx_mount_sale_store">Vente de montures !</string>
-	<string key="mtx_barbarian_store">Boutique du barbare</string>
-	<string key="mtx_thickasthieves_store">Boutique des voleurs et compagnie</string>
-	<string key="mtx_campskin_sale_store">Vente d’apparences de bivouac !</string>
-	<string key="mtx_tool_sale_store">Vente d’outils !</string>
-	<string key="mtx_housing_sale_store">Vente de logements !</string>
-	<string key="mtx_apparel_sale_store">Vente de vêtements !</string>
-	<string key="mtx_weapon_sale_store">Vente d’armes !</string>
+	<string key="StoreItem_Token_Barbershop_X1_description" rel_version="Feature_Barbershop">Used for changing your look in the Barbershop.</string>
+	<string key="StoreItem_Token_Barbershop_X1_name" rel_version="Feature_Barbershop">Barbershop Token</string>
+	<string key="StoreItem_Bundle_Valkyrie_Coiled_name" rel_version="Season_7_Perm">Pack du destin de Jörmungandr</string>
+	<string key="StoreItem_Bundle_Valkyrie_Coiled_description" rel_version="Season_7_Perm">Une fois ce mode fini, te reverrai-je lorsque tout recommencera ?</string>
+	<string key="StoreItem_Bundle_Valkyrie_Feathered_name" rel_version="Season_7_Perm">Pack de plumes de Hræsvelg</string>
+	<string key="StoreItem_Bundle_Valkyrie_Feathered_description" rel_version="Season_7_Perm">Prenez votre place à l'extrémité des cieux.</string>
+	<string key="mtx_valkyrie_store" rel_version="Season_7_Perm">Boutique de la Valkyrie</string>
+	<string key="UI_EVENT_1" rel_version="Season_7_Perm">Nouveau !</string>
+	<string key="mtx_emote_sale_store" rel_version="Season_7_Perm">Promo sur les émotes !</string>
+	<string key="Category_Override_FlavorText" rel_version="Season_7_Perm">On vous attend !</string>
+	<string key="UI_EVENT_2" rel_version="Season_7_Perm">Vacances</string>
+	<string key="mtx_barbarian_store" rel_version="Season_7_Perm">Boutique du barbare</string>
+	<string key="mtx_thickasthieves_store" rel_version="Season_7_Perm">Boutique des voleurs et compagnie</string>
+	<string key="mtx_campskin_sale_store" rel_version="Season_7_Perm">Vente d’apparences de bivouac !</string>
+	<string key="mtx_apparel_sale_store" rel_version="Season_7_Perm">Vente de vêtements !</string>
+	<string key="mtx_weapon_sale_store" rel_version="Season_7_Perm">Vente d’armes !</string>
+	<string key="mtx_tool_sale_store" rel_version="Season_7_Perm">Vente d’outils !</string>
+	<string key="mtx_housing_sale_store" rel_version="Season_7_Perm">Vente de logements !</string>
+	<string key="mtx_mount_sale_store" rel_version="Season_7_Perm">Vente de montures !</string>
+	<string key="DyeA026_Mounts_MasterName">Rouge rune-cœur</string>
+	<string key="StoreItem_Bundle_Ninja_Kitsune_description">Dansez avec les renards et traquez les brumes.</string>
+	<string key="StoreItem_Bundle_GothicCoquette_name">Pack de danse macabre</string>
+	<string key="StoreItem_Bundle_GothicCoquette_description">L'heure du crime a sonné.</string>
+	<string key="SeasonPass_Premium_Season_8_name">Passe premium - Saison 8</string>
+	<string key="StoreItem_Bundle_Ninja_Kitsune_name">Pack de kitsune bioluminescent</string>
+	<string key="StoreItem_Bundle_GreekGodsApparelWeapon_description">Les dieux appellent leurs champions. Répondrez-vous à l'appel ?</string>
+	<string key="SeasonPass_HeadStart_Season_8_name">Passe premium Une longueur d'avance - Saison 8</string>
+	<string key="DyeA025_Mounts_MasterName">Blanc vertueux</string>
+	<string key="DyeA024_Mounts_MasterName">Noir spectral</string>
+	<string key="StoreItem_Bundle_GreekGodsApparelWeapon_name">Pack d'hôte de myrmidon</string>
 </resources>
 

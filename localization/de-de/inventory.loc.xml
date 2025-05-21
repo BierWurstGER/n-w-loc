@@ -78,16 +78,16 @@
 	<string key="inv_equipLoadSlowTooltip">• Basisschaden: um {[-0.150000 * -100]} % verringert \n• Geleistete Heilung: um 30 % verringert \n• Blockstabilität: um +10 % erhöht \n• Erlittene Massenkontroll-Schwächungen: Dauer um 20 % verringert \n• Du weichst mit einem Schritt aus. \n• Ausdauerkosten fürs Ausweichen: {[55.000000]} \n• Nach einem erlittenen Nahkampftreffer kannst du {[0.500000]} Sek. lang nicht rennen. \n• Erlittener kritischer PvP-Schaden: -{[0.250000 * 100]} %
 	</string>
 	<string key="inv_equipLoadOverburdenedTooltip">Hast du dein maximales Ausrüstungsgewicht überschritten, kannst du weder ausweichen noch rennen oder deine Fertigkeiten einsetzen. Du solltest einige Gegenstände ablegen.</string>
-	<string key="inv_equipLoadEncumberedTooltip">Wird die Inventargewichtsgrenze überschritten, bist du ausgelastet und eingeschränkt beim Bewegen und Ausführen von Aktionen. Blocken kostet mehr Ausdauer.</string>
+	<string key="inv_equipLoadEncumberedTooltip">Wird Inventargewichtsgrenze überschritten, bist du ausgelastet und kannst dich nur eingeschränkt bewegen und Aktionen ausführen. Außerdem verlierst du beim Blocken mehr Ausdauer.</string>
 	<string key="inv_equipLoadOverburdened_Tooltip" comment="This tooltip is for the status effect icon near vitals">Du hast mehr ausgerüstet, als dein maximales Ausrüstungsgewicht zulässt. Du kannst nicht ausweichen oder rennen und deine Ausdauerregeneration fällt deutlich niedriger aus. Du solltest einige Gegenstände ablegen.</string>
 	<string key="inv_equipLoadFastNotification">Ausrüstungsgewicht ist jetzt leicht</string>
 	<string key="inv_equipLoadNormalNotification">Ausrüstungsgewicht ist jetzt Mittel</string>
 	<string key="inv_equipLoadSlowNotification">Ausrüstungsgewicht ist jetzt schwer</string>
 	<string key="inv_equipLoadOverburdenedNotification">Überlastet – Ausweichen und Rennen nicht möglich</string>
-	<string key="inv_equipLoadEncumberedNotification">Ausgelastet – Ausweichen, Springen und Rennen nicht möglich</string>
+	<string key="inv_equipLoadEncumberedNotification">Ausgelastet – Rennen, Ausweichen und Springen nicht möglich</string>
 	<string key="inv_encumbranceTooltip">Das Inventargewicht wirkt sich auf deine Bewegung und Aktionen aus. Rüste Taschen auf, um deren Gewichtsgrenze zu erhöhen. Wird die Grenze überschritten, bist du ausgelastet. Wird sie stark überschritten, bist du überlastet.</string>
 	<string key="inv_encumbranceUnencumberedTooltip">Du kannst alle Aktionen ausführen, weil du die Inventargewichtsgrenze unterschreitest.</string>
-	<string key="inv_encumbranceEncumberedTooltip">• Ausgelastet: Rennen, Ausweichen und Springen nicht möglich.\n• Überlastet: Bewegen, Ausweichen, Springen und Angreifen nicht möglich.</string>
+	<string key="inv_encumbranceEncumberedTooltip">• Ausgelastet: Rennen, Ausweichen und Springen nicht möglich.\n• Überlastet: Angreifen, Rennen, Ausweichen und Springen nicht möglich.</string>
 	<string key="inv_does_not_meet_weapon_requirements">Attribute zu niedrig</string>
 	<string key="inv_encumbranceAttackNotification">Überlastet – Angreifen nicht möglich.</string>
 	<string key="inv_insufficientManaNotification">Ungenügend Mana</string>
@@ -163,7 +163,7 @@
 	<string key="ui_dropall_in_trade">Beim Handeln können keine Gegenstände abgelegt werden.</string>
 	<string key="ui_transfer_all_filtered">Es können nicht alle Gegenstände in diesen Abschnitt verschoben werden, solange Gegenstände gefiltert werden.</string>
 	<string key="ui_storeall">Alles in den Lagerschuppen räumen.</string>
-	<string key="ui_filterDescription">&lt;font color={subheaderColor} face="lyshineui/fonts/Nimbus_Bold.font"&gt;WIE MAN SUCHT&lt;/font&gt;\n\n&lt;font color={subheaderColor} face="lyshineui/fonts/Nimbus_semibold.font"&gt;Veredeln&lt;/font&gt;\n• Eingeschlossen: Schwert\n• Ausgeschlossen: -Axt\n• Effekte/Edelstein: [Schutz]\n• Mindestrüstwert: 100\n• Mindestrang: R1\n\n&lt;font color={subheaderColor} face="lyshineui/fonts/Nimbus_semibold.font"&gt;Hoch entwickelt&lt;/font&gt;\n• Schwert -200\n• -Axt -R1\n• Hacke -(Eisen)\n• Muskete [Elektrifiziert]</string>
+	<string key="ui_filterDescription">&lt;font color={subHeaderColor} face="lyshineui/fonts/Nimbus_Bold.font"&gt;WIE MAN SUCHT&lt;/font&gt;\n\n&lt;font color={subHeaderColor} face="lyshineui/fonts/Nimbus_semibold.font"&gt;Veredeln&lt;/font&gt;\n• Eingeschlossen: Schwert\n• Ausgeschlossen: -Axt\n• Effekte/Edelstein: [Schutz]\n• Mindestrüstwert: 100\n• Mindestrang: R1\n\n&lt;font color={subHeaderColor} face="lyshineui/fonts/Nimbus_semibold.font"&gt;Hoch entwickelt&lt;/font&gt;\n• Schwert -200\n• -Axt -R1\n• Hacke -(Eisen)\n• Muskete [Elektrifiziert]</string>
 	<string key="ui_filterText">Suchen</string>
 	<string key="ui_filterHeader">Gegenstand filtern</string>
 	<string key="ui_sort">Sortieren</string>
@@ -261,5 +261,6 @@
 	<string key="perktooltips_stacks_over_limit">(über Max.)</string>
 	<string key="perktooltips_stacks_over_limit_disabled">(deaktiviert)</string>
 	<string key="perktooltips_max_stacks">Maximale Effektstapel: </string>
+	<string key="inv_equipLoadOverEncumberedNotification">Überlastet – Angreifen, Rennen, Ausweichen und Springen nicht möglich.</string>
 </resources>
 

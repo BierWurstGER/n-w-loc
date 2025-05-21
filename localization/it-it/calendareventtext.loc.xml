@@ -1,7 +1,6 @@
 <resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<string key="ui_news_button">Eventi e novità</string>
-	<string key="ui_news_button_no_news">Nessuna storia nuova disponibile.</string>
-	<string key="ui_news_about">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Informazioni sulle novità</string>
+	<string key="ui_news_button_no_news">Nessun annuncio disponibile.</string>
 	<string key="ui_news_modal_display_start_date">Inizia in data {startDate}</string>
 	<string key="ui_news_modal_display_end_date">Termina in data {endDate}</string>
 	<string key="ui_news_modal_display_start_datetime">Inizia alle ore {startTime} del giorno {startDate}</string>
@@ -13,6 +12,10 @@
 	<string key="ui_event_summer_progress_name" rel_version="Event_Summer_Perm">Reputazione evento</string>
 	<string key="ui_event_halloween_progress_name" rel_version="Event_Halloween_Perm">Reputazione evento</string>
 	<string key="ui_event_spring_progress_name" rel_version="Event_SpringtideBloom_Perm">Reputazione evento</string>
+	<string key="ui_event_spring_rank_0" rel_version="Event_SpringtideBloom_Temp">Bocciolo</string>
+	<string key="ui_event_spring_rank_1" rel_version="Event_SpringtideBloom_Temp">Pastore</string>
+	<string key="ui_event_spring_rank_2" rel_version="Event_SpringtideBloom_Temp">Araldo</string>
+	<string key="ui_event_spring_shop_header" rel_version="Event_SpringtideBloom_Temp">Fioritura primaverile</string>
 	<string key="ui_news_store_tabname">Negozio</string>
 	<string key="ui_news_expedition_tabname">Spedizione</string>
 	<string key="ui_news_expeditions_tabname">Spedizioni</string>
@@ -49,6 +52,7 @@
 	<string key="ui_news_bullet_resources">Risorse</string>
 	<string key="ui_news_bullet_decor">Decorazioni</string>
 	<string key="ui_news_bullet_mounts" rel_version="Feature_Mounts">Cavalcature</string>
+	<string key="ui_news_bullet_mount_skin" rel_version="Feature_Mounts">Skin cavalcatura</string>
 	<string key="ui_news_bullet_mount_skins" rel_version="Feature_Mounts">Skin per cavalcatura</string>
 	<string key="ui_news_bullet_mount_attachments" rel_version="Feature_Mounts">Accessori per cavalcatura</string>
 	<string key="ui_news_bullet_artifact" rel_version="Feature_Artifacts">Manufatto</string>
@@ -56,21 +60,13 @@
 	<string key="ui_news_bullet_transmog_tokens" rel_version="Season_2_Perm">Gettoni transmog</string>
 	<string key="ui_news_bullet_instrument_skins">Skin per strumenti</string>
 	<string key="ui_news_bullet_housing_trophy">Trofeo per la casa</string>
-	<string key="ui_event_weapon_xp_tabname">Evento PE</string>
+	<string key="ui_news_bullet_apparel_skin">Skin per vestiario</string>
+	<string key="ui_news_bullet_apparel_skins">Skin per vestiario</string>
 	<string key="ui_event_weapon_xp_title">EVENTO BONUS PE ARMI</string>
-	<string key="ui_event_weapon_xp_desc">Bonus attivi:</string>
-	<string key="ui_event_gathering_xp_tabname">Evento PE</string>
 	<string key="ui_event_gathering_xp_title">EVENTO BONUS PE RACCOLTA</string>
-	<string key="ui_event_gathering_xp_desc">Bonus attivi:</string>
-	<string key="ui_event_character_xp_tabname">Evento PE</string>
 	<string key="ui_event_character_xp_title">EVENTO BONUS PE LIVELLO PERSONAGGIO</string>
-	<string key="ui_event_character_xp_desc">Bonus attivi:</string>
-	<string key="ui_event_refining_xp_tabname">Evento PE</string>
 	<string key="ui_event_refining_xp_title">EVENTO BONUS PE LAVORAZIONE</string>
-	<string key="ui_event_refining_xp_desc">Bonus attivi:</string>
-	<string key="ui_event_extravaganza_tabname">Evento PE</string>
 	<string key="ui_event_extravaganza_title">EVENTO INSOLITO PE</string>
-	<string key="ui_event_extravaganza_desc">Bonus attivi:</string>
 	<string key="ui_news_end_game_tabname">Gioco avanzato</string>
 	<string key="ui_news_end_game_description">Al livello 60, ora puoi&lt;font color="#edc63e"&gt; migliorare il tuo equipaggiamento &lt;/font&gt;con punteggi attrezzatura più alti. Per farlo, dovrai raccogliere gesso visitando vari luoghi e svolgendo attività al Livello 60. Visita una&lt;font color="#edc63e"&gt; fornace di gesso &lt;/font&gt;per saperne di più.</string>
 	<string key="ui_end_game_panel1_title">ATTIVITÀ AVANZATE</string>
@@ -91,8 +87,8 @@
 	<string key="ui_event_console_beta_preorder_news_bullet_azoth_stalker">Inseguitore di Azoth</string>
 	<string key="ui_event_console_beta_preorder_news_bullet_mount_skins_deluxe">Skin per cavalcatura\n(Deluxe)</string>
 	<string key="ui_event_console_beta_preorder_news_bullet_armor_skins_deluxe">Skin per armatura\n(Deluxe)</string>
-	<string key="ui_event_season_seven_title" comment="DO NOT TRANSLATE" rel_version="Season_7_Perm">Stagione dei conquistatori</string>
-	<string key="ui_event_season_seven_description" comment="DO NOT TRANSLATE" rel_version="Season_7_Perm">Inaugura un nuovo inizio e combatti per il dominio in un server stagionale unico che incoraggia il combattimento giocatore contro giocatore. Ottieni una serie di nuovi manufatti, skin e molto altro nel percorso di ricompense della Stagione dei conquistatori.</string>
+	<string key="ui_event_season_seven_title" rel_version="Season_7_Perm">Stagione dei conquistatori</string>
+	<string key="ui_event_season_seven_description" rel_version="Season_7_Perm">Inaugura un nuovo inizio e combatti per il dominio in un server stagionale unico che incoraggia il combattimento giocatore contro giocatore. Ottieni una serie di nuovi manufatti, skin e molto altro nel percorso di ricompense della Stagione dei conquistatori.</string>
 	<string key="ui_event_season_seven_about" comment="DO NOT TRANSLATE" rel_version="Season_7_Perm">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; About Season 7 Placeholder</string>
 	<string key="ui_news_rise_of_the_angry_earth_expansion_title">Scopri tutto ciò che Aeternum ha da offrire</string>
 	<string key="ui_news_rise_of_the_angry_earth_expansion_description">Vivi l'esperienza completa di New World: Aeternum\n\nI giocatora su PC che possiedono l'espansione Ascesa della Terra irata hanno accesso a tutte le caratteristiche di New World: Aeternum, incluse importanti aggiunte come:</string>
@@ -101,17 +97,35 @@
 	<string key="ui_news_rise_of_the_angry_earth_expansion_icon2">Mazzafrusto</string>
 	<string key="ui_news_rise_of_the_angry_earth_expansion_icon3">Incursione per 10 giocatori</string>
 	<string key="ui_news_rise_of_the_angry_earth_expansion_purchase_button">Acquista ora</string>
+	<string key="ui_event_siege_of_sulfur_title_2025">Assedio sulfureo</string>
+	<string key="ui_event_siege_of_sulfur_description_2025">I maghi del Sangue della sabbia di Sharif sono sotto attacco! Mentre trasportavano preziose Uova di Verme della sabbia in luoghi sicuri di Aeternum, questi maghi sono stati assaliti dalle forze di Adiana. Elementali sulfurei infuriati stanno cercando di distruggere le uova e sradicare i Vermi da Aeternum. Difendi le uova e ottieni preziose ricompense, tra cui potenti equipaggiamenti, fantastici oggetti per la casa e favolosi elementi estetici.</string>
+	<string key="ui_event_legacy_of_crassus_title_2025">Lascito di Crasso</string>
+	<string key="ui_event_legacy_of_crassus_description_2025">Crasso ritorna con la sua mostruosa legione al seguito! Raduna le tue armate e affronta i brutali capitani Decimus e Lucanus a Boscobrillante, Valle del cordoglio, Palude del tessitore e Scaglia d'ebano. Respingi l'offensiva romana e liberati dalla morsa della Corruzione per conquistare gloria, onore e ricompense a tempo limitato!</string>
+	<string key="ui_event_rabbits_revenge_title_2025">Vendetta del coniglio!</string>
+	<string key="ui_event_rabbits_revenge_description_2025">I conigli corrotti hanno invaso Aeternum! Elimina la Corruzione per ottenere feroci ricompense.</string>
+	<string key="ui_event_valkyrie_title" rel_version="Entitlements_Valkyrie">Valchiria</string>
+	<string key="ui_event_valkyrie_description" rel_version="Entitlements_Valkyrie">Sono arrivati nuovi contenuti a tema valchiria! Metti in mostra l'armatura con il potere di vita o di morte in battaglia.</string>
+	<string key="ui_event_valkyrie_about" rel_version="Entitlements_Valkyrie">Informazioni sulla Valchiria</string>
+	<string key="ui_event_barbarian_title" rel_version="Entitlements_Barbarian">Barbaro</string>
+	<string key="ui_event_barbarian_description" rel_version="Entitlements_Barbarian">Sono arrivati nuovi contenuti a tema barbarico! Applicare l'ascia direttamente sul problema. Ripetere se necessario.</string>
+	<string key="ui_event_barbarian_about" rel_version="Entitlements_Barbarian">Informazioni sul Barbaro</string>
+	<string key="ui_event_thick_as_thieves_title" rel_version="Entitlements_ThickThieves">Duro come un ladro</string>
+	<string key="ui_event_thick_as_thieves_description" rel_version="Entitlements_ThickThieves">Solo i fidati entrano nell'ombra; solo gli abili ne escono indenni. Scopri vestiario creato per chi è duro come un ladro. Sono arrivati nuovi contenuti a tema Duro come un ladro!</string>
+	<string key="ui_event_thick_as_thieves_about" rel_version="Entitlements_ThickThieves">Informazioni su Duro come un ladro</string>
 	<string key="ui_event_legacy_of_crassus_title">Lascito di Crasso</string>
-	<string key="ui_event_legacy_of_crassus_description">Crasso ritorna con la sua mostruosa legione al seguito! Raduna le tue forze e affronta i brutali capitani Decimus e Lucanus presso Boscobrillante, Valle del cordoglio, Palude del tessitore, Frutteto dell'Eden e Scaglia d'ebano. Respingi l'offensiva romana e liberati dalla morsa della Corruzione per conquistare gloria, onore e ricompense a tempo limitato!</string>
+	<string key="ui_event_legacy_of_crassus_description">Crasso ritorna con la sua mostruosa legione al seguito! Raduna le tue armate e affronta i brutali capitani Decimus e Lucanus a Boscobrillante, Valle del cordoglio, Palude del tessitore e Scaglia d'ebano. Respingi l'offensiva romana e liberati dalla morsa della Corruzione per conquistare gloria, onore e ricompense a tempo limitato!</string>
 	<string key="ui_event_legacy_of_crassus_bullet1">Piccozza della legione</string>
 	<string key="ui_event_legacy_of_crassus_bullet2">Statua di Decimus</string>
 	<string key="ui_event_legacy_of_crassus_bullet3">Statua di Lucanus</string>
 	<string key="ui_event_legacy_of_crassus_about">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Informazioni su Lascito di Crasso</string>
+	<string key="ui_event_springtide_bloom_title" rel_version="Event_SpringtideBloom_Temp">È sbocciata la primavera!</string>
+	<string key="ui_event_springtide_bloom_description" rel_version="Event_SpringtideBloom_Temp">È il momento della fioritura annuale degli esili boccioli! Festeggia questo momento magico raccogliendo i loro petali, poi visita il villaggio primaverile per ottenere potenti ricompense uniche. Ricorda di portare con te un repellente per le fastidiose vespe meste!</string>
+	<string key="ui_event_springtide_bloom_about" rel_version="Event_SpringtideBloom_Temp">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Informazioni sulla fioritura primaverile</string>
 	<string key="ui_event_rabbits_revenge_title">Vendetta del coniglio!</string>
 	<string key="ui_event_rabbits_revenge_description">I conigli corrotti hanno invaso Aeternum! Elimina la Corruzione per ottenere feroci ricompense.</string>
 	<string key="ui_event_rabbits_revenge_about">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Informazioni sulla vendetta dei conigli</string>
 	<string key="ui_event_summer_medleyfaire_title">Pesca a più non posso alla fiera estiva!</string>
-	<string key="ui_event_summer_medleyfaire_description">Torna la fiera estiva di Aeternum! Sblocca una nuova melodia completando le attività dell'evento, poi strimpella per ottenere gettoni della fiera estiva e un nuovo titolo. Festeggia nei luoghi in cui si svolge la fiera a Promontorio del Monarca, Calata eterna, Boscobrillante e Palude del tessitore.</string>
+	<string key="ui_event_summer_medleyfaire_description">Torna la fiera estiva di Aeternum! Sblocca una nuova marmellata completando le attività dell'evento, poi strimpella per ottenere gettoni della fiera estiva e un nuovo titolo. Festeggia nei luoghi in cui si svolge la fiera a Promontorio del Monarca, Calata eterna, Boscobrillante e Palude del tessitore.</string>
 	<string key="ui_event_summer_medleyfaire_bullet1">Cappello da sovrintendente</string>
 	<string key="ui_event_summer_medleyfaire_about">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Informazioni sulla fiera estiva</string>
 	<string key="ui_event_fury_of_the_spriggan_title">Furia dello Spriggan</string>
@@ -136,23 +150,5 @@
 	<string key="ui_event_winter_convergence_title">Convergenza invernale</string>
 	<string key="ui_event_winter_convergence_description">Il Guerriero d'inverno e i suoi glaciali servitori sono scesi ancora una volta su Aeternum portando con sé la gelida minaccia dell'inverno eterno! Riunisci i tuoi amici e diffondi il calore e l'allegria della convergenza per respingere il freddo pungente, poi cerca l'allegro Viandante invernale nei villaggi invernali di Aeternum per ottenere una serie di ricompense a tempo limitato!</string>
 	<string key="ui_event_winter_convergence_about">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Informazioni sulla convergenza invernale</string>
-	<string key="ui_event_valkyrie_title">Valchiria</string>
-	<string key="ui_news_bullet_apparel_skin">Skin per vestiario</string>
-	<string key="ui_event_barbarian_title">Barbaro</string>
-	<string key="ui_event_siege_of_sulfur_description_2025">I maghi del Sangue della sabbia di Sharif sono sotto attacco! Mentre trasportavano preziose Uova di Verme della sabbia in luoghi sicuri di Aeternum, questi maghi sono stati assaliti dalle forze di Adiana. Elementali sulfurei infuriati stanno cercando di distruggere le uova e sradicare i Vermi da Aeternum. Difendi le uova e ottieni preziose ricompense, tra cui potenti equipaggiamenti, fantastici oggetti per la casa e favolosi elementi estetici.</string>
-	<string key="ui_event_rabbits_revenge_description_2025">I conigli corrotti hanno invaso Aeternum! Elimina la Corruzione per ottenere feroci ricompense.</string>
-	<string key="ui_event_rabbits_revenge_title_2025">Vendetta del coniglio!</string>
-	<string key="ui_event_siege_of_sulfur_title_2025">Assedio sulfureo</string>
-	<string key="ui_event_barbarian_about">Informazioni sul Barbaro</string>
-	<string key="ui_event_barbarian_description">Sono arrivati nuovi contenuti a tema barbarico! Applicare l'ascia direttamente sul problema. Ripetere se necessario.</string>
-	<string key="ui_event_thick_as_thieves_title">Duro come un ladro</string>
-	<string key="ui_event_legacy_of_crassus_title_2025">Lascito di Crasso</string>
-	<string key="ui_news_bullet_mount_skin">Skin cavalcatura</string>
-	<string key="ui_event_valkyrie_about">Informazioni sulla Valchiria</string>
-	<string key="ui_event_legacy_of_crassus_description_2025">Crasso ritorna con la sua mostruosa legione al seguito! Raduna le tue armate e affronta i brutali capitani Decimus e Lucanus a Boscobrillante, Valle del cordoglio, Palude del tessitore e Scaglia d'ebano. Respingi l'offensiva romana e liberati dalla morsa della Corruzione per conquistare gloria, onore e ricompense a tempo limitato!</string>
-	<string key="ui_news_bullet_apparel_skins">Skin per vestiario</string>
-	<string key="ui_event_thick_as_thieves_description">Solo i fidati entrano nell'ombra; solo gli abili ne escono indenni. Scopri vestiario creato per chi è duro come un ladro. Sono arrivati nuovi contenuti a tema Duro come un ladro!</string>
-	<string key="ui_event_valkyrie_description">Sono arrivati nuovi contenuti a tema valchiria! Metti in mostra l'armatura con il potere di vita o di morte in battaglia.</string>
-	<string key="ui_event_thick_as_thieves_about">Informazioni su Duro come un ladro</string>
 </resources>
 

@@ -84,10 +84,10 @@
 	<string key="inv_equipLoadNormalNotification">Il carico equipaggiato ora è medio.</string>
 	<string key="inv_equipLoadSlowNotification">Il carico equipaggiato ora è pesante.</string>
 	<string key="inv_equipLoadOverburdenedNotification">Sovraccarico - Non puoi schivare né correre</string>
-	<string key="inv_equipLoadEncumberedNotification">Troppo peso - Non puoi schivare, né saltare, né correre</string>
+	<string key="inv_equipLoadEncumberedNotification">Troppo peso - Non puoi correre né schivare o saltare</string>
 	<string key="inv_encumbranceTooltip">Il peso dell'inventario influisce sui tuoi movimenti e sulle tue azioni. Migliora le borse per aumentare il limite di peso. Se il limite viene superato, il peso sarà eccessivo. Se viene superato di molto, il peso sarà insostenibile.</string>
 	<string key="inv_encumbranceUnencumberedTooltip">Puoi eseguire liberamente qualsiasi azione in quanto il limite di peso dell'inventario non è stato superato.</string>
-	<string key="inv_encumbranceEncumberedTooltip">• Troppo peso: Non puoi correre, né schivare, né saltare.\n• Peso insostenibile: non puoi muoverti, né schivare, né saltare, né attaccare.</string>
+	<string key="inv_encumbranceEncumberedTooltip">• Troppo peso: Non puoi correre, né schivare, né saltare.\n• Peso insostenibile: Non puoi attaccare né correre, schivare o saltare.</string>
 	<string key="inv_does_not_meet_weapon_requirements">Attributi insufficienti</string>
 	<string key="inv_encumbranceAttackNotification">Peso insostenibile - Non puoi attaccare</string>
 	<string key="inv_insufficientManaNotification">Mana insufficiente</string>
@@ -163,7 +163,7 @@
 	<string key="ui_dropall_in_trade">Non puoi lasciare oggetti durante lo scambio.</string>
 	<string key="ui_transfer_all_filtered">Impossibile spostare tutti gli oggetti in questa sezione mentre è attivo un filtro.</string>
 	<string key="ui_storeall">Sposta tutto nella capanna di deposito.</string>
-	<string key="ui_filterDescription">&lt;font color={subheaderColor} face="lyshineui/fonts/Nimbus_Bold.font"&gt;COME ESEGUIRE UNA RICERCA&lt;/font&gt;\n\n&lt;font color={subheaderColor} face="lyshineui/fonts/Nimbus_semibold.font"&gt;Affina la ricerca&lt;/font&gt;\nIncludi: spada\n• Escludi: -ascia\n• Vantaggi/gemme: [Protezione]\n• Punteggio attrezzatura minimo: 100\n• Livello minimo: L1\n\n&lt;font color={subheaderColor} face="lyshineui/fonts/Nimbus_semibold.font"&gt;Opzioni avanzate&lt;/font&gt;\n• Spada -200\n• -Ascia -L1\n• Piccone -ferro\n• Moschetto [elettrificato]</string>
+	<string key="ui_filterDescription">&lt;font color={subHeaderColor} face="lyshineui/fonts/Nimbus_Bold.font"&gt;COME ESEGUIRE UNA RICERCA&lt;/font&gt;\n\n&lt;font color={subHeaderColor} face="lyshineui/fonts/Nimbus_semibold.font"&gt;Affina la ricerca&lt;/font&gt;\nIncludi: spada\n• Escludi: -ascia\n• Vantaggi/gemme: [Protezione]\n• Punteggio attrezzatura minimo: 100\n• Livello minimo: L1\n\n&lt;font color={subHeaderColor} face="lyshineui/fonts/Nimbus_semibold.font"&gt;Opzioni avanzate&lt;/font&gt;\n• Spada -200\n• -Ascia -L1\n• Piccone -ferro\n• Moschetto [elettrificato]</string>
 	<string key="ui_filterText">Cerca</string>
 	<string key="ui_filterHeader">Filtro oggetto</string>
 	<string key="ui_sort">Ordina</string>
@@ -261,5 +261,6 @@
 	<string key="perktooltips_stacks_over_limit">(oltre il massimo)</string>
 	<string key="perktooltips_stacks_over_limit_disabled">(disattivato)</string>
 	<string key="perktooltips_max_stacks">Accumuli massimi vantaggio: </string>
+	<string key="inv_equipLoadOverEncumberedNotification">Peso insostenibile - Non puoi attaccare né correre, schivare o saltare</string>
 </resources>
 

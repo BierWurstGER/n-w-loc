@@ -87,7 +87,7 @@
 	<string key="inv_equipLoadEncumberedNotification">Przeciążenie – nie możesz biegać, skakać ani wykonywać uników</string>
 	<string key="inv_encumbranceTooltip">Ciężar ekwipunku wpływa na twoje ruchy i czynności. Ulepsz torby, by zwiększyć ich limit ciężaru. Jeśli przekroczysz limit ciężaru ekwipunku, ulegniesz przeciążeniu. Jeśli znacznie przekroczysz limit ciężaru, ulegniesz nadmiernemu przeciążeniu.</string>
 	<string key="inv_encumbranceUnencumberedTooltip">Możesz swobodnie wykonywać wszystkie czynności, ponieważ twój limit ciężaru ekwipunku nie został przekroczony.</string>
-	<string key="inv_encumbranceEncumberedTooltip">• Przeciążenie: nie możesz biegać, skakać ani wykonywać uników.\n• Nadmierne przeciążenie: nie możesz się ruszać, skakać, wykonywać uników ani atakować.</string>
+	<string key="inv_encumbranceEncumberedTooltip">• Przeciążenie: nie możesz biegać, skakać ani wykonywać uników.\n• Nadmierne przeciążenie: Nie możesz biegać, skakać ani wykonywać uników.</string>
 	<string key="inv_does_not_meet_weapon_requirements">Niewystarczające cechy</string>
 	<string key="inv_encumbranceAttackNotification">Nadmierne przeciążenie – nie można atakować</string>
 	<string key="inv_insufficientManaNotification">Za mało many</string>
@@ -163,7 +163,7 @@
 	<string key="ui_dropall_in_trade">Nie możesz upuszczać przedmiotów podczas handlowania.</string>
 	<string key="ui_transfer_all_filtered">Nie można przenieść wszystkich przedmiotów tej kategorii, gdy zastosowano filtr przedmiotów.</string>
 	<string key="ui_storeall">Przenieś wszystko do składziku.</string>
-	<string key="ui_filterDescription">&lt;font color={subheaderColor} face="lyshineui/fonts/Nimbus_Bold.font"&gt;JAK SZUKAĆ&lt;/font&gt;\n\n&lt;font color={subheaderColor} face="lyshineui/fonts/Nimbus_semibold.font"&gt;Zawęź wyniki&lt;/font&gt;\n• Uwzględnij: Miecz\n• Wyklucz: -Topór\n• Profity/klejnoty: [ochrona]\n• Min. liczba pkt wyposażenia: 100\n• Min. klasa: K1\n\n&lt;font color={subheaderColor} face="lyshineui/fonts/Nimbus_semibold.font"&gt;Zaawansowane&lt;/font&gt;\n• Miecz -200\n• -Topór -K1\n• Oskard -żelazo\n• Muszkiet [elektryzacja]</string>
+	<string key="ui_filterDescription">&lt;font color={subHeaderColor} face="lyshineui/fonts/Nimbus_Bold.font"&gt;JAK SZUKAĆ&lt;/font&gt;\n\n&lt;font color={subHeaderColor} face="lyshineui/fonts/Nimbus_semibold.font"&gt;Zawęź wyniki&lt;/font&gt;\n• Uwzględnij: Miecz\n• Wyklucz: -Topór\n• Profity/klejnoty: [ochrona]\n• Min. liczba pkt wyposażenia: 100\n• Min. klasa: K1\n\n&lt;font color={subHeaderColor} face="lyshineui/fonts/Nimbus_semibold.font"&gt;Zaawansowane&lt;/font&gt;\n• Miecz -200\n• -Topór -K1\n• Oskard -żelazo\n• Muszkiet [elektryzacja]</string>
 	<string key="ui_filterText">Szukaj</string>
 	<string key="ui_filterHeader">Filtruj przedmiot</string>
 	<string key="ui_sort">Sortuj</string>
@@ -261,5 +261,6 @@
 	<string key="perktooltips_stacks_over_limit">(ponad maks.)</string>
 	<string key="perktooltips_stacks_over_limit_disabled">(nieaktywne)</string>
 	<string key="perktooltips_max_stacks">Maks. liczba skum. efektów profitu: </string>
+	<string key="inv_equipLoadOverEncumberedNotification">Nadmierne przeciążenie – nie możesz atakować, biegać, skakać ani wykonywać uników</string>
 </resources>
 

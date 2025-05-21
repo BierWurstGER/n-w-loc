@@ -275,7 +275,7 @@
 	<string key="ui_b">B</string>
 	<string key="ui_back">Zurück</string>
 	<string key="ui_background_description">Wähle ein Muster aus, das zu deinem Siegel passt.</string>
-	<string key="ui_background">Muster</string>
+	<string key="ui_background">Schema</string>
 	<string key="ui_backstory">Anfangsausrüstung</string>
 	<string key="ui_bait">KÖDER</string>
 	<string key="ui_baskets">KÖRBE</string>
@@ -709,8 +709,8 @@
 	<string key="ui_play">Spielen</string>
 	<string key="ui_playername">Spielername</string>
 	<string key="ui_playername_with_platformicon" rel_version="ConsoleLaunch">&lt;font color={playerNameColor} face="lyshineui/fonts/Nimbus_Semibold.font"&gt;{playerName} &lt;/font&gt; &lt;img src="{platformIcon}" scale="1.3" yOffset="3"&gt;&lt;/img&gt;</string>
-	<string key="ui_playername_with_platformname_with_platformicon" rel_version="ConsoleLaunch">&lt;font color={platformNameColor} face="lyshineui/fonts/Nimbus_Semibold.font"&gt;{platformName} &lt;/font&gt; &lt;img src="{platformIcon}" scale="1.3" yOffset="3"&gt;&lt;/img&gt;&lt;font color={playerNameColor} face="lyshineui/fonts/Nimbus_medium.font" &gt; | {playerName}&lt;/font&gt;</string>
-	<string key="ui_playername_with_platformname_with_platformicon_platformfriend" rel_version="ConsoleLaunch">&lt;font color={platformNameColor} face="lyshineui/fonts/Nimbus_Semibold.font"&gt;{platformName} &lt;/font&gt; &lt;img src="{platformIcon}" scale="1.3" yOffset="3"&gt;&lt;/img&gt; &lt;img src="{platformFriendIcon}" scale="1.3" yOffset="3"&gt;&lt;/img&gt;&lt;font color={playerNameColor} face="lyshineui/fonts/Nimbus_medium.font" &gt; | {playerName}&lt;/font&gt;</string>
+	<string key="ui_playername_with_platformname_with_platformicon" rel_version="ConsoleLaunch">&lt;font color={playerNameColor} face="lyshineui/fonts/Nimbus_Semibold.font" &gt;{playerName} &lt;/font&gt;&lt;font color={platformNameColor} face="lyshineui/fonts/Nimbus_medium.font"&gt; | &lt;img src="{platformIcon}" scale="1.3" yOffset="3"&gt;&lt;/img&gt; {platformName}&lt;/font&gt;</string>
+	<string key="ui_playername_with_platformname_with_platformicon_platformfriend" rel_version="ConsoleLaunch">&lt;font color={playerNameColor} face="lyshineui/fonts/Nimbus_Semibold.font" &gt;{playerName} &lt;/font&gt;&lt;font color={platformNameColor} face="lyshineui/fonts/Nimbus_medium.font"&gt; | &lt;img src="{platformIcon}" scale="1.3" yOffset="3"&gt;&lt;/img&gt; &lt;img src="{platformFriendIcon}" scale="1.3" yOffset="3"&gt;&lt;/img&gt; {platformName}&lt;/font&gt;</string>
 	<string key="ui_playernamehassentyouag">{Playername} hat dir eine Gruppeneinladung geschickt. Halte zum Anschließen [H] gedrückt.</string>
 	<string key="ui_pressanykeytocontinue">Drücke eine beliebige Taste zum Fortfahren.</string>
 	<string key="ui_presskeytoassign">Wähle eine Eingabe, der diese Fertigkeit zugewiesen werden soll.</string>
@@ -732,6 +732,8 @@
 	<string key="ui_out">Heraus</string>
 	<string key="ui_zoom_in">Heranzoomen</string>
 	<string key="ui_zoom_out">Herauszoomen</string>
+	<string key="ui_cycle_pvpspectator_next" rel_version="Feature_SpectatorCam">Nächstem zuschauen</string>
+	<string key="ui_cycle_pvpspectator_prev" rel_version="Feature_SpectatorCam">Vorherigem zuschauen</string>
 	<string key="ui_freelook">Freies Umsehen</string>
 	<string key="ui_rangedcombat">Fernkampf</string>
 	<string key="ui_shoot">Schießen</string>
@@ -906,22 +908,7 @@
 	<string key="ui_shift_modifier_toggle_popup_title" rel_version="Feature_Controller">Tastenbelegung aktualisieren</string>
 	<string key="ui_shift_modifier_toggle_popup_message" rel_version="Feature_Controller">Modifikator-Tasten sind in diesem Modus einzigartig und können nicht von anderen Aktionen verwendet werden. Die Aktivierung per Modifikator hebt die Verknüpfung jeder Aktion mit derselben Taste auf. Fortfahren?</string>
 	<string key="ui_binding_controller_success" rel_version="Feature_Controller">{action} erfolgreich neu verknüpft.</string>
-	<string key="ui_binding_controller_reserved_key_blocked" rel_version="Feature_Controller">&lt;img src="{path}" gpBtn="{key}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt; ist eine reservierte Taste und kann nicht verwendet werden.</string>
-	<string key="ui_binding_controller_confirmation_message" rel_version="Feature_Controller">&lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{actionName}&lt;/font&gt; mit &lt;img src="{path}" gpBtn="{key}" isHoldBtn="{isStaticHold}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt; verknüpfen?</string>
-	<string key="ui_binding_controller_double_size_confirmation_message" rel_version="Feature_Controller">&lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{actionName}&lt;/font&gt; mit &lt;img src="{path}" gpBtn="{key}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt; / &lt;img src="{path}" gpBtn="{key}" isHoldBtn="1" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt; verknüpfen?</string>
-	<string key="ui_binding_controller_combo_confirmation_message" rel_version="Feature_Controller">&lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{actionName}&lt;/font&gt; mit &lt;img src="{firstPath}" gpBtn="{firstKey}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt; + &lt;img src="{secondPath}" gpBtn="{secondKey}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt; verknüpfen?</string>
-	<string key="ui_binding_controller_shift_modifier_child_confirmation_message" rel_version="Feature_Controller">Der übergeordnete Modifikator ist &lt;img src="{shiftModifierPath}" gpBtn="{shiftModifierKey}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt;.\n\n&lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{actionName}&lt;/font&gt; mit &lt;img src="{shiftModifierPath}" gpBtn="{shiftModifierKey}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt; + &lt;img src="{path}" gpBtn="{key}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt; verknüpfen?</string>
-	<string key="ui_binding_controller_shift_modifier_combo_child_confirmation_message" rel_version="Feature_Controller">Der übergeordnete Modifikator ist &lt;img src="{shiftModifierPath}" gpBtn="{shiftModifierKey}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt;.\n\n&lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{actionName}&lt;/font&gt; mit &lt;img src="{shiftModifierPath}" gpBtn="{shiftModifierKey}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt; + &lt;img src="{firstPath}" gpBtn="{firstKey}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt; + &lt;img src="{secondPath}" gpBtn="{secondKey}" isHoldBtn="{isStaticHold}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt; verknüpfen?</string>
-	<string key="ui_binding_controller_shift_modifier_confirmation_message" rel_version="Feature_Controller">Beim Verknüpfen von &lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{actionName}&lt;/font&gt; mit &lt;img src="{path}" gpBtn="{key}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt; wird &lt;img src="{path}" gpBtn="{key}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt; auch jeglichen Unterbelegungen hinzugefügt. Wenn es inkompatible Unterbelegungen gibt, werden diese überschrieben und bleiben leer.\n\n&lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{actionName}&lt;/font&gt; mit &lt;img src="{path}" gpBtn="{key}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt; verknüpfen?</string>
 	<string key="ui_binding_controller_reserved_key_title" rel_version="Feature_Controller">Tastenbelegung ändern</string>
-	<string key="ui_binding_controller_reserved_key_message" rel_version="Feature_Controller">&lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{oldAction}&lt;/font&gt; ist aktuell mit &lt;img src="{path}" gpBtn="{key}" isHoldBtn="{isStaticHold}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt; verknüpft.\n\nÜberschreiben und &lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{newAction}&lt;/font&gt; mit &lt;img src="{path}" gpBtn="{key}" isHoldBtn="{newIsStaticHold}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt; verknüpfen?</string>
-	<string key="ui_binding_controller_double_old_reserved_key_message" rel_version="Feature_Controller">&lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{oldAction}&lt;/font&gt; ist aktuell mit &lt;img src="{path}" gpBtn="{key}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt; / &lt;img src="{path}" gpBtn="{key}" isHoldBtn="1" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt; verknüpft.\n\nÜberschreiben und &lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{newAction}&lt;/font&gt; mit &lt;img src="{path}" gpBtn="{key}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt; verknüpfen?</string>
-	<string key="ui_binding_controller_double_new_reserved_key_message" rel_version="Feature_Controller">&lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{oldAction}&lt;/font&gt; ist aktuell mit &lt;img src="{path}" gpBtn="{key}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt; verknüpft.\n\nÜberschreiben und &lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{newAction}&lt;/font&gt; mit &lt;img src="{path}" gpBtn="{key}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt; / &lt;img src="{path}" gpBtn="{key}" isHoldBtn="1" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt; verknüpfen?</string>
-	<string key="ui_binding_controller_double_both_reserved_key_message" rel_version="Feature_Controller">&lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{oldAction}&lt;/font&gt; ist aktuell mit &lt;img src="{path}" gpBtn="{key}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt; / &lt;img src="{path}" gpBtn="{key}" isHoldBtn="1" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt; verknüpft.\n\nÜberschreiben und &lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{newAction}&lt;/font&gt; mit &lt;img src="{path}" gpBtn="{key}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt; / &lt;img src="{path}" gpBtn="{key}" isHoldBtn="1" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt; verknüpfen?</string>
-	<string key="ui_binding_controller_reserved_combo_message" rel_version="Feature_Controller">&lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{oldAction}&lt;/font&gt; ist aktuell mit &lt;img src="{firstPath}" gpBtn="{firstKey}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt; + &lt;img src="{secondPath}" gpBtn="{secondKey}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt; verknüpft.\n\nÜberschreiben und &lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{newAction}&lt;/font&gt; mit &lt;img src="{firstPath}" gpBtn="{firstKey}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt; + &lt;img src="{secondPath}" gpBtn="{secondKey}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt; verknüpfen?</string>
-	<string key="ui_binding_controller_reserved_key_multiple" rel_version="Feature_Controller">&lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{newAction}&lt;/font&gt; mit &lt;img src="{path}" gpBtn="{key}" isHoldBtn="{newIsStaticHold}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt; verknüpfen?\n\nDie folgenden Aktionen sind dann nicht mehr an eine Taste gebunden: \n\n&lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{oldAction}&lt;/font&gt;</string>
-	<string key="ui_binding_controller_double_reserved_key_multiple" rel_version="Feature_Controller">&lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{newAction}&lt;/font&gt; mit &lt;img src="{path}" gpBtn="{key}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt; / &lt;img src="{path}" gpBtn="{key}" isHoldBtn="1" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt; verknüpfen?\n\nDie folgenden Aktionen sind dann nicht mehr an eine Taste gebunden:\n\n&lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{oldAction}&lt;/font&gt;</string>
-	<string key="ui_binding_controller_reserved_shift_modifier_message" rel_version="Feature_Controller">&lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{shiftModifierAction}&lt;/font&gt; ist aktuell mit &lt;img src="{path}" gpBtn="{key}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt; verknüpft.\n\nDas Überschreiben dieses Modifikators hebt die Verknüpfung von &lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{shiftModifierAction}&lt;/font&gt; und sämtlichen untergeordneten Tastenbelegungen auf.\n\nÜberschreiben und &lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{newAction}&lt;/font&gt; mit &lt;img src="{path}" gpBtn="{key}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt; verknüpfen?</string>
 	<string key="ui_binding_controller_reserved_shift_modifier_blocked" rel_version="Feature_Controller">{key} ist mit dem übergeordneten Modifikator verknüpft und kann nicht verwendet werden.</string>
 	<string key="ui_binding_controller_reset_shift_modifier_toggle_accessibility" rel_version="Feature_Controller">Deaktivierung des Zugriffs per Modifikator.</string>
 	<string key="ui_binding_reserved_key_blocked">{key} ist mit &lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{actionName}&lt;/font&gt; verknüpft. Die Verknüpfung kann nicht aufgehoben werden.</string>
@@ -1276,6 +1263,7 @@
 	<string key="ui_murderer_start_notification_message">Du wurdest als Mörder markiert!</string>
 	<string key="ui_giveup_wait_for_revive">Du kannst noch immer wiederbelebt werden.</string>
 	<string key="ui_giveup_deaths_door_header">An der Schwelle des Todes</string>
+	<string key="ui_deathsdoortimer">Verbleibende Zeit, bis du aufgeben kannst: {DeathQueueNumber}</string>
 	<string key="ui_giveup_dungeon_revival_header">Verbleibende Wiederbelebungen</string>
 	<string key="ui_giveup">Aufgeben</string>
 	<string key="ui_use_sacrifice">Aufopferung einsetzen</string>
@@ -1551,6 +1539,7 @@
 	<string key="ui_camp_obstructed">Zum Fertigstellen zurücktreten.</string>
 	<string key="ui_camping_restricted">Zeltlageraufbau eingeschränkt</string>
 	<string key="ui_camping_available">Zeltlager verfügbar</string>
+	<string key="ui_camp_unbind_on_pvp_toggle_warning" rel_version="Feature_PvP_Camps">Wenn du deine PvP-Markierung änderst, wird die Verknüpfung mit deinem Zeltlager aufgehoben.\n\nWillst du deine PvP-Markierung wirklich ändern?</string>
 	<string key="ui_notification_nameplate_hidden">Namensschild nicht sichtbar</string>
 	<string key="ui_notification_nameplate_visible">Namensschild sichtbar</string>
 	<string key="ui_confirm_before_use_title">Gegenstand verbrauchen</string>
@@ -2194,7 +2183,7 @@
 	<string key="ui_server_utc_dst_10">AEDT</string>
 	<string key="ui_date_format" comment="{dayOfWeek} is abbreviated day text ('Mon', 'Tues'). {month} will be abbreviated month text ('Jan', 'Feb', etc.). {date} is the number of day of the month. The English format might be 'Mon, Oct 29'">{dayOfWeek}, {date}. {month}</string>
 	<string key="ui_long_date_format" comment="Similar to ui_date_format but with full day and month names">{dayOfWeek}, {date}. {month}</string>
-	<string key="ui_numeric_date_format" comment="Similar to ui_date_format but using numbers for month day and year (10/13/21)">{day}.{month}.{year}</string>
+	<string key="ui_numeric_date_format" comment="Similar to ui_date_format but using numbers for month day and year (10/13/21)">{month}/{day}/{year}</string>
 	<string key="ui_date_time_format">{date}, {time}</string>
 	<string key="ui_timezone_format">({timezone})</string>
 	<string key="ui_time_interval_format">{startTime} - {endTime}</string>
@@ -2416,12 +2405,12 @@
 	<string key="ui_lifestaff_tree2">Beschützer</string>
 	<string key="ui_firestaff_tree1">Feuerzauberer</string>
 	<string key="ui_firestaff_tree2">Feuermagier</string>
-	<string key="ui_icemagic">Eisstulpe</string>
-	<string key="ui_icemagic_mastery">Eisstulpe-Meisterschaft</string>
+	<string key="ui_icemagic">Eisstulpen</string>
+	<string key="ui_icemagic_mastery">Eisstulpen-Meisterschaft</string>
 	<string key="ui_icemagic_tree1">Eissturm</string>
 	<string key="ui_icemagic_tree2">Baumeister</string>
-	<string key="ui_voidmagic" rel_version="Weapon_Void_Gauntlet">Unheilsstulpe</string>
-	<string key="ui_voidmagic_mastery" rel_version="Weapon_Void_Gauntlet">Unheilsstulpe-Meisterschaft</string>
+	<string key="ui_voidmagic" rel_version="Weapon_Void_Gauntlet">Unheilsstulpen</string>
+	<string key="ui_voidmagic_mastery" rel_version="Weapon_Void_Gauntlet">Unheilsstulpen-Meisterschaft</string>
 	<string key="ui_voidmagic_tree1" rel_version="Weapon_Void_Gauntlet">Auslöschung</string>
 	<string key="ui_voidmagic_tree2" rel_version="Weapon_Void_Gauntlet">Verfall</string>
 	<string key="ui_hatchet">Beil</string>
@@ -2492,7 +2481,7 @@
 	<string key="hwm_loot_rapier">Kompetenz-Rapier</string>
 	<string key="hwm_loot_spear">Kompetenz-Speer</string>
 	<string key="hwm_loot_ice_magic">Kompetenz-Eismagie</string>
-	<string key="hwm_loot_void_gauntlet">Kompetenz-Unheilsstulpe</string>
+	<string key="hwm_loot_void_gauntlet">Kompetenz-Unheilsstulpen</string>
 	<string key="hwm_loot_blunderbuss">Kompetenz-Donnerbüchse</string>
 	<string key="hwm_loot_greatsword">Kompetenz-Großschwert</string>
 	<string key="hwm_loot_flail">Kompetenzflegel</string>
@@ -2518,7 +2507,7 @@
 	<string key="ui_character_level_short">St.</string>
 	<string key="ui_clusterwarning_cannot_create_title">Charaktererstellung nicht möglich.</string>
 	<string key="ui_clusterwarning_cannot_create">Du hast bereits einen Charakter in der Weltgruppe von {worldSetName}. Um in dieser Welt zu spielen, musst du deinen Charakter in {worldName} löschen.</string>
-	<string key="ui_clusterwarning_freeweekend_sessiontime" rel_version="Feature_FreeWeekend">Die Sitzungsdauer von Gratisspielern wird alle 30 Minuten verlängert, sofern sich keine Spieler, die bezahlt haben, in der Warteschlange befinden. Spieler, die New World: Aeternum gekauft haben, unterliegen keiner Sitzungszeitbeschränkung.</string>
+	<string key="ui_clusterwarning_freeweekend_sessiontime" rel_version="Feature_FreeWeekend">Die Sitzungsdauer von Gratis-Spielern wird alle 30 Minuten verlängert, sofern sich keine Spieler, die bezahlt haben, in der Warteschlange befinden. Spieler, die New World: Aeternum gekauft haben, unterliegen keiner Sitzungszeitbeschränkung.</string>
 	<string key="ui_clusterwarning_freeweekend_freshstart" rel_version="Feature_FreeWeekend">&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; Auf {worldName} können nur neue Charaktere erstellt werden.\n&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; Charaktere können nicht in diese Neuanfang-Welt übertragen werden.\n\nNur Spieler, die New World: Aeternum gekauft haben, können Charaktere auf Neuanfang-Welten erstellen.</string>
 	<string key="ui_num_chars_per_region_title">CHARAKTERE IN DIESER REGION</string>
 	<string key="ui_regionmaxwarning_cannot_create_title">Charaktererstellung nicht möglich.</string>
@@ -2777,8 +2766,8 @@
 	<string key="ui_itemtypedescription_pistol">Pistole</string>
 	<string key="ui_itemtypedescription_lifestaff">Lebensstab</string>
 	<string key="ui_itemtypedescription_firestaff">Feuerstab</string>
-	<string key="ui_itemtypedescription_icegauntlet">Eisstulpe</string>
-	<string key="ui_itemtypedescription_voidgauntlet">Unheilsstulpe</string>
+	<string key="ui_itemtypedescription_icegauntlet">Eisstulpen</string>
+	<string key="ui_itemtypedescription_voidgauntlet">Unheilsstulpen</string>
 	<string key="ui_itemtypedescription_roundshield">Rundschild</string>
 	<string key="ui_itemtypedescription_kiteshield">Langspitzschild</string>
 	<string key="ui_itemtypedescription_towershield">Turmschild</string>
@@ -2828,7 +2817,7 @@
 	<string key="ui_itemtypedescription_bag">Tasche</string>
 	<string key="ui_itemtypedescription_consumable">Verbrauchsgegenstand</string>
 	<string key="ui_itemtypedescription_consumable_survivalpotion">Verbrauchsgegenstand – Überlebenstrank</string>
-	<string key="ui_itemtypedescription_quest_item">Aufgaben-Ggst.</string>
+	<string key="ui_itemtypedescription_quest_item">Aufgabengegenstand</string>
 	<string key="ui_itemtypedescription_Key_item">Eventschlüssel</string>
 	<string key="ui_itemtypedescription_furniture">Möbel</string>
 	<string key="ui_itemtypedescription_bait">Köder</string>
@@ -2849,7 +2838,7 @@
 	<string key="ui_tooltip_effect_duration">&lt;font face="lyshineui/fonts/Nimbus_Bold.font" color="#ebe3d6"&gt;{value}&lt;/font&gt; Effektdauer</string>
 	<string key="ui_cap_unfocused_fps">FPS Limit im Hintergrund</string>
 	<string key="ui_cap_unfocused_fps_desc">Lege fest, ob die Bildrate begrenzt werden soll, wenn das Fenster minimiert oder nicht aktiv ist.</string>
-	<string key="ui_Enable_Viewport_Scale">Dynamische Auflösungsskalierung</string>
+	<string key="ui_Enable_Viewport_Scale">Dynamische Auflösungs-Skalierung</string>
 	<string key="ui_Enable_Viewport_Scale_desc">Lege fest, ob die Spielauflösung automatisch angepasst werden soll, um die Bildrate aufrechtzuerhalten.</string>
 	<string key="ui_gathering_disabled">Sammeln ist derzeit deaktiviert.</string>
 	<string key="ui_linktochat_disabled">Im Chat verlinken derzeit deaktiviert</string>
@@ -2936,9 +2925,9 @@
 	<string key="ui_freeweekend_guide_title2" rel_version="Feature_FreeWeekend">Finde Freunde &amp; Aktivitäten</string>
 	<string key="ui_freeweekend_guide_title3" rel_version="Feature_FreeWeekend">Aktionszeiträume &amp; Warteschlangen</string>
 	<string key="ui_freeweekend_guide_title4" rel_version="Feature_FreeWeekend">Kaufe New World: Aeternum</string>
-	<string key="ui_freeweekend_guide_body1" rel_version="Feature_FreeWeekend">Während des Gratis-Wochenendes kann jeder Spieler New World: Aeternum herunterladen und einen Charakter zum Spielen erstellen. Einige Welten sind nur für Spieler zugänglich, die New World: Aeternum gekauft haben. Gratisspieler können keine Charaktere zwischen den Welten transferieren und haben keinen Zugang zum Laden und zum Handelsposten. Charaktere von Gratisspielern können außerdem maximal 2.000 &lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt; erhalten.</string>
+	<string key="ui_freeweekend_guide_body1" rel_version="Feature_FreeWeekend">Während des Gratis-Wochenendes kann jeder Spieler New World: Aeternum herunterladen und einen Charakter zum Spielen erstellen. Einige Welten sind nur für Spieler zugänglich, die New World: Aeternum gekauft haben. Gratis-Spieler können keine Charaktere zwischen den Welten transferieren und haben keinen Zugang zum Laden und zum Handelsposten. Charaktere von Gratisspielern können außerdem maximal 2.000 &lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt; erhalten.</string>
 	<string key="ui_freeweekend_guide_body2" rel_version="Feature_FreeWeekend">Verwende das Sozialmenü, um nach Freunden in derselben Welt zu suchen oder auf Einladungen von anderen Spielern zu reagieren. Nimm an Mehrspieleraktivitäten wie Arena und Außenpostensturm teil. Finde eine Gruppe und begib dich auf eine Expedition, indem du das Gruppensuche-Menü auf der Karte öffnest, wenn du mit der Maus über das Symbol einer Expedition fährst.</string>
-	<string key="ui_freeweekend_guide_body3" rel_version="Feature_FreeWeekend">Bei Gratisspielern prüft New World: Aeternum regelmäßig, ob es eine Warteschlange für die Welt ihres Charakters gibt. Diese Spieler können nur weiterspielen, wenn es für ihre Welt keine Warteschlange gibt, wenn die Sitzungszeit überprüft wird. Falls es zum Zeitpunkt der Überprüfung eine Warteschlange gibt, wird der Gratisspieler zum Hauptmenü zurückgeleitet und kann sich in die Warteschlange einreihen, um die Welt erneut zu betreten. Wenn es zum Zeitpunkt der Überprüfung keine Warteschlange gibt, wird die Sitzungszeit des Gratisspielers bis zur nächsten Überprüfung verlängert. Spieler, die New World: Aeternum gekauft haben, unterliegen keiner Sitzungszeitkontrolle und haben in der Warteschlange Vorrang vor Gratisspielern.</string>
+	<string key="ui_freeweekend_guide_body3" rel_version="Feature_FreeWeekend">Bei Gratisspielern prüft New World: Aeternum regelmäßig, ob es eine Warteschlange für die Welt ihres Charakters gibt. Diese Spieler können nur weiterspielen, wenn es für ihre Welt keine Warteschlange gibt, wenn die Sitzungszeit überprüft wird. Falls es zum Zeitpunkt der Überprüfung eine Warteschlange gibt, wird der Gratis-Spieler zum Hauptmenü zurückgeleitet und kann sich in die Warteschlange einreihen, um die Welt erneut zu betreten. Wenn es zum Zeitpunkt der Überprüfung keine Warteschlange gibt, wird die Sitzungszeit des Gratis-Spielers bis zur nächsten Überprüfung verlängert. Spieler, die New World: Aeternum gekauft haben, unterliegen keiner Sitzungszeitkontrolle und haben in der Warteschlange Vorrang vor Gratisspielern.</string>
 	<string key="ui_freeweekend_guide_body4" rel_version="Feature_FreeWeekend">New World: Aeternum kann über den Steam Store erworben werden. Alle Charaktere, Gegenstände und Fortschritte, die du als kostenloser Spieler erarbeitet hast, werden nach dem Kauf von New World: Aeternum übernommen. Allerdings wird nur die Spielzeit ab dem Kauf für die Freischaltung von Funktionen wie dem Handel zwischen Spielern und dem Zugang zu Laden und Handelsposten angerechnet.</string>
 	<string key="ui_factions">Fraktionen</string>
 	<string key="ui_factions_guide_1_header">Einer Fraktion beitreten</string>
@@ -2972,9 +2961,9 @@
 	<string key="ui_transmog_guide_body2" rel_version="Feature_Transmog">Gehe zur Transmog-Station &lt;img src="lyshineui/images/map/icon/pois/transmog" xPadding="-10" scale="3.5" yOffset="14"&gt;&lt;/img&gt;, suche deinen gewünschten Gegenstand und nutze Transmog-Marken &lt;img src="lyshineui/images/icons/items/currency/transmogtokensmall" xPadding="0" scale="2.2" yOffset="6.0"&gt;&lt;/img&gt;, um einen Skin zu erstellen.\n\nTransmog-Skins gelten für das ganze Konto (können also von allen Charakteren des Kontos genutzt werden).</string>
 	<string key="ui_mount_guide_title1" rel_version="Feature_Mounts">So funktioniert's</string>
 	<string key="ui_mount_guide_body1" rel_version="Feature_Mounts">Du kannst dein Reittier mit {$ui.mount_summon_description$} beschwören. Gehe mit {$ui.walk_mount_description$}, sprinte mit {$player.mount_dash$} und springe mit {$movement.jump$}. Rennen kostet Reittierausdauer. Bei Stürzen aus großer Höhe und gegnerischen Treffern verliert es Ausdauer und du kannst abgeworfen werden.</string>
-	<string key="ui_event_token_disappears">&lt;font face="lyshineui/fonts/Nimbus_Medium.font" color="#edc63e"&gt;Marken verschwinden am Ende des Events.&lt;/font&gt;</string>
-	<string key="ui_event_item_disappears">&lt;font face="lyshineui/fonts/Nimbus_Medium.font" color="#edc63e"&gt;Dieser Gegenstand verschwindet am Ende des Events.&lt;/font&gt;</string>
-	<string key="ui_event_time_left">&lt;font face="lyshineui/fonts/Nimbus_Medium.font"&gt;Event endet in: &lt;font color="#edc63e"&gt;{timeLeft} &lt;img src="LyShineUI/Images/Icons/Misc/icon_hourglass_yellow.png" xPadding="0" scale="1.1" yOffset="1"&gt;&lt;/img&gt;&lt;/font&gt;&lt;/font&gt;</string>
+	<string key="ui_event_token_disappears">Marken verschwinden am Ende des Events.</string>
+	<string key="ui_event_item_disappears">Dieser Gegenstand verschwindet am Ende des Events.</string>
+	<string key="ui_event_time_left">Event endet in: {timeLeft} &lt;img src="LyShineUI/Images/Icons/Misc/icon_hourglass_yellow.png" xPadding="0" scale="1.1" yOffset="1"&gt;&lt;/img&gt;</string>
 	<string key="ui_event_time_left_compass">Event endet in &lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{timeLeft}&lt;/font&gt;</string>
 	<string key="attribution_WinterConvergence_2021" rel_version="Event_WinterConvergence_Perm">Winter-Zusammenkunft</string>
 	<string key="attribution_WinterConvergence_2022" rel_version="Event_WinterConvergence_Perm">Winter-Zusammenkunft</string>
@@ -3058,12 +3047,22 @@
 	<string key="ui_transmog_error_apply_skin_pending">Transmog fehlgeschlagen: Es stehen noch Aussehensänderungen für den Gegenstand aus.</string>
 	<string key="ui_transmog_error_generic">Transmog-Fehler</string>
 	<string key="ui_transmog_npc_name">Zauberweber</string>
-	<string key="ui_transmog_npc_tooltip">Erstelle Skins aus Gegenständen, die du durch den Einsatz von &lt;img src="lyshineui/images/icons/items/currency/transmogtokensmall" xPadding="0" scale="2.2" yOffset="6.0"&gt;&lt;/img&gt; Transmog-Marken gesammelt hast.</string>
+	<string key="ui_transmog_npc_tooltip">Nutze &lt;img src="lyshineui/images/icons/items/currency/appearancetokensmall" scale="2.2" yOffset="6"&gt;&lt;/img&gt; Friseursalon-Marken, um dein Aussehen zu ändern, und &lt;img src="lyshineui/images/icons/items/currency/transmogtokensmall" xPadding="0" scale="2.2" yOffset="6.0"&gt;&lt;/img&gt; Transmog-Marken, um Skins aus deinen gesammelten Gegenständen zu erstellen.</string>
 	<string key="ui_transmog_dyeing_error">Fehler beim Auftragen der Farbe. Versuche es bitte erneut.</string>
 	<string key="ui_transmog_dyeing_previews_disabled">Eingefärbte Skins haben keine Vorschau.</string>
 	<string key="ui_transmog_services_unavailable_title">Transmog-Dienste nicht verfügbar</string>
 	<string key="ui_transmog_services_unavailable_tooltip">Transmog nicht verfügbar</string>
 	<string key="ui_transmog_services_unavailable_message">Transmog aktuell nicht möglich. Versuche es später erneut.</string>
+	<string key="ui_barbershop_open_menu" rel_version="Feature_Barbershop">Mein Aussehen anpassen</string>
+	<string key="ui_barbershop_unavailable_message" rel_version="Feature_Barbershop">Friseursalon aktuell nicht möglich. Versuche es später erneut.</string>
+	<string key="ui_barbershop_changes_warning" rel_version="Feature_Barbershop">Änderungen werden gespeichert, bis das Spiel geschlossen wird.</string>
+	<string key="ui_barbershop_reload_title" rel_version="Feature_Barbershop">Aussehen laden</string>
+	<string key="ui_barbershop_reload_prompt" rel_version="Feature_Barbershop">Deine Änderungen vom letzten Besuch laden?</string>
+	<string key="ui_barbershop_purchase_title" rel_version="Feature_Barbershop">Aussehen bestätigen</string>
+	<string key="ui_barbershop_purchase_body_cost" rel_version="Feature_Barbershop">Möchtest du das Charakteraussehen für &lt;font face="lyshineui/fonts/Pica_Regular.font"&gt;{amount}&lt;/font &gt;&lt;img src="lyshineui/images/icons/items/currency/appearancetokensmall" scale="1.8" xPadding="5" yOffset="5"&gt;&lt;/img&gt; speichern?\n\nAussehensänderungen können nach der Bestätigung nur durch den Kauf weiterer Friseursalon-Marken wieder geändert werden.</string>
+	<string key="ui_barbershop_tokens" rel_version="Feature_Barbershop">Friseursalon-Marken</string>
+	<string key="ui_barbershop_add_more_tokens" rel_version="Feature_Barbershop">Mehr &lt;img src="lyshineui/images/icons/items/currency/appearancetokensmall" scale="1.5" yOffset="10"&gt;&lt;/img&gt; hinzufügen</string>
+	<string key="ui_barbershop_services_unavailable_message" rel_version="Feature_Barbershop">Friseursalon aktuell nicht möglich. Versuche es später erneut.</string>
 	<string key="ui_unclaimed_seasons_rewards">Unbeanspruchte Saisonbelohnungen</string>
 	<string key="ui_expansion_name_expansion2023" comment="DO NOT TRANSLATE">[TMP] Expansion 2023</string>
 	<string key="ui_required_expansion_missing_tooltip" comment="DO NOT TRANSLATE">[TMP] Missing expansion: {expansion}</string>
@@ -3108,6 +3107,7 @@
 	<string key="ui_sort_by_type">Nach Typ sortieren</string>
 	<string key="ui_requirements">Erforderlich</string>
 	<string key="ui_external_rewards">Externe Belohnungen</string>
+	<string key="ui_external_rewards_no_tooltip">Keine Belohnungen verfügbar.</string>
 	<string key="ui_ability_minimum_cooldown">{baseCooldown} (Minimum: {minimumCooldown})</string>
 	<string key="ui_ability_supports_smartcast" rel_version="Feature_Smartcast">Diese Fertigkeit unterstützt Schnellzauber.</string>
 	<string key="ui_transfer_world">Welt übertragen</string>
@@ -3129,21 +3129,46 @@
 	<string key="ui_mount_unlock_acquisition" rel_version="Feature_Mounts">Abschluss von "Ein Königreich für ein Pferd"</string>
 	<string key="ui_seasonal_worlds" rel_version="Feature_Seasonal_Servers">Saisonwelten</string>
 	<string key="ui_seasonal_worlds_popup_header" rel_version="Feature_Seasonal_Servers">Welttyp auswählen</string>
-	<string key="ui_seasonal_worlds_about_popup_description" rel_version="Feature_Seasonal_Servers">Saisonwelten sind eine neue Art, Aeternum zu erleben und in jeder Saison für einen begrenzten Zeitraum einzigartige Belohnungen zu erhalten.\n\nIn der Saisonwelt von Saison 7 werden alle Spieler automatisch ab Stufe {level} für PvP markiert. Erobererausrüstung erhältst du per Herstellung oder indem du Gegner tötest: Besonders mächtige Waffen und Ausrüstung, die die Regeln auf dem Schlachtfeld ändern können.\n\nEine besondere Saisonreise kann auf Saisonwelten fortgesetzt werden. Schalte die Belohnungen der Saisonreise frei, indem du im Shop einen Premium-Kampfpass kaufst.</string>
+	<string key="ui_seasonal_worlds_about_popup_description" rel_version="Feature_Seasonal_Servers">Saisonwelten sind eine neue Art, Aeternum zu erleben und in jeder Saison für einen begrenzten Zeitraum einzigartige Belohnungen zu erhalten.\n\nIn der Saisonwelt von Saison 8 dreht sich alles um Macht. Charaktere auf diesem Server können beliebig viele Artefakte ausrüsten und wenn sie sterben, erhält der Charakter zusätzliche Attributspunkte. Werde rasch stärker und nimm Herausforderungen an, für die du bisher zu schwach warst.\n\nAuf diesem Server ist eine neue Saisonreise verfügbar, bei der es darum geht, wie oft dein Charakter stirbt. Für das Erreichen dieser Ziele erhältst du neue Herstellungsmaterialien auch für Nicht-Saisonwelten. Damit kannst du jegliche Artefakte oder R3-Trophäen deiner Wahl mit einem Nicht-Saison-Charakter herstellen (bis hin zu den in Saison 8 veröffentlichten). Hinweis: Einige Belohnungen der Saisonweltreise sind nur erhältlich, wenn du im Shop einen Premium-Kampfpass kaufst.</string>
 	<string key="ui_regular_character" rel_version="Feature_Seasonal_Servers">Standard</string>
 	<string key="ui_seasonal_character" rel_version="Feature_Seasonal_Servers">Saison</string>
-	<string key="ui_regular_character_button_description" rel_version="Feature_Seasonal_Servers">Erlebe Aeternum so, wie es gedacht ist. Erstelle einen Charakter auf einer permanenten Standardwelt.</string>
-	<string key="ui_seasonal_character_button_description" rel_version="Feature_Seasonal_Servers">Erstelle einen Charakter auf einer zeitlich begrenzten Saisonwelt mit besonderen Regeln und Belohnungen.</string>
+	<string key="ui_regular_character_button_description" rel_version="Feature_Seasonal_Servers">Erlebe Aeternum so, wie es gedacht ist. Erstelle einen Standardcharakter auf einer permanenten Welt.</string>
+	<string key="ui_seasonal_character_button_description" rel_version="Feature_Seasonal_Servers">Erstelle einen zeitlich begrenzten Charakter auf einer Saisonwelt mit besonderen Regeln und Belohnungen.</string>
 	<string key="ui_seasonal_worlds_unavailable" rel_version="Feature_Seasonal_Servers">Saisonwelten nicht verfügbar</string>
 	<string key="ui_seasonal_worlds_available" rel_version="Feature_Seasonal_Servers">Saisonwelten verfügbar</string>
-	<string key="ui_seasonal_worlds_avaialble_until" rel_version="Feature_Seasonal_Servers">Saison endet am {date} um {time}.</string>
+	<string key="ui_seasonal_worlds_avaialble_until" rel_version="Feature_Seasonal_Servers">Die Saison endet am {date} um {time}.\n\nDieser Charakter muss am Ende der Saison gelöscht werden.</string>
 	<string key="ui_seasonal_worlds_ended" rel_version="Feature_Seasonal_Servers">Saison endet am {date} um {time}.</string>
-	<string key="ui_seasonal_worlds_available_24h" rel_version="Feature_Seasonal_Servers">Saison endet in &lt;img src="LyShineUI/Images/PUGFinder/Pugfinder_hourglass" xPadding="-4" scale="2.25" yOffset="8"&gt;&lt;/img&gt;{time}</string>
+	<string key="ui_seasonal_worlds_available_24h" rel_version="Feature_Seasonal_Servers">Die Saison endet in &lt;img src="LyShineUI/Images/PUGFinder/Pugfinder_hourglass" xPadding="-4" scale="2.25" yOffset="8"&gt;&lt;/img&gt;{time}.\n\nDieser Charakter muss am Ende der Saison gelöscht werden.</string>
 	<string key="ui_seasonal_worlds_duration" rel_version="Feature_Seasonal_Servers">{timeStart} - {timeEnd}</string>
-	<string key="ui_seasonal_worlds_server_description" rel_version="Feature_Seasonal_Servers">&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; Auf dieser Welt wirst du ab Stufe {level} dauerhaft für PvP markiert.\n&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; Auf {worldName} können nur neue Charaktere erstellt werden.\n&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; Charaktere können nicht auf diese Saisonwelt übertragen werden.</string>
+	<string key="ui_seasonal_worlds_server_description" rel_version="Feature_Seasonal_Servers">&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; Auf diesem Saisonserver erleben die Spieler auf einer einzigartigen Saisonweltreise eine beschleunigte Haupthandlungs-Aufgabenreihe mit besonderen Belohnungen für die Bewältigung schwieriger Inhalte, ohne zu sterben. Immer, wenn ein Charakter auf dieser Welt stirbt, erhält er einen Stapel des Statuseffekts "Gefallen". Jeder Stapel erhöht die Attribute bis zu einem Maximum von fünf Stapeln.\n&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; Charaktere auf dieser Welt können jeden Ausrüstungsplatz mit einem Artefakt belegen.\n&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; Die weltenübergreifende Spielsuche sowie der Aktivitätenfinder sind auf {worldName} deaktiviert. Spieler müssen mit der Gruppensuche nach Expeditionen suchen.\n&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; Charaktere können nicht auf diese Welt oder aus dieser übertragen werden.\n&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; Charakter auf dieser Welt müssen am Ende der Saison gelöscht werden.</string>
 	<string key="ui_seasonal_worlds_server_duration" rel_version="Feature_Seasonal_Servers">Verfügbar von {dateStart} {timeStart} – {dateEnd} {timeEnd}</string>
-	<string key="ui_seasonal_worlds_tooltip" rel_version="Feature_Seasonal_Servers">Auf dieser PvP-Welt entscheidet deine Fraktion darüber, mit welchen Spielern du Gruppen und Kompanien bilden kannst. Wähle dieselbe Fraktion wie deine Freunde aus, um mit ihnen zu spielen.\n\nDu kannst die Fraktion im Spiel wechseln.</string>
-	<string key="ui_external_rewards_no_tooltip">Keine Belohnungen verfügbar.</string>
-	<string key="ui_deathsdoortimer">Verbleibende Zeit, bis du aufgeben kannst: {DeathQueueNumber}</string>
+	<string key="ui_seasonal_worlds_tooltip" rel_version="Feature_Seasonal_Servers">Auf dieser Saisonwelt entscheidet deine Fraktion darüber, mit welchen Spielern du Gruppen und Kompanien bilden kannst. Wähle dieselbe Fraktion wie deine Freunde aus, um mit ihnen zu spielen.\n\nDu kannst die Fraktion im Spiel wechseln.</string>
+	<string key="currency_SEK">{amount} kr</string>
+	<string key="ui_perks_disabled_for_game_mode">Effekte sind in dem Modus deaktiviert.</string>
+	<string key="ui_itemtooltiptitle_heartgem_rune_spinning_swords">Phantomschneiden</string>
+	<string key="currency_DKK">{amount} kr</string>
+	<string key="ui_world_leave_world_confirm_message_makegoods">Deine Entschädigung wird nicht übertragen.</string>
+	<string key="ui_camping_error_poi_restricted_gamemode">Zeltlageraufbau ist in der Aktivität eingeschränkt.</string>
+	<string key="ui_camp_placement_unavailable_on_cooldown">Zeltlageraufbau nicht möglich für {time}</string>
+	<string key="ui_camp_placement_unavailable_under_attack">Der Zeltlageraufbau ist nicht möglich, solange dein Zeltlager angegriffen wird.</string>
+	<string key="ui_barbershop_changes_disclaimer">Friseursalon-Marken sind kontogebunden (nicht handelbar) und sind nicht zurückerstattbar.</string>
+	<string key="ui_skin_change_skin_desc">Skin für diesen Gegenstand ändern</string>
+	<string key="ui_autopinObjectivesArtifact">Artefakt automatisch anheften</string>
+	<string key="ui_bind_to_camp_disabled_under_attack">Verknüpftes Zeltlager wird angegriffen</string>
+	<string key="ui_camp_reconnect_failed_destroyed">Dein Zeltlager wurde zerstört!</string>
+	<string key="ui_autopinobjectivesArtifact_desc">Lege fest, ob die Aufgaben eines Artefakts automatisch an das HUD angeheftet werden sollen, wenn es ausgerüstet ist.</string>
+	<string key="ui_consumables_shared_cooldowns_survival">Überlebenstränke</string>
+	<string key="ui_event_item_disabled">Das mit dem Gegenstand verbundene Event ist zu Ende. Der Gegenstand wurde deaktiviert und wird bei der nächsten Anmeldung entfernt.</string>
+	<string key="ui_options_damage_numbers_display_mode_description">Legt fest, wie Werte beim Zufügen von Schaden, beim Erleiden von Schaden, beim Heilen anderer Spieler und beim Erhalten von Heilung angezeigt werden.</string>
+	<string key="ui_from_intelligence_and_strength">Intelligenz (90 %), Stärke (65 %)</string>
+	<string key="ui_camp_under_attack">Dein Zeltlager wird angegriffen!</string>
+	<string key="ui_options_damage_numbers_display_mode">Schadens- und Heilungswerte</string>
+	<string key="ui_options_damage_numbers_display_mode_floating">Schwebend</string>
+	<string key="ui_options_damage_numbers_display_mode_stacked">Gestapelt</string>
+	<string key="ui_buildmode_error_pvp_camp_obstruction">Du bist zu nah an einem anderen PvP-Zeltlager.</string>
+	<string key="ui_barbershop_change_appearance">Aussehen ändern</string>
+	<string key="ui_consumables_shared_cooldown_text">\n\nDer Einsatz ändert die Abklingzeit aller anderen {consumableType} auf {cooldown} %.</string>
+	<string key="ui_camp_icon_tooltip">Wenn du nicht für PvP markiert bist, kannst du ein unzerstörbares &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;Nicht-PvP-Lager&lt;/font&gt; platzieren oder dich an eines binden, um einen Respawnpunkt zu erstellen.\n\nBist du für PvP markiert, kannst du zerstörbare &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;PvP-Lager&lt;/font&gt; der gleichen Fraktion platzieren oder dich an welche binden.\n\nSolange dein PvP-Lager angegriffen wird, für die Dauer von &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;{placementCooldown} Sek.&lt;/font&gt; nach der Platzierung, &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;{bindCooldown} Sek.&lt;/font&gt; nach dem Binden oder &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;{destructionCooldown} Sek.&lt;/font&gt; nach der Zerstörung deines PvP-Lagers, kannst du kein anderes PvP-Lager platzieren oder dich an eines binden.</string>
+	<string key="ui_add_more">Mehr hinzufügen</string>
 </resources>
 

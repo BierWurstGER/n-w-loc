@@ -79,6 +79,7 @@
 	<string key="reward_type_service" rel_version="Feature_MTX">Servizio</string>
 	<string key="reward_type_loadout" rel_version="Feature_Gear_Set_Storage">Set attrezzatura</string>
 	<string key="reward_type_transmog" rel_version="Season_2_Perm">Gettone transmog</string>
+	<string key="reward_type_barbershop" rel_version="Feature_Barbershop">Barbershop Token</string>
 	<string key="entitlement_included" rel_version="Feature_MTX">Incluso</string>
 	<string key="ui_account_bound" rel_version="Feature_MTX">Tutti gli oggetti sono vincolati all'account (non scambiabili) e non rimborsabili.</string>
 	<string key="ui_account_bound_marks" rel_version="Feature_MTX">I marchi della fortuna sono vincolati all'account (non scambiabili) e non rimborsabili.</string>
@@ -153,6 +154,7 @@
 	<string key="reward_type_tooltip_transmog" rel_version="Season_2_Perm">Per utilizzare un gettone transmog, recati da uno stilomante.</string>
 	<string key="reward_type_tooltip_mount" rel_version="Feature_Mounts">Per equipaggiare una cavalcatura, apri Cavalcature.</string>
 	<string key="reward_type_tooltip_mountattachment" rel_version="Feature_Mounts">Per equipaggiare una skin per accessori delle cavalcature, seleziona Visualizza equipaggiamento cavalcatura nell'inventario, quindi scegli un accessorio equipaggiato.</string>
+	<string key="reward_type_tooltip_barbershop" rel_version="Feature_Barbershop">To use a Barbershop Token, go to a Stylemancer.</string>
 	<string key="ui_crest_disclaimer" rel_version="Feature_MTX">&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;Avviso:&lt;/font&gt; Gli emblemi della compagnia possono essere utilizzati solo se sei il governatore (creatore) della compagnia.</string>
 	<string key="ui_disabled_default_title" rel_version="Feature_MTX">Contenuto non disponibile</string>
 	<string key="ui_disabled_default_description" rel_version="Feature_MTX">Questo contenuto non è attualmente disponibile.</string>
@@ -215,6 +217,7 @@
 	<string key="store_requires_expansion_multiple_icon">&lt;img src="lyshineui/images/icons/misc/icon_exclamation" xPadding="0" scale="2" yOffset="5"&gt;&lt;/img&gt; {quantity} oggetti di questo pacchetto richiedono: {expansionName}</string>
 	<string key="store_requires_expansion_warning">Non potrai utilizzare {quantity} oggetti di questo pacchetto finché non avrai acquistato {expansionName}.</string>
 	<string key="store_requires_expansion_confirm">Acquista comunque</string>
+	<string key="ui_amount_pack" rel_version="MTXStore_V2">Pacchetto da {amount}</string>
 	<string key="ui_tag_intro_offer" rel_version="MTXStore_V2">Offerta introduttiva</string>
 	<string key="runic_jackal_name" rel_version="Apparel_RunicJackal">Sciacallo runico</string>
 	<string key="crescent_fang_name" rel_version="Weapon_CrescentFang">Zanna a falce</string>
@@ -458,8 +461,8 @@
 	<string key="server_transfer_unavailable_freshstartv2" rel_version="Feature_FreshStart">Solo i personaggi dei mondi Nuovi inizi possono essere trasferiti in questo mondo.</string>
 	<string key="server_transfer_unavailable_seasonalserver" rel_version="Feature_Seasonal_Servers">I mondi stagionali sono disponibili per un periodo limitato e presentano regole e ricompense uniche.\n\nIn questo mondo stagionale è possibile creare solo nuovi personaggi. I personaggi non possono essere trasferiti in questo mondo stagionale.</string>
 	<string key="server_transfer_unavailable_bfnw" rel_version="Feature_BFNW">Solo i giocatori che partecipano a Il richiamo della foresta possono creare personaggi su questo mondo.</string>
-	<string key="server_transfer_more_details" rel_version="Feature_Server_Transfer">Vedi Domande frequenti</string>
-	<string key="server_transfer_transfer_faq" rel_version="Feature_Server_Transfer">Domande frequenti sul trasferimento di mondo</string>
+	<string key="server_transfer_more_details" rel_version="Feature_Server_Transfer">Ulteriori informazioni:</string>
+	<string key="server_transfer_transfer_faq" rel_version="Feature_Server_Transfer">Trasferimenti tra server</string>
 	<string key="server_transfer_final_details" rel_version="Feature_Server_Transfer">Confermando il trasferimento tornerai al menu principale di selezione del personaggio.</string>
 	<string key="server_transfer_final_details_purchase" rel_version="Feature_Server_Transfer">Dopo l'acquisto verrai disconnesso dal menu principale di selezione del personaggio.</string>
 	<string key="server_transfer_change_world" rel_version="Feature_Server_Transfer">Cambia mondo</string>
@@ -1300,23 +1303,35 @@
 	<string key="StoreItem_Bundle_Phoenix_Apparel_desc" rel_version="Season_7_Perm">Risorgi dal fuoco e dalle fiamme in grande stile!</string>
 	<string key="StoreItem_Bundle_Valentines_ApparelWeapon_name" rel_version="Season_7_Perm">Pacchetto dell'amore corrotto</string>
 	<string key="StoreItem_Bundle_Valentines_ApparelWeapon_desc" rel_version="Season_7_Perm">Il vero amore non può essere contaminato dalla Corruzione... o forse sì?</string>
-	<string key="StoreItem_Bundle_Valkyrie_Coiled_description">Dopo la fine di questo mondo, ti rivedrò quando ricominceremo?</string>
-	<string key="UI_EVENT_2">Nuovi oggetti</string>
-	<string key="StoreItem_Bundle_Valkyrie_Coiled_name">Pacchetto Destino di Jörmungandr</string>
-	<string key="mtx_emote_sale_store">Offerta emote!</string>
-	<string key="UI_EVENT_1">Periodo festivo</string>
-	<string key="Category_Override_FlavorText">Ti aspettiamo!</string>
-	<string key="mtx_valkyrie_store">Negozio Valchiria</string>
-	<string key="StoreItem_Bundle_Valkyrie_Feathered_description">Prendi posto alla fine del paradiso.</string>
-	<string key="StoreItem_Bundle_Valkyrie_Feathered_name">Pacchetto Piume di Hræsvelgr</string>
-	<string key="ui_amount_pack">Pacchetto da {amount}</string>
-	<string key="mtx_mount_sale_store">Cavalcature in sconto!</string>
-	<string key="mtx_barbarian_store">Negozio barbaro</string>
-	<string key="mtx_thickasthieves_store">Negozio Duro come un ladro</string>
-	<string key="mtx_campskin_sale_store">Skin accampamento in sconto!</string>
-	<string key="mtx_tool_sale_store">Strumenti in sconto!</string>
-	<string key="mtx_housing_sale_store">Case in sconto!</string>
-	<string key="mtx_apparel_sale_store">Abbigliamento in sconto!</string>
-	<string key="mtx_weapon_sale_store">Armi in sconto!</string>
+	<string key="StoreItem_Token_Barbershop_X1_description" rel_version="Feature_Barbershop">Used for changing your look in the Barbershop.</string>
+	<string key="StoreItem_Token_Barbershop_X1_name" rel_version="Feature_Barbershop">Barbershop Token</string>
+	<string key="StoreItem_Bundle_Valkyrie_Coiled_name" rel_version="Season_7_Perm">Pacchetto Destino di Jörmungandr</string>
+	<string key="StoreItem_Bundle_Valkyrie_Coiled_description" rel_version="Season_7_Perm">Dopo la fine di questo mondo, ti rivedrò quando ricominceremo?</string>
+	<string key="StoreItem_Bundle_Valkyrie_Feathered_name" rel_version="Season_7_Perm">Pacchetto Piume di Hræsvelgr</string>
+	<string key="StoreItem_Bundle_Valkyrie_Feathered_description" rel_version="Season_7_Perm">Prendi posto alla fine del paradiso.</string>
+	<string key="mtx_valkyrie_store" rel_version="Season_7_Perm">Negozio Valchiria</string>
+	<string key="UI_EVENT_1" rel_version="Season_7_Perm">Novità!</string>
+	<string key="mtx_emote_sale_store" rel_version="Season_7_Perm">Offerta emote!</string>
+	<string key="Category_Override_FlavorText" rel_version="Season_7_Perm">Ti aspettiamo!</string>
+	<string key="UI_EVENT_2" rel_version="Season_7_Perm">Periodo festivo</string>
+	<string key="mtx_barbarian_store" rel_version="Season_7_Perm">Negozio barbaro</string>
+	<string key="mtx_thickasthieves_store" rel_version="Season_7_Perm">Negozio Duro come un ladro</string>
+	<string key="mtx_campskin_sale_store" rel_version="Season_7_Perm">Skin accampamento in sconto!</string>
+	<string key="mtx_apparel_sale_store" rel_version="Season_7_Perm">Abbigliamento in sconto!</string>
+	<string key="mtx_weapon_sale_store" rel_version="Season_7_Perm">Armi in sconto!</string>
+	<string key="mtx_tool_sale_store" rel_version="Season_7_Perm">Strumenti in sconto!</string>
+	<string key="mtx_housing_sale_store" rel_version="Season_7_Perm">Case in sconto!</string>
+	<string key="mtx_mount_sale_store" rel_version="Season_7_Perm">Cavalcature in sconto!</string>
+	<string key="DyeA026_Mounts_MasterName">Rosso runa a cuore</string>
+	<string key="StoreItem_Bundle_Ninja_Kitsune_description">Danza con le volpi e insegui le nebbie.</string>
+	<string key="StoreItem_Bundle_GothicCoquette_name">Pacchetto Danse Macabre</string>
+	<string key="StoreItem_Bundle_GothicCoquette_description">È scoccata l'ora della stregoneria.</string>
+	<string key="SeasonPass_Premium_Season_8_name">Pass premium - Stagione 8</string>
+	<string key="StoreItem_Bundle_Ninja_Kitsune_name">Pacchetto Kitsune volpe di fuoco</string>
+	<string key="StoreItem_Bundle_GreekGodsApparelWeapon_description">Gli dei chiamano a raccolta i loro campioni. Risponderai?</string>
+	<string key="SeasonPass_HeadStart_Season_8_name">Vantaggio del pass stagionale - Stagione 8</string>
+	<string key="DyeA025_Mounts_MasterName">Bianco virtuoso</string>
+	<string key="DyeA024_Mounts_MasterName">Bianco spettrale</string>
+	<string key="StoreItem_Bundle_GreekGodsApparelWeapon_name">Pacchetto Ospite mirmidone</string>
 </resources>
 

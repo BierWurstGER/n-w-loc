@@ -40,9 +40,9 @@
 	<string key="Bookcase_GroupDesc" comment="Housing Furniture - Trading Post - OLD">Muebles para el hogar.</string>
 	<string key="Bookcase_GroupName" comment="Housing Furniture - Trading Post - OLD">Estanterías</string>
 	<string key="Bookcase01_GroupDesc" comment="Housing Furniture - Trading Post - OLD">Mueble para hacer de una casa un hogar.</string>
-	<string key="Bookcase01_GroupName" comment="Housing Furniture - Trading Post - OLD">Libreros pequeños</string>
+	<string key="Bookcase01_GroupName" comment="Housing Furniture - Trading Post - OLD">Bibliotecas pequeñas</string>
 	<string key="Bookcase02_GroupDesc" comment="Housing Furniture - Trading Post - OLD">Mueble para hacer de una casa un hogar.</string>
-	<string key="Bookcase02_GroupName" comment="Housing Furniture - Trading Post - OLD">Libreros grandes</string>
+	<string key="Bookcase02_GroupName" comment="Housing Furniture - Trading Post - OLD">Bibliotecas grandes</string>
 	<string key="Books_GroupName" comment="Housing Furniture - Trading Post - OLD">Libros</string>
 	<string key="Cabinet01_GroupDesc" comment="Housing Furniture - Trading Post - OLD">Mueble para hacer de una casa un hogar.</string>
 	<string key="Cabinet01_GroupName" comment="Housing Furniture - Trading Post - OLD">Armarios pequeños</string>
@@ -1104,7 +1104,7 @@
 	<string key="GauntletVoid_GroupName" rel_version="Weapon_Void_Gauntlet">Manoplas de vacío</string>
 	<string key="GreatSword_GroupDesc" rel_version="Weapon_GreatSword">Un arma versátil de ataque cuerpo a cuerpo que utiliza posturas para adaptarse a diversas situaciones de combate. Combina una ofensiva implacable con una defensa agresiva para superar cualquier desafío.\n\n•Ataques ligeros 1 y 2: Causa un {[0.900000 * 100]} % de &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_slash_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; daño.\n• Ataque ligero 3: Inflige un {[1.300000 * 100]} % de &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_slash_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; daño.\n•Ataques pesados cargados 1 y 2: Inflige un {[1.500000 * 100]} % de &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_slash_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; daño.\n•Ataque pesado cargado 3: Inflige un {[1.700000 * 100]} % &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_slash_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; de daño.\n\nCompatibilidad con gema para intimidación: Los ataques pesados con un mandoble que tiene una gema de cornalina intimidan durante {[0.500000]} s. (El efecto de intimidación hace que los monstruos se concentren exclusivamente en ti).</string>
 	<string key="GemAmbe_CategoryName">Gemas de ámbar</string>
-	<string key="GemAmet_CategoryName">Gemas de ametista</string>
+	<string key="GemAmet_CategoryName">Gemas de amatista</string>
 	<string key="GemAqua_CategoryName">Gemas de aguamarina</string>
 	<string key="GemCarn_CategoryName">Gemas de cornalina</string>
 	<string key="GemDiam_CategoryName">Gemas de diamante</string>
@@ -1419,7 +1419,7 @@
 	<string key="Muskets_GroupName">Mosquetes</string>
 	<string key="nut_GroupName">Nueces</string>
 	<string key="Offensive_GroupName">Modificadores ofensivos</string>
-	<string key="oil_GroupName">Petróleo</string>
+	<string key="oil_GroupName">Aceite</string>
 	<string key="beeswax_GroupName">Cera de abejas</string>
 	<string key="DroppedAmulet_GroupName">Amuletos soltados</string>
 	<string key="DroppedRing_GroupName">Anillos soltados</string>
@@ -1767,6 +1767,7 @@
 	<string key="Tokens_GroupName">Tokens de evento</string>
 	<string key="TokenCreation_GroupName">Creación de tokens</string>
 	<string key="TokenConversion_GroupName">Conversión</string>
+	<string key="SB_WispySpritzCraft" rel_version="Event_SpringtideBloom_Temp">Wispy Spritz</string>
 	<string key="ToolHatchet_GroupDesc">A una mano. Recolecta madera.</string>
 	<string key="ToolHatchet_GroupName">Hachuela</string>
 	<string key="ToolsGathering_GroupName">Herramientas de recolección</string>
@@ -1900,7 +1901,7 @@
 	<string key="CategoryData_RuneglassFamily" rel_version="Territory_Brimstone_Sands">Componentes de cristal rúnico</string>
 	<string key="RuneglassEmpty_GroupName" rel_version="Territory_Brimstone_Sands">Recipientes vacíos de cristal rúnico</string>
 	<string key="RuneglassAmber_GroupName" rel_version="Territory_Brimstone_Sands">Gemas de cristal rúnico de ámbar</string>
-	<string key="RuneglassAmethyst_GroupName" rel_version="Territory_Brimstone_Sands">Gemas de cristal rúnico de ametista</string>
+	<string key="RuneglassAmethyst_GroupName" rel_version="Territory_Brimstone_Sands">Gemas de cristal rúnico de amatista</string>
 	<string key="RuneglassAquamarine_GroupName" rel_version="Territory_Brimstone_Sands">Gemas de cristal rúnico de aguamarina</string>
 	<string key="RuneglassCarnelian_GroupName" rel_version="Territory_Brimstone_Sands">Gemas de cristal rúnico de cornalina</string>
 	<string key="RuneglassDiamond_GroupName" rel_version="Territory_Brimstone_Sands">Gemas de cristal rúnico de diamante</string>
@@ -2053,7 +2054,11 @@
 	<string key="ConquerorsGear_GroupName" comment="DO NOT TRANSLATE" rel_version="PvPServerConquerorsItems">Conquerors Armaments</string>
 	<string key="DungeonMaterialMinor_GroupName" rel_version="Raid_CutlassKeys_00">Materiales de expedición comunes</string>
 	<string key="DungeonMaterialMajor_GroupName" rel_version="Raid_CutlassKeys_00">Materiales de expedición raros</string>
-	<string key="OPRBetas_GroupName">Betas de Avance a un puesto de avanzada</string>
+	<string key="EtherealRefinement_GroupName" comment="DO NOT TRANSLATE" rel_version="PvPServerConquerorsItems">Ethereal Dust Refining</string>
+	<string key="EtherealDust_GroupName" comment="DO NOT TRANSLATE" rel_version="PvPServerConquerorsItems">Ethereal Dust XP Conversion</string>
 	<string key="BetaRewards_GroupName">Recompensas de la Beta</string>
+	<string key="OPRBetas_GroupName">Betas de Avance a un puesto de avanzada</string>
+	<string key="ReekwaterUplevelRare_GroupName">Raro</string>
+	<string key="ReekwaterUplevelCommon_GroupName">Común</string>
 </resources>
 

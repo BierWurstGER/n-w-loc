@@ -11,8 +11,8 @@
 	<string key="ui_howmany">CANTIDAD</string>
 	<string key="ui_postorderfor">Duración de la publicación</string>
 	<string key="ui_unitprice">Precio por unidad</string>
-	<string key="ui_plusfee">(&lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt; {total} + {fee} de cargo)</string>
-	<string key="ui_buyOrderFee">(&lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt; {total} + &lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt; {fee} de cargo)</string>
+	<string key="ui_plusfee">(&lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt; &lt;/img&gt;{total} + {fee} de cargo)</string>
+	<string key="ui_buyOrderFee">(&lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt; &lt;/img&gt;{total} + &lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt;{fee} de cargo)</string>
 	<string key="ui_minusfee">(&lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt; {total} - {fee} de cargo)</string>
 	<string key="ui_listingfee">Cargo de publicación</string>
 	<string key="ui_total">Total</string>
@@ -265,9 +265,9 @@
 	<string key="ui_cannot_change_perk_logic_popup_title">No se puede aplicar</string>
 	<string key="ui_cannot_change_perk_logic_message">No puedes cambiar el filtro a «Todas las ventajas seleccionadas» porque no se pueden elegir las siguientes ventajas a la vez.\n</string>
 	<string key="ui_cannot_change_perk_logic_incompatible_perks">\n&lt;font color="#ff7171"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{perkNameA}&lt;/font&gt;&lt;/font&gt; - &lt;font color="#ff7171"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{perkNameB}&lt;/font&gt;&lt;/font&gt;</string>
-	<string key="ui_max_perk_popup_title">Máximo de ventajas seleccionado</string>
+	<string key="ui_max_perk_popup_title">Máximo de ventajas selec.</string>
 	<string key="ui_max_perk_popup_message">Has alcanzado el máximo de ventajas que admite este objeto. Quita una para poner otra.</string>
-	<string key="ui_max_gem_popup_title">Máximo de gemas seleccionado</string>
+	<string key="ui_max_gem_popup_title">Máximo de gemas selec.</string>
 	<string key="ui_max_gem_popup_message">Has alcanzado el máximo de gemas que admite este objeto. Quita una gema para añadir otra.</string>
 	<string key="ui_remove">eliminar</string>
 	<string key="ui_showonly">Mostrar solo:</string>

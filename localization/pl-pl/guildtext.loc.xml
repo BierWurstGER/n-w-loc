@@ -121,7 +121,7 @@
 	<string key="ui_treasury_popup_fromcompanytreasury">Ze skarbca kompanii</string>
 	<string key="ui_treasury_popup_dailylimit">Dzienny limit wypłat:</string>
 	<string key="ui_treasury_popup_availablelimit">Dostępny limit wypłat:</string>
-	<string key="ui_treasury_popup_newtreasurybalance">Nowe saldo skarbca kompanii:</string>
+	<string key="ui_treasury_popup_newtreasurybalance">Nowe saldo skarbca kompanii</string>
 	<string key="ui_treasury_popup_setdailylimit_title">Dzienny limit wypłat</string>
 	<string key="ui_treasury_popup_setdailylimit_current">Obecny limit</string>
 	<string key="ui_treasury_popup_setdailylimit_new">Nowy limit</string>
@@ -332,7 +332,7 @@
 	<string key="ui_wardeclarationpopup_title">Wypowiedzenie wojny</string>
 	<string key="ui_wardeclarationpopup_target">kontra {guildName}</string>
 	<string key="ui_wardeclarationpopup_message">Podczas wojny atakująca kompania próbuje przejąć terytorium broniącej się kompanii, zajmując jej fort w trakcie okresu oblężenia.</string>
-	<string key="ui_wardeclarationpopup_declarebutton">Wypowiedz wojnę! {coinImage} {cost}</string>
+	<string key="ui_wardeclarationpopup_declarebutton">{coinImage} {cost}</string>
 	<string key="ui_wardeclarationpopup_mywallet" comment="When presented to the user, the name for currency is always Coin">Monety</string>
 	<string key="ui_wardeclarationpopup_extendtitle">Kontratak</string>
 	<string key="ui_wardeclarationpopup_extendmessage" comment="This will have a time below it for how long the war will last after the extension">Czy na pewno chcesz wypowiedzieć wojnę kompanii {guildName}?\nObie kompanie będą mogły się atakować bez oznaczenia jako przestępcy przez:</string>
@@ -682,7 +682,14 @@
 	<string key="ui_war_schedule_adjustment_message">{warType} na terytorium: {territoryName} – {scheduleAdjustmentType}.</string>
 	<string key="ui_war_schedule_adjustment_cancelled">odwołano</string>
 	<string key="ui_war_schedule_adjustment_rescheduled">przełożono</string>
-	<string key="ui_war_camp_tier">Klasa &lt;font face="lyshineui/fonts/Pica_Regular.font"&gt;{value}&lt;/font&gt;</string>
+	<string key="ui_war_camp_tier">Klasa {value}</string>
 	<string key="ui_war_camp_weapons_tier">Klasa broni oblężniczej</string>
+	<string key="ui_guildrank_security_label">&lt;img src="lyshineui/images/markers/marker_textDivider" xPadding="0" scale="1" yOffset="0"&gt;&lt;/img&gt; {rankText}</string>
+	<string key="ui_wardeclarationpopup_wallet_company">Kompania</string>
+	<string key="ui_wardeclarationpopup_defending">Obrona</string>
+	<string key="ui_wardeclarationpopup_declare">Wypowiedz</string>
+	<string key="ui_wardeclarationpopup_wallet">Portfel</string>
+	<string key="ui_wardeclarationpopup_attacking">Atak</string>
+	<string key="ui_wardeclarationpopup_wallet_personal">Osobisty</string>
 </resources>
 

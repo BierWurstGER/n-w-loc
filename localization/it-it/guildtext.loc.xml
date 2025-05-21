@@ -108,7 +108,7 @@
 	<string key="ui_guildsiegetab">Periodo d'assedio</string>
 	<string key="ui_guildtreasurytab">Cassa comune</string>
 	<string key="ui_guildtreasurytab_balance">{balance} {coinImage}</string>
-	<string key="ui_treasury_totalbalance">Saldo</string>
+	<string key="ui_treasury_totalbalance">Equilibrio</string>
 	<string key="ui_treasury_dailywithdrawallimit">Limite di prelievo giornaliero</string>
 	<string key="ui_treasury_dailywithdrawallimitsmall">Limite di prelievo giornaliero:</string>
 	<string key="ui_treasury_availablewithdrawallimit">Limite di prelievo disponibile</string>
@@ -121,7 +121,7 @@
 	<string key="ui_treasury_popup_fromcompanytreasury">Dalla cassa comune della compagnia</string>
 	<string key="ui_treasury_popup_dailylimit">Limite di prelievo giornaliero:</string>
 	<string key="ui_treasury_popup_availablelimit">Limite di prelievo disponibile:</string>
-	<string key="ui_treasury_popup_newtreasurybalance">Nuovo saldo della cassa comune della compagnia:</string>
+	<string key="ui_treasury_popup_newtreasurybalance">Nuovo saldo della cassa comune della compagnia</string>
 	<string key="ui_treasury_popup_setdailylimit_title">Limite di prelievo giornaliero</string>
 	<string key="ui_treasury_popup_setdailylimit_current">Limite attuale</string>
 	<string key="ui_treasury_popup_setdailylimit_new">Nuovo limite</string>
@@ -332,7 +332,7 @@
 	<string key="ui_wardeclarationpopup_title">Dichiarazione di guerra</string>
 	<string key="ui_wardeclarationpopup_target">vs {guildName}</string>
 	<string key="ui_wardeclarationpopup_message">Durante una guerra, la compagnia che attacca cerca di rivendicare il territorio della compagnia che difende catturandone il forte entro la finestra di assedio.</string>
-	<string key="ui_wardeclarationpopup_declarebutton">Dichiara guerra! {coinImage} {cost}</string>
+	<string key="ui_wardeclarationpopup_declarebutton">{coinImage} {cost}</string>
 	<string key="ui_wardeclarationpopup_mywallet" comment="When presented to the user, the name for currency is always Coin">Monete</string>
 	<string key="ui_wardeclarationpopup_extendtitle">Contrattacca</string>
 	<string key="ui_wardeclarationpopup_extendmessage" comment="This will have a time below it for how long the war will last after the extension">Vuoi davvero contrattaccare {guildName}?\nEntrambe le compagnie potranno attaccarsi a vicenda senza commettere un crimine per:</string>
@@ -360,7 +360,7 @@
 	<string key="ui_wardeclarationpopup_siege_time_title">Prossimo periodo d'assedio disponibile</string>
 	<string key="ui_wardeclarationpopup_siege_selection_title">Seleziona il tuo accampamento di guerra</string>
 	<string key="ui_wardeclarationpopup_siege_selection_action">Seleziona accampamento</string>
-	<string key="ui_wardeclarationpopup_confirmation_title">La guerra è stata dichiarata!</string>
+	<string key="ui_wardeclarationpopup_confirmation_title">Guerra dichiarata!</string>
 	<string key="ui_wardeclarationpopup_confirmation_message">Nei pressi della fortezza è presente un accampamento di guerra.\nLa tua compagnia potrà usare l'accampamento quando inizia la guerra!</string>
 	<string key="ui_wardeclarationpopup_item_gate_strength">Resistenza della porta</string>
 	<string key="ui_wardeclarationpopup_item_deployment_limit">Limite armi da assedio</string>
@@ -548,7 +548,7 @@
 	<string key="ui_siege_next_step">Prossimi passi</string>
 	<string key="ui_siege_signup_darknessinvasion">uccidi i corrotti,\ndifendi la fortezza</string>
 	<string key="ui_siege_signup_fortressname">Forte {territoryName}</string>
-	<string key="ui_siege_signup_war_title">Iscriviti a una guerra.</string>
+	<string key="ui_siege_signup_war_title">Iscriviti a una guerra</string>
 	<string key="ui_siege_signup_invasion_title">Iscriviti a un'invasione.</string>
 	<string key="ui_siege_signup_warschedule">PROGRAMMA GUERRE</string>
 	<string key="ui_siege_signup_invasionduration">DURATA INVASIONE</string>
@@ -682,7 +682,14 @@
 	<string key="ui_war_schedule_adjustment_message">{warType} in {territoryName} è stato {scheduleAdjustmentType}.</string>
 	<string key="ui_war_schedule_adjustment_cancelled">annullato</string>
 	<string key="ui_war_schedule_adjustment_rescheduled">rinviato</string>
-	<string key="ui_war_camp_tier">Livello &lt;font face="lyshineui/fonts/Pica_Regular.font"&gt;{value}&lt;/font&gt;</string>
+	<string key="ui_war_camp_tier">Livello {value}</string>
 	<string key="ui_war_camp_weapons_tier">Livello arma da assedio</string>
+	<string key="ui_guildrank_security_label">&lt;img src="lyshineui/images/markers/marker_textDivider" xPadding="0" scale="1" yOffset="0"&gt;&lt;/img&gt; {rankText}</string>
+	<string key="ui_wardeclarationpopup_wallet_company">Compagnia</string>
+	<string key="ui_wardeclarationpopup_defending">In difesa</string>
+	<string key="ui_wardeclarationpopup_declare">Dichiara</string>
+	<string key="ui_wardeclarationpopup_wallet">Portafoglio</string>
+	<string key="ui_wardeclarationpopup_attacking">In attacco</string>
+	<string key="ui_wardeclarationpopup_wallet_personal">Personale</string>
 </resources>
 

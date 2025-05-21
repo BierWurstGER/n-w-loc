@@ -84,10 +84,10 @@
 	<string key="inv_equipLoadNormalNotification">La carga de equipamiento es mediana.</string>
 	<string key="inv_equipLoadSlowNotification">La carga de equipamiento es pesada.</string>
 	<string key="inv_equipLoadOverburdenedNotification">Exceso de equipamiento: no puedes esquivar ni correr.</string>
-	<string key="inv_equipLoadEncumberedNotification">Carga excesiva: no puedes esquivar, saltar ni correr.</string>
+	<string key="inv_equipLoadEncumberedNotification">Carga excesiva: no puedes correr, esquivar ni saltar.</string>
 	<string key="inv_encumbranceTooltip">El peso del inventario influye en tus movimientos y acciones. Mejora las bolsas para aumentar el límite de peso. Si superas el límite, llevarás una carga excesiva. Si lo superas en gran medida, llevarás una carga desmesurada.</string>
 	<string key="inv_encumbranceUnencumberedTooltip">Como estás dentro del límite de peso del inventario, puedes realizar las acciones que desees.</string>
-	<string key="inv_encumbranceEncumberedTooltip">• Carga excesiva: No puedes correr, esquivar o saltar.\n• Carga desmesurada: No te puedes mover, esquivar, saltar o atacar.</string>
+	<string key="inv_encumbranceEncumberedTooltip">• Carga excesiva: No puedes correr, esquivar o saltar.\n• Carga desmesurada: No puedes atacar, correr, esquivar ni saltar.</string>
 	<string key="inv_does_not_meet_weapon_requirements">Atributos insuficientes</string>
 	<string key="inv_encumbranceAttackNotification">Carga desmesurada: no puedes atacar.</string>
 	<string key="inv_insufficientManaNotification">Maná insuficiente</string>
@@ -163,7 +163,7 @@
 	<string key="ui_dropall_in_trade">No puedes soltar objetos al comerciar.</string>
 	<string key="ui_transfer_all_filtered">No se pueden mover todos los objetos de esta sección si los objetos tienen filtro.</string>
 	<string key="ui_storeall">Guarda todo en la caseta de almacenamiento.</string>
-	<string key="ui_filterDescription">&lt;font color={subheaderColor} face="lyshineui/fonts/Nimbus_Bold.font"&gt;CÓMO BUSCAR&lt;/font&gt;\n\n&lt;font color={subheaderColor} face="lyshineui/fonts/Nimbus_semibold.font"&gt;Refinar&lt;/font&gt;\n• Incluye: espada\n• Excluye: -hacha\n• Beneficios/Gemas: [protección]\n• Puntuación del equipo mínima: 100\n• Nivel mínimo: 1\n\n&lt;font color={subheaderColor} face="lyshineui/fonts/Nimbus_semibold.font"&gt;Avanzado&lt;/font&gt;\n• espada -200\n• hacha -1\n• pico -hierro\n• mosquete [electrificado]</string>
+	<string key="ui_filterDescription">&lt;font color={subHeaderColor} face="lyshineui/fonts/Nimbus_Bold.font"&gt;CÓMO BUSCAR&lt;/font&gt;\n\n&lt;font color={subHeaderColor} face="lyshineui/fonts/Nimbus_semibold.font"&gt;Refinar&lt;/font&gt;\n• Incluye: espada\n• Excluye: -hacha\n• Beneficios/Gemas: [protección]\n• Puntuación del equipo mínima: 100\n• Nivel mínimo: 1\n\n&lt;font color={subHeaderColor} face="lyshineui/fonts/Nimbus_semibold.font"&gt;Avanzado&lt;/font&gt;\n• Espada -200\n• Hacha -1\n• Pico/Hierro\n• Mosquete [electrificado]</string>
 	<string key="ui_filterText">Buscar</string>
 	<string key="ui_filterHeader">Filtrar objeto</string>
 	<string key="ui_sort">Ordenar</string>
@@ -261,5 +261,6 @@
 	<string key="perktooltips_stacks_over_limit">(superar máx.)</string>
 	<string key="perktooltips_stacks_over_limit_disabled">(deshabilitado)</string>
 	<string key="perktooltips_max_stacks">Acumulaciones máx. de beneficio: </string>
+	<string key="inv_equipLoadOverEncumberedNotification">Carga desmesurada: no puedes atacar, correr, esquivar ni saltar.</string>
 </resources>
 

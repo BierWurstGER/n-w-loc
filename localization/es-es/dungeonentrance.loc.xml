@@ -44,7 +44,7 @@
 	<string key="ui_dungeon_requirements_equipment_warning_raidtrial">Debes tener al menos el siguiente objeto: &lt;font color="#ebe3d6"&gt;{item}&lt;/font&gt;.</string>
 	<string key="ui_dungeon_requirements_equipment_warning_seasontrial" rel_version="Season_2_Perm">Debes tener al menos el siguiente objeto: &lt;font color="#ebe3d6"&gt;{item}&lt;/font&gt;.</string>
 	<string key="ui_dungeon_reward_level">La calidad general del botín aumenta cuanto mayor sea el nivel de dificultad.\n\nLos objetos que encuentres pueden diferir de los de la lista en función de su puntuación de equipo.</string>
-	<string key="ui_dungeon_reward_title_regular">Recompensas</string>
+	<string key="ui_dungeon_reward_title_regular">Recompensas de expediciones</string>
 	<string key="ui_dungeon_reward_title_mutation">Recompensas de mutágeno</string>
 	<string key="ui_dungeon_level_requirement">Nivel requerido: {level}</string>
 	<string key="ui_dungeon_elapsed_time">Tiempo transcurrido:</string>
@@ -290,7 +290,6 @@
 	<string key="ui_dungeon_mutator_special_reward_tooltip" rel_version="Feature_Dungeon_Mutators">Los fragmentos umbríos se obtienen como recompensa según tu rango al completar la expedición.\n\nDesbloquea la siguiente dificultad de la expedición con rango plata o superior.</string>
 	<string key="ui_dungeon_mutator_hud_points_shorthand" rel_version="Feature_Dungeon_Mutators">&lt;font color="#b2aea1" &gt;pt&lt;/font&gt;</string>
 	<string key="ui_dungeon_mutator_difficulty_not_unlocked" rel_version="Feature_Dungeon_Mutators">Esta dificultad aún no está desbloqueada.</string>
-	<string key="ui_dungeon_mutator_level_not_met" rel_version="Feature_Dungeon_Mutators">No cumples el requisito de nivel para esta expedición.</string>
 	<string key="Mut_Disease_1_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">Los enemigos aplican una acumulación de Enfermedad al golpear. Reduce la curación recibida un {[-0.025000 * -100]} % por acumulación.</string>
 	<string key="Mut_Disease_2_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">Los enemigos aplican una acumulación de Enfermedad al golpear. Reduce la curación recibida un {[-0.025000 * -100]}/{[-0.050000 * -100]} % por acumulación.</string>
 	<string key="Mut_RotatingBeam_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">Los enemigos lanzan rayos cortantes que hacen un {[-0.3 * -100]} % de daño base de vacío al tocarlos.</string>
@@ -480,5 +479,6 @@
 	<string key="ui_elitetrial_banner_daily_count" rel_version="Season_2_Perm">{count}/{max} diarios</string>
 	<string key="ui_elitetrial_banner_weekly_count" rel_version="Season_2_Perm">{count}/{max} semanales</string>
 	<string key="Respawn_EntranceNameTrial" rel_version="Trial_Brimstone_Sandworm">Entrada a la prueba</string>
+	<string key="ui_dungeon_level_not_met_solo">No cumples el requisito de nivel para esta prueba del alma.</string>
 </resources>
 

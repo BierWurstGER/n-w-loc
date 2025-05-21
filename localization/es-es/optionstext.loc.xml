@@ -61,7 +61,7 @@
 	<string key="ui_rightdeadzone_desc" rel_version="Feature_Controller">Ajusta el tamaño de la zona muerta del joystick derecho.</string>
 	<string key="ui_joystickedgeboost" rel_version="Feature_Controller">Velocidad de giro</string>
 	<string key="ui_joystickedgeboost_desc" rel_version="Feature_Controller">Ajusta la velocidad de giro cuando el joystick alcanza su rango máximo de movimiento.</string>
-	<string key="ui_joystickcurve" rel_version="Feature_Controller">Curva de velocidad del joystick de cámara</string>
+	<string key="ui_joystickcurve" rel_version="Feature_Controller">Velocidad de la de cámara con la palanca</string>
 	<string key="ui_joystickcurve_desc" rel_version="Feature_Controller">Ajusta la velocidad de giro de la cámara.</string>
 	<string key="ui_aim_assist" rel_version="Feature_Controller">Ayuda al apuntar</string>
 	<string key="ui_aim_assist_desc" rel_version="Feature_Controller">Activa la ayuda al apuntar para ataques con proyectiles.</string>
@@ -226,6 +226,8 @@
 	<string key="ui_vocalsvolume_desc">Ajusta el volumen de las voces.</string>
 	<string key="ui_vovolume">Volumen del doblaje</string>
 	<string key="ui_vovolume_desc">Ajusta el volumen del doblaje.</string>
+	<string key="ui_targetLock_volume">Volumen de fijación de objetivo</string>
+	<string key="ui_targetLock_volume_desc">Ajusta el volumen del indicador de fijación de objetivo.</string>
 	<string key="ui_musicvolume">Volumen de la música</string>
 	<string key="ui_musicvolume_desc">Ajusta el volumen de la música.</string>
 	<string key="ui_ambientmusicvolume">Volumen de la música ambiental</string>
@@ -243,8 +245,8 @@
 	<string key="ui_options_graphics_uncappedfps">Sin límite</string>
 	<string key="ui_language">Idioma del texto</string>
 	<string key="ui_language_desc">Establece el idioma del texto.</string>
-	<string key="ui_language_audio">Idioma de audio</string>
-	<string key="ui_language_audio_desc">Visita la página de ayuda de New World: Aetérnum para descubrir cómo cambiar el idioma de audio.</string>
+	<string key="ui_language_audio">Idioma del audio</string>
+	<string key="ui_language_audio_desc">Visita la página de ayuda de New World: Aetérnum para descubrir cómo cambiar el idioma del audio.</string>
 	<string key="system-language" comment="Use the language set on the platform's OS.">Usar el idioma del dispositivo</string>
 	<string key="en-US">English</string>
 	<string key="fr-FR">Français</string>
@@ -296,7 +298,7 @@
 	<string key="ui_dialogue_autoprogress_pause">Pausar en preguntas</string>
 	<string key="ui_dialogue_autoprogress_never">Nunca</string>
 	<string key="ui_dialogue_autoprogress_always">Siempre.</string>
-	<string key="ui_metaachievementpopups">Logro</string>
+	<string key="ui_metaachievementpopups">Logros</string>
 	<string key="ui_metaachievementpopups_desc">Muestra una notificación cuando se desbloquea un logro.</string>
 	<string key="ui_enable_territory_notifications">Territorio</string>
 	<string key="ui_enable_territory_notifications_desc">Muestra las notificaciones relacionadas con el control del territorio.</string>
@@ -305,7 +307,7 @@
 	<string key="ui_enable_housing_notifications">Casa</string>
 	<string key="ui_enable_housing_notifications_desc">Muestra las notificaciones relacionadas con las casas.</string>
 	<string key="ui_enable_perfect_salvage_notifications">Aprovechamiento perfecto</string>
-	<string key="ui_enable_perfect_salvage_notifications_desc">Muestra una notificación al conseguir un aprovechamiento perfecto.</string>
+	<string key="ui_enable_perfect_salvage_notifications_desc">Muestra una notificación al conseguir aprovechamiento perfecto.</string>
 	<string key="ui_colorBlindness">Daltonismo</string>
 	<string key="ui_colorBlindness_desc">Aplica un filtro de daltonismo.</string>
 	<string key="ui_options_ColorBlindness_NoFilter">Sin filtro</string>
@@ -446,7 +448,7 @@
 	<string key="ui_camera_lock_auto_break_with_hold_ticks" rel_version="Feature_Controller">Duración para desactivar fijación de objetivos automáticamente al mantener</string>
 	<string key="ui_camera_lock_auto_break_with_hold_ticks_desc" rel_version="Feature_Controller">Establece la cantidad de tiempo en décimas de segundos para mantener necesaria para fijar al objetivo si se ha activado Desactivar fijación de objetivos automáticamente al mantener.</string>
 	<string key="ui_smartcast_toggle" rel_version="Feature_Smartcast">Lanzamiento inteligente</string>
-	<string key="ui_smartcast_toggle_desc" rel_version="Feature_Smartcast">Activa o desactiva Lanzamiento inteligente. Lanzamiento inteligente te permite usar ciertas habilidades con solo pulsar un botón en lugar de tener que pulsar uno para apuntar y otro para lanzarlas.</string>
+	<string key="ui_smartcast_toggle_desc" rel_version="Feature_Smartcast">Activa o desactiva Lanzamiento inteligente. El lanzamiento inteligente te permite usar ciertas habilidades apuntadas con solo pulsar un botón en lugar de tener que pulsar uno para apuntar y otro para lanzarlas.</string>
 	<string key="ui_quickcast_toggle" rel_version="Feature_Smartcast">Tipo de Lanzamiento inteligente</string>
 	<string key="ui_quickcast_toggle_desc" rel_version="Feature_Smartcast">Activa el Lanzamiento inteligente al soltar o activar el botón de habilidad.</string>
 	<string key="ui_quickcast_toggle_release" rel_version="Feature_Smartcast">Al soltar</string>
@@ -481,8 +483,8 @@
 	<string key="ui_genaprompt_newsscreen_ps" rel_version="Feature_GameEntryNarrationAssistance">Noticias. Pulsa Cuadrado para continuar.</string>
 	<string key="ui_genaprompt_newsscreen_xb" rel_version="Feature_GameEntryNarrationAssistance">Noticias. Pulsa X para continuar.</string>
 	<string key="ui_genaprompt_eventscreen" rel_version="Feature_GameEntryNarrationAssistance">Pantalla de eventos. Pulsa {ui_cancel} para salir.</string>
-	<string key="ui_genaprompt_eventscreen_ps" rel_version="Feature_GameEntryNarrationAssistance">Pantalla de eventos. Pulsa Círculo para salir.</string>
-	<string key="ui_genaprompt_eventscreen_xb" rel_version="Feature_GameEntryNarrationAssistance">Pantalla de eventos. Pulsa B para salir.</string>
+	<string key="ui_genaprompt_eventscreen_ps" rel_version="Feature_GameEntryNarrationAssistance">Pantalla de evento. Pulsa Círculo para salir.</string>
+	<string key="ui_genaprompt_eventscreen_xb" rel_version="Feature_GameEntryNarrationAssistance">Pantalla de evento. Pulsa B para salir.</string>
 	<string key="ui_genaprompt_newsandeventscreen" rel_version="Feature_GameEntryNarrationAssistance">Pantalla de noticias y eventos. Pulsa {ui_cancel} para salir.</string>
 	<string key="ui_genaprompt_newsandeventscreen_ps" rel_version="Feature_GameEntryNarrationAssistance">Pantalla de noticias y eventos. Pulsa Círculo para salir.</string>
 	<string key="ui_genaprompt_newsandeventscreen_xb" rel_version="Feature_GameEntryNarrationAssistance">Pantalla de noticias y eventos. Pulsa B para salir.</string>
@@ -490,8 +492,8 @@
 	<string key="ui_genaprompt_waitingpopup_ps" rel_version="Feature_GameEntryNarrationAssistance">Iniciando sesión. Espera, por favor. Pulsa Círculo para cancelar.</string>
 	<string key="ui_genaprompt_waitingpopup_xb" rel_version="Feature_GameEntryNarrationAssistance">Iniciando sesión. Espera, por favor. Pulsa B para cancelar.</string>
 	<string key="ui_genaprompt_leave_queue_confirmation" rel_version="Feature_GameEntryNarrationAssistance">Abandonar la cola. ¿Seguro que quieres salir de la cola? Pulsa {ui_cancel} para No. Pulsa {frontEndContinue} para Sí.</string>
-	<string key="ui_genaprompt_leave_queue_confirmation_ps" rel_version="Feature_GameEntryNarrationAssistance">Abandonar la cola. ¿Seguro que quieres salir de la cola? Pulsa Círculo para No. Pulsa Cuadrado para Sí.</string>
-	<string key="ui_genaprompt_leave_queue_confirmation_xb" rel_version="Feature_GameEntryNarrationAssistance">Abandonar la cola. ¿Seguro que quieres salir de la cola? Pulsa B para No. Pulsa X para Sí.</string>
+	<string key="ui_genaprompt_leave_queue_confirmation_ps" rel_version="Feature_GameEntryNarrationAssistance">Abandonar cola. ¿Seguro que quieres salir de la cola? Pulsa Círculo para No. Pulsa Cuadrado para Sí.</string>
+	<string key="ui_genaprompt_leave_queue_confirmation_xb" rel_version="Feature_GameEntryNarrationAssistance">Abandonar cola. ¿Seguro que quieres salir de la cola? Pulsa B para No. Pulsa X para Sí.</string>
 	<string key="ui_genaprompt_loadingscreen" rel_version="Feature_GameEntryNarrationAssistance">Cargando. Espera, por favor.</string>
 	<string key="ui_genaprompt_characterselect" rel_version="Feature_GameEntryNarrationAssistance">Pantalla de selección de personaje Pulsa {frontEndContinue} para seleccionar a {characterName}.</string>
 	<string key="ui_genaprompt_characterselect_ps" rel_version="Feature_GameEntryNarrationAssistance">Pantalla de selección de personaje Pulsa Cuadrado para seleccionar a {characterName}.</string>
@@ -503,8 +505,8 @@
 	<string key="ui_genaprompt_worldselect_ps" rel_version="Feature_GameEntryNarrationAssistance">Pantalla de selección de mundo Pulsa Cuadrado para seleccionar {world} en {worldset}. Pulsa Círculo para retroceder.</string>
 	<string key="ui_genaprompt_worldselect_xb" rel_version="Feature_GameEntryNarrationAssistance">Pantalla de selección de mundo Pulsa X para seleccionar {world} en {worldset}. Pulsa B para retroceder.</string>
 	<string key="ui_genaprompt_worldselect_confirm_no_warning" rel_version="Feature_GameEntryNarrationAssistance">Entrando en {world} en {worldset}. Pulsa {frontEndContinue} para crear un personaje. Pulsa {ui_cancel} para retroceder.</string>
-	<string key="ui_genaprompt_worldselect_confirm_no_warning_ps" rel_version="Feature_GameEntryNarrationAssistance">Entrando en {world} en {worldset}. Pulsa Cuadrado para crear un personaje. Pulsa Círculo para retroceder.</string>
-	<string key="ui_genaprompt_worldselect_confirm_no_warning_xb" rel_version="Feature_GameEntryNarrationAssistance">Entrando en {world} en {worldset}. Pulsa X para crear un personaje. Pulsa B para retroceder.</string>
+	<string key="ui_genaprompt_worldselect_confirm_no_warning_ps" rel_version="Feature_GameEntryNarrationAssistance">Entrando a {world} en {worldset}. Pulsa Cuadrado para crear un personaje. Pulsa Círculo para retroceder.</string>
+	<string key="ui_genaprompt_worldselect_confirm_no_warning_xb" rel_version="Feature_GameEntryNarrationAssistance">Entrando a {world} en {worldset}. Pulsa X para crear un personaje. Pulsa B para retroceder.</string>
 	<string key="ui_genaprompt_worldselectconfirm" rel_version="Feature_GameEntryNarrationAssistance">{warning}. Pulsa {frontEndContinue} para aceptar. Pulsa {ui_cancel} para elegir un mundo distinto.</string>
 	<string key="ui_genaprompt_worldselectconfirm_ps" rel_version="Feature_GameEntryNarrationAssistance">{warning}. Pulsa Cuadrado para continuar. Pulsa Círculo para elegir un mundo distinto.</string>
 	<string key="ui_genaprompt_worldselectconfirm_xb" rel_version="Feature_GameEntryNarrationAssistance">{warning}. Pulsa X para aceptar. Pulsa B para elegir un mundo distinto.</string>
@@ -551,9 +553,9 @@
 	<string key="ui_genaprompt_popupokcancel" rel_version="Feature_GameEntryNarrationAssistance">{title}. {message} Pulsa {frontEndContinue} para confirmar. Pulsa {ui_cancel} para cancelar.</string>
 	<string key="ui_genaprompt_popupokcancel_ps" rel_version="Feature_GameEntryNarrationAssistance">{title}. {message} Pulsa Cuadrado para confirmar. Pulsa Círculo para cancelar.</string>
 	<string key="ui_genaprompt_popupokcancel_xb" rel_version="Feature_GameEntryNarrationAssistance">{title}. {message} Pulsa X para confirmar. Pulsa B para cancelar.</string>
-	<string key="ui_genaprompt_rename_required">Cambia el nombre del personaje. Tienes que cambiarle el nombre a {characterName}. Escribe un nombre nuevo. Pulsa {ui_cancel} para cancelar.</string>
-	<string key="ui_genaprompt_rename_required_ps">Cambia el nombre del personaje. Tienes que cambiarle el nombre a {characterName}. Escribe un nombre nuevo. Pulsa Círculo para cancelar.</string>
-	<string key="ui_genaprompt_rename_required_xb">Cambia el nombre del personaje. Tienes que cambiarle el nombre a {characterName}. Escribe un nombre nuevo. Pulsa B para cancelar.</string>
+	<string key="ui_genaprompt_rename_required">Cambiar nombre del personaje Tienes que cambiarle el nombre a {characterName}. Escribe un nombre nuevo. Pulsa {ui_cancel} para cancelar.</string>
+	<string key="ui_genaprompt_rename_required_ps">Cambiar nombre del personaje Tienes que cambiarle el nombre a {characterName}. Escribe un nombre nuevo. Pulsa Círculo para cancelar.</string>
+	<string key="ui_genaprompt_rename_required_xb">Cambiar nombre del personaje Tienes que cambiarle el nombre a {characterName}. Escribe un nombre nuevo. Pulsa B para cancelar.</string>
 	<string key="ui_genaprompt_rename_required_confirm">Pulsa {frontEndContinue} para confirmar.</string>
 	<string key="ui_genaprompt_rename_required_confirm_ps">Pulsa Cuadrado para confirmar.</string>
 	<string key="ui_genaprompt_rename_required_confirm_xb">Pulsa B para confirmar.</string>
@@ -629,7 +631,5 @@
 	<string key="ui_modifier_keys" rel_version="Feature_Controller">Modificadores</string>
 	<string key="ui_housing" rel_version="Feature_Controller">Decorar casa</string>
 	<string key="ui_menu" rel_version="Feature_Controller">Menú</string>
-	<string key="ui_targetLock_volume">Volumen de fijación de objetivo</string>
-	<string key="ui_targetLock_volume_desc">Ajusta el volumen del indicador de fijación de objetivo.</string>
 </resources>
 

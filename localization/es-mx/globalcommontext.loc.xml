@@ -38,17 +38,17 @@
 	<string key="cc_np_8">Tecla 8 de teclado numérico</string>
 	<string key="cc_np_9">Tecla 9 de teclado numérico</string>
 	<string key="cc_L">L</string>
-	<string key="cc_az_dpad_up" rel_version="Feature_Controller">Flecha arriba pad direccional</string>
-	<string key="cc_az_dpad_down" rel_version="Feature_Controller">Flecha abajo pad direccional</string>
-	<string key="cc_az_dpad_left" rel_version="Feature_Controller">Flecha izquierda pad direccional</string>
-	<string key="cc_az_dpad_right" rel_version="Feature_Controller">Flecha derecha pad direccional</string>
+	<string key="cc_az_dpad_up" rel_version="Feature_Controller">Flecha hacia arriba del pad direccional</string>
+	<string key="cc_az_dpad_down" rel_version="Feature_Controller">Flecha hacia abajo del pad direccional</string>
+	<string key="cc_az_dpad_left" rel_version="Feature_Controller">Flecha hacia la izquierda del pad direccional</string>
+	<string key="cc_az_dpad_right" rel_version="Feature_Controller">Flecha hacia la derecha del pad direccional</string>
 	<string key="cc_az_dpadaxis" rel_version="Feature_Controller">Eje del pad direccional</string>
 	<string key="cc_az_start" rel_version="Feature_Controller">Inicio</string>
 	<string key="cc_az_back" rel_version="Feature_Controller">Seleccionar</string>
-	<string key="cc_az_thumblaxis" rel_version="Feature_Controller">Eje izq. palanca analógica</string>
-	<string key="cc_az_thumbraxis" rel_version="Feature_Controller">Eje der. palanca analógica</string>
-	<string key="cc_az_thumbl" rel_version="Feature_Controller">Botón izq. palanca analógica</string>
-	<string key="cc_az_thumbr" rel_version="Feature_Controller">Botón der. palanca analógica</string>
+	<string key="cc_az_thumblaxis" rel_version="Feature_Controller">Eje hacia la izquierda de la palanca analógica</string>
+	<string key="cc_az_thumbraxis" rel_version="Feature_Controller">Eje hacia la derecha de la palanca analógica</string>
+	<string key="cc_az_thumbl" rel_version="Feature_Controller">Botón hacia la izquierda de la palanca analógica</string>
+	<string key="cc_az_thumbr" rel_version="Feature_Controller">Botón hacia la derecha de la palanca analógica</string>
 	<string key="cc_az_shoulderl" rel_version="Feature_Controller">Botón del hombro izquierdo</string>
 	<string key="cc_az_shoulderr" rel_version="Feature_Controller">Botón del hombro derecho</string>
 	<string key="cc_az_a" rel_version="Feature_Controller">A</string>
@@ -57,17 +57,17 @@
 	<string key="cc_az_y" rel_version="Feature_Controller">Y</string>
 	<string key="cc_az_triggerl" rel_version="Feature_Controller">Gatillo izquierdo</string>
 	<string key="cc_az_triggerr" rel_version="Feature_Controller">Gatillo derecho</string>
-	<string key="cc_az_thumblx" rel_version="Feature_Controller">Eje X izq. palanca analógica</string>
-	<string key="cc_az_thumbly" rel_version="Feature_Controller">Eje Y izq. palanca analógica</string>
-	<string key="cc_az_thumbl_up" rel_version="Feature_Controller">Flecha arriba/izq. p. analógica</string>
-	<string key="cc_az_thumbl_down" rel_version="Feature_Controller">Flecha abajo/izq. p. analógica</string>
-	<string key="cc_az_thumbl_left" rel_version="Feature_Controller">Flecha izq./izq. p. analógica</string>
-	<string key="cc_az_thumbl_right" rel_version="Feature_Controller">Flecha der./izq. p. analógica</string>
-	<string key="cc_az_thumbrx" rel_version="Feature_Controller">Eje X der. palanca analógica</string>
+	<string key="cc_az_thumblx" rel_version="Feature_Controller">Eje X hacia la izquierda de la palanca analógica</string>
+	<string key="cc_az_thumbly" rel_version="Feature_Controller">Eje Y hacia la izquierda de la palanca analógica</string>
+	<string key="cc_az_thumbl_up" rel_version="Feature_Controller">Flecha arriba/izquierda de la palanca analógica</string>
+	<string key="cc_az_thumbl_down" rel_version="Feature_Controller">Flecha abajo/izquierda de la palanca analógica</string>
+	<string key="cc_az_thumbl_left" rel_version="Feature_Controller">Flecha izquierda/izquierda de la palanca analógica</string>
+	<string key="cc_az_thumbl_right" rel_version="Feature_Controller">Flecha derecha/izquierda de la palanca analógica</string>
+	<string key="cc_az_thumbrx" rel_version="Feature_Controller">Eje X hacia la derecha de la palanca analógica</string>
 	<string key="cc_az_thumbry" rel_version="Feature_Controller">Eje Y hacia la derecha de la palanca analógica</string>
-	<string key="cc_az_thumbr_up" rel_version="Feature_Controller">Flecha arriba/der. p. analógica</string>
-	<string key="cc_az_thumbr_down" rel_version="Feature_Controller">Flecha abajo/der. p. analógica</string>
-	<string key="cc_az_thumbr_left" rel_version="Feature_Controller">Flecha izq./der. p. analógica</string>
+	<string key="cc_az_thumbr_up" rel_version="Feature_Controller">Flecha arriba/derecha de la palanca analógica</string>
+	<string key="cc_az_thumbr_down" rel_version="Feature_Controller">Flecha abajo/derecha de la palanca analógica</string>
+	<string key="cc_az_thumbr_left" rel_version="Feature_Controller">Flecha izquierda/derecha de la palanca analógica</string>
 	<string key="cc_az_thumbr_right" rel_version="Feature_Controller">Flecha derecha/derecha de la palanca analógica</string>
 	<string key="cc_az_triggerl_btn" rel_version="Feature_Controller">Botón del gatillo izquierdo</string>
 	<string key="cc_az_triggerr_btn" rel_version="Feature_Controller">Botón del gatillo derecho</string>
@@ -94,7 +94,7 @@
 	<string key="cc_az_thumbly_ps" comment="This is for PlayStation controller button names" rel_version="Feature_Controller">Eje Y del joystick izquierdo</string>
 	<string key="cc_az_thumbl_up_ps" comment="This is for PlayStation controller button names" rel_version="Feature_Controller">Joystick izquierdo hacia arriba</string>
 	<string key="cc_az_thumbl_down_ps" comment="This is for PlayStation controller button names" rel_version="Feature_Controller">Joystick izquierdo hacia abajo</string>
-	<string key="cc_az_thumbl_left_ps" comment="This is for PlayStation controller button names" rel_version="Feature_Controller">Joystick izq. a la izquierda</string>
+	<string key="cc_az_thumbl_left_ps" comment="This is for PlayStation controller button names" rel_version="Feature_Controller">Joystick izquierdo hacia la izquierda</string>
 	<string key="cc_az_thumbl_right_ps" comment="This is for PlayStation controller button names" rel_version="Feature_Controller">Joystick izquierdo hacia la derecha</string>
 	<string key="cc_az_thumbrx_ps" comment="This is for PlayStation controller button names" rel_version="Feature_Controller">Eje X del joystick derecho</string>
 	<string key="cc_az_thumbry_ps" comment="This is for PlayStation controller button names" rel_version="Feature_Controller">Eje Y del joystick derecho</string>
@@ -514,7 +514,7 @@
 	<string key="ui_enablepushtotalksound">Sonido de pulsar para hablar</string>
 	<string key="ui_enablevoicechat">Chat de voz</string>
 	<string key="ui_end">Fin</string>
-	<string key="ui_enter">Entrar</string>
+	<string key="ui_enter">Enter</string>
 	<string key="ui_enterplayername">Escribe el nombre del jugador</string>
 	<string key="ui_entermountname" rel_version="Feature_Mounts">Escribe el nombre de la montura</string>
 	<string key="ui_equipment">Equipamiento</string>
@@ -709,8 +709,8 @@
 	<string key="ui_play">Jugar</string>
 	<string key="ui_playername">Nombre del jugador</string>
 	<string key="ui_playername_with_platformicon" rel_version="ConsoleLaunch">&lt;font color={playerNameColor} face="lyshineui/fonts/Nimbus_Semibold.font"&gt;{playerName} &lt;/font&gt; &lt;img src="{platformIcon}" scale="1.3" yOffset="3"&gt;&lt;/img&gt;</string>
-	<string key="ui_playername_with_platformname_with_platformicon" rel_version="ConsoleLaunch">&lt;font color={platformNameColor} face="lyshineui/fonts/Nimbus_Semibold.font"&gt;{platformName} &lt;/font&gt; &lt;img src="{platformIcon}" scale="1.3" yOffset="3"&gt;&lt;/img&gt;&lt;font color={playerNameColor} face="lyshineui/fonts/Nimbus_medium.font" &gt; | {playerName}&lt;/font&gt;</string>
-	<string key="ui_playername_with_platformname_with_platformicon_platformfriend" rel_version="ConsoleLaunch">&lt;font color={platformNameColor} face="lyshineui/fonts/Nimbus_Semibold.font"&gt;{platformName} &lt;/font&gt; &lt;img src="{platformIcon}" scale="1.3" yOffset="3"&gt;&lt;/img&gt; &lt;img src="{platformFriendIcon}" scale="1.3" yOffset="3"&gt;&lt;/img&gt;&lt;font color={playerNameColor} face="lyshineui/fonts/Nimbus_medium.font" &gt; | {playerName}&lt;/font&gt;</string>
+	<string key="ui_playername_with_platformname_with_platformicon" rel_version="ConsoleLaunch">&lt;font color={playerNameColor} face="lyshineui/fonts/Nimbus_Semibold.font" &gt;{playerName} &lt;/font&gt;&lt;font color={platformNameColor} face="lyshineui/fonts/Nimbus_medium.font"&gt;| &lt;img src="{platformIcon}" scale="1.3" yOffset="3"&gt;&lt;/img&gt; {platformName}&lt;/font&gt;</string>
+	<string key="ui_playername_with_platformname_with_platformicon_platformfriend" rel_version="ConsoleLaunch">&lt;font color={playerNameColor} face="lyshineui/fonts/Nimbus_Semibold.font" &gt;{playerName} &lt;/font&gt;&lt;font color={platformNameColor} face="lyshineui/fonts/Nimbus_medium.font"&gt;| &lt;img src="{platformIcon}" scale="1.3" yOffset="3"&gt;&lt;/img&gt; &lt;img src="{platformFriendIcon}" scale="1.3" yOffset="3"&gt;&lt;/img&gt; {platformName}&lt;/font&gt;</string>
 	<string key="ui_playernamehassentyouag">Playername te ha enviado una invitación de grupo. Mantén presionada la tecla [H] para unirte.</string>
 	<string key="ui_pressanykeytocontinue">Presiona cualquier tecla para continuar</string>
 	<string key="ui_presskeytoassign">Selecciona la tecla para asignarle esta habilidad.</string>
@@ -722,7 +722,7 @@
 	<string key="ui_received_from">Recibido por parte de</string>
 	<string key="ui_remaining">Restante</string>
 	<string key="ui_switch_target_cw">Cambiar sentido horario del objetivo</string>
-	<string key="ui_switch_target_ccw">Cambiar sent. antihorario obj.</string>
+	<string key="ui_switch_target_ccw">Cambiar sentido antihorario del objetivo</string>
 	<string key="ui_description">Descripción</string>
 	<string key="ui_photo_mode">Modo foto</string>
 	<string key="ui_amount">Cantidad</string>
@@ -732,6 +732,8 @@
 	<string key="ui_out">Fuera</string>
 	<string key="ui_zoom_in">Acercar</string>
 	<string key="ui_zoom_out">Alejar</string>
+	<string key="ui_cycle_pvpspectator_next" rel_version="Feature_SpectatorCam">Obs. siguiente</string>
+	<string key="ui_cycle_pvpspectator_prev" rel_version="Feature_SpectatorCam">Obs. anterior</string>
 	<string key="ui_freelook">Vista libre</string>
 	<string key="ui_rangedcombat">Combate a distancia</string>
 	<string key="ui_shoot">Disparar</string>
@@ -906,22 +908,7 @@
 	<string key="ui_shift_modifier_toggle_popup_title" rel_version="Feature_Controller">Actualizar asignación</string>
 	<string key="ui_shift_modifier_toggle_popup_message" rel_version="Feature_Controller">Las entradas del modificador son exclusivas para este modo y no pueden usarse para ninguna otra acción. Al activar la alternancia del modificador, se desasignará cualquier otra acción con la misma entrada. ¿Quieres continuar?</string>
 	<string key="ui_binding_controller_success" rel_version="Feature_Controller">{action} se volvió a asignar.</string>
-	<string key="ui_binding_controller_reserved_key_blocked" rel_version="Feature_Controller">&lt;img src="{path}" gpBtn="{key}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt; es una entrada reservada y no puede usarse.</string>
-	<string key="ui_binding_controller_confirmation_message" rel_version="Feature_Controller">¿Quieres asignar &lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{actionName}&lt;/font&gt; a &lt;img src="{path}" gpBtn="{key}" isHoldBtn="{isStaticHold}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt;?</string>
-	<string key="ui_binding_controller_double_size_confirmation_message" rel_version="Feature_Controller">¿Quieres asignar &lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{actionName}&lt;/font&gt; a &lt;img src="{path}" gpBtn="{key}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt;/&lt;img src="{path}" gpBtn="{key}" isHoldBtn="1" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt;?</string>
-	<string key="ui_binding_controller_combo_confirmation_message" rel_version="Feature_Controller">¿Quieres asignar &lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{actionName}&lt;/font&gt; a &lt;img src="{firstPath}" gpBtn="{firstKey}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt; + &lt;img src="{secondPath}" gpBtn="{secondKey}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt;?</string>
-	<string key="ui_binding_controller_shift_modifier_child_confirmation_message" rel_version="Feature_Controller">El modificador principal es &lt;img src="{shiftModifierPath}" gpBtn="{shiftModifierKey}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt;.\n\n¿Quieres asignar &lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{actionName}&lt;/font&gt; a &lt;img src="{shiftModifierPath}" gpBtn="{shiftModifierKey}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt; + &lt;img src="{path}" gpBtn="{key}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt;?</string>
-	<string key="ui_binding_controller_shift_modifier_combo_child_confirmation_message" rel_version="Feature_Controller">El modificador principal es &lt;img src="{shiftModifierPath}" gpBtn="{shiftModifierKey}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt;.\n\n¿Quieres asignar &lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{actionName}&lt;/font&gt; a &lt;img src="{shiftModifierPath}" gpBtn="{shiftModifierKey}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt; + &lt;img src="{firstPath}" gpBtn="{firstKey}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt; + &lt;img src="{secondPath}" gpBtn="{secondKey}" isHoldBtn="{isStaticHold}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt;?</string>
-	<string key="ui_binding_controller_shift_modifier_confirmation_message" rel_version="Feature_Controller">Al asignar &lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{actionName}&lt;/font&gt; a &lt;img src="{path}" gpBtn="{key}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt;, se agregará &lt;img src="{path}" gpBtn="{key}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt; a cualquier mapa para niños. Si existen niños incompatibles, quedarán invalidados y en blanco.\n\n¿Quieres asignar &lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{actionName}&lt;/font&gt; a &lt;img src="{path}" gpBtn="{key}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt;?</string>
 	<string key="ui_binding_controller_reserved_key_title" rel_version="Feature_Controller">Cambiar asignación</string>
-	<string key="ui_binding_controller_reserved_key_message" rel_version="Feature_Controller">&lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{oldAction}&lt;/font&gt; usa actualmente &lt;img src="{path}" gpBtn="{key}" isHoldBtn="{isStaticHold}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt;.\n\n¿Quieres invalidar y asignar &lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{newAction}&lt;/font&gt; a &lt;img src="{path}" gpBtn="{key}" isHoldBtn="{newIsStaticHold}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt;?</string>
-	<string key="ui_binding_controller_double_old_reserved_key_message" rel_version="Feature_Controller">&lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{oldAction}&lt;/font&gt; usa actualmente &lt;img src="{path}" gpBtn="{key}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt;/&lt;img src="{path}" gpBtn="{key}" isHoldBtn="1" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt;.\n\n¿Quieres anular esa asignación y asignar &lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{newAction}&lt;/font&gt; a &lt;img src="{path}" gpBtn="{key}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt;?</string>
-	<string key="ui_binding_controller_double_new_reserved_key_message" rel_version="Feature_Controller">&lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{oldAction}&lt;/font&gt; usa actualmente &lt;img src="{path}" gpBtn="{key}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt;.\n\n¿Quieres anular esa asignación y asignar &lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{newAction}&lt;/font&gt; a &lt;img src="{path}" gpBtn="{key}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt;/&lt;img src="{path}" gpBtn="{key}" isHoldBtn="1" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt;?</string>
-	<string key="ui_binding_controller_double_both_reserved_key_message" rel_version="Feature_Controller">&lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{oldAction}&lt;/font&gt; usa actualmente &lt;img src="{path}" gpBtn="{key}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt;/&lt;img src="{path}" gpBtn="{key}" isHoldBtn="1" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt;.\n\n¿Quieres anular esa asignación y asignar &lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{newAction}&lt;/font&gt; a &lt;img src="{path}" gpBtn="{key}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt;/&lt;img src="{path}" gpBtn="{key}" isHoldBtn="1" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt;?</string>
-	<string key="ui_binding_controller_reserved_combo_message" rel_version="Feature_Controller">&lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{oldAction}&lt;/font&gt; usa actualmente &lt;img src="{firstPath}" gpBtn="{firstKey}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt; + &lt;img src="{secondPath}" gpBtn="{secondKey}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt;.\n\n¿Quieres invalidar y asignar &lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{newAction}&lt;/font&gt; a &lt;img src="{firstPath}" gpBtn="{firstKey}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt; + &lt;img src="{secondPath}" gpBtn="{secondKey}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt;?</string>
-	<string key="ui_binding_controller_reserved_key_multiple" rel_version="Feature_Controller">¿Asignar &lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{newAction}&lt;/font&gt; a &lt;img src="{path}" gpBtn="{key}" isHoldBtn="{newIsStaticHold}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt;?\n\nLas siguientes acciones ya no estarán asignadas a ninguna tecla:\n\n&lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{oldAction}&lt;/font&gt;</string>
-	<string key="ui_binding_controller_double_reserved_key_multiple" rel_version="Feature_Controller">¿Quieres asignar &lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{newAction}&lt;/font&gt; a &lt;img src="{path}" gpBtn="{key}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt;/&lt;img src="{path}" gpBtn="{key}" isHoldBtn="1" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt;?\n\nLas siguientes acciones ya no estarán asignadas a ninguna tecla:\n\n&lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{oldAction}&lt;/font&gt;</string>
-	<string key="ui_binding_controller_reserved_shift_modifier_message" rel_version="Feature_Controller">&lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{shiftModifierAction}&lt;/font&gt; usa actualmente &lt;img src="{path}" gpBtn="{key}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt;.\n\nAl invalidar este modificador, se quitará &lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{shiftModifierAction}&lt;/font&gt; y todas las asignaciones de entradas de niños.\n\n¿Quieres invalidar y asignar &lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{newAction}&lt;/font&gt; a &lt;img src="{path}" gpBtn="{key}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt;?</string>
 	<string key="ui_binding_controller_reserved_shift_modifier_blocked" rel_version="Feature_Controller">{key} está asignada al modificador principal y no puede usarse.</string>
 	<string key="ui_binding_controller_reset_shift_modifier_toggle_accessibility" rel_version="Feature_Controller">Al desactivar el modificador, se alterna la accesibilidad.</string>
 	<string key="ui_binding_reserved_key_blocked">La tecla {key} está asignada a &lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{actionName}&lt;/font&gt; y no se puede desvincular.</string>
@@ -1276,6 +1263,7 @@
 	<string key="ui_murderer_start_notification_message">¡Fuiste marcado como un Asesino!</string>
 	<string key="ui_giveup_wait_for_revive">Aún puedes volver a la vida</string>
 	<string key="ui_giveup_deaths_door_header">En la puerta de la muerte</string>
+	<string key="ui_deathsdoortimer">Tiempo restante para rendirse: {DeathQueueNumber}</string>
 	<string key="ui_giveup_dungeon_revival_header">Resurrecciones restantes</string>
 	<string key="ui_giveup">Rendirse</string>
 	<string key="ui_use_sacrifice">Usar sacrificio</string>
@@ -1551,6 +1539,7 @@
 	<string key="ui_camp_obstructed">Volver para completar.</string>
 	<string key="ui_camping_restricted">Campamento restringido</string>
 	<string key="ui_camping_available">Campamento disponible</string>
+	<string key="ui_camp_unbind_on_pvp_toggle_warning" rel_version="Feature_PvP_Camps">Al cambiar tu marca de PvP, se te desvinculará de este grupo.\n\n¿Confirmas que quieres cambiar tu marca de PvP?</string>
 	<string key="ui_notification_nameplate_hidden">Placa de identificación oculta</string>
 	<string key="ui_notification_nameplate_visible">Placa de identificación visible</string>
 	<string key="ui_confirm_before_use_title">Consumir objeto</string>
@@ -2182,7 +2171,7 @@
 	<string key="ui_chat_message_gameplay_opacity_options">Opacidad de mensajes de chat</string>
 	<string key="ui_chat_message_gameplay_opacity_tooltip">Opacidad de los mensajes nuevos que llegan mientras juegas y los menús están cerrados.</string>
 	<string key="ui_server_utc_-8">PT</string>
-	<string key="ui_server_utc_dst_-8">PDT</string>
+	<string key="ui_server_utc_dst_-8">Hora de verano del Pacífico</string>
 	<string key="ui_server_utc_-5">Hora estándar del este</string>
 	<string key="ui_server_utc_dst_-5">Hora de verano del este</string>
 	<string key="ui_server_utc_-3">Hora de Brasilia</string>
@@ -2211,7 +2200,7 @@
 	<string key="ui_vitals_health_tooltip" comment="Use {currentValue} and {maxValue} for the vital's numbers">&lt;font color={headerColor} face="lyshineui/fonts/Nimbus_Bold.font"&gt;SALUD&lt;/font&gt;\n&lt;font color={subHeaderColor} face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;{currentValue}/{maxValue}&lt;/font&gt;\n\nPara recuperar &lt;font color={highlightColor}&gt;salud&lt;/font&gt;\n• Consume tinturas para recuperarla rápidamente.\n• Consume comida para recuperarla poco a poco tras un incremento rápido.\n\nMejora tu &lt;font color={highlightColor}&gt;constitución&lt;/font&gt; para aumentar tu &lt;font color={highlightColor}&gt;salud&lt;/font&gt; máxima.\n\n&lt;img src="lyshineui/images/icons/hud/vitals/Icon_combatstate" xPadding="0" scale="1.2" yOffset="0"&gt;&lt;/img&gt; indica que el jugador está en &lt;font color={highlightColor}&gt;combate&lt;/font&gt; actualmente.\n • Algunas acciones de gestión de los jugadores están restringidas si este estado está activado.\n • Completa un conflicto o evita el combate durante &lt;font color={highlightColor}&gt;10 s&lt;/font&gt; para salir del estado.\n • Los recuentos de daño de los efectos de daño con el paso del tiempo en tus objetivos equivalen a estar en combate.</string>
 	<string key="ui_vitals_stamina_tooltip" comment="Use {currentValue} and {maxValue} for the vital's numbers">&lt;font color={headerColor} face="lyshineui/fonts/Nimbus_Bold.font"&gt;RESISTENCIA&lt;/font&gt;\n&lt;font color={subHeaderColor} face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;{currentValue} / {maxValue}&lt;/font&gt;\n\nLas acciones defensivas como bloqueo o el esquive agotarán tu &lt;font color={highlightColor}&gt;resistencia&lt;/font&gt; y, si esta se agota, es posible que no puedas realizar esas acciones hasta que se recupere.\n\nLa &lt;font color={highlightColor}&gt;resistencia&lt;/font&gt; se recupera por sí sola con el transcurso del tiempo, a menos que estés en medio de una carrera o un ataque.</string>
 	<string key="ui_vitals_mana_tooltip" comment="Use {currentValue} and {maxValue} for the vital's numbers">&lt;font color={headerColor} face="lyshineui/fonts/Nimbus_Bold.font"&gt;MANÁ&lt;/font&gt;\n&lt;font color={subHeaderColor} face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;{currentValue} / {maxValue}&lt;/font&gt;\n\nUn recurso misterioso necesario para usar magia. Si está bajo, no podrás emplear ciertas habilidades sobrenaturales.\n\nEl &lt;font color={highlightColor}&gt;maná&lt;/font&gt; se recupera con el paso del tiempo.</string>
-	<string key="ui_vitals_mount_stamina_tooltip" comment="Use {currentValue} and {maxValue} for the vital's numbers" rel_version="Feature_Mounts">&lt;font color={headerColor} face="lyshineui/fonts/Nimbus_Bold.font"&gt;RESISTENCIA DE MONTURA&lt;/font&gt;\n&lt;font color={subHeaderColor} face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;{currentValue}/{maxValue}&lt;/font&gt;\n\nPermite que tu montura viaje más rápidamente y se agota cuando galopas.\n\nLa &lt;font color={highlightColor}&gt;resistencia de montura&lt;/font&gt; se recupera por sí sola con el transcurso del tiempo, a menos que estés corriendo.</string>
+	<string key="ui_vitals_mount_stamina_tooltip" comment="Use {currentValue} and {maxValue} for the vital's numbers" rel_version="Feature_Mounts">&lt;font color={headerColor} face="lyshineui/fonts/Nimbus_Bold.font"&gt;RESISTENCIA DE MONTURA&lt;/font&gt;\n&lt;font color={subHeaderColor} face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;{currentValue} / {maxValue}&lt;/font&gt;\n\nPermite que tu montura viaje más rápidamente y se agota cuando galopas.\n\nLa &lt;font color={highlightColor}&gt;resistencia de montura&lt;/font&gt; se recupera por sí sola con el transcurso del tiempo, a menos que estés galopando.</string>
 	<string key="ui_vitals_mana_rate_tooltip">El maná se recupera con el paso del tiempo.\n\n 1,5 de maná base por segundo.</string>
 	<string key="ui_vitals_cooldown_tooltip">Reduce la cantidad de tiempo que debe transcurrir para que puedas volver a usar una habilidad.</string>
 	<string key="ui_vitals_food_tooltip" comment="Use {currentValue} and {maxValue} for the vital's numbers">Comida\n{currentValue}/{maxValue}\n\nDebes comer para aumentar la velocidad de regeneración de salud. Si el nivel de comida es bajo, puedes dejar de sanarte.\n\nNo perderás salud debido al hambre. Solo afecta a la velocidad de regeneración.</string>
@@ -2854,25 +2843,25 @@
 	<string key="ui_gathering_disabled">La recolección está deshabilitada en este momento</string>
 	<string key="ui_linktochat_disabled">Actualmente, el enlace al chat está desactivado.</string>
 	<string key="ui_autopinObjectivesMain">Fijar automáticamente las misiones de la historia principal</string>
-	<string key="ui_autopinobjectivesMain_desc">Indica si prefieres fijar automáticamente las misiones de la historia principal en el HUD al aceptarlas.</string>
+	<string key="ui_autopinobjectivesMain_desc">Indica si prefieres fijar automáticamente las misiones de la historia principal en el HUD al aceptarlas</string>
 	<string key="ui_autopinObjectivesFactionStory">Fijar automáticamente las misiones de la historia de la facción</string>
-	<string key="ui_autopinobjectivesFactionStory_desc">Indica si prefieres fijar automáticamente las misiones de la historia de la facción en el HUD al aceptarlas.</string>
+	<string key="ui_autopinobjectivesFactionStory_desc">Indica si prefieres fijar automáticamente las misiones de la historia de la facción en el HUD al aceptarlas</string>
 	<string key="ui_autopinObjectivesSkillProgression">Fijar automáticamente las misiones de progreso de habilidad</string>
-	<string key="ui_autopinobjectivesSkillProgression_desc">Indica si prefieres fijar automáticamente las misiones de progreso de habilidad en el HUD al aceptarlas.</string>
+	<string key="ui_autopinobjectivesSkillProgression_desc">Indica si prefieres fijar automáticamente las misiones de progreso de habilidad en el HUD al aceptarlas</string>
 	<string key="ui_autopinObjectivesMountQuest">Fijar automáticamente las misiones de engaste</string>
-	<string key="ui_autopinobjectivesMountQuest_desc">Indica si prefieres fijar automáticamente las misiones de engaste en el HUD al aceptarlas.</string>
+	<string key="ui_autopinobjectivesMountQuest_desc">Indica si prefieres fijar automáticamente las misiones de engaste en el HUD al aceptarlas</string>
 	<string key="ui_autopinObjectivesEpicEquipment">Autofijar misiones de equipamiento épico</string>
-	<string key="ui_autopinobjectivesEpicEquipment_desc">Indica si prefieres fijar automáticamente las misiones de equipamiento épico en el HUD al aceptarlas.</string>
+	<string key="ui_autopinobjectivesEpicEquipment_desc">Indica si prefieres fijar automáticamente las misiones de equipamiento épico en el HUD al aceptarlas</string>
 	<string key="ui_autopinObjectivesSeasonQuest">Fijación automática de objetivos de la historia de la temporada</string>
-	<string key="ui_autopinobjectivesSeasonQuest_desc">Indica si prefieres fijar automáticamente las misiones de la historia de la temporada en el HUD al aceptarlas.</string>
+	<string key="ui_autopinobjectivesSeasonQuest_desc">Indica si prefieres fijar automáticamente las misiones de la historia de la temporada en el HUD al aceptarlas</string>
 	<string key="ui_autopinObjectivesSide">Fijación automática de misiones secundarias</string>
-	<string key="ui_autopinobjectivesSide_desc">Indica si prefieres fijar automáticamente las misiones secundarias en el HUD al aceptarlas.</string>
+	<string key="ui_autopinobjectivesSide_desc">Indica si prefieres fijar automáticamente las misiones secundarias en el HUD al aceptarlas</string>
 	<string key="ui_autopinObjectivesFaction">Fijar automáticamente las misiones de la facción</string>
-	<string key="ui_autopinobjectivesFaction_desc">Indica si prefieres fijar automáticamente las misiones de la facción en el HUD al aceptarlas.</string>
+	<string key="ui_autopinobjectivesFaction_desc">Indica si prefieres fijar automáticamente las misiones de la facción en el HUD al aceptarlas</string>
 	<string key="ui_autopinobjectivesEvent">Fijar automáticamente las misiones del evento</string>
-	<string key="ui_autopinobjectivesEvent_desc">Indica si prefieres fijar automáticamente las misiones del evento en el HUD al aceptarlas.</string>
+	<string key="ui_autopinobjectivesEvent_desc">Indica si prefieres fijar automáticamente las misiones del evento en el HUD al aceptarlas</string>
 	<string key="ui_autopinObjectivesComm">Fijar automáticamente los proyectos de pueblo</string>
-	<string key="ui_autopinobjectivesComm_desc">Indica si prefieres fijar automáticamente los proyectos de pueblo en el HUD al aceptarlos.</string>
+	<string key="ui_autopinobjectivesComm_desc">Indica si prefieres fijar automáticamente los proyectos de pueblo en el HUD al aceptarlos</string>
 	<string key="ui_autopinObjectivesCrafting">Fijar automáticamente las recetas</string>
 	<string key="ui_autopinobjectivesCrafting_desc">Indica si prefieres fijar automáticamente las recetas al HUD cuando se fijan desde cualquier estación de fabricación</string>
 	<string key="ui_auto_pin_toggle_on">Activar la fijación automática</string>
@@ -2887,7 +2876,7 @@
 	<string key="ui_interact_required_level">Se requiere el nivel {level}</string>
 	<string key="ui_cannot_chat_trading_blocked">El acceso de canal requiere {playtimeNeeded} de juego, {hoursNeeded} horas de haber creado la cuenta y una tienda de intercambio desbloqueada.</string>
 	<string key="ui_averageexpertise">Pericia</string>
-	<string key="ui_averageexpertisetooltip">&lt;font color={headerColor} face="lyshineui/fonts/Nimbus_Bold.font"&gt;PERICIA&lt;/font&gt;\nLa pericia se usa para medir la potencia máxima de un objeto cuando lo tienes equipado.\n\n&lt;font color={subHeaderColor} face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;Nivel máximo de pericia que puedes alcanzar&lt;/font&gt;\n&lt;font color={highlightColor} face="lyshineui/fonts/Nimbus_Bold.font"&gt;{maximum}&lt;/font&gt;\n\n\n&lt;font color={headerColor} face="lyshineui/fonts/Nimbus_Bold.font"&gt;CÓMO AUMENTAR EL NIVEL DE PERICIA&lt;/font&gt;\n\n&lt;font color={subHeaderColor} face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;Puntos de interés y expediciones de élite&lt;/font&gt;\nLo que sueltan las criaturas o lo que contienen los cofres que se encuentran en un nivel superior a 60 tienen la posibilidad de aumentar este valor.\n\n&lt;font color={subHeaderColor} face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;Fabricación&lt;/font&gt;\nLa fabricación de un objeto de 600 PE aumentará el nivel de pericia de este tipo de objeto.\n\n&lt;font color={subHeaderColor} face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;Molde de aljez&lt;/font&gt;\nAbrir un molde de aljez aumentará el nivel de pericia.\n\n&lt;font color={subHeaderColor} face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;Mejora de objetos (con fragmentos umbríos)&lt;/font&gt;\nDespués de alcanzar el nivel 600 de pericia, la única forma de seguir aumentando el nivel es por medio de la mejora de objetos con Fragmentos Umbríos.</string>
+	<string key="ui_averageexpertisetooltip">&lt;font color={headerColor} face="lyshineui/fonts/Nimbus_Bold.font"&gt;PERICIA&lt;/font&gt;\nLa pericia se usa para medir la potencia máxima de un objeto cuando lo tienes equipado.\n\n&lt;font color={subHeaderColor} face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;Nivel máximo de pericia que puedes alcanzar&lt;/font&gt;\n&lt;font color={highlightColor} face="lyshineui/fonts/Nimbus_Bold.font"&gt;{maximum}&lt;/font&gt;\n\n\n&lt;font color={headerColor} face="lyshineui/fonts/Nimbus_Bold.font"&gt;CÓMO AUMENTAR EL NIVEL DE PERICIA&lt;/font&gt;\n\n&lt;font color={subHeaderColor} face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;Puntos de interés y expediciones de élite&lt;/font&gt;\nLo que sueltan las criaturas o lo que contienen los cofres que se encuentran en un nivel superior a 60 tienen la posibilidad de aumentar este valor.\n\n&lt;font color={subHeaderColor} face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;Fabricación&lt;/font&gt;\nLa fabricación de un objeto de 600 GS aumentará el nivel de pericia de este tipo de objeto.\n\n&lt;font color={subHeaderColor} face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;Molde de aljez&lt;/font&gt;\nAbrir un molde de aljez aumentará el nivel de pericia.\n\n&lt;font color={subHeaderColor} face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;Mejora de objetos (con fragmentos umbríos)&lt;/font&gt;\nDespués de alcanzar el nivel 600 de pericia, la única forma de seguir aumentando el nivel es por medio de la mejora de objetos con Fragmentos Umbríos.</string>
 	<string key="ui_itemtypedescription_shield_only">Escudo</string>
 	<string key="ui_expertise_value_with_icon">&lt;img src="lyshineui/images/icons/misc/icon_hwm_small_color" scale="1.5" yOffset="2"&gt;&lt;/img&gt;{value}</string>
 	<string key="ui_expertise_warning_with_icon">&lt;font color="#ff7171"&gt;&lt;img src="lyshineui/images/icons/misc/icon_hwm_small_red" scale="1.5" yOffset="2"&gt;&lt;/img&gt;{value}&lt;/font&gt;</string>
@@ -2920,7 +2909,7 @@
 	<string key="ui_endgame_guide_body2">A nivel 60 tienes acceso a varias expediciones nuevas: El Jardín del Génesis en Edengrove, El instrumento de Lázaro en Reekwater, Corazón de la Tempestad en Montaña Destruida y Percebes y pólvora negra en Llaves de Alfanje.\n\nMantente atento por si aparece un ícono rojo circular alrededor de dos expediciones a la vez en el mapa: esto significa que la expedición está mutada en ese momento y que ofrece una mayor dificultad, aunque también mejores recompensas. Algunas de las mejores recompensas del fin de juego provienen de los jefes del final de las expediciones mutadas (hablaremos sobre esto más adelante).</string>
 	<string key="ui_endgame_guide_body3">A nivel 60, ganarás acceso al avance a un puesto de avanzada. Puedes entrar en la cola para este modo desde cualquier representante de la facción, mediante algunos PNJ en los puestos de avanzadas al norte o desde la pestaña Modos en la barra de navegación. Puedes entrar en la cola solo/a o con un grupo de hasta cinco jugadores.\n\nEl modo es un campo de batalla en instancias PvPvE de 20v20. Hay tres puestos de avanzada que se pueden reclamar para generar puntos para tu equipo. Se pueden mejorar recolectando recursos en la zona y agregándolos a las puertas, los cañones y más. Para ganar, necesitas conquistar y mantener estos puestos de avanzada. El primer equipo que llegue a los 1000 puntos, ganará la partida.\n\nSiempre que contribuyas con un mínimo de 500 puntos para tu equipo (tanto mediante PvP o PvE), obtendrás recompensas al final de la partida.</string>
 	<string key="ui_endgame_guide_body4">Cuando un territorio está bajo ataque de los corrompidos, puedes registrarte en el tablero de guerra local o en la pestaña de Guerras inminentes en la pantalla del mapa para ayudar a defender el territorio. Cualquier facción puede registrarse; en cada ocasión habrá 40 lugares abiertos elegidos por el sistema. Las invasiones se acercan en 6 oleadas; debes defender el fuerte para que los corrompidos no lo conquisten. Si lo conquistan, el asentamiento local experimentará bajadas de categoría al azar en sus estaciones de fabricación o en los potenciadores locales de estilo de vida.</string>
-	<string key="ui_endgame_guide_body5">La forma de aumentar tu pericia en un tipo específico de equipo es mediante el aljez.\n\nEste viene en diferentes variedades y cada una se puede usar en un horno de aljez para fabricar un orbe de aljez. Necesitarás una cantidad específica de cada tipo para fabricar 1 orbe de aljez. Entonces, un orbe de aljez se puede usar para fabricar un molde de aljez de un tipo de equipo específico, el cual, una vez consumido, otorgará un salto de pericia garantizado para el tipo seleccionado de equipo. Además, otorgará una nueva pieza de equipo de la puntuación de equipo más alta.\n\nPuedes obtener aljez en cantidades variadas participando en diferentes actividades de la siguiente manera:\n\n•Aljez de obsidiana: 3 por día. Se consigue de los jefes nombrados del mundo abierto de nivel 60 o superior, comúnmente se encuentran en puntos de referencia élite.\n•Aljez de zafiro: 2 por día. Se consigue con los jefes finales del Instrumento de Lázaro y el Jardín del Génesis.\n•Aljez de rubí: 2 por día. Se consigue en avances a un puesto de avanzada (debes obtener al menos 501 puntos en la partida).\n•Aljez de esmeralda: 1 por día. Se consigue en los puntos de control de recompensa de aptitud de habilidad de oficio.\n•Aljez de citrino: 2 por día. Arenas de PvE.\nAljez de ametista: 7 por día. Cerrar invasiones de corrupción.\n•Aljez de topacio: 5 por día. Ir a una estación arcana o a un campamento de nivel 5 para fabricar una poción para modificar. Bebe la poción y, luego, elimina enemigos de nivel 55 o superior que soltarán aljez de topacio.\n•Aljez de diamante: 3 por día. Puedes conseguir aljez de diamante recolectando cualquier tipo de nodo en Aeternum. Esto suele cambiar durante los eventos de la temporada, como en la convergencia de invierno.\n•Aljez de granate: 2 por día. Se consigue en las arenas PvP de 3v3.</string>
+	<string key="ui_endgame_guide_body5">La forma de aumentar tu pericia en un tipo específico de equipo es mediante el aljez.\n\nEste viene en diferentes variedades y cada una se puede usar en un horno de aljez para fabricar un orbe de aljez. Necesitarás una cantidad específica de cada tipo para fabricar 1 orbe de aljez. Entonces, un orbe de aljez se puede usar para fabricar un molde de aljez de un tipo de equipo específico, el cual, una vez consumido, otorgará un salto de pericia garantizado para el tipo seleccionado de equipo. Además, otorgará una nueva pieza de equipo de la puntuación de equipo más alta.\n\nPuedes obtener aljez en cantidades variadas participando en diferentes actividades de la siguiente manera:\n\n•Aljez de obsidiana: 3 por día. Se consigue de los jefes nombrados del mundo abierto de nivel 60 o superior, comúnmente se encuentran en puntos de referencia élite.\n•Aljez de zafiro: 2 por día. Se consigue con los jefes finales del Instrumento de Lázaro y el Jardín del Génesis.\n•Aljez de rubí: 2 por día. Se consigue en avances a un puesto de avanzada (debes obtener al menos 501 puntos en la partida).\n•Aljez de esmeralda: 1 por día. Se consigue en los puntos de control de recompensa de aptitud de habilidad de oficio.\n•Aljez de citrino: 2 por día. Arenas de PvE.\nAljez de amatista: 7 por día. Cerrar invasiones de corrupción.\n•Aljez de topacio: 5 por día. Ir a una estación arcana o a un campamento de nivel 5 para fabricar una poción para modificar. Bebe la poción y, luego, elimina enemigos de nivel 55 o superior que soltarán aljez de topacio.\n•Aljez de diamante: 3 por día. Puedes conseguir aljez de diamante recolectando cualquier tipo de nodo en Aeternum. Esto suele cambiar durante los eventos de la temporada, como en la convergencia de invierno.\n•Aljez de granate: 2 por día. Se consigue en las arenas PvP de 3v3.</string>
 	<string key="ui_endgame_guide_body6" rel_version="Feature_Seasons_Rewards">En el nivel 60, obtienes acceso al contenido de la temporada. Todas las temporadas nuevas incluyen aventuras adicionales y objetos de bonificación por completarlas dentro del límite de tiempo. ¡Accede a la experiencia exclusiva antes de que acabe la temporada!</string>
 	<string key="ui_endgame_guide_button_view_guide">Ver guía</string>
 	<string key="ui_endgame_guide_button_dismiss">Ignorar</string>
@@ -2972,9 +2961,9 @@
 	<string key="ui_transmog_guide_body2" rel_version="Feature_Transmog">Ve a la estación de transformación &lt;img src="lyshineui/images/map/icon/pois/transmog" xPadding="-10" scale="3.5" yOffset="14"&gt;&lt;/img&gt;, busca el objeto y usa los tokens de transformación &lt;img src="lyshineui/images/icons/items/currency/transmogtokensmall" xPadding="0" scale="2.2" yOffset="6.0"&gt;&lt;/img&gt; para crear el diseño.\n\nLos diseños transformados sirven para toda tu cuenta (es decir, que puedes usarlo con cualquiera de tus personajes).</string>
 	<string key="ui_mount_guide_title1" rel_version="Feature_Mounts">Cómo funciona</string>
 	<string key="ui_mount_guide_body1" rel_version="Feature_Mounts">Puedes convocar a tu montura con {$ui.mount_summon_description$}. Camina con {$ui.walk_mount_description$}, corre con {$player.mount_dash$}, y salta con {$movement.jump$}. Galopar consume vitalidad de la montura. Caer desde grandes alturas y recibir impactos enemigos reduce la resistencia y puede hacer que caigas de la montura.</string>
-	<string key="ui_event_token_disappears">&lt;font face="lyshineui/fonts/Nimbus_Medium.font" color="#edc63e"&gt;Los tokens desaparecerán al final del evento.&lt;/font&gt;</string>
-	<string key="ui_event_item_disappears">&lt;font face="lyshineui/fonts/Nimbus_Medium.font" color="#edc63e"&gt;Este objeto desaparecerá al finalizar el evento.&lt;/font&gt;</string>
-	<string key="ui_event_time_left">&lt;font face="lyshineui/fonts/Nimbus_Medium.font"&gt;El evento termina dentro de: &lt;font color="#edc63e"&gt;{timeLeft} &lt;img src="LyShineUI/Images/Icons/Misc/icon_hourglass_yellow.png" xPadding="0" scale="1.1" yOffset="1"&gt;&lt;/img&gt;&lt;/font&gt;&lt;/font&gt;</string>
+	<string key="ui_event_token_disappears">Los tokens desaparecerán al final del evento.</string>
+	<string key="ui_event_item_disappears">Este objeto desaparecerá al finalizar el evento.</string>
+	<string key="ui_event_time_left">El evento termina dentro de: {timeLeft} &lt;img src="LyShineUI/Images/Icons/Misc/icon_hourglass_yellow.png" xPadding="0" scale="1.1" yOffset="1"&gt;&lt;/img&gt;</string>
 	<string key="ui_event_time_left_compass">El evento termina dentro de: &lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{timeLeft}&lt;/font&gt;</string>
 	<string key="attribution_WinterConvergence_2021" rel_version="Event_WinterConvergence_Perm">Convergencia invernal</string>
 	<string key="attribution_WinterConvergence_2022" rel_version="Event_WinterConvergence_Perm">Convergencia invernal</string>
@@ -3058,12 +3047,22 @@
 	<string key="ui_transmog_error_apply_skin_pending">Error al transformar: El cambio de apariencia del objeto está pendiente.</string>
 	<string key="ui_transmog_error_generic">Error de transformación</string>
 	<string key="ui_transmog_npc_name">Estilomante</string>
-	<string key="ui_transmog_npc_tooltip">Crea diseños a partir de objetos que has recolectado usando &lt;img src="lyshineui/images/icons/items/currency/transmogtokensmall" xPadding="0" scale="2.2" yOffset="6.0"&gt;&lt;/img&gt; blasones de transformación.</string>
+	<string key="ui_transmog_npc_tooltip">Usa &lt;img src="lyshineui/images/icons/items/currency/appearancetokensmall" scale="2.2" yOffset="6"&gt;&lt;/img&gt; tokens de peluquería para cambiar tu apariencia y &lt;img src="lyshineui/images/icons/items/currency/transmogtokensmall" xPadding="0" scale="2.2" yOffset="6.0"&gt;&lt;/img&gt; tokens de transformación para crear diseños a partir de objetos que recoges.</string>
 	<string key="ui_transmog_dyeing_error">Error al aplicar pigmento. Vuelve a intentarlo.</string>
 	<string key="ui_transmog_dyeing_previews_disabled">No se pueden teñir los diseños en la vista previa.</string>
 	<string key="ui_transmog_services_unavailable_title">Servicios de transformación no disponibles</string>
 	<string key="ui_transmog_services_unavailable_tooltip">Transformación no disponible</string>
 	<string key="ui_transmog_services_unavailable_message">La transformación no está disponible en este momento. Vuelve a intentarlo más tarde.</string>
+	<string key="ui_barbershop_open_menu" rel_version="Feature_Barbershop">Actualizar mi apariencia</string>
+	<string key="ui_barbershop_unavailable_message" rel_version="Feature_Barbershop">La peluquería no está disponible en este momento. Vuelve a intentarlo más tarde.</string>
+	<string key="ui_barbershop_changes_warning" rel_version="Feature_Barbershop">Los cambios se guardarán hasta que se cierre el juego.</string>
+	<string key="ui_barbershop_reload_title" rel_version="Feature_Barbershop">Cargar apariencia</string>
+	<string key="ui_barbershop_reload_prompt" rel_version="Feature_Barbershop">¿Cargar cambios de la última visita?</string>
+	<string key="ui_barbershop_purchase_title" rel_version="Feature_Barbershop">Confirmar apariencia</string>
+	<string key="ui_barbershop_purchase_body_cost" rel_version="Feature_Barbershop">¿Guardar la apariencia de personaje de &lt;font face="lyshineui/fonts/Pica_Regular.font"&gt;{amount}&lt;/font &gt;&lt;img src="lyshineui/images/icons/items/currency/appearancetokensmall" scale="1.8" xPadding="5" yOffset="5"&gt;&lt;/img&gt;?\n\nLos cambios de apariencia no pueden revertirse después de confirmarlos sin comprar otro token de peluquería.</string>
+	<string key="ui_barbershop_tokens" rel_version="Feature_Barbershop">Tokens de peluquería</string>
+	<string key="ui_barbershop_add_more_tokens" rel_version="Feature_Barbershop">Agregar más &lt;img src="lyshineui/images/icons/items/currency/appearancetokensmall" scale="1.5" yOffset="10"&gt;&lt;/img&gt;</string>
+	<string key="ui_barbershop_services_unavailable_message" rel_version="Feature_Barbershop">La peluquería no está disponible en este momento. Vuelve a intentarlo más tarde.</string>
 	<string key="ui_unclaimed_seasons_rewards">Recompensas de temporada sin reclamar</string>
 	<string key="ui_expansion_name_expansion2023" comment="DO NOT TRANSLATE">[TMP] Expansion 2023</string>
 	<string key="ui_required_expansion_missing_tooltip" comment="DO NOT TRANSLATE">[TMP] Missing expansion: {expansion}</string>
@@ -3108,6 +3107,7 @@
 	<string key="ui_sort_by_type">Ordenar por tipo</string>
 	<string key="ui_requirements">Requisitos</string>
 	<string key="ui_external_rewards">Recompensas externas</string>
+	<string key="ui_external_rewards_no_tooltip">No hay recompensas disponibles.</string>
 	<string key="ui_ability_minimum_cooldown">{baseCooldown} (mínimo de {minimumCooldown})</string>
 	<string key="ui_ability_supports_smartcast" rel_version="Feature_Smartcast">Esta habilidad admite Smartcast.</string>
 	<string key="ui_transfer_world">Transferir mundo</string>
@@ -3129,21 +3129,46 @@
 	<string key="ui_mount_unlock_acquisition" rel_version="Feature_Mounts">Completar "Mi reino por un caballo"</string>
 	<string key="ui_seasonal_worlds" rel_version="Feature_Seasonal_Servers">Mundos de temporada</string>
 	<string key="ui_seasonal_worlds_popup_header" rel_version="Feature_Seasonal_Servers">Elige un tipo de mundo</string>
-	<string key="ui_seasonal_worlds_about_popup_description" rel_version="Feature_Seasonal_Servers">Los mundos de temporada proporcionan una nueva manera de disfrutar Aeternum y obtener recompensas por un tiempo limitado cada temporada.\n\nEn el mundo de la temporada 7, todos los jugadores quedarán automáticamente marcados para PvP en el nivel {level}. Fabrica o mata para obtener equipo de conquistador, que incluye un equipamiento y armas excepcionalmente poderosas que cambian las reglas del campo de batalla.\n\nSe puede progresar en un viaje de temporada especial en los mundos de temporada. Desbloquea las recompensas obtenidas a través del viaje de temporada al comprar un pase de batalla premium en la tienda.</string>
+	<string key="ui_seasonal_worlds_about_popup_description" rel_version="Feature_Seasonal_Servers">Los mundos de temporada proporcionan una nueva manera de disfrutar Aeternum y obtener recompensas por un tiempo limitado cada temporada.\n\nEn el mundo de temporada de la temporada 8, el poder es el nombre del juego. Los personajes de este servidor pueden equipar tantos artefactos como quieras y, cada vez que mueran, los personajes recibirán puntos de atributo adicionales. Vuélvete más fuerte más rápido y enfréntate a desafíos que nunca habías intentado antes.\n\nEn este servidor puede progresarse en un nuevo viaje de temporada centrado en la cantidad de veces que muere tu personaje. Completar estos objetivos te brindará algunos materiales de fabricación nuevos, así como también acceso a mundos que no sean de temporada. Úsalos para fabricar cualquier artefacto o trofeo 3 que quieras con un personaje que no sea de temporada (hasta aquellos incorporados en la temporada 8). Nota: Algunas recompensas del viaje de mundo de temporada requerirán la compra de un pase de batalla prémium en la tienda.</string>
 	<string key="ui_regular_character" rel_version="Feature_Seasonal_Servers">Estándar</string>
 	<string key="ui_seasonal_character" rel_version="Feature_Seasonal_Servers">Estacional</string>
-	<string key="ui_regular_character_button_description" rel_version="Feature_Seasonal_Servers">Disfruta de Aeternum como se debe. Crea un personaje en un mundo persistente estándar.</string>
-	<string key="ui_seasonal_character_button_description" rel_version="Feature_Seasonal_Servers">Crea un en un mundo de temporada de tiempo limitado con reglas y recompensas únicas.</string>
+	<string key="ui_regular_character_button_description" rel_version="Feature_Seasonal_Servers">Disfruta de Aeternum como se debe. Crea un personaje estándar en un mundo persistente.</string>
+	<string key="ui_seasonal_character_button_description" rel_version="Feature_Seasonal_Servers">Crea un personaje de tiempo limitado en un mundo de temporada con reglas y recompensas únicas.</string>
 	<string key="ui_seasonal_worlds_unavailable" rel_version="Feature_Seasonal_Servers">Mundos de temporada no disponibles</string>
 	<string key="ui_seasonal_worlds_available" rel_version="Feature_Seasonal_Servers">Mundos de temporada disponibles</string>
-	<string key="ui_seasonal_worlds_avaialble_until" rel_version="Feature_Seasonal_Servers">La temporada termina el {date} a las {time}</string>
+	<string key="ui_seasonal_worlds_avaialble_until" rel_version="Feature_Seasonal_Servers">La temporada termina el {date} a las {time}.\n\nTendrás que eliminar a este personaje cuando termine la temporada.</string>
 	<string key="ui_seasonal_worlds_ended" rel_version="Feature_Seasonal_Servers">La temporada terminó el {date} a las {time}</string>
-	<string key="ui_seasonal_worlds_available_24h" rel_version="Feature_Seasonal_Servers">La temporada termina en &lt;img src="LyShineUI/Images/PUGFinder/Pugfinder_hourglass" xPadding="-4" scale="2.25" yOffset="8"&gt;&lt;/img&gt;{time}</string>
+	<string key="ui_seasonal_worlds_available_24h" rel_version="Feature_Seasonal_Servers">La temporada termina en &lt;img src="LyShineUI/Images/PUGFinder/Pugfinder_hourglass" xPadding="-4" scale="2.25" yOffset="8"&gt;&lt;/img&gt;{time}.\n\nTendrás que eliminar a este personaje cuando termine la temporada.</string>
 	<string key="ui_seasonal_worlds_duration" rel_version="Feature_Seasonal_Servers">{timeStart} - {timeEnd}</string>
-	<string key="ui_seasonal_worlds_server_description" rel_version="Feature_Seasonal_Servers">&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; Se te marcará para PvP permanentemente desde el nivel {level} en este mundo.\n&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; Solo se pueden crear personajes nuevos en {worldName}.\n&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; Los personajes no pueden transferirse a este mundo de temporada.</string>
+	<string key="ui_seasonal_worlds_server_description" rel_version="Feature_Seasonal_Servers">&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; En este servidor de temporada, los jugadores disfrutarán de un conjunto de misiones de historia principal mejorado y un viaje de mundo de temporada único con recompensas especiales por completar contenido difícil sin morir. Cada vez que muera un personaje en este mundo, obtendrá una acumulación de efecto de estado de derrota, el cual aumentará los atributos con cada acumulación hasta un máximo de 5 acumulaciones.\n&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; Los personajes de este mundo pueden equipar un artefacto en cada ranura de equipo.\n&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; El emparejamiento y el buscador de actividades entre mundos estará deshabilitado en {worldName}. Los jugadores deberán usar el buscador de grupo para las expediciones.\n&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; No se pueden transferir personajes desde o a este mundo.\n&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; Los personajes de este mundo tendrán que eliminarse cuando termine la temporada.</string>
 	<string key="ui_seasonal_worlds_server_duration" rel_version="Feature_Seasonal_Servers">Disponibles desde el {dateStart} a las {timeStart} hasta el {dateEnd} a las {timeEnd}</string>
-	<string key="ui_seasonal_worlds_tooltip" rel_version="Feature_Seasonal_Servers">En este mundo de PvP, tu facción decidirá qué jugadores pueden formar un grupo y compañías. Elige la misma facción de tus amigos para jugar con ellos.\n\nPuedes cambiar de facción en el juego.</string>
-	<string key="ui_external_rewards_no_tooltip">No hay recompensas disponibles.</string>
-	<string key="ui_deathsdoortimer">Tiempo restante para rendirse: {DeathQueueNumber}</string>
+	<string key="ui_seasonal_worlds_tooltip" rel_version="Feature_Seasonal_Servers">En este mundo de temporada, tu facción decidirá qué jugadores pueden formar un grupo y compañías. Elige la misma facción de tus amigos para jugar con ellos.\n\nPuedes cambiar de facción en el juego.</string>
+	<string key="currency_SEK">NOK {amount}</string>
+	<string key="ui_perks_disabled_for_game_mode">Los beneficios están deshabilitados en este modo.</string>
+	<string key="ui_itemtooltiptitle_heartgem_rune_spinning_swords">Espadas fantasma</string>
+	<string key="currency_DKK">NOK {amount}</string>
+	<string key="ui_world_leave_world_confirm_message_makegoods">Tus compensaciones no se trasladarán</string>
+	<string key="ui_camping_error_poi_restricted_gamemode">Campamento restringido en esta actividad.</string>
+	<string key="ui_camp_placement_unavailable_on_cooldown">Colocación de campamento no disponible durante {time}</string>
+	<string key="ui_camp_placement_unavailable_under_attack">La colocación de campamento no está disponible mientras el campamento está bajo ataque.</string>
+	<string key="ui_barbershop_changes_disclaimer">Los tokens de peluquería están vinculados a una cuenta (no son comerciables) y no se reembolsan.</string>
+	<string key="ui_skin_change_skin_desc">Cambiar el diseño de este objeto</string>
+	<string key="ui_autopinObjectivesArtifact">Fijar automáticamente Artefactos</string>
+	<string key="ui_bind_to_camp_disabled_under_attack">Vincular campamento bajo ataque</string>
+	<string key="ui_camp_reconnect_failed_destroyed">¡Destruyeron tu campamento!</string>
+	<string key="ui_autopinobjectivesArtifact_desc">Indica si prefieres fijar automáticamente las tareas de artefcatos en el HUD al equiparlo.</string>
+	<string key="ui_consumables_shared_cooldowns_survival">pociones de supervivencia</string>
+	<string key="ui_event_item_disabled">Terminó el evento asociado con este objeto. El objeto está deshabilitado y se eliminará en el siguiente inicio de sesión.</string>
+	<string key="ui_options_damage_numbers_display_mode_description">Establece la presentación de las cifras mostradas al infligir daño, recibir daño, sanar a otros y recibir sanación.</string>
+	<string key="ui_from_intelligence_and_strength">Inteligencia (90 %), fuerza (65 %)</string>
+	<string key="ui_camp_under_attack">¡Tu campamento está bajo ataque!</string>
+	<string key="ui_options_damage_numbers_display_mode">Números de daño y sanación</string>
+	<string key="ui_options_damage_numbers_display_mode_floating">Flotar</string>
+	<string key="ui_options_damage_numbers_display_mode_stacked">Apilar</string>
+	<string key="ui_buildmode_error_pvp_camp_obstruction">Demasiado cerca de otro campamento de PvP</string>
+	<string key="ui_barbershop_change_appearance">Cambiar apariencia</string>
+	<string key="ui_consumables_shared_cooldown_text">\n\nUsar esto hará que todo lo demás de {consumableType} tenga un {cooldown} % de tiempo de reutilización.</string>
+	<string key="ui_camp_icon_tooltip">Mientras no estés marcado para PvP, puedes colocar o vincular un &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;campamento de no PvP&lt;/font&gt; no destructible para crear un punto de renacimiento.\n\nMientras estés marcado para PvP, puedes colocar o vincular &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;campamentos de PvP&lt;/font&gt; destructibles de la misma facción.\n\nNo puedes colocar o vincular otro campamento de PvP mientras tu campamento de PvP está bajo ataque o en los &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;{placementCooldown} s&lt;/font&gt; siguientes después de colocar uno, en los &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;{bindCooldown} s&lt;/font&gt; siguientes después de vincular uno o en los &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;{destructionCooldown} s&lt;/font&gt; siguientes después de que se destruya tu campamento de PvP.</string>
+	<string key="ui_add_more">Agregar más</string>
 </resources>
 

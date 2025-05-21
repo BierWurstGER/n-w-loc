@@ -203,7 +203,7 @@
 	<string key="HousingTrdG_Cabinets_GroupName" comment="Housing Furniture - Trading Post - TradingGroup">Szafki</string>
 	<string key="HousingTrdG_Cabinets_GroupDesc" comment="Housing Furniture - Trading Post - TradingGroup">Szafki do domu</string>
 	<string key="HousingTrdG_Veg_GroupName" comment="Housing Furniture - Trading Post - TradingGroup">Rośliny</string>
-	<string key="1hFlail_GroupName" rel_version="Weapon_Flail">Kiścienie</string>
+	<string key="1hFlail_GroupName" rel_version="Weapon_Flail">Kiścień</string>
 	<string key="1hFlail_GroupDesc" rel_version="Weapon_Flail">Dynamiczna broń na długim łańcuchu, która umożliwia zwiększenie zasięgu ataków. Po walce łańcuch zwija się do rękojeści. Idealnie nadaje się do wspierania sojuszników za pomocą różnych ciosów i magicznych ataków arkanistycznych.\n\n• Atak lekki: Zadaje {[1.000000 * 100]}% &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_strike_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; obrażeń.\n• Atak ciężki: Zadaje {[1.500000 * 100]}% &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_strike_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; obrażeń.\n\nKompatybilne z klejnotem prowokacji: Ciężkie ataki kiścieniem, w którym osadzono karneol, wywołują prowokację trwającą przez {[0.500000]} s (prowokacja sprawia, że potwory skupiają się tylko na tobie).</string>
 	<string key="1hHatchet_GroupName">Wytworzone siekierki</string>
 	<string key="1hHatchet_GroupDesc">Wszechstronna broń, którą można wyprowadzać szybkie ataki w walce wręcz lub rzucać z dystansu. Idealna do agresywnej walki wręcz lub taktycznej walki na średnim dystansie.\n\n• Atak lekki: Zadaje {[1.000000 * 100]}% &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_slash_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; obrażeń.\n•Lekki cios kończący serię: Zadaje {[1.050000 * 100]}% &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_slash_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; obrażeń.\n•Atak ciężki: Zadaje {[1.200000 * 100]}% &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_slash_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; obrażeń.\n•Naładowany atak ciężki: Zadaje {[1.600000 * 100]}% &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_slash_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; obrażeń.\n\nKompatybilne z klejnotem prowokacji: Ciężkie ataki siekierką, w której osadzono karneol, wywołują prowokację trwającą przez {[0.500000]} s. (Prowokacja sprawia, że potwory skupiają się tylko na tobie).</string>
@@ -779,7 +779,7 @@
 	<string key="CraftingComponents_GroupName">Komponenty do wytwarzania</string>
 	<string key="CraftingConsumables_GroupName">Przedmioty użytkowe</string>
 	<string key="CraftingFood_GroupName">Jedzenie wytwarzania</string>
-	<string key="CraftingQuestRecipe_GroupName">Zlecenia</string>
+	<string key="CraftingQuestRecipe_GroupName">Oferty pracy</string>
 	<string key="CraftModRefining_GroupName">Wyciągi do modyfikacji wytwarzania</string>
 	<string key="Crossweave_GroupName">Płócienne tkaniny</string>
 	<string key="crystal_GroupName">Kryształy</string>
@@ -1487,7 +1487,7 @@
 	<string key="PowderKeg_GroupDesc">Narzędzie oblężnicze służące do niszczenia fortyfikacji. Świetnie nadaje się do burzenia bram.</string>
 	<string key="PowderKeg_GroupName">Beczka prochu</string>
 	<string key="precisionTool_GroupName">Narzędzie precyzji</string>
-	<string key="ProcPotionHealth_GroupName">Eliksiry lecznicze</string>
+	<string key="ProcPotionHealth_GroupName">Eliksiry zdrowia</string>
 	<string key="ProcPotionMana_GroupName">Eliksiry many</string>
 	<string key="ProcPotionRegen_GroupName">Eliksiry regeneracji</string>
 	<string key="PvPStatSwap_GroupName">Pieczęcie</string>
@@ -1744,7 +1744,7 @@
 	<string key="STRTrinkets_GroupDesc">Akcesoria zwiększające siłę.</string>
 	<string key="STRTrinkets_GroupName">Akcesoria siły</string>
 	<string key="SurvivalTools_GroupName">Narzędzia traperskie</string>
-	<string key="SwordA_GroupDesc">Nierozłączna para, świetnie sprawdzająca się w walce wręcz. Zapewnia szereg umiejętności ofensywnych i defensywnych. Ataki bazują na cięciach i pchnięciach, a tarcza służy do obrony.\n\n•Atak lekki: Zadaje {[1.000000 * 100]}% &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_slash_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; obrażeń.\n•Lekki cios kończący serię: Zadaje {[1.050000 * 100]}% &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_slash_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; obrażeń.\n•Atak ciężki: Zadaje {[1.200000 * 100]}% &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_thrust_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; obrażeń.\n•Naładowany atak ciężki: Zadaje {[1.600000 * 100]}% &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_thrust_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; obrażeń.\n\nKompatybilne z klejnotem prowokacji: Ciężkie ataki mieczem, w którym osadzono karneol, wywołują prowokację trwającą przez {[0.500000]} s. (Prowokacja sprawia, że potwory skupiają się tylko na tobie).</string>
+	<string key="SwordA_GroupDesc">Nierozłączna para, świetnie sprawdzająca się w walce wręcz. Zapewnia szereg zdolności ofensywnych i defensywnych. Ataki bazują na cięciach i pchnięciach, a tarcza służy do obrony.\n\n•Atak lekki: Zadaje {[1.000000 * 100]}% &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_slash_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; obrażeń.\n•Lekki cios kończący serię: Zadaje {[1.050000 * 100]}% &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_slash_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; obrażeń.\n•Atak ciężki: Zadaje {[1.200000 * 100]}% &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_thrust_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; obrażeń.\n•Naładowany atak ciężki: Zadaje {[1.600000 * 100]}% &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_thrust_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; obrażeń.\n\nKompatybilne z klejnotem prowokacji: Ciężkie ataki mieczem, w którym osadzono karneol, wywołują prowokację trwającą przez {[0.500000]} s. (Prowokacja sprawia, że potwory skupiają się tylko na tobie).</string>
 	<string key="SwordA_GroupName">Miecze proste</string>
 	<string key="SwordB_GroupDesc">Broń biała używana do wyprowadzania szybkich pchnięć. Premiuje koordynację i wyczucie czasu. Nadaje się idealnie do wyprowadzania w pole przeciwników, u których wywołuje krwawienie stopniowo odbierające im życie.\n\n• Atak lekki: Zadaje {[1.000000 * 100]}% &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_thrust_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; obrażeń.\n• Środkowe ataki lekkie: Zadaje {[0.660000 * 100]}% &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_thrust_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; obrażeń.\n•Atak ciężki: Zadaje {[1.330000 * 100]}% &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_thrust_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; obrażeń.\n\nKompatybilne z klejnotem prowokacji: Ciężkie ataki rapierem, w którym osadzono karneol, wywołują prowokację trwającą przez {[0.500000]} s. (Prowokacja sprawia, że potwory skupiają się tylko na tobie).</string>
 	<string key="SwordB_GroupName">Rapier</string>
@@ -1767,6 +1767,7 @@
 	<string key="Tokens_GroupName">Żetony wydarzenia</string>
 	<string key="TokenCreation_GroupName">Tworzenie żetonów</string>
 	<string key="TokenConversion_GroupName">Konwersja żetonów</string>
+	<string key="SB_WispySpritzCraft" rel_version="Event_SpringtideBloom_Temp">Wispy Spritz</string>
 	<string key="ToolHatchet_GroupDesc">1-ręczna. Do ścinania drzew.</string>
 	<string key="ToolHatchet_GroupName">Siekierki</string>
 	<string key="ToolsGathering_GroupName">Narzędzia zbierackie</string>
@@ -1834,7 +1835,7 @@
 	<string key="Wood_CategoryName">Drewno</string>
 	<string key="wood_GroupName">Drewno</string>
 	<string key="WoodAny_CategoryName">Dowolne drewno</string>
-	<string key="WorkOrder_GroupName">Zlecenia</string>
+	<string key="WorkOrder_GroupName">Oferty pracy</string>
 	<string key="Pattern">Wzory</string>
 	<string key="PatternRecipes">Schematy wzorów</string>
 	<string key="Lodestone">Magnetyt</string>
@@ -1968,7 +1969,7 @@
 	<string key="SummerMedleyfaire_GroupName">Festiwal Składanek (wydarzenie)</string>
 	<string key="SpringtideBloom_GroupName">Wiosenny Kwiat (wydarzenie)</string>
 	<string key="LunarNewYear_GroupName">Księżycowy Nowy Rok (wydarzenie)</string>
-	<string key="Greatsword_GroupName">Miecze dwuręczne</string>
+	<string key="Greatsword_GroupName">Miecz dwuręczny</string>
 	<string key="CoatingAeternian_GroupDesc" rel_version="Season_1_Perm">Tylko PvE: Powłoki zwiększające obrażenia zadawane ludziom (którzy nie są zagubieni lub skażeni).</string>
 	<string key="CoatingAeternian_GroupName" rel_version="Season_1_Perm">Antyludzka powłoka</string>
 	<string key="OverchargedCasts_GroupName">Przeciążone odlewy gipsowe</string>
@@ -1994,7 +1995,7 @@
 	<string key="SOTS_GroupName" rel_version="Territory_FirstLight_Spores">Sekrety zarodników</string>
 	<string key="DimensionalArtifacts_GroupName">Artefakty wymiarowe</string>
 	<string key="DimensionalTether_GroupName">Pęta wymiarowe</string>
-	<string key="Flail_GroupName" rel_version="Weapon_Flail">Kiścienie</string>
+	<string key="Flail_GroupName" rel_version="Weapon_Flail">Kiścień</string>
 	<string key="ScarabFlail_GroupName" rel_version="Weapon_Flail">Kiścień – złoty skarabeusz</string>
 	<string key="Artifacts_GroupName" rel_version="Territory_FirstLight">Artefakty</string>
 	<string key="PrismaticMeleeWeapons_GroupName" rel_version="Territory_FirstLight">Broń biała – pryzmatyczny skarabeusz</string>
@@ -2053,7 +2054,11 @@
 	<string key="ConquerorsGear_GroupName" comment="DO NOT TRANSLATE" rel_version="PvPServerConquerorsItems">Conquerors Armaments</string>
 	<string key="DungeonMaterialMinor_GroupName" rel_version="Raid_CutlassKeys_00">Pospolite materiały z ekspedycji</string>
 	<string key="DungeonMaterialMajor_GroupName" rel_version="Raid_CutlassKeys_00">Rzadkie materiały z ekspedycji</string>
-	<string key="OPRBetas_GroupName">Treści beta dla Napadu na posterunek</string>
+	<string key="EtherealRefinement_GroupName" comment="DO NOT TRANSLATE" rel_version="PvPServerConquerorsItems">Ethereal Dust Refining</string>
+	<string key="EtherealDust_GroupName" comment="DO NOT TRANSLATE" rel_version="PvPServerConquerorsItems">Ethereal Dust XP Conversion</string>
 	<string key="BetaRewards_GroupName">Nagrody treści beta</string>
+	<string key="OPRBetas_GroupName">Treści beta dla Napadu na posterunek</string>
+	<string key="ReekwaterUplevelRare_GroupName">rzadki</string>
+	<string key="ReekwaterUplevelCommon_GroupName">pospolity</string>
 </resources>
 

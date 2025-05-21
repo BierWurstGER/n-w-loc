@@ -100,7 +100,7 @@
 	<string key="ui_outpost_rush_signup_title">ASALTO A PUESTO REMOTO</string>
 	<string key="ui_outpost_rush_signup_desc">&lt;font color="#edc63e"&gt;El Asalto a puesto remoto&lt;/font&gt; es un enfrentamiento 20 vs. 20 que se lleva a cabo en una extensa isla con tres puestos remotos que los equipos compiten para capturar y defender.</string>
 	<string key="ui_outpost_rush_signup_desc_gearscore">El &lt;font color="#edc63e"&gt;escalado de puntuación de equipo&lt;/font&gt; aumenta la puntuación de todo el equipo por debajo de 700 puntos a 700.</string>
-	<string key="ui_outpost_rush_signup_desc_cross_world">Asalto a puesto remoto es un &lt;font color="#edc63e"&gt;modo de juego de mundo múltiple&lt;/font&gt; 20x20.</string>
+	<string key="ui_outpost_rush_signup_desc_cross_world">Asalto a puesto remoto es un &lt;font color="#edc63e"&gt;modo de juego de mundo múltiple&lt;/font&gt; 20x20.\nEl &lt;font color="#edc63e"&gt;escalado de puntuación de equipo&lt;/font&gt; aumenta la puntuación de todo el equipo por debajo de 700 puntos a 700.</string>
 	<string key="ui_outpost_rush_signup_desc_cross_world_tooltip">&lt;font color="#edc63e"&gt;Mundo múltiple&lt;/font&gt; quiere decir que vas a jugar con jugadores de todos los mundos de tu región. Así se reducen los tiempos de espera para un combate.\n\nTen en cuenta que:\n\n- Cuando veas un jugador con &lt;img src="lyshineui/images/icons/crossworld/icon_crossworld_identifier" xPadding="-1" scale="1.8" yOffset="2"&gt;&lt;/img&gt; junto al nombre, significa que procede de otro mundo.\n\n- En el combate de mundo múltiple se desactivarán varias funciones sociales, como el comercio y las invitaciones, entre otras.\n\n- La clasificación de victorias de APR ahora es una clasificación regional.</string>
 	<string key="ui_outpost_rush_signup_goal1">Captura y defiende puestos remotos para aumentar la puntuación de tu equipo</string>
 	<string key="ui_outpost_rush_signup_goal2">El primer equipo en llegar a 1000 puntos gana</string>
@@ -148,8 +148,8 @@
 	<string key="ui_outpost_rush_battle_tokens_with_value">Blasones de batalla {value}</string>
 	<string key="ui_outpost_rush_outpost_under_attack">{value} está sufriendo un ataque</string>
 	<string key="ui_outpost_rush_boss_killed">PUNTUACIÓN EN PAUSA</string>
-	<string key="ui_outpost_rush_ally_buff">¡La puntuación del enemigo no aumentará durante &lt;font color="#edc63e"&gt;2 minutos y 30 segundos&lt;/font&gt;!</string>
-	<string key="ui_outpost_rush_enemy_buff">¡La puntuación de tu equipo no aumentará durante &lt;font color="#edc63e"&gt;2 minutos y 30 segundos&lt;/font&gt;!</string>
+	<string key="ui_outpost_rush_ally_buff">¡La puntuación del enemigo no aumentará durante &lt;font color="#edc63e"&gt;{time}&lt;/font&gt;!</string>
+	<string key="ui_outpost_rush_enemy_buff">¡La puntuación de tu equipo no aumentará durante &lt;font color="#edc63e"&gt;{time}&lt;/font&gt;!</string>
 	<string key="ui_outpost_rush_armory_built">Se ha construido una armería en {value}</string>
 	<string key="ui_outpost_rush_command_post_built">Se ha construido un puesto de mando en {value}</string>
 	<string key="ui_outpost_rush_command_post_upgrade">El puesto de mando en {value} se ha mejorado a clase {tier}</string>
@@ -229,9 +229,9 @@
 	<string key="or_tutorial_rules_portal_title">Derrota y cierra el portal corrupto.</string>
 	<string key="or_tutorial_rules_portal_body">Derrota y cierra el portal corrupto para conseguir una piedra de invocación de cafre.</string>
 	<string key="or_tutorial_boss_spawn_title">LA BARONESA HAIN HA APARECIDO</string>
-	<string key="or_tutorial_boss_spawn_body">Acaba con ella para recibir un potenciador de defensa poderoso y evitar que la puntuación del equipo enemigo aumente durante 3 minutos.</string>
+	<string key="or_tutorial_boss_spawn_body">Acaba con ella para recibir un potenciador de defensa poderoso y evitar que la puntuación del equipo enemigo aumente durante 2 minutos y 30 segundos.</string>
 	<string key="or_tutorial_boss_near_title">LA BARONESA HAIN ESTÁ CERCA</string>
-	<string key="or_tutorial_boss_near_body">Acaba con ella para recibir un potenciador de defensa poderoso y evitar que la puntuación del equipo enemigo aumente durante 3 minutos.</string>
+	<string key="or_tutorial_boss_near_body">Acaba con ella para recibir un potenciador de defensa poderoso y evitar que la puntuación del equipo enemigo aumente durante 2 minutos y 30 segundos.</string>
 	<string key="or_tutorial_outpost_gates_title">CONSTRUYE PUERTAS PARA PROTEGER EL PUESTO REMOTO</string>
 	<string key="or_tutorial_outpost_gates_body">Reúne madera y minerales imbuidos e interactúa con la puerta para construirla y mejorarla.</string>
 	<string key="or_tutorial_outpost_ward_title">CONSTRUYE UN BALUARTE</string>
@@ -292,7 +292,7 @@
 	<string key="ui_matchmaking_ready_title">Partida lista</string>
 	<string key="ui_matchmaking_ready_title_dungeon">Grupo encontrado</string>
 	<string key="ui_matchmaking_ready_text">Tu &lt;font color={color}&gt;partida ya está lista&lt;/font&gt;. ¿Quieres teletransportarte ahora?</string>
-	<string key="ui_matchmaking_ready_text_dungeon">Esperando jugadores ({numAccepted} de {numInvited})</string>
+	<string key="ui_matchmaking_ready_text_dungeon">Esperando a jugadores (&lt;font color={acceptedColor}&gt;{numAccepted}&lt;/font&gt; de {numInvited})</string>
 	<string key="dungeon_how_to_raid">Cómo crear una incursión</string>
 	<string key="dungeon_entry_requirements">Requisitos de acceso</string>
 	<string key="ui_influence_tutorial_how_it_works" rel_version="Feature_Influence_V2">Cómo funcionan las carreras de influencia</string>
@@ -306,6 +306,14 @@
 	<string key="ui_influence_tutorial_desc4" rel_version="Feature_Influence_V2">Los jugadores que participen obtendrán recompensas. Botín de guerra adicional para los defensores que ganen la guerra. </string>
 	<string key="ui_pvp_balance_tooltip" rel_version="Feature_PvP_PvE_Split">El equilibrado de JcJ está en curso.</string>
 	<string key="ui_pvp_balance_header" rel_version="Feature_PvP_PvE_Split">Los modificadores de equilibrado de JcJ están en curso.</string>
+	<string key="or_outpost_rush_map_name" rel_version="Season_7_Perm">Isla de Nauthynos</string>
+	<string key="or_outpost_rush_trench_map_name" rel_version="OPR_004_Trench">Brecha Coral</string>
+	<string key="arena_3v3_map_name" rel_version="Feature_PVP_Arenas">Santuario antiguo</string>
+	<string key="arena_3v3_02_map_name" rel_version="Feature_PVP_Arenas">Arena del gladiador</string>
+	<string key="ui_activity_finder_tooltip_current_map_rotation_text" rel_version="Season_7_Perm">Mapa actual en rotación</string>
+	<string key="ui_activity_finder_tooltip_next_map_rotation_text" rel_version="Season_7_Perm">Próximo mapa en rotación</string>
+	<string key="ui_activity_finder_tooltip_current_map_rotation" rel_version="Season_7_Perm">{currentRotationText}: {mapName}</string>
+	<string key="ui_activity_finder_tooltip_next_map_rotation" rel_version="Season_7_Perm">{nextRotationText}: {mapName}</string>
 	<string key="ui_pvp_balance_global_disabled_weapon" rel_version="Feature_PvP_PvE_Split">El equilibrado de JcJ está desactivado ahora mismo en esta arma.</string>
 	<string key="ui_pvp_balance_global_disabled_mode" rel_version="Feature_PvP_PvE_Split">El equilibrado de JcJ está desactivado ahora mismo en este modo de juego.</string>
 	<string key="ui_pvp_balance_open_world_disabled" rel_version="Feature_PvP_PvE_Split">El equilibrado de JcJ está desactivado ahora mismo en el mundo abierto.</string>
@@ -327,15 +335,69 @@
 	<string key="ui_gamemodeinvitedeclinesentmessage_withsource">&lt;font color="#ebe3d6"&gt;{sourcePlayerName}&lt;/font&gt; ha rechazado la invitación para &lt;font color="#ebe3d6"&gt;{gameModeName}&lt;/font&gt;.</string>
 	<string key="ui_gamemode_timeout">Fin de la actividad</string>
 	<string key="ui_gamemode_timeout_description">Casi se ha superado el tiempo máximo permitido para esta actividad</string>
-	<string key="or_outpost_rush_map_name">Isla de Nauthynos</string>
-	<string key="ui_activity_finder_tooltip_current_map_rotation">{currentRotationText}: {mapName}</string>
-	<string key="ui_activity_finder_tooltip_current_map_rotation_text">Mapa actual en rotación</string>
-	<string key="ui_activity_finder_tooltip_next_map_rotation_text">Próximo mapa en rotación</string>
-	<string key="ui_activity_finder_tooltip_next_map_rotation">{nextRotationText}: {mapName}</string>
-	<string key="ui_ready_up_unready_choice">En preparación</string>
-	<string key="or_outpost_rush_trench_map_name">Brecha Coral</string>
-	<string key="arena_3v3_02_map_name">Arena del gladiador</string>
 	<string key="ui_ready_up_ready_choice">Listo</string>
-	<string key="arena_3v3_map_name">Santuario antiguo</string>
+	<string key="ui_ready_up_unready_choice">En preparación</string>
+	<string key="ui_ready_up_waiting_message">Esperando a otros jugadores ({numReady} de {numTotal})</string>
+	<string key="ctf_gamemode_description">Captura la bandera es un frenético modo de juego por equipos en el que se deben poner en práctica tácticas ofensivas y defensivas. Defiende tu base y roba la bandera del enemigo para ganar.</string>
+	<string key="ctf_flag_picked_up">Han robado tu bandera</string>
+	<string key="ctf_flag_returned">Han devuelto tu bandera</string>
+	<string key="ctf_red_team">&lt;font color="#f25d5d"&gt;Equipo rojo&lt;/font&gt;</string>
+	<string key="ctf_gamemode_name">Captura la bandera</string>
+	<string key="ctf_003_Long_Map_Name">Vista previa de Captura la bandera</string>
+	<string key="ui_opr_no_perks_signup_desc_cross_world">¡Olvídate de las mejores ventajas de tu equipo! Únete a este nuevo modo de Asalto a puesto remoto en el que se desactivan todas las ventajas de equipo y aumenta su puntuación al máximo para equilibrar el terreno de juego. El \n\n&lt;font color="#edc63e"&gt;escalado de puntuación de equipo&lt;/font&gt; aumenta la puntuación de todo el equipo por debajo de 725 puntos a 725.</string>
+	<string key="ctf_flag_match_completed">Partida finalizada</string>
+	<string key="ui_ctf_leave_desc">¿Seguro que quieres salir de Captura la bandera?</string>
+	<string key="ctf_flag_status_safe">Bandera segura</string>
+	<string key="ctf_flag_carrier_debuff_icon_desc">¡Eres el portador de la bandera! Ahora eres más vulnerable a los ataques enemigos y recibirás menos curación.</string>
+	<string key="ctf_eom_stat_captures_neutral_flags">Banderas neutrales</string>
+	<string key="ctf_flag_status_taken">Bandera robada</string>
+	<string key="ctf_flag_wild_spawned">Ha aparecido una bandera neutral</string>
+	<string key="ui_opr_no_perks_signup_goal2">El primer equipo en llegar a 1000 puntos gana</string>
+	<string key="ctf_flag_wild_timer">Aparece en {time}</string>
+	<string key="ui_opr_no_perks_title">Asalto a puesto remoto: Esqueleto</string>
+	<string key="ui_capture_the_flag_begin">¡ADELANTE!</string>
+	<string key="ctf_eom_stat_captures_team_flags">Banderas de equipo</string>
+	<string key="ctf_flag_you_scored">¡Has ganado un punto!</string>
+	<string key="ui_opr_no_perks_signup_goal1">Captura y defiende puestos remotos para aumentar la puntuación de tu equipo</string>
+	<string key="ctf_eom_stat_flag_returns">Banderas devueltas</string>
+	<string key="ui_capture_the_flag_signup_goal1">Atrapa el mayor número de banderas para ganar la partida.</string>
+	<string key="CTF_Powerup_Healing_Desc">Recibes 8000 de salud. (El equipamiento puede afectar al total)</string>
+	<string key="ui_capture_the_flag_title">Captura la bandera</string>
+	<string key="ui_capture_the_flag_signup_failgrouppenalty">Uno o más miembros del grupo tienen una penalización de tiempo por haber abandonado una partida de Captura la bandera.</string>
+	<string key="ui_capture_the_flag_pregame_description">La partida comienza en</string>
+	<string key="ctf_flag_enemy_team_scored">El equipo enemigo ha ganado un punto</string>
+	<string key="ui_capture_the_flag_signup_goal3">Protege al portador de la bandera para que vuelva con éxito.</string>
+	<string key="ctf_flag_carrier_debuff_icon_name">¡Portador de la bandera!</string>
+	<string key="ui_capture_the_flag_signup_joinsolo">Jugar</string>
+	<string key="ctf_wild_flag_picked_up">Han robado una bandera neutral</string>
+	<string key="ctf_flag_dropped">Han soltado tu bandera</string>
+	<string key="CTF_Powerup_Damage_Empower_Name">Mejora de ataque</string>
+	<string key="ui_capture_the_flag_leave_queue_title">Dejar cola</string>
+	<string key="CTF_Powerup_Speed_Name">Mejora de Celeridad</string>
+	<string key="ctf_wild_flag_dropped">Han soltado una bandera neutral</string>
+	<string key="ctf_wild_flag_returned">Han devuelto una bandera neutral</string>
+	<string key="ctf_eom_stat_captures">Capturas</string>
+	<string key="ui_capture_the_flag_leave_queue_desc">¿Seguro que quieres salir de la cola de Captura la bandera?</string>
+	<string key="ui_capture_the_flag_signup_goal2">La bandera de tu equipo debe estar en la base para que puntúe.</string>
+	<string key="ctf_flag_status_dropped">Bandera soltada</string>
+	<string key="arena_3v3_04_map_name">Vista previa de la arena</string>
+	<string key="ui_ctf_leave">Abandonar actividad</string>
+	<string key="ui_capture_the_flag_invite_notification_text">¡Te han invitado a Captura la bandera!</string>
+	<string key="ctf_overtime_banner_title">Prórroga</string>
+	<string key="ctf_flag_our_team_scored">¡Nuestro equipo ha ganado un punto!</string>
+	<string key="ctf_flag_player_count">Jugadores: {count}</string>
+	<string key="ctf_overtime_banner_desc">¡La siguiente bandera gana!</string>
+	<string key="ui_cannot_travel_ctf">No puedes usar el viaje rápido en Captura la bandera.</string>
+	<string key="ctf_flag_away_from_base">Debéis volver con la bandera para puntuar</string>
+	<string key="ctf_blue_team">&lt;font color="#45d1ff"&gt;Equipo azul&lt;/font&gt;</string>
+	<string key="ctf_flag_scored">Tu equipo ha ganado un punto</string>
+	<string key="CTF_Powerup_Healing_Name">Mejora de salud</string>
+	<string key="ui_capture_the_flag_invite_notification_title">Invitación a Captura la bandera</string>
+	<string key="ui_ctf_leave_desc_time">¿Seguro que quieres salir de Captura la bandera?\nNo podrás volver a hacer cola para Captura la bandera durante &lt;font color="#edc63e"&gt;[{time}]&lt;/font&gt;.</string>
+	<string key="ctf_eom_stat_flagbearers_killed">Portadores de banderas asesinados</string>
+	<string key="CTF_Powerup_Speed_Desc">+50 % de Celeridad durante 5 segundos.</string>
+	<string key="ctf_002_Wide_Map_Name">Vista previa de Captura la bandera</string>
+	<string key="CTF_Powerup_Damage_Empower_Desc">+20 % de Fortalecimiento mágico durante 10 segundos. Este efecto no se puede anular.</string>
+	<string key="ui_opr_no_perks_signup_goal3">Utiliza los recursos especiales repartidos por la isla para atacar y defender</string>
 </resources>
 

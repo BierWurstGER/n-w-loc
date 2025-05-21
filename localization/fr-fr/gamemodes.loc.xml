@@ -100,7 +100,7 @@
 	<string key="ui_outpost_rush_signup_title">DÉFERLANTE</string>
 	<string key="ui_outpost_rush_signup_desc">La &lt;font color="#edc63e"&gt;Déferlante&lt;/font&gt; est un match à 20 contre 20 qui se déroule sur une grande île dotée de trois avant-postes que les équipes doivent capturer et tenir.</string>
 	<string key="ui_outpost_rush_signup_desc_gearscore">L'&lt;font color="#edc63e"&gt;équilibrage au score d'équipement&lt;/font&gt; augmente le score d'équipement à 700 pour tout l'équipement inférieur à 700.</string>
-	<string key="ui_outpost_rush_signup_desc_cross_world">La Déferlante est un &lt;font color="#edc63e"&gt;mode de jeu intermondes&lt;/font&gt; à 20 contre 20.</string>
+	<string key="ui_outpost_rush_signup_desc_cross_world">La Déferlante est un &lt;font color="#edc63e"&gt;mode de jeu intermondes&lt;/font&gt; à 20 contre 20.\nL'&lt;font color="#edc63e"&gt;équilibrage au score d'équipement&lt;/font&gt; augmente le score d'équipement à 700 pour tout l'équipement inférieur à 700.</string>
 	<string key="ui_outpost_rush_signup_desc_cross_world_tooltip">&lt;font color="#edc63e"&gt;Intermondes&lt;/font&gt; signifie que vous jouerez avec des joueurs de tous les mondes au sein de votre région. Cela peut aider à raccourcir les délais d'attente avant de trouver un match.\n\nNotez bien :\n\n- Lorsque vous voyez un joueur avec &lt;img src="lyshineui/images/icons/crossworld/icon_crossworld_identifier" xPadding="-1" scale="1.8" yOffset="2"&gt;&lt;/img&gt; à côté de son nom, cela signifie qu'il vient d'un autre monde.\n\n- En match intermondes, plusieurs fonctions sociales sont désactivées (échanges, invitations et autres).\n\n- Le classement des victoires en Déferlante est désormais un classement régional.</string>
 	<string key="ui_outpost_rush_signup_goal1">Capturez et tenez des avant-postes pour marquer des points.</string>
 	<string key="ui_outpost_rush_signup_goal2">La première équipe à atteindre 1 000 points l'emporte.</string>
@@ -229,9 +229,9 @@
 	<string key="or_tutorial_rules_portal_title">Triompher du portail d'altération et le fermer</string>
 	<string key="or_tutorial_rules_portal_body">Fermez le portail d'altération après en avoir triomphé pour recevoir une pierre d'invocation de brute.</string>
 	<string key="or_tutorial_boss_spawn_title">LA BARONNE HAIN EST APPARUE</string>
-	<string key="or_tutorial_boss_spawn_body">Tuez-la pour obtenir une puissante amélioration défensive et geler le score ennemi pendant 3 minutes.</string>
+	<string key="or_tutorial_boss_spawn_body">Tuez-la pour obtenir une puissante amélioration défensive et geler le score ennemi pendant 2 min 30.</string>
 	<string key="or_tutorial_boss_near_title">LA BARONNE HAIN EST À PROXIMITÉ</string>
-	<string key="or_tutorial_boss_near_body">Tuez-la pour obtenir une puissante amélioration défensive et geler le score ennemi pendant 3 minutes.</string>
+	<string key="or_tutorial_boss_near_body">Tuez-la pour obtenir une puissante amélioration défensive et geler le score ennemi pendant 2 min 30.</string>
 	<string key="or_tutorial_outpost_gates_title">CONSTRUISEZ DES PORTES POUR PROTÉGER L'AVANT-POSTE</string>
 	<string key="or_tutorial_outpost_gates_body">Collectez du bois et du minerai imprégnés, puis interagissez avec la porte pour la construire et l'améliorer.</string>
 	<string key="or_tutorial_outpost_ward_title">CONSTRUISEZ UN SORTILÈGE DE PROTECTION</string>
@@ -272,7 +272,7 @@
 	<string key="ui_item_durability_loss_pvp">Vous avez succombé face à un autre joueur et votre équipement a subi des dégâts réduits.</string>
 	<string key="ui_in_spectators_box">Dans la zone des spectateurs</string>
 	<string key="ui_in_spectators_box_description">Capacités désactivées</string>
-	<string key="ui_in_spectators_moving_to">Déplacement dans la zone des spectateurs dans {seconds} s</string>
+	<string key="ui_in_spectators_moving_to">Déplacement dans la zone des spectateurs dans {seconds}s</string>
 	<string key="ui_round_number">Manche {number}</string>
 	<string key="ui_match_point">Point décisif</string>
 	<string key="ui_final_round">Manche finale</string>
@@ -292,7 +292,7 @@
 	<string key="ui_matchmaking_ready_title">Combat prêt</string>
 	<string key="ui_matchmaking_ready_title_dungeon">Groupe trouvé</string>
 	<string key="ui_matchmaking_ready_text">Le &lt;font color={color}&gt;combat que vous attendiez&lt;/font&gt; est prêt. Voulez-vous vous téléporter à l'intérieur ?</string>
-	<string key="ui_matchmaking_ready_text_dungeon">En attente de joueurs ({numAccepted}/{numInvited})</string>
+	<string key="ui_matchmaking_ready_text_dungeon">En attente de joueurs (&lt;font color={acceptedColor}&gt;{numAccepted}&lt;/font&gt;/{numInvited})</string>
 	<string key="dungeon_how_to_raid">Guide d'assaut</string>
 	<string key="dungeon_entry_requirements">Conditions d'accès</string>
 	<string key="ui_influence_tutorial_how_it_works" rel_version="Feature_Influence_V2">Comment fonctionnent les Courses d'influence</string>
@@ -307,6 +307,7 @@
 	<string key="ui_pvp_balance_tooltip" rel_version="Feature_PvP_PvE_Split">Équilibrage JcJ effectif.</string>
 	<string key="ui_pvp_balance_header" rel_version="Feature_PvP_PvE_Split">Modificateurs d'équilibrage JcJ effectifs :</string>
 	<string key="or_outpost_rush_map_name" rel_version="Season_7_Perm">Île de Nauthynos</string>
+	<string key="or_outpost_rush_trench_map_name" rel_version="OPR_004_Trench">Fossé corallien</string>
 	<string key="arena_3v3_map_name" rel_version="Feature_PVP_Arenas">Sanctuaire antique</string>
 	<string key="arena_3v3_02_map_name" rel_version="Feature_PVP_Arenas">Arène de gladiateur</string>
 	<string key="ui_activity_finder_tooltip_current_map_rotation_text" rel_version="Season_7_Perm">Carte actuelle de la rotation</string>
@@ -336,7 +337,67 @@
 	<string key="ui_gamemode_timeout_description">Vous approchez de la limite de temps maximale autorisée pour cette activité.</string>
 	<string key="ui_ready_up_ready_choice">Prêt</string>
 	<string key="ui_ready_up_unready_choice">Pas prêt</string>
-	<string key="ui_ready_up_waiting_message">En attente</string>
-	<string key="or_outpost_rush_trench_map_name">Fossé corallien</string>
+	<string key="ui_ready_up_waiting_message">En attente des autres joueurs ({numReady}/{numTotal})</string>
+	<string key="ctf_gamemode_description">Capture du drapeau est un mode de jeu en équipe au rythme effréné dans lequel il faut adopter des tactiques à la fois offensives et défensives. Défendez votre base tout en subtilisant le drapeau ennemi pour remporter la victoire.</string>
+	<string key="ctf_flag_picked_up">Votre drapeau a été subtilisé</string>
+	<string key="ctf_flag_returned">Votre drapeau a été rapporté</string>
+	<string key="ctf_red_team">&lt;font color="#f25d5d"&gt;Équipe rouge&lt;/font&gt;</string>
+	<string key="ctf_gamemode_name">Capture du drapeau</string>
+	<string key="ctf_003_Long_Map_Name">Aperçu de la CDD</string>
+	<string key="ui_opr_no_perks_signup_desc_cross_world">Meilleur équipement d'emplacement non requis ! Participez à cette nouvelle version de la Déferlante où les avantages d'équipement sont désactivés et où le score d'équipement est au niveau maximum pour équilibrer le terrain de jeu.\n\nL'&lt;font color="#edc63e"&gt;équilibrage au score d'équipement&lt;/font&gt; augmente le score d'équipement à 725 pour tout l'équipement inférieur à 725.</string>
+	<string key="ctf_flag_match_completed">Match terminé</string>
+	<string key="ui_ctf_leave_desc">Voulez-vous vraiment quitter la Capture du drapeau ?</string>
+	<string key="ctf_flag_status_safe">Drapeau en sécurité</string>
+	<string key="ctf_flag_carrier_debuff_icon_desc">Vous êtes le porte-drapeau ! Vous êtes désormais plus vulnérable aux attaques ennemies et les soins que vous recevez sont réduits.</string>
+	<string key="ctf_eom_stat_captures_neutral_flags">Drapeaux neutres</string>
+	<string key="ctf_flag_status_taken">Drapeau subtilisé</string>
+	<string key="ctf_flag_wild_spawned">Apparition du drapeau neutre</string>
+	<string key="ui_opr_no_perks_signup_goal2">La première équipe à atteindre 1 000 points l'emporte.</string>
+	<string key="ctf_flag_wild_timer">Apparition dans {time}</string>
+	<string key="ui_opr_no_perks_title">Déferlante : Os à vif</string>
+	<string key="ui_capture_the_flag_begin">PARTEZ !</string>
+	<string key="ctf_eom_stat_captures_team_flags">Drapeaux de l'équipe</string>
+	<string key="ctf_flag_you_scored">Vous avez marqué !</string>
+	<string key="ui_opr_no_perks_signup_goal1">Capturez et tenez des avant-postes pour marquer des points.</string>
+	<string key="ctf_eom_stat_flag_returns">Drapeaux rapportés</string>
+	<string key="ui_capture_the_flag_signup_goal1">Capturez le plus de drapeaux possible pour remporter le match.</string>
+	<string key="CTF_Powerup_Healing_Desc">+8 000 PV quand récupéré. (L'équipement peut affecter le total.)</string>
+	<string key="ui_capture_the_flag_title">Capture du drapeau</string>
+	<string key="ui_capture_the_flag_signup_failgrouppenalty">Un ou plusieurs membres de votre groupe ont reçu une pénalité de temps après avoir quitté un match de Capture du drapeau.</string>
+	<string key="ui_capture_the_flag_pregame_description">Début du match dans</string>
+	<string key="ctf_flag_enemy_team_scored">L'équipe ennemie a marqué</string>
+	<string key="ui_capture_the_flag_signup_goal3">Protégez votre porte-drapeau pour le ramener en toute sécurité.</string>
+	<string key="ctf_flag_carrier_debuff_icon_name">Porte-drapeau !</string>
+	<string key="ui_capture_the_flag_signup_joinsolo">Jouer</string>
+	<string key="ctf_wild_flag_picked_up">Drapeau neutre subtilisé</string>
+	<string key="ctf_flag_dropped">Votre drapeau est tombé</string>
+	<string key="CTF_Powerup_Damage_Empower_Name">Attaque renforcée</string>
+	<string key="ui_capture_the_flag_leave_queue_title">Quitter la file d'attente</string>
+	<string key="CTF_Powerup_Speed_Name">Célérité renforcée</string>
+	<string key="ctf_wild_flag_dropped">Drapeau neutre tombé</string>
+	<string key="ctf_wild_flag_returned">Drapeau neutre rapporté</string>
+	<string key="ctf_eom_stat_captures">Captures</string>
+	<string key="ui_capture_the_flag_leave_queue_desc">Voulez-vous vraiment quitter la file d'attente de la Capture du drapeau ?</string>
+	<string key="ui_capture_the_flag_signup_goal2">Le drapeau de votre équipe doit se trouver chez vous pour obtenir le point.</string>
+	<string key="ctf_flag_status_dropped">Drapeau tombé</string>
+	<string key="arena_3v3_04_map_name">Aperçu de l'arène</string>
+	<string key="ui_ctf_leave">Quitter l'activité</string>
+	<string key="ui_capture_the_flag_invite_notification_text">Vous avez reçu une invitation pour participer à une Capture du drapeau !</string>
+	<string key="ctf_overtime_banner_title">Prolongation</string>
+	<string key="ctf_flag_our_team_scored">Votre équipe a marqué !</string>
+	<string key="ctf_flag_player_count">Joueurs : {count}</string>
+	<string key="ctf_overtime_banner_desc">Le prochain drapeau l'emporte !</string>
+	<string key="ui_cannot_travel_ctf">Le transfert rapide est impossible au cours de Capture du drapeau.</string>
+	<string key="ctf_flag_away_from_base">Vous devez avoir rapporté votre drapeau pour marquer</string>
+	<string key="ctf_blue_team">&lt;font color="#45d1ff"&gt;Équipe bleue&lt;/font&gt;</string>
+	<string key="ctf_flag_scored">Votre équipe a marqué</string>
+	<string key="CTF_Powerup_Healing_Name">Santé renforcée</string>
+	<string key="ui_capture_the_flag_invite_notification_title">Inviter à une Capture du drapeau</string>
+	<string key="ui_ctf_leave_desc_time">Voulez-vous vraiment quitter la Capture du drapeau ?\nVous ne pourrez pas rejoindre la file d'attente de Capture du drapeau avant &lt;font color="#edc63e"&gt;[{time}]&lt;/font&gt;.</string>
+	<string key="ctf_eom_stat_flagbearers_killed">Porte-drapeaux éliminés</string>
+	<string key="CTF_Powerup_Speed_Desc">+50 % de célérité pendant 5 secondes.</string>
+	<string key="ctf_002_Wide_Map_Name">Aperçu de la CDD</string>
+	<string key="CTF_Powerup_Damage_Empower_Desc">+20 % de renforcement pendant 10 secondes. Cet effet ne peut pas être dissipé.</string>
+	<string key="ui_opr_no_perks_signup_goal3">Utilisez des ressources spéciales pour attaquer et vous défendre.</string>
 </resources>
 

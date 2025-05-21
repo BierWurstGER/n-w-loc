@@ -102,7 +102,7 @@
 	<string key="crafting_tab_tanning">&lt;font color="#ff7171"&gt;&lt;font face="lyshineui/fonts/Nimbus_Semibold.font"&gt;Nie jesteś przy stanowisku.&lt;/font&gt;&lt;/font&gt;\n\nZnajdź &lt;font color="#ebe3d6"&gt;garbarnię&lt;/font&gt;, aby wytworzyć przedmioty.</string>
 	<string key="crafting_tab_weaving">&lt;font color="#ff7171"&gt;&lt;font face="lyshineui/fonts/Nimbus_Semibold.font"&gt;Nie jesteś przy stanowisku.&lt;/font&gt;&lt;/font&gt;\n\nZnajdź &lt;font color="#ebe3d6"&gt;krosno&lt;/font&gt;, aby wytworzyć przedmioty.</string>
 	<string key="crafting_current_refining">Obecne stanowisko przetwarzania.</string>
-	<string key="crafting_current_crafting">Obecne stanowisko rzemieślnicze.</string>
+	<string key="crafting_current_crafting">Obecne stanowisko do wytwarzania.</string>
 	<string key="crafting_hide_summary">Ukryj podsumowanie</string>
 	<string key="crafting_show_summary">Pokaż podsumowanie</string>
 	<string key="crafting_tree_unlocked">Odblokowano</string>
@@ -171,9 +171,9 @@
 	<string key="crafting_azothselectiontitle">&lt;img src="lyshineui/images/crafting/itemIconAzoth" xPadding="0" scale="2.6" yOffset="20"&gt;&lt;/img&gt; Dodaj azoth</string>
 	<string key="crafting_azothbonus_not_enough">Za mało azothu</string>
 	<string key="crafting_azothbonus_max">Powyżej maks. ilości azothu w przedmiocie</string>
-	<string key="crafting_azothbonus_tooltip">Azoth zwiększa szansę na cechy, profity i gniazda na klejnoty Dzięki lepszym materiałom uzyskasz więcej możliwych punktów wyposażenia, co pozwoli ci dodać więcej azothu.</string>
+	<string key="crafting_azothbonus_tooltip">Azoth zwiększa szansę na cechy, profity i gniazda na klejnoty. Dzięki lepszym materiałom uzyskasz więcej możliwych punktów wyposażenia, co pozwoli ci dodać więcej azothu.</string>
 	<string key="crafting_azothbonus_tooltip_disabled">Dodawanie azothu po uprzednim zwiększeniu liczby możliwych punktów wyposażenia może pozwolić ci wylosować dodatkowe cechy, profity i gniazda na klejnoty.</string>
-	<string key="crafting_azothbonus_0">Azoth zwiększa szansę na cechy, profity i gniazda na klejnoty</string>
+	<string key="crafting_azothbonus_0">Azoth zwiększa szansę na cechy, profity i gniazda na klejnoty.</string>
 	<string key="crafting_azothbonus_1">Zwiększa szansę na {perk1}</string>
 	<string key="crafting_azothbonus_2">Zwiększa szansę na {perk1} i {perk2}</string>
 	<string key="crafting_azothbonus_3">Zwiększa szansę na {perk1}, {perk2} i {perk3}</string>
@@ -240,6 +240,6 @@
 	<string key="cr_tradeskillbonus_title">PD profesji</string>
 	<string key="cr_tradeskillbonus_basecraft">Podstawa</string>
 	<string key="cr_tradeskillbonus_description">Otrzymujesz dodatkowe PD profesji za wytworzenie przedmiotu z danego schematu po raz pierwszy.</string>
-	<string key="crafting_salvage_all">Rozmontuj wszystko</string>
+	<string key="crafting_salvage_all">Rozmontuj</string>
 </resources>
 

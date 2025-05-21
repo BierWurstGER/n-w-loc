@@ -17,7 +17,7 @@
 	<string key="siege_turret_explosive">Materiały wybuchowe</string>
 	<string key="siege_turret_firebarrel">Beczka z płonącym olejem</string>
 	<string key="siege_turret_hornofresilience">Róg wytrzymałości</string>
-	<string key="ui_warhorns">Rogi wojenne</string>
+	<string key="ui_warhorns">Rogi bojowe</string>
 	<string key="ui_gates">Bramy</string>
 	<string key="ui_since">Od</string>
 	<string key="ui_hard_points">Miejsca na stanowiska</string>
@@ -114,7 +114,7 @@
 	<string key="ui_town_project_started">Projekt rozpoczęty!</string>
 	<string key="ui_project_started_info">Nad tym projektem miasteczka mogą od teraz pracować wszyscy w mieście.\nZapoznaj się ze szczegółami na &lt;font color='#edc63e'&gt;tablicy projektów miasteczka&lt;/font&gt; w centrum miasteczka!</string>
 	<string key="ui_territory_planning_board">Tablica planowania terytorialnego</string>
-	<string key="ui_territory_planning_board_desc">Możesz tu ulepszyć stanowiska rzemieślnicze i do przetwarzania, wieżyczki oraz bramy fortu.</string>
+	<string key="ui_territory_planning_board_desc">Możesz tu ulepszyć stanowiska do wytwarzania i przetwarzania, wieżyczki oraz bramy fortu.</string>
 	<string key="ui_trading_tax">Opłata handlowa</string>
 	<string key="ui_crafting_fee">Opłata za\nwytwarzanie</string>
 	<string key="ui_refining_fee">Opłata za\nprzetwarzanie</string>
@@ -272,10 +272,10 @@
 	<string key="ui_project_points_label">Punkty projektu</string>
 	<string key="ui_upgradebutton_label_alwaysavailable">Pomoc potrzebna</string>
 	<string key="ui_upgradebutton_label_settlement">Ulepsz miasteczko</string>
-	<string key="ui_upgradebutton_tooltip_settlement">Ulepsz stanowiska rzemieślnicze i do przetwarzania w miasteczku.</string>
+	<string key="ui_upgradebutton_tooltip_settlement">Ulepsz stanowiska do wytwarzania i przetwarzania w miasteczku.</string>
 	<string key="ui_upgradebutton_label_fort">Ulepsz fort</string>
 	<string key="ui_upgradebutton_tooltip_fort">Ulepsz bramy, broń i miejsca na stanowiska w forcie.</string>
-	<string key="ui_upgradebutton_label_lifestyle">Ulepsz: Jakość życia</string>
+	<string key="ui_upgradebutton_label_lifestyle">Ulepszenia jakości życia</string>
 	<string key="ui_upgradebutton_tooltip_lifestyle">Popraw jakość życia na terytorium, aktywując rozmaite premie.</string>
 	<string key="ui_upgradebutton_label_weakeninvasions">Osłab inwazje</string>
 	<string key="ui_upgradebutton_tooltip_weakeninvasions">Aktywuj premie pomocne podczas inwazji.</string>
@@ -475,13 +475,14 @@
 	<string key="ui_upgrade_desc_HornProjectId2">Ponadto ulepsza wszystkie istniejące rogi bojowe.</string>
 	<string key="ui_upgrade_desc_ExplosiveProjectId">Ponadto ulepsza wszystkie istniejące materiały wybuchowe.</string>
 	<string key="ui_upgrade_desc_ExplosiveProjectId2">Ponadto ulepsza wszystkie istniejące materiały wybuchowe.</string>
+	<string key="ui_event_details_SpringtideBloom" rel_version="Event_SpringtideBloom_Temp">&lt;font color="#edc63e"&gt;Wykonuj wiosenne zadania i bierz udział w aktywnościach&lt;/font&gt;, by zdobywać reputację w wydarzeniu i wiosenne żetony, które zapewnią ci dostęp do nagród związanych z wydarzeniem! \n\n&lt;font color="#edc63e"&gt;Zbieraj rzadkie, zaczarowane duszkokwiaty dla Dzieci Kwiatów&lt;/font&gt;, znajdując kępy duszkokwiatów!\n\n&lt;font color="#edc63e"&gt;Wytwarzaj bomby duszkosadzonek&lt;/font&gt;, by likwidować duszkowe osy strzegące duszkokwiatów!\n\n&lt;font color="#edc63e"&gt;Odbieraj dzienne nagrody&lt;/font&gt; ze stosu paczek, który znajdziesz w każdej wiosennej wiosce!</string>
 	<string key="ui_event_project_endless">Nieskończone</string>
 	<string key="ui_territory_level">Poziom terytorium: {level}</string>
 	<string key="ui_enter_house">Zobacz dom</string>
 	<string key="ui_purchase_house">Kup dom</string>
 	<string key="ui_housing">Domy</string>
 	<string key="ui_trading_post">Faktoria</string>
-	<string key="ui_crafting_stations">Stanowiska rzemieślnicze</string>
+	<string key="ui_crafting_stations">Stanowiska do wytwarzania</string>
 	<string key="ui_project_impact">REZULTAT PROJEKTU</string>
 	<string key="ui_project_missiontier">KLASA MISJI</string>
 	<string key="ui_project_completeat">UKOŃCZ W</string>
@@ -592,7 +593,7 @@
 	<string key="ui_until_end_return">Ukończono!\nNowy projekt dostępny za:</string>
 	<string key="ui_town_project_allCompleted">&lt;font face="lyshineui/fonts/Nimbus_Medium.font"&gt;Ukończono&lt;/font&gt; w 100%</string>
 	<string key="ui_territory_standing_no_bonuses">Nie masz żadnych premii na terytorium: {territory}.</string>
-	<string key="ui_territory_standing_upgrade_description_generic">Zdobądź UMIEJĘTNOŚCI na terytorium: {territory}.</string>
+	<string key="ui_territory_standing_upgrade_description_generic">Zdobądź ZDOLNOŚCI na terytorium: {territory}.</string>
 	<string key="ui_territory_standing_upgrade_description_increase_stat">Zwiększa: &lt;font color={color}&gt;{stat}&lt;/font&gt; na terytorium: {territory}.</string>
 	<string key="ui_territory_standing_upgrade_description_increase_rate">Zyskujesz więcej: &lt;font color={color}&gt;{stat}&lt;/font&gt;, przebywając na terytorium: {territory}.</string>
 	<string key="ui_territory_standing_upgrade_description_increase_stat_no_territory">Zwiększa: &lt;font color={color}&gt;{stat}&lt;/font&gt;.</string>
@@ -759,5 +760,7 @@
 	<string key="influence_myfaction_3" rel_version="Feature_Influence_V2">MOJA FRAKCJA: &lt;img src="lyshineui/images/crests/foregrounds/icon_faction_fg_3_colored_small" xPadding="0" scale="2" yOffset="15"&gt;&lt;/img&gt; &lt;font face="lyshineui/fonts/Pica_Regular.font" color="#edc63e"&gt;Przymierze&lt;/font&gt;</string>
 	<string key="influence_tower_ownership_title" rel_version="Feature_Influence_V2">WŁAŚCICIEL WIEŻY</string>
 	<string key="influence_view_previous_influence_race" rel_version="Feature_Influence_V2">Zobacz wyniki walki</string>
+	<string key="ui_territory_war_supply_rate">Ilość zapasów</string>
+	<string key="ui_territory_war_siege_limit">Limit oblężenia</string>
 </resources>
 

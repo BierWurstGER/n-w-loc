@@ -89,7 +89,7 @@
 	<string key="trade_column_type">Type</string>
 	<string key="trade_column_tier">Niveau</string>
 	<string key="trade_column_name">Nom</string>
-	<string key="trade_column_inbag">Possession</string>
+	<string key="trade_column_inbag">Qté</string>
 	<string key="trade_column_quantity">Quantité</string>
 	<string key="trade_column_purchased">Acheté</string>
 	<string key="trade_column_sold">Vendu</string>
@@ -103,7 +103,7 @@
 	<string key="trade_column_rarity">Rareté</string>
 	<string key="trade_column_craftsmanship">Savoir-\nfaire</string>
 	<string key="trade_column_completion_time">Temps d'exécution</string>
-	<string key="trade_noitemmessage">Sélectionner un objet pour le voir</string>
+	<string key="trade_noitemmessage">Sélectionner objet pour le voir</string>
 	<string key="trade_not_enough_money">Pas assez d'argent</string>
 	<string key="trade_none_available">Épuisé</string>
 	<string key="trade_none_held">Pas équipé</string>
@@ -272,7 +272,7 @@
 	<string key="ui_reportreason_select">Choisissez une raison...</string>
 	<string key="ui_reportreason_offensive_guild_name">Nom de la compagnie</string>
 	<string key="ui_reportreason_offensive_guild_description">Nom de compagnie inapproprié ou offensant.</string>
-	<string key="ui_reportreason_offensive_guild_description_no_guild">Ce joueur n'appartient pas à une compagnie.</string>
+	<string key="ui_reportreason_offensive_guild_description_no_guild">Ce joueur n'appartient pas à votre compagnie.</string>
 	<string key="ui_reportreason_offensive_guild_description_error">Compagnie introuvable.</string>
 	<string key="ui_report_thanks">Merci d'avoir envoyé un rapport</string>
 	<string key="ui_missing_reason_and_description">Veuillez fournir une raison et une description</string>
@@ -775,7 +775,7 @@
 	<string rel_version="DailySoloTrials" key="ui_pugfinder_activity_solo_trials_desc" comment="">Trois épreuves de l'âme aléatoires dont le niveau a été augmenté sont proposées chaque jour pour offrir une difficulté rehaussée et de nouvelles récompenses. Revivez ces moments clés de l'histoire, prenez votre revanche et obtenez des récompenses de valeur.</string>
 	<string rel_version="DailySoloTrials" key="ui_pugfinder_activity_solo_trials_trialscompleted">Épreuves terminées</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_activity_elite_trials_name">Épreuves d'élite</string>
-	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_activity_elite_trials_desc" comment="">Affrontez le colossal « Shah Neshen le Dévoreur » dans un groupe de 20 joueurs max dans cette épreuve d'élite.\n\n12 joueurs minimum\nGroupes locaux seulement</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_activity_elite_trials_desc" comment="">Affrontez le colossal « Shah Neshen le Dévoreur » dans un groupe de 20 joueurs max dans cette épreuve d'élite.</string>
 	<string rel_version="Raid_CutlassKeys_00" key="ui_pugfinder_activity_raids_name">Assauts</string>
 	<string rel_version="Raid_CutlassKeys_00" key="ui_pugfinder_activity_raids_desc" comment="">Poursuivez Méduse la couveuse et faites échouer son plan de domination d'Aeternum avec des groupes de raid jusqu'à 10 joueurs.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_activity_opr_desc" comment="">Soyez les premiers à marquer 1 000 points dans cette expérience JcJ trépidante à 20 contre 20. Capturez des points de contrôle tout en récoltant des ressources pour bâtir vos défenses et déverrouiller des avantages tactiques pour votre équipe.</string>
@@ -783,7 +783,7 @@
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_daily_bonus">Bonus quotidien</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_fastest_experience">Expérience la plus rapide</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_remaining_attempts">Tentatives restantes</string>
-	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_highest_shared_dificutly_label">Vous place dans la file d'attente pour tous les niveaux de mutation</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_highest_shared_dificutly_label">Mutation de la file d'attente</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_highest_shared_dificutly_description">Placez votre groupe dans la file d'attente pour toutes les difficultés (M1 à M3) que vous avez en commun. Vous recevrez un bonus d'assistance si vous rejoignez une difficulté inférieure et réussissez. \n\n Limite quotidienne : {currentCount}/{dailyLimit} &lt;img src="LyShineUI/Images/Icons/Misc/icon_hourglass.png" scale="1.5" yOffset="3.5"&gt;&lt;/img&gt; Se réinitialise dans : {resetTime}</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_highest_shared_dificutly_no_carry_bonus_description">Placez votre groupe dans la file d'attente pour toutes les difficultés (M1 à M3) que vous avez en commun.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_highest_shared_dificutly_description_M1_M2_Only">Placez votre groupe dans la file d'attente pour toutes les difficultés M1 ou M2 que vous avez en commun. Si vous avez déverrouillé une difficulté supérieure à celle dans laquelle vous vous trouvez, vous recevrez un bonus d'assistance à l'issue de l'expédition.\n\nLimite quotidienne : {currentCount}/{dailyLimit} &lt;img src="LyShineUI/Images/Icons/Misc/icon_hourglass.png" scale="1.5" yOffset="3.5"&gt;&lt;/img&gt; Se réinitialise dans : {resetTime}</string>
@@ -859,11 +859,11 @@
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_button_cancel_queue">Quitter la file d'attente</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_button_select_role">Choisir rôle</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_button_decline">Refuser</string>
-	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_requirement_azoth_staff">&lt;img src="{icon}" scale="1.5" yOffset="3.5"&gt;&lt;/img&gt; &lt;font color={color}&gt; Équiper un bâton d'Azoth&lt;/font&gt;</string>
-	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_requirement_level">&lt;img src="{icon}" scale="1.5" yOffset="3.5"&gt;&lt;/img&gt; &lt;font color={color}&gt; Atteindre le niveau {minLevel}&lt;/font&gt;</string>
-	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_requirement_mutation">&lt;img src="{icon}" scale="1.5" yOffset="3.5"&gt;&lt;/img&gt; &lt;font color={color}&gt; Terminer {name}&lt;/font&gt;</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_requirement_azoth_staff">&lt;font color={color}&gt; Équiper un bâton d'Azoth&lt;/font&gt;</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_requirement_level">&lt;font color={color}&gt;Niveau {minLevel}&lt;/font&gt;</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_requirement_mutation">&lt;font color={color}&gt;Terminer {name}&lt;/font&gt;</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_requirement_group_size">&lt;img src="LyShineUI/Images/icons/chat/channelgroup" scale="1.5" yOffset="3.5"&gt;&lt;/img&gt; {minPlayers} - {maxPlayers} joueurs</string>
-	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_requirement_gear_score_range">&lt;img src="LyShineUI/Images/Icons/Misc/icon_gearscore" scale="1.5" yOffset="3.5"&gt;&lt;/img&gt; {minGearScore} - {maxGearScore}</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_requirement_gear_score_range">&lt;font color={color}&gt;{minGearScore} - {maxGearScore}&lt;/font&gt;</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_requirement_gear_score_mutation">M{difficulty} {gearScore}</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_click_here_join_group">Cliquez ici pour la possibilité d'entrer dans le M3 avec le groupe</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_requirement_gear_score">{gearScore}</string>
@@ -908,5 +908,18 @@
 	<string key="ui_communication_restricted_by_platform">Communication restreinte par la plateforme.</string>
 	<string key="ui_group_invites_restricted_gamemode">Les invitations de groupe ne sont pas disponibles pendant une activité de matchmaking.</string>
 	<string key="ui_group_member_placeholder_name">...</string>
+	<string key="ui_pugfinder_content_not_active">Le contenu n'est pas encore activé</string>
+	<string key="ui_pugfinder_requirements_local_groups_only">Groupes locaux seulement</string>
+	<string key="ui_pugfinder_content_no_longer_available">Le contenu n'est plus disponible</string>
+	<string key="ui_matchmaking_disabled_in_world">Désactivé dans ce monde</string>
+	<string key="ui_pugfinder_requirements_groupsize_single">&lt;font color={color}&gt;Joueurs maximum : 1&lt;/font&gt;</string>
+	<string key="ui_pugfinder_activity_opr_no_perks_desc">Meilleur équipement d'emplacement non requis ! Participez à cette nouvelle version de la Déferlante où les avantages d'équipement sont désactivés et où le score d'équipement est au niveau maximum pour équilibrer le terrain de jeu.</string>
+	<string key="ui_groupfinder_dungeon_queue_signup_fail_raidtrial">Vous ne pouvez pas rejoindre la file d'attente de l'Épreuve d'élite tout en étant dans un salon.</string>
+	<string key="ui_pugfinder_content_disabled">Le contenu est actuellement désactivé</string>
+	<string key="ui_pugfinder_in_raid_group">&lt;font color={color}&gt;Groupe de raid&lt;/font&gt;</string>
+	<string key="ui_pugfinder_not_in_raid_group">&lt;font color={color}&gt;Doit être dans un groupe de raid&lt;/font&gt;</string>
+	<string key="ui_pugfinder_requirements_groupsize_range">&lt;font color={color}&gt;Joueurs min./max. : {minPlayers}-{maxPlayers}&lt;/font&gt;</string>
+	<string key="ui_deaths_door_fallen_warning">Restez en vie pour de meilleures récompense.</string>
+	<string key="ui_respawn_fallen_warning">Vous avez succombé. Vous recevez plus de pouvoir mais obtiendrez moins de récompenses.</string>
 </resources>
 

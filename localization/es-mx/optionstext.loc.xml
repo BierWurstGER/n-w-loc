@@ -35,10 +35,10 @@
 	<string key="ui_section_advgraphics">Gráficos avanzados</string>
 	<string key="ui_section_group">Más opciones</string>
 	<string key="ui_section_gameplay_settings_for_device">Juego</string>
-	<string key="ui_controlleroptions" rel_version="Feature_Controller">Opciones del control</string>
+	<string key="ui_controlleroptions" rel_version="Feature_Controller">Opciones del controlador</string>
 	<string key="ui_section_camera_for_device">Cámara</string>
-	<string key="ui_section_controllercamera" rel_version="Feature_Controller">Cámara del control</string>
-	<string key="ui_controllercameraoptions" rel_version="Feature_Controller">Opciones de la cámara del control</string>
+	<string key="ui_section_controllercamera" rel_version="Feature_Controller">Cámara del controlador</string>
+	<string key="ui_controllercameraoptions" rel_version="Feature_Controller">Opciones de la cámara del controlador</string>
 	<string key="ui_voicechatsettings">Chat de voz</string>
 	<string key="ui_openvoicechatsettings">Configuración de visualización</string>
 	<string key="ui_invertlook">Invertir eje vertical</string>
@@ -72,7 +72,7 @@
 	<string key="ui_virtualcursorhoverfadeout" rel_version="Feature_Controller">Desvanecimiento del cursor virtual cuando se posa</string>
 	<string key="ui_virtualcursorhoverfadeout_desc" rel_version="Feature_Controller">El cursor virtual se desvanece al posarlo sobre elementos interactivos de la IU</string>
 	<string key="ui_menu_vibration" rel_version="Feature_Controller">Vibración del menú</string>
-	<string key="ui_menu_vibration_desc" rel_version="Feature_Controller">Indica si quieres que el control vibre mientras te posas sobre elementos interactivos de la IU</string>
+	<string key="ui_menu_vibration_desc" rel_version="Feature_Controller">Indica si quieres que el controlador vibre mientras te posas sobre elementos interactivos de la IU</string>
 	<string key="ui_virtualcursordeadzonemultiplier" rel_version="Feature_Controller">Multiplicador del punto muerto del cursor virtual</string>
 	<string key="ui_virtualcursordeadzonemultiplier_desc" rel_version="Feature_Controller">Establece el multiplicador aplicado a la configuración del punto muerto mientras usas el cursor virtual</string>
 	<string key="ui_magnetism_enabled" rel_version="Feature_Controller">Magnetismo del cursor virtual</string>
@@ -138,7 +138,7 @@
 	<string key="ui_options_kbm_controls">Combinaciones de teclado y mouse</string>
 	<string key="ui_options_gameplay">Juego</string>
 	<string key="ui_options_kbam">Teclado y mouse</string>
-	<string key="ui_options_controller" rel_version="Feature_Controller">Control</string>
+	<string key="ui_options_controller" rel_version="Feature_Controller">Controlador</string>
 	<string key="ui_options_visuals">Video</string>
 	<string key="ui_options_preferences">Preferencias</string>
 	<string key="ui_options_audio">Audio</string>
@@ -226,6 +226,8 @@
 	<string key="ui_vocalsvolume_desc">Ajusta el volumen de las voces</string>
 	<string key="ui_vovolume">Volumen del doblaje</string>
 	<string key="ui_vovolume_desc">Ajusta el volumen del doblaje</string>
+	<string key="ui_targetLock_volume">Volumen de bloqueo de objetivo</string>
+	<string key="ui_targetLock_volume_desc">Ajusta el volumen del indicador de bloqueo de objetivo</string>
 	<string key="ui_musicvolume">Volumen de la música</string>
 	<string key="ui_musicvolume_desc">Ajusta el volumen de la música</string>
 	<string key="ui_ambientmusicvolume">Volumen de la música ambiental</string>
@@ -392,7 +394,7 @@
 	<string key="ui_shift_modifier_toggle" rel_version="Feature_Controller">Tocar para activar modificador</string>
 	<string key="ui_shift_modifier_toggle_desc" rel_version="Feature_Controller">Indica si quieres activar los modificadores del control al tocar sus entradas</string>
 	<string key="ui_rumble" rel_version="Feature_Controller">Vibración del control</string>
-	<string key="ui_rumble_desc" rel_version="Feature_Controller">Indica si prefieres habilitar las vibraciones del control</string>
+	<string key="ui_rumble_desc" rel_version="Feature_Controller">Indica si prefieres habilitar las vibraciones del controlador</string>
 	<string key="ui_rumble_sensitivity" rel_version="Feature_Controller">Intensidad de vibración</string>
 	<string key="ui_rumble_sensitivity_desc" rel_version="Feature_Controller">Ajusta la intensidad de la vibración del control</string>
 	<string key="ui_attack_facing_camera_toggle" rel_version="Feature_Controller">Dirección de la cámara para los ataques cuerpo a cuerpo</string>
@@ -629,7 +631,5 @@
 	<string key="ui_modifier_keys" rel_version="Feature_Controller">Modificadores</string>
 	<string key="ui_housing" rel_version="Feature_Controller">Decorar casa</string>
 	<string key="ui_menu" rel_version="Feature_Controller">Menú</string>
-	<string key="ui_targetLock_volume">Volumen de bloqueo de objetivo</string>
-	<string key="ui_targetLock_volume_desc">Ajusta el volumen del indicador de bloqueo de objetivo</string>
 </resources>
 

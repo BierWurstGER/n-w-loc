@@ -73,8 +73,8 @@
 	<string key="ui_virtualcursorhoverfadeout_desc" rel_version="Feature_Controller">O cursor virtual desaparece ao passar o mouse sobre os elementos interativos da interface do usuário.</string>
 	<string key="ui_menu_vibration" rel_version="Feature_Controller">Vibração do Menu</string>
 	<string key="ui_menu_vibration_desc" rel_version="Feature_Controller">Defina se o controlador deve vibrar ao passar o mouse sobre os elementos interativos da interface do usuário.</string>
-	<string key="ui_virtualcursordeadzonemultiplier" rel_version="Feature_Controller">Multiplicador de Área Inativa do Cursor Virtual</string>
-	<string key="ui_virtualcursordeadzonemultiplier_desc" rel_version="Feature_Controller">Defina o multiplicador aplicado às configurações da área inativa ao usar o cursor virtual.</string>
+	<string key="ui_virtualcursordeadzonemultiplier" rel_version="Feature_Controller">Multiplicador de Zona Morta do Cursor Virtual</string>
+	<string key="ui_virtualcursordeadzonemultiplier_desc" rel_version="Feature_Controller">Defina o multiplicador aplicado às configurações da zona morta ao usar o cursor virtual.</string>
 	<string key="ui_magnetism_enabled" rel_version="Feature_Controller">Magnetismo do Cursor Virtual</string>
 	<string key="ui_magnetism_enabled_desc" rel_version="Feature_Controller">Defina se deseja ativar a assistência do cursor para pequenos elementos interativos da IU.</string>
 	<string key="ui_magnetism_range_absolute" rel_version="Feature_Controller">Alcance de Magnetismo Absoluto</string>
@@ -226,6 +226,8 @@
 	<string key="ui_vocalsvolume_desc">Define o volume das vozes.</string>
 	<string key="ui_vovolume">Volume da Narração</string>
 	<string key="ui_vovolume_desc">Define o volume da narração.</string>
+	<string key="ui_targetLock_volume">Volume do Alvo Travado</string>
+	<string key="ui_targetLock_volume_desc">Ajuste o volume do indicador de alvo travado.</string>
 	<string key="ui_musicvolume">Volume de Música</string>
 	<string key="ui_musicvolume_desc">Define o volume das músicas.</string>
 	<string key="ui_ambientmusicvolume">Volume da Música Ambiente</string>
@@ -436,11 +438,11 @@
 	<string key="ui_toggle_target_lock">Alternar Alvo Travado</string>
 	<string key="ui_ally_target_lock_modifier" rel_version="Feature_Controller">Modificador de Alvo Travado Aliado</string>
 	<string key="ui_enable_camera_target_lock" rel_version="Feature_Controller">Alvo Travado Inimigo</string>
-	<string key="ui_enable_camera_target_lock_desc" rel_version="Feature_Controller">Define se deseja habilitar o sistema de mira em inimigos.</string>
+	<string key="ui_enable_camera_target_lock_desc" rel_version="Feature_Controller">Define se deseja habilitar o sistema de mira em inimigos</string>
 	<string key="ui_camera_lock_target_switch_interpolation_speed" rel_version="Feature_Controller">Velocidade de Interpolação da Troca de Alvo</string>
 	<string key="ui_camera_lock_target_switch_interpolation_speed_desc" rel_version="Feature_Controller">Defina a velocidade com que a câmera se move para um alvo diferente.</string>
 	<string key="ui_enable_camera_lock_target_auto_switch" rel_version="Feature_Controller">Troca Automática de Alvos</string>
-	<string key="ui_enable_camera_lock_target_auto_switch_desc" rel_version="Feature_Controller">Define se deseja mudar automaticamente para o próximo alvo após o primeiro alvo ser eliminado (só muda se o novo alvo estiver mirando em você).</string>
+	<string key="ui_enable_camera_lock_target_auto_switch_desc" rel_version="Feature_Controller">Define se deseja mudar automaticamente para o próximo alvo após o primeiro alvo ser eliminado (só muda se o novo alvo estiver mirando em você)</string>
 	<string key="ui_enable_camera_lock_auto_break_with_hold" rel_version="Feature_Controller">Desativar Automaticamente o Alvo Travado ao Segurar</string>
 	<string key="ui_enable_camera_lock_auto_break_with_hold_desc" rel_version="Feature_Controller">Defina se deseja desativar automaticamente o alvo travado após segurar o comando por certo tempo.</string>
 	<string key="ui_camera_lock_auto_break_with_hold_ticks" rel_version="Feature_Controller">Duração de Desativar Automaticamente o Alvo Travado ao Segurar</string>
@@ -475,8 +477,8 @@
 	<string key="ui_genaprompt_cocscreen_ps" rel_version="Feature_GameEntryNarrationAssistance">Código de Conduta. Você concorda em proteger a comunidade, jogar limpo e respeitar uns aos outros. Pressione Quadrado para aceitar.</string>
 	<string key="ui_genaprompt_cocscreen_xb" rel_version="Feature_GameEntryNarrationAssistance">Código de Conduta. Você concorda em proteger a comunidade, jogar limpo e respeitar uns aos outros. Pressione X para aceitar.</string>
 	<string key="ui_genaprompt_titlescreen" rel_version="Feature_GameEntryNarrationAssistance">Tela de Título de New World: Aeternum. Pressione qualquer botão para continuar.</string>
-	<string key="ui_genaprompt_titlescreen_ps" rel_version="Feature_GameEntryNarrationAssistance">Tela de Título de New World: Aeternum. Pressione qualquer botão para continuar.</string>
-	<string key="ui_genaprompt_titlescreen_xb" rel_version="Feature_GameEntryNarrationAssistance">Tela de Título de New World: Aeternum. Pressione qualquer botão para continuar.</string>
+	<string key="ui_genaprompt_titlescreen_ps" rel_version="Feature_GameEntryNarrationAssistance">Loja de New World: Aeternum. Pressione qualquer botão para continuar.</string>
+	<string key="ui_genaprompt_titlescreen_xb" rel_version="Feature_GameEntryNarrationAssistance">Loja de New World: Aeternum. Pressione qualquer botão para continuar.</string>
 	<string key="ui_genaprompt_newsscreen" rel_version="Feature_GameEntryNarrationAssistance">Notícias. Pressione {frontEndContinue} para continuar.</string>
 	<string key="ui_genaprompt_newsscreen_ps" rel_version="Feature_GameEntryNarrationAssistance">Notícias. Pressione Quadrado para continuar.</string>
 	<string key="ui_genaprompt_newsscreen_xb" rel_version="Feature_GameEntryNarrationAssistance">Notícias. Pressione X para continuar.</string>
@@ -629,7 +631,5 @@
 	<string key="ui_modifier_keys" rel_version="Feature_Controller">Modificadores</string>
 	<string key="ui_housing" rel_version="Feature_Controller">Decorar Casa</string>
 	<string key="ui_menu" rel_version="Feature_Controller">Menu</string>
-	<string key="ui_targetLock_volume">Volume do Alvo Travado</string>
-	<string key="ui_targetLock_volume_desc">Ajuste o volume do indicador de alvo travado.</string>
 </resources>
 

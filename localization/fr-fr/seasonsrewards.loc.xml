@@ -40,6 +40,8 @@
 	<string key="seasons_rewards_chapters_label" rel_version="Feature_Seasons_Rewards">Chapitres</string>
 	<string key="seasons_rewards_chapters_info_label" rel_version="Feature_Seasons_Rewards">Terminer {count} objectifs du chapitre {chapter} pour obtenir cette récompense</string>
 	<string key="seasons_rewards_chapters_claimed_info_label" rel_version="Feature_Seasons_Rewards">Terminer {count} objectifs du chapitre {chapter} et récupérer la récompense du chapitre {prevChapter} pour obtenir cette récompense</string>
+	<string key="seasons_rewards_seasonal_chapters_info_label" rel_version="Feature_Seasonal_Servers">Terminer {count} objectifs du chapitre {chapter} du Monde saisonnier pour obtenir cette récompense</string>
+	<string key="seasons_rewards_seasonal_chapters_claimed_info_label" rel_version="Feature_Seasonal_Servers">Terminer {count} objectifs du chapitre {chapter} du Monde saisonnier et récupérer la récompense du chapitre {prevChapter} du Monde saisonnier pour obtenir cette récompense</string>
 	<string key="seasons_rewards_challenges_info_label" rel_version="Feature_Seasons_Rewards">Terminer {count} défis</string>
 	<string key="seasons_rewards_journey_chapter_xp_label" rel_version="Feature_Seasons_Rewards">EXP de saison +{xp} &lt;img src="lyshineui/images/SeasonsRewards/Icon_BXP_Tiny"&gt;&lt;/img&gt;</string>
 	<string key="seasons_rewards_claim_previous_chapter" rel_version="Feature_Seasons_Rewards">Doit récupérer le chapitre précédent</string>
@@ -285,7 +287,7 @@
 	<string key="SeasonsActivities_Skin10T5Animals" rel_version="Feature_Seasons_Rewards">Dépecer des animaux de palier 5</string>
 	<string key="SeasonsActivities_Catch150lbsFish" rel_version="Feature_Seasons_Rewards">Pêcher 150 lbs de poissons</string>
 	<string key="SeasonsActivities_CraftOrCook50Items" rel_version="Feature_Seasons_Rewards">Fabriquer ou cuisiner des objets</string>
-	<string key="SeasonsActivities_Complete2TownProjects" rel_version="Feature_Seasons_Rewards">Accomplir des missions de projet urbain</string>
+	<string key="SeasonsActivities_Complete2TownProjects" rel_version="Feature_Seasons_Rewards">Accomplir des missions\nde projet urbain</string>
 	<string key="SeasonsActivities_Salvage5T5Items" rel_version="Feature_Seasons_Rewards">Recycler des objets de palier 5</string>
 	<string key="SeasonsActivities_Complete2FactionMissions" rel_version="Feature_Seasons_Rewards">Terminer des missions de faction</string>
 	<string key="SeasonsActivities_Refine50T5Resources" rel_version="Feature_Seasons_Rewards">Transformer des ressources de palier 5</string>
@@ -371,7 +373,7 @@
 	<string key="SeasonsRewardTrack_ClaimError_RewardAlreadyRedeemed" rel_version="Feature_Seasons_Rewards">Impossible d'obtenir cette récompense. Elle a déjà été récupérée.</string>
 	<string key="SeasonsRewardTrack_ClaimError_NotEnoughInventorySpace" rel_version="Feature_Seasons_Rewards">Impossible d'obtenir cette récompense. Place insuffisante dans l'inventaire.</string>
 	<string key="SeasonsRewardTrack_ClaimError_LootLimitActive" rel_version="Feature_Seasons_Rewards">Impossible de récupérer cette récompense. Cet objet est limité et vous le possédez déjà.</string>
-	<string key="SeasonsRewardTrack_ClaimError_RewardGatedOnFreshStartWorld" rel_version="Feature_Seasons_Rewards">Impossible de récupérer cette récompense. Cet objet ne peut pas être obtenu dans un monde nouvellement créé.</string>
+	<string key="SeasonsRewardTrack_ClaimError_RewardGatedOnFreshStartWorld" rel_version="Feature_Seasons_Rewards">Impossible d'obtenir cette récompense. Cet objet ne peut pas être obtenu dans un monde nouvellement créé.</string>
 	<string key="SeasonsRewardTrack_ClaimError_PlayerHasNoFaction" rel_version="Feature_Seasons_Rewards">Impossible d'obtenir cette récompense. Doit appartenir à une faction.</string>
 	<string key="SeasonsRewardTrack_ClaimError_Generic" rel_version="Feature_Seasons_Rewards">Impossible d'obtenir cette récompense. Veuillez réessayer plus tard.</string>
 	<string key="SeasonsRewardTrack_ClaimError_AlreadyClaimingReward" rel_version="Feature_Seasons_Rewards">Vous essayez déjà d'obtenir une récompense. Veuillez réessayer plus tard.</string>
@@ -713,7 +715,7 @@
 	<string key="ui_seasons_task_name_Quest_StopDevice" rel_version="Season_4_Perm">Froid éternel</string>
 	<string key="ui_seasons_task_name_Quest_WrapFrost" rel_version="Season_4_Perm">De client à corbeau</string>
 	<string key="ui_seasons_task_name_CraftArtifactUpgrade" rel_version="Season_4_Perm">Mise à niveau unique</string>
-	<string key="ui_seasons_task_description_CompleteExpedition" rel_version="Season_4_Perm">Terminez {maxCount} expédition(s).</string>
+	<string key="ui_seasons_task_description_CompleteExpedition" rel_version="Season_4_Perm">Terminez {maxCount} expéditions.</string>
 	<string key="ui_seasons_task_description_CraftPotionT3" rel_version="Season_4_Perm">Fabriquez {maxCount} potions III ou de meilleure qualité.</string>
 	<string key="ui_seasons_task_description_KillElite" rel_version="Season_4_Perm">Tuez {maxCount} ennemis d'élite.</string>
 	<string key="ui_seasons_task_description_KillNamed" rel_version="Season_4_Perm">Tuez {maxCount} ennemis nommés.</string>
@@ -793,7 +795,7 @@
 	<string key="ui_seasons_task_description_KillFlamekeeperIceGauntlet" rel_version="Season_5_Perm">Tuez Hadish Azar, le gardien de la flamme, dans l'épreuve de l'incubateur à l'aide de gantelets de glace.</string>
 	<string key="ui_seasons_task_name_CompleteRuneforge_1" rel_version="Season_5_Perm">La forge des runes de l'hiver I</string>
 	<string key="ui_seasons_task_name_CompleteRuneforge_2" rel_version="Season_5_Perm">La forge des runes de l'hiver II</string>
-	<string key="ui_seasons_task_description_CompleteRuneforgeSingle" rel_version="Season_5_Perm">Terminer l'épreuve de la forge des runes de l'hiver</string>
+	<string key="ui_seasons_task_description_CompleteRuneforgeSingle" rel_version="Season_5_Perm">Terminez l'épreuve de la forge des runes de l'hiver.</string>
 	<string key="ui_seasons_task_description_CompleteRuneforge" rel_version="Season_5_Perm">Terminez {maxCount} fois l'épreuve de la forge des runes de l'hiver.</string>
 	<string key="ui_seasons_task_name_EquipS5Artifact" rel_version="Season_5_Perm">Collection d'artéfacts</string>
 	<string key="ui_seasons_task_description_EquipS5Artifact" rel_version="Season_5_Perm">Équipez-vous d'un des 8 nouveaux artéfacts.</string>
@@ -1024,8 +1026,8 @@
 	<string key="SeasonsActivities_KillIceVarangian" rel_version="Season_4_Perm">Tuez des Varègues givreurs.</string>
 	<string key="SeasonsActivities_KillFrostAncient" rel_version="Season_4_Perm">Tuer des élémentaires anciens</string>
 	<string key="SeasonsActivities_CompleteRuneforge" rel_version="Season_5_Perm">Terminez l'épreuve de la forge des runes de l'hiver.</string>
-	<string key="SeasonsActivities_KillVoidGauntlet" rel_version="Season_5_Perm">Faire des victimes avec les gantelets du néant</string>
-	<string key="SeasonsActivities_PvPRewardTrack" rel_version="Season_5_Perm">Terminer un niveau sur la chaîne de récompenses JcJ</string>
+	<string key="SeasonsActivities_KillVoidGauntlet" rel_version="Season_5_Perm">Faites des victimes avec les gantelets du néant.</string>
+	<string key="SeasonsActivities_PvPRewardTrack" rel_version="Season_5_Perm">Terminez un niveau sur la chaîne de récompenses JcJ.</string>
 	<string key="SeasonsActivities_KillPlayerRanged" rel_version="Season_6_Perm">Tuez un joueur avec une arme à distance.</string>
 	<string key="SeasonsActivities_Heal5k" rel_version="Season_6_Perm">Soignez des dégâts.</string>
 	<string key="SeasonsActivities_CompleteAnyQuest" rel_version="Season_6_Perm">Accomplissez une quête.</string>
@@ -1034,7 +1036,86 @@
 	<string key="SeasonsActivities_KillNamedExpedition" rel_version="Season_7_Perm">Tuer un ennemi nommé lors d'une expédition</string>
 	<string key="ui_seasons_task_placeholder_name" rel_version="Feature_Seasons_Rewards">PLACEHOLDER</string>
 	<string key="ui_seasons_task_placeholder_desc" rel_version="Feature_Seasons_Rewards">PLACEHOLDER</string>
-	<string key="seasons_rewards_seasonal_chapters_claimed_info_label">Terminer {count} objectifs du chapitre {chapter} du Monde saisonnier et récupérer la récompense du chapitre {prevChapter} du Monde saisonnier pour obtenir cette récompense</string>
-	<string key="seasons_rewards_seasonal_chapters_info_label">Terminer {count} objectifs du chapitre {chapter} du Monde saisonnier pour obtenir cette récompense</string>
+	<string key="ui_seasons_task_name_CraftPotionT4">Mes potions les plus puissantes</string>
+	<string key="ui_seasons_task_name_Challenge_S8_CompleteTaskAnyChapter">Perfectionniste du Fossé</string>
+	<string key="ui_seasons_task_name_CraftHeartrune_1">Cœur à cœur I</string>
+	<string key="ui_seasons_task_name_KillHercyneHatchet">Réduire en pièces</string>
+	<string key="ui_seasons_task_description_CraftNamedReplica_Single">Fabriquez une réplique nommée d'expédition.</string>
+	<string key="ui_seasons_task_name_Challenge_S8_GameEvent_Breach">Garde dimensionnel</string>
+	<string key="ui_seasons_task_description_CraftPotionT4">Fabriquez {maxCount} potions IV ou de meilleure qualité.</string>
+	<string key="ui_seasons_task_name_Challenge_S8_KillWorldBoss65">As de la chasse</string>
+	<string key="ui_seasons_task_name_Challenge_S8_DefeatWurmBoss">Nervi d'esprits</string>
+	<string key="ui_seasons_task_description_CraftTrinketT5">Fabriquez {maxCount} bijoux V.</string>
+	<string key="ui_seasons_task_description_Challenge_S8_WinOutpostRushBy500">Remportez {maxCount} matchs de Déferlante avec 500 points de différence ou plus.</string>
+	<string key="data_season_08_display_name">Saison 8</string>
+	<string key="ui_seasons_task_description_CraftHeartruneGS700_Single">Fabriquez une rune-cœur ayant un S.É 625 ou supérieur.</string>
+	<string key="ui_seasons_task_name_Challenge_S8_CompleteFactionMission">Agent 007</string>
+	<string key="ui_seasons_task_name_CraftTrinketT5">Talisman clinquant</string>
+	<string key="ui_seasons_task_name_CraftHeartrune_2">Cœur à cœur II</string>
+	<string key="ui_seasons_task_name_KillNamedElite">Dans les hauteurs</string>
+	<string key="ui_seasons_task_name_Challenge_S8_CompleteActivityCard">Aventurier S</string>
+	<string key="ui_seasons_task_name_KillCorrupted_S8_3">La chute des déchus III</string>
+	<string key="ui_seasons_task_description_Challenge_S8_DefeatWurmBoss">Tuez {maxCount} vers de sable.</string>
+	<string key="ui_seasons_task_description_KillWorldBoss65">Tuez {maxCount} boss de niveau 65 ou plus dans le monde ouvert.</string>
+	<string key="ui_seasons_task_name_WinWar">Revendication</string>
+	<string key="ui_seasons_task_name_KillCorrupted_S8_2">La chute des déchus II</string>
+	<string key="ui_seasons_task_name_CraftNamedReplica_2">Parfaite réplique II</string>
+	<string key="ui_seasons_task_name_Challenge_S8_CategoricalProgressionTerritoryStanding">Titan du territoire</string>
+	<string key="ui_seasons_task_name_KillElite_3">Exorcisme d'élite III</string>
+	<string key="ui_seasons_task_name_Challenge_S8_WinOutpostRushBy500">Suzerain de l'avant-poste</string>
+	<string key="ui_seasons_task_name_Challenge_S8_CompleteExpedition">Âme héroïque d'Aeternum</string>
+	<string key="ui_seasons_task_name_CompleteMutatedExpedition_1">Maniaque de la mutation</string>
+	<string key="ui_seasons_task_description_KillHercyneHatchet">Tuez {maxCount} boss de la ruche de la gorgone en ayant équipé une hachette.</string>
+	<string key="ui_seasons_task_name_CraftNamedReplica_4">Parfaite réplique IV</string>
+	<string key="ui_seasons_task_description_KillWorldBoss">Tuez {maxCount} boss dans le monde ouvert.</string>
+	<string key="ui_seasons_task_description_CompleteMutatedExpeditionFlawlessly_Single">Terminez une expédition mutante sans que personne dans votre groupe ne meure.</string>
+	<string key="ui_seasons_task_description_CraftMutatorNamedReplica_Single">Fabriquez une réplique nommée mutante.</string>
+	<string key="ui_seasons_task_description_Challenge_S8_CompleteTaskAnyChapter">Terminez 90 % (54) des tâches du périple de cette saison.</string>
+	<string key="ui_seasons_task_name_CraftNamedReplica_1">Parfaite réplique I</string>
+	<string key="ui_seasons_task_name_KillWorldBoss_1">La plus dangereuse des proies I</string>
+	<string key="ui_seasons_task_name_KillNamed_4">Ennemi juré nommé IV</string>
+	<string key="ui_seasons_task_name_WinInfluenceRace_3">Venii, Vidii, Vicii III</string>
+	<string key="ui_seasons_task_description_KillWorldBoss_Single">Tuez un boss dans le monde ouvert.</string>
+	<string key="ui_seasons_task_description_KillNamedElite">Tuez {maxCount} ennemis d'élite nommés.</string>
+	<string key="ui_seasons_task_name_CompleteMutatedExpeditionFlawlessly">Invincible</string>
+	<string key="ui_seasons_task_name_CraftNamedReplica_3">Parfaite réplique III</string>
+	<string key="ui_seasons_task_name_Challenge_S8_KillCorrupted">Légende des déchus</string>
+	<string key="ui_seasons_task_name_KillWorldBoss_2">La plus dangereuse des proies II</string>
+	<string key="ui_seasons_task_description_CraftHeartrune_Single">Fabriquez une rune-cœur.</string>
+	<string key="ui_seasons_task_description_Challenge_S8_CategoricalProgressionTerritoryStanding">Gagnez {maxCount} points de réputation de territoire.</string>
+	<string key="ui_seasons_task_description_CraftRaidNamedReplica_Single">Fabriquez une réplique nommée d'assaut.</string>
+	<string key="ui_seasons_task_description_CraftNamedReplica">Fabriquez {maxCount} répliques nommées d'expédition.</string>
+	<string key="data_season_08_name">Saison 8 : Saison du Fossé</string>
+	<string key="ui_seasons_task_name_KillCorrupted_S8_1">La chute des déchus I</string>
+	<string key="ui_seasons_task_name_KillWorldBoss_3">La plus dangereuse des proies III</string>
+	<string key="SS8_Journey_Bonus">Chapitre &lt;img src="lyshineui/images/SeasonsRewards/SeasonalServer/Icon_season_server" scale="1.5" yOffset="3"&gt;&lt;/img&gt; du Monde saisonnier bonus</string>
+	<string key="ui_seasons_task_description_CompleteM3ExpeditionPristine">Terminez {maxCount} expéditions de Mutagène M3 dans un groupe immaculé.</string>
+	<string key="ui_seasons_task_name_ParticipateInfluenceRaceDepraved">Influence hostile</string>
+	<string key="ui_seasons_task_name_Challenge_S8_CompleteTaskAnyChapterSS">Maîtrise du Fossé</string>
+	<string key="ui_seasons_task_name_KillPlayerDepraved">Immoralité pourfendue</string>
+	<string key="SS8_Journey_Pristine">Chapitre &lt;img src="lyshineui/images/SeasonsRewards/SeasonalServer/Icon_season_server" scale="1.5" yOffset="3"&gt;&lt;/img&gt; du Monde saisonnier des immaculés</string>
+	<string key="ui_seasons_task_description_ParticipateInfluenceRaceDepraved">Participez à {maxCount} Courses d'influence dans un état déchu sur le serveur saisonnier.</string>
+	<string key="ui_seasons_task_name_CraftSS8Caches">A tout prévu</string>
+	<string key="ui_seasons_task_name_EquipAllArtifactSS">Maîtrise de l'infinitude</string>
+	<string key="SS8_Journey_Depraved">Chapitre &lt;img src="lyshineui/images/SeasonsRewards/SeasonalServer/Icon_season_server" scale="1.5" yOffset="3"&gt;&lt;/img&gt; du Monde saisonnier des déchus</string>
+	<string key="ui_seasons_task_description_Challenge_S8_CompleteTaskAnyChapterSS">Accomplissez {maxCount} tâches du parcours du Monde saisonnier de cette saison.</string>
+	<string key="SS8_Journey_Casual">Chapitre &lt;img src="lyshineui/images/SeasonsRewards/SeasonalServer/Icon_season_server" scale="1.5" yOffset="3"&gt;&lt;/img&gt; du Monde saisonnier des non classés</string>
+	<string key="ui_seasons_task_name_DefeatWurmBossPristine">Ver de sable pourfendu</string>
+	<string key="ui_seasons_task_description_CompleteExpeditionMax3">Terminez {maxCount} expéditions avec 3 joueurs ou moins sur le serveur saisonnier.</string>
+	<string key="ui_seasons_task_description_KillHercyneBossPristine">Tuez {maxCount} boss de la ruche de la gorgone dans un groupe immaculé.</string>
+	<string key="ui_seasons_task_description_DefeatWurmBossPristine">Tuez le ver de sable dans un groupe immaculé.</string>
+	<string key="ui_seasons_task_description_EquipAllArtifactSS">Équipez-vous de 10 artéfacts simultanément sur le serveur saisonnier.</string>
+	<string key="ui_seasons_task_name_CompleteExpeditionMax3">Excavation fourbe</string>
+	<string key="ui_seasons_task_name_KillHercyneBossPristine">Domination de la Gorgone</string>
+	<string key="ui_seasons_task_name_CompleteM3ExpeditionPristine">Mutagène remarquable</string>
+	<string key="ui_seasons_task_description_KillPlayerDepraved">Tuez {maxCount} joueurs dans un état déchu sur le serveur saisonnier.</string>
+	<string key="ui_seasons_task_description_CraftSS8Caches">Fabriquez {maxCount} caches d'aventurier sur le serveur saisonnier.</string>
+	<string key="ui_seasons_task_description_KillTyphonPristine">Tuez Typhon dans la ruche de la gorgone dans un groupe immaculé.</string>
+	<string key="ui_seasons_task_name_KillEchidnaPristine">Extermination d'Échidna</string>
+	<string key="ui_seasons_task_name_KillBroodmotherPristine">Bourreau de la couveuse</string>
+	<string key="ui_seasons_task_description_KillBroodmotherPristine">Tuez la couveuse dans la ruche de la gorgone dans un groupe immaculé.</string>
+	<string key="ui_seasons_task_description_KillEchidnaPristine">Tuez Échidna dans la ruche de la gorgone dans un groupe immaculé.</string>
+	<string key="ui_seasons_task_name_KillTyphonPristine">Terreur de Typhon</string>
+	<string key="ui_seasons_task_name_ReachLevel65SS_Only">Un nouveau départ</string>
 </resources>
 

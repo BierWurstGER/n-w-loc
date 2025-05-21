@@ -155,7 +155,7 @@
 	<string key="ui_house_overdue_at" comment="Housing Taxes">La manutenzione della proprietà presso {territoryName} è scaduta. Paga per abilitare le funzionalità della casa.</string>
 	<string key="ui_house_overdue_desc" comment="Housing Taxes">La manutenzione della proprietà è scaduta. Paga per abilitare le funzionalità della casa.</string>
 	<string key="ui_house_overdue_label" comment="Housing Taxes">Manutenzione proprietà scaduta</string>
-	<string key="ui_house_property_tax_desc" comment="Housing Taxes">&lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt; {coin}</string>
+	<string key="ui_house_property_tax_desc" comment="Housing Taxes">&lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt; &lt;/img&gt;{coin}</string>
 	<string key="ui_house_property_tax_sub_desc" comment="Housing Taxes">/ per periodo per mantenere questa casa.</string>
 	<string key="ui_house_tax" comment="Housing Taxes">Manutenzione</string>
 	<string key="ui_house_tax_unpaid_flyout_warning" comment="Housing Taxes">Casa disattivata per mancato pagamento della manutenzione della proprietà.</string>
@@ -236,7 +236,7 @@
 	<string key="ui_house_purchase_standing_bonus_requirement" comment="Purchase House">Bonus Proprietà della casa</string>
 	<string key="ui_house_purchase_standing_requirement" comment="Purchase House">Livello di reputazione {standingValue}</string>
 	<string key="ui_house_purchased" comment="Purchase House">Casa acquistata!</string>
-	<string key="ui_house_purchased_detail" comment="Purchase House">Congratulazioni, hai acquistato proprietà in: {settlementName}!\n\nPaga la manutenzione periodica per usare le funzionalità della casa.</string>
+	<string key="ui_house_purchased_detail" comment="Purchase House">Congratulazioni, hai acquistato una proprietà in questa località: {settlementName}!\n\nPaga la manutenzione periodica della proprietà per continuare a usare le funzionalità della casa.</string>
 	<string key="ui_housing_purchase_house" comment="Purchase House">Acquista casa</string>
 	<string key="ui_reward_type_community_goal_territory_standing" comment="Settlement">Reputazione del territorio: {amount}</string>
 	<string key="ui_this_location" comment="Settlement">Questo luogo</string>
@@ -246,7 +246,7 @@
 	<string key="ui_inn" comment="Settlement Inn">Locanda</string>
 	<string key="ui_inn_already_checked_in" comment="Settlement Inn">Oh, sembra che tu sia già registrato in questa locanda!\n\nPuoi tornare e rigenerarti in questo insediamento\nda qualsiasi parte del mondo!</string>
 	<string key="ui_inn_check_in" comment="Settlement Inn">Registrati alla locanda di {territoryName}.</string>
-	<string key="ui_inn_check_in_desc" comment="Settlement Inn">&lt;font color="#EBE3D6"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Ti do il benvenuto alla locanda di {territoryName}&lt;/font&gt;&lt;/font&gt;\n\n Vuoi &lt;font color="#edc63e"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;registrarti&lt;/font&gt;&lt;/font&gt;?\n\nCiò ti permetterà di tornare e rigenerarti in questo insediamento\nda qualsiasi parte del mondo!</string>
+	<string key="ui_inn_check_in_desc" comment="Settlement Inn">&lt;font color="#EBE3D6"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Ti do il benvenuto alla {territoryName} Locanda!&lt;/font&gt;&lt;/font&gt;\n\n Vuoi &lt;font color="#edc63e"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;registrarti&lt;/font&gt;&lt;/font&gt;?\n\nCiò ti permetterà di tornare e rigenerarti in questo insediamento\nda qualsiasi parte del mondo!</string>
 	<string key="ui_inn_checked_in" comment="Settlement Inn">{territoryName} è ora il tuo nuovo punto di ritorno.</string>
 	<string key="ui_inn_fast_travel" comment="Settlement Inn">Fai ritorno alla Locanda</string>
 	<string key="ui_inn_fast_travel_notavailable" comment="Settlement Inn">Potrai ritornare tra: {time}</string>
@@ -256,7 +256,7 @@
 	<string key="ui_inn_recall_popup_confirm" comment="Settlement Inn">Vuoi fare ritorno a questa locanda?</string>
 	<string key="ui_inn_recall_popup_confirm_ffa" rel_version="Territory_CutlassKeys_Rework">Vuoi fare ritorno a questa locanda?\n\n&lt;font color={color}&gt;Alcuni oggetti maledetti verranno lasciati cadere.&lt;/font&gt;</string>
 	<string key="ui_inn_recall_from_esc_popup_confirm_ffa" rel_version="Territory_CutlassKeys_Rework">Vuoi fare ritorno alla locanda presso {territoryName}?\n\n&lt;font color={color}&gt;Alcuni oggetti maledetti verranno lasciati cadere.&lt;/font&gt;</string>
-	<string key="ui_inn_replace_desc" comment="Settlement Inn">&lt;font color="#EBE3D6"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Ti do il benvenuto alla locanda di {territoryName}!&lt;/font&gt;&lt;/font&gt;\n\n Vuoi &lt;font color="#edc63e"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;registrarti&lt;/font&gt;&lt;/font&gt;?\nCiò ti permetterà di tornare e rigenerarti in questo insediamento\nda qualsiasi parte del mondo.\n\n&lt;font color="#edc63e"&gt;Fare ciò sostituirà il tuo attuale punto di ritorno.&lt;/font&gt;</string>
+	<string key="ui_inn_replace_desc" comment="Settlement Inn">&lt;font color="#EBE3D6"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Ti do il benvenuto alla {territoryName} Locanda!&lt;/font&gt;&lt;/font&gt;\n\n Vuoi &lt;font color="#edc63e"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;registrarti&lt;/font&gt;&lt;/font&gt;?\nCiò ti permetterà di tornare e rigenerarti in questo insediamento\nda qualsiasi parte del mondo\n\n&lt;font color="#edc63e"&gt;e sostituirà il tuo attuale punto di ritorno.&lt;/font&gt;</string>
 	<string key="ui_not_checked_in" comment="Settlement Inn">Registrati alla locanda per impostare un punto di ritorno in questo insediamento.</string>
 	<string key="ui_not_checked_in_escape_menu" comment="Settlement Inn">Registrati in una locanda per impostare un punto di ritorno.</string>
 	<string key="ui_not_checked_in_outpost" comment="Settlement Inn">Registrati alla locanda per impostare un punto di ritorno in questo avamposto.</string>

@@ -290,7 +290,6 @@
 	<string key="ui_dungeon_mutator_special_reward_tooltip" rel_version="Feature_Dungeon_Mutators">Los fragmentos umbríos se otorgan en base a tu rango al completar la expedición.\n\nDesbloquea la siguiente dificultad de expedición con el rango Plata o superior.</string>
 	<string key="ui_dungeon_mutator_hud_points_shorthand" rel_version="Feature_Dungeon_Mutators">&lt;font color="#b2aea1" &gt;puntos&lt;/font&gt;</string>
 	<string key="ui_dungeon_mutator_difficulty_not_unlocked" rel_version="Feature_Dungeon_Mutators">Esta dificultad aún no se ha desbloqueado.</string>
-	<string key="ui_dungeon_mutator_level_not_met" rel_version="Feature_Dungeon_Mutators">No tienes el nivel necesario para esta expedición.</string>
 	<string key="Mut_Disease_1_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">Los enemigos provocan una enfermedad acumulativa al golpear, lo que reduce la sanación recibida en un {[-0.025000 * -100]} % por acumulación.</string>
 	<string key="Mut_Disease_2_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">Los enemigos provocan una enfermedad acumulativa al golpear, lo que reduce la sanación recibida en un {[-0.025000 * -100]}/{[-0.050000 * -100]} % por acumulación.</string>
 	<string key="Mut_RotatingBeam_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">Los enemigos lanzan rayos cortantes que infligen un {[-0.3 * -100]} % de daño base de vacío al ser tocados.</string>
@@ -480,5 +479,6 @@
 	<string key="ui_elitetrial_banner_daily_count" rel_version="Season_2_Perm">{count}/{max} diario(s)</string>
 	<string key="ui_elitetrial_banner_weekly_count" rel_version="Season_2_Perm">{count}/{max} semanal(es)</string>
 	<string key="Respawn_EntranceNameTrial" rel_version="Trial_Brimstone_Sandworm">Entrada a la prueba</string>
+	<string key="ui_dungeon_level_not_met_solo">No tienes el nivel necesario para esta prueba de alma.</string>
 </resources>
 

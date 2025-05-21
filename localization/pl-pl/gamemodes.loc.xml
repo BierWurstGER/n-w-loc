@@ -70,16 +70,16 @@
 	<string key="ui_duel_forfeit_confirm">Czy na pewno chcesz zrezygnować z pojedynku?</string>
 	<string key="ui_duel_forfeit_yes">Tak.</string>
 	<string key="ui_duel_forfeit_no">Nigdy się nie poddam!</string>
-	<string key="ui_duel_begin_message_1">{name1} zaczyna pojedynek</string>
-	<string key="ui_duel_with_message_1"> z {name1}.</string>
-	<string key="ui_duel_begin_message_2">{name1} i {name2} zaczynają pojedynek</string>
-	<string key="ui_duel_with_message_2"> z {name1} i {name2}.</string>
-	<string key="ui_duel_begin_message_3">{name1}, {name2} i {name3} zaczynają pojedynek</string>
-	<string key="ui_duel_with_message_3"> z {name1}, {name2} i {name3}.</string>
-	<string key="ui_duel_begin_message_4">{name1}, {name2}, {name3} i {name4} zaczynają pojedynek</string>
-	<string key="ui_duel_with_message_4"> z {name1}, {name2}, {name3} i {name4}.</string>
-	<string key="ui_duel_begin_message_5">{name1}, {name2}, {name3}, {name4} i {name5} zaczynają pojedynek</string>
-	<string key="ui_duel_with_message_5"> z {name1}, {name2}, {name3}, {name4} i {name5}.</string>
+	<string key="ui_duel_begin_message_1">Gracz {name1} zaczyna pojedynek</string>
+	<string key="ui_duel_with_message_1"> z graczem {name1}.</string>
+	<string key="ui_duel_begin_message_2">Gracze {name1} i {name2} zaczynają pojedynek</string>
+	<string key="ui_duel_with_message_2"> z graczami {name1} i {name2}.</string>
+	<string key="ui_duel_begin_message_3">Gracze {name1}, {name2} i {name3} zaczynają pojedynek</string>
+	<string key="ui_duel_with_message_3"> z graczami {name1}, {name2} i {name3}.</string>
+	<string key="ui_duel_begin_message_4">Gracze {name1}, {name2}, {name3} i {name4} zaczynają pojedynek</string>
+	<string key="ui_duel_with_message_4"> z graczami {name1}, {name2}, {name3} i {name4}.</string>
+	<string key="ui_duel_begin_message_5">Gracze {name1}, {name2}, {name3}, {name4} i {name5} zaczynają pojedynek</string>
+	<string key="ui_duel_with_message_5"> z graczami {name1}, {name2}, {name3}, {name4} i {name5}.</string>
 	<string key="ui_duel_message_you">tobą</string>
 	<string key="ui_duel_accepted">Zaakceptowano pojedynek</string>
 	<string key="ui_duel_starts_in">Pojedynek zaczyna się za…</string>
@@ -100,7 +100,7 @@
 	<string key="ui_outpost_rush_signup_title">NAPAD NA POSTERUNEK</string>
 	<string key="ui_outpost_rush_signup_desc">&lt;font color="#edc63e"&gt;Napad na posterunek&lt;/font&gt; to potyczka drużynowa (20 przeciwko 20), rozgrywana na dużej wyspie z trzema posterunkami. Drużyny rywalizują o kontrolę nad posterunkami i utrzymanie ich.</string>
 	<string key="ui_outpost_rush_signup_desc_gearscore">&lt;font color="#edc63e"&gt;Skalowanie pkt wyposażenia&lt;/font&gt; zwiększa liczbę pkt wyposażenia przedmiotów mających mniej niż 700 PW do 700 PW.</string>
-	<string key="ui_outpost_rush_signup_desc_cross_world">Napad na posterunek jest &lt;font color="#edc63e"&gt;trybem gry pomiędzy światami&lt;/font&gt; przeznaczonym dla 20 x 20 graczy.</string>
+	<string key="ui_outpost_rush_signup_desc_cross_world">Napad na posterunek jest &lt;font color="#edc63e"&gt;trybem gry pomiędzy światami&lt;/font&gt; przeznaczonym dla dwóch drużyn po 20 graczy.\n&lt;font color="#edc63e"&gt;Skalowanie pkt wyposażenia&lt;/font&gt; zwiększa liczbę pkt wyposażenia przedmiotów mających mniej niż 700 PW do 700 PW.</string>
 	<string key="ui_outpost_rush_signup_desc_cross_world_tooltip">Termin &lt;font color="#edc63e"&gt;pomiędzy światami&lt;/font&gt; oznacza, że w rozgrywce mogą brać udział gracze ze wszystkich światów w twoim regionie. W ten sposób okres oczekiwania na mecz ulegnie skróceniu.\n\nUwagi:\n\n– Ikona &lt;img src="lyshineui/images/icons/crossworld/icon_crossworld_identifier" xPadding="-1" scale="1.8" yOffset="2"&gt;&lt;/img&gt; obok imienia gracza, oznacza, że pochodzi on z innego świata.\n\n– Podczas meczu pomiędzy światami niektóre z funkcji społecznościowych są niedostępne, na przykład handel czy wysyłanie zaproszeń.\n\n– Ranking zwycięstw w NAP jest teraz rankingiem regionalnym.</string>
 	<string key="ui_outpost_rush_signup_goal1">Przejmuj posterunki i utrzymuj nad nimi kontrolę, by zdobywać punkty</string>
 	<string key="ui_outpost_rush_signup_goal2">Pierwsza drużyna, która zdobędzie 1000 pkt, wygrywa</string>
@@ -229,9 +229,9 @@
 	<string key="or_tutorial_rules_portal_title">Zamknij skażony portal</string>
 	<string key="or_tutorial_rules_portal_body">Zamknij skażony portal, by zdobyć kamień przywołania brutala.</string>
 	<string key="or_tutorial_boss_spawn_title">BARONOWA HAIN PRZYBYWA</string>
-	<string key="or_tutorial_boss_spawn_body">Zabij ją, by zdobyć potężną premię do obrony i uniemożliwić wrogiej drużynie zdobywanie punktów przez 3 minuty.</string>
+	<string key="or_tutorial_boss_spawn_body">Zabij ją, by zdobyć potężną premię do obrony i uniemożliwić wrogiej drużynie zdobywanie punktów przez 2 minuty i 30 sekund.</string>
 	<string key="or_tutorial_boss_near_title">BARONOWA HAIN JEST W POBLIŻU</string>
-	<string key="or_tutorial_boss_near_body">Zabij ją, by zdobyć potężną premię do obrony i uniemożliwić wrogiej drużynie zdobywanie punktów przez 3 minuty.</string>
+	<string key="or_tutorial_boss_near_body">Zabij ją, by zdobyć potężną premię do obrony i uniemożliwić wrogiej drużynie zdobywanie punktów przez 2 minuty i 30 sekund.</string>
 	<string key="or_tutorial_outpost_gates_title">BUDUJ BRAMY, BY OBRONIĆ POSTERUNEK</string>
 	<string key="or_tutorial_outpost_gates_body">Zbierz nasycone drewno i rudę, a następnie wejdź w interakcję z bramą, by ją zbudować i ulepszyć.</string>
 	<string key="or_tutorial_outpost_ward_title">STWÓRZ ZNAK OCHRONNY</string>
@@ -292,7 +292,7 @@
 	<string key="ui_matchmaking_ready_title">Mecz gotowy</string>
 	<string key="ui_matchmaking_ready_title_dungeon">Grupa znaleziona</string>
 	<string key="ui_matchmaking_ready_text">&lt;font color={color}&gt;Możesz już rozegrać&lt;/font&gt; swój zaplanowany mecz. Teleportować się teraz?</string>
-	<string key="ui_matchmaking_ready_text_dungeon">Oczekiwanie na graczy ({numAccepted}/{numInvited})</string>
+	<string key="ui_matchmaking_ready_text_dungeon">Oczekiwanie na graczy (&lt;font color={acceptedColor}&gt;{numAccepted}&lt;/font&gt;/{numInvited})</string>
 	<string key="dungeon_how_to_raid">Jak zorganizować rajd</string>
 	<string key="dungeon_entry_requirements">Wymagania dotyczące dołączenia</string>
 	<string key="ui_influence_tutorial_how_it_works" rel_version="Feature_Influence_V2">Na czym polega walka o wpływy?</string>
@@ -307,6 +307,7 @@
 	<string key="ui_pvp_balance_tooltip" rel_version="Feature_PvP_PvE_Split">Balans PvP aktywny.</string>
 	<string key="ui_pvp_balance_header" rel_version="Feature_PvP_PvE_Split">Modyfikatory balansu PvP aktywne:</string>
 	<string key="or_outpost_rush_map_name" rel_version="Season_7_Perm">Wyspa Nauthynos</string>
+	<string key="or_outpost_rush_trench_map_name" rel_version="OPR_004_Trench">Koralowa Przepaść</string>
 	<string key="arena_3v3_map_name" rel_version="Feature_PVP_Arenas">Pradawny Azyl</string>
 	<string key="arena_3v3_02_map_name" rel_version="Feature_PVP_Arenas">Arena Gladiatora</string>
 	<string key="ui_activity_finder_tooltip_current_map_rotation_text" rel_version="Season_7_Perm">Obecnie dostępna mapa</string>
@@ -336,7 +337,67 @@
 	<string key="ui_gamemode_timeout_description">Zaraz osiągniesz maksymalny dozwolony czas w aktywności</string>
 	<string key="ui_ready_up_ready_choice">Gotowy</string>
 	<string key="ui_ready_up_unready_choice">Brak gotowości</string>
-	<string key="ui_ready_up_waiting_message">Oczekiwanie</string>
-	<string key="or_outpost_rush_trench_map_name">Koralowa Przepaść</string>
+	<string key="ui_ready_up_waiting_message">Oczekiwanie na innych graczy ({numReady}/{numTotal})</string>
+	<string key="ctf_gamemode_description">Przejęcie flagi to szybki, nastawiony na pracę drużynową tryb gry, wymagający sprawnego ataku i obrony. Ochroń bazę i ukradnij flagę wroga, by wygrać.</string>
+	<string key="ctf_flag_picked_up">Wasza flaga została przejęta</string>
+	<string key="ctf_flag_returned">Wasza flaga została zwrócona</string>
+	<string key="ctf_red_team">&lt;font color="#f25d5d"&gt;Drużyna czerwonych&lt;/font&gt;</string>
+	<string key="ctf_gamemode_name">Przejęcie flagi</string>
+	<string key="ctf_003_Long_Map_Name">Podgląd przejęcia flagi</string>
+	<string key="ui_opr_no_perks_signup_desc_cross_world">Niewymagany najlepszy sprzęt! Dołącz do najnowszej wersji napadu na posterunek, w której wyłączone są profity wyposażenia, a punkty wyposażenia podniesione są do maksimum, by wyrównać szanse.\n\n&lt;font color="#edc63e"&gt;Skalowanie pkt wyposażenia&lt;/font&gt; zwiększa liczbę pkt wyposażenia przedmiotów mających mniej niż 725 PW do 725 PW.</string>
+	<string key="ctf_flag_match_completed">Mecz zakończony</string>
+	<string key="ui_ctf_leave_desc">Czy na pewno chcesz wyjść z trybu przejęcia flagi?</string>
+	<string key="ctf_flag_status_safe">Flaga bezpieczna</string>
+	<string key="ctf_flag_carrier_debuff_icon_desc">Niesiesz teraz flagę! Twoja postać jest bardziej podatna na ataki wroga i otrzymuje mniej leczenia.</string>
+	<string key="ctf_eom_stat_captures_neutral_flags">Flagi neutralne</string>
+	<string key="ctf_flag_status_taken">Flaga zabrana</string>
+	<string key="ctf_flag_wild_spawned">Pojawiła się neutralna flaga</string>
+	<string key="ui_opr_no_perks_signup_goal2">Pierwsza drużyna, która zdobędzie 1000 pkt, wygrywa</string>
+	<string key="ctf_flag_wild_timer">Flaga pojawi się za: {time}</string>
+	<string key="ui_opr_no_perks_title">Napad na posterunek: Kościarz</string>
+	<string key="ui_capture_the_flag_begin">RUSZAJ!</string>
+	<string key="ctf_eom_stat_captures_team_flags">Flagi drużynowe</string>
+	<string key="ctf_flag_you_scored">Punktujesz!</string>
+	<string key="ui_opr_no_perks_signup_goal1">Przejmuj posterunki i utrzymuj nad nimi kontrolę, by zdobywać punkty</string>
+	<string key="ctf_eom_stat_flag_returns">Zwrócone flagi</string>
+	<string key="ui_capture_the_flag_signup_goal1">Przejmij więcej flag, by wygrać mecz</string>
+	<string key="CTF_Powerup_Healing_Desc">Po zebraniu zapewnia 8000 PZ. (Na końcową liczbę może wpływać wyposażenie)</string>
+	<string key="ui_capture_the_flag_title">Przejęcie flagi</string>
+	<string key="ui_capture_the_flag_signup_failgrouppenalty">Na co najmniej jednego z członków twojej grupy nałożono karę czasową za opuszczenie wcześniejszego meczu przejęcia flagi.</string>
+	<string key="ui_capture_the_flag_pregame_description">Mecz rozpocznie się za</string>
+	<string key="ctf_flag_enemy_team_scored">Przeciwna drużyna punktuje</string>
+	<string key="ui_capture_the_flag_signup_goal3">Osłaniaj powrót gracza niosącego flagę</string>
+	<string key="ctf_flag_carrier_debuff_icon_name">Niesiesz flagę!</string>
+	<string key="ui_capture_the_flag_signup_joinsolo">Graj</string>
+	<string key="ctf_wild_flag_picked_up">Neutralna flaga została przejęta</string>
+	<string key="ctf_flag_dropped">Wasza flaga została upuszczona</string>
+	<string key="CTF_Powerup_Damage_Empower_Name">Wzmocnienie ataku</string>
+	<string key="ui_capture_the_flag_leave_queue_title">Opuść kolejkę</string>
+	<string key="CTF_Powerup_Speed_Name">Wzmocnienie przyspieszenia</string>
+	<string key="ctf_wild_flag_dropped">Neutralna flaga została upuszczona</string>
+	<string key="ctf_wild_flag_returned">Neutralna flaga została zwrócona</string>
+	<string key="ctf_eom_stat_captures">Przejęcia</string>
+	<string key="ui_capture_the_flag_leave_queue_desc">Czy na pewno chcesz opuścić kolejkę przejęcia flagi?</string>
+	<string key="ui_capture_the_flag_signup_goal2">Aby zdobyć punkty, flaga drużyny musi być w bazie</string>
+	<string key="ctf_flag_status_dropped">Flaga upuszczona</string>
+	<string key="arena_3v3_04_map_name">Podgląd areny</string>
+	<string key="ui_ctf_leave">Opuść aktywność</string>
+	<string key="ui_capture_the_flag_invite_notification_text">Zaproszono cię do przejęcia flagi!</string>
+	<string key="ctf_overtime_banner_title">Dogrywka</string>
+	<string key="ctf_flag_our_team_scored">Nasza drużyna punktuje!</string>
+	<string key="ctf_flag_player_count">Gracze: {count}</string>
+	<string key="ctf_overtime_banner_desc">Następna flaga wygrywa!</string>
+	<string key="ui_cannot_travel_ctf">Nie możesz korzystać z szybkiej podróży w przejęciu flagi.</string>
+	<string key="ctf_flag_away_from_base">Aby zapunktować, należy zwrócić swoją flagę</string>
+	<string key="ctf_blue_team">&lt;font color="#45d1ff"&gt;Drużyna niebieskich&lt;/font&gt;</string>
+	<string key="ctf_flag_scored">Twoja drużyna punktuje</string>
+	<string key="CTF_Powerup_Healing_Name">Wzmocnienie zdrowia</string>
+	<string key="ui_capture_the_flag_invite_notification_title">Zaproszenie do przejęcia flagi</string>
+	<string key="ui_ctf_leave_desc_time">Czy na pewno chcesz wyjść z trybu przejęcia flagi?\nKolejka przejęcia flagi będzie niedostępna przez &lt;font color="#edc63e"&gt;[{time}]&lt;/font&gt;.</string>
+	<string key="ctf_eom_stat_flagbearers_killed">Zabici niosący</string>
+	<string key="CTF_Powerup_Speed_Desc">+50% do przyspieszenia na 5 sekund.</string>
+	<string key="ctf_002_Wide_Map_Name">Podgląd przejęcia flagi</string>
+	<string key="CTF_Powerup_Damage_Empower_Desc">+20% do nasączenia mocą na 10 sekund. Tego efektu nie można usunąć.</string>
+	<string key="ui_opr_no_perks_signup_goal3">Używaj specjalnych zasobów, by atakować i się bronić</string>
 </resources>
 

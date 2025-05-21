@@ -3,7 +3,7 @@
 	<string key="inv_Dropped">Itens</string>
 	<string key="inv_Storage">Armazenamento</string>
 	<string key="inv_itemDamaged_single">O item {itemName} está severamente danificado. É bom reparar logo.</string>
-	<string key="inv_itemDamaged_multiple">{num} itens estão severamente danificados. É bom reparar logo.</string>
+	<string key="inv_itemDamaged_multiple">{num} itens estão severamente danificados. É bom repará-los logo.</string>
 	<string key="inv_itemBroken_single">O item {itemName} está quebrado.</string>
 	<string key="inv_itemBroken_multiple">{num} itens estão quebrados.</string>
 	<string key="inv_broken">QUEBRADO</string>
@@ -84,10 +84,10 @@
 	<string key="inv_equipLoadNormalNotification">A Carga Equipada agora é Média</string>
 	<string key="inv_equipLoadSlowNotification">A Carga Equipada agora é Pesada</string>
 	<string key="inv_equipLoadOverburdenedNotification">Excesso de Equipamento — Não é possível se esquivar nem correr</string>
-	<string key="inv_equipLoadEncumberedNotification">Sobrecarregado — Não é possível se esquivar, nem saltar, nem correr</string>
+	<string key="inv_equipLoadEncumberedNotification">Sobrecarregado: não é possível correr, se esquivar ou pular</string>
 	<string key="inv_encumbranceTooltip">O peso do inventário afeta seus movimentos e ações. Aprimore as bolsas para aumentar seu limite de peso. Se o limite for excedido, você fica sobrecarregado. Se for muito excedido, você fica supersobrecarregado.</string>
 	<string key="inv_encumbranceUnencumberedTooltip">Você pode realizar todas as ações livremente desde que esteja abaixo do limite de peso do inventário.</string>
-	<string key="inv_encumbranceEncumberedTooltip">• Sobrecarregado: Não é possível correr, esquivar ou saltar.\nSupersobrecarregado: Não é possível se mover, esquivar, saltar ou atacar.</string>
+	<string key="inv_encumbranceEncumberedTooltip">• Sobrecarregado: Não é possível correr, esquivar ou saltar.\nSupersobrecarregado: não é possível atacar, correr, se esquivar ou pular.</string>
 	<string key="inv_does_not_meet_weapon_requirements">Atributos insuficientes</string>
 	<string key="inv_encumbranceAttackNotification">Supersobrecarregado: não é possível atacar</string>
 	<string key="inv_insufficientManaNotification">Mana Insuficiente</string>
@@ -163,7 +163,7 @@
 	<string key="ui_dropall_in_trade">Não é possível soltar itens enquanto está negociando.</string>
 	<string key="ui_transfer_all_filtered">Não é possível mover todos os itens nesta seção enquanto eles estão filtrados.</string>
 	<string key="ui_storeall">Mova tudo para a despensa.</string>
-	<string key="ui_filterDescription">&lt;font color={subheaderColor} face="lyshineui/fonts/Nimbus_Bold.font"&gt;COMO PESQUISAR&lt;/font&gt;\n\n&lt;font color={subheaderColor} face="lyshineui/fonts/Nimbus_semibold.font"&gt;Refinar&lt;/font&gt;\n• Inclua: Espada\n• Exclua: -Machado\n• Vantagens/Gemas: [Proteção]\n• Pontuação Mínima de Equipamento: 100\n• Escala Mínima: E1\n\n&lt;font color={subheaderColor} face="lyshineui/fonts/Nimbus_semibold.font"&gt;Avançado&lt;/font&gt;\n• Espada -200\n• -Machado -E1\n• Picareta -ferro\n• Mosquete [Eletrificado]</string>
+	<string key="ui_filterDescription">&lt;font color={subHeaderColor} face="lyshineui/fonts/Nimbus_Bold.font"&gt;COMO PESQUISAR&lt;/font&gt;\n\n&lt;font color={subHeaderColor} face="lyshineui/fonts/Nimbus_semibold.font"&gt;Refinar&lt;/font&gt;\n• Inclua: Espada\n• Exclua: - Machado\n• Vantagens/Gemas: [Proteção]\n• Pontuação Mínima de Equipamento: 100\n• Escala Mínima: E1\n\n&lt;font color={subHeaderColor} face="lyshineui/fonts/Nimbus_semibold.font"&gt;Avançado&lt;/font&gt;\n• Espada - 200\n• Machado - E1\n• Picareta - ferro\n• Mosquete [Eletrificado]</string>
 	<string key="ui_filterText">Buscar</string>
 	<string key="ui_filterHeader">Filtrar item</string>
 	<string key="ui_sort">Ordenar</string>
@@ -261,5 +261,6 @@
 	<string key="perktooltips_stacks_over_limit">(Acima do limite)</string>
 	<string key="perktooltips_stacks_over_limit_disabled">(Desativado)</string>
 	<string key="perktooltips_max_stacks">Máximo de acúmulos de vantagem: </string>
+	<string key="inv_equipLoadOverEncumberedNotification">Supersobrecarregado: não é possível atacar, correr, se esquivar ou pular</string>
 </resources>
 

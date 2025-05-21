@@ -226,6 +226,8 @@
 	<string key="ui_vocalsvolume_desc">Lege die Lautstärke von Stimmen fest.</string>
 	<string key="ui_vovolume">Sprachlautstärke</string>
 	<string key="ui_vovolume_desc">Lege die Lautstärke der Sprachausgabe fest.</string>
+	<string key="ui_targetLock_volume">Lautstärke für Zielanvisierung</string>
+	<string key="ui_targetLock_volume_desc">Lege die Lautstärke für das erfolgreiche Anvisieren eines Ziels fest.</string>
 	<string key="ui_musicvolume">Musiklautstärke</string>
 	<string key="ui_musicvolume_desc">Lege die Lautstärke der Musik fest.</string>
 	<string key="ui_ambientmusicvolume">Hintergrundmusiklautstärke</string>
@@ -353,7 +355,7 @@
 	<string key="ui_alwaysShowReticle">Zielkreis immer anzeigen</string>
 	<string key="ui_alwaysShowReticle_desc">Lege fest, ob der Zielkreis auch dann angezeigt werden soll, wenn deine Waffe nicht gezückt ist.</string>
 	<string key="ui_toggleblockads">Zum Zielen und Blocken antippen</string>
-	<string key="ui_toggleblockads_desc">Lege fest, ob Zielen und Blocken durch Antippen der Eingabebefehle aktiviert werden\nsoll, anstatt durch Gedrückthalten.</string>
+	<string key="ui_toggleblockads_desc">Lege fest, ob Zielen und Blocken durch Antippen der Eingabebefehle aktiviert werden soll, anstatt durch Gedrückthalten.</string>
 	<string key="ui_enable_ally_team_color_tinting">Farbtönung für verbündete Teams</string>
 	<string key="ui_enable_enemy_team_color_tinting">Farbtönung für gegnerische Teams</string>
 	<string key="ui_enable_ally_team_color_tinting_desc">Lege fest, ob die Team-Farbtönung für Verbündete in Spielmodi aktiviert werden soll.</string>
@@ -376,17 +378,17 @@
 	<string key="ui_mute_combat_music" rel_version="Feature_MusicalPerformances">Kampfmusik stummschalten</string>
 	<string key="ui_mute_combat_music_desc" rel_version="Feature_MusicalPerformances">Lege fest, ob die Kampfmusik stummgeschaltet werden soll.</string>
 	<string key="ui_musicInstrument_volume" rel_version="Feature_MusicalPerformances">Lautstärke der Musikinstrumente</string>
-	<string key="ui_musicInstrument_volume_desc" rel_version="Feature_MusicalPerformances">Lege die Lautstärke der Musik von lokalen und externen Spielern mit Musikinstrumenten fest.</string>
+	<string key="ui_musicInstrument_volume_desc" rel_version="Feature_MusicalPerformances">Lege die Lautstärke der Musik fest, die von lokalen und externen Spielern mit Musikinstrumenten gespielt wird.</string>
 	<string key="ui_outputconfiguration">Ausgabekonfiguration</string>
 	<string key="ui_outputconfiguration_desc">Lege fest, ob die Audioausgabe auf 360-Grad-Surround-Sound fürs Heimkino und 180-Grad-Sound für Kopfhörer eingestellt werden soll.</string>
-	<string key="ui_texttospeech">Text-zu-Sprache</string>
-	<string key="ui_texttospeech_desc">Lege fest, ob Text-zu-Sprache (Vorlesefunktion) für eingehende Chat-Nachrichten aktiviert\nwerden soll.</string>
-	<string key="ui_tts_rate">Text-zu-Sprache-Geschwindigkeit</string>
-	<string key="ui_tts_rate_desc">Lege die Geschwindigkeit von Text-zu-Sprache-Nachrichten fest.</string>
-	<string key="ui_tts_volume">Text-zu-Sprache-Lautstärke</string>
-	<string key="ui_tts_volume_desc">Lege die Lautstärke von Text-zu-Sprache-Nachrichten fest.</string>
-	<string key="ui_speechtotext">Sprache-in-Text</string>
-	<string key="ui_speechtotext_desc">Sprache-in-Text für Sprachchat.</string>
+	<string key="ui_texttospeech">Text-to-Speech</string>
+	<string key="ui_texttospeech_desc">Lege fest, ob Text-to-Speech (Vorlesefunktion) für eingehende Chat-Nachrichten aktiviert werden soll.</string>
+	<string key="ui_tts_rate">Text-to-Speech-Geschwindigkeit</string>
+	<string key="ui_tts_rate_desc">Lege die Geschwindigkeit von Text-to-Speech-Nachrichten fest.</string>
+	<string key="ui_tts_volume">Text-to-Speech-Lautstärke</string>
+	<string key="ui_tts_volume_desc">Lege die Lautstärke von Text-to-Speech-Nachrichten fest.</string>
+	<string key="ui_speechtotext">Speech-to-Text</string>
+	<string key="ui_speechtotext_desc">Speech-to-Text für Sprachchat.</string>
 	<string key="ui_spell_alignment_vfx">Gegnerzauber-Anzeigen</string>
 	<string key="ui_spell_alignment_vfx_desc">Lege fest, ob Anzeigen für visuelle Effekte dauerhafter Flächenangriffe von gegnerischen Spielern aktiviert werden soll.</string>
 	<string key="ui_shift_modifier_toggle" rel_version="Feature_Controller">Antippen, um Modifikator zu aktivieren</string>
@@ -454,18 +456,18 @@
 	<string key="ui_raid_member_hotkeys_unbound_error_title">Tastenkürzel nicht festgelegt</string>
 	<string key="ui_raid_member_hotkeys_unbound_error_message">Lege im Menü "Tastenbelegung" alle Zielgruppenmitglied-Eingaben für den Lebensstabkampf fest, um diese Funktion zu aktivieren.</string>
 	<string key="ui_gena_escape" rel_version="Feature_GameEntryNarrationAssistance">ESC-Taste</string>
-	<string key="ui_gena" rel_version="Feature_GameEntryNarrationAssistance">Kommentar zum Spielbeginn</string>
-	<string key="ui_gena_title" rel_version="Feature_GameEntryNarrationAssistance">Kommentar zum Spielbeginn</string>
-	<string key="ui_gena_desc" rel_version="Feature_GameEntryNarrationAssistance">Lege fest, ob der Kommentar aktiviert werden soll, um bestmöglich ins Spiel hineinzufinden.</string>
+	<string key="ui_gena" rel_version="Feature_GameEntryNarrationAssistance">Erzählhilfe zum Spielbeginn</string>
+	<string key="ui_gena_title" rel_version="Feature_GameEntryNarrationAssistance">Erzählhilfe zum Spielbeginn</string>
+	<string key="ui_gena_desc" rel_version="Feature_GameEntryNarrationAssistance">Lege fest, ob die Erzählhilfe aktiviert werden soll, um bestmöglich ins Spiel hineinzufinden.</string>
 	<string key="ui_gena_restricted" rel_version="Feature_GameEntryNarrationAssistance">Sprachchat mit Spielern in der Umgebung deaktiviert. Dein Konto ist zu neu oder gesperrt</string>
 	<string key="ui_gena_instruction" rel_version="Feature_GameEntryNarrationAssistance">New World: Aeternum bietet blinden Spielern oder Spielern mit eingeschränkter Sicht einen Kommentar zum Spielbeginn, um bestmöglich ins Spiel hineinfinden zu können (nur auf Englisch). Du kannst diese Funktion jederzeit in den Optionen aktivieren oder deaktivieren.</string>
-	<string key="ui_genaprompt_genaison" rel_version="Feature_GameEntryNarrationAssistance">Kommentar zum Spielbeginn ist aktiviert. Drücke {toggleGENA} zur Deaktivierung. Drücke {frontEndContinue} zum Fortfahren.</string>
+	<string key="ui_genaprompt_genaison" rel_version="Feature_GameEntryNarrationAssistance">Erzählhilfe zum Spielbeginn ist aktiviert. Drücke {toggleGENA} zur Deaktivierung. Drücke {frontEndContinue} zum Fortfahren.</string>
 	<string key="ui_genaprompt_genaison_ps" rel_version="Feature_GameEntryNarrationAssistance">Kommentar zum Spielbeginn ist aktiviert. Drücke Dreieck zur Deaktivierung. Drücke Quadrat zum Fortfahren.</string>
 	<string key="ui_genaprompt_genaison_xb" rel_version="Feature_GameEntryNarrationAssistance">Kommentar zum Spielbeginn ist aktiviert. Drücke Y zur Deaktivierung. Drücke X zum Fortfahren.</string>
-	<string key="ui_genaprompt_genaisoff" rel_version="Feature_GameEntryNarrationAssistance">Kommentar zum Spielbeginn ist deaktiviert. Drücke {toggleGENA} zur Aktivierung. Drücke {frontEndContinue} zum Fortfahren.</string>
+	<string key="ui_genaprompt_genaisoff" rel_version="Feature_GameEntryNarrationAssistance">Erzählhilfe zum Spielbeginn ist deaktiviert. Drücke {toggleGENA} zur Aktivierung. Drücke {frontEndContinue} zum Fortfahren.</string>
 	<string key="ui_genaprompt_genaisoff_ps" rel_version="Feature_GameEntryNarrationAssistance">Kommentar zum Spielbeginn ist deaktiviert. Drücke Dreieck zur Aktivierung. Drücke Quadrat zum Fortfahren.</string>
 	<string key="ui_genaprompt_genaisoff_xb" rel_version="Feature_GameEntryNarrationAssistance">Kommentar zum Spielbeginn ist deaktiviert. Drücke Y zur Aktivierung. Drücke X zum Fortfahren.</string>
-	<string key="ui_genaprompt_genascreen" rel_version="Feature_GameEntryNarrationAssistance">Kommentar zum Spielbeginn. Drücke {toggleGENA} zur Deaktivierung. Drücke {frontEndContinue} zum Fortfahren.</string>
+	<string key="ui_genaprompt_genascreen" rel_version="Feature_GameEntryNarrationAssistance">Erzählhilfe zum Spielbeginn. Drücke {toggleGENA} zur Deaktivierung. Drücke {frontEndContinue} zum Fortfahren.</string>
 	<string key="ui_genaprompt_genascreen_ps" rel_version="Feature_GameEntryNarrationAssistance">Kommentar zum Spielbeginn. Drücke Dreieck zur Deaktivierung. Drücke Quadrat zum Fortfahren.</string>
 	<string key="ui_genaprompt_genascreen_xb" rel_version="Feature_GameEntryNarrationAssistance">Kommentar zum Spielbeginn. Drücke Y zur Deaktivierung. Drücke X zum Fortfahren.</string>
 	<string key="ui_genaprompt_seizurescreen" rel_version="Feature_GameEntryNarrationAssistance">Warnung vor Anfällen bei Lichtempfindlichkeit. Solltest du oder jemand aus deiner Familie unter Epilepsie leiden, konsultiere deinen Hausarzt, bevor du New World: Aeternum spielst. Drücke {frontEndContinue} zum Fortfahren.</string>
@@ -532,7 +534,7 @@
 	<string key="ui_genaprompt_nameconfirm_xb" rel_version="Feature_GameEntryNarrationAssistance">Drücke X zum Fortfahren mit deinem Charakter {characterName}. Drücke B, um zurückzugehen.</string>
 	<string key="ui_genaprompt_nameerror" rel_version="Feature_GameEntryNarrationAssistance">{error}. Bitte bearbeite den Charakternamen.</string>
 	<string key="ui_genaprompt_skiptutorialtitle" rel_version="Feature_GameEntryNarrationAssistance">Tutorial überspringen</string>
-	<string key="ui_genaprompt_skiptutorial" rel_version="Feature_GameEntryNarrationAssistance">Das Tutorial hat keine Kommentarfunktion. Möchtest du das Tutorial überspringen?</string>
+	<string key="ui_genaprompt_skiptutorial" rel_version="Feature_GameEntryNarrationAssistance">Das Tutorial hat keine Erzählhilfefunktion. Möchtest du das Tutorial überspringen?</string>
 	<string key="ui_genaprompt_upcomingmerge" rel_version="Feature_GameEntryNarrationAssistance">Hinweis zur bevorstehenden Weltenzusammenführung. Du hast einen oder mehrere Charaktere in Welten, die demnächst zusammengeführt werden. Drücke {ui_cancel} zum Schließen.</string>
 	<string key="ui_genaprompt_upcomingmerge_ps" rel_version="Feature_GameEntryNarrationAssistance">Hinweis zur bevorstehenden Weltenzusammenführung. Du hast einen oder mehrere Charaktere in Welten, die demnächst zusammengeführt werden. Drücke Kreis zum Schließen.</string>
 	<string key="ui_genaprompt_upcomingmerge_xb" rel_version="Feature_GameEntryNarrationAssistance">Hinweis zur bevorstehenden Weltenzusammenführung. Du hast einen oder mehrere Charaktere in Welten, die demnächst zusammengeführt werden. Drücke B zum Schließen.</string>
@@ -629,7 +631,5 @@
 	<string key="ui_modifier_keys" rel_version="Feature_Controller">Modifikatoren</string>
 	<string key="ui_housing" rel_version="Feature_Controller">Haus dekorieren</string>
 	<string key="ui_menu" rel_version="Feature_Controller">Menü</string>
-	<string key="ui_targetLock_volume">Lautstärke für Zielanvisierung</string>
-	<string key="ui_targetLock_volume_desc">Lege die Lautstärke für das erfolgreiche Anvisieren eines Ziels fest.</string>
 </resources>
 

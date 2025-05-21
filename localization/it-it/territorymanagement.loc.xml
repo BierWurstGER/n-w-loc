@@ -144,7 +144,7 @@
 	<string key="ui_amount_due">Importo dovuto</string>
 	<string key="ui_paid">Pagato</string>
 	<string key="ui_due_in">Da pagare entro</string>
-	<string key="ui_payment_successful">Pagamento effettuato!</string>
+	<string key="ui_payment_successful">Pagamento effettuato correttamente!</string>
 	<string key="ui_successfully_paid_message">Hai pagato correttamente la manutenzione per questo territorio</string>
 	<string key="ui_next_payment">PROSSIMO PAGAMENTO</string>
 	<string key="ui_since_date">Dal {date}</string>
@@ -163,7 +163,7 @@
 	<string key="ui_courier">Messaggero</string>
 	<string key="ui_creative">Creativa</string>
 	<string key="ui_explore">Esplora</string>
-	<string key="ui_raid">Incursione</string>
+	<string key="ui_raid">Razzia</string>
 	<string key="ui_loot">Recupera</string>
 	<string key="ui_hunt">Caccia</string>
 	<string key="ui_fish">Pesca</string>
@@ -475,6 +475,7 @@
 	<string key="ui_upgrade_desc_HornProjectId2">Migliora anche i corni da guerra esistenti.</string>
 	<string key="ui_upgrade_desc_ExplosiveProjectId">Migliora anche gli esplosivi esistenti.</string>
 	<string key="ui_upgrade_desc_ExplosiveProjectId2">Migliora anche gli esplosivi esistenti.</string>
+	<string key="ui_event_details_SpringtideBloom" rel_version="Event_SpringtideBloom_Temp">&lt;font color="#edc63e"&gt;Completa le missioni e le attività primaverili&lt;/font&gt; per aumentare la reputazione evento e guadagnare gettoni primaverili per accedere a tantissime ricompense esclusive! \n\n&lt;font color="#edc63e"&gt;Trova prati di esili boccioli e raccogli le rare e incantate infiorescenze per i figli dei germogli&lt;/font&gt;!\n\n&lt;font color="#edc63e"&gt;Produci bombe di semenza esile &lt;/font&gt;per sterminare le vespe meste a guardia degli esili boccioli!\n\n&lt;font color="#edc63e"&gt;Raccogli ricompense giornaliere&lt;/font&gt; dai mucchi di sacchi festivi in ogni villaggio primaverile!</string>
 	<string key="ui_event_project_endless">Infinito</string>
 	<string key="ui_territory_level">Livello del territorio: {level}</string>
 	<string key="ui_enter_house">Visualizza casa</string>
@@ -708,7 +709,7 @@
 	<string key="influence_top_players" rel_version="Feature_Influence_V2">MIGLIORI INDIVIDUI PER INFLUENZA</string>
 	<string key="influence_top_players_error" rel_version="Feature_Influence_V2">Errore nel caricamento dati del miglior giocatore</string>
 	<string key="influence_saved_amount" rel_version="Feature_Influence_V2">INFLUENZA SALVATA</string>
-	<string key="influence_war_eligible" rel_version="Feature_Influence_V2">VINCITORE</string>
+	<string key="influence_war_eligible" rel_version="Feature_Influence_V2">VINCITORE DELLA DICHIARAZIONE DI GUERRA</string>
 	<string key="influence_offensive_victory" rel_version="Feature_Influence_V2">VITTORIA OFFENSIVA</string>
 	<string key="influence_defensive_victory" rel_version="Feature_Influence_V2">VITTORIA DIFENSIVA</string>
 	<string key="influence_earned_amount" rel_version="Feature_Influence_V2">INFLUENZA OTTENUTA</string>
@@ -759,5 +760,7 @@
 	<string key="influence_myfaction_3" rel_version="Feature_Influence_V2">LA MIA FAZIONE: &lt;img src="lyshineui/images/crests/foregrounds/icon_faction_fg_3_colored_small" xPadding="0" scale="2" yOffset="15"&gt;&lt;/img&gt; &lt;font face="lyshineui/fonts/Pica_Regular.font" color="#edc63e"&gt;Patto&lt;/font&gt;</string>
 	<string key="influence_tower_ownership_title" rel_version="Feature_Influence_V2">PROPRIETÀ DELLA TORRE</string>
 	<string key="influence_view_previous_influence_race" rel_version="Feature_Influence_V2">Visualizza risultati Gara</string>
+	<string key="ui_territory_war_supply_rate">Velocità rifornimenti</string>
+	<string key="ui_territory_war_siege_limit">Limite assedio</string>
 </resources>
 

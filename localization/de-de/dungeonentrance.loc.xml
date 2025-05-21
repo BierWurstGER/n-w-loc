@@ -290,7 +290,6 @@
 	<string key="ui_dungeon_mutator_special_reward_tooltip" rel_version="Feature_Dungeon_Mutators">Schattensplitter erhältst du nach Abschluss der Expedition für deinen Rang.\n\nSchalte den nächsten Expeditionsschwierigkeitsgrad mit mindestens Silber-Rang frei.</string>
 	<string key="ui_dungeon_mutator_hud_points_shorthand" rel_version="Feature_Dungeon_Mutators">&lt;font color="#b2aea1" &gt;Pkt.&lt;/font&gt;</string>
 	<string key="ui_dungeon_mutator_difficulty_not_unlocked" rel_version="Feature_Dungeon_Mutators">Die Schwierigkeitsstufe wurde noch nicht freigeschaltet.</string>
-	<string key="ui_dungeon_mutator_level_not_met" rel_version="Feature_Dungeon_Mutators">Du erfüllst die Mindeststufen-Voraussetzung für diese Expedition nicht.</string>
 	<string key="Mut_Disease_1_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">Gegner verursachen bei Treffern eine stapelbare Krankheit, die die gewirkte Heilung pro Stapel um {[-0.025000 * -100]} % verringert.</string>
 	<string key="Mut_Disease_2_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">Gegner verursachen bei Treffern eine stapelbare Krankheit, die die gewirkte Heilung pro Stapel um {[-0.025000 * -100]}/{[-0.050000 * -100]} % verringert.</string>
 	<string key="Mut_RotatingBeam_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">Gegner wirken durchdringende Strahlen, die bei Berührung {[-0.3 * -100]} % Unheilsschaden verursachen.</string>
@@ -480,5 +479,6 @@
 	<string key="ui_elitetrial_banner_daily_count" rel_version="Season_2_Perm">{count}/{max} Täglich</string>
 	<string key="ui_elitetrial_banner_weekly_count" rel_version="Season_2_Perm">{count}/{max} Wöchentlich</string>
 	<string key="Respawn_EntranceNameTrial" rel_version="Trial_Brimstone_Sandworm">Eingang zur Prüfung</string>
+	<string key="ui_dungeon_level_not_met_solo">Du erfüllst die Mindeststufen-Voraussetzung für diese Seelenprüfung nicht.</string>
 </resources>
 

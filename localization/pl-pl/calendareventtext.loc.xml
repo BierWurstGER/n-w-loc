@@ -1,7 +1,6 @@
 <resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<string key="ui_news_button">Aktualności i wydarzenia</string>
 	<string key="ui_news_button_no_news">Brak dostępnych aktualności.</string>
-	<string key="ui_news_about">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; O wiadomościach</string>
 	<string key="ui_news_modal_display_start_date">Data rozpoczęcia: {startDate}</string>
 	<string key="ui_news_modal_display_end_date">Data zakończenia: {endDate}</string>
 	<string key="ui_news_modal_display_start_datetime">Data rozpoczęcia: {startTime}, {startDate}</string>
@@ -13,6 +12,10 @@
 	<string key="ui_event_summer_progress_name" rel_version="Event_Summer_Perm">Reputacja w wydarzeniu</string>
 	<string key="ui_event_halloween_progress_name" rel_version="Event_Halloween_Perm">Reputacja w wydarzeniu</string>
 	<string key="ui_event_spring_progress_name" rel_version="Event_SpringtideBloom_Perm">Reputacja w wydarzeniu</string>
+	<string key="ui_event_spring_rank_0" rel_version="Event_SpringtideBloom_Temp">Kwiat</string>
+	<string key="ui_event_spring_rank_1" rel_version="Event_SpringtideBloom_Temp">Pasterz</string>
+	<string key="ui_event_spring_rank_2" rel_version="Event_SpringtideBloom_Temp">Herold</string>
+	<string key="ui_event_spring_shop_header" rel_version="Event_SpringtideBloom_Temp">Wiosenny Kwiat</string>
 	<string key="ui_news_store_tabname">Sklep</string>
 	<string key="ui_news_expedition_tabname">Ekspedycja</string>
 	<string key="ui_news_expeditions_tabname">Ekspedycje</string>
@@ -49,6 +52,7 @@
 	<string key="ui_news_bullet_resources">Surowce</string>
 	<string key="ui_news_bullet_decor">Ozdoby</string>
 	<string key="ui_news_bullet_mounts" rel_version="Feature_Mounts">Wierzchowce</string>
+	<string key="ui_news_bullet_mount_skin" rel_version="Feature_Mounts">Skórka wierzchowca</string>
 	<string key="ui_news_bullet_mount_skins" rel_version="Feature_Mounts">Skórki wierzchowców</string>
 	<string key="ui_news_bullet_mount_attachments" rel_version="Feature_Mounts">Dodatki dla wierzchowca</string>
 	<string key="ui_news_bullet_artifact" rel_version="Feature_Artifacts">Artefakt</string>
@@ -56,27 +60,19 @@
 	<string key="ui_news_bullet_transmog_tokens" rel_version="Season_2_Perm">Żetony przemiany</string>
 	<string key="ui_news_bullet_instrument_skins">Skórki instrumentów</string>
 	<string key="ui_news_bullet_housing_trophy">Trofeum domowe</string>
-	<string key="ui_event_weapon_xp_tabname">Wydarzenie dot. PD</string>
+	<string key="ui_news_bullet_apparel_skin">Skórka ubioru</string>
+	<string key="ui_news_bullet_apparel_skins">Skórki ubioru</string>
 	<string key="ui_event_weapon_xp_title">WYDARZENIE Z PREMIĄ PD DO BRONI</string>
-	<string key="ui_event_weapon_xp_desc">Aktywne premie:</string>
-	<string key="ui_event_gathering_xp_tabname">Wydarzenie dot. PD</string>
 	<string key="ui_event_gathering_xp_title">WYDARZENIE Z PREMIĄ PD DO ZBIERACTWA</string>
-	<string key="ui_event_gathering_xp_desc">Aktywne premie:</string>
-	<string key="ui_event_character_xp_tabname">Wydarzenie dot. PD</string>
 	<string key="ui_event_character_xp_title">WYDARZENIE Z PREMIĄ PD DO POZIOMU POSTACI</string>
-	<string key="ui_event_character_xp_desc">Aktywne premie:</string>
-	<string key="ui_event_refining_xp_tabname">Wydarzenie dot. PD</string>
 	<string key="ui_event_refining_xp_title">WYDARZENIE Z PREMIĄ PD DO PRZETWARZANIA</string>
-	<string key="ui_event_refining_xp_desc">Aktywne premie:</string>
-	<string key="ui_event_extravaganza_tabname">Wydarzenie dot. PD</string>
 	<string key="ui_event_extravaganza_title">ŚWIĘTO PD</string>
-	<string key="ui_event_extravaganza_desc">Aktywne premie:</string>
 	<string key="ui_news_end_game_tabname">Końcowa faza gry</string>
 	<string key="ui_news_end_game_description">Na 60. poziomie możesz &lt;font color="#edc63e"&gt;ulepszać swoje wyposażenie&lt;/font&gt;, zwiększając liczbę punktów wyposażenia. By to zrobić, musisz zdobyć gips w lokacjach i podczas aktywności przeznaczonych dla postaci na 60. poziomie. Odwiedź &lt;font color="#edc63e"&gt;piec do obróbki gipsu&lt;/font&gt;, by dowiedzieć się więcej.</string>
 	<string key="ui_end_game_panel1_title">AKTYWNOŚCI KOŃCOWEJ FAZY GRY</string>
 	<string key="ui_end_game_panel1_bullet1_title">Ekspedycje końcowej fazy gry</string>
 	<string key="ui_end_game_panel1_bullet2_title">Napad na posterunek</string>
-	<string key="ui_end_game_panel1_bullet3_title">Elitarne lokacje</string>
+	<string key="ui_end_game_panel1_bullet3_title">Elitarne obszary</string>
 	<string key="ui_end_game_button_about" rel_version="PvP_Rewards_Track">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="1"&gt;&lt;/img&gt; Aktywności końcowej fazy gry</string>
 	<string key="ui_event_console_beta_preorder_tabname">Przedsprzedaż</string>
 	<string key="ui_event_console_beta_preorder_title">Zamów w przedsprzedaży, by otrzymać wilczego wierzchowca – Azothowego Prześladowcę.</string>
@@ -91,8 +87,8 @@
 	<string key="ui_event_console_beta_preorder_news_bullet_azoth_stalker">Azothowy Prześladowca</string>
 	<string key="ui_event_console_beta_preorder_news_bullet_mount_skins_deluxe">Skórki wierzchowców\n(Deluxe)</string>
 	<string key="ui_event_console_beta_preorder_news_bullet_armor_skins_deluxe">Skórki pancerzy\n(Deluxe)</string>
-	<string key="ui_event_season_seven_title" comment="DO NOT TRANSLATE" rel_version="Season_7_Perm">Sezon zdobywców</string>
-	<string key="ui_event_season_seven_description" comment="DO NOT TRANSLATE" rel_version="Season_7_Perm">Zacznij od początku i zawalcz o dominację na unikalnym sezonowym serwerze, na którym promowana jest rywalizacja gracz kontra gracz. Zdobądź nowe artefakty, skórki i nie tylko na ścieżce nagród sezonu zdobywców.</string>
+	<string key="ui_event_season_seven_title" rel_version="Season_7_Perm">Sezon zdobywców</string>
+	<string key="ui_event_season_seven_description" rel_version="Season_7_Perm">Zacznij od początku i zawalcz o dominację na unikalnym sezonowym serwerze, na którym promowana jest rywalizacja gracz kontra gracz. Zdobądź nowe artefakty, skórki i nie tylko na ścieżce nagród sezonu zdobywców.</string>
 	<string key="ui_event_season_seven_about" comment="DO NOT TRANSLATE" rel_version="Season_7_Perm">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; About Season 7 Placeholder</string>
 	<string key="ui_news_rise_of_the_angry_earth_expansion_title">Odkryj wszystko, co ma do zaoferowania Aeternum</string>
 	<string key="ui_news_rise_of_the_angry_earth_expansion_description">Zdobądź pełne doświadczenie New World: Aeternum.\n\nGracze na komputerach, którzy posiadają rozszerzenie Powstanie wściekłej ziemi, uzyskają dostęp do wszystkich funkcji New World: Aeternum, w tym głównych dodatków, takich jak:</string>
@@ -101,12 +97,30 @@
 	<string key="ui_news_rise_of_the_angry_earth_expansion_icon2">Kiścień</string>
 	<string key="ui_news_rise_of_the_angry_earth_expansion_icon3">Najazd dla 10 graczy</string>
 	<string key="ui_news_rise_of_the_angry_earth_expansion_purchase_button">Kup teraz</string>
+	<string key="ui_event_siege_of_sulfur_title_2025">Siarkowe Oblężenie</string>
+	<string key="ui_event_siege_of_sulfur_description_2025">Magowie Krwi Pustyni Szarifa są atakowani! Podczas transportu cennych jaj Piaskala do bezpiecznych miejsc wokół Aeternum magowie ci zostali zaatakowani przez siły Adiany. Rozwścieczone siarkowe żywiołaki próbują zniszczyć jaja i wyeliminować Piaskale z Aeternum. Ochroń jaja i zdobądź cenne nagrody, w tym potężne wyposażenie oraz skwierczące przedmioty domowe i kosmetyczne.</string>
+	<string key="ui_event_legacy_of_crassus_title_2025">Dziedzictwo Krassusa</string>
+	<string key="ui_event_legacy_of_crassus_description_2025">Krassus powraca, a wraz z nim jego potworny legion! Zbierz swą armię i walcz z brutalnymi kapitanami Decimusem i Lukanem w Lśniącej Kniei, Żałobnicy, Czarnej Łusce i na Tkackich Mokradłach. Odeprzyj rzymski najazd i zwalcz mroczny chwyt skażenia w imię honoru, chwały i ograniczonych czasowo nagród!</string>
+	<string key="ui_event_rabbits_revenge_title_2025">Królicza zemsta!</string>
+	<string key="ui_event_rabbits_revenge_description_2025">Skażone króliki rozpanoszyły się po całym Aeternum! Wypleń te skażone bestie i zgarnij dzikie nagrody.</string>
+	<string key="ui_event_valkyrie_title" rel_version="Entitlements_Valkyrie">Walkiria</string>
+	<string key="ui_event_valkyrie_description" rel_version="Entitlements_Valkyrie">Dostępna jest nowa zawartość nawiązująca do potężnych walkirii! Załóż pancerz decydujący o tym, kto zginie, a kto przeżyje na polu walki.</string>
+	<string key="ui_event_valkyrie_about" rel_version="Entitlements_Valkyrie">Informacje o walkirii</string>
+	<string key="ui_event_barbarian_title" rel_version="Entitlements_Barbarian">Barbaria</string>
+	<string key="ui_event_barbarian_description" rel_version="Entitlements_Barbarian">Dostępna jest nowa, barbarzyńska zawartość! Jeśli napotkasz problem, użyj topora. W razie konieczności powtórz.</string>
+	<string key="ui_event_barbarian_about" rel_version="Entitlements_Barbarian">Informacje o barbarii</string>
+	<string key="ui_event_thick_as_thieves_title" rel_version="Entitlements_ThickThieves">Nierozłączni</string>
+	<string key="ui_event_thick_as_thieves_description" rel_version="Entitlements_ThickThieves">Tylko najbardziej zaufani wkraczają między cienie. Tylko najlepsi wychodzą stamtąd bez szwanku. Włóż ubiór stworzony dla tych, którzy są nierozłączni. Dostępna jest nowa, nierozłączna zawartość!</string>
+	<string key="ui_event_thick_as_thieves_about" rel_version="Entitlements_ThickThieves">Informacje o nierozłącznych</string>
 	<string key="ui_event_legacy_of_crassus_title">Dziedzictwo Krassusa</string>
-	<string key="ui_event_legacy_of_crassus_description">Krassus powraca, a wraz z nim jego potworny legion! Zbierz swą armię i walcz z brutalnymi kapitanami Decimusem i Lukanem w Lśniącej Kniei, Żałobnicy, Rajskim Gaju, Czarnej Łusce i na Tkackich Mokradłach. Odeprzyj rzymski najazd i zwalcz mroczny chwyt skażenia w imię honoru, chwały i ograniczonych czasowo nagród!</string>
+	<string key="ui_event_legacy_of_crassus_description">Krassus powraca, a wraz z nim jego potworny legion! Zbierz swą armię i walcz z brutalnymi kapitanami Decimusem i Lukanem w Lśniącej Kniei, Żałobnicy, Czarnej Łusce i na Tkackich Mokradłach. Odeprzyj rzymski najazd i zwalcz mroczny chwyt skażenia w imię honoru, chwały i ograniczonych czasowo nagród!</string>
 	<string key="ui_event_legacy_of_crassus_bullet1">Kilof legionu</string>
 	<string key="ui_event_legacy_of_crassus_bullet2">Posąg Decimusa</string>
 	<string key="ui_event_legacy_of_crassus_bullet3">Posąg Lukana</string>
 	<string key="ui_event_legacy_of_crassus_about">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; O Dziedzictwie Krassusa</string>
+	<string key="ui_event_springtide_bloom_title" rel_version="Event_SpringtideBloom_Temp">Gdzie kwitnie kwiat, musi być wiosna!</string>
+	<string key="ui_event_springtide_bloom_description" rel_version="Event_SpringtideBloom_Temp">Coroczne kwitnięcie duszkokwiatów właśnie się zaczęło! Świętuj ten magiczny czas, zbierając płatki duszokwiatów, a następnie odwiedź wiosenną wioskę, by odebrać unikatowe i potężne nagrody. Tylko nie zapomnij środków odstraszających te nieznośne duszkowe osy!</string>
+	<string key="ui_event_springtide_bloom_about" rel_version="Event_SpringtideBloom_Temp">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Informacje o Wiosennym Kwiecie</string>
 	<string key="ui_event_rabbits_revenge_title">Królicza zemsta!</string>
 	<string key="ui_event_rabbits_revenge_description">Skażone króliki rozpanoszyły się po całym Aeternum! Wypleń te skażone bestie i zgarnij dzikie nagrody.</string>
 	<string key="ui_event_rabbits_revenge_about">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Informacje o Króliczej zemście</string>
@@ -136,23 +150,5 @@
 	<string key="ui_event_winter_convergence_title">Zimowa Konwergencja</string>
 	<string key="ui_event_winter_convergence_description">Zimowy Wojownik i jego lodowe sługusy ponownie wylądowali na Aeternum, a wraz z nimi mrożąca krew w żyłach groźba wiecznej zimy! Zbierz znajomych i wspólnie wnieście nieco ciepła i radości Konwergencji, by zwalczyć dotkliwy mróz, a następnie poszukajcie wesołego Zimowego Wędrowca w zimowych wioskach całego Aeternum, by zdobyć cenne i ograniczone czasowo nagrody!</string>
 	<string key="ui_event_winter_convergence_about">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; O Zimowej Konwergencji</string>
-	<string key="ui_event_valkyrie_title">Walkiria</string>
-	<string key="ui_news_bullet_apparel_skin">Skórka ubioru</string>
-	<string key="ui_event_barbarian_title">Barbaria</string>
-	<string key="ui_event_siege_of_sulfur_description_2025">Magowie Krwi Pustyni Szarifa są atakowani! Podczas transportu cennych jaj Piaskala do bezpiecznych miejsc wokół Aeternum magowie ci zostali zaatakowani przez siły Adiany. Rozwścieczone siarkowe żywiołaki próbują zniszczyć jaja i wyeliminować Piaskale z Aeternum. Ochroń jaja i zdobądź cenne nagrody, w tym potężne wyposażenie oraz skwierczące przedmioty domowe i kosmetyczne.</string>
-	<string key="ui_event_rabbits_revenge_description_2025">Skażone króliki rozpanoszyły się po całym Aeternum! Wypleń te skażone bestie i zgarnij dzikie nagrody.</string>
-	<string key="ui_event_rabbits_revenge_title_2025">Królicza zemsta!</string>
-	<string key="ui_event_siege_of_sulfur_title_2025">Siarkowe Oblężenie</string>
-	<string key="ui_event_barbarian_about">Informacje o barbarii</string>
-	<string key="ui_event_barbarian_description">Dostępna jest nowa, barbarzyńska zawartość! Jeśli napotkasz problem, użyj topora. W razie konieczności powtórz.</string>
-	<string key="ui_event_thick_as_thieves_title">Nierozłączni</string>
-	<string key="ui_event_legacy_of_crassus_title_2025">Dziedzictwo Krassusa</string>
-	<string key="ui_news_bullet_mount_skin">Skórka wierzchowca</string>
-	<string key="ui_event_valkyrie_about">Informacje o walkirii</string>
-	<string key="ui_event_legacy_of_crassus_description_2025">Krassus powraca, a wraz z nim jego potworny legion! Zbierz swą armię i walcz z brutalnymi kapitanami Decimusem i Lukanem w Lśniącej Kniei, Żałobnicy, Czarnej Łusce i na Tkackich Mokradłach. Odeprzyj rzymski najazd i zwalcz mroczny chwyt skażenia w imię honoru, chwały i ograniczonych czasowo nagród!</string>
-	<string key="ui_news_bullet_apparel_skins">Skórki ubioru</string>
-	<string key="ui_event_thick_as_thieves_description">Tylko najbardziej zaufani wkraczają między cienie. Tylko najlepsi wychodzą stamtąd bez szwanku. Włóż ubiór stworzony dla tych, którzy są nierozłączni. Dostępna jest nowa, nierozłączna zawartość!</string>
-	<string key="ui_event_valkyrie_description">Dostępna jest nowa zawartość nawiązująca do potężnych walkirii! Załóż pancerz decydujący o tym, kto zginie, a kto przeżyje na polu walki.</string>
-	<string key="ui_event_thick_as_thieves_about">Informacje o nierozłącznych</string>
 </resources>
 

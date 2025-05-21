@@ -226,6 +226,8 @@
 	<string key="ui_vocalsvolume_desc">Imposta volume delle voci</string>
 	<string key="ui_vovolume">Volume dialoghi</string>
 	<string key="ui_vovolume_desc">Imposta volume dei dialoghi</string>
+	<string key="ui_targetLock_volume">Volume Blocco bersaglio</string>
+	<string key="ui_targetLock_volume_desc">Imposta il volume dell'indicatore del Blocco bersaglio</string>
 	<string key="ui_musicvolume">Volume musica</string>
 	<string key="ui_musicvolume_desc">Imposta volume della musica</string>
 	<string key="ui_ambientmusicvolume">Volume musica ambientale</string>
@@ -352,8 +354,8 @@
 	<string key="ui_selfCorrectingFollowCam_desc" rel_version="Feature_SelfCorrectingFollowCam">La telecamera ruoterà lentamente per posizionarsi direttamente dietro al giocatore quando questo si sposta.</string>
 	<string key="ui_alwaysShowReticle">Mostra sempre mirino</string>
 	<string key="ui_alwaysShowReticle_desc">Stabilisci se rendere visibile il mirino anche quando l'arma non è estratta</string>
-	<string key="ui_toggleblockads">Premi per mirare e parare</string>
-	<string key="ui_toggleblockads_desc">Scegli se preferisci premere oppure tenere premuto il tasto per mirare e parare</string>
+	<string key="ui_toggleblockads">Tocca per Mira e Parata</string>
+	<string key="ui_toggleblockads_desc">Stabilisci se attivare Mira e Parata toccando i comandi corrispondenti invece di tenerli premuti</string>
 	<string key="ui_enable_ally_team_color_tinting">Colorazione squadra alleata</string>
 	<string key="ui_enable_enemy_team_color_tinting">Colorazione squadra nemica</string>
 	<string key="ui_enable_ally_team_color_tinting_desc">Stabilisci se impostare una colorazione per la squadra alleata nelle varie modalità di gioco</string>
@@ -608,15 +610,15 @@
 	<string key="ui_hud_scale">Scalada HUD</string>
 	<string key="ui_hud_scale_desc">Moltiplicatore percentuale per la dimensione degli elementi dell'HUD</string>
 	<string key="ui_hud_margin">Margini HUD</string>
-	<string key="ui_hud_margin_desc">Opzioni per regolare l'estensione dell'HUD</string>
+	<string key="ui_hud_margin_desc">Opzioni per regolare i confini di estensione dell'HUD</string>
 	<string key="ui_hud_margin_top">Margine superiore HUD</string>
-	<string key="ui_hud_margin_top_desc">Percentuale di schermo in base a cui spingere verso l'interno la parte superiore dell'HUD</string>
+	<string key="ui_hud_margin_top_desc">Percentuale dello schermo per spostare il margine superiore dell'HUD verso l'interno</string>
 	<string key="ui_hud_margin_right">Margine destro HUD</string>
-	<string key="ui_hud_margin_right_desc">Percentuale di schermo in base a cui spingere verso l'interno la parte destra dell'HUD</string>
+	<string key="ui_hud_margin_right_desc">Percentuale dello schermo per spostare il margine destro dell'HUD verso l'interno</string>
 	<string key="ui_hud_margin_bottom">Margine inferiore HUD</string>
-	<string key="ui_hud_margin_bottom_desc">Percentuale di schermo in base a cui spingere verso l'interno la parte inferiore dell'HUD</string>
+	<string key="ui_hud_margin_bottom_desc">Percentuale dello schermo per spostare il margine inferiore dell'HUD verso l'interno.</string>
 	<string key="ui_hud_margin_left">Margine sinistro HUD</string>
-	<string key="ui_hud_margin_left_desc">Percentuale di schermo in base a cui spingere verso l'interno la parte sinistra dell'HUD</string>
+	<string key="ui_hud_margin_left_desc">Percentuale dello schermo per spostare il margine sinistro dell'HUD verso l'interno.</string>
 	<string key="ui_reticle_color_white">Bianco</string>
 	<string key="ui_reticle_color_red">Rosso</string>
 	<string key="ui_reticle_color_orange">Arancione</string>
@@ -629,7 +631,5 @@
 	<string key="ui_modifier_keys" rel_version="Feature_Controller">Modificatori</string>
 	<string key="ui_housing" rel_version="Feature_Controller">Decora casa</string>
 	<string key="ui_menu" rel_version="Feature_Controller">Menu</string>
-	<string key="ui_targetLock_volume">Volume Blocco bersaglio</string>
-	<string key="ui_targetLock_volume_desc">Imposta il volume dell'indicatore del Blocco bersaglio</string>
 </resources>
 

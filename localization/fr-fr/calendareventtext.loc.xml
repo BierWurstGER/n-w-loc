@@ -1,7 +1,6 @@
 <resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<string key="ui_news_button">Actualités et événements</string>
 	<string key="ui_news_button_no_news">Aucune nouvelle actualité disponible.</string>
-	<string key="ui_news_about">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; À propos de l'actualité</string>
 	<string key="ui_news_modal_display_start_date">Commence le {startDate}</string>
 	<string key="ui_news_modal_display_end_date">Se termine le {endDate}</string>
 	<string key="ui_news_modal_display_start_datetime">Commence à {startTime} le {startDate}</string>
@@ -13,6 +12,10 @@
 	<string key="ui_event_summer_progress_name" rel_version="Event_Summer_Perm">Réputation de l'événement</string>
 	<string key="ui_event_halloween_progress_name" rel_version="Event_Halloween_Perm">Réputation de l'événement</string>
 	<string key="ui_event_spring_progress_name" rel_version="Event_SpringtideBloom_Perm">Réputation de l'événement</string>
+	<string key="ui_event_spring_rank_0" rel_version="Event_SpringtideBloom_Temp">Fleur</string>
+	<string key="ui_event_spring_rank_1" rel_version="Event_SpringtideBloom_Temp">Berger</string>
+	<string key="ui_event_spring_rank_2" rel_version="Event_SpringtideBloom_Temp">Héraut</string>
+	<string key="ui_event_spring_shop_header" rel_version="Event_SpringtideBloom_Temp">Floraison printanière</string>
 	<string key="ui_news_store_tabname">Boutique</string>
 	<string key="ui_news_expedition_tabname">Expédition</string>
 	<string key="ui_news_expeditions_tabname">Expéditions</string>
@@ -49,6 +52,7 @@
 	<string key="ui_news_bullet_resources">Ressources</string>
 	<string key="ui_news_bullet_decor">Décoration</string>
 	<string key="ui_news_bullet_mounts" rel_version="Feature_Mounts">Montures</string>
+	<string key="ui_news_bullet_mount_skin" rel_version="Feature_Mounts">Apparence de monture</string>
 	<string key="ui_news_bullet_mount_skins" rel_version="Feature_Mounts">Apparences de monture</string>
 	<string key="ui_news_bullet_mount_attachments" rel_version="Feature_Mounts">Accessoires de monture</string>
 	<string key="ui_news_bullet_artifact" rel_version="Feature_Artifacts">Artéfact</string>
@@ -56,21 +60,13 @@
 	<string key="ui_news_bullet_transmog_tokens" rel_version="Season_2_Perm">Jetons de transmogrification</string>
 	<string key="ui_news_bullet_instrument_skins">Apparences d'instrument</string>
 	<string key="ui_news_bullet_housing_trophy">Trophée (logement)</string>
-	<string key="ui_event_weapon_xp_tabname">Événement d'EXP</string>
+	<string key="ui_news_bullet_apparel_skin">Apparence de vêtement</string>
+	<string key="ui_news_bullet_apparel_skins">Apparences de vêtement</string>
 	<string key="ui_event_weapon_xp_title">ÉVÉNEMENT BONUS D'EXP D'ARME</string>
-	<string key="ui_event_weapon_xp_desc">Bonus actifs :</string>
-	<string key="ui_event_gathering_xp_tabname">Événement d'EXP</string>
 	<string key="ui_event_gathering_xp_title">ÉVÉNEMENT BONUS D'EXP D'EXPLOITATION</string>
-	<string key="ui_event_gathering_xp_desc">Bonus actifs :</string>
-	<string key="ui_event_character_xp_tabname">Événement d'EXP</string>
 	<string key="ui_event_character_xp_title">ÉVÉNEMENT BONUS D'EXP DE NIVEAU</string>
-	<string key="ui_event_character_xp_desc">Bonus actifs :</string>
-	<string key="ui_event_refining_xp_tabname">Événement d'EXP</string>
 	<string key="ui_event_refining_xp_title">ÉVÉNEMENT BONUS D'EXP DE TRANSFORMATION</string>
-	<string key="ui_event_refining_xp_desc">Bonus actifs :</string>
-	<string key="ui_event_extravaganza_tabname">Événement d'EXP</string>
 	<string key="ui_event_extravaganza_title">LA FÊTE DES BONUS D'EXP</string>
-	<string key="ui_event_extravaganza_desc">Bonus actifs :</string>
 	<string key="ui_news_end_game_tabname">Fin de jeu</string>
 	<string key="ui_news_end_game_description">Au niveau 60, vous pouvez&lt;font color="#edc63e"&gt; améliorer votre équipement &lt;/font&gt;à des scores d'équipement plus élevés. Pour ce faire, vous devrez récupérer du gypse via divers lieux et activités de niveau 60. Rendez-vous à un&lt;font color="#edc63e"&gt; four à gypses &lt;/font&gt;pour en savoir plus.</string>
 	<string key="ui_end_game_panel1_title">ACTIVITÉS DE FIN DE JEU</string>
@@ -91,8 +87,8 @@
 	<string key="ui_event_console_beta_preorder_news_bullet_azoth_stalker">Traqueur d'Azoth</string>
 	<string key="ui_event_console_beta_preorder_news_bullet_mount_skins_deluxe">Apparences de monture\n(Deluxe)</string>
 	<string key="ui_event_console_beta_preorder_news_bullet_armor_skins_deluxe">Apparences d'armure\n(Deluxe)</string>
-	<string key="ui_event_season_seven_title" comment="DO NOT TRANSLATE" rel_version="Season_7_Perm">Saison des conquérants</string>
-	<string key="ui_event_season_seven_description" comment="DO NOT TRANSLATE" rel_version="Season_7_Perm">Prenez un nouveau départ et luttez pour la domination dans un serveur saisonnier unique encourageant les combats joueur contre joueur. Gagnez une profusion de nouveaux artéfacts, apparences et bien d'autres choses dans la chaîne de récompenses de la Saison des conquérants.</string>
+	<string key="ui_event_season_seven_title" rel_version="Season_7_Perm">Saison des conquérants</string>
+	<string key="ui_event_season_seven_description" rel_version="Season_7_Perm">Prenez un nouveau départ et luttez pour la domination dans un serveur saisonnier unique encourageant les combats joueur contre joueur. Gagnez une profusion de nouveaux artéfacts, apparences et bien d'autres choses dans la chaîne de récompenses de la Saison des conquérants.</string>
 	<string key="ui_event_season_seven_about" comment="DO NOT TRANSLATE" rel_version="Season_7_Perm">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; About Season 7 Placeholder</string>
 	<string key="ui_news_rise_of_the_angry_earth_expansion_title">Découvrez tout ce qu’Aeternum peut offrir</string>
 	<string key="ui_news_rise_of_the_angry_earth_expansion_description">Vivez l’expérience complète de New World: Aeternum.\n\nLes joueurs PC qui ont l’extension Le réveil de la Terre enragée ont accès à toutes les fonctionnalités de New World: Aeternum, cela inclut des ajouts majeurs comme :</string>
@@ -101,12 +97,30 @@
 	<string key="ui_news_rise_of_the_angry_earth_expansion_icon2">Fléau</string>
 	<string key="ui_news_rise_of_the_angry_earth_expansion_icon3">Raid à 10 joueurs</string>
 	<string key="ui_news_rise_of_the_angry_earth_expansion_purchase_button">Acheter</string>
+	<string key="ui_event_siege_of_sulfur_title_2025">Siège de soufre</string>
+	<string key="ui_event_siege_of_sulfur_description_2025">Les mages du Sang des sables de Sharif sont attaqués ! Alors qu’ils transportaient de précieux œufs de ver des sables pour sécuriser les lieux autour d’Aeternum, ces mages ont été attaqués par les forces d’Adiana. Les élémentaires de soufre enragés tentent de détruire les œufs et d’éradiquer les vers d’Aeternum. Défendez les œufs et gagnez de précieuses récompenses, incluant de l’équipement puissant ainsi que d'ardents objets domestiques et cosmétiques.</string>
+	<string key="ui_event_legacy_of_crassus_title_2025">Héritage de Crassus</string>
+	<string key="ui_event_legacy_of_crassus_description_2025">Crassus et sa légion monstrueuse sont de retour ! Ralliez vos forces et combattez les brutaux capitaines Decimus et Lucanus à Boisclair, au Val des Larmes, au marais des Trames et au bief de Nerécaille. Repoussez l'assaut romain et triomphez de l'altération pour l'honneur, la gloire et des récompenses limitées dans le temps !</string>
+	<string key="ui_event_rabbits_revenge_title_2025">La Vengeance du lapin !</string>
+	<string key="ui_event_rabbits_revenge_description_2025">Les lapins altérés ont envahi Aeternum ! Éradiquez l'altération et obtenez des récompenses féroces.</string>
+	<string key="ui_event_valkyrie_title" rel_version="Entitlements_Valkyrie">Valkyrie</string>
+	<string key="ui_event_valkyrie_description" rel_version="Entitlements_Valkyrie">Le nouveau contenu sur le thème de la Valkyrie est disponible ! Revêtez l'armure qui choisit ceux qui vont mourir au combat et ceux qui vivront.</string>
+	<string key="ui_event_valkyrie_about" rel_version="Entitlements_Valkyrie">À propos de la Valkyrie</string>
+	<string key="ui_event_barbarian_title" rel_version="Entitlements_Barbarian">Barbare</string>
+	<string key="ui_event_barbarian_description" rel_version="Entitlements_Barbarian">Le nouveau contenu sur le thème du Barbare est disponible ! Appliquez la hache à la source du problème. Répétez si nécessaire.</string>
+	<string key="ui_event_barbarian_about" rel_version="Entitlements_Barbarian">À propos du Barbare</string>
+	<string key="ui_event_thick_as_thieves_title" rel_version="Entitlements_ThickThieves">Voleurs et compagnie</string>
+	<string key="ui_event_thick_as_thieves_description" rel_version="Entitlements_ThickThieves">Seuls ceux qui ne doutent de rien se glissent dans les ombres, seuls les plus talentueux en ressortent indemnes. Revêtez les vêtements forgés pour ceux qui ont l'âme de voleurs. Le nouveau contenu sur le thème des voleurs est disponible !</string>
+	<string key="ui_event_thick_as_thieves_about" rel_version="Entitlements_ThickThieves">À propos de Voleurs et compagnie</string>
 	<string key="ui_event_legacy_of_crassus_title">Héritage de Crassus</string>
-	<string key="ui_event_legacy_of_crassus_description">Crassus et sa légion monstrueuse sont de retour ! Ralliez vos forces et combattez les brutaux capitaines Decimus et Lucanus à Boisclair, au Val des Larmes, au marais des Trames, à Bois-Éden et au bief de Nerécaille. Repoussez l'assaut romain et triomphez de l'altération pour l'honneur, la gloire et des récompenses limitées dans le temps !</string>
+	<string key="ui_event_legacy_of_crassus_description">Crassus et sa légion monstrueuse sont de retour ! Ralliez vos forces et combattez les brutaux capitaines Decimus et Lucanus à Boisclair, au Val des Larmes, au marais des Trames et au bief de Nerécaille. Repoussez l'assaut romain et triomphez de l'altération pour l'honneur, la gloire et des récompenses limitées dans le temps !</string>
 	<string key="ui_event_legacy_of_crassus_bullet1">Pioche de la Légion</string>
 	<string key="ui_event_legacy_of_crassus_bullet2">Statue de Decimus</string>
 	<string key="ui_event_legacy_of_crassus_bullet3">Statue de Lucanus</string>
 	<string key="ui_event_legacy_of_crassus_about">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; À propos de l'Héritage de Crassus</string>
+	<string key="ui_event_springtide_bloom_title" rel_version="Event_SpringtideBloom_Temp">C'est le printemps !</string>
+	<string key="ui_event_springtide_bloom_description" rel_version="Event_SpringtideBloom_Temp">La saison de l'éclosion des floraisons vaporeuses est arrivée ! Célébrez cette période magique en récoltant leurs pétales, puis rendez-vous au village de la Floraison printanière pour récupérer des récompenses inédites et exceptionnelles. N'oubliez pas de vous munir d'un répulsif contre les vilaines guêpes vaporeuses !</string>
+	<string key="ui_event_springtide_bloom_about" rel_version="Event_SpringtideBloom_Temp">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; À propos de la Floraison printanière</string>
 	<string key="ui_event_rabbits_revenge_title">La Vengeance du lapin !</string>
 	<string key="ui_event_rabbits_revenge_description">Les lapins altérés ont envahi Aeternum ! Éradiquez l'altération et obtenez des récompenses féroces.</string>
 	<string key="ui_event_rabbits_revenge_about">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; À propos de la Vengeance du lapin</string>
@@ -136,23 +150,5 @@
 	<string key="ui_event_winter_convergence_title">La Convergence hivernale</string>
 	<string key="ui_event_winter_convergence_description">Le guerrier de l'hiver et ses sbires gelés descendent une fois de plus en Aeternum, et la menace glacée d'un hiver éternel les accompagne ! Rassemblez vos amis et répandez la chaleur et la joie de la Convergence pour repousser le froid polaire, puis cherchez le jovial nomade de l'hiver dans les villages d'hiver dispersés dans tout Aeternum pour recevoir de nombreuses récompenses limitées dans le temps.</string>
 	<string key="ui_event_winter_convergence_about">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; À propos de la Convergence hivernale</string>
-	<string key="ui_event_valkyrie_title">Valkyrie</string>
-	<string key="ui_news_bullet_apparel_skin">Apparence de vêtement</string>
-	<string key="ui_event_barbarian_title">Barbare</string>
-	<string key="ui_event_siege_of_sulfur_description_2025">Les mages du Sang des sables de Sharif sont attaqués ! Alors qu’ils transportaient de précieux œufs de ver des sables pour sécuriser les lieux autour d’Aeternum, ces mages ont été attaqués par les forces d’Adiana. Les élémentaires de soufre enragés tentent de détruire les œufs et d’éradiquer les vers d’Aeternum. Défendez les œufs et gagnez de précieuses récompenses, incluant de l’équipement puissant ainsi que d'ardents objets domestiques et cosmétiques.</string>
-	<string key="ui_event_rabbits_revenge_description_2025">Les lapins altérés ont envahi Aeternum ! Éradiquez l'altération et obtenez des récompenses féroces.</string>
-	<string key="ui_event_rabbits_revenge_title_2025">La Vengeance du lapin !</string>
-	<string key="ui_event_siege_of_sulfur_title_2025">Siège de soufre</string>
-	<string key="ui_event_barbarian_about">À propos du Barbare</string>
-	<string key="ui_event_barbarian_description">Le nouveau contenu sur le thème du Barbare est disponible ! Appliquez la hache à la source du problème. Répétez si nécessaire.</string>
-	<string key="ui_event_thick_as_thieves_title">Voleurs et compagnie</string>
-	<string key="ui_event_legacy_of_crassus_title_2025">Héritage de Crassus</string>
-	<string key="ui_news_bullet_mount_skin">Apparence de monture</string>
-	<string key="ui_event_valkyrie_about">À propos de la Valkyrie</string>
-	<string key="ui_event_legacy_of_crassus_description_2025">Crassus et sa légion monstrueuse sont de retour ! Ralliez vos forces et combattez les brutaux capitaines Decimus et Lucanus à Boisclair, au Val des Larmes, au marais des Trames et au bief de Nerécaille. Repoussez l'assaut romain et triomphez de l'altération pour l'honneur, la gloire et des récompenses limitées dans le temps !</string>
-	<string key="ui_news_bullet_apparel_skins">Apparences de vêtement</string>
-	<string key="ui_event_thick_as_thieves_description">Seuls ceux qui ne doutent de rien se glissent dans les ombres, seuls les plus talentueux en ressortent indemnes. Revêtez les vêtements forgés pour ceux qui ont l'âme de voleurs. Le nouveau contenu sur le thème des voleurs est disponible !</string>
-	<string key="ui_event_valkyrie_description">Le nouveau contenu sur le thème de la Valkyrie est disponible ! Revêtez l'armure qui choisit ceux qui vont mourir au combat et ceux qui vivront.</string>
-	<string key="ui_event_thick_as_thieves_about">À propos de Voleurs et compagnie</string>
 </resources>
 

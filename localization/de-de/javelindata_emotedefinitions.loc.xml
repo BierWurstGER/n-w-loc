@@ -59,7 +59,7 @@
 	<string key="emote_command_tooltip">Nach Verwendung dieser Lizenz kannst du das Emote im Emotes-Menü auswählen.</string>
 	<string key="ui_emote">Emote</string>
 	<string key="ui_emotes">Emotes</string>
-	<string key="ui_emote_unavailable_reason">Voraussetzung für dieses Emote: {entitlementRequirements}</string>
+	<string key="ui_emote_unavailable_reason">Voraussetzung für dieses Emote: {entitlementRequirements}.</string>
 	<string key="ui_emote_unavailable">&lt;font color="#ff7171"&gt;Dieses Emote ist nicht verfügbar.&lt;/font&gt;</string>
 	<string key="ui_emote_BlowKiss">Luftkuss</string>
 	<string key="ui_emote_PiratePose">Piratenhaltung</string>
@@ -86,7 +86,7 @@
 	<string key="ui_emote_sit">Hinsetzen</string>
 	<string key="ui_emote_flex">Muskeln spielen lassen</string>
 	<string key="ui_emote_flex2">Muskeln spielen lassen</string>
-	<string key="ui_emote_go">Los</string>
+	<string key="ui_emote_go">Laufen</string>
 	<string key="ui_emote_here">Hier</string>
 	<string key="ui_emote_wave">Winken</string>
 	<string key="ui_emote_nono">Nein, nein</string>
@@ -128,7 +128,7 @@
 	<string key="ui_emote_Firework5" rel_version="Feature_Premium_Emotes">Sternschnuppenrakete</string>
 	<string key="ui_emote_Firework6" rel_version="Feature_Premium_Emotes">Fontäne</string>
 	<string key="ui_emote_sit_description">"Setz dich und ruh dich aus."</string>
-	<string key="ui_emote_flex_description">Schau dir mich mal an!</string>
+	<string key="ui_emote_flex_description">Nur nicht neidisch werden!</string>
 	<string key="ui_emote_flex2_description">"Beeindruckt Euch meine imposante Statur?"</string>
 	<string key="ui_emote_go_description">"Dort entlang, schnell!"</string>
 	<string key="ui_emote_here_description">"Hey! Hier drüben!"</string>
@@ -149,18 +149,18 @@
 	<string key="ui_emote_FistBump_description">Die coolere Alternative zum Händeschütteln.</string>
 	<string key="ui_emote_Revel_description">Auf jeden.</string>
 	<string key="ui_emote_Hi_description">Hallo!</string>
-	<string key="ui_emote_GoodBye_description">Ein Abschied kann so süß sein.</string>
+	<string key="ui_emote_GoodBye_description">Ein Abschied kann so bittersüß sein.</string>
 	<string key="ui_emote_Apologize_description">Bitte vergib mir.</string>
 	<string key="ui_emote_Thumbs_Sideways_description">"Weder noch."</string>
 	<string key="ui_emote_Thumbs_Up_description">"Jawohl."</string>
 	<string key="ui_emote_Thumbs_Down_description">"Auf keinen Fall."</string>
-	<string key="ui_emote_High_Five_description">Weit oben!</string>
-	<string key="ui_emote_Slow_Clap_description">Dramatisches Klatschen.</string>
+	<string key="ui_emote_High_Five_description">Klatsch ab!</string>
+	<string key="ui_emote_Slow_Clap_description">Dieser Applaus ist möglicherweise ironisch gemeint.</string>
 	<string key="ui_emote_Laugh_1_description">Was für ein Schenkelklopfer!</string>
 	<string key="ui_emote_Laugh_2_description">HA!</string>
 	<string key="ui_emote_Cry_3_description">Davon werde ich mich emotional nie erholen.</string>
 	<string key="ui_emote_Coin_Toss_description">"Ein Münzwurf."</string>
-	<string key="ui_emote_Chin_Scrape_description">Ich drücke dir die Daumen.</string>
+	<string key="ui_emote_Chin_Scrape_description">Suchst du etwas Stress?</string>
 	<string key="ui_emote_Push_Ups_description" rel_version="Emote_Pushups">"Erhebet Ihr überhaupt Gewichte, oh Bruder?"</string>
 	<string key="ui_emote_Flex_3_description">"Zeig deine Stärke offen."</string>
 	<string key="ui_emote_Golf_Clap_description">"Ein Lob für die Mühen!"</string>
@@ -612,5 +612,20 @@
 	<string key="ui_Emote_Mantrum_description" rel_version="Entitlements_Barbarian">Wenn du es dem Boden einfach zeigen musst.</string>
 	<string key="ui_Emote_Mantrum_name" rel_version="Entitlements_Barbarian">Ein-Mann-Kampf</string>
 	<string key="Emote_Mantrum" rel_version="Entitlements_Barbarian">{playerName} legt sich mit dem Boden an.</string>
+	<string key="Emote_BarbershopExit" rel_version="Feature_Barbershop">{playerName} checks out their new look.</string>
+	<string key="ui_Emote_TouchGrass_description">Das ist gut für dich.</string>
+	<string key="ui_Emote_Walk_NinjaRun_description">Renne mit den Schatten, schnell wie der Wind.</string>
+	<string key="ui_Emote_BrushShoulder_description">Für Gelegenheiten, bei denen du nicht einmal ins Schwitzen geraten bist.</string>
+	<string key="Emote_Walk_MyrkMarch">{playerName} marschiert zu einem bizarren Rhythmus.</string>
+	<string key="ui_Emote_Walk_MyrkMarch_description">Den Legenden nach hat Thorpe dieses eigenartige Manöver nur seinen besten Kriegern beigebracht.</string>
+	<string key="Emote_BrushShoulder_THEY">{playerName} wischt sich den Staub von der Schulter.</string>
+	<string key="Emote_BrushShoulder_SHE">{playerName} wischt sich den Staub von der Schulter.</string>
+	<string key="ui_Emote_Walk_NinjaRun_name">Ninja-Lauf</string>
+	<string key="Emote_BrushShoulder">{playerName} wischt sich den Staub von der Schulter.</string>
+	<string key="ui_Emote_Walk_MyrkMarch_name">Düsterheim-Marsch</string>
+	<string key="ui_Emote_TouchGrass_name">Gras berühren</string>
+	<string key="Emote_Walk_NinjaRun">{playerName} läuft wie ein Ninja.</string>
+	<string key="ui_Emote_BrushShoulder_name">Schulterwischen</string>
+	<string key="Emote_TouchGrass">{playerName} berührt das schöne, satte Gras.</string>
 </resources>
 

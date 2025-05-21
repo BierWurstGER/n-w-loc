@@ -102,7 +102,7 @@
 	<string key="trade_column_status">Estado</string>
 	<string key="trade_column_rarity">Rareza</string>
 	<string key="trade_column_craftsmanship">Artesanía</string>
-	<string key="trade_column_completion_time">Fecha de realización</string>
+	<string key="trade_column_completion_time">Tiempo de realización</string>
 	<string key="trade_noitemmessage">Selecciona un objeto para verlo.</string>
 	<string key="trade_not_enough_money">No hay suficientes monedas</string>
 	<string key="trade_none_available">Agotado</string>
@@ -373,7 +373,7 @@
 	<string key="ui_notification_pvp_always_on_notification">No puedes desactivar el JcJ en este mundo.</string>
 	<string key="ui_notification_pvp_always_on_leave_group_title">Activarte para JcJ</string>
 	<string key="ui_notification_pvp_always_on_leave_group_text">Saldrás de cualquier grupo, incursión o cola en el que estés.</string>
-	<string key="ui_notification_ffa_flagging_message" rel_version="Territory_CutlassKeys_Rework">Cuando estés activo en todos contra todos, podrás atacar a los demás jugadores que también lo estén. \n\nCuando salgas de la zona de todos contra todos, tus &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;doblones y recursos malditos&lt;/font&gt; perderán el estado de maldición.</string>
+	<string key="ui_notification_ffa_flagging_message" rel_version="Territory_CutlassKeys_Rework">Cuando estés activo en todos contra todos, podrás atacar a los demás jugadores igualmente activos. \n\nCuando salgas de la zona de todos contra todos, tus &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;doblones y recursos malditos&lt;/font&gt; perderán el estado de maldición.</string>
 	<string key="ui_notification_ffa_flagged" rel_version="Territory_CutlassKeys_Rework">Todos contra todos activado</string>
 	<string key="ui_notification_ffa_flagged_left_group" rel_version="Territory_CutlassKeys_Rework">Todos contra todos activado: Abandonó el grupo.</string>
 	<string key="ui_notification_ffa_flagged_left_raid" rel_version="Territory_CutlassKeys_Rework">Todos contra todos activado: Incursión abandonada</string>
@@ -481,7 +481,7 @@
 	<string rel_version="Feature_Shards" key="social_phasing_group_invite_change_shards_message">Tu compañero de grupo está en otro fragmento y no será visible. ¿Quieres unirte al fragmento del miembro de tu grupo {playerName}?\n\nAviso: Se perderán las bolsas de botín sin reclamar al cambiar de fragmento.</string>
 	<string rel_version="Feature_Shards" key="ui_shards">Fragmentos</string>
 	<string rel_version="Feature_Shards" key="social_phasing_invite_player_to_shard_pfh">Invitar a fragmento</string>
-	<string rel_version="Feature_Shards" key="social_phasing_join_shard_pfh">Unir fragmento</string>
+	<string rel_version="Feature_Shards" key="social_phasing_join_shard_pfh">Unirse a fragmento</string>
 	<string rel_version="Feature_Shards" key="social_phasing_join_shard_popup">¿Quieres abandonar el fragmento actual y unirte al fragmento de {playerName}?\n\nAviso: Se perderán las bolsas de botín sin reclamar al cambiar de fragmento.</string>
 	<string rel_version="Feature_Shards" key="social_phasing_player_invited_to_shard">Has invitado a {playerName} a unirse a tu fragmento.</string>
 	<string rel_version="Feature_Shards" key="social_phasing_receive_invite_to_shard">{playerName} te ha invitado a unirte a su fragmento.</string>
@@ -505,7 +505,7 @@
 	<string rel_version="Feature_Shards" key="social_phasing_join_character_phase_success">Te has unido a un nuevo fragmento.</string>
 	<string rel_version="Feature_Shards" key="social_phasing_join_character_phase_full">No puedes unirte a este fragmento porque ya está completo.</string>
 	<string rel_version="Feature_Shards" key="social_phasing_join_character_phase_failed">No es posible unirse al fragmento en este momento. Inténtalo de nuevo más adelante.</string>
-	<string rel_version="Feature_Shards" key="social_phasing_sector_inaccessible">No puedes acceder a este área en este momento. Inténtalo de nuevo más adelante.</string>
+	<string rel_version="Feature_Shards" key="social_phasing_sector_inaccessible">No puedes acceder a esta área en este momento. Inténtalo de nuevo más adelante.</string>
 	<string rel_version="Feature_Shards" key="social_phasing_sector_inaccessible_pvp">Es posible que el área esté completa para jugadores con el JcJ activado. Prueba a desactivar el JcJ.</string>
 	<string rel_version="Feature_Shards" key="social_phasing_in_different_shard">&lt;font face="lyshineui/fonts/nimbus_regular_italic.font" &gt;En otro fragmento&lt;/font&gt;</string>
 	<string rel_version="Feature_Shards" key="social_phasing_unable_duel_tooltip">No puedes batirte en duelo contra un jugador que esté en otro fragmento distinto.</string>
@@ -522,7 +522,7 @@
 	<string rel_version="Feature_Shards" key="social_phasing_load_screen_title">Aviso: Zona al máximo de capacidad</string>
 	<string rel_version="Feature_Shards" key="social_phasing_load_screen_message">La zona está al máximo de su capacidad. ¿Quieres volver al menú principal? Selecciona «No» para esperar a que se libere espacio.</string>
 	<string rel_version="Feature_Shards" key="social_phasing_pvp_flag_warning_title">No estás en un fragmento con JcJ</string>
-	<string rel_version="Feature_Shards" key="social_phasing_pvp_flag_warning_message">No estás en un fragmento con JcJ activado. ¿Quieres activar el JcJ e ir a un fragmento con JcJ?</string>
+	<string rel_version="Feature_Shards" key="social_phasing_pvp_flag_warning_message">No estás en un fragmento con JcJ. ¿Quieres activar el JcJ e ir a un fragmento con JcJ?</string>
 	<string rel_version="Feature_Shards" key="social_phasing_on_join_character_cooldown">En tiempo de recarga. Puedes unirte al fragmento de otro jugador en {cooldownTime} segundos.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_findtabtitle">Ver vestíbulos</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_managetabtitle">Mi vestíbulo</string>
@@ -765,7 +765,7 @@
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_activity_mutations_name">Expediciones mutadas</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_activity_mutations_desc" comment="">Regresa a expediciones antiguas con 3 nuevos niveles de dificultad y peligrosos desafíos. Tendrás que trabajar codo con codo con tus compañeros, pero si sobrevivís, obtendréis las recompensas más valiosas.</string>
 	<string rel_version="Feature_PUG_Finder_Season_Trials" key="ui_pugfinder_activity_season_trials_name">Pruebas de temporada</string>
-	<string rel_version="Feature_PUG_Finder_Season_Trials" key="ui_pugfinder_activity_season_trials_subtext">Entrada en prueba</string>
+	<string rel_version="Feature_PUG_Finder_Season_Trials" key="ui_pugfinder_activity_season_trials_subtext">Entrada a prueba</string>
 	<string rel_version="Feature_PUG_Finder_Season_Trials" key="ui_pugfinder_activity_season_trials_description">Supera una prueba de temporada con un grupo de incursión prefabricado de 10 jugadores.</string>
 	<string rel_version="Feature_PUG_Finder_Season_Trials" key="ui_pugfinder_activity_season_trials_desc" comment="">Enfréntate a un nuevo y temible desafío en cada temporada.\n\nMínimo de 6 jugadores\nSolo grupos locales</string>
 	<string rel_version="DailySoloTrials" key="ui_pugfinder_activity_solo_trials_name">Pruebas del alma</string>
@@ -775,7 +775,7 @@
 	<string rel_version="DailySoloTrials" key="ui_pugfinder_activity_solo_trials_desc" comment="">Se ofrecen a diario tres pruebas del alma aleatorias de mayor nivel para que el reto y las recompensas sean mayores. Revive estos momentos fundamentales para vengarte y obtener recompensas valiosas.</string>
 	<string rel_version="DailySoloTrials" key="ui_pugfinder_activity_solo_trials_trialscompleted">Pruebas completadas</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_activity_elite_trials_name">Pruebas de élite</string>
-	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_activity_elite_trials_desc" comment="">Lucha contra el colosal Shah Neshen el Devorador con hasta 20 jugadores en esta prueba de élite.\n\nMínimo de 12 jugadores\nSolo grupos locales</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_activity_elite_trials_desc" comment="">Lucha contra el colosal Shah Neshen el Devorador con hasta 20 jugadores en esta prueba de élite.</string>
 	<string rel_version="Raid_CutlassKeys_00" key="ui_pugfinder_activity_raids_name">Incursiones</string>
 	<string rel_version="Raid_CutlassKeys_00" key="ui_pugfinder_activity_raids_desc" comment="">Persigue a la matriarca Medusa con grupos de incursión de hasta 10 jugadores y pon fin a su plan de dominar Aetérnum.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_activity_opr_desc" comment="">Sé el primer jugador en obtener 1000 puntos en esta vertiginosa experiencia JcJ de 20 contra 20. Captura puntos de control mientras recoges recursos para construir tus defensas y desbloquear ventajas tácticas para tu equipo.</string>
@@ -783,8 +783,8 @@
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_daily_bonus">Bonus diario</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_fastest_experience">Experiencia más rápida</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_remaining_attempts">Intentos restantes</string>
-	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_highest_shared_dificutly_label">Poner en cola en todos los niveles de mutágeno</string>
-	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_highest_shared_dificutly_description">Pone en cola a tu grupo en todos los niveles de dificultad (M1-M3) que tengáis en común. Recibirás una bonificación de transferencia si se te asigna un nivel de dificultad más bajo y lo completas. \n\nLímite diario: {currentCount}/{dailyLimit} &lt;img src="LyShineUI/Images/Icons/Misc/icon_hourglass.png" scale="1.5" yOffset="3.5"&gt;&lt;/img&gt; Se restablece en: {resetTime}</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_highest_shared_dificutly_label">Cola mutada</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_highest_shared_dificutly_description">Pone en cola a tu grupo en todos los niveles de dificultad (M1-M3) que tengáis en común. Recibirás una bonificación de transferencia si se te asigna un nivel de dificultad más bajo y lo completas. \n\n Límite diario: {currentCount}/{dailyLimit} &lt;img src="LyShineUI/Images/Icons/Misc/icon_hourglass.png" scale="1.5" yOffset="3.5"&gt;&lt;/img&gt; Se restablece en: {resetTime}</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_highest_shared_dificutly_no_carry_bonus_description">Pone en cola a tu grupo en todos los niveles de dificultad (M1-M3) que tengáis en común.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_highest_shared_dificutly_description_M1_M2_Only">Pone en cola a tu grupo en todos los niveles M1 y M2 que tengáis en común. Si has desbloqueado una mayor dificultad que en la que se te sitúe, obtendrás una bonificación adicional de experto tras completar la expedición.\n\nLímite diario: {currentCount}/{dailyLimit} &lt;img src="LyShineUI/Images/Icons/Misc/icon_hourglass.png" scale="1.5" yOffset="3.5"&gt;&lt;/img&gt; Se restablece en: {resetTime}</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_highest_shared_dificutly_no_carry_bonus_description_M1_M2_Only">Pone en cola a tu grupo en todos los niveles M1 y M2 que tengáis en común.</string>
@@ -859,11 +859,11 @@
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_button_cancel_queue">Dejar cola</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_button_select_role">Seleccionar rol</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_button_decline">Rechazar</string>
-	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_requirement_azoth_staff">&lt;img src="{icon}" scale="1.5" yOffset="3.5"&gt;&lt;/img&gt; &lt;font color={color}&gt; Báculo de Azoth equipado&lt;/font&gt;</string>
-	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_requirement_level">&lt;img src="{icon}" scale="1.5" yOffset="3.5"&gt;&lt;/img&gt; &lt;font color={color}&gt; Llega al nivel {minLevel}&lt;/font&gt;</string>
-	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_requirement_mutation">&lt;img src="{icon}" scale="1.5" yOffset="3.5"&gt;&lt;/img&gt; &lt;font color={color}&gt; Completa {name}&lt;/font&gt;</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_requirement_azoth_staff">&lt;font color={color}&gt;Báculo de Azoth equipado&lt;/font&gt;</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_requirement_level">&lt;font color={color}&gt;Nivel {minLevel}&lt;/font&gt;</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_requirement_mutation">&lt;font color={color}&gt;Completa {name}&lt;/font&gt;</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_requirement_group_size">&lt;img src="LyShineUI/Images/icons/chat/channelgroup" scale="1.5" yOffset="3.5"&gt;&lt;/img&gt; {minPlayers} - {maxPlayers} jugadores</string>
-	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_requirement_gear_score_range">&lt;img src="LyShineUI/Images/Icons/Misc/icon_gearscore" scale="1.5" yOffset="3.5"&gt;&lt;/img&gt; {minGearScore} - {maxGearScore}</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_requirement_gear_score_range">&lt;font color={color}&gt;{minGearScore} - {maxGearScore}&lt;/font&gt;</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_requirement_gear_score_mutation">M{difficulty}{gearScore}</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_click_here_join_group">Haz clic aquí para la opción Entrar en M3 con un grupo</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_requirement_gear_score">{gearScore}</string>
@@ -908,5 +908,18 @@
 	<string key="ui_communication_restricted_by_platform">Comunicación restringida por la plataforma.</string>
 	<string key="ui_group_invites_restricted_gamemode">Las invitaciones de grupo están desactivadas durante una actividad emparejada.</string>
 	<string key="ui_group_member_placeholder_name">...</string>
+	<string key="ui_pugfinder_content_not_active">El contenido no está activo aún</string>
+	<string key="ui_pugfinder_requirements_local_groups_only">Solo grupos locales</string>
+	<string key="ui_pugfinder_content_no_longer_available">El contenido ya no está disponible</string>
+	<string key="ui_matchmaking_disabled_in_world">Desactivado en este mundo</string>
+	<string key="ui_pugfinder_requirements_groupsize_single">&lt;font color={color}&gt;Máximo de jugadores: 1&lt;/font&gt;</string>
+	<string key="ui_pugfinder_activity_opr_no_perks_desc">¡Olvídate de las mejores ventajas de tu equipo! Únete a este nuevo modo de Asalto a puesto remoto en el que se desactivan todas las ventajas de equipo y aumenta su puntuación al máximo para equilibrar el terreno de juego.</string>
+	<string key="ui_groupfinder_dungeon_queue_signup_fail_raidtrial">No puedes entrar en la cola de la prueba de élite mientras estás en un vestíbulo.</string>
+	<string key="ui_pugfinder_content_disabled">El contenido está desactivado</string>
+	<string key="ui_pugfinder_in_raid_group">&lt;font color={color}&gt;Grupo de incursión&lt;/font&gt;</string>
+	<string key="ui_pugfinder_not_in_raid_group">&lt;font color={color}&gt;Debes estar en un grupo de incursión&lt;/font&gt;</string>
+	<string key="ui_pugfinder_requirements_groupsize_range">&lt;font color={color}&gt;Mínimo/máximo de jugadores: {minPlayers}-{maxPlayers}&lt;/font&gt;</string>
+	<string key="ui_deaths_door_fallen_warning">Mantente con vida para conseguir mejores recompensas.</string>
+	<string key="ui_respawn_fallen_warning">Te has convertido en caído. Obtienes más poder, pero menos recompensas.</string>
 </resources>
 

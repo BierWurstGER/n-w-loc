@@ -1383,7 +1383,7 @@
 	<string key="mediumHeadB_GroupName">Cappello da cacciatore di pelli prodotto</string>
 	<string key="mediumHeadBFound_GroupName">Cappello da cacciatore di pelli recuperato</string>
 	<string key="mediumHeadC_GroupName">Cappello da cacciatore di streghe</string>
-	<string key="mediumHeadD_GroupName">Cappello da medico della peste</string>
+	<string key="mediumHeadD_GroupName">Set da medico della peste</string>
 	<string key="MediumHeadE_GroupName">Cappello da cacciatore di demoni</string>
 	<string key="mediumLegsA_GroupName">Pantaloni da esploratore prodotti</string>
 	<string key="mediumLegsAFound_GroupName">Pantaloni da esploratore recuperati</string>
@@ -1666,7 +1666,7 @@
 	<string key="Set8Hands_GroupDesc">Indumento di cuoio che caratterizza un medico della peste.</string>
 	<string key="Set8Hands_GroupName">Guanti da medico della peste</string>
 	<string key="Set8Head_GroupDesc">Indumento di cuoio che caratterizza un medico della peste.</string>
-	<string key="Set8Head_GroupName">Cappello da medico della peste</string>
+	<string key="Set8Head_GroupName">Set da medico della peste</string>
 	<string key="Set8Legs_GroupDesc">Indumento di cuoio che caratterizza un medico della peste.</string>
 	<string key="Set8Legs_GroupName">Pantaloni da medico della peste</string>
 	<string key="Set9Chest_GroupDesc">Abbigliamento ultraleggero che offre una mobilità eccellente.</string>
@@ -1767,6 +1767,7 @@
 	<string key="Tokens_GroupName">Gettoni evento</string>
 	<string key="TokenCreation_GroupName">Creazione gettoni</string>
 	<string key="TokenConversion_GroupName">Conversione gettoni</string>
+	<string key="SB_WispySpritzCraft" rel_version="Event_SpringtideBloom_Temp">Wispy Spritz</string>
 	<string key="ToolHatchet_GroupDesc">A 1 mano. Utile per raccogliere legno</string>
 	<string key="ToolHatchet_GroupName">Accetta</string>
 	<string key="ToolsGathering_GroupName">Strumenti di raccolta</string>
@@ -1823,7 +1824,7 @@
 	<string key="VegetableT5_GroupName">Verdura livello 5</string>
 	<string key="vessel_GroupName">Contenitore</string>
 	<string key="vialPouch_GroupName">Borselli per fiale</string>
-	<string key="Warhammer_GroupDesc">Un possente martello da combattimento, capace di scuotere il terreno con colpi devastanti. Perfetto per ostacolare i nemici grazie ai tremori del terreno o per infliggere colpi devastanti direttamente al bersaglio.\n\n•Light Attack: Infligge un {[1.000000 * 100]}% di danni &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_strike_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt;.\n•Attacco pesante: Infligge un {[1.300000 * 100]}% di danni &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_strike_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt;.\n•Attacco pesante caricato: Infligge un {[1.700000 * 100]}% &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_strike_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; di danni.\n\nProvocazione compatibile con le gemme: Gli attacchi pesanti con un martello da guerra a cui è applicata una gemma di corniola infliggono Provocazione per {[0.500000]} s. (Provocazione fa sì che i mostri si concentrino solo su di te.)</string>
+	<string key="Warhammer_GroupDesc">Un possente martello da combattimento, capace di scuotere il terreno con colpi devastanti. Perfetto per ostacolare i nemici grazie ai tremori del terreno o per infliggere colpi devastanti direttamente al bersaglio.\n\n•Attacco leggero: Infligge un {[1.000000 * 100]}% di danni &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_strike_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt;.\n•Attacco pesante: Infligge un {[1.300000 * 100]}% di danni &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_strike_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt;.\n•Attacco pesante caricato: Infligge un {[1.700000 * 100]}% &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_strike_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; di danni.\n\nProvocazione compatibile con le gemme: Gli attacchi pesanti con un martello da guerra a cui è applicata una gemma di corniola infliggono Provocazione per {[0.500000]} s. (Provocazione fa sì che i mostri si concentrino solo su di te.)</string>
 	<string key="Warhammer_GroupName">Martelli da guerra</string>
 	<string key="WarHammers_GroupName">Martelli da guerra</string>
 	<string key="water_GroupName">Acqua</string>
@@ -2053,7 +2054,11 @@
 	<string key="ConquerorsGear_GroupName" comment="DO NOT TRANSLATE" rel_version="PvPServerConquerorsItems">Conquerors Armaments</string>
 	<string key="DungeonMaterialMinor_GroupName" rel_version="Raid_CutlassKeys_00">Materiali della spedizione comuni</string>
 	<string key="DungeonMaterialMajor_GroupName" rel_version="Raid_CutlassKeys_00">Materiali della spedizione rari</string>
-	<string key="OPRBetas_GroupName">Beta di Carica all'avamposto</string>
+	<string key="EtherealRefinement_GroupName" comment="DO NOT TRANSLATE" rel_version="PvPServerConquerorsItems">Ethereal Dust Refining</string>
+	<string key="EtherealDust_GroupName" comment="DO NOT TRANSLATE" rel_version="PvPServerConquerorsItems">Ethereal Dust XP Conversion</string>
 	<string key="BetaRewards_GroupName">Ricompense beta</string>
+	<string key="OPRBetas_GroupName">Beta di Carica all'avamposto</string>
+	<string key="ReekwaterUplevelRare_GroupName">Raro</string>
+	<string key="ReekwaterUplevelCommon_GroupName">Comune</string>
 </resources>
 

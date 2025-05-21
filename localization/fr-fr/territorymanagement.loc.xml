@@ -181,8 +181,8 @@
 	<string key="ui_encounter_upcomingrace" rel_version="Feature_Influence_V2">COURSE À VENIR</string>
 	<string key="ui_encounter_ongoingrace" rel_version="Feature_Influence_V2">COURSE EN COURS</string>
 	<string key="ui_encounter_yourstatus">VOTRE STATUT</string>
-	<string key="ui_encounter_statusstandby">Votre statut : &lt;font color='#edc63e'&gt; en attente&lt;/font&gt;</string>
-	<string key="ui_encounter_statusselected">Votre statut : &lt;font color='#00ffb4'&gt; sélectionné(e)&lt;/font&gt;</string>
+	<string key="ui_encounter_statusstandby">Votre statut : &lt;font color='#edc63e'&gt;en attente&lt;/font&gt;</string>
+	<string key="ui_encounter_statusselected">Votre statut : &lt;font color='#00ffb4'&gt;sélectionné(e)&lt;/font&gt;</string>
 	<string key="ui_encounter_managebutton">Gestion de l'armée</string>
 	<string key="ui_encounter_signupbutton_war">S'inscrire pour la guerre</string>
 	<string key="ui_encounter_signupDesc_war">Inscrivez-vous pour cette guerre à un\n&lt;font color='#b2aea1'&gt;tableau de guerre&lt;/font&gt; dans cette ville.</string>
@@ -475,6 +475,7 @@
 	<string key="ui_upgrade_desc_HornProjectId2">Améliore également toute corne de guerre existante.</string>
 	<string key="ui_upgrade_desc_ExplosiveProjectId">Améliore également tout explosif existant.</string>
 	<string key="ui_upgrade_desc_ExplosiveProjectId2">Améliore également tout explosif existant.</string>
+	<string key="ui_event_details_SpringtideBloom" rel_version="Event_SpringtideBloom_Temp">&lt;font color="#edc63e"&gt;Accomplissez les quêtes et activités de la Floraison printanière&lt;/font&gt; pour gagner de la réputation et des jetons, et accéder à une multitude de récompenses ! \n\n&lt;font color="#edc63e"&gt;Récoltez les floraisons vaporeuses, rares et enchantées pour les Enfants de la Floraison&lt;/font&gt; en localisant les pétales de floraisons vaporeuses !\n\n&lt;font color="#edc63e"&gt;Fabriquez des bombes à pulvérisation vaporeuse &lt;/font&gt;pour exterminer les guêpes vaporeuses qui protègent les floraisons vaporeuses !\n\n&lt;font color="#edc63e"&gt;Récupérez des récompenses quotidiennes&lt;/font&gt; dans chaque tas de sacs de fête du village de la Floraison printanière !</string>
 	<string key="ui_event_project_endless">Infini</string>
 	<string key="ui_territory_level">Niveau de territoire : {level}</string>
 	<string key="ui_enter_house">Voir la maison</string>
@@ -716,48 +717,50 @@
 	<string key="influence_pushed_amount" rel_version="Feature_Influence_V2">INFLUENCE POUSSÉE</string>
 	<string key="influence_defended_amount" rel_version="Feature_Influence_V2">INFLUENCE DÉFENDUE</string>
 	<string key="influence_total_kills" rel_version="Feature_Influence_V2">VICTIMES EN MONDE OUVERT</string>
-	<string key="Cutlass_Keys_Tower_01" rel_version="Feature_Influence_V2">Tour de guet du sud des Îles des Lames</string>
+	<string key="Cutlass_Keys_Tower_01" rel_version="Feature_Influence_V2">Guet sud des Îles des Lames</string>
 	<string key="Cutlass_Keys_Tower_01_CKRV" rel_version="Territory_CutlassKeys_Rework">Tour de guet centrale des Îles des Lames</string>
-	<string key="Cutlass_Keys_Tower_02" rel_version="Feature_Influence_V2">Tour de guet du nord des Îles des Lames</string>
-	<string key="Cutlass_Keys_Tower_03" rel_version="Feature_Influence_V2">Tour de guet de l'est des Îles des Lames</string>
-	<string key="Windsward_Tower_01" rel_version="Feature_Influence_V2">Tour de guet du sud de Gré-du-Vent</string>
-	<string key="Windsward_Tower_02" rel_version="Feature_Influence_V2">Tour de guet du nord de Gré-du-Vent</string>
-	<string key="Windsward_Tower_03" rel_version="Feature_Influence_V2">Tour de guet centrale de Gré-du-Vent</string>
-	<string key="Monarchs_Bluff_Tower_01" rel_version="Feature_Influence_V2">Tour de guet de l'ouest des Falaises du Roy</string>
-	<string key="Monarchs_Bluff_Tower_02" rel_version="Feature_Influence_V2">Tour de guet du sud des Falaises du Roy</string>
-	<string key="Monarchs_Bluff_Tower_03" rel_version="Feature_Influence_V2">Tour de guet de l'est des Falaises du Roy</string>
-	<string key="Everfall_Tower_01" rel_version="Feature_Influence_V2">Tour de guet du nord de Haute-Chute</string>
-	<string key="Everfall_Tower_02" rel_version="Feature_Influence_V2">Tour de guet de l'est de Haute-Chute</string>
-	<string key="Everfall_Tower_03" rel_version="Feature_Influence_V2">Tour de guet de l'ouest de Haute-Chute</string>
-	<string key="Ebonscale_Reach_Tower_01" rel_version="Feature_Influence_V2">Tour de guet centrale du bief de Nerécaille</string>
-	<string key="Ebonscale_Reach_Tower_02" rel_version="Feature_Influence_V2">Tour de guet du nord du bief de Nerécaille</string>
-	<string key="Ebonscale_Reach_Tower_03" rel_version="Feature_Influence_V2">Tour de guet du sud du bief de Nerécaille</string>
-	<string key="Weavers_Fen_Tower_01" rel_version="Feature_Influence_V2">Tour de guet de l'est du marais des Trames</string>
-	<string key="Weavers_Fen_Tower_02" rel_version="Feature_Influence_V2">Tour de guet du sud du marais des Trames</string>
-	<string key="Weavers_Fen_Tower_03" rel_version="Feature_Influence_V2">Tour de guet de l'ouest du marais des Trames</string>
-	<string key="Reekwater_Tower_01" rel_version="Feature_Influence_V2">Tour de guet du sud d'Eaux-Fétides</string>
-	<string key="Reekwater_Tower_02" rel_version="Feature_Influence_V2">Tour de guet centrale d'Eaux-Fétides</string>
-	<string key="Reekwater_Tower_03" rel_version="Feature_Influence_V2">Tour de guet du nord d'Eaux-Fétides</string>
-	<string key="Restless_Shore_Tower_01" rel_version="Feature_Influence_V2">Tour de guet centrale de la Rive tourmentée</string>
-	<string key="Restless_Shore_Tower_02" rel_version="Feature_Influence_V2">Tour de guet du sud de la Rive tourmentée</string>
-	<string key="Restless_Shore_Tower_03" rel_version="Feature_Influence_V2">Tour de guet du nord de la Rive tourmentée</string>
-	<string key="Brightwood_Tower_01" rel_version="Feature_Influence_V2">Tour de guet de l'est de Boisclair</string>
-	<string key="Brightwood_Tower_02" rel_version="Feature_Influence_V2">Tour de guet du sud de Boisclair</string>
-	<string key="Brightwood_Tower_03" rel_version="Feature_Influence_V2">Tour de guet de l'ouest de Boisclair</string>
-	<string key="Mourningdale_Tower_01" rel_version="Feature_Influence_V2">Tour de guet du nord du Val des Larmes</string>
-	<string key="Mourningdale_Tower_02" rel_version="Feature_Influence_V2">Tour de guet de l'ouest du Val des Larmes</string>
-	<string key="Mourningdale_Tower_03" rel_version="Feature_Influence_V2">Tour de guet de l'est du Val des Larmes</string>
-	<string key="Brimstone_Sands_Tower_01" rel_version="Feature_Influence_V2">Tour de guet du nord de Sulfure</string>
-	<string key="Brimstone_Sands_Tower_02" rel_version="Feature_Influence_V2">Tour de guet centrale de Sulfure</string>
-	<string key="Brimstone_Sands_Tower_03" rel_version="Feature_Influence_V2">Tour de guet du sud de Sulfure</string>
-	<string key="Edengrove_Tower_01" rel_version="Feature_Influence_V2">Tour de guet de l'est de Bois-Éden</string>
-	<string key="Edengrove_Tower_02" rel_version="Feature_Influence_V2">Tour de guet du sud de Bois-Éden</string>
-	<string key="Edengrove_Tower_03" rel_version="Feature_Influence_V2">Tour de guet du nord de Bois-Éden</string>
+	<string key="Cutlass_Keys_Tower_02" rel_version="Feature_Influence_V2">Guet nord des Îles des Lames</string>
+	<string key="Cutlass_Keys_Tower_03" rel_version="Feature_Influence_V2">Guet est des Îles des Lames</string>
+	<string key="Windsward_Tower_01" rel_version="Feature_Influence_V2">Guet sud de Gré-du-Vent</string>
+	<string key="Windsward_Tower_02" rel_version="Feature_Influence_V2">Guet nord de Gré-du-Vent</string>
+	<string key="Windsward_Tower_03" rel_version="Feature_Influence_V2">Guet central de Gré-du-Vent</string>
+	<string key="Monarchs_Bluff_Tower_01" rel_version="Feature_Influence_V2">Guet ouest des Falaises du Roy</string>
+	<string key="Monarchs_Bluff_Tower_02" rel_version="Feature_Influence_V2">Guet sud des Falaises du Roy</string>
+	<string key="Monarchs_Bluff_Tower_03" rel_version="Feature_Influence_V2">Guet est des Falaises du Roy</string>
+	<string key="Everfall_Tower_01" rel_version="Feature_Influence_V2">Guet nord de Haute-Chute</string>
+	<string key="Everfall_Tower_02" rel_version="Feature_Influence_V2">Guet est de Haute-Chute</string>
+	<string key="Everfall_Tower_03" rel_version="Feature_Influence_V2">Guet ouest de Haute-Chute</string>
+	<string key="Ebonscale_Reach_Tower_01" rel_version="Feature_Influence_V2">Guet central du bief de Nerécaille</string>
+	<string key="Ebonscale_Reach_Tower_02" rel_version="Feature_Influence_V2">Guet nord du bief de Nerécaille</string>
+	<string key="Ebonscale_Reach_Tower_03" rel_version="Feature_Influence_V2">Guet sud du bief de Nerécaille</string>
+	<string key="Weavers_Fen_Tower_01" rel_version="Feature_Influence_V2">Guet est du marais des Trames</string>
+	<string key="Weavers_Fen_Tower_02" rel_version="Feature_Influence_V2">Guet sud du marais des Trames</string>
+	<string key="Weavers_Fen_Tower_03" rel_version="Feature_Influence_V2">Guet ouest du marais des Trames</string>
+	<string key="Reekwater_Tower_01" rel_version="Feature_Influence_V2">Guet sud d'Eaux-Fétides</string>
+	<string key="Reekwater_Tower_02" rel_version="Feature_Influence_V2">Guet central d'Eaux-Fétides</string>
+	<string key="Reekwater_Tower_03" rel_version="Feature_Influence_V2">Guet nord d'Eaux-Fétides</string>
+	<string key="Restless_Shore_Tower_01" rel_version="Feature_Influence_V2">Guet central de la Rive tourmentée</string>
+	<string key="Restless_Shore_Tower_02" rel_version="Feature_Influence_V2">Guet sud de la Rive tourmentée</string>
+	<string key="Restless_Shore_Tower_03" rel_version="Feature_Influence_V2">Guet nord de la Rive tourmentée</string>
+	<string key="Brightwood_Tower_01" rel_version="Feature_Influence_V2">Guet est de Boisclair</string>
+	<string key="Brightwood_Tower_02" rel_version="Feature_Influence_V2">Guet sud de Boisclair</string>
+	<string key="Brightwood_Tower_03" rel_version="Feature_Influence_V2">Guet ouest de Boisclair</string>
+	<string key="Mourningdale_Tower_01" rel_version="Feature_Influence_V2">Guet nord du Val des Larmes</string>
+	<string key="Mourningdale_Tower_02" rel_version="Feature_Influence_V2">Guet ouest du Val des Larmes</string>
+	<string key="Mourningdale_Tower_03" rel_version="Feature_Influence_V2">Guet est du Val des Larmes</string>
+	<string key="Brimstone_Sands_Tower_01" rel_version="Feature_Influence_V2">Guet nord de Sulfure</string>
+	<string key="Brimstone_Sands_Tower_02" rel_version="Feature_Influence_V2">Guet central de Sulfure</string>
+	<string key="Brimstone_Sands_Tower_03" rel_version="Feature_Influence_V2">Guet sud de Sulfure</string>
+	<string key="Edengrove_Tower_01" rel_version="Feature_Influence_V2">Guet est de Bois-Éden</string>
+	<string key="Edengrove_Tower_02" rel_version="Feature_Influence_V2">Guet sud de Bois-Éden</string>
+	<string key="Edengrove_Tower_03" rel_version="Feature_Influence_V2">Guet nord de Bois-Éden</string>
 	<string key="generic_influence_tower_description" rel_version="Feature_Influence_V2">Ce point de contrôle peut être capturé lors d'une Course d'influence.\n\n&lt;img src="lyshineui/images/icons/FactionBuffs/FC_Buff_IPIncrease" xPadding="0" scale="2" yOffset="4"&gt;&lt;/img&gt;&lt;font color="#ebe3d6"&gt;&lt;font face="lyshineui/fonts/Nimbus_Semibold.font"&gt;+{TowerInfluenceValue}&lt;/font&gt;&lt;/font&gt; points d'influence toutes les 5 secondes \n&lt;img src="lyshineui/images/icons/FactionBuffs/FC_Buff_IPIncrease" xPadding="0" scale="2" yOffset="4"&gt;&lt;/img&gt;&lt;font color="#ebe3d6"&gt;&lt;font face="lyshineui/fonts/Nimbus_Semibold.font"&gt;+{TowerPercentageValue} %&lt;/font&gt;&lt;/font&gt; d'influence gagnée</string>
 	<string key="influence_myfaction_1" rel_version="Feature_Influence_V2">MA FACTION : &lt;img src="lyshineui/images/crests/foregrounds/icon_faction_fg_1_colored_small" xPadding="0" scale="2" yOffset="15"&gt;&lt;/img&gt; &lt;font face="lyshineui/fonts/Pica_Regular.font" color="#8c37d9"&gt;Ombre&lt;/font&gt;</string>
 	<string key="influence_myfaction_2" rel_version="Feature_Influence_V2">MA FACTION : &lt;img src="lyshineui/images/crests/foregrounds/icon_faction_fg_2_colored_small" xPadding="0" scale="2" yOffset="15"&gt;&lt;/img&gt; &lt;font face="lyshineui/fonts/Pica_Regular.font" color="#149834"&gt;Maraudeurs&lt;/font&gt;</string>
 	<string key="influence_myfaction_3" rel_version="Feature_Influence_V2">MA FACTION : &lt;img src="lyshineui/images/crests/foregrounds/icon_faction_fg_3_colored_small" xPadding="0" scale="2" yOffset="15"&gt;&lt;/img&gt; &lt;font face="lyshineui/fonts/Pica_Regular.font" color="#edc63e"&gt;Engagés&lt;/font&gt;</string>
 	<string key="influence_tower_ownership_title" rel_version="Feature_Influence_V2">PROPRIÉTAIRE DE LA TOUR</string>
 	<string key="influence_view_previous_influence_race" rel_version="Feature_Influence_V2">Voir les résultats</string>
+	<string key="ui_territory_war_supply_rate">Vitesse de ravitaillement</string>
+	<string key="ui_territory_war_siege_limit">Limite de siège</string>
 </resources>
 

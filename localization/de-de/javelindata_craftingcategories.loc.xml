@@ -739,15 +739,15 @@
 	<string key="ClothT5_GroupName">Tuch Rang 5</string>
 	<string key="ClothT51_GroupName">Legendäres Tuch</string>
 	<string key="CoatingAncient_GroupDesc">Die Beschichtungen schützen gegen Schaden der Ahnen.</string>
-	<string key="CoatingAncient_GroupName">Ahnen-Beschichtung</string>
+	<string key="CoatingAncient_GroupName">Ahnenbeschichtung</string>
 	<string key="CoatingAngryEarth_GroupDesc">Die Beschichtungen schützen gegen Schaden der Zornigen Erdkreaturen.</string>
 	<string key="CoatingAngryEarth_GroupName">Zornige-Erdkr.-Beschichtung</string>
 	<string key="CoatingBeast_GroupDesc">Die Beschichtungen schützen gegen Schaden von Bestien.</string>
-	<string key="CoatingBeast_GroupName">Bestien-Beschichtung</string>
+	<string key="CoatingBeast_GroupName">Bestienbeschichtung</string>
 	<string key="CoatingCorrupted_GroupDesc">Die Beschichtungen schützen gegen Schaden von Verderbten.</string>
-	<string key="CoatingCorrupted_GroupName">Verderbten-Beschichtung</string>
+	<string key="CoatingCorrupted_GroupName">Verderbtenbeschichtung</string>
 	<string key="CoatingLost_GroupDesc">Die Beschichtungen verbessern den Schaden gegen Verlorene.</string>
-	<string key="CoatingLost_GroupName">Verlorenen-Beschichtung</string>
+	<string key="CoatingLost_GroupName">Verlorenenbeschichtung</string>
 	<string key="Coatings_GroupName">Waffenbeschichtung</string>
 	<string key="Components_GroupName">Herstellungskomponenten</string>
 	<string key="compost_GroupName">Kompost</string>
@@ -1098,7 +1098,7 @@
 	<string key="GarnetCut_GroupDesc">Geschliffene und polierte Granate.</string>
 	<string key="GarnetCut_GroupName">Geschliffener Granat</string>
 	<string key="GatheringFood_GroupName">Nahrung sammeln</string>
-	<string key="GauntletIce_GroupDesc">Die Stulpe verbraucht Mana, um mit Eiszaubern frostige Kräfte heraufzubeschwören. Großartig zum Verursachen von andauerndem Schaden, indem Elementarstürme und Eisflächen heraufbeschworen werden. Eisangriffen behindern Gegner zudem und fügen ihnen Schaden zu.\n\n• Leichter Angriff: Verursacht {[1.000000 * 100]} % &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_ice_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; Schaden.\n• Schwerer Angriff: Verursacht {[1.400000 * 100]} % &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_ice_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; Schaden und verlangsamt {[3.000000]} Sek. lang um {[-0.100000 * -100]} %. ({[6.000000]} Sek. Abklingzeit pro Ziel).</string>
+	<string key="GauntletIce_GroupDesc">Die Stulpen verbrauchen Mana, um mit Eiszaubern frostige Kräfte heraufzubeschwören. Großartig zum Verursachen von andauerndem Schaden, indem Elementarstürme und Eisflächen heraufbeschworen werden. Eisangriffen behindern Gegner zudem und fügen ihnen Schaden zu.\n\n• Leichter Angriff: Verursacht {[1.000000 * 100]} % &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_ice_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; Schaden.\n• Schwerer Angriff: Verursacht {[1.400000 * 100]} % &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_ice_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; Schaden.</string>
 	<string key="GauntletIce_GroupName">Eisstulpen</string>
 	<string key="GauntletVoid_GroupDesc" rel_version="Weapon_Void_Gauntlet">Stulpen, die Mana verbrauchen, um Feinde zu schwächen und Verbündete zu stärken. Unheilsstulpen sind auf Nahkampf-Boni und Schaden über Zeit oder Schwächungen mit mittlerer Reichweite spezialisiert und in einer Gruppe besonders gefährlich.\n\n• Leichter Angriff: Verursacht {[1.000000 * 100]} % &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_void_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; Schaden.\n• Schwerer Angriff: Rast durch Ziele hindurch, verursacht {[1.250000 * 100]} % &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_void_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; Schaden und heilt dich um {[0.200000 * 100]} % Waffenschaden. (Obergrenze: Eine Heilungsaktivierung pro schwerem Angriff).\n•Essenz-Ernte ("Blocken" gedrückt halten): Wandelt deine Gesundheit nach und nach in Mana um. Die Rate hängt vom Waffenschaden ab.</string>
 	<string key="GauntletVoid_GroupName" rel_version="Weapon_Void_Gauntlet">Unheilsstulpen</string>
@@ -1767,6 +1767,7 @@
 	<string key="Tokens_GroupName">Event-Marken</string>
 	<string key="TokenCreation_GroupName">Markenerstellung</string>
 	<string key="TokenConversion_GroupName">Markenumtausch</string>
+	<string key="SB_WispySpritzCraft" rel_version="Event_SpringtideBloom_Temp">Wispy Spritz</string>
 	<string key="ToolHatchet_GroupDesc">Einhändig zu führen. Zum Sammeln von Holz.</string>
 	<string key="ToolHatchet_GroupName">Beil</string>
 	<string key="ToolsGathering_GroupName">Sammlerwerkzeuge</string>
@@ -2001,8 +2002,8 @@
 	<string key="PrismaticRangedWeapons_GroupName" rel_version="Territory_FirstLight">Fernkampfwaffen – Prisma-Skarabäus</string>
 	<string key="PrismaticStaffFire_GroupName" rel_version="Territory_FirstLight">Feuerstab – Prisma-Skarabäus</string>
 	<string key="PrismaticStaffLife_GroupName" rel_version="Territory_FirstLight">Lebensstab – Prisma-Skarabäus</string>
-	<string key="PrismaticGauntletIce_GroupName" rel_version="Territory_FirstLight">Eisstulpe – Prisma-Skarabäus</string>
-	<string key="PrismaticGauntletVoid_GroupName" rel_version="Territory_FirstLight">Unheilsstulpe – Prisma-Skarabäus</string>
+	<string key="PrismaticGauntletIce_GroupName" rel_version="Territory_FirstLight">Eisstulpen – Prisma-Skarabäus</string>
+	<string key="PrismaticGauntletVoid_GroupName" rel_version="Territory_FirstLight">Unheilsstulpen – Prisma-Skarabäus</string>
 	<string key="PrismaticFlail_GroupName" rel_version="Territory_FirstLight">Flegel – Prisma-Skarabäus</string>
 	<string key="PrismaticArmorPlate_GroupName" rel_version="Territory_FirstLight">Schwere Rüstung – Prisma-Skarabäus</string>
 	<string key="PrismaticArmorFur_GroupName" rel_version="Territory_FirstLight">Mittlere Rüstung – Prisma-Skarabäus</string>
@@ -2053,7 +2054,11 @@
 	<string key="ConquerorsGear_GroupName" comment="DO NOT TRANSLATE" rel_version="PvPServerConquerorsItems">Conquerors Armaments</string>
 	<string key="DungeonMaterialMinor_GroupName" rel_version="Raid_CutlassKeys_00">Gewöhnliche Expeditionsmaterialien</string>
 	<string key="DungeonMaterialMajor_GroupName" rel_version="Raid_CutlassKeys_00">Seltene Expeditionsmaterialien</string>
-	<string key="OPRBetas_GroupName">APS-Betas</string>
+	<string key="EtherealRefinement_GroupName" comment="DO NOT TRANSLATE" rel_version="PvPServerConquerorsItems">Ethereal Dust Refining</string>
+	<string key="EtherealDust_GroupName" comment="DO NOT TRANSLATE" rel_version="PvPServerConquerorsItems">Ethereal Dust XP Conversion</string>
 	<string key="BetaRewards_GroupName">Beta-Belohnungen</string>
+	<string key="OPRBetas_GroupName">APS-Betas</string>
+	<string key="ReekwaterUplevelRare_GroupName">Selten</string>
+	<string key="ReekwaterUplevelCommon_GroupName">Gew.</string>
 </resources>
 

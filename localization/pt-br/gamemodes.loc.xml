@@ -100,7 +100,7 @@
 	<string key="ui_outpost_rush_signup_title">INVESTIDA DO POSTO AVANÇADO</string>
 	<string key="ui_outpost_rush_signup_desc">&lt;font color="#edc63e"&gt;Investida do Posto Avançado&lt;/font&gt; é uma partida de 20 versus 20 que acontece em uma grande ilha com três Postos Avançados que as equipes competem para capturar e tomar.</string>
 	<string key="ui_outpost_rush_signup_desc_gearscore">A &lt;font color="#edc63e"&gt;Escala de Pontuação do Equipamento&lt;/font&gt; aumenta a pontuação do equipamento de todos os equipamentos abaixo de 700 para 700.</string>
-	<string key="ui_outpost_rush_signup_desc_cross_world">A Investida do Posto Avançado é um &lt;font color="#edc63e"&gt;modo de jogo entre mundos&lt;/font&gt; 20 vs 20.</string>
+	<string key="ui_outpost_rush_signup_desc_cross_world">A Investida do Posto Avançado é um &lt;font color="#edc63e"&gt;modo de jogo Entre Mundos&lt;/font&gt; 20v20.\nA &lt;font color="#edc63e"&gt;Escala de Pontuação do Equipamento&lt;/font&gt; aumenta para 700 a pontuação de todos os equipamentos abaixo de 700.</string>
 	<string key="ui_outpost_rush_signup_desc_cross_world_tooltip">Algo &lt;font color="#edc63e"&gt;entre mundos&lt;/font&gt; significa que você jogará junto com jogadores de todos os mundos da sua região. Isso pode ajudar a reduzir o tempo de espera para encontrar uma partida.\n\nObservações importantes:\n\n-Quando ver um jogador com &lt;img src="lyshineui/images/icons/crossworld/icon_crossworld_identifier" xPadding="-1" scale="1.8" yOffset="2"&gt;&lt;/img&gt; ao lado do nome, significa que ele é de outro mundo.\n\n-Durante a partida entre mundos, várias funções sociais serão desativadas, incluindo negociação, convites e outros.\n\n-A classificação da Investida do Posto Avançado agora é regional.</string>
 	<string key="ui_outpost_rush_signup_goal1">Capture e segure os Postos Avançados para pontuar</string>
 	<string key="ui_outpost_rush_signup_goal2">A primeira equipe a marcar 1.000 pontos vence</string>
@@ -229,9 +229,9 @@
 	<string key="or_tutorial_rules_portal_title">Derrote e feche o Portal Corrompido</string>
 	<string key="or_tutorial_rules_portal_body">Derrote e feche o Portal Corrompido para receber uma pedra de invocação de bruto.</string>
 	<string key="or_tutorial_boss_spawn_title">A BARONESA HAIN APARECEU</string>
-	<string key="or_tutorial_boss_spawn_body">Elimine-a para obter um buff de defesa poderoso e congelar a pontuação da equipe inimiga por 3 minutos.</string>
+	<string key="or_tutorial_boss_spawn_body">Elimine-a para obter um buff de defesa poderoso e congelar a pontuação da equipe inimiga por até 2 minutos e 30 segundos.</string>
 	<string key="or_tutorial_boss_near_title">A BARONESA HAIN ESTÁ PRÓXIMA</string>
-	<string key="or_tutorial_boss_near_body">Elimine-a para obter um buff de defesa poderoso e congelar a pontuação da equipe inimiga por 3 minutos.</string>
+	<string key="or_tutorial_boss_near_body">Elimine-a para obter um buff de defesa poderoso e congelar a pontuação da equipe inimiga por até 2 minutos e 30 segundos.</string>
 	<string key="or_tutorial_outpost_gates_title">CONSTRUA PORTÕES PARA PROTEGER O POSTO AVANÇADO</string>
 	<string key="or_tutorial_outpost_gates_body">Colete madeira e minério infusos e, em seguida, interaja com o portão para construí-lo e aprimorá-lo.</string>
 	<string key="or_tutorial_outpost_ward_title">CONSTRUA UMA BARREIRA DE PROTEÇÃO</string>
@@ -292,8 +292,8 @@
 	<string key="ui_matchmaking_ready_title">Partida Pronta</string>
 	<string key="ui_matchmaking_ready_title_dungeon">Grupo Encontrado</string>
 	<string key="ui_matchmaking_ready_text">A &lt;font color={color}&gt;partida na fila está pronta&lt;/font&gt;. Teletransportar-se para entrar agora?</string>
-	<string key="ui_matchmaking_ready_text_dungeon">Aguardando Jogadores ({numAccepted}/{numInvited})</string>
-	<string key="dungeon_how_to_raid">Como Formar um Ataque</string>
+	<string key="ui_matchmaking_ready_text_dungeon">Aguardando Jogadores (&lt;font color={acceptedColor}&gt;{numAccepted}&lt;/font&gt;/{numInvited})</string>
+	<string key="dungeon_how_to_raid">Como Formar um Assalto</string>
 	<string key="dungeon_entry_requirements">Requisitos de Entrada</string>
 	<string key="ui_influence_tutorial_how_it_works" rel_version="Feature_Influence_V2">Como Funcionam as Corridas de Influência</string>
 	<string key="ui_influence_tutorial_title1" rel_version="Feature_Influence_V2">Impulsionar a Influência</string>
@@ -307,6 +307,7 @@
 	<string key="ui_pvp_balance_tooltip" rel_version="Feature_PvP_PvE_Split">O Equilíbrio de PvP está em vigor.</string>
 	<string key="ui_pvp_balance_header" rel_version="Feature_PvP_PvE_Split">Modificadores de Equilíbrio de PvP em vigor:</string>
 	<string key="or_outpost_rush_map_name" rel_version="Season_7_Perm">Ilha Nauthynos</string>
+	<string key="or_outpost_rush_trench_map_name" rel_version="OPR_004_Trench">Fosso de Corais</string>
 	<string key="arena_3v3_map_name" rel_version="Feature_PVP_Arenas">Santuário dos Anciões</string>
 	<string key="arena_3v3_02_map_name" rel_version="Feature_PVP_Arenas">Arena do Gladiador</string>
 	<string key="ui_activity_finder_tooltip_current_map_rotation_text" rel_version="Season_7_Perm">Mapa atual em rotação</string>
@@ -336,7 +337,67 @@
 	<string key="ui_gamemode_timeout_description">Atingirá o tempo máximo permitido nesta atividade</string>
 	<string key="ui_ready_up_ready_choice">Pronto</string>
 	<string key="ui_ready_up_unready_choice">Não Pronto</string>
-	<string key="ui_ready_up_waiting_message">Aguardando</string>
-	<string key="or_outpost_rush_trench_map_name">Fosso de Corais</string>
+	<string key="ui_ready_up_waiting_message">Aguardando os outros ({numReady}/{numTotal})</string>
+	<string key="ctf_gamemode_description">Pique-bandeira é um modo de jogo rápido em equipe que exige táticas ofensivas e defensivas. Defenda sua base e roube a bandeira do inimigo para vencer.</string>
+	<string key="ctf_flag_picked_up">Sua bandeira foi levada</string>
+	<string key="ctf_flag_returned">Sua bandeira foi devolvida</string>
+	<string key="ctf_red_team">&lt;font color="#f25d5d"&gt;Equipe Vermelha&lt;/font&gt;</string>
+	<string key="ctf_gamemode_name">Pique-bandeira</string>
+	<string key="ctf_003_Long_Map_Name">Pré-visualização de CTF</string>
+	<string key="ui_opr_no_perks_signup_desc_cross_world">Não é necessário o melhor equipamento! Junte-se a essa nova versão da Investida do Posto Avançado que desativa todas as vantagens do equipamento e maximiza a pontuação do equipamento, nivelando o campo de jogo.\n\nA &lt;font color="#edc63e"&gt;Escala de Pontuação do Equipamento&lt;/font&gt; aumenta para 725 a pontuação de todos os equipamentos abaixo de 725.</string>
+	<string key="ctf_flag_match_completed">Partida Concluída</string>
+	<string key="ui_ctf_leave_desc">Tem certeza de que deseja sair do Pique-bandeira?</string>
+	<string key="ctf_flag_status_safe">Bandeira segura</string>
+	<string key="ctf_flag_carrier_debuff_icon_desc">Você está com a bandeira! Agora você está mais vulnerável a ataques inimigos e recebe menos cura.</string>
+	<string key="ctf_eom_stat_captures_neutral_flags">Bandeiras Neutras</string>
+	<string key="ctf_flag_status_taken">Bandeira levada</string>
+	<string key="ctf_flag_wild_spawned">Bandeira neutra surgiu</string>
+	<string key="ui_opr_no_perks_signup_goal2">A primeira equipe a marcar 1.000 pontos vence</string>
+	<string key="ctf_flag_wild_timer">Surge em {time}</string>
+	<string key="ui_opr_no_perks_title">Investida do Posto Avançado: Ossos Vazios</string>
+	<string key="ui_capture_the_flag_begin">VAI!</string>
+	<string key="ctf_eom_stat_captures_team_flags">Bandeiras da Equipe</string>
+	<string key="ctf_flag_you_scored">Você marcou ponto!</string>
+	<string key="ui_opr_no_perks_signup_goal1">Capture e segure os Postos Avançados para pontuar</string>
+	<string key="ctf_eom_stat_flag_returns">Bandeiras Devolvidas</string>
+	<string key="ui_capture_the_flag_signup_goal1">Capture a maior quantidade de bandeiras para vencer a partida</string>
+	<string key="CTF_Powerup_Healing_Desc">Ganha 8.000 de PV quando coletado. (O equipamento pode afetar o total.)</string>
+	<string key="ui_capture_the_flag_title">Pique-bandeira</string>
+	<string key="ui_capture_the_flag_signup_failgrouppenalty">Um ou mais membros do seu grupo têm um cronômetro de penalidade por sair de uma partida anterior do Pique-bandeira.</string>
+	<string key="ui_capture_the_flag_pregame_description">A partida começa em</string>
+	<string key="ctf_flag_enemy_team_scored">Equipe inimiga marcou ponto</string>
+	<string key="ui_capture_the_flag_signup_goal3">Proteja seu porta-bandeira para garantir que volte seguro</string>
+	<string key="ctf_flag_carrier_debuff_icon_name">Porta-bandeira!</string>
+	<string key="ui_capture_the_flag_signup_joinsolo">Jogar</string>
+	<string key="ctf_wild_flag_picked_up">A bandeira neutra foi levada</string>
+	<string key="ctf_flag_dropped">Sua bandeira foi derrubada</string>
+	<string key="CTF_Powerup_Damage_Empower_Name">Estímulo de Ataque</string>
+	<string key="ui_capture_the_flag_leave_queue_title">Sair da Fila</string>
+	<string key="CTF_Powerup_Speed_Name">Estímulo de Pressa</string>
+	<string key="ctf_wild_flag_dropped">A bandeira neutra foi derrubada</string>
+	<string key="ctf_wild_flag_returned">A bandeira neutra foi devolvida</string>
+	<string key="ctf_eom_stat_captures">Capturas</string>
+	<string key="ui_capture_the_flag_leave_queue_desc">Tem certeza de que deseja sair da fila do Pique-bandeira?</string>
+	<string key="ui_capture_the_flag_signup_goal2">A bandeira da sua equipe deve estar em casa para marcar ponto</string>
+	<string key="ctf_flag_status_dropped">Bandeira derrubada</string>
+	<string key="arena_3v3_04_map_name">Pré-visualização da Arena</string>
+	<string key="ui_ctf_leave">Deixar Atividade</string>
+	<string key="ui_capture_the_flag_invite_notification_text">Você recebeu um convite para o Pique-bandeira!</string>
+	<string key="ctf_overtime_banner_title">Prorrogação</string>
+	<string key="ctf_flag_our_team_scored">Nossa equipe marcou ponto!</string>
+	<string key="ctf_flag_player_count">Jogadores: {count}</string>
+	<string key="ctf_overtime_banner_desc">Próxima bandeira vence!</string>
+	<string key="ui_cannot_travel_ctf">Você não pode fazer uma viagem rápida durante o Pique-bandeira.</string>
+	<string key="ctf_flag_away_from_base">Sua bandeira deve ser devolvida antes de pontuar</string>
+	<string key="ctf_blue_team">&lt;font color="#45d1ff"&gt;Equipe Azul&lt;/font&gt;</string>
+	<string key="ctf_flag_scored">Sua equipe marcou ponto</string>
+	<string key="CTF_Powerup_Healing_Name">Estímulo de Saúde</string>
+	<string key="ui_capture_the_flag_invite_notification_title">Convite de Pique-bandeira</string>
+	<string key="ui_ctf_leave_desc_time">Tem certeza de que deseja sair do Pique-bandeira?\nVocê não poderá entrar de novo na fila do Pique-bandeira por &lt;font color="#edc63e"&gt;[{time}]&lt;/font&gt;.</string>
+	<string key="ctf_eom_stat_flagbearers_killed">Porta-bandeiras Mortos</string>
+	<string key="CTF_Powerup_Speed_Desc">+50% de Pressa durante 5 segundos.</string>
+	<string key="ctf_002_Wide_Map_Name">Pré-visualização de CTF</string>
+	<string key="CTF_Powerup_Damage_Empower_Desc">+20% de Energizado durante 10 segundos. Esse efeito não pode ser anulado.</string>
+	<string key="ui_opr_no_perks_signup_goal3">Utilize recursos especiais para atacar e defender</string>
 </resources>
 

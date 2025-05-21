@@ -176,14 +176,14 @@
 	<string key="mm_csdkerr_replicate_timeout">A conexão expirou enquanto aguardava pela sincronização de estado. Confira suas configurações de rede e verifique se você tem banda larga suficiente para jogar.</string>
 	<string key="mm_csdkerr_server_requires_anticheat">O Mundo requer a EAC para jogar. Verifique se você iniciou o jogo com a EAC.</string>
 	<string key="mm_csdkerr_registration_failed_retry">Falha ao se conectar ao servidor.</string>
-	<string key="mm_connerr_rep_registration_timeout">Não foi possível conectar ao servidor. Confira suas configurações de rede e acesso à internet a fim de verificar se você tem banda larga suficiente para jogar e tente novamente.</string>
-	<string key="mm_connerr_game_timeout">A conexão expirou enquanto aguardava por início de jogo no servidor. Confira suas configurações de rede a fim de verificar se você tem banda larga suficiente para jogar.</string>
-	<string key="mm_connerr_spawn_point_timeout">A conexão expirou enquanto aguardava pelo ponto de nascimento. Confira suas configurações de rede a fim de verificar se você tem banda larga suficiente para jogar.</string>
-	<string key="mm_connerr_aoi_timeout">A conexão expirou enquanto aguardava o servidor descrever o mundo. Confira suas configurações de rede a fim de verificar se você tem banda larga suficiente para jogar.</string>
-	<string key="mm_connerr_player_timeout">A conexão expirou enquanto aguardava o servidor alocar o personagem. Confira suas configurações de rede a fim de verificar se você tem banda larga suficiente para jogar.</string>
-	<string key="mm_connerr_ingame_timeout">Perda inesperada de contato com o servidor. Confira suas configurações de rede a fim de verificar se você tem banda larga suficiente para jogar. Reconectando...</string>
+	<string key="mm_connerr_rep_registration_timeout">Não foi possível conectar ao servidor. Confira suas configurações de rede e acesso à internet a fim de verificar se você tem largura de banda suficiente para jogar e tente novamente.</string>
+	<string key="mm_connerr_game_timeout">A conexão expirou enquanto aguardava por início de jogo no servidor. Confira suas configurações de rede a fim de verificar se você tem largura de banda suficiente para jogar.</string>
+	<string key="mm_connerr_spawn_point_timeout">A conexão expirou enquanto aguardava pelo ponto de nascimento. Confira suas configurações de rede para verificar se sua banda larga é suficiente para jogar.</string>
+	<string key="mm_connerr_aoi_timeout">A conexão expirou enquanto aguardava o servidor descrever o mundo. Confira suas configurações de rede para verificar se sua banda larga é suficiente para jogar.</string>
+	<string key="mm_connerr_player_timeout">A conexão expirou enquanto aguardava o servidor alocar o personagem. Confira suas configurações de rede para verificar se sua banda larga é suficiente para jogar.</string>
+	<string key="mm_connerr_ingame_timeout">Perda inesperada de contato com o servidor. Confira suas configurações de rede para verificar se sua banda larga é suficiente para jogar. Reconectando...</string>
 	<string key="mm_connerr_createcharacter_timeout">A conexão expirou enquanto criava um personagem.</string>
-	<string key="mm_connwarn_title">Aviso de Conexão de Rede</string>
+	<string key="mm_connwarn_title">Ativo de Conexão de Rede</string>
 	<string key="mm_connwarn_unstable_network">As condições instáveis da rede estão resultando em uma perda significativa de pacotes, possivelmente devido à capacidade reduzida da banda larga. Isso afeta a jogabilidade e pode resultar em desconexões! Confira suas configurações de rede para verificar se sua banda larga é suficiente para jogar.</string>
 	<string key="mm_rejected_Join_Match">Não foi possível entrar na partida</string>
 	<string key="mm_rejected_Pending">O servidor não está pronto: A inicialização ainda está pendente.</string>
@@ -757,5 +757,6 @@
 	<string key="ui_low_flex_mem">Memória do kernel baixa</string>
 	<string key="ui_kick_trial_full_game_purchased_title">Jogo Comprado</string>
 	<string key="ui_kick_trial_full_game_purchased">Agradecemos por comprar New World: Aeternum.</string>
+	<string key="mm_rejected_Banned_Location">Saindo do jogo, Erro 451</string>
 </resources>
 

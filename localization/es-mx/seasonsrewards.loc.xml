@@ -40,6 +40,8 @@
 	<string key="seasons_rewards_chapters_label" rel_version="Feature_Seasons_Rewards">Capítulos</string>
 	<string key="seasons_rewards_chapters_info_label" rel_version="Feature_Seasons_Rewards">Completa {count} objetivos del capítulo {chapter} para reclamar esta recompensa.</string>
 	<string key="seasons_rewards_chapters_claimed_info_label" rel_version="Feature_Seasons_Rewards">Completa {count} objetivos del capítulo {chapter} y reclama la recompensa del capítulo {prevChapter} para reclamar esta recompensa.</string>
+	<string key="seasons_rewards_seasonal_chapters_info_label" rel_version="Feature_Seasonal_Servers">Completa {count} objetivos del capítulo Mundo de temporada {chapter} para obtener esta recompensa</string>
+	<string key="seasons_rewards_seasonal_chapters_claimed_info_label" rel_version="Feature_Seasonal_Servers">Completa {count} objetivos del capítulo Mundo de temporada {chapter} y obtén la recompensa del capítulo Mundo de temporada {prevChapter} para obtener esta recompensa</string>
 	<string key="seasons_rewards_challenges_info_label" rel_version="Feature_Seasons_Rewards">Completa {count} desafíos.</string>
 	<string key="seasons_rewards_journey_chapter_xp_label" rel_version="Feature_Seasons_Rewards">+{xp} de EXP de temporada &lt;img src="lyshineui/images/SeasonsRewards/Icon_BXP_Tiny"&gt;&lt;/img&gt;</string>
 	<string key="seasons_rewards_claim_previous_chapter" rel_version="Feature_Seasons_Rewards">Debes reclamar el capítulo anterior.</string>
@@ -238,13 +240,13 @@
 	<string key="ui_seasons_task_CompleteFlawlessRunOfEveryExpedition_name" rel_version="Feature_Seasons_Rewards">Desafío a la muerte</string>
 	<string key="ui_seasons_task_CompleteFlawlessRunOfEveryExpedition_desc" rel_version="Feature_Seasons_Rewards">Completa 10 partidas perfectas en expediciones mutadas (sin muertes).</string>
 	<string key="ui_seasons_task_Collect2500VarangianFlameCores_name" rel_version="Feature_Seasons_Rewards">Acaparanúcleos</string>
-	<string key="ui_seasons_task_Collect2500VarangianFlameCores_desc" rel_version="Feature_Seasons_Rewards">Fabrica 25 objetos PE 600 con núcleos de fuego.</string>
+	<string key="ui_seasons_task_Collect2500VarangianFlameCores_desc" rel_version="Feature_Seasons_Rewards">Fabrica 25 objetos GS600 con núcleos de fuego.</string>
 	<string key="ui_seasons_task_Craft125LegendaryItems_name" rel_version="Feature_Seasons_Rewards">Constructor de leyenda</string>
 	<string key="ui_seasons_task_CraftLegendaryItems_desc" rel_version="Feature_Seasons_Rewards">Fabrica {maxCount} objetos legendarios de nivel 5 (artes arcanas, forja de armas, forja de armaduras, ingeniería)</string>
 	<string key="ui_seasons_task_CompleteFellowshipAndFireSeasonalStory_name" rel_version="Feature_Seasons_Rewards">Comunidad y Fuego</string>
 	<string key="ui_seasons_task_CompleteFellowshipAndFireSeasonalStory_desc" rel_version="Feature_Seasons_Rewards">Completa la historia de la temporada Comunidad y Fuego.</string>
 	<string key="ui_seasons_task_Craft25GS600UsingFlameCore_name" rel_version="Feature_Seasons_Rewards">Acaparanúcleos</string>
-	<string key="ui_seasons_task_Craft25GS600UsingFlameCore_desc" rel_version="Feature_Seasons_Rewards">Fabrica 25 objetos PE 600 con núcleos de fuego.</string>
+	<string key="ui_seasons_task_Craft25GS600UsingFlameCore_desc" rel_version="Feature_Seasons_Rewards">Fabrica 25 objetos GS600 con núcleos de fuego.</string>
 	<string key="ui_seasons_task_Complete25M10ExpeditionWithGoldRank_name" rel_version="Feature_Seasons_Rewards">Dominio de mutaciones</string>
 	<string key="ui_seasons_task_Complete25M10ExpeditionWithGoldRank_desc" rel_version="Feature_Seasons_Rewards">Completa 25 expediciones con mutación 10 con una puntuación de plata o superior.</string>
 	<string key="ui_seasons_task_Complete10MutatedExpeditionsFlawlessly_name" rel_version="Feature_Seasons_Rewards">Desafío a la muerte</string>
@@ -350,9 +352,9 @@
 	<string key="SeasonsRewardTrack_Free" rel_version="Feature_Seasons_Rewards">Gratis</string>
 	<string key="SeasonsRewardTrack_Premium" rel_version="Feature_Seasons_Rewards">Premium</string>
 	<string key="SeasonsRewardTrack_PageCounter" rel_version="Feature_Seasons_Rewards">Página {currentPage} de {maxPage}</string>
-	<string key="SeasonsRewardTrack_PurchaseSeasonPass" rel_version="Feature_Seasons_Rewards">Comprar premium</string>
-	<string key="SeasonsRewardTrack_BasicPassDescription" rel_version="Feature_Seasons_Rewards">Mejora el pase de temporada a un pase premium para desbloquear recompensas adicionales en cada nivel.</string>
-	<string key="SeasonsRewardTrack_HeadStartPassDescription" rel_version="Feature_Seasons_Rewards">¡Mejora el pase de temporada a un pase premium para ganar &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;20 niveles&lt;/font&gt; instantáneamente!</string>
+	<string key="SeasonsRewardTrack_PurchaseSeasonPass" rel_version="Feature_Seasons_Rewards">Comprar prémium</string>
+	<string key="SeasonsRewardTrack_BasicPassDescription" rel_version="Feature_Seasons_Rewards">Mejora el pase de temporada a un pase prémium para desbloquear recompensas adicionales en cada nivel.</string>
+	<string key="SeasonsRewardTrack_HeadStartPassDescription" rel_version="Feature_Seasons_Rewards">¡Mejora el pase de temporada a un pase prémium para ganar &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;20 niveles&lt;/font&gt; instantáneamente!</string>
 	<string key="SeasonsRewardTrack_Purchase" rel_version="Feature_Seasons_Rewards">Comprar</string>
 	<string key="SeasonsRewardTrack_20Levels" rel_version="Feature_Seasons_Rewards">+20 niveles</string>
 	<string key="SeasonsRewardTrack_HeadStart" rel_version="Feature_Seasons_Rewards">Ventaja</string>
@@ -362,11 +364,11 @@
 	<string key="SeasonsRewardTrack_Header" rel_version="Feature_Seasons_Rewards">Recompensas del pase de temporada</string>
 	<string key="SeasonsRewardTrack_Unclaimed_Rewards" rel_version="Feature_Seasons_Rewards">&lt;font color={color}&gt;{amount}&lt;/font&gt; sin reclamar</string>
 	<string key="SeasonsRewardTrack_Current_Level" rel_version="Feature_Seasons_Rewards">Ver nivel actual</string>
-	<string key="SeasonsRewardTrack_PremiumSelectErrorNotification" rel_version="Feature_Seasons_Rewards">Selecciona un pase premium para comprar.</string>
+	<string key="SeasonsRewardTrack_PremiumSelectErrorNotification" rel_version="Feature_Seasons_Rewards">Seleccionar un pase prémium para comprar.</string>
 	<string key="SeasonsRewardTrack_SeasonWelcomeText" rel_version="Feature_Seasons_Rewards">¡La temporada {index} ya ha empezado!\nGana EXP de temporada completando capítulos de la temporada y tarjetas de actividad.</string>
 	<string key="SeasonsRewardTrack_JourneyLevelRequirementTooltip" rel_version="Feature_Seasons_Rewards">Debes ser de nivel {level} para poder acceder al progreso de la temporada.</string>
-	<string key="SeasonsRewardTrack_PurchaseHeadStartButtonLabel" rel_version="Feature_Seasons_Rewards">Pase premium + 20</string>
-	<string key="SeasonsRewardTrack_PurchasePassButtonLabel" rel_version="Feature_Seasons_Rewards">Pase premium</string>
+	<string key="SeasonsRewardTrack_PurchaseHeadStartButtonLabel" rel_version="Feature_Seasons_Rewards">Pase prémium + 20</string>
+	<string key="SeasonsRewardTrack_PurchasePassButtonLabel" rel_version="Feature_Seasons_Rewards">Pase prémium</string>
 	<string key="SeasonsRewardTrack_ClaimError_RewardNotUnlocked" rel_version="Feature_Seasons_Rewards">No se pudo reclamar esta recompensa. No está desbloqueada.</string>
 	<string key="SeasonsRewardTrack_ClaimError_RewardAlreadyRedeemed" rel_version="Feature_Seasons_Rewards">No se pudo reclamar esta recompensa. Ya fue canjeada.</string>
 	<string key="SeasonsRewardTrack_ClaimError_NotEnoughInventorySpace" rel_version="Feature_Seasons_Rewards">No se pudo reclamar esta recompensa. No hay espacio suficiente en el inventario.</string>
@@ -764,7 +766,7 @@
 	<string key="ui_seasons_task_description_Challenge_M3Expeditions" rel_version="Season_4_Perm">Completa {maxCount} expediciones M3</string>
 	<string key="ui_seasons_task_description_Challenge_S4Storyline" rel_version="Season_4_Perm">Completa la historia de la temporada 4</string>
 	<string key="ui_seasons_task_description_Challenge_T52Resources" rel_version="Season_4_Perm">Recolecta mineral de mithril, madera rúnica, fibra de hilado o piel oscura {maxCount} veces</string>
-	<string key="ui_seasons_task_description_Challenge_CraftGS700_2" rel_version="Season_4_Perm">Elabora {maxCount} piezas de equipo de tipo PE 700</string>
+	<string key="ui_seasons_task_description_Challenge_CraftGS700_2" rel_version="Season_4_Perm">Elabora {maxCount} piezas de equipo de tipo GS700</string>
 	<string key="ui_seasons_task_description_Challenge_S4Completionist" rel_version="Season_4_Perm">Completa {maxCount} de las tareas de progreso de la temporada 4</string>
 	<string key="ui_seasons_task_description_Challenge_KillNamedElite65" rel_version="Season_4_Perm">Mata a {maxCount} enemigos de élite con nombre de nivel 65 o superior</string>
 	<string key="ui_seasons_task_description_Challenge_MountRaces" rel_version="Season_4_Perm">Completa {maxCount} carreras de monturas</string>
@@ -845,18 +847,18 @@
 	<string key="ui_seasons_task_description_HercyneRaidSingle" rel_version="Season_6_Perm">Completa la incursión de Hercyne</string>
 	<string key="ui_seasons_task_description_HercyneRaid" rel_version="Season_6_Perm">Completa la incursión de Hercyne {maxCount} veces</string>
 	<string key="ui_seasons_task_name_DiscoverPOICutlassKeys" rel_version="Season_6_Perm">Cartografía de alfanje</string>
-	<string key="ui_seasons_task_description_DiscoverPOICutlassKeys" rel_version="Season_6_Perm">Descubre todos los puntos de interés en Cayos del Alfanje</string>
+	<string key="ui_seasons_task_description_DiscoverPOICutlassKeys" rel_version="Season_6_Perm">Descubre todos los puntos de interés en Llaves de Alfanje</string>
 	<string key="ui_seasons_task_name_SoloTrial" rel_version="Season_6_Perm">Supervivencia en solitario</string>
 	<string key="ui_seasons_task_description_SoloTrialSingle" rel_version="Season_6_Perm">Completa una prueba individual</string>
 	<string key="ui_seasons_task_name_KillPlayerCK" rel_version="Season_6_Perm">Asesino degollador</string>
-	<string key="ui_seasons_task_description_KillPlayerCK" rel_version="Season_6_Perm">Mata a {maxCount} jugadores en la zona todos contra todos de Cayos del Alfanje</string>
+	<string key="ui_seasons_task_description_KillPlayerCK" rel_version="Season_6_Perm">Mata a {maxCount} jugadores en la zona todos contra todos de Llaves de Alfanje</string>
 	<string key="ui_seasons_task_name_KillNamedCK_1" rel_version="Season_6_Perm">Haciéndose un nombre I</string>
 	<string key="ui_seasons_task_name_KillNamedCK_2" rel_version="Season_6_Perm">Haciéndose un nombre II</string>
-	<string key="ui_seasons_task_description_KillNamedCK" rel_version="Season_6_Perm">Mata a {maxCount} enemigos nombrados en Cayos del Alfanje</string>
+	<string key="ui_seasons_task_description_KillNamedCK" rel_version="Season_6_Perm">Mata a {maxCount} enemigos nombrados en Llaves de Alfanje</string>
 	<string key="ui_seasons_task_name_FlawlessArena" rel_version="Season_6_Perm">As de la arena</string>
 	<string key="ui_seasons_task_description_FlawlessArena" rel_version="Season_6_Perm">Logra {maxCount} victorias perfectas en la arena</string>
 	<string key="ui_seasons_task_name_GatherCKPvPChest" rel_version="Season_6_Perm">Gran riesgo, gran recompensa</string>
-	<string key="ui_seasons_task_description_GatherCKPvPChest" rel_version="Season_6_Perm">Recolecta {maxCount} cofres de tesoros PvP en Cayos del Alfanje</string>
+	<string key="ui_seasons_task_description_GatherCKPvPChest" rel_version="Season_6_Perm">Recolecta {maxCount} cofres de tesoros PvP en Llaves de Alfanje</string>
 	<string key="ui_seasons_task_description_CraftGS700Plus" rel_version="Season_6_Perm">Fabrica {maxCount} objetos de PE 700+</string>
 	<string key="ui_seasons_task_name_GainAptitudeAny_1" rel_version="Season_6_Perm">Adicción a la aptitud I</string>
 	<string key="ui_seasons_task_name_GainAptitudeAny_2" rel_version="Season_6_Perm">Adicción a la aptitud II</string>
@@ -881,7 +883,7 @@
 	<string key="ui_seasons_task_name_Challenge_HercyneBossBow" rel_version="Season_6_Perm">Certeza gorgona</string>
 	<string key="ui_seasons_task_description_Challenge_HercyneBossBow" rel_version="Season_6_Perm">Elimina a Madre Criadora Medusa en la colmena de gorgonas con un arco</string>
 	<string key="ui_seasons_task_name_Challenge_Doubloons" rel_version="Season_6_Perm">Rebosante de doblones</string>
-	<string key="ui_seasons_task_description_Challenge_Doubloons" rel_version="Season_6_Perm">Recolecta {maxCount} doblones malditos de cofres malditos en la zona todos contra todos de Cayos del Alfanje</string>
+	<string key="ui_seasons_task_description_Challenge_Doubloons" rel_version="Season_6_Perm">Recolecta {maxCount} doblones malditos de cofres malditos en la zona todos contra todos de Llaves de Alfanje</string>
 	<string key="ui_seasons_task_name_KillAncient" rel_version="Season_7_Perm">Flagelo de antiguos</string>
 	<string key="ui_seasons_task_description_KillAncient" rel_version="Season_7_Perm">Mata a {maxCount} enemigos antiguos</string>
 	<string key="ui_seasons_task_name_TerritoryStanding_1" rel_version="Season_7_Perm">Territorial I</string>
@@ -1029,12 +1031,91 @@
 	<string key="SeasonsActivities_KillPlayerRanged" rel_version="Season_6_Perm">Mata a un jugador con un arma de ataque a distancia</string>
 	<string key="SeasonsActivities_Heal5k" rel_version="Season_6_Perm">Sana daño</string>
 	<string key="SeasonsActivities_CompleteAnyQuest" rel_version="Season_6_Perm">Completa una misión</string>
-	<string key="SeasonsActivities_KillNamedCutlassKeys" rel_version="Season_6_Perm">Mata a un enemigo nombrado en Cayos del Alfanje</string>
+	<string key="SeasonsActivities_KillNamedCutlassKeys" rel_version="Season_6_Perm">Mata a un enemigo nombrado en Llaves de Alfanje</string>
 	<string key="SeasonsActivities_KillPlayerMelee" rel_version="Season_7_Perm">Mata a un jugador con un arma de ataque cuerpo a cuerpo</string>
 	<string key="SeasonsActivities_KillNamedExpedition" rel_version="Season_7_Perm">Mata a un enemigo con nombre en una expedición</string>
 	<string key="ui_seasons_task_placeholder_name" rel_version="Feature_Seasons_Rewards">MARCADOR DE POSICIÓN</string>
 	<string key="ui_seasons_task_placeholder_desc" rel_version="Feature_Seasons_Rewards">MARCADOR DE POSICIÓN</string>
-	<string key="seasons_rewards_seasonal_chapters_claimed_info_label">Completa {count} objetivos del capítulo Mundo de temporada {chapter} y obtén la recompensa del capítulo Mundo de temporada {prevChapter} para obtener esta recompensa</string>
-	<string key="seasons_rewards_seasonal_chapters_info_label">Completa {count} objetivos del capítulo Mundo de temporada {chapter} para obtener esta recompensa</string>
+	<string key="ui_seasons_task_name_CraftPotionT4">Mis pociones más fuertes</string>
+	<string key="ui_seasons_task_name_Challenge_S8_CompleteTaskAnyChapter">Completista de división</string>
+	<string key="ui_seasons_task_name_CraftHeartrune_1">Conversación sincera I</string>
+	<string key="ui_seasons_task_name_KillHercyneHatchet">Ruptura y desgarro</string>
+	<string key="ui_seasons_task_description_CraftNamedReplica_Single">Fabrica una réplica con nombre de expedición</string>
+	<string key="ui_seasons_task_name_Challenge_S8_GameEvent_Breach">Defensor dimensional</string>
+	<string key="ui_seasons_task_description_CraftPotionT4">Fabrica {maxCount} pociones 4+</string>
+	<string key="ui_seasons_task_name_Challenge_S8_KillWorldBoss65">Maestro de la caza</string>
+	<string key="ui_seasons_task_name_Challenge_S8_DefeatWurmBoss">Matamentes</string>
+	<string key="ui_seasons_task_description_CraftTrinketT5">Fabrica {maxCount} joyas 5</string>
+	<string key="ui_seasons_task_description_Challenge_S8_WinOutpostRushBy500">Gana {maxCount} partidas de Avance a puesto de avanzada con una diferencia de puntuación de 500 o superior</string>
+	<string key="data_season_08_display_name">Temporada 8</string>
+	<string key="ui_seasons_task_description_CraftHeartruneGS700_Single">Fabrica una runa con forma de corazón PE 625+</string>
+	<string key="ui_seasons_task_name_Challenge_S8_CompleteFactionMission">Agente 007</string>
+	<string key="ui_seasons_task_name_CraftTrinketT5">Nada más que joyas ostentosas</string>
+	<string key="ui_seasons_task_name_CraftHeartrune_2">Conversación sincera II</string>
+	<string key="ui_seasons_task_name_KillNamedElite">Montañés</string>
+	<string key="ui_seasons_task_name_Challenge_S8_CompleteActivityCard">Trotamundos de nivel S</string>
+	<string key="ui_seasons_task_name_KillCorrupted_S8_3">Caída de los caídos III</string>
+	<string key="ui_seasons_task_description_Challenge_S8_DefeatWurmBoss">Mata a {maxCount} gusanos de arena</string>
+	<string key="ui_seasons_task_description_KillWorldBoss65">Mata a {maxCount} jefes de nivel 65+ en el mundo abierto</string>
+	<string key="ui_seasons_task_name_WinWar">Reclama tu derecho</string>
+	<string key="ui_seasons_task_name_KillCorrupted_S8_2">Caída de los caídos II</string>
+	<string key="ui_seasons_task_name_CraftNamedReplica_2">Como si fuera auténtica II</string>
+	<string key="ui_seasons_task_name_Challenge_S8_CategoricalProgressionTerritoryStanding">Titán de territorios</string>
+	<string key="ui_seasons_task_name_KillElite_3">Exorcista de élite III</string>
+	<string key="ui_seasons_task_name_Challenge_S8_WinOutpostRushBy500">Gobernante de puesto de avanzada</string>
+	<string key="ui_seasons_task_name_Challenge_S8_CompleteExpedition">Adalid de Aeternum</string>
+	<string key="ui_seasons_task_name_CompleteMutatedExpedition_1">Maníaco de las mutaciones</string>
+	<string key="ui_seasons_task_description_KillHercyneHatchet">Mata a {maxCount} jefes de Colmena de gorgonas con una hachuela equipada</string>
+	<string key="ui_seasons_task_name_CraftNamedReplica_4">Como si fuera auténtica IV</string>
+	<string key="ui_seasons_task_description_KillWorldBoss">Mata a {maxCount} jefes en el mundo abierto</string>
+	<string key="ui_seasons_task_description_CompleteMutatedExpeditionFlawlessly_Single">Completa una expedición mutada sin que muera nadie de tu grupo</string>
+	<string key="ui_seasons_task_description_CraftMutatorNamedReplica_Single">Fabrica una réplica con nombre de mutación</string>
+	<string key="ui_seasons_task_description_Challenge_S8_CompleteTaskAnyChapter">Completa el 90 % (54) de las tareas del progreso de esta temporada</string>
+	<string key="ui_seasons_task_name_CraftNamedReplica_1">Como si fuera auténtica I</string>
+	<string key="ui_seasons_task_name_KillWorldBoss_1">El juego más peligroso I</string>
+	<string key="ui_seasons_task_name_KillNamed_4">Némesis con nombre IV</string>
+	<string key="ui_seasons_task_name_WinInfluenceRace_3">Venii, Vidii, Vicii III</string>
+	<string key="ui_seasons_task_description_KillWorldBoss_Single">Mata un jefe en el mundo abierto</string>
+	<string key="ui_seasons_task_description_KillNamedElite">Mata a {maxCount} enemigos de élite con nombre</string>
+	<string key="ui_seasons_task_name_CompleteMutatedExpeditionFlawlessly">Invencible</string>
+	<string key="ui_seasons_task_name_CraftNamedReplica_3">Como si fuera auténtica III</string>
+	<string key="ui_seasons_task_name_Challenge_S8_KillCorrupted">Leyenda de los caídos</string>
+	<string key="ui_seasons_task_name_KillWorldBoss_2">El juego más peligroso II</string>
+	<string key="ui_seasons_task_description_CraftHeartrune_Single">Fabrica una runa con forma de corazón</string>
+	<string key="ui_seasons_task_description_Challenge_S8_CategoricalProgressionTerritoryStanding">Consigue {maxCount} de posición del territorio</string>
+	<string key="ui_seasons_task_description_CraftRaidNamedReplica_Single">Fabrica una réplica con nombre de incursión</string>
+	<string key="ui_seasons_task_description_CraftNamedReplica">Fabrica {maxCount} réplicas con nombre de expedición</string>
+	<string key="data_season_08_name">Temporada 8: Temporada de la división</string>
+	<string key="ui_seasons_task_name_KillCorrupted_S8_1">Caída de los caídos I</string>
+	<string key="ui_seasons_task_name_KillWorldBoss_3">El juego más peligroso III</string>
+	<string key="SS8_Journey_Bonus">Capítulo de bonificación de mundo de temporada &lt;img src="lyshineui/images/SeasonsRewards/SeasonalServer/Icon_season_server" scale="1.5" yOffset="3"&gt;&lt;/img&gt;</string>
+	<string key="ui_seasons_task_description_CompleteM3ExpeditionPristine">Completa {maxCount} expediciones mutadas M3 en un grupo sin derrotar</string>
+	<string key="ui_seasons_task_name_ParticipateInfluenceRaceDepraved">Influyente perjudicial</string>
+	<string key="ui_seasons_task_name_Challenge_S8_CompleteTaskAnyChapterSS">Maestro de la división</string>
+	<string key="ui_seasons_task_name_KillPlayerDepraved">Matapecadores</string>
+	<string key="SS8_Journey_Pristine">Capítulo de mundo de temporada sin derrotar &lt;img src="lyshineui/images/SeasonsRewards/SeasonalServer/Icon_season_server" scale="1.5" yOffset="3"&gt;&lt;/img&gt;</string>
+	<string key="ui_seasons_task_description_ParticipateInfluenceRaceDepraved">Participa en {maxCount} carreras de influencia al estar en un estado de derrota en el servidor de temporada</string>
+	<string key="ui_seasons_task_name_CraftSS8Caches">Preparado para todo</string>
+	<string key="ui_seasons_task_name_EquipAllArtifactSS">Maestro del infinito</string>
+	<string key="SS8_Journey_Depraved">Capítulo de mundo de temporada derrotado &lt;img src="lyshineui/images/SeasonsRewards/SeasonalServer/Icon_season_server" scale="1.5" yOffset="3"&gt;&lt;/img&gt;</string>
+	<string key="ui_seasons_task_description_Challenge_S8_CompleteTaskAnyChapterSS">Completa {maxCount} tareas de progreso de mundo de temporada esta temporada</string>
+	<string key="SS8_Journey_Casual">Capítulo de mundo de temporada casual &lt;img src="lyshineui/images/SeasonsRewards/SeasonalServer/Icon_season_server" scale="1.5" yOffset="3"&gt;&lt;/img&gt;</string>
+	<string key="ui_seasons_task_name_DefeatWurmBossPristine">Matagusanos de arena</string>
+	<string key="ui_seasons_task_description_CompleteExpeditionMax3">Completa {maxCount} expediciones con 3 o menos jugadores en el servidor de temporada</string>
+	<string key="ui_seasons_task_description_KillHercyneBossPristine">Mata a {maxCount} jefes de Colmena de gorgonas en un grupo sin derrotar</string>
+	<string key="ui_seasons_task_description_DefeatWurmBossPristine">Mata al gusano de arena en un grupo sin derrotar</string>
+	<string key="ui_seasons_task_description_EquipAllArtifactSS">Equipa 10 artefactos a la vez en el servidor de temporada</string>
+	<string key="ui_seasons_task_name_CompleteExpeditionMax3">Ahondador artero</string>
+	<string key="ui_seasons_task_name_KillHercyneBossPristine">Dominante de gorgonas</string>
+	<string key="ui_seasons_task_name_CompleteM3ExpeditionPristine">Mutador de obra maestra</string>
+	<string key="ui_seasons_task_description_KillPlayerDepraved">Mata a {maxCount} jugadores al estar en un estado de derrota en el servidor de temporada</string>
+	<string key="ui_seasons_task_description_CraftSS8Caches">Fabrica {maxCount} alijos de aventurero en el servidor de temporada</string>
+	<string key="ui_seasons_task_description_KillTyphonPristine">Mata a Tifón en la colmena de gorgonas en un grupo sin derrotar</string>
+	<string key="ui_seasons_task_name_KillEchidnaPristine">Exterminador de Equidna</string>
+	<string key="ui_seasons_task_name_KillBroodmotherPristine">Violentador de la Madre Criadora</string>
+	<string key="ui_seasons_task_description_KillBroodmotherPristine">Mata a la Madre Criadora en la colmena de gorgonas en un grupo sin derrotar</string>
+	<string key="ui_seasons_task_description_KillEchidnaPristine">Mata a Equidna en la colmena de gorgonas en un grupo sin derrotar</string>
+	<string key="ui_seasons_task_name_KillTyphonPristine">Terror de Tifón</string>
+	<string key="ui_seasons_task_name_ReachLevel65SS_Only">Nuevo comienzo</string>
 </resources>
 

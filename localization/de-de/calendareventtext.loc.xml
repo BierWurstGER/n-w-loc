@@ -1,7 +1,6 @@
 <resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<string key="ui_news_button">Nachrichten und Ereignisse</string>
-	<string key="ui_news_button_no_news">Keine neuen Geschichten verfügbar.</string>
-	<string key="ui_news_about">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Über die Nachrichten</string>
+	<string key="ui_news_button_no_news">Keine Nachrichten verfügbar.</string>
 	<string key="ui_news_modal_display_start_date">Beginnt am {startDate}</string>
 	<string key="ui_news_modal_display_end_date">Endet am {endDate}</string>
 	<string key="ui_news_modal_display_start_datetime">Beginnt um {startTime} am {startDate}</string>
@@ -13,6 +12,10 @@
 	<string key="ui_event_summer_progress_name" rel_version="Event_Summer_Perm">Ereignis-Ansehen</string>
 	<string key="ui_event_halloween_progress_name" rel_version="Event_Halloween_Perm">Ereignis-Ansehen</string>
 	<string key="ui_event_spring_progress_name" rel_version="Event_SpringtideBloom_Perm">Ereignis-Ansehen</string>
+	<string key="ui_event_spring_rank_0" rel_version="Event_SpringtideBloom_Temp">Blüte</string>
+	<string key="ui_event_spring_rank_1" rel_version="Event_SpringtideBloom_Temp">Schäfer</string>
+	<string key="ui_event_spring_rank_2" rel_version="Event_SpringtideBloom_Temp">Herold</string>
+	<string key="ui_event_spring_shop_header" rel_version="Event_SpringtideBloom_Temp">Frühlingsblüte</string>
 	<string key="ui_news_store_tabname">Shop</string>
 	<string key="ui_news_expedition_tabname">Expedition</string>
 	<string key="ui_news_expeditions_tabname">Expeditionen</string>
@@ -49,6 +52,7 @@
 	<string key="ui_news_bullet_resources">Rohstoffe</string>
 	<string key="ui_news_bullet_decor">Dekor</string>
 	<string key="ui_news_bullet_mounts" rel_version="Feature_Mounts">Reittiere</string>
+	<string key="ui_news_bullet_mount_skin" rel_version="Feature_Mounts">Reittier-Skin</string>
 	<string key="ui_news_bullet_mount_skins" rel_version="Feature_Mounts">Reittier-Skins</string>
 	<string key="ui_news_bullet_mount_attachments" rel_version="Feature_Mounts">Reittieranhänge</string>
 	<string key="ui_news_bullet_artifact" rel_version="Feature_Artifacts">Artefakt</string>
@@ -56,21 +60,13 @@
 	<string key="ui_news_bullet_transmog_tokens" rel_version="Season_2_Perm">Transmog-Marken</string>
 	<string key="ui_news_bullet_instrument_skins">Musikinstrumenten-Skins</string>
 	<string key="ui_news_bullet_housing_trophy">Behausung, Trophäe</string>
-	<string key="ui_event_weapon_xp_tabname">EP-Event</string>
+	<string key="ui_news_bullet_apparel_skin">Kleidungs-Skin</string>
+	<string key="ui_news_bullet_apparel_skins">Kleidungs-Skins</string>
 	<string key="ui_event_weapon_xp_title">EVENT: WAFFEN-EP-BONUS</string>
-	<string key="ui_event_weapon_xp_desc">Aktive Boni:</string>
-	<string key="ui_event_gathering_xp_tabname">EP-Event</string>
 	<string key="ui_event_gathering_xp_title">EVENT: SAMMEL-EP-BONUS</string>
-	<string key="ui_event_gathering_xp_desc">Aktive Boni:</string>
-	<string key="ui_event_character_xp_tabname">EP-Event</string>
 	<string key="ui_event_character_xp_title">EVENT: STUFEN-EP-BONUS</string>
-	<string key="ui_event_character_xp_desc">Aktive Boni:</string>
-	<string key="ui_event_refining_xp_tabname">EP-Event</string>
 	<string key="ui_event_refining_xp_title">EVENT: VEREDELUNGS-EP-BONUS</string>
-	<string key="ui_event_refining_xp_desc">Aktive Boni:</string>
-	<string key="ui_event_extravaganza_tabname">EP-Event</string>
 	<string key="ui_event_extravaganza_title">EP-EXTRAVAGANZA</string>
-	<string key="ui_event_extravaganza_desc">Aktive Boni:</string>
 	<string key="ui_news_end_game_tabname">Endgame</string>
 	<string key="ui_news_end_game_description">Auf Stufe 60 kannst du jetzt&lt;font color="#edc63e"&gt; deine Ausrüstung aufwerten&lt;/font&gt;, um noch höhere Rüstwerte zu erreichen. Dafür musst du in verschiedenen Aktivitäten und Orten der Stufe 60 Gips sammeln. Besuche einen &lt;font color="#edc63e"&gt;Gips-Ofen&lt;/font&gt;, um mehr zu erfahren.</string>
 	<string key="ui_end_game_panel1_title">ENDGAME-AKTIVITÄTEN</string>
@@ -91,8 +87,8 @@
 	<string key="ui_event_console_beta_preorder_news_bullet_azoth_stalker">Azoth-Pirscher</string>
 	<string key="ui_event_console_beta_preorder_news_bullet_mount_skins_deluxe">Reittier-Skins\n(Deluxe)</string>
 	<string key="ui_event_console_beta_preorder_news_bullet_armor_skins_deluxe">Rüstungs-Skins\n(Deluxe)</string>
-	<string key="ui_event_season_seven_title" comment="DO NOT TRANSLATE" rel_version="Season_7_Perm">Saison der Eroberer</string>
-	<string key="ui_event_season_seven_description" comment="DO NOT TRANSLATE" rel_version="Season_7_Perm">Suche auf einem einzigartigen Saisonserver, der Kämpfe zwischen Spielern ermutigt, einen Neubeginn und kämpfe um die Vorherrschaft. Erlange zahlreiche neue Artefakte, Skins und mehr in der Belohnungsserie "Saison der Eroberer".</string>
+	<string key="ui_event_season_seven_title" rel_version="Season_7_Perm">Saison der Eroberer</string>
+	<string key="ui_event_season_seven_description" rel_version="Season_7_Perm">Wage einen Neuanfang auf einem einzigartigen Saisonserver, der Kämpfe zwischen Spielern in den Fokus rückt, und kämpfe um die Vorherrschaft. Erlange zahlreiche neue Artefakte, Skins und mehr in der Belohnungsserie "Saison der Eroberer".</string>
 	<string key="ui_event_season_seven_about" comment="DO NOT TRANSLATE" rel_version="Season_7_Perm">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; About Season 7 Placeholder</string>
 	<string key="ui_news_rise_of_the_angry_earth_expansion_title">Entdeckt alles, was Aeternum zu bieten hat</string>
 	<string key="ui_news_rise_of_the_angry_earth_expansion_description">Erlebt New World: Aeternum in vollen Zügen.\n\nPC-Spieler, die die "Aufstieg der Zornigen Erdkreaturen"-Erweiterung besitzen, haben Zugriff auf alle Funktionen von New World: Aeternum, darunter wichtige Ergänzungen wie:</string>
@@ -101,12 +97,30 @@
 	<string key="ui_news_rise_of_the_angry_earth_expansion_icon2">Flegel</string>
 	<string key="ui_news_rise_of_the_angry_earth_expansion_icon3">10-Spieler-Raid</string>
 	<string key="ui_news_rise_of_the_angry_earth_expansion_purchase_button">Jetzt kaufen</string>
+	<string key="ui_event_siege_of_sulfur_title_2025">Schwefelbelagerung</string>
+	<string key="ui_event_siege_of_sulfur_description_2025">Sharifs Blut der Sande-Magier werden angegriffen! Während sie wertvolle Sandwurmeier an sichere Orte in Aeternum gebracht haben, wurden die Magier von Adianas Truppen angegriffen. Wütende Schwefel-Elementare versuchen, die Eier zu zerstören und die Würmer in Aeternum auszurotten. Verteidige die Eier und verdiene dir wertvolle Belohnungen, darunter mächtige Ausrüstungsgegenstände und brandheiße Behausungs- sowie kosmetische Gegenstände.</string>
+	<string key="ui_event_legacy_of_crassus_title_2025">Crassus' Vermächtnis</string>
+	<string key="ui_event_legacy_of_crassus_description_2025">Crassus ist zurückgekehrt und hat Legionen von Monstern mitgebracht! Kämpfe mit deinen Kameraden gegen die brutalen Zenturios Decimus und Lucanus in Lichtholz, Klagental, Webermoor und Ebenmaß. Wehrt den römischen Ansturm ab und besiegt die dunkle Klaue der Verderbnis, um euch Ruhm, Ehre und zeitlich begrenzte Belohnungen zu sichern!</string>
+	<string key="ui_event_rabbits_revenge_title_2025">Die Rache des Kaninchens!</string>
+	<string key="ui_event_rabbits_revenge_description_2025">Verderbte Kaninchen haben Aeternum eingenommen! Beseitige die Verderbnis, um wilde Belohnungen zu erhalten.</string>
+	<string key="ui_event_valkyrie_title" rel_version="Entitlements_Valkyrie">Walküre</string>
+	<string key="ui_event_valkyrie_description" rel_version="Entitlements_Valkyrie">Neue Walküren-Inhalte sind da! Trage die Rüstung, die darüber entscheidet, wer im Kampf stirbt und wer weiterleben darf.</string>
+	<string key="ui_event_valkyrie_about" rel_version="Entitlements_Valkyrie">Über Walküre</string>
+	<string key="ui_event_barbarian_title" rel_version="Entitlements_Barbarian">Barbar</string>
+	<string key="ui_event_barbarian_description" rel_version="Entitlements_Barbarian">Neue Barbaren-Inhalte sind da! Gehe das Problem direkt mit der Axt an. So lange, bis das Problem aufgibt.</string>
+	<string key="ui_event_barbarian_about" rel_version="Entitlements_Barbarian">Über Barbar</string>
+	<string key="ui_event_thick_as_thieves_title" rel_version="Entitlements_ThickThieves">Gelegenheit macht Diebe</string>
+	<string key="ui_event_thick_as_thieves_description" rel_version="Entitlements_ThickThieves">Nur, wer eingeweiht ist, betritt die Schatten; nur, wer Talent zeigt, verlässt sie unversehrt. Erhalte Kleidung für jene, die die Gelegenheit am Schopfe packen. Neue "Gelegenheit macht Diebe"-Inhalte sind da!</string>
+	<string key="ui_event_thick_as_thieves_about" rel_version="Entitlements_ThickThieves">Über "Gelegenheit macht Diebe"</string>
 	<string key="ui_event_legacy_of_crassus_title">Crassus' Vermächtnis</string>
-	<string key="ui_event_legacy_of_crassus_description">Crassus ist zurückgekehrt und hat Legionen von Monstern mitgebracht! Kämpfe mit deinen Kameraden gegen die brutalen Zenturios Decimus und Lucanus in Lichtholz, Klagental, Webermoor, Edenhain und Ebenmaß. Wehrt den römischen Ansturm ab und besiegt die dunkle Klaue der Verderbnis, um euch Ruhm, Ehre und zeitlich begrenzte Belohnungen zu sichern!</string>
+	<string key="ui_event_legacy_of_crassus_description">Crassus ist zurückgekehrt und hat Legionen von Monstern mitgebracht! Kämpfe mit deinen Kameraden gegen die brutalen Zenturios Decimus und Lucanus in Lichtholz, Klagental, Webermoor und Ebenmaß. Wehrt den römischen Ansturm ab und besiegt die dunkle Klaue der Verderbnis, um euch Ruhm, Ehre und zeitlich begrenzte Belohnungen zu sichern!</string>
 	<string key="ui_event_legacy_of_crassus_bullet1">Spitzhacke der Legion</string>
 	<string key="ui_event_legacy_of_crassus_bullet2">Decimus-Statue</string>
 	<string key="ui_event_legacy_of_crassus_bullet3">Lucanus-Statue</string>
 	<string key="ui_event_legacy_of_crassus_about">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Über Crassus' Vermächtnis</string>
+	<string key="ui_event_springtide_bloom_title" rel_version="Event_SpringtideBloom_Temp">Der Frühling ist erwacht!</string>
+	<string key="ui_event_springtide_bloom_description" rel_version="Event_SpringtideBloom_Temp">Die jährliche Blüte der Flaumblumen beginnt! Feiere diese magische Zeit, indem du ihre Blütenblätter sammelst und dann das Frühlingsdorf besuchst, um dir dort einzigartige und mächtige Belohnungen abzuholen. Vergiss nicht, ein Abwehrmittel gegen diese lästigen Irrlichtwespe mitzunehmen.</string>
+	<string key="ui_event_springtide_bloom_about" rel_version="Event_SpringtideBloom_Temp">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Über die Frühlingsblüte</string>
 	<string key="ui_event_rabbits_revenge_title">Die Rache des Kaninchens!</string>
 	<string key="ui_event_rabbits_revenge_description">Verderbte Kaninchen haben Aeternum eingenommen! Beseitige die Verderbnis, um wilde Belohnungen zu erhalten.</string>
 	<string key="ui_event_rabbits_revenge_about">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Über die Rache des Kaninchens</string>
@@ -136,23 +150,5 @@
 	<string key="ui_event_winter_convergence_title">Winter-Zusammenkunft</string>
 	<string key="ui_event_winter_convergence_description">Der Winterkrieger und seine gletscherigen Gesellen sind erneut in Aeternum unterwegs und bedrohen den Frieden mit dem Ewigen Winter. Schare deine Freunde um dich und verbreitet die Wärme und Geborgenheit der Winter-Zusammenkunft, um gegen die klirrende Kälte zu kämpfen. Finde den fröhlichen Winterwanderer in den Winterdörfern überall in Aeternum, um eine Vielzahl an zeitlich begrenzten Belohnungen zu erhalten!</string>
 	<string key="ui_event_winter_convergence_about">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Über die Winter-Zusammenkunft</string>
-	<string key="ui_event_valkyrie_title">Walküre</string>
-	<string key="ui_news_bullet_apparel_skin">Kleidungs-Skin</string>
-	<string key="ui_event_barbarian_title">Barbar</string>
-	<string key="ui_event_siege_of_sulfur_description_2025">Sharifs Blut der Sande-Magier werden angegriffen! Während sie wertvolle Sandwurmeier an sichere Orte in Aeternum gebracht haben, wurden die Magier von Adianas Truppen angegriffen. Wütende Schwefel-Elementare versuchen, die Eier zu zerstören und die Würmer in Aeternum auszurotten. Verteidige die Eier und verdiene dir wertvolle Belohnungen, darunter mächtige Ausrüstungsgegenstände und brandheiße Behausungs- sowie kosmetische Gegenstände.</string>
-	<string key="ui_event_rabbits_revenge_description_2025">Verderbte Kaninchen haben Aeternum eingenommen! Beseitige die Verderbnis, um wilde Belohnungen zu erhalten.</string>
-	<string key="ui_event_rabbits_revenge_title_2025">Die Rache des Kaninchens!</string>
-	<string key="ui_event_siege_of_sulfur_title_2025">Schwefelbelagerung</string>
-	<string key="ui_event_barbarian_about">Über den Barbaren</string>
-	<string key="ui_event_barbarian_description">Neue Barbaren-Inhalte sind da! Gehe das Problem direkt mit der Axt an. So häufig wie nötig.</string>
-	<string key="ui_event_thick_as_thieves_title">Wie Pech und Schwefel</string>
-	<string key="ui_event_legacy_of_crassus_title_2025">Crassus' Vermächtnis</string>
-	<string key="ui_news_bullet_mount_skin">Reittier-Skin</string>
-	<string key="ui_event_valkyrie_about">Über die Walküre</string>
-	<string key="ui_event_legacy_of_crassus_description_2025">Crassus ist zurückgekehrt und hat Legionen von Monstern mitgebracht! Kämpfe mit deinen Kameraden gegen die brutalen Zenturios Decimus und Lucanus in Lichtholz, Klagental, Webermoor und Ebenmaß. Wehrt den römischen Ansturm ab und besiegt die dunkle Klaue der Verderbnis, um euch Ruhm, Ehre und zeitlich begrenzte Belohnungen zu sichern!</string>
-	<string key="ui_news_bullet_apparel_skins">Kleidungs-Skins</string>
-	<string key="ui_event_thick_as_thieves_description">Nur die Vertrauenswürdigen betreten die Schatten; nur die Geübten verlassen sie unversehrt. Erhalte Kleidung für jene, die wie Pech und Schwefel zusammenhalten. Neue "Wie Pech und Schwefel"-Inhalte sind da!</string>
-	<string key="ui_event_valkyrie_description">Neue Walküren-Inhalte sind da! Trage die Rüstung, die darüber entscheidet, wer im Kampf stirbt und wer weiterleben darf.</string>
-	<string key="ui_event_thick_as_thieves_about">Über "Wie Pech und Schwefel"</string>
 </resources>
 
