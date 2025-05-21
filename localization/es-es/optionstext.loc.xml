@@ -238,7 +238,7 @@
 	<string key="ui_loudnesslevel_desc">Sube el volumen de los sonidos más bajos.</string>
 	<string key="ui_audioquality">Calidad de audio</string>
 	<string key="ui_audioquality_desc">Ajusta la calidad de sonido. Los valores inferiores utilizan menos recursos del sistema.</string>
-	<string key="ui_max_fps">FPS</string>
+	<string key="ui_max_fps">FPS máximos</string>
 	<string key="ui_max_fps_desc">Establece el máximo de frames renderizados por segundo (FPS).</string>
 	<string key="ui_options_graphics_30fps">30 FPS</string>
 	<string key="ui_options_graphics_60fps">60 FPS</string>
@@ -631,5 +631,31 @@
 	<string key="ui_modifier_keys" rel_version="Feature_Controller">Modificadores</string>
 	<string key="ui_housing" rel_version="Feature_Controller">Decorar casa</string>
 	<string key="ui_menu" rel_version="Feature_Controller">Menú</string>
+	<string key="ui_options_graphics_100fps">100 FPS</string>
+	<string key="ui_options_graphics_200fps">200 FPS</string>
+	<string key="ui_options_graphics_frameGeneration_dlss_3x">x3</string>
+	<string key="ui_hud_show_full_raid_for_pvp_modes">Interfaz de incursiones de actividades JcJ</string>
+	<string key="ui_show_level_point_reminders_desc">Muestra ocasionalmente un recordatorio cuando tienes puntos de atributos, de maestría de armas o de estatus en el territorio sin gastar.</string>
+	<string key="ui_options_graphics_160fps">160 FPS</string>
+	<string key="ui_options_graphics_360fps">360 FPS</string>
+	<string key="ui_options_graphics_144fps">144 FPS</string>
+	<string key="ui_options_graphics_reflex_on">Sí</string>
+	<string key="ui_options_graphics_frameGeneration_dlss_2x">x2</string>
+	<string key="ui_options_graphics_frameGeneration_dlss">Generación de fotogramas NVIDIA DLSS</string>
+	<string key="ui_options_graphics_frameGeneration_dlss_off">No</string>
+	<string key="ui_options_graphics_240fps">240 FPS</string>
+	<string key="ui_options_graphics_reflex">Latencia baja de NVIDIA Reflex</string>
+	<string key="ui_hud_show_full_raid_for_pvp_modes_desc">Muestra la interfaz completa de incursiones para las actividades JcJ con hasta 20 jugadores</string>
+	<string key="ui_options_graphics_75fps">75 FPS</string>
+	<string key="ui_options_graphics_frameGeneration_dlss_4x">x4</string>
+	<string key="ui_options_graphics_framegeneration_dlss_desc">Mejora la velocidad de fotogramas utilizando IA para reproducir fotogramas adicionales (se necesita una tarjeta gráfica GeForce RTX de la serie 40 o superior, además de activar la programación de GPU acelerada por hardware en los ajustes de Windows).</string>
+	<string key="ui_options_graphics_reflex_onboost">Sí + Boost</string>
+	<string key="ui_options_graphics_85fps">85 FPS</string>
+	<string key="ui_options_graphics_reflex_desc">Reduce la latencia del PC y mejora la capacidad de respuesta.</string>
+	<string key="ui_options_graphics_120fps">120 FPS</string>
+	<string key="ui_show_level_point_reminders">Mostrar recordatorios de puntos sin gastar</string>
+	<string key="ui_options_temporalUpscaling_dlss">NVIDIA DLSS 4</string>
+	<string key="ui_options_graphics_180fps">180 FPS</string>
+	<string key="ui_options_graphics_reflex_off">No</string>
 </resources>
 

@@ -238,7 +238,7 @@
 	<string key="ui_loudnesslevel_desc">Wybierz, czy chcesz, aby ciche dźwięki były głośniejsze</string>
 	<string key="ui_audioquality">Jakość dźwięku</string>
 	<string key="ui_audioquality_desc">Ustaw jakość dźwięku (niższe wartości zużywają mniej zasobów systemu).</string>
-	<string key="ui_max_fps">FPS</string>
+	<string key="ui_max_fps">Maksimum FPS</string>
 	<string key="ui_max_fps_desc">Ustaw limit liczby klatek wyświetlanych na sekundę (FPS)</string>
 	<string key="ui_options_graphics_30fps">30 fps</string>
 	<string key="ui_options_graphics_60fps">60 fps</string>
@@ -631,5 +631,31 @@
 	<string key="ui_modifier_keys" rel_version="Feature_Controller">Modyfikatory</string>
 	<string key="ui_housing" rel_version="Feature_Controller">Ozdób dom</string>
 	<string key="ui_menu" rel_version="Feature_Controller">Menu</string>
+	<string key="ui_options_graphics_100fps">100 fps</string>
+	<string key="ui_options_graphics_200fps">200 fps</string>
+	<string key="ui_options_graphics_frameGeneration_dlss_3x">3x</string>
+	<string key="ui_hud_show_full_raid_for_pvp_modes">Interfejs rajdu aktywności PvP</string>
+	<string key="ui_show_level_point_reminders_desc">Od czasu do czasu przypomina o niewydanych punktach atrybutów, biegłości w używaniu broni czy rangi terytorium</string>
+	<string key="ui_options_graphics_160fps">160 fps</string>
+	<string key="ui_options_graphics_360fps">360 fps</string>
+	<string key="ui_options_graphics_144fps">144 fps</string>
+	<string key="ui_options_graphics_reflex_on">Wł.</string>
+	<string key="ui_options_graphics_frameGeneration_dlss_2x">2x</string>
+	<string key="ui_options_graphics_frameGeneration_dlss">Generator klatek NVIDIA DLSS</string>
+	<string key="ui_options_graphics_frameGeneration_dlss_off">Wył.</string>
+	<string key="ui_options_graphics_240fps">240 fps</string>
+	<string key="ui_options_graphics_reflex">NVIDIA Reflex Low Latency</string>
+	<string key="ui_hud_show_full_raid_for_pvp_modes_desc">Pokaż pełen interfejs rajdu dla aktywności PvP do 20 graczy</string>
+	<string key="ui_options_graphics_75fps">75 fps</string>
+	<string key="ui_options_graphics_frameGeneration_dlss_4x">4x</string>
+	<string key="ui_options_graphics_framegeneration_dlss_desc">Zwiększa liczbę klatek na sekundę przez użycie AI do renderowania dodatkowych klatek (wymaga karty serii GeForce RTX 40 lub nowszych, jak również włączonego ustawienia planowania przyspieszanego sprzętowo procesora GPU w systemie Windows).</string>
+	<string key="ui_options_graphics_reflex_onboost">Wł. + Boost</string>
+	<string key="ui_options_graphics_85fps">85 fps</string>
+	<string key="ui_options_graphics_reflex_desc">Zmniejsza opóźnienia na komputerach i zwiększa responsywność</string>
+	<string key="ui_options_graphics_120fps">120 fps</string>
+	<string key="ui_show_level_point_reminders">Przypominaj o niewydanych punktach</string>
+	<string key="ui_options_temporalUpscaling_dlss">NVIDIA DLSS 4</string>
+	<string key="ui_options_graphics_180fps">180 fps</string>
+	<string key="ui_options_graphics_reflex_off">Wył.</string>
 </resources>
 
