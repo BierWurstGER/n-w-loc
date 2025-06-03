@@ -1819,9 +1819,6 @@
 	<string key="Status_Weapon_ChargedHeavyRend_Description" rel_version="MorePerksV1">Solange dieser Effekt aktiv ist, wird deine Rüstung verringert.</string>
 	<string key="Status_Timer_ChargedHeavyRend_Description" rel_version="MorePerksV1">Sobald dies endet, kannst du den Effekt "Gezieltes Aufreißen" erneut auslösen.</string>
 	<string key="Wispy_Wasp_Swarm_Tick_DisplayName">Blutung</string>
-	<string key="Wispy_Wasp_Swarm_Tick_Tooltip" rel_version="Event_SpringtideBloom_Temp">{[1.000000]} Sekunden lang alle {[0.750000]} Sekunden physischer Schaden in Höhe von {[-2.5000000000000001E-2 * -100]} % des Gesundheitsgrundwerts durch Blutung.</string>
-	<string key="Wispy_Wasp_Swarm_Repellent_DisplayName" rel_version="Event_SpringtideBloom_Temp">Irrlichtwespen-Abwehrmittel</string>
-	<string key="Wispy_Wasp_Swarm_Repellent_Description" rel_version="Event_SpringtideBloom_Temp">Schützt gegen lästige Irrlichtwespenstiche.</string>
 	<string key="Blunderbuss_ChargeCooldown_Name" rel_version="Weapon_Blunderbuss">Verdopplung</string>
 	<string key="Blunderbuss_ChargeCooldown_Desc" rel_version="Weapon_Blunderbuss">Deine nächste Donnerbüchse-Fertigkeit hat eine kürzere Abklingzeit.</string>
 	<string key="Blunderbuss_ChargeCooldownOnCooldown_Desc" rel_version="Weapon_Blunderbuss">Wenn dies abgelaufen ist, kannst du wieder die Verdopplung-Passivfähigkeit einsetzen.</string>
@@ -1863,7 +1860,6 @@
 	<string key="Status_DodgeStamina_Timer_Description" rel_version="MorePerksV2">Sobald dies endet, kannst du den Effekt Flüchtiger Energieschub erneut auslösen.</string>
 	<string key="Status_GatherProc_Heal" rel_version="MorePerksV2">Sammel-Heilung</string>
 	<string key="Status_GatherProc_Heal_Description" rel_version="MorePerksV2">Gesundheitsregeneration durch den "Sammel-Erholung"-Effekt</string>
-	<string key="Wispy_Wasp_Swarm_ResetToFlower_DisplayName" rel_version="Event_SpringtideBloom_Temp">Flaumblumenwache</string>
 	<string key="Status_MothersLove" rel_version="Housing_MothersLove_Memorial">Mutterliebe</string>
 	<string key="Status_MothersLove_Description" rel_version="Housing_MothersLove_Memorial">Du spürst mütterliche Fürsorge, die dein Glück für {[7200.000000 / 60]} m um {[500.000000 * 0.01]} % steigert.</string>
 	<string key="Dungeon_RelicBubble" rel_version="Expedition_ShatterMtn_00">Reliquienschrein</string>
@@ -1956,7 +1952,7 @@
 	<string key="Status_Rune_StoneForm">Steinform</string>
 	<string key="Status_Rune_StoneForm_Desc">Immun gegen jegliche Massenkontrolle</string>
 	<string key="Status_Rune_StoneForm_Major_Desc">Deine Rüstung wird um {[0.100000 * 100]} % erhöht.</string>
-	<string key="Status_Rune_StoneForm_Survivor_Desc">Immun gegen jegliche Massenkontrolle und heilt {[0.650000 * 100]} % des Runenschadens pro Sekunde.</string>
+	<string key="Status_Rune_StoneForm_Survivor_Desc">Immun gegen jegliche Massenkontrolle und heilt {[0.520000 * 100]} % des Runenschadens pro Sekunde.</string>
 	<string key="Status_Rune_StoneForm_Greater_Desc">Deine Rüstung wird um {[0.100000 * 100]} % erhöht.</string>
 	<string key="Status_Rune_CannonBlast_Major_Desc">Brennt für {[-0.100000 * -100]} % Runenschaden pro Sekunde.</string>
 	<string key="Status_Rune_Detonate">Explodieren</string>
@@ -2307,11 +2303,14 @@
 	<string key="Status_BasicBuff">Basisangriff-Bonus</string>
 	<string key="Status_SeasonalServer_DeathCount_5_DisplayName">5 Tode angesammelt</string>
 	<string key="Status_Perk_Artifact_Set2_LightHands_Cooldown_Description">Läuft das ab, kann der Fluch-Effekt auf dem Lich-Handschuhe-Artefakt erneut ausgelöst werden.</string>
-	<string key="Status_Artifact_Sword_AIDmgRed_DisplayName">Schadensminderung von NPC-Gegnern</string>
-	<string key="Status_Artifact_Shield_TankAura_Desc">Alle Verbündeten in deiner Umgebung erhalten Schadensabsorption und du erhältst erhöhte Heilung. Allerdings erleidest du auch erhöhten Schaden.</string>
-	<string key="Status_Artifact_Shield_TankAura_Name">Tank-Aura</string>
-	<string key="Status_Artifact_Sword_AIDmgRed_Description">Solange das aktiv ist, wird der Basisschaden von angreifenden NPC-Gegnern verringert.</string>
+	<string key="ctf_flag_carrier_debuff_icon_name" rel_version="Gamemode_CTF">Du hast die Fahne!</string>
 	<string key="Status_DoT_Corrosion">Korrosion</string>
-	<string key="Status_DoT_Corrosion_Description">Fügt jede Sekunde Unheilsschaden zu, solange der Effekt aktiv ist.</string>
+	<string key="ctf_flag_carrier_debuff_icon_desc" rel_version="Gamemode_CTF">Du trägst jetzt die Fahne! Du bist anfälliger für Gegnerangriffe und erhältst weniger Heilung.</string>
+	<string key="CTF_Powerup_Damage_Empower_Name" rel_version="Gamemode_CTF">Angriff-Verstärkung</string>
+	<string key="CTF_Powerup_Damage_Empower_Desc" rel_version="Gamemode_CTF">Erhalte {[0.200000 * 100]} mit allen Schadenstypen % Ermächtigung für {[30.000000]} Sekunden.  </string>
+	<string key="CTF_Powerup_Speed_Name" rel_version="Gamemode_CTF">Hast-Verstärkung</string>
+	<string key="CTF_Powerup_Speed_Desc" rel_version="Gamemode_CTF">Erhalte {[0.500000 * 100]}% Geschwindigkeit für {[7.000000]} Sekunden.</string>
+	<string key="CTF_Powerup_Healing_Name" rel_version="Gamemode_CTF">Gesundheit-Verstärkung</string>
+	<string key="CTF_Powerup_Healing_Desc" rel_version="Gamemode_CTF">Erhalte {[10000.000000]} Gesundheit, wenn gesammelt. (Ausrüstung kann die Gesamtmenge beeinflussen.)</string>
 </resources>
 

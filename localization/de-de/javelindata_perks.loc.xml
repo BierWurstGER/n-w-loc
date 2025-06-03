@@ -1800,7 +1800,7 @@
 	<string key="PerkID_HeartgemRune_StoneForm_Greater_Name">Gehärtete Form</string>
 	<string key="PerkID_HeartgemRune_StoneForm_Greater_Description">Erhalte zusätzlich pro erlittenem Treffer {[0.100000 * 100]} % Rüstung für {[5.000000]} Sekunden (+{[0.100000 * 3.000000 * 100]} % maximal).</string>
 	<string key="PerkID_HeartgemRune_StoneForm_Survivor_Name">Heilende Form</string>
-	<string key="PerkID_HeartgemRune_StoneForm_Survivor_Description">Heile während der Aktivierung um {[0.650000 * 100]} % Herzrunenschaden pro Sekunde. Reduziert ausgeteilten Schaden um {[-0.200000 * -100]} %.</string>
+	<string key="PerkID_HeartgemRune_StoneForm_Survivor_Description">Heile während der Aktivierung um {[0.520000 * 100]} % Herzrunenschaden pro Sekunde. Reduziert ausgeteilten Schaden um {[-0.200000 * -100]} %.</string>
 	<string key="PerkID_HeartgemRune_StoneForm_Dominator_Name">Instabile Form</string>
 	<string key="PerkID_HeartgemRune_StoneForm_Dominator_Description">Die Steinform explodiert, wenn sie endet oder wenn du erneut die Taste für die Herzrunenfertigkeit drückst, und verursacht {[2.000000 * 100]} % Herzrunenschaden in einem Radius von {[3.000000]} m. Reduziert die Dauer um {[-2.000000 * -1]} Sek.</string>
 	<string key="PerkID_HeartgemRune_CannonBlast_Major_Name">Brennendes Kanonenfeuer</string>
@@ -2699,7 +2699,7 @@
 	<string key="PerkID_Artifact_Set2_HeavyFeet_Name" rel_version="UNSCHEDULED">Beschleunigt</string>
 	<string key="PerkID_Artifact_Set2_HeavyFeet_Desc" rel_version="UNSCHEDULED">Die Aktivierung einer Herzrune gewährt {[0.330000 *100]} % Bewegungstempo für {[6.000000]} Sek.</string>
 	<string key="PerkID_Artifact_Set2_MediumHead_Name" rel_version="UNSCHEDULED">Königlich</string>
-	<string key="PerkID_Artifact_Set2_MediumHead_Desc" rel_version="UNSCHEDULED">+{[10.000000]} auf alle Attribute.</string>
+	<string key="PerkID_Artifact_Set2_MediumHead_Desc" rel_version="UNSCHEDULED">+{[11.000000]} auf alle Attribute.</string>
 	<string key="PerkID_Artifact_Set2_MediumChest_Name" rel_version="Feature_Artifacts_S5">Segen der Natur</string>
 	<string key="PerkID_Artifact_Set2_MediumChest_Desc" rel_version="Feature_Artifacts_S5">Zeitlich begrenzte Ermächtigungen werden sofort beendet. Die Stärke von unbegrenzten Ermächtigungen wird um 50 % reduziert. Du verursachst dafür immer +{[0.200000 * 100]} % Basisschaden.</string>
 	<string key="PerkID_Artifact_Set2_MediumHands_Name" rel_version="Feature_Artifacts_S6">Geisterhafte Umarmung</string>
@@ -2709,9 +2709,9 @@
 	<string key="PerkID_Artifact_Set2_LightHead_Name" rel_version="Feature_Artifacts_S6">Verzweifelte Energie</string>
 	<string key="PerkID_Artifact_Set2_LightHead_Desc" rel_version="Feature_Artifacts_S6">Wenn du einen Gegner triffst, während dein Mana unter {[50.000000]} % liegt, verursachst du {[4.000000]} Sek. {[0.250000 * 100]} % mehr Schaden ({[10.000000]} Sek. Abklingzeit).</string>
 	<string key="PerkID_Artifact_Set2_LightChest_Name" rel_version="UNSCHEDULED">Abzug</string>
-	<string key="PerkID_Artifact_Set2_LightChest_Desc" rel_version="UNSCHEDULED">Bei weniger als {[95.000000]} % Gesundheit verbrauchen Treffer an Gegnern {[-10.000000 *-1]} Mana. Wenn du so Mana verlierst, gewährt der Angriff {[0.100000 * 100]} % Lebensraub. Bei Magiewaffen lösen nur Fertigkeiten den Lebensraub aus. Basisangriffe erzeugen {[10.000000]} Mana. ({[0.500000]} Sek. Abklingzeit pro Aktivierung)</string>
+	<string key="PerkID_Artifact_Set2_LightChest_Desc" rel_version="UNSCHEDULED">Bei weniger als {[95.000000]} % Gesundheit verbrauchen Treffer an Gegnern {[-10.000000 *-1]} Mana. Wenn du so Mana verlierst, gewährt der Angriff {[0.170000 * 100]} % Lebensraub. Bei Magiewaffen lösen nur Fertigkeiten den Lebensraub aus. Basisangriffe erzeugen {[10.000000]} Mana. ({[0.500000]} Sek. Abklingzeit pro Aktivierung)</string>
 	<string key="PerkID_Artifact_Set2_LightHands_Name" rel_version="UNSCHEDULED">Fluch</string>
-	<string key="PerkID_Artifact_Set2_LightHands_Desc" rel_version="UNSCHEDULED">Mit der Aktivierung einer Fertigkeit erhältst du einen Stapel von {[0.060000 *100]} % "Ermächtigen" für {[7.000000]} Sek. (max. {[3.000000]} Stapel). Nachdem ein Basisangriff trifft, verlierst du alle Stapel. (Du kannst für {[5.000000]} Sek. keine neuen Ermächtigen-Stapel erhalten, nachdem Stapel abgelaufen sind oder entfernt wurden.)</string>
+	<string key="PerkID_Artifact_Set2_LightHands_Desc" rel_version="UNSCHEDULED">Mit der Aktivierung einer Fertigkeit erhältst du einen Stapel von {[0.100000 *100]} % "Ermächtigen" für {[7.000000]} Sek. (max. {[3.000000]} Stapel). Nachdem ein Basisangriff trifft, verlierst du alle Stapel. (Du kannst für {[3.000000]} Sek. keine neuen Ermächtigen-Stapel erhalten, nachdem Stapel abgelaufen sind oder entfernt wurden.)</string>
 	<string key="PerkID_Artifact_Set2_LightFeet_Name" rel_version="Feature_Artifacts_S5">Hinterhalt</string>
 	<string key="PerkID_Artifact_Set2_LightFeet_Desc" rel_version="Feature_Artifacts_S5">Dein zugefügter Schaden wird um 15 % und deine kritische Trefferchance um 25 % erhöht, wenn du das Ziel 20 Sek. lang nicht getroffen hast.</string>
 	<string key="PerkID_Artifact_Set2_Sword_Name" rel_version="UNSCHEDULED">Höhnische Bemerkungen</string>
@@ -2821,7 +2821,7 @@
 	<string key="PlaguedDEF4Desc">{[-0.062500 * 100]} % Statuseffektdauer von "Krankheit".</string>
 	<string key="PlaguedDMG4Name">Pestkranke IV</string>
 	<string key="PlaguedDEF3Desc">{[-0.050000 * 100]} % Statuseffektdauer von "Krankheit".</string>
-	<string key="PerkID_Weapon_RendingStacks_Description">Angriffe lösen einen Stapel von {[-0.040000 * -100]} % "Aufgerissen" aus. Jeder Stapel hält {[6.000000]} Sek. an. (Maximal {[5.000000]} Stapel)</string>
+	<string key="PerkID_Weapon_RendingStacks_Description">Einmal alle {[0.500000]} Sekunden verursachen Angriffe einen Stapel von {[-0.040000 * -100]}% Rend, jeder Stapel hält {[6.000000]}s an. (Maximal {[5.000000]} Stapel)</string>
 	<string key="PerkID_Armor_HastePotencyInc_Name">Potenter Eifer</string>
 	<string key="PlaguedDEF2Name">Pestkrankenlazarett II</string>
 	<string key="PerkID_Armor_LifestealHealing_Name">Gesalbter Lebensdieb</string>
@@ -2853,7 +2853,7 @@
 	<string key="ArmorInc1Name">Gehärtet I</string>
 	<string key="ArmorInc2Name">Gehärtet II</string>
 	<string key="ArmorInc3Name">Gehärtet III</string>
-	<string key="PerkID_Chest_HealthStam_Synergy_Description">Bei weniger als 50 % Gesundheit erhältst du {[0.200000 * 100]} % Ausdauer-Regenerationsrate. Bei weniger als 50 % Ausdauer wird deine erhaltene Heilung um {[0.200000 * 100]} % erhöht.</string>
+	<string key="PerkID_Chest_HealthStam_Synergy_Description">Bei weniger als 50 % Gesundheit erhältst du {[0.150000 * 100]} % Ausdauer-Regenerationsrate. Bei weniger als 50 % Ausdauer wird deine erhaltene Heilung um {[0.150000 * 100]} % erhöht.</string>
 	<string key="ArmorInc4Desc">+{[0.030000 * 100]} % physische und Elementarrüstung</string>
 	<string key="ArmorInc1Desc">+{[0.010000 * 100]} % physische und Elementarrüstung</string>
 	<string key="ArmorInc2Desc">+{[0.015000 * 100]} % physische und Elementarrüstung</string>
@@ -2862,9 +2862,9 @@
 	<string key="PlaguedDEF2Desc">{[-0.035000 * 100]} % Statuseffektdauer von "Krankheit".</string>
 	<string key="PerkID_Weapon_Melee_AlternateAttacks_Description">Treffer mit einem Basisangriff erhöhen den Basisschaden des nächsten Fertigkeitentreffers innerhalb von {[5.000000]} Sek. um {[0.100000 * 100]} %. Ein Fertigkeitentreffer erhöht den Basisschaden des nächsten Basisangriffs innerhalb von {[5.000000]} Sek. um {[0.100000 * 100]} %.</string>
 	<string key="PerkID_Amulet_DodgeBurn_DurRed_Name">Feuer fangen</string>
-	<string key="PerkID_Artifact_Set2_MediumHead_ElemGem_Name">Makelloser Opal</string>
-	<string key="PerkID_Artifact_Set2_MediumHead_PhysGem_Name">Makelloser Onyx</string>
-	<string key="PerkID_Artifact_Set2_MediumHead_ElemGem_Desc">+{[0.030000 * 100]} % Absorption von Elementarschaden.</string>
 	<string key="PerkID_Artifact_Set2_MediumHead_PhysGem_Desc">+{[0.030000 * 100]} % Absorption von physischem Schaden.</string>
+	<string key="PerkID_Artifact_Set2_MediumHead_ElemGem_Desc">+{[0.030000 * 100]} % Absorption von Elementarschaden.</string>
+	<string key="PerkID_Artifact_Set2_MediumHead_PhysGem_Name">Makelloser Onyx</string>
+	<string key="PerkID_Artifact_Set2_MediumHead_ElemGem_Name">Makelloser Opal</string>
 </resources>
 

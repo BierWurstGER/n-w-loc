@@ -1800,7 +1800,7 @@
 	<string key="PerkID_HeartgemRune_StoneForm_Greater_Name">Utwardzona forma</string>
 	<string key="PerkID_HeartgemRune_StoneForm_Greater_Description">Zapewnia {[0.100000 * 100]}% dodatkowego pancerza na {[5.000000]} s za każde otrzymane trafienie (maks. +{[0.100000 * 3.000000 * 100]}).</string>
 	<string key="PerkID_HeartgemRune_StoneForm_Survivor_Name">Uzdrawiająca forma</string>
-	<string key="PerkID_HeartgemRune_StoneForm_Survivor_Description">Po aktywowaniu przywraca zdrowie w wysokości {[0.650000 * 100]}% obrażeń od run serca co sekundę. Zmniejsza zadawane obrażenia o {[-0.200000 * -100]}%.</string>
+	<string key="PerkID_HeartgemRune_StoneForm_Survivor_Description">Po aktywowaniu przywraca zdrowie w wysokości {[0.520000 * 100]}% obrażeń od run serca co sekundę. Zmniejsza zadawane obrażenia o {[-0.200000 * -100]}%.</string>
 	<string key="PerkID_HeartgemRune_StoneForm_Dominator_Name">Niestabilna forma</string>
 	<string key="PerkID_HeartgemRune_StoneForm_Dominator_Description">Kamienna forma wybuchnie, gdy zakończy się jej czas działania lub gdy naciśniesz przycisk przypisany do zdolności runy serca, zadając {[2.000000 * 100]}% obrażeń od run serca w promieniu {[3.000000]} m. Czas trwania umiejętności zostanie skrócony o {[-2.000000 * -1]} s.</string>
 	<string key="PerkID_HeartgemRune_CannonBlast_Major_Name">Ognista armata</string>
@@ -2699,7 +2699,7 @@
 	<string key="PerkID_Artifact_Set2_HeavyFeet_Name" rel_version="UNSCHEDULED">Sprawność</string>
 	<string key="PerkID_Artifact_Set2_HeavyFeet_Desc" rel_version="UNSCHEDULED">Aktywacja runy serca zapewnia {[0.330000 *100]}% szybkości ruchu na {[6.000000]} s.</string>
 	<string key="PerkID_Artifact_Set2_MediumHead_Name" rel_version="UNSCHEDULED">Królewskość</string>
-	<string key="PerkID_Artifact_Set2_MediumHead_Desc" rel_version="UNSCHEDULED">+{[10.000000]} do wszystkich cech.</string>
+	<string key="PerkID_Artifact_Set2_MediumHead_Desc" rel_version="UNSCHEDULED">+{[11.000000]} do wszystkich cech.</string>
 	<string key="PerkID_Artifact_Set2_MediumChest_Name" rel_version="Feature_Artifacts_S5">Błogosławieństwo natury</string>
 	<string key="PerkID_Artifact_Set2_MediumChest_Desc" rel_version="Feature_Artifacts_S5">Ograniczone czasowo efekty nasączenia mocą natychmiast wygasają, a moc nieograniczonego czasowo nasączenia jest skrócona o 50%. Zawsze jednak zadajesz o {[0.200000 * 100]}% więcej obrażeń podstawowych.</string>
 	<string key="PerkID_Artifact_Set2_MediumHands_Name" rel_version="Feature_Artifacts_S6">Upiorne objęcia</string>
@@ -2709,9 +2709,9 @@
 	<string key="PerkID_Artifact_Set2_LightHead_Name" rel_version="Feature_Artifacts_S6">Desperacka energia</string>
 	<string key="PerkID_Artifact_Set2_LightHead_Desc" rel_version="Feature_Artifacts_S6">Gdy masz mniej niż {[50.000000]}% many i trafisz wroga, zadajesz {[0.250000 * 100]}% więcej obrażeń przez {[4.000000]} s (czas odnowienia: {[10.000000]} s).</string>
 	<string key="PerkID_Artifact_Set2_LightChest_Name" rel_version="UNSCHEDULED">Wyssanie</string>
-	<string key="PerkID_Artifact_Set2_LightChest_Desc" rel_version="UNSCHEDULED">Kiedy masz mniej niż {[95.000000]}% zdrowia, trafienie celu pochłania {[-10.000000 *-1]} pkt many. Jeśli w ten sposób doszło do utraty many, atak ten daje {[0.100000 * 100]}% kradzieży życia. W trakcie używania broni magicznej tylko umiejętności powodują kradzież życia, a ataki podstawowe regenerują {[10.000000]} pkt many (czas odnowienia: {[0.500000]} s na aktywację).</string>
+	<string key="PerkID_Artifact_Set2_LightChest_Desc" rel_version="UNSCHEDULED">Kiedy masz mniej niż {[95.000000]}% zdrowia, trafienie celu pochłania {[-10.000000 *-1]} pkt many. Jeśli w ten sposób doszło do utraty many, atak ten daje {[0.170000 * 100]}% kradzieży życia. W trakcie używania broni magicznej tylko umiejętności powodują kradzież życia, a ataki podstawowe regenerują {[10.000000]} pkt many (czas odnowienia: {[0.500000]} s na aktywację).</string>
 	<string key="PerkID_Artifact_Set2_LightHands_Name" rel_version="UNSCHEDULED">Klątwa</string>
-	<string key="PerkID_Artifact_Set2_LightHands_Desc" rel_version="UNSCHEDULED">Po aktywacji umiejętności zyskujesz {[0.060000 *100]}% kumulującego się nasączenia mocą na {[7.000000]} s (kumuluje się do {[3.000000]} razy). Po trafieniu atakiem podstawowym kumulacja się zeruje. (Po wygaśnięciu kumulacji lub jej usunięciu nie zyskasz nasączenia mocą przez {[5.000000]} s).</string>
+	<string key="PerkID_Artifact_Set2_LightHands_Desc" rel_version="UNSCHEDULED">Po aktywacji umiejętności zyskujesz {[0.100000 *100]}% kumulującego się nasączenia mocą na {[7.000000]} s (kumuluje się do {[3.000000]} razy). Po trafieniu atakiem podstawowym kumulacja się zeruje. (Po wygaśnięciu kumulacji lub jej usunięciu nie zyskasz nasączenia mocą przez {[3.000000]} s).</string>
 	<string key="PerkID_Artifact_Set2_LightFeet_Name" rel_version="Feature_Artifacts_S5">Zasadzka</string>
 	<string key="PerkID_Artifact_Set2_LightFeet_Desc" rel_version="Feature_Artifacts_S5">Zadajesz 15% więcej obrażeń i masz 25% szansy na trafienie krytyczne pod warunkiem, że cel nie został przez ciebie trafiony w ciągu ostatnich 20 s.</string>
 	<string key="PerkID_Artifact_Set2_Sword_Name" rel_version="UNSCHEDULED">Złośliwe uwagi</string>
@@ -2821,7 +2821,7 @@
 	<string key="PlaguedDEF4Desc">Czas trwania efektu choroby {[-0.062500 * 100]}%.</string>
 	<string key="PlaguedDMG4Name">Ofiara zarazy IV</string>
 	<string key="PlaguedDEF3Desc">Czas trwania efektu choroby {[-0.050000 * 100]}%.</string>
-	<string key="PerkID_Weapon_RendingStacks_Description">Atak nakłada na cel efekt {[-0.040000 * -100]}% rozdarcia, każdy efekt trwa {[6.000000]} s (kumuluje się do {[5.000000]} razy).</string>
+	<string key="PerkID_Weapon_RendingStacks_Description">Raz na {[0.500000]}s, atak nakłada na cel efekt {[-0.040000 * -100]}% rozdarcia, każdy efekt trwa {[6.000000]}s. (kumuluje się do {[5.000000]} razy).</string>
 	<string key="PerkID_Armor_HastePotencyInc_Name">Mocna skwapliwość</string>
 	<string key="PlaguedDEF2Name">Zarażona obrona II</string>
 	<string key="PerkID_Armor_LifestealHealing_Name">Namaszczona kradzież życia</string>
@@ -2853,7 +2853,7 @@
 	<string key="ArmorInc1Name">Utwardzenie I</string>
 	<string key="ArmorInc2Name">Utwardzenie II</string>
 	<string key="ArmorInc3Name">Utwardzenie III</string>
-	<string key="PerkID_Chest_HealthStam_Synergy_Description">Kiedy zdrowie spadnie poniżej 50%, tempo regeneracji wytrzymałości rośnie o {[0.200000 * 100]}%, a kiedy wytrzymałość spadnie poniżej 50%, otrzymywane leczenie rośnie o {[0.200000 * 100]}%.</string>
+	<string key="PerkID_Chest_HealthStam_Synergy_Description">Kiedy zdrowie spadnie poniżej 50%, tempo regeneracji wytrzymałości rośnie o {[0.150000 * 100]}%, a kiedy wytrzymałość spadnie poniżej 50%, otrzymywane leczenie rośnie o {[0.150000 * 100]}%.</string>
 	<string key="ArmorInc4Desc">+{[0.030000 * 100]}% do pancerza fizycznego i żywiołów.</string>
 	<string key="ArmorInc1Desc">+{[0.010000 * 100]}% do pancerza fizycznego i żywiołów.</string>
 	<string key="ArmorInc2Desc">+{[0.015000 * 100]}% do pancerza fizycznego i żywiołów.</string>
@@ -2862,9 +2862,9 @@
 	<string key="PlaguedDEF2Desc">Czas trwania efektu choroby {[-0.035000 * 100]}%.</string>
 	<string key="PerkID_Weapon_Melee_AlternateAttacks_Description">Trafienie atakiem podstawowym zwiększa obrażenia podstawowe następnego trafienia umiejętnością w ciągu {[5.000000]} s o {[0.100000 * 100]}%, a trafienie umiejętnością zwiększa podstawowe obrażenia następnego ataku podstawowego w ciągu {[5.000000]} s o {[0.100000 * 100]}%.</string>
 	<string key="PerkID_Amulet_DodgeBurn_DurRed_Name">Stój, padnij i przetocz się</string>
-	<string key="PerkID_Artifact_Set2_MediumHead_ElemGem_Name">Nieskazitelny opal</string>
-	<string key="PerkID_Artifact_Set2_MediumHead_PhysGem_Name">Nieskazitelny onyks</string>
-	<string key="PerkID_Artifact_Set2_MediumHead_ElemGem_Desc">+{[0.030000 * 100]}% do pochłaniania obrażeń od żywiołów.</string>
 	<string key="PerkID_Artifact_Set2_MediumHead_PhysGem_Desc">+{[0.030000 * 100]}% do pochłaniania obrażeń fizycznych.</string>
+	<string key="PerkID_Artifact_Set2_MediumHead_ElemGem_Desc">+{[0.030000 * 100]}% do pochłaniania obrażeń od żywiołów.</string>
+	<string key="PerkID_Artifact_Set2_MediumHead_PhysGem_Name">Nieskazitelny onyks</string>
+	<string key="PerkID_Artifact_Set2_MediumHead_ElemGem_Name">Nieskazitelny opal</string>
 </resources>
 

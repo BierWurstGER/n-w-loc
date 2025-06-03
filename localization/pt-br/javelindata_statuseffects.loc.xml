@@ -1819,9 +1819,6 @@
 	<string key="Status_Weapon_ChargedHeavyRend_Description" rel_version="MorePerksV1">Sua armadura é reduzida enquanto estiver ativo.</string>
 	<string key="Status_Timer_ChargedHeavyRend_Description" rel_version="MorePerksV1">Quando terminar, você poderá acionar a vantagem Rasgo Incisivo novamente.</string>
 	<string key="Wispy_Wasp_Swarm_Tick_DisplayName">Sangramento</string>
-	<string key="Wispy_Wasp_Swarm_Tick_Tooltip" rel_version="Event_SpringtideBloom_Temp">Sofre Hemorragia de {[-2.5000000000000001E-2 * -100]}% da saúde base como Dano Físico a cada {[0.750000]} segundos durante {[1.000000]} segundos.</string>
-	<string key="Wispy_Wasp_Swarm_Repellent_DisplayName" rel_version="Event_SpringtideBloom_Temp">Repelente de Vespa Bruxuleante</string>
-	<string key="Wispy_Wasp_Swarm_Repellent_Description" rel_version="Event_SpringtideBloom_Temp">Protege contra picadas de Vespa Bruxuleante.</string>
 	<string key="Blunderbuss_ChargeCooldown_Name" rel_version="Weapon_Blunderbuss">Dobro ou Nada</string>
 	<string key="Blunderbuss_ChargeCooldown_Desc" rel_version="Weapon_Blunderbuss">Sua próxima habilidade de Bacamarte tem um tempo de recarga mais curto.</string>
 	<string key="Blunderbuss_ChargeCooldownOnCooldown_Desc" rel_version="Weapon_Blunderbuss">Quando expirar, você pode usar o passivo de Dobro ou Nada novamente.</string>
@@ -1863,7 +1860,6 @@
 	<string key="Status_DodgeStamina_Timer_Description" rel_version="MorePerksV2">Quando terminar, você poderá acionar a vantagem Energia Esquiva novamente.</string>
 	<string key="Status_GatherProc_Heal" rel_version="MorePerksV2">Cura de Coleta</string>
 	<string key="Status_GatherProc_Heal_Description" rel_version="MorePerksV2">Regeneração de Saúde com a vantagem Recuperação de Coleta.</string>
-	<string key="Wispy_Wasp_Swarm_ResetToFlower_DisplayName" rel_version="Event_SpringtideBloom_Temp">Flor Bruxuleante de Proteção</string>
 	<string key="Status_MothersLove" rel_version="Housing_MothersLove_Memorial">Amor de Mãe</string>
 	<string key="Status_MothersLove_Description" rel_version="Housing_MothersLove_Memorial">Você sente uma presença norteadora e maternal sobre você, aumentando a Sorte em {[500.000000 * 0.01]}% por {[7200.000000 / 60]} m.</string>
 	<string key="Dungeon_RelicBubble" rel_version="Expedition_ShatterMtn_00">Relicário</string>
@@ -1956,7 +1952,7 @@
 	<string key="Status_Rune_StoneForm">Forma de Pedra</string>
 	<string key="Status_Rune_StoneForm_Desc">Imunidade a todo controle.</string>
 	<string key="Status_Rune_StoneForm_Major_Desc">Sua armadura aumenta em {[0.100000 * 100]}%.</string>
-	<string key="Status_Rune_StoneForm_Survivor_Desc">Imunidade a todo controle e cura em {[0.650000 * 100]}% do dano de runa por segundo.</string>
+	<string key="Status_Rune_StoneForm_Survivor_Desc">Imunidade a todo controle e cura em {[0.520000 * 100]}% do dano de runa por segundo.</string>
 	<string key="Status_Rune_StoneForm_Greater_Desc">Sua armadura aumenta em {[0.100000 * 100]}%.</string>
 	<string key="Status_Rune_CannonBlast_Major_Desc">Queima por {[-0.100000 * -100]}% do dano de runa por segundo.</string>
 	<string key="Status_Rune_Detonate">Detonar</string>
@@ -2307,11 +2303,16 @@
 	<string key="Status_BasicBuff">Buff de Ataque Básico</string>
 	<string key="Status_SeasonalServer_DeathCount_5_DisplayName">5 Mortes Acumuladas</string>
 	<string key="Status_Perk_Artifact_Set2_LightHands_Cooldown_Description">Ao expirar, a vantagem Maldição do artefato Luvas Cadavéricas poderá ser ativada novamente.</string>
-	<string key="Status_Artifact_Sword_AIDmgRed_DisplayName">Redução de Dano de NPCs Inimigos</string>
-	<string key="Status_Artifact_Shield_TankAura_Desc">Todos os aliados ao seu redor recebem absorção de dano e você ganha aumento de cura recebida. No entanto, você também sofre mais dano.</string>
 	<string key="Status_Artifact_Shield_TankAura_Name">Aura de Tanque</string>
-	<string key="Status_Artifact_Sword_AIDmgRed_Description">Enquanto esse efeito estiver ativo, o dano base dos NPCs inimigos que atacarem você será reduzido.</string>
 	<string key="Status_DoT_Corrosion">Corrosão</string>
-	<string key="Status_DoT_Corrosion_Description">Esse efeito causa Dano Imaterial por segundo enquanto está ativo.</string>
+	<string key="Status_Artifact_Sword_AIDmgRed_Description">Enquanto esse efeito estiver ativo, o dano base dos NPCs inimigos que atacarem você será reduzido.</string>
+	<string key="ctf_flag_carrier_debuff_icon_name" rel_version="Gamemode_CTF">Porta-bandeira!</string>
+	<string key="ctf_flag_carrier_debuff_icon_desc" rel_version="Gamemode_CTF">Você está com a bandeira! Agora você está mais vulnerável a ataques inimigos e recebe menos cura.</string>
+	<string key="CTF_Powerup_Damage_Empower_Name" rel_version="Gamemode_CTF">Estímulo de Ataque</string>
+	<string key="CTF_Powerup_Damage_Empower_Desc" rel_version="Gamemode_CTF">Ganho {[0.200000 * 100]}% Fortalecido com todos os tipos de dano por {[30.000000]} segundos.</string>
+	<string key="CTF_Powerup_Speed_Name" rel_version="Gamemode_CTF">Estímulo de Pressa</string>
+	<string key="CTF_Powerup_Speed_Desc" rel_version="Gamemode_CTF">Ganho {[0.500000 * 100]}% de velocidade por {[7.000000]} segundos.</string>
+	<string key="CTF_Powerup_Healing_Name" rel_version="Gamemode_CTF">Estímulo de Saúde</string>
+	<string key="CTF_Powerup_Healing_Desc" rel_version="Gamemode_CTF">Ganho {[10000.000000]}  de vida quando coletado. (O equipamento pode afetar o total.)</string>
 </resources>
 

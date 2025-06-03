@@ -688,6 +688,7 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_dungeon_queue_signup_fail">Nie możesz dołączyć do kolejki do ekspedycji, gdy jesteś w lobby.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_dungeon_queue_signup_fail_solo">Nie możesz dołączyć do kolejki do Próby Duszy, gdy jesteś w lobby.</string>
 	<string rel_version="DailySoloTrials" key="ui_groupfinder_dungeon_queue_signup_fail_dailysolotrial">Nie możesz dołączyć do kolejki do Próby Duszy, gdy jesteś w lobby.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_dungeon_queue_signup_fail_raidtrial">Nie możesz dołączyć do kolejki do elitarnej próby, gdy jesteś w lobby.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_queue_hud_group_full">Grupa pełna</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_queue_hud_open_expedition">Otwórz ekspedycję</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_queue_hud_min_players">Do rozpoczęcia tej ekspedycji potrzeba co najmniej {amount} członków.</string>
@@ -779,6 +780,7 @@
 	<string rel_version="Raid_CutlassKeys_00" key="ui_pugfinder_activity_raids_name">Rajdy</string>
 	<string rel_version="Raid_CutlassKeys_00" key="ui_pugfinder_activity_raids_desc" comment="">Dopadnij matkę miotu Meduzę i powstrzymaj jej plany panowania nad Aeternum wraz z grupą rajdu liczącą do 10 graczy.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_activity_opr_desc" comment="">Zdobądź 1000 punktów w tym szybkim trybie gry PvP 20 przeciwko 20, by zwyciężyć. Przejmuj punkty kontrolne i zbieraj zasoby, by wznosić fortyfikacje i zapewniać taktyczne premie swojej drużynie.</string>
+	<string rel_version="Feature_DisabledPerkGameModes" key="ui_pugfinder_activity_opr_no_perks_desc" comment="">Niewymagany najlepszy sprzęt! Dołącz do najnowszej wersji napadu na posterunek, w której wyłączone są profity wyposażenia, a punkty wyposażenia podniesione są do maksimum, by wyrównać szanse.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_activity_pvp_arena_desc" comment="">Staw czoła innym graczom na tej arenie 3 na 3, by zdobyć unikalne nagrody PvP.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_daily_bonus">Dzienna premia</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_fastest_experience">Najszybsze PD</string>
@@ -904,22 +906,20 @@
 	<string rel_version="Feature_PUG_Finder" key="matchmaking_mutation_activity">Zmutowana(-ne) ekspedycja(-je)</string>
 	<string rel_version="Feature_PUG_Finder" key="matchmaking_requirements_replacement_when_M3s_disabled">Nie można wziąć udziału w dobieraniu graczy do M3. Skorzystaj z powyższej funkcji "Wejdź z grupą".</string>
 	<string rel_version="Feature_PUG_Finder" key="matchmaking_queue_hud_already_accepted_match_tooltip">Nie możesz opuścić kolejki po zaakceptowaniu zaproszenia do meczu.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_requirements_groupsize_range">&lt;font color={color}&gt;Min./maks. liczba graczy: {minPlayers}–{maxPlayers}&lt;/font&gt;</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_requirements_local_groups_only">Tylko grupy lokalne</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_not_in_raid_group">&lt;font color={color}&gt;Musi być w grupie rajdu&lt;/font&gt;</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_in_raid_group">&lt;font color={color}&gt;Grupa rajdu&lt;/font&gt;</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_requirements_groupsize_single">&lt;font color={color}&gt;Maksymalna liczba graczy: 1&lt;/font&gt;</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_content_not_active">Zawartość nie jest jeszcze aktywna</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_content_no_longer_available">Zawartość nie jest już dostępna</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_content_disabled">Zawartość jest obecnie niedostępna</string>
+	<string rel_version="Seasonal_Server_2" key="ui_matchmaking_disabled_in_world">Wyłączone w tym świecie</string>
+	<string rel_version="Seasonal_Server_2" key="ui_deaths_door_fallen_warning">Przeżyj, by otrzymać lepsze nagrody.</string>
+	<string rel_version="Seasonal_Server_2" key="ui_respawn_fallen_warning">Należysz do Upadłych. Władasz większą potęgą, ale zdobywasz mniej nagród.</string>
 	<string rel_version="Feature_Crossplay" key="ui_error_whisper_crossplay_communication_off">Użytkownik korzysta z innej platformy. Zmień ustawienia komunikacji międzyplatformowej, by przesłać wiadomość prywatną</string>
 	<string key="ui_communication_restricted_by_platform">Komunikacja ograniczona przez platformę.</string>
 	<string key="ui_group_invites_restricted_gamemode">Zaproszenia do grup są niedostępne w przypadku aktywności gry dobieranej.</string>
 	<string key="ui_group_member_placeholder_name">…</string>
-	<string key="ui_pugfinder_content_not_active">Zawartość nie jest jeszcze aktywna</string>
-	<string key="ui_pugfinder_requirements_local_groups_only">Tylko grupy lokalne</string>
-	<string key="ui_pugfinder_content_no_longer_available">Zawartość nie jest już dostępna</string>
-	<string key="ui_matchmaking_disabled_in_world">Wyłączone w tym świecie</string>
-	<string key="ui_pugfinder_requirements_groupsize_single">&lt;font color={color}&gt;Maksymalna liczba graczy: 1&lt;/font&gt;</string>
-	<string key="ui_pugfinder_activity_opr_no_perks_desc">Niewymagany najlepszy sprzęt! Dołącz do najnowszej wersji napadu na posterunek, w której wyłączone są profity wyposażenia, a punkty wyposażenia podniesione są do maksimum, by wyrównać szanse.</string>
-	<string key="ui_groupfinder_dungeon_queue_signup_fail_raidtrial">Nie możesz dołączyć do kolejki do elitarnej próby, gdy jesteś w lobby.</string>
-	<string key="ui_pugfinder_content_disabled">Zawartość jest obecnie niedostępna</string>
-	<string key="ui_pugfinder_in_raid_group">&lt;font color={color}&gt;Grupa rajdu&lt;/font&gt;</string>
-	<string key="ui_pugfinder_not_in_raid_group">&lt;font color={color}&gt;Musi być w grupie rajdu&lt;/font&gt;</string>
-	<string key="ui_pugfinder_requirements_groupsize_range">&lt;font color={color}&gt;Min./maks. liczba graczy: {minPlayers}–{maxPlayers}&lt;/font&gt;</string>
-	<string key="ui_deaths_door_fallen_warning">Przeżyj, by otrzymać lepsze nagrody.</string>
-	<string key="ui_respawn_fallen_warning">Należysz do Upadłych. Władasz większą potęgą, ale zdobywasz mniej nagród.</string>
 </resources>
 

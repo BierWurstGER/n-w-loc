@@ -1819,9 +1819,6 @@
 	<string key="Status_Weapon_ChargedHeavyRend_Description" rel_version="MorePerksV1">Votre armure est réduite tant que cet effet est actif.</string>
 	<string key="Status_Timer_ChargedHeavyRend_Description" rel_version="MorePerksV1">Quand l'effet se termine, vous pouvez de nouveau déclencher l'atout « Lacération tranchante ».</string>
 	<string key="Wispy_Wasp_Swarm_Tick_DisplayName">Saignement</string>
-	<string key="Wispy_Wasp_Swarm_Tick_Tooltip" rel_version="Event_SpringtideBloom_Temp">Saignement à hauteur de {[-2.5000000000000001E-2 * -100]} % des dégâts physiques de base toutes les {[0.750000]} secondes pendant {[1.000000]} secondes.</string>
-	<string key="Wispy_Wasp_Swarm_Repellent_DisplayName" rel_version="Event_SpringtideBloom_Temp">Répulsif à guêpe vaporeuse</string>
-	<string key="Wispy_Wasp_Swarm_Repellent_Description" rel_version="Event_SpringtideBloom_Temp">Protège contre les piqûres de ces satanées guêpes vaporeuses.</string>
 	<string key="Blunderbuss_ChargeCooldown_Name" rel_version="Weapon_Blunderbuss">Doubler la mise</string>
 	<string key="Blunderbuss_ChargeCooldown_Desc" rel_version="Weapon_Blunderbuss">Votre prochaine capacité de tromblon bénéficie d'un temps de recharge plus court.</string>
 	<string key="Blunderbuss_ChargeCooldownOnCooldown_Desc" rel_version="Weapon_Blunderbuss">À expiration, vous pouvez de nouveau utiliser votre capacité passive Doubler la mise.</string>
@@ -1863,7 +1860,6 @@
 	<string key="Status_DodgeStamina_Timer_Description" rel_version="MorePerksV2">Quand l'effet se termine, vous pouvez de nouveau déclencher l'atout « Énergie élusive ».</string>
 	<string key="Status_GatherProc_Heal" rel_version="MorePerksV2">Soin d'exploitation</string>
 	<string key="Status_GatherProc_Heal_Description" rel_version="MorePerksV2">Régénération de la santé avec l'atout « Récupération d'exploitation ».</string>
-	<string key="Wispy_Wasp_Swarm_ResetToFlower_DisplayName" rel_version="Event_SpringtideBloom_Temp">Protège la floraison vaporeuse</string>
 	<string key="Status_MothersLove" rel_version="Housing_MothersLove_Memorial">Amour maternel</string>
 	<string key="Status_MothersLove_Description" rel_version="Housing_MothersLove_Memorial">Vous ressentez une présence maternelle qui vous guide, augmentant votre chance de {[500.000000 * 0.01]} % pendant {[7200.000000 / 60]} minutes.</string>
 	<string key="Dungeon_RelicBubble" rel_version="Expedition_ShatterMtn_00">Reliquaire</string>
@@ -1956,7 +1952,7 @@
 	<string key="Status_Rune_StoneForm">Forme rocheuse</string>
 	<string key="Status_Rune_StoneForm_Desc">Immunité à tous les effets de contrôle de la foule.</string>
 	<string key="Status_Rune_StoneForm_Major_Desc">Votre armure est augmentée de {[0.100000 * 100]} %.</string>
-	<string key="Status_Rune_StoneForm_Survivor_Desc">Immunité à tous les effets de contrôle de la foule et soin à hauteur de {[0.650000 * 100]} % des dégâts de rune par seconde.</string>
+	<string key="Status_Rune_StoneForm_Survivor_Desc">Immunité à tous les effets de contrôle de la foule et soin à hauteur de {[0.520000 * 100]} % des dégâts de rune par seconde.</string>
 	<string key="Status_Rune_StoneForm_Greater_Desc">Votre armure est augmentée de {[0.100000 * 100]} %.</string>
 	<string key="Status_Rune_CannonBlast_Major_Desc">Brûlure à hauteur de {[-0.100000 * -100]} % des dégâts de rune par seconde.</string>
 	<string key="Status_Rune_Detonate">Détonation</string>
@@ -2307,11 +2303,13 @@
 	<string key="Status_BasicBuff">Amélioration de l'attaque de base.</string>
 	<string key="Status_SeasonalServer_DeathCount_5_DisplayName">5 morts comptabilisées</string>
 	<string key="Status_Perk_Artifact_Set2_LightHands_Cooldown_Description">À expiration, l'atout Malédiction sur l'artéfact Gants de liche peut à nouveau se déclencher.</string>
-	<string key="Status_Artifact_Sword_AIDmgRed_DisplayName">Réduction de dégâts des PNJ hostiles</string>
-	<string key="Status_Artifact_Shield_TankAura_Desc">Tous les alliés autour de vous obtiennent une absorption des dégâts et vos soins reçus sont augmentés. Cependant, les dégâts que vous subissez augmentent.</string>
-	<string key="Status_Artifact_Shield_TankAura_Name">Aura de tank</string>
-	<string key="Status_Artifact_Sword_AIDmgRed_Description">Tant que cet effet est actif, les dégâts de base des PNJ hostiles qui vous attaquent sont réduits.</string>
-	<string key="Status_DoT_Corrosion">Corrosion</string>
-	<string key="Status_DoT_Corrosion_Description">Inflige des dégâts de néant chaque seconde tant que cet effet est actif.</string>
+	<string key="ctf_flag_carrier_debuff_icon_name" rel_version="Gamemode_CTF">Porte-drapeau !</string>
+	<string key="ctf_flag_carrier_debuff_icon_desc" rel_version="Gamemode_CTF">Vous êtes le porte-drapeau ! Vous êtes désormais plus vulnérable aux attaques ennemies et les soins que vous recevez sont réduits.</string>
+	<string key="CTF_Powerup_Damage_Empower_Name" rel_version="Gamemode_CTF">Attaque renforcée</string>
+	<string key="CTF_Powerup_Damage_Empower_Desc" rel_version="Gamemode_CTF">Gagnez {[0.200000 * 100]}% de renforcement pour tous les types de dégâts pendant {[30.000000]} s.</string>
+	<string key="CTF_Powerup_Speed_Name" rel_version="Gamemode_CTF">Célérité renforcée</string>
+	<string key="CTF_Powerup_Speed_Desc" rel_version="Gamemode_CTF">Gagnez {[0.500000 * 100]}% de vitesse pendant {[7.000000]} s.</string>
+	<string key="CTF_Powerup_Healing_Name" rel_version="Gamemode_CTF">Santé renforcée</string>
+	<string key="CTF_Powerup_Healing_Desc" rel_version="Gamemode_CTF">Gagnez {[10000.000000]} de santé lors de la collecte. (L'équipement peut affecter le total.)</string>
 </resources>
 

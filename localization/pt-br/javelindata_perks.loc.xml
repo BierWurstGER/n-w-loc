@@ -1800,7 +1800,7 @@
 	<string key="PerkID_HeartgemRune_StoneForm_Greater_Name">Forma Endurecida</string>
 	<string key="PerkID_HeartgemRune_StoneForm_Greater_Description">Ganhe {[0.100000 * 100]}% de armadura adicional durante {[5.000000]} s por acerto recebido (máx. de +{[0.100000 * 3.000000 * 100]}%).</string>
 	<string key="PerkID_HeartgemRune_StoneForm_Survivor_Name">Forma Reparadora</string>
-	<string key="PerkID_HeartgemRune_StoneForm_Survivor_Description">Cura em {[0.650000 * 100]}% do dano de Runa de Coração por segundo enquanto está ativo. Reduz seu dano causado em {[-0.200000 * -100]}%.</string>
+	<string key="PerkID_HeartgemRune_StoneForm_Survivor_Description">Cura em {[0.520000 * 100]}% do dano de Runa de Coração por segundo enquanto está ativo. Reduz seu dano causado em {[-0.200000 * -100]}%.</string>
 	<string key="PerkID_HeartgemRune_StoneForm_Dominator_Name">Forma Instável</string>
 	<string key="PerkID_HeartgemRune_StoneForm_Dominator_Description">A Forma de Pedra explode quando termina ou quando você usa a habilidade da Runa de Coração novamente, causando {[2.000000 * 100]}% do dano de Runa de Coração em um raio de {[3.000000]} m. Reduz sua duração em {[-2.000000 * -1]} s.</string>
 	<string key="PerkID_HeartgemRune_CannonBlast_Major_Name">Explosão Ardente</string>
@@ -2699,7 +2699,7 @@
 	<string key="PerkID_Artifact_Set2_HeavyFeet_Name" rel_version="UNSCHEDULED">Célere</string>
 	<string key="PerkID_Artifact_Set2_HeavyFeet_Desc" rel_version="UNSCHEDULED">Ativar uma Runa de Coração concederá {[0.330000 *100]}% de velocidade de movimento por {[6.000000]} s.</string>
 	<string key="PerkID_Artifact_Set2_MediumHead_Name" rel_version="UNSCHEDULED">Imperial</string>
-	<string key="PerkID_Artifact_Set2_MediumHead_Desc" rel_version="UNSCHEDULED">+{[10.000000]} para todos os atributos.</string>
+	<string key="PerkID_Artifact_Set2_MediumHead_Desc" rel_version="UNSCHEDULED">+{[11.000000]} para todos os atributos.</string>
 	<string key="PerkID_Artifact_Set2_MediumChest_Name" rel_version="Feature_Artifacts_S5">Bênção da Natureza</string>
 	<string key="PerkID_Artifact_Set2_MediumChest_Desc" rel_version="Feature_Artifacts_S5">Estados de Energizado de duração limitada expiram instantaneamente, e a potência de Energizado sem duração é reduzida em 50%, mas você sempre causa mais {[0.200000 * 100]}% de dano base.</string>
 	<string key="PerkID_Artifact_Set2_MediumHands_Name" rel_version="Feature_Artifacts_S6">Abraço Espectral</string>
@@ -2709,9 +2709,9 @@
 	<string key="PerkID_Artifact_Set2_LightHead_Name" rel_version="Feature_Artifacts_S6">Energia Desesperadora</string>
 	<string key="PerkID_Artifact_Set2_LightHead_Desc" rel_version="Feature_Artifacts_S6">Se você acertar um inimigo enquanto sua Mana estiver abaixo de {[50.000000]}%, ganhará {[0.250000 * 100]}% de dano aumentado durante {[4.000000]} s. (Tempo de recarga: {[10.000000]} s)</string>
 	<string key="PerkID_Artifact_Set2_LightChest_Name" rel_version="UNSCHEDULED">Drenagem</string>
-	<string key="PerkID_Artifact_Set2_LightChest_Desc" rel_version="UNSCHEDULED">Enquanto estiver com menos de {[95.000000]}% de Saúde, acertar um alvo consumirá {[-10.000000 *-1]} de Mana. Se você perdeu mana dessa forma, esse ataque concede {[0.100000 * 100]}% de Roubo de Vida. Se estiver usando uma arma mágica, somente as habilidades ativarão Roubo de Vida e os ataques básicos gerarão {[10.000000]} de Mana ({[0.500000]} s de recarga por ativação).</string>
+	<string key="PerkID_Artifact_Set2_LightChest_Desc" rel_version="UNSCHEDULED">Enquanto estiver com menos de {[95.000000]}% de Saúde, acertar um alvo consumirá {[-10.000000 *-1]} de Mana. Se você perdeu mana dessa forma, esse ataque concede {[0.170000 * 100]}% de Roubo de Vida. Se estiver usando uma arma mágica, somente as habilidades ativarão Roubo de Vida e os ataques básicos gerarão {[10.000000]} de Mana ({[0.500000]} s de recarga por ativação).</string>
 	<string key="PerkID_Artifact_Set2_LightHands_Name" rel_version="UNSCHEDULED">Maldição</string>
-	<string key="PerkID_Artifact_Set2_LightHands_Desc" rel_version="UNSCHEDULED">Ao ativar uma habilidade, ganha um acúmulo de {[0.060000 *100]}% de Energizado durante {[7.000000]} s (máx. de {[3.000000]} acúmulos). Perde todos os acúmulos após acertar um ataque básico. (Não é possível ganhar acúmulos de Energizado por {[5.000000]} s depois que os acúmulos expiram ou são removidos.)</string>
+	<string key="PerkID_Artifact_Set2_LightHands_Desc" rel_version="UNSCHEDULED">Ao ativar uma habilidade, ganha um acúmulo de {[0.100000 *100]}% de Energizado durante {[7.000000]} s (máx. de {[3.000000]} acúmulos). Perde todos os acúmulos após acertar um ataque básico. (Não é possível ganhar acúmulos de Energizado por {[3.000000]} s depois que os acúmulos expiram ou são removidos.)</string>
 	<string key="PerkID_Artifact_Set2_LightFeet_Name" rel_version="Feature_Artifacts_S5">Armadilha</string>
 	<string key="PerkID_Artifact_Set2_LightFeet_Desc" rel_version="Feature_Artifacts_S5">Causa mais 15% de dano e 25% de chance de acerto crítico, desde que você não acerte o alvo em 20 s.</string>
 	<string key="PerkID_Artifact_Set2_Sword_Name" rel_version="UNSCHEDULED">Comentários Sarcásticos</string>
@@ -2821,7 +2821,7 @@
 	<string key="PlaguedDEF4Desc">{[-0.062500 * 100]}% de duração do efeito de status da doença.</string>
 	<string key="PlaguedDMG4Name">Flagelado IV</string>
 	<string key="PlaguedDEF3Desc">{[-0.050000 * 100]}% de duração do efeito de status da doença.</string>
-	<string key="PerkID_Weapon_RendingStacks_Description">Ataques infligem um acúmulo de {[-0.040000 * -100]}% de Vulnerável, e cada acúmulo dura {[6.000000]} s. (Máximo de {[5.000000]} acúmulos.)</string>
+	<string key="PerkID_Weapon_RendingStacks_Description">Uma vez a cada {[0.500000]}s, o ataque inflige um acúmulo de {[-0.040000 * -100]}% de dano, cada acúmulo com duração de {[6.000000]}s. (Máximo de {[5.000000]} acúmulos.)</string>
 	<string key="PerkID_Armor_HastePotencyInc_Name">Entusiasmo Potente</string>
 	<string key="PlaguedDEF2Name">Proteção Flagelada II</string>
 	<string key="PerkID_Armor_LifestealHealing_Name">Roubo de Vida Ungido</string>
@@ -2853,7 +2853,7 @@
 	<string key="ArmorInc1Name">Reforçado I</string>
 	<string key="ArmorInc2Name">Reforçado II</string>
 	<string key="ArmorInc3Name">Reforçado III</string>
-	<string key="PerkID_Chest_HealthStam_Synergy_Description">Enquanto a Saúde está abaixo de 50%, ganha {[0.200000 * 100]}% de taxa de regeneração de Vigor. Enquanto o Vigor está abaixo de 50%, a cura recebida é aumentada em {[0.200000 * 100]}%.</string>
+	<string key="PerkID_Chest_HealthStam_Synergy_Description">Enquanto a Saúde está abaixo de 50%, ganha {[0.150000 * 100]}% de taxa de regeneração de Vigor. Enquanto o Vigor está abaixo de 50%, a cura recebida é aumentada em {[0.150000 * 100]}%.</string>
 	<string key="ArmorInc4Desc">+{[0.030000 * 100]}% de armadura física e elemental.</string>
 	<string key="ArmorInc1Desc">+{[0.010000 * 100]}% de armadura física e elemental.</string>
 	<string key="ArmorInc2Desc">+{[0.015000 * 100]}% de armadura física e elemental.</string>
@@ -2862,9 +2862,9 @@
 	<string key="PlaguedDEF2Desc">{[-0.035000 * 100]}% de duração do efeito de status da doença.</string>
 	<string key="PerkID_Weapon_Melee_AlternateAttacks_Description">Acertar um ataque básico aumentará o dano base da próxima habilidade atingida dentro de {[5.000000]} s em {[0.100000 * 100]}%, e acertar com uma habilidade aumentará o dano base do próximo ataque básico dentro de {[5.000000]} s em {[0.100000 * 100]}%.</string>
 	<string key="PerkID_Amulet_DodgeBurn_DurRed_Name">Parar, Soltar e Rolar</string>
-	<string key="PerkID_Artifact_Set2_MediumHead_ElemGem_Name">Opala Imaculada</string>
-	<string key="PerkID_Artifact_Set2_MediumHead_PhysGem_Name">Ônix Imaculado</string>
-	<string key="PerkID_Artifact_Set2_MediumHead_ElemGem_Desc">+{[0.030000 * 100]}% de Absorção de Dano Elemental.</string>
 	<string key="PerkID_Artifact_Set2_MediumHead_PhysGem_Desc">+{[0.030000 * 100]}% de Absorção de Dano Físico.</string>
+	<string key="PerkID_Artifact_Set2_MediumHead_ElemGem_Desc">+{[0.030000 * 100]}% de Absorção de Dano Elemental.</string>
+	<string key="PerkID_Artifact_Set2_MediumHead_PhysGem_Name">Ônix Imaculado</string>
+	<string key="PerkID_Artifact_Set2_MediumHead_ElemGem_Name">Opala Imaculada</string>
 </resources>
 

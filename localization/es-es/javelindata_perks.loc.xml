@@ -1800,7 +1800,7 @@
 	<string key="PerkID_HeartgemRune_StoneForm_Greater_Name">Roca endurecida</string>
 	<string key="PerkID_HeartgemRune_StoneForm_Greater_Description">Obtienes un {[0.100000 * 100]} % adicional de armadura durante {[5.000000]} s por cada impacto recibido (máximo +{[0.100000 * 3.000000 * 100]} %).</string>
 	<string key="PerkID_HeartgemRune_StoneForm_Survivor_Name">Roca correctora</string>
-	<string key="PerkID_HeartgemRune_StoneForm_Survivor_Description">Cura un {[0.650000 * 100]} % de daño de runa del alma por segundo mientras esté activa. Reduce en un {[-0.200000 * -100]} % el daño a objetivos.</string>
+	<string key="PerkID_HeartgemRune_StoneForm_Survivor_Description">Cura un {[0.520000 * 100]} % de daño de runa del alma por segundo mientras esté activa. Reduce en un {[-0.200000 * -100]} % el daño a objetivos.</string>
 	<string key="PerkID_HeartgemRune_StoneForm_Dominator_Name">Roca inestable</string>
 	<string key="PerkID_HeartgemRune_StoneForm_Dominator_Description">Forma pétrea explota al acabar o si presionas el accionador de la habilidad de runa del alma, lo que inflige un {[2.000000 * 100]} % de daño de runa del alma en un radio de {[3.000000]} m. Reduce su duración {[-2.000000 * -1]} s.</string>
 	<string key="PerkID_HeartgemRune_CannonBlast_Major_Name">Explosión ardiente</string>
@@ -2699,7 +2699,7 @@
 	<string key="PerkID_Artifact_Set2_HeavyFeet_Name" rel_version="UNSCHEDULED">Diligente</string>
 	<string key="PerkID_Artifact_Set2_HeavyFeet_Desc" rel_version="UNSCHEDULED">Al activar una runa del alma, obtienes un {[0.330000 *100]} % de velocidad de movimiento durante {[6.000000]} s.</string>
 	<string key="PerkID_Artifact_Set2_MediumHead_Name" rel_version="UNSCHEDULED">Realeza</string>
-	<string key="PerkID_Artifact_Set2_MediumHead_Desc" rel_version="UNSCHEDULED">+{[10.000000]} a todos los atributos.</string>
+	<string key="PerkID_Artifact_Set2_MediumHead_Desc" rel_version="UNSCHEDULED">+{[11.000000]} a todos los atributos.</string>
 	<string key="PerkID_Artifact_Set2_MediumChest_Name" rel_version="Feature_Artifacts_S5">Bendición natural</string>
 	<string key="PerkID_Artifact_Set2_MediumChest_Desc" rel_version="Feature_Artifacts_S5">La duración limitada de Fortalecimiento caduca al instante y reduce en un 50 % la potencia del Fortalecimiento sin duración, pero infliges siempre un {[0.200000 * 100]} % más de daño base.</string>
 	<string key="PerkID_Artifact_Set2_MediumHands_Name" rel_version="Feature_Artifacts_S6">Abrazo fantasmal</string>
@@ -2709,9 +2709,9 @@
 	<string key="PerkID_Artifact_Set2_LightHead_Name" rel_version="Feature_Artifacts_S6">Energía desesperada</string>
 	<string key="PerkID_Artifact_Set2_LightHead_Desc" rel_version="Feature_Artifacts_S6">Obtienes un {[0.250000 * 100]} % más de daño durante {[4.000000]} s mientras tu maná está por debajo del {[50.000000]} % (tiempo de recarga de {[10.000000]} s).</string>
 	<string key="PerkID_Artifact_Set2_LightChest_Name" rel_version="UNSCHEDULED">Drenaje</string>
-	<string key="PerkID_Artifact_Set2_LightChest_Desc" rel_version="UNSCHEDULED">Cuando tu salud esté por debajo del {[95.000000]} %, consumirás {[-10.000000 *-1]} de maná al golpear un objetivo. Si pierdes maná con tu ataque, recibirás un {[0.100000 * 100]} % de robo de vida. Si usas un arma mágica, solo las habilidades activarán el robo de vida y los ataques básicos generarán {[10.000000]} de maná ({[0.500000]} s de tiempo de recarga por activación).</string>
+	<string key="PerkID_Artifact_Set2_LightChest_Desc" rel_version="UNSCHEDULED">Cuando tu salud esté por debajo del {[95.000000]} %, consumirás {[-10.000000 *-1]} de maná al golpear un objetivo. Si pierdes maná con tu ataque, recibirás un {[0.170000 * 100]} % de robo de vida. Si usas un arma mágica, solo las habilidades activarán el robo de vida y los ataques básicos generarán {[10.000000]} de maná ({[0.500000]} s de tiempo de recarga por activación).</string>
 	<string key="PerkID_Artifact_Set2_LightHands_Name" rel_version="UNSCHEDULED">Maldición</string>
-	<string key="PerkID_Artifact_Set2_LightHands_Desc" rel_version="UNSCHEDULED">Al activar una habilidad, obtienes una acumulación del {[0.060000 *100]} % de Fortalecimiento durante {[7.000000]} s (máx. {[3.000000]} acumulaciones). Tras golpear con un ataque básico, se pierden todas las acumulaciones. (No puedes obtener acumulaciones de Fortalecimiento durante {[5.000000]} s después de que las acumulaciones acaben o se eliminen).</string>
+	<string key="PerkID_Artifact_Set2_LightHands_Desc" rel_version="UNSCHEDULED">Al activar una habilidad, obtienes una acumulación del {[0.100000 *100]} % de Fortalecimiento durante {[7.000000]} s (máx. {[3.000000]} acumulaciones). Tras golpear con un ataque básico, se pierden todas las acumulaciones. (No puedes obtener acumulaciones de Fortalecimiento durante {[3.000000]} s después de que las acumulaciones acaben o se eliminen).</string>
 	<string key="PerkID_Artifact_Set2_LightFeet_Name" rel_version="Feature_Artifacts_S5">Emboscada</string>
 	<string key="PerkID_Artifact_Set2_LightFeet_Desc" rel_version="Feature_Artifacts_S5">Inflige un 15 % más de daño y un 25 % de probabilidad de crítico siempre y cuando hayan pasado más de 20 s desde que golpeaste al objetivo.</string>
 	<string key="PerkID_Artifact_Set2_Sword_Name" rel_version="UNSCHEDULED">Malas lenguas</string>
@@ -2821,7 +2821,7 @@
 	<string key="PlaguedDEF4Desc">La duración de Enfermedad es del {[-0.062500 * 100]} %.</string>
 	<string key="PlaguedDMG4Name">Infectado IV</string>
 	<string key="PlaguedDEF3Desc">La duración de Enfermedad es del {[-0.050000 * 100]} %.</string>
-	<string key="PerkID_Weapon_RendingStacks_Description">Al atacar, infliges una acumulación de Desgarro del {[-0.040000 * -100]} %. Cada acumulación dura {[6.000000]} s. (Se acumula un máx. de {[5.000000]} veces).</string>
+	<string key="PerkID_Weapon_RendingStacks_Description">Una vez cada {[0.500000]}s, al atacar infliges una acumulación de {[-0.040000 * -100]}% de Desgarro, cada acumulación dura {[6.000000]}s. (Se acumula un máx. de {[5.000000]} veces).</string>
 	<string key="PerkID_Armor_HastePotencyInc_Name">Presteza potente</string>
 	<string key="PlaguedDEF2Name">Protección infecta II</string>
 	<string key="PerkID_Armor_LifestealHealing_Name">Robo de vida ungido</string>
@@ -2853,7 +2853,7 @@
 	<string key="ArmorInc1Name">Endurecido I</string>
 	<string key="ArmorInc2Name">Endurecido II</string>
 	<string key="ArmorInc3Name">Endurecido III</string>
-	<string key="PerkID_Chest_HealthStam_Synergy_Description">Cuando tu salud está por debajo del 50 %, obtienes un {[0.200000 * 100]} % de regeneración de vitalidad. Cuando tu vitalidad está por debajo del 50 %, la curación que recibes aumenta un {[0.200000 * 100]} %.</string>
+	<string key="PerkID_Chest_HealthStam_Synergy_Description">Cuando tu salud está por debajo del 50 %, obtienes un {[0.150000 * 100]} % de regeneración de vitalidad. Cuando tu vitalidad está por debajo del 50 %, la curación que recibes aumenta un {[0.150000 * 100]} %.</string>
 	<string key="ArmorInc4Desc">+{[0.030000 * 100]} % de armadura física y elemental.</string>
 	<string key="ArmorInc1Desc">+{[0.010000 * 100]} % de armadura física y elemental.</string>
 	<string key="ArmorInc2Desc">+{[0.015000 * 100]} % de armadura física y elemental.</string>
@@ -2862,9 +2862,9 @@
 	<string key="PlaguedDEF2Desc">La duración de Enfermedad es del {[-0.035000 * 100]} %.</string>
 	<string key="PerkID_Weapon_Melee_AlternateAttacks_Description">Al golpear con un ataque básico, aumentará el daño base del golpe de la siguiente habilidad dentro de un período de {[5.000000]} s en un {[0.100000 * 100]} %, y al golpear con una habilidad, aumentará el daño base del siguiente ataque básico dentro de un período de {[5.000000]} s en un {[0.100000 * 100]} %.</string>
 	<string key="PerkID_Amulet_DodgeBurn_DurRed_Name">Para, tírate al suelo y rueda</string>
-	<string key="PerkID_Artifact_Set2_MediumHead_ElemGem_Name">Ópalo inmaculado</string>
-	<string key="PerkID_Artifact_Set2_MediumHead_PhysGem_Name">Ónice inmaculado</string>
-	<string key="PerkID_Artifact_Set2_MediumHead_ElemGem_Desc">+{[0.030000 * 100]} % de absorción de daño elemental.</string>
 	<string key="PerkID_Artifact_Set2_MediumHead_PhysGem_Desc">+{[0.030000 * 100]} % de absorción de daño físico.</string>
+	<string key="PerkID_Artifact_Set2_MediumHead_ElemGem_Desc">+{[0.030000 * 100]} % de absorción de daño elemental.</string>
+	<string key="PerkID_Artifact_Set2_MediumHead_PhysGem_Name">Ónice inmaculado</string>
+	<string key="PerkID_Artifact_Set2_MediumHead_ElemGem_Name">Ópalo inmaculado</string>
 </resources>
 

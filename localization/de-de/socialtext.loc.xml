@@ -688,6 +688,7 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_dungeon_queue_signup_fail">Solange du in einer Lobby bist, kannst du dich keiner Expeditions-Warteschlange anschließen.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_dungeon_queue_signup_fail_solo">Solange du in einer Lobby bist, kannst du dich keiner Seelenprüfungs-Warteschlange anschließen.</string>
 	<string rel_version="DailySoloTrials" key="ui_groupfinder_dungeon_queue_signup_fail_dailysolotrial">Solange du in einer Lobby bist, kannst du dich keiner Seelenprüfungs-Warteschlange anschließen.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_dungeon_queue_signup_fail_raidtrial">Solange du in einer Lobby bist, kannst du dich keiner Eliteprüfungs-Warteschlange anschließen.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_queue_hud_group_full">Gruppe voll</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_queue_hud_open_expedition">Expedition öffnen</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_queue_hud_min_players">Um diese Expedition zu starten, sind mindestens {amount} Mitglieder erforderlich.</string>
@@ -779,6 +780,7 @@
 	<string rel_version="Raid_CutlassKeys_00" key="ui_pugfinder_activity_raids_name">Raubzüge</string>
 	<string rel_version="Raid_CutlassKeys_00" key="ui_pugfinder_activity_raids_desc" comment="">Verfolge mit Raubzuggruppen aus bis zu 10 Spielern Brutmutter Medusa und durchkreuze ihre Pläne, die Herrschaft über Aeternum an sich zu reißen.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_activity_opr_desc" comment="">Erreiche als erster 1.000 Punkte in diesem rasanten 20-gg-20-PvP-Erlebnis. Nimm Kontrollpunkte ein, während du Rohstoffe sammelst, um deine Verteidigung auszubauen und taktische Boni für dein Team freizuschalten.</string>
+	<string rel_version="Feature_DisabledPerkGameModes" key="ui_pugfinder_activity_opr_no_perks_desc" comment="">Keine Top-Ausrüstung erforderlich! In der neuen Auslegung des Außenpostensturms sind alle Ausrüstungseffekte deaktiviert und die Ausrüstung wird auf den max. Rüstwert angehoben, um eine faire, gleichberechtigte Spielumgebung zu schaffen.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_activity_pvp_arena_desc" comment="">Tritt in der 3-gg-3-Arena gegen andere Spieler an, um besondere PvP-Belohnungen zu erhalten.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_daily_bonus">Täglicher Bonus</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_fastest_experience">Schnellste Erfahrungen</string>
@@ -904,22 +906,20 @@
 	<string rel_version="Feature_PUG_Finder" key="matchmaking_mutation_activity">Mutierte Expedition(en)</string>
 	<string rel_version="Feature_PUG_Finder" key="matchmaking_requirements_replacement_when_M3s_disabled">Spielsuche für M3-Schwierigkeitsgrade nicht möglich. Verwende "Mit Gruppe betreten" oben.</string>
 	<string rel_version="Feature_PUG_Finder" key="matchmaking_queue_hud_already_accepted_match_tooltip">Sobald eine Spieleinladung angenommen wurde, kannst du die Warteschlange nicht mehr verlassen.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_requirements_groupsize_range">&lt;font color={color}&gt;Minimale/Maximale Spielerzahl: {minPlayers}-{maxPlayers}&lt;/font&gt;</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_requirements_local_groups_only">Nur lokale Gruppen</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_not_in_raid_group">&lt;font color={color}&gt;Du musst in einer Raubzuggruppe sein.&lt;/font&gt;</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_in_raid_group">&lt;font color={color}&gt;Raubzuggruppe&lt;/font&gt;</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_requirements_groupsize_single">&lt;font color={color}&gt;Maximale Spielerzahl: 1&lt;/font&gt;</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_content_not_active">Der Inhalt ist noch nicht aktiv.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_content_no_longer_available">Die Inhalt existiert nicht mehr.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_content_disabled">Der Inhalt ist derzeit deaktiviert.</string>
+	<string rel_version="Seasonal_Server_2" key="ui_matchmaking_disabled_in_world">In dieser Welt deaktiviert.</string>
+	<string rel_version="Seasonal_Server_2" key="ui_deaths_door_fallen_warning">Bleibe am Leben, um bessere Belohnungen zu erhalten.</string>
+	<string rel_version="Seasonal_Server_2" key="ui_respawn_fallen_warning">Du bist gefallen. Du bist jetzt zwar stärker, erhältst aber weniger Belohnungen.</string>
 	<string rel_version="Feature_Crossplay" key="ui_error_whisper_crossplay_communication_off">Nutzer befindet sich auf einer anderen Plattform. Ändere die Einstellung für spielübergreifende Kommunikation, um zu flüstern.</string>
 	<string key="ui_communication_restricted_by_platform">Kommunikation eingeschränkt durch Plattform.</string>
 	<string key="ui_group_invites_restricted_gamemode">Gruppeneinladungen sind nicht verfügbar, während du dich in einer Gruppenaktivität befindest.</string>
 	<string key="ui_group_member_placeholder_name">…</string>
-	<string key="ui_pugfinder_content_not_active">Der Inhalt ist noch nicht aktiv.</string>
-	<string key="ui_pugfinder_requirements_local_groups_only">Nur lokale Gruppen</string>
-	<string key="ui_pugfinder_content_no_longer_available">Die Inhalt existiert nicht mehr.</string>
-	<string key="ui_matchmaking_disabled_in_world">In dieser Welt deaktiviert.</string>
-	<string key="ui_pugfinder_requirements_groupsize_single">&lt;font color={color}&gt;Maximale Spielerzahl: 1&lt;/font&gt;</string>
-	<string key="ui_pugfinder_activity_opr_no_perks_desc">Keine Top-Ausrüstung erforderlich! In der neuen Auslegung des Außenpostensturms sind alle Ausrüstungseffekte deaktiviert und die Ausrüstung wird auf den max. Rüstwert angehoben, um eine faire, gleichberechtigte Spielumgebung zu schaffen.</string>
-	<string key="ui_groupfinder_dungeon_queue_signup_fail_raidtrial">Solange du in einer Lobby bist, kannst du dich keiner Eliteprüfungs-Warteschlange anschließen.</string>
-	<string key="ui_pugfinder_content_disabled">Der Inhalt ist derzeit deaktiviert.</string>
-	<string key="ui_pugfinder_in_raid_group">&lt;font color={color}&gt;Raubzuggruppe&lt;/font&gt;</string>
-	<string key="ui_pugfinder_not_in_raid_group">&lt;font color={color}&gt;Du musst in einer Raubzuggruppe sein.&lt;/font&gt;</string>
-	<string key="ui_pugfinder_requirements_groupsize_range">&lt;font color={color}&gt;Minimale/Maximale Spielerzahl: {minPlayers}-{maxPlayers}&lt;/font&gt;</string>
-	<string key="ui_deaths_door_fallen_warning">Bleibe am Leben, um bessere Belohnungen zu erhalten.</string>
-	<string key="ui_respawn_fallen_warning">Du bist gefallen. Du bist jetzt zwar stärker, erhältst aber weniger Belohnungen.</string>
 </resources>
 

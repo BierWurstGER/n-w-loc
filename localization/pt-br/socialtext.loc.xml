@@ -688,6 +688,7 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_dungeon_queue_signup_fail">Você não pode entrar na Fila de Expedição enquanto está em um Saguão.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_dungeon_queue_signup_fail_solo">Você não pode entrar na Fila de Teste Espiritual enquanto está em um Saguão.</string>
 	<string rel_version="DailySoloTrials" key="ui_groupfinder_dungeon_queue_signup_fail_dailysolotrial">Você não pode entrar na Fila de Teste Espiritual enquanto está em um Saguão.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_dungeon_queue_signup_fail_raidtrial">Você não pode entrar na Fila de Prova de Elite enquanto está em um Saguão.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_queue_hud_group_full">Grupo lotado</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_queue_hud_open_expedition">Abrir Expedição</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_queue_hud_min_players">É necessário um mínimo de {amount} membros para iniciar esta expedição.</string>
@@ -779,6 +780,7 @@
 	<string rel_version="Raid_CutlassKeys_00" key="ui_pugfinder_activity_raids_name">Assaltos</string>
 	<string rel_version="Raid_CutlassKeys_00" key="ui_pugfinder_activity_raids_desc" comment="">Persiga a Medusa Mãe da Ninhada e impeça seus planos de dominar Aeternum em grupos de Ataque de até 10 jogadores.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_activity_opr_desc" comment="">Seja o primeiro jogador a marcar 1.000 pontos nesta experiência PvP de 20 contra 20 de ritmo acelerado. Capture pontos de controle enquanto coleta recursos para construir suas defesas e desbloquear benefícios táticos para sua equipe.</string>
+	<string rel_version="Feature_DisabledPerkGameModes" key="ui_pugfinder_activity_opr_no_perks_desc" comment="">Não é necessário o melhor equipamento! Junte-se a essa nova versão da Investida do Posto Avançado que desativa todas as vantagens do equipamento e maximiza a pontuação do equipamento, nivelando o campo de jogo.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_activity_pvp_arena_desc" comment="">Lute contra outros jogadores nesta Arena 3v3 para ganhar recompensas especiais PvP.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_daily_bonus">Bônus Diário</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_fastest_experience">Experiência Mais Rápida</string>
@@ -904,22 +906,20 @@
 	<string rel_version="Feature_PUG_Finder" key="matchmaking_mutation_activity">Expedição(ões) Transmutada(s)</string>
 	<string rel_version="Feature_PUG_Finder" key="matchmaking_requirements_replacement_when_M3s_disabled">Não é possível encontrar partida com M3s. Usar Entrar com Grupo acima.</string>
 	<string rel_version="Feature_PUG_Finder" key="matchmaking_queue_hud_already_accepted_match_tooltip">Não é possível sair da fila depois de aceitar um convite para uma partida.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_requirements_groupsize_range">&lt;font color={color}&gt;Mínimo/máximo de jogadores: {minPlayers}–{maxPlayers}&lt;/font&gt;</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_requirements_local_groups_only">Apenas Grupos Locais</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_not_in_raid_group">&lt;font color={color}&gt;Necessário estar em um grupo de Ataque&lt;/font&gt;</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_in_raid_group">&lt;font color={color}&gt;Grupo de Ataque&lt;/font&gt;</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_requirements_groupsize_single">&lt;font color={color}&gt;Máximo de Jogadores: 1&lt;/font&gt;</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_content_not_active">O conteúdo ainda não está ativo</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_content_no_longer_available">O conteúdo não está mais disponível</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_content_disabled">O conteúdo está desativado no momento</string>
+	<string rel_version="Seasonal_Server_2" key="ui_matchmaking_disabled_in_world">Desativado neste mundo</string>
+	<string rel_version="Seasonal_Server_2" key="ui_deaths_door_fallen_warning">Mantenha-se vivo para obter recompensas melhores.</string>
+	<string rel_version="Seasonal_Server_2" key="ui_respawn_fallen_warning">Você caiu. Você tem mais poder, mas ganhará menos recompensas.</string>
 	<string rel_version="Feature_Crossplay" key="ui_error_whisper_crossplay_communication_off">O usuário está em outra plataforma. Altere a configuração de comunicação da jogabilidade cruzada para enviar sussurros.</string>
 	<string key="ui_communication_restricted_by_platform">Comunicação restrita pela plataforma.</string>
 	<string key="ui_group_invites_restricted_gamemode">Os convites de grupo ficam indisponíveis em uma atividade de organização de partidas.</string>
 	<string key="ui_group_member_placeholder_name">...</string>
-	<string key="ui_pugfinder_content_not_active">O conteúdo ainda não está ativo</string>
-	<string key="ui_pugfinder_requirements_local_groups_only">Apenas Grupos Locais</string>
-	<string key="ui_pugfinder_content_no_longer_available">O conteúdo não está mais disponível</string>
-	<string key="ui_matchmaking_disabled_in_world">Desativado neste mundo</string>
-	<string key="ui_pugfinder_requirements_groupsize_single">&lt;font color={color}&gt;Máximo de Jogadores: 1&lt;/font&gt;</string>
-	<string key="ui_pugfinder_activity_opr_no_perks_desc">Não é necessário o melhor equipamento! Junte-se a essa nova versão da Investida do Posto Avançado que desativa todas as vantagens do equipamento e maximiza a pontuação do equipamento, nivelando o campo de jogo.</string>
-	<string key="ui_groupfinder_dungeon_queue_signup_fail_raidtrial">Você não pode entrar na Fila de Prova de Elite enquanto está em um Saguão.</string>
-	<string key="ui_pugfinder_content_disabled">O conteúdo está desativado no momento</string>
-	<string key="ui_pugfinder_in_raid_group">&lt;font color={color}&gt;Grupo de Ataque&lt;/font&gt;</string>
-	<string key="ui_pugfinder_not_in_raid_group">&lt;font color={color}&gt;Necessário estar em um grupo de Ataque&lt;/font&gt;</string>
-	<string key="ui_pugfinder_requirements_groupsize_range">&lt;font color={color}&gt;Mínimo/máximo de jogadores: {minPlayers}–{maxPlayers}&lt;/font&gt;</string>
-	<string key="ui_deaths_door_fallen_warning">Mantenha-se vivo para obter recompensas melhores.</string>
-	<string key="ui_respawn_fallen_warning">Você caiu. Você tem mais poder, mas ganhará menos recompensas.</string>
 </resources>
 

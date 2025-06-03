@@ -1800,7 +1800,7 @@
 	<string key="PerkID_HeartgemRune_StoneForm_Greater_Name">Forma temprata</string>
 	<string key="PerkID_HeartgemRune_StoneForm_Greater_Description">Ottieni un {[0.100000 * 100]}% di armatura aggiuntivo per {[5.000000]} s per ogni colpo subito (+{[0.100000 * 3.000000 * 100]}% max).</string>
 	<string key="PerkID_HeartgemRune_StoneForm_Survivor_Name">Forma riparatrice</string>
-	<string key="PerkID_HeartgemRune_StoneForm_Survivor_Description">Cura per un {[0.650000 * 100]}% dei danni da runa a cuore al secondo mentre è attiva. Riduce i danni inflitti di un {[-0.200000 * -100]}%.</string>
+	<string key="PerkID_HeartgemRune_StoneForm_Survivor_Description">Cura per un {[0.520000 * 100]}% dei danni da runa a cuore al secondo mentre è attiva. Riduce i danni inflitti di un {[-0.200000 * -100]}%.</string>
 	<string key="PerkID_HeartgemRune_StoneForm_Dominator_Name">Forma instabile</string>
 	<string key="PerkID_HeartgemRune_StoneForm_Dominator_Description">Forma di pietra esplode quando termina o quando attivi di nuovo l'abilità runa a cuore, infliggendo un {[2.000000 * 100]}% di danni da runa a cuore entro un raggio di {[3.000000]} m. La sua durata è ridotta per {[-2.000000 * -1]} s.</string>
 	<string key="PerkID_HeartgemRune_CannonBlast_Major_Name">Scoppio rovente</string>
@@ -2699,7 +2699,7 @@
 	<string key="PerkID_Artifact_Set2_HeavyFeet_Name" rel_version="UNSCHEDULED">Speditezza</string>
 	<string key="PerkID_Artifact_Set2_HeavyFeet_Desc" rel_version="UNSCHEDULED">Attivare una runa a cuore fornisce un {[0.330000 *100]}% di velocità di movimento per {[6.000000]} s.</string>
 	<string key="PerkID_Artifact_Set2_MediumHead_Name" rel_version="UNSCHEDULED">Regale</string>
-	<string key="PerkID_Artifact_Set2_MediumHead_Desc" rel_version="UNSCHEDULED">+{[10.000000]} a tutti gli attributi.</string>
+	<string key="PerkID_Artifact_Set2_MediumHead_Desc" rel_version="UNSCHEDULED">+{[11.000000]} a tutti gli attributi.</string>
 	<string key="PerkID_Artifact_Set2_MediumChest_Name" rel_version="Feature_Artifacts_S5">Benedizione della natura</string>
 	<string key="PerkID_Artifact_Set2_MediumChest_Desc" rel_version="Feature_Artifacts_S5">I Potenziamenti a durata limitata scadono istantaneamente, mentre la potenza di Potenziamento senza durata viene ridotta di un 50%, ma infliggi sempre un {[0.200000 * 100]}% di danni base in più.</string>
 	<string key="PerkID_Artifact_Set2_MediumHands_Name" rel_version="Feature_Artifacts_S6">Abbraccio spettrale</string>
@@ -2709,9 +2709,9 @@
 	<string key="PerkID_Artifact_Set2_LightHead_Name" rel_version="Feature_Artifacts_S6">Energia disperata</string>
 	<string key="PerkID_Artifact_Set2_LightHead_Desc" rel_version="Feature_Artifacts_S6">Se colpisci un nemico mentre il tuo mana è inferiore a un {[50.000000]}%, per {[4.000000]} s ottieni un {[0.250000 * 100]}% di aumento dei danni (tempo di ricarica {[10.000000]} s).</string>
 	<string key="PerkID_Artifact_Set2_LightChest_Name" rel_version="UNSCHEDULED">Prosciugamento</string>
-	<string key="PerkID_Artifact_Set2_LightChest_Desc" rel_version="UNSCHEDULED">Con salute inferiore a un {[95.000000]}%, colpire un bersaglio consuma {[-10.000000 *-1]} mana. Se perdi mana in questo modo, l'attacco fornisce un {[0.100000 * 100]}% di Furto di vita. Se si usa un'arma magica, solo le abilità innescano Furto di vita e gli attacchi di base generano {[10.000000]} mana (tempo di ricarica {[0.500000]} s per attivazione).</string>
+	<string key="PerkID_Artifact_Set2_LightChest_Desc" rel_version="UNSCHEDULED">Con salute inferiore a un {[95.000000]}%, colpire un bersaglio consuma {[-10.000000 *-1]} mana. Se perdi mana in questo modo, l'attacco fornisce un {[0.170000 * 100]}% di Furto di vita. Se si usa un'arma magica, solo le abilità innescano Furto di vita e gli attacchi di base generano {[10.000000]} mana (tempo di ricarica {[0.500000]} s per attivazione).</string>
 	<string key="PerkID_Artifact_Set2_LightHands_Name" rel_version="UNSCHEDULED">Maledizione</string>
-	<string key="PerkID_Artifact_Set2_LightHands_Desc" rel_version="UNSCHEDULED">Quando attivi un'abilità, ottieni un accumulo di un {[0.060000 *100]}% di Potenziamento per {[7.000000]} s (massimo {[3.000000]} accumuli). Dopo aver colpito con un attacco di base, perdi tutti gli accumuli. (Non è possibile ottenere accumuli di Potenziamento per {[5.000000]} s dopo la scadenza o la rimozione degli accumuli.)</string>
+	<string key="PerkID_Artifact_Set2_LightHands_Desc" rel_version="UNSCHEDULED">Quando attivi un'abilità, ottieni un accumulo di un {[0.100000 *100]}% di Potenziamento per {[7.000000]} s (massimo {[3.000000]} accumuli). Dopo aver colpito con un attacco di base, perdi tutti gli accumuli. (Non è possibile ottenere accumuli di Potenziamento per {[3.000000]} s dopo la scadenza o la rimozione degli accumuli.)</string>
 	<string key="PerkID_Artifact_Set2_LightFeet_Name" rel_version="Feature_Artifacts_S5">Imboscata</string>
 	<string key="PerkID_Artifact_Set2_LightFeet_Desc" rel_version="Feature_Artifacts_S5">Infliggi il 15% di danni in più e hai il 25% di probabilità di colpo critico se non colpisci il bersaglio entro 20 secondi.</string>
 	<string key="PerkID_Artifact_Set2_Sword_Name" rel_version="UNSCHEDULED">Osservazioni sprezzanti</string>
@@ -2821,7 +2821,7 @@
 	<string key="PlaguedDEF4Desc">{[-0.062500 * 100]}% di durata dell'effetto di stato Malattia</string>
 	<string key="PlaguedDMG4Name">Piagato IV</string>
 	<string key="PlaguedDEF3Desc">{[-0.050000 * 100]}% di durata dell'effetto di stato Malattia</string>
-	<string key="PerkID_Weapon_RendingStacks_Description">L'attacco infligge un accumulo di un {[-0.040000 * -100]}% di Lacerato; ogni accumulo dura {[6.000000]} s. (Massimo {[5.000000]} accumuli)</string>
+	<string key="PerkID_Weapon_RendingStacks_Description">Una volta ogni {[0.500000]}s, l'attacco infligge un accumulo di {[-0.040000 * -100]}% di lacerazione, ogni accumulo dura {[6.000000]}s.   (Massimo {[5.000000]} accumuli)</string>
 	<string key="PerkID_Armor_HastePotencyInc_Name">Alacrità potente</string>
 	<string key="PlaguedDEF2Name">Protezione dalle piaghe II</string>
 	<string key="PerkID_Armor_LifestealHealing_Name">Furto di vita consacrato</string>
@@ -2853,7 +2853,7 @@
 	<string key="ArmorInc1Name">Temprato I</string>
 	<string key="ArmorInc2Name">Temprato II</string>
 	<string key="ArmorInc3Name">Temprato III</string>
-	<string key="PerkID_Chest_HealthStam_Synergy_Description">Con salute inferiore al 50%, ottieni un {[0.200000 * 100]}% di velocità di rigenerazione dell'energia, mentre quando l'energia è inferiore al 50%, l'efficacia delle cure ricevute aumenta di un {[0.200000 * 100]}%.</string>
+	<string key="PerkID_Chest_HealthStam_Synergy_Description">Con salute inferiore al 50%, ottieni un {[0.150000 * 100]}% di velocità di rigenerazione dell'energia, mentre quando l'energia è inferiore al 50%, l'efficacia delle cure ricevute aumenta di un {[0.150000 * 100]}%.</string>
 	<string key="ArmorInc4Desc">{[0.030000 * 100]}% di armatura fisica ed elementale.</string>
 	<string key="ArmorInc1Desc">{[0.010000 * 100]}% di armatura fisica ed elementale.</string>
 	<string key="ArmorInc2Desc">{[0.015000 * 100]}% di armatura fisica ed elementale.</string>
@@ -2862,9 +2862,9 @@
 	<string key="PlaguedDEF2Desc">{[-0.035000 * 100]}% di durata dell'effetto di stato Malattia</string>
 	<string key="PerkID_Weapon_Melee_AlternateAttacks_Description">Colpire con un attacco di base aumenta di un {[5.000000]}% i danni base della prossima abilità che va a segno entro {[0.100000 * 100]} s, mentre colpire con un'abilità aumenta di un {[0.100000 * 100]}% i danni base dell'attacco di base successivo entro {[5.000000]} s.</string>
 	<string key="PerkID_Amulet_DodgeBurn_DurRed_Name">Fermati, cadi e rotola</string>
-	<string key="PerkID_Artifact_Set2_MediumHead_ElemGem_Name">Opale immacolato</string>
-	<string key="PerkID_Artifact_Set2_MediumHead_PhysGem_Name">Onice immacolata</string>
-	<string key="PerkID_Artifact_Set2_MediumHead_ElemGem_Desc">+{[0.030000 * 100]}% di assorbimento dei danni elementali.</string>
 	<string key="PerkID_Artifact_Set2_MediumHead_PhysGem_Desc">+{[0.030000 * 100]}% di assorbimento dei danni fisici.</string>
+	<string key="PerkID_Artifact_Set2_MediumHead_ElemGem_Desc">+{[0.030000 * 100]}% di assorbimento dei danni elementali.</string>
+	<string key="PerkID_Artifact_Set2_MediumHead_PhysGem_Name">Onice immacolata</string>
+	<string key="PerkID_Artifact_Set2_MediumHead_ElemGem_Name">Opale immacolato</string>
 </resources>
 

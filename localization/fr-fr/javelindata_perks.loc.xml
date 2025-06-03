@@ -1800,7 +1800,7 @@
 	<string key="PerkID_HeartgemRune_StoneForm_Greater_Name">Forme renforcée</string>
 	<string key="PerkID_HeartgemRune_StoneForm_Greater_Description">Vous obtenez {[0.100000 * 100]} % d'armure supplémentaire pendant {[5.000000]} s par coup reçu (+{[0.100000 * 3.000000 * 100]} % maximum).</string>
 	<string key="PerkID_HeartgemRune_StoneForm_Survivor_Name">Forme réparatrice</string>
-	<string key="PerkID_HeartgemRune_StoneForm_Survivor_Description">Vous soigne à hauteur de {[0.650000 * 100]} % des dégâts de rune-cœur par seconde quand actif. Réduit de {[-0.200000 * -100]} % les dégâts infligés.</string>
+	<string key="PerkID_HeartgemRune_StoneForm_Survivor_Description">Vous soigne à hauteur de {[0.520000 * 100]} % des dégâts de rune-cœur par seconde quand actif. Réduit de {[-0.200000 * -100]} % les dégâts infligés.</string>
 	<string key="PerkID_HeartgemRune_StoneForm_Dominator_Name">Forme instable</string>
 	<string key="PerkID_HeartgemRune_StoneForm_Dominator_Description">Forme rocheuse explose à l'expiration ou quand vous appuyez de nouveau sur la capacité rune-cœur, ce qui inflige {[2.000000 * 100]} % de dégâts de rune-cœur dans un rayon de {[3.000000]} m. Réduit de {[-2.000000 * -1]}s sa durée.</string>
 	<string key="PerkID_HeartgemRune_CannonBlast_Major_Name">Souffle brûlant</string>
@@ -2699,7 +2699,7 @@
 	<string key="PerkID_Artifact_Set2_HeavyFeet_Name" rel_version="UNSCHEDULED">Expéditif</string>
 	<string key="PerkID_Artifact_Set2_HeavyFeet_Desc" rel_version="UNSCHEDULED">Activer une rune-cœur vous octroie {[0.330000 *100]} % de vitesse de déplacement pendant {[6.000000]} secondes.</string>
 	<string key="PerkID_Artifact_Set2_MediumHead_Name" rel_version="UNSCHEDULED">Royal</string>
-	<string key="PerkID_Artifact_Set2_MediumHead_Desc" rel_version="UNSCHEDULED">+{[10.000000]} à toutes les caractéristiques.</string>
+	<string key="PerkID_Artifact_Set2_MediumHead_Desc" rel_version="UNSCHEDULED">+{[11.000000]} à toutes les caractéristiques.</string>
 	<string key="PerkID_Artifact_Set2_MediumChest_Name" rel_version="Feature_Artifacts_S5">Bénédiction de la nature</string>
 	<string key="PerkID_Artifact_Set2_MediumChest_Desc" rel_version="Feature_Artifacts_S5">Les renforcements à durée limitée expirent instantanément et l'efficacité des renforcements à durée indéterminée est réduite de 50 %, mais vous infligez toujours {[0.200000 * 100]} % de dégâts de base en plus.</string>
 	<string key="PerkID_Artifact_Set2_MediumHands_Name" rel_version="Feature_Artifacts_S6">Étreinte fantomatique</string>
@@ -2709,9 +2709,9 @@
 	<string key="PerkID_Artifact_Set2_LightHead_Name" rel_version="Feature_Artifacts_S6">Énergie du désespoir</string>
 	<string key="PerkID_Artifact_Set2_LightHead_Desc" rel_version="Feature_Artifacts_S6">Toucher un ennemi quand votre mana est inférieur à {[50.000000]} % vous octroie {[4.000000]} s pendant lesquelles vous infligez {[0.250000 * 100]} % de dégâts supplémentaires ({[10.000000]} s de temps de recharge).</string>
 	<string key="PerkID_Artifact_Set2_LightChest_Name" rel_version="UNSCHEDULED">Drain</string>
-	<string key="PerkID_Artifact_Set2_LightChest_Desc" rel_version="UNSCHEDULED">Lorsque votre santé est inférieure à {[95.000000]} %, toucher une cible consomme {[-10.000000 *-1]} points de mana. Cette attaque vous octroie {[0.100000 * 100]} % de Vol de vie, si vous avez perdu des points de mana de cette manière. Si vous utilisez une arme de magie, seules les capacités déclenchent Vol de vie et les attaques de base génèrent {[10.000000]} points de mana ({[0.500000]} s de temps de recharge par activation).</string>
+	<string key="PerkID_Artifact_Set2_LightChest_Desc" rel_version="UNSCHEDULED">Lorsque votre santé est inférieure à {[95.000000]} %, toucher une cible consomme {[-10.000000 *-1]} points de mana. Cette attaque vous octroie {[0.170000 * 100]} % de Vol de vie, si vous avez perdu des points de mana de cette manière. Si vous utilisez une arme de magie, seules les capacités déclenchent Vol de vie et les attaques de base génèrent {[10.000000]} points de mana ({[0.500000]} s de temps de recharge par activation).</string>
 	<string key="PerkID_Artifact_Set2_LightHands_Name" rel_version="UNSCHEDULED">Malédiction</string>
-	<string key="PerkID_Artifact_Set2_LightHands_Desc" rel_version="UNSCHEDULED">Vous obtenez un cumul de {[0.060000 *100]} % de renforcement pendant {[7.000000]} s lorsque vous activez une capacité (cumulable {[3.000000]} fois). Vous perdez tous les cumuls après avoir infligé une attaque de base (vous ne pouvez pas obtenir de cumuls de renforcement pendant {[5.000000]} s après l'expiration ou la suppression des cumuls).</string>
+	<string key="PerkID_Artifact_Set2_LightHands_Desc" rel_version="UNSCHEDULED">Vous obtenez un cumul de {[0.100000 *100]} % de renforcement pendant {[7.000000]} s lorsque vous activez une capacité (cumulable {[3.000000]} fois). Vous perdez tous les cumuls après avoir infligé une attaque de base (vous ne pouvez pas obtenir de cumuls de renforcement pendant {[3.000000]} s après l'expiration ou la suppression des cumuls).</string>
 	<string key="PerkID_Artifact_Set2_LightFeet_Name" rel_version="Feature_Artifacts_S5">Embuscade</string>
 	<string key="PerkID_Artifact_Set2_LightFeet_Desc" rel_version="Feature_Artifacts_S5">Vous infligez 15 % de dégâts supplémentaires et bénéficiez de 25 % de chances de coup critique quand vous n'avez pas touché de cible dans les 20 s.</string>
 	<string key="PerkID_Artifact_Set2_Sword_Name" rel_version="UNSCHEDULED">Remarques sournoises</string>
@@ -2821,7 +2821,7 @@
 	<string key="PlaguedDEF4Desc">{[-0.062500 * 100]} % de durée de l'effet de maladie</string>
 	<string key="PlaguedDMG4Name">Pestiféré IV</string>
 	<string key="PlaguedDEF3Desc">{[-0.050000 * 100]} % de durée de l'effet de maladie</string>
-	<string key="PerkID_Weapon_RendingStacks_Description">L'attaque inflige un cumul de {[-0.040000 * -100]} % de lacération durant chacun {[6.000000]} s. (cumulable {[5.000000]} fois).</string>
+	<string key="PerkID_Weapon_RendingStacks_Description">Une fois toutes les {[0.500000]} s, l’attaque inflige un cumul de {[-0.040000 * -100]}% de lacération, chaque cumul dure {[6.000000]} s. (cumulable {[5.000000]} fois).</string>
 	<string key="PerkID_Armor_HastePotencyInc_Name">Célérité intense</string>
 	<string key="PlaguedDEF2Name">Protection pestiférée II</string>
 	<string key="PerkID_Armor_LifestealHealing_Name">Vol de vie consacré</string>
@@ -2853,7 +2853,7 @@
 	<string key="ArmorInc1Name">Endurci I</string>
 	<string key="ArmorInc2Name">Endurci II</string>
 	<string key="ArmorInc3Name">Endurci III</string>
-	<string key="PerkID_Chest_HealthStam_Synergy_Description">Quand votre santé est inférieure à 50 %, vous obtenez {[0.200000 * 100]} % de vitesse de régénération de vitalité. Si votre vitalité est inférieure à 50 %, les soins reçus sont augmentés de {[0.200000 * 100]} %.</string>
+	<string key="PerkID_Chest_HealthStam_Synergy_Description">Quand votre santé est inférieure à 50 %, vous obtenez {[0.150000 * 100]} % de vitesse de régénération de vitalité. Si votre vitalité est inférieure à 50 %, les soins reçus sont augmentés de {[0.150000 * 100]} %.</string>
 	<string key="ArmorInc4Desc">+{[0.030000 * 100]} % d'armure physique et élémentaire.</string>
 	<string key="ArmorInc1Desc">+{[0.010000 * 100]} % d'armure physique et élémentaire.</string>
 	<string key="ArmorInc2Desc">+{[0.015000 * 100]} % d'armure physique et élémentaire.</string>
@@ -2862,9 +2862,9 @@
 	<string key="PlaguedDEF2Desc">{[-0.035000 * 100]} % de durée de l'effet de maladie</string>
 	<string key="PerkID_Weapon_Melee_AlternateAttacks_Description">Frapper avec une attaque de base augmente les dégâts de base de la prochaine capacité réussie dans les {[5.000000]} s de {[0.100000 * 100]} %. Frapper avec une capacité augmente les dégâts de base de la prochaine attaque de base lancée dans les {[5.000000]} s de {[0.100000 * 100]} %.</string>
 	<string key="PerkID_Amulet_DodgeBurn_DurRed_Name">Stop, esquive et roulade</string>
-	<string key="PerkID_Artifact_Set2_MediumHead_ElemGem_Name">Opale immaculée</string>
-	<string key="PerkID_Artifact_Set2_MediumHead_PhysGem_Name">Onyx immaculé</string>
-	<string key="PerkID_Artifact_Set2_MediumHead_ElemGem_Desc">+{[0.030000 * 100]} % d'absorption des dégâts élémentaires.</string>
 	<string key="PerkID_Artifact_Set2_MediumHead_PhysGem_Desc">+{[0.030000 * 100]} % d'absorption des dégâts physiques.</string>
+	<string key="PerkID_Artifact_Set2_MediumHead_ElemGem_Desc">+{[0.030000 * 100]} % d'absorption des dégâts élémentaires.</string>
+	<string key="PerkID_Artifact_Set2_MediumHead_PhysGem_Name">Onyx immaculé</string>
+	<string key="PerkID_Artifact_Set2_MediumHead_ElemGem_Name">Opale immaculée</string>
 </resources>
 
