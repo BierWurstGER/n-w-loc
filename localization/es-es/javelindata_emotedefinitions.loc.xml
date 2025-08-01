@@ -174,7 +174,7 @@
 	<string key="UI_emote_RussianDance_description" rel_version="Emote_Leg_Kick_Dance">«Un baile tradicional».</string>
 	<string key="emote_Shiver" rel_version="Emote_Shiver">{playerName} tirita con fuerza. ¡Brrr!</string>
 	<string key="ui_emote_Shiver_name" rel_version="Emote_Shiver">Escalofrío</string>
-	<string key="ui_emote_Shiver_description" rel_version="Emote_Shiver">«¡Si tengo tanto frío ahora, imagina cómo estaríamos en el Invierno Eterno!».</string>
+	<string key="ui_emote_Shiver_description" rel_version="Emote_Shiver">«¡Si la isla está fresquíbiris ahora, imagina cómo estaríamos en el Invierno Eterno!».</string>
 	<string key="emote_BellyLaugh" rel_version="Emote_BellyLaugh">{playerName} suelta una sonora carcajada.</string>
 	<string key="ui_emote_BellyLaugh_name" rel_version="Emote_BellyLaugh">Carcajada</string>
 	<string key="ui_emote_GivePresent_name" rel_version="Emote_GivePresent">Dar regalo</string>
@@ -444,8 +444,8 @@
 	<string key="Emote_ArmWaveDance_SHE" rel_version="Emote_BreakdanceArmwave">{playerName} hace una ola con los brazos.</string>
 	<string key="Emote_ArmWaveDance_THEY" rel_version="Emote_BreakdanceArmwave">{playerName} hace una ola con los brazos.</string>
 	<string key="ui_emote_Walk_Drunk_name" rel_version="Emote_Stumbling_Walk">Caminar haciendo eses</string>
-	<string key="ui_emote_Walk_Drunk_description" rel_version="Emote_Stumbling_Walk">Esta es la mejor manera de ir de la taberna a tu casa, si recuerdas dónde está.</string>
-	<string key="Emote_Walk_Drunk" rel_version="Emote_Stumbling_Walk">{playerName} camina con embriaguez.</string>
+	<string key="ui_emote_Walk_Drunk_description" rel_version="Emote_Stumbling_Walk">Con tantas idas y venidas en Asalto a puesto remoto no vas a recordar ni cómo se llegaba a la posada.</string>
+	<string key="Emote_Walk_Drunk" rel_version="Emote_Stumbling_Walk">{playerName} camina con cara de estupor.</string>
 	<string key="ui_emote_HipTwistDance_name" rel_version="Emote_Dance_HipTwist">Movimiento de caderas</string>
 	<string key="ui_emote_HipTwistDance_description" rel_version="Emote_Dance_HipTwist">¡El baile que está causando sensación en todo Aetérnum!</string>
 	<string key="Emote_HipTwistDance" rel_version="Emote_Dance_HipTwist">{playerName} mueve las caderas con ritmo.</string>
@@ -612,20 +612,26 @@
 	<string key="ui_Emote_Mantrum_description" rel_version="Entitlements_Barbarian">Cuando solo tienes el suelo para desahogarte.</string>
 	<string key="ui_Emote_Mantrum_name" rel_version="Entitlements_Barbarian">Pelea interior</string>
 	<string key="Emote_Mantrum" rel_version="Entitlements_Barbarian">{playerName} se pelea con el suelo.</string>
-	<string key="Emote_BarbershopExit" rel_version="Feature_Barbershop">{playerName} checks out their new look.</string>
-	<string key="ui_Emote_TouchGrass_description">Te sentará bien.</string>
-	<string key="ui_Emote_Walk_NinjaRun_description">Corre con las sombras, veloz como el viento.</string>
-	<string key="ui_Emote_BrushShoulder_description">Para cuando algo te resulte pan comido.</string>
-	<string key="Emote_Walk_MyrkMarch">{playerName} marcha a un ritmo extraño.</string>
-	<string key="ui_Emote_Walk_MyrkMarch_description">Cuenta la leyenda que Thorpe les enseñaba esta extraña marcha solo a sus mejores guerreros.</string>
-	<string key="Emote_BrushShoulder_THEY">{playerName} se sacude el hombro.</string>
-	<string key="Emote_BrushShoulder_SHE">{playerName} se sacude el hombro.</string>
-	<string key="ui_Emote_Walk_NinjaRun_name">Carrera ninja</string>
-	<string key="Emote_BrushShoulder">{playerName} se sacude el hombro.</string>
-	<string key="ui_Emote_Walk_MyrkMarch_name">Marcha de Myrkgard</string>
-	<string key="ui_Emote_TouchGrass_name">Tocar la hierba</string>
-	<string key="Emote_Walk_NinjaRun">¡{playerName} corre como un ninja!</string>
-	<string key="ui_Emote_BrushShoulder_name">Sacudirse el hombro</string>
-	<string key="Emote_TouchGrass">{playerName} acaricia la bella y maravillosa hierba.</string>
+	<string key="Emote_BarbershopExit" rel_version="Feature_Barbershop">{playerName} mira su nuevo aspecto.</string>
+	<string key="ui_Emote_BrushShoulder_name" rel_version="Season_8_Perm">Sacudirse el hombro</string>
+	<string key="ui_Emote_BrushShoulder_description" rel_version="Season_8_Perm">Para cuando algo te resulte pan comido.</string>
+	<string key="Emote_BrushShoulder" rel_version="Season_8_Perm">{playerName} se sacude el hombro.</string>
+	<string key="Emote_BrushShoulder_SHE" rel_version="Season_8_Perm">{playerName} se sacude el hombro.</string>
+	<string key="Emote_BrushShoulder_THEY" rel_version="Season_8_Perm">{playerName} se sacude el hombro.</string>
+	<string key="ui_Emote_Walk_MyrkMarch_name" rel_version="Season_8_Perm">Marcha de Myrkgard</string>
+	<string key="ui_Emote_Walk_MyrkMarch_description" rel_version="Season_8_Perm">Cuenta la leyenda que Thorpe les enseñaba esta extraña marcha solo a sus mejores guerreros.</string>
+	<string key="Emote_Walk_MyrkMarch" rel_version="Season_8_Perm">{playerName} marcha a un ritmo extraño.</string>
+	<string key="ui_Emote_Walk_NinjaRun_name" rel_version="Season_8_Perm">Carrera ninja</string>
+	<string key="ui_Emote_Walk_NinjaRun_description" rel_version="Season_8_Perm">Corre con las sombras, veloz como el viento.</string>
+	<string key="Emote_Walk_NinjaRun" rel_version="Season_8_Perm">¡{playerName} corre como un ninja!</string>
+	<string key="ui_Emote_TouchGrass_name" rel_version="Season_8_Perm">Tocar la hierba</string>
+	<string key="ui_Emote_TouchGrass_description" rel_version="Season_8_Perm">Te sentará bien.</string>
+	<string key="Emote_TouchGrass" rel_version="Season_8_Perm">{playerName} acaricia la bella y maravillosa hierba.</string>
+	<string key="ui_Emote_CatPaw_name" rel_version="Season_9_Perm">Patas de gato</string>
+	<string key="ui_Emote_CatPaw_description" rel_version="Season_9_Perm">Toda la majestuosidad de la gloriosa forma felina. Un momento, siento una bola de pelo cerca.</string>
+	<string key="Emote_CatPaw" rel_version="Season_9_Perm">{playerName} juega como un gatito.</string>
+	<string key="ui_Emote_NewspaperBonk_name" rel_version="Season_9_Perm">Golpe de periódico</string>
+	<string key="ui_Emote_NewspaperBonk_description" rel_version="Season_9_Perm">Para cuando tus compañeros de equipo empiezan a hacer planes estúpidos en Asalto a puesto remoto.</string>
+	<string key="Emote_NewspaperBonk" rel_version="Season_9_Perm">{playerName} hace entrar en razón a alguien.</string>
 </resources>
 

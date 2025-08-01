@@ -20,7 +20,7 @@
 	<string key="ui_leaderboard_category_expedition_lazarus" rel_version="Feature_Leaderboards">Użyteczność Łazarza</string>
 	<string key="ui_leaderboard_category_expedition_tempest" rel_version="Feature_Leaderboards">Serce Burzy</string>
 	<string key="ui_leaderboard_category_expedition_ennead" rel_version="Feature_Leaderboards">Enneada</string>
-	<string key="ui_leaderboard_category_expedition_barnacles" rel_version="Feature_Leaderboards">Pąkle i Czarny Proch</string>
+	<string key="ui_leaderboard_category_expedition_barnacles" rel_version="Feature_Leaderboards">Pąkle i czarny proch</string>
 	<string key="ui_leaderboard_category_expedition_depths" rel_version="Feature_Leaderboards">Głębiny</string>
 	<string key="ui_leaderboard_category_expedition_starstone" rel_version="Feature_Leaderboards">Gwiezdny Kurhan</string>
 	<string key="ui_leaderboard_category_expedition_divide" rel_version="Feature_Leaderboards">Dziki Przełom</string>
@@ -159,6 +159,9 @@
 	<string key="ui_leaderboard_display_elitetrials_sandworm1" rel_version="Trial_Brimstone_Sandworm">Próba Pożeracza – czas ukończenia</string>
 	<string key="ui_leaderboard_display_elitetrials_sandworm2" rel_version="Trial_Brimstone_Sandworm">Próba Pożeracza</string>
 	<string key="ui_leaderboard_tip_outpostrush_score" rel_version="Feature_Leaderboards">&lt;img src="lyshineui/images/icons/crossworld/icon_crossworld_identifier_tan" scale="2.0" xPadding="2" yOffset="5"&gt;&lt;/img&gt; &lt;font color="#ebe3d6"&gt;&lt;font face="lyshineui/fonts/Nimbus_Regular.font"&gt;Ranking regionalny&lt;/font&gt;&lt;/font&gt;\n\nTwój wynik napadu na posterunek to najlepszy wynik zdobyty podczas meczu.</string>
+	<string key="ui_leaderboard_category_raids" rel_version="Season_8_Perm">Rajdy</string>
+	<string key="ui_leaderboard_display_raids_cutlassKeys1" rel_version="Season_8_Perm">Ul Gorgony – czas ukończenia</string>
+	<string key="ui_leaderboard_display_raids_cutlassKeys2" rel_version="Season_8_Perm">Ul Gorgony</string>
 	<string key="ui_leaderboard_display_regional">Regionalny</string>
 	<string key="ui_leaderboard_display_world_archived">Światowy (zarchiwizowano)</string>
 	<string key="ui_leaderboard_tip_regional_only">&lt;img src="lyshineui/images/icons/crossworld/icon_crossworld_identifier_tan" scale="2.0" xPadding="2" yOffset="5"&gt;&lt;/img&gt; Ranking regionalny\n\nSprawdź statystyki i rywalizuj z innymi graczami z twojego regionu.\n\nŚwiaty konsolowe współdzielą między sobą tylko rankingi regionalne.</string>
@@ -173,8 +176,28 @@
 	<string key="ui_leaderboard_column_assists" rel_version="Season_7_Perm">Asysty</string>
 	<string key="ui_leaderboard_display_kda" rel_version="Season_7_Perm">Współczynnik zabójstw/śmierci/asyst</string>
 	<string key="ui_leaderboard_tip_kda" rel_version="Season_7_Perm">Współczynnik zabójstw/śmierci/asyst jest obliczany według wzoru: zabójstwa dodajemy do asyst, a potem dzielimy przez śmierci.</string>
-	<string key="ui_leaderboard_category_raids">Rajdy</string>
-	<string key="ui_leaderboard_display_raids_cutlassKeys2">Ul Gorgony</string>
-	<string key="ui_leaderboard_display_raids_cutlassKeys1">Ul Gorgony – czas ukończenia</string>
+	<string key="ui_leaderboard_display_capture_the_flag_kill_death_assist">Współczynnik Z/Ś/A</string>
+	<string key="ui_leaderboard_display_capture_the_flag_best_kills">Najlepsze zabójstwa</string>
+	<string key="ui_leaderboard_display_capture_the_flag_points">Punkty za flagę</string>
+	<string key="ui_leaderboard_tip_flag_returns">Ile razy zwrócono skradzioną flagę do swojej bazy.</string>
+	<string key="ui_leaderboard_display_capture_the_flag_damage_dealt">Zadane obrażenia</string>
+	<string key="ui_leaderboard_column_returns">Zwrócenia</string>
+	<string key="ui_leaderboard_column_best_kills">Najlepsze zabójstwa</string>
+	<string key="ui_leaderboard_display_capture_the_flag_kills">Zabójstwa</string>
+	<string key="ui_leaderboard_column_kill_death_ratio">Współczynnik Z/Ś</string>
+	<string key="ui_leaderboard_category_capture_the_flag">Przejęcie flagi</string>
+	<string key="ui_leaderboard_display_capture_the_flag_returns">Zwrócenia</string>
+	<string key="ui_leaderboard_second_level_category_test">Kategoria drugiego poziomu</string>
+	<string key="ui_leaderboard_display_capture_the_flag_kill_death">Współczynnik Z/Ś</string>
+	<string key="ui_leaderboard_display_capture_the_flag_heals">Leczenie</string>
+	<string key="ui_leaderboard_display_capture_the_flag_assists">Asysty</string>
+	<string key="ui_leaderboard_display_capture_the_flag_score">Wynik</string>
+	<string key="ui_leaderboard_column_points">Punkty za flagę</string>
+	<string key="ui_leaderboard_tip_kd">Współczynnik zabójstw do śmierci jest obliczany poprzez podzielenie liczby zabójstw przez liczbę śmierci.</string>
+	<string key="ui_leaderboard_column_kill_death_assist_ratio">Współczynnik Z/Ś/A</string>
+	<string key="ui_leaderboard_category_desc">Opis kategorii</string>
+	<string key="ui_leaderboard_column_total_kills">Łączna liczba zabójstw</string>
+	<string key="ui_leaderboard_display_capture_the_flag_wins">Zwycięstwa</string>
+	<string key="ui_leaderboard_tip_flag_points">Liczba punktów zdobytych za kradzież flagi wroga.</string>
 </resources>
 

@@ -308,8 +308,10 @@
 	<string key="ui_pvp_balance_header" rel_version="Feature_PvP_PvE_Split">Modyfikatory balansu PvP aktywne:</string>
 	<string key="or_outpost_rush_map_name" rel_version="Season_7_Perm">Wyspa Nauthynos</string>
 	<string key="or_outpost_rush_trench_map_name" rel_version="OPR_004_Trench">Koralowa Przepaść</string>
+	<string key="or_outpost_rush_vertical_map_name" rel_version="OPR_005_Vertical">Wieża Kalomel</string>
 	<string key="arena_3v3_map_name" rel_version="Feature_PVP_Arenas">Pradawny Azyl</string>
 	<string key="arena_3v3_02_map_name" rel_version="Feature_PVP_Arenas">Arena Gladiatora</string>
+	<string key="arena_3v3_04_map_name" rel_version="Arena_3v3_04">Podgląd areny</string>
 	<string key="ui_activity_finder_tooltip_current_map_rotation_text" rel_version="Season_7_Perm">Obecnie dostępna mapa</string>
 	<string key="ui_activity_finder_tooltip_next_map_rotation_text" rel_version="Season_7_Perm">Następna dostępna mapa</string>
 	<string key="ui_activity_finder_tooltip_current_map_rotation" rel_version="Season_7_Perm">{currentRotationText} : {mapName}</string>
@@ -338,58 +340,64 @@
 	<string key="ui_ready_up_ready_choice">Gotowy</string>
 	<string key="ui_ready_up_unready_choice">Brak gotowości</string>
 	<string key="ui_ready_up_waiting_message">Oczekiwanie na innych graczy ({numReady}/{numTotal})</string>
-	<string key="ctf_gamemode_description">Przejęcie flagi to szybki, nastawiony na pracę drużynową tryb gry, wymagający sprawnego ataku i obrony. Ochroń bazę i ukradnij flagę wroga, by wygrać.</string>
-	<string key="ctf_flag_picked_up">Wasza flaga została przejęta</string>
-	<string key="ctf_flag_returned">Wasza flaga została zwrócona</string>
-	<string key="ctf_red_team">&lt;font color="#f25d5d"&gt;Drużyna czerwonych&lt;/font&gt;</string>
-	<string key="ctf_gamemode_name">Przejęcie flagi</string>
-	<string key="ctf_003_Long_Map_Name">Podgląd przejęcia flagi</string>
-	<string key="ui_opr_no_perks_signup_desc_cross_world">Niewymagany najlepszy sprzęt! Dołącz do najnowszej wersji napadu na posterunek, w której wyłączone są profity wyposażenia, a punkty wyposażenia podniesione są do maksimum, by wyrównać szanse.\n\n&lt;font color="#edc63e"&gt;Skalowanie pkt wyposażenia&lt;/font&gt; zwiększa liczbę pkt wyposażenia przedmiotów mających mniej niż 725 PW do 725 PW.</string>
-	<string key="ctf_flag_match_completed">Mecz zakończony</string>
-	<string key="ui_ctf_leave_desc">Czy na pewno chcesz wyjść z trybu przejęcia flagi?</string>
-	<string key="ctf_flag_status_safe">Flaga bezpieczna</string>
-	<string key="ctf_eom_stat_captures_neutral_flags">Flagi neutralne</string>
-	<string key="ctf_flag_status_taken">Flaga zabrana</string>
-	<string key="ctf_flag_wild_spawned">Pojawiła się neutralna flaga</string>
-	<string key="ui_opr_no_perks_signup_goal2">Pierwsza drużyna, która zdobędzie 1000 pkt, wygrywa</string>
-	<string key="ctf_flag_wild_timer">Flaga pojawi się za: {time}</string>
-	<string key="ui_opr_no_perks_title">Napad na posterunek: Kościarz</string>
-	<string key="ui_capture_the_flag_begin">RUSZAJ!</string>
-	<string key="ctf_eom_stat_captures_team_flags">Flagi drużynowe</string>
-	<string key="ctf_flag_you_scored">Punktujesz!</string>
-	<string key="ui_opr_no_perks_signup_goal1">Przejmuj posterunki i utrzymuj nad nimi kontrolę, by zdobywać punkty</string>
-	<string key="ctf_eom_stat_flag_returns">Zwrócone flagi</string>
-	<string key="ui_capture_the_flag_signup_goal1">Przejmij więcej flag, by wygrać mecz</string>
-	<string key="ui_capture_the_flag_title">Przejęcie flagi</string>
-	<string key="ui_capture_the_flag_signup_failgrouppenalty">Na co najmniej jednego z członków twojej grupy nałożono karę czasową za opuszczenie wcześniejszego meczu przejęcia flagi.</string>
-	<string key="ui_capture_the_flag_pregame_description">Mecz rozpocznie się za</string>
-	<string key="ctf_flag_enemy_team_scored">Przeciwna drużyna punktuje</string>
-	<string key="ui_capture_the_flag_signup_goal3">Osłaniaj powrót gracza niosącego flagę</string>
-	<string key="ui_capture_the_flag_signup_joinsolo">Graj</string>
-	<string key="ctf_wild_flag_picked_up">Neutralna flaga została przejęta</string>
-	<string key="ctf_flag_dropped">Wasza flaga została upuszczona</string>
-	<string key="ui_capture_the_flag_leave_queue_title">Opuść kolejkę</string>
-	<string key="ctf_wild_flag_dropped">Neutralna flaga została upuszczona</string>
-	<string key="ctf_wild_flag_returned">Neutralna flaga została zwrócona</string>
-	<string key="ctf_eom_stat_captures">Przejęcia</string>
-	<string key="ui_capture_the_flag_leave_queue_desc">Czy na pewno chcesz opuścić kolejkę przejęcia flagi?</string>
-	<string key="ui_capture_the_flag_signup_goal2">Aby zdobyć punkty, flaga drużyny musi być w bazie</string>
-	<string key="ctf_flag_status_dropped">Flaga upuszczona</string>
-	<string key="arena_3v3_04_map_name">Podgląd areny</string>
-	<string key="ui_ctf_leave">Opuść aktywność</string>
-	<string key="ui_capture_the_flag_invite_notification_text">Zaproszono cię do przejęcia flagi!</string>
-	<string key="ctf_overtime_banner_title">Dogrywka</string>
-	<string key="ctf_flag_our_team_scored">Nasza drużyna punktuje!</string>
-	<string key="ctf_flag_player_count">Gracze: {count}</string>
-	<string key="ctf_overtime_banner_desc">Następna flaga wygrywa!</string>
-	<string key="ui_cannot_travel_ctf">Nie możesz korzystać z szybkiej podróży w przejęciu flagi.</string>
-	<string key="ctf_flag_away_from_base">Aby zapunktować, należy zwrócić swoją flagę</string>
-	<string key="ctf_blue_team">&lt;font color="#45d1ff"&gt;Drużyna niebieskich&lt;/font&gt;</string>
-	<string key="ctf_flag_scored">Twoja drużyna punktuje</string>
-	<string key="ui_capture_the_flag_invite_notification_title">Zaproszenie do przejęcia flagi</string>
-	<string key="ui_ctf_leave_desc_time">Czy na pewno chcesz wyjść z trybu przejęcia flagi?\nKolejka przejęcia flagi będzie niedostępna przez &lt;font color="#edc63e"&gt;[{time}]&lt;/font&gt;.</string>
-	<string key="ctf_eom_stat_flagbearers_killed">Zabici niosący</string>
-	<string key="ctf_002_Wide_Map_Name">Podgląd przejęcia flagi</string>
-	<string key="ui_opr_no_perks_signup_goal3">Używaj specjalnych zasobów, by atakować i się bronić</string>
+	<string key="gamemode_type_and_map_name_undefined" rel_version="Gamemode_CTF" comment="DO NOT TRANSLATE">[PH] Undefined Mode - Undefined Name</string>
+	<string key="ui_capture_the_flag_signup_joinsolo" rel_version="Gamemode_CTF">Graj</string>
+	<string key="ui_capture_the_flag_title" rel_version="Gamemode_CTF">Przejęcie flagi</string>
+	<string key="ui_capture_the_flag_pregame_description" rel_version="Gamemode_CTF">Mecz rozpocznie się za</string>
+	<string key="ui_capture_the_flag_begin" rel_version="Gamemode_CTF">RUSZAJ!</string>
+	<string key="ui_capture_the_flag_invite_notification_title" rel_version="Gamemode_CTF">Zaproszenie do przejęcia flagi</string>
+	<string key="ui_capture_the_flag_invite_notification_text" rel_version="Gamemode_CTF">Zaproszono cię do przejęcia flagi!</string>
+	<string key="ui_capture_the_flag_leave_queue_title" rel_version="Gamemode_CTF">Opuść kolejkę</string>
+	<string key="ui_capture_the_flag_leave_queue_desc" rel_version="Gamemode_CTF">Czy na pewno chcesz opuścić kolejkę przejęcia flagi?</string>
+	<string key="ui_capture_the_flag_signup_failgrouppenalty" rel_version="Gamemode_CTF">Na co najmniej jednego z członków twojej grupy nałożono karę czasową za opuszczenie wcześniejszego meczu przejęcia flagi.</string>
+	<string key="ui_capture_the_flag_signup_goal1" rel_version="Gamemode_CTF">Przejmij więcej flag, by wygrać mecz</string>
+	<string key="ui_capture_the_flag_signup_goal2" rel_version="Gamemode_CTF">Aby zdobyć punkty, flaga drużyny musi być w bazie</string>
+	<string key="ui_capture_the_flag_signup_goal3" rel_version="Gamemode_CTF">Osłaniaj powrót gracza niosącego flagę</string>
+	<string key="ctf_gamemode_name" rel_version="Gamemode_CTF">Przejęcie flagi</string>
+	<string key="ctf_gamemode_description" rel_version="Gamemode_CTF">Przejęcie flagi to szybki, nastawiony na pracę drużynową tryb gry, wymagający sprawnego ataku i obrony. Ochroń bazę i ukradnij flagę wroga, by wygrać.</string>
+	<string key="ctf_Map_Template_Name" rel_version="Gamemode_CTF" comment="DO NOT TRANSLATE">[PH] CTF - Unnamed Test Map</string>
+	<string key="ctf_Map_Temp_Name" rel_version="Gamemode_CTF" comment="DO NOT TRANSLATE">[PH] CTF - Unnamed Test Map</string>
+	<string key="ctf_002_Wide_Map_Name" rel_version="Gamemode_CTF">Zakazane Miasto</string>
+	<string key="ctf_003_Long_Map_Name" rel_version="Gamemode_CTF">Podgląd przejęcia flagi</string>
+	<string key="ctf_blue_team" rel_version="Gamemode_CTF">&lt;font color="#45d1ff"&gt;Drużyna niebieskich&lt;/font&gt;</string>
+	<string key="ctf_red_team" rel_version="Gamemode_CTF">&lt;font color="#f25d5d"&gt;Drużyna czerwonych&lt;/font&gt;</string>
+	<string key="ctf_flag_dropped" rel_version="Gamemode_CTF">Wasza flaga została upuszczona</string>
+	<string key="ctf_flag_picked_up" rel_version="Gamemode_CTF">Wasza flaga została przejęta</string>
+	<string key="ctf_flag_returned" rel_version="Gamemode_CTF">Wasza flaga została zwrócona</string>
+	<string key="ctf_wild_flag_dropped" rel_version="Gamemode_CTF">Neutralna flaga została upuszczona</string>
+	<string key="ctf_wild_flag_picked_up" rel_version="Gamemode_CTF">Neutralna flaga została przejęta</string>
+	<string key="ctf_wild_flag_returned" rel_version="Gamemode_CTF">Neutralna flaga została zwrócona</string>
+	<string key="ctf_flag_scored" rel_version="Gamemode_CTF">Twoja drużyna punktuje</string>
+	<string key="ctf_flag_you_scored" rel_version="Gamemode_CTF">Punktujesz!</string>
+	<string key="ctf_flag_our_team_scored" rel_version="Gamemode_CTF">Nasza drużyna punktuje!</string>
+	<string key="ctf_flag_enemy_team_scored" rel_version="Gamemode_CTF">Przeciwna drużyna punktuje</string>
+	<string key="ctf_flag_away_from_base" rel_version="Gamemode_CTF">Aby zapunktować, należy zwrócić swoją flagę</string>
+	<string key="ctf_flag_status_safe" rel_version="Gamemode_CTF">Flaga bezpieczna</string>
+	<string key="ctf_flag_status_dropped" rel_version="Gamemode_CTF">Flaga upuszczona</string>
+	<string key="ctf_flag_status_taken" rel_version="Gamemode_CTF">Flaga zabrana</string>
+	<string key="ctf_flag_wild_timer" rel_version="Gamemode_CTF">Flaga pojawi się za: {time}</string>
+	<string key="ctf_flag_wild_spawned" rel_version="Gamemode_CTF">Pojawiła się neutralna flaga</string>
+	<string key="ctf_flag_match_completed" rel_version="Gamemode_CTF">Mecz zakończony</string>
+	<string key="ctf_flag_player_count" rel_version="Gamemode_CTF">Gracze: {count}</string>
+	<string key="ctf_overtime_banner_title" rel_version="Gamemode_CTF">Dogrywka</string>
+	<string key="ctf_overtime_banner_desc" rel_version="Gamemode_CTF">Następna flaga wygrywa!</string>
+	<string key="ctf_eom_stat_captures" rel_version="Gamemode_CTF">Przejęcia</string>
+	<string key="ctf_eom_stat_captures_team_flags" rel_version="Gamemode_CTF">Flagi drużynowe</string>
+	<string key="ctf_eom_stat_captures_neutral_flags" rel_version="Gamemode_CTF">Flagi neutralne</string>
+	<string key="ctf_eom_stat_flag_returns" rel_version="Gamemode_CTF">Zwrócone flagi</string>
+	<string key="ctf_eom_stat_flagbearers_killed" rel_version="Gamemode_CTF">Zabici niosący</string>
+	<string key="ui_ctf_leave" rel_version="Gamemode_CTF">Opuść aktywność</string>
+	<string key="ui_cannot_travel_ctf" rel_version="Gamemode_CTF">Nie możesz korzystać z szybkiej podróży w przejęciu flagi.</string>
+	<string key="ui_ctf_leave_desc" rel_version="Gamemode_CTF">Czy na pewno chcesz wyjść z trybu przejęcia flagi?</string>
+	<string key="ui_ctf_leave_desc_time" rel_version="Gamemode_CTF">Czy na pewno chcesz wyjść z trybu przejęcia flagi?\nKolejka przejęcia flagi będzie niedostępna przez &lt;font color="#edc63e"&gt;[{time}]&lt;/font&gt;.</string>
+	<string key="ui_opr_no_perks_title" rel_version="Feature_DisabledPerkGameModes">Napad na posterunek: Kościarz</string>
+	<string key="ui_opr_no_perks_signup_desc_cross_world" rel_version="Feature_DisabledPerkGameModes">Niewymagany najlepszy sprzęt! Dołącz do najnowszej wersji napadu na posterunek, w której wyłączone są profity wyposażenia, a punkty wyposażenia podniesione są do maksimum, by wyrównać szanse.\n\n&lt;font color="#edc63e"&gt;Skalowanie pkt wyposażenia&lt;/font&gt; zwiększa liczbę pkt wyposażenia przedmiotów mających mniej niż 725 PW do 725 PW.</string>
+	<string key="ui_opr_no_perks_signup_goal1" rel_version="Feature_DisabledPerkGameModes">Przejmuj posterunki i utrzymuj nad nimi kontrolę, by zdobywać punkty</string>
+	<string key="ui_opr_no_perks_signup_goal2" rel_version="Feature_DisabledPerkGameModes">Pierwsza drużyna, która zdobędzie 1000 pkt, wygrywa</string>
+	<string key="ui_opr_no_perks_signup_goal3" rel_version="Feature_DisabledPerkGameModes">Używaj specjalnych zasobów, by atakować i się bronić</string>
+	<string key="ui_ctf_signup_goal1" rel_version="Gamemode_CTF" comment="DO NOT TRANSLATE">TEMP CTF TIP 1</string>
+	<string key="ui_ctf_signup_goal2" rel_version="Gamemode_CTF" comment="DO NOT TRANSLATE">TEMP CTF TIP 2</string>
+	<string key="ui_ctf_signup_goal3" rel_version="Gamemode_CTF" comment="DO NOT TRANSLATE">TEMP CTF TIP 3</string>
+	<string key="ui_session_ending_label">Koniec sesji:</string>
 </resources>
 

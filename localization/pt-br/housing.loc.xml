@@ -9,7 +9,7 @@
 	<string key="ui_house_abandon_this_popup_desc" comment="Abandon House">{percent}% do custo de compra original será reembolsado. Todos os troféus e mobília desta casa serão movidos para a despensa.\n\nPara continuar, digite {territoryName} abaixo.</string>
 	<string key="ui_house_abandon_this_popup_title" comment="Abandon House">Abandonar Casa</string>
 	<string key="ui_house_abandon_no_storage_warning" comment="Abandon House">Você deve ter pelo menos um espaço livre de armazenamento do Assentamento antes de poder remover todos os itens de sua casa.</string>
-	<string key="ui_cannot_reset_travel_currency" comment="Fast Travel">Pague &lt;img src="lyshineui/images/icons/misc/icon_azothCurrency" xPadding="0" scale="1.5" yOffset="1"&gt;&lt;/img&gt; {coin} para reiniciar a recarga.</string>
+	<string key="ui_cannot_reset_travel_currency" comment="Fast Travel">Pague &lt;img src="lyshineui/images/icons/misc/icon_azothCurrency" xPadding="0" scale="1.5" yOffset="2.5"&gt;&lt;/img&gt; {coin} para reiniciar a recarga.</string>
 	<string key="ui_cannot_travel_currency" comment="Fast Travel">É necessário &lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt; {coin} para fazer uma viagem rápida.</string>
 	<string key="ui_cannot_travel_currency_azoth" comment="Fast Travel">É necessário &lt;img src="lyshineui/images/icons/misc/icon_azothCurrency" xPadding="0" scale="1.2" yOffset="0"&gt;&lt;/img&gt; {coin} para fazer uma viagem rápida.</string>
 	<string key="ui_cannot_travel_dead" comment="Fast Travel">Você não poderá retornar nem fazer uma viagem rápida ao morrer.</string>
@@ -34,7 +34,7 @@
 	<string key="ui_fast_travel_error_noDestination_outpost" comment="Fast Travel">Você não descobriu esse local.</string>
 	<string key="ui_fast_travel_error_noDestination_shrine" comment="Fast Travel">Você não descobriu esse local.</string>
 	<string key="ui_fast_travel_failed" comment="Fast Travel">Falha na Viagem Rápida</string>
-	<string key="ui_fast_travel_mission_abandon_confirm" comment="Fast Travel">AVISO: Fazer uma Viagem Rápida redefinirá a corrida cronometrada ativa e fará você abandonar todas as missões de facção PvP.\nA corrida cronometrada {timedRaceCount} será redefinida e a missão {missionCount} será abandonada.\n\nContinuar?</string>
+	<string key="ui_fast_travel_mission_abandon_confirm" comment="Fast Travel">AVISO: Fazer uma Viagem Rápida redefinirá a corrida cronometrada ativa, fará você abandonar todas as missões de facção PvP e desativará sua sinalização PvP.\nA corrida cronometrada {timedRaceCount} será redefinida e a missão {missionCount} será abandonada.\n\nContinuar?</string>
 	<string key="ui_fast_travel_popup_confirm" comment="Fast Travel">Quer fazer uma viagem rápida até este local?</string>
 	<string key="ui_fast_travel_reset_popup" comment="Fast Travel">Reiniciar recarga?</string>
 	<string key="ui_fast_travel_reset_popup_confirm" comment="Fast Travel">Quer reiniciar a recarga?</string>
@@ -47,7 +47,7 @@
 	<string key="ui_house_travel_cooldown_remaining" comment="Fast Travel">É possível fazer Viagem Rápida novamente em {time}</string>
 	<string key="ui_housing_fast_travel" comment="Fast Travel">Viagem Rápida</string>
 	<string key="ui_housing_fast_travel_desc" comment="Fast Travel">De qualquer lugar até aqui</string>
-	<string key="ui_need_reset_travel_currency" comment="Fast Travel">Você precisa de &lt;img src="lyshineui/images/icons/misc/icon_azothCurrency" xPadding="0" scale="1.5" yOffset="1"&gt;&lt;/img&gt; {coin} para reiniciar a recarga.</string>
+	<string key="ui_need_reset_travel_currency" comment="Fast Travel">Você precisa de &lt;img src="lyshineui/images/icons/misc/icon_azothCurrency" xPadding="0" scale="1.5" yOffset="2.5"&gt;&lt;/img&gt; {coin} para reiniciar a recarga.</string>
 	<string key="ui_recall_not_available_server_error" comment="Fast Travel">Não foi possível retornar devido a um erro de servidor.</string>
 	<string key="ui_recall_to" comment="Fast Travel">Retornar a</string>
 	<string key="ui_recall_to_house" comment="Fast Travel">Retornar à Casa</string>

@@ -23,6 +23,8 @@
 	<string key="data_season_07_name" rel_version="Season_7_Perm">Temporada 7: Temporada de conquistadores</string>
 	<string key="data_season_07_display_name" rel_version="Season_7_Perm">Temporada 7</string>
 	<string key="data_season_07_desc" rel_version="Season_7_Perm">REPLACEME</string>
+	<string key="data_season_08_name" rel_version="Season_8_Perm">Temporada 8: Temporada de la División</string>
+	<string key="data_season_08_display_name" rel_version="Season_8_Perm">Temporada 8</string>
 	<string key="seasons_rewards_categorical_progression_id" rel_version="Feature_Seasons_Rewards">Pase de temporada</string>
 	<string key="seasons_rewards_tab_battlepass" rel_version="Feature_Seasons_Rewards">Pase de batalla</string>
 	<string key="seasons_rewards_tab_journey" rel_version="Feature_Seasons_Rewards">Aventura</string>
@@ -360,7 +362,7 @@
 	<string key="SeasonsRewardTrack_HeadStart" rel_version="Feature_Seasons_Rewards">Ventaja</string>
 	<string key="SeasonsRewardTrack_PurchaseSeasonLevels" rel_version="Feature_Seasons_Rewards">Comprar niveles</string>
 	<string key="SeasonsRewardTrack_Levels" rel_version="Feature_Seasons_Rewards">Niveles de temporada</string>
-	<string key="SeasonsRewardTrack_Timer" rel_version="Feature_Seasons_Rewards">Finaliza en:</string>
+	<string key="SeasonsRewardTrack_Timer" rel_version="Feature_Seasons_Rewards">Finaliza: {time}</string>
 	<string key="SeasonsRewardTrack_Header" rel_version="Feature_Seasons_Rewards">Recompensas del pase de temporada</string>
 	<string key="SeasonsRewardTrack_Unclaimed_Rewards" rel_version="Feature_Seasons_Rewards">&lt;font color={color}&gt;{amount}&lt;/font&gt; no reclamadas</string>
 	<string key="SeasonsRewardTrack_Current_Level" rel_version="Feature_Seasons_Rewards">Ver nivel actual</string>
@@ -378,6 +380,7 @@
 	<string key="SeasonsRewardTrack_ClaimError_Generic" rel_version="Feature_Seasons_Rewards">No se puede reclamar esta recompensa. Inténtalo de nuevo más adelante.</string>
 	<string key="SeasonsRewardTrack_ClaimError_AlreadyClaimingReward" rel_version="Feature_Seasons_Rewards">Ya has reclamado una recompensa. Inténtalo de nuevo más adelante.</string>
 	<string key="SeasonsRewardTrack_ClaimError_RewardRequiresPremium" rel_version="Feature_Seasonal_Servers">Hace falta un pase prémium para obtener esta recompensa.</string>
+	<string key="SeasonsRewardTrack_ClaimError_FailedWorldTagCheck" rel_version="Feature_Seasonal_Servers">No se puede reclamar en un mundo de temporada.</string>
 	<string key="SeasonsRewardTrack_TransactionError" rel_version="Feature_Seasons_Rewards">No se puede completar la transacción. Inténtalo de nuevo más adelante.</string>
 	<string key="SeasonsRewardTrack_PartialClaimWarning" rel_version="Feature_Seasons_Rewards">Ya se han reclamado uno o más objetos de la recompensa con esta cuenta.</string>
 	<string key="SeasonsRewardTrack_LevelsPrice" rel_version="Feature_Seasons_Rewards">&lt;img src="LyShineUI/Images/mtx/icon_mtx_currency" scale="0.78125"&gt;&lt;/img&gt;{price}</string>
@@ -715,7 +718,7 @@
 	<string key="ui_seasons_task_name_Quest_StopDevice" rel_version="Season_4_Perm">Helada eterna</string>
 	<string key="ui_seasons_task_name_Quest_WrapFrost" rel_version="Season_4_Perm">De cliente a cuervo</string>
 	<string key="ui_seasons_task_name_CraftArtifactUpgrade" rel_version="Season_4_Perm">Mejora única</string>
-	<string key="ui_seasons_task_description_CompleteExpedition" rel_version="Season_4_Perm">Completa {maxCount} expediciones.</string>
+	<string key="ui_seasons_task_description_CompleteExpedition" rel_version="Season_4_Perm">Completa {maxCount} expedición(es).</string>
 	<string key="ui_seasons_task_description_CraftPotionT3" rel_version="Season_4_Perm">Fabrica {maxCount} pociones C3+.</string>
 	<string key="ui_seasons_task_description_KillElite" rel_version="Season_4_Perm">Mata a {maxCount} enemigos de élite.</string>
 	<string key="ui_seasons_task_description_KillNamed" rel_version="Season_4_Perm">Mata a {maxCount} enemigos con nombre.</string>
@@ -922,8 +925,8 @@
 	<string key="ui_seasons_task_name_CraftTrophy" rel_version="Season_7_Perm">Conoce al enemigo</string>
 	<string key="ui_seasons_task_description_CraftTrophy" rel_version="Season_7_Perm">Fabrica {maxCount} trofeos</string>
 	<string key="ui_seasons_task_name_CompleteInvasions" rel_version="Season_7_Perm">No puedes pasar</string>
-	<string key="ui_seasons_task_name_WinInfluenceRace_1" rel_version="Season_7_Perm">Veni, vidi, vici 1</string>
-	<string key="ui_seasons_task_name_WinInfluenceRace_2" rel_version="Season_7_Perm">Veni, vidi, vici 2</string>
+	<string key="ui_seasons_task_name_WinInfluenceRace_1" rel_version="Season_7_Perm">Veni, vidi, vici I</string>
+	<string key="ui_seasons_task_name_WinInfluenceRace_2" rel_version="Season_7_Perm">Veni, vidi, vici II</string>
 	<string key="ui_seasons_task_name_KillEliteFirstLight" rel_version="Season_7_Perm">Cima de la cadena alimentaria</string>
 	<string key="ui_seasons_task_description_KillEliteFirstLight" rel_version="Season_7_Perm">Mata a {maxCount} enemigos de élite en las Tierras salvajes elíseas.</string>
 	<string key="ui_seasons_task_name_CompleteAnyArtifact" rel_version="Season_7_Perm">Obra maestra</string>
@@ -986,7 +989,7 @@
 	<string key="ui_seasons_task_name_CatchNonFishSS" rel_version="Feature_Seasonal_Servers">¿Qué hace esto aquí?</string>
 	<string key="ui_seasons_task_description_CatchNonFishSS" rel_version="Feature_Seasonal_Servers">Pesca {maxCount} objeto que no sea un pez en un servidor de la temporada.</string>
 	<string key="ui_seasons_task_name_KillStubblesMeleeSS" rel_version="Feature_Seasonal_Servers">Viva el rey</string>
-	<string key="ui_seasons_task_description_KillStubblesMeleeSS" rel_version="Feature_Seasonal_Servers">Mata a Barbachivo, el rey de las cabras, en un servidor de la temporada.</string>
+	<string key="ui_seasons_task_description_KillStubblesMeleeSS" rel_version="Feature_Seasonal_Servers">Mata a Barbachivo, el rey de las cabras, con un arma cuerpo a cuerpo equipada en un servidor de la temporada.</string>
 	<string key="ui_seasons_task_name_KillGoatSS" rel_version="Feature_Seasonal_Servers">Secta del Infante</string>
 	<string key="ui_seasons_task_description_KillGoatSS" rel_version="Feature_Seasonal_Servers">Pesca {maxCount} cabras en un servidor de la temporada.</string>
 	<string key="ui_seasons_task_name_KillNamedBeastSpearSS" rel_version="Feature_Seasonal_Servers">Hombre vs. naturaleza salvaje</string>
@@ -1036,86 +1039,147 @@
 	<string key="SeasonsActivities_KillNamedExpedition" rel_version="Season_7_Perm">Mata a un enemigo con nombre en una expedición</string>
 	<string key="ui_seasons_task_placeholder_name" rel_version="Feature_Seasons_Rewards">PLACEHOLDER</string>
 	<string key="ui_seasons_task_placeholder_desc" rel_version="Feature_Seasons_Rewards">PLACEHOLDER</string>
-	<string key="ui_seasons_task_name_CraftPotionT4">Mis mejores pociones</string>
-	<string key="ui_seasons_task_name_Challenge_S8_CompleteTaskAnyChapter">Completista de la División</string>
-	<string key="ui_seasons_task_name_CraftHeartrune_1">Sintiéndolo en el alma I</string>
-	<string key="ui_seasons_task_name_KillHercyneHatchet">Corta y desgarra</string>
-	<string key="ui_seasons_task_description_CraftNamedReplica_Single">Fabrica una réplica con nombre de expedición.</string>
-	<string key="ui_seasons_task_name_Challenge_S8_GameEvent_Breach">Paladín dimensional</string>
-	<string key="ui_seasons_task_description_CraftPotionT4">Fabrica {maxCount} pociones C4+.</string>
-	<string key="ui_seasons_task_name_Challenge_S8_KillWorldBoss65">As de la caza</string>
-	<string key="ui_seasons_task_name_Challenge_S8_DefeatWurmBoss">Destrozamentes</string>
-	<string key="ui_seasons_task_description_CraftTrinketT5">Fabrica {maxCount} joyas C5.</string>
-	<string key="ui_seasons_task_description_Challenge_S8_WinOutpostRushBy500">Gana {maxCount} partidas de Asalto a puesto remoto con una diferencia de puntos de 500 o más.</string>
-	<string key="data_season_08_display_name">Temporada 8</string>
-	<string key="ui_seasons_task_description_CraftHeartruneGS700_Single">Fabrica una runa del alma de 625+ PE.</string>
-	<string key="ui_seasons_task_name_Challenge_S8_CompleteFactionMission">Agente 007</string>
-	<string key="ui_seasons_task_name_CraftTrinketT5">Nada más que brillibrilli</string>
-	<string key="ui_seasons_task_name_CraftHeartrune_2">Sintiéndolo en el alma II</string>
-	<string key="ui_seasons_task_name_KillNamedElite">Montañés</string>
-	<string key="ui_seasons_task_name_Challenge_S8_CompleteActivityCard">Trotamundos de clase S</string>
-	<string key="ui_seasons_task_name_KillCorrupted_S8_3">Caída de los caídos III</string>
-	<string key="ui_seasons_task_description_Challenge_S8_DefeatWurmBoss">Mata a {maxCount} gusanos de arena.</string>
-	<string key="ui_seasons_task_description_KillWorldBoss65">Mata a {maxCount} jefes de nv. 65+ en el mundo abierto.</string>
-	<string key="ui_seasons_task_name_WinWar">Reclama tu derecho</string>
-	<string key="ui_seasons_task_name_KillCorrupted_S8_2">Caída de los caídos II</string>
-	<string key="ui_seasons_task_name_CraftNamedReplica_2">La viva imagen II</string>
-	<string key="ui_seasons_task_name_Challenge_S8_CategoricalProgressionTerritoryStanding">Titán del territorio</string>
-	<string key="ui_seasons_task_name_KillElite_3">Exorcista de élite III</string>
-	<string key="ui_seasons_task_name_Challenge_S8_WinOutpostRushBy500">Monarca del puesto remoto</string>
-	<string key="ui_seasons_task_name_Challenge_S8_CompleteExpedition">Adalid de Aetérnum</string>
-	<string key="ui_seasons_task_name_CompleteMutatedExpedition_1">Maniático de la mutación</string>
-	<string key="ui_seasons_task_description_KillHercyneHatchet">Mata a {maxCount} jefes del nido de la gorgona con un destral equipado.</string>
-	<string key="ui_seasons_task_name_CraftNamedReplica_4">La viva imagen IV</string>
-	<string key="ui_seasons_task_description_KillWorldBoss">Mata a {maxCount} jefes en el mundo abierto.</string>
-	<string key="ui_seasons_task_description_CompleteMutatedExpeditionFlawlessly_Single">Completa una expedición mutada sin que nadie de tu grupo muera.</string>
-	<string key="ui_seasons_task_description_CraftMutatorNamedReplica_Single">Fabrica una réplica con nombre de mutágeno.</string>
-	<string key="ui_seasons_task_description_Challenge_S8_CompleteTaskAnyChapter">Completa el 90 % (54) de las tareas de la temporada.</string>
-	<string key="ui_seasons_task_name_CraftNamedReplica_1">La viva imagen I</string>
-	<string key="ui_seasons_task_name_KillWorldBoss_1">El juego más peligroso I</string>
-	<string key="ui_seasons_task_name_KillNamed_4">Némesis con nombre IV</string>
-	<string key="ui_seasons_task_name_WinInfluenceRace_3">Veni, vidi, vici III</string>
-	<string key="ui_seasons_task_description_KillWorldBoss_Single">Mata a un jefe en el mundo abierto.</string>
-	<string key="ui_seasons_task_description_KillNamedElite">Mata a {maxCount} enemigos de élite.</string>
-	<string key="ui_seasons_task_name_CompleteMutatedExpeditionFlawlessly">Invencible</string>
-	<string key="ui_seasons_task_name_CraftNamedReplica_3">La viva imagen III</string>
-	<string key="ui_seasons_task_name_Challenge_S8_KillCorrupted">Leyenda de los caídos</string>
-	<string key="ui_seasons_task_name_KillWorldBoss_2">El juego más peligroso II</string>
-	<string key="ui_seasons_task_description_CraftHeartrune_Single">Fabrica una runa del alma.</string>
-	<string key="ui_seasons_task_description_Challenge_S8_CategoricalProgressionTerritoryStanding">Obtén {maxCount} de estatus en el territorio.</string>
-	<string key="ui_seasons_task_description_CraftRaidNamedReplica_Single">Fabrica una réplica con nombre de incursión.</string>
-	<string key="ui_seasons_task_description_CraftNamedReplica">Fabrica {maxCount} réplicas con nombre de expedición.</string>
-	<string key="data_season_08_name">Temporada 8: Temporada de la División</string>
-	<string key="ui_seasons_task_name_KillCorrupted_S8_1">Caída de los caídos I</string>
-	<string key="ui_seasons_task_name_KillWorldBoss_3">El juego más peligroso III</string>
-	<string key="SS8_Journey_Bonus">Capítulo de bonificación &lt;img src="lyshineui/images/SeasonsRewards/SeasonalServer/Icon_season_server" scale="1.5" yOffset="3"&gt;&lt;/img&gt; del mundo de temporada</string>
-	<string key="ui_seasons_task_description_CompleteM3ExpeditionPristine">Completa {maxCount} expediciones de mutágeno M3 con un grupo en pie</string>
-	<string key="ui_seasons_task_name_ParticipateInfluenceRaceDepraved">Influencia hostil</string>
-	<string key="ui_seasons_task_name_Challenge_S8_CompleteTaskAnyChapterSS">As de la división</string>
-	<string key="ui_seasons_task_name_KillPlayerDepraved">Azote pecaminoso</string>
-	<string key="SS8_Journey_Pristine">Capítulo &lt;img src="lyshineui/images/SeasonsRewards/SeasonalServer/Icon_season_server" scale="1.5" yOffset="3"&gt;&lt;/img&gt; del mundo de temporada En pie</string>
-	<string key="ui_seasons_task_description_ParticipateInfluenceRaceDepraved">Participa en {maxCount} carreras de influencia como caído en el servidor de la temporada</string>
-	<string key="ui_seasons_task_name_CraftSS8Caches">Preparado para todo</string>
-	<string key="ui_seasons_task_name_EquipAllArtifactSS">As de la infinidad</string>
-	<string key="SS8_Journey_Depraved">Capítulo &lt;img src="lyshineui/images/SeasonsRewards/SeasonalServer/Icon_season_server" scale="1.5" yOffset="3"&gt;&lt;/img&gt; del mundo de temporada Caído</string>
-	<string key="ui_seasons_task_description_Challenge_S8_CompleteTaskAnyChapterSS">Completa {maxCount} tareas del mundo de temporada</string>
-	<string key="SS8_Journey_Casual">Capítulo &lt;img src="lyshineui/images/SeasonsRewards/SeasonalServer/Icon_season_server" scale="1.5" yOffset="3"&gt;&lt;/img&gt; del mundo de temporada Informal</string>
-	<string key="ui_seasons_task_name_DefeatWurmBossPristine">Matanza de gusanos de arena</string>
-	<string key="ui_seasons_task_description_CompleteExpeditionMax3">Completa {maxCount} expediciones con 3 jugadores o menos en el servidor de la temporada</string>
-	<string key="ui_seasons_task_description_KillHercyneBossPristine">Mata {maxCount} jefes del nido de la gorgona con un grupo en pie</string>
-	<string key="ui_seasons_task_description_DefeatWurmBossPristine">Mata al gusano de arena con un grupo en pie</string>
-	<string key="ui_seasons_task_description_EquipAllArtifactSS">Equipa 10 artefactos a la vez en el servidor de la temporada</string>
-	<string key="ui_seasons_task_name_CompleteExpeditionMax3">Indagador tortuoso</string>
-	<string key="ui_seasons_task_name_KillHercyneBossPristine">Dominagorgonas</string>
-	<string key="ui_seasons_task_name_CompleteM3ExpeditionPristine">Especialista en mutágenos</string>
-	<string key="ui_seasons_task_description_KillPlayerDepraved">Mata {maxCount} jugadores como caído en el servidor de la temporada</string>
-	<string key="ui_seasons_task_description_CraftSS8Caches">Fabrica {maxCount} alijos de aventurero en el servidor de la temporada</string>
-	<string key="ui_seasons_task_name_KillTyphonPristine">Terror de Tifón</string>
-	<string key="ui_seasons_task_description_KillBroodmotherPristine">Mata a la matriarca en el nido de la gorgona con un grupo en pie</string>
-	<string key="ui_seasons_task_name_KillBroodmotherPristine">Némesis de la matriarca</string>
-	<string key="ui_seasons_task_description_KillEchidnaPristine">Mata a Equidna en el nido de la gorgona con un grupo en pie</string>
-	<string key="ui_seasons_task_description_KillTyphonPristine">Mata a Tifón en el nido de la gorgona con un grupo en pie</string>
-	<string key="ui_seasons_task_name_KillEchidnaPristine">Ruina de Equidna</string>
-	<string key="ui_seasons_task_name_ReachLevel65SS_Only">Nuevos comienzos</string>
+	<string key="ui_seasons_task_name_KillNamedElite" rel_version="Season_8_Perm">Montañés</string>
+	<string key="ui_seasons_task_name_KillCorrupted_S8_1" rel_version="Season_8_Perm">Caída de los caídos I</string>
+	<string key="ui_seasons_task_name_KillCorrupted_S8_2" rel_version="Season_8_Perm">Caída de los caídos II</string>
+	<string key="ui_seasons_task_name_KillCorrupted_S8_3" rel_version="Season_8_Perm">Caída de los caídos III</string>
+	<string key="ui_seasons_task_name_CraftNamedReplica_1" rel_version="Season_8_Perm">La viva imagen I</string>
+	<string key="ui_seasons_task_name_CraftNamedReplica_2" rel_version="Season_8_Perm">La viva imagen II</string>
+	<string key="ui_seasons_task_name_CraftNamedReplica_3" rel_version="Season_8_Perm">La viva imagen III</string>
+	<string key="ui_seasons_task_name_CraftNamedReplica_4" rel_version="Season_8_Perm">La viva imagen IV</string>
+	<string key="ui_seasons_task_name_KillWorldBoss_1" rel_version="Season_8_Perm">El juego más peligroso I</string>
+	<string key="ui_seasons_task_name_KillWorldBoss_2" rel_version="Season_8_Perm">El juego más peligroso II</string>
+	<string key="ui_seasons_task_name_KillWorldBoss_3" rel_version="Season_8_Perm">El juego más peligroso III</string>
+	<string key="ui_seasons_task_name_CraftPotionT4" rel_version="Season_8_Perm">Mis mejores pociones</string>
+	<string key="ui_seasons_task_name_CraftTrinketT5" rel_version="Season_8_Perm">Nada más que brillibrilli</string>
+	<string key="ui_seasons_task_name_CraftHeartrune_1" rel_version="Season_8_Perm">Sintiéndolo en el alma I</string>
+	<string key="ui_seasons_task_name_CraftHeartrune_2" rel_version="Season_8_Perm">Sintiéndolo en el alma II</string>
+	<string key="ui_seasons_task_name_KillElite_3" rel_version="Season_8_Perm">Exorcista de élite III</string>
+	<string key="ui_seasons_task_name_KillNamed_4" rel_version="Season_8_Perm">Némesis con nombre IV</string>
+	<string key="ui_seasons_task_name_CompleteMutatedExpedition_1" rel_version="Season_8_Perm">Maniático de la mutación</string>
+	<string key="ui_seasons_task_name_WinInfluenceRace_3" rel_version="Season_8_Perm">Veni, vidi, vici III</string>
+	<string key="ui_seasons_task_name_CompleteMutatedExpeditionFlawlessly" rel_version="Season_8_Perm">Invencible</string>
+	<string key="ui_seasons_task_name_KillHercyneHatchet" rel_version="Season_8_Perm">Corta y desgarra</string>
+	<string key="ui_seasons_task_name_WinWar" rel_version="Season_8_Perm">Reclama tu derecho</string>
+	<string key="ui_seasons_task_name_Challenge_S8_DefeatWurmBoss" rel_version="Season_8_Perm">Destrozamentes</string>
+	<string key="ui_seasons_task_name_Challenge_S8_CompleteActivityCard" rel_version="Season_8_Perm">Trotamundos de clase S</string>
+	<string key="ui_seasons_task_name_Challenge_S8_CompleteTaskAnyChapter" rel_version="Season_8_Perm">Completista de la División</string>
+	<string key="ui_seasons_task_name_Challenge_S8_GameEvent_Breach" rel_version="Season_8_Perm">Paladín dimensional</string>
+	<string key="ui_seasons_task_name_Challenge_S8_KillCorrupted" rel_version="Season_8_Perm">Leyenda de los caídos</string>
+	<string key="ui_seasons_task_name_Challenge_S8_WinOutpostRushBy500" rel_version="Season_8_Perm">Monarca del puesto remoto</string>
+	<string key="ui_seasons_task_name_Challenge_S8_CompleteFactionMission" rel_version="Season_8_Perm">Agente 007</string>
+	<string key="ui_seasons_task_name_Challenge_S8_KillWorldBoss65" rel_version="Season_8_Perm">As de la caza</string>
+	<string key="ui_seasons_task_name_Challenge_S8_CategoricalProgressionTerritoryStanding" rel_version="Season_8_Perm">Titán del territorio</string>
+	<string key="ui_seasons_task_name_Challenge_S8_CompleteExpedition" rel_version="Season_8_Perm">Adalid de Aetérnum</string>
+	<string key="ui_seasons_task_description_KillNamedElite" rel_version="Season_8_Perm">Mata a {maxCount} enemigos de élite.</string>
+	<string key="ui_seasons_task_description_CraftNamedReplica_Single" rel_version="Season_8_Perm">Fabrica una réplica con nombre de expedición.</string>
+	<string key="ui_seasons_task_description_CraftNamedReplica" rel_version="Season_8_Perm">Fabrica {maxCount} réplicas con nombre de expedición.</string>
+	<string key="ui_seasons_task_description_KillWorldBoss_Single" rel_version="Season_8_Perm">Mata a un jefe en el mundo abierto.</string>
+	<string key="ui_seasons_task_description_KillWorldBoss" rel_version="Season_8_Perm">Mata a {maxCount} jefes en el mundo abierto.</string>
+	<string key="ui_seasons_task_description_CraftPotionT4" rel_version="Season_8_Perm">Fabrica {maxCount} pociones C4+.</string>
+	<string key="ui_seasons_task_description_CraftTrinketT5" rel_version="Season_8_Perm">Fabrica {maxCount} joyas C5.</string>
+	<string key="ui_seasons_task_description_CraftMutatorNamedReplica_Single" rel_version="Season_8_Perm">Fabrica una réplica con nombre de mutágeno.</string>
+	<string key="ui_seasons_task_description_KillWorldBoss65" rel_version="Season_8_Perm">Mata a {maxCount} jefes de nv. 65+ en el mundo abierto.</string>
+	<string key="ui_seasons_task_description_CraftHeartrune_Single" rel_version="Season_8_Perm">Fabrica una runa del alma.</string>
+	<string key="ui_seasons_task_description_CompleteMutatedExpeditionFlawlessly_Single" rel_version="Season_8_Perm">Completa una expedición mutada sin que nadie de tu grupo muera.</string>
+	<string key="ui_seasons_task_description_CraftRaidNamedReplica_Single" rel_version="Season_8_Perm">Fabrica una réplica con nombre de incursión.</string>
+	<string key="ui_seasons_task_description_CraftHeartruneGS700_Single" rel_version="Season_8_Perm">Fabrica una runa del alma de 625+ PE.</string>
+	<string key="ui_seasons_task_description_KillHercyneHatchet" rel_version="Season_8_Perm">Mata a {maxCount} jefes del nido de la gorgona con un destral equipado.</string>
+	<string key="ui_seasons_task_description_Challenge_S8_DefeatWurmBoss" rel_version="Season_8_Perm">Mata a {maxCount} gusanos de arena.</string>
+	<string key="ui_seasons_task_description_Challenge_S8_CompleteTaskAnyChapter" rel_version="Season_8_Perm">Completa el 90 % (54) de las tareas de la temporada.</string>
+	<string key="ui_seasons_task_description_Challenge_S8_WinOutpostRushBy500" rel_version="Season_8_Perm">Gana {maxCount} partidas de Asalto a puesto remoto con una diferencia de puntos de 500 o más.</string>
+	<string key="ui_seasons_task_description_Challenge_S8_CategoricalProgressionTerritoryStanding" rel_version="Season_8_Perm">Obtén {maxCount} de estatus en el territorio.</string>
+	<string key="ui_seasons_task_name_CompleteM3ExpeditionPristine" rel_version="Season_8_Perm">Especialista en mutágenos</string>
+	<string key="ui_seasons_task_description_CompleteM3ExpeditionPristine" rel_version="Season_8_Perm">Completa {maxCount} expediciones de mutágeno M3 con un grupo en pie</string>
+	<string key="ui_seasons_task_name_DefeatWurmBossPristine" rel_version="Season_8_Perm">Matanza de gusanos de arena</string>
+	<string key="ui_seasons_task_description_DefeatWurmBossPristine" rel_version="Season_8_Perm">Mata al gusano de arena con un grupo en pie</string>
+	<string key="ui_seasons_task_name_KillHercyneBossPristine" rel_version="Season_8_Perm">Dominagorgonas</string>
+	<string key="ui_seasons_task_description_KillHercyneBossPristine" rel_version="Season_8_Perm">Mata {maxCount} jefes del nido de la gorgona con un grupo en pie</string>
+	<string key="ui_seasons_task_name_KillEchidnaPristine" rel_version="Season_8_Perm">Ruina de Equidna</string>
+	<string key="ui_seasons_task_description_KillEchidnaPristine" rel_version="Season_8_Perm">Mata a Equidna en el nido de la gorgona con un grupo en pie</string>
+	<string key="ui_seasons_task_name_KillTyphonPristine" rel_version="Season_8_Perm">Terror de Tifón</string>
+	<string key="ui_seasons_task_description_KillTyphonPristine" rel_version="Season_8_Perm">Mata a Tifón en el nido de la gorgona con un grupo en pie</string>
+	<string key="ui_seasons_task_name_KillBroodmotherPristine" rel_version="Season_8_Perm">Némesis de la matriarca</string>
+	<string key="ui_seasons_task_description_KillBroodmotherPristine" rel_version="Season_8_Perm">Mata a la matriarca en el nido de la gorgona con un grupo en pie</string>
+	<string key="ui_seasons_task_name_KillPlayerDepraved" rel_version="Season_8_Perm">Azote pecaminoso</string>
+	<string key="ui_seasons_task_description_KillPlayerDepraved" rel_version="Season_8_Perm">Mata {maxCount} jugadores como caído en el servidor de la temporada</string>
+	<string key="ui_seasons_task_name_ParticipateInfluenceRaceDepraved" rel_version="Season_8_Perm">Influencia hostil</string>
+	<string key="ui_seasons_task_description_ParticipateInfluenceRaceDepraved" rel_version="Season_8_Perm">Participa en {maxCount} carreras de influencia como caído en el servidor de la temporada</string>
+	<string key="ui_seasons_task_name_CompleteExpeditionMax3" rel_version="Season_8_Perm">Indagador tortuoso</string>
+	<string key="ui_seasons_task_description_CompleteExpeditionMax3" rel_version="Season_8_Perm">Completa {maxCount} expediciones con 3 jugadores o menos en el servidor de la temporada</string>
+	<string key="ui_seasons_task_name_ReachLevel65SS_Only" rel_version="Feature_Seasonal_Servers">Nuevos comienzos</string>
+	<string key="ui_seasons_task_name_CraftSS8Caches" rel_version="Season_8_Perm">Preparado para todo</string>
+	<string key="ui_seasons_task_description_CraftSS8Caches" rel_version="Season_8_Perm">Fabrica {maxCount} alijos de aventurero en el servidor de la temporada</string>
+	<string key="ui_seasons_task_name_EquipAllArtifactSS" rel_version="Season_8_Perm">As de la infinidad</string>
+	<string key="ui_seasons_task_description_EquipAllArtifactSS" rel_version="Season_8_Perm">Equipa 10 artefactos a la vez en el servidor de la temporada</string>
+	<string key="ui_seasons_task_name_Challenge_S8_CompleteTaskAnyChapterSS" rel_version="Season_8_Perm">As de la división</string>
+	<string key="ui_seasons_task_description_Challenge_S8_CompleteTaskAnyChapterSS" rel_version="Season_8_Perm">Completa {maxCount} tareas del mundo de temporada</string>
+	<string key="SS8_Journey_Pristine" rel_version="Season_8_Perm">Capítulo &lt;img src="lyshineui/images/SeasonsRewards/SeasonalServer/Icon_season_server" scale="1.5" yOffset="3"&gt;&lt;/img&gt; del mundo de temporada En pie</string>
+	<string key="SS8_Journey_Depraved" rel_version="Season_8_Perm">Capítulo &lt;img src="lyshineui/images/SeasonsRewards/SeasonalServer/Icon_season_server" scale="1.5" yOffset="3"&gt;&lt;/img&gt; del mundo de temporada Caído</string>
+	<string key="SS8_Journey_Casual" rel_version="Season_8_Perm">Capítulo &lt;img src="lyshineui/images/SeasonsRewards/SeasonalServer/Icon_season_server" scale="1.5" yOffset="3"&gt;&lt;/img&gt; del mundo de temporada Informal</string>
+	<string key="SS8_Journey_Bonus" rel_version="Season_8_Perm">Capítulo de bonificación &lt;img src="lyshineui/images/SeasonsRewards/SeasonalServer/Icon_season_server" scale="1.5" yOffset="3"&gt;&lt;/img&gt; del mundo de temporada</string>
+	<string key="ui_seasons_task_description_WinCTF">Gana {maxCount} partidas de Captura la bandera</string>
+	<string key="ui_seasons_task_name_KillPlayerMagicWeapon">Hora de las brujas</string>
+	<string key="ui_seasons_task_description_Challenge_S9_CraftWithDarkMatter">Fabrica {maxCount} objetos usando materia oscura</string>
+	<string key="ui_seasons_task_description_KillElite65CutlassKeys">Mata {maxCount} enemigos de élite de nivel +65 en Cayos del Alfanje</string>
+	<string key="ui_seasons_task_name_CraftHands_2">Maestro de Armas II</string>
+	<string key="ui_seasons_task_name_Challenge_S9_GatherResource">Extractor de Aetérnum</string>
+	<string key="ui_seasons_task_description_CompleteMutatedExpeditionWithGoldRank">Completa una expedición mutada con rango de oro</string>
+	<string key="ui_seasons_task_name_CraftMutatorRaidCombo">Con tus poderes combinados</string>
+	<string key="ui_seasons_task_name_GatherOre_1">Prospección I</string>
+	<string key="ui_seasons_task_name_Challenge_S9_WinCTF">Heraldo de la victoria</string>
+	<string key="ui_seasons_task_name_KillAngryEarth_3">Naturaleza vs. asesinatos III</string>
+	<string key="ui_seasons_task_description_KillAngryEarth60">Mata a {maxCount} enemigos tierramarga de nivel +60</string>
+	<string key="ui_seasons_task_description_KillAngryEarth">Mata a {maxCount} enemigos tierramarga</string>
+	<string key="ui_seasons_task_description_GatherT52Ore">Recolecta {maxCount} mineral(es) de mithril</string>
+	<string key="ui_seasons_task_name_Challenge_S9_WinWar">Halcón de guerra</string>
+	<string key="ui_seasons_task_name_GatherOre_4">Prospección IV</string>
+	<string key="data_season_09_name">Temporada 9: Temporada del Estandarte</string>
+	<string key="ui_seasons_task_name_Challenge_S9_CompleteTaskAnyChapter">Completista de estandartes</string>
+	<string key="ui_seasons_task_name_KillPlayerInOpenWorld_3">Amenaza en mundo abierto III</string>
+	<string key="ui_seasons_task_name_KillElite65CutlassKeys">Honor entre ladrones</string>
+	<string key="ui_seasons_task_description_CraftMutatorRaidCombo">Fabrica {maxCount} alijos de recompensa de mutágeno y nido.</string>
+	<string key="ui_seasons_task_name_CraftMagicWeaponT4">Locura mágica</string>
+	<string key="ui_seasons_task_name_KillPlayerInOpenWorld_4">Amenaza en mundo abierto IV</string>
+	<string key="ui_seasons_task_description_WinCTF_single">Gana una partida de Captura la bandera</string>
+	<string key="ui_seasons_task_name_KillAngryEarth_1">Naturaleza vs. asesinatos I</string>
+	<string key="ui_seasons_task_description_KillPlayerMagicWeapon">Mata a {maxCount} jugadores con un arma mágica equipada (báculo ígneo, báculo de vida, manoplas de vacío, manoplas de hielo)</string>
+	<string key="ui_seasons_task_description_GatherOreT5">Obtén {maxCount} mineral(es) C5+</string>
+	<string key="ui_seasons_task_description_CraftMagicWeaponT4">Fabrica {maxCount} armas mágicas C4+ (báculo ígneo, báculo de vida, manoplas de vacío, manoplas de hielo)</string>
+	<string key="SeasonsActivities_ParticipateInCTF">Participar en Captura la bandera</string>
+	<string key="ui_seasons_task_name_Challenge_S9_CompleteM3ExpeditionFlawlesslyWithGoldRank">Rango P</string>
+	<string key="ui_seasons_task_name_PlayCTF_2">Iza la bandera II</string>
+	<string key="ui_seasons_task_name_GatherOre_3">Prospección III</string>
+	<string key="ui_seasons_task_name_KillPlayerInOpenWorld_2">Amenaza en mundo abierto II</string>
+	<string key="ui_seasons_task_name_CompleteMutGoldRank_2">Estrella dorada II</string>
+	<string key="ui_seasons_task_description_CompleteM3ExpeditionWithGoldRank">Completa una expedición mutada M3 con rango de oro</string>
+	<string key="ui_seasons_task_description_CraftT5Hands">Fabrica {maxCount} guantes T5</string>
+	<string key="ui_seasons_task_name_Challenge_S9_CraftPrismaticResources">Procesador prismático</string>
+	<string key="ui_seasons_task_description_KillCorruptedBrimstoneL65">Mata {maxCount} enemigos corruptos de nivel +65 en Arenas de Azufre</string>
+	<string key="ui_seasons_task_name_KillNamedEbonscale">Abajo con la reina</string>
+	<string key="ui_seasons_task_name_KillPlayerInOpenWorld_1">Amenaza en mundo abierto I</string>
+	<string key="ui_seasons_task_name_Challenge_S9_CraftGS725">Amante del brillo</string>
+	<string key="ui_seasons_task_description_Challenge_S9_CompleteTaskAnyChapter">Completa el 90 % (54) de las tareas de la temporada.</string>
+	<string key="ui_seasons_task_name_Challenge_S9_CraftWithDarkMatter">Anomalía espacial</string>
+	<string key="ui_seasons_task_description_GatherOreT4">Obtén {maxCount} mineral(es) C4+</string>
+	<string key="ui_seasons_task_description_Challenge_S9_CompleteM3ExpeditionFlawlesslyWithGoldRank">Completa {maxCount} expediciones mutadas M3 sin fallos con rango de oro</string>
+	<string key="ui_seasons_task_name_PlayCTF_1">Iza la bandera I</string>
+	<string key="ui_seasons_task_name_Challenge_S9_CraftConcoctionT5">Boticario supremo</string>
+	<string key="ui_seasons_task_name_Challenge_S9_KillPlayerCutlassKeys">Desvalijador de jugadores</string>
+	<string key="ui_seasons_task_description_CraftT3Hands">Fabrica {maxCount} guantes C3+</string>
+	<string key="ui_seasons_task_name_KillCorruptedBrimstoneL65">¿Tú también, Bruto?</string>
+	<string key="ui_seasons_task_name_GatherOre_2">Prospección II</string>
+	<string key="ui_seasons_task_name_KillAngryEarth_2">Naturaleza vs. asesinatos II</string>
+	<string key="ui_seasons_task_description_PlayCTF_single">Participa en una partida de Captura la Bandera</string>
+	<string key="ui_seasons_task_name_CompleteMutGoldRank_1">Estrella dorada I</string>
+	<string key="ui_seasons_task_description_PlayCTF">Participa en {maxCount} partidas de Captura la bandera</string>
+	<string key="SeasonsActivities_KillingBlowCTF">Asesta golpes de gracia a enemigos en Captura la bandera.</string>
+	<string key="ui_seasons_task_description_Challenge_S9_GatherResource">Recolecta {maxCount} recursos</string>
+	<string key="ui_seasons_task_description_KillAngryEarthNamedElite65">Mata a {maxCount} enemigos tierramarga de élite con nombre de nivel +65</string>
+	<string key="ui_seasons_task_description_GatherOre">Obtén {maxCount} mineral(es)</string>
+	<string key="ui_seasons_task_name_CraftHands_1">Maestro de armas I</string>
+	<string key="ui_seasons_task_description_KillNamedEbonscale">Mata {maxCount} enemigos con nombre en Altos de Escamanegra</string>
+	<string key="ui_seasons_task_description_Challenge_S9_CraftConcoctionT5">Fabrica {maxCount} brebajes T5</string>
+	<string key="data_season_09_display_name">Temporada 9</string>
 </resources>
 

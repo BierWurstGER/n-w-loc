@@ -1115,6 +1115,8 @@
 	<string key="GemOnyx_CategoryName">Gemas de Ônix</string>
 	<string key="GemOpal_CategoryName">Gemas de Opala</string>
 	<string key="GemPearl_CategoryName">Gemas de Pérola</string>
+	<string key="GemJade_CategoryName">Gemas de Jade</string>
+	<string key="GemTurq_CategoryName">Gemas de Turquesa</string>
 	<string key="gemPouch_GroupName">Bolsas de Gemas</string>
 	<string key="GemRuby_CategoryName">Gemas de Rubi</string>
 	<string key="GemSapp_CategoryName">Gemas de Safira</string>
@@ -1746,7 +1748,7 @@
 	<string key="SurvivalTools_GroupName">Ferramentas de Sobrevivência</string>
 	<string key="SwordA_GroupDesc">Um par de armas voltadas para combate corpo a corpo que, quando combinadas, oferecem sólidos recursos ofensivos e defensivos. Utiliza uma combinação de golpes em arcos e estocadas para os ataques e um escudo para maximizar as defesas.\n\n•Ataque Leve: Causa {[1.000000 * 100]}% &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_slash_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; de dano.\n•Finalizador Leve: Causa {[1.050000 * 100]}% &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_slash_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; de dano.\n•Ataque Pesado: Causa {[1.200000 * 100]}% &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_thrust_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; de dano.\n•Ataque Pesado Carregado: Causa {[1.600000 * 100]}%&lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_thrust_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; de dano.\n\nCompatível com Gema de Provocação: Ataques pesados com uma Espada que tenha uma gema Cornalina anexada causam Provocação por {[0.500000]} s. (Provocação faz os monstros se concentrarem só em você.)</string>
 	<string key="SwordA_GroupName">Espada Reta</string>
-	<string key="SwordB_GroupDesc">Uma arma corpo a corpo voltada para a velocidade, com uma variedade de ataques de estocadas rápidas. Destaca-se nos movimentos na hora certa e em manobras evasivas contra os adversários, enquanto aplica sangramentos que drenam gradativamente a saúde do alvo.\n\n•Ataque Leve: Causa {[1.000000 * 100]}% &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_thrust_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; de dano.\n•Cortes Médios Leves: Causa {[0.660000 * 100]}% &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_thrust_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; de dano.\n•Ataque Pesado: Causa {[1.330000 * 100]}%&lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_thrust_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; de dano.\n\nCompatível com Gema de Provocação: Ataques pesados com uma Rapieira que tenha uma gema Cornalina anexada causam Provocação por {[0.500000]} s. (Provocação faz os monstros se concentrarem só em você.)</string>
+	<string key="SwordB_GroupDesc">Uma arma corpo a corpo voltada para a velocidade, com uma variedade de ataques de estocadas rápidas. Destaca-se nos movimentos na hora certa e em manobras evasivas contra os adversários, enquanto aplica sangramentos que drenam gradativamente a saúde do alvo.\n\n•Ataque Leve: Causa {[1.000000 * 100]}% &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_thrust_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; de dano.\n•Cortes Médios Leves: Causa {[0.660000 * 100]}% &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_thrust_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; de dano.\n•Ataque Pesado: Causa {[1.660000 * 100]}%&lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_thrust_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; de dano.\n\nCompatível com Gema de Provocação: Ataques pesados com uma Rapieira que tenha uma gema Cornalina anexada causam Provocação por {[0.500000]} s. (Provocação faz os monstros se concentrarem só em você.)</string>
 	<string key="SwordB_GroupName">Rapieira</string>
 	<string key="SwordC_GroupDesc">1 Mão.</string>
 	<string key="SwordC_GroupName">Sabre</string>
@@ -1874,6 +1876,11 @@
 	<string key="AlchemyAlkahestT1_GroupName">Alkahest</string>
 	<string key="AlchemyCritters_GroupName">Criaturas de Alquimia</string>
 	<string key="Summer">Verão</string>
+	<string key="SummerMemento" rel_version="Event_Summer_Temp">Lembranças de Verão</string>
+	<string key="MementoStand" rel_version="Event_Summer_Temp">Estandes de Lembranças</string>
+	<string key="SmallMemento" rel_version="Event_Summer_Temp">Lembranças de Peixes Pequenos</string>
+	<string key="MediumMemento" rel_version="Event_Summer_Temp">Lembranças de Peixes Médios</string>
+	<string key="LargeMemento" rel_version="Event_Summer_Temp">Lembranças de Peixes Grandes</string>
 	<string key="Instruments_GroupName" rel_version="Feature_MusicalPerformances">Instrumentos</string>
 	<string key="CategoryData_Instruments" rel_version="Feature_MusicalPerformances">Instrumentos</string>
 	<string key="InstrumentParts_GroupName" rel_version="Feature_MusicalPerformances">Partes de Instrumento</string>
@@ -2057,18 +2064,18 @@
 	<string key="EtherealDust_GroupName" comment="DO NOT TRANSLATE" rel_version="PvPServerConquerorsItems">Ethereal Dust XP Conversion</string>
 	<string key="BetaRewards_GroupName">Recompensas do Beta</string>
 	<string key="OPRBetas_GroupName">Beta de Investida de Posto Avançado</string>
-	<string key="ReekwaterUplevelRare_GroupName">Raro</string>
-	<string key="ReekwaterUplevelCommon_GroupName">Comum</string>
-	<string key="RuneResinTrophies_GroupName">Troféus de Resina de Jacarandá</string>
-	<string key="RuneResinRecipes_GroupName">Receitas de Resina de Jacarandá</string>
-	<string key="AdventurersEquipment_GroupName">Equipamento</string>
-	<string key="AdventurerCaches_GroupName">Reservas de Aventureiro</string>
-	<string key="OrichalciteWeapons_GroupName">Armas de Oricalco</string>
-	<string key="OrichalciteArmors_GroupName">Armaduras de Oricalco</string>
-	<string key="OrichalciteJewelry_GroupName">Joias de Oricalco</string>
-	<string key="OrichalciteRecipes_GroupName">Receitas de Oricalco</string>
-	<string key="AdventurersItems_GroupName">Itens</string>
-	<string key="S8CacheCraft_GroupName">Confecção da Temporada 8</string>
-	<string key="AdventurersConsumables_GroupName">Consumíveis</string>
+	<string key="ReekwaterUplevelRare_GroupName" rel_version="Season_8_Perm">Raro</string>
+	<string key="ReekwaterUplevelCommon_GroupName" rel_version="Season_8_Perm">Comum</string>
+	<string key="AdventurerCaches_GroupName" rel_version="Seasonal_Server_2">Reservas de Aventureiro</string>
+	<string key="AdventurersEquipment_GroupName" rel_version="Seasonal_Server_2">Equipamento</string>
+	<string key="AdventurersConsumables_GroupName" rel_version="Seasonal_Server_2">Consumíveis</string>
+	<string key="AdventurersItems_GroupName" rel_version="Seasonal_Server_2">Itens</string>
+	<string key="S8CacheCraft_GroupName" rel_version="Seasonal_Server_2">Confecção da Temporada 8</string>
+	<string key="OrichalciteRecipes_GroupName" rel_version="Seasonal_Server_2">Receitas de Oricalco</string>
+	<string key="OrichalciteArmors_GroupName" rel_version="Seasonal_Server_2">Armaduras de Oricalco</string>
+	<string key="OrichalciteWeapons_GroupName" rel_version="Seasonal_Server_2">Armas de Oricalco</string>
+	<string key="OrichalciteJewelry_GroupName" rel_version="Seasonal_Server_2">Joias de Oricalco</string>
+	<string key="RuneResinRecipes_GroupName" rel_version="Seasonal_Server_2">Receitas de Resina de Jacarandá</string>
+	<string key="RuneResinTrophies_GroupName" rel_version="Seasonal_Server_2">Troféus de Resina de Jacarandá</string>
 </resources>
 

@@ -29,14 +29,14 @@
 	<string key="inv_runes" rel_version="Feature_Heartgems">Runen</string>
 	<string key="inv_mountitem" rel_version="Feature_Mounts">Reittiere</string>
 	<string key="inv_patternitem" rel_version="Feature_Patterns">Schemata</string>
-	<string key="inv_crafting_modifiers">Herstellungsmods</string>
+	<string key="inv_crafting_modifiers">Herstellung</string>
 	<string key="inv_repair_kit_count">{count} Reparaturkiste</string>
 	<string key="inv_repair_kits">Reparaturkisten</string>
 	<string key="inv_baits">Angeln</string>
 	<string key="inv_dyes">Farbstoffe</string>
 	<string key="inv_alchemy">Arkana</string>
 	<string key="inv_tuningorbs">Stimmkugeln</string>
-	<string key="inv_quest">Aufgabengegenstände</string>
+	<string key="inv_quest">Aufgaben-Ggst.</string>
 	<string key="inv_jewelcrafting">Juwelenschleiferei</string>
 	<string key="inv_refining">Reagenzien</string>
 	<string key="inv_smelting">Schmelzen</string>
@@ -85,6 +85,7 @@
 	<string key="inv_equipLoadSlowNotification">Ausrüstungsgewicht ist jetzt schwer</string>
 	<string key="inv_equipLoadOverburdenedNotification">Überlastet – Ausweichen und Rennen nicht möglich</string>
 	<string key="inv_equipLoadEncumberedNotification">Ausgelastet – Rennen, Ausweichen und Springen nicht möglich</string>
+	<string key="inv_equipLoadOverEncumberedNotification">Überlastet – Angreifen, Rennen, Ausweichen und Springen nicht möglich.</string>
 	<string key="inv_encumbranceTooltip">Das Inventargewicht wirkt sich auf deine Bewegung und Aktionen aus. Rüste Taschen auf, um deren Gewichtsgrenze zu erhöhen. Wird die Grenze überschritten, bist du ausgelastet. Wird sie stark überschritten, bist du überlastet.</string>
 	<string key="inv_encumbranceUnencumberedTooltip">Du kannst alle Aktionen ausführen, weil du die Inventargewichtsgrenze unterschreitest.</string>
 	<string key="inv_encumbranceEncumberedTooltip">• Ausgelastet: Rennen, Ausweichen und Springen nicht möglich.\n• Überlastet: Angreifen, Rennen, Ausweichen und Springen nicht möglich.</string>
@@ -261,6 +262,5 @@
 	<string key="perktooltips_stacks_over_limit">(über Max.)</string>
 	<string key="perktooltips_stacks_over_limit_disabled">(deaktiviert)</string>
 	<string key="perktooltips_max_stacks">Maximale Effektstapel: </string>
-	<string key="inv_equipLoadOverEncumberedNotification">Überlastet – Angreifen, Rennen, Ausweichen und Springen nicht möglich.</string>
 </resources>
 

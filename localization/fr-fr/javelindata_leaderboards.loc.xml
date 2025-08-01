@@ -159,6 +159,9 @@
 	<string key="ui_leaderboard_display_elitetrials_sandworm1" rel_version="Trial_Brimstone_Sandworm">Épreuve du Dévoreur - Temps</string>
 	<string key="ui_leaderboard_display_elitetrials_sandworm2" rel_version="Trial_Brimstone_Sandworm">Épreuve du Dévoreur</string>
 	<string key="ui_leaderboard_tip_outpostrush_score" rel_version="Feature_Leaderboards">&lt;img src="lyshineui/images/icons/crossworld/icon_crossworld_identifier_tan" scale="2.0" xPadding="2" yOffset="5"&gt;&lt;/img&gt; &lt;font color="#ebe3d6"&gt;&lt;font face="lyshineui/fonts/Nimbus_Regular.font"&gt;Classement régional&lt;/font&gt;&lt;/font&gt;\n\nVotre score de Déferlante est le meilleur score que vous ayez fait lors d'un match.</string>
+	<string key="ui_leaderboard_category_raids" rel_version="Season_8_Perm">Assauts</string>
+	<string key="ui_leaderboard_display_raids_cutlassKeys1" rel_version="Season_8_Perm">Temps de la ruche de la gorgone</string>
+	<string key="ui_leaderboard_display_raids_cutlassKeys2" rel_version="Season_8_Perm">Ruche de la gorgone</string>
 	<string key="ui_leaderboard_display_regional">Régional</string>
 	<string key="ui_leaderboard_display_world_archived">Monde (archivé)</string>
 	<string key="ui_leaderboard_tip_regional_only">&lt;img src="lyshineui/images/icons/crossworld/icon_crossworld_identifier_tan" scale="2.0" xPadding="2" yOffset="5"&gt;&lt;/img&gt; Classements régionaux\n\nConsultez les statistiques et affrontez d'autres joueurs de votre région.\n\nLes mondes Consoles ne partageront les classements régionaux qu'avec les mondes spécifiques aux consoles.</string>
@@ -173,8 +176,28 @@
 	<string key="ui_leaderboard_column_assists" rel_version="Season_7_Perm">Soutiens</string>
 	<string key="ui_leaderboard_display_kda" rel_version="Season_7_Perm">Ratio victimes/morts/soutiens</string>
 	<string key="ui_leaderboard_tip_kda" rel_version="Season_7_Perm">Le ratio victimes/morts/soutiens est calculé en additionnant les victimes et les soutiens, puis en divisant le résultat par le nombre de morts.</string>
-	<string key="ui_leaderboard_category_raids">Assauts</string>
-	<string key="ui_leaderboard_display_raids_cutlassKeys2">Ruche de la gorgone</string>
-	<string key="ui_leaderboard_display_raids_cutlassKeys1">Temps de la ruche de la gorgone</string>
+	<string key="ui_leaderboard_display_capture_the_flag_kill_death_assist">Ratio V/M/S</string>
+	<string key="ui_leaderboard_display_capture_the_flag_best_kills">Meilleures éliminations</string>
+	<string key="ui_leaderboard_display_capture_the_flag_points">Points de drapeau</string>
+	<string key="ui_leaderboard_tip_flag_returns">Nombre de fois où vous avez rapporté un drapeau volé à votre base.</string>
+	<string key="ui_leaderboard_display_capture_the_flag_damage_dealt">Dégâts infligés</string>
+	<string key="ui_leaderboard_column_returns">Restitue</string>
+	<string key="ui_leaderboard_column_best_kills">Meilleures éliminations</string>
+	<string key="ui_leaderboard_display_capture_the_flag_kills">Ennemis tués</string>
+	<string key="ui_leaderboard_column_kill_death_ratio">Ratio V/M</string>
+	<string key="ui_leaderboard_category_capture_the_flag">Capture du drapeau</string>
+	<string key="ui_leaderboard_display_capture_the_flag_returns">Restitue</string>
+	<string key="ui_leaderboard_second_level_category_test">CatégorieDeSecondNiveau</string>
+	<string key="ui_leaderboard_display_capture_the_flag_kill_death">Ratio V/M</string>
+	<string key="ui_leaderboard_display_capture_the_flag_heals">Soins</string>
+	<string key="ui_leaderboard_display_capture_the_flag_assists">Soutiens</string>
+	<string key="ui_leaderboard_display_capture_the_flag_score">Score</string>
+	<string key="ui_leaderboard_column_points">Points de drapeau</string>
+	<string key="ui_leaderboard_tip_kd">Le ratio Victimes/Morts se calcule en divisant le nombre de victimes par le nombre de morts.</string>
+	<string key="ui_leaderboard_column_kill_death_assist_ratio">Ratio V/M/S</string>
+	<string key="ui_leaderboard_category_desc">Description de catégorie</string>
+	<string key="ui_leaderboard_column_total_kills">Victimes totales</string>
+	<string key="ui_leaderboard_display_capture_the_flag_wins">Victoires</string>
+	<string key="ui_leaderboard_tip_flag_points">Combien de points vous avez gagnés en volant le drapeau ennemi.</string>
 </resources>
 

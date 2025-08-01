@@ -1038,7 +1038,7 @@
 	<string key="ui_metaachievement_all_territories_leaderboard_top1_trial_devourer_title" rel_version="Trial_Brimstone_Sandworm">Médaille d'or du Dévoreur</string>
 	<string key="ui_metaachievement_all_territories_leaderboard_top10_trial_devourer_title" rel_version="Trial_Brimstone_Sandworm">Médaille du Dévoreur</string>
 	<string key="ui_metaachievement_edengrove_leaderboard_top1_company_score_title">Médaille d'or de Bois-Éden</string>
-	<string key="ui_metaachievement_edengrove_leaderboard_top10_company_score_title">Médaille d'or de Bois-Éden</string>
+	<string key="ui_metaachievement_edengrove_leaderboard_top10_company_score_title">Médaille de Bois-Éden</string>
 	<string key="ui_metachievement_pvefactionmissions_arcana_title1">Approvisionneur en arts obscurs</string>
 	<string key="ui_metachievement_pvefactionmissions_arcana_title1_SHE">Approvisionneur en arts obscurs</string>
 	<string key="ui_metachievement_pvefactionmissions_arcana_title1_THEY">Approvisionneur en arts obscurs</string>
@@ -3762,14 +3762,17 @@
 	<string key="ui_meta_achievements_claim_reward_desc_one">Ouvrez les Exploits pour récupérer 1 récompense !</string>
 	<string key="ui_meta_achievements_claim_reward_desc_mult">Ouvrez les Exploits pour récupérer {number} récompenses !</string>
 	<string key="ui_meta_achievements_rewards_available">Récompenses disponibles</string>
-	<string key="ui_meta_achievements_rewards_available_desc_mult">Vous pouvez récupérer {number} récompenses pour vos exploits !</string>
-	<string key="ui_meta_achievements_rewards_available_desc_one">Vous pouvez récupérer 1 récompense pour vos exploits !</string>
+	<string key="ui_meta_achievements_rewards_available_desc_mult">Vous avez &lt;font color={color}&gt;{number} récompenses&lt;/font&gt; à récupérer !</string>
+	<string key="ui_meta_achievements_rewards_available_desc_one">Vous avez &lt;font color={color}&gt;1 récompense&lt;/font&gt; à récupérer !</string>
 	<string key="ui_meta_achievements_claim_all">Voir toutes les récompenses</string>
 	<string key="ui_meta_achievements_rewards_claimed">Récompenses récupérées</string>
 	<string key="ui_meta_achievements_rewards_claimed_desc_mult">Vous avez récupéré {number} récompenses pour vos exploits.</string>
 	<string key="ui_meta_achievements_rewards_claimed_desc_one">Vous avez récupéré 1 récompense pour vos exploits.</string>
+	<string key="ui_meta_achievements_reward_title">Récompenses d'exploit</string>
 	<string key="ui_meta_achievements_reward_type_title">Titre</string>
 	<string key="ui_meta_achievements_reward_type_title_plural">Titres</string>
+	<string key="ui_meta_achievements_reward_type_title_reward">Titre de la récompense</string>
+	<string key="ui_meta_achievements_reward_tooltip">&lt;font color={titleColor} face="lyshineui/fonts/Nimbus_semibold.font"&gt;{rewardTitle}&lt;/font&gt;\n{rewardDescription}\n\n{rewardText}</string>
 	<string key="ui_meta_achievements_coming_soon">: À VENIR</string>
 	<string key="ui_meta_achievements_roman_numeral_i">I</string>
 	<string key="ui_meta_achievements_roman_numeral_ii">II</string>
@@ -3913,9 +3916,9 @@
 	<string key="ui_metachievement_leaderboard_daysgoverned_description" rel_version="Feature_Seasonal_Servers">Obtenu en se hissant au classement des jours de gouvernance du Monde saisonnier de la saison 7.</string>
 	<string key="ui_metachievement_leaderboard_streakgoverned_title" rel_version="Feature_Seasonal_Servers">Conquête éternelle</string>
 	<string key="ui_metachievement_leaderboard_streakgoverned_description" rel_version="Feature_Seasonal_Servers">Obtenu en se hissant au classement de la série de gouvernances du Monde saisonnier de la saison 7.</string>
-	<string key="ui_metaachievement_all_territories_leaderboard_top10_trial_hercyneraid_desc">Titre obtenu en se hissant à l'une des 50 premières places du classement du raid de la ruche de la gorgone.</string>
-	<string key="ui_metaachievement_all_territories_leaderboard_top10_trial_hercyneraid_title">Médaille de la ruche de la gorgone</string>
-	<string key="ui_metaachievement_all_territories_leaderboard_top1_trial_hercyneraid_desc">Titre obtenu en se hissant à l'une des 10 premières places du classement du raid de la ruche de la gorgone.</string>
-	<string key="ui_metaachievement_all_territories_leaderboard_top1_trial_hercyneraid_title">Médaille d'or de la ruche de la gorgone</string>
+	<string key="ui_metaachievement_all_territories_leaderboard_top1_trial_hercyneraid_title" rel_version="Season_8_Perm">Médaille d'or de la ruche de la gorgone</string>
+	<string key="ui_metaachievement_all_territories_leaderboard_top10_trial_hercyneraid_title" rel_version="Season_8_Perm">Médaille de la ruche de la gorgone</string>
+	<string key="ui_metaachievement_all_territories_leaderboard_top1_trial_hercyneraid_desc" rel_version="Season_8_Perm">Titre obtenu en se hissant à l'une des 10 premières places du classement du raid de la ruche de la gorgone.</string>
+	<string key="ui_metaachievement_all_territories_leaderboard_top10_trial_hercyneraid_desc" rel_version="Season_8_Perm">Titre obtenu en se hissant à l'une des 50 premières places du classement du raid de la ruche de la gorgone.</string>
 </resources>
 

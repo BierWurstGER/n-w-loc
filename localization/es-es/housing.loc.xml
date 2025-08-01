@@ -9,7 +9,7 @@
 	<string key="ui_house_abandon_this_popup_desc" comment="Abandon House">Se te devolverá un {percent} % del coste de compra original. Todos los trofeos y muebles de esta casa se llevarán al cobertizo de almacenamiento.\n\nPara continuar, introduce {territoryName} a continuación.</string>
 	<string key="ui_house_abandon_this_popup_title" comment="Abandon House">Abandonar casa</string>
 	<string key="ui_house_abandon_no_storage_warning" comment="Abandon House">Debes tener al menos una ranura de almacenamiento de asentamiento libre antes de poder eliminar todos los objetos de tu casa.</string>
-	<string key="ui_cannot_reset_travel_currency" comment="Fast Travel">Paga &lt;img src="lyshineui/images/icons/misc/icon_azothCurrency" xPadding="0" scale="1.5" yOffset="1"&gt; &lt;/img&gt;{coin} para restablecer el tiempo de recarga.</string>
+	<string key="ui_cannot_reset_travel_currency" comment="Fast Travel">Paga &lt;img src="lyshineui/images/icons/misc/icon_azothCurrency" xPadding="0" scale="1.5" yOffset="2.5"&gt; &lt;/img&gt;{coin} para restablecer el tiempo de recarga.</string>
 	<string key="ui_cannot_travel_currency" comment="Fast Travel">Para realizar un viaje rápido necesitas &lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt; &lt;/img&gt;{coin}</string>
 	<string key="ui_cannot_travel_currency_azoth" comment="Fast Travel">Para realizar un viaje rápido necesitas &lt;img src="lyshineui/images/icons/misc/icon_azothCurrency" xPadding="0" scale="1.2" yOffset="0"&gt; &lt;/img&gt;{coin}</string>
 	<string key="ui_cannot_travel_dead" comment="Fast Travel">No puedes regresar ni usar el viaje rápido cuando estás muerto.</string>
@@ -34,7 +34,7 @@
 	<string key="ui_fast_travel_error_noDestination_outpost" comment="Fast Travel">Aún no has descubierto esta ubicación.</string>
 	<string key="ui_fast_travel_error_noDestination_shrine" comment="Fast Travel">Aún no has descubierto esta ubicación.</string>
 	<string key="ui_fast_travel_failed" comment="Fast Travel">Error al realizar el viaje rápido</string>
-	<string key="ui_fast_travel_mission_abandon_confirm" comment="Fast Travel">AVISO: Si usas el viaje rápido, se reiniciará la carrera por tiempo activa y abandonarás todas las misiones JcJ y de facción.\nSe reiniciará la carrera por tiempo {timedRaceCount} y abandonarás la misión {missionCount}.\n\n¿Quieres continuar?</string>
+	<string key="ui_fast_travel_mission_abandon_confirm" comment="Fast Travel">AVISO: Si usas el viaje rápido, se reiniciará la carrera por tiempo activa, abandonarás todas las misiones de facción JcJ y quedarás inactivo para JcJ.\nSe reiniciará la carrera por tiempo {timedRaceCount} y abandonarás la misión {missionCount}.\n\n¿Quieres continuar?</string>
 	<string key="ui_fast_travel_popup_confirm" comment="Fast Travel">¿Quieres usar el viaje rápido para ir a esta ubicación?</string>
 	<string key="ui_fast_travel_reset_popup" comment="Fast Travel">¿Restablecer el tiempo de recarga?</string>
 	<string key="ui_fast_travel_reset_popup_confirm" comment="Fast Travel">¿Quieres restablecer el tiempo de recarga?</string>
@@ -47,7 +47,7 @@
 	<string key="ui_house_travel_cooldown_remaining" comment="Fast Travel">Puedes volver a usar el viaje rápido en {time}</string>
 	<string key="ui_housing_fast_travel" comment="Fast Travel">Viaje rápido</string>
 	<string key="ui_housing_fast_travel_desc" comment="Fast Travel">Viaja hasta aquí desde donde estés</string>
-	<string key="ui_need_reset_travel_currency" comment="Fast Travel">Necesitas &lt;img src="lyshineui/images/icons/misc/icon_azothCurrency" xPadding="0" scale="1.5" yOffset="1"&gt; &lt;/img&gt; {coin} para restablecer el tiempo de recarga.</string>
+	<string key="ui_need_reset_travel_currency" comment="Fast Travel">Necesitas &lt;img src="lyshineui/images/icons/misc/icon_azothCurrency" xPadding="0" scale="1.5" yOffset="2.5"&gt; &lt;/img&gt; {coin} para restablecer el tiempo de recarga.</string>
 	<string key="ui_recall_not_available_server_error" comment="Fast Travel">No es posible regresar debido a un error del servidor.</string>
 	<string key="ui_recall_to" comment="Fast Travel">Regresar a</string>
 	<string key="ui_recall_to_house" comment="Fast Travel">Regresar a casa</string>

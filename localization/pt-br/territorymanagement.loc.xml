@@ -475,6 +475,22 @@
 	<string key="ui_upgrade_desc_HornProjectId2">Também aprimora qualquer Trombeta de Guerra existente.</string>
 	<string key="ui_upgrade_desc_ExplosiveProjectId">Também aprimora todos os Explosivos existentes.</string>
 	<string key="ui_upgrade_desc_ExplosiveProjectId2">Também aprimora qualquer Explosivo existente.</string>
+	<string key="event_summer_station" rel_version="Event_Summer_Temp">Medleyfaire Stage</string>
+	<string key="ui_upgrade_title_EventSummerProjectId" rel_version="Event_Summer_Temp">Tier 2 Upgrade</string>
+	<string key="ui_upgrade_title_EventSummerProjectId2" rel_version="Event_Summer_Temp">Tier 3 Upgrade</string>
+	<string key="ui_upgrade_title_EventSummerProjectId3" rel_version="Event_Summer_Temp">Medleyfaire Stage Upgrades Complete!</string>
+	<string key="ui_upgrade_titleNoMarkup_EventSummerProjectId" rel_version="Event_Summer_Temp">Tier 2 Upgrade</string>
+	<string key="ui_upgrade_titleNoMarkup_EventSummerProjectId2" rel_version="Event_Summer_Temp">Tier 3 Upgrade</string>
+	<string key="ui_upgrade_titleNoMarkup_EventSummerProjectId3" rel_version="Event_Summer_Temp">Medleyfaire Stage at maxiumum Tier!</string>
+	<string key="ui_upgrade_button_EventSummerProjectId" rel_version="Event_Summer_Temp">Medleyfaire Stage Tier 1</string>
+	<string key="ui_upgrade_button_EventSummerProjectId2" rel_version="Event_Summer_Temp">Medleyfaire Stage Tier 2</string>
+	<string key="ui_upgrade_button_EventSummerProjectId3" rel_version="Event_Summer_Temp">Medleyfaire Stage Upgrades Complete!</string>
+	<string key="ui_upgrade_desc_EventSummerProjectId" rel_version="Event_Summer_Temp">Upgrade Medleyfaire Stage to Tier 2 to surround it with &lt;font color="#edc63e"&gt;Beautifully Packed Baskets!&lt;/font&gt;</string>
+	<string key="ui_upgrade_desc_EventSummerProjectId2" rel_version="Event_Summer_Temp">Upgrade Medleyfaire Stage to Tier 3 to surround it with &lt;font color="#edc63e"&gt;Exquisitely Packed Baskets!&lt;/font&gt;</string>
+	<string key="ui_upgrade_desc_EventSummerProjectId3" rel_version="Event_Summer_Temp">Complete Medleyfaire Town Projects to earn Event Reputation!</string>
+	<string key="ui_upgradebutton_label_event_summer" rel_version="Event_Summer_Temp">Upgrade Medleyfaire Stage</string>
+	<string key="ui_event_details_SummerMedley" rel_version="Event_Summer_Temp">&lt;font color="#edc63e"&gt;Complete Medleyfaire Quests and Activities&lt;/font&gt; to earn Event Reputation and Medleyfaire Tokens to gain access to a trove of event rewards! \n\n&lt;font color="#edc63e"&gt;Catch delicious-yet-finicky Aeternum Sturgeons and supply the Medleyfaire&lt;/font&gt; by locating Maudlinbug Swarms and performing the Maudlinbug Haze to capture Maudlinbug Bait! Keep watch for glittering hotspots!\n\n&lt;font color="#edc63e"&gt;Collect daily rewards from each Medleyfaire Dance Floor and Settlement’s Medleyfaire Stage Centerpiece! &lt;/font&gt; Completing an endless supply of Medleyfaire Town Projects upgrades the splendor and rewards earned from the centerpiece!</string>
+	<string key="ui_event_summer_project_complete" rel_version="Event_Summer_Temp">Upgrade Medleyfaire Stage Project Complete</string>
 	<string key="ui_event_project_endless">Infinito</string>
 	<string key="ui_territory_level">Nível do Território: {level}</string>
 	<string key="ui_enter_house">Exibir Casa</string>
@@ -573,6 +589,8 @@
 	<string key="ui_territory_board_war">Quadro da Guerra</string>
 	<string key="ui_territory_board_war_desc">Inscreva-se para uma Guerra ativa neste território.</string>
 	<string key="ui_territory_war_camp">Acampamento de Guerra</string>
+	<string key="ui_territory_war_siege_limit">Limite de Cerco</string>
+	<string key="ui_territory_war_supply_rate">Índice de Suprimentos</string>
 	<string key="ui_territory_war_camp_desc">Uma área de preparação para guerra.</string>
 	<string key="ui_active_project">Projeto Atual</string>
 	<string key="ui_territory_board_territory_planning">Quadro de Planejamento do Território</string>
@@ -616,8 +634,6 @@
 	<string key="ui_territory_standing_upgrade_stat_storage">Armazenamento</string>
 	<string key="ui_territory_standing_upgrade_stat_house_point">O número máximo de itens de casa que você pode colocar</string>
 	<string key="ui_territory_standing_upgrade_stat_territory_standing">Posição do Território</string>
-	<string key="ui_territory_standing_upgrade_stat_faction_rep">Reputação de Facção</string>
-	<string key="ui_territory_standing_upgrade_stat_faction_tokens">Tokens de Facção</string>
 	<string key="ui_territory_standing_upgrade_stat_gathering_speed">Velocidade de coleta</string>
 	<string key="ui_territory_standing_upgrade_stat_detection_distance">Distância de detecção</string>
 	<string key="ui_territory_standing_upgrade_stat_trading_tax">Taxa de Negociação</string>
@@ -759,7 +775,5 @@
 	<string key="influence_myfaction_3" rel_version="Feature_Influence_V2">MINHA FACÇÃO: &lt;img src="lyshineui/images/crests/foregrounds/icon_faction_fg_3_colored_small" xPadding="0" scale="2" yOffset="15"&gt;&lt;/img&gt; &lt;font face="lyshineui/fonts/Pica_Regular.font" color="#edc63e"&gt;Aliança&lt;/font&gt;</string>
 	<string key="influence_tower_ownership_title" rel_version="Feature_Influence_V2">TITULARIDADE DA TORRE</string>
 	<string key="influence_view_previous_influence_race" rel_version="Feature_Influence_V2">Ver Resultados</string>
-	<string key="ui_territory_war_supply_rate">Índice de Suprimentos</string>
-	<string key="ui_territory_war_siege_limit">Limite de Cerco</string>
 </resources>
 

@@ -10,6 +10,12 @@
 	<string key="ui_event_rules">Destaques do Evento</string>
 	<string key="ui_event_progress_name">Reputação no Evento</string>
 	<string key="ui_event_summer_progress_name" rel_version="Event_Summer_Perm">Reputação no Evento</string>
+	<string key="ui_event_summer_rank_0" rel_version="Event_Summer_Temp">Minstrel</string>
+	<string key="ui_event_summer_rank_1" rel_version="Event_Summer_Temp">Troubadour</string>
+	<string key="ui_event_summer_rank_2" rel_version="Event_Summer_Temp">Bard</string>
+	<string key="ui_event_summer_rank_3" rel_version="Event_Summer_Temp">Virtuoso</string>
+	<string key="ui_event_summer_rank_4" rel_version="Event_Summer_Temp">Maestro</string>
+	<string key="ui_event_summer_shop_header" rel_version="Event_Summer_Temp">Summer Medleyfaire Shop</string>
 	<string key="ui_event_halloween_progress_name" rel_version="Event_Halloween_Perm">Reputação no Evento</string>
 	<string key="ui_event_spring_progress_name" rel_version="Event_SpringtideBloom_Perm">Reputação no Evento</string>
 	<string key="ui_news_store_tabname">Loja</string>
@@ -31,7 +37,7 @@
 	<string key="ui_news_mounts_tabname" rel_version="Feature_Mounts">Montarias</string>
 	<string key="ui_news_twitch_tabname" rel_version="Season_3_Perm">Twitch</string>
 	<string key="ui_news_raid_tabname">Atacar</string>
-	<string key="ui_news_raids_tabname">Assaltos</string>
+	<string key="ui_news_raids_tabname">Ataques</string>
 	<string key="ui_news_new_raid_tabname" rel_version="Raid_CutlassKeys_00">Novo Ataque</string>
 	<string key="ui_news_new_gamemode_tabname" rel_version="Territory_CutlassKeys_Rework">Novo Modo de Jogo</string>
 	<string key="ui_news_bullet_armor_skins">Aparências de armadura</string>
@@ -83,15 +89,12 @@
 	<string key="ui_event_console_beta_preorder_news_bullet_azoth_stalker">Espreitador de Azoth</string>
 	<string key="ui_event_console_beta_preorder_news_bullet_mount_skins_deluxe">Aparências de Montaria\n(Edição de Luxo)</string>
 	<string key="ui_event_console_beta_preorder_news_bullet_armor_skins_deluxe">Aparências para Armadura\n(Edição de Luxo)</string>
-	<string key="ui_event_season_seven_title" rel_version="Season_7_Perm">Era dos Conquistadores</string>
-	<string key="ui_event_season_seven_description" rel_version="Season_7_Perm">Busque um novo começo e lute pelo domínio em um Servidor Sazonal exclusivo que incentiva o combate jogador versus jogador. Ganhe uma recompensa de novos artefatos, aparências e muito mais na trilha de recompensas da Era dos Conquistadores.</string>
-	<string key="ui_event_season_seven_about" comment="DO NOT TRANSLATE" rel_version="Season_7_Perm">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; About Season 7 Placeholder</string>
 	<string key="ui_news_rise_of_the_angry_earth_expansion_title">Experimente tudo o que Aeternum tem a oferecer</string>
 	<string key="ui_news_rise_of_the_angry_earth_expansion_description">Obtenha a experiência completa de New World: Aeternum.\n\nOs jogadores de PC que possuem a expansão Ascensão da Terra Indócil têm acesso a todos os recursos do New World: Aeternum, incluindo grandes adições como:</string>
 	<string key="ui_news_rise_of_the_angry_earth_expansion_about">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Sobre Ascensão da Terra Indócil</string>
 	<string key="ui_news_rise_of_the_angry_earth_expansion_icon1">Montarias</string>
 	<string key="ui_news_rise_of_the_angry_earth_expansion_icon2">Mangual</string>
-	<string key="ui_news_rise_of_the_angry_earth_expansion_icon3">Incursão com 10 jogadores</string>
+	<string key="ui_news_rise_of_the_angry_earth_expansion_icon3">Ataque com 10 jogadores</string>
 	<string key="ui_news_rise_of_the_angry_earth_expansion_purchase_button">Compre Já</string>
 	<string key="ui_event_siege_of_sulfur_title_2025">Cerco do Enxofre</string>
 	<string key="ui_event_siege_of_sulfur_description_2025">Os magos de Sanguinários das Areias de Sharif estão sendo atacados! Enquanto transportavam valiosos ovos de Vermes-da-areia para locais seguros em Aeternum, esses magos foram atacados pelas forças de Adiana. Elementais de Enxofre Enfurecido estão tentando destruir os ovos e erradicar os vermes de Aeternum. Defenda os ovos e ganhe recompensas valiosas, incluindo equipamentos poderosos e itens e cosméticos de alojamento incríveis.</string>
@@ -108,40 +111,5 @@
 	<string key="ui_event_thick_as_thieves_title" rel_version="Entitlements_ThickThieves">Carne e Unha</string>
 	<string key="ui_event_thick_as_thieves_description" rel_version="Entitlements_ThickThieves">Somente os confiáveis entram nas sombras; somente os habilidosos saem ilesos. Abrace o vestuário forjado para aqueles que são unidos como carne e unha. Chegou o novo conteúdo com o tema Carne e Unha!</string>
 	<string key="ui_event_thick_as_thieves_about" rel_version="Entitlements_ThickThieves">Sobre Carne e Unha</string>
-	<string key="ui_event_legacy_of_crassus_title">Legado de Crasso</string>
-	<string key="ui_event_legacy_of_crassus_description">Crasso e sua legião monstruosa retornam! Reúna suas tropas e batalhe contra os capitães brutais, Decimus e Lucanus, em Bosque Reluzente, Vale das Lamentações, Pântano do Tecelão e Crosta de Ébano. Combata o massacre romano e derrote o domínio maligno da Corrupção por honra, glória e recompensas por tempo limitado!</string>
-	<string key="ui_event_legacy_of_crassus_bullet1">Picareta da Legião</string>
-	<string key="ui_event_legacy_of_crassus_bullet2">Estátua de Decimus</string>
-	<string key="ui_event_legacy_of_crassus_bullet3">Estátua de Lucanus</string>
-	<string key="ui_event_legacy_of_crassus_about">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Sobre Legado de Crasso</string>
-	<string key="ui_event_rabbits_revenge_title">Vingança do Coelho!</string>
-	<string key="ui_event_rabbits_revenge_description">Coelhos Corrompidos tomaram conta de Aeternum! Elimine a Corrupção e receba recompensas ferozes.</string>
-	<string key="ui_event_rabbits_revenge_about">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Sobre a Vingança do Coelho</string>
-	<string key="ui_event_summer_medleyfaire_title">Muita diversão espera por você na Feira de Variedades!</string>
-	<string key="ui_event_summer_medleyfaire_description">O festival de verão de Aeternum está de volta! Desbloqueie uma nova canção ao concluir as Atividades do Evento; em seguida, toque seu instrumento para coletar Tokens da Feira de Variedades e um novo título. Comemore nos locais do festival em Falésias do Monarca, Queda Eterna, Bosque Reluzente e Pântano do Tecelão.</string>
-	<string key="ui_event_summer_medleyfaire_bullet1">Chapéu do Maestro</string>
-	<string key="ui_event_summer_medleyfaire_about">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Sobre a Feira de Variedades do Verão</string>
-	<string key="ui_event_fury_of_the_spriggan_title">Fúria de Spriggan</string>
-	<string key="ui_event_fury_of_the_spriggan_description">Com a Enéade despertada, a Terra Indócil está se erguendo por toda a Aeternum! Impeça seus rituais enquanto eles tentam despertar Spriggans furiosos. Ganhe recompensas diárias exclusivas por seu trabalho enquanto reprime esses rituais em Bosque Reluzente, Pântano do Tecelão, Vale das Lamentações e Crosta de Ébano.</string>
-	<string key="ui_event_fury_of_the_spriggan_bullet1">Pedaços de Armadura Diários</string>
-	<string key="ui_event_fury_of_the_spriggan_bullet2">Armas Diárias</string>
-	<string key="ui_event_fury_of_the_spriggan_about">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Sobre a Fúria de Spriggan</string>
-	<string key="ui_event_siege_of_sulfur_title">Cerco do Enxofre</string>
-	<string key="ui_event_siege_of_sulfur_description">Os magos de Sanguinários das Areias de Sharif estão sendo atacados! Enquanto transportavam valiosos ovos de Vermes-da-areia para locais seguros em Aeternum, esses magos foram atacados pelas forças de Adiana. Elementais de Enxofre Enfurecido estão tentando destruir os ovos e erradicar os vermes de Aeternum. Defenda os ovos e ganhe recompensas valiosas, incluindo equipamentos poderosos, o item de alojamento Ovo de Verme-da-areia e o Chapéu Mini Devorador Verme-da-areia.</string>
-	<string key="ui_event_siege_of_sulfur_bullet1">Chapéu de Verme-da-areia</string>
-	<string key="ui_event_siege_of_sulfur_bullet2">Ovo</string>
-	<string key="ui_event_siege_of_sulfur_about">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Sobre Cerco de Enxofre</string>
-	<string key="ui_event_nightveil_hallow_title">Relíquia do Véu Noturno</string>
-	<string key="ui_event_nightveil_hallow_description">O Véu Noturno retorna e Baalphazu, Marquês do Terror, ressurge mais uma vez! Expulse o demônio sombrio de volta para a escuridão e comemore sua vitória vestindo fantasias exclusivas e pedindo doces ou travessuras para ganhar novas recompensas em casas de Aeternum!</string>
-	<string key="ui_event_nightveil_hallow_about">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt;Relíquia do Véu Noturno</string>
-	<string key="ui_event_turkulon_title">O Retorno de Turkulon!</string>
-	<string key="ui_event_turkulon_description">O faisão desagradável voltou a eclodir nas ilhas de Aeternum! desagradável voltou a eclodir nas ilhas de Aeternum! Derrote essa fera asquerosa e ganhe uma série de recompensas novas e já existentes, incluindo a novíssima aparência do mangual: A Baqueta da Morte! Pulverizar as aves nunca foi tão bom.</string>
-	<string key="ui_event_turkulon_about">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Sobre o Retorno de Turkulon  </string>
-	<string key="ui_event_turkulon_bullet1">Aparência para Martelo de Guerra</string>
-	<string key="ui_event_turkulon_bullet2">Aparência de Mangual</string>
-	<string key="ui_event_turkulon_bullet3">Item de Alojamento de Turkuless</string>
-	<string key="ui_event_winter_convergence_title">Convergência de Inverno</string>
-	<string key="ui_event_winter_convergence_description">O Guerreiro Invernal e seus lacaios glaciais retornaram a Aeternum, e eles vêm armados com a ameaça gélida do Inverno Eterno! Junte seus amigos e espalhe todo o calor e festividades da Convergência para combater o frio paralisante. Depois, busque o Andarilho Invernal alegre pelas Vilas Invernais em Aeternum para ganhar uma série de recompensas disponíveis por tempo limitado!</string>
-	<string key="ui_event_winter_convergence_about">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Sobre a Convergência de Inverno</string>
 </resources>
 

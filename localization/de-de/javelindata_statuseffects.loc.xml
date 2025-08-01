@@ -36,7 +36,7 @@
 	<string key="GrandPotionFocus_Tooltip">Stellt nach und nach eine erhebliche Menge Mana her.</string>
 	<string key="GrandPotionStalwart_DisplayName">Erstklassige Blockabsorption</string>
 	<string key="GrandPotionEncumbrance_DisplayName">Erstklassige Belastbarkeitserhöhung</string>
-	<string key="GrandPotionEncumbrance_Tooltip">Erhöht die Belastungsgrenze um 100,0.</string>
+	<string key="GrandPotionEncumbrance_Tooltip">Erhöht die Belastungsgrenze um 500,0.</string>
 	<string key="SerumRegen_DisplayName">Serum der Regeneration</string>
 	<string key="SerumRegen_Tooltip">Regeneriert Gesundheit, Mana and Ausdauer.</string>
 	<string key="PotionBoostFireAbsT3_DisplayName">Feuerabsorption I</string>
@@ -69,12 +69,12 @@
 	<string key="PotionBoostVoidAbsT3_Tooltip">Erhöht die Unheilabsorption um {[0.090000 * 100]} %.</string>
 	<string key="PotionBoostVoidAbsT4_Tooltip">Erhöht die Unheilabsorption um {[0.120000 * 100]} %.</string>
 	<string key="PotionBoostVoidAbsT5_Tooltip">Erhöht die Unheilabsorption um {[0.150000 * 100]} %.</string>
-	<string key="PotionShield_DisplayName" rel_version="PotionUpdate_S8">Shield Potion</string>
-	<string key="PotionShield_Tooltip" rel_version="PotionUpdate_S8">Grants damage reduction for the next 3 hits during this effect's duration.</string>
-	<string key="PotionGrit_DisplayName" rel_version="PotionUpdate_S8">Grit Potion</string>
-	<string key="PotionGrit_Tooltip" rel_version="PotionUpdate_S8">You are uninterruptible while this is active.</string>
-	<string key="PotionLifesteal_DisplayName" rel_version="PotionUpdate_S8">Lifesteal Potion</string>
-	<string key="PotionLifesteal_Tooltip" rel_version="PotionUpdate_S8">Increases the power of all lifesteals while active.</string>
+	<string key="PotionShield_DisplayName" rel_version="PotionUpdate_S8">Schildtrank</string>
+	<string key="PotionShield_Tooltip" rel_version="PotionUpdate_S8">Gewährt zusätzliche Rüstung für die nächsten 3 Treffer, solange der Effekt aktiv ist.</string>
+	<string key="PotionGrit_DisplayName" rel_version="PotionUpdate_S8">Trank des Muts</string>
+	<string key="PotionGrit_Tooltip" rel_version="PotionUpdate_S8">Solange dieser Effekt aktiv ist, kannst du nicht unterbrochen werden.</string>
+	<string key="PotionLifesteal_DisplayName" rel_version="PotionUpdate_S8">Lebensraubtrank</string>
+	<string key="PotionLifesteal_Tooltip" rel_version="PotionUpdate_S8">Erhöht die Wirksamkeit aller Lebensraubeffekte, solange der Effekt aktiv ist.</string>
 	<string key="eating_DisplayName">Grundlegende Gesundheitserholung</string>
 	<string key="AI_Season_02_Malek_Sandstorm_DisplayName" rel_version="Season_2_Perm">Sandsturm</string>
 	<string key="AI_Season_02_Malek_Sandstorm_Tooltip" rel_version="Season_2_Perm">Der Zorn der brennenden Sande fügt dir Schaden zu.</string>
@@ -413,6 +413,8 @@
 	<string key="FoodLumberjackT5_Effect_DisplayName">Holzfällerglück V</string>
 	<string key="PvPArenaDeathFog_MasterName" rel_version="Feature_PVP_Arenas">Flammen des Kampfes</string>
 	<string key="PvPArenaDeathFog_Description" rel_version="Feature_PVP_Arenas">Während du in "Flammen des Kampfes" stehst, verlierst du pro Sekunde 10 % deiner Gesundheit und alle Heilung wird um 99 % verringert.</string>
+	<string key="PvPArenaDeathFog_02_MasterName" rel_version="Feature_PVP_Arenas">Flammen des Kampfes</string>
+	<string key="PvPArenaDeathFog_02_Description" rel_version="Feature_PVP_Arenas">Während du in "Flammen des Kampfes" stehst, verlierst du pro Sekunde 10 % deiner Gesundheit und alle Heilung wird um 99 % verringert.</string>
 	<string key="Mut_Disease_1_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Fäule I</string>
 	<string key="Mut_Disease_2_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Fäule II</string>
 	<string key="Mut_Disease_1_DisplayName" rel_version="Feature_Dungeon_Mutators">Geringe Krankheit</string>
@@ -868,12 +870,12 @@
 	<string key="AI_SandElementalHeavy_Exhaust_T2_ToolTip" rel_version="Territory_Brimstone_Sands">Ausdauerregeneration wird um {[-0.190000 * -100]} % verringert.</string>
 	<string key="AI_SandElemental_Soldier_Vengeance_Rend_DisplayName" rel_version="Territory_Brimstone_Sands">Aufgerissen</string>
 	<string key="AI_SandElemental_Soldier_Vengeance_Rend_Tooltip" rel_version="Territory_Brimstone_Sands">Du erleidest {[10.000000]} Sekunden lang {[-0.200000 * -100]} % mehr Schaden von allen Schadensquellen.</string>
-	<string key="AI_Soulharvester_LeechSlow_DisplayName" rel_version="Season_8_Perm">Life Drain</string>
-	<string key="AI_Soulharvester_LeechSlow_Tooltip" rel_version="Season_8_Perm">Movement speed reduced by {[-0.470000 * -100]}% while in the area of effect.</string>
-	<string key="AI_Soulharvester_MagicVolleySlow_DisplayName" rel_version="Season_8_Perm">Slowing grounds</string>
-	<string key="AI_Soulharvester_MagicVolleySlow_Tooltip" rel_version="Season_8_Perm">Movement speed reduced by {[-0.390000 * -100]}% while in the area of effect.</string>
-	<string key="AI_Soulharvester_LeechDamage_DisplayName" rel_version="Season_8_Perm">Temp name</string>
-	<string key="AI_Soulharvester_LeechDamage_Tooltip" rel_version="Season_8_Perm">Change later.</string>
+	<string key="AI_Soulharvester_LeechSlow_DisplayName" rel_version="AI_Ghastly_Horrors">Life Drain</string>
+	<string key="AI_Soulharvester_LeechSlow_Tooltip" rel_version="AI_Ghastly_Horrors">Movement speed reduced by {[-0.470000 * -100]}% while in the area of effect.</string>
+	<string key="AI_Soulharvester_MagicVolleySlow_DisplayName" rel_version="AI_Ghastly_Horrors">Slowing grounds</string>
+	<string key="AI_Soulharvester_MagicVolleySlow_Tooltip" rel_version="AI_Ghastly_Horrors">Movement speed reduced by {[-0.390000 * -100]}% while in the area of effect.</string>
+	<string key="AI_Soulharvester_LeechDamage_DisplayName" rel_version="AI_Ghastly_Horrors">Temp name</string>
+	<string key="AI_Soulharvester_LeechDamage_Tooltip" rel_version="AI_Ghastly_Horrors">Change later.</string>
 	<string key="AI_AdmiralBrute_Blackpowder_DisplayName" rel_version="Expedition_CutlassKeys_00">Schwarzpulver</string>
 	<string key="AI_AdmiralBrute_Blackpowder_Tooltip" rel_version="Expedition_CutlassKeys_00">Du bist mit Schwarzpulver überzogen. Wenn du durch einen Gegner Feuerschaden erleidest, entzündet sich das Pulver und verursacht eine Verbrennung!</string>
 	<string key="AI_AdmiralBrute_Blackpowder_Burn_DisplayName" rel_version="Expedition_CutlassKeys_00">Schwarzpulverbrand</string>
@@ -1366,7 +1368,7 @@
 	<string key="Cleanse_DisplayName">Läuterung</string>
 	<string key="Cleanse_Tooltip">Entfernt und bietet Immunität gegen Schwächungen.</string>
 	<string key="HasteElixir_DisplayName">Elixier der Hast</string>
-	<string key="HasteElixir_Tooltip">Erhöht die Sprintgeschwindigkeit um {[0.500000 * 100]} %. Endet, wenn du getroffen wirst oder eine beliebige Kampfaktion ausführst.</string>
+	<string key="HasteElixir_Tooltip">Erhöht die Sprintgeschwindigkeit um {[0.400000 * 100]} %. Endet, wenn du getroffen wirst oder eine beliebige Kampfaktion ausführst.</string>
 	<string key="WeaponCoatingEffect_DisplayName">Waffenbeschichtung</string>
 	<string key="WeaponCoatingEffect_Description">Waffenbeschichtungsstatus deiner aktiven Waffe.</string>
 	<string key="WeaponCoatingEffect_T2_Beasts_DisplayName">Gewöhnliche Bestien-Waffenbeschichtung</string>
@@ -1401,8 +1403,8 @@
 	<string key="WeaponCoatingEffect_T4_AngryEarth_Description">Verursache {[AngryEarth=.13 * 100]} % mehr Schaden gegen Zornige Erdkreaturen.</string>
 	<string key="WeaponCoatingEffect_T5_Beasts_DisplayName">Behandelte Bestien-Waffenbeschichtung</string>
 	<string key="WeaponCoatingEffect_T5_Beasts_Description">Verursache {[Beast=.15 * 100]} % mehr Schaden gegen Bestien.</string>
-	<string key="WeaponCoatingEffect_T5_BeastsTurkey_DisplayName" rel_version="Event_TurkeyTerror_Temp">Behandelte Truthahn-Waffenbeschichtung</string>
-	<string key="WeaponCoatingEffect_T5_BeastsTurkey_Description" rel_version="Event_TurkeyTerror_Temp">Verursache zusätzlich 300 % Schaden am Trutalon und 15 % an Bestien.</string>
+	<string key="WeaponCoatingEffect_T5_BeastsTurkey_DisplayName" rel_version="Event_TurkeyTerror_Perm">Behandelte Truthahn-Waffenbeschichtung</string>
+	<string key="WeaponCoatingEffect_T5_BeastsTurkey_Description" rel_version="Event_TurkeyTerror_Perm">Verursache zusätzlich 300 % Schaden am Trutalon und 15 % an Bestien.</string>
 	<string key="WeaponCoatingEffect_T5_Ancient_DisplayName">Behandelte Ahnenwaffenbeschichtung</string>
 	<string key="WeaponCoatingEffect_T5_Ancient_Description">Verursache {[Ancient=.15 * 100]} % mehr Schaden gegen Ahnen.</string>
 	<string key="WeaponCoatingEffect_T5_Lost_DisplayName">Behandelte Verlorenen-Waffenbeschichtung</string>
@@ -1522,6 +1524,7 @@
 	<string key="Status_Recovery">Erholung</string>
 	<string key="Status_Reinforced">Verstärkt</string>
 	<string key="Status_Blessed">Segen</string>
+	<string key="Status_Anointed">Gesalbt</string>
 	<string key="Status_Empower_Description">Du hast einen aktiven Schadenserhöhungs-Bonus.</string>
 	<string key="Status_Invulnerability_Description">Du bist immun gegen Schaden.</string>
 	<string key="Status_Fortify_Description">Du hast einen aktiven Rüstungsbonus.</string>
@@ -1544,6 +1547,7 @@
 	<string key="Status_Heal_Description_Description">Deine Heilungseffekte wirken stärker.</string>
 	<string key="Status_LifeSteal_Description">Solange dieser Effekt aktiv ist, heilt dich zugefügter Schaden.</string>
 	<string key="Status_Blessed_Description">Solange dieser Effekt aktiv ist, ist die gewirkte Heilung erhöht.</string>
+	<string key="Status_Anointed_Description">Solange dieser Effekt aktiv ist, ist die erhaltene Heilung erhöht.</string>
 	<string key="Status_GemPerk_Retaliate_Description">Schadensbonus durch Edelsteineffekt "Vergeltung".</string>
 	<string key="Status_CritChanceReduction">Verringerung der krit. Trefferchance</string>
 	<string key="Status_CritChanceReduction_Description">Solange dieser Effekt aktiv ist, wird deine kritische Trefferchance verringert.</string>
@@ -1554,9 +1558,9 @@
 	<string key="Status_SlowPotencyReduction_AfterDodgeTimer">Gehindert</string>
 	<string key="Status_SlowPotencyReduction_AfterDodgeTimer_Description">Solange dieser Effekt aktiv ist, wird die Wirksamkeit deiner Verlangsamungen durch den Effekt "Ungehindert" nicht verringert.</string>
 	<string key="Status_PoisonDiseaseCombo_Description">Du leidest derzeit unter einem Giftschaden-über-Zeit-Effekt und deine gewirkte Heilung ist verringert.</string>
-	<string key="Status_Upgrade_Bow_EvasiveShot_Haste_description">Dein Bewegungstempo wird um {[0.150000 * 100]} % erhöht.</string>
-	<string key="Status_Passive_Bow_Skirmish_HasteOnSwap_description">Dein Bewegungstempo wird um {[0.100000 * 100]} % erhöht.</string>
-	<string key="Status_Passive_Bow_Skirmish_DodgeHaste_description">Dein Bewegungstempo wird um {[0.100000 * 100]} % erhöht.</string>
+	<string key="Status_Upgrade_Bow_EvasiveShot_Haste_description">Dein Bewegungstempo wird um {[0.120000 * 100]} % erhöht.</string>
+	<string key="Status_Passive_Bow_Skirmish_HasteOnSwap_description">Dein Bewegungstempo wird um {[0.070000 * 100]} % erhöht.</string>
+	<string key="Status_Passive_Bow_Skirmish_DodgeHaste_description">Dein Bewegungstempo wird um {[0.070000 * 100]} % erhöht.</string>
 	<string key="Status_Ultimate_Bow_Skirmish_DodgeDmg_description">Dein Schaden wird um {[0.150000 * 100]} % erhöht.</string>
 	<string key="Status_Passive_Bow_Skirmish_SlowFull_description">Dein Bewegungstempo wird um {[-0.100000 * 100]} % verringert.</string>
 	<string key="Status_Ultimate_Bow_Skirmish_description">Dein Bewegungstempo wird um {[-0.100000 * 100]} % verringert.</string>
@@ -1580,7 +1584,7 @@
 	<string key="Status_Passive_Greataxe_Mauler_ArmorWhenFoesNear_description">Deine Rüstung wird um {[0.200000 * 100]} % erhöht.</string>
 	<string key="Status_Passive_Greataxe_Mauler_StamVsLowHp_Timer_description">Wenn das endet, kann Schlägerentschlossenheit erneut ausgelöst werden.</string>
 	<string key="Hatchet_Berserk_DisplayName">Berserker</string>
-	<string key="Hatchet_Berserk_Description">Berserkermodus für {[12.000000]} Sekunden.</string>
+	<string key="Hatchet_Berserk_Description">Berserkermodus für {[5.000000]} Sekunden.</string>
 	<string key="Status_Berserk_Uninterruptible">Ununterbrechbarer Berserker</string>
 	<string key="Status_Berserk_Uninterruptible_Description">Solange dies aktiv ist, kannst du nicht durch Taumeln und Niederschlagen unterbrochen werden.</string>
 	<string key="Hatchet_Purge_DisplayName">Läutern</string>
@@ -1595,8 +1599,8 @@
 	<string key="Hatchet_ImmortalTimer_Description">Wenn der Timer endet, kann "Dem Tod trotzen" erneut ausgelöst werden.</string>
 	<string key="Hatchet_Pass_3AtkEmpower_Description">Für {[3.000000]} Sekunden {[0.200000 * 100]} % mehr Schaden.</string>
 	<string key="Hatchet_Pass_HeavyEmpower_Description">Für {[5.000000]} Sekunden {[0.150000 * 100]} % mehr Schaden.</string>
-	<string key="Status_SocialDist_Haste_Description">Dein Bewegungstempo wird um {[0.200000 * 100]} % erhöht.</string>
-	<string key="Status_Raging_Haste_Description">Dein Bewegungstempo wird um {[0.200000 * 100]} % erhöht.</string>
+	<string key="Status_SocialDist_Haste_Description">Dein Bewegungstempo wird um {[0.150000 * 100]} % erhöht.</string>
+	<string key="Status_Raging_Haste_Description">Dein Bewegungstempo wird um {[0.150000 * 100]} % erhöht.</string>
 	<string key="Hatchet_Rush_Root_Description">Du bist bewegungsunfähig.</string>
 	<string key="Hatchet_Throw_Rend_Description">Deine Rüstung wird um {[-0.200000 * -100]} % verringert.</string>
 	<string key="Hatchet_Throw_RendBuff_Description">Deine Rüstung wird um {[-0.200000 * -100]} % verringert.</string>
@@ -1608,13 +1612,13 @@
 	<string key="InfectedThrow_Weaken_DisplayName">Geschwächt</string>
 	<string key="InfectedThrow_Weaken_Description">Ausgeteilter Schaden wird um {[-0.100000 * -100]} % verringert.</string>
 	<string key="WarHammer_ArmorBreaker_Rend_Description">Deine Rüstung wird um {[-0.300000 * -100]} % verringert.</string>
-	<string key="WarHammer_Gavel_Haste_Description">Dein Bewegungstempo wird um {[0.300000 * 100]} % erhöht.</string>
+	<string key="WarHammer_Gavel_Haste_Description">Dein Bewegungstempo wird um {[0.200000 * 100]} % erhöht.</string>
 	<string key="WarHammer_HasteOnDebuff_Description">Dein Bewegungstempo wird um {[0.150000 * 100]} % erhöht.</string>
 	<string key="WarHammer_WreckingBall_Forify_Description">Deine Rüstung wird um {[0.200000 * 100]} % erhöht.</string>
 	<string key="WarHammer_HeavyEmpower_Description">Für {[4.000000]} Sekunden {[0.200000 * 100]} % mehr Schaden.</string>
 	<string key="WarHammer_ExhaustOnHit_Description">Die Ausdauerregenerationsrate wird um {[-0.200000 * -100]} % verringert.</string>
 	<string key="WarHammer_ClearOut_Fortify_Description">Deine Rüstung wird um {[0.200000 * 100]} % erhöht.</string>
-	<string key="WarHammer_ClearOut_Haste_Description">Dein Bewegungstempo wird um {[0.300000 * 100]} % erhöht.</string>
+	<string key="WarHammer_ClearOut_Haste_Description">Dein Bewegungstempo wird um {[0.200000 * 100]} % erhöht.</string>
 	<string key="WarHammer_Shockwave_Weaken_Description">Von dir ausgeteilter Schaden wird um {[-0.100000 * 100]} % verringert.</string>
 	<string key="WarHammer_Shockwave_Stun_Description">Betäubt für {[2.000000]} Sekunden. Wird bei erlittenem Schaden entfernt.</string>
 	<string key="WarHammer_Ult_Slow_DisplayName">Nachwirkungen</string>
@@ -1634,12 +1638,12 @@
 	<string key="PowderBurn_DoT_Description">Fügt {[-0.150000 * -100]} % Waffenschaden zu, der für {[7.000000]} Sekunden alle {[1.000000]} Sekunden zu Feuerschaden umgewandelt wird.</string>
 	<string key="PowderBurn_DoT_Extend_DisplayName">Verbrennung</string>
 	<string key="PowderBurn_DoT_Extend_Description">Fügt {[-0.150000 * -100]} % Waffenschaden zu, der für {[13.000000]} Sekunden alle {[1.000000]} Sekunden zu Feuerschaden umgewandelt wird.</string>
-	<string key="Status_DodgeHaste_Description">Dein Bewegungstempo wird nach einem Ausweichen um {[0.100000 * 100]} % erhöht.</string>
+	<string key="Status_DodgeHaste_Description">Dein Bewegungstempo wird nach einem Ausweichen um {[0.070000 * 100]} % erhöht.</string>
 	<string key="Status_NearbyEnemyHaste_Description">Dein Bewegungstempo beim Gehen/seitwärts Bewegen wird um {[0.100000 * 100]} % erhöht, wenn du nahe bei Gegnern bist.</string>
 	<string key="Status_EmpowerHeadshot_Description">Deine Angriffe fügen {[0.100000 * 100]} % mehr Schaden zu.</string>
 	<string key="Status_EmpowerOnDebuff_Description">Deine Angriffe fügen {[0.050000 * 100]} % mehr Schaden zu.</string>
 	<string key="Musket_Status_DMG_EveryADSShot">Gesteigerte Präzision</string>
-	<string key="Musket_Status_DMG_EveryADSShot_Description">Erhöht den Schaden für jeden erfolgreichen Treffer, wenn du über Kimme und Korn zielst, um 2,5 %.</string>
+	<string key="Musket_Status_DMG_EveryADSShot_Description">Erhöht den Schaden für jeden erfolgreichen Schusstreffer um 2,5 %.</string>
 	<string key="ATB_CritOnDodge_DisplayName">Timer für Krit. nach Ausweichen</string>
 	<string key="ATB_CritOnDodge_Description">Nach Ablauf des Timers kannst du den garantierten Attributsbonus für kritischen Treffer nach Ausweichen (300 Geschick) erneut einsetzen.</string>
 	<string key="ATB_DRAtFullHP_DisplayName">Timer für Schadensminderung bei vollen TP</string>
@@ -1675,7 +1679,7 @@
 	<string key="Status_Passive_Firestaff_FireMage_DmgFullMana_description">Dein Schaden wird um {[0.050000 * 100]} % erhöht, wenn dein Manavorrat über 50 % liegt.</string>
 	<string key="Status_Passive_Firestaff_FireMage_DmgNoDmg_Timer_description">Wenn dies abläuft, kannst du "Zauberwirkung entfernen" erhalten.</string>
 	<string key="Status_Passive_Firestaff_FireMage_DmgNoDmg_description">Dein Schaden wird um {[0.050000 * 100]} % erhöht. Dies endet, wenn du Schaden erleidest.</string>
-	<string key="Status_Passive_Firestaff_Pyro_Haste_description">Dein Bewegungstempo wird um {[0.100000 * 100]} % erhöht.</string>
+	<string key="Status_Passive_Firestaff_Pyro_Haste_description">Dein Bewegungstempo wird um {[0.070000 * 100]} % erhöht.</string>
 	<string key="Status_Passive_Firestaff_Pyro_Haste_Timer_description">Wenn dies abläuft, kannst du "Kampfgeschwindigkeit" erneut auslösen.</string>
 	<string key="Status_Passive_Firestaff_Pyro_Ultimate_Timer_description">Wenn dies abläuft, erhältst du Nachbrenner.</string>
 	<string key="Status_Passive_Firestaff_Pyro_Ultimate_description">Du erhältst {[4.000000 * 100]} % Manaregeneration.</string>
@@ -1686,7 +1690,7 @@
 	<string key="Status_Upgrade_Sword_LeapingStrike_Slow_description">Dein Bewegungstempo wird um {[-0.300000 * 100]} % verringert.</string>
 	<string key="Status_Passive_Sword_Swordmaster_DmgOnHeavy_description">Dein Schaden wird um {[0.300000 * 100]} % erhöht.</string>
 	<string key="Status_Passive_Sword_Swordmaster_HasteWhileBlock_description">Dein Bewegungstempo wird beim Blocken um {[0.330000 * 100]} % erhöht.</string>
-	<string key="Status_Passive_Sword_Swordmaster_HasteOnCrit_description">Dein Bewegungstempo wird um {[0.200000 * 100]} % erhöht.</string>
+	<string key="Status_Passive_Sword_Swordmaster_HasteOnCrit_description">Dein Bewegungstempo wird um {[0.150000 * 100]} % erhöht.</string>
 	<string key="Status_Passive_Sword_Defender_FortWhileBlock_description">Deine Rüstung wird um {[0.200000 * 100]} % erhöht.</string>
 	<string key="Status_Passive_Sword_Swordmaster_SlowOnFinal_description">Dein Bewegungstempo wird um {[-0.200000 * 100]} % verringert.</string>
 	<string key="Status_Upgrade_Sword_Rush_Weak_description">Von dir ausgeteilter Schaden wird um {[-0.200000 * 100]} % verringert.</string>
@@ -1708,7 +1712,7 @@
 	<string key="Status_Ability_Lifestaff_SacredGround_description">Du wirst um {[0.160000 * 100]} % des Waffenschadens des Zauberwirkers geheilt.</string>
 	<string key="Status_Ability_Lifestaff_SacredGround_Upgrade_description">Du wirst um {[0.000000 * 100]} % des Waffenschadens des Zauberwirkers geheilt. Du regenerierst Stamina und Mana 100 % schneller.</string>
 	<string key="Status_Ability_Lifestaff_SacredGround_Upgrade2_description">Du wirst um {[0.000000 * 100]} % des Waffenschadens des Zauberwirkers geheilt. Du regenerierst Stamina und Mana 100 % schneller. Du erhältst 20 % mehr Gesundheit von allen Heileffekten.</string>
-	<string key="Status_Upgrade_Lifestaff_Protection_AddHaste_description">Dein Bewegungstempo wird um {[0.200000 * 100]} % erhöht.</string>
+	<string key="Status_Upgrade_Lifestaff_Protection_AddHaste_description">Dein Bewegungstempo wird um {[0.150000 * 100]} % erhöht.</string>
 	<string key="Status_Ability_Lifestaff_Beacon_description">Du wirst um {[0.160000 * 100]} % des Waffenschadens des Zauberwirkers geheilt.</string>
 	<string key="Status_Timer_HealingCDROnLow_Description">Wenn dieser Timer abgelaufen ist, kann "Verzweifeltes Tempo" des Lebensstabs erneut aktiviert werden.</string>
 	<string key="Status_Perk_Amulet_StamOnLow_Timer_description">Wenn dies abläuft, kann die Ausdauererholung deines Amuletts erneut ausgelöst werden.</string>
@@ -1860,6 +1864,12 @@
 	<string key="Status_DodgeStamina_Timer_Description" rel_version="MorePerksV2">Sobald dies endet, kannst du den Effekt Flüchtiger Energieschub erneut auslösen.</string>
 	<string key="Status_GatherProc_Heal" rel_version="MorePerksV2">Sammel-Heilung</string>
 	<string key="Status_GatherProc_Heal_Description" rel_version="MorePerksV2">Gesundheitsregeneration durch den "Sammel-Erholung"-Effekt</string>
+	<string key="Status_BasicBuff" rel_version="Season8Perks">Basisangriff-Bonus</string>
+	<string key="Status_BasicBuff_Description" rel_version="Season8Perks">Der nächste Basisangriff fügt mehr Schaden zu.</string>
+	<string key="Status_AbilityBuff" rel_version="Season8Perks">Fertigkeiten-Bonus</string>
+	<string key="Status_AbilityBuff_Description" rel_version="Season8Perks">Der nächste Fertigkeitentreffer fügt mehr Schaden zu.</string>
+	<string key="Status_Perk_NextHitCrit_MasterName">Nächster Treffer kritisch</string>
+	<string key="Status_Perk_NextHitCrit_Description">Dein nächster Treffer besitzt eine kritische Trefferchance von 100 %.</string>
 	<string key="Status_MothersLove" rel_version="Housing_MothersLove_Memorial">Mutterliebe</string>
 	<string key="Status_MothersLove_Description" rel_version="Housing_MothersLove_Memorial">Du spürst mütterliche Fürsorge, die dein Glück für {[7200.000000 / 60]} m um {[500.000000 * 0.01]} % steigert.</string>
 	<string key="Dungeon_RelicBubble" rel_version="Expedition_ShatterMtn_00">Reliquienschrein</string>
@@ -1957,9 +1967,9 @@
 	<string key="Status_Rune_CannonBlast_Major_Desc">Brennt für {[-0.100000 * -100]} % Runenschaden pro Sekunde.</string>
 	<string key="Status_Rune_Detonate">Explodieren</string>
 	<string key="Status_Rune_Detonate_Desc">Lade dich für {[3.000000]} Sekunden auf und sprenge dich dann, um verheerenden Runenschaden in einem Radius von {[5.000000]} m anzurichten.</string>
-	<string key="Status_Rune_Detonate_Major_Desc">Lade dich für {[3.000000]} Sekunden auf, erhalte {[0.300000 * 100]} % Bewegungstempo und sprenge dich dann, um verheerenden Runenschaden in einem Radius von {[5.000000]} m anzurichten.</string>
-	<string key="Status_Rune_Detonate_Greater_Desc">Lade dich für {[3.000000]} Sekunden auf, erhalte {[0.300000 * 100]} % Bewegungstempo und {[0.150000 * 100]} % erhöhten Schaden und sprenge dich dann, um verringerten Schaden in einem Radius von {[5.000000]} m anzurichten.</string>
-	<string key="Status_Rune_Detonate_Dominator_Desc">Lade dich für {[3.000000]} Sekunden auf, erhalte {[0.300000 * 100]} % Bewegungstempo, aber erleide "Aufgerissen", wodurch die Rüstung bis zur Sprengung, die gewaltigen Runenschaden in einem Radius von {[5.000000]} m anrichtet, um {[-0.500000 * -100]} % verringert wird.</string>
+	<string key="Status_Rune_Detonate_Major_Desc">Lade dich für {[3.000000]} Sekunden auf, erhalte {[0.200000 * 100]} % Bewegungstempo und sprenge dich dann, um verheerenden Runenschaden in einem Radius von {[5.000000]} m anzurichten.</string>
+	<string key="Status_Rune_Detonate_Greater_Desc">Lade dich für {[3.000000]} Sekunden auf, erhalte {[0.200000 * 100]} % Bewegungstempo und {[0.150000 * 100]} % erhöhten Schaden und sprenge dich dann, um verringerten Schaden in einem Radius von {[5.000000]} m anzurichten.</string>
+	<string key="Status_Rune_Detonate_Dominator_Desc">Lade dich für {[3.000000]} Sekunden auf, erhalte {[0.200000 * 100]} % Bewegungstempo, aber erleide "Aufgerissen", wodurch die Rüstung bis zur Sprengung, die gewaltigen Runenschaden in einem Radius von {[5.000000]} m anrichtet, um {[-0.500000 * -100]} % verringert wird.</string>
 	<string key="Status_Rune_GraspingVines_Major_Desc">Ausgeteilter Schaden um {[-0.200000 * -100]} % verringert.</string>
 	<string key="Status_Rune_GraspingVines_Survivor_Desc">Deine Rüstung wird um {[0.200000 * 100]} % erhöht.</string>
 	<string key="Status_Rune_GraspingVines_Dominator_Rend_Desc">Deine Rüstung wird um {[-0.200000 * -100]} % verringert.</string>
@@ -1976,7 +1986,7 @@
 	<string key="Status_FireStorm_Survivor__DoT_Desc" rel_version="Feature_Heartgems_FireStorm">Brennt für {[-0.150000 * -100]} % Herzrunenschaden pro Sekunde.</string>
 	<string key="Status_Rune_FireStorm_Empower_Desc" rel_version="Feature_Heartgems_FireStorm">Erhöht den zugefügten Schaden um {[0.100000 * 100]} %.</string>
 	<string key="Status_FireStorm_Major_Desc" rel_version="Feature_Heartgems_FireStorm">Verringert den zugefügten Schaden um {[-0.150000 * -100]} %.</string>
-	<string key="Status_FireStorm_Greater_Desc" rel_version="Feature_Heartgems_FireStorm">Bewegungstempo um {[0.150000 * 100]} % erhöht.</string>
+	<string key="Status_FireStorm_Greater_Desc" rel_version="Feature_Heartgems_FireStorm">Bewegungstempo um {[0.120000 * 100]} % erhöht.</string>
 	<string key="Status_Rune_Sandworm_Major_Desc" rel_version="Feature_Heartgems_Sandworm">Bewegungstempo um {[-0.200000 * -100]} % verringert.</string>
 	<string key="Status_Sandworm_DoT_Name" rel_version="Feature_Heartgems_Sandworm">Vergiftet</string>
 	<string key="Status_Rune_Sandworm_DoT_Desc" rel_version="Feature_Heartgems_Sandworm">Vergiftet für {[-0.150000 * -100]} % Herzrunenschaden pro Sekunde.</string>
@@ -2025,23 +2035,23 @@
 	<string key="AI_Medusa_Poison_Tooltip" rel_version="Territory_FirstLight">Verursacht Schaden in Höhe von {[-2.5000000000000001E-2 * -100]} % der Gesundheit.</string>
 	<string key="AI_Medusa_Poison_Pool_DisplayName" rel_version="Territory_FirstLight">Medusas Gift</string>
 	<string key="AI_Medusa_Poison_Pool_Tooltip" rel_version="Territory_FirstLight">Verursacht Schaden in Höhe von {[-0.03 * -100]} % der Gesundheit.</string>
-	<string key="AI_Ghastly_Sniper_PhantomShot_Fortify_DisplayName" rel_version="Season_8_Perm">Steady Foothold</string>
-	<string key="AI_Ghastly_Sniper_PhantomShot_Fortify_Description" rel_version="Season_8_Perm">Incoming damage reduced by {[0.300000*100]}% for {[2.000000]} seconds.</string>
-	<string key="AI_Ghastly_Sniper_PhantomShot_Weaken_DisplayName" rel_version="Season_8_Perm">Ghastly Enfeeblement</string>
-	<string key="AI_Ghastly_Sniper_PhantomShot_Weaken_Description" rel_version="Season_8_Perm">Outgoing damage reduced by {[-0.300000*-100]}% for {[8.000000]} seconds.</string>
+	<string key="AI_Ghastly_Sniper_PhantomShot_Fortify_DisplayName" rel_version="AI_Ghastly_Horrors">Steady Foothold</string>
+	<string key="AI_Ghastly_Sniper_PhantomShot_Fortify_Description" rel_version="AI_Ghastly_Horrors">Incoming damage reduced by {[0.300000*100]}% for {[2.000000]} seconds.</string>
+	<string key="AI_Ghastly_Sniper_PhantomShot_Weaken_DisplayName" rel_version="AI_Ghastly_Horrors">Ghastly Enfeeblement</string>
+	<string key="AI_Ghastly_Sniper_PhantomShot_Weaken_Description" rel_version="AI_Ghastly_Horrors">Outgoing damage reduced by {[-0.300000*-100]}% for {[8.000000]} seconds.</string>
 	<string key="PotionBoostIceAbsT3_DisplayName" rel_version="IceAbsorbPot">Eisabsorption I</string>
 	<string key="PotionBoostIceAbsT4_DisplayName" rel_version="IceAbsorbPot">Eisabsorption II</string>
 	<string key="PotionBoostIceAbsT5_DisplayName" rel_version="IceAbsorbPot">Eisabsorption III</string>
 	<string key="PotionBoostIceAbsT3_Tooltip" rel_version="IceAbsorbPot">Erhöht die Eisabsorption um {[0.090000 * 100]} %.</string>
 	<string key="PotionBoostIceAbsT4_Tooltip" rel_version="IceAbsorbPot">Erhöht die Eisabsorption um {[0.120000 * 100]} %.</string>
 	<string key="PotionBoostIceAbsT5_Tooltip" rel_version="IceAbsorbPot">Erhöht die Eisabsorption um {[0.150000 * 100]} %.</string>
-	<string key="AI_MummifiedCorpse_ExhumeLinensRoot_DisplayName" rel_version="Season_8_Perm">Entangled</string>
-	<string key="AI_MummifiedCorpse_ExhumeLinensRoot_Description" rel_version="Season_8_Perm">Caught in a tangle of linens.</string>
-	<string key="AI_MummifiedCorpse_SharedCremationSelf_DisplayName" rel_version="Season_8_Perm">Temp</string>
-	<string key="AI_MummifiedCorpse_SharedCremationSelf_Description" rel_version="Season_8_Perm">Change Later.</string>
+	<string key="AI_MummifiedCorpse_ExhumeLinensRoot_DisplayName" rel_version="AI_Ghastly_Horrors">Entangled</string>
+	<string key="AI_MummifiedCorpse_ExhumeLinensRoot_Description" rel_version="AI_Ghastly_Horrors">Caught in a tangle of linens.</string>
+	<string key="AI_MummifiedCorpse_SharedCremationSelf_DisplayName" rel_version="AI_Ghastly_Horrors">Temp</string>
+	<string key="AI_MummifiedCorpse_SharedCremationSelf_Description" rel_version="AI_Ghastly_Horrors">Change Later.</string>
 	<string key="SporeSickness_Description" rel_version="Territory_FirstLight_Spores">Du bist von Sporen durchdrungen! Nachdem du die Sporen eingeatmet hast, verspürst du ein seltsames Kribbeln. Vielleicht gibt es einen Trank, der dir dagegen hilft.</string>
 	<string key="SporeSickness_MasterName" rel_version="Territory_FirstLight_Spores">Von Sporen durchdrungen</string>
-	<string key="SE_ArtemisBoonPotionD1_T1_Description" rel_version="Territory_FirstLight_Spores">Der konsumierte Trank hält {[1200.000000 / 60]} Minuten an. Nach Betreten der Sporenwolke und sobald du „Von Sporen durchdrungen" bist, verursachst du 12 % mehr Schaden und erhältst {[45.000000]} Sekunden lang mehr Beute von Kreaturen in der Himmelswildnis.</string>
+	<string key="SE_ArtemisBoonPotionD1_T1_Description" rel_version="Territory_FirstLight_Spores">Der konsumierte Trank hält {[1200.000000 / 60]} Minuten an. Nach Betreten der Sporenwolke und sobald du "Von Sporen durchdrungen" bist, verursachst du 12 % mehr Schaden und erhältst {[45.000000]} Sekunden lang mehr Beute von Kreaturen in der Himmelswildnis.</string>
 	<string key="SE_ArtemisBoonPotionD1_T1_MasterName" rel_version="Territory_FirstLight_Spores">Schwacher passiver Effekt des Artemis-Segens</string>
 	<string key="SE_ArtemisBoonPotionD1_T2_Description" rel_version="Territory_FirstLight_Spores">Der konsumierte Trank hält {[1200.000000 / 60]} Minuten an. Nach Betreten der Sporenwolke und sobald du "Von Sporen durchdrungen" bist, verursachst du 15 % mehr Schaden und erhältst {[45.000000]} Sekunden lang mehr Beute von Kreaturen in der Himmelswildnis.</string>
 	<string key="SE_ArtemisBoonPotionD1_T2_MasterName" rel_version="Territory_FirstLight_Spores">Gewöhnlicher passiver Effekt des Artemis-Segens</string>
@@ -2106,12 +2116,12 @@
 	<string key="SE_DemeterBoonSecondaryD5_T5_Description" rel_version="Territory_FirstLight_Spores">Du bist auf die Sporen eingestimmt. Du erleidest weniger Schaden aus allen Quellen und erhältst mehr Rohstoffe von Sporenpflanzen.</string>
 	<string key="SE_DemeterBoonSecondaryD5_T5_MasterName" rel_version="Territory_FirstLight_Spores">Behandelter Effekt des Demeter-Segens.</string>
 	<string key="FirstLightLock_DoT_EffectName_For_DeathRecap" rel_version="Territory_FirstLight">Giftige Sporen</string>
-	<string key="AI_Cryptkeeper_ReaperEmbrace_DisplayName" rel_version="Season_8_Perm">Reaper embrace Effect.</string>
-	<string key="AI_Cryptkeeper_ReaperEmbrace_Description" rel_version="Season_8_Perm">Movement speed reduced by {[-0.500000 * -100]}%.</string>
-	<string key="AI_Cryptkeeper_Tombstone_Root_DisplayName" rel_version="Season_8_Perm">Undead Territory Effect</string>
-	<string key="AI_Cryptkeeper_Tombstone_Root_Description" rel_version="Season_8_Perm">Immobilized for {[1.000000]} second(s).</string>
-	<string key="AI_Cryptkeeper_Tombstone_Fortify_DisplayName" rel_version="Season_8_Perm">AI_Cryptkeeper_Tombstone_Fortify_ModifyLater</string>
-	<string key="AI_Cryptkeeper_Tombstone_Fortify_Description" rel_version="Season_8_Perm">Temp,Change later.</string>
+	<string key="AI_Cryptkeeper_ReaperEmbrace_DisplayName" rel_version="AI_Ghastly_Horrors">Reaper embrace Effect.</string>
+	<string key="AI_Cryptkeeper_ReaperEmbrace_Description" rel_version="AI_Ghastly_Horrors">Movement speed reduced by {[-0.500000 * -100]}%.</string>
+	<string key="AI_Cryptkeeper_Tombstone_Root_DisplayName" rel_version="AI_Ghastly_Horrors">Undead Territory Effect</string>
+	<string key="AI_Cryptkeeper_Tombstone_Root_Description" rel_version="AI_Ghastly_Horrors">Immobilized for {[1.000000]} second(s).</string>
+	<string key="AI_Cryptkeeper_Tombstone_Fortify_DisplayName" rel_version="AI_Ghastly_Horrors">AI_Cryptkeeper_Tombstone_Fortify_ModifyLater</string>
+	<string key="AI_Cryptkeeper_Tombstone_Fortify_Description" rel_version="AI_Ghastly_Horrors">Temp,Change later.</string>
 	<string key="AI_CorruptedLeviathan_IchorBurn_DisplayName" rel_version="Quest_MSQ2_GreatCleave">Sekretbrand</string>
 	<string key="AI_CorruptedLeviathan_IchorBurn_Tooltip" rel_version="Quest_MSQ2_GreatCleave">Du erleidest {[4.000000]} Sekunden lang jede Sekunde {[AfflictionCurse=2]} Punkte Verderbnis.</string>
 	<string key="AI_CorruptedLeviathan_IchorCoating_DisplayName" rel_version="Quest_MSQ2_GreatCleave">Sekretbeschichtung</string>
@@ -2125,8 +2135,8 @@
 	<string key="AI_AbominableLiang_Cowering_DisplayName" rel_version="Quest_MSQ3_Ebonscale">Kauernd</string>
 	<string key="AI_AbominableLiang_Angered_DisplayName" rel_version="Quest_MSQ3_Ebonscale">Wütend</string>
 	<string key="AI_AbominableLiang_Cornered_DisplayName" rel_version="Quest_MSQ3_Ebonscale">In die Enge getrieben</string>
-	<string key="AI_MutatedNurse_Burn_DisplayName" rel_version="Season_8_Perm">Wispfire Burn</string>
-	<string key="AI_MutatedNurse_Burn_Description" rel_version="Season_8_Perm">Deals {[-0.05 * -100]}% base Fire damage every {[0.500000]} seconds for {[5.000000]} seconds.</string>
+	<string key="AI_MutatedNurse_Burn_DisplayName" rel_version="AI_Ghastly_Horrors">Wispfire Burn</string>
+	<string key="AI_MutatedNurse_Burn_Description" rel_version="AI_Ghastly_Horrors">Deals {[-0.05 * -100]}% base Fire damage every {[0.500000]} seconds for {[5.000000]} seconds.</string>
 	<string key="Mammoth_Chain_Lightning_DisplayName" rel_version="Territory_FirstLight">Stromschlag</string>
 	<string key="Mammoth_Chain_Lightning_Tooltip" rel_version="Territory_FirstLight">Fügt einem Verbündeten jede Sekunde für {[10.000000]} Sekunden einen Stromschlag zu.</string>
 	<string key="SE_MeshChange_Adiana_Description" rel_version="Event_Halloween2023_Perm">Um Süßigkeiten zu bekommen, gehe zu Körben mit Leckereien, während du dieses Kostüm trägst.</string>
@@ -2162,12 +2172,12 @@
 	<string key="AI_Hercyne_Broodmother_MushroomInfection_Active_Tooltip" rel_version="Raid_CutlassKeys_00">Ansteckende Pilzinfektion Infektion kann mit Wasser beseitigt werden. Fügt alle {[0.330000]} Sekunden ein klein wenig Naturschaden zu.</string>
 	<string key="AI_Hercyne_Broodmother_PlayerEggResistance_DisplayName" rel_version="Raid_CutlassKeys_00">Eierschalenresistenz</string>
 	<string key="AI_Hercyne_Broodmother_PlayerEggResistance_Tooltip" rel_version="Raid_CutlassKeys_00">Etwas von der Schleimresistenz der Eier hat sich auf dich übertragen. Zersetzender Schleim wird langsam entfernt und seine Dauer verkürzt sich.</string>
-	<string key="AI_FeralGhoul_Weaken_Tooltip" rel_version="Season_8_perm">All damage dealt reduced by 10%.</string>
-	<string key="AI_FeralGhoul_Weaken_DisplayName" rel_version="Season_8_perm">Weakened</string>
-	<string key="AI_FeralGhoul_Disease_Tooltip" rel_version="Season_8_perm">Reduces healing taken by {[0.500000 * -100]}%.</string>
+	<string key="AI_FeralGhoul_Weaken_Tooltip" rel_version="AI_Ghastly_Horrors">All damage dealt reduced by 10%.</string>
+	<string key="AI_FeralGhoul_Weaken_DisplayName" rel_version="AI_Ghastly_Horrors">Weakened</string>
+	<string key="AI_FeralGhoul_Disease_Tooltip" rel_version="AI_Ghastly_Horrors">Reduces healing taken by {[0.500000 * -100]}%.</string>
 	<string key="Dungeon_CrossWorldPugGroup_DisplayName" rel_version="Feature_PUG_Finder">Neue Freunde</string>
 	<string key="Dungeon_CrossWorldPugGroup_Description" rel_version="Feature_PUG_Finder">Per weltübergreifender Spielsuche erstellte PvE-Gruppen erhalten:\n\n+{[0.000000 *100]} % Gesundheit\n+{[0.150000 *100]} % Schaden\n+{[ *100]} % geleistete Heilung</string>
-	<string key="AI_FeralGhoul_Disease_DisplayName" rel_version="Season_8_perm">Disease</string>
+	<string key="AI_FeralGhoul_Disease_DisplayName" rel_version="AI_Ghastly_Horrors">Disease</string>
 	<string key="Mammoth_Boss_IceStorm_Slow_Tooltip" rel_version="Territory_FirstLight">Das Bewegungstempo wird pro Stapel um {[-0.050000 * -100]} % verringert.</string>
 	<string key="Mammoth_Boss_IceStorm_Slow_DisplayName" rel_version="Territory_FirstLight">Verlangsamt</string>
 	<string key="Chameleon_Sticky_Slow_6sec_DisplayName" rel_version="Territory_FirstLight">Klebrig</string>
@@ -2182,6 +2192,13 @@
 	<string key="Status_Phoenix_Burn_Desc">Die Rache des Phönix’ wird dich töten, wenn du nicht zuerst tötest.</string>
 	<string key="IceMagic_Artifact_Freeze_DisplayName">Frostbrand</string>
 	<string key="IceMagic_Artifact_Freeze_Description">Solange dieser Effekt aktiv ist, wirst du verlangsamt und erleidest nach und nach Eisschaden.</string>
+	<string key="Status_Artifact_Sword_AIDmgRed_DisplayName" rel_version="Feature_Artifacts_S8">Schadensminderung von NPC-Gegnern</string>
+	<string key="Status_Artifact_Sword_AIDmgRed_Description" rel_version="Feature_Artifacts_S8">Solange das aktiv ist, wird der Basisschaden von angreifenden NPC-Gegnern verringert.</string>
+	<string key="Status_Artifact_Shield_TankAura_Name" rel_version="Feature_Artifacts_S8">Tank-Aura</string>
+	<string key="Status_Artifact_Shield_TankAura_Desc" rel_version="Feature_Artifacts_S8">Alle Verbündeten in deiner Umgebung erhalten Schadensabsorption und du erhältst erhöhte Heilung. Allerdings erleidest du auch erhöhten Schaden.</string>
+	<string key="Status_DoT_Corrosion" rel_version="Feature_Artifacts_S8">Korrosion</string>
+	<string key="Status_DoT_Corrosion_Description" rel_version="Feature_Artifacts_S8">Fügt jede Sekunde Unheilsschaden zu, solange der Effekt aktiv ist.</string>
+	<string key="Status_Perk_Artifact_Set2_LightHands_Cooldown_Description" rel_version="Feature_Artifacts_S8">Läuft das ab, kann der Fluch-Effekt auf dem Lich-Handschuhe-Artefakt erneut ausgelöst werden.</string>
 	<string key="Raid_CutlassKeys00_MushroomInfection_Dormant_Name" rel_version="Raid_CutlassKeys_00">Ruhende Pilzinfektion</string>
 	<string key="Raid_CutlassKeys00_MushroomInfection_Dormant_Desc" rel_version="Raid_CutlassKeys_00">Mit Sporen infiziert. Die Infektion aktiviert sich bei {[20.000000]} Stapeln, wenn sie nicht mit Wasser abgewaschen wird. Fügt alle {[3.000000]} Sekunden Schaden in Höhe von {[-0.005000 * -100]} % der Gesundheit zu.</string>
 	<string key="Raid_CutlassKeys00_MushroomInfection_Active_Name" rel_version="Raid_CutlassKeys_00">Aktive Pilzinfektion</string>
@@ -2207,9 +2224,9 @@
 	<string key="AI_EchidnaRend_20s_DisplayName" rel_version="Raid_CutlassKeys_00">Aufgerissen</string>
 	<string key="AI_EchidnaRend_20s_Tooltip" rel_version="Raid_CutlassKeys_00">Du erleidest {[20.000000]} Sekunden lang {[-0.100000 * -100]} % mehr Schaden von allen Schadensquellen.</string>
 	<string key="Status_PotionRecharge_Name">Anschwellender Trank</string>
-	<string key="Status_PotionRecharge_Desc">Dein nächster Heiltrank lädt sich sofort wieder auf.</string>
+	<string key="Status_PotionRecharge_Desc">Dein nächster Überlebenstrank lädt sich sofort wieder auf.</string>
 	<string key="Dungeon_Medusa_Statue_Gaze_Root_DisplayName" rel_version="Raid_CutlassKeys_00">Versteinert</string>
-	<string key="Dungeon_Medusa_Statue_Gaze_Root_Description" rel_version="Raid_CutlassKeys_00">Verursacht Schaden in Höhe von {[-0.200000 * -100]} % der Geschwindigkeit und verlangsamt das Bewegungstempo um {[-1.000000 * -100]} % für {[8.000000]} Sekunden.</string>
+	<string key="Dungeon_Medusa_Statue_Gaze_Root_Description" rel_version="Raid_CutlassKeys_00">Verursacht Schaden in Höhe von {[-0.200000 * -100]} % der Geschwindigkeit und verlangsamt das Bewegungstempo um {[-1 * -100]} % für {[8.000000]} Sekunden.</string>
 	<string key="AI_Corrupted_FirstMate_AnchorSlam_AOE_Enemy_DisplayName" rel_version="ConsoleLaunch">Aufwallende Verderbnis</string>
 	<string key="AI_Corrupted_FirstMate_AnchorSlam_AOE_Enemy_Tooltip" rel_version="ConsoleLaunch">Du erleidest alle {[1.000000]} Sekunden Verderbnisschaden in Höhe von {[-0.05 * -100]} % der Gesundheit.</string>
 	<string key="AI_Corrupted_FirstMate_AnchorSlam_AOE_Friendly_DisplayName" rel_version="ConsoleLaunch">Verstärkende Verderbnis</string>
@@ -2226,11 +2243,11 @@
 	<string key="AI_Torso_Boss_Attack_Rend_Tooltip" rel_version="ConsoleLaunch">Du erleidest {[20.000000]} Sekunden lang pro Steigerung {[-0.100000 * -100]} % mehr Schaden von allen Schadensquellen.</string>
 	<string key="AI_Torso_Boss_Laser_Rend_DisplayName" rel_version="ConsoleLaunch">Auge der Ahnen</string>
 	<string key="AI_Torso_Boss_Laser_Rend_Tooltip" rel_version="ConsoleLaunch">Du erleidest {[15.000000]} Sekunden lang {[-0.200000 * -100]} % mehr Arkanschaden pro Stapel.</string>
-	<string key="CommonBlank"/>
-	<string key="Status_Flail_Slam_Lifesteal_Tracker_Description"/>
-	<string key="Status_Flail_Slam_Lifesteal_Tracker_Displayname">Timer </string>
-	<string key="Status_Flail_BlockingHit_DurStack_Description"/>
-	<string key="Status_Flail_BlockingHit_DurStack_DisplayName">Timer </string>
+	<string key="CommonBlank" xsi:nil="true"/>
+	<string key="Status_Flail_Slam_Lifesteal_Tracker_Description" xsi:nil="true"/>
+	<string key="Status_Flail_Slam_Lifesteal_Tracker_Displayname">Timer</string>
+	<string key="Status_Flail_BlockingHit_DurStack_Description" xsi:nil="true"/>
+	<string key="Status_Flail_BlockingHit_DurStack_DisplayName">Timer</string>
 	<string key="AI_Silence_6sec_DisplayName" rel_version="ConsoleLaunch">Stille</string>
 	<string key="AI_Silence_6sec_Tooltip" rel_version="ConsoleLaunch">Du kannst Fertigkeiten für {[6.000000]} Sekunden nicht einsetzen.</string>
 	<string key="Root_Forever_DisplayName" rel_version="ConsoleLaunch">Festgesetzt</string>
@@ -2270,44 +2287,39 @@
 	<string key="FoodMacOMal_Effect_Name" rel_version="Season_7_Perm">Du bist dran!</string>
 	<string key="FoodMacOMal_Effect_Desc" rel_version="Season_7_Perm">Tick, du bist dran! Ticke einen anderen an, damit er dran ist. Nur effektiv, wenn für PvP markiert.\n\nKeine weiteren Effekte.</string>
 	<string key="FoodMacOMal_EXP_Desc" rel_version="Season_7_Perm">Erhöht verdienten Gebiets- und Fraktionsruf um 15 %.</string>
-	<string key="AI_RW_Siege_Pool_Invulnerability_DisplayName">Unverwundbar</string>
-	<string key="PvPArenaDeathFog_02_MasterName">Flammen des Kampfes</string>
-	<string key="Status_SeasonalServer_DeathCount_3_DisplayName">3 Tode angesammelt</string>
-	<string key="Status_SeasonalServer_DeathCount_1_DisplayName">1 Tod angesammelt</string>
-	<string key="Status_SeasonalServer_DeathCount_DisplayName">Angesammelte Tode</string>
-	<string key="Mammoth_FL_Mahantaram_MagmaBurn_DisplayName">Verbrannte Erde</string>
-	<string key="AI_WorldBoss_Mammoth_FL_Mahantaram_Title_DisplayName">Ewigwährender Bestienfürst</string>
-	<string key="Status_SeasonalServer_DeathCount_Description">Die Anzahl, wie oft der Charakter gestorben ist.</string>
-	<string key="Status_AbilityBuff">Fertigkeiten-Bonus</string>
-	<string key="Status_SeasonalServer_DeathCount_6_Description">6 Tode angesammelt</string>
-	<string key="AI_WorldBoss_Empress_Title_DisplayName">Kaiserin der Welt</string>
-	<string key="Status_SeasonalServer_DeathCount_5_Description">5 Tode angesammelt</string>
-	<string key="AI_SirenQueen_Sleepy_Tooltip">Du schläfst für 5 Sekunden, wenn du nicht von etwas getroffen wirst.</string>
-	<string key="Status_SeasonalServer_DeathCount_3_Description">3 Tode angesammelt</string>
-	<string key="AI_WorldBoss_AdmiralBrute_Title_DisplayName">Tödliche Anlandung</string>
-	<string key="Status_SeasonalServer_DeathCount_6_DisplayName">6 Tode angesammelt</string>
-	<string key="Status_SeasonalServer_DeathCount_2_Description">2 Tode angesammelt</string>
-	<string key="Status_SeasonalServer_DeathCount_1_Description">1 Tod angesammelt</string>
-	<string key="AI_RW_Siege_Pool_Thornslashing_DisplayName">Wallbrecher</string>
-	<string key="Status_SeasonalServer_DeathCount_2_DisplayName">2 Tode angesammelt</string>
-	<string key="AI_SirenQueen_Asleep_Tooltip">ZZZZZZZ</string>
-	<string key="Mammoth_FL_Mahantaram_MagmaBurn_Tooltip">Verursacht {[10.000000]} Sekunden lang alle {[2.000000]} Sekunden Verbrennung in Form von Feuerschaden pro Stapel in Höhe von {[-0.05 * -100]} % des Basisschadens.</string>
-	<string key="AI_WorldBoss_Anubian_Lotus_Scarab_Title_DisplayName">Das wiedergeborene Licht</string>
-	<string key="Status_SeasonalServer_DeathCount_4_Description">4 Tode angesammelt</string>
-	<string key="Status_BasicBuff_Description">Der nächste Basisangriff fügt mehr Schaden zu.</string>
-	<string key="AI_WorldBoss_FireNaga_Title_DisplayName">Herz der Schmiede</string>
-	<string key="Status_AbilityBuff_Description">Der nächste Fertigkeitentreffer fügt mehr Schaden zu.</string>
-	<string key="AI_SirenQueen_Sleepy_DisplayName">Lied der Sirene</string>
-	<string key="Status_SeasonalServer_DeathCount_4_DisplayName">4 Tode angesammelt</string>
-	<string key="AI_SirenQueen_Asleep_DisplayName">Schlafend</string>
-	<string key="Status_BasicBuff">Basisangriff-Bonus</string>
-	<string key="Status_SeasonalServer_DeathCount_5_DisplayName">5 Tode angesammelt</string>
-	<string key="Status_Perk_Artifact_Set2_LightHands_Cooldown_Description">Läuft das ab, kann der Fluch-Effekt auf dem Lich-Handschuhe-Artefakt erneut ausgelöst werden.</string>
+	<string key="Status_SeasonalServer_DeathCount_1_DisplayName" rel_version="Season_8_Perm">1 Tod angesammelt</string>
+	<string key="Status_SeasonalServer_DeathCount_1_Description" rel_version="Season_8_Perm">1 Tod angesammelt</string>
+	<string key="Status_SeasonalServer_DeathCount_2_DisplayName" rel_version="Season_8_Perm">2 Tode angesammelt</string>
+	<string key="Status_SeasonalServer_DeathCount_2_Description" rel_version="Season_8_Perm">2 Tode angesammelt</string>
+	<string key="Status_SeasonalServer_DeathCount_3_DisplayName" rel_version="Season_8_Perm">3 Tode angesammelt</string>
+	<string key="Status_SeasonalServer_DeathCount_3_Description" rel_version="Season_8_Perm">3 Tode angesammelt</string>
+	<string key="Status_SeasonalServer_DeathCount_4_DisplayName" rel_version="Season_8_Perm">4 Tode angesammelt</string>
+	<string key="Status_SeasonalServer_DeathCount_4_Description" rel_version="Season_8_Perm">4 Tode angesammelt</string>
+	<string key="Status_SeasonalServer_DeathCount_5_DisplayName" rel_version="Season_8_Perm">5 Tode angesammelt</string>
+	<string key="Status_SeasonalServer_DeathCount_5_Description" rel_version="Season_8_Perm">5 Tode angesammelt</string>
+	<string key="Status_SeasonalServer_DeathCount_6_DisplayName" rel_version="Season_8_Perm">6 Tode angesammelt</string>
+	<string key="Status_SeasonalServer_DeathCount_6_Description" rel_version="Season_8_Perm">6 Tode angesammelt</string>
+	<string key="Status_SeasonalServer_DeathCount_DisplayName" rel_version="Season_8_Perm">Angesammelte Tode</string>
+	<string key="Status_SeasonalServer_DeathCount_Description" rel_version="Season_8_Perm">Die Anzahl, wie oft der Charakter gestorben ist.</string>
+	<string key="FFA_PvP_Curse_DisplayName" rel_version="Feature_FFA_PVP_Curse">Fluch des Tunichtguts</string>
+	<string key="FFA_PvP_Curse_Tooltip" rel_version="Feature_FFA_PVP_Curse">Für jeden Stapel des Fluchs erhöht sich dein erlittener Schaden von anderen Spielern um &lt;font face="lyshineui/fonts/Nimbus_SemiBold.font" color="#edc63e"&gt;{[Player=-0.3 * -100]} %&lt;/font&gt; und du fügst anderen Spielern &lt;font face="lyshineui/fonts/Nimbus_SemiBold.font" color="#edc63e"&gt;{[Player=-0.06 * -100]} %&lt;/font&gt; weniger Schaden zu.\n\nUm den Fluch schnell wieder loszuwerden, musst du andere Spieler in der freien PvP-Zone töten. Wenn du dich in der Zone von anderen Spielern fernhältst oder dich außerhalb der Zone aufhältst, verfällt er langsam.</string>
+	<string key="AI_SirenQueen_Sleepy_DisplayName" rel_version="Season_8_Perm">Lied der Sirene</string>
+	<string key="AI_SirenQueen_Sleepy_Tooltip" rel_version="Season_8_Perm">Du schläfst für 5 Sekunden, wenn du nicht von etwas getroffen wirst.</string>
+	<string key="AI_SirenQueen_Asleep_DisplayName" rel_version="Season_8_Perm">Schlafend</string>
+	<string key="AI_SirenQueen_Asleep_Tooltip" rel_version="Season_8_Perm">ZZZZZZZ</string>
+	<string key="AI_WorldBoss_Anubian_Lotus_Scarab_Title_DisplayName" rel_version="Season_8_Perm">Das wiedergeborene Licht</string>
+	<string key="AI_WorldBoss_Mammoth_FL_Mahantaram_Title_DisplayName" rel_version="Season_8_Perm">Ewigwährender Bestienfürst</string>
+	<string key="AI_WorldBoss_Empress_Title_DisplayName" rel_version="Season_8_Perm">Kaiserin der Welt</string>
+	<string key="AI_WorldBoss_FireNaga_Title_DisplayName" rel_version="Season_8_Perm">Herz der Schmiede</string>
+	<string key="AI_WorldBoss_AdmiralBrute_Title_DisplayName" rel_version="Season_8_Perm">Tödliche Anlandung</string>
+	<string key="Mammoth_FL_Mahantaram_MagmaBurn_DisplayName" rel_version="Season_8_Perm">Verbrannte Erde</string>
+	<string key="Mammoth_FL_Mahantaram_MagmaBurn_Tooltip" rel_version="Season_8_Perm">Verursacht {[10.000000]} Sekunden lang alle {[2.000000]} Sekunden Verbrennung in Form von Feuerschaden pro Stapel in Höhe von {[-0.05 * -100]} % des Basisschadens.</string>
+	<string key="AI_RW_Siege_Pool_Thornslashing_DisplayName" rel_version="Season_8_Perm">Wallbrecher</string>
+	<string key="AI_RW_Siege_Pool_Invulnerability_DisplayName" rel_version="Season_8_Perm">Unverwundbar</string>
 	<string key="ctf_flag_carrier_debuff_icon_name" rel_version="Gamemode_CTF">Du hast die Fahne!</string>
-	<string key="Status_DoT_Corrosion">Korrosion</string>
 	<string key="ctf_flag_carrier_debuff_icon_desc" rel_version="Gamemode_CTF">Du trägst jetzt die Fahne! Du bist anfälliger für Gegnerangriffe und erhältst weniger Heilung.</string>
 	<string key="CTF_Powerup_Damage_Empower_Name" rel_version="Gamemode_CTF">Angriff-Verstärkung</string>
-	<string key="CTF_Powerup_Damage_Empower_Desc" rel_version="Gamemode_CTF">Erhalte {[0.200000 * 100]} mit allen Schadenstypen % Ermächtigung für {[30.000000]} Sekunden.  </string>
+	<string key="CTF_Powerup_Damage_Empower_Desc" rel_version="Gamemode_CTF">Erhalte {[0.200000 * 100]} mit allen Schadenstypen % Ermächtigung für {[25.000000]} Sekunden.  </string>
 	<string key="CTF_Powerup_Speed_Name" rel_version="Gamemode_CTF">Hast-Verstärkung</string>
 	<string key="CTF_Powerup_Speed_Desc" rel_version="Gamemode_CTF">Erhalte {[0.500000 * 100]}% Geschwindigkeit für {[7.000000]} Sekunden.</string>
 	<string key="CTF_Powerup_Healing_Name" rel_version="Gamemode_CTF">Gesundheit-Verstärkung</string>

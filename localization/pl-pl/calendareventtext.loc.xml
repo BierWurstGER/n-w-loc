@@ -10,6 +10,12 @@
 	<string key="ui_event_rules">Szczegóły wydarzenia</string>
 	<string key="ui_event_progress_name">Reputacja w wydarzeniu</string>
 	<string key="ui_event_summer_progress_name" rel_version="Event_Summer_Perm">Reputacja w wydarzeniu</string>
+	<string key="ui_event_summer_rank_0" rel_version="Event_Summer_Temp">Minstrel</string>
+	<string key="ui_event_summer_rank_1" rel_version="Event_Summer_Temp">Troubadour</string>
+	<string key="ui_event_summer_rank_2" rel_version="Event_Summer_Temp">Bard</string>
+	<string key="ui_event_summer_rank_3" rel_version="Event_Summer_Temp">Virtuoso</string>
+	<string key="ui_event_summer_rank_4" rel_version="Event_Summer_Temp">Maestro</string>
+	<string key="ui_event_summer_shop_header" rel_version="Event_Summer_Temp">Summer Medleyfaire Shop</string>
 	<string key="ui_event_halloween_progress_name" rel_version="Event_Halloween_Perm">Reputacja w wydarzeniu</string>
 	<string key="ui_event_spring_progress_name" rel_version="Event_SpringtideBloom_Perm">Reputacja w wydarzeniu</string>
 	<string key="ui_news_store_tabname">Sklep</string>
@@ -83,9 +89,6 @@
 	<string key="ui_event_console_beta_preorder_news_bullet_azoth_stalker">Azothowy Prześladowca</string>
 	<string key="ui_event_console_beta_preorder_news_bullet_mount_skins_deluxe">Skórki wierzchowców\n(Deluxe)</string>
 	<string key="ui_event_console_beta_preorder_news_bullet_armor_skins_deluxe">Skórki pancerzy\n(Deluxe)</string>
-	<string key="ui_event_season_seven_title" rel_version="Season_7_Perm">Sezon zdobywców</string>
-	<string key="ui_event_season_seven_description" rel_version="Season_7_Perm">Zacznij od początku i zawalcz o dominację na unikalnym sezonowym serwerze, na którym promowana jest rywalizacja gracz kontra gracz. Zdobądź nowe artefakty, skórki i nie tylko na ścieżce nagród sezonu zdobywców.</string>
-	<string key="ui_event_season_seven_about" comment="DO NOT TRANSLATE" rel_version="Season_7_Perm">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; About Season 7 Placeholder</string>
 	<string key="ui_news_rise_of_the_angry_earth_expansion_title">Odkryj wszystko, co ma do zaoferowania Aeternum</string>
 	<string key="ui_news_rise_of_the_angry_earth_expansion_description">Zdobądź pełne doświadczenie New World: Aeternum.\n\nGracze na komputerach, którzy posiadają rozszerzenie Powstanie wściekłej ziemi, uzyskają dostęp do wszystkich funkcji New World: Aeternum, w tym głównych dodatków, takich jak:</string>
 	<string key="ui_news_rise_of_the_angry_earth_expansion_about">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Informacje o "Powstaniu wściekłej ziemi"</string>
@@ -108,40 +111,5 @@
 	<string key="ui_event_thick_as_thieves_title" rel_version="Entitlements_ThickThieves">Nierozłączni</string>
 	<string key="ui_event_thick_as_thieves_description" rel_version="Entitlements_ThickThieves">Tylko najbardziej zaufani wkraczają między cienie. Tylko najlepsi wychodzą stamtąd bez szwanku. Włóż ubiór stworzony dla tych, którzy są nierozłączni. Dostępna jest nowa, nierozłączna zawartość!</string>
 	<string key="ui_event_thick_as_thieves_about" rel_version="Entitlements_ThickThieves">Informacje o nierozłącznych</string>
-	<string key="ui_event_legacy_of_crassus_title">Dziedzictwo Krassusa</string>
-	<string key="ui_event_legacy_of_crassus_description">Krassus powraca, a wraz z nim jego potworny legion! Zbierz swą armię i walcz z brutalnymi kapitanami Decimusem i Lukanem w Lśniącej Kniei, Żałobnicy, Czarnej Łusce i na Tkackich Mokradłach. Odeprzyj rzymski najazd i zwalcz mroczny chwyt skażenia w imię honoru, chwały i ograniczonych czasowo nagród!</string>
-	<string key="ui_event_legacy_of_crassus_bullet1">Kilof legionu</string>
-	<string key="ui_event_legacy_of_crassus_bullet2">Posąg Decimusa</string>
-	<string key="ui_event_legacy_of_crassus_bullet3">Posąg Lukana</string>
-	<string key="ui_event_legacy_of_crassus_about">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; O Dziedzictwie Krassusa</string>
-	<string key="ui_event_rabbits_revenge_title">Królicza zemsta!</string>
-	<string key="ui_event_rabbits_revenge_description">Skażone króliki rozpanoszyły się po całym Aeternum! Wypleń te skażone bestie i zgarnij dzikie nagrody.</string>
-	<string key="ui_event_rabbits_revenge_about">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Informacje o Króliczej zemście</string>
-	<string key="ui_event_summer_medleyfaire_title">Festiwal Składanek obiecuje prawdziwą zabawę!</string>
-	<string key="ui_event_summer_medleyfaire_description">Letni festiwal Aeternum powraca! Odblokuj nową melodię, wykonując aktywności wydarzenia. Szarp za struny, by zdobyć żetony Festiwalu Składanek i nowy tytuł. Świętuj na terenie festiwalu w Urwiskach Monarchy, Jesieniowieczni, Lśniącej Kniei i Tkackich Mokradłach.</string>
-	<string key="ui_event_summer_medleyfaire_bullet1">Kapelusz maestro</string>
-	<string key="ui_event_summer_medleyfaire_about">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Informacje o Festiwalu Składanek</string>
-	<string key="ui_event_fury_of_the_spriggan_title">Gniew Spriggana</string>
-	<string key="ui_event_fury_of_the_spriggan_description">Enneada została aktywowana, a istoty wściekłej ziemi powstają na całym Aeternum! Przerwij ich rytuały mające na cele zbudzenie gniewnych sprigganów. Zdobądź unikalne dzienne nagrody, kładąc kres tym plugawym rytuałom w Lśniącej Kniei, na Tkackich Mokradłach, w Żałobnicy i w Czarnej Łusce.</string>
-	<string key="ui_event_fury_of_the_spriggan_bullet1">Dzienne elementy pancerza</string>
-	<string key="ui_event_fury_of_the_spriggan_bullet2">Dzienna broń</string>
-	<string key="ui_event_fury_of_the_spriggan_about">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Informacje o Gniewie Spriggana</string>
-	<string key="ui_event_siege_of_sulfur_title">Siarkowe Oblężenie</string>
-	<string key="ui_event_siege_of_sulfur_description">Magowie Krwi Pustyni Szarifa są atakowani! Podczas transportu cennych jaj Piaskala do bezpiecznych miejsc wokół Aeternum magowie ci zostali zaatakowani przez siły Adiany. Rozwścieczone siarkowe żywiołaki próbują zniszczyć jaja i wyeliminować Piaskale z Aeternum. Zachrań jaja i zdobądź cenne nagrody, w tym potężne wyposażenie, produkt domowy Jajo Piaskala i kapelusz małego Piaskala Pożeracza.</string>
-	<string key="ui_event_siege_of_sulfur_bullet1">Kapelusz Piaskala</string>
-	<string key="ui_event_siege_of_sulfur_bullet2">Jajko</string>
-	<string key="ui_event_siege_of_sulfur_about">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; O Siarkowym Oblężeniu</string>
-	<string key="ui_event_nightveil_hallow_title">Święto nocnego całunu</string>
-	<string key="ui_event_nightveil_hallow_description">Święto nocnego całunu powraca wraz z kolejnym powstaniem Baalfazu, Markiza Grozy! Wygnajcie tajemniczego demona z powrotem w mrok, a następnie świętujcie swoje zwycięstwo, przebierając się w niepowtarzalne kostiumy i robiąc psikusy, by zdobyć nowe cukierkowe nagrody w domach całego Aeternum!</string>
-	<string key="ui_event_nightveil_hallow_about">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Święto nocnego całunu</string>
-	<string key="ui_event_turkulon_title">Powrót Turkulona!</string>
-	<string key="ui_event_turkulon_description">Nieprzyjemny bażant wykluł się ponownie na wyspach Aeternum! Zabij tę plugawą bestię, aby otrzymać mnóstwo nowych i powracających nagród, w tym zupełnie nową skórkę kiścienia Udka śmierci! Mielenie drobiu jeszcze nigdy nie było tak doskonałe.</string>
-	<string key="ui_event_turkulon_about">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; O Powrocie Turkulona  </string>
-	<string key="ui_event_turkulon_bullet1">Skórka młota bojowego</string>
-	<string key="ui_event_turkulon_bullet2">Skórka kiścienia</string>
-	<string key="ui_event_turkulon_bullet3">Turkuless – przedmiot domowy</string>
-	<string key="ui_event_winter_convergence_title">Zimowa Konwergencja</string>
-	<string key="ui_event_winter_convergence_description">Zimowy Wojownik i jego lodowe sługusy ponownie wylądowali na Aeternum, a wraz z nimi mrożąca krew w żyłach groźba wiecznej zimy! Zbierz znajomych i wspólnie wnieście nieco ciepła i radości Konwergencji, by zwalczyć dotkliwy mróz, a następnie poszukajcie wesołego Zimowego Wędrowca w zimowych wioskach całego Aeternum, by zdobyć cenne i ograniczone czasowo nagrody!</string>
-	<string key="ui_event_winter_convergence_about">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; O Zimowej Konwergencji</string>
 </resources>
 

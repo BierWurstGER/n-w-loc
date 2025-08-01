@@ -344,8 +344,8 @@
 	<string key="objective_encounter_stage7">Etapa 7:</string>
 	<string key="objective_encounter_stage8">Etapa 8:</string>
 	<string key="objective_encounter_stage9">Etapa 9:</string>
-	<string key="objective_artifact_equip_to_view" rel_version="Feature_Artifacts">Equipa el artefacto para ver los objetivos.</string>
-	<string key="objective_artifact_max_reminder" rel_version="Feature_Artifacts">Hay demasiados objetivos de artefactos en progreso. Abandona uno existente para iniciar otro.</string>
+	<string key="objective_artifact_equip_to_view" rel_version="Feature_Artifacts">Equípalo para ver la tarea.</string>
+	<string key="objective_artifact_max_reminder" rel_version="Feature_Artifacts">Hay demasiadas tareas de artefacto en progreso. Abandona uno existente para iniciar otro.</string>
 	<string key="objective_artifact_equip_reminder" rel_version="Feature_Artifacts">Cuando está equipado:</string>
 	<string key="Objective_Artifact_PerkTasks" rel_version="Feature_Expansion_1">Cada tarea desbloquea un beneficio</string>
 	<string key="Objective_Artifact_Desc" rel_version="Feature_Expansion_1">Completa lo siguiente:</string>
@@ -401,7 +401,7 @@
 	<string key="Objective_Kill_Tempest" rel_version="Feature_Expansion_1">Derrota a {targetName} en el Corazón de la Tempestad</string>
 	<string key="Objective_Kill_Lazarus" rel_version="Feature_Expansion_1">Derrota a {targetName} en El instrumento de Lázaro</string>
 	<string key="Objective_Kill_Ennead" rel_version="Feature_Expansion_1">Derrota a {targetName} en La Enéada</string>
-	<string key="Objective_Kill_Starstone" rel_version="Feature_Expansion_1">Derrota a {targetName} en Túmulos de piedraestelar</string>
+	<string key="Objective_Kill_Starstone" rel_version="Feature_Expansion_1">Derrota a {targetName} en Las carretillas de piedra de estrellas</string>
 	<string key="Objective_Kill_Empyean" rel_version="Feature_Expansion_1">Derrota a los enemigos {targetName} en la Forja Empírea</string>
 	<string key="Objective_Kill_Named_Empyean" rel_version="Feature_Expansion_1">Derrota a {targetName} en la Forja Empírea</string>
 	<string key="Objective_Kill_GlacialTarn" rel_version="Feature_Artifacts_Set2">Derrota a los enemigos {targetName} en el Lago Glacial</string>
@@ -423,34 +423,37 @@
 	<string key="Objective_Artifact_Set2_HeavyChest" rel_version="Feature_Artifacts_S6">Artefacto: Abrigo de sobreviviente</string>
 	<string key="Objective_Artifact_Set2_HeavyHands" rel_version="Feature_Artifacts_S5">Artefacto: Manoplas de gravedad de Gilli</string>
 	<string key="Objective_Artifact_Set2_HeavyLegs" rel_version="Feature_Artifacts_S5">Artefacto: Corazón de hierro</string>
-	<string key="Objective_Artifact_Set2_HeavyFeet" rel_version="UNSCHEDULED">Artefacto: Grebas rúnicas</string>
-	<string key="Objective_Artifact_Set2_MediumHead" rel_version="UNSCHEDULED">Artefacto: Corona antigua</string>
+	<string key="Objective_Artifact_Set2_HeavyFeet" rel_version="Feature_Artifacts_S8">Artefacto: Grebas rúnicas</string>
+	<string key="Objective_Artifact_Set2_MediumHead" rel_version="Feature_Artifacts_S8">Artefacto: Corona antigua</string>
 	<string key="Objective_Artifact_Set2_MediumChest" rel_version="Feature_Artifacts_S5">Artefacto: Ira de la naturaleza</string>
 	<string key="Objective_Artifact_Set2_MediumHands" rel_version="Feature_Artifacts_S6">Artefacto: Toque fantasmal</string>
 	<string key="Objective_Artifact_Set2_MediumLegs" rel_version="Feature_Artifacts_S6">Artefacto: Conductores de Azoth</string>
 	<string key="Objective_Artifact_Set2_LightHead" rel_version="Feature_Artifacts_S6">Artefacto: Hábito de poder</string>
-	<string key="Objective_Artifact_Set2_LightChest" rel_version="UNSCHEDULED">Artefacto: Vestimentas vampíricas</string>
-	<string key="Objective_Artifact_Set2_LightHands" rel_version="UNSCHEDULED">Artefacto: Guantes de lich</string>
+	<string key="Objective_Artifact_Set2_LightChest" rel_version="Feature_Artifacts_S8">Artefacto: Vestimentas vampíricas</string>
+	<string key="Objective_Artifact_Set2_LightHands" rel_version="Feature_Artifacts_S8">Artefacto: Guantes de lich</string>
 	<string key="Objective_Artifact_Set2_LightFeet" rel_version="Feature_Artifacts_S5">Artefacto: Botas de credo</string>
-	<string key="Objective_Artifact_Set2_1hLongsword" rel_version="UNSCHEDULED">Artefacto: Ingenio</string>
+	<string key="Objective_Artifact_Set2_1hLongsword" rel_version="Feature_Artifacts_S8">Artefacto: Ingenio</string>
 	<string key="Objective_Artifact_Set2_1hThrowingAxe" rel_version="Feature_Artifacts_S5">Artefacto: Pecado</string>
 	<string key="Objective_Artifact_Set2_2hWarhammer" rel_version="Feature_Artifacts_S6">Artefacto: Trsna</string>
 	<string key="Objective_Artifact_Set2_2hGreatAxe" rel_version="Feature_Artifacts_S5">Artefacto: Furia de la tempestad</string>
 	<string key="Objective_Artifact_Set2_2hBow" rel_version="Feature_Artifacts_S7">Artefacto: Acónito</string>
 	<string key="Objective_Artifact_Set2_2hMusket" rel_version="Feature_Artifacts_S7">Artefacto: Metralla</string>
-	<string key="Objective_Artifact_Set2_1hTowerShield" rel_version="UNSCHEDULED">Artefacto: Implacabilidad</string>
+	<string key="Objective_Artifact_Set2_1hTowerShield" rel_version="Feature_Artifacts_S8">Artefacto: Implacabilidad</string>
 	<string key="Objective_Artifact_Set2_2hStaffFire" rel_version="Feature_Artifacts_S7">Artefacto: Carbonizador</string>
 	<string key="Objective_Artifact_Set2_2hStaffLife" rel_version="Feature_Artifacts_S7">Artefacto: Heceta</string>
 	<string key="Objective_Artifact_Set2_2hSpear" rel_version="Feature_Artifacts_S5">Artefacto: Veneno</string>
 	<string key="Objective_Artifact_Set2_1hRapier" rel_version="Feature_Artifacts_S7">Artefacto: Espada de Dorgort</string>
 	<string key="Objective_Artifact_Set2_1hGauntletIce" rel_version="Feature_Artifacts_S7">Artefacto: Otzi</string>
 	<string key="Objective_Artifact_Set2_1hGauntletVoid" rel_version="Feature_Artifacts_S7">Artefacto: Fractura</string>
-	<string key="Objective_Artifact_Set2_2hBlunderbuss" rel_version="UNSCHEDULED">Artefacto: Caos</string>
+	<string key="Objective_Artifact_Set2_2hBlunderbuss" rel_version="Feature_Artifacts_S8">Artefacto: Caos</string>
 	<string key="Objective_Artifact_Set2_2hGreatSword" rel_version="Feature_Artifacts_S6">Artefacto: Gracia</string>
 	<string key="Objective_Artifact_Set2_1hFlail" rel_version="Feature_Artifacts_S6">Artefacto: Piedra de poder</string>
 	<string key="Objective_Artifact_Set2_Earring1" rel_version="Feature_Artifacts_S7">Artefacto: Justicia</string>
 	<string key="Objective_Artifact_Set2_Ring1" rel_version="Feature_Artifacts_S6">Artefacto: Sortija elemental</string>
 	<string key="Objective_Artifact_Set2_Amulet1" rel_version="Feature_Artifacts_S5">Artefacto: Fénix</string>
+	<string key="Objective_Artifact_Set3_MediumHead" rel_version="UNSCHEDULED" comment="DO NOT TRANSLATE">Artifact: FILLINNAME</string>
+	<string key="Objective_Artifact_Set3_2hWarhammer" rel_version="UNSCHEDULED" comment="DO NOT TRANSLATE">Artifact: FILLINNAME</string>
+	<string key="Objective_Artifact_Set3_2hGreatSword" rel_version="UNSCHEDULED" comment="DO NOT TRANSLATE">Artifact: FILLINNAME</string>
 	<string key="99F_Enc_Liang_Objective_Title_description" rel_version="Quest_MSQ3_Ebonscale">El príncipe de Ebonscale Reach está encerrado en los confines del Templo de Madera para proteger a su pueblo y al mismo Liang.</string>
 	<string key="99F_Enc_Liang_Objective_Title_Phase0" rel_version="Quest_MSQ3_Ebonscale">Salva al príncipe atormentado</string>
 	<string key="99F_Enc_Liang_Objective_Phase0" rel_version="Quest_MSQ3_Ebonscale">Acércate a Liang</string>
@@ -469,5 +472,6 @@
 	<string key="objective_cooldown_tooltip" speaker="IU">Si completas esta misión, tendrás que esperar hasta el {date} para aceptarla de nuevo.</string>
 	<string key="objective_cooldown_availablein" speaker="IU">Disponible en</string>
 	<string key="objective_complete_the_raid" speaker="IU">Completa la incursión</string>
+	<string key="Objective_Kill_CTF">Derrota a {targetName} enemigos en Captura la bandera</string>
 </resources>
 

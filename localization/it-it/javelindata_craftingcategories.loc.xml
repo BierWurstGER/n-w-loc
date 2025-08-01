@@ -1115,6 +1115,8 @@
 	<string key="GemOnyx_CategoryName">Pietre di onice</string>
 	<string key="GemOpal_CategoryName">Pietre di opale</string>
 	<string key="GemPearl_CategoryName">Pietre di perla</string>
+	<string key="GemJade_CategoryName">Pietre di giada</string>
+	<string key="GemTurq_CategoryName">Pietre di turchese</string>
 	<string key="gemPouch_GroupName">Borsello per gemme</string>
 	<string key="GemRuby_CategoryName">Pietre di rubino</string>
 	<string key="GemSapp_CategoryName">Pietre di zaffiro</string>
@@ -1746,7 +1748,7 @@
 	<string key="SurvivalTools_GroupName">Strumenti da survivalista</string>
 	<string key="SwordA_GroupDesc">Una coppia di armi incentrate sulla mischia che, se usate insieme, sono molto efficaci sia in attacco, sia in difesa. Utilizza una combinazione di ampi fendenti e balzi in avanti per gli attacchi, mentre uno scudo consente di massimizzare le difese.\n\n•Attacco leggero: Infligge un {[1.000000 * 100]}% di danni &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_slash_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt;.\n•Colpo finale leggero: Infligge un {[1.050000 * 100]}% di danni &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_slash_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt;.\n•Attacco pesante: Infligge un {[1.200000 * 100]}% di danni &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_thrust_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt;.\n•Attacco pesante caricato: Infligge un {[1.600000 * 100]}% &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_thrust_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; di danni.\n\nProvocazione compatibile con le gemme: Gli attacchi pesanti con una spada a cui è applicata una gemma di corniola infliggono Provocazione per {[0.500000]} s. (Provocazione fa sì che i mostri si concentrino solo su di te.)</string>
 	<string key="SwordA_GroupName">Spada dritta</string>
-	<string key="SwordB_GroupDesc">Un'arma da mischia incentrata sulla rapidità, che consente di sferrare molteplici attacchi basati su affondi rapidi. Eccellente per calibrare gli attacchi al momento giusto e spiazzare gli avversari. Infligge inoltre sanguinamenti che consumano gradualmente la salute del bersaglio.\n\n•Attacco leggero: Infligge un {[1.000000 * 100]}% di danni &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_thrust_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt;.\n•Fendenti centrali leggeri: Infligge un {[0.660000 * 100]}% di danni &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_thrust_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt;.\n•Attacco pesante: Infligge un {[1.330000 * 100]}% &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_thrust_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; di danni.\n\nProvocazione compatibile con le gemme: Gli attacchi pesanti con uno stocco a cui è applicata una gemma di corniola infliggono Provocazione per {[0.500000]} s. (Provocazione fa sì che i mostri si concentrino solo su di te.)</string>
+	<string key="SwordB_GroupDesc">Un'arma da mischia incentrata sulla rapidità, che consente di sferrare molteplici attacchi basati su affondi rapidi. Eccellente per calibrare gli attacchi al momento giusto e spiazzare gli avversari. Infligge inoltre sanguinamenti che consumano gradualmente la salute del bersaglio.\n\n•Attacco leggero: Infligge un {[1.000000 * 100]}% di danni &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_thrust_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt;.\n•Fendenti centrali leggeri: Infligge un {[0.660000 * 100]}% di danni &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_thrust_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt;.\n•Attacco pesante: Infligge un {[1.660000 * 100]}% &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_thrust_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; di danni.\n\nProvocazione compatibile con le gemme: Gli attacchi pesanti con uno stocco a cui è applicata una gemma di corniola infliggono Provocazione per {[0.500000]} s. (Provocazione fa sì che i mostri si concentrino solo su di te.)</string>
 	<string key="SwordB_GroupName">Stocco</string>
 	<string key="SwordC_GroupDesc">A 1 mano.</string>
 	<string key="SwordC_GroupName">Sciabola</string>
@@ -1874,6 +1876,11 @@
 	<string key="AlchemyAlkahestT1_GroupName">Alkahest</string>
 	<string key="AlchemyCritters_GroupName">Creature per alchimia</string>
 	<string key="Summer">Estate</string>
+	<string key="SummerMemento" rel_version="Event_Summer_Temp">Souvenir estivi</string>
+	<string key="MementoStand" rel_version="Event_Summer_Temp">Bancarelle di souvenir</string>
+	<string key="SmallMemento" rel_version="Event_Summer_Temp">Souvenir pesci piccoli</string>
+	<string key="MediumMemento" rel_version="Event_Summer_Temp">Souvenir pesci medi</string>
+	<string key="LargeMemento" rel_version="Event_Summer_Temp">Souvenir pesci grandi</string>
 	<string key="Instruments_GroupName" rel_version="Feature_MusicalPerformances">Strumenti</string>
 	<string key="CategoryData_Instruments" rel_version="Feature_MusicalPerformances">Strumenti</string>
 	<string key="InstrumentParts_GroupName" rel_version="Feature_MusicalPerformances">Parti di strumento</string>
@@ -2057,18 +2064,18 @@
 	<string key="EtherealDust_GroupName" comment="DO NOT TRANSLATE" rel_version="PvPServerConquerorsItems">Ethereal Dust XP Conversion</string>
 	<string key="BetaRewards_GroupName">Ricompense beta</string>
 	<string key="OPRBetas_GroupName">Beta di Carica all'avamposto</string>
-	<string key="ReekwaterUplevelRare_GroupName">Raro</string>
-	<string key="ReekwaterUplevelCommon_GroupName">Comune</string>
-	<string key="RuneResinTrophies_GroupName">Trofei di resina di legno runico</string>
-	<string key="RuneResinRecipes_GroupName">Ricette con la resina di legno runico</string>
-	<string key="AdventurersEquipment_GroupName">Equipaggiamento</string>
-	<string key="AdventurerCaches_GroupName">Casse dell'avventuriero</string>
-	<string key="OrichalciteWeapons_GroupName">Armi di oricalchite</string>
-	<string key="OrichalciteArmors_GroupName">Armature di oricalchite</string>
-	<string key="OrichalciteJewelry_GroupName">Gioielli di oricalchite</string>
-	<string key="OrichalciteRecipes_GroupName">Ricette con l'oricalchite</string>
-	<string key="AdventurersItems_GroupName">Oggetti</string>
-	<string key="S8CacheCraft_GroupName">Stagione 8 - Produzione</string>
-	<string key="AdventurersConsumables_GroupName">Consumabili</string>
+	<string key="ReekwaterUplevelRare_GroupName" rel_version="Season_8_Perm">Raro</string>
+	<string key="ReekwaterUplevelCommon_GroupName" rel_version="Season_8_Perm">Comune</string>
+	<string key="AdventurerCaches_GroupName" rel_version="Seasonal_Server_2">Casse dell'avventuriero</string>
+	<string key="AdventurersEquipment_GroupName" rel_version="Seasonal_Server_2">Equipaggiamento</string>
+	<string key="AdventurersConsumables_GroupName" rel_version="Seasonal_Server_2">Consumabili</string>
+	<string key="AdventurersItems_GroupName" rel_version="Seasonal_Server_2">Oggetti</string>
+	<string key="S8CacheCraft_GroupName" rel_version="Seasonal_Server_2">Stagione 8 - Produzione</string>
+	<string key="OrichalciteRecipes_GroupName" rel_version="Seasonal_Server_2">Ricette con l'oricalchite</string>
+	<string key="OrichalciteArmors_GroupName" rel_version="Seasonal_Server_2">Armature di oricalchite</string>
+	<string key="OrichalciteWeapons_GroupName" rel_version="Seasonal_Server_2">Armi di oricalchite</string>
+	<string key="OrichalciteJewelry_GroupName" rel_version="Seasonal_Server_2">Gioielli di oricalchite</string>
+	<string key="RuneResinRecipes_GroupName" rel_version="Seasonal_Server_2">Ricette con la resina di legno runico</string>
+	<string key="RuneResinTrophies_GroupName" rel_version="Seasonal_Server_2">Trofei di resina di legno runico</string>
 </resources>
 

@@ -370,7 +370,7 @@
 	<string key="FactionMission_armorsmith_desc">Forje e entregue &lt;font color="#b2aea1"&gt;{itemName}&lt;/font&gt;.</string>
 	<string key="FactionMission_cooking_title">Precisa-se de Cozinheiros</string>
 	<string key="FactionMission_cooking_desc">Cozinhe e entregue &lt;font color="#b2aea1"&gt;{itemName}&lt;/font&gt;.</string>
-	<string key="FactionMission_RAID_title">Assaltar: {POITags}</string>
+	<string key="FactionMission_RAID_title">Rapinar: {POITags}</string>
 	<string key="FactionMission_RAID_desc">Identificamos uma ameaça aos interesses dos Saqueadores nesta região.\n\nVá até {POITags} e derrote cada &lt;font color="#b2aea1"&gt;{enemyName}&lt;/font&gt;... sem piedade.</string>
 	<string key="FactionMission_EXPLORE_title">Fazer reconhecimento: {POITags}</string>
 	<string key="FactionMission_EXPLORE_desc">Faça o reconhecimento em {POITags} para dar uma vantagem aos Saqueadores. \n\nSeu relatório é crucial para formular nossa estratégia.</string>
@@ -413,7 +413,7 @@
 	<string key="FactionMission_PRESERVE_title">Preservar (PvP)</string>
 	<string key="FactionMission_PRESERVE_desc">Abençoe {POITags} com a luz da Centelha.</string>
 	<string key="FactionMission_M_EXPEDITIONRAID_desc_singular">Faça uma sondagem em {POITags} pelos Saqueadores e derrote &lt;font color="#b2aea1"&gt;{enemyName}&lt;/font&gt;. \n\n &lt;font color="#b2aea1"&gt;(Expedição)&lt;/font&gt;</string>
-	<string key="FactionMission_EXPEDITIONRAID_title">Assaltar: {POITags}</string>
+	<string key="FactionMission_EXPEDITIONRAID_title">Rapinar: {POITags}</string>
 	<string key="FactionMission_EXPEDITIONRAID_desc">Faça uma sondagem em {POITags} pelos Saqueadores e derrote todos &lt;font color="#b2aea1"&gt;{enemyName}&lt;/font&gt; que precisar. \n\n &lt;font color="#b2aea1"&gt;(Expedição)&lt;/font&gt;</string>
 	<string key="FactionMission_EXPEDITIONRAID_desc_singular">Faça uma sondagem em {POITags} pelos Saqueadores e derrote &lt;font color="#b2aea1"&gt;{enemyName}&lt;/font&gt;. \n\n &lt;font color="#b2aea1"&gt;(Expedição)&lt;/font&gt;</string>
 	<string key="FactionMission_EXPEDITIONLOOT_title">Saquear: {POITags}</string>
@@ -452,7 +452,7 @@
 	<string key="FactionMission_C_ASSASSINATE_ELITE_desc2">A Aliança identificou que &lt;font color="#b2aea1"&gt;{enemyName}&lt;/font&gt; precisa desaparecer.\n\nProve sua devoção: encontre seu alvo em {POITags} e destrua-o. (Dica: os alvos aparecem como parte de um evento)\n &lt;font color="#b2aea1"&gt;(Elite)&lt;/font&gt;</string>
 	<string key="FactionMission_ASSASSINATE_ELITE_desc2">Os Saqueadores precisam que &lt;font color="#b2aea1"&gt;{enemyName}&lt;/font&gt; desapareça.\n\nProve sua bravura: encontre seu alvo em {POITags} e destrua-o. (Dica: os alvos aparecem como parte de um evento)\n &lt;font color="#b2aea1"&gt;(Elite)&lt;/font&gt;</string>
 	<string key="FactionMission_S_ASSASSINATE_ELITE_desc2">O Sindicato identificou que &lt;font color="#b2aea1"&gt;{enemyName}&lt;/font&gt; é um alvo para eliminação.\n\nProve sua astúcia: encontre seu alvo em {POITags} e destrua-o. (Dica: os alvos aparecem como parte de um evento)\n &lt;font color="#b2aea1"&gt;(Elite)&lt;/font&gt;</string>
-	<string key="FactionMission_RAID_ELITE_title">Assaltar: {POITags} (Elite)</string>
+	<string key="FactionMission_RAID_ELITE_title">Rapinar: {POITags} (Elite)</string>
 	<string key="FactionMission_RAID_ELITE_desc">Identificamos uma ameaça aos interesses dos Saqueadores nesta região.\n\nVá até {POITags} e derrote cada &lt;font color="#b2aea1"&gt;{enemyName}&lt;/font&gt;... sem piedade.\n &lt;font color="#b2aea1"&gt;(Elite)&lt;/font&gt;</string>
 	<string key="FactionMission_LOOT_ELITE_title">Saquear: {POITags} (Elite)</string>
 	<string key="FactionMission_LOOT_ELITE_desc">Existem itens em {POITags} que podem ser valiosos para a campanha dos Saqueadores. \n\nConsiga cada &lt;font color="#b2aea1"&gt;{itemName}&lt;/font&gt; custe o que custar.\n &lt;font color="#b2aea1"&gt;(Elite)&lt;/font&gt;</string>
@@ -495,11 +495,11 @@
 	<string key="FactionMission_S_WARCAMP_LOOT_title">Reconhecimento dos Inimigos (PvP)</string>
 	<string key="FactionMission_S_WARCAMP_LOOT_desc">Infiltre-se no &lt;font color="#b2aea1"&gt;Acampamento de Guerra&lt;/font&gt; próximo ao &lt;font color="#b2aea1"&gt;Forte {territoryID}&lt;/font&gt; e procure informações valiosas.</string>
 	<string key="FactionMission_S_CONTROL_POINT_title">Tomar (PvP)</string>
-	<string key="FactionMission_S_CONTROL_POINT_desc">Arme-se para ajudar o Sindicato a tomar o controle do &lt;font color="#b2aea1"&gt;Forte&lt;/font&gt; em &lt;font color="#b2aea1"&gt;{territoryID}&lt;/font&gt; ou qualquer uma das três torres de vigia.\n\n(Pode ser impossível concluir essa missão em alguns momentos)</string>
+	<string key="FactionMission_S_CONTROL_POINT_desc">Arme-se para ajudar o Sindicato a tomar o controle do &lt;font color="#b2aea1"&gt;Forte&lt;/font&gt; em &lt;font color="#b2aea1"&gt;{territoryID}&lt;/font&gt; ou qualquer uma das três Torres de Vigia.\n\n(Pode ser impossível concluir essa missão em alguns momentos.)</string>
 	<string key="FactionMission_C_WARCAMP_LOOT_title">Informações Inimigas (PvP)</string>
 	<string key="FactionMission_C_WARCAMP_LOOT_desc">Infiltre-se no &lt;font color="#b2aea1"&gt;Acampamento de Guerra&lt;/font&gt; próximo ao &lt;font color="#b2aea1"&gt;Forte {territoryID}&lt;/font&gt; e procure informações valiosas.</string>
 	<string key="FactionMission_C_CONTROL_POINT_title">Triunfar (PvP)</string>
-	<string key="FactionMission_C_CONTROL_POINT_desc">Arme-se para ajudar a Aliança a tomar o controle do &lt;font color="#b2aea1"&gt;Forte&lt;/font&gt; em &lt;font color="#b2aea1"&gt;{territoryID}&lt;/font&gt; ou qualquer uma das três torres de vigia.\n\n(Pode ser impossível concluir essa missão em alguns momentos)</string>
+	<string key="FactionMission_C_CONTROL_POINT_desc">Arme-se para ajudar a Aliança a tomar o controle do &lt;font color="#b2aea1"&gt;Forte&lt;/font&gt; em &lt;font color="#b2aea1"&gt;{territoryID}&lt;/font&gt; ou qualquer uma das três Torres de Vigia.\n\n(Pode ser impossível concluir essa missão em alguns momentos.)</string>
 	<string key="FactionMission_WARCAMP_SPECIAL_desc">Infiltre-se no reduto em &lt;font color="#b2aea1"&gt;{POITags}&lt;/font&gt; e procure informações valiosas.</string>
 	<string key="FactionMission_S_WARCAMP_SPECIAL_desc">Infiltre-se no reduto em &lt;font color="#b2aea1"&gt;{POITags}&lt;/font&gt; e procure informações valiosas.</string>
 	<string key="FactionMission_C_WARCAMP_SPECIAL_desc">Infiltre-se no reduto em &lt;font color="#b2aea1"&gt;{POITags}&lt;/font&gt; e procure informações valiosas.</string>
@@ -558,6 +558,18 @@
 	<string key="CMissionAcquireWoodWorker">Adquira e entregue &lt;font color="#b2aea1"&gt;{itemAmount} {itemName}&lt;/font&gt; de uma Loja de Madeira.</string>
 	<string key="CMissionAcquireOutfitter">Adquira e entregue &lt;font color="#b2aea1"&gt;{itemAmount} {itemName}&lt;/font&gt; de uma Estação de Alfaiataria.</string>
 	<string key="CMissionAcquireEngineer">Adquira e entregue &lt;font color="#b2aea1"&gt;{itemAmount} {itemName}&lt;/font&gt; de uma Oficina.</string>
+	<string key="CMissionAcquireBlock_Name_SE" rel_version="Event_Summer_Temp">Festive Stonemasons Needed</string>
+	<string key="CMissionAcquireTimber_Name_SE" rel_version="Event_Summer_Temp">Festive Carpenters Needed</string>
+	<string key="CMissionAcquireCloth_Name_SE" rel_version="Event_Summer_Temp">Festive Weavers Needed</string>
+	<string key="CMissionAcquireMetal_Name_SE" rel_version="Event_Summer_Temp">Festive Metalworkers Needed</string>
+	<string key="CMissionAcquireFibers_Name_SE" rel_version="Event_Summer_Temp">Festive Harvesters Needed</string>
+	<string key="CMissionAcquireFood_Name_SE" rel_version="Event_Summer_Temp">Festive Cooks Needed</string>
+	<string key="CMissionAcquirePotions_Name_SE" rel_version="Event_Summer_Temp">Festive Alchemists Needed</string>
+	<string key="CMissionAcquireGeneric_Name_SE" rel_version="Event_Summer_Temp">Festive Supplies Needed</string>
+	<string key="CMissionAcquireWood_Name_SE" rel_version="Event_Summer_Temp">Festive Lumberjacks Needed</string>
+	<string key="CMissionAcquireRawhide_Name_SE" rel_version="Event_Summer_Temp">Festive Hunters Needed</string>
+	<string key="CMissionAcquireLeather_Name_SE" rel_version="Event_Summer_Temp">Festive Tanners Needed</string>
+	<string key="CMissionAcquirePaint_Name_SE" rel_version="Event_Summer_Temp">Festive Painters Needed</string>
 	<string key="ui_already_in_faction">Você já está nesta facção.</string>
 	<string key="ui_cant_switch_faction_pvp">Não é possível mudar de facção enquanto está com sinalização para PvP.</string>
 	<string key="ui_cant_switch_faction_azoth">Azoth insuficiente.</string>

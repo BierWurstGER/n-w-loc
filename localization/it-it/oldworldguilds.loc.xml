@@ -370,7 +370,7 @@
 	<string key="FactionMission_armorsmith_desc">Forgia e consegna: &lt;font color="#b2aea1"&gt;{itemName}&lt;/font&gt;.</string>
 	<string key="FactionMission_cooking_title">Richiesti cuochi</string>
 	<string key="FactionMission_cooking_desc">Cucina e consegna: &lt;font color="#b2aea1"&gt;{itemName}&lt;/font&gt;.</string>
-	<string key="FactionMission_RAID_title">Fai un'incursione presso: {POITags}</string>
+	<string key="FactionMission_RAID_title">Saccheggia: {POITags}</string>
 	<string key="FactionMission_RAID_desc">Abbiamo identificato una minaccia agli interessi dei Predoni in questa regione.\n\nDirigiti presso {POITags} e sconfiggi ogni &lt;font color="#b2aea1"&gt;{enemyName}&lt;/font&gt; senza mostrare alcuna pietà.</string>
 	<string key="FactionMission_EXPLORE_title">Esplora: {POITags}</string>
 	<string key="FactionMission_EXPLORE_desc">Vai in ricognizione presso {POITags} per dare un vantaggio ai Predoni. \n\nIl tuo resoconto sarà fondamentale per formulare la nostra strategia.</string>
@@ -413,7 +413,7 @@
 	<string key="FactionMission_PRESERVE_title">Conservazione (PvP)</string>
 	<string key="FactionMission_PRESERVE_desc">Benedici {POITags} con la luce della Scintilla.</string>
 	<string key="FactionMission_M_EXPEDITIONRAID_desc_singular">Addentrati nel territorio di {POITags} per conto dei Predoni e sconfiggi &lt;font color="#b2aea1"&gt;{enemyName}&lt;/font&gt;. \n\n &lt;font color="#b2aea1"&gt;(Spedizione)&lt;/font&gt;</string>
-	<string key="FactionMission_EXPEDITIONRAID_title">Fai un'incursione presso: {POITags}</string>
+	<string key="FactionMission_EXPEDITIONRAID_title">Saccheggia: {POITags}</string>
 	<string key="FactionMission_EXPEDITIONRAID_desc">Addentrati nel territorio di {POITags} per conto dei Predoni e sconfiggi ogni &lt;font color="#b2aea1"&gt;{enemyName}&lt;/font&gt; che sia necessario. \n\n &lt;font color="#b2aea1"&gt;(Spedizione)&lt;/font&gt;</string>
 	<string key="FactionMission_EXPEDITIONRAID_desc_singular">Addentrati nel territorio di {POITags} per conto dei Predoni e sconfiggi &lt;font color="#b2aea1"&gt;{enemyName}&lt;/font&gt;. \n\n &lt;font color="#b2aea1"&gt;(Spedizione)&lt;/font&gt;</string>
 	<string key="FactionMission_EXPEDITIONLOOT_title">Saccheggia presso: {POITags}</string>
@@ -452,7 +452,7 @@
 	<string key="FactionMission_C_ASSASSINATE_ELITE_desc2">Il Patto ha individuato una minaccia da eliminare: &lt;font color="#b2aea1"&gt;{enemyName}&lt;/font&gt;.\n\nDimostra la tua astuzia rintracciandola presso {POITags} e distruggendola. (Suggerimento: vedrai i bersagli come parte di un evento)\n &lt;font color="#b2aea1"&gt;(Élite)&lt;/font&gt;</string>
 	<string key="FactionMission_ASSASSINATE_ELITE_desc2">I Predoni vogliono che tu tolga di mezzo: &lt;font color="#b2aea1"&gt;{enemyName}&lt;/font&gt;.\n\nDimostra il tuo valore rintracciando il bersaglio presso {POITags} e distruggendolo. (Suggerimento: vedrai i bersagli come parte di un evento)\n&lt;font color="#b2aea1"&gt;(Élite)&lt;/font&gt;</string>
 	<string key="FactionMission_S_ASSASSINATE_ELITE_desc2">L'Unione ha individuato un bersaglio da eliminare: &lt;font color="#b2aea1"&gt;{enemyName}&lt;/font&gt;.\n\nDimostra la tua astuzia rintracciandolo presso {POITags} e distruggendolo. (Suggerimento: vedrai i bersagli come parte di un evento)\n&lt;font color="#b2aea1"&gt;(Élite)&lt;/font&gt;</string>
-	<string key="FactionMission_RAID_ELITE_title">Fai incursione presso: {POITags} (Élite)</string>
+	<string key="FactionMission_RAID_ELITE_title">Saccheggia: {POITags} (Élite)</string>
 	<string key="FactionMission_RAID_ELITE_desc">Abbiamo identificato una minaccia agli interessi dei Predoni in questa regione.\n\nDirigiti presso {POITags} e sconfiggi ogni &lt;font color="#b2aea1"&gt;{enemyName}&lt;/font&gt; senza mostrare alcuna pietà.\n &lt;font color="#b2aea1"&gt;(Élite)&lt;/font&gt;</string>
 	<string key="FactionMission_LOOT_ELITE_title">Saccheggia presso: {POITags} (Élite)</string>
 	<string key="FactionMission_LOOT_ELITE_desc">Presso {POITags} ci sono oggetti che potrebbero essere preziosi per la campagna dei Predoni. \n\nAcquisisci ogni &lt;font color="#b2aea1"&gt;{itemName}&lt;/font&gt; usando qualsiasi mezzo necessario.\n &lt;font color="#b2aea1"&gt;(Élite)&lt;/font&gt;</string>
@@ -558,6 +558,18 @@
 	<string key="CMissionAcquireWoodWorker">Procurati e consegna: &lt;font color="#b2aea1"&gt;{itemName} (x{itemAmount})&lt;/font&gt; presso una falegnameria.</string>
 	<string key="CMissionAcquireOutfitter">Procurati e consegna: &lt;font color="#b2aea1"&gt;{itemName} (x{itemAmount})&lt;/font&gt; presso una postazione di accessoristica.</string>
 	<string key="CMissionAcquireEngineer">Procurati e consegna: &lt;font color="#b2aea1"&gt;{itemName} (x{itemAmount})&lt;/font&gt; presso un laboratorio.</string>
+	<string key="CMissionAcquireBlock_Name_SE" rel_version="Event_Summer_Temp">Festive Stonemasons Needed</string>
+	<string key="CMissionAcquireTimber_Name_SE" rel_version="Event_Summer_Temp">Festive Carpenters Needed</string>
+	<string key="CMissionAcquireCloth_Name_SE" rel_version="Event_Summer_Temp">Festive Weavers Needed</string>
+	<string key="CMissionAcquireMetal_Name_SE" rel_version="Event_Summer_Temp">Festive Metalworkers Needed</string>
+	<string key="CMissionAcquireFibers_Name_SE" rel_version="Event_Summer_Temp">Festive Harvesters Needed</string>
+	<string key="CMissionAcquireFood_Name_SE" rel_version="Event_Summer_Temp">Festive Cooks Needed</string>
+	<string key="CMissionAcquirePotions_Name_SE" rel_version="Event_Summer_Temp">Festive Alchemists Needed</string>
+	<string key="CMissionAcquireGeneric_Name_SE" rel_version="Event_Summer_Temp">Festive Supplies Needed</string>
+	<string key="CMissionAcquireWood_Name_SE" rel_version="Event_Summer_Temp">Festive Lumberjacks Needed</string>
+	<string key="CMissionAcquireRawhide_Name_SE" rel_version="Event_Summer_Temp">Festive Hunters Needed</string>
+	<string key="CMissionAcquireLeather_Name_SE" rel_version="Event_Summer_Temp">Festive Tanners Needed</string>
+	<string key="CMissionAcquirePaint_Name_SE" rel_version="Event_Summer_Temp">Festive Painters Needed</string>
 	<string key="ui_already_in_faction">Sei già in questa fazione.</string>
 	<string key="ui_cant_switch_faction_pvp">Non puoi cambiare fazione mentre è attivo il PvP.</string>
 	<string key="ui_cant_switch_faction_azoth">Azoth insufficiente.</string>

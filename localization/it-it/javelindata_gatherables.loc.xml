@@ -459,6 +459,11 @@
 	<string key="0831_BruteCannonSchematic_DisplayName">Schema per cannone del bruto</string>
 	<string key="0831_DiscardedArmorPile_DisplayName">Cerca nel cumulo di armature</string>
 	<string key="06_SpectralShrine">Santuario spettrale</string>
+	<string key="Catacombs_Strength">Incantesimo della forza</string>
+	<string key="Catacombs_Speed">Incantesimo della velocità</string>
+	<string key="Catacombs_Health">Azoth curativo</string>
+	<string key="Catacombs_Def">Incantesimo dell'armatura</string>
+	<string key="Catacombs_Lifesteal">Incantesimo del furto di vita</string>
 	<string key="FishingHotspotBroad_DisplayName">Punto di pesca (ampio)</string>
 	<string key="FishingHotspotRare_DisplayName">Punto di pesca (raro)</string>
 	<string key="FishingHotspotSecret_DisplayName">Punto di pesca (segreto)</string>
@@ -497,6 +502,7 @@
 	<string key="0519_EmptyAzothPowerSource_DisplayName">Recupera la fonte di energia Azoth</string>
 	<string key="0520_StygianChannelSegment_DisplayName">Prendi il segmento del canale stigio</string>
 	<string key="0521_WyrdwoodSeedPod_DisplayName">Raccogli il baccello di legno di Wyrd</string>
+	<string key="05A_MSQ_DamagedHeartgem_DisplayName">Gemma a cuore danneggiata</string>
 	<string key="0601_DirtHole_DisplayName">Raccogli il campione</string>
 	<string key="0602_SpiceSackGreen_DisplayName">Sacco di cardamomo</string>
 	<string key="0602_SpiceSackRed_DisplayName">Sacco di pepe</string>
@@ -797,6 +803,17 @@
 	<string key="AnubianBrute_Base_DisplayName" rel_version="Territory_Brimstone_Sands">Automa di Anubi</string>
 	<string key="AnubianPanther_Base_DisplayName" rel_version="Territory_Brimstone_Sands">Automa di sfinge</string>
 	<string key="16BS_LootContainer_Elite_LegionStoneTomb_DisplayName" rel_version="Territory_Brimstone_Sands">Offerte sepolcrali élite</string>
+	<string key="SummerMedley_Settlement_Stage_Master_DisplayName" rel_version="Event_Summer_Temp">Palco principale della fiera</string>
+	<string key="SummerMedley_Settlement_Stage_T1_DisplayName" rel_version="Event_Summer_Temp">Conferimento deludente</string>
+	<string key="SummerMedley_Settlement_Stage_T2_DisplayName" rel_version="Event_Summer_Temp">Conferimento notevole</string>
+	<string key="SummerMedley_Settlement_Stage_T3_DisplayName" rel_version="Event_Summer_Temp">Conferimento opulento</string>
+	<string key="SummerMedley_Settlement_Stage_Description" rel_version="Event_Summer_Temp">Completa i progetti cittadini della fiera per aumentare la gloria e le ricompense ottenibili grazie al palco.</string>
+	<string key="SummerMedley_Village_BonfireBlast_DisplayName" rel_version="Event_Summer_Temp">Pira della fiera</string>
+	<string key="SummerMedley_Village_BonfireBlast_Description" rel_version="Event_Summer_Temp">Lancia nelle fiamme una lisca magica di storione di Aeternum per ricevere una favolosa ricompensa!</string>
+	<string key="SummerMedley_Maudlindust_DisplayName" rel_version="Event_Summer_Temp">Polvere sdolcinata</string>
+	<string key="SummerMedley_Maudlindust_Particle_DisplayName" rel_version="Event_Summer_Temp">Particella di polvere sdolcinata</string>
+	<string key="SummerMedley_Village_Dancefloor_DisplayName" rel_version="Event_Summer_Temp">Pista da ballo della fiera</string>
+	<string key="SummerMedley_Village_Dancefloor_Description" rel_version="Event_Summer_Temp">Affina e sfodera i tuoi passi migliori sulla pista da ballo della fiera per aumentare la reputazione dell'evento!</string>
 	<string key="Season_04_IceGuardian_Icicle_DisplayName" rel_version="Season_4_Trial">Ghiacciolo lanciabile</string>
 	<string key="Season_04_IceGuardian_BrokenRune_DisplayName" rel_version="Season_4_Trial">Ottieni il potenziamento della fiamma antica</string>
 	<string key="FM_PVP_War_Camp_Loot_Box_DisplayName">Forziere dell'accampamento di guerra</string>
@@ -1553,11 +1570,18 @@
 	<string key="12A_0C_PercillaSword_DisplayName" rel_version="Quest_Console_Release">Spada di Percilla</string>
 	<string key="FTUE_Satchel_DisplayName" rel_version="Quest_Console_Release">Tracolla grondante</string>
 	<string key="98_Covenant_03_Candle_DisplayName">Accendi le candele</string>
-	<string key="Catacombs_Speed">Incantesimo della velocità</string>
-	<string key="RW_Siege_Pool_Blighted_Totem_DisplayName">Ripristina il totem</string>
-	<string key="05wc_ReekwaterUplevelChest_Medium_DisplayName">Nascondiglio del Custode di anime</string>
-	<string key="05wc_ReekwaterUplevelChest_Small_DisplayName">Scorta del Custode di anime</string>
-	<string key="05wc_ReekwaterUplevelChest_Large_DisplayName">Bottino del Custode di anime</string>
-	<string key="Soulwarden_Crystal_Reekwater">Gemma a cuore danneggiata</string>
+	<string key="Soulwarden_Crystal_Reekwater" rel_version="Season_8_Perm">Gemma a cuore danneggiata</string>
+	<string key="05wc_ReekwaterUplevelChest_Small_DisplayName" rel_version="Season_8_Perm">Scorta del Custode di anime</string>
+	<string key="05wc_ReekwaterUplevelChest_Medium_DisplayName" rel_version="Season_8_Perm">Nascondiglio del Custode di anime</string>
+	<string key="05wc_ReekwaterUplevelChest_Large_DisplayName" rel_version="Season_8_Perm">Bottino del Custode di anime</string>
+	<string key="RW_Siege_Pool_Blighted_Totem_DisplayName" rel_version="Season_8_Perm">Ripristina il totem</string>
+	<string key="17_MSQ_BatteryPost_DisplayName">Ricollega la batteria</string>
+	<string key="17_MSQ_ShieldDevice_DisplayName">Attiva lo scudo</string>
+	<string key="17_MSQ_BerlaurCage_DisplayName">Apri la gabbia</string>
+	<string key="LootContainer_Elite_Tarot_DisplayName">Scorta élite di Carnevale</string>
+	<string key="17_MSQ_StackCrates_DisplayName">Raccogli le provviste</string>
+	<string key="17_MSQ_BoxOfPotions_DisplayName">Raccogli polvere di allium rosso</string>
+	<string key="Catacombs_ShirkingBlessing">Incantesimo Benedizione schivante</string>
+	<string key="17_MSQ_BoardWindow_DisplayName">Barrica la finestra</string>
 </resources>
 

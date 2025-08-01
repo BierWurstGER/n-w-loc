@@ -932,6 +932,56 @@
 	<string key="Rally2Desc">+{[0.090000 * 100]} % de daño y de curación a objetivos si tienes la salud al máximo.</string>
 	<string key="Rally3Desc">+{[0.120000 * 100]} % de daño y de curación a objetivos si tienes la salud al máximo.</string>
 	<string key="Rally4Desc">+{[0.150000 * 100]} % de daño y de curación a objetivos si tienes la salud al máximo.</string>
+	<string key="PlaguedDMG1Name" rel_version="Season8Perks">Infectado I</string>
+	<string key="PlaguedDMG2Name" rel_version="Season8Perks">Infectado II</string>
+	<string key="PlaguedDMG3Name" rel_version="Season8Perks">Infectado III</string>
+	<string key="PlaguedDMG4Name" rel_version="Season8Perks">Infectado IV</string>
+	<string key="PlaguedDMG1Desc" rel_version="Season8Perks">Los ataques básicos infligen una acumulación de Enfermedad, lo que reduce la efectividad de la curación recibida de los objetivos en un {[-0.010000 * -100]} % y la otorgada en un {[-0.005000 * -100]} % por acumulación durante {[3.000000]} s (se acumula un máx. de {[10.000000]} veces).</string>
+	<string key="PlaguedDMG2Desc" rel_version="Season8Perks">Los ataques básicos infligen una acumulación de Enfermedad, lo que reduce la efectividad de la curación recibida de los objetivos en un {[-0.015000 * -100]} % y la otorgada en un {[-0.007500 * -100]} % por acumulación durante {[3.000000]} s (se acumula un máx. de {[10.000000]} veces).</string>
+	<string key="PlaguedDMG3Desc" rel_version="Season8Perks">Los ataques básicos infligen una acumulación de Enfermedad, lo que reduce la efectividad de la curación recibida de los objetivos en un {[-0.020000 * -100]} % y la otorgada en un {[-0.010000 * -100]} % por acumulación durante {[3.000000]} s (se acumula un máx. de {[10.000000]} veces).</string>
+	<string key="PlaguedDMG4Desc" rel_version="Season8Perks">Los ataques básicos infligen una acumulación de Enfermedad, lo que reduce la efectividad de la curación recibida de los objetivos en un {[-0.025000 * -100]} % y la otorgada en un {[-0.012500 * -100]} % por acumulación durante {[3.000000]} s (se acumula un máx. de {[10.000000]} veces).</string>
+	<string key="PlaguedDEF1Name" rel_version="Season8Perks">Protección infecta I</string>
+	<string key="PlaguedDEF2Name" rel_version="Season8Perks">Protección infecta II</string>
+	<string key="PlaguedDEF3Name" rel_version="Season8Perks">Protección infecta III</string>
+	<string key="PlaguedDEF4Name" rel_version="Season8Perks">Protección infecta IV</string>
+	<string key="PlaguedDEF1Desc" rel_version="Season8Perks">La duración de Enfermedad es del {[-0.025000 * 100]} %.</string>
+	<string key="PlaguedDEF2Desc" rel_version="Season8Perks">La duración de Enfermedad es del {[-0.035000 * 100]} %.</string>
+	<string key="PlaguedDEF3Desc" rel_version="Season8Perks">La duración de Enfermedad es del {[-0.050000 * 100]} %.</string>
+	<string key="PlaguedDEF4Desc" rel_version="Season8Perks">La duración de Enfermedad es del {[-0.062500 * 100]} %.</string>
+	<string key="ArmorPen1Name" rel_version="Season8Perks">Penetrante I</string>
+	<string key="ArmorPen2Name" rel_version="Season8Perks">Penetrante II</string>
+	<string key="ArmorPen3Name" rel_version="Season8Perks">Penetrante III</string>
+	<string key="ArmorPen4Name" rel_version="Season8Perks">Penetrante IV</string>
+	<string key="ArmorPen1Desc" rel_version="Season8Perks">+{[0.050000 * 100]} % de penetración de armadura.</string>
+	<string key="ArmorPen2Desc" rel_version="Season8Perks">+{[0.080000 * 100]} % de penetración de armadura.</string>
+	<string key="ArmorPen3Desc" rel_version="Season8Perks">+{[0.100000 * 100]} % de penetración de armadura.</string>
+	<string key="ArmorPen4Desc" rel_version="Season8Perks">+{[0.120000 * 100]} % de penetración de armadura.</string>
+	<string key="ArmorInc1Name" rel_version="Season8Perks">Endurecido I</string>
+	<string key="ArmorInc2Name" rel_version="Season8Perks">Endurecido II</string>
+	<string key="ArmorInc3Name" rel_version="Season8Perks">Endurecido III</string>
+	<string key="ArmorInc4Name" rel_version="Season8Perks">Endurecido IV</string>
+	<string key="ArmorInc1Desc" rel_version="Season8Perks">+{[0.010000 * 100]} % de armadura física y elemental.</string>
+	<string key="ArmorInc2Desc" rel_version="Season8Perks">+{[0.015000 * 100]} % de armadura física y elemental.</string>
+	<string key="ArmorInc3Desc" rel_version="Season8Perks">+{[0.020000 * 100]} % de armadura física y elemental.</string>
+	<string key="ArmorInc4Desc" rel_version="Season8Perks">+{[0.030000 * 100]} % de armadura física y elemental.</string>
+	<string key="PerkID_Amulet_DodgeBurn_DurRed_Name" rel_version="Season8Perks">Para, tírate al suelo y rueda</string>
+	<string key="PerkID_Amulet_DodgeBurn_DurRed_Description" rel_version="Season8Perks">Esquivar reducirá la duración actual de todos los efectos de daño con el tiempo por Quemadura un {[-0.250000 * -100]} %.</string>
+	<string key="PerkID_Weapon_RendingStacks_Name" rel_version="Season8Perks">Acumulación demoledora</string>
+	<string key="PerkID_Weapon_RendingStacks_Description" rel_version="Season8Perks">Una vez cada {[0.500000]}s, al atacar infliges una acumulación de {[-0.040000 * -100]}% de Desgarro, cada acumulación dura {[6.000000]}s. (Se acumula un máx. de {[5.000000]} veces).</string>
+	<string key="PerkID_Feet_HasteOnVault_Name" rel_version="Season8Perks">Parkour intenso</string>
+	<string key="PerkID_Feet_HasteOnVault_Description" rel_version="Season8Perks">Obtienes un {[0.150000 * 100]} % de Celeridad durante {[5.000000]} s tras activar una acción de recorrido.</string>
+	<string key="PerkID_Weapon_Melee_AlternateAttacks_Name" rel_version="Season8Perks">Encantamiento alterno</string>
+	<string key="PerkID_Weapon_Melee_AlternateAttacks_Description" rel_version="Season8Perks">Al golpear con un ataque básico, aumentará el daño base del golpe de la siguiente habilidad dentro de un período de {[5.000000]} s en un {[0.100000 * 100]} %, y al golpear con una habilidad, aumentará el daño base del siguiente ataque básico dentro de un período de {[5.000000]} s en un {[0.100000 * 100]} %.</string>
+	<string key="PerkID_Chest_HealthStam_Synergy_Name" rel_version="Season8Perks">Sinergia vital</string>
+	<string key="PerkID_Chest_HealthStam_Synergy_Description" rel_version="Season8Perks">Cuando tu salud está por debajo del 50 %, obtienes un {[0.150000 * 100]} % de regeneración de vitalidad. Cuando tu vitalidad está por debajo del 50 %, la curación que recibes aumenta un {[0.150000 * 100]} %.</string>
+	<string key="PerkID_Armor_ConsumableHealing_Name" rel_version="Season8Perks">Pociones ungidas</string>
+	<string key="PerkID_Armor_ConsumableHealing_Description" rel_version="Season8Perks">Aumenta un {[0.030000 * 100]} % la curación de consumibles.</string>
+	<string key="PerkID_Armor_LifestealHealing_Name" rel_version="Season8Perks">Robo de vida ungido</string>
+	<string key="PerkID_Armor_LifestealHealing_Description" rel_version="Season8Perks">Aumenta un {[0.040000 * 100]} % la curación de los robos de vida.</string>
+	<string key="PerkID_Armor_HastePotencyInc_Name" rel_version="Season8Perks">Presteza potente</string>
+	<string key="PerkID_Armor_HastePotencyInc_Description" rel_version="Season8Perks">Aumenta la potencia de todos los efectos de Celeridad que tengas un 9 %.</string>
+	<string key="PerkID_Armor_ExhaustPotencyRed_Name" rel_version="Season8Perks">Energía potente</string>
+	<string key="PerkID_Armor_ExhaustPotencyRed_Description" rel_version="Season8Perks">Disminuye la potencia de todos los efectos de agotamiento que tengas un 12 %.</string>
 	<string key="GourmandEncumbrance1Desc">Reduce un 5 % el peso de la comida cruda y cocinada.</string>
 	<string key="GourmandEncumbrance2Desc">Reduce un 8 % el peso de la comida cruda y cocinada.</string>
 	<string key="GourmandEncumbrance3Desc">Reduce un 11 % el peso de la comida cruda y cocinada.</string>
@@ -1121,6 +1171,10 @@
 	<string key="WildernessWardPrefix">Primitivo</string>
 	<string key="ElementalWardPrefix">Imbuido</string>
 	<string key="SpectralWardPrefix">Espectral</string>
+	<string key="PlaguedPrefix">Infectado</string>
+	<string key="PlaguedWardPrefix">Curativo</string>
+	<string key="ArmorPenPrefix">Penetrante</string>
+	<string key="ArmorIncPrefix">Endurecido</string>
 	<string key="PerkID_Ability_Hatchet_FeralRush_Name">Ímpetu bestial devastador</string>
 	<string key="PerkID_Ability_Hatchet_FeralRush_Description">Al golpear con Ímpetu bestial, causa un {[-0.100000 * -100 * {perkMultiplier}]} % de Lentitud durante {[3.000000]} s e inflige un {[0.050000 * 100 * {perkMultiplier}]} % más de daño.</string>
 	<string key="PerkID_Ability_Hatchet_Berserk_Name">Furia ávida</string>
@@ -1154,7 +1208,7 @@
 	<string key="PerkID_Ability_Musket_StoppingPower_Name">Potencia de frenado renovada</string>
 	<string key="PerkID_Ability_Musket_StoppingPower_Description">Los impactos de Potencia de frenado reducen un {[-0.050000 * -100 * {perkMultiplier}]} % la recarga del resto de habilidades de trampero ({[0.500000]} s de recarga).</string>
 	<string key="PerkID_Ability_Musket_Traps_Name">Trampas aceleradoras</string>
-	<string key="PerkID_Ability_Musket_Traps_Description">Aumenta la velocidad de movimiento en un {[0.035000 * 100 * {perkMultiplier}]} % durante {[5.000000]} s tras desplegar una trampa (no se acumula). Las trampas ahora aplican un sangrado igual al {[-0.017500 * -100 * {perkMultiplier}]} % del daño de arma durante {[5.000000]} s.</string>
+	<string key="PerkID_Ability_Musket_Traps_Description">Aumenta la velocidad de movimiento en un {[0.028000 * 100 * {perkMultiplier}]} % durante {[5.000000]} s tras desplegar una trampa (no se acumula). Las trampas ahora aplican un sangrado igual al {[-0.017500 * -100 * {perkMultiplier}]} % del daño de arma durante {[5.000000]} s.</string>
 	<string key="PerkID_Ability_Musket_StickyBomb_Name">Bombas pegajosas restauradoras</string>
 	<string key="PerkID_Ability_Musket_StickyBomb_Description">Cada impacto de Bomba pegajosa te cura una cantidad igual al {[0.100000 * 100 * {perkMultiplier}]} % del daño infligido.</string>
 	<string key="PerkID_Ability_Spear_Sweep_Name">Golpe bajo sangriento</string>
@@ -1174,7 +1228,7 @@
 	<string key="PerkID_Ability_Bow_EvadeShot_Name">Disparo evasivo energizante</string>
 	<string key="PerkID_Ability_Bow_EvadeShot_Description">Tras golpear a un objetivo con Disparo evasivo, obtienes {[3.000000 * {perkMultiplier}]} de vitalidad y reduce el tiempo de recarga en un {[-0.030000 * -100 * {perkMultiplier}]} %.</string>
 	<string key="PerkID_Ability_Bow_RainOfArrows_Name">Lluvia de flechas duradera</string>
-	<string key="PerkID_Ability_Bow_RainOfArrows_Description">Lentitud y Sangrado duran un {[0.100000 * 100 * {perkMultiplier}]} % más.</string>
+	<string key="PerkID_Ability_Bow_RainOfArrows_Description">Lentitud y sangrado duran un {[0.100000 * 100 * {perkMultiplier}]} % más y Lluvia de flechas inflige un {[0.020000 * 100 * {perkMultiplier}]} % más de daño a los objetivos a {[20.000000]} m o más de distancia.</string>
 	<string key="PerkID_Ability_Bow_RapidShot_Name">Tiro veloz penetrante</string>
 	<string key="PerkID_Ability_Bow_RapidShot_Description">Aumenta en un {[0.050000 * 100 * {perkMultiplier}]} % la penetración de armadura de todos los ataques con Tiro veloz.</string>
 	<string key="PerkID_Ability_Bow_PenetratingShot_Name">Tiro penetrante renovador</string>
@@ -1184,7 +1238,7 @@
 	<string key="PerkID_Ability_Rapier_Tondo_Name">Tondo ávido</string>
 	<string key="PerkID_Ability_Rapier_Tondo_Description">Aumenta la probabilidad de crítico en un {[0.020000 * 100 * {perkMultiplier}]} % contra los objetivos afectados por el sangrado de Tondo. Si esta ventaja está asignada a un arma, Tondo también inflige un {[-0.100000 * -100]} % de Debilitamiento durante {[10.000000]} s. </string>
 	<string key="PerkID_Ability_Rapier_FlourishAndFinish_Name">Floritura letal</string>
-	<string key="PerkID_Ability_Rapier_FlourishAndFinish_Description">Floritura inflige un {[0.100000 * 100 * {perkMultiplier}]} % más de daño base.</string>
+	<string key="PerkID_Ability_Rapier_FlourishAndFinish_Description">Floritura inflige un {[0.100000 * 100 * {perkMultiplier}]} % más de daño base. Además, tu próximo ataque tendrá un {[1.000000 * 100]} % de probabilidad de crítico.</string>
 	<string key="PerkID_Ability_Rapier_Flurry_Name">Ráfaga drenadora</string>
 	<string key="PerkID_Ability_Rapier_Flurry_Description">Recuperas una cantidad de salud igual al {[0.080000 * 100 * {perkMultiplier}]} % del daño infligido con Ráfaga. Otorga {[0.500000]} s de Invulnerabilidad al usar Ráfaga. </string>
 	<string key="PerkID_Ability_Rapier_Riposte_Name">Réplica demoledora</string>
@@ -1202,9 +1256,9 @@
 	<string key="PerkID_Ability_LifeStaff_OrbOfProtection_Name">Protección reparadora</string>
 	<string key="PerkID_Ability_LifeStaff_OrbOfProtection_Description">Aumenta la curación a objetivos en un {[0.050000 * 100 * {perkMultiplier}]} % durante {[3.000000]} segundos si Orbe de protección sana a un aliado con menos del {[50.000000]} % de salud.</string>
 	<string key="PerkID_Ability_LifeStaff_LightsEmbrace_Name">Abrazo de luz acelerador</string>
-	<string key="PerkID_Ability_LifeStaff_LightsEmbrace_Description">Los aliados por debajo de la salud máxima golpeados con Abrazo de luz obtienen Celeridad, lo cual aumenta su velocidad de movimiento un {[0.030000 * 100 * {perkMultiplier}]} % durante {[5.000000]} s.</string>
+	<string key="PerkID_Ability_LifeStaff_LightsEmbrace_Description">Los aliados por debajo de la salud máxima golpeados con Abrazo de luz obtienen Celeridad, lo cual aumenta su velocidad de movimiento un {[0.025000 * 100 * {perkMultiplier}]} % durante {[5.000000]} s.</string>
 	<string key="PerkID_Ability_LifeStaff_Beacon_Name">Faro cortante</string>
-	<string key="PerkID_Ability_LifeStaff_Beacon_Description">Al curar a un jugador con Baliza, obtiene un +{[0.020000 * 100 * {perkMultiplier}]} % de probabilidad de crítico durante {[6.000000]} s.</string>
+	<string key="PerkID_Ability_LifeStaff_Beacon_Description">Al curar a un jugador con Baliza, obtiene un +{[0.000000 * 100 * {perkMultiplier}]} % de probabilidad de crítico durante {[4.000000]} s.</string>
 	<string key="PerkID_Ability_FireStaff_PillarOfFire_Name">Pilar de fuego renovador</string>
 	<string key="PerkID_Ability_FireStaff_PillarOfFire_Description">Reduce en un {[-0.030000 * -100 * {perkMultiplier}]} % el tiempo de recarga de Pilar de fuego por cada impacto. (Máximo {[2.000000]} impactos).</string>
 	<string key="PerkID_Ability_FireStaff_MeteorShower_Name">Lluvia de meteoritos potenciada</string>
@@ -1228,7 +1282,7 @@
 	<string key="PerkID_Ability_Shield_ShieldRush_Name">Ariete fortificador</string>
 	<string key="PerkID_Ability_Shield_ShieldRush_Description">Tras golpear a un objetivo con Ariete obtienes Fortificación, lo que aumenta tu armadura en un {[0.050000 * 100 * {perkMultiplier}]} % durante {[6.000000]} s.</string>
 	<string key="PerkID_Ability_Shield_FinalStand_Name">Determinación acelerada</string>
-	<string key="PerkID_Ability_Shield_FinalStand_Description">Tras activarse Determinación del defensor, la velocidad de movimiento aumenta en un {[0.050000 * 100 * {perkMultiplier}]} % y la curación recibida en un {[0.020000 * 100 * {perkMultiplier}]} % durante {[6.000000]} s.</string>
+	<string key="PerkID_Ability_Shield_FinalStand_Description">Tras activarse Determinación del defensor, la velocidad de movimiento aumenta en un {[0.030000 * 100 * {perkMultiplier}]} % y la curación recibida en un {[0.020000 * 100 * {perkMultiplier}]} % durante {[6.000000]} s.</string>
 	<string key="PerkID_Ability_GreatAxe_Charge_Name">Carga refrescante</string>
 	<string key="PerkID_Ability_GreatAxe_Charge_Description">Golpear a un objetivo con Golpe impredecible reduce el tiempo de recarga en un {[-0.030000 * -100 * {perkMultiplier}]} % (máximo {[1.000000]} impactos).</string>
 	<string key="PerkID_Ability_GreatAxe_Reap_Name">Siega devastadora</string>
@@ -1535,7 +1589,7 @@
 	<string key="PerkID_Weapon_EmpowerOnCrit_Name">Fortalecido con avidez</string>
 	<string key="PerkID_Weapon_EmpowerOnCrit_Description">Obtienes un {[0.100000 * 100 * {perkMultiplier}]} % de Fortalecimiento durante {[5.000000]} s al recibir un impacto crítico. ({[10.000000]} s de tiempo de recarga).</string>
 	<string key="PerkID_Weapon_HasteOnCrit_Name">Velocidad ávida</string>
-	<string key="PerkID_Weapon_HasteOnCrit_Description">Obtienes un {[0.200000 * 100 * {perkMultiplier}]} % de Celeridad durante {[7.000000]} s al recibir un impacto crítico. ({[7.000000]} s de tiempo de recarga).</string>
+	<string key="PerkID_Weapon_HasteOnCrit_Description">Obtienes un {[0.150000 * 100 * {perkMultiplier}]} % de Celeridad durante {[7.000000]} s al recibir un impacto crítico. ({[7.000000]} s de tiempo de recarga).</string>
 	<string key="PerkID_Weapon_ManaOnHit_Name">Impacto extractor</string>
 	<string key="PerkID_Weapon_ManaOnHit_Description">+{[0.010000 * 100 * {perkMultiplier}]} % de maná por impacto ({[2.000000]} s de tiempo de recarga). No desencadena daños persistentes, efectos de daño con el tiempo ni ataques bloqueados.</string>
 	<string key="PerkID_Weapon_ChainLightning_Name">Rayo en cadena</string>
@@ -1553,17 +1607,17 @@
 	<string key="PerkID_Weapon_Siege_Name">Ruina</string>
 	<string key="PerkID_Weapon_Siege_Description">+{[0.200000 * 100 * {perkMultiplier}]} % de daño de asedio.</string>
 	<string key="PerkID_Weapon_OnKillHeal_Name">Robo de vida letal</string>
-	<string key="PerkID_Weapon_OnKillHeal_Description">+{[0.040000 * 100 * {perkMultiplier}]} % de salud al matar ({[1.000000]} s de tiempo de recarga).</string>
+	<string key="PerkID_Weapon_OnKillHeal_Description">Los golpes otorgan un {[0.010000 * 100 * {perkMultiplier}]} % de robo de vida. Obtienes un {[0.040000 * 100 * {perkMultiplier}]} % de tu salud máxima por asesinato ({[1.000000]} s de tiempo de recarga).</string>
 	<string key="PerkID_Weapon_OnKillMana_Name">Extracción letal</string>
 	<string key="PerkID_Weapon_OnKillMana_Description">+{[0.030000 * 100 * {perkMultiplier}]} % de maná al matar ({[1.000000]} s de tiempo de recarga).</string>
 	<string key="PerkID_Weapon_OnKillStamina_Name">Energía letal</string>
 	<string key="PerkID_Weapon_OnKillStamina_Description">+{[10.000000 * {perkMultiplier}]} % de vitalidad al matar ({[1.000000]} s de tiempo de recarga).</string>
 	<string key="PerkID_Weapon_OnKillFortify_Name">Fortificación letal</string>
-	<string key="PerkID_Weapon_OnKillFortify_Description">Obtienes un {[0.100000 * 100]} % de Fortificación durante {[20.000000]} s al matar ({[1.000000]} s de tiempo de recarga).</string>
+	<string key="PerkID_Weapon_OnKillFortify_Description">Obtienes un {[0.100000 * 100 * {perkMultiplier}]} % de Fortificación durante {[20.000000]} s al matar ({[1.000000]} s de tiempo de recarga).</string>
 	<string key="PerkID_Weapon_OnKillEmpower_Name">Potencia letal</string>
-	<string key="PerkID_Weapon_OnKillEmpower_Description">Obtienes un {[0.060000 * 100]} % de Fortalecimiento durante {[20.000000]} s al matar ({[1.000000]} s de tiempo de recarga).</string>
+	<string key="PerkID_Weapon_OnKillEmpower_Description">Obtienes un {[0.060000 * 100 * {perkMultiplier}]} % de Fortalecimiento durante {[20.000000]} s al matar ({[1.000000]} s de tiempo de recarga).</string>
 	<string key="PerkID_Weapon_OnKillCDR_Name">Renovación letal</string>
-	<string key="PerkID_Weapon_OnKillCDR_Description">Reduce en un {[-0.040000 * 100 * {perkMultiplier}]} % todos los tiempos de recarga al matar ({[1.000000]} s de tiempo de recarga)</string>
+	<string key="PerkID_Weapon_OnKillCDR_Description">Reduce en un {[-0.040000 * -100 * {perkMultiplier}]} % todos los tiempos de recarga al matar ({[1.000000]} s de tiempo de recarga)</string>
 	<string key="PerkID_Weapon_DmgAncient_Name">Flagelo de los antiguos</string>
 	<string key="PerkID_Weapon_DmgAncient_Description">+{[5 * {perkMultiplier}]} % de daño a los antiguos.</string>
 	<string key="PerkID_Weapon_DmgAngryEarth_Name">Flagelo de los tierramarga</string>
@@ -1575,7 +1629,7 @@
 	<string key="PerkID_Weapon_DmgLost_Name">Flagelo de los perdidos</string>
 	<string key="PerkID_Weapon_DmgLost_Description">+{[5 * {perkMultiplier}]} % de daño a los perdidos.</string>
 	<string key="PerkID_WeaponRng_Accuracy_Name">Precisión</string>
-	<string key="PerkID_WeaponRng_Accuracy_Description">+{[0.125000 * 100 * {perkMultiplier}]} % de precisión.</string>
+	<string key="PerkID_WeaponRng_Accuracy_Description">+{[ * 100 * {perkMultiplier}]} % de precisión.</string>
 	<string key="PerkID_WeaponRng_DmgHeatshot_Name">Vorpal</string>
 	<string key="PerkID_WeaponRng_DmgHeatshot_Description">+{[0.050000 * 100 * {perkMultiplier}]} % de daño por disparo a la cabeza.</string>
 	<string key="PerkID_WeaponMelee_BlockingStam_Name">Obstinamiento</string>
@@ -1629,7 +1683,7 @@
 	<string key="PerkID_Weapon_HercyneRaid_1_Name" rel_version="Season7Perks">Inflexión desteñida</string>
 	<string key="PerkID_Weapon_HercyneRaid_1_Description" rel_version="Season7Perks">Aumenta en un {[0.150000 * 100]} % la potencia de los efectos de daño con el tiempo a objetivos. Golpear a un objetivo que sufra daño con el tiempo aumenta la duración de este en un {[0.050000 * 100]} % (tiempo de recarga: {[1.500000]} s). Solo JcE: Infliges un {[0.050000 * 100]} % más de daño base a objetivos hostiles con daño con el tiempo.</string>
 	<string key="PerkID_Armor_HercyneRaid_1_Name" rel_version="Season7Perks">Vigor célere</string>
-	<string key="PerkID_Armor_HercyneRaid_1_Description" rel_version="Season7Perks">Reduce la potencia de los efectos de daño con el tiempo recibidos en un 7 % por cada pieza de armadura con esta ventaja, y si recibes un golpe mientras sufres daño con el tiempo, obtendrás un {[0.100000 * 100]} % de Celeridad durante {[5.000000]} s.</string>
+	<string key="PerkID_Armor_HercyneRaid_1_Description" rel_version="Season7Perks">Reduce la potencia de los efectos de daño con el tiempo recibidos en un 7 % por cada pieza de armadura con esta ventaja, y si recibes un golpe mientras sufres daño con el tiempo, obtendrás un {[0.070000 * 100]} % de Celeridad durante {[5.000000]} s.</string>
 	<string key="PerkID_Jewelry_HercyneRaid_1_Name" rel_version="Season7Perks">Sin obstáculos</string>
 	<string key="PerkID_Jewelry_HercyneRaid_1_Description" rel_version="Season7Perks">La potencia de las ralentizaciones que tengas se reduce en un 30 % si no has sufrido agotamiento durante los últimos {[10.000000]} s.</string>
 	<string key="PerkID_Weapon_PvPZone_1_Name" rel_version="Season7Perks">Antifortalecidos</string>
@@ -1709,13 +1763,13 @@
 	<string key="PerkID_Ability_Blunderbuss_VortexShot_Name" rel_version="Weapon_Blunderbuss">Disparo de ráfaga devastador</string>
 	<string key="PerkID_Ability_Blunderbuss_VortexShot_Description" rel_version="Weapon_Blunderbuss">Los objetivos a los que golpees con Disparo de ráfaga quedarán ralentizados, lo que reducirá su velocidad de movimiento en un {[-0.050000 * -100 * {perkMultiplier}]} % durante {[5.000000]} segundos.</string>
 	<string key="PerkID_Ability_Flail_Slam_Name" rel_version="Weapon_Flail">Aniquilación pesada</string>
-	<string key="PerkID_Ability_Flail_Slam_Description" rel_version="Weapon_Flail">Aniquilación penetra un {[0.015000 * 100 * {perkMultiplier}]} % de la armadura del objetivo. Solo JcJ: Los impactos de Aniquilación a los jugadores aumentan sus recargas activas en un {[0.050000 * 100 * {perkMultiplier}]} %.</string>
+	<string key="PerkID_Ability_Flail_Slam_Description" rel_version="Weapon_Flail">Aniquilación penetra un {[0.015000 * 100 * {perkMultiplier}]} % de la armadura del objetivo. Solo JcJ: Los impactos de Aniquilación a los jugadores aumentan sus recargas activas un {[0.050000 * 100 * {perkMultiplier}]} %.</string>
 	<string key="PerkID_Ability_Flail_Blast_Name" rel_version="Weapon_Flail">Vórtice sanador</string>
 	<string key="PerkID_Ability_Flail_Blast_Description" rel_version="Weapon_Flail">Cada {[2.000000]} impactos del vórtice, te curas un {[0.050000 * 100 * {perkMultiplier}]} % del daño base del arma.</string>
 	<string key="PerkID_Ability_Flail_Burst_Name" rel_version="Weapon_Flail">Erupción poderosa</string>
 	<string key="PerkID_Ability_Flail_Burst_Description" rel_version="Weapon_Flail">Los impactos de la erupción infligen un {[0.020000 * 100 * {perkMultiplier}]} % de daño aumentado por cada acumulación de Deterioro en el objetivo.</string>
 	<string key="PerkID_Ability_Flail_Charge_Name" rel_version="Weapon_Flail">Embestida aceleradora</string>
-	<string key="PerkID_Ability_Flail_Charge_Description" rel_version="Weapon_Flail">Tras impactar a un objetivo con el ataque principal de la embestida, obtienes un {[0.050000 * 100 * {perkMultiplier}]} % de Celeridad durante {[5.000000]} s.</string>
+	<string key="PerkID_Ability_Flail_Charge_Description" rel_version="Weapon_Flail">Tras impactar a un objetivo con el ataque principal de la embestida, obtienes un {[0.040000 * 100 * {perkMultiplier}]} % de Celeridad durante {[5.000000]} s.</string>
 	<string key="PerkID_Ability_Flail_Trip_Name" rel_version="Weapon_Flail">Zancadilla boicoteadora</string>
 	<string key="PerkID_Ability_Flail_Trip_Description" rel_version="Weapon_Flail">Si el primer ataque de la zancadilla impacta contra un objetivo con coraje activo, el ataque inflige un {[0.100000 * 100 * {perkMultiplier}]} % más de daño base.</string>
 	<string key="PerkID_Ability_Flail_DefensiveStrike_Name" rel_version="Weapon_Flail">Testarazo masivo</string>
@@ -1788,7 +1842,7 @@
 	<string key="PerkID_Tools_MoteLife_Description">Tras recolectar un nodo hay posibilidades de obtener Partículas de vida.</string>
 	<string key="PerkID_Tools_MoteDeath_Description">Tras recolectar un nodo hay posibilidades de obtener Partículas de muerte.</string>
 	<string key="PerkID_HeartgemRune_Detonate_Major_Name">Carga aceleradora</string>
-	<string key="PerkID_HeartgemRune_Detonate_Major_Description">+{[0.300000 * 100 * {perkMultiplier}]} % de velocidad de movimiento al cargar.</string>
+	<string key="PerkID_HeartgemRune_Detonate_Major_Description">+{[0.200000 * 100 * {perkMultiplier}]} % de velocidad de movimiento al cargar.</string>
 	<string key="PerkID_HeartgemRune_Detonate_Greater_Name">Carga empoderadora</string>
 	<string key="PerkID_HeartgemRune_Detonate_Greater_Description">+{[0.150000 * 100]} % de daño a objetivos al cargar. Reduce en un {[-0.200000 * -100]} % el daño por explosión.</string>
 	<string key="PerkID_HeartgemRune_Detonate_Survivor_Name">Explosión drenadora</string>
@@ -1796,9 +1850,9 @@
 	<string key="PerkID_HeartgemRune_Detonate_Dominator_Name">Explosión gradual</string>
 	<string key="PerkID_HeartgemRune_Detonate_Dominator_Description">+{[0.200000 * 100]} % de daño por explosión. Recibes Desgarro al cargar, lo que reduce tu armadura en un {[-0.500000 * -100]} %.</string>
 	<string key="PerkID_HeartgemRune_StoneForm_Major_Name">Roca fortificadora</string>
-	<string key="PerkID_HeartgemRune_StoneForm_Major_Description">Obtienes Fortificación cuando se activa, lo que aumenta la armadura en un {[0.100000 * 100 * {perkMultiplier}]} % durante {[5.000000]} s.</string>
+	<string key="PerkID_HeartgemRune_StoneForm_Major_Description">Obtienes Fortificación cuando se activa, lo que aumenta la armadura en un {[0.100000 * 100 * {perkMultiplier}]} % durante {[4.000000]} s.</string>
 	<string key="PerkID_HeartgemRune_StoneForm_Greater_Name">Roca endurecida</string>
-	<string key="PerkID_HeartgemRune_StoneForm_Greater_Description">Obtienes un {[0.100000 * 100]} % adicional de armadura durante {[5.000000]} s por cada impacto recibido (máximo +{[0.100000 * 3.000000 * 100]} %).</string>
+	<string key="PerkID_HeartgemRune_StoneForm_Greater_Description">Obtienes un {[0.100000 * 100]} % adicional de armadura durante {[4.000000]} s por cada impacto recibido (máximo +{[0.100000 * 3.000000 * 100]} %).</string>
 	<string key="PerkID_HeartgemRune_StoneForm_Survivor_Name">Roca correctora</string>
 	<string key="PerkID_HeartgemRune_StoneForm_Survivor_Description">Cura un {[0.520000 * 100]} % de daño de runa del alma por segundo mientras esté activa. Reduce en un {[-0.200000 * -100]} % el daño a objetivos.</string>
 	<string key="PerkID_HeartgemRune_StoneForm_Dominator_Name">Roca inestable</string>
@@ -1838,11 +1892,11 @@
 	<string key="PerkID_HeartgemRune_FireStorm_Major_Name" rel_version="Feature_Heartgems_FireStorm">Tormenta debilitante</string>
 	<string key="PerkID_HeartgemRune_FireStorm_Major_Description" rel_version="Feature_Heartgems_FireStorm">Inflige Debilitamiento al impactar y reduce el daño del objetivo en un {[-0.150000 * -100]} % durante {[8.000000]} s.</string>
 	<string key="PerkID_HeartgemRune_FireStorm_Greater_Name" rel_version="Feature_Heartgems_FireStorm">Tormenta aceleradora</string>
-	<string key="PerkID_HeartgemRune_FireStorm_Greater_Description" rel_version="Feature_Heartgems_FireStorm">Los aliados por los que pase la tormenta de fuego reciben Celeridad, lo que aumenta la velocidad de movimiento en un {[0.150000 * 100]} % durante {[8.000000]} s.</string>
+	<string key="PerkID_HeartgemRune_FireStorm_Greater_Description" rel_version="Feature_Heartgems_FireStorm">Los aliados por los que pase la tormenta de fuego reciben Celeridad, lo que aumenta la velocidad de movimiento en un {[0.120000 * 100]} % durante {[8.000000]} s.</string>
 	<string key="PerkID_HeartgemRune_FireStorm_Survivor_Name" rel_version="Feature_Heartgems_FireStorm">Tormenta purificadora</string>
 	<string key="PerkID_HeartgemRune_FireStorm_Survivor_Description" rel_version="Feature_Heartgems_FireStorm">La tormenta de fuego anula todos los efectos de daño con el tiempo de los aliados por los que pasa. Reduce el daño por Quemadura en un {[-0.150000 * -100]} % del daño de runa del alma.</string>
 	<string key="PerkID_HeartgemRune_FireStorm_Dominator_Name" rel_version="Feature_Heartgems_FireStorm">Tormenta acelerada</string>
-	<string key="PerkID_HeartgemRune_FireStorm_Dominator_Description" rel_version="Feature_Heartgems_FireStorm">La tormenta de fuego viaja más rápido e inflige un {[2.000000 * 100]} % de daño de arma. El ataque deja de aplicar Quemadura.</string>
+	<string key="PerkID_HeartgemRune_FireStorm_Dominator_Description" rel_version="Feature_Heartgems_FireStorm">La tormenta de fuego viaja más rápido e inflige un {[2.000000 * 100]} % de daño de runa del alma. El ataque deja de aplicar Quemadura.</string>
 	<string key="PerkID_HeartgemRune_Sandworm_Major_Name" rel_version="Feature_Heartgems_Sandworm">Dispersor devastador</string>
 	<string key="PerkID_HeartgemRune_Sandworm_Major_Description" rel_version="Feature_Heartgems_Sandworm">El primer ataque del Devorador al aparecer inflige un {[-0.200000 * -100]} % de Lentitud a los enemigos durante {[5.000000]} s.</string>
 	<string key="PerkID_HeartgemRune_Sandworm_Greater_Name" rel_version="Feature_Heartgems_Sandworm">Bocado infecto</string>
@@ -1856,17 +1910,17 @@
 	<string key="PerkID_HeartgemRune_BeastMode_Greater_Name" rel_version="Feature_Heartgems_BeastMode">Ira imparable</string>
 	<string key="PerkID_HeartgemRune_BeastMode_Greater_Description" rel_version="Feature_Heartgems_BeastMode">Obtienes coraje mientras estés en forma de bestia.</string>
 	<string key="PerkID_HeartgemRune_BeastMode_Survivor_Name" rel_version="Feature_Heartgems_BeastMode">Pelaje extensible</string>
-	<string key="PerkID_HeartgemRune_BeastMode_Survivor_Description" rel_version="Feature_Heartgems_BeastMode">Obtienes Fortificación mientras estés en forma de bestia, lo que aumenta la armadura en un {[0.200000 * 100]} %, pero también te provoca Debilitamiento, que reduce el daño infligido en un {[-0.150000 * -100]} %. Aumenta la duración de la forma de bestia hasta 10 s más al recibir daño.</string>
+	<string key="PerkID_HeartgemRune_BeastMode_Survivor_Description" rel_version="Feature_Heartgems_BeastMode">Obtienes un {[0.200000 * 100]} % de Fortificación, pero sufres un {[-0.150000 * -100]} % de Debilitamiento. Aumenta la duración de la forma de bestia hasta 10 s más al recibir daño.</string>
 	<string key="PerkID_HeartgemRune_BeastMode_Dominator_Name" rel_version="Feature_Heartgems_BeastMode">Garras extensibles</string>
-	<string key="PerkID_HeartgemRune_BeastMode_Dominator_Description" rel_version="Feature_Heartgems_BeastMode">Obtienes Fortalecimiento mágico mientras estés en forma de bestia, lo que aumenta el daño en un {[0.200000 * 100]} %, pero también te provoca Desgarro, que reduce la armadura en un {[-0.150000 * -100]} %. Aumenta la duración de la forma de bestia hasta 10 s más al infligir daño.</string>
-	<string key="PerkID_HeartgemRune_SpinningSwords_Major_Name" rel_version="Feature_Heartgems_SpinningSwords">Merciless Incision</string>
-	<string key="PerkID_HeartgemRune_SpinningSwords_Major_Description" rel_version="Feature_Heartgems_SpinningSwords">Phantom Blades deal {[0.200000 * 100]}% increased damage to targets inflicted with a CC status effect (Stun, Root, Slow, Sluggish).</string>
-	<string key="PerkID_HeartgemRune_SpinningSwords_Greater_Name" rel_version="Feature_Heartgems_SpinningSwords">Achilles' Heel</string>
-	<string key="PerkID_HeartgemRune_SpinningSwords_Greater_Description" rel_version="Feature_Heartgems_SpinningSwords">Targets hit with Phantom Blades are inflicted with Sluggish, preventing them from dodging for {[2.000000]}s or until they hit a target. (Sluggish cannot be reapplied to a target within {[10.000000]}s of them being inflicted with it.)</string>
-	<string key="PerkID_HeartgemRune_SpinningSwords_Survivor_Name" rel_version="Feature_Heartgems_SpinningSwords">Freeing Blades</string>
-	<string key="PerkID_HeartgemRune_SpinningSwords_Survivor_Description" rel_version="Feature_Heartgems_SpinningSwords">Each hit of Blades will reduce the duration of all limited duration CC status effects on you by {[-0.100000 * -100]}%.</string>
-	<string key="PerkID_HeartgemRune_SpinningSwords_Dominator_Name" rel_version="Feature_Heartgems_SpinningSwords">Mobile Destruction</string>
-	<string key="PerkID_HeartgemRune_SpinningSwords_Dominator_Description" rel_version="Feature_Heartgems_SpinningSwords">Phantom Blades are now attached to the player. However, the radius is reduced to {[2.500000]}m and the damage is reduced to {[0.700000 * 100]}%.</string>
+	<string key="PerkID_HeartgemRune_BeastMode_Dominator_Description" rel_version="Feature_Heartgems_BeastMode">Obtienes un {[0.200000 * 100]} % de Fortalecimiento, pero sufres un {[-0.150000 * -100]} % de Desgarro. Aumenta la duración de la forma de bestia hasta 10 s más al infligir daño.</string>
+	<string key="PerkID_HeartgemRune_SpinningSwords_Major_Name" rel_version="Feature_Heartgems_SpinningSwords">Corte despiadado</string>
+	<string key="PerkID_HeartgemRune_SpinningSwords_Major_Description" rel_version="Feature_Heartgems_SpinningSwords">Las hojas fantasma infligen un {[0.200000 * 100]} % más de daño a los objetivos que sufran un efecto de estado de control de multitudes (Aturdimiento, Inmovilidad, Lentitud y Letargo).</string>
+	<string key="PerkID_HeartgemRune_SpinningSwords_Greater_Name" rel_version="Feature_Heartgems_SpinningSwords">Talón de Aquiles</string>
+	<string key="PerkID_HeartgemRune_SpinningSwords_Greater_Description" rel_version="Feature_Heartgems_SpinningSwords">Las hojas fantasma ahora se desplazan hacia delante lentamente y provocan Letargo, lo que impide esquivar durante {[2.000000]} s o hasta que golpeen a un objetivo. (No se puede volver a provocar Letargo a un objetivo durante los {[10.000000]} s siguientes a haber sufrido su efecto).</string>
+	<string key="PerkID_HeartgemRune_SpinningSwords_Survivor_Name" rel_version="Feature_Heartgems_SpinningSwords">Hojas liberadoras</string>
+	<string key="PerkID_HeartgemRune_SpinningSwords_Survivor_Description" rel_version="Feature_Heartgems_SpinningSwords">Cada golpe de las hojas reducirá la duración de todos los efectos de estado de control de multitudes con duración limitada que sufras un {[-0.100000 * -100]} %.</string>
+	<string key="PerkID_HeartgemRune_SpinningSwords_Dominator_Name" rel_version="Feature_Heartgems_SpinningSwords">Destrucción móvil</string>
+	<string key="PerkID_HeartgemRune_SpinningSwords_Dominator_Description" rel_version="Feature_Heartgems_SpinningSwords">Las hojas fantasma ahora están ligadas al jugador. Sin embargo, el radio se reduce a {[2.500000]} m y el daño también se reduce un {[0.700000 * 100]} %.</string>
 	<string key="PerkID_Bags_FoodUtilityDur_Name">Consumo duradero</string>
 	<string key="PerkID_Bags_FoodUtilityDur_Description">La duración base de la comida, las piedras de afilar y las pociones de protección aumenta en un {[0.050000 * 100 * {perkMultiplier}]} %.</string>
 	<string key="PerkID_RuneglassGem_ThreatAdd_Heal_Name" rel_version="Territory_Brimstone_Sands">Provocación drenadora</string>
@@ -2526,7 +2580,7 @@
 	<string key="PerkID_Lifestaff_LowManaBonusHeal_Name">Oración desesperada</string>
 	<string key="PerkID_Lifestaff_LowManaBonusHeal_Desc">Si estás por debajo del {[50.000000]} % de maná, tus curaciones son un {[0.100000 * 100 * {perkMultiplier}]} % más efectivas.</string>
 	<string key="PerkID_Weapon_OnExhaustDmg_Name">Fortalecimiento desesperado</string>
-	<string key="PerkID_Weapon_OnExhaustDmg_Desc">+{[0.050000 * 100 * {perkMultiplier}]} % de daño cuando sufras agotamiento.</string>
+	<string key="PerkID_Weapon_OnExhaustDmg_Desc">+{[0.050000 * 100 * {perkMultiplier}]} % de daño y {[0.030000 * 100 * {perkMultiplier}]} % de Celeridad mientras sufres agotamiento.</string>
 	<string key="PerkID_Amulet_PotionHeal_Name">Indulto de alquimista</string>
 	<string key="PerkID_Amulet_PotionHeal_Desc">Mejora la curación de pociones en un {[0.020000 * 100 * {perkMultiplier}]} %.</string>
 	<string key="PerkID_Amulet_LowCooldown_Name">Recuperación renovadora</string>
@@ -2604,11 +2658,11 @@
 	<string key="PerkID_Artifact_Set1_KiteShield_Name">Purificación revitalizante</string>
 	<string key="PerkID_Artifact_Set1_KiteShield_Desc">Los tiempos de recarga se reducen en un {[-0.050000 * -100]} %.\nAl bloquear, pierdes un estado negativo.</string>
 	<string key="PerkID_Artifact_Set1_TowerShield_Name">Muro protector</string>
-	<string key="PerkID_Artifact_Set1_TowerShield_Desc">Se reduce en un {[0.050000 * 100]} % el daño base recibido.\nNo puedes esquivar, pero tienes un {[0.330000 * 100]} % más de vitalidad. (Mientras está activo o guardado).</string>
+	<string key="PerkID_Artifact_Set1_TowerShield_Desc">El daño base recibido se reduce un {[0.050000 * 100]} %.\nNo puedes esquivar y la velocidad de regeneración de vitalidad se reduce un {[-0.100000 * -100]} %, pero tienes un {[0.330000 * 100]} % más de vitalidad. (Mientras está activo o guardado).</string>
 	<string key="PerkID_Artifact_Set1_TowerShieldPerk_Name">Protección cromática</string>
-	<string key="PerkID_Artifact_Set1_TowerShieldPerk_Desc">Recibes un {[0.130000 * 100]} % menos de daño de todas las fuentes elementales.</string>
+	<string key="PerkID_Artifact_Set1_TowerShieldPerk_Desc">Recibes un {[0.130000 * 100]} % menos de daño de todas las fuentes elementales y obtienes +{[0.100000 * 100]} % de armadura elemental.</string>
 	<string key="PerkID_Artifact_Set1_Firestaff_Name">Poder interior</string>
-	<string key="PerkID_Artifact_Set1_Firestaff_Desc">Si tu atributo de fuerza es superior, sustituye tu escalado de arma base por fuerza. +{[0.150000 * 100]} % de daño al golpear a un objetivo a {[15.000000]} m.</string>
+	<string key="PerkID_Artifact_Set1_Firestaff_Desc">Si tu atributo de fuerza es superior, sustituye tu escalado de arma base por fuerza. +{[0.150000 * 100]} % de daño al golpear a un objetivo a {[15.000000]} m. (Funciona en ambas armas)</string>
 	<string key="PerkID_Artifact_Set1_FirestaffPerk_Desc">+{[0.150000 * 100]} % de daño al golpear a un objetivo a {[15.000000]} m. </string>
 	<string key="PerkID_Artifact_Set1_FirestaffPerk_Name">Furia del fuego infernal</string>
 	<string key="PerkID_Artifact_Set1_Lifestaff_Name" rel_version="Feature_Artifacts_Set2">Venganza de la naturaleza</string>
@@ -2634,7 +2688,7 @@
 	<string key="PerkID_Artifact_Set1_Amulet2_Name">Centro de atención</string>
 	<string key="PerkID_Artifact_Set1_Amulet2_Desc">Los consumibles, el robo de vida y las curaciones a objetivos son un {[-0.250000 * -100]} % más débiles, pero el resto de curaciones son un {[0.250000 * 100]} % más fuertes.</string>
 	<string key="PerkID_Artifact_Set1_Ring1_Name">Armonía de gul</string>
-	<string key="PerkID_Artifact_Set1_Ring1_Desc">-{[0.250000 * 100]} % de daño, +{[-0.250000 * 100]} % de robo de vida. Aumenta todas las curaciones de robo de vida en un {[0.050000 * 100]} %.</string>
+	<string key="PerkID_Artifact_Set1_Ring1_Desc">{[-0.250000 * 100]} % de daño, +{[0.250000 * 100]} % de robo de vida. Aumenta todas las curaciones de robo de vida en un {[0.050000 * 100]} %.</string>
 	<string key="PerkID_Artifact_Set1_Ring2_Name" rel_version="Feature_Artifacts_Set2">Maña</string>
 	<string key="PerkID_Artifact_Set1_Ring2_Desc" rel_version="Feature_Artifacts_Set2">Las habilidades infligen un {[0.125000 * 100]} % más de daño, pero los ataques básicos infligen un {[-0.250000 * -100]} % menos de daño.</string>
 	<string key="PerkID_Artifact_Set1_Earring1_Name">Sed</string>
@@ -2663,11 +2717,11 @@
 	<string key="PerkID_Artifact_Set1_MediumHands_Desc">Transfiere un estado negativo al golpear a un enemigo con menos de la mitad de salud ({[3.000000]} s de recarga).</string>
 	<string key="PerkID_Artifact_Set1_MediumLegs_Name">+25 de Amplificación (los dos mejores atributos):</string>
 	<string key="PerkID_Artifact_Set1_MediumLegs_SecondaryName">Muy completo</string>
-	<string key="PerkID_Artifact_Set1_MediumLegs_Desc">+{[0.000000 * {attributePerkMultiplier}]} a todos los atributos.</string>
+	<string key="PerkID_Artifact_Set1_MediumLegs_Desc">+{[11.000000]} a todos los atributos.</string>
 	<string key="PerkID_Artifact_Set1_MediumFeet_Name" rel_version="Feature_Artifacts_Set2">Rapidez</string>
 	<string key="PerkID_Artifact_Set1_MediumFeet_Desc" rel_version="Feature_Artifacts_Set2">Aumenta un {[0.500000 * 100]} % la duración base de la Celeridad que sufras e infliges un {[0.100000 * 100]} % más de daño base mientras tengas Celeridad.</string>
 	<string key="PerkID_Artifact_Set1_LightHead_Name">Fulgor</string>
-	<string key="PerkID_Artifact_Set1_LightHead_Desc">Aumenta el maná máximo en un {[1.000000 * 100]} % del valor base.</string>
+	<string key="PerkID_Artifact_Set1_LightHead_Desc">Aumenta el maná máximo en un {[ * 100]} % del valor base.</string>
 	<string key="PerkID_Artifact_Set1_LightChest_Name">Ingravidez</string>
 	<string key="PerkID_Artifact_Set1_LightChest_Desc">La armadura no pesa.</string>
 	<string key="PerkID_Artifact_Set1_LightHands_Name" rel_version="Feature_Artifacts_Set2">Malabarista</string>
@@ -2691,15 +2745,11 @@
 	<string key="PerkID_Armor_SkinningYield_Name">Rendimiento al desollar</string>
 	<string key="PerkID_Armor_SkinningYield_Description">+{[0.015000 * 100 * {perkMultiplier}]} % de recursos al desollar.</string>
 	<string key="PerkID_Artifact_Set2_HeavyChest_Name" rel_version="Feature_Artifacts_S6">Supervivencia</string>
-	<string key="PerkID_Artifact_Set2_HeavyChest_Desc" rel_version="Feature_Artifacts_S6">Si recibes un impacto con menos del 50 % de salud, obtienes {[20.000000]} de vitalidad, pierdes todos los estados negativos y obtienes un reabastecimiento de pociones que recarga tu próxima poción de salud al instante (tiempo de recarga de {[120.000000]} s). Debes esperar {[75.000000]} s entre un reabastecimiento de pociones y otro.</string>
+	<string key="PerkID_Artifact_Set2_HeavyChest_Desc" rel_version="Feature_Artifacts_S6">Si recibes un impacto con menos del 50 % de salud, obtienes {[20.000000]} de vitalidad, pierdes todos los estados negativos y obtienes un reabastecimiento de pociones que recarga tu próxima poción de supervivencia al instante (tiempo de recarga de {[120.000000]} s). Debes esperar {[75.000000]} s entre un reabastecimiento de pociones y otro.</string>
 	<string key="PerkID_Artifact_Set2_HeavyHands_Name" rel_version="Feature_Artifacts_S5">Arma cargada</string>
 	<string key="PerkID_Artifact_Set2_HeavyHands_Desc" rel_version="Feature_Artifacts_S5">Cada vez que recibes daño, obtienes una carga de Fortalecimiento que aumenta en un {[0.020000 * 100]} % el daño de tu próximo ataque (máx. {[10.000000]} cargas).</string>
 	<string key="PerkID_Artifact_Set2_HeavyLegs_Name" rel_version="Feature_Artifacts_S5">Cimientos firmes</string>
 	<string key="PerkID_Artifact_Set2_HeavyLegs_Desc" rel_version="Feature_Artifacts_S5">Aumenta la salud máxima un {[0.200000 * 100]} % del valor base mientras no se tenga un conjunto de equipo pesado.</string>
-	<string key="PerkID_Artifact_Set2_HeavyFeet_Name" rel_version="UNSCHEDULED">Diligente</string>
-	<string key="PerkID_Artifact_Set2_HeavyFeet_Desc" rel_version="UNSCHEDULED">Al activar una runa del alma, obtienes un {[0.330000 *100]} % de velocidad de movimiento durante {[6.000000]} s.</string>
-	<string key="PerkID_Artifact_Set2_MediumHead_Name" rel_version="UNSCHEDULED">Realeza</string>
-	<string key="PerkID_Artifact_Set2_MediumHead_Desc" rel_version="UNSCHEDULED">+{[11.000000]} a todos los atributos.</string>
 	<string key="PerkID_Artifact_Set2_MediumChest_Name" rel_version="Feature_Artifacts_S5">Bendición natural</string>
 	<string key="PerkID_Artifact_Set2_MediumChest_Desc" rel_version="Feature_Artifacts_S5">La duración limitada de Fortalecimiento caduca al instante y reduce en un 50 % la potencia del Fortalecimiento sin duración, pero infliges siempre un {[0.200000 * 100]} % más de daño base.</string>
 	<string key="PerkID_Artifact_Set2_MediumHands_Name" rel_version="Feature_Artifacts_S6">Abrazo fantasmal</string>
@@ -2708,14 +2758,8 @@
 	<string key="PerkID_Artifact_Set2_MediumLegs_Desc" rel_version="Feature_Artifacts_S6">Infliges un {[0.150000 * 100]} % más de daño elemental con un equipo mediano.</string>
 	<string key="PerkID_Artifact_Set2_LightHead_Name" rel_version="Feature_Artifacts_S6">Energía desesperada</string>
 	<string key="PerkID_Artifact_Set2_LightHead_Desc" rel_version="Feature_Artifacts_S6">Obtienes un {[0.250000 * 100]} % más de daño durante {[4.000000]} s mientras tu maná está por debajo del {[50.000000]} % (tiempo de recarga de {[10.000000]} s).</string>
-	<string key="PerkID_Artifact_Set2_LightChest_Name" rel_version="UNSCHEDULED">Drenaje</string>
-	<string key="PerkID_Artifact_Set2_LightChest_Desc" rel_version="UNSCHEDULED">Cuando tu salud esté por debajo del {[95.000000]} %, consumirás {[-10.000000 *-1]} de maná al golpear un objetivo. Si pierdes maná con tu ataque, recibirás un {[0.170000 * 100]} % de robo de vida. Si usas un arma mágica, solo las habilidades activarán el robo de vida y los ataques básicos generarán {[10.000000]} de maná ({[0.500000]} s de tiempo de recarga por activación).</string>
-	<string key="PerkID_Artifact_Set2_LightHands_Name" rel_version="UNSCHEDULED">Maldición</string>
-	<string key="PerkID_Artifact_Set2_LightHands_Desc" rel_version="UNSCHEDULED">Al activar una habilidad, obtienes una acumulación del {[0.100000 *100]} % de Fortalecimiento durante {[7.000000]} s (máx. {[3.000000]} acumulaciones). Tras golpear con un ataque básico, se pierden todas las acumulaciones. (No puedes obtener acumulaciones de Fortalecimiento durante {[3.000000]} s después de que las acumulaciones acaben o se eliminen).</string>
 	<string key="PerkID_Artifact_Set2_LightFeet_Name" rel_version="Feature_Artifacts_S5">Emboscada</string>
 	<string key="PerkID_Artifact_Set2_LightFeet_Desc" rel_version="Feature_Artifacts_S5">Inflige un 15 % más de daño y un 25 % de probabilidad de crítico siempre y cuando hayan pasado más de 20 s desde que golpeaste al objetivo.</string>
-	<string key="PerkID_Artifact_Set2_Sword_Name" rel_version="UNSCHEDULED">Malas lenguas</string>
-	<string key="PerkID_Artifact_Set2_Sword_Desc" rel_version="UNSCHEDULED">Las provocaciones están activas. Los impactos críticos de ataques ligeros generan un {[2.000000 * 100]} % más de amenaza. Cuando ejecutas un ataque crítico ligero, se reduce el daño base que recibes de la IA enemiga un {[0.150000 * 100]} % durante {[3.000000]} s.</string>
 	<string key="PerkID_Artifact_Set2_Hatchet_Name" rel_version="Feature_Artifacts_S5">Corrupción</string>
 	<string key="PerkID_Artifact_Set2_Hatchet_Desc" rel_version="Feature_Artifacts_S5">Los estados negativos duran un {[0.200000 * 100]} % más. (Funciona en ambas armas)</string>
 	<string key="PerkID_Artifact_Set2_HatchetPerk_Name" rel_version="Feature_Artifacts_S5">Profanar</string>
@@ -2731,9 +2775,7 @@
 	<string key="PerkID_Artifact_Set2_BowPerk_Name" rel_version="Feature_Artifacts_S7">Flechas envenenadas</string>
 	<string key="PerkID_Artifact_Set2_BowPerk_Desc" rel_version="Feature_Artifacts_S7">Los ataques cargados causan envenenamiento, que inflige un {[-0.050000 * -100]} % de daño de arma durante {[10.000000]} s.</string>
 	<string key="PerkID_Artifact_Set2_Musket_Name" rel_version="Feature_Artifacts_S7">Tiro de metralla</string>
-	<string key="PerkID_Artifact_Set2_Musket_Desc" rel_version="Feature_Artifacts_S7">Los tiros a la cabeza de enemigos causan un {[-0.100000*-100]} % de Sangrado durante {[6.000000]} s.</string>
-	<string key="PerkID_Artifact_Set2_TowerShield_Name" rel_version="UNSCHEDULED">Altruismo</string>
-	<string key="PerkID_Artifact_Set2_TowerShield_Desc" rel_version="UNSCHEDULED">En combate, otorga un {[0.350000 * 100]} % de armadura a todos los aliados a tu alrededor y aumenta la curación que recibes de fuentes no consumibles y robos de vida un {[0.200000 * 100]} %. Sin embargo, reduce tu armadura un {[-0.250000 * -100]} %.</string>
+	<string key="PerkID_Artifact_Set2_Musket_Desc" rel_version="Feature_Artifacts_S7">Los tiros a la cabeza de enemigos causan un {[-0.100000*-100]} % de Sangrado durante {[6.000000]} s. (Funciona en ambas armas)</string>
 	<string key="PerkID_Artifact_Set2_FireStaff_Name" rel_version="Feature_Artifacts_S7">Abrasamiento</string>
 	<string key="PerkID_Artifact_Set2_FireStaff_Desc" rel_version="Feature_Artifacts_S7">Todas las habilidades del báculo ígneo y los ataques pesados infligen un {[-0.330000 * -100]} % menos de daño, pero causan un {[-0.100000 * -100]} % de daño por quemaduras durante {[5.000000]} s. (Máx. 5 acumulaciones).</string>
 	<string key="PerkID_Artifact_Set2_LifeStaff_Name" rel_version="Feature_Artifacts_S7">Toque ligero</string>
@@ -2746,18 +2788,42 @@
 	<string key="PerkID_Artifact_Set2_IceGauntlet_Desc" rel_version="Feature_Artifacts_S7">Al impactar en un enemigo con Sepultura agrietada, le causa Congelación, lo que ralentiza su velocidad de movimiento en un {[-0.100000 * -100]} % e inflige un {[-0.100000 * -100]} % del daño de arma por segundo durante {[5.000000]} s.</string>
 	<string key="PerkID_Artifact_Set2_VoidGauntlet_Name" rel_version="Feature_Artifacts_S7">Ruptura restauradora</string>
 	<string key="PerkID_Artifact_Set2_VoidGauntlet_Desc" rel_version="Feature_Artifacts_S7">Esencia rebosante cura un 100 % más de salud, y Ruptura de esencia inflige un {[0.500000 * 100]} % más de daño al impactar.</string>
-	<string key="PerkID_Artifact_Set2_Blunderbuss_Name" rel_version="UNSCHEDULED">Ráfaga de caos</string>
-	<string key="PerkID_Artifact_Set2_Blunderbuss_Desc" rel_version="UNSCHEDULED">Disparo de ráfaga obtiene +{[1.700000 * 100]} % de distancia al empujar y prende fuego al primer objetivo impactado y lo convierte en un proyectil que inflige un {[-0.700000 * -100]} % de daño de arma a todos los objetivos en su camino.</string>
 	<string key="PerkID_Artifact_Set2_Greatsword_Name" rel_version="Feature_Artifacts_S6">Velocidad ofensiva</string>
-	<string key="PerkID_Artifact_Set2_Greatsword_Desc" rel_version="Feature_Artifacts_S6">Al adoptar una postura ofensiva, obtienes un {[0.200000 * 100]} % de velocidad de movimiento durante {[6.000000]} s.</string>
+	<string key="PerkID_Artifact_Set2_Greatsword_Desc" rel_version="Feature_Artifacts_S6">Al adoptar una postura ofensiva, obtienes un {[0.150000 * 100]} % de velocidad de movimiento durante {[6.000000]} s.</string>
 	<string key="PerkID_Artifact_Set2_Flail_Name" rel_version="Feature_Artifacts_S6">Carga pesada</string>
-	<string key="PerkID_Artifact_Set2_Flail_Desc" rel_version="Feature_Artifacts_S6">Si la salud supera el {[90.000000]} %, los ataques provocan un {[-0.200000 * -100]} % de Debilitamiento durante {[5.000000]} s ({[5.000000]} s de tiempo de recarga en cada objetivo).</string>
+	<string key="PerkID_Artifact_Set2_Flail_Desc" rel_version="Feature_Artifacts_S6">Si la salud supera el {[90.000000]} %, los ataques provocan un {[-0.200000 * -100]} % de Debilitamiento durante {[5.000000]} s ({[5.000000]} s de tiempo de recarga en cada objetivo. Funciona en ambas armas).</string>
 	<string key="PerkID_Artifact_Set2_Ring1_Name" rel_version="Feature_Artifacts_S6">Afinidad elemental</string>
 	<string key="PerkID_Artifact_Set2_Ring1_Desc" rel_version="Feature_Artifacts_S6">Cuando golpeas a un objetivo con un ataque de daño elemental (no se activa con daño con el tiempo o afinidades), obtienes un {[0.040000 * 100]} % de Fortalecimiento durante {[6.000000]} s ({[10.000000]} s de tiempo de recarga por tipo de daño, máx. 1 acumulación por tipo).</string>
 	<string key="PerkID_Artifact_Set2_Amulet1_Name" rel_version="Feature_Artifacts_S5">Venganza del fénix</string>
 	<string key="PerkID_Artifact_Set2_Amulet1_Desc" rel_version="Feature_Artifacts_S5">Al recibir daño letal, evitas la muerte y recuperas un {[1.000000 * 100]} % de tu salud máxima. Después entras en estado de Venganza, que reduce la curación en un {[-2.000000 * -100]} % y recibes daño igual al {[-0.100000 * -200]} % de tu salud máxima cada segundo hasta que mueras o mates a un objetivo. ({[180.000000]} s de tiempo de recarga).</string>
 	<string key="PerkID_Artifact_Set2_Earring1_Name" rel_version="Feature_Artifacts_S7">Protección de alquimista</string>
-	<string key="PerkID_Artifact_Set2_Earring1_Desc" rel_version="Feature_Artifacts_S7">Al recibir {[20.000000]} impactos, obtienes un reabastecimiento de pociones que recarga tu próxima poción de salud al instante (tiempo de recarga de {[90.000000]} s). Debes esperar {[75.000000]} s entre un reabastecimiento de pociones y otro.</string>
+	<string key="PerkID_Artifact_Set2_Earring1_Desc" rel_version="Feature_Artifacts_S7">Al recibir {[20.000000]} impactos, obtienes un reabastecimiento de pociones que recarga tu próxima poción de supervivencia al instante (tiempo de recarga de {[90.000000]} s). Debes esperar {[75.000000]} s entre un reabastecimiento de pociones y otro.</string>
+	<string key="PerkID_Artifact_Set2_MediumHead_Name" rel_version="Feature_Artifacts_S8">Realeza</string>
+	<string key="PerkID_Artifact_Set2_MediumHead_Desc" rel_version="Feature_Artifacts_S8">+{[11.000000]} a todos los atributos.</string>
+	<string key="PerkID_Artifact_Set2_MediumHead_PhysGem_Name" rel_version="Feature_Artifacts_S8">Ónice inmaculado</string>
+	<string key="PerkID_Artifact_Set2_MediumHead_PhysGem_Desc" rel_version="Feature_Artifacts_S8">+{[0.030000 * 100]} % de absorción de daño físico.</string>
+	<string key="PerkID_Artifact_Set2_MediumHead_ElemGem_Name" rel_version="Feature_Artifacts_S8">Ópalo inmaculado</string>
+	<string key="PerkID_Artifact_Set2_MediumHead_ElemGem_Desc" rel_version="Feature_Artifacts_S8">+{[0.030000 * 100]} % de absorción de daño elemental.</string>
+	<string key="PerkID_Artifact_Set2_LightChest_Name" rel_version="Feature_Artifacts_S8">Drenaje</string>
+	<string key="PerkID_Artifact_Set2_LightChest_Desc" rel_version="Feature_Artifacts_S8">Cuando tu salud esté por debajo del {[95.000000]} %, consumirás {[-10.000000 *-1]} de maná al golpear un objetivo. Si pierdes maná con tu ataque, recibirás un {[0.170000 * 100]} % de robo de vida. Si usas un arma mágica, solo las habilidades activarán el robo de vida y los ataques básicos generarán {[10.000000]} de maná ({[0.500000]} s de tiempo de recarga por activación).</string>
+	<string key="PerkID_Artifact_Set2_LightHands_Name" rel_version="Feature_Artifacts_S8">Maldición</string>
+	<string key="PerkID_Artifact_Set2_LightHands_Desc" rel_version="Feature_Artifacts_S8">Al activar una habilidad, obtienes una acumulación del {[0.100000 *100]} % de Fortalecimiento durante {[7.000000]} s (máx. {[3.000000]} acumulaciones). Tras golpear con un ataque básico, se pierden todas las acumulaciones. (No puedes obtener acumulaciones de Fortalecimiento durante {[3.000000]} s después de que las acumulaciones acaben o se eliminen).</string>
+	<string key="PerkID_Artifact_Set2_HeavyFeet_Name" rel_version="Feature_Artifacts_S8">Diligente</string>
+	<string key="PerkID_Artifact_Set2_HeavyFeet_Desc" rel_version="Feature_Artifacts_S8">Al activar una runa del alma, obtienes un {[0.230000 *100]} % de velocidad de movimiento durante {[6.000000]} s.</string>
+	<string key="PerkID_Artifact_Set2_Blunderbuss_Name" rel_version="Feature_Artifacts_S8">Ráfaga de caos</string>
+	<string key="PerkID_Artifact_Set2_Blunderbuss_Desc" rel_version="Feature_Artifacts_S8">Disparo de ráfaga obtiene +{[1.700000 * 100]} % de distancia al empujar y prende fuego al primer objetivo impactado y lo convierte en un proyectil que inflige un {[-0.700000 * -100]} % de daño de arma a todos los objetivos en su camino.</string>
+	<string key="PerkID_Artifact_Set2_Sword_Name" rel_version="Feature_Artifacts_S8">Malas lenguas</string>
+	<string key="PerkID_Artifact_Set2_Sword_Desc" rel_version="Feature_Artifacts_S8">Las provocaciones están activas. Los impactos críticos de ataques ligeros generan un {[2.000000 * 100]} % más de amenaza. Cuando ejecutas un ataque crítico ligero, se reduce el daño base que recibes de la IA enemiga un {[0.150000 * 100]} % durante {[3.000000]} s.</string>
+	<string key="PerkID_Artifact_Set2_TowerShield_Name" rel_version="Feature_Artifacts_S8">Altruismo</string>
+	<string key="PerkID_Artifact_Set2_TowerShield_Desc" rel_version="Feature_Artifacts_S8">En combate, otorga un {[0.350000 * 100]} % de armadura a todos los aliados a tu alrededor y aumenta la curación que recibes de fuentes no consumibles y robos de vida un {[0.200000 * 100]} %. Sin embargo, reduce tu armadura un {[-0.250000 * -100]} %.</string>
+	<string key="PerkID_Artifact_Set3_MediumHead_Name" rel_version="Feature_Artifacts_S9">Propagador de plaga</string>
+	<string key="PerkID_Artifact_Set3_MediumHead_Desc" rel_version="Feature_Artifacts_S9">Cada {[0.500000]} s, las habilidades/ataques ligeros infligen una acumulación de un {[-0.030000 * -100]} % de enfermedad (máx. {[10.000000]} acumulaciones). También sufres un {[-0.010000 * -100]} % de Enfermedad por cada acumulación aplicada. Con {[10.000000]} acumulaciones propias, los ataques pesados consumirán tus acumulaciones y activarán una nube alrededor del objetivo durante {[7000.000000 / 1000]} s que inflige un {[-0.300000 * -100]} % de Enfermedad y un {[-0.100000 * -100]} % de Debilitamiento a todos los enemigos cercanos ({[12.000000]} s de tiempo de recarga).</string>
+	<string key="PerkID_Artifact_Set3_Warhammer_Name" rel_version="Feature_Artifacts_S9">Empellón</string>
+	<string key="PerkID_Artifact_Set3_Warhammer_Desc" rel_version="Feature_Artifacts_S9">+{[3.000000 * 100]} % de distancia al empujar y +{[0.100000 * 100]} % de daño base a todos los retrocesos con martillos de guerra. Barrido prende fuego al primer objetivo impactado y lo convierte en un proyectil que inflige un {[-1.000000 * -100]} % de daño de arma a todos los objetivos en su camino.</string>
+	<string key="PerkID_Artifact_Set3_GreatSword_Name" rel_version="Feature_Artifacts_S9">Paralaje</string>
+	<string key="PerkID_Artifact_Set3_GreatSword_Desc" rel_version="Feature_Artifacts_S9">+{[0.120000 * 100]} % de daño base a objetivos a más de {[10.000000]} m de distancia (funciona en ambas armas).</string>
+	<string key="PerkID_Artifact_Set3_GreatSwordPerk_Name" rel_version="Feature_Artifacts_S9">Oleada creciente</string>
+	<string key="PerkID_Artifact_Set3_GreatSwordPerk_Desc" rel_version="Feature_Artifacts_S9">Con la salud por encima del 50 %, los ataques pesados disparan un proyectil que inflige un {[1.500000 * 100]} % de daño de arma, pero el daño de los ataques pesados cuerpo a cuerpo se reduce un {[-0.500000 * -100]} %. Cada oleada cuesta {[20.000000]} de maná.</string>
 	<string key="PerkID_Flail_RabbitFlail_Name" rel_version="Event_RabbitSeasonPerm2024">La venganza de los conejos</string>
 	<string key="PerkID_Flail_RabbitFlail_Description" rel_version="Event_RabbitSeasonPerm2024">Ni siquiera Stanley es capaz de soportar el poder corruptor de esta arma.</string>
 	<string key="PerkID_Conqueror_Bow_PoisonAOE_Name" rel_version="PvPServerConquerorsItems">Contagio</string>
@@ -2812,59 +2878,5 @@
 	<string key="PerkID_EtherealHarvesting_Description" rel_version="PvPServerConquerorsItems">Esta hoz se suelta al morir y da acceso a materiales especiales al cosechar.</string>
 	<string key="PerkID_EtherealSkinning_Name" rel_version="PvPServerConquerorsItems">Desuello etéreo</string>
 	<string key="PerkID_EtherealSkinning_Description" rel_version="PvPServerConquerorsItems">Este cuchillo de desuello se suelta al morir y te permite acceder a materiales especiales al desollar.</string>
-	<string key="PerkID_Chest_HealthStam_Synergy_Name">Sinergia vital</string>
-	<string key="PerkID_Weapon_RendingStacks_Name">Acumulación demoledora</string>
-	<string key="PlaguedDMG3Name">Infectado III</string>
-	<string key="PerkID_Armor_LifestealHealing_Description">Aumenta un {[0.040000 * 100]} % la curación de los robos de vida.</string>
-	<string key="PlaguedDEF1Name">Protección infecta I</string>
-	<string key="PlaguedDMG1Desc">Los ataques básicos infligen una acumulación de Enfermedad, lo que reduce la efectividad de la curación recibida de los objetivos en un {[-0.010000 * -100]} % y la otorgada en un {[-0.005000 * -100]} % por acumulación durante {[3.000000]} s (se acumula un máx. de {[10.000000]} veces).</string>
-	<string key="PlaguedDEF4Desc">La duración de Enfermedad es del {[-0.062500 * 100]} %.</string>
-	<string key="PlaguedDMG4Name">Infectado IV</string>
-	<string key="PlaguedDEF3Desc">La duración de Enfermedad es del {[-0.050000 * 100]} %.</string>
-	<string key="PerkID_Weapon_RendingStacks_Description">Una vez cada {[0.500000]}s, al atacar infliges una acumulación de {[-0.040000 * -100]}% de Desgarro, cada acumulación dura {[6.000000]}s. (Se acumula un máx. de {[5.000000]} veces).</string>
-	<string key="PerkID_Armor_HastePotencyInc_Name">Presteza potente</string>
-	<string key="PlaguedDEF2Name">Protección infecta II</string>
-	<string key="PerkID_Armor_LifestealHealing_Name">Robo de vida ungido</string>
-	<string key="ArmorPen4Desc">+{[0.120000 * 100]} % de penetración de armadura.</string>
-	<string key="ArmorPen1Desc">+{[0.050000 * 100]} % de penetración de armadura.</string>
-	<string key="ArmorPen2Desc">+{[0.080000 * 100]} % de penetración de armadura.</string>
-	<string key="ArmorPen3Desc">+{[0.100000 * 100]} % de penetración de armadura.</string>
-	<string key="PerkID_Armor_ExhaustPotencyRed_Description">Disminuye la potencia de todos los efectos de agotamiento que tengas un 12 %.</string>
-	<string key="PerkID_Amulet_DodgeBurn_DurRed_Description">Esquivar reducirá la duración actual de todos los efectos de daño con el tiempo por Quemadura un {[-0.250000 * -100]} %.</string>
-	<string key="PerkID_Feet_HasteOnVault_Description">Obtienes un {[0.180000 * 100]} % de Celeridad durante {[5.000000]} s tras activar una acción de recorrido.</string>
-	<string key="PerkID_Armor_ConsumableHealing_Description">Aumenta un {[0.030000 * 100]} % la curación de consumibles.</string>
-	<string key="ArmorPen4Name">Penetrante IV</string>
-	<string key="ArmorPen1Name">Penetrante I</string>
-	<string key="ArmorPen2Name">Penetrante II</string>
-	<string key="ArmorPen3Name">Penetrante III</string>
-	<string key="PerkID_Armor_ConsumableHealing_Name">Pociones ungidas</string>
-	<string key="PlaguedDMG2Desc">Los ataques básicos infligen una acumulación de Enfermedad, lo que reduce la efectividad de la curación recibida de los objetivos en un {[-0.015000 * -100]} % y la otorgada en un {[-0.007500 * -100]} % por acumulación durante {[3.000000]} s (se acumula un máx. de {[10.000000]} veces).</string>
-	<string key="PlaguedDEF3Name">Protección infecta III</string>
-	<string key="PerkID_Armor_HastePotencyInc_Description">Aumenta la potencia de todos los efectos de Celeridad que tengas un 9 %.</string>
-	<string key="PerkID_Feet_HasteOnVault_Name">Parkour intenso</string>
-	<string key="PlaguedDEF1Desc">La duración de Enfermedad es del {[-0.025000 * 100]} %.</string>
-	<string key="PlaguedDMG1Name">Infectado I</string>
-	<string key="PlaguedDEF4Name">Protección infecta IV</string>
-	<string key="PerkID_Armor_ExhaustPotencyRed_Name">Energía potente</string>
-	<string key="PlaguedDMG4Desc">Los ataques básicos infligen una acumulación de Enfermedad, lo que reduce la efectividad de la curación recibida de los objetivos en un {[-0.025000 * -100]} % y la otorgada en un {[-0.012500 * -100]} % por acumulación durante {[3.000000]} s (se acumula un máx. de {[10.000000]} veces).</string>
-	<string key="PlaguedDMG2Name">Infectado II</string>
-	<string key="PlaguedDMG3Desc">Los ataques básicos infligen una acumulación de Enfermedad, lo que reduce la efectividad de la curación recibida de los objetivos en un {[-0.020000 * -100]} % y la otorgada en un {[-0.010000 * -100]} % por acumulación durante {[3.000000]} s (se acumula un máx. de {[10.000000]} veces).</string>
-	<string key="ArmorInc4Name">Endurecido IV</string>
-	<string key="ArmorInc1Name">Endurecido I</string>
-	<string key="ArmorInc2Name">Endurecido II</string>
-	<string key="ArmorInc3Name">Endurecido III</string>
-	<string key="PerkID_Chest_HealthStam_Synergy_Description">Cuando tu salud está por debajo del 50 %, obtienes un {[0.150000 * 100]} % de regeneración de vitalidad. Cuando tu vitalidad está por debajo del 50 %, la curación que recibes aumenta un {[0.150000 * 100]} %.</string>
-	<string key="ArmorInc4Desc">+{[0.030000 * 100]} % de armadura física y elemental.</string>
-	<string key="ArmorInc1Desc">+{[0.010000 * 100]} % de armadura física y elemental.</string>
-	<string key="ArmorInc2Desc">+{[0.015000 * 100]} % de armadura física y elemental.</string>
-	<string key="ArmorInc3Desc">+{[0.020000 * 100]} % de armadura física y elemental.</string>
-	<string key="PerkID_Weapon_Melee_AlternateAttacks_Name">Encantamiento alterno</string>
-	<string key="PlaguedDEF2Desc">La duración de Enfermedad es del {[-0.035000 * 100]} %.</string>
-	<string key="PerkID_Weapon_Melee_AlternateAttacks_Description">Al golpear con un ataque básico, aumentará el daño base del golpe de la siguiente habilidad dentro de un período de {[5.000000]} s en un {[0.100000 * 100]} %, y al golpear con una habilidad, aumentará el daño base del siguiente ataque básico dentro de un período de {[5.000000]} s en un {[0.100000 * 100]} %.</string>
-	<string key="PerkID_Amulet_DodgeBurn_DurRed_Name">Para, tírate al suelo y rueda</string>
-	<string key="PerkID_Artifact_Set2_MediumHead_PhysGem_Desc">+{[0.030000 * 100]} % de absorción de daño físico.</string>
-	<string key="PerkID_Artifact_Set2_MediumHead_ElemGem_Desc">+{[0.030000 * 100]} % de absorción de daño elemental.</string>
-	<string key="PerkID_Artifact_Set2_MediumHead_PhysGem_Name">Ónice inmaculado</string>
-	<string key="PerkID_Artifact_Set2_MediumHead_ElemGem_Name">Ópalo inmaculado</string>
 </resources>
 

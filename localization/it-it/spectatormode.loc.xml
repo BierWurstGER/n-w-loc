@@ -1,5 +1,5 @@
 <resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<string key="ui_spectate_heading" comment="">Modalità spettatore</string>
+	<string key="ui_spectate_heading" comment="">Osservazione</string>
 	<string key="ui_spectate" comment="">Osserva</string>
 	<string key="ui_spectate_ghost" comment="">Modalità spettatore: Fantasma</string>
 	<string key="ui_spectate_follow" comment="">Modalità spettatore: Segui</string>
@@ -10,5 +10,9 @@
 	<string key="ui_spectate_privacytitle" comment="">Privacy</string>
 	<string key="ui_spectate_allowtitle" comment="">Consenti di essere osservato</string>
 	<string key="ui_spectate_allowdescription" comment="">Consenti ad altri giocatori del tuo gruppo di osservarti mentre sono morti</string>
+	<string key="ui_pvp_spectate_currplayer" comment="">OSSERVAZIONE: &lt;font color="#ebe3d6"&gt;{playerName}&lt;/font&gt;</string>
+	<string key="ui_pvp_spectate_nextplayer" comment="">Successivo</string>
+	<string key="ui_pvp_spectate_prevplayer" comment="">Precedente</string>
+	<string key="ui_pvp_spectate_exit" comment="">Esci dall'osservazione</string>
 </resources>
 

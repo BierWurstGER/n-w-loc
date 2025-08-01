@@ -1115,6 +1115,8 @@
 	<string key="GemOnyx_CategoryName">Onyxe</string>
 	<string key="GemOpal_CategoryName">Opale</string>
 	<string key="GemPearl_CategoryName">Perlmuttbrocken</string>
+	<string key="GemJade_CategoryName">Jadesteine</string>
+	<string key="GemTurq_CategoryName">Türkise</string>
 	<string key="gemPouch_GroupName">Edelsteintasche</string>
 	<string key="GemRuby_CategoryName">Rubine</string>
 	<string key="GemSapp_CategoryName">Saphire</string>
@@ -1746,7 +1748,7 @@
 	<string key="SurvivalTools_GroupName">Überlebenswerkzeuge</string>
 	<string key="SwordA_GroupDesc">Ein Paar Nahkampfwaffen, die zusammen sowohl exzellente Angriffs- wie auch Verteidigungsmöglichkeiten bieten. Nutzt eine Kombination von ausholenden Schwüngen und Ausfallschritten für aggressive Offensivangriffe und einen Schild zur besseren Verteidigung.\n\n• Leichter Angriff: Verursacht {[1.000000 * 100]} % &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_slash_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; Schaden.\n• Leichtes Ende: Verursacht {[1.050000 * 100]} % &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_slash_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; Schaden.\n• Schwerer Angriff: Verursacht {[1.200000 * 100]} % &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_thrust_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; Schaden.\n• Aufgeladener schwerer Angriff: Verursacht {[1.600000 * 100]} % &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_thrust_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; Schaden.\n\nEffekt mit Provokationsedelstein: Schwere Angriffe mit einem Schwert mit einem eingesetzten Karneol provozieren für {[0.500000]} Sekunden. (Provokation führt dazu, dass Monster nur dich angreifen.)</string>
 	<string key="SwordA_GroupName">Gerades Schwert</string>
-	<string key="SwordB_GroupDesc">Eine auf Geschwindigkeit ausgelegte Nahkampfwaffe für eine Vielzahl schneller Ausfallschrittangriffe. Überragend für präzise abgestimmte Angriffe und zum Ausbooten von Gegnern geeignet, während Blutung ihnen beständig das Leben entzieht.\n\n• Leichter Angriff: Verursacht {[1.000000 * 100]} % &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_thrust_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; Schaden.\n• Leichte mittlere Schwünge: Verursacht {[0.660000 * 100]} % &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_thrust_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; Schaden.\n• Schwerer Angriff: Verursacht {[1.330000 * 100]} % &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_thrust_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; Schaden.\n\nEffekt mit Provokationsedelstein: Schwere Angriffe mit einem Rapier mit einem eingesetzten Karneol provozieren für {[0.500000]} Sekunden. (Provokation führt dazu, dass Monster nur dich angreifen.)</string>
+	<string key="SwordB_GroupDesc">Eine auf Geschwindigkeit ausgelegte Nahkampfwaffe für eine Vielzahl schneller Ausfallschrittangriffe. Überragend für präzise abgestimmte Angriffe und zum Ausbooten von Gegnern geeignet, während Blutung ihnen beständig das Leben entzieht.\n\n• Leichter Angriff: Verursacht {[1.000000 * 100]} % &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_thrust_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; Schaden.\n• Leichte mittlere Schwünge: Verursacht {[0.660000 * 100]} % &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_thrust_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; Schaden.\n• Schwerer Angriff: Verursacht {[1.660000 * 100]} % &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_thrust_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; Schaden.\n\nEffekt mit Provokationsedelstein: Schwere Angriffe mit einem Rapier mit einem eingesetzten Karneol provozieren für {[0.500000]} Sekunden. (Provokation führt dazu, dass Monster nur dich angreifen.)</string>
 	<string key="SwordB_GroupName">Rapier</string>
 	<string key="SwordC_GroupDesc">Einhändig zu führen.</string>
 	<string key="SwordC_GroupName">Säbel</string>
@@ -1874,6 +1876,11 @@
 	<string key="AlchemyAlkahestT1_GroupName">Alkahest</string>
 	<string key="AlchemyCritters_GroupName">Alchemiekreaturen</string>
 	<string key="Summer">Sommer</string>
+	<string key="SummerMemento" rel_version="Event_Summer_Temp">Sommer-Andenken</string>
+	<string key="MementoStand" rel_version="Event_Summer_Temp">Andenkenstände</string>
+	<string key="SmallMemento" rel_version="Event_Summer_Temp">Kleine Fischandenken</string>
+	<string key="MediumMemento" rel_version="Event_Summer_Temp">Mittelgroße Fischandenken</string>
+	<string key="LargeMemento" rel_version="Event_Summer_Temp">Große Fischandenken</string>
 	<string key="Instruments_GroupName" rel_version="Feature_MusicalPerformances">Musikinstrumente</string>
 	<string key="CategoryData_Instruments" rel_version="Feature_MusicalPerformances">Musikinstrumente</string>
 	<string key="InstrumentParts_GroupName" rel_version="Feature_MusicalPerformances">Instrumententeile</string>
@@ -2057,18 +2064,18 @@
 	<string key="EtherealDust_GroupName" comment="DO NOT TRANSLATE" rel_version="PvPServerConquerorsItems">Ethereal Dust XP Conversion</string>
 	<string key="BetaRewards_GroupName">Beta-Belohnungen</string>
 	<string key="OPRBetas_GroupName">APS-Betas</string>
-	<string key="ReekwaterUplevelRare_GroupName">Selten</string>
-	<string key="ReekwaterUplevelCommon_GroupName">Gew.</string>
-	<string key="RuneResinTrophies_GroupName">Trophäen (Runenholz-Harz)</string>
-	<string key="RuneResinRecipes_GroupName">Pläne (Runenholz-Harz)</string>
-	<string key="AdventurersEquipment_GroupName">Ausrüstung</string>
-	<string key="AdventurerCaches_GroupName">Abenteurervorräte</string>
-	<string key="OrichalciteWeapons_GroupName">Waffen (Orichalcum)</string>
-	<string key="OrichalciteArmors_GroupName">Rüstungen (Orichalcum)</string>
-	<string key="OrichalciteJewelry_GroupName">Accessoires (Orichalcum)</string>
-	<string key="OrichalciteRecipes_GroupName">Pläne (Orichalcum)</string>
-	<string key="AdventurersItems_GroupName">Gegenstand</string>
-	<string key="S8CacheCraft_GroupName">Saison-8-Herstellung</string>
-	<string key="AdventurersConsumables_GroupName">Verbrauchsgegenstände</string>
+	<string key="ReekwaterUplevelRare_GroupName" rel_version="Season_8_Perm">Selten</string>
+	<string key="ReekwaterUplevelCommon_GroupName" rel_version="Season_8_Perm">Gew.</string>
+	<string key="AdventurerCaches_GroupName" rel_version="Seasonal_Server_2">Abenteurervorräte</string>
+	<string key="AdventurersEquipment_GroupName" rel_version="Seasonal_Server_2">Ausrüstung</string>
+	<string key="AdventurersConsumables_GroupName" rel_version="Seasonal_Server_2">Verbrauchsgegenstände</string>
+	<string key="AdventurersItems_GroupName" rel_version="Seasonal_Server_2">Gegenstand</string>
+	<string key="S8CacheCraft_GroupName" rel_version="Seasonal_Server_2">Saison-8-Herstellung</string>
+	<string key="OrichalciteRecipes_GroupName" rel_version="Seasonal_Server_2">Pläne (Orichalcum)</string>
+	<string key="OrichalciteArmors_GroupName" rel_version="Seasonal_Server_2">Rüstungen (Orichalcum)</string>
+	<string key="OrichalciteWeapons_GroupName" rel_version="Seasonal_Server_2">Waffen (Orichalcum)</string>
+	<string key="OrichalciteJewelry_GroupName" rel_version="Seasonal_Server_2">Accessoires (Orichalcum)</string>
+	<string key="RuneResinRecipes_GroupName" rel_version="Seasonal_Server_2">Pläne (Runenholz-Harz)</string>
+	<string key="RuneResinTrophies_GroupName" rel_version="Seasonal_Server_2">Trophäen (Runenholz-Harz)</string>
 </resources>
 

@@ -1115,6 +1115,8 @@
 	<string key="GemOnyx_CategoryName">Onyx</string>
 	<string key="GemOpal_CategoryName">Opales</string>
 	<string key="GemPearl_CategoryName">Perles</string>
+	<string key="GemJade_CategoryName">Jades</string>
+	<string key="GemTurq_CategoryName">Turquoises</string>
 	<string key="gemPouch_GroupName">Sachet de gemmes</string>
 	<string key="GemRuby_CategoryName">Rubis</string>
 	<string key="GemSapp_CategoryName">Saphirs</string>
@@ -1746,7 +1748,7 @@
 	<string key="SurvivalTools_GroupName">Outils de survie</string>
 	<string key="SwordA_GroupDesc">Un duo d'armes de corps à corps qui, une fois conjuguées, offrent de véritables capacités offensives et défensives. Cette association utilise une combinaison de coups circulaires et de fentes pour attaquer, ainsi qu’un bouclier pour maximiser ses défenses.\n\n•Attaque légère : inflige {[1.000000 * 100]} % de dégâts &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_slash_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt;.\n•Coup final léger : inflige {[1.050000 * 100]} % de dégâts &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_slash_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt;.\n•Attaque lourde : inflige {[1.200000 * 100]} % de dégâts &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_thrust_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt;.\n•Attaque lourde chargée : Inflige {[1.600000 * 100]} % de dégâts &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_thrust_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt;.\n\nGemme de provocation compatible : Les attaques lourdes avec une épée dans laquelle est enchâssée une cornaline provoquent pendant {[0.500000]} s (les monstres provoqués se concentrent uniquement sur vous).</string>
 	<string key="SwordA_GroupName">Épée droite</string>
-	<string key="SwordB_GroupDesc">Une arme de corps à corps basée sur la vitesse et aux diverses attaques d'estoc rapides. Utilisée au bon moment, permet de déjouer les attaques ennemies tout en infligeant des saignements qui vident progressivement la santé de vos cibles.\n\n•Attaque légère : inflige {[1.000000 * 100]} % de dégâts &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_thrust_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt;.\n•Balayage central léger : inflige {[0.660000 * 100]} % de dégâts &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_thrust_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt;.\n•Attaque lourde : Inflige {[1.330000 * 100]} % de dégâts &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_thrust_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt;.\n\nGemme de provocation compatible : Les attaques lourdes avec une rapière dans laquelle est enchâssée une cornaline provoquent pendant {[0.500000]} s (les monstres provoqués se concentrent uniquement sur vous).</string>
+	<string key="SwordB_GroupDesc">Une arme de corps à corps basée sur la vitesse et aux diverses attaques d'estoc rapides. Utilisée au bon moment, permet de déjouer les attaques ennemies tout en infligeant des saignements qui vident progressivement la santé de vos cibles.\n\n•Attaque légère : inflige {[1.000000 * 100]} % de dégâts &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_thrust_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt;.\n•Balayage central léger : inflige {[0.660000 * 100]} % de dégâts &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_thrust_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt;.\n•Attaque lourde : Inflige {[1.660000 * 100]} % de dégâts &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_thrust_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt;.\n\nGemme de provocation compatible : Les attaques lourdes avec une rapière dans laquelle est enchâssée une cornaline provoquent pendant {[0.500000]} s (les monstres provoqués se concentrent uniquement sur vous).</string>
 	<string key="SwordB_GroupName">Rapière</string>
 	<string key="SwordC_GroupDesc">À une main.</string>
 	<string key="SwordC_GroupName">Sabre</string>
@@ -1874,6 +1876,11 @@
 	<string key="AlchemyAlkahestT1_GroupName">Alkahest</string>
 	<string key="AlchemyCritters_GroupName">Créatures d'alchimie</string>
 	<string key="Summer">Été</string>
+	<string key="SummerMemento" rel_version="Event_Summer_Temp">Souvenirs estivaux</string>
+	<string key="MementoStand" rel_version="Event_Summer_Temp">Supports de souvenir</string>
+	<string key="SmallMemento" rel_version="Event_Summer_Temp">Souvenirs de petits poissons</string>
+	<string key="MediumMemento" rel_version="Event_Summer_Temp">Souvenirs de poissons moyens</string>
+	<string key="LargeMemento" rel_version="Event_Summer_Temp">Souvenirs de grands poissons</string>
 	<string key="Instruments_GroupName" rel_version="Feature_MusicalPerformances">Instruments</string>
 	<string key="CategoryData_Instruments" rel_version="Feature_MusicalPerformances">Instruments</string>
 	<string key="InstrumentParts_GroupName" rel_version="Feature_MusicalPerformances">Parties d'instrument</string>
@@ -2057,18 +2064,18 @@
 	<string key="EtherealDust_GroupName" comment="DO NOT TRANSLATE" rel_version="PvPServerConquerorsItems">Ethereal Dust XP Conversion</string>
 	<string key="BetaRewards_GroupName">Récompenses de la bêta</string>
 	<string key="OPRBetas_GroupName">Récompenses de la Déferlante</string>
-	<string key="ReekwaterUplevelRare_GroupName">Rare</string>
-	<string key="ReekwaterUplevelCommon_GroupName">ordinaire</string>
-	<string key="RuneResinTrophies_GroupName">Trophées en résine de bois-rune</string>
-	<string key="RuneResinRecipes_GroupName">Recettes avec de la résine de bois-rune</string>
-	<string key="AdventurersEquipment_GroupName">Équipement</string>
-	<string key="AdventurerCaches_GroupName">Caches d'aventurier</string>
-	<string key="OrichalciteWeapons_GroupName">Armes en orichalque</string>
-	<string key="OrichalciteArmors_GroupName">Armures en orichalque</string>
-	<string key="OrichalciteJewelry_GroupName">Bijoux en orichalque</string>
-	<string key="OrichalciteRecipes_GroupName">Recettes avec de l'orichalque</string>
-	<string key="AdventurersItems_GroupName">Objets</string>
-	<string key="S8CacheCraft_GroupName">Fabrication de la saison 8</string>
-	<string key="AdventurersConsumables_GroupName">Consommables</string>
+	<string key="ReekwaterUplevelRare_GroupName" rel_version="Season_8_Perm">Rare</string>
+	<string key="ReekwaterUplevelCommon_GroupName" rel_version="Season_8_Perm">ordinaire</string>
+	<string key="AdventurerCaches_GroupName" rel_version="Seasonal_Server_2">Caches d'aventurier</string>
+	<string key="AdventurersEquipment_GroupName" rel_version="Seasonal_Server_2">Équipement</string>
+	<string key="AdventurersConsumables_GroupName" rel_version="Seasonal_Server_2">Consommables</string>
+	<string key="AdventurersItems_GroupName" rel_version="Seasonal_Server_2">Objets</string>
+	<string key="S8CacheCraft_GroupName" rel_version="Seasonal_Server_2">Fabrication de la saison 8</string>
+	<string key="OrichalciteRecipes_GroupName" rel_version="Seasonal_Server_2">Recettes avec de l'orichalque</string>
+	<string key="OrichalciteArmors_GroupName" rel_version="Seasonal_Server_2">Armures en orichalque</string>
+	<string key="OrichalciteWeapons_GroupName" rel_version="Seasonal_Server_2">Armes en orichalque</string>
+	<string key="OrichalciteJewelry_GroupName" rel_version="Seasonal_Server_2">Bijoux en orichalque</string>
+	<string key="RuneResinRecipes_GroupName" rel_version="Seasonal_Server_2">Recettes avec de la résine de bois-rune</string>
+	<string key="RuneResinTrophies_GroupName" rel_version="Seasonal_Server_2">Trophées en résine de bois-rune</string>
 </resources>
 

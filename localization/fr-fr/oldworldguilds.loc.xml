@@ -370,7 +370,7 @@
 	<string key="FactionMission_armorsmith_desc">Forgez et apportez : &lt;font color="#b2aea1"&gt;{itemName}&lt;/font&gt;.</string>
 	<string key="FactionMission_cooking_title">Cuisiniers requis</string>
 	<string key="FactionMission_cooking_desc">Cuisinez et apportez : &lt;font color="#b2aea1"&gt;{itemName}&lt;/font&gt;.</string>
-	<string key="FactionMission_RAID_title">Assaut : {POITags}</string>
+	<string key="FactionMission_RAID_title">Spolier : {POITags}</string>
 	<string key="FactionMission_RAID_desc">Nous avons identifié une menace aux intérêts des Maraudeurs dans cette région.\n\nAllez à : {POITags} et anéantissez chaque &lt;font color="#b2aea1"&gt;{enemyName}&lt;/font&gt; en faisant le maximum de dégâts.</string>
 	<string key="FactionMission_EXPLORE_title">Reconnaissance : {POITags}</string>
 	<string key="FactionMission_EXPLORE_desc">Pour donner un avantage aux Maraudeurs, partez en reconnaissance à : {POITags}. \n\nVotre rapport est vital pour mettre sur pied notre stratégie.</string>
@@ -413,7 +413,7 @@
 	<string key="FactionMission_PRESERVE_title">Conservation (JcJ)</string>
 	<string key="FactionMission_PRESERVE_desc">Que l'Étincelle bénisse {POITags}.</string>
 	<string key="FactionMission_M_EXPEDITIONRAID_desc_singular">Allez à : {POITags} pour le compte des Maraudeurs et terrassez : &lt;font color="#b2aea1"&gt;{enemyName}&lt;/font&gt;. \n\n &lt;font color="#b2aea1"&gt;(Expédition)&lt;/font&gt;</string>
-	<string key="FactionMission_EXPEDITIONRAID_title">Assaut : {POITags}</string>
+	<string key="FactionMission_EXPEDITIONRAID_title">Spolier : {POITags}</string>
 	<string key="FactionMission_EXPEDITIONRAID_desc">Allez à : {POITags} pour le compte des Maraudeurs et venez à bout du moindre &lt;font color="#b2aea1"&gt;{enemyName}&lt;/font&gt; qui y rôde. \n\n &lt;font color="#b2aea1"&gt;(Expédition)&lt;/font&gt;</string>
 	<string key="FactionMission_EXPEDITIONRAID_desc_singular">Allez à : {POITags} pour le compte des Maraudeurs et terrassez : &lt;font color="#b2aea1"&gt;{enemyName}&lt;/font&gt;. \n\n &lt;font color="#b2aea1"&gt;(Expédition)&lt;/font&gt;</string>
 	<string key="FactionMission_EXPEDITIONLOOT_title">Rapine : {POITags}</string>
@@ -452,7 +452,7 @@
 	<string key="FactionMission_C_ASSASSINATE_ELITE_desc2">Les Engagés ont identifié une menace spécifique à éliminer : &lt;font color="#b2aea1"&gt;{enemyName}&lt;/font&gt;.\n\nProuvez votre dévotion en la pourchassant et en l'éliminant à : {POITags}. (astuce : les cibles font partie intégrante d'un événement)\n&lt;font color="#b2aea1"&gt;(Élite)&lt;/font&gt;</string>
 	<string key="FactionMission_ASSASSINATE_ELITE_desc2">Les Maraudeurs ont besoin d'éliminer cette cible : &lt;font color="#b2aea1"&gt;{enemyName}&lt;/font&gt;.\n\nProuvez votre valeur en la pourchassant puis en l'éliminant à : {POITags} (astuce : les cibles font partie intégrante d'un événement)\n&lt;font color="#b2aea1"&gt;(Élite)&lt;/font&gt;</string>
 	<string key="FactionMission_S_ASSASSINATE_ELITE_desc2">L'Ombre a identifié une cible à éliminer : &lt;font color="#b2aea1"&gt;{enemyName}&lt;/font&gt;.\n\nFaites preuve de ruse en la pourchassant puis en l'éliminant à : {POITags} (astuce : les cibles font partie intégrante d'un événement)\n&lt;font color="#b2aea1"&gt;(Élite)&lt;/font&gt;</string>
-	<string key="FactionMission_RAID_ELITE_title">Assaut : {POITags} (Élite)</string>
+	<string key="FactionMission_RAID_ELITE_title">Spolier : {POITags} (Élite)</string>
 	<string key="FactionMission_RAID_ELITE_desc">Nous avons identifié une menace aux intérêts des Maraudeurs dans cette région.\n\nAllez à : {POITags} et anéantissez chaque &lt;font color="#b2aea1"&gt;{enemyName}&lt;/font&gt; en faisant le maximum de dégâts.\n &lt;font color="#b2aea1"&gt;(Élite)&lt;/font&gt;</string>
 	<string key="FactionMission_LOOT_ELITE_title">Rapine : {POITags} (Élite)</string>
 	<string key="FactionMission_LOOT_ELITE_desc">Il y a des objets à : {POITags} qui pourraient être utiles à la campagne des Maraudeurs. \n\nObtenez chaque &lt;font color="#b2aea1"&gt;{itemName}&lt;/font&gt; par tous les moyens.\n &lt;font color="#b2aea1"&gt;(Élite)&lt;/font&gt;</string>
@@ -495,11 +495,11 @@
 	<string key="FactionMission_S_WARCAMP_LOOT_title">Reconnaissance de l'ennemi (JcJ)</string>
 	<string key="FactionMission_S_WARCAMP_LOOT_desc">Infiltrez le &lt;font color="#b2aea1"&gt;camp de guerre&lt;/font&gt; à côté de la &lt;font color="#b2aea1"&gt;forteresse {territoryID}&lt;/font&gt; et cherchez des renseignements précieux.</string>
 	<string key="FactionMission_S_CONTROL_POINT_title">Opportunité (JcJ)</string>
-	<string key="FactionMission_S_CONTROL_POINT_desc">Prenez les armes pour aider l'Ombre à s'emparer de la &lt;font color="#b2aea1"&gt;forteresse&lt;/font&gt; à : &lt;font color="#b2aea1"&gt;{territoryID}&lt;/font&gt; ou d'une des trois tours de guet.\n\n(Cette mission peut ne pas être réalisable à tout moment)</string>
+	<string key="FactionMission_S_CONTROL_POINT_desc">Prenez les armes pour aider l'Ombre à s'emparer de la &lt;font color="#b2aea1"&gt;forteresse&lt;/font&gt; à : &lt;font color="#b2aea1"&gt;{territoryID}&lt;/font&gt;, ou d'une des trois tours de guet.\n\n(Cette mission peut ne pas être réalisable à tout moment)</string>
 	<string key="FactionMission_C_WARCAMP_LOOT_title">Renseignements sur l'ennemi (JcJ)</string>
 	<string key="FactionMission_C_WARCAMP_LOOT_desc">Infiltrez le &lt;font color="#b2aea1"&gt;camp de guerre&lt;/font&gt; à côté de la &lt;font color="#b2aea1"&gt;forteresse {territoryID}&lt;/font&gt; et cherchez des renseignements précieux.</string>
 	<string key="FactionMission_C_CONTROL_POINT_title">Triomphe (JcJ)</string>
-	<string key="FactionMission_C_CONTROL_POINT_desc">Prenez les armes pour aider les Engagés à s'emparer de la &lt;font color="#b2aea1"&gt;forteresse&lt;/font&gt; à : &lt;font color="#b2aea1"&gt;{territoryID}&lt;/font&gt; ou d'une des trois tours de guet.\n\n(Cette mission peut ne pas être réalisable à tout moment)</string>
+	<string key="FactionMission_C_CONTROL_POINT_desc">Prenez les armes pour aider les Engagés à s'emparer de la &lt;font color="#b2aea1"&gt;forteresse&lt;/font&gt; à : &lt;font color="#b2aea1"&gt;{territoryID}&lt;/font&gt;, ou d'une des trois tours de guet.\n\n(Cette mission peut ne pas être réalisable à tout moment)</string>
 	<string key="FactionMission_WARCAMP_SPECIAL_desc">Infiltrez le bastion à &lt;font color="#b2aea1"&gt;{POITags}&lt;/font&gt; et cherchez des renseignements précieux.</string>
 	<string key="FactionMission_S_WARCAMP_SPECIAL_desc">Infiltrez le bastion à &lt;font color="#b2aea1"&gt;{POITags}&lt;/font&gt; et cherchez des renseignements précieux.</string>
 	<string key="FactionMission_C_WARCAMP_SPECIAL_desc">Infiltrez le bastion à &lt;font color="#b2aea1"&gt;{POITags}&lt;/font&gt; et cherchez des renseignements précieux.</string>
@@ -558,6 +558,18 @@
 	<string key="CMissionAcquireWoodWorker">Depuis un atelier de menuiserie, obtenir et apporter &lt;font color="#b2aea1"&gt;{itemAmount} x {itemName}&lt;/font&gt;</string>
 	<string key="CMissionAcquireOutfitter">Depuis un poste d'équipement, obtenir et apporter : &lt;font color="#b2aea1"&gt;{itemName} x {itemAmount}&lt;/font&gt;.</string>
 	<string key="CMissionAcquireEngineer">Depuis un atelier, obtenir et apporter &lt;font color="#b2aea1"&gt;{itemAmount} {itemName}&lt;/font&gt;</string>
+	<string key="CMissionAcquireBlock_Name_SE" rel_version="Event_Summer_Temp">Festive Stonemasons Needed</string>
+	<string key="CMissionAcquireTimber_Name_SE" rel_version="Event_Summer_Temp">Festive Carpenters Needed</string>
+	<string key="CMissionAcquireCloth_Name_SE" rel_version="Event_Summer_Temp">Festive Weavers Needed</string>
+	<string key="CMissionAcquireMetal_Name_SE" rel_version="Event_Summer_Temp">Festive Metalworkers Needed</string>
+	<string key="CMissionAcquireFibers_Name_SE" rel_version="Event_Summer_Temp">Festive Harvesters Needed</string>
+	<string key="CMissionAcquireFood_Name_SE" rel_version="Event_Summer_Temp">Festive Cooks Needed</string>
+	<string key="CMissionAcquirePotions_Name_SE" rel_version="Event_Summer_Temp">Festive Alchemists Needed</string>
+	<string key="CMissionAcquireGeneric_Name_SE" rel_version="Event_Summer_Temp">Festive Supplies Needed</string>
+	<string key="CMissionAcquireWood_Name_SE" rel_version="Event_Summer_Temp">Festive Lumberjacks Needed</string>
+	<string key="CMissionAcquireRawhide_Name_SE" rel_version="Event_Summer_Temp">Festive Hunters Needed</string>
+	<string key="CMissionAcquireLeather_Name_SE" rel_version="Event_Summer_Temp">Festive Tanners Needed</string>
+	<string key="CMissionAcquirePaint_Name_SE" rel_version="Event_Summer_Temp">Festive Painters Needed</string>
 	<string key="ui_already_in_faction">Vous êtes déjà dans cette faction.</string>
 	<string key="ui_cant_switch_faction_pvp">Impossible de changer de faction en mode JcJ.</string>
 	<string key="ui_cant_switch_faction_azoth">Azoth insuffisant.</string>

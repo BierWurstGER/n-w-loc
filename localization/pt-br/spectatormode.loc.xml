@@ -1,5 +1,5 @@
 <resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<string key="ui_spectate_heading" comment="">Modo Espectador</string>
+	<string key="ui_spectate_heading" comment="">Assistindo</string>
 	<string key="ui_spectate" comment="">Assistir</string>
 	<string key="ui_spectate_ghost" comment="">Modo de Espectador: Fantasma</string>
 	<string key="ui_spectate_follow" comment="">Modo de Espectador: Seguir</string>
@@ -10,5 +10,9 @@
 	<string key="ui_spectate_privacytitle" comment="">Privacidade</string>
 	<string key="ui_spectate_allowtitle" comment="">Permitir Ser Assistido</string>
 	<string key="ui_spectate_allowdescription" comment="">Permite que outros jogadores em seu grupo o assistam quando estiverem mortos.</string>
+	<string key="ui_pvp_spectate_currplayer" comment="">ASSISTINDO &lt;font color="#ebe3d6"&gt;{playerName}&lt;/font&gt;</string>
+	<string key="ui_pvp_spectate_nextplayer" comment="">Próximo</string>
+	<string key="ui_pvp_spectate_prevplayer" comment="">Anterior</string>
+	<string key="ui_pvp_spectate_exit" comment="">Parar de Assistir e Sair</string>
 </resources>
 

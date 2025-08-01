@@ -38,11 +38,11 @@
 	<string key="ui_dungeon_requirements_recommended">Empfohlen:</string>
 	<string key="ui_dungeon_requirements_matchmaking_staff" rel_version="Feature_Group_Finder">Azoth-Stab</string>
 	<string key="ui_flyout_recommended_groupsize">Empfohlene Spielerzahl: {players}</string>
-	<string key="ui_dungeon_requirements_equipment_warning">Deine Gruppe benötigt mindestens: &lt;font color="#ebe3d6"&gt;{item}&lt;/font&gt;.</string>
-	<string key="ui_dungeon_requirements_equipment_warning_solo">Du benötigst mindestens: &lt;font color="#ebe3d6"&gt;{item}&lt;/font&gt;.</string>
-	<string key="ui_dungeon_requirements_equipment_warning_dailysolotrial" rel_version="DailySoloTrials">Du benötigst mindestens: &lt;font color="#ebe3d6"&gt;{item}&lt;/font&gt;.</string>
-	<string key="ui_dungeon_requirements_equipment_warning_raidtrial">Du benötigst mindestens: &lt;font color="#ebe3d6"&gt;{item}&lt;/font&gt;.</string>
-	<string key="ui_dungeon_requirements_equipment_warning_seasontrial" rel_version="Season_2_Perm">Du benötigst mindestens: &lt;font color="#ebe3d6"&gt;{item}&lt;/font&gt;.</string>
+	<string key="ui_dungeon_requirements_equipment_warning">Erfordert {item}</string>
+	<string key="ui_dungeon_requirements_equipment_warning_solo">Erfordert {item}</string>
+	<string key="ui_dungeon_requirements_equipment_warning_dailysolotrial" rel_version="DailySoloTrials">Erfordert {item}</string>
+	<string key="ui_dungeon_requirements_equipment_warning_raidtrial">Erfordert {item}</string>
+	<string key="ui_dungeon_requirements_equipment_warning_seasontrial" rel_version="Season_2_Perm">Erfordert {item}</string>
 	<string key="ui_dungeon_reward_level">Die Qualität der Gesamtbeute steigt mit dem Schwierigkeitsgrad.\n\nDer Rüstwert der erhaltenen Gegenstände kann von den hier aufgelisteten abweichen.</string>
 	<string key="ui_dungeon_reward_title_regular">Expeditionsbelohnungen</string>
 	<string key="ui_dungeon_reward_title_mutation">Mutatorbelohnungen</string>
@@ -179,6 +179,11 @@
 	<string key="ui_dungeon_queued_blocked_raidtrial">Betreten</string>
 	<string key="ui_dungeon_queued_blocked_seasontrial" rel_version="Season_2_Perm">Betreten</string>
 	<string key="ui_dungeon_outpost_rush">Du befindest dich bereits in der Warteschlange für den Außenpostensturm.</string>
+	<string key="ui_dungeon_level_not_met">Du erfüllst die Mindeststufen-Voraussetzung für diese Expedition nicht.</string>
+	<string key="ui_dungeon_level_not_met_solo">Du erfüllst die Mindeststufen-Voraussetzung für diese Seelenprüfung nicht.</string>
+	<string key="ui_dungeon_level_not_met_raidtrial">Du erfüllst die Mindeststufen-Voraussetzung für diese Eliteprüfung nicht.</string>
+	<string key="ui_dungeon_level_not_met_seasontrial" rel_version="Season_2_Perm">Du erfüllst die Mindeststufen-Voraussetzung für diese Saisonprüfung nicht.</string>
+	<string key="ui_dungeon_level_not_met_dailysolotrial" rel_version="DailySoloTrials">Du erfüllst die Mindeststufen-Voraussetzung für diese tägliche Seelenprüfung nicht.</string>
 	<string key="ui_dungeon_expiring">Verlassen in</string>
 	<string key="ui_dungeon_expiring_solo">Verlassen in</string>
 	<string key="ui_dungeon_expiring_raidtrial">Verlassen in</string>
@@ -347,8 +352,8 @@
 	<string key="Mut_Ice_Curse1_Major_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt3">Wählt in regelmäßigen Abständen einen Spieler aus. Diesen Spieler umgibt eine Aura, die Spielern in der Nähe Eisschaden zufügt, und er erhält eine verstärkte Eisabsorption. (Dieser Effekt kann nicht durch Spielerfertigkeiten geläutert werden.)</string>
 	<string key="Mut_Nat_Curse1_Major_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt3">Wählt in regelmäßigen Abständen einen Spieler aus. Diesen Spieler umgibt eine Aura, die Spielern in der Nähe Naturschaden zufügt, und er erhält eine verstärkte Naturabsorption. (Dieser Effekt kann nicht durch Spielerfertigkeiten geläutert werden.)</string>
 	<string key="Mut_Voi_Curse1_Major_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt3">Wählt in regelmäßigen Abständen einen Spieler aus. Diesen Spieler umgibt eine Aura, die Spielern in der Nähe Unheilsschaden zufügt, und er erhält eine verstärkte Unheilabsorption. (Dieser Effekt kann nicht durch Spielerfertigkeiten geläutert werden.)</string>
-	<string key="Mut_Curse2_Minor_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">Appliziert bei Spielern im Kampf in regelmäßigen Abständen "Müdigkeit", die deren Bewegung um {[-0.300000 * -100]} % verlangsamt und jeglichen erlittenen Schaden um {[0.200000 * 100]} % erhöht. Der Effekt kann durch Fertigkeiten verzögert werden. (Dieser Effekt kann nicht durch Spielerfertigkeiten geläutert werden.)</string>
-	<string key="Mut_Curse2_Minor_SlowRend_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">Du wirst um {[-0.300000 * -100]} % verlangsamst und erleidest um {[0.200000 * 100]} % erhöhten Schaden von allen Schadensquellen.</string>
+	<string key="Mut_Curse2_Minor_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">Appliziert bei Spielern im Kampf in regelmäßigen Abständen "Müdigkeit", die deren Bewegung um {[-0.3 * -100]} % verlangsamt und jeglichen erlittenen Schaden um {[0.200000 * 100]} % erhöht. Der Effekt kann durch Fertigkeiten verzögert werden. (Dieser Effekt kann nicht durch Spielerfertigkeiten geläutert werden.)</string>
+	<string key="Mut_Curse2_Minor_SlowRend_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">Du wirst um {[-0.3 * -100]} % verlangsamst und erleidest um {[0.200000 * 100]} % erhöhten Schaden von allen Schadensquellen.</string>
 	<string key="Mut_Curse2_Fir_Major_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">Durch das Verwenden von Fertigkeiten erhältst du einen Stapel Opfergaben, der dem Spieler Feuerschaden in Höhe von {[-0.045000 * -100]} % der maximalen Gesundheit über Zeit zufügt. Max. {[3.000000]} Stapel. Der Gesamtschadens des Spielers wird in {[0.250000 * 100]} % Lebensraub umgewandelt, solange "Opfergabe" auf ihn wirkt. (Dieser Effekt kann nicht durch Spielerfertigkeiten geläutert werden.)</string>
 	<string key="Mut_Curse2_Ice_Major_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt3">Durch das Verwenden von Fertigkeiten erhältst du einen Stapel "Opfergaben", der dem Spieler Eisschaden in Höhe von {[-0.045000 * -100]} % der maximalen Gesundheit über Zeit zufügt. Max. {[3.000000]} Stapel. Der Gesamtschaden des Spielers wird in {[0.250000 * 100]} % Lebensraub umgewandelt, solange "Opfergabe" auf ihn wirkt. (Dieser Effekt kann nicht durch Spielerfertigkeiten geläutert werden.)</string>
 	<string key="Mut_Curse2_Nat_Major_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">Durch das Verwenden von Fertigkeiten erhältst du einen Stapel "Opfergaben", der dem Spieler Naturschaden in Höhe von {[-0.045000 * -100]} % der maximalen Gesundheit über Zeit zufügt. Max. {[3.000000]} Stapel. Der Gesamtschaden des Spielers wird in {[0.250000 * 100]} % Lebensraub umgewandelt, solange "Opfergabe" auf ihn wirkt. (Dieser Effekt kann nicht durch Spielerfertigkeiten geläutert werden.)</string>
@@ -478,7 +483,8 @@
 	<string key="ui_elitetrial_map_weekly_count" rel_version="Season_2_Perm">{count}/{max} Wöchentliche Belohnungen eingesammelt</string>
 	<string key="ui_elitetrial_banner_daily_count" rel_version="Season_2_Perm">{count}/{max} Täglich</string>
 	<string key="ui_elitetrial_banner_weekly_count" rel_version="Season_2_Perm">{count}/{max} Wöchentlich</string>
+	<string key="ui_dungeon_enter_daily_limit_reached">Tägliches Limit erreicht: &lt;img src="lyshineui/images/icons/misc/icon_hourglass" scale="1.1" yOffset="1.0"&gt;&lt;/img&gt; &lt;font color={timeColor} face="lyshineui/fonts/Nimbus_Regular.font"&gt;{timeText}&lt;/font&gt;</string>
+	<string key="ui_dungeon_enter_weekly_limit_reached">Wöchentliches Limit erreicht: &lt;img src="lyshineui/images/icons/misc/icon_hourglass" scale="1.1" yOffset="1.0"&gt;&lt;/img&gt; &lt;font color={timeColor} face="lyshineui/fonts/Nimbus_Regular.font"&gt;{timeText}&lt;/font&gt;</string>
 	<string key="Respawn_EntranceNameTrial" rel_version="Trial_Brimstone_Sandworm">Eingang zur Prüfung</string>
-	<string key="ui_dungeon_level_not_met_solo">Du erfüllst die Mindeststufen-Voraussetzung für diese Seelenprüfung nicht.</string>
 </resources>
 

@@ -42,7 +42,6 @@
 	<string key="ui_voicechatsettings">Discussion vocale</string>
 	<string key="ui_openvoicechatsettings">Voir les paramètres</string>
 	<string key="ui_invertlook">Inverser l'axe vertical</string>
-	<string key="ui_invertlook_desc">Pour inverser l'axe vertical en agissant sur la caméra.</string>
 	<string key="ui_looksensitivityhorizontal">Sensibilité horizontale</string>
 	<string key="ui_looksensitivityhorizontal_desc">Pour définir la vitesse générale de déplacement horizontal de la caméra.</string>
 	<string key="ui_looksensitivityvertical">Sensibilité verticale</string>
@@ -203,7 +202,8 @@
 	<string key="ui_options_graphics_resolution2K">2K</string>
 	<string key="ui_options_graphics_resolution4K">4K</string>
 	<string key="ui_options_temporalUpscaling_off">Non</string>
-	<string key="ui_options_temporalUpscaling_FSR">FSR 3.1</string>
+	<string key="ui_options_temporalUpscaling_fsr">AMD FSR 3.1</string>
+	<string key="ui_options_temporalUpscaling_dlss">NVIDIA DLSS 4</string>
 	<string key="ui_options_temporalUpscaling_native">Natif (TAA seulement)</string>
 	<string key="ui_options_temporalUpscaling_quality">Qualité</string>
 	<string key="ui_options_temporalUpscaling_balanced">Équilibré</string>
@@ -211,6 +211,17 @@
 	<string key="ui_options_temporalUpscaling_ultraperformance">Ultra performance</string>
 	<string key="ui_options_temporalUpscaling_sharpness">Netteté</string>
 	<string key="ui_options_temporalUpscaling_sharpness_desc">Définir la quantité de netteté</string>
+	<string key="ui_options_graphics_frameGeneration_dlss">Génération d'images NVIDIA DLSS</string>
+	<string key="ui_options_graphics_framegeneration_dlss_desc">Augmente la fréquence d'images par le biais de l'IA pour un rendu d'images supplémentaires (nécessite une carte graphique GeForce RTX série 40 ou supérieure et l'activation de la planification accélérée du processeur graphique dans les paramètres Windows).</string>
+	<string key="ui_options_graphics_frameGeneration_dlss_off">Non</string>
+	<string key="ui_options_graphics_frameGeneration_dlss_2x">x2</string>
+	<string key="ui_options_graphics_frameGeneration_dlss_3x">x3</string>
+	<string key="ui_options_graphics_frameGeneration_dlss_4x">x4</string>
+	<string key="ui_options_graphics_reflex">Faible latence NVIDIA Reflex</string>
+	<string key="ui_options_graphics_reflex_desc">Réduit le temps de latence du PC et augmente la réactivité.</string>
+	<string key="ui_options_graphics_reflex_off">Non</string>
+	<string key="ui_options_graphics_reflex_on">Oui</string>
+	<string key="ui_options_graphics_reflex_onboost">Oui + Boost</string>
 	<string key="ui_options_requires_restart">Ce ou ces changements s'appliqueront au prochain démarrage du jeu.</string>
 	<string key="ui_options_take_exit_survey">Répondre au sondage en partant</string>
 	<string key="ui_options_take_exit_survey_desc">Répondre à un sondage rapide afin de donner votre ressenti en quittant le jeu.</string>
@@ -242,6 +253,16 @@
 	<string key="ui_max_fps_desc">Définissez le nombre maximum d'images par seconde (IPS).</string>
 	<string key="ui_options_graphics_30fps">30 IPS</string>
 	<string key="ui_options_graphics_60fps">60 IPS</string>
+	<string key="ui_options_graphics_75fps">75 IPS</string>
+	<string key="ui_options_graphics_85fps">85 IPS</string>
+	<string key="ui_options_graphics_100fps">100 IPS</string>
+	<string key="ui_options_graphics_120fps">120 IPS</string>
+	<string key="ui_options_graphics_144fps">144 IPS</string>
+	<string key="ui_options_graphics_160fps">160 IPS</string>
+	<string key="ui_options_graphics_180fps">180 IPS</string>
+	<string key="ui_options_graphics_200fps">200 IPS</string>
+	<string key="ui_options_graphics_240fps">240 IPS</string>
+	<string key="ui_options_graphics_360fps">360 IPS</string>
 	<string key="ui_options_graphics_uncappedfps">Aucun plafond</string>
 	<string key="ui_language">Langue du texte</string>
 	<string key="ui_language_desc">Définissez la langue du texte.</string>
@@ -619,6 +640,10 @@
 	<string key="ui_hud_margin_bottom_desc">Pourcentage de l’écran pour pousser le bas de l'ATH vers l’intérieur</string>
 	<string key="ui_hud_margin_left">Marge de l'ATH - Gauche</string>
 	<string key="ui_hud_margin_left_desc">Pourcentage de l’écran pour pousser la gauche de l'ATH vers l’intérieur</string>
+	<string key="ui_hud_show_full_raid_for_pvp_modes">Interface d'activité JcJ de raid</string>
+	<string key="ui_hud_show_full_raid_for_pvp_modes_desc">Affiche l'interface complète de raid pour les activités JcJ jusqu'à 20 joueurs.</string>
+	<string key="ui_show_level_point_reminders">Afficher les rappels de points non dépensés</string>
+	<string key="ui_show_level_point_reminders_desc">Un rappel s'affiche occasionnellement lorsque vous avez des points d'attribut, de maîtrise d'arme ou de territoire non dépensés.</string>
 	<string key="ui_reticle_color_white">Blanc</string>
 	<string key="ui_reticle_color_red">Rouge</string>
 	<string key="ui_reticle_color_orange">Orange</string>
@@ -631,31 +656,5 @@
 	<string key="ui_modifier_keys" rel_version="Feature_Controller">Modificateurs</string>
 	<string key="ui_housing" rel_version="Feature_Controller">Décorer la maison</string>
 	<string key="ui_menu" rel_version="Feature_Controller">Menu</string>
-	<string key="ui_options_graphics_framegeneration_dlss_desc">Augmente la fréquence d'images par le biais de l'IA pour un rendu d'images supplémentaires (nécessite une carte graphique GeForce RTX série 40 ou supérieure et l'activation de la planification accélérée du processeur graphique dans les paramètres Windows).</string>
-	<string key="ui_show_level_point_reminders_desc">Un rappel s'affiche occasionnellement lorsque vous avez des points d'attribut, de maîtrise d'arme ou de territoire non dépensés.</string>
-	<string key="ui_options_graphics_frameGeneration_dlss_2x">x2</string>
-	<string key="ui_options_graphics_frameGeneration_dlss">Génération d'images NVIDIA DLSS</string>
-	<string key="ui_options_graphics_180fps">180 IPS</string>
-	<string key="ui_show_level_point_reminders">Afficher les rappels de points non dépensés</string>
-	<string key="ui_options_graphics_reflex_onboost">Oui + Boost</string>
-	<string key="ui_options_graphics_240fps">240 IPS</string>
-	<string key="ui_options_graphics_100fps">100 IPS</string>
-	<string key="ui_options_graphics_200fps">200 IPS</string>
-	<string key="ui_options_graphics_reflex_on">Oui</string>
-	<string key="ui_options_graphics_75fps">75 IPS</string>
-	<string key="ui_options_graphics_85fps">85 IPS</string>
-	<string key="ui_options_graphics_reflex_off">Non</string>
-	<string key="ui_options_graphics_frameGeneration_dlss_3x">x3</string>
-	<string key="ui_hud_show_full_raid_for_pvp_modes">Interface d'activité JcJ de raid</string>
-	<string key="ui_options_temporalUpscaling_dlss">NVIDIA DLSS 4</string>
-	<string key="ui_options_graphics_frameGeneration_dlss_off">Non</string>
-	<string key="ui_options_graphics_144fps">144 IPS</string>
-	<string key="ui_options_graphics_frameGeneration_dlss_4x">x4</string>
-	<string key="ui_options_graphics_reflex_desc">Réduit le temps de latence du PC et augmente la réactivité.</string>
-	<string key="ui_options_graphics_160fps">160 IPS</string>
-	<string key="ui_options_graphics_360fps">360 IPS</string>
-	<string key="ui_options_graphics_120fps">120 IPS</string>
-	<string key="ui_hud_show_full_raid_for_pvp_modes_desc">Affiche l'interface complète de raid pour les activités JcJ jusqu'à 20 joueurs.</string>
-	<string key="ui_options_graphics_reflex">Faible latence NVIDIA Reflex</string>
 </resources>
 

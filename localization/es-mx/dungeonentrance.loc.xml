@@ -38,11 +38,11 @@
 	<string key="ui_dungeon_requirements_recommended">Recomendado:</string>
 	<string key="ui_dungeon_requirements_matchmaking_staff" rel_version="Feature_Group_Finder">Bastón de azoth</string>
 	<string key="ui_flyout_recommended_groupsize">Jugadores recomendados: {players}</string>
-	<string key="ui_dungeon_requirements_equipment_warning">Tu grupo debe tener al menos el siguiente objeto: &lt;font color="#ebe3d6"&gt;{item}&lt;/font&gt;.</string>
-	<string key="ui_dungeon_requirements_equipment_warning_solo">Debes tener al menos el siguiente objeto: &lt;font color="#ebe3d6"&gt;{item}&lt;/font&gt;.</string>
-	<string key="ui_dungeon_requirements_equipment_warning_dailysolotrial" rel_version="DailySoloTrials">Debes tener al menos el siguiente objeto: &lt;font color="#ebe3d6"&gt;{item}&lt;/font&gt;.</string>
-	<string key="ui_dungeon_requirements_equipment_warning_raidtrial">Debes tener al menos el siguiente objeto: &lt;font color="#ebe3d6"&gt;{item}&lt;/font&gt;.</string>
-	<string key="ui_dungeon_requirements_equipment_warning_seasontrial" rel_version="Season_2_Perm">Debes tener al menos el siguiente objeto: &lt;font color="#ebe3d6"&gt;{item}&lt;/font&gt;.</string>
+	<string key="ui_dungeon_requirements_equipment_warning">Requiere {item}</string>
+	<string key="ui_dungeon_requirements_equipment_warning_solo">Requiere {item}</string>
+	<string key="ui_dungeon_requirements_equipment_warning_dailysolotrial" rel_version="DailySoloTrials">Requiere {item}</string>
+	<string key="ui_dungeon_requirements_equipment_warning_raidtrial">Requiere {item}</string>
+	<string key="ui_dungeon_requirements_equipment_warning_seasontrial" rel_version="Season_2_Perm">Requiere {item}</string>
 	<string key="ui_dungeon_reward_level">La calidad general del botín aumenta a medida que aumenten los niveles de dificultad.\n\nLos objetos que encuentres pueden diferir de los de la lista, según su puntuación del equipo.</string>
 	<string key="ui_dungeon_reward_title_regular">Recompensas de expediciones</string>
 	<string key="ui_dungeon_reward_title_mutation">Recompensas mutadoras</string>
@@ -179,6 +179,11 @@
 	<string key="ui_dungeon_queued_blocked_raidtrial">Entrar</string>
 	<string key="ui_dungeon_queued_blocked_seasontrial" rel_version="Season_2_Perm">Entrar</string>
 	<string key="ui_dungeon_outpost_rush">Ya estás en una cola para el Avance a puesto de avanzada.</string>
+	<string key="ui_dungeon_level_not_met">No tienes el nivel necesario para esta expedición.</string>
+	<string key="ui_dungeon_level_not_met_solo">No tienes el nivel necesario para esta prueba de alma.</string>
+	<string key="ui_dungeon_level_not_met_raidtrial">No tienes el nivel necesario para esta prueba de élite.</string>
+	<string key="ui_dungeon_level_not_met_seasontrial" rel_version="Season_2_Perm">No tienes el nivel necesario para esta prueba de temporada.</string>
+	<string key="ui_dungeon_level_not_met_dailysolotrial" rel_version="DailySoloTrials">No tienes el nivel necesario para esta prueba de alma diaria.</string>
 	<string key="ui_dungeon_expiring">Salida en</string>
 	<string key="ui_dungeon_expiring_solo">Salida en</string>
 	<string key="ui_dungeon_expiring_raidtrial">Salida en</string>
@@ -347,8 +352,8 @@
 	<string key="Mut_Ice_Curse1_Major_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt3">Selecciona periódicamente a un jugador elegido. Ese jugador emite un aura que inflige daño de hielo a jugadores cercanos y obtiene mucha más absorción de hielo. (Las habilidades del jugador no pueden borrar este efecto).</string>
 	<string key="Mut_Nat_Curse1_Major_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt3">Selecciona periódicamente a un jugador elegido. Ese jugador emite un aura que inflige daño de naturaleza a jugadores cercanos y obtiene mucha más absorción de naturaleza. (Las habilidades del jugador no pueden borrar este efecto).</string>
 	<string key="Mut_Voi_Curse1_Major_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt3">Selecciona periódicamente a un jugador elegido. Ese jugador emite un aura que inflige daño de vacío a jugadores cercanos y obtiene mucha más absorción de vacío. (Las habilidades del jugador no pueden borrar este efecto).</string>
-	<string key="Mut_Curse2_Minor_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">Aplica Agotamiento periódicamente a los jugadores en combate, lo que ralentiza su movimiento en un {[-0.300000 * -100]} % y aumenta todo el daño que reciban en un {[0.200000 * 100]} %. El efecto se puede retrasar usando habilidades. (Las habilidades del jugador no pueden borrar este efecto).</string>
-	<string key="Mut_Curse2_Minor_SlowRend_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">Tu velocidad se reduce en un {[-0.300000 * -100]} % y sufres un {[0.200000 * 100]} % más de daño de todas las fuentes.</string>
+	<string key="Mut_Curse2_Minor_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">Aplica Agotamiento periódicamente a los jugadores en combate, lo que ralentiza su movimiento en un {[-0.3 * -100]} % y aumenta todo el daño que reciban en un {[0.200000 * 100]} %. El efecto se puede retrasar usando habilidades. (Las habilidades del jugador no pueden borrar este efecto).</string>
+	<string key="Mut_Curse2_Minor_SlowRend_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">Tu velocidad se reduce en un {[-0.3 * -100]} % y sufres un {[0.200000 * 100]} % más de daño de todas las fuentes.</string>
 	<string key="Mut_Curse2_Fir_Major_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">El uso de habilidades aplica Ofrenda y causa daño de fuego al jugador de forma progresiva igual al {[-0.045000 * -100]} % de su salud máxima. Se acumula {[3.000000]} veces. Todo el daño del jugador quita un {[0.250000 * 100]} % de vida mientras esté siendo afectado por Ofrenda. (Las habilidades del jugador no pueden borrar este efecto).</string>
 	<string key="Mut_Curse2_Ice_Major_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt3">El uso de habilidades aplica Ofrenda y causa daño de hielo al jugador de forma progresiva igual al {[-0.045000 * -100]} % de su salud máxima. Se acumula {[3.000000]} veces. Todo el daño del jugador quita un {[0.250000 * 100]} % de vida mientras se vea afectado por Ofrenda. (Las habilidades del jugador no pueden borrar este efecto).</string>
 	<string key="Mut_Curse2_Nat_Major_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">El uso de habilidades aplica Ofrenda y causa daño de naturaleza al jugador de forma progresiva igual al {[-0.045000 * -100]} % de su salud máxima. Se acumula {[3.000000]} veces. Todo el daño del jugador quita un {[0.250000 * 100]} % de vida mientras se vea afectado por Ofrenda. (Las habilidades del jugador no pueden borrar este efecto).</string>
@@ -478,7 +483,8 @@
 	<string key="ui_elitetrial_map_weekly_count" rel_version="Season_2_Perm">{count}/{max} recompensa(s) semanal(es) obtenida(s)</string>
 	<string key="ui_elitetrial_banner_daily_count" rel_version="Season_2_Perm">{count}/{max} diario(s)</string>
 	<string key="ui_elitetrial_banner_weekly_count" rel_version="Season_2_Perm">{count}/{max} semanal(es)</string>
+	<string key="ui_dungeon_enter_daily_limit_reached">Límite diario alcanzado: &lt;img src="lyshineui/images/icons/misc/icon_hourglass" scale="1.1" yOffset="1.0"&gt;&lt;/img&gt; &lt;font color={timeColor} face="lyshineui/fonts/Nimbus_Regular.font"&gt;{timeText}&lt;/font&gt;</string>
+	<string key="ui_dungeon_enter_weekly_limit_reached">Límite semanal alcanzado: &lt;img src="lyshineui/images/icons/misc/icon_hourglass" scale="1.1" yOffset="1.0"&gt;&lt;/img&gt; &lt;font color={timeColor} face="lyshineui/fonts/Nimbus_Regular.font"&gt;{timeText}&lt;/font&gt;</string>
 	<string key="Respawn_EntranceNameTrial" rel_version="Trial_Brimstone_Sandworm">Entrada a la prueba</string>
-	<string key="ui_dungeon_level_not_met_solo">No tienes el nivel necesario para esta prueba de alma.</string>
 </resources>
 

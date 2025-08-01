@@ -459,6 +459,11 @@
 	<string key="0831_BruteCannonSchematic_DisplayName">Schemat działa brutala</string>
 	<string key="0831_DiscardedArmorPile_DisplayName">Przeszukaj stertę pancerzy</string>
 	<string key="06_SpectralShrine">Widmowy relikwiarz</string>
+	<string key="Catacombs_Strength">Czar siły</string>
+	<string key="Catacombs_Speed">Czar szybkości</string>
+	<string key="Catacombs_Health">Azoth leczenia</string>
+	<string key="Catacombs_Def">Czar pancerza</string>
+	<string key="Catacombs_Lifesteal">Czar kradzieży życia</string>
 	<string key="FishingHotspotBroad_DisplayName">Łowisko (pospolite)</string>
 	<string key="FishingHotspotRare_DisplayName">Łowisko (rzadkie)</string>
 	<string key="FishingHotspotSecret_DisplayName">Łowisko (sekretne)</string>
@@ -497,6 +502,7 @@
 	<string key="0519_EmptyAzothPowerSource_DisplayName">Zabierz azothowe źródło zasilania</string>
 	<string key="0520_StygianChannelSegment_DisplayName">Zabierz segment kanału stygijskiego</string>
 	<string key="0521_WyrdwoodSeedPod_DisplayName">Zbierz strąk cieniodrzewa</string>
+	<string key="05A_MSQ_DamagedHeartgem_DisplayName">Uszkodzony klejnot serca</string>
 	<string key="0601_DirtHole_DisplayName">Zbierz próbkę</string>
 	<string key="0602_SpiceSackGreen_DisplayName">Worek z kardamonem</string>
 	<string key="0602_SpiceSackRed_DisplayName">Worek z pieprzem</string>
@@ -797,6 +803,17 @@
 	<string key="AnubianBrute_Base_DisplayName" rel_version="Territory_Brimstone_Sands">Anubijski automat</string>
 	<string key="AnubianPanther_Base_DisplayName" rel_version="Territory_Brimstone_Sands">Sfinksowy automat</string>
 	<string key="16BS_LootContainer_Elite_LegionStoneTomb_DisplayName" rel_version="Territory_Brimstone_Sands">Elitarne przedmioty pochówkowe</string>
+	<string key="SummerMedley_Settlement_Stage_Master_DisplayName" rel_version="Event_Summer_Temp">Centralna część sceny Festiwalu Składanek</string>
+	<string key="SummerMedley_Settlement_Stage_T1_DisplayName" rel_version="Event_Summer_Temp">Posępny dar</string>
+	<string key="SummerMedley_Settlement_Stage_T2_DisplayName" rel_version="Event_Summer_Temp">Wielki dar</string>
+	<string key="SummerMedley_Settlement_Stage_T3_DisplayName" rel_version="Event_Summer_Temp">Wspaniały dar</string>
+	<string key="SummerMedley_Settlement_Stage_Description" rel_version="Event_Summer_Temp">Realizuj projekty miasteczka Festiwalu Składanek, by zyskać większą chwałę i lepsze nagrody ze sceny!</string>
+	<string key="SummerMedley_Village_BonfireBlast_DisplayName" rel_version="Event_Summer_Temp">Stos Festiwalu Składanek</string>
+	<string key="SummerMedley_Village_BonfireBlast_Description" rel_version="Event_Summer_Temp">Wrzuć do ognia magiczną ość jesiotra z Aeternum, by otrzymać wspaniałą nagrodę!</string>
+	<string key="SummerMedley_Maudlindust_DisplayName" rel_version="Event_Summer_Temp">Ckliwy pył</string>
+	<string key="SummerMedley_Maudlindust_Particle_DisplayName" rel_version="Event_Summer_Temp">Cząstka ckliwego pyłu</string>
+	<string key="SummerMedley_Village_Dancefloor_DisplayName" rel_version="Event_Summer_Temp">Parkiet Festiwalu Składanek</string>
+	<string key="SummerMedley_Village_Dancefloor_Description" rel_version="Event_Summer_Temp">Wypoleruj parkiet Festiwalu Składanek i pochwal się swoimi kocimi ruchami, by zdobywać reputację w wydarzeniu!</string>
 	<string key="Season_04_IceGuardian_Icicle_DisplayName" rel_version="Season_4_Trial">Sopel do ciskania</string>
 	<string key="Season_04_IceGuardian_BrokenRune_DisplayName" rel_version="Season_4_Trial">Zyskaj nasączenie mocą pradawnego płomienia</string>
 	<string key="FM_PVP_War_Camp_Loot_Box_DisplayName">Skrzynia obozu wojennego</string>
@@ -1553,11 +1570,18 @@
 	<string key="12A_0C_PercillaSword_DisplayName" rel_version="Quest_Console_Release">Miecz Percilli</string>
 	<string key="FTUE_Satchel_DisplayName" rel_version="Quest_Console_Release">Przemoczona torba</string>
 	<string key="98_Covenant_03_Candle_DisplayName">Zapal świeczki</string>
-	<string key="Catacombs_Speed">Czar szybkości</string>
-	<string key="RW_Siege_Pool_Blighted_Totem_DisplayName">Totem przywrócenia</string>
-	<string key="05wc_ReekwaterUplevelChest_Medium_DisplayName">Skrytka strażników dusz</string>
-	<string key="05wc_ReekwaterUplevelChest_Small_DisplayName">Schowek strażników dusz</string>
-	<string key="05wc_ReekwaterUplevelChest_Large_DisplayName">Skarb strażników dusz</string>
-	<string key="Soulwarden_Crystal_Reekwater">Uszkodzony klejnot serca</string>
+	<string key="Soulwarden_Crystal_Reekwater" rel_version="Season_8_Perm">Uszkodzony klejnot serca</string>
+	<string key="05wc_ReekwaterUplevelChest_Small_DisplayName" rel_version="Season_8_Perm">Schowek strażników dusz</string>
+	<string key="05wc_ReekwaterUplevelChest_Medium_DisplayName" rel_version="Season_8_Perm">Skrytka strażników dusz</string>
+	<string key="05wc_ReekwaterUplevelChest_Large_DisplayName" rel_version="Season_8_Perm">Skarb strażników dusz</string>
+	<string key="RW_Siege_Pool_Blighted_Totem_DisplayName" rel_version="Season_8_Perm">Totem przywrócenia</string>
+	<string key="17_MSQ_BatteryPost_DisplayName">Podłącz ponownie baterię</string>
+	<string key="17_MSQ_ShieldDevice_DisplayName">Aktywuj tarczę</string>
+	<string key="17_MSQ_BerlaurCage_DisplayName">Otwórz klatkę</string>
+	<string key="LootContainer_Elite_Tarot_DisplayName">Elitarna skrytka karnawałowa</string>
+	<string key="17_MSQ_StackCrates_DisplayName">Zbierz rozrzucone zapasy</string>
+	<string key="17_MSQ_BoxOfPotions_DisplayName">Zbierz czerwony proszek czosnkowy</string>
+	<string key="Catacombs_ShirkingBlessing">Zaklęcie dobroczynnego uniku</string>
+	<string key="17_MSQ_BoardWindow_DisplayName">Zabarykaduj okno</string>
 </resources>
 

@@ -308,8 +308,10 @@
 	<string key="ui_pvp_balance_header" rel_version="Feature_PvP_PvE_Split">Hay modificadores de balance de PvP en curso:</string>
 	<string key="or_outpost_rush_map_name" rel_version="Season_7_Perm">Isla de Nauthynos</string>
 	<string key="or_outpost_rush_trench_map_name" rel_version="OPR_004_Trench">División coral</string>
+	<string key="or_outpost_rush_vertical_map_name" rel_version="OPR_005_Vertical">Torre de Calomel</string>
 	<string key="arena_3v3_map_name" rel_version="Feature_PVP_Arenas">Santuario antiguo</string>
 	<string key="arena_3v3_02_map_name" rel_version="Feature_PVP_Arenas">Anillo de gladiador</string>
+	<string key="arena_3v3_04_map_name" rel_version="Arena_3v3_04">Vista previa de Arena</string>
 	<string key="ui_activity_finder_tooltip_current_map_rotation_text" rel_version="Season_7_Perm">Mapa actual en rotación</string>
 	<string key="ui_activity_finder_tooltip_next_map_rotation_text" rel_version="Season_7_Perm">Siguiente mapa en rotación</string>
 	<string key="ui_activity_finder_tooltip_current_map_rotation" rel_version="Season_7_Perm">{currentRotationText}: {mapName}</string>
@@ -338,58 +340,64 @@
 	<string key="ui_ready_up_ready_choice">Listo</string>
 	<string key="ui_ready_up_unready_choice">No listo</string>
 	<string key="ui_ready_up_waiting_message">Esperando a otros ({numReady}/{numTotal})</string>
-	<string key="ctf_gamemode_description">Captura la bandera es un modo de juego vertiginoso de equipo que requiere el uso de tácticas ofensivas y defensivas. Defiende tu base mientras robas la bandera del enemigo para ganar.</string>
-	<string key="ctf_flag_picked_up">Tomaron tu bandera</string>
-	<string key="ctf_flag_returned">Regresaron tu bandera</string>
-	<string key="ctf_red_team">&lt;font color="#f25d5d"&gt;Equipo rojo&lt;/font&gt;</string>
-	<string key="ctf_gamemode_name">Captura la bandera</string>
-	<string key="ctf_003_Long_Map_Name">Vista previa de CLB</string>
-	<string key="ui_opr_no_perks_signup_desc_cross_world">¡No requiere mejoras en equipo de ranura! Únete a este nuevo Avance a puesto de avanzada con un giro que deshabilita todos los beneficios de equipo y les otorga la puntuación del equipo máxima para nivelar el campo de juego.\n\nLa &lt;font color="#edc63e"&gt;puntuación del equipo&lt;/font&gt; aumenta a 725 la puntuación de todos los equipos con una puntuación inferior a 725.</string>
-	<string key="ctf_flag_match_completed">Partida completada</string>
-	<string key="ui_ctf_leave_desc">¿Confirmas que quieres salir de Captura la bandera?</string>
-	<string key="ctf_flag_status_safe">Bandera a salvo</string>
-	<string key="ctf_eom_stat_captures_neutral_flags">Banderas neutrales</string>
-	<string key="ctf_flag_status_taken">Bandera tomada</string>
-	<string key="ctf_flag_wild_spawned">Apareció la bandera neutral</string>
-	<string key="ui_opr_no_perks_signup_goal2">El primer equipo en llegar a 1000 puntos gana</string>
-	<string key="ctf_flag_wild_timer">Aparecerá en {time}</string>
-	<string key="ui_opr_no_perks_title">Avance a puesto de avanzada: Descarnado</string>
-	<string key="ui_capture_the_flag_begin">¡ADELANTE!</string>
-	<string key="ctf_eom_stat_captures_team_flags">Banderas de equipo</string>
-	<string key="ctf_flag_you_scored">¡Tú conseguiste puntos!</string>
-	<string key="ui_opr_no_perks_signup_goal1">Captura y defiende puestos de avanzada para conseguir puntos</string>
-	<string key="ctf_eom_stat_flag_returns">Banderas regresadas</string>
-	<string key="ui_capture_the_flag_signup_goal1">Captura la mayor cantidad de banderas para ganar la partida</string>
-	<string key="ui_capture_the_flag_title">Captura la bandera</string>
-	<string key="ui_capture_the_flag_signup_failgrouppenalty">Uno o más miembros del grupo tienen una penalización de tiempo por abandonar una partida de Captura la bandera anterior.</string>
-	<string key="ui_capture_the_flag_pregame_description">La partida comienza en</string>
-	<string key="ctf_flag_enemy_team_scored">El equipo enemigo consiguió puntos</string>
-	<string key="ui_capture_the_flag_signup_goal3">Protege al portador de la bandera para garantizar que regrese a salvo</string>
-	<string key="ui_capture_the_flag_signup_joinsolo">Jugar</string>
-	<string key="ctf_wild_flag_picked_up">Tomaron la bandera neutral</string>
-	<string key="ctf_flag_dropped">Soltaron tu bandera</string>
-	<string key="ui_capture_the_flag_leave_queue_title">Abandonar la cola</string>
-	<string key="ctf_wild_flag_dropped">Soltaron la bandera neutral</string>
-	<string key="ctf_wild_flag_returned">Regresaron la bandera neutral</string>
-	<string key="ctf_eom_stat_captures">Capturas</string>
-	<string key="ui_capture_the_flag_leave_queue_desc">¿Confirmas que quieres abandonar la cola de Captura la bandera?</string>
-	<string key="ui_capture_the_flag_signup_goal2">La bandera de tu equipo debe estar en su base para conseguir puntos</string>
-	<string key="ctf_flag_status_dropped">Bandera soltada</string>
-	<string key="arena_3v3_04_map_name">Vista previa de Arena</string>
-	<string key="ui_ctf_leave">Abandonar la actividad</string>
-	<string key="ui_capture_the_flag_invite_notification_text">¡Te invitaron a Captura la bandera!</string>
-	<string key="ctf_overtime_banner_title">Tiempo extra</string>
-	<string key="ctf_flag_our_team_scored">¡Nuestro equipo consiguió puntos!</string>
-	<string key="ctf_flag_player_count">Jugadores: {count}</string>
-	<string key="ctf_overtime_banner_desc">¡La próxima bandera gana!</string>
-	<string key="ui_cannot_travel_ctf">No puedes viajar rápido en Captura la bandera.</string>
-	<string key="ctf_flag_away_from_base">Debes regresar tu bandera antes de conseguir puntos</string>
-	<string key="ctf_blue_team">&lt;font color="#45d1ff"&gt;Equipo azul&lt;/font&gt;</string>
-	<string key="ctf_flag_scored">Tu equipo consiguió puntos</string>
-	<string key="ui_capture_the_flag_invite_notification_title">Invitación de Captura la bandera</string>
-	<string key="ui_ctf_leave_desc_time">¿Confirmas que quieres salir de Captura la bandera?\nNo podrás volver a hacer cola para entrar a Captura la bandera durante &lt;font color="#edc63e"&gt;[{time}]&lt;/font&gt;.</string>
-	<string key="ctf_eom_stat_flagbearers_killed">Portadores de bandera eliminados</string>
-	<string key="ctf_002_Wide_Map_Name">Vista previa de CLB</string>
-	<string key="ui_opr_no_perks_signup_goal3">Utiliza recursos especiales para atacar y defender</string>
+	<string key="gamemode_type_and_map_name_undefined" rel_version="Gamemode_CTF" comment="DO NOT TRANSLATE">[PH] Undefined Mode - Undefined Name</string>
+	<string key="ui_capture_the_flag_signup_joinsolo" rel_version="Gamemode_CTF">Jugar</string>
+	<string key="ui_capture_the_flag_title" rel_version="Gamemode_CTF">Captura la bandera</string>
+	<string key="ui_capture_the_flag_pregame_description" rel_version="Gamemode_CTF">La partida comienza en</string>
+	<string key="ui_capture_the_flag_begin" rel_version="Gamemode_CTF">¡ADELANTE!</string>
+	<string key="ui_capture_the_flag_invite_notification_title" rel_version="Gamemode_CTF">Invitación de Captura la bandera</string>
+	<string key="ui_capture_the_flag_invite_notification_text" rel_version="Gamemode_CTF">¡Te invitaron a Captura la bandera!</string>
+	<string key="ui_capture_the_flag_leave_queue_title" rel_version="Gamemode_CTF">Abandonar la cola</string>
+	<string key="ui_capture_the_flag_leave_queue_desc" rel_version="Gamemode_CTF">¿Confirmas que quieres abandonar la cola de Captura la bandera?</string>
+	<string key="ui_capture_the_flag_signup_failgrouppenalty" rel_version="Gamemode_CTF">Uno o más miembros del grupo tienen una penalización de tiempo por abandonar una partida de Captura la bandera anterior.</string>
+	<string key="ui_capture_the_flag_signup_goal1" rel_version="Gamemode_CTF">Captura la mayor cantidad de banderas para ganar la partida</string>
+	<string key="ui_capture_the_flag_signup_goal2" rel_version="Gamemode_CTF">La bandera de tu equipo debe estar en su base para conseguir puntos</string>
+	<string key="ui_capture_the_flag_signup_goal3" rel_version="Gamemode_CTF">Protege al portador de la bandera para garantizar que regrese a salvo</string>
+	<string key="ctf_gamemode_name" rel_version="Gamemode_CTF">Captura la bandera</string>
+	<string key="ctf_gamemode_description" rel_version="Gamemode_CTF">Captura la bandera es un modo de juego vertiginoso de equipo que requiere el uso de tácticas ofensivas y defensivas. Defiende tu base mientras robas la bandera del enemigo para ganar.</string>
+	<string key="ctf_Map_Template_Name" rel_version="Gamemode_CTF" comment="DO NOT TRANSLATE">[PH] CTF - Unnamed Test Map</string>
+	<string key="ctf_Map_Temp_Name" rel_version="Gamemode_CTF" comment="DO NOT TRANSLATE">[PH] CTF - Unnamed Test Map</string>
+	<string key="ctf_002_Wide_Map_Name" rel_version="Gamemode_CTF">Ciudad Prohibida</string>
+	<string key="ctf_003_Long_Map_Name" rel_version="Gamemode_CTF">Vista previa de CLB</string>
+	<string key="ctf_blue_team" rel_version="Gamemode_CTF">&lt;font color="#45d1ff"&gt;Equipo azul&lt;/font&gt;</string>
+	<string key="ctf_red_team" rel_version="Gamemode_CTF">&lt;font color="#f25d5d"&gt;Equipo rojo&lt;/font&gt;</string>
+	<string key="ctf_flag_dropped" rel_version="Gamemode_CTF">Soltaron tu bandera</string>
+	<string key="ctf_flag_picked_up" rel_version="Gamemode_CTF">Tomaron tu bandera</string>
+	<string key="ctf_flag_returned" rel_version="Gamemode_CTF">Regresaron tu bandera</string>
+	<string key="ctf_wild_flag_dropped" rel_version="Gamemode_CTF">Soltaron la bandera neutral</string>
+	<string key="ctf_wild_flag_picked_up" rel_version="Gamemode_CTF">Tomaron la bandera neutral</string>
+	<string key="ctf_wild_flag_returned" rel_version="Gamemode_CTF">Regresaron la bandera neutral</string>
+	<string key="ctf_flag_scored" rel_version="Gamemode_CTF">Tu equipo consiguió puntos</string>
+	<string key="ctf_flag_you_scored" rel_version="Gamemode_CTF">¡Tú conseguiste puntos!</string>
+	<string key="ctf_flag_our_team_scored" rel_version="Gamemode_CTF">¡Nuestro equipo consiguió puntos!</string>
+	<string key="ctf_flag_enemy_team_scored" rel_version="Gamemode_CTF">El equipo enemigo consiguió puntos</string>
+	<string key="ctf_flag_away_from_base" rel_version="Gamemode_CTF">Debes regresar tu bandera antes de conseguir puntos</string>
+	<string key="ctf_flag_status_safe" rel_version="Gamemode_CTF">Bandera a salvo</string>
+	<string key="ctf_flag_status_dropped" rel_version="Gamemode_CTF">Bandera soltada</string>
+	<string key="ctf_flag_status_taken" rel_version="Gamemode_CTF">Bandera tomada</string>
+	<string key="ctf_flag_wild_timer" rel_version="Gamemode_CTF">Aparecerá en {time}</string>
+	<string key="ctf_flag_wild_spawned" rel_version="Gamemode_CTF">Apareció la bandera neutral</string>
+	<string key="ctf_flag_match_completed" rel_version="Gamemode_CTF">Partida completada</string>
+	<string key="ctf_flag_player_count" rel_version="Gamemode_CTF">Jugadores: {count}</string>
+	<string key="ctf_overtime_banner_title" rel_version="Gamemode_CTF">Tiempo extra</string>
+	<string key="ctf_overtime_banner_desc" rel_version="Gamemode_CTF">¡La próxima bandera gana!</string>
+	<string key="ctf_eom_stat_captures" rel_version="Gamemode_CTF">Capturas</string>
+	<string key="ctf_eom_stat_captures_team_flags" rel_version="Gamemode_CTF">Banderas de equipo</string>
+	<string key="ctf_eom_stat_captures_neutral_flags" rel_version="Gamemode_CTF">Banderas neutrales</string>
+	<string key="ctf_eom_stat_flag_returns" rel_version="Gamemode_CTF">Banderas regresadas</string>
+	<string key="ctf_eom_stat_flagbearers_killed" rel_version="Gamemode_CTF">Portadores de bandera eliminados</string>
+	<string key="ui_ctf_leave" rel_version="Gamemode_CTF">Abandonar la actividad</string>
+	<string key="ui_cannot_travel_ctf" rel_version="Gamemode_CTF">No puedes viajar rápido en Captura la bandera.</string>
+	<string key="ui_ctf_leave_desc" rel_version="Gamemode_CTF">¿Confirmas que quieres salir de Captura la bandera?</string>
+	<string key="ui_ctf_leave_desc_time" rel_version="Gamemode_CTF">¿Confirmas que quieres salir de Captura la bandera?\nNo podrás volver a hacer cola para entrar a Captura la bandera durante &lt;font color="#edc63e"&gt;[{time}]&lt;/font&gt;.</string>
+	<string key="ui_opr_no_perks_title" rel_version="Feature_DisabledPerkGameModes">Avance a puesto de avanzada: Descarnado</string>
+	<string key="ui_opr_no_perks_signup_desc_cross_world" rel_version="Feature_DisabledPerkGameModes">¡No requiere mejoras en equipo de ranura! Únete a este nuevo Avance a puesto de avanzada con un giro que deshabilita todos los beneficios de equipo y les otorga la puntuación del equipo máxima para nivelar el campo de juego.\n\nLa &lt;font color="#edc63e"&gt;puntuación del equipo&lt;/font&gt; aumenta a 725 la puntuación de todos los equipos con una puntuación inferior a 725.</string>
+	<string key="ui_opr_no_perks_signup_goal1" rel_version="Feature_DisabledPerkGameModes">Captura y defiende puestos de avanzada para conseguir puntos</string>
+	<string key="ui_opr_no_perks_signup_goal2" rel_version="Feature_DisabledPerkGameModes">El primer equipo en llegar a 1000 puntos gana</string>
+	<string key="ui_opr_no_perks_signup_goal3" rel_version="Feature_DisabledPerkGameModes">Utiliza recursos especiales para atacar y defender</string>
+	<string key="ui_ctf_signup_goal1" rel_version="Gamemode_CTF" comment="DO NOT TRANSLATE">TEMP CTF TIP 1</string>
+	<string key="ui_ctf_signup_goal2" rel_version="Gamemode_CTF" comment="DO NOT TRANSLATE">TEMP CTF TIP 2</string>
+	<string key="ui_ctf_signup_goal3" rel_version="Gamemode_CTF" comment="DO NOT TRANSLATE">TEMP CTF TIP 3</string>
+	<string key="ui_session_ending_label">Fin de sesión:</string>
 </resources>
 

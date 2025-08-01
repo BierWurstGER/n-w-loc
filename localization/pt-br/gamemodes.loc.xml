@@ -308,8 +308,10 @@
 	<string key="ui_pvp_balance_header" rel_version="Feature_PvP_PvE_Split">Modificadores de Equilíbrio de PvP em vigor:</string>
 	<string key="or_outpost_rush_map_name" rel_version="Season_7_Perm">Ilha Nauthynos</string>
 	<string key="or_outpost_rush_trench_map_name" rel_version="OPR_004_Trench">Fosso de Corais</string>
+	<string key="or_outpost_rush_vertical_map_name" rel_version="OPR_005_Vertical">Torre de Calomel</string>
 	<string key="arena_3v3_map_name" rel_version="Feature_PVP_Arenas">Santuário dos Anciões</string>
 	<string key="arena_3v3_02_map_name" rel_version="Feature_PVP_Arenas">Arena do Gladiador</string>
+	<string key="arena_3v3_04_map_name" rel_version="Arena_3v3_04">Pré-visualização da Arena</string>
 	<string key="ui_activity_finder_tooltip_current_map_rotation_text" rel_version="Season_7_Perm">Mapa atual em rotação</string>
 	<string key="ui_activity_finder_tooltip_next_map_rotation_text" rel_version="Season_7_Perm">Próximo mapa em rotação</string>
 	<string key="ui_activity_finder_tooltip_current_map_rotation" rel_version="Season_7_Perm">{currentRotationText}: {mapName}</string>
@@ -338,58 +340,64 @@
 	<string key="ui_ready_up_ready_choice">Pronto</string>
 	<string key="ui_ready_up_unready_choice">Não Pronto</string>
 	<string key="ui_ready_up_waiting_message">Aguardando os outros ({numReady}/{numTotal})</string>
-	<string key="ctf_gamemode_description">Pique-bandeira é um modo de jogo rápido em equipe que exige táticas ofensivas e defensivas. Defenda sua base e roube a bandeira do inimigo para vencer.</string>
-	<string key="ctf_flag_picked_up">Sua bandeira foi levada</string>
-	<string key="ctf_flag_returned">Sua bandeira foi devolvida</string>
-	<string key="ctf_red_team">&lt;font color="#f25d5d"&gt;Equipe Vermelha&lt;/font&gt;</string>
-	<string key="ctf_gamemode_name">Pique-bandeira</string>
-	<string key="ctf_003_Long_Map_Name">Pré-visualização de CTF</string>
-	<string key="ui_opr_no_perks_signup_desc_cross_world">Não é necessário o melhor equipamento! Junte-se a essa nova versão da Investida do Posto Avançado que desativa todas as vantagens do equipamento e maximiza a pontuação do equipamento, nivelando o campo de jogo.\n\nA &lt;font color="#edc63e"&gt;Escala de Pontuação do Equipamento&lt;/font&gt; aumenta para 725 a pontuação de todos os equipamentos abaixo de 725.</string>
-	<string key="ctf_flag_match_completed">Partida Concluída</string>
-	<string key="ui_ctf_leave_desc">Tem certeza de que deseja sair do Pique-bandeira?</string>
-	<string key="ctf_flag_status_safe">Bandeira segura</string>
-	<string key="ctf_eom_stat_captures_neutral_flags">Bandeiras Neutras</string>
-	<string key="ctf_flag_status_taken">Bandeira levada</string>
-	<string key="ctf_flag_wild_spawned">Bandeira neutra surgiu</string>
-	<string key="ui_opr_no_perks_signup_goal2">A primeira equipe a marcar 1.000 pontos vence</string>
-	<string key="ctf_flag_wild_timer">Surge em {time}</string>
-	<string key="ui_opr_no_perks_title">Investida do Posto Avançado: Ossos Vazios</string>
-	<string key="ui_capture_the_flag_begin">VAI!</string>
-	<string key="ctf_eom_stat_captures_team_flags">Bandeiras da Equipe</string>
-	<string key="ctf_flag_you_scored">Você marcou ponto!</string>
-	<string key="ui_opr_no_perks_signup_goal1">Capture e segure os Postos Avançados para pontuar</string>
-	<string key="ctf_eom_stat_flag_returns">Bandeiras Devolvidas</string>
-	<string key="ui_capture_the_flag_signup_goal1">Capture a maior quantidade de bandeiras para vencer a partida</string>
-	<string key="ui_capture_the_flag_title">Pique-bandeira</string>
-	<string key="ui_capture_the_flag_signup_failgrouppenalty">Um ou mais membros do seu grupo têm um cronômetro de penalidade por sair de uma partida anterior do Pique-bandeira.</string>
-	<string key="ui_capture_the_flag_pregame_description">A partida começa em</string>
-	<string key="ctf_flag_enemy_team_scored">Equipe inimiga marcou ponto</string>
-	<string key="ui_capture_the_flag_signup_goal3">Proteja seu porta-bandeira para garantir que volte seguro</string>
-	<string key="ui_capture_the_flag_signup_joinsolo">Jogar</string>
-	<string key="ctf_wild_flag_picked_up">A bandeira neutra foi levada</string>
-	<string key="ctf_flag_dropped">Sua bandeira foi derrubada</string>
-	<string key="ui_capture_the_flag_leave_queue_title">Sair da Fila</string>
-	<string key="ctf_wild_flag_dropped">A bandeira neutra foi derrubada</string>
-	<string key="ctf_wild_flag_returned">A bandeira neutra foi devolvida</string>
-	<string key="ctf_eom_stat_captures">Capturas</string>
-	<string key="ui_capture_the_flag_leave_queue_desc">Tem certeza de que deseja sair da fila do Pique-bandeira?</string>
-	<string key="ui_capture_the_flag_signup_goal2">A bandeira da sua equipe deve estar em casa para marcar ponto</string>
-	<string key="ctf_flag_status_dropped">Bandeira derrubada</string>
-	<string key="arena_3v3_04_map_name">Pré-visualização da Arena</string>
-	<string key="ui_ctf_leave">Deixar Atividade</string>
-	<string key="ui_capture_the_flag_invite_notification_text">Você recebeu um convite para o Pique-bandeira!</string>
-	<string key="ctf_overtime_banner_title">Prorrogação</string>
-	<string key="ctf_flag_our_team_scored">Nossa equipe marcou ponto!</string>
-	<string key="ctf_flag_player_count">Jogadores: {count}</string>
-	<string key="ctf_overtime_banner_desc">Próxima bandeira vence!</string>
-	<string key="ui_cannot_travel_ctf">Você não pode fazer uma viagem rápida durante o Pique-bandeira.</string>
-	<string key="ctf_flag_away_from_base">Sua bandeira deve ser devolvida antes de pontuar</string>
-	<string key="ctf_blue_team">&lt;font color="#45d1ff"&gt;Equipe Azul&lt;/font&gt;</string>
-	<string key="ctf_flag_scored">Sua equipe marcou ponto</string>
-	<string key="ui_capture_the_flag_invite_notification_title">Convite de Pique-bandeira</string>
-	<string key="ui_ctf_leave_desc_time">Tem certeza de que deseja sair do Pique-bandeira?\nVocê não poderá entrar de novo na fila do Pique-bandeira por &lt;font color="#edc63e"&gt;[{time}]&lt;/font&gt;.</string>
-	<string key="ctf_eom_stat_flagbearers_killed">Porta-bandeiras Mortos</string>
-	<string key="ctf_002_Wide_Map_Name">Pré-visualização de CTF</string>
-	<string key="ui_opr_no_perks_signup_goal3">Utilize recursos especiais para atacar e defender</string>
+	<string key="gamemode_type_and_map_name_undefined" rel_version="Gamemode_CTF" comment="DO NOT TRANSLATE">[PH] Undefined Mode - Undefined Name</string>
+	<string key="ui_capture_the_flag_signup_joinsolo" rel_version="Gamemode_CTF">Jogar</string>
+	<string key="ui_capture_the_flag_title" rel_version="Gamemode_CTF">Pique-bandeira</string>
+	<string key="ui_capture_the_flag_pregame_description" rel_version="Gamemode_CTF">A partida começa em</string>
+	<string key="ui_capture_the_flag_begin" rel_version="Gamemode_CTF">VAI!</string>
+	<string key="ui_capture_the_flag_invite_notification_title" rel_version="Gamemode_CTF">Convite de Pique-bandeira</string>
+	<string key="ui_capture_the_flag_invite_notification_text" rel_version="Gamemode_CTF">Você recebeu um convite para o Pique-bandeira!</string>
+	<string key="ui_capture_the_flag_leave_queue_title" rel_version="Gamemode_CTF">Sair da Fila</string>
+	<string key="ui_capture_the_flag_leave_queue_desc" rel_version="Gamemode_CTF">Tem certeza de que deseja sair da fila do Pique-bandeira?</string>
+	<string key="ui_capture_the_flag_signup_failgrouppenalty" rel_version="Gamemode_CTF">Um ou mais membros do seu grupo têm um cronômetro de penalidade por sair de uma partida anterior do Pique-bandeira.</string>
+	<string key="ui_capture_the_flag_signup_goal1" rel_version="Gamemode_CTF">Capture a maior quantidade de bandeiras para vencer a partida</string>
+	<string key="ui_capture_the_flag_signup_goal2" rel_version="Gamemode_CTF">A bandeira da sua equipe deve estar em casa para marcar ponto</string>
+	<string key="ui_capture_the_flag_signup_goal3" rel_version="Gamemode_CTF">Proteja seu porta-bandeira para garantir que volte seguro</string>
+	<string key="ctf_gamemode_name" rel_version="Gamemode_CTF">Pique-bandeira</string>
+	<string key="ctf_gamemode_description" rel_version="Gamemode_CTF">Pique-bandeira é um modo de jogo rápido em equipe que exige táticas ofensivas e defensivas. Defenda sua base e roube a bandeira do inimigo para vencer.</string>
+	<string key="ctf_Map_Template_Name" rel_version="Gamemode_CTF" comment="DO NOT TRANSLATE">[PH] CTF - Unnamed Test Map</string>
+	<string key="ctf_Map_Temp_Name" rel_version="Gamemode_CTF" comment="DO NOT TRANSLATE">[PH] CTF - Unnamed Test Map</string>
+	<string key="ctf_002_Wide_Map_Name" rel_version="Gamemode_CTF">Cidade Proibida</string>
+	<string key="ctf_003_Long_Map_Name" rel_version="Gamemode_CTF">Pré-visualização de CTF</string>
+	<string key="ctf_blue_team" rel_version="Gamemode_CTF">&lt;font color="#45d1ff"&gt;Equipe Azul&lt;/font&gt;</string>
+	<string key="ctf_red_team" rel_version="Gamemode_CTF">&lt;font color="#f25d5d"&gt;Equipe Vermelha&lt;/font&gt;</string>
+	<string key="ctf_flag_dropped" rel_version="Gamemode_CTF">Sua bandeira foi derrubada</string>
+	<string key="ctf_flag_picked_up" rel_version="Gamemode_CTF">Sua bandeira foi levada</string>
+	<string key="ctf_flag_returned" rel_version="Gamemode_CTF">Sua bandeira foi devolvida</string>
+	<string key="ctf_wild_flag_dropped" rel_version="Gamemode_CTF">A bandeira neutra foi derrubada</string>
+	<string key="ctf_wild_flag_picked_up" rel_version="Gamemode_CTF">A bandeira neutra foi levada</string>
+	<string key="ctf_wild_flag_returned" rel_version="Gamemode_CTF">A bandeira neutra foi devolvida</string>
+	<string key="ctf_flag_scored" rel_version="Gamemode_CTF">Sua equipe marcou ponto</string>
+	<string key="ctf_flag_you_scored" rel_version="Gamemode_CTF">Você marcou ponto!</string>
+	<string key="ctf_flag_our_team_scored" rel_version="Gamemode_CTF">Nossa equipe marcou ponto!</string>
+	<string key="ctf_flag_enemy_team_scored" rel_version="Gamemode_CTF">Equipe inimiga marcou ponto</string>
+	<string key="ctf_flag_away_from_base" rel_version="Gamemode_CTF">Sua bandeira deve ser devolvida antes de pontuar</string>
+	<string key="ctf_flag_status_safe" rel_version="Gamemode_CTF">Bandeira segura</string>
+	<string key="ctf_flag_status_dropped" rel_version="Gamemode_CTF">Bandeira derrubada</string>
+	<string key="ctf_flag_status_taken" rel_version="Gamemode_CTF">Bandeira levada</string>
+	<string key="ctf_flag_wild_timer" rel_version="Gamemode_CTF">Surge em {time}</string>
+	<string key="ctf_flag_wild_spawned" rel_version="Gamemode_CTF">Bandeira neutra surgiu</string>
+	<string key="ctf_flag_match_completed" rel_version="Gamemode_CTF">Partida Concluída</string>
+	<string key="ctf_flag_player_count" rel_version="Gamemode_CTF">Jogadores: {count}</string>
+	<string key="ctf_overtime_banner_title" rel_version="Gamemode_CTF">Prorrogação</string>
+	<string key="ctf_overtime_banner_desc" rel_version="Gamemode_CTF">Próxima bandeira vence!</string>
+	<string key="ctf_eom_stat_captures" rel_version="Gamemode_CTF">Capturas</string>
+	<string key="ctf_eom_stat_captures_team_flags" rel_version="Gamemode_CTF">Bandeiras da Equipe</string>
+	<string key="ctf_eom_stat_captures_neutral_flags" rel_version="Gamemode_CTF">Bandeiras Neutras</string>
+	<string key="ctf_eom_stat_flag_returns" rel_version="Gamemode_CTF">Bandeiras Devolvidas</string>
+	<string key="ctf_eom_stat_flagbearers_killed" rel_version="Gamemode_CTF">Porta-bandeiras Mortos</string>
+	<string key="ui_ctf_leave" rel_version="Gamemode_CTF">Deixar Atividade</string>
+	<string key="ui_cannot_travel_ctf" rel_version="Gamemode_CTF">Você não pode fazer uma viagem rápida durante o Pique-bandeira.</string>
+	<string key="ui_ctf_leave_desc" rel_version="Gamemode_CTF">Tem certeza de que deseja sair do Pique-bandeira?</string>
+	<string key="ui_ctf_leave_desc_time" rel_version="Gamemode_CTF">Tem certeza de que deseja sair do Pique-bandeira?\nVocê não poderá entrar de novo na fila do Pique-bandeira por &lt;font color="#edc63e"&gt;[{time}]&lt;/font&gt;.</string>
+	<string key="ui_opr_no_perks_title" rel_version="Feature_DisabledPerkGameModes">Investida do Posto Avançado: Ossos Vazios</string>
+	<string key="ui_opr_no_perks_signup_desc_cross_world" rel_version="Feature_DisabledPerkGameModes">Não é necessário o melhor equipamento! Junte-se a essa nova versão da Investida do Posto Avançado que desativa todas as vantagens do equipamento e maximiza a pontuação do equipamento, nivelando o campo de jogo.\n\nA &lt;font color="#edc63e"&gt;Escala de Pontuação do Equipamento&lt;/font&gt; aumenta para 725 a pontuação de todos os equipamentos abaixo de 725.</string>
+	<string key="ui_opr_no_perks_signup_goal1" rel_version="Feature_DisabledPerkGameModes">Capture e segure os Postos Avançados para pontuar</string>
+	<string key="ui_opr_no_perks_signup_goal2" rel_version="Feature_DisabledPerkGameModes">A primeira equipe a marcar 1.000 pontos vence</string>
+	<string key="ui_opr_no_perks_signup_goal3" rel_version="Feature_DisabledPerkGameModes">Utilize recursos especiais para atacar e defender</string>
+	<string key="ui_ctf_signup_goal1" rel_version="Gamemode_CTF" comment="DO NOT TRANSLATE">TEMP CTF TIP 1</string>
+	<string key="ui_ctf_signup_goal2" rel_version="Gamemode_CTF" comment="DO NOT TRANSLATE">TEMP CTF TIP 2</string>
+	<string key="ui_ctf_signup_goal3" rel_version="Gamemode_CTF" comment="DO NOT TRANSLATE">TEMP CTF TIP 3</string>
+	<string key="ui_session_ending_label">Encerramento da Sessão:</string>
 </resources>
 

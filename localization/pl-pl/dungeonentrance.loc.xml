@@ -38,11 +38,11 @@
 	<string key="ui_dungeon_requirements_recommended">Zalecane:</string>
 	<string key="ui_dungeon_requirements_matchmaking_staff" rel_version="Feature_Group_Finder">Azothowa laska</string>
 	<string key="ui_flyout_recommended_groupsize">Zalecana liczba graczy: {players}</string>
-	<string key="ui_dungeon_requirements_equipment_warning">Twoja grupa musi mieć co najmniej: &lt;font color="#ebe3d6"&gt;{item}&lt;/font&gt;.</string>
-	<string key="ui_dungeon_requirements_equipment_warning_solo">Musisz mieć co najmniej: &lt;font color="#ebe3d6"&gt;{item}&lt;/font&gt;.</string>
-	<string key="ui_dungeon_requirements_equipment_warning_dailysolotrial" rel_version="DailySoloTrials">Musisz mieć co najmniej: &lt;font color="#ebe3d6"&gt;{item}&lt;/font&gt;.</string>
-	<string key="ui_dungeon_requirements_equipment_warning_raidtrial">Musisz mieć co najmniej: &lt;font color="#ebe3d6"&gt;{item}&lt;/font&gt;.</string>
-	<string key="ui_dungeon_requirements_equipment_warning_seasontrial" rel_version="Season_2_Perm">Musisz mieć co najmniej: &lt;font color="#ebe3d6"&gt;{item}&lt;/font&gt;.</string>
+	<string key="ui_dungeon_requirements_equipment_warning">Wymaga: {item}</string>
+	<string key="ui_dungeon_requirements_equipment_warning_solo">Wymaga: {item}</string>
+	<string key="ui_dungeon_requirements_equipment_warning_dailysolotrial" rel_version="DailySoloTrials">Wymaga: {item}</string>
+	<string key="ui_dungeon_requirements_equipment_warning_raidtrial">Wymaga: {item}</string>
+	<string key="ui_dungeon_requirements_equipment_warning_seasontrial" rel_version="Season_2_Perm">Wymaga: {item}</string>
 	<string key="ui_dungeon_reward_level">Im wyższy poziom trudności, tym wyższa jakość łupu.\n\nZnalezione przedmioty mogą się różnić od przedmiotów z listy ze względu na ich liczbę punktów wyposażenia.</string>
 	<string key="ui_dungeon_reward_title_regular">Nagrody za ekspedycje</string>
 	<string key="ui_dungeon_reward_title_mutation">Nagrody za mutację</string>
@@ -179,6 +179,11 @@
 	<string key="ui_dungeon_queued_blocked_raidtrial">Wejdź</string>
 	<string key="ui_dungeon_queued_blocked_seasontrial" rel_version="Season_2_Perm">Wejdź</string>
 	<string key="ui_dungeon_outpost_rush">Czekasz już w kolejce do napadu na posterunek.</string>
+	<string key="ui_dungeon_level_not_met">Masz zbyt niski poziom, by wziąć udział w tej ekspedycji.</string>
+	<string key="ui_dungeon_level_not_met_solo">Masz zbyt niski poziom, by wziąć udział w tej Próbie Duszy.</string>
+	<string key="ui_dungeon_level_not_met_raidtrial">Masz zbyt niski poziom, by wziąć udział w tej elitarnej próbie.</string>
+	<string key="ui_dungeon_level_not_met_seasontrial" rel_version="Season_2_Perm">Masz zbyt niski poziom, by wziąć udział w tej sezonowej próbie.</string>
+	<string key="ui_dungeon_level_not_met_dailysolotrial" rel_version="DailySoloTrials">Masz zbyt niski poziom, by wziąć udział w tej dziennej Próbie Duszy.</string>
 	<string key="ui_dungeon_expiring">Wyjście nastąpi za</string>
 	<string key="ui_dungeon_expiring_solo">Wyjście nastąpi za</string>
 	<string key="ui_dungeon_expiring_raidtrial">Wyjście nastąpi za</string>
@@ -347,8 +352,8 @@
 	<string key="Mut_Ice_Curse1_Major_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt3">Okresowo wybiera gracza. Wybrany gracz roztacza aurę zadającą obrażenia od lodu innym graczom w pobliżu i otrzymuje znaczne pochłanianie obrażeń od lodu. (Tego efektu nie można usunąć za pomocą zdolności gracza).</string>
 	<string key="Mut_Nat_Curse1_Major_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt3">Okresowo wybiera gracza. Wybrany gracz roztacza aurę zadającą obrażenia od natury innym graczom w pobliżu i otrzymuje znaczne pochłanianie obrażeń od natury. (Tego efektu nie można usunąć za pomocą zdolności gracza).</string>
 	<string key="Mut_Voi_Curse1_Major_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt3">Okresowo wybiera gracza. Wybrany gracz roztacza aurę zadającą obrażenia od próżni innym graczom w pobliżu i otrzymuje znaczne pochłanianie obrażeń od próżni. (Tego efektu nie można usunąć za pomocą zdolności gracza).</string>
-	<string key="Mut_Curse2_Minor_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">Okresowo nakłada na walczących graczy znużenie, spowalniając ich o {[-0.300000 * -100]}% i zwiększając wszystkie otrzymywane obrażenia o {[0.200000 * 100]}%. Efekt ten można opóźnić, używając zdolności. (Tego efektu nie można usunąć za pomocą zdolności gracza).</string>
-	<string key="Mut_Curse2_Minor_SlowRend_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">Spowalnia o {[-0.300000 * -100]}% i sprawia, że otrzymujesz o {[0.200000 * 100]}% więcej obrażeń każdego rodzaju.</string>
+	<string key="Mut_Curse2_Minor_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">Okresowo nakłada na walczących graczy znużenie, spowalniając ich o {[-0.3 * -100]}% i zwiększając wszystkie otrzymywane obrażenia o {[0.200000 * 100]}%. Efekt ten można opóźnić, używając zdolności. (Tego efektu nie można usunąć za pomocą zdolności gracza).</string>
+	<string key="Mut_Curse2_Minor_SlowRend_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">Spowalnia o {[-0.3 * -100]}% i sprawia, że otrzymujesz o {[0.200000 * 100]}% więcej obrażeń każdego rodzaju.</string>
 	<string key="Mut_Curse2_Fir_Major_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">Używanie zdolności nakłada na gracza efekt ofiary, co sprawia, że otrzymuje rozłożone w czasie obrażenia od ognia w wysokości {[-0.045000 * -100]}% maksymalnego zdrowia. Kumuluje się do {[3.000000]} razy. Wszystkie obrażenia zadawane przez gracza kradną {[0.250000 * 100]}% zdrowia, gdy jest pod wpływem ofiary. (Tego efektu nie można usunąć za pomocą zdolności gracza).</string>
 	<string key="Mut_Curse2_Ice_Major_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt3">Używanie zdolności nakłada na gracza efekt ofiary, co sprawia, że otrzymuje rozłożone w czasie obrażenia od lodu w wysokości {[-0.045000 * -100]}% maksymalnego zdrowia. Kumuluje się do {[3.000000]} razy. Wszystkie obrażenia zadawane przez gracza kradną {[0.250000 * 100]}% zdrowia, gdy jest pod wpływem ofiary (tego efektu nie można usunąć za pomocą zdolności gracza).</string>
 	<string key="Mut_Curse2_Nat_Major_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">Używanie zdolności nakłada na gracza efekt ofiary, co sprawia, że otrzymuje rozłożone w czasie obrażenia od natury w wysokości {[-0.045000 * -100]}% maksymalnego zdrowia. Kumuluje się do {[3.000000]} razy. Wszystkie obrażenia zadawane przez gracza kradną {[0.250000 * 100]}% zdrowia, gdy jest pod wpływem ofiary (tego efektu nie można usunąć za pomocą zdolności gracza).</string>
@@ -478,7 +483,8 @@
 	<string key="ui_elitetrial_map_weekly_count" rel_version="Season_2_Perm">Odebrane tygodniowe nagrody: {count} / {max}</string>
 	<string key="ui_elitetrial_banner_daily_count" rel_version="Season_2_Perm">Dzienne: {count}/{max}</string>
 	<string key="ui_elitetrial_banner_weekly_count" rel_version="Season_2_Perm">Tygodniowe: {count}/{max}</string>
+	<string key="ui_dungeon_enter_daily_limit_reached">Osiągnięto limit dzienny: &lt;img src="lyshineui/images/icons/misc/icon_hourglass" scale="1.1" yOffset="1.0"&gt;&lt;/img&gt; &lt;font color={timeColor} face="lyshineui/fonts/Nimbus_Regular.font"&gt;{timeText}&lt;/font&gt;</string>
+	<string key="ui_dungeon_enter_weekly_limit_reached">Osiągnięto limit tygodniowy: &lt;img src="lyshineui/images/icons/misc/icon_hourglass" scale="1.1" yOffset="1.0"&gt;&lt;/img&gt; &lt;font color={timeColor} face="lyshineui/fonts/Nimbus_Regular.font"&gt;{timeText}&lt;/font&gt;</string>
 	<string key="Respawn_EntranceNameTrial" rel_version="Trial_Brimstone_Sandworm">Wejście do próby</string>
-	<string key="ui_dungeon_level_not_met_solo">Masz zbyt niski poziom, by wziąć udział w tej Próbie Duszy.</string>
 </resources>
 

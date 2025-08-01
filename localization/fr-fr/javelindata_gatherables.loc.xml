@@ -459,6 +459,11 @@
 	<string key="0831_BruteCannonSchematic_DisplayName">Plan de canon de brute</string>
 	<string key="0831_DiscardedArmorPile_DisplayName">Fouiller la pile d'armures</string>
 	<string key="06_SpectralShrine">Sanctuaire spectral</string>
+	<string key="Catacombs_Strength">Enchantement de force</string>
+	<string key="Catacombs_Speed">Enchantement de vitesse</string>
+	<string key="Catacombs_Health">Azoth curatif</string>
+	<string key="Catacombs_Def">Enchantement d'armure</string>
+	<string key="Catacombs_Lifesteal">Enchantement de vol de vie</string>
 	<string key="FishingHotspotBroad_DisplayName">Zone de pêche (large)</string>
 	<string key="FishingHotspotRare_DisplayName">Zone de pêche (rare)</string>
 	<string key="FishingHotspotSecret_DisplayName">Zone de pêche (secrète)</string>
@@ -497,6 +502,7 @@
 	<string key="0519_EmptyAzothPowerSource_DisplayName">Récupérer la source d'énergie d'Azoth</string>
 	<string key="0520_StygianChannelSegment_DisplayName">Prendre les fragments de rivière stygienne</string>
 	<string key="0521_WyrdwoodSeedPod_DisplayName">Récolter des graines de bois d'aléa</string>
+	<string key="05A_MSQ_DamagedHeartgem_DisplayName">Joyau de cœur abîmé</string>
 	<string key="0601_DirtHole_DisplayName">Récupérer échantillon</string>
 	<string key="0602_SpiceSackGreen_DisplayName">Sac de cardamome</string>
 	<string key="0602_SpiceSackRed_DisplayName">Sac de poivre</string>
@@ -797,6 +803,17 @@
 	<string key="AnubianBrute_Base_DisplayName" rel_version="Territory_Brimstone_Sands">Automate anubien</string>
 	<string key="AnubianPanther_Base_DisplayName" rel_version="Territory_Brimstone_Sands">Automate sphinx</string>
 	<string key="16BS_LootContainer_Elite_LegionStoneTomb_DisplayName" rel_version="Territory_Brimstone_Sands">Offrandes mortuaires d'élite</string>
+	<string key="SummerMedley_Settlement_Stage_Master_DisplayName" rel_version="Event_Summer_Temp">Centre de la scène des Mélégies</string>
+	<string key="SummerMedley_Settlement_Stage_T1_DisplayName" rel_version="Event_Summer_Temp">Dotation dérisoire</string>
+	<string key="SummerMedley_Settlement_Stage_T2_DisplayName" rel_version="Event_Summer_Temp">Grande dotation</string>
+	<string key="SummerMedley_Settlement_Stage_T3_DisplayName" rel_version="Event_Summer_Temp">Dotation généreuse</string>
+	<string key="SummerMedley_Settlement_Stage_Description" rel_version="Event_Summer_Temp">Terminez des projets urbains des Mélégies pour améliorer la gloire et les récompenses qu'offre la scène !</string>
+	<string key="SummerMedley_Village_BonfireBlast_DisplayName" rel_version="Event_Summer_Temp">Feu des Mélégies</string>
+	<string key="SummerMedley_Village_BonfireBlast_Description" rel_version="Event_Summer_Temp">Jetez une arête magique d'esturgeon d'Aeternum au feu pour recevoir une superbe récompense !</string>
+	<string key="SummerMedley_Maudlindust_DisplayName" rel_version="Event_Summer_Temp">Poussière larmoyante</string>
+	<string key="SummerMedley_Maudlindust_Particle_DisplayName" rel_version="Event_Summer_Temp">Particule de larminsecte</string>
+	<string key="SummerMedley_Village_Dancefloor_DisplayName" rel_version="Event_Summer_Temp">Piste de danse des Mélégies</string>
+	<string key="SummerMedley_Village_Dancefloor_Description" rel_version="Event_Summer_Temp">Dépoussiérez vos meilleurs pas de danse et trémoussez-vous sur la piste des Mélégies pour gagner de la réputation d'événement !</string>
 	<string key="Season_04_IceGuardian_Icicle_DisplayName" rel_version="Season_4_Trial">Stalactite de jet</string>
 	<string key="Season_04_IceGuardian_BrokenRune_DisplayName" rel_version="Season_4_Trial">Obtenir le renforcement de flammes ancien</string>
 	<string key="FM_PVP_War_Camp_Loot_Box_DisplayName">Coffre du camp de guerre</string>
@@ -1553,11 +1570,18 @@
 	<string key="12A_0C_PercillaSword_DisplayName" rel_version="Quest_Console_Release">Épée de Percilla</string>
 	<string key="FTUE_Satchel_DisplayName" rel_version="Quest_Console_Release">Sacoche détrempée</string>
 	<string key="98_Covenant_03_Candle_DisplayName">Allumer les bougies</string>
-	<string key="Catacombs_Speed">Enchantement de vitesse</string>
-	<string key="RW_Siege_Pool_Blighted_Totem_DisplayName">Restaurer le totem</string>
-	<string key="05wc_ReekwaterUplevelChest_Medium_DisplayName">Cache du protecteur des âmes</string>
-	<string key="05wc_ReekwaterUplevelChest_Small_DisplayName">Magot du protecteur des âmes</string>
-	<string key="05wc_ReekwaterUplevelChest_Large_DisplayName">Trésor du protecteur des âmes</string>
-	<string key="Soulwarden_Crystal_Reekwater">Joyau de cœur abîmé</string>
+	<string key="Soulwarden_Crystal_Reekwater" rel_version="Season_8_Perm">Joyau de cœur abîmé</string>
+	<string key="05wc_ReekwaterUplevelChest_Small_DisplayName" rel_version="Season_8_Perm">Magot du protecteur des âmes</string>
+	<string key="05wc_ReekwaterUplevelChest_Medium_DisplayName" rel_version="Season_8_Perm">Cache du protecteur des âmes</string>
+	<string key="05wc_ReekwaterUplevelChest_Large_DisplayName" rel_version="Season_8_Perm">Trésor du protecteur des âmes</string>
+	<string key="RW_Siege_Pool_Blighted_Totem_DisplayName" rel_version="Season_8_Perm">Restaurer le totem</string>
+	<string key="17_MSQ_BatteryPost_DisplayName">Reconnecter la batterie</string>
+	<string key="17_MSQ_ShieldDevice_DisplayName">Activer le bouclier</string>
+	<string key="17_MSQ_BerlaurCage_DisplayName">Déverrouiller la cage</string>
+	<string key="LootContainer_Elite_Tarot_DisplayName">Cache de carnaval d'élite</string>
+	<string key="17_MSQ_StackCrates_DisplayName">Récupérer les fournitures éparpillées</string>
+	<string key="17_MSQ_BoxOfPotions_DisplayName">Récupérer de la poudre d'allium rouge</string>
+	<string key="Catacombs_ShirkingBlessing">Enchantement de bénédiction élusive</string>
+	<string key="17_MSQ_BoardWindow_DisplayName">Barricader la fenêtre</string>
 </resources>
 

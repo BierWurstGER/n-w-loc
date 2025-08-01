@@ -1898,6 +1898,9 @@
 	<string key="Procedural_GauntletVoidT3_WC" rel_version="Event_WinterConvergence_Perm">Sombra amarga</string>
 	<string key="Procedural_GauntletVoidT4_WC" rel_version="Event_WinterConvergence_Perm">Sombra amarga</string>
 	<string key="Procedural_GauntletVoidT5_WC" rel_version="Event_WinterConvergence_Perm">Sombra amarga</string>
+	<string key="FiletToken" rel_version="Event_Summer_Temp">Blasón de la Feria Musical: Filete</string>
+	<string key="ScaleToken" rel_version="Event_Summer_Temp">Blasón de la Feria Musical: Escamas</string>
+	<string key="DustToken" rel_version="Event_Summer_Temp">Blasón de la Feria Musical: Polvo sensiblero</string>
 	<string key="ScrapExtractMetalT2">Extraer metal: hierro</string>
 	<string key="ScrapExtractMetalT3">Extraer metal: acero</string>
 	<string key="ScrapExtractMetalT4">Extraer metal: metal estelar</string>
@@ -2031,37 +2034,46 @@
 	<string key="CraftArtifact_Set2_HeavyChest_Name" rel_version="Feature_Artifacts_S6">Mejora de Abrigo de superviviente en el horno de aljez</string>
 	<string key="CraftArtifact_Set2_HeavyHands_Name" rel_version="Feature_Artifacts_S5">Mejora de manoplas de gravedad de Gilli en el horno de aljez</string>
 	<string key="CraftArtifact_Set2_HeavyLegs_Name" rel_version="Feature_Artifacts_S5">Mejora de Corazón de hierro en el horno de aljez</string>
-	<string key="CraftArtifact_Set2_HeavyFeet_Name" rel_version="UNSCHEDULED">Mejora de Grebas rúnicas en el horno de aljez</string>
-	<string key="CraftArtifact_Set2_MediumHead_Name" rel_version="UNSCHEDULED">Mejora de Corona vieja en el horno de aljez</string>
+	<string key="CraftArtifact_Set2_HeavyFeet_Name" rel_version="Feature_Artifacts_S8">Mejora de Grebas rúnicas en el horno de aljez</string>
+	<string key="CraftArtifact_Set2_MediumHead_Name" rel_version="Feature_Artifacts_S8">Mejora de Corona vieja en el horno de aljez</string>
 	<string key="CraftArtifact_Set2_MediumChest_Name" rel_version="Feature_Artifacts_S5">Mejora de Cólera de la naturaleza en el horno de aljez</string>
 	<string key="CraftArtifact_Set2_MediumHands_Name" rel_version="Feature_Artifacts_S6">Mejora de Toque fantasmal en el horno de aljez</string>
 	<string key="CraftArtifact_Set2_MediumLegs_Name" rel_version="Feature_Artifacts_S6">Mejora de Conductores de Azoth en el horno de aljez</string>
 	<string key="CraftArtifact_Set2_LightHead_Name" rel_version="Feature_Artifacts_S6">Mejora de Cogulla de poder en el horno de aljez</string>
-	<string key="CraftArtifact_Set2_LightChest_Name" rel_version="UNSCHEDULED">Mejora de Vestiduras de vampiro en el horno de aljez</string>
-	<string key="CraftArtifact_Set2_LightHands_Name" rel_version="UNSCHEDULED">Mejora de Guantes de liche en el horno de aljez</string>
+	<string key="CraftArtifact_Set2_LightChest_Name" rel_version="Feature_Artifacts_S8">Mejora de Vestiduras de vampiro en el horno de aljez</string>
+	<string key="CraftArtifact_Set2_LightHands_Name" rel_version="Feature_Artifacts_S8">Mejora de Guantes de liche en el horno de aljez</string>
 	<string key="CraftArtifact_Set2_LightFeet_Name" rel_version="Feature_Artifacts_S5">Mejora de botas del credo en el horno de aljez</string>
-	<string key="CraftArtifact_Set2_1hLongsword_Name" rel_version="UNSCHEDULED">Mejora de Ingenio en el horno de aljez</string>
+	<string key="CraftArtifact_Set2_1hLongsword_Name" rel_version="Feature_Artifacts_S8">Mejora de Ingenio en el horno de aljez</string>
 	<string key="CraftArtifact_Set2_1hThrowingAxe_Name" rel_version="Feature_Artifacts_S5">Mejora de Pecado en el horno de aljez</string>
 	<string key="CraftArtifact_Set2_2hWarhammer_Name" rel_version="Feature_Artifacts_S6">Mejora de Trsna en el horno de aljez</string>
 	<string key="CraftArtifact_Set2_2hGreatAxe_Name" rel_version="Feature_Artifacts_S5">Mejora de Ira de la Tempestad en el horno de aljez</string>
 	<string key="CraftArtifact_Set2_2hBow_Name" rel_version="Feature_Artifacts_S7">Mejora de Acónito en el horno de aljez</string>
 	<string key="CraftArtifact_Set2_2hMusket_Name" rel_version="Feature_Artifacts_S7">Mejora de Metralla en el horno de aljez</string>
-	<string key="CraftArtifact_Set2_1hTowerShield_Name" rel_version="UNSCHEDULED">Mejora de Pertinacia en el horno de aljez</string>
+	<string key="CraftArtifact_Set2_1hTowerShield_Name" rel_version="Feature_Artifacts_S8">Mejora de Pertinacia en el horno de aljez</string>
 	<string key="CraftArtifact_Set2_2hStaffFire_Name" rel_version="Feature_Artifacts_S7">Mejora de Asanator en el horno de aljez</string>
 	<string key="CraftArtifact_Set2_2hStaffLife_Name" rel_version="Feature_Artifacts_S7">Mejora de Heceta en el horno de aljez</string>
 	<string key="CraftArtifact_Set2_2hSpear_Name" rel_version="Feature_Artifacts_S5">Mejora de Ponzoña en el horno de aljez</string>
 	<string key="CraftArtifact_Set2_1hRapier_Name" rel_version="Feature_Artifacts_S7">Mejora de Filo de Dorgort en el horno de aljez</string>
 	<string key="CraftArtifact_Set2_1hGauntletIce_Name" rel_version="Feature_Artifacts_S7">Mejora de Otzi en el horno de aljez</string>
 	<string key="CraftArtifact_Set2_1hGauntletVoid_Name" rel_version="Feature_Artifacts_S7">Mejora de Fractura en el horno de aljez</string>
-	<string key="CraftArtifact_Set2_2hBlunderbuss_Name" rel_version="UNSCHEDULED">Mejora de Caos en el horno de aljez</string>
+	<string key="CraftArtifact_Set2_2hBlunderbuss_Name" rel_version="Feature_Artifacts_S8">Mejora de Caos en el horno de aljez</string>
 	<string key="CraftArtifact_Set2_2hGreatSword_Name" rel_version="Feature_Artifacts_S6">Mejora de Gracia en el horno de aljez</string>
 	<string key="CraftArtifact_Set2_1hFlail_Name" rel_version="Feature_Artifacts_S6">Mejora de Piedra de poder en el horno de aljez</string>
 	<string key="CraftArtifact_Set2_Earring1_Name" rel_version="Feature_Artifacts_S7">Mejora de Justicia en el horno de aljez</string>
 	<string key="CraftArtifact_Set2_Ring1_Name" rel_version="Feature_Artifacts_S6">Mejora de Banda elemental en el horno de aljez</string>
 	<string key="CraftArtifact_Set2_Amulet1_Name" rel_version="Feature_Artifacts_S5">Mejora de Fénix en el horno de aljez</string>
+	<string key="CraftArtifact_Set3_MediumHead_Name" rel_version="UNSCHEDULED" comment="DO NOT TRANSLATE">Mejora de Heraldo de la plaga en el horno de aljez</string>
+	<string key="CraftArtifact_Set3_2hWarhammer_Name" rel_version="UNSCHEDULED" comment="DO NOT TRANSLATE">Mejora de Martillo de choque en el horno de aljez</string>
+	<string key="CraftArtifact_Set3_2hGreatSword_Name" rel_version="UNSCHEDULED" comment="DO NOT TRANSLATE">Mejora de Oleada creciente en el horno de aljez</string>
 	<string key="AquaeRejya" rel_version="Raid_CutlassKeys_00">Aquae Rejya</string>
 	<string key="GorgonEssence" rel_version="Raid_CutlassKeys_00">Esencia de gorgona</string>
 	<string key="AzeritFocus" rel_version="Raid_CutlassKeys_00">Concentración de acérita</string>
 	<string key="HercyneMutator_Combo" rel_version="Raid_CutlassKeys_00">Alijo de recompensa de nido de la gorgona y mutaciones</string>
+	<string key="2hWarhammer_MountainShakerT5_V3_Upgrade_Name" rel_version="Event_SpringtideBloom_2025_Perm">Mejora de Sacudemontañas en el horno de aljez</string>
+	<string key="2hMusket_BurnweaverT5_V3_Upgrade_Name" rel_version="Event_SpringtideBloom_2025_Perm">Mejora de Tejellamas en el horno de aljez</string>
+	<string key="2hSpear_BlazingBushHookT5_V3_Upgrade_Name" rel_version="Event_SpringtideBloom_2025_Perm">Mejora de Segadora ardiente en el horno de aljez</string>
+	<string key="1hGauntletVoid_ForestsShadowT5_V3_Upgrade_Name" rel_version="Event_SpringtideBloom_2025_Perm">Mejora de Sombra nemorosa en el horno de aljez</string>
+	<string key="LightHead_BramblehelmT5_V3_Upgrade_Name" rel_version="Event_SpringtideBloom_2025_Perm">Mejora de Zarzacrisma en el horno de aljez</string>
+	<string key="LightLegs_TrailblazersLegGuardsT5_V3_Upgrade_Name" rel_version="Event_SpringtideBloom_2025_Perm">Mejora de Espinilleras de pionero en el horno de aljez</string>
 </resources>
 

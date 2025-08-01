@@ -444,8 +444,8 @@
 	<string key="Emote_ArmWaveDance_SHE" rel_version="Emote_BreakdanceArmwave">{playerName} fa un'onda con le braccia.</string>
 	<string key="Emote_ArmWaveDance_THEY" rel_version="Emote_BreakdanceArmwave">{playerName} fa un'onda con le braccia.</string>
 	<string key="ui_emote_Walk_Drunk_name" rel_version="Emote_Stumbling_Walk">Torna a casa barcollando</string>
-	<string key="ui_emote_Walk_Drunk_description" rel_version="Emote_Stumbling_Walk">Una camminata adatta per spostarti tra la taverna e la tua casa, sempre che tu riesca a ricordare dove si trova.</string>
-	<string key="Emote_Walk_Drunk" rel_version="Emote_Stumbling_Walk">{playerName} cammina barcollando.</string>
+	<string key="ui_emote_Walk_Drunk_description" rel_version="Emote_Stumbling_Walk">Qualche barcollamento di troppo in Carica all'avamposto ti porterà a chiederti da che parte è la locanda.</string>
+	<string key="Emote_Walk_Drunk" rel_version="Emote_Stumbling_Walk">{playerName} cammina in stato di torpore.</string>
 	<string key="ui_emote_HipTwistDance_name" rel_version="Emote_Dance_HipTwist">Ruota i fianchi</string>
 	<string key="ui_emote_HipTwistDance_description" rel_version="Emote_Dance_HipTwist">Il ballo che sta spopolando ad Aeternum!</string>
 	<string key="Emote_HipTwistDance" rel_version="Emote_Dance_HipTwist">{playerName} ruota i fianchi ritmicamente.</string>
@@ -612,20 +612,26 @@
 	<string key="ui_Emote_Mantrum_description" rel_version="Entitlements_Barbarian">Quando devi assolutamente dare una lezione al terreno.</string>
 	<string key="ui_Emote_Mantrum_name" rel_version="Entitlements_Barbarian">Rissa solitaria</string>
 	<string key="Emote_Mantrum" rel_version="Entitlements_Barbarian">{playerName} combatte con il terreno.</string>
-	<string key="Emote_BarbershopExit" rel_version="Feature_Barbershop">{playerName} checks out their new look.</string>
-	<string key="ui_Emote_TouchGrass_description">Ti fa bene.</string>
-	<string key="ui_Emote_Walk_NinjaRun_description">Corri con le ombre, veloce come il vento.</string>
-	<string key="ui_Emote_BrushShoulder_description">Quando non hai versato nemmeno una goccia di sudore.</string>
-	<string key="Emote_Walk_MyrkMarch">{playerName} marcia a un ritmo bizzarro.</string>
-	<string key="ui_Emote_Walk_MyrkMarch_description">Narra la leggenda che Thorpe insegnò questa strana manovra solo ai suoi migliori guerrieri.</string>
-	<string key="Emote_BrushShoulder_THEY">{playerName} spazza via la polvere dalla spalla.</string>
-	<string key="Emote_BrushShoulder_SHE">{playerName} spazza via la polvere dalla spalla.</string>
-	<string key="ui_Emote_Walk_NinjaRun_name">Corsa ninja</string>
-	<string key="Emote_BrushShoulder">{playerName} spazza via la polvere dalla spalla.</string>
-	<string key="ui_Emote_Walk_MyrkMarch_name">Marcia di Myrkgard</string>
-	<string key="ui_Emote_TouchGrass_name">Tocco erbaceo</string>
-	<string key="Emote_Walk_NinjaRun">{playerName} corre come un ninja!</string>
-	<string key="ui_Emote_BrushShoulder_name">Via la polvere dalla spalla</string>
-	<string key="Emote_TouchGrass">{playerName} tocca erba bella e rigogliosa.</string>
+	<string key="Emote_BarbershopExit" rel_version="Feature_Barbershop">{playerName} controlla il suo nuovo look.</string>
+	<string key="ui_Emote_BrushShoulder_name" rel_version="Season_8_Perm">Via la polvere dalla spalla</string>
+	<string key="ui_Emote_BrushShoulder_description" rel_version="Season_8_Perm">Quando non hai versato nemmeno una goccia di sudore.</string>
+	<string key="Emote_BrushShoulder" rel_version="Season_8_Perm">{playerName} spazza via la polvere dalla spalla.</string>
+	<string key="Emote_BrushShoulder_SHE" rel_version="Season_8_Perm">{playerName} spazza via la polvere dalla spalla.</string>
+	<string key="Emote_BrushShoulder_THEY" rel_version="Season_8_Perm">{playerName} spazza via la polvere dalla spalla.</string>
+	<string key="ui_Emote_Walk_MyrkMarch_name" rel_version="Season_8_Perm">Marcia di Myrkgard</string>
+	<string key="ui_Emote_Walk_MyrkMarch_description" rel_version="Season_8_Perm">Narra la leggenda che Thorpe insegnò questa strana manovra solo ai suoi migliori guerrieri.</string>
+	<string key="Emote_Walk_MyrkMarch" rel_version="Season_8_Perm">{playerName} marcia a un ritmo bizzarro.</string>
+	<string key="ui_Emote_Walk_NinjaRun_name" rel_version="Season_8_Perm">Corsa ninja</string>
+	<string key="ui_Emote_Walk_NinjaRun_description" rel_version="Season_8_Perm">Corri con le ombre, veloce come il vento.</string>
+	<string key="Emote_Walk_NinjaRun" rel_version="Season_8_Perm">{playerName} corre come un ninja!</string>
+	<string key="ui_Emote_TouchGrass_name" rel_version="Season_8_Perm">Tocco erbaceo</string>
+	<string key="ui_Emote_TouchGrass_description" rel_version="Season_8_Perm">Ti fa bene.</string>
+	<string key="Emote_TouchGrass" rel_version="Season_8_Perm">{playerName} tocca erba bella e rigogliosa.</string>
+	<string key="ui_Emote_CatPaw_description">Tutta la maestà della gloriosa forma felina. Aspetta, sento che sta arrivando una palla di pelo.</string>
+	<string key="ui_Emote_NewspaperBonk_name">Botta con giornale</string>
+	<string key="Emote_NewspaperBonk">{playerName} fa ragionare qualcuno a suon di botte.</string>
+	<string key="ui_Emote_NewspaperBonk_description">Quando i tuoi compagni iniziano a ideare piani stupidi in Carica all'avamposto.</string>
+	<string key="ui_Emote_CatPaw_name">Zampe di gatto</string>
+	<string key="Emote_CatPaw">{playerName} gioca come un gattino.</string>
 </resources>
 

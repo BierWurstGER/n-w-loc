@@ -1115,6 +1115,8 @@
 	<string key="GemOnyx_CategoryName">Onyksy</string>
 	<string key="GemOpal_CategoryName">Opale</string>
 	<string key="GemPearl_CategoryName">Perły</string>
+	<string key="GemJade_CategoryName">Jadeity</string>
+	<string key="GemTurq_CategoryName">Turkusy</string>
 	<string key="gemPouch_GroupName">Sakiewki na klejnoty</string>
 	<string key="GemRuby_CategoryName">Rubiny</string>
 	<string key="GemSapp_CategoryName">Szafiry</string>
@@ -1746,7 +1748,7 @@
 	<string key="SurvivalTools_GroupName">Narzędzia traperskie</string>
 	<string key="SwordA_GroupDesc">Nierozłączna para, świetnie sprawdzająca się w walce wręcz. Zapewnia szereg zdolności ofensywnych i defensywnych. Ataki bazują na cięciach i pchnięciach, a tarcza służy do obrony.\n\n•Atak lekki: Zadaje {[1.000000 * 100]}% &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_slash_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; obrażeń.\n•Lekki cios kończący serię: Zadaje {[1.050000 * 100]}% &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_slash_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; obrażeń.\n•Atak ciężki: Zadaje {[1.200000 * 100]}% &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_thrust_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; obrażeń.\n•Naładowany atak ciężki: Zadaje {[1.600000 * 100]}% &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_thrust_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; obrażeń.\n\nKompatybilne z klejnotem prowokacji: Ciężkie ataki mieczem, w którym osadzono karneol, wywołują prowokację trwającą przez {[0.500000]} s. (Prowokacja sprawia, że potwory skupiają się tylko na tobie).</string>
 	<string key="SwordA_GroupName">Miecze proste</string>
-	<string key="SwordB_GroupDesc">Broń biała używana do wyprowadzania szybkich pchnięć. Premiuje koordynację i wyczucie czasu. Nadaje się idealnie do wyprowadzania w pole przeciwników, u których wywołuje krwawienie stopniowo odbierające im życie.\n\n• Atak lekki: Zadaje {[1.000000 * 100]}% &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_thrust_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; obrażeń.\n• Środkowe ataki lekkie: Zadaje {[0.660000 * 100]}% &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_thrust_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; obrażeń.\n•Atak ciężki: Zadaje {[1.330000 * 100]}% &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_thrust_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; obrażeń.\n\nKompatybilne z klejnotem prowokacji: Ciężkie ataki rapierem, w którym osadzono karneol, wywołują prowokację trwającą przez {[0.500000]} s. (Prowokacja sprawia, że potwory skupiają się tylko na tobie).</string>
+	<string key="SwordB_GroupDesc">Broń biała używana do wyprowadzania szybkich pchnięć. Premiuje koordynację i wyczucie czasu. Nadaje się idealnie do wyprowadzania w pole przeciwników, u których wywołuje krwawienie stopniowo odbierające im życie.\n\n• Atak lekki: Zadaje {[1.000000 * 100]}% &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_thrust_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; obrażeń.\n• Środkowe ataki lekkie: Zadaje {[0.660000 * 100]}% &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_thrust_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; obrażeń.\n•Atak ciężki: Zadaje {[1.660000 * 100]}% &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_thrust_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; obrażeń.\n\nKompatybilne z klejnotem prowokacji: Ciężkie ataki rapierem, w którym osadzono karneol, wywołują prowokację trwającą przez {[0.500000]} s. (Prowokacja sprawia, że potwory skupiają się tylko na tobie).</string>
 	<string key="SwordB_GroupName">Rapier</string>
 	<string key="SwordC_GroupDesc">1-ręczny.</string>
 	<string key="SwordC_GroupName">Szabla</string>
@@ -1874,6 +1876,11 @@
 	<string key="AlchemyAlkahestT1_GroupName">Alkahest</string>
 	<string key="AlchemyCritters_GroupName">Stworzenia alchemiczne</string>
 	<string key="Summer">Lato</string>
+	<string key="SummerMemento" rel_version="Event_Summer_Temp">Letnie pamiątki</string>
+	<string key="MementoStand" rel_version="Event_Summer_Temp">Stojaki na pamiątki</string>
+	<string key="SmallMemento" rel_version="Event_Summer_Temp">Małe rybie pamiątki</string>
+	<string key="MediumMemento" rel_version="Event_Summer_Temp">Średnie rybie pamiątki</string>
+	<string key="LargeMemento" rel_version="Event_Summer_Temp">Duże rybie pamiątki</string>
 	<string key="Instruments_GroupName" rel_version="Feature_MusicalPerformances">Instrumenty</string>
 	<string key="CategoryData_Instruments" rel_version="Feature_MusicalPerformances">Instrumenty</string>
 	<string key="InstrumentParts_GroupName" rel_version="Feature_MusicalPerformances">Części instrumentów</string>
@@ -2057,18 +2064,18 @@
 	<string key="EtherealDust_GroupName" comment="DO NOT TRANSLATE" rel_version="PvPServerConquerorsItems">Ethereal Dust XP Conversion</string>
 	<string key="BetaRewards_GroupName">Nagrody treści beta</string>
 	<string key="OPRBetas_GroupName">Treści beta dla Napadu na posterunek</string>
-	<string key="ReekwaterUplevelRare_GroupName">rzadki</string>
-	<string key="ReekwaterUplevelCommon_GroupName">pospolity</string>
-	<string key="RuneResinTrophies_GroupName">Trofea z żywicy runodrzewa</string>
-	<string key="RuneResinRecipes_GroupName">Przepisy z żywicą runodrzewa</string>
-	<string key="AdventurersEquipment_GroupName">Wyposażenie</string>
-	<string key="AdventurerCaches_GroupName">Skrytki podróżnika</string>
-	<string key="OrichalciteWeapons_GroupName">Orichalcytowa broń</string>
-	<string key="OrichalciteArmors_GroupName">Orichalcytowe pancerze</string>
-	<string key="OrichalciteJewelry_GroupName">Orichalcytowa biżuteria</string>
-	<string key="OrichalciteRecipes_GroupName">Orichalcytowe schematy</string>
-	<string key="AdventurersItems_GroupName">Przedmioty</string>
-	<string key="S8CacheCraft_GroupName">Wytwarzanie sezonu 8</string>
-	<string key="AdventurersConsumables_GroupName">Przedmioty użytkowe</string>
+	<string key="ReekwaterUplevelRare_GroupName" rel_version="Season_8_Perm">rzadki</string>
+	<string key="ReekwaterUplevelCommon_GroupName" rel_version="Season_8_Perm">pospolity</string>
+	<string key="AdventurerCaches_GroupName" rel_version="Seasonal_Server_2">Skrytki podróżnika</string>
+	<string key="AdventurersEquipment_GroupName" rel_version="Seasonal_Server_2">Wyposażenie</string>
+	<string key="AdventurersConsumables_GroupName" rel_version="Seasonal_Server_2">Przedmioty użytkowe</string>
+	<string key="AdventurersItems_GroupName" rel_version="Seasonal_Server_2">Przedmioty</string>
+	<string key="S8CacheCraft_GroupName" rel_version="Seasonal_Server_2">Wytwarzanie sezonu 8</string>
+	<string key="OrichalciteRecipes_GroupName" rel_version="Seasonal_Server_2">Orichalcytowe schematy</string>
+	<string key="OrichalciteArmors_GroupName" rel_version="Seasonal_Server_2">Orichalcytowe pancerze</string>
+	<string key="OrichalciteWeapons_GroupName" rel_version="Seasonal_Server_2">Orichalcytowa broń</string>
+	<string key="OrichalciteJewelry_GroupName" rel_version="Seasonal_Server_2">Orichalcytowa biżuteria</string>
+	<string key="RuneResinRecipes_GroupName" rel_version="Seasonal_Server_2">Przepisy z żywicą runodrzewa</string>
+	<string key="RuneResinTrophies_GroupName" rel_version="Seasonal_Server_2">Trofea z żywicy runodrzewa</string>
 </resources>
 

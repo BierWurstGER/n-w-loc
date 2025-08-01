@@ -159,6 +159,9 @@
 	<string key="ui_leaderboard_display_elitetrials_sandworm1" rel_version="Trial_Brimstone_Sandworm">Prova do Devorador - Tempo de Conclusão</string>
 	<string key="ui_leaderboard_display_elitetrials_sandworm2" rel_version="Trial_Brimstone_Sandworm">Prova do Devorador</string>
 	<string key="ui_leaderboard_tip_outpostrush_score" rel_version="Feature_Leaderboards">&lt;img src="lyshineui/images/icons/crossworld/icon_crossworld_identifier_tan" scale="2.0" xPadding="2" yOffset="5"&gt;&lt;/img&gt; &lt;font color="#ebe3d6"&gt;&lt;font face="lyshineui/fonts/Nimbus_Regular.font"&gt;Classificação Regional&lt;/font&gt;&lt;/font&gt;\n\nSua Pontuação em Investidas do Posto Avançado é a pontuação máxima que você recebeu em uma partida.</string>
+	<string key="ui_leaderboard_category_raids" rel_version="Season_8_Perm">Ataques</string>
+	<string key="ui_leaderboard_display_raids_cutlassKeys1" rel_version="Season_8_Perm">Colônia das Górgonas - Tempo de Conclusão</string>
+	<string key="ui_leaderboard_display_raids_cutlassKeys2" rel_version="Season_8_Perm">Colônia das Górgonas</string>
 	<string key="ui_leaderboard_display_regional">Regional</string>
 	<string key="ui_leaderboard_display_world_archived">Mundo (Arquivado)</string>
 	<string key="ui_leaderboard_tip_regional_only">&lt;img src="lyshineui/images/icons/crossworld/icon_crossworld_identifier_tan" scale="2.0" xPadding="2" yOffset="5"&gt;&lt;/img&gt; Classificações Regionais\n\nVeja as estatísticas e compita contra jogadores de sua região.\n\nOs mundos específicos de um console só compartilharão as classificações regionais com outros mundos do mesmo console.</string>
@@ -173,8 +176,28 @@
 	<string key="ui_leaderboard_column_assists" rel_version="Season_7_Perm">Assistências</string>
 	<string key="ui_leaderboard_display_kda" rel_version="Season_7_Perm">Taxa de Abates/Mortes/Assistências</string>
 	<string key="ui_leaderboard_tip_kda" rel_version="Season_7_Perm">A Taxa de Abates/Mortes/Assistências é calculada pela soma das mortes e assistências, dividindo o resultado pelas mortes.</string>
-	<string key="ui_leaderboard_category_raids">Ataques</string>
-	<string key="ui_leaderboard_display_raids_cutlassKeys2">Colônia das Górgonas</string>
-	<string key="ui_leaderboard_display_raids_cutlassKeys1">Colônia das Górgonas - Tempo de Conclusão</string>
+	<string key="ui_leaderboard_display_capture_the_flag_kill_death_assist">Taxa de Abates/Mortes/Assistências</string>
+	<string key="ui_leaderboard_display_capture_the_flag_best_kills">Melhores Abates</string>
+	<string key="ui_leaderboard_display_capture_the_flag_points">Pontos de Bandeira</string>
+	<string key="ui_leaderboard_tip_flag_returns">Quantidade de vezes que você devolveu uma bandeira roubada de volta à sua base.</string>
+	<string key="ui_leaderboard_display_capture_the_flag_damage_dealt">Dano Causado</string>
+	<string key="ui_leaderboard_column_returns">Devoluções</string>
+	<string key="ui_leaderboard_column_best_kills">Melhores Abates</string>
+	<string key="ui_leaderboard_display_capture_the_flag_kills">Abates</string>
+	<string key="ui_leaderboard_column_kill_death_ratio">Taxa de Abates/Mortes</string>
+	<string key="ui_leaderboard_category_capture_the_flag">Pique-bandeira</string>
+	<string key="ui_leaderboard_display_capture_the_flag_returns">Devoluções</string>
+	<string key="ui_leaderboard_second_level_category_test">SecondLevelCategory</string>
+	<string key="ui_leaderboard_display_capture_the_flag_kill_death">Taxa de Abates/Mortes</string>
+	<string key="ui_leaderboard_display_capture_the_flag_heals">Curas</string>
+	<string key="ui_leaderboard_display_capture_the_flag_assists">Assistências</string>
+	<string key="ui_leaderboard_display_capture_the_flag_score">Pontuação</string>
+	<string key="ui_leaderboard_column_points">Pontos de Bandeira</string>
+	<string key="ui_leaderboard_tip_kd">A Taxa de Abates/Mortes é calculada dividindo o número de abates pelo número de mortes.</string>
+	<string key="ui_leaderboard_column_kill_death_assist_ratio">Taxa de Abates/Mortes/Assistências</string>
+	<string key="ui_leaderboard_category_desc">Descrição da Categoria</string>
+	<string key="ui_leaderboard_column_total_kills">Total de Abates</string>
+	<string key="ui_leaderboard_display_capture_the_flag_wins">Vitórias</string>
+	<string key="ui_leaderboard_tip_flag_points">Pontos que você ganhou ao roubar a bandeira do inimigo.</string>
 </resources>
 

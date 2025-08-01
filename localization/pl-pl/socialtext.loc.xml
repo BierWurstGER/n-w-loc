@@ -62,7 +62,7 @@
 	<string key="ui_guildname_multiple_spaces">Nie można zmienić nazwy kompanii – zawiera kilka spacji z rzędu</string>
 	<string key="ui_createguildname_use_badword">Nieprawidłowa nazwa kompanii – zawiera nieodpowiednie słowa.</string>
 	<string key="ui_guild_server_error">Błąd kompanii, spróbuj ponownie później</string>
-	<string key="ui_invalidguildmessageoftheday">Nieprawidłowa kompanijna wiadomość dnia</string>
+	<string key="ui_invalidguildmessageoftheday">Nieprawidłowa wiadomość</string>
 	<string key="ui_guildmessageoftheday_invalid_characters">Nie można zmienić nazwy kompanijnej wiadomości dnia – zawiera nieprawidłowe znaki.</string>
 	<string key="ui_guildmessageoftheday_too_long">Nie można zmienić nazwy kompanijnej wiadomości dnia – nieprawidłowa długość.</string>
 	<string key="ui_guildmessageoftheday_use_badword">Nie można zmienić nazwy kompanijnej wiadomości dnia – zawiera nieodpowiednie słowa.</string>
@@ -201,8 +201,8 @@
 	<string key="ui_invite_to_guild">Zaproś do kompanii</string>
 	<string key="ui_acceptfriendinvite">Przyjmij zaproszenie</string>
 	<string key="ui_rejectfriendinvite">Odrzuć zaproszenie</string>
-	<string key="ui_faction_invite_error">Nie możesz wysłać zaproszenia do członka innej frakcji</string>
-	<string key="ui_faction_invite_error_pvp_group">Nie możesz wysłać zaproszenia do grupy PvP członkowi innej frakcji</string>
+	<string key="ui_faction_invite_error">Nie możesz wysłać zaproszenia do członka innej frakcji.</string>
+	<string key="ui_faction_invite_error_pvp_group">Nie możesz wysłać zaproszenia do grupy PvP członkowi innej frakcji.</string>
 	<string key="ui_nofaction_invite_error">Nie możesz wysłać zaproszenia do osoby nienależącej do żadnej frakcji.</string>
 	<string key="ui_inguild_invite_error" comment="">Nie możesz wysłać zaproszenia do członka swojej kompanii.</string>
 	<string key="ui_cannot_interact_offline" comment="">Nie możesz tego zrobić, gracz jest w trybie offline.</string>
@@ -306,7 +306,7 @@
 	<string key="ui_spotlight_failed_notification_title">Błąd połączenia</string>
 	<string key="ui_spotlight_failed_notification_message">Nie można uaktywnić wyróżniania streamera na Twitchu. Sprawdź, czy twój stream działa, i spróbuj ponownie.</string>
 	<string key="ui_spotlight_error">Stan: &lt;font color="#ff7171"&gt;Błąd&lt;/font&gt;</string>
-	<string key="ui_subarmy_title">Armia subskrybentów Twitch</string>
+	<string key="ui_subarmy_title">Armia Twitch</string>
 	<string key="ui_subarmy_join_desc">Dołącz do sesji dla armii subskrybentów innych streamerów.</string>
 	<string key="ui_subarmy_tooltip">&lt;font face="lyshineui/fonts/nimbus_bold_italic.font" &gt;Włącz&lt;/font&gt; w &lt;font face="lyshineui/fonts/nimbus_bold_italic.font" &gt;ustawieniach&lt;/font&gt;, by stworzyć armię subskrybentów Twitcha lub do niej dołączyć.</string>
 	<string key="ui_subarmy_subtitle_sessions">Dostępne sesje: {number}</string>

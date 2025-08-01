@@ -370,7 +370,7 @@
 	<string key="FactionMission_armorsmith_desc">Forja y entrega &lt;font color="#b2aea1"&gt;{itemName}&lt;/font&gt;.</string>
 	<string key="FactionMission_cooking_title">Se necesitan cocineros</string>
 	<string key="FactionMission_cooking_desc">Cocina y entrega &lt;font color="#b2aea1"&gt;{itemName}&lt;/font&gt;.</string>
-	<string key="FactionMission_RAID_title">Asaltar a {POITags}</string>
+	<string key="FactionMission_RAID_title">Escamoteo: {POITags}</string>
 	<string key="FactionMission_RAID_desc">Hemos identificado una amenaza para los intereses de los saqueadores en esta región.\n\nVe a {POITags} y derrota a todos los ejemplares de &lt;font color="#b2aea1"&gt;{enemyName}&lt;/font&gt; necesarios sin reservas.</string>
 	<string key="FactionMission_EXPLORE_title">Explora: {POITags}</string>
 	<string key="FactionMission_EXPLORE_desc">Explora el terreno en {POITags} para dar ventaja a los saqueadores. \n\nTu informe es esencial para formular nuestra estrategia.</string>
@@ -413,7 +413,7 @@
 	<string key="FactionMission_PRESERVE_title">Conservación (JcJ)</string>
 	<string key="FactionMission_PRESERVE_desc">Bendice a {POITags} con la luz de la chispa.</string>
 	<string key="FactionMission_M_EXPEDITIONRAID_desc_singular">Adéntrate en {POITags} en nombre de los saqueadores y derrota a los &lt;font color="#b2aea1"&gt;{enemyName}&lt;/font&gt;. \n\n &lt;font color="#b2aea1"&gt;(Expedición)&lt;/font&gt;</string>
-	<string key="FactionMission_EXPEDITIONRAID_title">Asaltar a {POITags}</string>
+	<string key="FactionMission_EXPEDITIONRAID_title">Escamoteo: {POITags}</string>
 	<string key="FactionMission_EXPEDITIONRAID_desc">Adéntrate en {POITags} en nombre de los saqueadores y derrota a todos los ejemplares de &lt;font color="#b2aea1"&gt;{enemyName}&lt;/font&gt; necesarios. \n\n &lt;font color="#b2aea1"&gt;(Expedición)&lt;/font&gt;</string>
 	<string key="FactionMission_EXPEDITIONRAID_desc_singular">Adéntrate en {POITags} en nombre de los saqueadores y derrota a los &lt;font color="#b2aea1"&gt;{enemyName}&lt;/font&gt;. \n\n &lt;font color="#b2aea1"&gt;(Expedición)&lt;/font&gt;</string>
 	<string key="FactionMission_EXPEDITIONLOOT_title">Saquea {POITags}</string>
@@ -452,7 +452,7 @@
 	<string key="FactionMission_C_ASSASSINATE_ELITE_desc2">El pacto ha identificado a &lt;font color="#b2aea1"&gt;{enemyName}&lt;/font&gt; para su eliminación.\n\nDemuestra tu devoción rastreándolo en {POITags} y destruyéndolo. (Sugerencia: los objetivos aparecen como parte de un evento)\n &lt;font color="#b2aea1"&gt;(Élite)&lt;/font&gt;</string>
 	<string key="FactionMission_ASSASSINATE_ELITE_desc2">Los saqueadores necesitan eliminar a &lt;font color="#b2aea1"&gt;{enemyName}&lt;/font&gt; del tablero.\n\nDemuestra tu valor rastreándolo en {POITags} y destruyéndolo. (Sugerencia: los objetivos aparecen como parte de un evento)\n&lt;font color="#b2aea1"&gt;(Élite)&lt;/font&gt;</string>
 	<string key="FactionMission_S_ASSASSINATE_ELITE_desc2">El sindicato ha identificado a &lt;font color="#b2aea1"&gt;{enemyName}&lt;/font&gt; como objetivo para su eliminación.\n\nDemuestra tu astucia rastreándolo en {POITags} y destruyéndolo. (Sugerencia: los objetivos aparecen como parte de un evento)\n&lt;font color="#b2aea1"&gt;(Élite)&lt;/font&gt;</string>
-	<string key="FactionMission_RAID_ELITE_title">Asalta a {POITags} (élite)</string>
+	<string key="FactionMission_RAID_ELITE_title">Escamoteo: {POITags} (élite)</string>
 	<string key="FactionMission_RAID_ELITE_desc">Hemos identificado una amenaza para los intereses de los saqueadores en esta región.\n\nVe a {POITags} y derrota a todos los ejemplares de &lt;font color="#b2aea1"&gt;{enemyName}&lt;/font&gt; necesarios sin reservas.\n&lt;font color="#b2aea1"&gt;(élite)&lt;/font&gt;</string>
 	<string key="FactionMission_LOOT_ELITE_title">Saquea a {POITags} (élite)</string>
 	<string key="FactionMission_LOOT_ELITE_desc">Hay objetos en {POITags} que podrían resultar valiosos para la campaña de los saqueadores. \n\nConsigue cada una de las unidades de &lt;font color="#b2aea1"&gt;{itemName}&lt;/font&gt; utilizando cualquier medio que sea necesario.\n&lt;font color="#b2aea1"&gt;(élite)&lt;/font&gt;</string>
@@ -558,6 +558,18 @@
 	<string key="CMissionAcquireWoodWorker">Adquiere y entrega &lt;font color="#b2aea1"&gt;{itemAmount} {itemName}&lt;/font&gt; de un taller de carpintería.</string>
 	<string key="CMissionAcquireOutfitter">Adquiere y entrega &lt;font color="#b2aea1"&gt;{itemAmount} {itemName}&lt;/font&gt; de una estación de equipamiento.</string>
 	<string key="CMissionAcquireEngineer">Adquiere y entrega &lt;font color="#b2aea1"&gt;{itemAmount} {itemName}&lt;/font&gt; de un taller.</string>
+	<string key="CMissionAcquireBlock_Name_SE" rel_version="Event_Summer_Temp">Festive Stonemasons Needed</string>
+	<string key="CMissionAcquireTimber_Name_SE" rel_version="Event_Summer_Temp">Festive Carpenters Needed</string>
+	<string key="CMissionAcquireCloth_Name_SE" rel_version="Event_Summer_Temp">Festive Weavers Needed</string>
+	<string key="CMissionAcquireMetal_Name_SE" rel_version="Event_Summer_Temp">Festive Metalworkers Needed</string>
+	<string key="CMissionAcquireFibers_Name_SE" rel_version="Event_Summer_Temp">Festive Harvesters Needed</string>
+	<string key="CMissionAcquireFood_Name_SE" rel_version="Event_Summer_Temp">Festive Cooks Needed</string>
+	<string key="CMissionAcquirePotions_Name_SE" rel_version="Event_Summer_Temp">Festive Alchemists Needed</string>
+	<string key="CMissionAcquireGeneric_Name_SE" rel_version="Event_Summer_Temp">Festive Supplies Needed</string>
+	<string key="CMissionAcquireWood_Name_SE" rel_version="Event_Summer_Temp">Festive Lumberjacks Needed</string>
+	<string key="CMissionAcquireRawhide_Name_SE" rel_version="Event_Summer_Temp">Festive Hunters Needed</string>
+	<string key="CMissionAcquireLeather_Name_SE" rel_version="Event_Summer_Temp">Festive Tanners Needed</string>
+	<string key="CMissionAcquirePaint_Name_SE" rel_version="Event_Summer_Temp">Festive Painters Needed</string>
 	<string key="ui_already_in_faction">Ya estás en esta facción.</string>
 	<string key="ui_cant_switch_faction_pvp">No puedes cambiar de facción si tienes el modo PvP activado.</string>
 	<string key="ui_cant_switch_faction_azoth">Azoth insuficiente.</string>

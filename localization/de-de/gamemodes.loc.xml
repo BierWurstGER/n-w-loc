@@ -308,8 +308,10 @@
 	<string key="ui_pvp_balance_header" rel_version="Feature_PvP_PvE_Split">PvP-Balance-Modifikatoren in Kraft:</string>
 	<string key="or_outpost_rush_map_name" rel_version="Season_7_Perm">Nauthynos-Insel</string>
 	<string key="or_outpost_rush_trench_map_name" rel_version="OPR_004_Trench">Korallenkluft</string>
+	<string key="or_outpost_rush_vertical_map_name" rel_version="OPR_005_Vertical">Kalomel-Turm</string>
 	<string key="arena_3v3_map_name" rel_version="Feature_PVP_Arenas">Heiligtum der Ahnen</string>
 	<string key="arena_3v3_02_map_name" rel_version="Feature_PVP_Arenas">Gladiatorenring</string>
+	<string key="arena_3v3_04_map_name" rel_version="Arena_3v3_04">Arenavorschau</string>
 	<string key="ui_activity_finder_tooltip_current_map_rotation_text" rel_version="Season_7_Perm">Aktuelle Karte in Rotation</string>
 	<string key="ui_activity_finder_tooltip_next_map_rotation_text" rel_version="Season_7_Perm">Nächste Karte in Rotation</string>
 	<string key="ui_activity_finder_tooltip_current_map_rotation" rel_version="Season_7_Perm">{currentRotationText} : {mapName}</string>
@@ -338,58 +340,64 @@
 	<string key="ui_ready_up_ready_choice">Bereit</string>
 	<string key="ui_ready_up_unready_choice">Nicht bereit</string>
 	<string key="ui_ready_up_waiting_message">Warten auf andere Spieler ({numReady}/{numTotal})</string>
-	<string key="ctf_gamemode_description">"Fahnenraub" ist ein rasanter, teamorientierter Spielmodus, bei dem du sowohl offensive als auch defensive Strategien einsetzen musst. Verteidige deine Basis und raube die gegnerische Fahne, um zu gewinnen.</string>
-	<string key="ctf_flag_picked_up">Deine Fahne wurde aufgenommen.</string>
-	<string key="ctf_flag_returned">Deine Fahne wurde zurückgebracht.</string>
-	<string key="ctf_red_team">&lt;font color="#f25d5d"&gt;Rotes Team&lt;/font&gt;</string>
-	<string key="ctf_gamemode_name">Fahnenraub</string>
-	<string key="ctf_003_Long_Map_Name">Fahnenraub-Vorschau</string>
-	<string key="ui_opr_no_perks_signup_desc_cross_world">Keine Top-Ausrüstung erforderlich! In der neuen Auslegung des Außenpostensturms sind alle Ausrüstungseffekte deaktiviert und die Ausrüstung wird auf den max. Rüstwert angehoben, um eine faire, gleichberechtigte Spielumgebung zu schaffen.\n\n Die &lt;font color="#edc63e"&gt;Rüstwertskalierung&lt;/font&gt; erhöht den Rüstwert aller Ausrüstung mit einem Wert von unter 725 auf 725.</string>
-	<string key="ctf_flag_match_completed">Match abgeschlossen</string>
-	<string key="ui_ctf_leave_desc">Möchtest du das Fahnenraub-Match wirklich verlassen?</string>
-	<string key="ctf_flag_status_safe">Fahne gesichert</string>
-	<string key="ctf_eom_stat_captures_neutral_flags">Neutrale Fahnen</string>
-	<string key="ctf_flag_status_taken">Fahne erobert</string>
-	<string key="ctf_flag_wild_spawned">Neutrale Fahne erschienen</string>
-	<string key="ui_opr_no_perks_signup_goal2">Es gewinnt das Team, das zuerst 1.000 Punkte erreicht.</string>
-	<string key="ctf_flag_wild_timer">Erscheint in {time}</string>
-	<string key="ui_opr_no_perks_title">Außenpostensturm: Knochentrocken</string>
-	<string key="ui_capture_the_flag_begin">LOS!</string>
-	<string key="ctf_eom_stat_captures_team_flags">Teamfahnen</string>
-	<string key="ctf_flag_you_scored">Du hast Punkte erzielt!</string>
-	<string key="ui_opr_no_perks_signup_goal1">Erobere und halte Außenposten, um Punkte zu erhalten.</string>
-	<string key="ctf_eom_stat_flag_returns">Zurückgebrachte Fahnen</string>
-	<string key="ui_capture_the_flag_signup_goal1">Erobere die meisten Fahnen, um das Match zu gewinnen.</string>
-	<string key="ui_capture_the_flag_title">Fahnenraub</string>
-	<string key="ui_capture_the_flag_signup_failgrouppenalty">Ein oder mehrere Gruppenmitglieder unterliegen einer Strafzeit, weil sie das vorherige Fahnenraub-Match verlassen haben.</string>
-	<string key="ui_capture_the_flag_pregame_description">Match beginnt in</string>
-	<string key="ctf_flag_enemy_team_scored">Das Gegnerteam hat Punkte erzielt!</string>
-	<string key="ui_capture_the_flag_signup_goal3">Beschütze den Fahnenträger, damit er oder sie es sicher zu eurer Basis zurückschafft.</string>
-	<string key="ui_capture_the_flag_signup_joinsolo">Spielen</string>
-	<string key="ctf_wild_flag_picked_up">Eine neutrale Fahne wurde aufgenommen.</string>
-	<string key="ctf_flag_dropped">Deine Fahne wurde fallengelassen.</string>
-	<string key="ui_capture_the_flag_leave_queue_title">Warteschlange verlassen</string>
-	<string key="ctf_wild_flag_dropped">Eine neutrale Fahne wurde fallengelassen.</string>
-	<string key="ctf_wild_flag_returned">Eine neutrale Fahne wurde zurückgebracht.</string>
-	<string key="ctf_eom_stat_captures">Eroberungen</string>
-	<string key="ui_capture_the_flag_leave_queue_desc">Möchtest du die Warteschlange für "Fahnenraub" wirklich verlassen?</string>
-	<string key="ui_capture_the_flag_signup_goal2">Dein Team muss an seiner Basis sein, um Punkte zu bekommen.</string>
-	<string key="ctf_flag_status_dropped">Fahne fallengelassen</string>
-	<string key="arena_3v3_04_map_name">Arenavorschau</string>
-	<string key="ui_ctf_leave">Aktivität verlassen</string>
-	<string key="ui_capture_the_flag_invite_notification_text">Du wurdest zu "Fahnenraub" eingeladen!</string>
-	<string key="ctf_overtime_banner_title">Verlängerung</string>
-	<string key="ctf_flag_our_team_scored">Unser Team hat Punkte erzielt!</string>
-	<string key="ctf_flag_player_count">{count} Spieler</string>
-	<string key="ctf_overtime_banner_desc">Die nächste Fahne bringt den Sieg!</string>
-	<string key="ui_cannot_travel_ctf">Schnellreise ist in Fahnenraub nicht möglich.</string>
-	<string key="ctf_flag_away_from_base">Eure Fahne muss zurückgebracht werden, bevor ihr Punkte bekommt.</string>
-	<string key="ctf_blue_team">&lt;font color="#45d1ff"&gt;Blaues Team&lt;/font&gt;</string>
-	<string key="ctf_flag_scored">Dein Team hat Punkte erzielt!</string>
-	<string key="ui_capture_the_flag_invite_notification_title">Einladung zu "Fahnenraub"</string>
-	<string key="ui_ctf_leave_desc_time">Möchtest du das Fahnenraub-Match wirklich verlassen?\nDanach kannst du für &lt;font color="#edc63e"&gt;[{time}]&lt;/font&gt; nicht wieder in eine Fahnenraub-Warteschlange eintreten.</string>
-	<string key="ctf_eom_stat_flagbearers_killed">Getötete Fahnenträger</string>
-	<string key="ctf_002_Wide_Map_Name">Fahnenraub-Vorschau</string>
-	<string key="ui_opr_no_perks_signup_goal3">Nutze die besonderen Rohstoffe zum Angriff und zur Verteidigung.</string>
+	<string key="gamemode_type_and_map_name_undefined" rel_version="Gamemode_CTF" comment="DO NOT TRANSLATE">[PH] Undefined Mode - Undefined Name</string>
+	<string key="ui_capture_the_flag_signup_joinsolo" rel_version="Gamemode_CTF">Spielen</string>
+	<string key="ui_capture_the_flag_title" rel_version="Gamemode_CTF">Fahnenraub</string>
+	<string key="ui_capture_the_flag_pregame_description" rel_version="Gamemode_CTF">Match beginnt in</string>
+	<string key="ui_capture_the_flag_begin" rel_version="Gamemode_CTF">LOS!</string>
+	<string key="ui_capture_the_flag_invite_notification_title" rel_version="Gamemode_CTF">Einladung zu "Fahnenraub"</string>
+	<string key="ui_capture_the_flag_invite_notification_text" rel_version="Gamemode_CTF">Du wurdest zu "Fahnenraub" eingeladen!</string>
+	<string key="ui_capture_the_flag_leave_queue_title" rel_version="Gamemode_CTF">Warteschlange verlassen</string>
+	<string key="ui_capture_the_flag_leave_queue_desc" rel_version="Gamemode_CTF">Möchtest du die Warteschlange für "Fahnenraub" wirklich verlassen?</string>
+	<string key="ui_capture_the_flag_signup_failgrouppenalty" rel_version="Gamemode_CTF">Ein oder mehrere Gruppenmitglieder unterliegen einer Strafzeit, weil sie das vorherige Fahnenraub-Match verlassen haben.</string>
+	<string key="ui_capture_the_flag_signup_goal1" rel_version="Gamemode_CTF">Erobere die meisten Fahnen, um das Match zu gewinnen.</string>
+	<string key="ui_capture_the_flag_signup_goal2" rel_version="Gamemode_CTF">Dein Team muss an seiner Basis sein, um Punkte zu bekommen.</string>
+	<string key="ui_capture_the_flag_signup_goal3" rel_version="Gamemode_CTF">Beschütze den Fahnenträger, damit er oder sie es sicher zu eurer Basis zurückschafft.</string>
+	<string key="ctf_gamemode_name" rel_version="Gamemode_CTF">Fahnenraub</string>
+	<string key="ctf_gamemode_description" rel_version="Gamemode_CTF">"Fahnenraub" ist ein rasanter, teamorientierter Spielmodus, bei dem du sowohl offensive als auch defensive Strategien einsetzen musst. Verteidige deine Basis und raube die gegnerische Fahne, um zu gewinnen.</string>
+	<string key="ctf_Map_Template_Name" rel_version="Gamemode_CTF" comment="DO NOT TRANSLATE">[PH] CTF - Unnamed Test Map</string>
+	<string key="ctf_Map_Temp_Name" rel_version="Gamemode_CTF" comment="DO NOT TRANSLATE">[PH] CTF - Unnamed Test Map</string>
+	<string key="ctf_002_Wide_Map_Name" rel_version="Gamemode_CTF">Verbotene Stadt</string>
+	<string key="ctf_003_Long_Map_Name" rel_version="Gamemode_CTF">Frostiger Pass</string>
+	<string key="ctf_blue_team" rel_version="Gamemode_CTF">&lt;font color="#45d1ff"&gt;Blaues Team&lt;/font&gt;</string>
+	<string key="ctf_red_team" rel_version="Gamemode_CTF">&lt;font color="#f25d5d"&gt;Rotes Team&lt;/font&gt;</string>
+	<string key="ctf_flag_dropped" rel_version="Gamemode_CTF">Deine Fahne wurde fallengelassen.</string>
+	<string key="ctf_flag_picked_up" rel_version="Gamemode_CTF">Deine Fahne wurde aufgenommen.</string>
+	<string key="ctf_flag_returned" rel_version="Gamemode_CTF">Deine Fahne wurde zurückgebracht.</string>
+	<string key="ctf_wild_flag_dropped" rel_version="Gamemode_CTF">Eine neutrale Fahne wurde fallengelassen.</string>
+	<string key="ctf_wild_flag_picked_up" rel_version="Gamemode_CTF">Eine neutrale Fahne wurde aufgenommen.</string>
+	<string key="ctf_wild_flag_returned" rel_version="Gamemode_CTF">Eine neutrale Fahne wurde zurückgebracht.</string>
+	<string key="ctf_flag_scored" rel_version="Gamemode_CTF">Dein Team hat Punkte erzielt!</string>
+	<string key="ctf_flag_you_scored" rel_version="Gamemode_CTF">Du hast Punkte erzielt!</string>
+	<string key="ctf_flag_our_team_scored" rel_version="Gamemode_CTF">Unser Team hat Punkte erzielt!</string>
+	<string key="ctf_flag_enemy_team_scored" rel_version="Gamemode_CTF">Das Gegnerteam hat Punkte erzielt!</string>
+	<string key="ctf_flag_away_from_base" rel_version="Gamemode_CTF">Eure Fahne muss zurückgebracht werden, bevor ihr Punkte bekommt.</string>
+	<string key="ctf_flag_status_safe" rel_version="Gamemode_CTF">Fahne gesichert</string>
+	<string key="ctf_flag_status_dropped" rel_version="Gamemode_CTF">Fahne fallengelassen</string>
+	<string key="ctf_flag_status_taken" rel_version="Gamemode_CTF">Fahne erobert</string>
+	<string key="ctf_flag_wild_timer" rel_version="Gamemode_CTF">Erscheint in {time}</string>
+	<string key="ctf_flag_wild_spawned" rel_version="Gamemode_CTF">Neutrale Fahne erschienen</string>
+	<string key="ctf_flag_match_completed" rel_version="Gamemode_CTF">Match abgeschlossen</string>
+	<string key="ctf_flag_player_count" rel_version="Gamemode_CTF">{count} Spieler</string>
+	<string key="ctf_overtime_banner_title" rel_version="Gamemode_CTF">Verlängerung</string>
+	<string key="ctf_overtime_banner_desc" rel_version="Gamemode_CTF">Die nächste Fahne bringt den Sieg!</string>
+	<string key="ctf_eom_stat_captures" rel_version="Gamemode_CTF">Eroberungen</string>
+	<string key="ctf_eom_stat_captures_team_flags" rel_version="Gamemode_CTF">Teamfahnen</string>
+	<string key="ctf_eom_stat_captures_neutral_flags" rel_version="Gamemode_CTF">Neutrale Fahnen</string>
+	<string key="ctf_eom_stat_flag_returns" rel_version="Gamemode_CTF">Zurückgebrachte Fahnen</string>
+	<string key="ctf_eom_stat_flagbearers_killed" rel_version="Gamemode_CTF">Getötete Fahnenträger</string>
+	<string key="ui_ctf_leave" rel_version="Gamemode_CTF">Aktivität verlassen</string>
+	<string key="ui_cannot_travel_ctf" rel_version="Gamemode_CTF">Schnellreise ist in Fahnenraub nicht möglich.</string>
+	<string key="ui_ctf_leave_desc" rel_version="Gamemode_CTF">Möchtest du das Fahnenraub-Match wirklich verlassen?</string>
+	<string key="ui_ctf_leave_desc_time" rel_version="Gamemode_CTF">Möchtest du das Fahnenraub-Match wirklich verlassen?\nDanach kannst du für &lt;font color="#edc63e"&gt;[{time}]&lt;/font&gt; nicht wieder in eine Fahnenraub-Warteschlange eintreten.</string>
+	<string key="ui_opr_no_perks_title" rel_version="Feature_DisabledPerkGameModes">Außenpostensturm: Knochentrocken</string>
+	<string key="ui_opr_no_perks_signup_desc_cross_world" rel_version="Feature_DisabledPerkGameModes">Keine Top-Ausrüstung erforderlich! In der neuen Auslegung des Außenpostensturms sind alle Ausrüstungseffekte deaktiviert und die Ausrüstung wird auf den max. Rüstwert angehoben, um eine faire, gleichberechtigte Spielumgebung zu schaffen.\n\n Die &lt;font color="#edc63e"&gt;Rüstwertskalierung&lt;/font&gt; erhöht den Rüstwert aller Ausrüstung mit einem Wert von unter 725 auf 725.</string>
+	<string key="ui_opr_no_perks_signup_goal1" rel_version="Feature_DisabledPerkGameModes">Erobere und halte Außenposten, um Punkte zu erhalten.</string>
+	<string key="ui_opr_no_perks_signup_goal2" rel_version="Feature_DisabledPerkGameModes">Es gewinnt das Team, das zuerst 1.000 Punkte erreicht.</string>
+	<string key="ui_opr_no_perks_signup_goal3" rel_version="Feature_DisabledPerkGameModes">Nutze die besonderen Rohstoffe zum Angriff und zur Verteidigung.</string>
+	<string key="ui_ctf_signup_goal1" rel_version="Gamemode_CTF" comment="DO NOT TRANSLATE">TEMP CTF TIP 1</string>
+	<string key="ui_ctf_signup_goal2" rel_version="Gamemode_CTF" comment="DO NOT TRANSLATE">TEMP CTF TIP 2</string>
+	<string key="ui_ctf_signup_goal3" rel_version="Gamemode_CTF" comment="DO NOT TRANSLATE">TEMP CTF TIP 3</string>
+	<string key="ui_session_ending_label">Sitzungsende:</string>
 </resources>
 

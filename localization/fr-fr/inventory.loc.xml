@@ -85,6 +85,7 @@
 	<string key="inv_equipLoadSlowNotification">Poids d'équipement lourd</string>
 	<string key="inv_equipLoadOverburdenedNotification">Suréquipé - Impossible d'esquiver ou de courir</string>
 	<string key="inv_equipLoadEncumberedNotification">Encombrement : course, esquive et saut impossibles</string>
+	<string key="inv_equipLoadOverEncumberedNotification">Surcharge : attaque, course, esquive et saut impossibles</string>
 	<string key="inv_encumbranceTooltip">Le poids de l'inventaire influe sur votre déplacement et vos actions. Améliorez vos sacs pour augmenter sa limite de poids. Si la limite est dépassée, vous serez encombré(e). Si celle-ci est largement dépassée, vous serez en surcharge.</string>
 	<string key="inv_encumbranceUnencumberedTooltip">Vous pouvez effectuer librement toutes les actions puisque le poids de votre inventaire est inférieur à la limite.</string>
 	<string key="inv_encumbranceEncumberedTooltip">• Encombrement : Course, esquive et saut impossibles.\n• Surcharge : attaque, course, esquive et saut impossibles</string>
@@ -261,6 +262,5 @@
 	<string key="perktooltips_stacks_over_limit">(max dépassé)</string>
 	<string key="perktooltips_stacks_over_limit_disabled">(désactivé)</string>
 	<string key="perktooltips_max_stacks">Cumuls d'atouts max : </string>
-	<string key="inv_equipLoadOverEncumberedNotification">Surcharge : attaque, course, esquive et saut impossibles</string>
 </resources>
 

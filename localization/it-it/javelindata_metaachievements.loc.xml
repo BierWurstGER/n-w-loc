@@ -1038,7 +1038,7 @@
 	<string key="ui_metaachievement_all_territories_leaderboard_top1_trial_devourer_title" rel_version="Trial_Brimstone_Sandworm">Vincente del Divoratore</string>
 	<string key="ui_metaachievement_all_territories_leaderboard_top10_trial_devourer_title" rel_version="Trial_Brimstone_Sandworm">Medaglia del Divoratore</string>
 	<string key="ui_metaachievement_edengrove_leaderboard_top1_company_score_title">Vincitore di Frutteto dell'Eden</string>
-	<string key="ui_metaachievement_edengrove_leaderboard_top10_company_score_title">Vincitore di Frutteto dell'Eden</string>
+	<string key="ui_metaachievement_edengrove_leaderboard_top10_company_score_title">Medaglia di Frutteto dell'Eden</string>
 	<string key="ui_metachievement_pvefactionmissions_arcana_title1">Approvvigionatore arcano</string>
 	<string key="ui_metachievement_pvefactionmissions_arcana_title1_SHE">Approvvigionatrice arcana</string>
 	<string key="ui_metachievement_pvefactionmissions_arcana_title1_THEY">Approvvigionatore arcano</string>
@@ -3385,7 +3385,7 @@
 	<string key="ui_metachievement_quest_windsward_resolve_desc">Hai contribuito a creare un nuovo ordine di Mercenari della Rosa di ferro</string>
 	<string key="ui_metachievement_quest_windsward_mercy_desc">Convinci Medea a dare una seconda possibilità a Sopravvento.</string>
 	<string key="ui_metachievement_questarc_fishingtraining_desc">Completa l'arco delle missioni di pesca che inizia con &lt;font face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt;Verso acque inesplorate&lt;/font&gt;.</string>
-	<string key="ui_metachievement_questtotals_generic_desc">Completa {number} missioni</string>
+	<string key="ui_metachievement_questtotals_generic_desc">Completa {number} missioni.</string>
 	<string key="ui_metaachievement_leaderboard_dynasty_shipyard_top1_score_desc" rel_version="Feature_Leaderboards">Titolo ottenuto piazzandosi tra i primi 5 nella classifica settimanale del punteggio del Cantiere navale della dinastia al livello di massima difficoltà.</string>
 	<string key="ui_metaachievement_leaderboard_dynasty_shipyard_top10_score_desc" rel_version="Feature_Leaderboards">Titolo ottenuto piazzandosi tra i primi 25 nella classifica settimanale del punteggio del Cantiere navale della dinastia al livello di massima difficoltà.</string>
 	<string key="ui_metaachievement_leaderboard_garden_of_genesis_top1_score_desc" rel_version="Feature_Leaderboards">Titolo ottenuto piazzandosi tra i primi 5 nella classifica settimanale del punteggio del Giardino della Genesi al livello di massima difficoltà.</string>
@@ -3762,14 +3762,17 @@
 	<string key="ui_meta_achievements_claim_reward_desc_one">Apri gli obiettivi per riscuotere 1 ricompensa!</string>
 	<string key="ui_meta_achievements_claim_reward_desc_mult">Apri gli obiettivi per riscuotere {number} ricompense!</string>
 	<string key="ui_meta_achievements_rewards_available">Ricompense disponibili</string>
-	<string key="ui_meta_achievements_rewards_available_desc_mult">Puoi riscuotere {number} ricompense obiettivo!</string>
-	<string key="ui_meta_achievements_rewards_available_desc_one">Puoi riscuotere 1 ricompensa obiettivo!</string>
+	<string key="ui_meta_achievements_rewards_available_desc_mult">Hai &lt;font color={color}&gt;{number} ricompense&lt;/font&gt; da riscuotere!</string>
+	<string key="ui_meta_achievements_rewards_available_desc_one">Hai &lt;font color={color}&gt;1 ricompensa&lt;/font&gt; da riscuotere!</string>
 	<string key="ui_meta_achievements_claim_all">Riscuoti tutto</string>
 	<string key="ui_meta_achievements_rewards_claimed">Ricompense riscosse</string>
 	<string key="ui_meta_achievements_rewards_claimed_desc_mult">Hai riscosso {number} ricompense obiettivo</string>
 	<string key="ui_meta_achievements_rewards_claimed_desc_one">Hai riscosso 1 ricompensa obiettivo</string>
+	<string key="ui_meta_achievements_reward_title">Ricompense obiettivo</string>
 	<string key="ui_meta_achievements_reward_type_title">Titolo</string>
 	<string key="ui_meta_achievements_reward_type_title_plural">Titoli</string>
+	<string key="ui_meta_achievements_reward_type_title_reward">Titolo ricompensa</string>
+	<string key="ui_meta_achievements_reward_tooltip">&lt;font color={titleColor} face="lyshineui/fonts/Nimbus_semibold.font"&gt;{rewardTitle}&lt;/font&gt;\n{rewardDescription}\n\n{rewardText}</string>
 	<string key="ui_meta_achievements_coming_soon">: PROSSIMAMENTE</string>
 	<string key="ui_meta_achievements_roman_numeral_i">I</string>
 	<string key="ui_meta_achievements_roman_numeral_ii">II</string>
@@ -3913,9 +3916,11 @@
 	<string key="ui_metachievement_leaderboard_daysgoverned_description" rel_version="Feature_Seasonal_Servers">Ottenuto per il piazzamento nella classifica dei giorni al governo nel mondo stagionale della stagione 7.</string>
 	<string key="ui_metachievement_leaderboard_streakgoverned_title" rel_version="Feature_Seasonal_Servers">Conquista eterna</string>
 	<string key="ui_metachievement_leaderboard_streakgoverned_description" rel_version="Feature_Seasonal_Servers">Ottenuto per il piazzamento nella classifica delle serie al governo nel mondo stagionale della stagione 7.</string>
-	<string key="ui_metaachievement_all_territories_leaderboard_top10_trial_hercyneraid_desc">Titolo ottenuto piazzandosi tra i primi 50 nella classifica dell'incursione nell'alveare delle gorgoni.</string>
-	<string key="ui_metaachievement_all_territories_leaderboard_top10_trial_hercyneraid_title">Medaglia dell'alveare delle gorgoni</string>
-	<string key="ui_metaachievement_all_territories_leaderboard_top1_trial_hercyneraid_desc">Titolo ottenuto piazzandosi tra i primi 10 nella classifica dell'incursione nell'alveare delle gorgoni.</string>
-	<string key="ui_metaachievement_all_territories_leaderboard_top1_trial_hercyneraid_title">Vittoria nell'alveare delle gorgoni</string>
+	<string key="ui_metaachievement_all_territories_leaderboard_top1_trial_hercyneraid_title" rel_version="Season_8_Perm">Vittoria nell'alveare delle gorgoni</string>
+	<string key="ui_metaachievement_all_territories_leaderboard_top10_trial_hercyneraid_title" rel_version="Season_8_Perm">Medaglia dell'alveare delle gorgoni</string>
+	<string key="ui_metaachievement_all_territories_leaderboard_top1_trial_hercyneraid_desc" rel_version="Season_8_Perm">Titolo ottenuto piazzandosi tra i primi 10 nella classifica dell'incursione nell'alveare delle gorgoni.</string>
+	<string key="ui_metaachievement_all_territories_leaderboard_top10_trial_hercyneraid_desc" rel_version="Season_8_Perm">Titolo ottenuto piazzandosi tra i primi 50 nella classifica dell'incursione nell'alveare delle gorgoni.</string>
+	<string key="ui_metaachievement_all_territories_leaderboard_top10_trial_hercynetime_desc">Titolo ottenuto piazzandosi tra i primi 50 nella classifica del tempo di completamento dell'alveare delle gorgoni.</string>
+	<string key="ui_metaachievement_all_territories_leaderboard_top1_trial_hercynetime_desc">Titolo ottenuto piazzandosi tra i primi 10 nella classifica del tempo di completamento dell'alveare delle gorgoni.</string>
 </resources>
 

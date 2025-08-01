@@ -159,6 +159,9 @@
 	<string key="ui_leaderboard_display_elitetrials_sandworm1" rel_version="Trial_Brimstone_Sandworm">Die Prüfung des Verzehrers – Abschlusszeit</string>
 	<string key="ui_leaderboard_display_elitetrials_sandworm2" rel_version="Trial_Brimstone_Sandworm">Die Prüfung des Verzehrers</string>
 	<string key="ui_leaderboard_tip_outpostrush_score" rel_version="Feature_Leaderboards">&lt;img src="lyshineui/images/icons/crossworld/icon_crossworld_identifier_tan" scale="2.0" xPadding="2" yOffset="5"&gt;&lt;/img&gt; &lt;font color="#ebe3d6"&gt;&lt;font face="lyshineui/fonts/Nimbus_Regular.font"&gt;Regionale Bestenliste&lt;/font&gt;&lt;/font&gt;\n\nDas ist dein bisheriger Außenpostensturm-Bestwert in einem Match.</string>
+	<string key="ui_leaderboard_category_raids" rel_version="Season_8_Perm">Raubzüge</string>
+	<string key="ui_leaderboard_display_raids_cutlassKeys1" rel_version="Season_8_Perm">Hort der Gorgonen – Abschlusszeit</string>
+	<string key="ui_leaderboard_display_raids_cutlassKeys2" rel_version="Season_8_Perm">Gorgonennest</string>
 	<string key="ui_leaderboard_display_regional">Region</string>
 	<string key="ui_leaderboard_display_world_archived">Welt (archiviert)</string>
 	<string key="ui_leaderboard_tip_regional_only">&lt;img src="lyshineui/images/icons/crossworld/icon_crossworld_identifier_tan" scale="2.0" xPadding="2" yOffset="5"&gt;&lt;/img&gt; Regionale Bestenlisten\n\nSieh dir die Statistiken an und miss dich mit anderen Spielern aus deiner Region.\n\nKonsolen-Welten teilen sich regionale Bestenlisten nur mit anderen Konsolen-Welten.</string>
@@ -173,8 +176,28 @@
 	<string key="ui_leaderboard_column_assists" rel_version="Season_7_Perm">Assists</string>
 	<string key="ui_leaderboard_display_kda" rel_version="Season_7_Perm">Tötungs-/Todes-/Assist-Quote</string>
 	<string key="ui_leaderboard_tip_kda" rel_version="Season_7_Perm">Die Tötungs-/Todes-/Assist-Quote wird berechnet, indem Tötungen und Assists addiert und dann durch Tode geteilt werden.</string>
-	<string key="ui_leaderboard_category_raids">Raubzüge</string>
-	<string key="ui_leaderboard_display_raids_cutlassKeys2">Gorgonennest</string>
-	<string key="ui_leaderboard_display_raids_cutlassKeys1">Hort der Gorgonen – Abschlusszeit</string>
+	<string key="ui_leaderboard_display_capture_the_flag_kill_death_assist">K/D/A-Verhältnis</string>
+	<string key="ui_leaderboard_display_capture_the_flag_best_kills">Belagerungstötungen</string>
+	<string key="ui_leaderboard_display_capture_the_flag_points">Gebietsanspruchspunkt</string>
+	<string key="ui_leaderboard_tip_flag_returns">Wie oft du eine gestohlene Fahne zu deiner Basis zurückgebracht hast.</string>
+	<string key="ui_leaderboard_display_capture_the_flag_damage_dealt">Ausgeteilter Schaden</string>
+	<string key="ui_leaderboard_column_returns">Rückkehren</string>
+	<string key="ui_leaderboard_column_best_kills">Belagerungstötungen</string>
+	<string key="ui_leaderboard_display_capture_the_flag_kills">Tötungen</string>
+	<string key="ui_leaderboard_column_kill_death_ratio">K/D-Verhältnis</string>
+	<string key="ui_leaderboard_category_capture_the_flag">Fahnenraub</string>
+	<string key="ui_leaderboard_display_capture_the_flag_returns">Rückkehren</string>
+	<string key="ui_leaderboard_second_level_category_test">ZweiteStufenKategorie</string>
+	<string key="ui_leaderboard_display_capture_the_flag_kill_death">K/D-Verhältnis</string>
+	<string key="ui_leaderboard_display_capture_the_flag_heals">Heilungen</string>
+	<string key="ui_leaderboard_display_capture_the_flag_assists">Assists</string>
+	<string key="ui_leaderboard_display_capture_the_flag_score">Punkte</string>
+	<string key="ui_leaderboard_column_points">Gebietsanspruchspunkt</string>
+	<string key="ui_leaderboard_tip_kd">Das K/D-Verhältnis wird berechnet, indem die Anzahl der Tötungen durch die Anzahl der Tode geteilt wird.</string>
+	<string key="ui_leaderboard_column_kill_death_assist_ratio">K/D/A-Verhältnis</string>
+	<string key="ui_leaderboard_category_desc">Kategoriebeschreibung</string>
+	<string key="ui_leaderboard_column_total_kills">Tötungen insgesamt</string>
+	<string key="ui_leaderboard_display_capture_the_flag_wins">Siege</string>
+	<string key="ui_leaderboard_tip_flag_points">Wie viele Punkte du durch das Stehlen der gegnerischen Fahne erzielt hast.</string>
 </resources>
 

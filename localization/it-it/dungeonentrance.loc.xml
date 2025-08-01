@@ -38,11 +38,11 @@
 	<string key="ui_dungeon_requirements_recommended">Consigliato:</string>
 	<string key="ui_dungeon_requirements_matchmaking_staff" rel_version="Feature_Group_Finder">Bastone di Azoth</string>
 	<string key="ui_flyout_recommended_groupsize">Giocatori consigliati: {players}</string>
-	<string key="ui_dungeon_requirements_equipment_warning">Il tuo gruppo deve avere almeno: &lt;font color="#ebe3d6"&gt;{item}&lt;/font&gt;.</string>
-	<string key="ui_dungeon_requirements_equipment_warning_solo">Devi avere almeno: &lt;font color="#ebe3d6"&gt;{item}&lt;/font&gt;.</string>
-	<string key="ui_dungeon_requirements_equipment_warning_dailysolotrial" rel_version="DailySoloTrials">Devi avere almeno: &lt;font color="#ebe3d6"&gt;{item}&lt;/font&gt;.</string>
-	<string key="ui_dungeon_requirements_equipment_warning_raidtrial">Devi avere almeno: &lt;font color="#ebe3d6"&gt;{item}&lt;/font&gt;.</string>
-	<string key="ui_dungeon_requirements_equipment_warning_seasontrial" rel_version="Season_2_Perm">Devi avere almeno: &lt;font color="#ebe3d6"&gt;{item}&lt;/font&gt;.</string>
+	<string key="ui_dungeon_requirements_equipment_warning">Richiede: {item}</string>
+	<string key="ui_dungeon_requirements_equipment_warning_solo">Richiede: {item}</string>
+	<string key="ui_dungeon_requirements_equipment_warning_dailysolotrial" rel_version="DailySoloTrials">Richiede: {item}</string>
+	<string key="ui_dungeon_requirements_equipment_warning_raidtrial">Richiede: {item}</string>
+	<string key="ui_dungeon_requirements_equipment_warning_seasontrial" rel_version="Season_2_Perm">Richiede: {item}</string>
 	<string key="ui_dungeon_reward_level">La qualità complessiva del bottino aumenta con l'aumentare del livello di difficoltà.\n\nGli oggetti che trovi possono variare rispetto a quelli elencati in base al punteggio attrezzatura.</string>
 	<string key="ui_dungeon_reward_title_regular">Ricompense della Spedizione</string>
 	<string key="ui_dungeon_reward_title_mutation">Premio del mutatore</string>
@@ -179,6 +179,11 @@
 	<string key="ui_dungeon_queued_blocked_raidtrial">Entra</string>
 	<string key="ui_dungeon_queued_blocked_seasontrial" rel_version="Season_2_Perm">Entra</string>
 	<string key="ui_dungeon_outpost_rush">Sei già in una coda per la Carica all'avamposto.</string>
+	<string key="ui_dungeon_level_not_met">Non soddisfi i requisiti di livello per questa spedizione.</string>
+	<string key="ui_dungeon_level_not_met_solo">Non soddisfi i requisiti di livello per questa Prova dell'anima.</string>
+	<string key="ui_dungeon_level_not_met_raidtrial">Non soddisfi i requisiti di livello per questa Prova élite.</string>
+	<string key="ui_dungeon_level_not_met_seasontrial" rel_version="Season_2_Perm">Non soddisfi i requisiti di livello per questa Prova stagionale.</string>
+	<string key="ui_dungeon_level_not_met_dailysolotrial" rel_version="DailySoloTrials">Non soddisfi i requisiti di livello per questa Prova dell'anima giornaliera.</string>
 	<string key="ui_dungeon_expiring">Esci tra</string>
 	<string key="ui_dungeon_expiring_solo">Esci tra</string>
 	<string key="ui_dungeon_expiring_raidtrial">Esci tra</string>
@@ -347,8 +352,8 @@
 	<string key="Mut_Ice_Curse1_Major_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt3">Seleziona periodicamente un giocatore. Quel giocatore emette un'aura che infligge danni da ghiaccio ai giocatori vicini e aumenta di molto il suo assorbimento del ghiaccio. (Questo effetto non può essere purificato dalle abilità del giocatore).</string>
 	<string key="Mut_Nat_Curse1_Major_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt3">Seleziona periodicamente un giocatore. Quel giocatore emette un'aura che infligge danni da natura ai giocatori vicini e aumenta di molto il suo assorbimento della natura. (Questo effetto non può essere purificato dalle abilità del giocatore).</string>
 	<string key="Mut_Voi_Curse1_Major_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt3">Seleziona periodicamente un giocatore. Quel giocatore emette un'aura che infligge danni da Vuoto ai giocatori vicini e aumenta di molto il suo assorbimento del Vuoto. (Questo effetto non può essere purificato dalle abilità del giocatore).</string>
-	<string key="Mut_Curse2_Minor_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">Applica periodicamente Stanchezza ai giocatori in combattimento, rallentandone i movimenti di un {[-0.300000 * -100]}% e aumentando tutti i danni che subiscono di un {[0.200000 * 100]}%. Utilizzare abilità ritarda l'effetto. (Questo effetto non può essere purificato dalle abilità del giocatore).</string>
-	<string key="Mut_Curse2_Minor_SlowRend_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">Vieni rallentato di un {[-0.300000 * -100]}% e subisci un {[0.200000 * 100]}% di danni aggiuntivi da tutte le fonti.</string>
+	<string key="Mut_Curse2_Minor_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">Applica periodicamente Stanchezza ai giocatori in combattimento, rallentandone i movimenti di un {[-0.3 * -100]}% e aumentando tutti i danni che subiscono di un {[0.200000 * 100]}%. Utilizzare abilità ritarda l'effetto. (Questo effetto non può essere purificato dalle abilità del giocatore).</string>
+	<string key="Mut_Curse2_Minor_SlowRend_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">Vieni rallentato di un {[-0.3 * -100]}% e subisci un {[0.200000 * 100]}% di danni aggiuntivi da tutte le fonti.</string>
 	<string key="Mut_Curse2_Fir_Major_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">Ogni volta che usi un'abilità, viene applicato un accumulo di Offerta che infligge al giocatore danni da fuoco nel tempo pari a un {[-0.045000 * -100]}% della salute massima, accumulandosi {[3.000000]} volte. Tutti i danni del giocatore comportano un furto di vita pari a un {[0.250000 * 100]}% finché affetto da Offerta. (Questo effetto non può essere purificato dalle abilità del giocatore).</string>
 	<string key="Mut_Curse2_Ice_Major_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt3">Ogni volta che usi un'abilità, viene applicato un accumulo di Offerta che infligge al giocatore danni da ghiaccio nel tempo pari a un {[-0.045000 * -100]}% della salute massima, accumulandosi {[3.000000]} volte. Tutti i danni del giocatore comportano un furto di vita pari a un {[0.250000 * 100]}% finché affetto da Offerta. (Questo effetto non può essere purificato dalle abilità del giocatore).</string>
 	<string key="Mut_Curse2_Nat_Major_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">Ogni volta che usi un'abilità, viene applicato un accumulo di Offerta che infligge al giocatore danni da natura nel tempo pari a un {[-0.045000 * -100]}% della salute massima, accumulandosi {[3.000000]} volte. Tutti i danni del giocatore comportano un furto di vita pari a un {[0.250000 * 100]}% finché affetto da Offerta. (Questo effetto non può essere purificato dalle abilità del giocatore).</string>
@@ -478,7 +483,8 @@
 	<string key="ui_elitetrial_map_weekly_count" rel_version="Season_2_Perm">{count} / {max} ricompense settimanali raccolte</string>
 	<string key="ui_elitetrial_banner_daily_count" rel_version="Season_2_Perm">{count}/{max} al giorno</string>
 	<string key="ui_elitetrial_banner_weekly_count" rel_version="Season_2_Perm">{count}/{max} a settimana</string>
+	<string key="ui_dungeon_enter_daily_limit_reached">Limite giornaliero raggiunto: &lt;img src="lyshineui/images/icons/misc/icon_hourglass" scale="1.1" yOffset="1.0"&gt;&lt;/img&gt; &lt;font color={timeColor} face="lyshineui/fonts/Nimbus_Regular.font"&gt;{timeText}&lt;/font&gt;</string>
+	<string key="ui_dungeon_enter_weekly_limit_reached">Limite settimanale raggiunto: &lt;img src="lyshineui/images/icons/misc/icon_hourglass" scale="1.1" yOffset="1.0"&gt;&lt;/img&gt; &lt;font color={timeColor} face="lyshineui/fonts/Nimbus_Regular.font"&gt;{timeText}&lt;/font&gt;</string>
 	<string key="Respawn_EntranceNameTrial" rel_version="Trial_Brimstone_Sandworm">Ingresso Prova</string>
-	<string key="ui_dungeon_level_not_met_solo">Non soddisfi i requisiti di livello per questa Prova dell'anima.</string>
 </resources>
 

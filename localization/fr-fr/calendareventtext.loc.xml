@@ -1,6 +1,6 @@
 <resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<string key="ui_news_button">Actualités et événements</string>
-	<string key="ui_news_button_no_news">Aucune nouvelle actualité disponible.</string>
+	<string key="ui_news_button_no_news">Aucune nouvelle annonce disponible.</string>
 	<string key="ui_news_modal_display_start_date">Commence le {startDate}</string>
 	<string key="ui_news_modal_display_end_date">Se termine le {endDate}</string>
 	<string key="ui_news_modal_display_start_datetime">Commence à {startTime} le {startDate}</string>
@@ -10,6 +10,12 @@
 	<string key="ui_event_rules">Temps forts de l'événement</string>
 	<string key="ui_event_progress_name">Réputation de l'événement</string>
 	<string key="ui_event_summer_progress_name" rel_version="Event_Summer_Perm">Réputation de l'événement</string>
+	<string key="ui_event_summer_rank_0" rel_version="Event_Summer_Temp">Minstrel</string>
+	<string key="ui_event_summer_rank_1" rel_version="Event_Summer_Temp">Troubadour</string>
+	<string key="ui_event_summer_rank_2" rel_version="Event_Summer_Temp">Bard</string>
+	<string key="ui_event_summer_rank_3" rel_version="Event_Summer_Temp">Virtuoso</string>
+	<string key="ui_event_summer_rank_4" rel_version="Event_Summer_Temp">Maestro</string>
+	<string key="ui_event_summer_shop_header" rel_version="Event_Summer_Temp">Summer Medleyfaire Shop</string>
 	<string key="ui_event_halloween_progress_name" rel_version="Event_Halloween_Perm">Réputation de l'événement</string>
 	<string key="ui_event_spring_progress_name" rel_version="Event_SpringtideBloom_Perm">Réputation de l'événement</string>
 	<string key="ui_news_store_tabname">Boutique</string>
@@ -83,9 +89,6 @@
 	<string key="ui_event_console_beta_preorder_news_bullet_azoth_stalker">Traqueur d'Azoth</string>
 	<string key="ui_event_console_beta_preorder_news_bullet_mount_skins_deluxe">Apparences de monture\n(Deluxe)</string>
 	<string key="ui_event_console_beta_preorder_news_bullet_armor_skins_deluxe">Apparences d'armure\n(Deluxe)</string>
-	<string key="ui_event_season_seven_title" rel_version="Season_7_Perm">Saison des conquérants</string>
-	<string key="ui_event_season_seven_description" rel_version="Season_7_Perm">Prenez un nouveau départ et luttez pour la domination dans un serveur saisonnier unique encourageant les combats joueur contre joueur. Gagnez une profusion de nouveaux artéfacts, apparences et bien d'autres choses dans la chaîne de récompenses de la Saison des conquérants.</string>
-	<string key="ui_event_season_seven_about" comment="DO NOT TRANSLATE" rel_version="Season_7_Perm">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; About Season 7 Placeholder</string>
 	<string key="ui_news_rise_of_the_angry_earth_expansion_title">Découvrez tout ce qu’Aeternum peut offrir</string>
 	<string key="ui_news_rise_of_the_angry_earth_expansion_description">Vivez l’expérience complète de New World: Aeternum.\n\nLes joueurs PC qui ont l’extension Le réveil de la Terre enragée ont accès à toutes les fonctionnalités de New World: Aeternum, cela inclut des ajouts majeurs comme :</string>
 	<string key="ui_news_rise_of_the_angry_earth_expansion_about">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt;À propos du Réveil de la Terre enragée</string>
@@ -94,7 +97,7 @@
 	<string key="ui_news_rise_of_the_angry_earth_expansion_icon3">Raid à 10 joueurs</string>
 	<string key="ui_news_rise_of_the_angry_earth_expansion_purchase_button">Acheter</string>
 	<string key="ui_event_siege_of_sulfur_title_2025">Siège de soufre</string>
-	<string key="ui_event_siege_of_sulfur_description_2025">Les mages du Sang des sables de Sharif sont attaqués ! Alors qu’ils transportaient de précieux œufs de ver des sables pour sécuriser les lieux autour d’Aeternum, ces mages ont été attaqués par les forces d’Adiana. Les élémentaires de soufre enragés tentent de détruire les œufs et d’éradiquer les vers d’Aeternum. Défendez les œufs et gagnez de précieuses récompenses, incluant de l’équipement puissant ainsi que d'ardents objets domestiques et cosmétiques.</string>
+	<string key="ui_event_siege_of_sulfur_description_2025">Les mages du Sang des sables de Sharif sont attaqués ! Alors qu’ils transportaient de précieux œufs de ver de sable pour sécuriser les lieux autour d’Aeternum, ces mages ont été attaqués par les forces d’Adiana. Les élémentaires de soufre enragés tentent de détruire les œufs et d’éradiquer les vers d’Aeternum. Défendez les œufs et gagnez de précieuses récompenses, incluant de l’équipement puissant ainsi que d'ardents objets domestiques et cosmétiques.</string>
 	<string key="ui_event_legacy_of_crassus_title_2025">Héritage de Crassus</string>
 	<string key="ui_event_legacy_of_crassus_description_2025">Crassus et sa légion monstrueuse sont de retour ! Ralliez vos forces et combattez les brutaux capitaines Decimus et Lucanus à Boisclair, au Val des Larmes, au marais des Trames et au bief de Nerécaille. Repoussez l'assaut romain et triomphez de l'altération pour l'honneur, la gloire et des récompenses limitées dans le temps !</string>
 	<string key="ui_event_rabbits_revenge_title_2025">La Vengeance du lapin !</string>
@@ -108,40 +111,5 @@
 	<string key="ui_event_thick_as_thieves_title" rel_version="Entitlements_ThickThieves">Voleurs et compagnie</string>
 	<string key="ui_event_thick_as_thieves_description" rel_version="Entitlements_ThickThieves">Seuls ceux qui ne doutent de rien se glissent dans les ombres, seuls les plus talentueux en ressortent indemnes. Revêtez les vêtements forgés pour ceux qui ont l'âme de voleurs. Le nouveau contenu sur le thème des voleurs est disponible !</string>
 	<string key="ui_event_thick_as_thieves_about" rel_version="Entitlements_ThickThieves">À propos de Voleurs et compagnie</string>
-	<string key="ui_event_legacy_of_crassus_title">Héritage de Crassus</string>
-	<string key="ui_event_legacy_of_crassus_description">Crassus et sa légion monstrueuse sont de retour ! Ralliez vos forces et combattez les brutaux capitaines Decimus et Lucanus à Boisclair, au Val des Larmes, au marais des Trames et au bief de Nerécaille. Repoussez l'assaut romain et triomphez de l'altération pour l'honneur, la gloire et des récompenses limitées dans le temps !</string>
-	<string key="ui_event_legacy_of_crassus_bullet1">Pioche de la Légion</string>
-	<string key="ui_event_legacy_of_crassus_bullet2">Statue de Decimus</string>
-	<string key="ui_event_legacy_of_crassus_bullet3">Statue de Lucanus</string>
-	<string key="ui_event_legacy_of_crassus_about">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; À propos de l'Héritage de Crassus</string>
-	<string key="ui_event_rabbits_revenge_title">La Vengeance du lapin !</string>
-	<string key="ui_event_rabbits_revenge_description">Les lapins altérés ont envahi Aeternum ! Éradiquez l'altération et obtenez des récompenses féroces.</string>
-	<string key="ui_event_rabbits_revenge_about">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; À propos de la Vengeance du lapin</string>
-	<string key="ui_event_summer_medleyfaire_title">Venez vous amuser aux Mélégies !</string>
-	<string key="ui_event_summer_medleyfaire_description">Le festival de l'été d'Aeternum est de retour ! Déverrouillez un nouveau morceau en accomplissant des activités dans le cadre de l'événement, puis interprétez-le afin d'obtenir des jetons des Mélégies et un nouveau titre. Faites la fête sur les sites du festival aux Falaises du Roy, à Haute-Chute, à Boisclair et au marais des Trames.</string>
-	<string key="ui_event_summer_medleyfaire_bullet1">Chapeau de maestro</string>
-	<string key="ui_event_summer_medleyfaire_about">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; À propos des Mélégies estivales</string>
-	<string key="ui_event_fury_of_the_spriggan_title">La fureur du spriggan</string>
-	<string key="ui_event_fury_of_the_spriggan_description">Avec le réveil de l'Ennéade, la Terre enragée se soulève partout en Aeternum ! Mettez un terme à ses rituels visant à réveiller les furieux spriggans. Obtenez des récompenses quotidiennes uniques pour vos efforts visant à stopper ces rituels à Boisclair, au marais des Trames, au Val des Larmes et au bief de Nerécaille.</string>
-	<string key="ui_event_fury_of_the_spriggan_bullet1">Pièces d'armure quotidiennes</string>
-	<string key="ui_event_fury_of_the_spriggan_bullet2">Armes quotidiennes</string>
-	<string key="ui_event_fury_of_the_spriggan_about">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; À propos de la fureur du spriggan</string>
-	<string key="ui_event_siege_of_sulfur_title">Siège de soufre</string>
-	<string key="ui_event_siege_of_sulfur_description">Les mages du Sang des sables de Sharif sont attaqués ! Alors qu’ils transportaient de précieux œufs de ver des sables pour sécuriser les lieux autour d’Aeternum, ces mages ont été attaqués par les forces d’Adiana. Les élémentaires de soufre enragés tentent de détruire les œufs et d’éradiquer les vers d’Aeternum. Défendez les œufs et gagnez de précieuses récompenses, incluant de l’équipement puissant, l’objet domestique Œuf de ver des sables et le chapeau de ver des sables Mini-Dévoreur.</string>
-	<string key="ui_event_siege_of_sulfur_bullet1">Chapeau de ver des sables</string>
-	<string key="ui_event_siege_of_sulfur_bullet2">Œuf</string>
-	<string key="ui_event_siege_of_sulfur_about">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; À propos de Siège de soufre</string>
-	<string key="ui_event_nightveil_hallow_title">Voile nocturne</string>
-	<string key="ui_event_nightveil_hallow_description">Le Voile nocturne revient alors que Baalphazu, marquis de l'effroi, se lève à nouveau ! Bannissez le démon sombre dans les ténèbres, puis célébrez votre victoire en revêtant des costumes uniques et en obtenant des friandises pour de nouvelles récompenses en bonbons dans les maisons d’Aeternum !</string>
-	<string key="ui_event_nightveil_hallow_about">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; Voile nocturne</string>
-	<string key="ui_event_turkulon_title">Le retour de Turulon !</string>
-	<string key="ui_event_turkulon_description">Le faisan déplaisant a de nouveau éclos sur les îles d’Aeternum ! ! Abattez cette bête immonde pour obtenir de nouvelles récompenses ainsi que des récompenses qui font leur retour cette année, incluant la nouvelle apparence de fléau : Pilon de la mort ! Pulvériser du poulet n’a jamais été aussi parfait.</string>
-	<string key="ui_event_turkulon_about">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; À propos du retour de Turulon  </string>
-	<string key="ui_event_turkulon_bullet1">Apparence de marteau d'armes</string>
-	<string key="ui_event_turkulon_bullet2">Apparence de fléau</string>
-	<string key="ui_event_turkulon_bullet3">Objet domestique de la Dinguedinde</string>
-	<string key="ui_event_winter_convergence_title">La Convergence hivernale</string>
-	<string key="ui_event_winter_convergence_description">Le guerrier de l'hiver et ses sbires gelés descendent une fois de plus en Aeternum, et la menace glacée d'un hiver éternel les accompagne ! Rassemblez vos amis et répandez la chaleur et la joie de la Convergence pour repousser le froid polaire, puis cherchez le jovial nomade de l'hiver dans les villages d'hiver dispersés dans tout Aeternum pour recevoir de nombreuses récompenses limitées dans le temps.</string>
-	<string key="ui_event_winter_convergence_about">&lt;img src="lyshineui/images/icons/misc/icon_question_orange" xPadding="0" scale="1.5" yOffset="3"&gt;&lt;/img&gt; À propos de la Convergence hivernale</string>
 </resources>
 

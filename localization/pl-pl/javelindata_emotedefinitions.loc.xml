@@ -444,8 +444,8 @@
 	<string key="Emote_ArmWaveDance_SHE" rel_version="Emote_BreakdanceArmwave">{playerName} faluje rękami.</string>
 	<string key="Emote_ArmWaveDance_THEY" rel_version="Emote_BreakdanceArmwave">{playerName} faluje rękami.</string>
 	<string key="ui_emote_Walk_Drunk_name" rel_version="Emote_Stumbling_Walk">Chwiejny chód w kierunku domu</string>
-	<string key="ui_emote_Walk_Drunk_description" rel_version="Emote_Stumbling_Walk">Chód w sam raz na powrót z gospody do domu – o ile pamiętasz, gdzie on jest.</string>
-	<string key="Emote_Walk_Drunk" rel_version="Emote_Stumbling_Walk">{playerName} idzie na bani.</string>
+	<string key="ui_emote_Walk_Drunk_description" rel_version="Emote_Stumbling_Walk">Po kilku rundach napadu na posterunek każdy by zaczął szukać najbliższej karczmy.</string>
+	<string key="Emote_Walk_Drunk" rel_version="Emote_Stumbling_Walk">{playerName} chodzi otępiale.</string>
 	<string key="ui_emote_HipTwistDance_name" rel_version="Emote_Dance_HipTwist">Kręcenie biodrami</string>
 	<string key="ui_emote_HipTwistDance_description" rel_version="Emote_Dance_HipTwist">Taneczne szaleństwo opanowało całe Aeternum!</string>
 	<string key="Emote_HipTwistDance" rel_version="Emote_Dance_HipTwist">{playerName} kręci rytmicznie biodrami.</string>
@@ -612,20 +612,26 @@
 	<string key="ui_Emote_Mantrum_description" rel_version="Entitlements_Barbarian">Nie ma rady, czasem trzeba spuścić łomot podłożu.</string>
 	<string key="ui_Emote_Mantrum_name" rel_version="Entitlements_Barbarian">Jednoosobowa bójka</string>
 	<string key="Emote_Mantrum" rel_version="Entitlements_Barbarian">{playerName} wszczyna bójkę z ziemią.</string>
-	<string key="Emote_BarbershopExit" rel_version="Feature_Barbershop">{playerName} checks out their new look.</string>
-	<string key="ui_Emote_TouchGrass_description">Dobrze ci zrobi.</string>
-	<string key="ui_Emote_Walk_NinjaRun_description">Biegnij z cieniami, szybko jak wiatr.</string>
-	<string key="ui_Emote_BrushShoulder_description">To nawet nie była rozgrzewka.</string>
-	<string key="Emote_Walk_MyrkMarch">{playerName} maszeruje w dziwnym rytmie.</string>
-	<string key="ui_Emote_Walk_MyrkMarch_description">Według legend Thorpe uczył tych dziwnych ruchów tylko najlepszych wojowników.</string>
-	<string key="Emote_BrushShoulder_THEY">{playerName} strzepuje pyłek z ramienia.</string>
-	<string key="Emote_BrushShoulder_SHE">{playerName} strzepuje pyłek z ramienia.</string>
-	<string key="ui_Emote_Walk_NinjaRun_name">Bieg ninja</string>
-	<string key="Emote_BrushShoulder">{playerName} strzepuje pyłek z ramienia.</string>
-	<string key="ui_Emote_Walk_MyrkMarch_name">Myrkgardzki marsz</string>
-	<string key="ui_Emote_TouchGrass_name">Dotknięcie trawy</string>
-	<string key="Emote_Walk_NinjaRun">{playerName} biegnie jak ninja!</string>
-	<string key="ui_Emote_BrushShoulder_name">Strzepnięcie pyłku</string>
-	<string key="Emote_TouchGrass">{playerName} dotyka pięknej, bujnej trawy.</string>
+	<string key="Emote_BarbershopExit" rel_version="Feature_Barbershop">{playerName} sprawdza nowy wygląd.</string>
+	<string key="ui_Emote_BrushShoulder_name" rel_version="Season_8_Perm">Strzepnięcie pyłku</string>
+	<string key="ui_Emote_BrushShoulder_description" rel_version="Season_8_Perm">To nawet nie była rozgrzewka.</string>
+	<string key="Emote_BrushShoulder" rel_version="Season_8_Perm">{playerName} strzepuje pyłek z ramienia.</string>
+	<string key="Emote_BrushShoulder_SHE" rel_version="Season_8_Perm">{playerName} strzepuje pyłek z ramienia.</string>
+	<string key="Emote_BrushShoulder_THEY" rel_version="Season_8_Perm">{playerName} strzepuje pyłek z ramienia.</string>
+	<string key="ui_Emote_Walk_MyrkMarch_name" rel_version="Season_8_Perm">Myrkgardzki marsz</string>
+	<string key="ui_Emote_Walk_MyrkMarch_description" rel_version="Season_8_Perm">Według legend Thorpe uczył tych dziwnych ruchów tylko najlepszych wojowników.</string>
+	<string key="Emote_Walk_MyrkMarch" rel_version="Season_8_Perm">{playerName} maszeruje w dziwnym rytmie.</string>
+	<string key="ui_Emote_Walk_NinjaRun_name" rel_version="Season_8_Perm">Bieg ninja</string>
+	<string key="ui_Emote_Walk_NinjaRun_description" rel_version="Season_8_Perm">Biegnij z cieniami, szybko jak wiatr.</string>
+	<string key="Emote_Walk_NinjaRun" rel_version="Season_8_Perm">{playerName} biegnie jak ninja!</string>
+	<string key="ui_Emote_TouchGrass_name" rel_version="Season_8_Perm">Dotknięcie trawy</string>
+	<string key="ui_Emote_TouchGrass_description" rel_version="Season_8_Perm">Dobrze ci zrobi.</string>
+	<string key="Emote_TouchGrass" rel_version="Season_8_Perm">{playerName} dotyka pięknej, bujnej trawy.</string>
+	<string key="ui_Emote_CatPaw_name" rel_version="Season_9_Perm">Kocie łapy</string>
+	<string key="ui_Emote_CatPaw_description" rel_version="Season_9_Perm">Pełnia majestatu wspaniałej kociej formy. Zaraz zwymiotuję kłaczek.</string>
+	<string key="Emote_CatPaw" rel_version="Season_9_Perm">{playerName} bawi się jak kociątko.</string>
+	<string key="ui_Emote_NewspaperBonk_name" rel_version="Season_9_Perm">Pacnięcie gazetą</string>
+	<string key="ui_Emote_NewspaperBonk_description" rel_version="Season_9_Perm">Kiedy twoja drużyna zaczyna planować głupie akcje w napadzie na posterunek.</string>
+	<string key="Emote_NewspaperBonk" rel_version="Season_9_Perm">{playerName} wbija komuś rozum do głowy.</string>
 </resources>
 

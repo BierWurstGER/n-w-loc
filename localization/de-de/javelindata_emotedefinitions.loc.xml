@@ -444,8 +444,8 @@
 	<string key="Emote_ArmWaveDance_SHE" rel_version="Emote_BreakdanceArmwave">{playerName} macht mit den Armen eine Welle.</string>
 	<string key="Emote_ArmWaveDance_THEY" rel_version="Emote_BreakdanceArmwave">{playerName} macht mit den Armen eine Welle.</string>
 	<string key="ui_emote_Walk_Drunk_name" rel_version="Emote_Stumbling_Walk">Heimstolpern</string>
-	<string key="ui_emote_Walk_Drunk_description" rel_version="Emote_Stumbling_Walk">Mit diesem Gang kommst du immer irgendwie von der Taverne sicher nach Hause, zumindest wenn du dich noch erinnerst, wo das eigentlich war.</string>
-	<string key="Emote_Walk_Drunk" rel_version="Emote_Stumbling_Walk">{playerName} torkelt angeheitert umher.</string>
+	<string key="ui_emote_Walk_Drunk_description" rel_version="Emote_Stumbling_Walk">Beim Anblick der etwas zu vielen herumtorkelnden Gestalten aus dem Außenpostensturm wirst du dich fragen, wo wohl der Gasthof ist.</string>
+	<string key="Emote_Walk_Drunk" rel_version="Emote_Stumbling_Walk">{playerName} torkelt.</string>
 	<string key="ui_emote_HipTwistDance_name" rel_version="Emote_Dance_HipTwist">Hüftkreisen</string>
 	<string key="ui_emote_HipTwistDance_description" rel_version="Emote_Dance_HipTwist">Die neue Tanzsensation, die Aeternum im Sturm erobert hat!</string>
 	<string key="Emote_HipTwistDance" rel_version="Emote_Dance_HipTwist">{playerName} kreist im Rhythmus mit den Hüften.</string>
@@ -601,7 +601,7 @@
 	<string key="ui_Emote_LizardRun_name" rel_version="Season_7_Perm">Schwefelsand-Echsenlauf</string>
 	<string key="ui_Emote_LizardRun_description" rel_version="Season_7_Perm">Entweder ein dominanter Vorstoß oder eine eleganter Rückzug: Deine Entscheidung!</string>
 	<string key="Emote_LizardRun" rel_version="Season_7_Perm">{playerName} läuft wie eine Schwefelsand-Echse.</string>
-	<string key="ui_Emote_Wings_description" rel_version="Emotes_Valkyrie">Bade dich im Glanze deiner eigenen Himmelsschwingen.</string>
+	<string key="ui_Emote_Wings_description" rel_version="Emotes_Valkyrie">Bade dich im Glanz deiner eigenen himmlischen Flügel.</string>
 	<string key="ui_Emote_Wings_name" rel_version="Emotes_Valkyrie">Aufstieg</string>
 	<string key="Emote_Wings" rel_version="Emotes_Valkyrie">{playerName} breitet die Flügel aus.</string>
 	<string key="Emote_Wings_SHE" rel_version="Emotes_Valkyrie">{playerName} breitet die Flügel aus.</string>
@@ -612,20 +612,26 @@
 	<string key="ui_Emote_Mantrum_description" rel_version="Entitlements_Barbarian">Wenn du es dem Boden einfach zeigen musst.</string>
 	<string key="ui_Emote_Mantrum_name" rel_version="Entitlements_Barbarian">Ein-Mann-Kampf</string>
 	<string key="Emote_Mantrum" rel_version="Entitlements_Barbarian">{playerName} legt sich mit dem Boden an.</string>
-	<string key="Emote_BarbershopExit" rel_version="Feature_Barbershop">{playerName} checks out their new look.</string>
-	<string key="ui_Emote_TouchGrass_description">Das ist gut für dich.</string>
-	<string key="ui_Emote_Walk_NinjaRun_description">Renne mit den Schatten, schnell wie der Wind.</string>
-	<string key="ui_Emote_BrushShoulder_description">Für Gelegenheiten, bei denen du nicht einmal ins Schwitzen geraten bist.</string>
-	<string key="Emote_Walk_MyrkMarch">{playerName} marschiert zu einem bizarren Rhythmus.</string>
-	<string key="ui_Emote_Walk_MyrkMarch_description">Den Legenden nach hat Thorpe dieses eigenartige Manöver nur seinen besten Kriegern beigebracht.</string>
-	<string key="Emote_BrushShoulder_THEY">{playerName} wischt sich den Staub von der Schulter.</string>
-	<string key="Emote_BrushShoulder_SHE">{playerName} wischt sich den Staub von der Schulter.</string>
-	<string key="ui_Emote_Walk_NinjaRun_name">Ninja-Lauf</string>
-	<string key="Emote_BrushShoulder">{playerName} wischt sich den Staub von der Schulter.</string>
-	<string key="ui_Emote_Walk_MyrkMarch_name">Düsterheim-Marsch</string>
-	<string key="ui_Emote_TouchGrass_name">Gras berühren</string>
-	<string key="Emote_Walk_NinjaRun">{playerName} läuft wie ein Ninja.</string>
-	<string key="ui_Emote_BrushShoulder_name">Schulterwischen</string>
-	<string key="Emote_TouchGrass">{playerName} berührt das schöne, satte Gras.</string>
+	<string key="Emote_BarbershopExit" rel_version="Feature_Barbershop">{playerName} begutachtet das neue Aussehen.</string>
+	<string key="ui_Emote_BrushShoulder_name" rel_version="Season_8_Perm">Schulterwischen</string>
+	<string key="ui_Emote_BrushShoulder_description" rel_version="Season_8_Perm">Für Gelegenheiten, bei denen du nicht einmal ins Schwitzen geraten bist.</string>
+	<string key="Emote_BrushShoulder" rel_version="Season_8_Perm">{playerName} wischt sich den Staub von der Schulter.</string>
+	<string key="Emote_BrushShoulder_SHE" rel_version="Season_8_Perm">{playerName} wischt sich den Staub von der Schulter.</string>
+	<string key="Emote_BrushShoulder_THEY" rel_version="Season_8_Perm">{playerName} wischt sich den Staub von der Schulter.</string>
+	<string key="ui_Emote_Walk_MyrkMarch_name" rel_version="Season_8_Perm">Düsterheim-Marsch</string>
+	<string key="ui_Emote_Walk_MyrkMarch_description" rel_version="Season_8_Perm">Den Legenden nach hat Thorpe dieses eigenartige Manöver nur seinen besten Kriegern beigebracht.</string>
+	<string key="Emote_Walk_MyrkMarch" rel_version="Season_8_Perm">{playerName} marschiert zu einem bizarren Rhythmus.</string>
+	<string key="ui_Emote_Walk_NinjaRun_name" rel_version="Season_8_Perm">Ninja-Lauf</string>
+	<string key="ui_Emote_Walk_NinjaRun_description" rel_version="Season_8_Perm">Renne mit den Schatten, schnell wie der Wind.</string>
+	<string key="Emote_Walk_NinjaRun" rel_version="Season_8_Perm">{playerName} läuft wie ein Ninja.</string>
+	<string key="ui_Emote_TouchGrass_name" rel_version="Season_8_Perm">Gras berühren</string>
+	<string key="ui_Emote_TouchGrass_description" rel_version="Season_8_Perm">Das ist gut für dich.</string>
+	<string key="Emote_TouchGrass" rel_version="Season_8_Perm">{playerName} berührt das schöne, satte Gras.</string>
+	<string key="ui_Emote_CatPaw_name" rel_version="Season_9_Perm">Katzenpfoten</string>
+	<string key="ui_Emote_CatPaw_description" rel_version="Season_9_Perm">Die ganze Pracht der glorreichen Katzengestalt. Warte, da kommt gerade ein Fellknäuel hoch.</string>
+	<string key="Emote_CatPaw" rel_version="Season_9_Perm">{playerName} spielt wie ein Kätzchen.</string>
+	<string key="ui_Emote_NewspaperBonk_name" rel_version="Season_9_Perm">Zeitungs-Bums</string>
+	<string key="ui_Emote_NewspaperBonk_description" rel_version="Season_9_Perm">Wenn deine Teammitglieder im Außenpostensturm anfangen, dumme Pläne zu schmieden.</string>
+	<string key="Emote_NewspaperBonk" rel_version="Season_9_Perm">{playerName} bläut jemandem etwas Verstand ein.</string>
 </resources>
 

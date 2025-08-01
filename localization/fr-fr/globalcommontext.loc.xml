@@ -353,6 +353,7 @@
 	<string key="ui_abilities_in_combat">En combat</string>
 	<string key="ui_componentname">Nom du composant</string>
 	<string key="ui_confirm">Confirmer</string>
+	<string key="ui_add_more">En ajouter plus</string>
 	<string key="ui_confirm_delete_character_placeholder">Saisir le nom du personnage</string>
 	<string key="ui_connect">CONNEXION</string>
 	<string key="ui_connecttogame">Connexion à la partie</string>
@@ -1117,6 +1118,7 @@
 	<string key="ui_world_leave_world_confirm_message_company_membership">Vous quitterez votre compagnie et les fonds de trésorerie ne seront pas transférés</string>
 	<string key="ui_world_leave_world_confirm_message_town_projects">Vos missions de projet urbain ne seront pas transférées</string>
 	<string key="ui_world_leave_world_confirm_message_faction_missions">Vos missions de faction ne seront pas transférées</string>
+	<string key="ui_world_leave_world_confirm_message_makegoods">Vos dédommagements ne seront pas transférés</string>
 	<string key="ui_world_leave_world_confirm_message_trading_post">Vos contrats de comptoir ne seront pas transférés et seront annulés</string>
 	<string key="ui_world_leave_world_confirm_message_season_pass">La progression et les récompenses de votre passe de saison seront transférées</string>
 	<string key="ui_world_leave_world_confirm_message_houses">Vos maisons seront transférées</string>
@@ -1193,7 +1195,7 @@
 	<string key="ui_glory_update_floating_standing">Réputation +{amount}</string>
 	<string key="ui_glory_to_level">&lt;font color="#ebe3d6"&gt;{xp} EXP&lt;/font&gt; avant le niveau {level}</string>
 	<string key="ui_glory_tooltip">Vous avez des points de capacités à utiliser. Ouvrez l'écran de progression et améliorez vos capacités avec [{keyName}].</string>
-	<string key="ui_coin">Pièces</string>
+	<string key="ui_coin">Pièce</string>
 	<string key="ui_coin_desc">Votre monnaie principale sert à acheter des objets au comptoir et à la boutique de faction.\nVous pouvez avoir jusqu'à &lt;font color="#ebe3d6"&gt;{amount}&lt;/font&gt; pièces.\n\n&lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#b2aea1"&gt;Source :&lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#ebe3d6"&gt; achèvement de missions, élimination d'ennemis, participation à des événements&lt;/font&gt;</string>
 	<string key="ui_coin_max">Max de pièces</string>
 	<string key="ui_coin_icon">&lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt; {coin}</string>
@@ -1449,7 +1451,7 @@
 	<string key="ui_buildmode_territorytax">Frais de territoire :</string>
 	<string key="ui_buildmode_territorytax_caps">FRAIS DE TERRITOIRE</string>
 	<string key="ui_buildmode_ingredients">INGRÉDIENTS</string>
-	<string key="ui_buildmode_crown">PIÈCES</string>
+	<string key="ui_buildmode_crown">PIÈCE</string>
 	<string key="ui_buildmode_planningmode_unavailable">Construction autorisée uniquement sur territoire revendiqué</string>
 	<string key="ui_buildmode_skill_required">Capacités de construction de {skillreq}\n(actuelles : {current})</string>
 	<string key="ui_canberevived">Réanimation rétablie</string>
@@ -1457,7 +1459,7 @@
 	<string key="ui_respawn_banner_message">Votre âme redescend dans le Nouveau monde.</string>
 	<string key="ui_deathsdoorcooldown">Prochaine réanimation</string>
 	<string key="ui_deathsdoorcooldown_description">Réanimation possible dans</string>
-	<string key="ui_currency">Pièces</string>
+	<string key="ui_currency">Pièce</string>
 	<string key="ui_currency_type">Monnaie</string>
 	<string key="ui_currency_value">{value} pièces</string>
 	<string key="ui_active_crimes">Crimes en cours : {crimeList}</string>
@@ -1527,6 +1529,7 @@
 	<string key="ui_buildmode_error_not_in_line_of_sight">Hors du champ de vision</string>
 	<string key="ui_buildmode_error_camping_restricted">Impossible d'établir un bivouac près d'un repère</string>
 	<string key="ui_buildmode_error_war_attackers_restricted">Zone inconstructible pour les assaillants.</string>
+	<string key="ui_buildmode_error_pvp_camp_obstruction">Vous êtes trop proche d'un autre bivouac JcJ</string>
 	<string key="ui_camp_unlock_skins_tooltip">Déverrouillez Bivouac I\nPlacez un bivouac de palier 1 pour fabriquer des objets de palier 1, soigner votre personnage et réapparaître au bivouac.\nPour déverrouiller cet élément, vous devez avoir atteint le niveau 5 et avoir terminé la première quête d'argonaute.\nRemarque : Vous devez d'abord terminer les quêtes de colonisation et de plage antérieures avant de vous lancer dans cette quête.</string>
 	<string key="ui_buildmode_error_outside_of_war">Élément non constructible hors période de guerre.</string>
 	<string key="ui_buildmode_error_war_attackers_only">Structure réservée aux assaillants.</string>
@@ -1534,12 +1537,18 @@
 	<string key="ui_bind_to_camp_disabled">Lien avec le bivouac désactivé.</string>
 	<string key="ui_bind_to_camp">Définir ce bivouac comme point de retour</string>
 	<string key="ui_camping_error_poi_restricted_outpost_rush">Bivouac interdit en Déferlante.</string>
+	<string key="ui_camping_error_poi_restricted_gamemode">Bivouac interdit dans cette activité.</string>
 	<string key="ui_camping_error_poi_restricted">Impossible d'établir un bivouac près d'un repère.</string>
 	<string key="ui_camping_error_poi_restricted_ffa" rel_version="Territory_CutlassKeys_Rework">Bivouac interdit autour ou dans\nla zone Chacun pour soi.</string>
 	<string key="ui_camp_obstructed">Reculez pour terminer.</string>
 	<string key="ui_camping_restricted">Bivouac interdit</string>
 	<string key="ui_camping_available">Bivouac disponible</string>
 	<string key="ui_camp_unbind_on_pvp_toggle_warning" rel_version="Feature_PvP_Camps">Activer le mode JcJ vous dissociera de votre bivouac.\n\nVoulez-vous vraiment activer le mode JcJ ?</string>
+	<string key="ui_camp_under_attack" rel_version="Feature_PvP_Camps">Votre bivouac est attaqué !</string>
+	<string key="ui_camp_placement_unavailable_under_attack" rel_version="Feature_PvP_Camps">Le placement du bivouac est indisponible tant que votre bivouac est attaqué.</string>
+	<string key="ui_bind_to_camp_disabled_under_attack" rel_version="Feature_PvP_Camps">Bivouac lié attaqué</string>
+	<string key="ui_camp_placement_unavailable_on_cooldown" rel_version="Feature_PvP_Camps">Le placement du bivouac est indisponible pendant {time}.</string>
+	<string key="ui_camp_icon_tooltip" rel_version="Feature_PvP_Camps">Avec le mode JcJ non activé, vous pouvez placer ou vous lier à un &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;bivouac non-JcJ&lt;/font&gt; indestructible pour créer un point de réapparition.\n\nAvec le mode JcJ activé, vous pouvez placer ou vous lier à un &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;bivouac JcJ&lt;/font&gt; de la même faction.\n\nVous ne pouvez pas placer ou vous lier à un autre bivouac JcJ lorsque votre bivouac JcJ est attaqué, moins de &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;{placementCooldown} s&lt;/font&gt; après l'avoir placé, &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;{bindCooldown} s&lt;/font&gt; après vous y être lié ou &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;{destructionCooldown} s&lt;/font&gt; après la destruction de votre bivouac JcJ.</string>
 	<string key="ui_notification_nameplate_hidden">Nom caché</string>
 	<string key="ui_notification_nameplate_visible">Nom visible</string>
 	<string key="ui_confirm_before_use_title">Consommer l'objet</string>
@@ -1620,6 +1629,8 @@
 	<string key="currency_UYU">$U{amount}</string>
 	<string key="currency_VND">{amount}₫</string>
 	<string key="currency_HUF">{amount} Ft</string>
+	<string key="currency_DKK">{amount} kr</string>
+	<string key="currency_SEK">{amount} kr</string>
 	<string key="WoodsmanArmor_EntName">Ensemble de forestier</string>
 	<string key="WoodsmanThrowingAxe_EntName">Hachette de forestier</string>
 	<string key="AugustEmoteBundle">Lot Pouces opposables</string>
@@ -1710,7 +1721,7 @@
 	<string key="ui_deathrecap_survived_for">Survie de</string>
 	<string key="ui_deathrecap_respawn_points">Points de réapparition</string>
 	<string key="ui_deathrecap_ffa_itemsdropped" rel_version="Territory_CutlassKeys_Rework">Objets maudits abandonnés au lieu de mort.</string>
-	<string key="ui_global_storage">Rangement</string>
+	<string key="ui_global_storage">Abri de rangement</string>
 	<string key="ui_global_storage_desc">Entreposez vos objets ici. Les autres joueurs ne peuvent pas voir ni prendre ces objets.</string>
 	<string key="ui_global_storage_visit_storage_shed">Rendez-vous dans un abri de rangement pour retrouver les objets mis de côté.</string>
 	<string key="ui_claimmarker">Point de revendication</string>
@@ -1877,6 +1888,7 @@
 	<string key="ui_tooltip_perks_info_text_gem_plural">Appliquez ceci à un objet doté d'une niche à gemme pour ajouter un des effets suivants :</string>
 	<string key="ui_tooltip_perks_info_text_craft_singular">Utilisez cette ressource lors d'une fabrication pour ajouter l'effet suivant :</string>
 	<string key="ui_tooltip_perks_info_text_craft_plural">Utilisez cette ressource lors d'une fabrication pour ajouter l'un des effets suivants :</string>
+	<string key="ui_perks_disabled_for_game_mode" rel_version="Feature_DisabledPerkGameModes">Les atouts sont désactivés dans ce mode.</string>
 	<string key="ui_tooltip_refinedat">Transformé à :</string>
 	<string key="ui_tooltip_derivedfrom">Source :</string>
 	<string key="ui_tooltip_repair_requires">Réparation avec :</string>
@@ -1884,7 +1896,7 @@
 	<string key="ui_tooltip_cannot_use_while_dismounted" rel_version="Feature_Mounts">Utilisation impossible pied à terre.</string>
 	<string key="ui_tooltip_clickToLock">Sélectionner objet à verrouiller</string>
 	<string key="ui_siege_damage_needed">Doit utiliser une arme de siège</string>
-	<string key="ui_tooltip_gatherspeed">Vitesse d'exploitation</string>
+	<string key="ui_tooltip_gatherspeed">Vitesse\nd'exploitation</string>
 	<string key="ui_tooltip_gatherbonus">Bonus d'exploitation</string>
 	<string key="ui_tooltip_maxcastdistance">Portée de lancement maximum</string>
 	<string key="ui_tooltip_basedamage">Dégâts de base</string>
@@ -2014,6 +2026,7 @@
 	<string key="ui_skin_available_single">1 apparence disponible</string>
 	<string key="ui_skin_available_count">{count} apparences disponibles</string>
 	<string key="ui_skin_change_skin">Changer d'apparence</string>
+	<string key="ui_skin_change_skin_desc">Changer l'apparence de cet objet</string>
 	<string key="ui_skin_change_skins">Changer apparences</string>
 	<string key="ui_added_to_inventory">Ajout à l'&lt;font color="#b2aea1"&gt;inventaire&lt;/font&gt;</string>
 	<string key="ui_currency_added">Monnaie ajoutée</string>
@@ -2144,6 +2157,10 @@
 	<string key="ui_exit_dungeon_incombat_dailysolotrial" rel_version="DailySoloTrials">Vous ne pouvez pas quitter une Épreuve de l'âme si vous avez récemment été en combat. \nVous pourrez partir dans &lt;font color="#edc63e"&gt;[{timeremaining}]&lt;/font&gt;.</string>
 	<string key="ui_enable_newDamageNumbers">Stats de dégâts flottantes</string>
 	<string key="ui_enable_newDamageNumbers_description">Pour que les dégâts infligés ne soient pas ancrés à la jauge de santé des ennemis.</string>
+	<string key="ui_options_damage_numbers_display_mode">Valeurs des dégâts et des soins</string>
+	<string key="ui_options_damage_numbers_display_mode_description">Définissez la présentation des valeurs affichées lorsque vous infligez des dégâts, subissez des dégâts, soignez d'autres joueurs et recevez des soins.</string>
+	<string key="ui_options_damage_numbers_display_mode_floating">Flottantes</string>
+	<string key="ui_options_damage_numbers_display_mode_stacked">Empilées</string>
 	<string key="ui_accept_duel_invites">Accepter les invitations aux escarmouches</string>
 	<string key="ui_accept_duel_invites_description">Les autres joueurs pourront vous défier à une escarmouche.</string>
 	<string key="ui_auto_traverse">Traversée automatique</string>
@@ -2259,7 +2276,7 @@
 	<string key="ui_solo">Solo</string>
 	<string key="ui_summary">Résumé</string>
 	<string key="ui_azoth_max_title">Azoth maximum</string>
-	<string key="ui_azoth_max_desc">Voua avez atteint la limite d'Azoth. L'excédent d'Azoth sera perdu.</string>
+	<string key="ui_azoth_max_desc">Vous avez atteint la limite d'Azoth. L'excédent d'Azoth sera perdu.</string>
 	<string key="ui_azoth_warning_title">Attention : Limite d'Azoth</string>
 	<string key="ui_azoth_warning_desc">Vous avez presque atteint l'Azoth maximum : {amount}/{maxAmount}</string>
 	<string key="ui_coin_max_title">Maximum de pièces</string>
@@ -2351,6 +2368,7 @@
 	<string key="ui_from_focus">Concentration (100 %)</string>
 	<string key="ui_from_intelligence_and_focus">Intelligence (90 %), concentration (65 %)</string>
 	<string key="ui_from_focus_and_intelligence">Concentration (90 %), intelligence (65 %)</string>
+	<string key="ui_from_intelligence_and_strength">Intelligence (90 %), Force (65 %)</string>
 	<string key="ui_abilities">Capacités</string>
 	<string key="ui_ability_available" comment="tooltip message when a weapon mastery node is available to buy">Sélectionnez et assignez des points pour déverrouiller.</string>
 	<string key="ui_ability_unavailable_nopoints" comment="tooltip message for a weapon mastery node that can't be purchased due to lack of points">Aucun point disponible.</string>
@@ -2452,6 +2470,7 @@
 	<string key="ui_sickle">Faucille</string>
 	<string key="ui_skinningknife">Couteau à dépecer</string>
 	<string key="ui_camp_reconnect_failed">Votre bivouac a été abandonné. En installer un nouveau.</string>
+	<string key="ui_camp_reconnect_failed_destroyed" rel_version="Feature_PvP_Camps">Votre bivouac a été détruit !</string>
 	<string key="ui_weapon_mastery_respec_warning">Voulez-vous vraiment réinitialiser cette arme ?\n\n Coût : &lt;img src="lyshineui/images/icons/misc/icon_azothCurrency" xPadding="0" scale="1.4" yOffset="1"&gt;&lt;/img&gt; {azoth}</string>
 	<string key="ui_weapon_mastery_insufficient_azoth">Vous n'avez pas assez d'Azoth.</string>
 	<string key="ui_you_have_unlocked">Déverrouillés</string>
@@ -2543,7 +2562,7 @@
 	<string key="ui_merge_world">Monde</string>
 	<string key="ui_merge_character">Personnage</string>
 	<string key="ui_merge_time">Temps restant</string>
-	<string key="ui_select_world" rel_version="Territory_Brimstone_Sands">Sélectionner monde</string>
+	<string key="ui_select_world" rel_version="Territory_Brimstone_Sands">Sélectionner le monde</string>
 	<string key="ui_character_needs_transfer" rel_version="Territory_Brimstone_Sands">Ce personnage n'est lié à aucun monde. Sélectionnez-en un pour déplacer la progression et les objets de votre personnage vers le monde désiré.</string>
 	<string key="ui_select_world_for_character" rel_version="Territory_Brimstone_Sands">Sélectionner monde pour {name}.</string>
 	<string key="ui_freeweekend_worldwarning_title">Week-end mondes gratuits</string>
@@ -2833,6 +2852,7 @@
 	<string key="ui_itemtooltiptitle_heartgem_rune_fire_storm" rel_version="Feature_Heartgems_FireStorm">Tempête de feu</string>
 	<string key="ui_itemtooltiptitle_heartgem_rune_sand_worm" rel_version="Feature_Heartgems_Sandworm">Le Dévoreur</string>
 	<string key="ui_itemtooltiptitle_heartgem_rune_beast_mode" rel_version="Feature_Heartgems_BeastMode">Rage primale</string>
+	<string key="ui_itemtooltiptitle_heartgem_rune_spinning_swords" rel_version="Feature_Heartgems_SpinningSwords">Lames spectrales</string>
 	<string key="ui_cannot_perform_action_at_this_time">Impossible d'effectuer cette action pour l'instant.</string>
 	<string key="ui_cannot_use_shield_abilities">Aucun bouclier équipé</string>
 	<string key="ui_tooltip_effect_duration">Durée de l'effet : &lt;font face="lyshineui/fonts/Nimbus_Bold.font" color="#ebe3d6"&gt;{value}&lt;/font&gt;</string>
@@ -2864,6 +2884,8 @@
 	<string key="ui_autopinobjectivesComm_desc">Pour automatiquement épingler les projets urbains à l'interface quand vous les acceptez.</string>
 	<string key="ui_autopinObjectivesCrafting">Auto-marquage des recettes</string>
 	<string key="ui_autopinobjectivesCrafting_desc">Pour automatiquement épingler les recettes à l'interface quand une recette est épinglée à un poste de fabrication.</string>
+	<string key="ui_autopinObjectivesArtifact">Auto-marquage des artéfacts</string>
+	<string key="ui_autopinobjectivesArtifact_desc">Pour automatiquement épingler les tâches d'artéfacts à l'interface quand vous les équipez.</string>
 	<string key="ui_auto_pin_toggle_on">Auto-marquage activé</string>
 	<string key="ui_auto_pin_toggle_off">Auto-marquage désactivé</string>
 	<string key="ui_auto_pin_toggle_label">Auto-marquage</string>
@@ -2965,6 +2987,7 @@
 	<string key="ui_event_item_disappears">Cet objet disparaîtra à la fin de l'événement.</string>
 	<string key="ui_event_time_left">Fin de l'événement dans : {timeLeft} &lt;img src="LyShineUI/Images/Icons/Misc/icon_hourglass_yellow.png" xPadding="0" scale="1.1" yOffset="1"&gt;&lt;/img&gt;</string>
 	<string key="ui_event_time_left_compass">Fin de l'événement dans : &lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{timeLeft}&lt;/font&gt;</string>
+	<string key="ui_event_item_disabled">L'événement associé à cet objet a pris fin. Cet objet ne fonctionne plus et sera supprimé à votre prochaine connexion.</string>
 	<string key="attribution_WinterConvergence_2021" rel_version="Event_WinterConvergence_Perm">La convergence hivernale</string>
 	<string key="attribution_WinterConvergence_2022" rel_version="Event_WinterConvergence_Perm">La convergence hivernale</string>
 	<string key="attribution_SummerMedleyfaire_2022" rel_version="Event_Summer_Perm">Mélégies estivales</string>
@@ -3054,8 +3077,10 @@
 	<string key="ui_transmog_services_unavailable_tooltip">Transmogrification indisponible</string>
 	<string key="ui_transmog_services_unavailable_message">La transmogrification est actuellement indisponible. Veuillez réessayer plus tard.</string>
 	<string key="ui_barbershop_open_menu" rel_version="Feature_Barbershop">Mettre à jour mon apparence</string>
+	<string key="ui_barbershop_change_appearance" rel_version="Feature_Barbershop">Changer d'apparence</string>
 	<string key="ui_barbershop_unavailable_message" rel_version="Feature_Barbershop">Le barbier est actuellement indisponible. Veuillez réessayer plus tard.</string>
 	<string key="ui_barbershop_changes_warning" rel_version="Feature_Barbershop">Les modifications seront sauvegardées à la fermeture du jeu.</string>
+	<string key="ui_barbershop_changes_disclaimer" rel_version="Feature_Barbershop">Les jetons de barbier sont liés au compte (non cessibles) et non remboursables.</string>
 	<string key="ui_barbershop_reload_title" rel_version="Feature_Barbershop">Charger l'apparence</string>
 	<string key="ui_barbershop_reload_prompt" rel_version="Feature_Barbershop">Charger les modifications de votre dernière visite ?</string>
 	<string key="ui_barbershop_purchase_title" rel_version="Feature_Barbershop">Confirmer l'apparence</string>
@@ -3127,6 +3152,8 @@
 	<string key="ui_blocked_company">Compagnie bloquée</string>
 	<string key="ui_mount_unlock" rel_version="Feature_Mounts">Monture déverrouillée</string>
 	<string key="ui_mount_unlock_acquisition" rel_version="Feature_Mounts">Achèvement de « Mon royaume pour un cheval »</string>
+	<string key="ui_consumables_shared_cooldowns_survival">Potions de survie</string>
+	<string key="ui_consumables_shared_cooldown_text">\n\nUtiliser ceci entraînera un temps de recharge de {cooldown} % pour les {consumableType}.</string>
 	<string key="ui_seasonal_worlds" rel_version="Feature_Seasonal_Servers">Mondes saisonniers</string>
 	<string key="ui_seasonal_worlds_popup_header" rel_version="Feature_Seasonal_Servers">Choisir le type de monde</string>
 	<string key="ui_seasonal_worlds_about_popup_description" rel_version="Feature_Seasonal_Servers">Les Mondes saisonniers offrent une nouvelle façon de profiter d'Aeternum et d'obtenir des récompenses uniques pendant une durée limitée chaque saison.\n\nDans le Monde saisonnier de la saison 8, la puissance est au centre du jeu. Les personnages sur ce serveur peuvent s'équiper d'autant d'artéfacts qu'ils le désirent et chaque fois qu'ils meurent, ils obtiennent des points de caractéristiques supplémentaires. Renforcez-vous plus rapidement et relevez des défis qui vous étaient jusqu'à présent inaccessibles.\n\nUn nouveau parcours périple saisonnier peut-être entrepris sur ce serveur, axé sur le nombre de morts de votre personnage. Accomplir ces objectifs vous octroiera de nouveaux matériaux de fabrication utilisables également dans les mondes non saisonniers. Utilisez-les pour fabriquer des artéfacts ou trophées III de votre choix sur un personnage non saisonnier (ceux apparus jusqu'à la saison 8). Remarque : certaines récompenses du parcours du Monde saisonnier nécessitent l'achat d'un passe de bataille premium dans la boutique.</string>
@@ -3143,32 +3170,71 @@
 	<string key="ui_seasonal_worlds_server_description" rel_version="Feature_Seasonal_Servers">&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; Sur ce serveur saisonnier, les joueurs découvriront les quêtes d'une brève histoire principale et un parcours de Monde saisonnier unique permettant d'obtenir des récompenses spéciales en accomplissant du contenu difficile sans mourir. Chaque fois qu'un personnage meurt dans ce monde, il obtient un cumul d'effet de statut Déchu. Ses caractéristiques augmentent alors avec chaque cumul, jusqu'à un maximum de 5 cumuls.\n&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; Dans ce monde, les personnages peuvent équiper un artéfact dans chaque emplacement d'équipement.\n&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; Le matchmaking intermondes et la recherche d'activités sont désactivés sur {worldName}. Les joueurs devront utiliser la Recherche de groupe pour les expéditions.\n&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; Les personnages ne peuvent pas être transférés sur et depuis ce monde.\n&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; Les personnages de ce monde devront être supprimés à la fin de la saison.</string>
 	<string key="ui_seasonal_worlds_server_duration" rel_version="Feature_Seasonal_Servers">Disponible du {dateStart} à {timeStart} au {dateEnd} à {timeEnd}</string>
 	<string key="ui_seasonal_worlds_tooltip" rel_version="Feature_Seasonal_Servers">Dans ce Monde saisonnier, votre faction décide avec quels joueurs vous pouvez vous regrouper et former des compagnies. Choisissez la même faction que celle de vos amis pour pouvoir jouer ensemble.\n\nVous pouvez changer de faction en jeu.</string>
-	<string key="currency_SEK">{amount} kr</string>
-	<string key="ui_perks_disabled_for_game_mode">Les atouts sont désactivés dans ce mode.</string>
-	<string key="ui_itemtooltiptitle_heartgem_rune_spinning_swords">Lames spectrales</string>
-	<string key="currency_DKK">{amount} kr</string>
-	<string key="ui_world_leave_world_confirm_message_makegoods">Vos dédommagements ne seront pas transférés</string>
-	<string key="ui_camping_error_poi_restricted_gamemode">Bivouac interdit dans cette activité.</string>
-	<string key="ui_camp_placement_unavailable_on_cooldown">Le placement du bivouac est indisponible pendant {time}.</string>
-	<string key="ui_camp_placement_unavailable_under_attack">Le placement du bivouac est indisponible tant que votre bivouac est attaqué.</string>
-	<string key="ui_barbershop_changes_disclaimer">Les jetons de barbier sont liés au compte (non cessibles) et non remboursables.</string>
-	<string key="ui_skin_change_skin_desc">Changer l'apparence de cet objet</string>
-	<string key="ui_autopinObjectivesArtifact">Auto-marquage des artéfacts</string>
-	<string key="ui_bind_to_camp_disabled_under_attack">Bivouac lié attaqué</string>
-	<string key="ui_camp_reconnect_failed_destroyed">Votre bivouac a été détruit !</string>
-	<string key="ui_autopinobjectivesArtifact_desc">Pour automatiquement épingler les tâches d'artéfacts à l'interface quand vous les équipez.</string>
-	<string key="ui_consumables_shared_cooldowns_survival">Potions de survie</string>
-	<string key="ui_event_item_disabled">L'événement associé à cet objet a pris fin. Cet objet ne fonctionne plus et sera supprimé à votre prochaine connexion.</string>
-	<string key="ui_options_damage_numbers_display_mode_description">Définissez la présentation des valeurs affichées lorsque vous infligez des dégâts, subissez des dégâts, soignez d'autres joueurs et recevez des soins.</string>
-	<string key="ui_from_intelligence_and_strength">Intelligence (90 %), Force (65 %)</string>
-	<string key="ui_camp_under_attack">Votre bivouac est attaqué !</string>
-	<string key="ui_options_damage_numbers_display_mode">Valeurs des dégâts et des soins</string>
-	<string key="ui_options_damage_numbers_display_mode_floating">Flottantes</string>
-	<string key="ui_options_damage_numbers_display_mode_stacked">Empilées</string>
-	<string key="ui_buildmode_error_pvp_camp_obstruction">Vous êtes trop proche d'un autre bivouac JcJ</string>
-	<string key="ui_barbershop_change_appearance">Changer d'apparence</string>
-	<string key="ui_consumables_shared_cooldown_text">\n\nUtiliser ceci entraînera un temps de recharge de {cooldown} % pour les {consumableType}.</string>
-	<string key="ui_camp_icon_tooltip">Avec le mode JcJ non activé, vous pouvez placer ou vous lier à un &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;bivouac non-JcJ&lt;/font&gt; indestructible pour créer un point de réapparition.\n\nAvec le mode JcJ activé, vous pouvez placer ou vous lier à un &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;bivouac JcJ&lt;/font&gt; de la même faction.\n\nVous ne pouvez pas placer ou vous lier à un autre bivouac JcJ lorsque votre bivouac JcJ est attaqué, moins de &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;{placementCooldown} s&lt;/font&gt; après l'avoir placé, &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;{bindCooldown} s&lt;/font&gt; après vous y être lié ou &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;{destructionCooldown} s&lt;/font&gt; après la destruction de votre bivouac JcJ.</string>
-	<string key="ui_add_more">En ajouter plus</string>
+	<string key="ui_hud_ForceDismountTimer">Minuteur de descente forcée</string>
+	<string key="ui_hud_confirm_save">Enregistrer ?</string>
+	<string key="ui_hud_Compass">Boussole</string>
+	<string key="cc_f3">F3</string>
+	<string key="cc_insert">Inser</string>
+	<string key="ui_hud_Banners">Bannières</string>
+	<string key="cc_f12">F12</string>
+	<string key="ui_lessthan_hour_with_time">moins d'une heure</string>
+	<string key="cc_lbracket">Crochet gauche</string>
+	<string key="ui_hud_HealthMeter">Santé</string>
+	<string key="cc_f2">F2</string>
+	<string key="ui_rank_locked">Rang non atteint</string>
+	<string key="cc_f8">F8</string>
+	<string key="cc_scrolllock">Arrêt défil</string>
+	<string key="ui_hud_Objectives">Objectifs</string>
+	<string key="ui_hud_NotificationsMinorContainer">Notifications</string>
+	<string key="cc_pause">Pause</string>
+	<string key="cc_period">Point</string>
+	<string key="ui_hud_Heartgem">Joyau de cœur</string>
+	<string key="interact_fillSlots">Remplir les emplacements</string>
+	<string key="cc_pgup">Page haut</string>
+	<string key="ui_hud_AbilityChannel">Jauge de canalisation</string>
+	<string key="cc_capslock">Verr. maj.</string>
+	<string key="cc_end">Fin</string>
+	<string key="ui_hud_StaminaMeter">Vitalité</string>
+	<string key="cc_f5">F5</string>
+	<string key="ui_hud_AfflictionsGroup">Atteintes</string>
+	<string key="ui_lessthan_hour_with_time_short">&lt; 1 h</string>
+	<string key="ui_saveAndExit">Sauvegarder et quitter</string>
+	<string key="ui_consumables_shared_cooldowns_absorption">potions d'absorption</string>
+	<string key="cc_pgdn">Page bas</string>
+	<string key="ui_hud_ManaMeter">Mana</string>
+	<string key="ui_hud_confirm_save_body">Valider et sauvegarder ces modifications ou quitter et revenir aux paramètres précédents ?</string>
+	<string key="cc_rbracket">Crochet droit</string>
+	<string key="cc_f4">F4</string>
+	<string key="ui_undo">Annuler</string>
+	<string key="cc_f11">F11</string>
+	<string key="ui_hud_XpMeter">EXP</string>
+	<string key="cc_f7">F7</string>
+	<string key="ui_hud_WeaponQuickslots">Armes</string>
+	<string key="cc_minus">Moins</string>
+	<string key="ui_hud_ActionBar">Barre d'actions</string>
+	<string key="ui_hud_GroupHUD">Groupe</string>
+	<string key="ui_hud_Chat">Discussion</string>
+	<string key="cc_print">Imp. Écran</string>
+	<string key="ui_toggleGridSnap">Activer/Désactiver l'alignement sur la grille</string>
+	<string key="cc_f1">F1</string>
+	<string key="ui_insufficient_funds">Fonds insuffisants</string>
+	<string key="cc_f10">F10</string>
+	<string key="cc_tilde">Tilde</string>
+	<string key="cc_delete">Supprimer</string>
+	<string key="ui_lessthan_hourago">il y a moins d'une heure</string>
+	<string key="ui_hud_ConsumableQuickslots">Consommables</string>
+	<string key="ui_next_cooldown">Prochain temps de recharge</string>
+	<string key="cc_f6">F6</string>
+	<string key="ui_hud_StatusEffects">Effets de statut</string>
+	<string key="cc_comma">Virgule</string>
+	<string key="ui_hud_Encumbrance">Inventaire</string>
+	<string key="cc_semicolon">Point-virgule</string>
+	<string key="ui_current_progress">&lt;font color={currentProgressColor}&gt;{currentProgress} /&lt;/font&gt;&lt;font color={maxProgressColor}&gt; {maxProgress}&lt;/font&gt;</string>
+	<string key="ui_event_ends">Fin de l'événement</string>
+	<string key="cc_f9">F9</string>
+	<string key="ui_directionSnap">(Maintenir) Alignement sur l'axe</string>
+	<string key="ui_hud_MountStaminaMeter">Vitalité de la monture</string>
+	<string key="cc_apostrophe">Apostrophe</string>
+	<string key="cc_home">Origine</string>
 </resources>
 

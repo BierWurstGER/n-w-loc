@@ -38,11 +38,11 @@
 	<string key="ui_dungeon_requirements_recommended">Recommandé :</string>
 	<string key="ui_dungeon_requirements_matchmaking_staff" rel_version="Feature_Group_Finder">Bâton d'Azoth</string>
 	<string key="ui_flyout_recommended_groupsize">Joueurs recommandés : {players}</string>
-	<string key="ui_dungeon_requirements_equipment_warning">Votre groupe doit avoir au moins : &lt;font color="#ebe3d6"&gt;{item}&lt;/font&gt;.</string>
-	<string key="ui_dungeon_requirements_equipment_warning_solo">Vous devez avoir au moins : &lt;font color="#ebe3d6"&gt;{item}&lt;/font&gt;.</string>
-	<string key="ui_dungeon_requirements_equipment_warning_dailysolotrial" rel_version="DailySoloTrials">Vous devez avoir au moins : &lt;font color="#ebe3d6"&gt;{item}&lt;/font&gt;.</string>
-	<string key="ui_dungeon_requirements_equipment_warning_raidtrial">Vous devez avoir au moins : &lt;font color="#ebe3d6"&gt;{item}&lt;/font&gt;.</string>
-	<string key="ui_dungeon_requirements_equipment_warning_seasontrial" rel_version="Season_2_Perm">Vous devez avoir au moins : &lt;font color="#ebe3d6"&gt;{item}&lt;/font&gt;.</string>
+	<string key="ui_dungeon_requirements_equipment_warning">Nécessite {item}</string>
+	<string key="ui_dungeon_requirements_equipment_warning_solo">Nécessite {item}</string>
+	<string key="ui_dungeon_requirements_equipment_warning_dailysolotrial" rel_version="DailySoloTrials">Nécessite {item}</string>
+	<string key="ui_dungeon_requirements_equipment_warning_raidtrial">Nécessite {item}</string>
+	<string key="ui_dungeon_requirements_equipment_warning_seasontrial" rel_version="Season_2_Perm">Nécessite {item}</string>
 	<string key="ui_dungeon_reward_level">La qualité du butin augmente avec le niveau de difficulté.\n\nLes objets que vous trouvez peuvent différer des objets listés en fonction de leur score d'équipement.</string>
 	<string key="ui_dungeon_reward_title_regular">Récompenses</string>
 	<string key="ui_dungeon_reward_title_mutation">Récompenses de Mutagène</string>
@@ -179,6 +179,11 @@
 	<string key="ui_dungeon_queued_blocked_raidtrial">Entrer</string>
 	<string key="ui_dungeon_queued_blocked_seasontrial" rel_version="Season_2_Perm">Entrer</string>
 	<string key="ui_dungeon_outpost_rush">Vous êtes déjà dans la file d'attente de la Déferlante.</string>
+	<string key="ui_dungeon_level_not_met">Vous ne remplissez pas les conditions de niveau pour cette expédition.</string>
+	<string key="ui_dungeon_level_not_met_solo">Vous ne remplissez pas les conditions de niveau pour cette Épreuve de l'âme.</string>
+	<string key="ui_dungeon_level_not_met_raidtrial">Vous ne remplissez pas les conditions de niveau pour cette Épreuve d'élite.</string>
+	<string key="ui_dungeon_level_not_met_seasontrial" rel_version="Season_2_Perm">Vous ne remplissez pas les conditions de niveau pour cette Épreuve de saison.</string>
+	<string key="ui_dungeon_level_not_met_dailysolotrial" rel_version="DailySoloTrials">Vous ne remplissez pas les conditions de niveau pour cette Épreuve de l'âme quotidienne.</string>
 	<string key="ui_dungeon_expiring">Départ dans</string>
 	<string key="ui_dungeon_expiring_solo">Départ dans</string>
 	<string key="ui_dungeon_expiring_raidtrial">Départ dans</string>
@@ -347,8 +352,8 @@
 	<string key="Mut_Ice_Curse1_Major_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt3">Affecte périodiquement l'un des joueurs. Le joueur sélectionné dégage une aura qui inflige des dégâts de glace aux joueurs à proximité et augmente considérablement son absorption des dégâts de glace (cet effet ne peut pas être dissipé par des capacités de joueur).</string>
 	<string key="Mut_Nat_Curse1_Major_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt3">Affecte périodiquement l'un des joueurs. Le joueur sélectionné dégage une aura qui inflige des dégâts de nature aux joueurs à proximité et augmente considérablement son absorption des dégâts de nature (cet effet ne peut pas être dissipé par des capacités de joueur).</string>
 	<string key="Mut_Voi_Curse1_Major_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt3">Affecte périodiquement l'un des joueurs. Le joueur sélectionné dégage une aura qui inflige des dégâts de néant aux joueurs à proximité et augmente considérablement son absorption des dégâts de néant (cet effet ne peut pas être dissipé par des capacités de joueur).</string>
-	<string key="Mut_Curse2_Minor_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">Applique périodiquement Fatigue aux joueurs en combat pour ralentir leur mouvement de {[-0.300000 * -100]} % et augmenter les dégâts qu'ils subissent de {[0.200000 * 100]} %. Cet effet peut être retardé à l'aide de capacités (cet effet ne peut pas être dissipé par des capacités de joueur).</string>
-	<string key="Mut_Curse2_Minor_SlowRend_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">Ralentissement de {[-0.300000 * -100]} % et augmentation de {[0.200000 * 100]} % de tous les types de dégâts subis.</string>
+	<string key="Mut_Curse2_Minor_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">Applique périodiquement Fatigue aux joueurs en combat pour ralentir leur mouvement de {[-0.3 * -100]} % et augmenter les dégâts qu'ils subissent de {[0.200000 * 100]} %. Cet effet peut être retardé à l'aide de capacités (cet effet ne peut pas être dissipé par des capacités de joueur).</string>
+	<string key="Mut_Curse2_Minor_SlowRend_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">Ralentissement de {[-0.3 * -100]} % et augmentation de {[0.200000 * 100]} % de tous les types de dégâts subis.</string>
 	<string key="Mut_Curse2_Fir_Major_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">Toute utilisation de capacité applique un effet d'Offrande qui inflige progressivement des dégâts de feu à hauteur de {[-0.045000 * -100]} % de la santé max au joueur et se cumule {[3.000000]} fois. Les joueurs subissent {[0.250000 * 100]} % des dégâts qu'ils infligent tant qu'ils sont affectés par Offrande (cet effet ne peut pas être dissipé par des capacités de joueur).</string>
 	<string key="Mut_Curse2_Ice_Major_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt3">Toute utilisation de capacité applique un effet d'Offrande qui inflige progressivement des dégâts de glace à hauteur de {[-0.045000 * -100]} % de la santé max au joueur et se cumule {[3.000000]} fois. Les joueurs subissent {[0.250000 * 100]} % des dégâts qu'ils infligent tant qu'ils sont affectés par Offrande (cet effet ne peut pas être dissipé par des capacités de joueur).</string>
 	<string key="Mut_Curse2_Nat_Major_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">Toute utilisation de capacité applique un effet d'Offrande qui inflige progressivement des dégâts de nature à hauteur de {[-0.045000 * -100]} % de la santé max au joueur et se cumule {[3.000000]} fois. Les joueurs subissent {[0.250000 * 100]} % des dégâts qu'ils infligent tant qu'ils sont affectés par Offrande (cet effet ne peut pas être dissipé par des capacités de joueur).</string>
@@ -478,7 +483,8 @@
 	<string key="ui_elitetrial_map_weekly_count" rel_version="Season_2_Perm">{count}/{max} récompenses hebdomadaires récupérées</string>
 	<string key="ui_elitetrial_banner_daily_count" rel_version="Season_2_Perm">{count}/{max} quotidiennes</string>
 	<string key="ui_elitetrial_banner_weekly_count" rel_version="Season_2_Perm">{count}/{max} hebdomadaires</string>
+	<string key="ui_dungeon_enter_daily_limit_reached">Limite quotidienne atteinte : &lt;img src="lyshineui/images/icons/misc/icon_hourglass" scale="1.1" yOffset="1.0"&gt;&lt;/img&gt; &lt;font color={timeColor} face="lyshineui/fonts/Nimbus_Regular.font"&gt;{timeText}&lt;/font&gt;</string>
+	<string key="ui_dungeon_enter_weekly_limit_reached">Limite hebdomadaire atteinte : &lt;img src="lyshineui/images/icons/misc/icon_hourglass" scale="1.1" yOffset="1.0"&gt;&lt;/img&gt; &lt;font color={timeColor} face="lyshineui/fonts/Nimbus_Regular.font"&gt;{timeText}&lt;/font&gt;</string>
 	<string key="Respawn_EntranceNameTrial" rel_version="Trial_Brimstone_Sandworm">Entrée de l'épreuve</string>
-	<string key="ui_dungeon_level_not_met_solo">Vous ne remplissez pas les conditions de niveau pour cette Épreuve de l'âme.</string>
 </resources>
 

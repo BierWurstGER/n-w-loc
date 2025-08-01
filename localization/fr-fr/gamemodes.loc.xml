@@ -308,8 +308,10 @@
 	<string key="ui_pvp_balance_header" rel_version="Feature_PvP_PvE_Split">Modificateurs d'équilibrage JcJ effectifs :</string>
 	<string key="or_outpost_rush_map_name" rel_version="Season_7_Perm">Île de Nauthynos</string>
 	<string key="or_outpost_rush_trench_map_name" rel_version="OPR_004_Trench">Fossé corallien</string>
+	<string key="or_outpost_rush_vertical_map_name" rel_version="OPR_005_Vertical">Tour de Calomel</string>
 	<string key="arena_3v3_map_name" rel_version="Feature_PVP_Arenas">Sanctuaire antique</string>
 	<string key="arena_3v3_02_map_name" rel_version="Feature_PVP_Arenas">Arène de gladiateur</string>
+	<string key="arena_3v3_04_map_name" rel_version="Arena_3v3_04">Aperçu de l'arène</string>
 	<string key="ui_activity_finder_tooltip_current_map_rotation_text" rel_version="Season_7_Perm">Carte actuelle de la rotation</string>
 	<string key="ui_activity_finder_tooltip_next_map_rotation_text" rel_version="Season_7_Perm">Carte suivante de la rotation</string>
 	<string key="ui_activity_finder_tooltip_current_map_rotation" rel_version="Season_7_Perm">{currentRotationText} : {mapName}</string>
@@ -338,58 +340,64 @@
 	<string key="ui_ready_up_ready_choice">Prêt</string>
 	<string key="ui_ready_up_unready_choice">Pas prêt</string>
 	<string key="ui_ready_up_waiting_message">En attente des autres joueurs ({numReady}/{numTotal})</string>
-	<string key="ctf_gamemode_description">Capture du drapeau est un mode de jeu en équipe au rythme effréné dans lequel il faut adopter des tactiques à la fois offensives et défensives. Défendez votre base tout en subtilisant le drapeau ennemi pour remporter la victoire.</string>
-	<string key="ctf_flag_picked_up">Votre drapeau a été subtilisé</string>
-	<string key="ctf_flag_returned">Votre drapeau a été rapporté</string>
-	<string key="ctf_red_team">&lt;font color="#f25d5d"&gt;Équipe rouge&lt;/font&gt;</string>
-	<string key="ctf_gamemode_name">Capture du drapeau</string>
-	<string key="ctf_003_Long_Map_Name">Aperçu de la CDD</string>
-	<string key="ui_opr_no_perks_signup_desc_cross_world">Meilleur équipement d'emplacement non requis ! Participez à cette nouvelle version de la Déferlante où les avantages d'équipement sont désactivés et où le score d'équipement est au niveau maximum pour équilibrer le terrain de jeu.\n\nL'&lt;font color="#edc63e"&gt;équilibrage au score d'équipement&lt;/font&gt; augmente le score d'équipement à 725 pour tout l'équipement inférieur à 725.</string>
-	<string key="ctf_flag_match_completed">Match terminé</string>
-	<string key="ui_ctf_leave_desc">Voulez-vous vraiment quitter la Capture du drapeau ?</string>
-	<string key="ctf_flag_status_safe">Drapeau en sécurité</string>
-	<string key="ctf_eom_stat_captures_neutral_flags">Drapeaux neutres</string>
-	<string key="ctf_flag_status_taken">Drapeau subtilisé</string>
-	<string key="ctf_flag_wild_spawned">Apparition du drapeau neutre</string>
-	<string key="ui_opr_no_perks_signup_goal2">La première équipe à atteindre 1 000 points l'emporte.</string>
-	<string key="ctf_flag_wild_timer">Apparition dans {time}</string>
-	<string key="ui_opr_no_perks_title">Déferlante : Os à vif</string>
-	<string key="ui_capture_the_flag_begin">PARTEZ !</string>
-	<string key="ctf_eom_stat_captures_team_flags">Drapeaux de l'équipe</string>
-	<string key="ctf_flag_you_scored">Vous avez marqué !</string>
-	<string key="ui_opr_no_perks_signup_goal1">Capturez et tenez des avant-postes pour marquer des points.</string>
-	<string key="ctf_eom_stat_flag_returns">Drapeaux rapportés</string>
-	<string key="ui_capture_the_flag_signup_goal1">Capturez le plus de drapeaux possible pour remporter le match.</string>
-	<string key="ui_capture_the_flag_title">Capture du drapeau</string>
-	<string key="ui_capture_the_flag_signup_failgrouppenalty">Un ou plusieurs membres de votre groupe ont reçu une pénalité de temps après avoir quitté un match de Capture du drapeau.</string>
-	<string key="ui_capture_the_flag_pregame_description">Début du match dans</string>
-	<string key="ctf_flag_enemy_team_scored">L'équipe ennemie a marqué</string>
-	<string key="ui_capture_the_flag_signup_goal3">Protégez votre porte-drapeau pour le ramener en toute sécurité.</string>
-	<string key="ui_capture_the_flag_signup_joinsolo">Jouer</string>
-	<string key="ctf_wild_flag_picked_up">Drapeau neutre subtilisé</string>
-	<string key="ctf_flag_dropped">Votre drapeau est tombé</string>
-	<string key="ui_capture_the_flag_leave_queue_title">Quitter la file d'attente</string>
-	<string key="ctf_wild_flag_dropped">Drapeau neutre tombé</string>
-	<string key="ctf_wild_flag_returned">Drapeau neutre rapporté</string>
-	<string key="ctf_eom_stat_captures">Captures</string>
-	<string key="ui_capture_the_flag_leave_queue_desc">Voulez-vous vraiment quitter la file d'attente de la Capture du drapeau ?</string>
-	<string key="ui_capture_the_flag_signup_goal2">Le drapeau de votre équipe doit se trouver chez vous pour obtenir le point.</string>
-	<string key="ctf_flag_status_dropped">Drapeau tombé</string>
-	<string key="arena_3v3_04_map_name">Aperçu de l'arène</string>
-	<string key="ui_ctf_leave">Quitter l'activité</string>
-	<string key="ui_capture_the_flag_invite_notification_text">Vous avez reçu une invitation pour participer à une Capture du drapeau !</string>
-	<string key="ctf_overtime_banner_title">Prolongation</string>
-	<string key="ctf_flag_our_team_scored">Votre équipe a marqué !</string>
-	<string key="ctf_flag_player_count">Joueurs : {count}</string>
-	<string key="ctf_overtime_banner_desc">Le prochain drapeau l'emporte !</string>
-	<string key="ui_cannot_travel_ctf">Le transfert rapide est impossible au cours de Capture du drapeau.</string>
-	<string key="ctf_flag_away_from_base">Vous devez avoir rapporté votre drapeau pour marquer</string>
-	<string key="ctf_blue_team">&lt;font color="#45d1ff"&gt;Équipe bleue&lt;/font&gt;</string>
-	<string key="ctf_flag_scored">Votre équipe a marqué</string>
-	<string key="ui_capture_the_flag_invite_notification_title">Inviter à une Capture du drapeau</string>
-	<string key="ui_ctf_leave_desc_time">Voulez-vous vraiment quitter la Capture du drapeau ?\nVous ne pourrez pas rejoindre la file d'attente de Capture du drapeau avant &lt;font color="#edc63e"&gt;[{time}]&lt;/font&gt;.</string>
-	<string key="ctf_eom_stat_flagbearers_killed">Porte-drapeaux éliminés</string>
-	<string key="ctf_002_Wide_Map_Name">Aperçu de la CDD</string>
-	<string key="ui_opr_no_perks_signup_goal3">Utilisez des ressources spéciales pour attaquer et vous défendre.</string>
+	<string key="gamemode_type_and_map_name_undefined" rel_version="Gamemode_CTF" comment="DO NOT TRANSLATE">[PH] Undefined Mode - Undefined Name</string>
+	<string key="ui_capture_the_flag_signup_joinsolo" rel_version="Gamemode_CTF">Jouer</string>
+	<string key="ui_capture_the_flag_title" rel_version="Gamemode_CTF">Capture du drapeau</string>
+	<string key="ui_capture_the_flag_pregame_description" rel_version="Gamemode_CTF">Début du match dans</string>
+	<string key="ui_capture_the_flag_begin" rel_version="Gamemode_CTF">PARTEZ !</string>
+	<string key="ui_capture_the_flag_invite_notification_title" rel_version="Gamemode_CTF">Inviter à une Capture du drapeau</string>
+	<string key="ui_capture_the_flag_invite_notification_text" rel_version="Gamemode_CTF">Vous avez reçu une invitation pour participer à une Capture du drapeau !</string>
+	<string key="ui_capture_the_flag_leave_queue_title" rel_version="Gamemode_CTF">Quitter la file d'attente</string>
+	<string key="ui_capture_the_flag_leave_queue_desc" rel_version="Gamemode_CTF">Voulez-vous vraiment quitter la file d'attente de la Capture du drapeau ?</string>
+	<string key="ui_capture_the_flag_signup_failgrouppenalty" rel_version="Gamemode_CTF">Un ou plusieurs membres de votre groupe ont reçu une pénalité de temps après avoir quitté un match de Capture du drapeau.</string>
+	<string key="ui_capture_the_flag_signup_goal1" rel_version="Gamemode_CTF">Capturez le plus de drapeaux possible pour remporter le match.</string>
+	<string key="ui_capture_the_flag_signup_goal2" rel_version="Gamemode_CTF">Le drapeau de votre équipe doit se trouver chez vous pour obtenir le point.</string>
+	<string key="ui_capture_the_flag_signup_goal3" rel_version="Gamemode_CTF">Protégez votre porte-drapeau pour le ramener en toute sécurité.</string>
+	<string key="ctf_gamemode_name" rel_version="Gamemode_CTF">Capture du drapeau</string>
+	<string key="ctf_gamemode_description" rel_version="Gamemode_CTF">Capture du drapeau est un mode de jeu en équipe au rythme effréné dans lequel il faut adopter des tactiques à la fois offensives et défensives. Défendez votre base tout en subtilisant le drapeau ennemi pour remporter la victoire.</string>
+	<string key="ctf_Map_Template_Name" rel_version="Gamemode_CTF" comment="DO NOT TRANSLATE">[PH] CTF - Unnamed Test Map</string>
+	<string key="ctf_Map_Temp_Name" rel_version="Gamemode_CTF" comment="DO NOT TRANSLATE">[PH] CTF - Unnamed Test Map</string>
+	<string key="ctf_002_Wide_Map_Name" rel_version="Gamemode_CTF">Cité Interdite</string>
+	<string key="ctf_003_Long_Map_Name" rel_version="Gamemode_CTF">Aperçu de la CDD</string>
+	<string key="ctf_blue_team" rel_version="Gamemode_CTF">&lt;font color="#45d1ff"&gt;Équipe bleue&lt;/font&gt;</string>
+	<string key="ctf_red_team" rel_version="Gamemode_CTF">&lt;font color="#f25d5d"&gt;Équipe rouge&lt;/font&gt;</string>
+	<string key="ctf_flag_dropped" rel_version="Gamemode_CTF">Votre drapeau est tombé</string>
+	<string key="ctf_flag_picked_up" rel_version="Gamemode_CTF">Votre drapeau a été subtilisé</string>
+	<string key="ctf_flag_returned" rel_version="Gamemode_CTF">Votre drapeau a été rapporté</string>
+	<string key="ctf_wild_flag_dropped" rel_version="Gamemode_CTF">Drapeau neutre tombé</string>
+	<string key="ctf_wild_flag_picked_up" rel_version="Gamemode_CTF">Drapeau neutre subtilisé</string>
+	<string key="ctf_wild_flag_returned" rel_version="Gamemode_CTF">Drapeau neutre rapporté</string>
+	<string key="ctf_flag_scored" rel_version="Gamemode_CTF">Votre équipe a marqué</string>
+	<string key="ctf_flag_you_scored" rel_version="Gamemode_CTF">Vous avez marqué !</string>
+	<string key="ctf_flag_our_team_scored" rel_version="Gamemode_CTF">Votre équipe a marqué !</string>
+	<string key="ctf_flag_enemy_team_scored" rel_version="Gamemode_CTF">L'équipe ennemie a marqué</string>
+	<string key="ctf_flag_away_from_base" rel_version="Gamemode_CTF">Vous devez avoir rapporté votre drapeau pour marquer</string>
+	<string key="ctf_flag_status_safe" rel_version="Gamemode_CTF">Drapeau en sécurité</string>
+	<string key="ctf_flag_status_dropped" rel_version="Gamemode_CTF">Drapeau tombé</string>
+	<string key="ctf_flag_status_taken" rel_version="Gamemode_CTF">Drapeau subtilisé</string>
+	<string key="ctf_flag_wild_timer" rel_version="Gamemode_CTF">Apparition dans {time}</string>
+	<string key="ctf_flag_wild_spawned" rel_version="Gamemode_CTF">Apparition du drapeau neutre</string>
+	<string key="ctf_flag_match_completed" rel_version="Gamemode_CTF">Match terminé</string>
+	<string key="ctf_flag_player_count" rel_version="Gamemode_CTF">Joueurs : {count}</string>
+	<string key="ctf_overtime_banner_title" rel_version="Gamemode_CTF">Prolongation</string>
+	<string key="ctf_overtime_banner_desc" rel_version="Gamemode_CTF">Le prochain drapeau l'emporte !</string>
+	<string key="ctf_eom_stat_captures" rel_version="Gamemode_CTF">Captures</string>
+	<string key="ctf_eom_stat_captures_team_flags" rel_version="Gamemode_CTF">Drapeaux de l'équipe</string>
+	<string key="ctf_eom_stat_captures_neutral_flags" rel_version="Gamemode_CTF">Drapeaux neutres</string>
+	<string key="ctf_eom_stat_flag_returns" rel_version="Gamemode_CTF">Drapeaux rapportés</string>
+	<string key="ctf_eom_stat_flagbearers_killed" rel_version="Gamemode_CTF">Porte-drapeaux éliminés</string>
+	<string key="ui_ctf_leave" rel_version="Gamemode_CTF">Quitter l'activité</string>
+	<string key="ui_cannot_travel_ctf" rel_version="Gamemode_CTF">Le transfert rapide est impossible au cours de Capture du drapeau.</string>
+	<string key="ui_ctf_leave_desc" rel_version="Gamemode_CTF">Voulez-vous vraiment quitter la Capture du drapeau ?</string>
+	<string key="ui_ctf_leave_desc_time" rel_version="Gamemode_CTF">Voulez-vous vraiment quitter la Capture du drapeau ?\nVous ne pourrez pas rejoindre la file d'attente de Capture du drapeau avant &lt;font color="#edc63e"&gt;[{time}]&lt;/font&gt;.</string>
+	<string key="ui_opr_no_perks_title" rel_version="Feature_DisabledPerkGameModes">Déferlante : Os à vif</string>
+	<string key="ui_opr_no_perks_signup_desc_cross_world" rel_version="Feature_DisabledPerkGameModes">Meilleur équipement d'emplacement non requis ! Participez à cette nouvelle version de la Déferlante où les avantages d'équipement sont désactivés et où le score d'équipement est au niveau maximum pour équilibrer le terrain de jeu.\n\nL'&lt;font color="#edc63e"&gt;équilibrage au score d'équipement&lt;/font&gt; augmente le score d'équipement à 725 pour tout l'équipement inférieur à 725.</string>
+	<string key="ui_opr_no_perks_signup_goal1" rel_version="Feature_DisabledPerkGameModes">Capturez et tenez des avant-postes pour marquer des points.</string>
+	<string key="ui_opr_no_perks_signup_goal2" rel_version="Feature_DisabledPerkGameModes">La première équipe à atteindre 1 000 points l'emporte.</string>
+	<string key="ui_opr_no_perks_signup_goal3" rel_version="Feature_DisabledPerkGameModes">Utilisez des ressources spéciales pour attaquer et vous défendre.</string>
+	<string key="ui_ctf_signup_goal1" rel_version="Gamemode_CTF" comment="DO NOT TRANSLATE">TEMP CTF TIP 1</string>
+	<string key="ui_ctf_signup_goal2" rel_version="Gamemode_CTF" comment="DO NOT TRANSLATE">TEMP CTF TIP 2</string>
+	<string key="ui_ctf_signup_goal3" rel_version="Gamemode_CTF" comment="DO NOT TRANSLATE">TEMP CTF TIP 3</string>
+	<string key="ui_session_ending_label">Fin de la session :</string>
 </resources>
 

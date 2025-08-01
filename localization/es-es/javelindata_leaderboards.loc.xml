@@ -159,6 +159,9 @@
 	<string key="ui_leaderboard_display_elitetrials_sandworm1" rel_version="Trial_Brimstone_Sandworm">Prueba del Devorador (por tiempo)</string>
 	<string key="ui_leaderboard_display_elitetrials_sandworm2" rel_version="Trial_Brimstone_Sandworm">Prueba del Devorador</string>
 	<string key="ui_leaderboard_tip_outpostrush_score" rel_version="Feature_Leaderboards">&lt;img src="lyshineui/images/icons/crossworld/icon_crossworld_identifier_tan" scale="2.0" xPadding="2" yOffset="5"&gt;&lt;/img&gt; &lt;font color="#ebe3d6"&gt;&lt;font face="lyshineui/fonts/Nimbus_Regular.font"&gt;Clasificación regional&lt;/font&gt;&lt;/font&gt;\n\nTu puntuación de Asalto a puesto remoto es la puntuación máxima que hayas obtenido en un enfrentamiento.</string>
+	<string key="ui_leaderboard_category_raids" rel_version="Season_8_Perm">Incursiones</string>
+	<string key="ui_leaderboard_display_raids_cutlassKeys1" rel_version="Season_8_Perm">Nido de la gorgona - Tiempo de finalización</string>
+	<string key="ui_leaderboard_display_raids_cutlassKeys2" rel_version="Season_8_Perm">Nido de la gorgona</string>
 	<string key="ui_leaderboard_display_regional">Regional</string>
 	<string key="ui_leaderboard_display_world_archived">Mundo (Archivado)</string>
 	<string key="ui_leaderboard_tip_regional_only">&lt;img src="lyshineui/images/icons/crossworld/icon_crossworld_identifier_tan" scale="2.0" xPadding="2" yOffset="5"&gt;&lt;/img&gt; Clasificaciones regionales\n\nConsulta las estadísticas y compite contra jugadores de toda tu región.\n\nLos mundos de consola solo compartirán clasificaciones regionales con otros mundos de consola.</string>
@@ -173,8 +176,28 @@
 	<string key="ui_leaderboard_column_assists" rel_version="Season_7_Perm">Asistencias</string>
 	<string key="ui_leaderboard_display_kda" rel_version="Season_7_Perm">Índice de asesinatos/muertes/asistencias</string>
 	<string key="ui_leaderboard_tip_kda" rel_version="Season_7_Perm">El índice de asesinatos/muertes/asistencias se calcula sumando los asesinatos y las asistencias y dividiendo el resultado entre las muertes.</string>
-	<string key="ui_leaderboard_category_raids">Incursiones</string>
-	<string key="ui_leaderboard_display_raids_cutlassKeys2">Nido de la gorgona</string>
-	<string key="ui_leaderboard_display_raids_cutlassKeys1">Nido de la gorgona - Tiempo de finalización</string>
+	<string key="ui_leaderboard_display_capture_the_flag_kill_death_assist">Índice de asesinatos/muertes/asistencias</string>
+	<string key="ui_leaderboard_display_capture_the_flag_best_kills">Mejores asesinatos</string>
+	<string key="ui_leaderboard_display_capture_the_flag_points">Puntos de bandera</string>
+	<string key="ui_leaderboard_tip_flag_returns">Veces que has devuelto una bandera robada a tu base.</string>
+	<string key="ui_leaderboard_display_capture_the_flag_damage_dealt">Daño infligido</string>
+	<string key="ui_leaderboard_column_returns">Devoluciones</string>
+	<string key="ui_leaderboard_column_best_kills">Mejores asesinatos</string>
+	<string key="ui_leaderboard_display_capture_the_flag_kills">Asesinatos</string>
+	<string key="ui_leaderboard_column_kill_death_ratio">Índice de asesinatos/muertes</string>
+	<string key="ui_leaderboard_category_capture_the_flag">Captura la bandera</string>
+	<string key="ui_leaderboard_display_capture_the_flag_returns">Devoluciones</string>
+	<string key="ui_leaderboard_second_level_category_test">Categoría de segundo nivel</string>
+	<string key="ui_leaderboard_display_capture_the_flag_kill_death">Índice de asesinatos/muertes</string>
+	<string key="ui_leaderboard_display_capture_the_flag_heals">Curaciones</string>
+	<string key="ui_leaderboard_display_capture_the_flag_assists">Asistencias</string>
+	<string key="ui_leaderboard_display_capture_the_flag_score">Puntuación</string>
+	<string key="ui_leaderboard_column_points">Puntos de bandera</string>
+	<string key="ui_leaderboard_tip_kd">El índice de asesinatos y muertes se calcula dividiendo el número de asesinatos por el número de muertes.</string>
+	<string key="ui_leaderboard_column_kill_death_assist_ratio">Índice de asesinatos/muertes/asistencias</string>
+	<string key="ui_leaderboard_category_desc">Descripción de categoría</string>
+	<string key="ui_leaderboard_column_total_kills">Asesinatos totales</string>
+	<string key="ui_leaderboard_display_capture_the_flag_wins">Victorias</string>
+	<string key="ui_leaderboard_tip_flag_points">Cuántos puntos has conseguido al robar la bandera enemiga.</string>
 </resources>
 

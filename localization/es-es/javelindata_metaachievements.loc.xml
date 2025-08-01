@@ -694,7 +694,7 @@
 	<string key="ui_metachievement_quest_monarchsbluffs_msq_title">La diadema de espadas</string>
 	<string key="ui_metachievement_quest_monarchsbluffs_msq_title_SHE">La diadema de espadas</string>
 	<string key="ui_metachievement_quest_monarchsbluffs_msq_title_THEY">La diadema de espadas</string>
-	<string key="ui_metachievement_quest_monarchsbluffs_side_title">Tras los pasos de sir Payne</string>
+	<string key="ui_metachievement_quest_monarchsbluffs_side_title">Tras los pasos de Sir Payne</string>
 	<string key="ui_metachievement_quest_monarchsbluffs_side_title_SHE">Tras los pasos de Sir Payne</string>
 	<string key="ui_metachievement_quest_monarchsbluffs_side_title_THEY">Tras los pasos de Sir Payne</string>
 	<string key="ui_metachievement_questarc_mourningdale_title1">El precio del padre</string>
@@ -1038,7 +1038,7 @@
 	<string key="ui_metaachievement_all_territories_leaderboard_top1_trial_devourer_title" rel_version="Trial_Brimstone_Sandworm">El Devorador Vencedor</string>
 	<string key="ui_metaachievement_all_territories_leaderboard_top10_trial_devourer_title" rel_version="Trial_Brimstone_Sandworm">El Devorador Medallista</string>
 	<string key="ui_metaachievement_edengrove_leaderboard_top1_company_score_title">Número uno de la Arboleda del Edén</string>
-	<string key="ui_metaachievement_edengrove_leaderboard_top10_company_score_title">Número uno de la Arboleda del Edén</string>
+	<string key="ui_metaachievement_edengrove_leaderboard_top10_company_score_title">Medallista de la Arboleda del Edén</string>
 	<string key="ui_metachievement_pvefactionmissions_arcana_title1">Avituallador arcano</string>
 	<string key="ui_metachievement_pvefactionmissions_arcana_title1_SHE">Avituallador arcano</string>
 	<string key="ui_metachievement_pvefactionmissions_arcana_title1_THEY">Avituallador arcano</string>
@@ -3762,14 +3762,17 @@
 	<string key="ui_meta_achievements_claim_reward_desc_one">¡Abre el menú de logros para reclamar 1 recompensa!</string>
 	<string key="ui_meta_achievements_claim_reward_desc_mult">¡Abre el menú de logros para reclamar {number} recompensas!</string>
 	<string key="ui_meta_achievements_rewards_available">Recompensas disponibles</string>
-	<string key="ui_meta_achievements_rewards_available_desc_mult">¡Puedes reclamar {number} recompensas por logros!</string>
-	<string key="ui_meta_achievements_rewards_available_desc_one">¡Puedes reclamar 1 recompensa por logro!</string>
+	<string key="ui_meta_achievements_rewards_available_desc_mult">¡Tienes &lt;font color={color}&gt;{number} recompensas&lt;/font&gt; que reclamar!</string>
+	<string key="ui_meta_achievements_rewards_available_desc_one">¡Tienes &lt;font color={color}&gt;1 recompensa&lt;/font&gt; que reclamar!</string>
 	<string key="ui_meta_achievements_claim_all">Reclamarlas todas</string>
 	<string key="ui_meta_achievements_rewards_claimed">Recompensas reclamadas</string>
 	<string key="ui_meta_achievements_rewards_claimed_desc_mult">Has reclamado {number} recompensas por logros</string>
 	<string key="ui_meta_achievements_rewards_claimed_desc_one">Has reclamado 1 recompensa por logro</string>
+	<string key="ui_meta_achievements_reward_title">Recompensas por logros</string>
 	<string key="ui_meta_achievements_reward_type_title">Título</string>
 	<string key="ui_meta_achievements_reward_type_title_plural">Títulos</string>
+	<string key="ui_meta_achievements_reward_type_title_reward">Título de recompensa</string>
+	<string key="ui_meta_achievements_reward_tooltip">&lt;font color={titleColor} face="lyshineui/fonts/Nimbus_semibold.font"&gt;{rewardTitle}&lt;/font&gt;\n{rewardDescription}\n\n{rewardText}</string>
 	<string key="ui_meta_achievements_coming_soon">: PRÓXIMAMENTE</string>
 	<string key="ui_meta_achievements_roman_numeral_i">I</string>
 	<string key="ui_meta_achievements_roman_numeral_ii">II</string>
@@ -3913,9 +3916,9 @@
 	<string key="ui_metachievement_leaderboard_daysgoverned_description" rel_version="Feature_Seasonal_Servers">Se obtiene por formar parte de la clasificación de días de gobierno del mundo de la temporada 7.</string>
 	<string key="ui_metachievement_leaderboard_streakgoverned_title" rel_version="Feature_Seasonal_Servers">Conquistador eterno</string>
 	<string key="ui_metachievement_leaderboard_streakgoverned_description" rel_version="Feature_Seasonal_Servers">Se obtiene por formar parte de la clasificación de racha de control del mundo de la temporada 7.</string>
-	<string key="ui_metaachievement_all_territories_leaderboard_top10_trial_hercyneraid_desc">Título que se obtiene por quedar entre los 50 primeros de la clasificación de la incursión del nido de la gorgona.</string>
-	<string key="ui_metaachievement_all_territories_leaderboard_top10_trial_hercyneraid_title">Medallista del nido de la gorgona</string>
-	<string key="ui_metaachievement_all_territories_leaderboard_top1_trial_hercyneraid_desc">Título que se obtiene por quedar entre los diez primeros de la clasificación de la incursión del nido de la gorgona.</string>
-	<string key="ui_metaachievement_all_territories_leaderboard_top1_trial_hercyneraid_title">Número uno del nido de la gorgona</string>
+	<string key="ui_metaachievement_all_territories_leaderboard_top1_trial_hercyneraid_title" rel_version="Season_8_Perm">Número uno del nido de la gorgona</string>
+	<string key="ui_metaachievement_all_territories_leaderboard_top10_trial_hercyneraid_title" rel_version="Season_8_Perm">Medallista del nido de la gorgona</string>
+	<string key="ui_metaachievement_all_territories_leaderboard_top1_trial_hercyneraid_desc" rel_version="Season_8_Perm">Título que se obtiene por quedar entre los diez primeros de la clasificación de la incursión del nido de la gorgona.</string>
+	<string key="ui_metaachievement_all_territories_leaderboard_top10_trial_hercyneraid_desc" rel_version="Season_8_Perm">Título que se obtiene por quedar entre los 50 primeros de la clasificación de la incursión del nido de la gorgona.</string>
 </resources>
 

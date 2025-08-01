@@ -1115,6 +1115,8 @@
 	<string key="GemOnyx_CategoryName">Gemas de ónice</string>
 	<string key="GemOpal_CategoryName">Gemas de ópalo</string>
 	<string key="GemPearl_CategoryName">Gemas de perla</string>
+	<string key="GemJade_CategoryName">Gemas de jade</string>
+	<string key="GemTurq_CategoryName">Gemas de turquesa</string>
 	<string key="gemPouch_GroupName">Bolsas de gemas</string>
 	<string key="GemRuby_CategoryName">Gemas de rubí</string>
 	<string key="GemSapp_CategoryName">Gemas de zafiro</string>
@@ -1746,7 +1748,7 @@
 	<string key="SurvivalTools_GroupName">Herramientas de supervivencia</string>
 	<string key="SwordA_GroupDesc">Unas armas para ataques cuerpo a cuerpo que, al combinarse, ofrecen capacidades ofensivas y defensivas óptimas. Utilizan una mezcla de cortes en arco y arremetidas como ofensiva y un escudo para potenciar la defensa.\n\n•Ataque ligero: Inflige {[1.000000 * 100]} % de daño de &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_slash_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt;.\n•Remate ligero: Inflige {[1.050000 * 100]} % de daño de &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_slash_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt;.\n•Ataque pesado: Inflige {[1.200000 * 100]} % de daño de &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_thrust_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt;.\n•Ataque pesado cargado: Inflige un {[1.600000 * 100]} %&lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_thrust_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; de daño.\n\nCompatibilidad con gema de provocación: Los ataques pesados con espadas con una cornalina incrustada provocan durante {[0.500000]} s. (Los monstruos provocados solo te atacarán a ti).</string>
 	<string key="SwordA_GroupName">Espadas rectas</string>
-	<string key="SwordB_GroupDesc">Unas armas cuerpo a cuerpo que se centran en la velocidad y en los ataques rápidos. Destacan en combates precisos donde se domina al enemigo y aplican sangrados que drenan la salud del objetivo con el tiempo.\n\n•Ataque ligero: Inflige {[1.000000 * 100]} % de daño de &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_thrust_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt;.\n•Tajos medios ligeros: Inflige {[0.660000 * 100]} % de daño de &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_thrust_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt;.\n•Ataque pesado: Inflige un {[1.330000 * 100]} %&lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_thrust_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; de daño.\n\nCompatibilidad con gema de provocación: Los ataques pesados con estoques con una cornalina incrustada provocan durante {[0.500000]} s. (Los monstruos provocados solo te atacarán a ti).</string>
+	<string key="SwordB_GroupDesc">Unas armas cuerpo a cuerpo que se centran en la velocidad y en los ataques rápidos. Destacan en combates precisos donde se domina al enemigo y aplican sangrados que drenan la salud del objetivo con el tiempo.\n\n•Ataque ligero: Inflige {[1.000000 * 100]} % de daño de &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_thrust_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt;.\n•Tajos medios ligeros: Inflige {[0.660000 * 100]} % de daño de &lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_thrust_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt;.\n•Ataque pesado: Inflige un {[1.660000 * 100]} %&lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_thrust_opaque" xPadding="0" scale="1.7" yOffset="4"&gt;&lt;/img&gt; de daño.\n\nCompatibilidad con gema de provocación: Los ataques pesados con estoques con una cornalina incrustada provocan durante {[0.500000]} s. (Los monstruos provocados solo te atacarán a ti).</string>
 	<string key="SwordB_GroupName">Estoques</string>
 	<string key="SwordC_GroupDesc">A una mano.</string>
 	<string key="SwordC_GroupName">Sables</string>
@@ -1874,6 +1876,11 @@
 	<string key="AlchemyAlkahestT1_GroupName">Alkahest</string>
 	<string key="AlchemyCritters_GroupName">Criaturas de la alquimia</string>
 	<string key="Summer">Verano</string>
+	<string key="SummerMemento" rel_version="Event_Summer_Temp">Recuerdos de verano</string>
+	<string key="MementoStand" rel_version="Event_Summer_Temp">Bases para recuerdos</string>
+	<string key="SmallMemento" rel_version="Event_Summer_Temp">Recuerdos pequeños de peces</string>
+	<string key="MediumMemento" rel_version="Event_Summer_Temp">Recuerdos medianos de peces</string>
+	<string key="LargeMemento" rel_version="Event_Summer_Temp">Recuerdos grandes de peces</string>
 	<string key="Instruments_GroupName" rel_version="Feature_MusicalPerformances">Instrumentos</string>
 	<string key="CategoryData_Instruments" rel_version="Feature_MusicalPerformances">Instrumentos</string>
 	<string key="InstrumentParts_GroupName" rel_version="Feature_MusicalPerformances">Partes de instrumento</string>
@@ -2057,18 +2064,18 @@
 	<string key="EtherealDust_GroupName" comment="DO NOT TRANSLATE" rel_version="PvPServerConquerorsItems">Ethereal Dust XP Conversion</string>
 	<string key="BetaRewards_GroupName">Recompensas de la beta</string>
 	<string key="OPRBetas_GroupName">Recompensas del Asalto a puesto remoto</string>
-	<string key="ReekwaterUplevelRare_GroupName">Raro</string>
-	<string key="ReekwaterUplevelCommon_GroupName">Común</string>
-	<string key="RuneResinTrophies_GroupName">Trofeos de resina de árbol rúnico</string>
-	<string key="RuneResinRecipes_GroupName">Recetas de resina de árbol rúnico</string>
-	<string key="AdventurersEquipment_GroupName">Equipo</string>
-	<string key="AdventurerCaches_GroupName">Alijos de aventurero</string>
-	<string key="OrichalciteWeapons_GroupName">Armas de oricalco</string>
-	<string key="OrichalciteArmors_GroupName">Armaduras de oricalco</string>
-	<string key="OrichalciteJewelry_GroupName">Joyas de oricalco</string>
-	<string key="OrichalciteRecipes_GroupName">Recetas de oricalco</string>
-	<string key="AdventurersItems_GroupName">Objetos</string>
-	<string key="S8CacheCraft_GroupName">Artesanía de la temporada 8</string>
-	<string key="AdventurersConsumables_GroupName">Consumibles</string>
+	<string key="ReekwaterUplevelRare_GroupName" rel_version="Season_8_Perm">Raro</string>
+	<string key="ReekwaterUplevelCommon_GroupName" rel_version="Season_8_Perm">Común</string>
+	<string key="AdventurerCaches_GroupName" rel_version="Seasonal_Server_2">Alijos de aventurero</string>
+	<string key="AdventurersEquipment_GroupName" rel_version="Seasonal_Server_2">Equipo</string>
+	<string key="AdventurersConsumables_GroupName" rel_version="Seasonal_Server_2">Consumibles</string>
+	<string key="AdventurersItems_GroupName" rel_version="Seasonal_Server_2">Objetos</string>
+	<string key="S8CacheCraft_GroupName" rel_version="Seasonal_Server_2">Artesanía de la temporada 8</string>
+	<string key="OrichalciteRecipes_GroupName" rel_version="Seasonal_Server_2">Recetas de oricalco</string>
+	<string key="OrichalciteArmors_GroupName" rel_version="Seasonal_Server_2">Armaduras de oricalco</string>
+	<string key="OrichalciteWeapons_GroupName" rel_version="Seasonal_Server_2">Armas de oricalco</string>
+	<string key="OrichalciteJewelry_GroupName" rel_version="Seasonal_Server_2">Joyas de oricalco</string>
+	<string key="RuneResinRecipes_GroupName" rel_version="Seasonal_Server_2">Recetas de resina de árbol rúnico</string>
+	<string key="RuneResinTrophies_GroupName" rel_version="Seasonal_Server_2">Trofeos de resina de árbol rúnico</string>
 </resources>
 

@@ -79,7 +79,7 @@
 	<string key="reward_type_service" rel_version="Feature_MTX">Serviço</string>
 	<string key="reward_type_loadout" rel_version="Feature_Gear_Set_Storage">Conjunto de Equipamento</string>
 	<string key="reward_type_transmog" rel_version="Season_2_Perm">Token de Alteração de Aparência</string>
-	<string key="reward_type_barbershop" rel_version="Feature_Barbershop">Barbershop Token</string>
+	<string key="reward_type_barbershop" rel_version="Feature_Barbershop">Token de Barbearia</string>
 	<string key="entitlement_included" rel_version="Feature_MTX">Incluído</string>
 	<string key="ui_account_bound" rel_version="Feature_MTX">Todos os itens são vinculados à conta (não negociáveis) e não reembolsáveis.</string>
 	<string key="ui_account_bound_marks" rel_version="Feature_MTX">As Marcas da Sorte são vinculadas à conta (não negociáveis) e não reembolsáveis.</string>
@@ -87,7 +87,7 @@
 	<string key="store_warning_durable_tooltip" rel_version="MTXStore_V2">Os itens da loja são compartilhados por todos os personagens da mesma conta.</string>
 	<string key="store_confirm_purchase_item_cost" rel_version="Feature_MTX">Desbloquear &lt;font color="#ebe3d6" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{itemName}&lt;/font&gt; por &lt;img src="lyshineui/images/mtx/icon_mtx_currency" xPadding="2" scale="1.8" yOffset="5"&gt;&lt;/img&gt;&lt;font color="#ebe3d6" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{cost}&lt;/font&gt;?</string>
 	<string key="store_confirm_purchase_balance" rel_version="Feature_MTX">Novo Saldo: &lt;img src="lyshineui/images/mtx/icon_mtx_currency" xPadding="2" scale="1.8" yOffset="5"&gt;&lt;/img&gt;&lt;font color="#ebe3d6" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{amount}&lt;/font&gt;</string>
-	<string key="store_confirm_currency_title" rel_version="MTXStore_V2">INSUFICIENTE PARA DESBLOQUEAR</string>
+	<string key="store_confirm_currency_title" rel_version="MTXStore_V2">SALDO INSUFICIENTE</string>
 	<string key="store_confirm_purchase_currency" rel_version="MTXStore_V2">Comprar &lt;img src="lyshineui/images/mtx/icon_mtx_currency" xPadding="2" scale="1.8" yOffset="5"&gt;&lt;/img&gt;&lt;font color="#ebe3d6" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{amount}&lt;/font&gt; para &lt;font color="#ebe3d6" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{cost}&lt;/font&gt;?</string>
 	<string key="ui_unlock_for" rel_version="Feature_MTX">Desbloqueie por &lt;img src="lyshineui/images/mtx/icon_mtx_currency" scale="2.5" yOffset="10"&gt;&lt;/img&gt;&lt;font face="lyshineui/fonts/Pica_Regular.font"&gt;{amount}&lt;/font&gt;</string>
 	<string key="ui_unlock_with_icon" rel_version="Feature_MTX">&lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_purchase" scale="1.75" yOffset="3.5"&gt;&lt;/img&gt; Desbloquear</string>
@@ -117,7 +117,7 @@
 	<string key="ui_transfer_requirement_minimum_level" rel_version="Feature_MTX">Você deve estar pelo menos no nível {level}</string>
 	<string key="ui_transfer_requirement_no_houses" rel_version="Feature_MTX">Você não pode possuir nenhuma Casa</string>
 	<string key="ui_transfer_requirement_cooldown" rel_version="Feature_MTX">Você deve esperar até o final do tempo de recarga para poder se transferir para outro mundo ou região novamente</string>
-	<string key="ui_transfer_requirement_cooldown_prefix" rel_version="Feature_MTX">&lt;img src="LyShineUI/Images/Icons/Misc/icon_hourglass_yellow.png" xPadding="0" scale="1.1" yOffset="1"&gt;&lt;/img&gt;</string>
+	<string key="ui_transfer_requirement_cooldown_prefix" rel_version="Feature_MTX">&lt;img src="LyShineUI/Images/Icons/Misc/icon_hourglass_yellow.png" xPadding="0" scale="1.1" yOffset="1"&gt;&lt;/img&gt; {time}</string>
 	<string key="ui_transfer_requirement_makegood" rel_version="Feature_Make_Good">Você não pode ter Compensações não reivindicadas</string>
 	<string key="ui_transfer_no_transfer_tooltip" rel_version="Feature_MTX">Os personagens não podem ser transferidos deste mundo no momento.</string>
 	<string key="ui_transfer_no_transfer_tooltip_freshstart" rel_version="Feature_MTX">Não é possível transferir personagens de Mundos Novos.</string>
@@ -154,7 +154,7 @@
 	<string key="reward_type_tooltip_transmog" rel_version="Season_2_Perm">Para usar um Token de Alteração de Aparência, vá até um Estilomante.</string>
 	<string key="reward_type_tooltip_mount" rel_version="Feature_Mounts">Para equipar uma Montaria, abra Montarias.</string>
 	<string key="reward_type_tooltip_mountattachment" rel_version="Feature_Mounts">Para equipar uma Aparência de Acréscimos de Montaria, selecione Ver Equipamento de Montaria no Inventário, depois escolha um Acréscimo de Montaria equipado.</string>
-	<string key="reward_type_tooltip_barbershop" rel_version="Feature_Barbershop">To use a Barbershop Token, go to a Stylemancer.</string>
+	<string key="reward_type_tooltip_barbershop" rel_version="Feature_Barbershop">Para usar um Token de Barbearia, vá até um Estilomante.</string>
 	<string key="ui_crest_disclaimer" rel_version="Feature_MTX">&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;Aviso:&lt;/font&gt; Brasões da Companhia só podem ser usados se você for o governador (criador) da companhia.</string>
 	<string key="ui_disabled_default_title" rel_version="Feature_MTX">Conteúdo Indisponível</string>
 	<string key="ui_disabled_default_description" rel_version="Feature_MTX">Este conteúdo não está disponível no momento.</string>
@@ -222,12 +222,12 @@
 	<string key="runic_jackal_name" rel_version="Apparel_RunicJackal">Chacal Rúnico</string>
 	<string key="crescent_fang_name" rel_version="Weapon_CrescentFang">Presa Crescente</string>
 	<string key="arm_flex_name" rel_version="New_World_Launch">Flexionar Braço</string>
-	<string key="Icon_Crest_Pack_Merriment_name" rel_version="New_World_Launch">Pacote de Brasões da Alegria</string>
+	<string key="Icon_Crest_Pack_Merriment_name" rel_version="New_World_Launch">Folia</string>
 	<string key="EntitlementSkin_Medium_Angel_name" rel_version="AngelsDemonsWeapons">Égide da Providência</string>
 	<string key="EntitlementSkin_AnglesDemon_WarHammer_name" rel_version="AngelsDemonsWeapons">Ira do Destruidor</string>
 	<string key="galaxy_rabbit_name" rel_version="New_World_Launch">Lebre Celestial</string>
 	<string key="eyesonyou_name" rel_version="New_World_Launch">De Olho em Você</string>
-	<string key="Icon_Crest_Pack_Smugglers_name" rel_version="New_World_Launch">Pacote de Brasões dos Contrabandistas</string>
+	<string key="Icon_Crest_Pack_Smugglers_name" rel_version="New_World_Launch">Contrabandistas</string>
 	<string key="runic_jackal_description" rel_version="Apparel_RunicJackal">“Há chifres para beber e chifres para vestir. Ambos são necessários.”</string>
 	<string key="crescent_fang_description" rel_version="Weapon_CrescentFang">“Com uma mordida tão temível quanto a da serpente do mundo.”</string>
 	<string key="arm_flex_description" rel_version="New_World_Launch">“Mostre sua força.”</string>
@@ -248,13 +248,13 @@
 	<string key="runic_bear_name" rel_version="Apparel_RunicBear">Urso Rúnico</string>
 	<string key="runic_fox_name" rel_version="Apparel_RunicFox">Raposa Rúnica</string>
 	<string key="EntitlementSkin_SpecialCorruptedVar1_name" rel_version="New_World_Launch">Fúria Dourada</string>
-	<string key="Icon_Crest_Pack_AnimalHead_name" rel_version="New_World_Launch">Pacote de Brasões de Cabeças de Animais</string>
-	<string key="Icon_Crest_Pack_FullDeck_name" rel_version="New_World_Launch">Pacote de Brasões dos Naipes de Baralho</string>
-	<string key="Icon_Crest_Pack_Gesture_name" rel_version="New_World_Launch">Pacote de Brasões de Gestos</string>
+	<string key="Icon_Crest_Pack_AnimalHead_name" rel_version="New_World_Launch">Cabeças de Animais</string>
+	<string key="Icon_Crest_Pack_FullDeck_name" rel_version="New_World_Launch">Naipes de Baralho</string>
+	<string key="Icon_Crest_Pack_Gesture_name" rel_version="New_World_Launch">Gestos</string>
 	<string key="twitch_pirate_crestpack_name" rel_version="New_World_Launch">Pacote de Brasões de Pirata</string>
-	<string key="Icon_Crest_Pack_RobinHood_name" rel_version="New_World_Launch">Pacote de Brasões do Robin Hood</string>
-	<string key="Icon_Crest_Pack_Thespain_name" rel_version="Apparel_Thespian">Pacote de Brasões Tespianos</string>
-	<string key="Icon_Crest_Pack_WeaponMaster_name" rel_version="New_World_Launch">Pacote de Brasões do Mestre de Armamentos</string>
+	<string key="Icon_Crest_Pack_RobinHood_name" rel_version="New_World_Launch">Robin Hood</string>
+	<string key="Icon_Crest_Pack_Thespain_name" rel_version="Apparel_Thespian">Tespiana</string>
+	<string key="Icon_Crest_Pack_WeaponMaster_name" rel_version="New_World_Launch">Mestre das Armas</string>
 	<string key="twitch_robinhood_emote_blowkiss_name" rel_version="New_World_Launch">Mandar Beijo</string>
 	<string key="coin_toss_name" rel_version="New_World_Launch">Lançar Moeda</string>
 	<string key="applause_name" rel_version="New_World_Launch">Aplauso Cortês</string>
@@ -455,6 +455,7 @@
 	<string key="server_transfer_unavailable_duel" rel_version="Feature_Server_Transfer">Você não pode se transferir para outro mundo enquanto estiver em um Duelo.</string>
 	<string key="server_transfer_unavailable_outpost_rush" rel_version="Feature_Server_Transfer">Você não pode se transferir para outro mundo enquanto estiver em uma Investida do Posto Avançado.</string>
 	<string key="server_transfer_unavailable_outpost_rush_queue" rel_version="Feature_Server_Transfer">Você não pode se transferir para outro mundo enquanto estiver em uma fila para Investida do Posto Avançado.</string>
+	<string key="server_transfer_unavailable_game_mode_queue" rel_version="Feature_Server_Transfer">Você não pode se transferir para outro mundo enquanto está em uma fila para modos de jogo.</string>
 	<string key="server_transfer_unavailable_transfer_world_full" rel_version="Feature_Server_Transfer">A lista de transferências desta região está lotada. Tente novamente em algumas horas.</string>
 	<string key="server_transfer_unavailable_target_region_characters_slots_full" rel_version="Feature_Server_Transfer">Os espaços de personagem nesta região estão cheios. Você precisará excluir ou transferir um personagem existente nesta região antes de poder fazer transferência para outra.</string>
 	<string key="server_transfer_unavailable_freshstart" rel_version="Feature_FreshStart">Apenas novos personagens podem ser criados neste Mundo Novo. Não é possível transferir personagens para este Mundo Novo.</string>
@@ -706,8 +707,8 @@
 	<string key="reward_type_house_pet" rel_version="New_World_Launch">Animal de Estimação</string>
 	<string key="reward_type_guildcrest_pack" rel_version="New_World_Launch">Conjunto de Brasões da Companhia</string>
 	<string key="reward_type_Apparelskin_Set" rel_version="New_World_Launch">Conjunto de Aparências para Vestimenta</string>
-	<string key="reward_type_Toolskin_Set" rel_version="New_World_Launch">Conjunto de Aparências para Ferramenta</string>
-	<string key="reward_type_Housing_Set" rel_version="New_World_Launch">Conjunto de Decoração de Alojamento</string>
+	<string key="reward_type_Toolskin_Set" rel_version="New_World_Launch">Aparências de Ferramenta</string>
+	<string key="reward_type_Housing_Set" rel_version="New_World_Launch">Itens da casa</string>
 	<string key="Weapon_Bow_CorruptedLove_name" rel_version="Weapon_Bow_February_MTX">Arco do Cupido</string>
 	<string key="Weapon_FireStaff_CorruptedLove_name" rel_version="Weapon_FireStaff_February_MTX">Admiração Fulgurante</string>
 	<string key="Weapon_IceGauntlet_CorruptedLove_name" rel_version="Weapon_IceGauntlet_February_MTX">Abraço Frio do Amor</string>
@@ -791,7 +792,7 @@
 	<string key="Bundle_PR_RPG_Weapons_name" rel_version="MTX_ClassicRPG_Weapon_Skins">Conjunto de Armas O Tesouro do Dragão</string>
 	<string key="Bundle_PR_RPG_Apparel_description" rel_version="MTX_ClassicRPG_Weapon_Skins">“O traje perfeito para explorar florestas primitivas ou masmorras abissais.”</string>
 	<string key="Bundle_PR_RPG_Weapons_description" rel_version="MTX_ClassicRPG_Weapon_Skins">“Armas adormecidas há muito tempo no covil de um verme perverso, ainda afiadas e prontas para a batalha.”</string>
-	<string key="Bundle_Crest_Plants_name" rel_version="Crest_Pack_Plants">Pacote de Brasões de Plantas</string>
+	<string key="Bundle_Crest_Plants_name" rel_version="Crest_Pack_Plants">Plantas</string>
 	<string key="Bundle_Crest_Plants_description" rel_version="Crest_Pack_Plants">“Realizando o sonho de um colhedor.”</string>
 	<string key="ui_crestforeground_213" rel_version="Crest_Pack_Plants">Feixe de Plantas</string>
 	<string key="ui_crestforeground_214" rel_version="Crest_Pack_Plants">Folha de Cânhamo</string>
@@ -864,7 +865,7 @@
 	<string key="Bundle_Decor_Egyptian_description" rel_version="Housing_Egyptian_MTX_Pack_2022">Alguns tesouros devem permanecer enterrados sob as areias do deserto.</string>
 	<string key="Bundle_Weapon_Wicked_name" rel_version="Weapon_Wicked_ShieldT_MTX">Conjunto de Armas Caminhos Perversos</string>
 	<string key="Bundle_Weapon_Wicked_description" rel_version="Weapon_Wicked_ShieldT_MTX">Quando você encara a gema, o mal encara de volta.</string>
-	<string key="Bundle_Crest_Egyptian_name" rel_version="Crest_Pack_Egyptian">Pacote de Brasões do Egito</string>
+	<string key="Bundle_Crest_Egyptian_name" rel_version="Crest_Pack_Egyptian">Egito</string>
 	<string key="Bundle_Crest_Egyptian_description" rel_version="Crest_Pack_Egyptian">Você amaldiçoa seus inimigos ou simplesmente os esmaga com seu poder? O importante é que eles fujam da sua presença.</string>
 	<string key="ui_crestforeground_216" rel_version="Crest_Pack_Egyptian">Ascensão de Hórus</string>
 	<string key="ui_crestforeground_217" rel_version="Crest_Pack_Egyptian">Asas de Bastet</string>
@@ -901,7 +902,7 @@
 	<string key="Bundle_PR_ClassicMonster_Apparel_description" rel_version="Apparel_Nightmares_2">As fantasias certamente causarão agitação na festa e farão os foliões sacarem suas lâminas com medo da sua chegada.</string>
 	<string key="Bundle_PR_ClassicMonster_Weapons_name" rel_version="Weapon_Monster_ShieldK_MTX">Conjunto de Armas Monstro Clássico</string>
 	<string key="Bundle_PR_ClassicMonster_Weapons_description" rel_version="Weapon_Monster_ShieldK_MTX">Conjure os medos mais primordiais naqueles que se opõem a você.</string>
-	<string key="Bundle_Crest_Nightmares_name" rel_version="Crest_Pack_Nightmares">Pacote de Brasões Pesadelos</string>
+	<string key="Bundle_Crest_Nightmares_name" rel_version="Crest_Pack_Nightmares">Pesadelos</string>
 	<string key="Bundle_Crest_Nightmares_description" rel_version="Crest_Pack_Nightmares">Aterrorize os exércitos tolos o suficiente para se levantarem contra você.</string>
 	<string key="Apparel_DarkFae_1_name" rel_version="Apparel_DarkFae_1">Regalia de Titania</string>
 	<string key="Apparel_DarkFae_2_name" rel_version="Apparel_DarkFae_2">Armadura de Oberon</string>
@@ -1023,20 +1024,21 @@
 	<string key="reward_type_Toolskin_skinningknife">Aparência de Faca de Esfolar</string>
 	<string key="reward_type_Toolskin_harvestingsickle">Aparência de Foice de Colheita</string>
 	<string key="reward_type_Toolskin_azothstaff">Aparência de Bastão de Azoth</string>
-	<string key="Token_PremiumEmote_Firework1_name" rel_version="Feature_Premium_Emotes">Permissão do Gesto de Fogo de Artifício de Flores</string>
+	<string key="Token_PremiumEmote_Firework1_name" rel_version="Feature_Premium_Emotes">Fogo de Artifício da Flor</string>
 	<string key="Token_PremiumEmote_Firework1_description" rel_version="Feature_Premium_Emotes">Uma explosão de cores deslumbrante! Permite o uso do gesto de fogo de artifício Foguete de Flor por 24 horas.</string>
-	<string key="Token_PremiumEmote_Firework2_name" rel_version="Feature_Premium_Emotes">Permissão do Gesto de Fogo de Artifício da Dinastia</string>
+	<string key="Token_PremiumEmote_Firework2_name" rel_version="Feature_Premium_Emotes">Fogo de Artifício da Dinastia</string>
 	<string key="Token_PremiumEmote_Firework2_description" rel_version="Feature_Premium_Emotes">Diversão de feriado vibrante! Permite o uso do gesto de fogo de artifício Foguete da Dinastia por 24 horas.</string>
-	<string key="Token_PremiumEmote_Firework3_name" rel_version="Feature_Premium_Emotes">Permissão do Gesto de Fogo de Artifício dos Dríades</string>
+	<string key="Token_PremiumEmote_Firework3_name" rel_version="Feature_Premium_Emotes">Fogo de Artifício de Dríades</string>
 	<string key="Token_PremiumEmote_Firework3_description" rel_version="Feature_Premium_Emotes">Uma explosão de esmeraldas! Permite o uso do gesto de fogo de artifício Foguete de Dríade por 24 horas.</string>
-	<string key="Token_PremiumEmote_Firework4_name" rel_version="Feature_Premium_Emotes">Permissão do Gesto de Fogo de Artifício dos Anciões</string>
+	<string key="Token_PremiumEmote_Firework4_name" rel_version="Feature_Premium_Emotes">Fogo de Artifício de Anciões</string>
 	<string key="Token_PremiumEmote_Firework4_description" rel_version="Feature_Premium_Emotes">Explosão roxa! Permite o uso do gesto de fogo de artifício Foguete Ancião por 24 horas.</string>
-	<string key="Token_PremiumEmote_Firework5_name" rel_version="Feature_Premium_Emotes">Permissão do Gesto de Fogo de Artifício de Estrela Cadente</string>
+	<string key="Token_PremiumEmote_Firework5_name" rel_version="Feature_Premium_Emotes">Fogo de Artifício da Estrela Cadente</string>
 	<string key="Token_PremiumEmote_Firework5_description" rel_version="Feature_Premium_Emotes">Cuidado! Pode emitir uma chuva de faíscas! Permite o uso do gesto de fogo de artifício Foguete de Estrela Cadente por 24 horas.</string>
 	<string key="Token_Transmog_X1_name" rel_version="Season_2_Perm">Token de Alteração de Aparência</string>
 	<string key="Token_Transmog_X1_description" rel_version="Season_2_Perm">Cada token de Alteração de Aparência permite que você capture a aparência de um item para usar como aparência.</string>
 	<string key="Token_Transmog_X5_name" rel_version="Season_2_Perm">Token de Alteração de Aparência</string>
 	<string key="Token_Transmog_X5_description" rel_version="Season_2_Perm">Um pacote de tokens de Alteração de Aparência. Cada token permite que você capture a aparência de um item para usar como sua aparência.</string>
+	<string key="ui_skins_account_bound" rel_version="Feature_Transmog">Todas as aparências são vinculadas à conta (não negociáveis) e não reembolsáveis.</string>
 	<string key="Apparel_Highwayman_Capelet_name" rel_version="Apparel_Highwayman_1">Líder</string>
 	<string key="Apparel_Highwayman_Tricorn_name" rel_version="Apparel_Highwayman_2">Canalha Desfiado</string>
 	<string key="Apparel_Highwayman_PrickleRust_name" rel_version="Apparel_Highwayman_3">Alma Maculada</string>
@@ -1083,11 +1085,11 @@
 	<string key="Bundle_PR_EmoteGestures_description" rel_version="Entitlements_WastelandFrontier">Como se sente?</string>
 	<string key="Bundle_PR_EmoteTaunts_name" rel_version="Entitlements_DeepSea">Conjunto de Gestos Úteis</string>
 	<string key="Bundle_PR_EmoteTaunts_description" rel_version="Entitlements_DeepSea">Diga aos outros como se sente de verdade!</string>
-	<string key="Emote_Premium_Firework1_x10_name" rel_version="Feature_Premium_Emotes">Permissão do Gesto de Fogo de Artifício Foguete de Flor</string>
-	<string key="Emote_Premium_Firework2_x10_name" rel_version="Feature_Premium_Emotes">Permissão do Gesto de Fogo de Artifício Foguete da Dinastia</string>
-	<string key="Emote_Premium_Firework3_x10_name" rel_version="Feature_Premium_Emotes">Permissão do Gesto de Fogo de Artifício Foguete de Dríades</string>
-	<string key="Emote_Premium_Firework4_x10_name" rel_version="Feature_Premium_Emotes">Permissão do Gesto de Fogo de Artifício Foguete de Ancião</string>
-	<string key="Emote_Premium_Firework5_x10_name" rel_version="Feature_Premium_Emotes">Permissão do Gesto de Fogo de Artifício Foguete de Estrela Cadente</string>
+	<string key="Emote_Premium_Firework1_x10_name" rel_version="Feature_Premium_Emotes">Fogo de Artifício da Flor</string>
+	<string key="Emote_Premium_Firework2_x10_name" rel_version="Feature_Premium_Emotes">Fogo de Artifício da Dinastia</string>
+	<string key="Emote_Premium_Firework3_x10_name" rel_version="Feature_Premium_Emotes">Fogo de Artifício de Dríades</string>
+	<string key="Emote_Premium_Firework4_x10_name" rel_version="Feature_Premium_Emotes">Fogo de Artifício de Anciões</string>
+	<string key="Emote_Premium_Firework5_x10_name" rel_version="Feature_Premium_Emotes">Fogo de Artifício da Estrela Cadente</string>
 	<string key="Emote_Premium_Firework_Show_Pack_name" rel_version="Feature_Premium_Emotes">Pacote de Variedades de Show de Fogos de Artifício</string>
 	<string key="Emote_Premium_Firework_Show_Pack_description" rel_version="Feature_Premium_Emotes">Impressione seus amigos com um deslumbrante show de fogos de artifício! Mas lembre-se de manter água ao alcance para extinguir possíveis incêndios.\nInclui cinco Permissões: de Flores, Dinastia, Dríades, Anciões e Estrela Cadente.</string>
 	<string key="MountAttachmentItem_Blacksmith_name" rel_version="Feature_Mounts">Aparência de Acréscimo de Montaria do Ferrador</string>
@@ -1303,17 +1305,20 @@
 	<string key="StoreItem_Bundle_Phoenix_Apparel_desc" rel_version="Season_7_Perm">Surja do fogo e das chamas em grande estilo!</string>
 	<string key="StoreItem_Bundle_Valentines_ApparelWeapon_name" rel_version="Season_7_Perm">Conjunto Amor Corrompido</string>
 	<string key="StoreItem_Bundle_Valentines_ApparelWeapon_desc" rel_version="Season_7_Perm">O amor verdadeiro não pode ser manchado pela Corrupção... ou será que pode?</string>
-	<string key="StoreItem_Token_Barbershop_X1_description" rel_version="Feature_Barbershop">Used for changing your look in the Barbershop.</string>
-	<string key="StoreItem_Token_Barbershop_X1_name" rel_version="Feature_Barbershop">Barbershop Token</string>
+	<string key="StoreItem_Token_Barbershop_X1_description" rel_version="Feature_Barbershop">Usado para mudar sua aparência na Barbearia. Altere quantas opções desejar e, após a confirmação, um único token será usado.</string>
+	<string key="StoreItem_Token_Barbershop_X1_name" rel_version="Feature_Barbershop">Token de Barbearia</string>
 	<string key="StoreItem_Bundle_Valkyrie_Coiled_name" rel_version="Season_7_Perm">Conjunto Destino de Jörmungandr</string>
 	<string key="StoreItem_Bundle_Valkyrie_Coiled_description" rel_version="Season_7_Perm">Quando este mundo acabar, nos veremos no recomeço?</string>
 	<string key="StoreItem_Bundle_Valkyrie_Feathered_name" rel_version="Season_7_Perm">Conjunto Penas de Hræsvelgr</string>
 	<string key="StoreItem_Bundle_Valkyrie_Feathered_description" rel_version="Season_7_Perm">Sente-se no lado do céu.</string>
 	<string key="mtx_valkyrie_store" rel_version="Season_7_Perm">Loja da Valquíria</string>
-	<string key="UI_EVENT_1" rel_version="Season_7_Perm">Novo!</string>
+	<string key="ui_event_1" rel_version="Season_7_Perm">Novo!</string>
+	<string key="ui_event_2" rel_version="Season_7_Perm">Festividades</string>
+	<string key="ui_store_timed_event" rel_version="Season_7_Perm">Evento Cronometrado</string>
+	<string key="ui_store_event_1" rel_version="Season_7_Perm">Novo!</string>
+	<string key="ui_store_event_2" rel_version="Season_7_Perm">Festividades</string>
 	<string key="mtx_emote_sale_store" rel_version="Season_7_Perm">Promoção de Gestos!</string>
 	<string key="Category_Override_FlavorText" rel_version="Season_7_Perm">Aguardamos você!</string>
-	<string key="UI_EVENT_2" rel_version="Season_7_Perm">Festividades</string>
 	<string key="mtx_barbarian_store" rel_version="Season_7_Perm">Loja bárbara</string>
 	<string key="mtx_thickasthieves_store" rel_version="Season_7_Perm">Loja unha e carne</string>
 	<string key="mtx_campskin_sale_store" rel_version="Season_7_Perm">Promoção de Aparência de Acampamento!</string>
@@ -1322,18 +1327,34 @@
 	<string key="mtx_tool_sale_store" rel_version="Season_7_Perm">Promoção de ferramentas!</string>
 	<string key="mtx_housing_sale_store" rel_version="Season_7_Perm">Promoção de alojamentos!</string>
 	<string key="mtx_mount_sale_store" rel_version="Season_7_Perm">Promoção de montarias!</string>
-	<string key="DyeA026_Mounts_MasterName">Runa de Coração vermelho</string>
-	<string key="StoreItem_Bundle_Ninja_Kitsune_description">Dance com as raposas e persiga a névoa.</string>
-	<string key="StoreItem_Bundle_GothicCoquette_name">Conjunto da Dança Macabra</string>
-	<string key="StoreItem_Bundle_GothicCoquette_description">A hora da bruxaria está chegando.</string>
-	<string key="SeasonPass_Premium_Season_8_name">Passe Premium: Temporada 8</string>
-	<string key="StoreItem_Bundle_Ninja_Kitsune_name">Conjunto da Raposa de Fogo</string>
-	<string key="StoreItem_Bundle_GreekGodsApparelWeapon_description">Os deuses convocam seus campeões. Você vai responder?</string>
-	<string key="SeasonPass_HeadStart_Season_8_name">Bom Começo do Passe Premium: Temporada 8</string>
-	<string key="DyeA025_Mounts_MasterName">Branco virtuoso</string>
-	<string key="DyeA024_Mounts_MasterName">Espectro Preto</string>
-	<string key="StoreItem_Bundle_GreekGodsApparelWeapon_name">Conjunto do Anfitrião de Myrmidon</string>
+	<string key="StoreItem_Bundle_GreekGodsApparelWeapon_name" rel_version="Season_8_Perm">Conjunto do Anfitrião de Myrmidon</string>
+	<string key="StoreItem_Bundle_GreekGodsApparelWeapon_description" rel_version="Season_8_Perm">Os deuses convocam seus campeões. Você vai responder?</string>
+	<string key="StoreItem_Bundle_Ninja_Kitsune_name" rel_version="Season_8_Perm">Conjunto da Raposa de Fogo</string>
+	<string key="StoreItem_Bundle_Ninja_Kitsune_description" rel_version="Season_8_Perm">Dance com as raposas e persiga a névoa.</string>
+	<string key="StoreItem_Bundle_GothicCoquette_name" rel_version="Season_8_Perm">Conjunto da Dança Macabra</string>
+	<string key="StoreItem_Bundle_GothicCoquette_description" rel_version="Season_8_Perm">A hora da bruxaria está chegando.</string>
+	<string key="SeasonPass_Premium_Season_8_name" rel_version="Season_8_Perm">Passe Premium: Temporada 8</string>
+	<string key="SeasonPass_HeadStart_Season_8_name" rel_version="Season_8_Perm">Bom Começo do Passe Premium: Temporada 8</string>
+	<string key="DyeA024_Mounts_MasterName" rel_version="Season_8_Perm">Espectro Preto</string>
+	<string key="DyeA025_Mounts_MasterName" rel_version="Season_8_Perm">Branco virtuoso</string>
+	<string key="DyeA026_Mounts_MasterName" rel_version="Season_8_Perm">Runa de Coração vermelho</string>
+	<string key="mtx_sale_store">Promoção!</string>
 	<string key="mtx_factionfest_store">Festival da Facção</string>
 	<string key="mtx_JulyFourth_store">4 de julho</string>
+	<string key="mtx_summer_store">Verão</string>
+	<string key="StoreItem_Bundle_Cosmic_Sun_description">Quando as estrelas se alinharem, os campeões do cosmos iluminarão o mundo.</string>
+	<string key="StoreItem_Apparel_Summerwear_description">Tire sua coroa e divirta-se ao sol.</string>
+	<string key="SeasonPass_HeadStart_Season_9_name">Bom Começo do Passe Premium - Temporada 9</string>
+	<string key="StoreItem_Bundle_Corruption_Hunter_2025_description">Chegou a hora da caça. Que o mal trema de medo.</string>
+	<string key="StoreItem_Bundle_CoquetteCottage_description">Com a passagem das estações, vêm os frutos da beleza.</string>
+	<string key="StoreItem_Bundle_Necromancer_Skull_name">Conjunto Tumba Ambulante</string>
+	<string key="StoreItem_Bundle_CoquetteCottage_name">Conjunto Elegância Florescente</string>
+	<string key="StoreItem_Bundle_Cosmic_Sun_name">Conjunto Conjunção Solar</string>
+	<string key="SeasonPass_Premium_Season_9_name">Passe Premium - Temporada 9</string>
+	<string key="StoreItem_Apparel_Summerwear_name">Traje de Banho do Soberano</string>
+	<string key="StoreItem_Bundle_Corruption_Hunter_2025_name">Conjunto Caçador de Corrupção</string>
+	<string key="StoreItem_Bundle_Necromancer_Skull_description">Há destinos piores do que a morte.</string>
+	<string key="ui_confirm_purchase_multiple_description">Desbloquear {itemName} x{quantity} por\n{costString}?\n\nNovo Saldo: {newBalanceString}</string>
+	<string key="ui_confirm_purchase_single_description">Desbloquear {itemName} por\n{costString}?\n\nNovo Saldo: {newBalanceString}</string>
 </resources>
 

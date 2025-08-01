@@ -459,6 +459,11 @@
 	<string key="0831_BruteCannonSchematic_DisplayName">Wüstlingskanone-Bauplan</string>
 	<string key="0831_DiscardedArmorPile_DisplayName">Rüstungsteile durchsuchen</string>
 	<string key="06_SpectralShrine">Geisterschrein</string>
+	<string key="Catacombs_Strength">Stärkeverzauberung</string>
+	<string key="Catacombs_Speed">Geschwindigkeitsverzauberung</string>
+	<string key="Catacombs_Health">Azoth der Heilung</string>
+	<string key="Catacombs_Def">Rüstungsverzauberung</string>
+	<string key="Catacombs_Lifesteal">Lebensraubverzauberung</string>
 	<string key="FishingHotspotBroad_DisplayName">Angelstelle (gewöhnlich)</string>
 	<string key="FishingHotspotRare_DisplayName">Angelstelle (selten)</string>
 	<string key="FishingHotspotSecret_DisplayName">Angelstelle (geheim)</string>
@@ -497,6 +502,7 @@
 	<string key="0519_EmptyAzothPowerSource_DisplayName">Azoth-Energiequelle bergen</string>
 	<string key="0520_StygianChannelSegment_DisplayName">Segmente des Kanals von Stygia sammeln</string>
 	<string key="0521_WyrdwoodSeedPod_DisplayName">Wyrdholz-Samenkapsel ernten</string>
+	<string key="05A_MSQ_DamagedHeartgem_DisplayName">Beschädigtes Herzjuwel</string>
 	<string key="0601_DirtHole_DisplayName">Probe holen</string>
 	<string key="0602_SpiceSackGreen_DisplayName">Kardamomsack</string>
 	<string key="0602_SpiceSackRed_DisplayName">Pfeffersack</string>
@@ -797,6 +803,17 @@
 	<string key="AnubianBrute_Base_DisplayName" rel_version="Territory_Brimstone_Sands">Anubischer Automaton</string>
 	<string key="AnubianPanther_Base_DisplayName" rel_version="Territory_Brimstone_Sands">Sphinx-Automaton</string>
 	<string key="16BS_LootContainer_Elite_LegionStoneTomb_DisplayName" rel_version="Territory_Brimstone_Sands">Elite-Grabbeigaben</string>
+	<string key="SummerMedley_Settlement_Stage_Master_DisplayName" rel_version="Event_Summer_Temp">Kernstück der Medleyfaire-Bühne</string>
+	<string key="SummerMedley_Settlement_Stage_T1_DisplayName" rel_version="Event_Summer_Temp">Jämmerliches Geschenk</string>
+	<string key="SummerMedley_Settlement_Stage_T2_DisplayName" rel_version="Event_Summer_Temp">Großartiges Geschenk</string>
+	<string key="SummerMedley_Settlement_Stage_T3_DisplayName" rel_version="Event_Summer_Temp">Überwältigendes Geschenk</string>
+	<string key="SummerMedley_Settlement_Stage_Description" rel_version="Event_Summer_Temp">Schließe die Medleyfaire-Stadtprojekte ab, um den Ruhm und die Belohnungen der Bühne zu verbessern!</string>
+	<string key="SummerMedley_Village_BonfireBlast_DisplayName" rel_version="Event_Summer_Temp">Medleyfaire-Scheiterhaufen</string>
+	<string key="SummerMedley_Village_BonfireBlast_Description" rel_version="Event_Summer_Temp">Wirf eine magische Gräte des Aeternum-Stör ins Feuer, um eine gewaltige Belohnung zu erhalten!</string>
+	<string key="SummerMedley_Maudlindust_DisplayName" rel_version="Event_Summer_Temp">Sentimentalstaub</string>
+	<string key="SummerMedley_Maudlindust_Particle_DisplayName" rel_version="Event_Summer_Temp">Sentimentalstaubkorn</string>
+	<string key="SummerMedley_Village_Dancefloor_DisplayName" rel_version="Event_Summer_Temp">Medleyfaire-Tanzfläche</string>
+	<string key="SummerMedley_Village_Dancefloor_Description" rel_version="Event_Summer_Temp">Mach dich schick und zeig deine Tanzkünste auf der Medleyfaire-Tanzfläche, um Ereignis-Ansehen zu erhalten!</string>
 	<string key="Season_04_IceGuardian_Icicle_DisplayName" rel_version="Season_4_Trial">Wurf-Eiszapfen</string>
 	<string key="Season_04_IceGuardian_BrokenRune_DisplayName" rel_version="Season_4_Trial">Erhalte Ahnenfeuer-Ermächtigung</string>
 	<string key="FM_PVP_War_Camp_Loot_Box_DisplayName">Kriegslager-Truhe</string>
@@ -1553,11 +1570,18 @@
 	<string key="12A_0C_PercillaSword_DisplayName" rel_version="Quest_Console_Release">Percillas Schwert</string>
 	<string key="FTUE_Satchel_DisplayName" rel_version="Quest_Console_Release">Wasserdurchtränkte Tasche</string>
 	<string key="98_Covenant_03_Candle_DisplayName">Kerzen anzünden</string>
-	<string key="Catacombs_Speed">Geschwindigkeitsverzauberung</string>
-	<string key="RW_Siege_Pool_Blighted_Totem_DisplayName">Totem wiederherstellen</string>
-	<string key="05wc_ReekwaterUplevelChest_Medium_DisplayName">Seelenwächter-Vorrat</string>
-	<string key="05wc_ReekwaterUplevelChest_Small_DisplayName">Seelenwächter-Vorratslager</string>
-	<string key="05wc_ReekwaterUplevelChest_Large_DisplayName">Seelenwächterhort</string>
-	<string key="Soulwarden_Crystal_Reekwater">Beschädigtes Herzjuwel</string>
+	<string key="Soulwarden_Crystal_Reekwater" rel_version="Season_8_Perm">Beschädigtes Herzjuwel</string>
+	<string key="05wc_ReekwaterUplevelChest_Small_DisplayName" rel_version="Season_8_Perm">Seelenwächter-Vorratslager</string>
+	<string key="05wc_ReekwaterUplevelChest_Medium_DisplayName" rel_version="Season_8_Perm">Seelenwächter-Vorrat</string>
+	<string key="05wc_ReekwaterUplevelChest_Large_DisplayName" rel_version="Season_8_Perm">Seelenwächterhort</string>
+	<string key="RW_Siege_Pool_Blighted_Totem_DisplayName" rel_version="Season_8_Perm">Totem wiederherstellen</string>
+	<string key="17_MSQ_BatteryPost_DisplayName">Batterie wieder anschließen</string>
+	<string key="17_MSQ_ShieldDevice_DisplayName">Schild aktivieren</string>
+	<string key="17_MSQ_BerlaurCage_DisplayName">Käfig aufsperren</string>
+	<string key="LootContainer_Elite_Tarot_DisplayName">Elite-Karnevalkiste</string>
+	<string key="17_MSQ_StackCrates_DisplayName">Sammle verstreute Vorräte</string>
+	<string key="17_MSQ_BoxOfPotions_DisplayName">Beschaffe rotes Lauchpulver.</string>
+	<string key="Catacombs_ShirkingBlessing">Verzauberung: Segen der Drückeberger</string>
+	<string key="17_MSQ_BoardWindow_DisplayName">Fenster zunageln</string>
 </resources>
 
